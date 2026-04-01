@@ -21,27 +21,500 @@ The Sutensai are specifically disturbed by Veilblade and specific about why. The
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM: Veilblade
 
-**Hit Die:** d8
-**Primary Ability:** Dexterity, Intelligence
-**Saving Throw Proficiencies:** Dexterity, Intelligence
-**Armor Proficiencies:** Wire-mesh armor, light enhancement skins
-**Weapon Proficiencies:** Resonant blades (short configuration), voidsteel tanto, wire-whip, needle lance, micro-pulse arm, garrote wire
-**Tool Proficiencies:** Wire Craft interface kit, forgery kit (enhancement documentation), thieves' tools (enhancement access version)
-**Skills:** Choose 4 from Acrobatics, Deception, Insight, Investigation, Perception, Sleight of Hand, Stealth, Technology (Wire systems)
+**HP Tier:** Balanced
+**Hand Size:** 7
+**Primary Stats:** EDGE (precision, evasion, speed), SIGNAL (Wire Craft, digital infiltration, system attacks)
+**HP Formula:** (FRAME × 8) + 10
 
-**Starting Equipment:**
-- A resonant short blade and voidsteel tanto
-- Wire-mesh armor (suppression-modified)
-- A Wire Craft interface kit
-- A suppression band (reduces enhancement signature output)
-- A forged caste documentation set
-- 12 weight in trade-metal
+### Starting Hand
+
+- **Signature Null** — passive that controls your resonant broadcast
+- **Precision Strike** — a calculated hit from concealment or advantage
+- **Shadow Discipline** — passive that enhances your stealth and disappearing act
 
 ---
 
-### Class Features by Level
+### Level Unlock List
+
+#### Level 1
+
+- Wire Entry
+- Marked Target
+
+#### Level 2
+
+- Ghost Walk
+- Uncanny Dodge
+
+#### Level 3
+
+- Counter-Wire
+- Deep Listener
+
+#### Level 4
+
+- Wire Network
+- Social Architecture
+
+#### Level 5
+
+- Null Projection
+- Wire Assault
+
+#### Level 6
+
+- Evasion Protocol
+- Iron Bleed
+
+#### Level 7
+
+- Death Walk
+- Wire Intercept
+
+#### Level 8
+
+- Deep Wire
+- Afterlife Interface
+
+#### Level 9
+
+- Wire Combat
+- Clean Strike
+
+#### Level 10
+
+- Approach Protocol
+- Network Domination
+
+#### Level 11
+
+- Distributed Presence
+- Leave Nothing
+
+#### Level 12
+
+- Perfect Null
+- Wire Sovereign
+
+#### Level 13
+
+- Blacksite
+- Network Weapon
+
+#### Level 14
+
+- Inevitable
+- Between the Worlds
+
+#### Level 15
+
+- Wire Blade
+- Ghost Anatomy
+
+#### Level 16
+
+- Null Sovereign
+- Iron Ghost Walk
+
+#### Level 17
+
+- The Listening Wire
+- Precision Cascade
+
+#### Level 18
+
+- Unwitnessed Strike
+- Fracture Interface
+
+#### Level 19
+
+- Death-Resonance Bloom
+- Signal Erasure
+
+#### Level 20
+
+- The Unwitnessed *(Capstone)*
+
+---
+
+### Full Card Reference
+
+---
+
+### Afterlife Interface
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** Your death-resonance has stabilized enough to be directed. You reach into the Iron Afterlife's signal layer and speak with a recently-deceased Echomind (within 24 hours of death). This is an out-of-combat utility, but in combat: apply Silence and Stagger to one target as the dead press against their signal — they feel it even if they don't understand it.
+**Keywords:** Silence, Stagger
+**Unlock:** Level 8
+
+---
+
+### Approach Protocol
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** You have spent at least one turn observing a target. Your next attack against them this combat deals + EDGE + SIGNAL additional damage and cannot be mitigated by Guard — you identified the unshielded point before you moved. This card sets up the strike; the strike uses another card or your Basic Attack.
+**Keywords:** Expose 3 (applied to target, persists until your next attack)
+**Unlock:** Level 10
+
+---
+
+### Between the Worlds
+*Tier 3 (3 AP) | Signature | Reaction*
+
+**Effect:** *Triggered when an attack would reduce you to 0 HP.* You phase between living and dead. The triggering attack deals 0 damage. For the next 2 turns you exist in a liminal state: you cannot be targeted by attacks, you can take one action per turn, and you take no HP damage. When this state ends, you return at 1 HP. Once per combat.
+**Keywords:** Fortify (absolute, temporary)
+**Unlock:** Level 14
+
+---
+
+### Blacksite
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** You access your hidden internal data repository — the Wire-space that exists in no registry. Retrieve one piece of stored intelligence (story use), or in combat: broadcast a fragment of your stored data as cognitive interference. Apply Silence and Expose 2 to one target whose enhancement network you have previously accessed this combat.
+**Keywords:** Silence, Expose 2
+**Unlock:** Level 13
+
+---
+
+### Clean Strike
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** The right kill, at the right time. Deal 12 + EDGE damage. If you were hidden or your signature was suppressed at the start of this turn, add SIGNAL to the damage and apply Expose 2. Enemies killed by this card show no external wound for the next hour — a Clean Kill in both function and form.
+**Keywords:** Expose 2
+**Unlock:** Level 9
+
+---
+
+### Counter-Wire
+*Tier 1 (1 AP) | Reaction*
+
+**Effect:** *Triggered when a creature attempts to read, hack, or disrupt your enhancements.* You are immediately aware and counter-access their network. Apply Stagger and Silence to the attacker for 1 turn. If your SIGNAL exceeds their SIGNAL, they also lose their Reaction this round.
+**Keywords:** Stagger, Silence
+**Unlock:** Level 3
+
+---
+
+### Death Walk
+*Tier 2 (2 AP) | Power*
+
+**Effect:** You push your resonance into the Iron Afterlife's border while maintaining your body. Until your next turn: you are invisible to non-enhanced creatures. You can move through occupied spaces (not walls). All physical damage you take is reduced by your SIGNAL. Enhanced creatures can still perceive you.
+**Keywords:** —
+**Unlock:** Level 7
+
+---
+
+### Death-Resonance Bloom
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** The death-resonance you carry erupts outward. Deal 20 + SIGNAL resonant damage to all enemies within reach (calculated separately). Apply Silence to all targets hit. Until your next turn, you are partially phased — damage you take is reduced by your RESONANCE.
+**Keywords:** Silence
+**Unlock:** Level 19
+
+---
+
+### Deep Listener
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** Your Wire immersion is deep and quiet. When in Wire or connected to a Wire network this combat, you gain advantage on any check to find, access, or interpret data (GM ruling). Additionally, your Wire Entry is silent — no physical tells betray your connection.
+**Unlock:** Level 3
+
+---
+
+### Deep Wire
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** You access a Wire network remotely up to 120 feet away — no physical interface point required. This turn, you may apply one of: Silence to all enhanced creatures on the network within 60 feet (1 turn), or deal 10 + SIGNAL signal damage to one connected target as you disrupt their interface, or plant a Wire tap that persists for 24 hours.
+**Keywords:** Silence (conditional)
+**Unlock:** Level 8
+
+---
+
+### Distributed Presence
+*Tier 2 (2 AP) | Power*
+
+**Effect:** You fragment your Wire-presence across multiple nodes. Until your next turn: any creature that attempts to cut your Wire connection must deal with three separate checks (GM ruling — effectively impossible mid-combat). Your SIGNAL-based cards deal + SIGNAL additional damage. You have advantage on all Wire-based actions (GM ruling).
+**Keywords:** —
+**Unlock:** Level 11
+
+---
+
+### Evasion Protocol
+*Tier 1 (1 AP) | Reaction*
+
+**Effect:** *Triggered when you are targeted by an area effect or a card that would deal half damage on a save.* You take no damage. Your kinematic modifications read the effect before it resolves and remove you from its path entirely.
+**Keywords:** —
+**Unlock:** Level 6
+
+---
+
+### Fracture Interface
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You reach into an enhanced target's interface hardware and shatter it. Deal 16 + SIGNAL signal damage. Apply Silence, Stagger, and Overheat 3. The target cannot use SIGNAL or RESONANCE based cards for 2 turns — their integration is fractured at the hardware level.
+**Keywords:** Silence, Stagger, Overheat 3
+**Unlock:** Level 18
+
+---
+
+### Ghost Anatomy
+*Tier 2 (2 AP) | Passive*
+
+**Always Active:** Your kinematic modifications have been tuned at a level that makes your movement nearly untraceable. You leave no physical traces of passage. Enhancement-reading scanners require active high-security effort to register you (GM ruling). Your movement never triggers passive detection systems.
+**Unlock:** Level 15
+
+---
+
+### Ghost Walk
+*Tier 1 (1 AP) | Mobility*
+
+**Effect:** Your movement has been modified at the kinematic level — footfall pattern, heat signature, air displacement. Move up to your full speed. During this movement, all mechanical sensors and automated detection systems cannot register your presence. You may end this movement in a hidden position if cover exists.
+**Keywords:** —
+**Unlock:** Level 2
+
+---
+
+### Inevitable
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Declare a target Inevitable. For the rest of this combat against this target: your attacks deal + EDGE + SIGNAL additional damage, your first attack each round cannot be reacted to, and this target applies Expose 1 to themselves at the start of each of their turns (the dread has a physical expression in their defensive posture). Once per combat.
+**Keywords:** Expose 1 (per round on target)
+**Unlock:** Level 14
+
+---
+
+### Iron Bleed
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** Your Wire immersion has introduced death-resonance into your Echomind. Iron Afterlife entities and undead have disadvantage against you (GM ruling — they register you as partially their own). Once per combat, ask the death-resonance within you one question; the answer comes as impression or image (GM provides).
+**Unlock:** Level 6
+
+---
+
+### Iron Ghost Walk
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You step into the Iron Afterlife's border layer while your body continues to act. Until your next turn: you cannot be targeted by attacks (enemies cannot find a clean angle on something partially not-there). Your attacks deal + SIGNAL + RESONANCE additional damage — you strike from a frequency they cannot defend. Enhanced creatures may still perceive you.
+**Keywords:** —
+**Unlock:** Level 16
+
+---
+
+### Leave Nothing
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** You end an enemy's ability to be found — or used. Deal 10 + EDGE damage. If this reduces the target to 0 HP, they leave no readable enhancement trace, no forensic evidence, and cannot be immediately reanimated. If it does not, apply Silence and Expose 2 — you stripped something from their operational profile.
+**Keywords:** Silence, Expose 2
+**Unlock:** Level 11
+
+---
+
+### Marked Target
+*Tier 1 (1 AP) | Control*
+
+**Effect:** Designate one target. Apply Mark to them. Your Precision Strike and EDGE-based attacks deal + EDGE additional damage against your Marked Target this combat. You always know their position in the encounter while the Mark is active. You may only have one Mark active at a time.
+**Keywords:** Mark
+**Unlock:** Level 1
+
+---
+
+### Network Domination
+*Tier 2 (2 AP) | Control*
+
+**Effect:** While connected to a Wire network in this encounter, you exercise control authority. Apply one effect (your choice): Silence all enhanced creatures within 60 feet for 1 turn; apply Overheat 2 and Stagger to one target as you flood their enhancement with sensory overload; or issue a command to all automated systems in the encounter that they treat as legitimate (GM adjudicates scope).
+**Keywords:** Variable — Silence, or Overheat 2 + Stagger
+**Unlock:** Level 10
+
+---
+
+### Network Weapon
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** The Wire network in your area of operation becomes your weapon. Deal 20 + SIGNAL signal damage to all enhanced creatures within 60 feet that are connected to the Wire (calculated separately). Apply Overheat 3 to all targets hit. Once per combat.
+**Keywords:** Overheat 3
+**Unlock:** Level 13
+
+---
+
+### Null Projection
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** You broadcast a fabricated enhancement signature — not suppression but active impersonation. For the rest of this combat, you register as a specific identity, caste, or non-threat of your choice to all automated systems. Social and resonance-based effects targeting your true identity fail. Creatures who have directly interacted with you before may make a SIGNAL check to identify the projection (GM ruling).
+**Keywords:** —
+**Unlock:** Level 11
+
+---
+
+### Null Sovereign
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Within any Wire network you have accessed, you are the administrator. This turn: lock one target out of Wire access entirely (Silence, permanent this combat). Access all data the network has ever recorded (out-of-combat intelligence, or in combat: apply Expose 3 to one target as you reveal their tactical history). Issue one system-wide command that all automated systems obey.
+**Keywords:** Silence (permanent, target), Expose 3
+**Unlock:** Level 16
+
+---
+
+### Perfect Null
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** Your signature suppression is absolute. When you suppress your enhancement signature, no means — technological, resonant, or otherwise — can detect you passively. You may use all Veilblade cards while suppressed. You broadcast only what you choose to broadcast.
+**Unlock:** Level 12
+
+---
+
+### Precision Cascade
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Every precision strike you have landed this combat feeds the next one. Deal 22 + EDGE damage. For each prior Precision Strike hit this combat (max 4), add 4 damage. Apply Bleed 3 and Expose 3. This card represents the full expression of the Veilblade's training: not one perfect moment but a sequence that was always building to this.
+**Keywords:** Bleed 3, Expose 3
+**Unlock:** Level 17
+
+---
+
+### Precision Strike
+*Tier 1 (1 AP) | Attack*
+
+**Effect:** You find the gap — the unenhanced point, the unshielded nerve, the junction where resonant metal meets organic tissue. Deal 6 + EDGE damage. If you are hidden, your signature is suppressed, or you have advantage on this attack (GM ruling), add SIGNAL to the damage. This is the Veilblade's core technique — precise, calculated, and aimed at exactly the right place.
+**Keywords:** —
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Shadow Discipline
+*Tier 0 | Passive*
+
+**Always Active:** Your training has given you extraordinary control over your physical presence. When you are hidden and make an attack that misses, you remain hidden — the attack's origin is unclear. You may attempt to hide as part of any Mobility card you play (GM ruling on cover availability). Your first attack each combat from a hidden position deals + EDGE additional damage.
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Signal Erasure
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You reach into a target's enhancement network and erase their operational presence from the Wire. Deal 18 + SIGNAL signal damage. Apply Silence, Stagger, and Overheat 3. For the rest of this combat, this target cannot reconnect to Wire networks — their interface is dark. All automated systems in the encounter treat them as non-present.
+**Keywords:** Silence, Stagger, Overheat 3
+**Unlock:** Level 19
+
+---
+
+### Signature Null
+*Tier 0 | Passive*
+
+**Always Active:** Your enhancement signature is under your precise control. As a free action at the start of any turn, you may suppress your enhancement signature — you register as unenhanced or at any caste level of your choice. Tracking by enhancement signature becomes impossible while suppressed. You may end suppression at any time.
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Social Architecture
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** You activate a Cover — a false identity complete with forged documentation and Wire records. For the rest of this combat or scene, you register as this identity to social and automated assessment. Any creature that attempts to identify you through social or Wire means must succeed against your SIGNAL (GM ruling). You may maintain up to 3 Covers and switch between them at will.
+**Keywords:** —
+**Unlock:** Level 4
+
+---
+
+### The Listening Wire
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Information is the real weapon. You intercept all Wire communications in the encounter for 2 turns. Apply Expose 2 to all enhanced enemies — you know their tactical read and they don't know you have it. Additionally, apply Silence to the enemy with the highest SIGNAL — their communications are cut. Deal 14 + SIGNAL signal damage to that target.
+**Keywords:** Expose 2 (all enemies), Silence (highest SIGNAL target)
+**Unlock:** Level 17
+
+---
+
+### The Unwitnessed
+*Tier 3 (3 AP) | Signature — Capstone*
+
+**Effect:** You were never there. Deal 26 + EDGE + SIGNAL damage. This attack leaves zero evidence — no wound trace, no Wire record, no enhancement signature. Apply Bleed 4, Expose 4, and Silence. The target cannot describe, record, or communicate what happened to them for 1 turn — the act exists outside all documentation. Once per combat.
+**Keywords:** Bleed 4, Expose 4, Silence
+**Unlock:** Level 20
+
+---
+
+### Uncanny Dodge
+*Tier 1 (1 AP) | Reaction*
+
+**Effect:** *Triggered when an attacker you can perceive hits you.* Halve the triggering attack's damage. Your kinematic modifications read the strike's angle and shift you partially out of its path — the blow lands, but not where they aimed.
+**Keywords:** —
+**Unlock:** Level 2
+
+---
+
+### Unwitnessed Strike
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** A strike performed with perfect physical and digital stealth. Deal 22 + EDGE damage. No evidence of this attack's source remains — no Wire record, no enhancement trace, no sound beyond physics. Apply Expose 3 and Bleed 3. This card may only be played from a hidden or signature-suppressed position.
+**Keywords:** Expose 3, Bleed 3
+**Unlock:** Level 18
+
+---
+
+### Wire Assault
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** You direct a Wire surge at one enhanced target within 60 feet. Deal 12 + SIGNAL signal damage. Apply Stagger — their enhancements briefly overload. If your SIGNAL exceeds their SIGNAL, also apply Overheat 2 as the surge cascades through their systems.
+**Keywords:** Stagger, Overheat 2 (conditional)
+**Unlock:** Level 5
+
+---
+
+### Wire Blade
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** You fight while partially in Wire — your body strikes as your Wire-presence disrupts. Deal 14 + EDGE damage. Simultaneously, deal 8 + SIGNAL signal damage to the same target as Wire disruption. Apply Expose 2 — you hit them from two angles at once.
+**Keywords:** Expose 2
+**Unlock:** Level 15
+
+---
+
+### Wire Combat
+*Tier 2 (2 AP) | Power*
+
+**Effect:** You extend a Wire tendril and maintain a Wire-presence while acting physically. Until your next turn: gain advantage on SIGNAL checks (GM ruling), once per turn deal 8 + SIGNAL signal damage to an enhanced target within 30 feet as Wire disruption, and your EDGE-based attacks deal + SIGNAL additional damage.
+**Keywords:** —
+**Unlock:** Level 9
+
+---
+
+### Wire Entry
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Interface directly with an adjacent Wire network access point. In combat: deal 8 + SIGNAL signal damage to one connected target (you disrupt their interface), or apply Silence to one connected target, or unlock/lock one physical system connected to the network (door, alarm, barrier). Outside combat, this card enables the full Wire Entry suite (GM-adjudicated information gathering).
+**Keywords:** Silence (conditional)
+**Unlock:** Level 1
+
+---
+
+### Wire Intercept
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Intercept Wire communications within 120 feet. In combat: apply Expose 2 to all enemies whose communications you intercept (you know their positioning and intent this turn). The highest-SIGNAL enemy in the encounter cannot issue or receive commands this round — their communications are cut.
+**Keywords:** Expose 2
+**Unlock:** Level 7
+
+---
+
+### Wire Network
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** You can locate and connect to Wire signals within 60 feet without a physical access point. Once per combat, when a connected enemy uses an enhancement-based card, you may read its source and apply Expose 1 to them as your Wire-presence notes the usage.
+**Unlock:** Level 4
+
+---
+
+### Wire Sovereign
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Within any Wire network you have accessed, you are the administrator. Lock one target out of all Wire access permanently this combat (apply Silence — cannot be Cleansed). Issue one system-wide command. Access all historical data on any target (Expose 3 applied to one target as you reveal everything their record contains). Deal 16 + SIGNAL signal damage to the locked target.
+**Keywords:** Silence (uncleanseable), Expose 3
+**Unlock:** Level 12
+
+---
+
+## Subclasses
 
 **Level 1: Signature Null**
 Your enhancements have been modified with a suppression layer that allows you to control your resonant output. As a bonus action, you can suppress your enhancement signature. While suppressed:

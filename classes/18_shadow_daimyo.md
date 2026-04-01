@@ -21,96 +21,202 @@ The Court Blade is the most immediately dangerous: a person who combines politic
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM: Shadow Daimyo
 
-**Hit Die:** d8
-**Primary Ability:** Intelligence (information processing), Charisma (social operation)
-**Saving Throw Proficiencies:** Intelligence, Charisma
-**Armor Proficiencies:** Wire-mesh armor, salvage plating (light configurations)
-**Weapon Proficiencies:** Resonant blades (short configuration), pulse arms (sidearm weight), wire-whips, dart-launchers
-**Tool Proficiencies:** Forgery tools, thieves' tools, disguise kit, one additional tool of your choice
-**Skills:** Choose 4 from: Deception, Insight, Intimidation, Investigation, Perception, Persuasion, Sleight of Hand, Stealth, History
-**Starting Equipment:** Wire-mesh wrappings, resonant blade (short), dart-launcher (3 darts), forgery tools, disguise kit, sealed letter (the contents of which only you know — this is your beginning leverage), 25 gp equivalent in assorted currencies
+**HP Tier:** Social
+**Hand Size:** 8
+**Primary Stats:** VEIL + IRON
+**HP Formula:** (FRAME × 8) + 6
+
+### Starting Hand
+
+### Command Pressure
+*Tier 1 (1 AP) | Social Control*
+
+**Effect:** Deal 5 + VEIL social damage to one target within 40 feet. The next ally to act after you this round deals +VEIL bonus damage on their next attack.
+**Keywords:** Expose 1
+**Unlock:** Level 1 (Starting Card)
 
 ---
 
-### Class Features by Level
+### Dossier Strike
+*Tier 1 (1 AP) | Melee Attack*
 
-**Level 1: The Network Begins**
-You have already started building a network of contacts. You begin play with 3 Contacts — individuals in various roles who owe you a favor or are simply allies. For each Contact, establish: who they are (a broad category — merchant, low-level official, soldier, servant, etc.), what they can provide (information from their area, access, material assistance in small quantities), and what you owe them or what holds them. Contacts can be activated once per long rest (each) to provide their service. Over the course of play, you can add new Contacts and lose old ones as circumstances change.
+**Effect:** Deal 5 + IRON melee damage to one adjacent target. If you have used a Utility or Social card on this target earlier this combat, deal +VEIL bonus damage and apply Expose 2.
+**Keywords:** Expose 2 (conditional)
+**Unlock:** Level 1 (Starting Card)
 
-**Level 1: Intelligence Dossier**
-After 24 hours of observation or inquiry, you can construct a functional intelligence dossier on any creature or organization. The dossier reveals: their approximate financial status, public and semi-public affiliations, known enemies, and any publicly known vulnerabilities. After 72 hours, the dossier also includes likely private motivations, likely covert affiliations, and any leverage you might use against them. The DM provides this information based on what would be reasonably discoverable by a skilled information professional. This is not magic — it is methodology.
+---
 
-**Level 2: Reading the Room**
-You always know when you are being observed, when a social situation is about to turn dangerous, and when someone's stated motivation is inconsistent with their actual motivation. You have advantage on Insight checks and cannot be surprised in social situations. When you detect deception, you always know the topic of the lie (but not the truth).
+### Intelligence Read
+*Tier 1 (1 AP) | Utility*
 
-**Level 2: Leverage**
-Once per long rest, you can invoke specific information you have learned about a creature to impose disadvantage on their next Charisma check or saving throw against one of your abilities. This requires you to have spent at least 24 hours researching them (Intelligence Dossier) or to have had a significant social interaction with them. The invocation is verbal — you say something specific, and they know you know it. The damage is done before they react.
+**Effect:** Target one creature within 40 feet. Learn their current HP tier, one card in their hand (GM's choice), and whether they intend to attack this round. Apply Expose 1 to them. The next ally to act gains advantage on their first card against this target.
+**Keywords:** Expose 1
+**Unlock:** Level 1 (Starting Card)
 
-**Level 3: Shadow Daimyo Subclass**
-You choose your path: The Spymaster, The Court Blade, or The Broker. Your subclass grants features at levels 3, 6, 10, and 14.
+---
 
-**Level 3: Operational Security**
-You have protocols for everything. You cannot be tracked by mundane means without your awareness. When someone attempts to gather information on you, you immediately know that someone is asking questions (though not who). You have prepared cover identities — up to your Intelligence modifier — that are fully documented and hold up to ordinary investigation.
+### Level Unlock List
 
-**Level 4: Ability Score Improvement**
+#### Level 2
+- **Leverage** — Tier 1 (1 AP) | Social Control: Invoke specific knowledge about one target within 40 feet. Deal 5 + VEIL social damage. Apply Stagger. The next ally to act against this target this round deals +VEIL bonus damage.
+- **Deflect Attention** — Tier 1 (1 AP) | Reaction: *Trigger: You are targeted by a Social or Control card.* Cancel all non-damage riders on that card. The next ally to act this round may play one 0-AP card for free.
 
-**Level 5: Network Expansion**
-Your Contact pool doubles (you now have 6 Contacts and gain 1 more for each level after 5, to a maximum of 14 at level 20). You can now have Contacts that provide more significant services: intelligence on protected information, physical access to controlled locations, or material assistance worth up to 200 gp per activation. You can activate up to 3 Contacts per long rest.
+#### Level 3
+- **Operational Command** — Tier 2 (2 AP) | Social Control: Deal 8 + VEIL social damage to one target within 40 feet. Apply Expose 3. The next two allies to act this round each deal +VEIL bonus damage on their first card.
+- **Blade Work** — Tier 1 (1 AP) | Melee Attack: Deal 6 + IRON melee damage to one adjacent target. If you have a dossier on them (have used Intelligence Read on them this combat), apply Bleed 2 and Pierce 3.
 
-**Level 5: Dead Drop Protocol**
-You have established secure communication channels throughout the territories you operate in. You can send and receive coded messages to any Contact within the same territory within 24 hours, regardless of physical barriers or communication surveillance. The code is unbreakable without your personal key.
+#### Level 4
+- **Deploy Asset** — Tier 2 (2 AP) | Utility: Designate one ally within 30 feet. Until your next turn, that ally's next Attack card deals +VEIL + IRON bonus damage and applies Expose 2 to whatever they hit. You have prepared them for this moment.
+- **Reading the Room** — Tier 1 (1 AP) | Passive: While in hand, passive. You always know when enemies within 30 feet are concealing intent. Once per combat, when an enemy targets an ally with a card, you may redirect that card to target yourself instead (you receive the full effect).
 
-**Level 6: Subclass Feature**
+#### Level 5
+- **Network Activation** — Tier 2 (2 AP) | Utility: All allies within 30 feet gain Guard 4 + VEIL until your next turn. The next ally to act after you may play one Tier 1 card for free (0 AP). Your network moves when you signal.
+- **Court Strike** — Tier 2 (2 AP) | Melee Attack: Deal 10 + IRON melee damage to one adjacent target. Apply Expose 3 and Bleed 2. If any ally has attacked this target this combat, deal +VEIL bonus damage.
 
-**Level 6: The Long Game**
-You think in timelines others don't. You can recognize, when you encounter it, when a situation has been orchestrated to bring you or others to a specific point. You have advantage on Investigation checks to determine the behind-the-scenes causality of events. Additionally, once per long rest, you can predict the most likely action of one creature in the next 24 hours, based on what you know of them. The DM tells you the single most probable action that creature will take.
+#### Level 6
+- **Tactical Overlay** — Tier 2 (2 AP) | Utility: Apply Expose 3 to all enemies within 40 feet simultaneously. The next ally to act this round may target any Exposed enemy with a +VEIL damage bonus on their next card.
+- **Coordinated Strike** — Tier 2 (2 AP) | Melee Attack: Deal 11 + IRON melee damage to one adjacent target. Apply Bleed 2 and Expose 2. The next ally to act may immediately make a free Basic Attack against the same target.
 
-**Level 7: Inside Information**
-Once per long rest, as a 10-minute process, you can query your network about one specific question. The question must be answerable by a human source — not "what is the magical component of the enemy's plan" but "who is the enemy's supplier?" The DM provides the most accurate answer accessible through your network, including gaps in the network's knowledge.
+#### Level 7
+- **Command Network** — Tier 2 (2 AP) | Social Control: Deal 9 + VEIL social damage to one target within 40 feet. Apply Stagger and Expose 3. Every ally within 30 feet gains Regen 2 until your next turn — you have positioned everyone before the moment of contact.
+- **Inside Information** — Tier 1 (1 AP) | Utility: Target one enemy within 40 feet. Remove all Guard and Shield from them (you know exactly where the gap is). The next ally to act against them this round deals +IRON + VEIL bonus damage.
 
-**Level 8: Ability Score Improvement**
+#### Level 8
+- **The Long Game** — Tier 2 (2 AP) | Utility: Apply Expose 4 to one target within 40 feet. Until the end of combat, all your allies deal +2 damage against this target. You have been building to this moment since the encounter began.
+- **Precision Deployment** — Tier 2 (2 AP) | Social Control: Deal 10 + VEIL social damage to one target within 40 feet. Apply Stagger. Designate one ally within 30 feet — until your next turn, their Attack cards against this target gain Pierce 4.
 
-**Level 8: Operational Silence**
-Your movements and activities leave minimal recoverable evidence. You cannot be tracked by Investigation checks with a DC lower than 20. Evidence of your activities degrades faster than normal — investigation scenes you have managed leave no useful trail after 48 hours. When you operate in a location and prepare it in advance (1 hour of work), the DC increases to 25 and no evidence remains after 24 hours.
+#### Level 9
+- **Full Command** — Tier 3 (3 AP) | Signature: Deal 14 + VEIL social damage to one target within 40 feet. Apply Expose 4 and Stagger. Every ally within 30 feet may immediately play one Tier 1 card for free (0 AP) as a reaction. You have given them the opening — they take it.
+- **Flanking Order** — Tier 2 (2 AP) | Utility: Designate up to two allies within 30 feet. Until your next turn, each designated ally's next Attack card deals +VEIL + IRON bonus damage. If both allies attack the same target, that target takes Vulnerable 3.
 
-**Level 9: Pressure**
-As an action in a social situation, you can apply calculated pressure to one creature. Make an Intimidation check contested by the target's Insight or Wisdom saving throw. On success: the target is shaken — they have disadvantage on their next social interaction and must succeed on a DC 12 Wisdom saving throw before taking aggressive action against you for the next 24 hours (the threat you implied was credible enough that they need to think). This does not work twice on the same creature within 1 week.
+#### Level 10
+- **Prepared Position** — Tier 2 (2 AP) | Utility: You anticipated this. Apply Guard 6 + VEIL to yourself and one ally within 20 feet. The next ally to act may play any card this round as if it cost 1 fewer AP (minimum 0). Reveal one previously prepared fact about the current encounter's terrain or enemy positioning (narrate with GM).
+- **Pressure Point** — Tier 3 (3 AP) | Social Control: Deal 14 + VEIL social damage to one target within 40 feet. Apply Expose 5, Stagger, and Vulnerable 3. The next ally to act against this target deals +VEIL + IRON bonus damage.
 
-**Level 10: Subclass Feature**
+#### Level 11
+- **Shadow Network** — Tier 2 (2 AP) | Utility: Apply Expose 2 to all enemies within 40 feet. All allies within 30 feet gain Guard 5 + VEIL until your next turn. The next two allies to act each deal +VEIL bonus damage on their first card.
+- **Asset Strike** — Tier 3 (3 AP) | Melee Attack: Deal 16 + IRON melee damage to one adjacent target. Apply Bleed 3 and Expose 4. The next ally to act may make a free Basic Attack against any enemy within their range.
 
-**Level 10: Prepared Position**
-You are never in a situation you have not anticipated at least partially. At the start of any significant encounter (social or combat) in any location you have spent at least 10 minutes in before the encounter began, you can reveal a Prepared Position: one prepared advantage you arranged in advance. Options include: an exit route (automatic Stealth escape available once during the encounter), a planted item (a weapon, a document, a distraction), or a primed Contact (one Contact is present and will act on your signal). Reveal the Prepared Position before the encounter's first meaningful event.
+#### Level 12
+- **Grand Deployment** — Tier 3 (3 AP) | Utility: Designate up to three allies within 30 feet. Until your next turn, each gains Guard 5 + VEIL and their next Attack card deals +VEIL + IRON bonus damage. This is the network operating at full coordination.
+- **Controlled Information** — Tier 2 (2 AP) | Social Control: Deal 12 + VEIL social damage to one target within 40 feet. Apply Stagger and Expose 4. Remove all Regen and Shield from the target — you have cut off their support.
 
-**Level 11: Asset Protection**
-Your Contacts are invested in you and your security. When a Contact is targeted by a hostile creature in connection with your operations, you know immediately. Additionally, you can designate up to your Intelligence modifier Contacts as Protected Assets — these Contacts have additional security arrangements (safe houses, cover identities, failsafe communication) that make them significantly harder to compromise or eliminate. A Protected Asset requires a DC 25 Investigation check to find and a separate DC 20 check to compromise.
+#### Level 13
+- **Command Authority** — Tier 3 (3 AP) | Social Control: Deal 16 + VEIL social damage to all enemies within 30 feet. Apply Expose 3 and Stagger to each. Every ally within 30 feet gains Regen 3 and may play one Tier 1 card for free this round.
+- **Master Leverage** — Tier 3 (3 AP) | Social Control: Deal 18 + VEIL social damage to one target within 40 feet. Apply Expose 5, Vulnerable 4, and Stagger. The target cannot benefit from Guard or Shield until your next turn. The next ally to act against them deals +VEIL + IRON + IRON bonus damage.
 
-**Level 12: Ability Score Improvement**
+#### Level 14
+- **Network Strike** — Tier 3 (3 AP) | Melee Attack: Deal 18 + IRON melee damage to one adjacent target. Apply Bleed 4 and Expose 4. The next three allies to act each deal +VEIL bonus damage on their next card. You do not fight alone. You never have.
+- **Daimyo's Presence** — Tier 3 (3 AP) | Utility: Apply Guard 8 + VEIL to all allies within 30 feet. All allies within 30 feet may immediately play one Tier 1 card for free as a reaction. Apply Expose 3 to all enemies within 30 feet.
 
-**Level 12: Controlled Information**
-You can shape what information is available about a person, event, or situation in the territories where your network is active. Over 1 week of effort, you can introduce, suppress, or modify information available to ordinary investigation about one specific topic. This is not magic — it is careful management of sources, records, and witnesses. The modified information holds until actively investigated by someone with your level of capability or better, or for 1 month, whichever comes first.
+#### Level 15
+- **Total Command** — Tier 3 (3 AP) | Signature: Deal 16 + VEIL social damage to one target within 40 feet. Apply Expose 5 and Stagger. Every ally within 40 feet deals +VEIL + IRON bonus damage on every card they play until your next turn. You have coordinated everything that is about to happen.
+- **Shadow Blade** — Tier 3 (3 AP) | Melee Attack: Deal 20 + IRON melee damage to one adjacent target. Apply Bleed 4, Expose 4, and Vulnerable 3. If any ally has attacked this target this combat, deal +VEIL bonus damage and apply Stagger.
 
-**Level 13: Master Leverage**
-Your Leverage ability can now be used against an organization as well as an individual: impose disadvantage on all Charisma-based checks by the organization's representatives in social situations for 1 week, or impose one diplomatic penalty (DM's choice of appropriate consequence). You can now use Leverage twice per long rest.
+#### Level 16
+- **The Convergence** — Tier 3 (3 AP) | Utility: Until your next turn, all your allies may each play one additional card on their turn for free (0 AP, once per ally). Apply Expose 4 to all enemies within 40 feet. This is what a lifetime of network-building looks like when it arrives at once.
+- **Apex Command** — Tier 3 (3 AP) | Social Control: Deal 20 + VEIL social damage to one target within 40 feet. Apply Expose 6 and Vulnerable 5. All allies within 30 feet gain Shield 8 and Regen 3 until your next turn.
 
-**Level 14: Subclass Feature**
+#### Level 17
+- **Contingency** — Tier 2 (2 AP) | Utility: You prepared for this. Remove all debuffs from yourself and one ally within 20 feet. Apply Guard 8 + VEIL to both. The next ally to act may play any Tier 2 card from their hand for free (0 AP). Your contingency plans have contingency plans.
+- **Coordinated Devastation** — Tier 3 (3 AP) | Melee Attack: Deal 22 + IRON melee damage to one adjacent target. Apply Bleed 5, Expose 5, and Vulnerable 4. Every ally within 30 feet may immediately make a free Basic Attack against any enemy within their range.
 
-**Level 15: The Full Network**
-Your Contact maximum is now 20. You can activate up to 5 Contacts per long rest. You can now have Contacts of significant capability — low-level officials with real authority, minor military commanders, senior servants in major households. The network is not just informants; it is an infrastructure.
+#### Level 18
+- **The Network Speaks** — Tier 3 (3 AP) | Utility: Apply Expose 4 to all enemies within 40 feet. All allies within 40 feet gain Guard 8 + VEIL and Regen 4 until your next turn. The next two allies to act each deal +VEIL + IRON bonus damage on all cards they play this round.
+- **Perfect Intelligence** — Tier 3 (3 AP) | Utility: You know everything about this battlefield. Apply Expose 5 to all enemies within 40 feet. Remove all Guard and Shield from all enemies within 40 feet. All allies within 30 feet deal +VEIL bonus damage until your next turn.
 
-**Level 16: Ability Score Improvement**
+#### Level 19
+- **The Shadow Throne** — Tier 3 (3 AP) | Signature: Deal 22 + VEIL social damage to all enemies within 30 feet. Apply Expose 5 and Stagger to each. All allies within 40 feet gain Guard 10 + VEIL, Regen 4, and Shield 8 until your next turn. You command this battlefield.
+- **Final Order** — Tier 3 (3 AP) | Social Control: Deal 24 + VEIL social damage to one target within 40 feet. Apply Expose 6, Vulnerable 6, and Stagger. The next ally to act may play any card in their hand for free (0 AP), including Tier 3 cards. One order, perfectly placed.
 
-**Level 17: Contingency Protocol**
-You have prepared for the scenario where everything goes wrong. Once per month, when you or your entire party would be captured, killed, or entirely defeated, you can invoke a Contingency Protocol: a prepared escape plan that activates automatically. The party escapes to a pre-designated safe house, you have resources available at the safe house (equipment, medical supplies, intelligence documents), and the protocol destroys or conceals evidence of your recent activities in the area. You take the lead in getting everyone out. The Contingency Protocol requires 24 hours of preparation per use — it must be set up in advance to be available.
+#### Level 20 — Capstone
+- **The Daimyo's Shadow** — Tier 3 (3 AP) | Signature (Capstone): *The network at its fullest. One moment of total coordination.* Deal 26 + VEIL social damage to all enemies within 40 feet. Apply Expose 6, Vulnerable 5, and Stagger to each. Every ally within 40 feet may immediately take a full bonus turn (play cards up to their AP Max) as a reaction — each ally acts once in initiative order. Apply Guard 10 + VEIL to all allies within 40 feet. Every Shadow Daimyo who has reached this level has used this ability exactly once on something that mattered more than anything else. That is why they spent a lifetime building to it.
 
-**Level 18: Dossier Mastery**
-You can now construct a dossier in 8 hours rather than 24, and the 72-hour deep dossier requires only 24 hours. Additionally, your dossiers on major public figures (lords, commanders, senior Sutensai) are already partially complete before you start — your network has been collecting ambient information on significant figures continuously.
+---
 
-**Level 19: Ability Score Improvement**
+### Full Card Reference
 
-**Level 20: The Daimyo's Shadow**
-You have built something that outlives individual encounters. Your network has become a genuine political force — not publicly, but in the way that actually matters. Once per long rest, you can call in a Major Favor from your network: a coordinated action by multiple Contacts that achieves one significant objective (assassinate a specific low-to-moderate-CR target, deliver a critical document to any location within the territory, arrange a major social event that draws your target into a prepared situation, etc.). Once per year (in-game), you can call a Grand Convergence: your entire network acts in concert on a single coordinated objective. The scope is limited only by what is physically possible for the distributed group you have built, and the DM works with you to determine the outcome. Every Shadow Daimyo who has reached this level has used this ability exactly once on something that mattered more than anything else. That is why they spent a lifetime building to it.
+**Apex Command** — Tier 3 (3 AP) | Social Control: Deal 20 + VEIL social damage to one target within 40 feet. Apply Expose 6 and Vulnerable 5. All allies within 30 feet gain Shield 8 and Regen 3. *Unlock: Level 16*
+
+**Asset Strike** — Tier 3 (3 AP) | Melee Attack: Deal 16 + IRON melee damage to one adjacent target. Apply Bleed 3 and Expose 4. Next ally to act may make a free Basic Attack against any enemy in range. *Unlock: Level 11*
+
+**Blade Work** — Tier 1 (1 AP) | Melee Attack: Deal 6 + IRON melee damage. Apply Bleed 2 and Pierce 3 if you have used Intelligence Read on this target this combat. *Unlock: Level 3*
+
+**Command Authority** — Tier 3 (3 AP) | Social Control: Deal 16 + VEIL social damage to all enemies within 30 feet. Apply Expose 3 and Stagger to each. All allies within 30 feet gain Regen 3 and may play one Tier 1 card free. *Unlock: Level 13*
+
+**Command Network** — Tier 2 (2 AP) | Social Control: Deal 9 + VEIL social damage. Apply Stagger and Expose 3. All allies within 30 feet gain Regen 2. *Unlock: Level 7*
+
+**Command Pressure** — Tier 1 (1 AP) | Social Control: Deal 5 + VEIL social damage. Next ally to act this round deals +VEIL bonus damage. Apply Expose 1. *Unlock: Level 1 (Starting Card)*
+
+**Contingency** — Tier 2 (2 AP) | Utility: Remove all debuffs from yourself and one ally within 20 feet. Apply Guard 8 + VEIL to both. Next ally to act may play one Tier 2 card free. *Unlock: Level 17*
+
+**Controlled Information** — Tier 2 (2 AP) | Social Control: Deal 12 + VEIL social damage. Apply Stagger and Expose 4. Remove all Regen and Shield from the target. *Unlock: Level 12*
+
+**Coordinated Devastation** — Tier 3 (3 AP) | Melee Attack: Deal 22 + IRON melee damage. Apply Bleed 5, Expose 5, Vulnerable 4. All allies within 30 feet may immediately make a free Basic Attack. *Unlock: Level 17*
+
+**Coordinated Strike** — Tier 2 (2 AP) | Melee Attack: Deal 11 + IRON melee damage. Apply Bleed 2 and Expose 2. Next ally to act may make a free Basic Attack against the same target. *Unlock: Level 6*
+
+**Court Strike** — Tier 2 (2 AP) | Melee Attack: Deal 10 + IRON melee damage. Apply Expose 3 and Bleed 2. Deal +VEIL bonus damage if any ally has attacked this target this combat. *Unlock: Level 5*
+
+**Daimyo's Presence** — Tier 3 (3 AP) | Utility: Apply Guard 8 + VEIL to all allies within 30 feet. All allies may play one Tier 1 card free as a reaction. Apply Expose 3 to all enemies within 30 feet. *Unlock: Level 14*
+
+**Deflect Attention** — Tier 1 (1 AP) | Reaction: *Trigger: You are targeted by a Social or Control card.* Cancel all non-damage riders. Next ally to act may play one 0-AP card free. *Unlock: Level 2*
+
+**Deploy Asset** — Tier 2 (2 AP) | Utility: One ally within 30 feet — their next Attack deals +VEIL + IRON bonus damage and applies Expose 2. *Unlock: Level 4*
+
+**Dossier Strike** — Tier 1 (1 AP) | Melee Attack: Deal 5 + IRON melee damage. Apply Expose 2 and +VEIL bonus damage if you have used Intelligence Read on this target. *Unlock: Level 1 (Starting Card)*
+
+**Final Order** — Tier 3 (3 AP) | Social Control: Deal 24 + VEIL social damage. Apply Expose 6, Vulnerable 6, Stagger. Next ally to act may play any card in hand for free (0 AP), including Tier 3. *Unlock: Level 19*
+
+**Flanking Order** — Tier 2 (2 AP) | Utility: Up to two allies within 30 feet — each deal +VEIL + IRON bonus damage on next Attack. If both attack same target, apply Vulnerable 3 to that target. *Unlock: Level 9*
+
+**Full Command** — Tier 3 (3 AP) | Signature: Deal 14 + VEIL social damage. Apply Expose 4 and Stagger. Every ally within 30 feet may immediately play one Tier 1 card free as a reaction. *Unlock: Level 9*
+
+**Grand Deployment** — Tier 3 (3 AP) | Utility: Up to three allies within 30 feet — each gains Guard 5 + VEIL and their next Attack deals +VEIL + IRON bonus damage. *Unlock: Level 12*
+
+**Inside Information** — Tier 1 (1 AP) | Utility: Remove all Guard and Shield from one enemy within 40 feet. Next ally to act against them deals +IRON + VEIL bonus damage. *Unlock: Level 7*
+
+**Intelligence Read** — Tier 1 (1 AP) | Utility: Learn HP tier, one card, and attack intent of one target within 40 feet. Apply Expose 1. Next ally to act gains advantage on first card against this target. *Unlock: Level 1 (Starting Card)*
+
+**Leverage** — Tier 1 (1 AP) | Social Control: Deal 5 + VEIL social damage. Apply Stagger. Next ally to act against this target deals +VEIL bonus damage. *Unlock: Level 2*
+
+**Master Leverage** — Tier 3 (3 AP) | Social Control: Deal 18 + VEIL social damage. Apply Expose 5, Vulnerable 4, Stagger. Target cannot benefit from Guard or Shield until your next turn. Next ally to act deals +VEIL + IRON + IRON bonus damage. *Unlock: Level 13*
+
+**Network Activation** — Tier 2 (2 AP) | Utility: All allies within 30 feet gain Guard 4 + VEIL. Next ally to act may play one Tier 1 card free (0 AP). *Unlock: Level 5*
+
+**Network Strike** — Tier 3 (3 AP) | Melee Attack: Deal 18 + IRON melee damage. Apply Bleed 4 and Expose 4. Next three allies to act each deal +VEIL bonus damage on their next card. *Unlock: Level 14*
+
+**Operational Command** — Tier 2 (2 AP) | Social Control: Deal 8 + VEIL social damage. Apply Expose 3. Next two allies to act each deal +VEIL bonus damage on their first card. *Unlock: Level 3*
+
+**Perfect Intelligence** — Tier 3 (3 AP) | Utility: Apply Expose 5 to all enemies within 40 feet. Remove all Guard and Shield from all enemies within 40 feet. All allies within 30 feet deal +VEIL bonus damage until your next turn. *Unlock: Level 18*
+
+**Precision Deployment** — Tier 2 (2 AP) | Social Control: Deal 10 + VEIL social damage. Apply Stagger. One ally's Attack cards against this target gain Pierce 4 until your next turn. *Unlock: Level 8*
+
+**Prepared Position** — Tier 2 (2 AP) | Utility: Apply Guard 6 + VEIL to yourself and one ally within 20 feet. Next ally to act plays any card at 1 AP less. Narrate one prepared tactical fact. *Unlock: Level 10*
+
+**Pressure Point** — Tier 3 (3 AP) | Social Control: Deal 14 + VEIL social damage. Apply Expose 5, Stagger, Vulnerable 3. Next ally to act against this target deals +VEIL + IRON bonus damage. *Unlock: Level 10*
+
+**Reading the Room** — Tier 1 (1 AP) | Passive: Always sense concealed intent within 30 feet. Once per combat, redirect a card targeting an ally to target yourself instead. *Unlock: Level 4*
+
+**Shadow Blade** — Tier 3 (3 AP) | Melee Attack: Deal 20 + IRON melee damage. Apply Bleed 4, Expose 4, Vulnerable 3. Deal +VEIL bonus damage and apply Stagger if any ally has attacked this target. *Unlock: Level 15*
+
+**Shadow Network** — Tier 2 (2 AP) | Utility: Apply Expose 2 to all enemies within 40 feet. All allies within 30 feet gain Guard 5 + VEIL. Next two allies to act each deal +VEIL bonus damage. *Unlock: Level 11*
+
+**Tactical Overlay** — Tier 2 (2 AP) | Utility: Apply Expose 3 to all enemies within 40 feet. Next ally to act may target any Exposed enemy with +VEIL damage bonus. *Unlock: Level 6*
+
+**The Convergence** — Tier 3 (3 AP) | Utility: Until your next turn, all allies may each play one additional card free (0 AP, once per ally). Apply Expose 4 to all enemies within 40 feet. *Unlock: Level 16*
+
+**The Daimyo's Shadow** — Tier 3 (3 AP) | Signature (Capstone): Deal 26 + VEIL social damage to all enemies within 40 feet. Apply Expose 6, Vulnerable 5, Stagger to each. Every ally within 40 feet takes a full bonus turn as a reaction. Apply Guard 10 + VEIL to all allies. *Unlock: Level 20*
+
+**The Long Game** — Tier 2 (2 AP) | Utility: Apply Expose 4 to one target within 40 feet. For rest of combat, all allies deal +2 damage against this target. *Unlock: Level 8*
+
+**The Network Speaks** — Tier 3 (3 AP) | Utility: Apply Expose 4 to all enemies within 40 feet. All allies within 40 feet gain Guard 8 + VEIL and Regen 4. Next two allies to act deal +VEIL + IRON bonus damage on all cards. *Unlock: Level 18*
+
+**The Shadow Throne** — Tier 3 (3 AP) | Signature: Deal 22 + VEIL social damage to all enemies within 30 feet. Apply Expose 5 and Stagger to each. All allies within 40 feet gain Guard 10 + VEIL, Regen 4, and Shield 8. *Unlock: Level 19*
+
+**Total Command** — Tier 3 (3 AP) | Signature: Deal 16 + VEIL social damage. Apply Expose 5 and Stagger. All allies within 40 feet deal +VEIL + IRON bonus damage on every card until your next turn. *Unlock: Level 15*
 
 ---
 

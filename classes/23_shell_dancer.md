@@ -21,105 +21,335 @@ The Caste of Steel has no good category for Shell Dancers. The Caste system is b
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM
 
-**Hit Die:** d12
-**Primary Ability:** Constitution (failure endurance), Dexterity (malfunction navigation)
-**Saving Throw Proficiencies:** Constitution, Dexterity
-**Armor Proficiencies:** Salvage plating (all), wire-mesh armor. Note: Shell Dancers' armor is typically visibly damaged and jury-rigged.
-**Weapon Proficiencies:** All melee weapons, pulse arms (all weights), improvised weapons (treated as resonant weapons)
-**Tool Proficiencies:** Calibration tools (improvised repair), salvage tools
-**Skills:** Choose 2 from: Athletics, Acrobatics, Survival, Intimidation, Perception, Investigation
-**Starting Equipment:** Salvage plating (medium, visibly damaged but functional), resonant blade (standard, has a minor malfunction that produces occasional sparks — this is a feature), calibration tools, salvage kit, bandaging (10 uses), 6 gp equivalent. One of your starting enhancements is currently malfunctioning (permanent until repaired — or until you decide you like it this way).
+**Primary Stats:** EDGE + FRAME
+**HP:** (FRAME × 8) + 10
+**Hand Size:** 7
+**AP:** 3 per turn. Basic Attack free (0 AP), once per turn.
+
+### Class Identity
+The Shell Dancer has the most evasion and reaction cards of any non-technical class. Their signature mechanic is **Shell Step** — a momentary state of non-presence used as a tactical tool. Several cards trigger or interact with Shell Step, and the Shell Dancer toggles in and out of presence mid-combat as a deliberate strategy. They also build power from taking damage: **Cascade** is a resource that accumulates when the Shell Dancer is hit and converts into offensive output. They want to take hits. They want to be in the gap between alive and not, and strike from that space.
+
+**Shell Step (mechanic):** Shell Step is entered by playing a Shell Step card or triggering a reaction card that activates it. While in Shell Step: the Shell Dancer cannot be targeted by hostile cards or Basic Attacks for 1 turn. The Shell Dancer also cannot play Attack cards while in Shell Step — only Defense, Reaction, and Mobility cards. Shell Step ends at the start of the Shell Dancer's next turn unless extended by a card. Exiting Shell Step is not optional — it ends automatically.
+
+**Cascade (resource):** Gained when the Shell Dancer takes damage. Gain 1 Cascade per hit, +1 additional if the hit deals 10+ damage. Cascade resets to 0 at the end of combat. Several cards spend Cascade or scale with current Cascade count. Maximum Cascade: 10.
 
 ---
 
-### Class Features by Level
+### Starting Hand (Level 1)
 
-**Level 1: Malfunction Tolerance**
-You have trained to function through enhancement failure states that would incapacitate others. You ignore the minor effects of enhancement malfunction (intermittent outputs, erratic sensing, minor power fluctuations). When a more significant malfunction occurs (DM discretion), you make the resulting Constitution saving throw at advantage. You cannot be rendered incapacitated by enhancement failure alone — you always retain your action and movement even when your enhancements are critically failing.
+Choose 2 of the following 3 cards to begin with. You gain the third at Level 2.
 
-**Level 1: Cascade Sense**
-You can feel the failure cascades in your own enhancements before they fully manifest. You are never surprised in combat by your own enhancement failures — you can predict them 1 round in advance and either work with them or brace against them. As a passive ability, you have advantage on saving throws against forced malfunction (effects that specifically target your enhancements to cause failure).
+---
 
-**Level 1: Malfunction Charges**
-You have a pool of Malfunction Charges equal to your Constitution modifier + your proficiency bonus (minimum 2). You gain additional Malfunction Charges when you take damage (see Level 2). You spend them on Shell Dancer abilities. You regain all Malfunction Charges on a short or long rest.
+### Card Reference
 
-**Level 2: Pain into Power**
-When you take 10 or more damage in a single hit, you gain 1 Malfunction Charge. When you are reduced below half your hit points for the first time in a combat, you immediately gain Malfunction Charges equal to your Constitution modifier. This represents the cascade effect: damage pushes your enhancements toward failure, and your failure states are productive.
+#### Controlled Discharge
+*Tier 1 (1 AP) | Melee Attack*
 
-**Level 2: Controlled Discharge**
-As a bonus action, spend 1 Malfunction Charge to intentionally trigger a minor discharge from a failing enhancement. One creature within 10 feet must make a Dexterity saving throw (DC = 8 + proficiency bonus + Constitution modifier) or take 2d8 lightning (or your damage type of choice from your enhancement type) damage and be pushed 5 feet.
+**Effect:** Deal 5 + EDGE damage. If you have 2+ Cascade, deal 8 + EDGE instead and push the target 3 meters.
+**Keywords:** Cascade-synergy, Knockback (conditional)
+**Unlock:** Level 1 (Starting Hand)
 
-**Level 3: Shell Dancer Subclass**
-You choose your path: The Breaker, The Survivor, or The Scavenger. Your subclass grants features at levels 3, 6, 10, and 14.
+---
 
-**Level 3: Cascade Chain**
-When you take damage that triggers Pain into Power, you can immediately use Controlled Discharge as a free action (no cost, counts as your reaction for this round only). The cascade that hurts you immediately becomes the cascade that hurts someone else.
+#### Cascade Sense
+*Tier 1 (1 AP) | Defense | Passive*
 
-**Level 4: Ability Score Improvement**
+**Effect:** Passive. This card counts toward hand size and is never "played." While this card is in your hand: at the start of each of your turns, gain 1 Cascade if you took any damage since your last turn. Additionally, you cannot be surprised — you sense cascades in yourself and others before they manifest.
+**Keywords:** Passive, Cascade-gain (per-turn), Surprise-immunity
+**Unlock:** Level 1 (Starting Hand)
 
-**Level 5: Extra Attack**
-You can attack twice when you take the Attack action on your turn. At level 11, this becomes three attacks. At level 20, four attacks. Each attack can potentially trigger Cascade Chain, making high-attack-count combat increasingly chaotic and productive.
+---
 
-**Level 5: Failure Configuration**
-You have learned to run specific enhancements in specific failure configurations intentionally. Choose one Failure Configuration that is currently active in your enhancements. Each configuration provides a passive benefit and a passive cost:
-- Overclock Failure: +2 bonus to attack rolls. At the end of each of your turns, take 1d4 necrotic damage (the system is burning itself).
-- Sensory Overdrive: Advantage on Perception and cannot be surprised. At the end of each of your turns, the DM may introduce one false sensory input (the overdriven system generates noise).
-- Resonant Leak: Your unarmed strikes deal an additional 1d6 resonant damage. Your Caste of Steel classification reads as 2 tiers lower than it actually is (the leak disguises your actual capability).
-- Feedback Loop: When you take damage, you deal 1d6 damage of the same type to your attacker. At the end of each of your turns, take 1d4 of the most recent damage type you took (the loop bounces back into you too).
+#### Shell Step
+*Tier 1 (1 AP) | Mobility | Defense*
 
-You can change your active Failure Configuration when you finish a short rest.
+**Effect:** Enter Shell Step until the start of your next turn. You cannot be targeted by hostile cards or Basic Attacks this turn. You cannot play Attack cards this turn. Spend 2 Cascade to extend Shell Step by 1 additional turn.
+**Keywords:** Shell Step, Cascade-optional
+**Unlock:** Level 1 (Starting Hand)
 
-**Level 6: Subclass Feature**
+---
 
-**Level 6: Tactical Failure**
-Once per short rest, you can deliberately trigger a catastrophic failure in one of your enhancements as an action. This produces an explosion of erratic energy in a 15-foot radius centered on you: all creatures of your choice take 3d8 damage (type determined by your enhancement type, Dexterity save for half). The enhancement is fully non-functional until repaired (1 hour of work). You take 1d6 necrotic damage from the deliberate cascade. The destroyed enhancement cannot be used for its standard function until repaired, but the Tactical Failure ability doesn't care — it's already done its work.
+#### Pain Into Power
+*Tier 1 (1 AP) | Defense | Reaction*
 
-**Level 7: Erratic Advantage**
-Your damage patterns are genuinely unpredictable to opponents. When you attack a creature that has already been hit by one of your Controlled Discharge or subclass abilities this combat, you have advantage on the attack roll.
+**Effect:** Reaction. Triggered when you take damage from any source. Gain 2 Cascade. Apply Guard equal to your FRAME.
+**Keywords:** Reaction, Cascade-gain, Guard (FRAME)
+**Unlock:** Level 2
 
-**Level 8: Ability Score Improvement**
+---
 
-**Level 8: Constitution Extreme**
-Your body has adapted to extraordinary stress. Your Constitution score increases by 2 (to a maximum of 22). Additionally, when you make a death saving throw, you succeed on a 7 or higher (instead of 10).
+#### Cascade Strike
+*Tier 1 (1 AP) | Melee Attack*
 
-**Level 9: Full Cascade**
-Once per long rest, as an action, spend all your Malfunction Charges (minimum 3) to enter a Full Cascade state for 1 minute. During this state: your attacks deal an extra 1d8 damage of your enhancement's type per Malfunction Charge spent, all enhancement failure states are simultaneously active (all Failure Configurations apply simultaneously with no costs), and when you take damage, you gain 2 Malfunction Charges instead of the standard amounts. When the Cascade ends, you gain two levels of exhaustion and must make a DC 18 Constitution saving throw or have all your enhancements enter shutdown state until you receive 1 hour of repair.
+**Effect:** Deal 4 + EDGE damage + 2 per Cascade you currently have (max +10). Spend all Cascade after this card resolves — the energy discharges on impact.
+**Keywords:** Cascade-spend (all), Scaling
+**Unlock:** Level 2
 
-**Level 10: Subclass Feature**
+---
 
-**Level 10: The Failure State**
-Your Failure Configurations no longer carry their costs. You have trained your body to sustain the configurations without the associated damage or drawbacks. You can have two Failure Configurations active simultaneously.
+#### Erratic Step
+*Tier 1 (1 AP) | Mobility*
 
-**Level 11: Dancing on the Edge**
-When you are below half your hit points, you gain a +2 bonus to AC and deal +1d6 damage with all attacks. This represents your body operating in failure-state overdrive — the cascade isn't killing you, it's pushing you forward. When you are below 25% hit points, these bonuses increase to +4 AC and +2d6 damage.
+**Effect:** Reposition up to your EDGE × 2 in meters. This movement does not trigger responses. If you move through an enemy's space during this movement, deal 3 + EDGE damage to them as you pass.
+**Keywords:** Free Movement, Pass-through Damage
+**Unlock:** Level 3
 
-**Level 12: Ability Score Improvement**
+---
 
-**Level 12: Synchronized Failure**
-When a hostile creature within 30 feet has cybernetic enhancements, you can, as a bonus action, attempt to synchronize your malfunction cascades with theirs. Make a Constitution check (DC = 10 + creature's Constitution modifier). On success, their enhancements malfunction in sync with yours: they have disadvantage on their next attack roll and ability check as the synchronized cascade disrupts their systems. You cannot synchronize with a Shell Dancer or Blood Smith who has intentional failure states — they're doing it on purpose too.
+#### Overload Burst
+*Tier 1 (1 AP) | Melee Attack*
 
-**Level 13: Emergency Protocols**
-Once per short rest, when you would drop to 0 hit points, you can activate Emergency Protocols: you remain at 1 hit point, all your enhancements discharge simultaneously (every creature within 10 feet takes 2d8 damage of your enhancement type, Dexterity save for half), and you gain 3 Malfunction Charges. The protocols run hot — if you trigger them twice without a long rest, the second activation requires a DC 16 Constitution saving throw or you drop to 0 hit points when the combat ends.
+**Effect:** Deal 6 + FRAME damage. Gain 1 Cascade. If you are currently below half HP, deal 10 + FRAME instead.
+**Keywords:** Cascade-gain, Damage-below-half (conditional)
+**Unlock:** Level 3
 
-**Level 14: Subclass Feature**
+---
 
-**Level 15: Living Disaster**
-You are genuinely difficult to predict and nearly impossible to stop. You have advantage on Strength, Dexterity, and Constitution saving throws. Creatures attempting to grapple or restrain you must succeed on a DC 20 check that gains no bonus from preparation or setup — the erratic cascade of your body makes any attempt to contain you actively dangerous. Additionally, when a creature misses you with a melee attack, you can use your reaction to make one attack against them.
+#### Shell Counter
+*Tier 1 (1 AP) | Defense | Reaction*
 
-**Level 16: Ability Score Improvement**
+**Effect:** Reaction. Triggered when a melee attack misses you. Immediately make a Basic Attack against the attacker (this does not cost your Basic Attack for the turn). Gain 1 Cascade.
+**Keywords:** Reaction, Retaliatory Basic Attack, Cascade-gain
+**Unlock:** Level 4
 
-**Level 17: Cascade Mastery**
-Your Malfunction Charge maximum increases to your Constitution modifier × 4 + your proficiency bonus. Your Cascade Chain triggers on any damage (not just 10+). Pain into Power now triggers on any hit, generating 1 Malfunction Charge per hit.
+---
 
-**Level 18: The Art of Breaking**
-You have mastered the art of failure completely. You no longer take necrotic damage from your Failure Configurations (even if they were re-added by earlier features). Your Tactical Failure now costs no action — it is a bonus action. Emergency Protocols can be triggered twice per short rest (instead of once).
+#### Malfunction Spike
+*Tier 1 (1 AP) | Melee Attack*
 
-**Level 19: Ability Score Improvement**
+**Effect:** Deal 5 + EDGE damage. Apply Overheat 1. If the target has cybernetic enhancements, apply Overheat 2 instead.
+**Keywords:** Overheat (scaling)
+**Unlock:** Level 4
 
-**Level 20: The Broken Perfection**
-You are the final expression of the Shell Dancer practice: a practitioner who has turned failure into form. Your Constitution score increases by 2 (to a maximum of 24). While below half your hit points, you are immune to the frightened and stunned conditions. Your Full Cascade now costs no Malfunction Charges — declare it and it happens. Once per long rest, when you reduce a creature to 0 hit points, you can immediately recover from all negative conditions (frightened, stunned, slowed, restrained) and regain hit points equal to your Constitution modifier × your proficiency bonus. The victory resets the cascade. You start the next problem running.
+---
+
+#### Cascade Chain
+*Tier 1 (1 AP) | Melee Attack | Reaction*
+
+**Effect:** Reaction. Triggered when you take damage from an attack. Deal 4 + EDGE damage to the attacker immediately. Gain 1 Cascade.
+**Keywords:** Reaction, Cascade-gain, Retaliatory Attack
+**Unlock:** Level 5
+
+---
+
+#### Emergency Protocols
+*Tier 1 (1 AP) | Defense | Reaction*
+
+**Effect:** Reaction. Triggered when you would be reduced to 0 HP. You are reduced to 1 HP instead. Deal 6 + FRAME damage to all enemies within 8 meters (enhancement discharge). Gain 3 Cascade.
+**Keywords:** Reaction, Death-floor (1 HP), Burst Damage (area), Cascade-gain
+**Unlock:** Level 5
+
+---
+
+#### Tactical Failure
+*Tier 2 (2 AP) | Melee Attack | Area*
+
+**Effect:** Deal 10 + FRAME damage to all enemies within 12 meters. You take 4 damage (cannot be reduced — the cascade burns you too). Gain 2 Cascade from the feedback.
+**Keywords:** Area, Self-damage (4), Cascade-gain
+**Unlock:** Level 6
+
+---
+
+#### Shell Step: Aggressive
+*Tier 2 (2 AP) | Mobility | Defense | Signature*
+
+**Effect:** Enter Shell Step. While in Shell Step from this card, you may play one Attack card (despite the normal restriction). When you exit Shell Step at the start of your next turn, your first Attack card that turn costs 0 AP — you strike from absence.
+**Keywords:** Shell Step (modified), Attack-while-Shell, AP Reduction (exit bonus)
+**Unlock:** Level 6
+
+---
+
+#### Synchronized Cascade
+*Tier 2 (2 AP) | Control | Signal*
+
+**Effect:** Select one enemy with cybernetic enhancements within 20 meters. Apply Overheat 2 and Stagger. Gain 2 Cascade — their cascade feeds yours.
+**Keywords:** Overheat 2, Stagger, Cascade-gain
+**Unlock:** Level 7
+
+---
+
+#### Dancing on the Edge
+*Tier 2 (2 AP) | Melee Attack | Signature*
+
+**Effect:** Deal 11 + EDGE damage. If you are below half HP, deal 16 + EDGE instead and apply Expose 1 to the target. If you are below 25% HP, deal 20 + EDGE and apply Expose 2.
+**Keywords:** Damage-below-half (scaling)
+**Unlock:** Level 7
+
+---
+
+#### Full Cascade: Entry
+*Tier 2 (2 AP) | Defense | Utility*
+
+**Effect:** Spend 4 Cascade. Until the start of your next turn: all Attack cards deal +EDGE bonus damage; you gain Guard equal to your FRAME; and gaining Cascade heals you for 2 HP per stack gained. The failure states are all running hot and they are all yours.
+**Keywords:** Cascade-spend (4), Damage-boost, Guard (FRAME), Cascade-heal
+**Unlock:** Level 8
+
+---
+
+#### Shell Step: Vanishing
+*Tier 2 (2 AP) | Mobility | Defense | Signature*
+
+**Effect:** Enter Shell Step. Reposition anywhere within 30 meters (no responses triggered). While in Shell Step from this card, you gain Shield equal to your EDGE × 2. When you exit Shell Step, your next Attack card this turn deals +8 bonus damage — you reappeared exactly where you needed to be.
+**Keywords:** Shell Step, Teleport (30m), Shield (EDGE×2), Attack-boost (exit)
+**Unlock:** Level 8
+
+---
+
+#### Feedback Loop
+*Tier 2 (2 AP) | Defense | Passive*
+
+**Effect:** Passive. While this card is in your hand: whenever you take damage from a melee attack, the attacker takes 3 + FRAME damage from cascade feedback. This cannot be prevented or redirected. It happens because the system bounces.
+**Keywords:** Passive, Retaliation (melee, auto)
+**Unlock:** Level 9
+
+---
+
+#### Controlled Catastrophe
+*Tier 2 (2 AP) | Melee Attack | Area*
+
+**Effect:** Deal 12 + FRAME damage to one target. Spend up to 3 Cascade: for each spent, deal 4 + EDGE damage to all other enemies within 8 meters (this is separate from the main hit). The cascade doesn't care about collateral.
+**Keywords:** Cascade-spend (up to 3), Area (per Cascade spent)
+**Unlock:** Level 9
+
+---
+
+#### Shell Step: Combat
+*Tier 2 (2 AP) | Defense | Reaction | Signature*
+
+**Effect:** Reaction. Triggered when you are targeted by a Tier 2 or Tier 3 hostile card. Enter Shell Step — the card misses entirely (you were not there). Gain 2 Cascade from the near-miss.
+**Keywords:** Reaction, Shell Step (reactive), Card-negate, Cascade-gain
+**Unlock:** Level 10
+
+---
+
+#### Living Disaster
+*Tier 2 (2 AP) | Melee Attack | Mobility*
+
+**Effect:** Move up to your EDGE in meters (no responses). Make a melee attack for 13 + EDGE damage at any point during this movement. If you started this turn in Shell Step, deal 18 + EDGE instead — you arrived from nowhere.
+**Keywords:** Mobile Attack, Shell Step-synergy
+**Unlock:** Level 10
+
+---
+
+#### Broken Perfection
+*Tier 3 (3 AP) | Defense | Signature*
+
+**Effect:** Until the start of your next turn: you cannot be Stunned or Frightened; all damage you take is reduced by your FRAME; every hit you take generates 2 Cascade instead of 1; and when your HP drops below 25%, immediately gain Guard equal to your FRAME × 2. The failure states have become the form.
+**Keywords:** Condition-immunity (Stun, Fright), Damage-reduction (FRAME), Cascade-boost, Guard-threshold
+**Unlock:** Level 11
+
+---
+
+#### Full Cascade: Detonation
+*Tier 3 (3 AP) | Melee Attack | Area | Signature*
+
+**Effect:** Spend all Cascade (minimum 3). Deal (10 + FRAME) damage to all enemies within 15 meters + (4 × Cascade spent) bonus damage split evenly across all targets (minimum 1 per target). After this card resolves, you gain Shield equal to total Cascade spent × 2. Every enhancement you have is running at failure state simultaneously for exactly one moment. That moment is this.
+**Keywords:** Cascade-spend (all), Area, Scaling, Shield (post-discharge)
+**Unlock:** Level 12
+
+---
+
+#### Shell Step: Through
+*Tier 3 (3 AP) | Mobility | Signature*
+
+**Effect:** Enter Shell Step. Move freely through the combat space — up to 50 meters, through any space, including enemy spaces. You may exit Shell Step at any point during this movement as a free action; when you do, immediately deal 16 + EDGE damage to the nearest enemy. Gain 3 Cascade from the reentry impact. You moved through the space between presence and absence and came out the other side, and you came out swinging.
+**Keywords:** Shell Step (extended movement), Exit-Attack (16 + EDGE), Cascade-gain, Free Movement
+**Unlock:** Level 13
+
+---
+
+#### Cascade Nova
+*Tier 3 (3 AP) | Melee Attack | Area | Signature*
+
+**Effect:** Spend 5 Cascade. Deal 18 + EDGE damage to one target. Deal 10 + EDGE damage to all other enemies within 15 meters. Apply Stagger to all enemies hit. Gain Shield equal to your FRAME × 3.
+**Keywords:** Cascade-spend (5), Area, Stagger (all), Shield (FRAME×3)
+**Unlock:** Level 14
+
+---
+
+#### Shell Step: Permanent
+*Tier 3 (3 AP) | Defense | Signature*
+
+**Effect:** Enter Shell Step with a duration of 2 full turns (instead of 1). During both turns: you cannot be targeted; you may use Reaction cards normally; and at the end of each turn in Shell Step, gain 3 Cascade. When you exit, your first Attack card deals +12 bonus damage. You have been absent for long enough that your return is an event.
+**Keywords:** Shell Step (2 turns), Cascade-gain (per turn), Attack-boost (exit +12)
+**Unlock:** Level 15
+
+---
+
+#### Erratic Perfection
+*Tier 3 (3 AP) | Melee Attack | Reaction | Signature*
+
+**Effect:** Reaction. Triggered when any enemy targets any ally with a Tier 2 or Tier 3 card. Before the card resolves, you reposition to adjacent to the attacker (no responses) and deal 14 + EDGE damage to them. If this damage reduces them to 0 HP, the card they were playing is cancelled. You were not there, then you were, then you were not again.
+**Keywords:** Reaction, Teleport-adjacent, Interrupt (on kill), Cascade-gain
+**Unlock:** Level 16
+
+---
+
+#### The Art of Breaking
+*Tier 3 (3 AP) | Melee Attack | Signature*
+
+**Effect:** Deal 20 + EDGE damage to one target. This card costs 0 AP if you are currently in Shell Step. Gain 4 Cascade on hit. Apply Expose 2 and Overheat 2 to the target — your strike was not a weapon, it was a malfunction delivered precisely.
+**Keywords:** AP Reduction (in Shell Step), Cascade-gain, Expose 2, Overheat 2
+**Unlock:** Level 17
+
+---
+
+#### Cascade: Maximum
+*Tier 3 (3 AP) | Utility | Signature*
+
+**Effect:** Your Cascade count is set to its maximum (10) immediately. Until the end of this turn, all Cascade-synergy cards deal double their Cascade-based bonus damage. At the end of this turn, Cascade resets to 0. You had built to this. Everything since the first hit has been accumulation.
+**Keywords:** Cascade-max (instant), Cascade-double (this turn), Reset (end of turn)
+**Unlock:** Level 18
+
+---
+
+#### Shell Step: Terminal
+*Tier 3 (3 AP) | Mobility | Defense | Signature*
+
+**Effect:** Enter Shell Step with a 3-turn duration. During this period: you are completely untargetable; Cascade accumulates normally from any damage taken by allies (not just you — you are absorbing the resonance of the battle without being in it); and on the turn you choose to exit, your exit Attack card costs 0 AP and deals damage equal to 16 + EDGE + (3 × total Cascade accumulated during Shell Step). You were gone. The battlefield kept moving. You kept count.
+**Keywords:** Shell Step (3 turns), Cascade-from-allies, Exit-Attack (scaling)
+**Unlock:** Level 19
+
+---
+
+#### The Broken Perfection
+*Tier 3 (3 AP) | Signature | Capstone*
+
+**Effect:** For 1 full round, every failure is a weapon. All damage you take this round generates 3 Cascade instead of 1. All your Attack cards deal +FRAME bonus damage. Entering or exiting Shell Step costs 0 AP this round. When this round ends, spend all Cascade: deal (6 + EDGE) per Cascade stack to all enemies within 20 meters simultaneously. Gain HP equal to half the total damage dealt from this final discharge. The cascade is not ending. The cascade is not the problem. You are.
+**Keywords:** Cascade-boost (×3 per hit), Damage-boost (all Attacks +FRAME), Shell Step free, End-discharge (all Cascade, area), Self-heal
+**Unlock:** Level 20
+
+---
+
+### Level Unlock List
+
+| Level | Cards Available to Choose |
+|---|---|
+| 1 | Starting Hand: choose 2 of (Controlled Discharge, Cascade Sense, Shell Step) |
+| 2 | Pain Into Power, Cascade Strike — gain the Starting Hand card you did not take |
+| 3 | Erratic Step, Overload Burst |
+| 4 | Shell Counter, Malfunction Spike |
+| 5 | Cascade Chain, Emergency Protocols |
+| 6 | Tactical Failure, Shell Step: Aggressive |
+| 7 | Synchronized Cascade, Dancing on the Edge |
+| 8 | Full Cascade: Entry, Shell Step: Vanishing |
+| 9 | Feedback Loop, Controlled Catastrophe |
+| 10 | Shell Step: Combat, Living Disaster |
+| 11 | Broken Perfection |
+| 12 | Full Cascade: Detonation |
+| 13 | Shell Step: Through |
+| 14 | Cascade Nova |
+| 15 | Shell Step: Permanent |
+| 16 | Erratic Perfection |
+| 17 | The Art of Breaking |
+| 18 | Cascade: Maximum |
+| 19 | Shell Step: Terminal |
+| 20 | The Broken Perfection (Capstone) |
+
+*Total cards: 37. Hand Size: 7. At max hand size, each new card replaces one existing card.*
 
 ---
 

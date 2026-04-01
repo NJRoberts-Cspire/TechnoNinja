@@ -23,99 +23,482 @@ Socially, Echo Speakers develop an affect that people find uncanny. They are oft
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM: Echo Speaker
 
-**Hit Die:** d8
-**Primary Ability:** Wisdom (Veil sensitivity), Charisma (voice as instrument)
-**Saving Throw Proficiencies:** Wisdom, Charisma
-**Armor Proficiencies:** Wire-mesh armor
-**Weapon Proficiencies:** Pulse arms (sidearm weight), resonant blades (short configuration), signal staffs
-**Tool Proficiencies:** Memorial circuit kit, communication wire-craft tools
-**Skills:** Choose 3 from: History, Insight, Medicine, Perception, Persuasion, Religion, Investigation
-**Starting Equipment:** Wire-mesh wrappings, signal staff, memorial circuit kit (contains 5 individual circuit memorials and attunement powder), journal (half-filled with observations in at least two handwritings — one of which is not the Speaker's), 15 gp equivalent in trade goods
+**HP Tier:** Technical
+**Hand Size:** 7
+**Primary Stats:** RESONANCE + VEIL
+**HP Formula:** (FRAME × 8) + 6
+
+### Starting Hand
+- Veil Sense
+- Dead Voice
+- Echo Shield
 
 ---
 
-### Class Features by Level
+### Level Unlock List
 
-**Level 1: Hear the Dead**
-You can hear voices from the Iron Afterlife when in the presence of death or resonant memory. As an action, you can attempt to open a channel to a specific dead individual whose name or personal enhancement-signature you know. Make a Wisdom check (DC 10 + years since death, maximum DC 25). On a success, you make contact. The dead individual can answer questions, though their knowledge extends only to what they knew in life. Each question beyond the first requires an additional DC 12 Wisdom check. On a critical failure (natural 1), you attract the attention of an unknown Afterlife presence. Contacts last up to 1 minute. You can use this ability a number of times per long rest equal to your Wisdom modifier (minimum 1).
+#### Level 1
+- Grief Weapon
+- Afterlife Attunement
 
-**Level 1: Veil Sense**
-You are always aware of death nearby. You automatically sense when a creature dies within 60 feet. You can tell when a location has been the site of significant death even if there is no physical evidence. You have advantage on Perception and Investigation checks in any location where someone has died within the past 24 hours.
+#### Level 2
+- Relay
+- Spirit Ward
 
-**Level 1: Echo Reserve**
-You have a pool of Echo Charges equal to your proficiency bonus + Wisdom modifier. These represent your active connection to the Veil and are spent on various abilities. You regain all Echo Charges on a long rest, and regain half (rounded down) on a short rest.
+#### Level 3
+- Veil Walking
+- Spirit Speech
 
-**Level 2: Relay**
-You can serve as a conduit for the dead to communicate with the living in real time. As a bonus action, spend 1 Echo Charge to allow a spirit you are in contact with to speak through you — your voice takes on a slight distortion, and the dead individual can communicate directly for up to 1 minute. You retain awareness of what is being said. You cannot prevent the dead from saying anything; you can end the relay at any time.
+#### Level 4
+- Echo Armor
+- Veil Disruption
 
-**Level 2: Echo Shield**
-The dead notice when you are threatened. When you are attacked, you can use your reaction and spend 1 Echo Charge to have a spirit disrupt the attacker's resonant systems, imposing disadvantage on that attack roll.
+#### Level 5
+- Grief Blade
+- The Dead Remember
 
-**Level 3: Echo Speaker Subclass**
-You choose your path: The Sutensai Aligned, The Deep Listener, or The Herald. Your subclass grants features at levels 3, 6, 10, and 14.
+#### Level 6
+- Echo Storm
+- Anchor of the Living
 
-**Level 3: Afterlife Attunement**
-Your Hear the Dead ability improves. You can now contact the dead as a bonus action (instead of a full action). Additionally, when you successfully contact a dead individual, you can ask one question for free without spending Echo Charges.
+#### Level 7
+- Speak for the Fallen
+- Sustained Veil
 
-**Level 4: Ability Score Improvement**
+#### Level 8
+- Veil Reach
+- Dead Chorus
 
-**Level 5: Veil Walking**
-You can project your senses briefly into the Iron Afterlife. As an action, spend 2 Echo Charges to extend your perception into the Afterlife for 1 round. While projected, you can perceive the Iron Afterlife equivalent of your current location — seeing Echomind signatures of those who died here, residual spiritual impressions, and any entities currently active in the Afterlife near you. Your physical body stands still during this time. If your body takes damage, your projection ends immediately.
+#### Level 9
+- Iron Afterlife Call
+- Echo Barrage
 
-**Level 5: Spirit Speech**
-Your voice carries spiritual weight. When you speak a formal statement of remembrance or relay a message from the dead, the words cannot be magically suppressed or unheard. Creatures cannot become immune to information you relay from the Iron Afterlife through magical or resonant means. Additionally, you can use Charisma (Persuasion) checks at advantage when speaking to grieving individuals.
+#### Level 10
+- Grief Cascade
+- Veil Tear
 
-**Level 6: Subclass Feature**
+#### Level 11
+- Beyond the Veil
+- Echomind Fracture
 
-**Level 6: Echo Armor**
-The dead protect what they value. You gain a +2 bonus to AC while you have at least 1 Echo Charge remaining.
+#### Level 12
+- The Speaking Dead
+- Veil Dominion
 
-**Level 7: Commune Extended**
-You can now maintain contact with a dead individual for up to 1 hour. During extended communion, the dead individual is present in a limited sense — they can observe through your senses and comment on what they see. They may recognize people, places, and objects they knew in life, and provide information relevant to those connections.
+#### Level 13
+- Resonant Grief
+- Dead Weight
 
-**Level 8: Ability Score Improvement**
+#### Level 14
+- One Foot Gone
+- Veil Sovereign
 
-**Level 8: Veil Disruption**
-As an action, spend 2 Echo Charges to release disrupting spiritual energy at one creature within 30 feet. The target must succeed on a Wisdom saving throw (DC = 8 + proficiency bonus + Wisdom modifier) or take 3d10 psychic damage and be frightened until the end of your next turn. On a success, half damage only, no frightened. Creatures with no Echomind (constructs, etc.) are immune.
+#### Level 15
+- Afterlife Army
+- Echo Torrent
 
-**Level 9: The Dead Remember**
-The Iron Afterlife holds information about recent events. Once per long rest, as a 10-minute ritual, you can ask the collective memory of the Iron Afterlife a question about a specific event that occurred within 1 mile of your current location within the past year. The Afterlife answers in fragments — images, emotional impressions, partial voices. The answer is never a neat narrative; it is raw witness. Interpret carefully.
+#### Level 16
+- The Accuser
+- Grief Engine
 
-**Level 10: Subclass Feature**
+#### Level 17
+- Veil Collapse
+- Dead Reckoning
 
-**Level 10: Echo Storm**
-As an action, spend 3 Echo Charges to call down a wave of spiritual static from the Iron Afterlife. In a 20-foot radius centered on a point within 60 feet, all creatures must make Wisdom saving throws. On a failure: 4d8 psychic damage and deafened for 1 minute. On a success: half damage, not deafened. Additionally, all cybernetic communication systems (Wire Craft effects) in the area are disrupted for 1 round.
+#### Level 18
+- Between Witness
+- Echo Absolute
 
-**Level 11: Anchor of the Living**
-You have become a stable point between the worlds. Creatures with Echominds who die within 30 feet of you can choose to delay their passage to the Iron Afterlife for 1 round, allowing last words, a final action, or one transmitted piece of information. You cannot prevent the passage — only delay it. This does not require your action; it simply happens.
+#### Level 19
+- The Fallen Speak
+- Veil Apotheosis
 
-**Level 12: Ability Score Improvement**
+#### Level 20
+- Voice of Both Worlds (Capstone)
 
-**Level 12: Sustained Veil**
-You no longer need to spend Echo Charges to use Veil Walking. Additionally, when you project into the Afterlife, you can now move (at half speed) while projected without returning to your body.
+---
 
-**Level 13: Speak for the Fallen**
-Once per long rest, you can speak a formal accusation on behalf of a dead individual. Name a living person as responsible for the dead individual's wrongful death (requires genuine resonant testimony from the dead person themselves). Until the accusation is resolved (either the accused confesses, is condemned, or the accusation is formally dismissed by a Sutensai tribunal), the accused creature has disadvantage on Charisma checks made in social situations and cannot benefit from effects that suppress information about their past. The dead speak through you and cannot be unsaid.
+### Full Card Reference
 
-**Level 14: Subclass Feature**
+---
 
-**Level 15: Beyond the Veil**
-You have looked into the Iron Afterlife so many times it no longer looks back with hostility. You are immune to the frightened condition when the source is from the Iron Afterlife or death-based spiritual effects. Additionally, you can communicate freely with any dead individual currently in the Iron Afterlife as a bonus action, as long as they are willing — no check required.
+### Afterlife Attunement
+*Tier 1 (1 AP) | Utility*
 
-**Level 16: Ability Score Improvement**
+**Effect:** Deepen your Veil connection. Detect all Echomind presences (living and dead) within 60 feet. Learn one piece of tactical information about one enemy — their current HP bracket, an active status effect, or one card category they hold. In combat, this also reveals any Iron Afterlife entities active in the area.
+**Keywords:** —
+**Unlock:** Level 1
 
-**Level 17: The Speaking Dead**
-Three times per long rest, you can pull a fragment of a dead individual's Echomind temporarily into the physical world as a semi-corporeal presence. The fragment appears as a glowing, slightly distorted version of the individual as they appeared at death. It has the statistics of a shadow (use ghost statistics) but retains the dead individual's knowledge and personality. It lasts for 1 hour, can act independently (with your guidance), and returns to the Iron Afterlife when the duration ends or it is reduced to 0 hit points. Destroying a pulled fragment is destructive to the Echomind — the fragment requires 1d6 months to reconstitute in the Afterlife.
+---
 
-**Level 18: One Foot Gone**
-You have spent so much time with the dead that the boundary between you and them has changed. You have resistance to necrotic damage and psychic damage. You do not age (time affects you strangely at the border of both worlds). You can enter the Iron Afterlife as a physical presence (not just a projection) for up to 1 hour per long rest. While there, you can be harmed by Afterlife entities. Returning requires a DC 15 Wisdom check; on a failure, you remain one additional hour whether you want to or not.
+### Afterlife Army
+*Tier 3 (3 AP) | Attack | Utility*
 
-**Level 19: Ability Score Improvement**
+**Effect:** Call upon the dead who have unfinished business nearby. For 1 round, spiritual presences harass all enemies within 30 feet. Each enemy takes 12 + RESONANCE damage and gains Stagger. Enemies cannot use Veil cards this round — the dead drown out their social manipulation.
+**Keywords:** Stagger, Silence
+**Unlock:** Level 15
 
-**Level 20: Voice of Both Worlds**
-You are now fully a bridge between the living and the dead. Your Echo Charges maximum doubles. Once per long rest, you can open the Veil fully in a 30-foot radius for 1 minute: all dead who have unfinished business in the area manifest simultaneously as spiritual presences (DM determines specifics), all creatures in the area can hear and communicate with the dead directly, and any creature reduced to 0 hit points in the area has their Echomind held stable by your presence — they will survive if stabilized (they do not make death saving throws; they are simply held at 0 until stabilized or healed). When this effect ends, you are immediately reduced to 1 hit point regardless of your current total. The bridge, used fully, costs everything.
+---
+
+### Anchor of the Living
+*Tier 2 (2 AP) | Utility | Passive*
+
+**Effect:** You become a stable point between the worlds. Any ally within 30 feet who would be reduced to 0 HP this round is instead held at 1 HP. They do not make death checks this round. This effect triggers once per round automatically — it does not cost your action when it triggers.
+**Keywords:** —
+**Unlock:** Level 6
+
+---
+
+### Between Witness
+*Tier 3 (3 AP) | Utility | Signature*
+
+**Effect:** Project your full awareness into the Iron Afterlife while remaining physically present. For 1 round, you perceive both worlds simultaneously. You learn the true motivations, last words, and death circumstances of any creature who has died in the area within the past year. In combat: apply Expose 3 to all enemies as the dead reveal their weaknesses to you.
+**Keywords:** Expose 3
+**Unlock:** Level 18
+
+---
+
+### Beyond the Veil
+*Tier 2 (2 AP) | Defense | Utility*
+
+**Effect:** The Iron Afterlife no longer looks at you with hostility. Gain immunity to Silence and Stagger from Iron Afterlife sources for the rest of the scene. Gain Guard 8. Your next RESONANCE card this turn costs 0 AP.
+**Keywords:** Guard 8
+**Unlock:** Level 11
+
+---
+
+### Dead Chorus
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Channel a chorus of dead voices into a disorienting wave. All enemies within 20 feet take 10 + RESONANCE damage and gain Stagger. Enemies with active Silence take an additional 6 damage — the dead they cannot hear speak anyway.
+**Keywords:** Stagger
+**Unlock:** Level 8
+
+---
+
+### Dead Reckoning
+*Tier 3 (3 AP) | Attack | Utility*
+
+**Effect:** The dead name the guilty. Target one enemy within 60 feet. Deal 22 + VEIL damage. Apply Expose 3, Stagger, and Silence. For the rest of the scene, this enemy cannot benefit from Veil effects or concealment — the dead have marked them.
+**Keywords:** Expose 3, Stagger, Silence
+**Unlock:** Level 17
+
+---
+
+### Dead Voice
+*Tier 1 (1 AP) | Attack*
+
+**Effect:** Channel a dead voice as a weapon — grief and accusation made audible. Deal 6 + RESONANCE damage to one target within 30 feet. Apply Expose 1.
+**Keywords:** Expose 1
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Dead Weight
+*Tier 2 (2 AP) | Control*
+
+**Effect:** Channel the weight of the dead onto one enemy within 30 feet. Deal 10 + RESONANCE damage. Apply Root and Stagger. The target feels the accumulated grief of those they have harmed — they cannot use Veil cards next turn.
+**Keywords:** Root, Stagger
+**Unlock:** Level 13
+
+---
+
+### Echo Absolute
+*Tier 3 (3 AP) | Defense | Utility*
+
+**Effect:** The dead stand between you and harm. For 1 round, all damage you take is reduced by 12 before Guard applies. Allies within 20 feet gain Guard 10. Any enemy who deals damage to you or an ally this round takes 8 + RESONANCE damage as the dead strike back.
+**Keywords:** Guard 10
+**Unlock:** Level 18
+
+---
+
+### Echo Armor
+*Tier 1 (1 AP) | Defense*
+
+**Effect:** The dead reinforce you. Gain Guard 8. While Guard is active from this card, you cannot be targeted by Veil or social manipulation cards — the dead notice and intercept.
+**Keywords:** Guard 8
+**Unlock:** Level 4
+
+---
+
+### Echo Barrage
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Release a barrage of dead voices and resonant grief at up to three targets within 40 feet. Each takes 8 + RESONANCE damage and gains Expose 1.
+**Keywords:** Expose 1
+**Unlock:** Level 9
+
+---
+
+### Echo Engine
+*Tier 3 (3 AP) | Utility | Passive*
+
+**Effect:** — (see Grief Engine)
+**Keywords:** —
+**Unlock:** —
+
+---
+
+### Echo Shield
+*Tier 1 (1 AP) | Defense | Reaction*
+
+**Effect:** Triggered when you or an ally within 20 feet is targeted by an attack. The dead intercept — apply Guard 6 to the target. The attacker takes 4 + RESONANCE damage as spiritual backlash.
+**Keywords:** Guard 6
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Echo Storm
+*Tier 3 (3 AP) | Attack | Control*
+
+**Effect:** Call a wave of spiritual static from the Iron Afterlife. All creatures within a 20-foot radius of a point within 60 feet take 16 + RESONANCE damage. Apply Stagger. All Signal and Resonance cards used in the area this round are Silenced.
+**Keywords:** Stagger, Silence
+**Unlock:** Level 6
+
+---
+
+### Echo Torrent
+*Tier 3 (3 AP) | Attack*
+
+**Effect:** Unleash a torrent of grief and dead voices across a 30-foot cone. All enemies in the cone take 18 + RESONANCE damage and gain Stagger and Expose 2.
+**Keywords:** Stagger, Expose 2
+**Unlock:** Level 15
+
+---
+
+### Echomind Fracture
+*Tier 3 (3 AP) | Control*
+
+**Effect:** Target one enemy within 30 feet. Their Echomind is cracked open by the weight of the dead. Deal 14 + RESONANCE damage. Apply Silence for 2 rounds, Stagger, and Expose 3. While Silenced by this card, the target hears the voices of those they have harmed — they cannot use Veil cards for the duration.
+**Keywords:** Silence, Stagger, Expose 3
+**Unlock:** Level 11
+
+---
+
+### Grief Blade
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Channel accumulated grief into a focused strike. Deal 12 + RESONANCE damage to one target within 30 feet. For every ally who has been reduced to 0 HP this scene, deal +4 additional damage (maximum +16). Apply Expose 2.
+**Keywords:** Expose 2
+**Unlock:** Level 5
+
+---
+
+### Grief Cascade
+*Tier 3 (3 AP) | Attack*
+
+**Effect:** Unleash a cascade of grief, accusation, and dead testimony at all enemies within 25 feet. Each takes 14 + RESONANCE damage and gains Stagger. Enemies with Expose active take an additional 8 damage.
+**Keywords:** Stagger, Pierce 4
+**Unlock:** Level 10
+
+---
+
+### Grief Engine
+*Tier 3 (3 AP) | Utility | Passive*
+
+**Effect:** Convert accumulated grief into power. Each time an ally or enemy dies within 30 feet of you this scene, gain a Grief stack (maximum 5). Each Grief stack adds +3 damage to your RESONANCE Attack cards. At 5 stacks, your next RESONANCE Attack card also applies Stagger and Expose 2 automatically, then stacks reset.
+**Keywords:** —
+**Unlock:** Level 16
+
+---
+
+### Grief Weapon
+*Tier 1 (1 AP) | Attack*
+
+**Effect:** Speak a word of grief that lands like a blow. Deal 5 + VEIL damage to one target within 30 feet. If the target has an active Expose effect, deal +4 additional damage.
+**Keywords:** —
+**Unlock:** Level 1
+
+---
+
+### Iron Afterlife Call
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** Open a direct channel to the Iron Afterlife. In combat: learn the true nature of one enemy — their actual motivations, any active deceptions, and one card they are holding. Out of combat: contact any dead individual whose name or signature you know; they answer as completely as they are able.
+**Keywords:** —
+**Unlock:** Level 9
+
+---
+
+### One Foot Gone
+*Tier 2 (2 AP) | Defense | Utility*
+
+**Effect:** Your partial presence in the Iron Afterlife shields you. Gain resistance to the next source of RESONANCE damage this round (halve it). Gain Guard 10. For 1 round, you cannot be Silenced — the dead keep your voice open.
+**Keywords:** Guard 10
+**Unlock:** Level 14
+
+---
+
+### Relay
+*Tier 1 (1 AP) | Control | Utility*
+
+**Effect:** Channel a dead voice through your own. One enemy within 30 feet hears an accusation or truth they cannot dismiss. Apply Stagger and Expose 1. Out of combat: a specific dead individual may speak through you for up to 1 minute, saying whatever they choose.
+**Keywords:** Stagger, Expose 1
+**Unlock:** Level 2
+
+---
+
+### Resonant Grief
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Your grief becomes a resonant weapon. Deal 14 + RESONANCE damage to one target within 40 feet. If you have lost an ally this scene, deal +8 additional damage. Apply Expose 2.
+**Keywords:** Expose 2
+**Unlock:** Level 13
+
+---
+
+### Spirit Speech
+*Tier 2 (2 AP) | Control | Utility*
+
+**Effect:** Speak words that carry spiritual weight and cannot be silenced or suppressed. One statement you make this round cannot be countered by Veil, Signal, or deception effects. In combat: apply Stagger to all enemies within 20 feet who can hear you. The truth of the dead is louder than their defenses.
+**Keywords:** Stagger
+**Unlock:** Level 3
+
+---
+
+### Spirit Ward
+*Tier 1 (1 AP) | Defense*
+
+**Effect:** The dead form a protective presence around you. Gain Guard 6 and Fortify for 1 round. Enemies who target you with Veil cards this round have those cards lose their rider effects — the dead strip away the manipulation.
+**Keywords:** Guard 6, Fortify
+**Unlock:** Level 2
+
+---
+
+### Speak for the Fallen
+*Tier 2 (2 AP) | Control | Utility*
+
+**Effect:** Formally accuse one enemy within 30 feet on behalf of the dead. Apply Expose 3 and Stagger. The target cannot use Veil cards this round — the dead drown out their social armor. Out of combat: this accusation carries spiritual weight; it cannot be denied in any community that respects the Iron Afterlife.
+**Keywords:** Expose 3, Stagger
+**Unlock:** Level 7
+
+---
+
+### Sustained Veil
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** Extend your Veil Walking into a sustained projection. For 1 round, you perceive both the physical world and the Iron Afterlife simultaneously. Hidden enemies are revealed. Iron Afterlife entities are visible and targetable by your cards. Gain +2 RESONANCE until end of turn.
+**Keywords:** —
+**Unlock:** Level 7
+
+---
+
+### The Accuser
+*Tier 3 (3 AP) | Control | Signature*
+
+**Effect:** The dead speak through you with absolute authority. Name one enemy within 60 feet. Deal 16 + VEIL damage. Apply Expose 3, Silence for 2 rounds, and Root. For the rest of the scene, this enemy cannot benefit from Guard, Shield, or Fortify — the dead have stripped their defenses.
+**Keywords:** Expose 3, Silence, Root
+**Unlock:** Level 16
+
+---
+
+### The Dead Remember
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** Access the Iron Afterlife's collective memory of this location. In combat: learn one fact about each enemy — their current HP total, one card they have not yet played, or one status immunity. Out of combat: ask the Afterlife one question about any event that occurred in the past year within 1 mile.
+**Keywords:** —
+**Unlock:** Level 5
+
+---
+
+### The Fallen Speak
+*Tier 3 (3 AP) | Attack | Signature*
+
+**Effect:** Every dead voice you have ever carried speaks at once. All enemies within 40 feet take 20 + RESONANCE damage and gain Stagger, Expose 2, and Silence for 1 round. Allies within 40 feet recover 10 HP and gain Guard 8 — the dead protect those who honor them.
+**Keywords:** Stagger, Expose 2, Silence, Guard 8
+**Unlock:** Level 19
+
+---
+
+### Veil Apotheosis
+*Tier 3 (3 AP) | Utility | Signature*
+
+**Effect:** Become fully the bridge between the living and the dead. For 1 round: your RESONANCE and VEIL each increase by 3. Your RESONANCE Attack cards deal +VEIL additional damage. Your Control cards cannot be countered by Fortify or Veil effects. Once per scene.
+**Keywords:** —
+**Unlock:** Level 19
+
+---
+
+### Veil Collapse
+*Tier 3 (3 AP) | Attack | Control*
+
+**Effect:** Tear the Veil between worlds open in a 25-foot radius within 60 feet. All enemies in the area take 18 + RESONANCE damage and gain Stagger and Silence for 2 rounds. Any Iron Afterlife entities in the area become fully manifest and hostile to all living creatures (GM determines specifics).
+**Keywords:** Stagger, Silence
+**Unlock:** Level 17
+
+---
+
+### Veil Disruption
+*Tier 2 (2 AP) | Attack | Control*
+
+**Effect:** Release disrupting spiritual energy at one creature within 30 feet. Deal 12 + RESONANCE damage. Apply Stagger and Expose 2. Creatures with no Echomind are immune to the Stagger but take full damage.
+**Keywords:** Stagger, Expose 2
+**Unlock:** Level 4
+
+---
+
+### Veil Dominion
+*Tier 3 (3 AP) | Utility | Passive*
+
+**Effect:** Your connection to the Veil becomes total. For the rest of the scene: you detect all hidden, concealed, and invisible creatures within 60 feet. You cannot be surprised. Your RESONANCE Attack cards deal +4 damage. All Control effects you apply last 1 additional round.
+**Keywords:** —
+**Unlock:** Level 12
+
+---
+
+### Veil Reach
+*Tier 2 (2 AP) | Control*
+
+**Effect:** Extend your Veil influence to touch a target at range. Target one enemy within 60 feet. Deal 10 + VEIL damage. Apply Stagger and Expose 1. The target cannot become hidden or concealed for the rest of the scene — the dead have marked them.
+**Keywords:** Stagger, Expose 1, Mark
+**Unlock:** Level 8
+
+---
+
+### Veil Sense
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Open your awareness to the dead. Sense all Echomind presences within 60 feet, including hidden and concealed creatures. Learn whether each enemy has taken damage this scene and their HP bracket. In combat, also learn one active keyword on an unplayed card each enemy holds.
+**Keywords:** —
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Veil Sovereign
+*Tier 3 (3 AP) | Utility | Signature*
+
+**Effect:** Your dominion over the space between the living and dead reaches its peak. For the rest of the scene: allies within 30 feet cannot be reduced below 1 HP by a single hit (once per ally per scene). Your RESONANCE and VEIL cards each deal +4 damage. Once per scene.
+**Keywords:** —
+**Unlock:** Level 14
+
+---
+
+### Veil Tear
+*Tier 3 (3 AP) | Attack*
+
+**Effect:** Tear the Veil and release concentrated Afterlife energy at one target within 60 feet. Deal 22 + RESONANCE damage. Pierce 6. Apply Expose 3 and Silence for 2 rounds. If the target is an Iron Afterlife entity, this card expels them from the physical world immediately.
+**Keywords:** Expose 3, Silence, Pierce 6
+**Unlock:** Level 10
+
+---
+
+### Veil Walking
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Project your senses briefly into the Iron Afterlife. For 1 round, you perceive the Afterlife overlay on your current location. In combat: reveal all concealed enemies and learn one unplayed card category from each. Your physical body gains Guard 4 while projected.
+**Keywords:** Guard 4
+**Unlock:** Level 3
+
+---
+
+### Voice of Both Worlds
+*Tier 3 (3 AP) | Signature | Capstone*
+
+**Effect:** Open the Veil fully in a 30-foot radius for 1 round. All dead with unfinished business in the area speak simultaneously — every enemy takes 18 + RESONANCE damage, gains Stagger, Silence, and Expose 3. Every ally recovers 14 HP and gains Guard 12. Any ally reduced to 0 HP this round is held at 1 HP by your presence. When this card resolves, you are reduced to 1 HP — the bridge, used fully, costs everything.
+**Keywords:** Stagger, Silence, Expose 3, Guard 12
+**Unlock:** Level 20
 
 ---
 

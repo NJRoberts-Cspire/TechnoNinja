@@ -8,7 +8,7 @@
 ---
 
 # The Newly Shelled
-*Construct (Shell-State) | CR 2 | Medium | Unaligned*
+*Brute | Standard | Medium*
 
 ## Description
 From a distance, the Newly Shelled looks like a person standing still. Up close, the wrongness begins. It stands too straight — no micro-adjustments, no natural sway, the constant minute unconscious movement of a living body utterly absent. When it turns to look at you, the motion is mechanical in a way that no human motion is mechanical: no anticipation, no hesitation, no human tell of what comes next. The eyes are open. There is nothing behind them that recognizes you as anything other than an obstacle classification.
@@ -24,47 +24,43 @@ Oni Hunters track Newly Shelled with particular urgency because the window in wh
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 12 (cybernetic subdermal plating)
-**Hit Points:** 32 (5d8 + 10)
-**Speed:** 30 ft.
+**HP:** 36 (FRAME 3 × 8 + 12)
+**AP Max:** 2
+**Hand Size:** 3 cards
+**Initiative:** 2 (EDGE)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 14 (+2) | 12 (+1) | 14 (+2) | 10 (+0) | 6 (-2) | 3 (-4) |
+| 3 | 2 | 3 | 1 | 1 | 1 |
 
-**Saving Throws:** Con +4
-**Skills:** Athletics +4
-**Damage Immunities:** Psychic
-**Condition Immunities:** Charmed, Frightened, Exhaustion
-**Senses:** Darkvision 30 ft., Passive Perception 8
-**Languages:** Understands languages it knew in life but cannot communicate
-**Challenge:** 2 (450 XP)
+**Status Immunities:** Charmed, Frightened, Stagger (no mind to stagger)
+**Resistances:** Psychic and social effects have no impact — there is nothing there to affect
+**Senses:** Darkvision 30 ft.; no perception beyond direct sensory input
 
-### Special Traits
-**No Pain Response.** The Newly Shelled does not experience pain. It ignores the penalties of the Wounded condition and continues to function until it reaches 0 hit points without behavioral change.
+### Basic Attack — Mechanism Strike
+*0 AP | Melee Attack | Once per turn*
+**Effect:** Deal 6 damage (3 + IRON 3) to one target. The strike carries no telegraph — no windup, no expression. It arrives.
 
-**Echomind Void.** The Newly Shelled cannot be targeted by spells or abilities that affect the mind, emotions, or soul (charm, fear, suggestion, detect thoughts, etc.). There is nothing there to affect.
+### Enhancement Override Grip
+*Tier 1 (1 AP) | Control*
+**Effect:** Deal 5 damage and apply Root to one target. If the target has cybernetic enhancements, also apply Silence until they break free. The Newly Shelled locks its finger-enhancements around an integration point and holds.
+**Keywords:** Root, Silence
 
-**Routine Lock.** When first encountered, roll 1d6. On a 1-3, the Shell is currently executing a routine (walking to a location, performing a repetitive task, standing guard). It will not initiate combat unless directly impeded. On a 4-6, the Shell's routine has been disrupted and it classifies nearby creatures as obstacles to be removed.
-
-**Uncanny Stillness.** Creatures that observe the Newly Shelled from a distance of 30 feet or more and fail a DC 12 Wisdom (Perception) check do not initially identify it as anything other than a person standing still.
-
-### Actions
-**Multiattack.** The Newly Shelled makes two Mechanism Strikes.
-
-**Mechanism Strike.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) bludgeoning damage. The Strike is not telegraphed — no windup, no warning expression. This attack cannot be readied against.
-
-**Enhancement Override Grip.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9 (2d6 + 2) bludgeoning damage and the target is grappled (escape DC 12). If the target has cybernetic enhancements, the grip interfaces with them: the target's enhancement-based abilities are suppressed until the grapple ends.
-
-### Reactions
-**Uninterrupted Routine.** When the Newly Shelled takes damage, it does not flinch, stagger, or redirect attention unless the damage source is in its immediate path. It may be attacked from behind with no behavioral response for one full round before it re-classifies the attacker as an obstacle.
+### Uninterrupted Routine
+*Reaction | Triggered by: taking damage from behind or from range*
+**Effect:** The Newly Shelled does not redirect attention toward the attacker for one full round. The attacker gains no threat priority — other targets continue to be processed as higher obstacles. This is not evasion. There is simply no one home to be startled.
 
 ---
 
+## AI Behavior
+**Role:** Brute
+**Priority:** Moves toward the nearest target it classifies as an obstacle. Uses Mechanism Strike every turn. Applies Enhancement Override Grip when adjacent to an enhanced target. Does not retreat. Does not adjust priorities. Does not respond to pain.
+**Threat State Shifts:** None. The Newly Shelled does not change behavior at low HP. It continues its routine until it stops.
+
 ## Encounter Notes
-The horror of the Newly Shelled is not the danger — CR 2 is something a competent party handles — but what it represents. Consider giving this creature the face of someone the players have met. A dockworker they hired last session. A gate guard who waved them through. The encounter should not be primarily about combat; it should be about whether the players immediately draw weapons or hesitate, ask questions, try to communicate, or attempt to get past it without harming it.
+The horror of the Newly Shelled is not the danger — Standard tier is something a competent party handles — but what it represents. Consider giving this creature the face of someone the players have met. A dockworker they hired last session. A gate guard who waved them through. The encounter should not be primarily about combat; it should be about whether the players immediately draw weapons or hesitate, ask questions, try to communicate, or attempt to get past it without harming it.
 
 A Quieter NPC who accompanies the party or arrives afterward can serve as a moral anchor — clinical, compassionate, experienced with the grief of this work. They perform the Closing Rite in silence. They do not look at the face when they do it.
 
@@ -74,7 +70,7 @@ The party arrives at a farming community two days' walk from the nearest Ironhol
 ---
 
 # The Soldier-Shell
-*Construct (Shell-State) | CR 5 | Medium | Unaligned*
+*Brute | Elite | Medium*
 
 ## Description
 The Ironhold has a problem it does not discuss at recruitment briefings: military-grade cybernetic enhancement accelerates Shelling. The same modifications that make a soldier faster, stronger, more precise — deeper integration, higher resonance load, combat-optimized response loops — put greater stress on the Echomind's ability to maintain cohesion. The Ironhold knows this. The Ironhold continues to equip soldiers. The Ironhold has standing protocols for what to do when a soldier Shells in the field.
@@ -90,54 +86,54 @@ The Sutensai Veil Weavers who study Shell-state note that Soldier-Shells retain 
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 16 (military-grade reinforced plating)
-**Hit Points:** 91 (14d8 + 28)
-**Speed:** 35 ft.
+**HP:** 72 (FRAME 6 × 8 + 24)
+**AP Max:** 3
+**Hand Size:** 5 cards
+**Initiative:** 5 (EDGE)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 18 (+4) | 16 (+3) | 15 (+2) | 10 (+0) | 6 (-2) | 3 (-4) |
+| 6 | 5 | 6 | 2 | 1 | 1 |
 
-**Saving Throws:** Str +6, Dex +5, Con +4
-**Skills:** Athletics +6, Acrobatics +5
-**Damage Resistances:** Bludgeoning, Piercing, and Slashing from nonmagical weapons not made of resonant metal
-**Damage Immunities:** Psychic
-**Condition Immunities:** Charmed, Frightened, Exhaustion, Stunned
-**Senses:** Darkvision 60 ft., Passive Perception 8
-**Languages:** Understands military command codes (Ironhold cipher) but cannot communicate
-**Challenge:** 5 (1,800 XP)
+**Status Immunities:** Charmed, Frightened, Stunned, all mind-affecting status
+**Resistances:** Physical damage from non-resonant-metal weapons deals half value (military plating)
+**Senses:** Darkvision 60 ft.; cannot be surprised
 
-### Special Traits
-**Combat Protocols Active.** The Soldier-Shell has advantage on initiative rolls. It cannot be surprised.
+### Basic Attack — Reinforced Strike
+*0 AP | Melee Attack | Once per turn*
+**Effect:** Deal 12 damage (6 + IRON 6) to one target.
 
-**Threat Assessment Loop.** At the start of its turn, the Soldier-Shell automatically identifies the creature with the highest hit points within 60 feet. It prioritizes that creature as its primary target until that creature is incapacitated. This targeting cannot be overridden by tactical misdirection unless the redirecting creature succeeds on a DC 14 Charisma check.
+### Suppression Discharge
+*Tier 1 (1 AP) | Ranged Attack*
+**Effect:** Deal 11 damage (6 + EDGE 5) to one target at range. If the target has active cybernetic enhancements, apply Silence until end of their next turn.
+**Keywords:** Silence
 
-**Echomind Void.** Immune to psychic damage and all mind-affecting abilities.
+### Combat Burst
+*Tier 2 (2 AP) | Mobility + Attack*
+**Effect:** The Soldier-Shell moves in a straight line up to 40 ft. and deals 12 damage to every creature in its path. Creatures struck must resist being knocked prone (lose their Mobility card this turn on a failure).
+**Keywords:** Pierce 3
 
-**Unfeeling Frame.** The Soldier-Shell does not suffer disadvantage on attack rolls from being in difficult conditions (prone, blinded, etc.) as long as its sensory enhancements are functional.
-
-**Military Command Override (Recharge 5-6).** If a creature uses an action to speak Ironhold military command codes (requires proficiency with the Ironhold cipher, or a DC 16 Intelligence check), the Soldier-Shell must make a DC 12 Wisdom saving throw. On a failed save, it is stunned until the end of its next turn as old programming conflicts with current threat assessment.
-
-### Actions
-**Multiattack.** The Soldier-Shell makes three attacks: two with its Reinforced Strike and one with its Suppression Discharge.
-
-**Reinforced Strike.** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) bludgeoning damage.
-
-**Suppression Discharge.** *Ranged Weapon Attack:* +5 to hit, range 60/120 ft., one target. *Hit:* 14 (2d10 + 3) piercing damage. If the target has active cybernetic enhancements, they must succeed on a DC 13 Constitution saving throw or one enhancement of the attacker's choice is disabled until the end of the target's next turn.
-
-**Combat Burst (Recharge 5-6).** The Soldier-Shell moves up to its full speed in a straight line and makes a Reinforced Strike against every creature in its path. Each creature in the path that is struck must succeed on a DC 14 Strength saving throw or be knocked prone.
-
-### Reactions
-**Tactical Counterstrike.** When a creature misses the Soldier-Shell with a melee attack, it can make one Reinforced Strike against that creature.
+### Tactical Counterstrike
+*Reaction | Triggered by: a melee attack that misses the Soldier-Shell*
+**Effect:** Immediately deal 12 damage (6 + IRON 6) to the creature that missed.
 
 ---
+
+**Passive — Threat Assessment Loop:** At the start of each turn, the Soldier-Shell automatically targets the highest-HP creature within detection range. This targeting cannot be redirected unless a creature with Ironhold military command codes spends 2 AP and succeeds on a VEIL challenge (difficulty 4). On success, the Shell is Staggered for 1 round as old programming conflicts with active threat data.
+
+---
+
+## AI Behavior
+**Role:** Brute
+**Priority:** Targets the highest-HP combatant. Opens with Combat Burst to close distance and establish central position. Uses Suppression Discharge against enhancement-heavy targets. Uses Reinforced Strike and Tactical Counterstrike to punish melee engagers.
+**Threat State Shifts:** None. The Soldier-Shell does not adapt. It continues executing its threat-response loop until it reaches 0 HP. No hesitation. No self-preservation.
 
 ## Encounter Notes
 The Soldier-Shell is most interesting when it's familiar — when the party encountered the soldier before they Shelled, or when they're navigating an Ironhold installation and find that the "hostile" they've been warned about is the base's commanding officer. The tragedy here is procedural: the Soldier-Shell is doing everything it was built to do. It is fighting correctly. It is following its training. No one is home to see how.
 
-For an advanced encounter: introduce the Command Override mechanic as a skill challenge. The party must find a way to obtain the cipher, keep the Shell occupied while one character uses it, and then decide what to do with the stunned window — they can try to flee, or they can choose to give the Quieter on their team a chance to perform the Closing Rite. The Rite takes a full minute. The stun lasts six seconds.
+For an advanced encounter: introduce the Command Override mechanic as a skill challenge. The party must find a way to obtain the cipher, keep the Shell occupied while one character uses it, and then decide what to do with the stunned window — they can try to flee, or they can choose to give the Quieter on their team a chance to perform the Closing Rite. The Rite takes a full minute. The stun lasts one round.
 
 ## Adventure Hook
 An Ironhold patrol checkpoint has gone dark. The nearest garrison is requesting that someone investigate before they send their own people in — they suspect Shelling but cannot officially confirm without evidence that would trigger a mandatory review of the enhancement protocols they've been quietly ignoring. They want unofficial eyes. The party enters to find a single Soldier-Shell has processed the entire checkpoint's staff of seven. Six bodies. One person still breathing — a young soldier who survived by hiding in a drainage culvert for three days. They know command codes. They are not sure they can say them out loud.
@@ -145,7 +141,7 @@ An Ironhold patrol checkpoint has gone dark. The nearest garrison is requesting 
 ---
 
 # The Hunger-Shell
-*Construct (Shell-State) | CR 8 | Medium | Unaligned*
+*Brute | Elite | Medium*
 
 ## Description
 Most Shells run their existing programming until something disrupts the loop. The Hunger-Shell has developed something new — not thought, not desire in any meaningful sense, but a behavioral directive that emerged from months or years of reduced function and incomplete power cycling. It harvests resonant metal.
@@ -161,56 +157,54 @@ In communities near the Ashlands especially, the Hunger-Shell is called a "strip
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 15 (salvaged composite plating)
-**Hit Points:** 136 (16d8 + 64)
-**Speed:** 30 ft.
+**HP:** 80 (FRAME 7 × 8 + 24)
+**AP Max:** 3
+**Hand Size:** 5 cards
+**Initiative:** 3 (EDGE)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 19 (+4) | 14 (+2) | 18 (+4) | 6 (-2) | 4 (-3) | 3 (-4) |
+| 7 | 3 | 7 | 1 | 1 | 1 |
 
-**Saving Throws:** Str +7, Con +7
-**Skills:** Perception +0 (enhancement-based targeting only)
-**Damage Resistances:** Bludgeoning, Piercing, and Slashing from nonmagical weapons
-**Damage Immunities:** Psychic
-**Condition Immunities:** Charmed, Frightened, Exhaustion, Poisoned
-**Senses:** Darkvision 60 ft., Enhancement Sense 60 ft. (can detect active cybernetic enhancements regardless of line of sight), Passive Perception 7
-**Languages:** None
-**Challenge:** 8 (3,900 XP)
+**Status Immunities:** Charmed, Frightened, Poisoned, all mind-affecting status
+**Resistances:** Physical damage from non-resonant weapons deals half value (salvaged composite plating). Critical hits deal normal damage — the accumulated grafts absorb the excess.
+**Senses:** Darkvision 60 ft.; Enhancement Sense 60 ft. — detects active cybernetic enhancements regardless of line of sight or barriers
 
-### Special Traits
-**Resonance Tracking.** The Hunger-Shell automatically knows the direction and distance of any active cybernetic enhancement within 60 feet, even through walls. Creatures with no cybernetic enhancements are effectively invisible to it unless it has another sensory confirmation.
+### Basic Attack — Pry Strike
+*0 AP | Melee Attack | Once per turn*
+**Effect:** Deal 14 damage (7 + IRON 7) to one target. If the target has cybernetic enhancements, apply Root (the Hunger-Shell's finger-tools lock around an integration point).
+**Keywords:** Root
 
-**Echomind Void.** Immune to psychic damage and all mind-affecting abilities.
+### Extraction
+*Tier 2 (2 AP) | Control — requires a Rooted target*
+**Effect:** One Rooted target with cybernetic enhancements is forced into an extraction attempt. Deal 18 damage and apply Expose 3. If the target is already Exposed, one of their enhancement-based cards is disabled until they receive specialist treatment (cannot be played for the remainder of the encounter). The Hunger-Shell regains 10 HP from the harvested resonant metal.
+**Keywords:** Expose 3, Pierce 4
 
-**Harvest Accumulation.** Each time the Hunger-Shell successfully completes an Extraction (see Actions), it regains 10 hit points as the new resonant metal integrates. Additionally, its AC increases by 1 (maximum AC 18) for each successful Extraction in a combat encounter.
+### Resonance Lock
+*Tier 1 (1 AP) | Signal Attack*
+**Effect:** Deal 8 damage and apply Silence to one target with active cybernetics within 30 ft. This is electromagnetic, not psychic — it functions against fully mechanical constructs.
+**Keywords:** Silence
 
-**Salvaged Frame.** The Hunger-Shell's accumulated grafts make it difficult to target vital areas. Critical hits against it deal normal damage instead of double damage.
-
-### Actions
-**Multiattack.** The Hunger-Shell makes two Pry Strikes and then attempts one Extraction if it has a grappled target.
-
-**Pry Strike.** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) piercing damage. If the target has cybernetic enhancements, the target must succeed on a DC 15 Strength saving throw or be grappled (escape DC 15) as the Hunger-Shell's finger-tools lock around an enhancement component.
-
-**Extraction.** *Melee attack against a grappled target:* One grappled target with cybernetic enhancements must succeed on a DC 15 Constitution saving throw. On a failed save, the Hunger-Shell forcibly removes one enhancement component, dealing 22 (4d10) necrotic damage and permanently disabling one of the target's enhancement-based abilities (chosen by the DM, or determined by a d6 roll on a table of installed enhancements) until the component is surgically re-integrated. The extracted component is now part of the Hunger-Shell. On a successful save, the target takes 11 (2d10) necrotic damage and remains grappled.
-
-**Resonance Lock.** The Hunger-Shell targets one creature with active cybernetics within 30 feet. That creature must succeed on a DC 14 Constitution saving throw or have all of their cybernetic enhancements simultaneously lock up and cease function for 1 minute. The creature can repeat the saving throw at the end of each of their turns. This is not a psychic attack — it is electromagnetic. It does not work against fully mechanical constructs.
-
-### Legendary Actions
-The Hunger-Shell can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The Hunger-Shell regains spent legendary actions at the start of its turn.
-
-**Reach (1 action).** The Hunger-Shell makes one Pry Strike.
-
-**Lock and Hold (2 actions).** One creature grappled by the Hunger-Shell automatically fails the saving throw for Extraction if Extraction is used before the start of the Hunger-Shell's next turn.
-
-**Resonance Flare (3 actions).** The Hunger-Shell emits a pulse from all of its accumulated salvage. Each creature within 15 feet with cybernetic enhancements takes 14 (4d6) lightning damage and must succeed on a DC 15 Constitution saving throw or be stunned until the end of the Hunger-Shell's next turn.
+### Resonance Flare
+*Tier 3 (3 AP) | Area Attack*
+**Effect:** The Hunger-Shell pulses all accumulated salvage simultaneously. Deal 14 damage to every creature with cybernetic enhancements within 15 ft. Creatures that fail to resist are Stunned until end of their next turn.
+**Keywords:** Stagger, Silence
 
 ---
 
+**Passive — Harvest Accumulation:** Each time the Hunger-Shell completes an Extraction, its Guard increases by 3 (maximum Guard 12) and it regains 10 HP as new resonant metal integrates.
+
+---
+
+## AI Behavior
+**Role:** Brute / Predator
+**Priority:** Moves directly toward the most heavily enhanced target. Uses Pry Strike to establish Root, then follows immediately with Extraction. Uses Resonance Lock against targets that attempt to maintain distance. Saves Resonance Flare for clustered enhancement-heavy targets.
+**Threat State Shifts:** At 50% HP, the Hunger-Shell enters accelerated harvest mode — it prioritizes Extraction over all other actions, abandoning targets that are not enhanced.
+
 ## Encounter Notes
-The Hunger-Shell forces players to make tactical decisions about cybernetic enhancement use. Characters who lean heavily on enhancement-based abilities suddenly face a predator that specifically targets those abilities. The Extraction mechanic introduces the possibility of permanent (if repairable) consequence — the DM should use this judiciously, but the threat of it should be real.
+The Hunger-Shell forces players to make tactical decisions about cybernetic enhancement use. Characters who lean heavily on enhancement-based abilities suddenly face a predator that specifically targets those abilities. The Extraction mechanic introduces the possibility of permanent (if repairable) consequence — the GM should use this judiciously, but the threat of it should be real.
 
 The most interesting question the Hunger-Shell raises is: whose enhancements are visible on it? If one of those serialized components has a name the party recognizes — a missing NPC, a person they were looking for — the Hunger-Shell becomes both an obstacle and a clue. What happened to Daisuke Mori, whose spinal enhancement is now visible on this thing's left shoulder? The Hunger-Shell cannot answer. Daisuke Mori is not here to answer either.
 
@@ -220,7 +214,7 @@ A Sutensai Quieter has gone missing along the northern route — they were trave
 ---
 
 # The Cathedral
-*Construct (Shell-State) | CR 13 | Gargantuan | Unaligned*
+*Brute | Boss | Gargantuan*
 
 ## Description
 There was a person at the center of the Cathedral, once. A very long time ago, in a place that is now a checkpoint on the eastern road, someone's Echomind went dark and their body began — slowly, over years and then decades — to grow.
@@ -232,56 +226,61 @@ The Ironhold built the checkpoint because there was no routing around the Cathed
 ## Lore
 The Sutensai have a single-page document about the Cathedral, which they have updated three times in the last forty years. The document contains: a date of first observation, a measurement log, a list of failed termination attempts, and a note at the bottom that reads, in the handwriting of a Veil Master who died twelve years ago: "It is possible that the Cathedral is not a Shell. It is possible that the Cathedral is what Shelling becomes when given enough time and enough material. It is possible that these are the same thing."
 
-No one in the Sutensai formally endorses this note. No one has removed it. Common people who live along the eastern road have a complex relationship with the Cathedral — some make offerings at the checkpoint because they believe the Cathedral absorbs bad fortune, feeding on misfortune and hardship. Some make offerings because they lost a relative to it and they do not know what else to do. The Ironhold checkpointcommanders have standing orders to discourage this practice. They are not consistent about enforcing this.
+No one in the Sutensai formally endorses this note. No one has removed it. Common people who live along the eastern road have a complex relationship with the Cathedral — some make offerings at the checkpoint because they believe the Cathedral absorbs bad fortune, feeding on misfortune and hardship. Some make offerings because they lost a relative to it and they do not know what else to do. The Ironhold checkpoint commanders have standing orders to discourage this practice. They are not consistent about enforcing this.
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 21 (massively reinforced composite shell)
-**Hit Points:** 276 (24d20 + 24) — regenerates 20 hit points at the start of each turn. Regeneration ceases only if the Cathedral takes resonant-metal-disruption damage (see below).
-**Speed:** 0 ft. (immobile)
+**HP:** 152 (FRAME 10 × 8 + 40 + 32 regeneration pool — see Passive)
+**AP Max:** 4
+**Hand Size:** 10 cards
+**Initiative:** 1 (EDGE — the Cathedral does not move, it waits)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 28 (+9) | 1 (-5) | 30 (+10) | 3 (-4) | 3 (-4) | 2 (-4) |
+| 10 | 1 | 10 | 2 | 3 | 1 |
 
-**Saving Throws:** Str +14, Con +15
-**Damage Resistances:** All damage types except resonant-metal disruption
-**Damage Immunities:** Psychic, Poison; Bludgeoning, Piercing, and Slashing from nonmagical weapons
-**Condition Immunities:** All conditions
-**Senses:** Tremorsense 120 ft. (detects movement and cybernetic enhancement signatures within range), Passive Perception 7
-**Languages:** None
-**Challenge:** 13 (10,000 XP)
+**Status Immunities:** All status effects — the Cathedral has no psychology, no biology to affect, no coherent target for control
+**Resistances:** All physical damage deals half value. Resonant-disruption damage (Tier 3+ Sutensai dissolution, pre-Shattering artifacts) deals full value and suppresses Regeneration for 1 round.
+**Senses:** Tremorsense 120 ft.; detects cybernetic enhancement signatures within range
 
-### Special Traits
-**Echomind Void.** Immune to psychic damage and all mind-affecting abilities.
+### Basic Attack — Crushing Extension
+*0 AP | Melee Attack | Once per turn*
+**Effect:** Deal 25 damage (15 + IRON 10) to one target within 15 ft. Target must resist or be knocked prone and pulled 10 ft. toward the Cathedral.
+**Keywords:** Pierce 3
 
-**Architectural Resilience.** The Cathedral cannot be killed through conventional means. Its hit points cannot be reduced below 1 by any single attack or combination of attacks in a single round without a specific vulnerability being exploited (see Resonant Severance, below). If somehow brought to 0 hit points without the vulnerability exploited, it regenerates to 1 hit point at the end of the round.
+### Resonance Pulse
+*Tier 2 (2 AP) | Signal Attack | Area*
+**Effect:** Deal 20 damage to all creatures with active cybernetic enhancements within 30 ft. Creatures that fail to resist are Silenced until end of their next turn.
+**Keywords:** Silence, Overheat 2
 
-**Resonant Severance.** If the Cathedral takes 30 or more resonant-disruption damage (from a specifically crafted Sutensai resonance lance, Wire Craft dissolution at Tier 3+, or similar specialized means) in a single round, its regeneration is suppressed for 1 hour and it can be reduced to 0 hit points normally during that window. If the window expires without the Cathedral being destroyed, regeneration resumes at full rate.
+### Face in the Wall
+*Tier 1 (1 AP) | Summon*
+**Effect:** The Cathedral animates one absorbed figure in its outer shell as a Newly Shelled (use that stat block). Maximum three animated figures simultaneously. They act on the Cathedral's initiative.
 
-**Absorption Radius.** Any creature that ends its turn within 5 feet of the Cathedral must succeed on a DC 17 Strength saving throw or be pulled 5 feet toward the outer surface and partially incorporated (restrained). A restrained creature can use its action to attempt a DC 17 Strength check to pull free. A creature that begins its turn while restrained and fails a DC 17 Strength save is fully incorporated — effectively dead, their body joining the Cathedral's mass.
+### Absorption Field
+*Tier 2 (2 AP) | Control | Area*
+**Effect:** Any creature ending their turn within 5 ft. of the Cathedral must resist or be pulled 5 ft. and Rooted. A Rooted creature that fails to break free before their next turn is Restrained (fully incorporated — they cannot take actions until freed by an ally's 2 AP action).
+**Keywords:** Root, Restrain
 
-**Crushing Extension.** Once per round as a free action, the Cathedral can extend a mass of incorporated debris 15 feet in one direction (not a separate action).
-
-### Actions
-**Crushing Extension Strike.** *Melee Weapon Attack:* +14 to hit, reach 15 ft., one target. *Hit:* 31 (4d10 + 9) bludgeoning damage and the target must succeed on a DC 17 Strength saving throw or be knocked prone and pulled 10 feet toward the Cathedral.
-
-**Resonance Pulse.** The Cathedral emits a pulse of accumulated resonant energy in a 30-foot radius. All creatures with cybernetic enhancements in range must succeed on a DC 17 Constitution saving throw or take 28 (8d6) lightning damage and have their enhancements disabled until the end of their next turn. Creatures without enhancements are unaffected.
-
-**Face in the Wall.** The Cathedral animates one of the absorbed figures in its outer shell. This creates a Newly Shelled duplicate that acts on the Cathedral's turn and shares the Cathedral's initiative. The Cathedral can maintain a maximum of three animated figures simultaneously.
-
-### Legendary Actions
-The Cathedral can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn.
-
-**Tremor (1 action).** The Cathedral causes a localized ground tremor in a 20-foot radius. All creatures in the area must succeed on a DC 15 Dexterity saving throw or fall prone.
-
-**Absorb (2 actions).** One creature restrained by Absorption Radius must immediately repeat the saving throw to avoid full incorporation, or be immediately fully incorporated without waiting for their next turn.
-
-**Mass Resonance Pulse (3 actions).** The Cathedral's Resonance Pulse triggers as a legendary action.
+### Mass Resonance Collapse
+*Tier 4 (4 AP) | Boss Card | Area*
+**Effect:** Deal 30 damage to all creatures with active enhancements within 30 ft. All Silenced and Rooted conditions on targets in range become permanent until cleared. Newly Shelled figures animated by Face in the Wall are immediately destroyed and replaced by three new ones.
+**Keywords:** Silence, Pierce 5, Echo
 
 ---
+
+**Passive — Architectural Resilience:** The Cathedral regenerates 15 HP at the start of each of its turns. This regeneration cannot reduce the Cathedral below 1 HP in a single round through conventional damage. Only a round in which the Cathedral takes 30+ resonant-disruption damage suppresses this regeneration.
+
+**Passive — Echomind Void:** Immune to all abilities targeting mind, soul, or emotions.
+
+---
+
+## AI Behavior
+**Role:** Boss / Terrain
+**Priority:** The Cathedral does not pursue. It waits. Each turn: if creatures are within absorption range, use Absorption Field. If enhanced creatures are within 30 ft., use Resonance Pulse. Animate faces whenever AP allows. Use Mass Resonance Collapse when three or more enhanced creatures are within 30 ft. simultaneously.
+**Threat State Shifts:** At 75 HP, the Cathedral begins animating faces every turn regardless of other actions. At 40 HP, Mass Resonance Collapse recharges after 2 rounds instead of being once per encounter.
 
 ## Encounter Notes
 The Cathedral is not a combat encounter unless the party has specifically come equipped to attempt what eleven previous efforts have failed to accomplish. Treat it as terrain that is hostile and slowly dangerous. Characters who need to travel the eastern road must navigate the checkpoint and the Cathedral's absorption radius. This creates interesting constraints: do you travel light (fewer enhancements = less attractive to the Cathedral's resonance detection)? Do you take the long route around, which has its own dangers?
@@ -294,141 +293,73 @@ The Ironhold checkpoint at the Cathedral has gone quiet — not violently, not d
 ---
 
 # The Cascade
-*Construct (Shell-State, Networked) | CR 10 | Medium (individual) / Gargantuan (collective presence) | Unaligned*
+*Brute / Controller | Boss | Medium (individual) / Gargantuan (collective presence)*
 
 ## Description
-Individually, a member of the Cascade looks like a Newly Shelled — the same terrible stillness, the same mechanical movement, the same absence where a person used to be. The difference becomes apparent when you realize the Cascade member is not acting alone. It is never alone. Its cybernetic enhancement package includes a short-range mesh interface, and those interfaces have been repurposed — not by any deliberate action but by the process of Shelling cascading through a connected group — to link all Cascade members into a single distributed processing network.
+The Cascade is not one Shell. It is what happens when Shells — many Shells — begin to coordinate.
 
-There are currently eleven confirmed members of the Cascade. They move in perfect silence, in perfect coordination, with no verbal communication and no visible signal. When one turns, all turn. When one pauses, the pause propagates through the group with a half-second delay that is deeply, fundamentally wrong to watch. When one is attacked, all of them orient toward the attacker simultaneously, their heads moving in that terrible unison, their expressions identically and completely blank.
+No one designed this. No one built it. The Shells that make up a Cascade did not choose each other. But over months of proximity in an abandoned district, an evacuated factory district, a forgotten ruin, their enhancement systems — still running, still cycling — began to synchronize. The resonant metal in each of them began to share signal without intent. And something emerged from the sharing that is not intelligence, not will, not the ghost of any of the people these Shells used to be, but something that functions like a distributed network with a single behavior: locate the most heavily enhanced being in the area, converge, and harvest.
 
-Their shared purpose has not been determined. They have been observed traveling south along the Tesshari interior roads for four months. They have not eaten. They have not slept. They deviate from their path only to avoid large concentrations of Ironhold military presence. Whatever they are going toward, they do not want to be stopped.
-
-## Lore
-The Cascade is unprecedented. The Sutensai has a file on them that keeps getting thicker and does not get more conclusive. Current theories range from a fringe Sutensai position that the Cascade's shared network has developed something analogous to a new collective Echomind (vigorously denied by the mainstream) to Oni Hunter speculation that the group is being directed by an external source — that something is using them as a body. The most common folk belief in regions they have passed through is that the Cascade is walking toward the Iron Afterlife — that they are trying to cross over together somehow. No one who follows this belief can explain why the Iron Afterlife would be to the south.
-
-The Ironhold has issued a Level Two intercept order on the Cascade: observe and report, do not engage without explicit authorization. An engagement three months ago demonstrated that the Cascade's distributed processing makes them effectively immune to conventional suppression — when four members were incapacitated, the remaining seven adapted in real time without hesitation.
-
----
-
-## Stat Block
-
-**Armor Class:** 13 (per individual)
-**Hit Points:** 44 per individual (8d8 + 8). The Cascade functions as a collective: track HP per individual. When individuals are reduced to 0 HP, they are removed from the network.
-**Speed:** 30 ft.
-
-| STR | DEX | CON | INT | WIS | CHA |
-|---|---|---|---|---|---|
-| 14 (+2) | 14 (+2) | 12 (+1) | 8 (-1) | 6 (-2) | 3 (-4) |
-
-**Saving Throws:** Con +4, Dex +5
-**Skills:** Stealth +5
-**Damage Immunities:** Psychic
-**Condition Immunities:** Charmed, Frightened, Exhaustion, Stunned (individual members can be stunned, but the network adapts — see Network Resilience)
-**Senses:** Darkvision 60 ft., Shared Network Sense (each member shares the sensory data of all other members within network range), Passive Perception 8
-**Languages:** None
-**Challenge:** 10 (as a collective of 4+ members; 5,900 XP)
-
-### Special Traits
-**Network Resilience.** When one Cascade member is incapacitated or stunned, all other members immediately gain advantage on all attack rolls and saving throws until the start of that member's next turn, as the network redistributes processing. Area-of-effect abilities that target multiple Cascade members simultaneously do not trigger this adaptation.
-
-**Distributed Awareness.** The Cascade cannot be surprised. It automatically shares all sensory information between members. Stealth checks against the Cascade are made against the best passive perception in the group, with an additional +2 for each additional member beyond the first who shares line of sight to the approaching creature.
-
-**Echomind Void (per member).** Each member is immune to psychic damage and mind-affecting abilities.
-
-**Network Mesh Interference.** Any creature with an active mesh-linked enhancement within 30 feet of any Cascade member must succeed on a DC 14 Intelligence saving throw at the start of their turn or have that enhancement briefly hijacked, receiving false sensory data for 1 round. The creature may act normally but the DM secretly describes their sensory information incorrectly for that round.
-
-**Shared Purpose.** The Cascade will not initiate combat unless their path is directly blocked or a Cascade member is directly attacked. If their path is cleared, they will disengage even from ongoing combat within 1d4 rounds.
-
-### Actions
-**Multiattack.** A Cascade member makes two Mechanism Strikes.
-
-**Mechanism Strike.** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (1d10 + 2) bludgeoning damage.
-
-**Network Surge (Recharge 5-6, collective action).** All active Cascade members simultaneously discharge a mesh pulse. Every creature with active cybernetic enhancements within 20 feet of any Cascade member must succeed on a DC 15 Intelligence saving throw or take 18 (4d8) psychic damage and be unable to use enhancement-based abilities for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.
-
-### Legendary Actions
-The Cascade can take 3 legendary actions collectively (shared pool), choosing from options below. Actions are chosen and declared by the player who currently has the most Cascade members in their area.
-
-**Reposition (1 action).** Up to three Cascade members move up to half their speed without provoking opportunity attacks.
-
-**Network Redistribute (2 actions).** The Cascade redistributes HP between members — one member at full health transfers up to 20 HP to one member below half health. This represents the network re-routing power cells and enhancement energy.
-
-**Surge (3 actions).** The Cascade triggers Network Surge as a legendary action, without the Recharge requirement.
-
----
-
-## Encounter Notes
-The Cascade is a moral puzzle more than a combat encounter. They are going somewhere. They are not attacking anyone unless stopped. Blocking them is dangerous — eleven coordinated Shells are a serious threat. Letting them pass means they continue toward an unknown destination. Following them is perhaps the most interesting option.
-
-The encounter hooks around what they are going toward. If the party follows the Cascade south for several sessions, they eventually arrive at... something. Whatever is at that destination should be significant. Perhaps it is the Engine Scar. Perhaps it is a specific Sutensai Sanctum. Perhaps it is a location connected to whoever these people were before they Shelled. The Cascade's shared purpose, when finally revealed, should be something that makes terrible sense in retrospect.
-
-## Adventure Hook
-The Cascade has stopped. After four months of constant movement, they are standing in a circle in the middle of a market road, perfectly still, and they have been there for six hours. They are not responding to anything. They are not moving. People are going around them with increasing nervousness. A merchant whose stall they are blocking has hired the party to make them move — unaware, presumably, of what they are. The Cascade is waiting for something. When that something arrives — in the form of a messenger from the Sutensai Sanctum to the south, carrying a sealed document — they resume moving. They are following the document.
-
----
-
-# The Shell-Touched
-*Humanoid (Shell-State, Onset) | CR 1 | Medium | Any (fading)*
-
-## Description
-They look normal. That is the first terrible thing: they look completely, entirely normal. They might be someone the party has known for a week or a session or a campaign. They sit with their hands flat on the table because they have learned, over the past few days, that if they don't actively monitor their hands, they start doing things they didn't decide to do.
-
-Last night their hands tried to fix the door. It wasn't broken. They woke up at 3 in the morning and their hands were repairing the door hinges with a methodical efficiency that their waking self doesn't possess and their sleeping self certainly shouldn't. They had to concentrate, very hard, to make them stop. By morning the door worked perfectly. They don't know how they know how to fix door hinges. Their visual enhancement kept overlaying structural information they haven't consciously accessed in years.
-
-They are still in there. They know what is happening to them. The Iron Sutra calls it the Thinning — the slow retreat of the Echomind from coherence, like sleep overtaking someone who is trying desperately to stay awake. They can feel themselves fading at the edges. The worst moment of every day is the moment when they wake up and have to check — really check — whether they are still the one in the driver's seat.
+Individual Shells in a Cascade move normally. Unremarkably. But watch for long enough and the pattern becomes visible: they are all moving toward the same point. They do not look at each other. They do not communicate. They simply move, in the way that a tide moves, with the patient inexorability of something that has all the time in the world and no one left inside to want anything faster.
 
 ## Lore
-The Sutensai keep the details of early-stage Shelling deliberately obscure because the public knowledge of them tends to produce two equally catastrophic outcomes: panic, in which communities turn on anyone showing even minor enhancement disruption symptoms; or denial, in which individuals in early Shelling refuse intervention until the window closes. The Quieters who specialize in Shelling onset — called Shepherds — are trained in both the technical diagnosis and the emotional care of the Thinning. They describe their work as "walking alongside someone on a road that has only one end, and making the road as bearable as possible."
+The first documented Cascade event occurred in the Broken Reach seven years ago and was initially reported as a Shell sighting before the scale became clear. By the time the Ironhold dispatched a response team, the Cascade numbered over forty individual Shells. Seventeen members of the response team did not return. The Sutensai's post-incident analysis identified what they termed "passive resonance synchronization" as the mechanism — the enhancement packages in the individual Shells were not designed to communicate, but their operating frequencies overlapped enough to produce emergent coordination after sufficient duration of proximity.
 
-There is treatment. The Sutensai has a protocol that, if administered within the first 72 hours of onset, can sometimes — not always, roughly one in three attempts — stabilize the Echomind and prevent full Shelling. The protocol requires equipment, specialist knowledge, and time. It is expensive. It is not available in most of Tesshari's rural regions. The Shepherd who told the Shell-Touched about this treatment is traveling to get what's needed. The Shell-Touched needs someone to stay with them until the Shepherd returns. They need someone to notice if they stop being the one in control. They need someone who will not leave. They are asking the party not to leave.
+The Cascade is the nightmare scenario that justifies rapid Shell containment: a single Shell is a tragedy. A Cascade is an infrastructure problem.
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 12 (light cybernetic reinforcement)
-**Hit Points:** 13 (2d8 + 4)
-**Speed:** 30 ft.
+**HP:** 120 (FRAME 8 × 8 + 40 — represents the core network node; individual Shells are Standard tier)
+**AP Max:** 4
+**Hand Size:** 9 cards
+**Initiative:** 3 (EDGE)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 12 (+1) | 13 (+1) | 14 (+2) | 14 (+2) | 10 (+0) | 13 (+1) |
+| 8 | 3 | 8 | 4 | 2 | 1 |
 
-**Saving Throws:** Int +4, Wis +2
-**Skills:** Insight +2, one skill from their background
-**Condition Immunities:** None (they can be affected by everything; that is the point)
-**Senses:** Darkvision 30 ft. (cybernetic enhancement), Passive Perception 10
-**Languages:** Tesshari common, one regional dialect, Iron Sutra liturgical script (reading only)
-**Challenge:** 1 (200 XP) — note: the CR reflects potential harm, not the encounter's nature
+**Status Immunities:** All status effects targeting mind or emotion. Individual Shells can be Staggered, Rooted, or Silenced — the network itself cannot.
+**Resistances:** Damage dealt to the Cascade network is reduced by 3 from any source that does not affect resonant signal directly. Resonant-disruption effects deal full value and suppress the network's coordination for 1 round (all Shells lose Pack Protocol until start of the Cascade's next turn).
+**Senses:** The Cascade has collective sensory coverage of all areas occupied by any of its component Shells. It cannot be surprised or flanked.
 
-### Special Traits
-**The Thinning.** The Shell-Touched is in active Echomind decoherence. At the start of each hour of in-game time, roll a d20. On a 1-3, the Shell-Touched loses control of an enhancement for 1d10 minutes — their body acts according to programming with no input from their conscious self. They are aware of this and cannot stop it. On a 4-5, they experience a dissociation event: they can hear themselves speaking but cannot direct what they say. On any other result, they remain in control.
+### Basic Attack — Coordinated Strike
+*0 AP | Melee Attack | Once per turn*
+**Effect:** One Shell in the Cascade deals 13 damage (5 + IRON 8) to one target. Two additional Shells within 10 ft. of the target immediately deal 5 damage each as the coordination triggers follow-up responses.
 
-**Anchored by Presence.** While a creature they trust is within 10 feet of the Shell-Touched and actively engaging with them (conversation, physical contact, sustained attention), the Thinning roll is made with advantage and the threshold for losing control shifts to 1 only. Isolation or perceived abandonment automatically triggers a Thinning roll at disadvantage.
+### Convergence Surge
+*Tier 2 (2 AP) | Melee Attack | Area*
+**Effect:** All Shells within 20 ft. of one target simultaneously strike. Deal 18 damage (10 + IRON 8) plus 4 damage per Shell within range beyond the first (maximum 30 total). Apply Expose 2.
+**Keywords:** Expose 2, Pierce 2
 
-**Enhancement Flicker.** The Shell-Touched's cybernetic enhancements occasionally activate on their own. Once per combat encounter, one of their enhancement-based abilities activates without their intent — the DM chooses the ability and the target.
+### Harvest Protocol
+*Tier 2 (2 AP) | Control*
+**Effect:** The Cascade coordinates a simultaneous extraction attempt against one Rooted target with active enhancements. Deal 16 damage and apply Silence. If the target already has Silence, one of their enhancement cards is disabled for the remainder of the encounter.
+**Keywords:** Silence, Expose 3
 
-**Still In Here.** The Shell-Touched is a person. They can communicate, reason, remember, feel fear and grief and hope. They can provide information, make requests, express love. This trait does not have a mechanical function. It is a reminder to the DM.
-
-### Actions
-**Personal Weapon.** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) damage.
-
-**Enhancement Override (Thinning Control Loss only).** When the Shell-Touched loses control of an enhancement, the override may manifest as an attack: +4 to hit, one target within enhancement range. *Hit:* 8 (2d6 + 1) damage of a type determined by the enhancement (lightning, piercing, etc.). This is not their choice. They are trying to stop it.
+### Network Resonance Flare
+*Tier 3 (3 AP) | Area Signal Attack*
+**Effect:** All Shells pulse simultaneously. Deal 18 damage to every creature with active enhancements within 30 ft. of any Shell. Apply Overheat 2 to each target hit.
+**Keywords:** Overheat 2, Silence
 
 ---
+
+**Passive — Pack Protocol:** While three or more Cascade Shells are within 20 ft. of a target, all attacks against that target gain +3 damage. This bonus increases by 2 for each Shell beyond three (maximum +9).
+
+**Passive — Distributed Network:** When a Shell in the Cascade is destroyed, the network redistributes. The Cascade loses 15 HP but the remaining Shells gain +1 IRON until the end of the encounter. The core network cannot be targeted directly without Wire Craft dissolution at Tier 2+ or resonant-disruption weapons.
+
+---
+
+## AI Behavior
+**Role:** Boss / Swarm Brute
+**Priority:** Identifies the most heavily enhanced target and converges all available Shells toward them. Uses Convergence Surge as the primary opening — establishing Expose before Harvest Protocol. Uses Network Resonance Flare when multiple enhanced targets cluster. Maintains Pack Protocol positioning at all times.
+**Threat State Shifts:** At 60 HP, the Cascade accelerates convergence — all Shells gain +5 ft. movement and the network begins spawning additional Shells from nearby dormant Shells (one new Standard Shell added to the encounter every 2 rounds). At 30 HP, the network enters emergency harvest mode — Harvest Protocol costs 1 AP instead of 2.
 
 ## Encounter Notes
-Do not run this as a combat encounter.
+The Cascade encounter requires the party to manage space — there is no single target to destroy, only a network to disrupt. A party that ignores the individual Shells to focus on "the boss" will find the Shells closing in from all directions while they are occupied. A party that focuses on individual Shells will find the network growing more dangerous with each one destroyed.
 
-The Shell-Touched is a horror encounter in the slow-burn sense: sustained dread, moral weight, and the kind of tension that comes from knowing the outcome is bad and being unable to prevent it. The party's task is to stay present with this person, to watch them carefully, and to make decisions: do you go get the Shepherd's materials yourselves, faster? Do you stay with them? If you split the party, who goes and who stays? What do you do when a Thinning event causes them to pick up a knife?
-
-The encounter is structured around the relationship. Every conversation the party has with the Shell-Touched before the Thinning claims them is time the player characters are spending with someone who is trying very hard to remain a person. Every question they ask and answer they receive has the shadow of the Thinning behind it: is this them talking, or is this the program?
-
-If the party succeeds in acquiring the stabilization protocol and administering it in time, the chance of success is one in three. Make the dice roll public. Let the outcome land.
-
-If the party fails — if the Thinning completes — the Shell-Touched becomes, effectively, a Newly Shelled. The person who asked them not to leave is no longer present to ask anything. The Closing Rite, performed by a Shepherd or by someone the Shell-Touched trusted, is the ending.
+The resonant-disruption approach — attacking the synchronization signal rather than the bodies — is the correct tactical answer. A Wire Craft specialist who can access the network's operating frequency can, with sustained work, introduce destructive interference that collapses the coordination. This takes time and requires protecting the Wire Crafter while they work.
 
 ## Adventure Hook
-This IS the adventure hook. An NPC the party has known — a guide, a contact, a friend from a previous session, someone whose name they know — sends them an urgent, quiet message: "I need you to come. I can't tell anyone else. Please come quickly and don't tell anyone where you're going." When they arrive, the NPC tells them what is happening to them. They have already arranged for a Shepherd to bring the stabilization materials — the Shepherd is two days' travel away. They need the party to stay with them. To watch them. To promise.
-
-Two days is a long time when the person you are watching is slowly leaving.
+An abandoned factory district that the Ironhold condemned three years ago after a Shelling incident has become the source of a problem: people who approach the district don't come back. Ironhold surveillance (at safe distance) has counted over thirty Shells in the district and documented their movement patterns becoming increasingly coordinated over six months. Something in the district is valuable enough that a Sutensai research team has requested access — they believe a pre-Shattering archive is in one of the factory structures. The party is hired to get the research team in and out. The Cascade has had six months to optimize. No one has been inside in three years.

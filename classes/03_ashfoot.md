@@ -21,27 +21,509 @@ Among their own communities, Ashfoot are the protectors, the proven ones, the pe
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM: Ashfoot
 
-**Hit Die:** d10
-**Primary Ability:** Strength or Dexterity, Constitution
-**Saving Throw Proficiencies:** Strength, Constitution
-**Armor Proficiencies:** Salvage plating, wire-mesh armor, improvised armor
-**Weapon Proficiencies:** All simple weapons adapted for Tesshari (resonant blades basic, pulse arms basic, circuit spike), all improvised weapons, salvage weapons (see Salvage Mastery)
-**Tool Proficiencies:** Salvage kit, one of: Blacksmith tools (basic), Medic kit (field), or Fortification tools
-**Skills:** Choose 3 from Athletics, Acrobatics, Animal Handling (adapted: vehicle handling, draft beast), Intimidation, Medicine (field triage), Perception, Stealth, Survival
+**HP Tier:** Balanced
+**Hand Size:** 7
+**Primary Stats:** EDGE (speed, evasion, survivability), IRON (striking power with salvage and basic weapons)
+**HP Formula:** (FRAME × 8) + 10
 
-**Starting Equipment:**
-- A weapon of your choice (resonant blade, circuit spike, or pulse arm — basic quality)
-- Salvage plating
-- A salvage kit
-- A token from your community (a simple item of personal significance)
-- A field medic kit (basic)
-- 5 weight in trade-metal
+### Starting Hand
+
+- **Ashfoot Grit** — passive that refuses the killing blow
+- **Salvage Strike** — an improvised attack that hits harder than it has any right to
+- **Hard March** — passive that keeps you moving when everyone else stops
 
 ---
 
-### Class Features by Level
+### Level Unlock List
+
+#### Level 1
+
+- Fighting Dirty
+- Crowd Read
+
+#### Level 2
+
+- Eye Strike
+- Find the Hole
+
+#### Level 3
+
+- Gut Check
+- Pain Threshold
+
+#### Level 4
+
+- Veteran's Reflex
+- Nothing to Lose
+
+#### Level 5
+
+- Into the Grinder
+- Down Here
+
+#### Level 6
+
+- Salvage Upgrade
+- Strike and Fade
+
+#### Level 7
+
+- Weight of the Line
+- Ground Knowledge
+
+#### Level 8
+
+- Bloody-Minded
+- Salvage Master
+
+#### Level 9
+
+- One More Round
+- Unbreakable
+
+#### Level 10
+
+- Ghost Ground
+- Formation Instinct
+
+#### Level 11
+
+- Anchor Point
+- Saboteur's Eye
+
+#### Level 12
+
+- Coordinated Strike
+- Salvage Weapon Mastery
+
+#### Level 13
+
+- Scrap Armor
+- Weapon Forge
+
+#### Level 14
+
+- Environment as Arsenal
+- Unbreakable Line
+
+#### Level 15
+
+- Bloody End
+- Deep Cover
+
+#### Level 16
+
+- Iron Formation Wall
+- Strike True
+
+#### Level 17
+
+- What We're Worth Strike
+- Hollow Poor's Fury
+
+#### Level 18
+
+- Last Round Standing
+- Community Shield
+
+#### Level 19
+
+- Prove the Count Wrong
+- Refuse
+
+#### Level 20
+
+- What We're Worth *(Capstone)*
+
+---
+
+### Full Card Reference
+
+---
+
+### Anchor Point
+*Tier 2 (2 AP) | Defense*
+
+**Effect:** You plant yourself as a tactical anchor. Until your next turn: enemies cannot flank you or gain positional bonuses against you. All allies within reach gain Guard 3. If any ally within reach would be forced to move against their will, reduce that forced movement by your FRAME in feet (minimum 0).
+**Keywords:** Guard 3 (allies)
+**Unlock:** Level 11
+
+---
+
+### Ashfoot Grit
+*Tier 0 | Passive*
+
+**Always Active:** Once per combat, when an attack would reduce you to 0 HP, you remain at 1 HP instead. This is not courage — this is the absence of the option to stop, internalized over years. Additionally, reduce all exhaustion-related penalties by 1 tier while in combat.
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Bloody End
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** When you are below half HP, this card costs 2 AP instead of 3. Deal 18 + IRON damage. Apply Bleed 3 and Expose 3. You move up to your full speed as part of this card — the desperation is also fuel.
+**Keywords:** Bleed 3, Expose 3
+**Unlock:** Level 15
+
+---
+
+### Bloody-Minded
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** When you are below 25% of your maximum HP, all your attacks deal + EDGE additional damage. You don't stop. This is not courage — it is the absence of the option to stop.
+**Unlock:** Level 8
+
+---
+
+### Chorus Shield
+*Tier 2 (2 AP) | Defense*
+
+**Effect:** You hold a position that should not be held, because there are people behind you. Gain Shield equal to FRAME × 3. While this shield is active, all allies within reach gain Guard 4 — they are in your shadow and you have made that shadow mean something.
+**Keywords:** Shield, Guard 4 (allies)
+**Unlock:** Level 18
+
+---
+
+### Community Shield
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** You fight for specific people. Name them now — they are the reason this works. Until end of turn, you cannot be moved against your will. All damage you take while they are present (physically adjacent, or named as the fight's purpose) is reduced by your FRAME. Apply Taunt to all enemies — they will have to go through you.
+**Keywords:** Taunt, Fortify
+**Unlock:** Level 18
+
+---
+
+### Coordinated Strike
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** You and an ally attack the same target simultaneously. Deal 12 + IRON damage. If an ally also attacks this target this round, add EDGE to the damage and apply Expose 2. The target must save or be knocked prone (unable to use Mobility cards next turn).
+**Keywords:** Expose 2, Root
+**Unlock:** Level 12
+
+---
+
+### Crowd Read
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** A survey of the battlefield — the working soldier's version, built from pattern recognition not magical sense. Identify the enemy most likely to act against an ally next turn (GM confirms). Apply Expose 1 to that target — you have read their angle and shared it. This card costs 0 AP if you have not attacked yet this turn.
+**Keywords:** Expose 1
+**Unlock:** Level 1
+
+---
+
+### Deep Cover
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** You disappear into your environment — not with Veilblade tech, but with the Ashfoot's hard-won knowledge of how to be a person that no one is looking for. Until end of combat, enhancement-reading systems register you as non-combatant. Make one attack this turn with advantage (GM ruling) — a free strike from position that should not be a striking position.
+**Keywords:** —
+**Unlock:** Level 15
+
+---
+
+### Down Here
+*Tier 1 (1 AP) | Attack*
+
+**Effect:** You fight from every angle, including the floor. Deal 7 + IRON damage. If you are prone or at lower elevation than the target, this attack ignores Guard stacks — you hit from below their defenses. After this attack, you may stand from prone as a free action.
+**Keywords:** Pierce 4 (conditional — if prone or lower elevation)
+**Unlock:** Level 5
+
+---
+
+### Environment as Arsenal
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** You have never been in a room that wasn't full of weapons — it just required a different way of seeing. Pick up or identify an environmental object and use it. Deal 14 + IRON damage. Apply Stagger. The attack's flavor — thrown debris, repurposed machinery, structural hazard — is yours to describe.
+**Keywords:** Stagger
+**Unlock:** Level 14
+
+---
+
+### Eye Strike
+*Tier 1 (1 AP) | Control*
+
+**Effect:** A strike aimed at sensory systems — enhancement optics, resonance receivers, whatever their face is doing right now. Deal 5 + IRON damage. Apply Expose 2 — their targeting is disrupted. Until the start of their next turn, all attacks they make against you have their damage reduced by your EDGE.
+**Keywords:** Expose 2
+**Unlock:** Level 2
+
+---
+
+### Fighting Dirty
+*Tier 1 (1 AP) | Attack*
+
+**Effect:** You fight to win, not to look correct doing it. Deal 6 + IRON damage. Apply one of: Bleed 1, Stagger, or Expose 1 (your choice per use). The choice represents whichever gap you found this time.
+**Keywords:** Variable — Bleed 1, Stagger, or Expose 1
+**Unlock:** Level 1
+
+---
+
+### Find the Hole
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** You have learned to read enhancement armor for its actual gaps rather than its advertised coverage. Your attacks ignore 2 points of Guard on all targets. Against targets with no enhancement armor at all, your attacks deal + IRON additional damage instead.
+**Unlock:** Level 2
+
+---
+
+### Formation Instinct
+*Tier 1 (1 AP) | Reaction*
+
+**Effect:** *Triggered when an ally within reach is hit by an attack.* Your tactical awareness of the space your allies occupy is bone-deep. Reduce the damage to that ally by your FRAME. If the damage is reduced to 0, deal 4 + IRON damage to the attacker as a counter-position strike.
+**Keywords:** —
+**Unlock:** Level 10
+
+---
+
+### Ghost Ground
+*Tier 2 (2 AP) | Mobility*
+
+**Effect:** You dissolve into the terrain you know. Move up to your full speed. This movement triggers no reactions and leaves no readable trace. Until the start of your next turn, the first attack made against you from an enemy that moved to reach you deals its damage against your Guard first (add EDGE to your Guard for this purpose).
+**Keywords:** Guard (EDGE added, conditional)
+**Unlock:** Level 10
+
+---
+
+### Ground Knowledge
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** In terrain you have spent time in — ruins, wilderness, urban margins — you are never fully exposed. Treat your position as providing light cover at minimum. Enemies who have not yet acted against you this combat have their first attack's damage reduced by your EDGE.
+**Unlock:** Level 7
+
+---
+
+### Gut Check
+*Tier 1 (1 AP) | Reaction*
+
+**Effect:** *Triggered when an enemy succeeds on a save or defense against one of your effects.* You press the follow-through anyway. Deal 5 + IRON damage as an immediate reactive strike. This represents your understanding that a near-miss is still pressure.
+**Keywords:** —
+**Unlock:** Level 3
+
+---
+
+### Hard March
+*Tier 0 | Passive*
+
+**Always Active:** You have been shaped by constant movement and minimal support. Difficult terrain does not reduce your speed. Environmental conditions (extreme heat, toxic atmosphere, heavy rain) do not impose penalties on your attacks or checks. Once per combat, when a condition would incapacitate you (not damage — a status effect), reduce its duration by 1 turn.
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Hollow Poor's Fury
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You know exactly what you're worth to the system and you have decided to be worth more than that. Deal 20 + IRON damage. Apply Bleed 3, Expose 3, and Vulnerable 2. Gain Regen 3 for 2 turns — the anger sustains you. This card deals + EDGE additional damage if you are below half HP when you play it.
+**Keywords:** Bleed 3, Expose 3, Vulnerable 2, Regen 3
+**Unlock:** Level 17
+
+---
+
+### Into the Grinder
+*Tier 1 (1 AP) | Defense*
+
+**Effect:** You have been in sustained grinding combat — not duels but the kind that goes on for hours. Gain Guard 5. Until your next turn, reduce the maximum damage of any single hit against you by your FRAME — the worst hits land as bad, not catastrophic.
+**Keywords:** Guard 5
+**Unlock:** Level 5
+
+---
+
+### Iron Formation Wall
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You and your allies become a wall. Apply Taunt to all enemies in the encounter — they must come to you. Until your next turn: you cannot be moved, all allies within reach gain Guard 6, and any enemy who moves adjacent to you takes 8 + IRON damage as a contact strike.
+**Keywords:** Taunt, Guard 6 (allies)
+**Unlock:** Level 16
+
+---
+
+### Last Round Standing
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** One more round. Always one more round. Gain Shield equal to your FRAME × 4. Cleanse all debuffs from yourself. Until end of turn, your attacks deal + IRON + EDGE damage and apply Bleed 2 to each target hit. After this card resolves, gain Overheat 2 — the surge has a price you pay willingly.
+**Keywords:** Shield, Cleanse, Bleed 2, Overheat 2
+**Unlock:** Level 18
+
+---
+
+### Nothing to Lose
+*Tier 1 (1 AP) | Power*
+
+**Effect:** Below 10 HP or at the fight's desperate edge — this is where the Ashfoot finds something extra. Deal 8 + IRON damage. Apply Expose 2. If you have 10 HP or fewer when you play this card, add EDGE to the damage and apply Stagger as well.
+**Keywords:** Expose 2, Stagger (conditional)
+**Unlock:** Level 4
+
+---
+
+### One More Round
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You find something past empty. Until the start of your next turn: your movement speed doubles, all your attacks deal + EDGE additional damage, and all current debuffs on you are suppressed (they return after this effect ends). After this card resolves, you gain Overheat 2.
+**Keywords:** Overheat 2, Cleanse (temporary suppression)
+**Unlock:** Level 9
+
+---
+
+### Pain Threshold
+*Tier 1 (1 AP) | Defense*
+
+**Effect:** Your tolerance for pain is not courage — it is a calibration developed by necessity. Gain Shield 5. When you recover HP this combat (from any source), add your FRAME to the amount recovered. You have learned to make the most of what restoration you get.
+**Keywords:** Shield 5
+**Unlock:** Level 3
+
+---
+
+### Prove the Count Wrong
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** The hierarchy has a number for what you're worth. This is your answer. Deal 22 + IRON damage. Apply Expose 4 and Bleed 3. Gain Regen 4 for 3 turns. If this attack reduces the target below half HP, all allies in the encounter gain Regen 2 for 2 turns — your proving spills outward.
+**Keywords:** Expose 4, Bleed 3, Regen 4
+**Unlock:** Level 19
+
+---
+
+### Refuse
+*Tier 2 (2 AP) | Power*
+
+**Effect:** You don't stop. Something in you simply refuses to finish. Cleanse all debuffs currently on you. Gain Shield equal to your FRAME × 2 + EDGE. Until your next turn, you cannot be reduced below 1 HP — Ashfoot Grit activates a second time this combat if needed.
+**Keywords:** Cleanse, Shield, Fortify
+**Unlock:** Level 19
+
+---
+
+### Saboteur's Eye
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** You read the structure of the fight itself — its weak points, its over-extended angles. Identify one structural or positional weakness in the combat (GM ruling). Your next attack against that weakness deals + IRON + EDGE damage and applies Expose 3 to the target. Your attacks against objects, structures, or vehicles deal double damage this turn.
+**Keywords:** Expose 3
+**Unlock:** Level 11
+
+---
+
+### Salvage Master
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** Improvised weapons in your hands are your weapons. Your improvised and salvage attacks deal damage as standard weapons (no penalty). Once per combat, after hitting with an improvised attack, you may apply one of: Bleed 1, Stagger, or Expose 1 to the target for free.
+**Unlock:** Level 8
+
+---
+
+### Salvage Strike
+*Tier 1 (1 AP) | Attack*
+
+**Effect:** Whatever is in your hand right now, you make it hit. Deal 6 + IRON damage. If this attack is made with an improvised or salvage weapon, apply Stagger to the target — the unexpected shape of the weapon breaks their guard pattern.
+**Keywords:** Stagger
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Salvage Upgrade
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** During this turn or as preparation before combat (with time to work), modify one weapon you are carrying. Choose: **Weighted** (+ 2 base damage), **Brutal** (apply Bleed 1 on hit), or **Balanced** (gain Guard 2 after each attack with it this turn). This modification lasts the combat.
+**Keywords:** Variable
+**Unlock:** Level 6
+
+---
+
+### Salvage Weapon Mastery
+*Tier 2 (2 AP) | Passive*
+
+**Always Active:** Improvised and salvage weapons deal maximum base damage when you roll the equivalent of a critical (when your total damage exceeds a target's remaining HP + Guard + Shield combined — you found exactly the right angle). Additionally, your salvage weapons count as enhanced weapons for the purpose of bypassing resistances.
+**Unlock:** Level 12
+
+---
+
+### Scrap Armor
+*Tier 1 (1 AP) | Reaction*
+
+**Effect:** *Triggered when you take 8 or more damage from a single source.* You strip a component from your gear or the environment and interpose it. Reduce the triggering damage by your FRAME + EDGE. Until your next turn, gain Guard 3 from the improvised ablative protection.
+**Keywords:** Guard 3
+**Unlock:** Level 13
+
+---
+
+### Strike and Fade
+*Tier 1 (1 AP) | Mobility*
+
+**Effect:** Hit and move. Make an attack as part of this card (deal 6 + IRON damage), then move up to half your speed without triggering reactions. After the movement, the first attack made against you this round has its damage reduced by your EDGE.
+**Keywords:** —
+**Unlock:** Level 6
+
+---
+
+### Strike True
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** This is the Ashfoot's most important lesson — the right attack is the one that hits. Deal 16 + IRON damage. This attack cannot be mitigated by Stagger, Root, or Silence on you — those effects don't stop someone who has learned to keep moving. Apply Expose 2 to the target.
+**Keywords:** Expose 2
+**Unlock:** Level 16
+
+---
+
+### Unbreakable
+*Tier 2 (2 AP) | Defense*
+
+**Effect:** Something in you refuses to finish. Gain Shield equal to your FRAME × 2. Until your next turn, reduce incoming damage by your FRAME. If you are currently below 25% HP, this card also triggers a free Regen 3 for 2 turns — the body finds something past empty.
+**Keywords:** Shield, Regen 3 (conditional)
+**Unlock:** Level 9
+
+---
+
+### Unbreakable Line
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You hold a position that should not be held because leaving means everyone behind you dies. Until your next turn: you cannot be moved or displaced. All allies within reach cannot be moved or displaced. Enemies who attempt to move through your position take 10 + IRON damage. All allies within reach gain Guard 8.
+**Keywords:** Guard 8 (allies), Fortify (self and allies — control immune to displacement)
+**Unlock:** Level 14
+
+---
+
+### Veteran's Reflex
+*Tier 1 (1 AP) | Reaction*
+
+**Effect:** *Triggered when you fail to mitigate a hit.* You have survived enough ambushes to have reflexes that work independently of your planning. Reduce the triggering damage by your EDGE + FRAME. Gain Guard 2 immediately after.
+**Keywords:** Guard 2
+**Unlock:** Level 4
+
+---
+
+### Weapon Forge
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** You combine two objects into a functional weapon on the spot. The weapon deals 12 + IRON damage on its first use this combat and has one property of your choice (Bleed 1 on hit, Expose 1 on hit, or Guard 2 after each hit). The weapon lasts the encounter.
+**Keywords:** Variable
+**Unlock:** Level 13
+
+---
+
+### Weight of the Line
+*Tier 2 (2 AP) | Power*
+
+**Effect:** You hold. You simply hold. Until your next turn: you cannot be moved against your will. You cannot be Stunned or Knocked Prone. All allies behind your position gain Guard 4. Any enemy who attempts to push past you takes 8 + IRON damage.
+**Keywords:** Guard 4 (allies), Fortify (self)
+**Unlock:** Level 7
+
+---
+
+### What We're Worth
+*Tier 3 (3 AP) | Signature — Capstone*
+
+**Effect:** The hierarchy has always had a number for what you're worth. At the fullest expression of everything you have survived and built, you demonstrate — definitively — that the number was wrong. Deal 26 + IRON + EDGE damage. Apply Bleed 4, Expose 4, and Vulnerable 3. Gain Shield equal to your FRAME × 5. All allies in the encounter are healed for 10 HP and gain Regen 3 for 3 turns. Once per combat.
+**Keywords:** Bleed 4, Expose 4, Vulnerable 3, Shield, Regen 3 (allies)
+**Unlock:** Level 20
+
+---
+
+### What We're Worth Strike
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You don't fight for the hierarchy's approval. You fight for the people behind you. Deal 20 + IRON damage. Apply Expose 3 and Bleed 2. All allies within reach gain Guard 6 and Regen 2 for 2 turns. This card's damage cannot be reduced below 10 total — some things land regardless.
+**Keywords:** Expose 3, Bleed 2, Guard 6 (allies), Regen 2 (allies)
+**Unlock:** Level 17
+
+---
+
+## Subclasses
 
 **Level 1: Ashfoot Grit**
 You are not enhanced for combat. You are combat-hardened by experience, which is not the same thing and in several ways is more durable. You gain the following:

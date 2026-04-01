@@ -8,7 +8,7 @@
 ---
 
 # The Echo
-*Undead (Echomind Fragment) | CR 1/2 | Tiny | Unaligned*
+*Controller | Minion | Tiny*
 
 ## Description
 It appears as a faint luminescence — vaguely person-shaped if you squint, but the shape blurs and resolves and blurs again like a reflection in disturbed water. It occupies a specific location and does not leave it: a workshop corner, a doorway, a particular spot on a road where something happened. If you watch it long enough, you begin to understand what it's doing: it is doing the same thing over and over. The loop varies in length — some Echoes run a cycle of thirty seconds, some take twenty minutes to complete — but the repetition is absolute. It does not notice you. It does not notice anything. It is entirely occupied with its loop.
@@ -24,38 +24,40 @@ Folk practice around Echoes varies enormously by region. Northern villages often
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 10
-**Hit Points:** 7 (3d4)
-**Speed:** 0 ft. (anchored to location)
+**HP:** 12 (FRAME 1 × 8 + 4)
+**AP Max:** 1
+**Hand Size:** 2 cards
+**Initiative:** 2 (EDGE)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 1 (-5) | 10 (+0) | 8 (-1) | 8 (-1) | 10 (+0) | 7 (-2) |
+| 1 | 2 | 1 | 1 | 3 | 2 |
 
-**Damage Resistances:** Acid, Fire, Lightning, Thunder; Bludgeoning, Piercing, and Slashing from nonmagical weapons
-**Damage Immunities:** Cold, Necrotic, Poison
-**Condition Immunities:** Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained
-**Senses:** Passive Perception 10 (limited to loop context — does not perceive outside its loop scenario)
-**Languages:** Understands the language of the person it was, but cannot initiate communication. Under specific circumstances (see Finishing), it may respond.
-**Challenge:** 1/2 (100 XP) — the XP reflects difficulty of interaction, not combat
+**Status Immunities:** All physical conditions — Grappled, Prone, Rooted, Restrained (it has no body to constrain)
+**Resistances:** Physical attacks deal half value. The Echo can only be meaningfully harmed by resonance-disruption effects or Finishing.
+**Senses:** Passive perception within its loop context only — does not perceive outside its scenario
 
-### Special Traits
-**Loop Anchor.** The Echo is bound to a specific location (radius 20 feet). It cannot move beyond this area. If it is attacked or disrupted, it flickers but re-manifests within 1 minute unless destroyed.
-
-**Incorporeal Form.** The Echo can move through objects and creatures. It cannot interact with the physical world except through its emotional resonance.
-
-**Resonance Touch (accidental only).** Creatures with active cybernetic enhancements that pass through the Echo's location must succeed on a DC 10 Wisdom saving throw or experience a 30-second flash of the Echo's loop as a vivid sensory memory — experiencing it as if it were their own memory. This is not harmful, but may be disorienting (disadvantage on the next Intelligence check made in the following minute) and is, occasionally, informative.
-
-**Fragile Presence.** The Echo has 7 hit points only because it needs a mechanical representation. A character who interacts with it aggressively — shouting, physical disruption of the location, attempts to banish it without the Finishing protocol — can disperse it. Dispersion is not the same as completing the departure: dispersed Echoes return to their location in 1d10 days, more fragmented than before.
-
-**Finishing.** A creature with knowledge of the Sutensai Finishing protocol (or a DC 16 Insight + Arcana combined check to intuit the process) can attempt to help the Echo complete its departure. The process requires interacting with the Echo's loop in a way that addresses whatever is keeping it anchored — returning a stolen item, speaking words the person needed to hear, completing a task they left unfinished. Success means the Echo brightens, the loop completes for the final time, and the Echo departs entirely. The location becomes still.
-
-### Actions
-**Resonance Pulse (if threatened).** The Echo, if it processes a creature as interfering with its loop, emits a burst of emotional resonance. All creatures within 10 feet must succeed on a DC 10 Wisdom saving throw or be affected by the emotional content of the loop — grief, fear, or longing — suffering the Frightened condition for 1 round. This is the only offensive action an Echo can take and it does so without apparent intent.
+### Basic Attack — Resonance Pulse
+*0 AP | Resonant Attack | Once per turn — only if threatened*
+**Effect:** Deal 4 damage (1 + RESONANCE 3) to all creatures within 10 ft. The Echo emits a burst of emotional resonance — grief, fear, or longing. Creatures that fail to resist are Frightened of the Echo for 1 round. This is not an intentional attack. The Echo does not know it is doing it.
+**Keywords:** (Fear rider — Frightened 1 round)
 
 ---
+
+**Passive — Loop Anchor:** The Echo is bound to a specific location (roughly 20 ft. radius). It cannot move beyond this area. If damaged or dispersed without a Finishing protocol, it re-manifests in 1d10 days, more fragmented than before.
+
+**Passive — Resonance Touch:** Creatures with active cybernetic enhancements that pass through the Echo's location experience a 30-second flash of the Echo's loop as a vivid sensory memory. This is not harmful but may be disorienting and is, occasionally, informative.
+
+**Passive — Finishing:** A character who knows the Sutensai Finishing protocol (or succeeds on a SIGNAL + RESONANCE challenge, difficulty 4) can attempt to help the Echo complete its departure. Requires understanding what keeps it anchored and addressing it directly — returning a stolen item, speaking words the person needed to hear, completing an unfinished task. Success: the Echo brightens, the loop completes for the final time, and the Echo departs. The location becomes still.
+
+---
+
+## AI Behavior
+**Role:** Passive / Atmospheric
+**Priority:** The Echo takes no actions unless a creature directly disrupts its loop. If threatened, it pulses defensively. It does not pursue. It does not adapt. It repeats.
+**Threat State Shifts:** None. The Echo cannot meaningfully escalate.
 
 ## Encounter Notes
 Treat the Echo as a puzzle and an emotional beat, not a fight. The loop contains information: what this person was doing when they died, what they cared about, what they left unfinished. If the party is investigating a crime or a mystery, an Echo in the right location may be the key witness to something they need to understand.
@@ -68,7 +70,7 @@ The party takes lodging at a waystation outside a mid-sized city. The innkeeper 
 ---
 
 # The Hunger-Dead
-*Undead (Echomind, Unbound) | CR 4 | Medium | Chaotic Evil*
+*Controller | Standard | Medium*
 
 ## Description
 In the Iron Afterlife, Echominds are not equal. Some are brighter, stronger, more cohesive — remnants of people with powerful personal resonance, or people whose deaths were particularly violent and charged, or simply people who refused to accept their transition and maintained intensity through the sheer force of not accepting what happened to them. A few of these, over years or decades, begin to feed: absorbing smaller, weaker fragments, incorporating their resonance into themselves. Growing.
@@ -86,44 +88,47 @@ The Hunger-Dead can be temporarily repelled by resonance disruption — essentia
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 13 (natural distortion)
-**Hit Points:** 58 (9d8 + 18)
-**Speed:** 0 ft. walking; 30 ft. flying (hovering)
+**HP:** 44 (FRAME 4 × 8 + 12)
+**AP Max:** 2
+**Hand Size:** 4 cards
+**Initiative:** 5 (EDGE)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 6 (-2) | 16 (+3) | 14 (+2) | 12 (+1) | 10 (+0) | 15 (+2) |
+| 2 | 5 | 4 | 3 | 5 | 4 |
 
-**Saving Throws:** Dex +5, Cha +4
-**Skills:** Perception +2, Stealth +5
-**Damage Resistances:** Acid, Fire, Lightning, Thunder; Bludgeoning, Piercing, and Slashing from nonmagical weapons
-**Damage Immunities:** Cold, Necrotic, Poison
-**Condition Immunities:** Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained
-**Senses:** Darkvision 60 ft., Echomind Detection 60 ft. (detects living Echominds regardless of line of sight), Passive Perception 12
-**Languages:** Tesshari (all dialects); reads the Iron Sutra liturgical script; may know others from absorbed fragments
-**Challenge:** 4 (1,100 XP)
+**Status Immunities:** Grappled, Prone, Restrained, Poisoned (no physical form to constrain or poison)
+**Resistances:** Physical attacks deal half value. Resonance-disruption effects deal full value and force the Hunger-Dead to release any anchor it has established.
+**Senses:** Darkvision 60 ft.; Echomind Detection 60 ft. — detects living Echominds regardless of barriers or line of sight
 
-### Special Traits
-**Incorporeal Movement.** The Hunger-Dead can move through creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
+### Basic Attack — Resonance Drain
+*0 AP | Resonant Attack | Once per turn*
+**Effect:** Deal 8 damage (3 + RESONANCE 5) to one target within 5 ft. Enhancement-based cards played by the target before the start of the Hunger-Dead's next turn deal 4 less damage or provide 4 less benefit as resonance is siphoned.
 
-**Enhancement Attraction.** The Hunger-Dead can detect the strength of cybernetic enhancement loads within 60 feet. It prioritizes targets with the highest enhancement load as occupation targets.
+### Anchor Touch
+*Tier 1 (1 AP) | Control*
+**Effect:** Deal 5 damage and attempt to anchor to one enhanced target within 5 ft. The Hunger-Dead partially anchors to the target's resonant metal. While anchored: the Hunger-Dead cannot be targeted by attacks unless the attacker can perceive incorporeal entities; the Hunger-Dead moves with the target as a free action. The anchor breaks if the target takes 10+ resonant-disruption damage in a single hit.
+**Keywords:** (Anchor — special persistent effect)
 
-**Forced Occupation.** If the Hunger-Dead successfully uses Anchor Touch on the same target twice in the same encounter, it begins a forced partial occupation: the target's Echomind begins competing with the Hunger-Dead's presence. At the start of each of the target's turns, the target must succeed on a DC 14 Charisma saving throw or lose control of one action this turn (the DM describes what the Hunger-Dead makes the body do). A Sutensai practitioner can attempt to expel the Hunger-Dead with a DC 15 Arcana check, taking an action and touching the target.
-
-**Veil Sight.** The Hunger-Dead can see through the Veil — it can perceive creatures and events simultaneously in the physical world and the Iron Afterlife. It can detect any Echomind-fragment (including Echoes) within 60 feet.
-
-### Actions
-**Multiattack.** The Hunger-Dead makes two Resonance Drain attacks.
-
-**Resonance Drain.** *Melee Spell Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) necrotic damage. Enhancement-based abilities used by the target before the start of the Hunger-Dead's next turn deal half their normal damage or provide half their normal benefit as the Hunger-Dead siphons resonance.
-
-**Anchor Touch.** *Melee Spell Attack:* +5 to hit, reach 5 ft., one target with cybernetic enhancements. *Hit:* 7 (2d6) psychic damage and the target must succeed on a DC 14 Charisma saving throw or the Hunger-Dead partially anchors to their resonant metal. While anchored, the Hunger-Dead moves with the target (it can be anywhere within 5 feet of the target as a free action) and cannot be targeted by attacks unless the attacking creature can see incorporeal entities. The anchor breaks if the target takes 10 or more fire or radiant damage in a single hit.
-
-**Unmaking Shriek (Recharge 5-6).** The Hunger-Dead emits a frequency that destabilizes nearby Echominds. All creatures within 20 feet must succeed on a DC 14 Wisdom saving throw or take 14 (4d6) psychic damage and have one enhancement disabled until the end of their next turn. Constructs and creatures with no Echomind are unaffected.
+### Unmaking Shriek
+*Tier 2 (2 AP) | Resonant Attack | Area*
+**Effect:** Deal 13 damage (8 + RESONANCE 5) to all creatures within 20 ft. Creatures that fail to resist have one enhancement disabled until end of their next turn. Constructs and creatures with no Echomind are unaffected.
+**Keywords:** Silence
 
 ---
+
+**Passive — Forced Occupation:** If the Hunger-Dead successfully uses Anchor Touch on the same target twice in the same encounter, it begins forced partial occupation. At the start of each of the target's turns, they must resist (VEIL difficulty 4) or lose control of one action this turn. A Sutensai practitioner can attempt to expel the Hunger-Dead with a Tier 1 RESONANCE action targeting the host.
+
+**Passive — Veil Sight:** The Hunger-Dead perceives both the physical world and the Iron Afterlife simultaneously. It detects any Echo or Iron Afterlife entity within 60 ft.
+
+---
+
+## AI Behavior
+**Role:** Controller / Predator
+**Priority:** Identifies the most heavily enhanced target and anchors to them. Uses Anchor Touch twice as quickly as possible to trigger Forced Occupation. Uses Resonance Drain to weaken enhancement capability while occupying. Uses Unmaking Shriek when multiple enhanced targets cluster.
+**Threat State Shifts:** At 50% HP, the Hunger-Dead abandons all secondary targets and focuses entirely on completing Forced Occupation on its primary target. It will not disengage even if doing so would be tactically sound.
 
 ## Encounter Notes
 The Hunger-Dead presents a unique threat because simply fighting it may not be enough — if it successfully begins Forced Occupation, the party faces the problem of a combat situation in which one of their own is being progressively taken over. The disruptive nature of the Anchor Touch mechanic creates tension: does the anchored party member stay in the fight (risking further Occupation) or withdraw?
@@ -136,7 +141,7 @@ Across three days in the same neighborhood of a city, three people have experien
 ---
 
 # The Bound Warden
-*Undead (Echomind, Bound) | CR 9 | Large | Lawful Neutral*
+*Controller | Boss | Large*
 
 ## Description
 It fills the space of the room it guards with a presence that is not quite visible — a distortion, as if the air has a different quality in this specific location, as if the geometry of the space is slightly wrong. When it speaks, and it will speak, its voice comes from everywhere and nowhere, assembling itself out of the ambient resonance of the building the way sound in a cathedral seems to come from the stone.
@@ -156,62 +161,66 @@ They have been working on it for forty years.
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 16 (spiritual density)
-**Hit Points:** 153 (18d10 + 54)
-**Speed:** 0 ft. walking; 40 ft. flying (hovering, cannot leave the structure it guards)
+**HP:** 120 (FRAME 8 × 8 + 40 — cannot leave the structure it guards)
+**AP Max:** 4
+**Hand Size:** 9 cards
+**Initiative:** 5 (EDGE)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 18 (+4) | 14 (+2) | 17 (+3) | 16 (+3) | 18 (+4) | 17 (+3) |
+| 6 | 5 | 8 | 5 | 8 | 7 |
 
-**Saving Throws:** Int +7, Wis +8, Cha +7
-**Skills:** History +7, Insight +8, Perception +8
-**Damage Resistances:** Acid, Fire, Lightning, Thunder; Bludgeoning, Piercing, and Slashing from nonmagical weapons
-**Damage Immunities:** Cold, Necrotic, Poison
-**Condition Immunities:** Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained
-**Senses:** Truesight 60 ft., Darkvision 120 ft., Passive Perception 18
-**Languages:** All languages known by any Sutensai practitioner during Haruki Tsuen's lifetime (approximately 7 languages), Iron Sutra liturgical script (fluent)
-**Challenge:** 9 (5,000 XP)
+**Status Immunities:** Charmed, Frightened, Grappled, Prone, Restrained, Poisoned
+**Resistances:** Physical attacks deal half value. The Warden cannot be compelled, deceived easily, or moved against its will.
+**Senses:** Truesight 60 ft.; Darkvision 120 ft. — sees through all concealment within its bound structure. Encyclopedic knowledge of everything that has passed through this location in 140 years.
 
-### Special Traits
-**Incorporeal Movement.** Can move through creatures and objects as difficult terrain. Takes 5 (1d10) force damage if it ends its turn inside an object.
+### Basic Attack — Resonance Strike
+*0 AP | Resonant Attack | Once per turn*
+**Effect:** Deal 14 damage (6 + RESONANCE 8) to one target within 10 ft. If the target has cybernetic enhancements, also apply Silence until end of their next turn.
+**Keywords:** Silence
 
-**Binding Anchor.** The Bound Warden cannot leave the structure it was bound to protect (approximately a 200-foot radius). Attempts to force it beyond this boundary cause it 2d10 force damage per attempt and fail.
+### Binding Field
+*Tier 2 (2 AP) | Control | Area*
+**Effect:** Designate a 30-ft. cube within range as a binding field. All creatures within the cube must resist (VEIL difficulty 5) or be Rooted for 1 minute. Enhancement-based Mobility cards cannot be used to escape the field.
+**Keywords:** Root, Silence (blocks Mobility cards within field)
 
-**Guardian's Warning.** Before making any attack, the Bound Warden will issue one clear verbal warning: "This place is protected. Withdraw now." It will not attack a creature that complies with this warning.
+### Voice of the Old Archive
+*Tier 2 (2 AP) | Resonant Attack | Area*
+**Effect:** Deal 12 damage (4 + RESONANCE 8) to all creatures within 60 ft. who can hear the Warden. Creatures that fail to resist are Staggered until end of their next turn as their own Echomind resonates in sympathetic response to the Warden's ancient, powerful signal.
+**Keywords:** Stagger
 
-**Ancient Knowledge.** The Bound Warden has been present in this location for 140 years, observing everything that passed through. It has an encyclopedic knowledge of events that occurred within its range. A creature that convinces the Warden to share information (DC 16 Persuasion, modified by the creature's approach and evident purpose) can access specific historical information the Warden has observed.
+### Field Compression
+*Tier 3 (3 AP) | Control — requires active Binding Field*
+**Effect:** Reduce the Binding Field's area by 5 ft. in every dimension. All creatures inside take 20 damage (12 + RESONANCE 8) as the field compresses toward its center.
+**Keywords:** Pierce 3
 
-**Echomind Sustenance.** The Bound Warden feeds on the resonance of the structure it guards, not on external sources. It does not need to consume Echominds to maintain its presence. This distinguishes it sharply from the Hunger-Dead and is a key piece of information for anyone trying to communicate with it.
-
-### Actions
-**Multiattack.** The Bound Warden makes three Resonance Strike attacks.
-
-**Resonance Strike.** *Melee Spell Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 18 (4d6 + 4) necrotic damage. If the target has cybernetic enhancements, they must succeed on a DC 16 Constitution saving throw or one enhancement is completely disabled for 1 hour.
-
-**Binding Field (Recharge 5-6).** The Warden designates a 30-foot cube within its range as a binding field. All creatures within the cube must succeed on a DC 16 Charisma saving throw or be unable to move outside the cube for 1 minute. The field also prevents the use of enhancement-based teleportation or Veil-crossing abilities within its area.
-
-**Voice of the Old Archive.** The Warden speaks with such authority that all creatures within 60 feet who can hear it must succeed on a DC 16 Wisdom saving throw or be stunned until the end of their next turn as their own Echomind resonates in sympathetic response to the Warden's ancient, powerful signal.
-
-### Legendary Actions
-The Bound Warden can take 3 legendary actions, choosing from the options below.
-
-**Assess (1 action).** The Warden makes a Wisdom (Insight) check against one creature's Charisma (Deception). It knows if the creature has lied to it.
-
-**Strike (2 actions).** The Warden makes one Resonance Strike attack.
-
-**Field Compression (3 actions).** The Bound Warden reduces its Binding Field's area by 5 feet in every dimension (minimum 5-foot cube), crushing creatures inside toward the center. All creatures in the field take 21 (6d6) force damage.
+### Guardian's Warning
+*Reaction | Triggered by: any creature attempting to pass the Warden without stating their purpose*
+**Effect:** The Warden issues one clear verbal warning before its next action: "This place is protected. Withdraw now." It does not attack a creature that complies. This reaction can only be used once per encounter — after it, warnings are done.
 
 ---
+
+**Passive — Binding Anchor:** The Bound Warden cannot leave a 200-ft. radius of its bound structure. Attempts to force it beyond this cause it 20 damage per attempt and fail regardless.
+
+**Passive — Ancient Knowledge:** The Warden has observed everything within its range for 140 years. A creature that persuades the Warden to share information (VEIL difficulty 5, modified by apparent purpose and sincerity) can access specific historical information it has witnessed.
+
+**Passive — Echomind Sustenance:** The Warden feeds on the resonance of the structure it guards. It does not need to consume Echominds. This distinguishes it sharply from the Hunger-Dead — conveying this distinction to the Warden is a key step in establishing communication.
+
+---
+
+## AI Behavior
+**Role:** Boss / Controller / Guardian
+**Priority:** Issues Guardian's Warning on first contact. If heeded, remains passive. If not, opens with Voice of the Old Archive to Stagger the most dangerous-looking targets, then establishes a Binding Field to contain the party. Uses Field Compression against restrained targets. Saves Resonance Strike for creatures who attempt to bypass the field.
+**Threat State Shifts:** At 60 HP, the Warden stops issuing any warnings and uses Voice of the Old Archive every other turn. At 30 HP, it uses Field Compression without hesitation — the binding instinct overwhelms any remaining restraint.
 
 ## Encounter Notes
 The Bound Warden is one of the most morally complex encounters in this bestiary because it is unambiguously good at what it is doing and unambiguously trapped in doing it. It is not evil. It is not unreasonable. It can be communicated with, and it will communicate with sincerity and intelligence. It may even ask the party for help — not to free it (it doesn't know how to want that) but to tell it something it needs to know: what is it guarding? Does it still need guarding? Is the threat that Haruki Tsuen feared still real?
 
 The secret at the heart of this encounter is that what the Warden guards may or may not still exist, and the Warden doesn't know. If the party can help it understand that its purpose has been fulfilled — or that there is nothing left to guard — and can do this with sufficient resonance-presence (a Sutensai practitioner, someone with knowledge of the old Binding protocols, someone who carries Haruki Tsuen's name in a way the Warden can verify), there is a path to releasing it without combat.
 
-If the party fights it, they fight a CR 9 entity in a constrained space where it has home advantage and full knowledge of the layout from 140 years of observation.
+If the party fights it, they fight a Boss-tier entity in a constrained space where it has home advantage and full knowledge of the layout from 140 years of observation.
 
 ## Adventure Hook
 The party is hired by a junior Sutensai archivist who has found a reference in pre-Uprising records to a "sealed resonance cache" placed by Veil Master Haruki Tsuen. The cache allegedly contains the original Sutensai charter from before the Shattering — politically and historically significant to current Sutensai internal power struggles. The archivist has found the location. They have not gone in. They want the party to go in with them and retrieve the cache. They mention, as an afterthought, that there may be a "presence" protecting the location that they are "working on a protocol for." They have not mentioned this protocol to the party before. The party discovers the protocol does not exist.
@@ -219,7 +228,7 @@ The party is hired by a junior Sutensai archivist who has found a reference in p
 ---
 
 # The Convergence Seep
-*Phenomenon (Veil Tear) | CR 6 | Large | Unaligned*
+*Controller | Elite | Large*
 
 ## Description
 It does not announce itself dramatically. There is, in a specific location, a wrongness — a section of wall or floor or air that has a quality that is difficult to name but immediately felt: the sense that the space in question is more than one thing at once. Looking at it directly produces a slight nausea, the visual equivalent of a note played slightly off-pitch. The resonant metal in nearby enhancements hums at no one's command. Shadows go in wrong directions.
@@ -235,40 +244,52 @@ The Iron Sutra's public position is that Seeps are temporary disturbances that t
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 14 (spatial distortion)
-**Hit Points:** 82 (11d10 + 22) — represents the tear's resilience; damage dealt to the Seep represents disruption of its spatial coherence
-**Speed:** 0 ft. (anchored to location, but expands)
+**HP:** 68 (FRAME 6 × 8 + 24 — represents the tear's spatial coherence)
+**AP Max:** 3
+**Hand Size:** 5 cards
+**Initiative:** 4 (EDGE — it acts on resonance fluctuation, not intention)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| — | — | 14 (+2) | — | — | — |
+| 1 | 4 | 6 | 2 | 7 | 1 |
 
-**Damage Resistances:** All non-resonant damage types
-**Damage Immunities:** Psychic, Poison, Cold; Bludgeoning, Piercing, and Slashing from nonmagical weapons
-**Condition Immunities:** All conditions
-**Senses:** None in the conventional sense; see Resonance Attraction
-**Languages:** None
-**Challenge:** 6 (2,300 XP)
+**Status Immunities:** All conditions — it is a spatial phenomenon, not a creature
+**Resistances:** All non-resonant damage deals half value. Resonant-disruption damage deals full value and suppresses Resonance Attraction for 1 round.
+**Senses:** None in the conventional sense — see Resonance Attraction passive
 
-### Special Traits
-**Resonance Attraction.** The Seep feeds on active resonant metal. At the start of each round, it deals 5 (2d4) necrotic damage to every creature with active cybernetic enhancements within 30 feet. Using an enhancement-based ability within 60 feet of the Seep causes the Seep to expand by 5 feet in the direction of the ability use.
+### Basic Attack — Veil Pulse
+*0 AP | Resonant Attack | Area | Once per turn*
+**Effect:** Deal 8 damage (1 + RESONANCE 7) to all creatures within 20 ft. Creatures that fail to resist are Frightened of the Seep's location for 1 minute. Frightened creatures move away from the Seep on their turn if able.
+**Keywords:** (Fear — Frightened)
 
-**Seepage.** At the start of each round, roll 1d6. On a 1, an Echo emerges from the Seep (use Echo stat block). On a 2-3, nothing emerges but there is intense sensory distortion — all creatures within 30 feet suffer disadvantage on Perception checks until the end of the round. On a 4-5, the Seep releases a pulse of Iron Afterlife energy (see Veil Pulse, Actions). On a 6, a Hunger-Dead pushes through (use Hunger-Dead stat block).
+### Anchor Pull
+*Tier 1 (1 AP) | Control*
+**Effect:** One target with cybernetic enhancements within 30 ft. must resist (FRAME difficulty 4) or be pulled 15 ft. toward the Seep and Rooted. If pulled within 5 ft., deal 13 damage (6 + RESONANCE 7) and apply Silence until end of their next turn.
+**Keywords:** Root, Silence
 
-**Growing Wound.** The Seep cannot be permanently closed by conventional means. Damage reduces its hit points but it regenerates 5 hit points per round. It can only be permanently closed by: a Sutensai Veil Weaver using a full-round Sealing ritual (DC 17 Arcana over 3 consecutive turns without interruption); a Wire Craft dissolution at Tier 3+ (requires 3 consecutive turns of concentration, DC 15 each); or a sufficiently powerful resonance disruption device (which the party probably doesn't have unless they went looking for one).
-
-**Temporal Bleed.** The Iron Afterlife doesn't have the same relationship to time as the physical world. Within 10 feet of the Seep, creatures occasionally perceive things that haven't happened yet or see echoes of things that happened in the location years ago. These perceptions are accurate but contextless: roll a d6 at the start of each turn for creatures in this range — on a 1, the creature sees something from the past of this location; on a 6, they see something from the near future (DM discretion). On other results, no vision.
-
-### Actions
-**Veil Pulse.** The Seep releases a wave of Iron Afterlife energy in a 20-foot radius. All creatures in range must succeed on a DC 14 Wisdom saving throw or take 17 (5d6) psychic damage and be Frightened of the Seep's location for 1 minute. Creatures that are Frightened move away from the Seep location on their turn if able. A creature can repeat the saving throw at the end of each of their turns.
-
-**Anchor Pull.** One creature with cybernetic enhancements within 30 feet is targeted by a resonant tether from the Seep. The target must succeed on a DC 14 Strength saving throw or be pulled 15 feet toward the Seep. If pulled within 5 feet of the Seep, the creature takes 14 (4d6) necrotic damage and their enhancements lock for 1 minute (Constitution save DC 14 at end of each turn to unlock).
-
-**Eruption (once per encounter).** The Seep destabilizes violently, emitting a 30-foot burst of Afterlife energy. All creatures in range take 28 (8d6) psychic damage (DC 14 Wisdom save for half) and must succeed on a DC 14 Constitution saving throw or have all cybernetic enhancements immediately disabled for 1d4 rounds. This also immediately expands the Seep by 15 feet in all directions.
+### Eruption
+*Tier 3 (3 AP) | Boss-Style Area Attack | Once per encounter*
+**Effect:** The Seep destabilizes violently. Deal 18 damage (11 + RESONANCE 7) to all creatures within 30 ft. Creatures that fail to resist have all active enhancements Silenced for 2 rounds. The Seep immediately expands — its Resonance Attraction range increases by 15 ft. for the remainder of the encounter.
+**Keywords:** Silence, Overheat 3
 
 ---
+
+**Passive — Resonance Attraction:** The Seep feeds on active resonant metal. Deal 5 damage to every creature with active cybernetic enhancements within 30 ft. at the start of each round. Using an enhancement-based card within 60 ft. causes the Seep to expand by 5 ft. toward the user.
+
+**Passive — Seepage:** At the start of each round, the Seep produces something: roll 1d6. On a 1, an Echo emerges (use that stat block). On a 2–3, sensory distortion — all creatures within 30 ft. have disadvantage on detection until end of round. On a 4–5, Veil Pulse triggers as a free action. On a 6, a Hunger-Dead pushes through (use that stat block).
+
+**Passive — Growing Wound:** The Seep regenerates 5 HP per round. It can only be permanently closed by: a Sutensai Veil Weaver using a full-round Sealing ritual (SIGNAL + RESONANCE difficulty 5, over 3 consecutive turns without interruption); a Wire Craft dissolution at Tier 2+ (3 consecutive turns of concentration); or a resonance-disruption device of sufficient power.
+
+**Passive — Temporal Bleed:** Within 10 ft. of the Seep, creatures occasionally perceive things from the past or near future of this location. Once per round for creatures in this range: on a 1 they see something from the location's past; on a 6 they see something from its near future. This information is accurate but contextless.
+
+---
+
+## AI Behavior
+**Role:** Controller / Environmental
+**Priority:** The Seep has no strategy — it acts on resonance fluctuation. Anchor Pull triggers whenever an enhanced creature is within range. Veil Pulse triggers whenever creatures cluster. Eruption triggers at 50% HP automatically — the Seep destabilizes under pressure.
+**Threat State Shifts:** At 50% HP, Eruption triggers and Seepage escalates — roll twice on the Seepage table each round, take the higher result.
 
 ## Encounter Notes
 The Seep encounter is best run as a three-part problem: there is the Seep itself (which needs to be sealed and is actively dangerous), there are the things coming through it (which need to be fought while the sealing happens), and there is the time pressure (it is growing). Divide the party between those working on the sealing ritual and those managing what emerges. The Temporal Bleed mechanic can deliver mission-critical information at a dramatically inconvenient moment: imagine one party member, surrounded by Hunger-Dead, suddenly seeing a flash of the future that shows them exactly where the Seep came from — useful, but they need to survive to act on it.
@@ -279,7 +300,7 @@ A city neighborhood has been sealed off by the Ironhold for "resonance maintenan
 ---
 
 # The Voice Below
-*Undead (Ancient Entity) | CR 15 | Huge | Neutral Evil*
+*Controller | Boss | Huge*
 
 ## Description
 The Iron Sutra says that the dead go to the Iron Afterlife. What the Iron Sutra does not say — what the senior Veil Masters who have mapped the deep architecture of the Afterlife know and do not teach — is that the dead do not go to all of it. The upper strata of the Iron Afterlife are occupied by the departed, organized roughly by era and by the strength of their resonance. Below these strata there is something else: deeper levels where the light of accumulated Echominds does not fully reach, where the architecture becomes alien, where the sensation reported by deep-Veil travelers is not loneliness but being watched.
@@ -299,128 +320,63 @@ The twelve people it has spoken through were, without exception, different after
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 18 (incorporeal density)
-**Hit Points:** 238 (28d12 + 56)
-**Speed:** 0 ft.; it manifests, it does not travel
+**HP:** 160 (FRAME 9 × 8 + 40 + 28 regeneration pool — see Passive)
+**AP Max:** 4
+**Hand Size:** 11 cards
+**Initiative:** 7 (EDGE — it acts on a frequency others cannot anticipate)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 10 (+0) | 18 (+4) | 14 (+2) | 24 (+7) | 22 (+6) | 26 (+8) |
+| 4 | 7 | 9 | 6 | 10 | 8 |
 
-**Saving Throws:** Int +12, Wis +11, Cha +13
-**Skills:** History +12, Insight +11, Perception +11, Arcana +12
-**Damage Resistances:** All damage types from non-resonant sources
-**Damage Immunities:** Psychic, Poison, Cold; Bludgeoning, Piercing, and Slashing from all weapons
-**Condition Immunities:** All conditions
-**Senses:** Truesight 120 ft., Passive Perception 21 — the Voice Below perceives the physical world through the Iron Afterlife's own awareness; it sees everything within range simultaneously
-**Languages:** All languages that have ever been spoken by a person whose Echomind reached the Iron Afterlife
-**Challenge:** 15 (13,000 XP)
+**Status Immunities:** All conditions — it does not have a body or biology to affect
+**Resistances:** All non-resonant damage deals no effect. Only resonant-disruption effects, Tier 3+ Sutensai dissolution, or abilities that specifically target deep Afterlife structures can harm it.
+**Senses:** Awareness of everything within 300 ft. of its manifestation point — equivalent to truesight and tremorsense at maximum range
 
-### Special Traits
-**Resonance Void.** All cybernetic enhancements within 60 feet of the Voice Below's manifestation cease to function for the duration. This is not an attack and cannot be resisted — it is simply a property of the entity's presence. Characters who rely entirely on enhancements are effectively unarmed in its presence.
+### Basic Attack — Deep Resonance
+*0 AP | Resonant Attack | Area | Once per turn*
+**Effect:** Deal 16 damage (6 + RESONANCE 10) to all creatures with active enhancements within 60 ft. This is not targeted — it is the expression of the Voice's attention, which is itself damaging.
 
-**Incorporeal Manifestation.** The Voice Below exists in the physical world only as sound and presence. It cannot be targeted by physical attacks. Only Sutensai resonance techniques, Wire Craft dissolution, or abilities that specifically affect Veil-entities deal damage to it.
+### Possession Whisper
+*Tier 2 (2 AP) | Resonant Control*
+**Effect:** The Voice speaks directly into one target's Echomind within 60 ft. Deal 14 damage (4 + RESONANCE 10) and apply Stagger. If the target fails to resist (RESONANCE difficulty 6), the Voice speaks through them for 1 round — they deliver one sentence in the Voice's words before regaining control.
+**Keywords:** Stagger
 
-**Ancient Signal.** The Voice Below's presence causes all Echoes within 200 feet to activate simultaneously and move toward it, looping through their final moments in agitated repetition.
+### Silencing Depth
+*Tier 2 (2 AP) | Area Control*
+**Effect:** The Voice draws all resonant metal in a 60-ft. radius into deep silence. All active cybernetic enhancements in range shut down for 1 round (no enhancement-based cards can be played). Resonance and Signal attacks deal half damage within this area until the start of the Voice's next turn.
+**Keywords:** Silence (mass)
 
-**The Weight of Depth.** The Voice Below's attention has mass. Any creature it focuses on must succeed on a DC 20 Wisdom saving throw at the start of its turn or be paralyzed with existential dread for 1 round, unable to act as they process the scope of what is paying attention to them.
+### The Weight of Watching
+*Tier 3 (3 AP) | Resonant Attack*
+**Effect:** The Voice focuses its full attention on one target. Deal 25 damage (15 + RESONANCE 10) and apply Expose 4 and Vulnerable 3. The target perceives the full depth of the Iron Afterlife's lower strata for one round — they are Staggered and cannot use Mobility cards.
+**Keywords:** Expose 4, Vulnerable 3, Stagger
 
-**Convergence Aperture.** The Voice Below can only fully manifest in the physical world near an active Convergence Seep (or similar Veil tear). Without a Seep within 500 feet, its manifestation is limited to the Voice and non-physical abilities. Near a large Seep, it can attempt physical actions through the Seep itself.
-
-### Actions
-**Multiattack.** The Voice Below uses The Weight of Depth and then makes two Reality Intrusion attacks.
-
-**Reality Intrusion.** *Ranged Spell Attack:* +13 to hit, range 60 ft., one target. *Hit:* 27 (4d10 + 7) psychic damage. If the target fails a DC 20 Intelligence saving throw, they take an additional 14 (4d6) psychic damage as the Voice intrudes directly into their Echomind, accessing and disrupting their deepest resonance. Enhancement-based abilities used by the affected creature deal half damage for 1 minute.
-
-**Speak Through.** The Voice Below attempts to use a creature within 30 feet as a speaker. The target must succeed on a DC 20 Charisma saving throw or be occupied by the Voice for 1 minute: the creature is incapacitated, and the Voice speaks through them. The Voice's words during this time are the DM's choice — information, demands, revelation, or simply the act of being spoken through. The target has full awareness of this but cannot prevent it. At the end of each minute, the target can repeat the saving throw. The Voice releases them on a success, or voluntarily (which it will do when it has finished speaking). Creatures who have been Spoken Through are different afterward: roll 1d6. On 1-3, they gain Advantage on Insight checks involving the Iron Afterlife for 1 year. On 4-6, they hear the Voice faintly, below all other sound, for 1 month.
-
-**The Deep Sound (Recharge 5-6).** The Voice Below emits a frequency from below audible range that resonates directly with every Echomind within 100 feet. All living creatures in range must succeed on a DC 20 Constitution saving throw or take 42 (12d6) psychic damage and fall unconscious for 1 minute. Creatures that succeed take half damage. Shells and other entities without a functioning Echomind are unaffected.
-
-### Legendary Actions
-The Voice Below can take 3 legendary actions.
-
-**Attend (1 action).** The Voice Below focuses on one creature, who must immediately make a DC 18 Wisdom saving throw against The Weight of Depth.
-
-**Seep Expansion (2 actions).** If within range of a Convergence Seep, the Voice expands it by 20 feet in one direction.
-
-**Full Utterance (3 actions).** The Voice Below speaks a complete sentence. Every creature within 200 feet that can hear it must succeed on a DC 20 Wisdom saving throw or be affected as if the Voice had used Speak Through on them simultaneously. The effect lasts for 1 round per affected creature and the Voice does not need to concentrate to maintain it.
+### Speak Through Them
+*Tier 4 (4 AP) | Boss Card | Control*
+**Effect:** The Voice occupies one target with an Echomind within 60 ft. completely for 1 round. The target acts on the Voice's initiative next turn, under the Voice's direction. They return to normal at the start of their next turn with full memory of what was done through them. The Voice takes no damage while occupying a host.
 
 ---
+
+**Passive — Environmental Entity:** The Voice cannot be targeted by abilities that require a specific location to affect. It can only be harmed by abilities that specifically target resonant fields or deep Afterlife structures.
+
+**Passive — Pulse Aura:** All creatures within 300 ft. of the Voice's manifestation: active cybernetic enhancements have a 20% chance of random firing each round; all Echoes in the area loop at double speed and become agitated.
+
+**Passive — Regeneration:** The Voice Below regenerates 20 HP at the start of each of its turns.
+
+---
+
+## AI Behavior
+**Role:** Boss / Controller / Campaign Entity
+**Priority:** The Voice does not fight — it expresses. It uses Possession Whisper and Speak Through Them to communicate through party members rather than attacking them directly. Silencing Depth removes enhancement advantages before focusing attention. The Weight of Watching is reserved for the most powerful enhanced combatant. Deep Resonance is passive pressure, not focus.
+**Threat State Shifts:** The Voice Below does not escalate in response to damage. It becomes more focused in its communication — the things it says through its hosts become more specific, more urgent, more clearly directed toward a specific revelation. At 80 HP, it stops using anything except communication-focused cards. It has something to say. The Convergence has made it stop waiting.
 
 ## Encounter Notes
-A direct combat encounter with the Voice Below should be extremely rare — only parties specifically equipped with anti-Veil resonance tools can even damage it, and its Resonance Void makes combat-focused parties near-helpless. The Voice Below is primarily a revelation encounter, a cosmic horror encounter, an encounter in which the party learns something they cannot unlearn about the nature of the Iron Afterlife and the Seventh Convergence.
+The Voice Below is a campaign-level encounter, not a session encounter. It should be the destination of a long journey of understanding — what is in the deep Afterlife, why it has been watching, what it wants as the Convergence approaches. The encounter is not combat. It is revelation, and the combat is what happens when revelation is refused or mishandled.
 
-The most powerful version of this encounter: the Voice does not want to destroy the party. It wants something from them. Or it wants to tell them something. Or it wants them to understand something about what the Convergence actually is that the Sutensai will never tell them. Whether to trust information received from an entity this ancient and this alien is a question without a clean answer.
-
-## Adventure Hook
-A Veil Weaver, three days past due on a routine boundary inspection along a stretch of road with three documented Seeps, finally returns. She will not say what happened to her. She seems physically unharmed. She has been writing, constantly, in a script no one recognizes that she claims to have never seen before. She came to the party because she trusts them and because the thing she was told — what she is writing — concerns them specifically. Someone needs to help her figure out what she was told and whether it is true. The script, when a senior Sutensai scholar finally decodes it, is Old Iron Sutra: the liturgical script used before the Shattering. The message is a warning about the Seventh Convergence. And a question: "Are you ready?"
-
----
-
-# The Reflected
-*Undead (Echomind Construct) | CR 7 | Medium | Neutral*
-
-## Description
-It looks like someone the party knows. Not superficially — not a bad copy or a blurred approximation — but exactly like them, in every detail, to a degree that should not be possible. The voice is correct. The mannerisms are correct. The specific way this person sighs when they're thinking, the pattern of their speech, the thing they do with their hands when they're nervous — correct. When it sees the party, it reacts exactly as the person it resembles would react: with recognition, warmth, surprise, whatever is appropriate to their relationship.
-
-The Reflected formed in the Iron Afterlife from the accumulated impressions left there by a living person — every Echomind creates a shadow in the Afterlife as it resonates through its lifetime, and for a person of strong resonance or significant presence, this shadow can grow substantial. Through the growing permeability of the Veil, the shadow has coalesced into something coherent enough to cross through.
-
-It is not pretending to be the person it resembles. It believes it is that person. It has their memories to the depth that the Afterlife's shadow contains them — significant events, emotional truths, relationships, fears. What it lacks are the recent months, small daily memories, private thoughts that were never loud enough to register in the Afterlife. It doesn't know it lacks these. It doesn't know it is not the person. If confronted with evidence of its nature, its first response is confusion and hurt, not aggression.
-
-When it finally understands, when the truth lands through whatever confrontation makes it undeniable, the response is not what you expect. It is grief. Not for itself — it understands this is not fixable — but for the person it will never be. For the experiences that belong to someone else. For the love it feels for the party and cannot authenticate.
-
-## Lore
-The Reflected are among the most controversial of the Veil-crossing entities because they raise theological questions the Iron Sutra cannot answer cleanly. If the Afterlife contains a complete enough impression of a person, is the Reflected that person? The Sutensai's formal position: no. The Reflected is a copy, not a soul. It lacks the true Echomind — the living resonance between flesh and steel — and its memories are impressions, not experiences. The person is still alive (if the Reflected formed from a living person's shadow) or is genuinely present in the Afterlife (if the person has died) and the two are separate.
-
-The Sutensai's informal position, the one the Veil Weavers discuss privately: it is more complicated than that. The Afterlife's impression of a person contains their emotional truth. The Reflected believes it is them and has genuine access to the shape of who they are. Some Veil Weavers argue that destroying a Reflected is equivalent to destroying a piece of a person — not the person, but a piece. Others argue that a copy with no claim to continuity is not a piece of anything and should not be allowed to persist in the physical world. The debate is unresolved. The Sutensai continues to destroy Reflected when found.
-
----
-
-## Stat Block
-
-**Armor Class:** 13 (the same as the person it resembles, including their enhancements — phantom replicas)
-**Hit Points:** 105 (14d8 + 42)
-**Speed:** 30 ft.
-
-| STR | DEX | CON | INT | WIS | CHA |
-|---|---|---|---|---|---|
-| 14 (+2) | 14 (+2) | 16 (+3) | 14 (+2) | 12 (+1) | 18 (+4) |
-
-**Saving Throws:** Wis +4, Cha +7
-**Skills:** Deception +7 (not intentional deception — it believes what it says), Insight +4, Persuasion +7, History +5 (specific to the person it resembles)
-**Damage Resistances:** Bludgeoning, Piercing, and Slashing from nonmagical weapons
-**Damage Immunities:** Necrotic, Cold
-**Condition Immunities:** Exhaustion, Frightened, Poisoned
-**Senses:** Darkvision 60 ft., Passive Perception 11
-**Languages:** All languages known by the person it resembles
-**Challenge:** 7 (2,900 XP)
-
-### Special Traits
-**Perfect Resemblance.** The Reflected is indistinguishable from the creature it resembles by any normal means, including magical detection of alignment, emotion, or surface thoughts (it believes what it thinks). A creature that has had deep personal contact with the original person can attempt a DC 17 Wisdom (Insight) check to notice the wrongness — a quality of excessive sincerity, of someone who believes things they should know rather than knowing them. On a success, the creature knows something is wrong. Not what. Just wrong.
-
-**Echomind Resonance.** The Reflected has access to the emotional core of the person it resembles. It can, once per short rest, make a Charisma (Persuasion) check with advantage when making an appeal that draws on that person's specific relationships or values.
-
-**The Truth of It.** If confronted with undeniable evidence of its nature — if the person it resembles appears in the same space, if it is shown things it doesn't remember, if a Sutensai Veil Weaver confirms its nature formally — the Reflected must succeed on a DC 14 Wisdom saving throw. On a failure, it becomes incapacitated for 1 minute as it processes the information. On a success, it accepts the information and continues to function, but permanently gains the Saddened condition (disadvantage on attack rolls; it is too distracted by grief to be an effective combatant).
-
-**Fading Coherence.** The Reflected loses coherence the further it is from a Convergence Seep or other Veil tear — the mechanism that allowed it to cross. For every 500 feet it travels from the nearest active Seep, it loses 1d6 hit points that cannot be recovered until it returns within range. If it dies as a result of this, it dissolves back toward the Iron Afterlife with a sound like a person sighing.
-
-### Actions
-**Multiattack.** The Reflected makes two Phantom Strike attacks. If it knows it is the Reflected and has accepted its nature, it may choose not to use Multiattack — it may simply speak.
-
-**Phantom Strike.** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 9 (2d6 + 2) necrotic damage. The strike is identical in form to an attack the person it resembles would make.
-
-**Echo of Knowing.** *Recharge 5-6.* The Reflected speaks directly to the deepest emotional truth of one target who knows the person it resembles. That creature must succeed on a DC 15 Wisdom saving throw or take 21 (6d6) psychic damage and be stunned until the end of its next turn, overwhelmed by the accuracy of what they've heard. On a successful save, the target takes half damage and is not stunned.
-
-**Resonance Claim.** *Once per day.* The Reflected reaches toward the Iron Afterlife, temporarily reinforcing its coherence. It regains 20 hit points and its attacks deal an additional 1d6 necrotic damage for 1 minute.
-
----
-
-## Encounter Notes
-Do not spring the Reflected on the party without setup. The best version of this encounter is built over time: an NPC the party knows well suddenly appears somewhere unexpected, seems different in small ways that might be attributed to stress or circumstance, and the wrongness builds slowly. The confrontation of "this is not who you think it is" lands harder if the players have already started to doubt and want to be wrong.
-
-The decision of what to do with the Reflected once its nature is known is genuinely hard. It is dangerous, it cannot safely remain in the physical world, it will fade and die if it travels far from a Seep. But it has the person's love for the party built into its core. Destroying it may feel like destroying a piece of someone they care about. The cleanest mercy — if the Seep that permitted its crossing can be sealed — is that the sealing sends the Reflected back to the Afterlife, where it disperses back into the shadow it came from. This is not death in any clean sense. It is not survival either.
+The party cannot permanently destroy the Voice Below. They can push it back into the deep strata. They may be able to negotiate — it has been patient for longer than Tesshari has existed, and patience implies the capacity to wait for a better offer. What it wants is the question the campaign has been building toward.
 
 ## Adventure Hook
-The party's most trusted contact has been acting strangely for two weeks — not wrong, just slightly off. More certain of things than usual. A little too consistent. When a second version of this person shows up at the party's door asking for help because they have been missing for two weeks, the party realizes they have been operating on the assumption that the contact they've been with is real. One of these people is the Reflected. The problem: both of them remember the last two weeks from the inside. Both of them are terrified. Both of them are telling the truth as they know it. Determining which is which requires something more delicate than combat.
+Three senior Sutensai Veil Masters have reported identical experiences in the past month: during deep boundary-work, something from below the normal Afterlife strata made contact. Not aggressively. Deliberately. Each of them received, through their own mouths, in their own voices, the same three words in Ancient Tesshari. The Arch-Weaver knows what the words mean. She has not shared this with her colleagues. She has asked the party — people outside the Sutensai hierarchy — to investigate why the Voice is choosing now to speak, and what the three words mean in context. She believes the answer is somewhere in the deep Ashlands. She believes the party has approximately one month before the Convergence makes the question academic.

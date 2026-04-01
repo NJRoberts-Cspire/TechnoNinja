@@ -21,27 +21,502 @@ Wire Market operators love Ronin, specifically because their skills are availabl
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM: Ronin
 
-**Hit Die:** d10
-**Primary Ability:** Strength or Dexterity, Constitution
-**Saving Throw Proficiencies:** Strength, Constitution
-**Armor Proficiencies:** Wire-mesh armor, Layered plate, Salvage plating
-**Weapon Proficiencies:** Resonant blades (all), circuit lances, voidsteel tanto, force mace, iron-whip, pulse arms (basic), improvised weapons
-**Tool Proficiencies:** Forge maintenance kit, one of: Underworld contacts kit, Tracking kit, or Safehouse supplies
-**Skills:** Choose 3 from Athletics, Deception, Insight, Intimidation, Perception, Stealth, Survival, Underworld (Wire Market contacts)
+**HP Tier:** Martial
+**Hand Size:** 6
+**Primary Stats:** IRON (raw striking power), EDGE (speed, evasion, unpredictability)
+**HP Formula:** (FRAME × 8) + 14
 
-**Starting Equipment:**
-- A resonant blade, showing signs of hard use but well-maintained
-- Salvage plating or wire-mesh armor
-- A voidsteel tanto
-- A corrupted lord's seal (broken, defaced, or deliberately unmarked — your choice)
-- A forge maintenance kit
-- A pouch containing 8 weight in trade-metal (the last of it, or a new start)
+### Starting Hand
+
+- **Masterless Edge** — an unpatterned strike that reads as wrong to anyone expecting form
+- **Broken Resonance** — passive that uses your corrupted signature as interference
+- **Combat Pragmatism** — a brutal finishing technique built on desperation
 
 ---
 
-### Class Features by Level
+### Level Unlock List
+
+#### Level 1
+
+- Dirty Finish
+- Relentless Press
+
+#### Level 2
+
+- Controlled Retreat
+- Hard-Won Instinct
+
+#### Level 3
+
+- Corrupted Clarity
+- Scar Tissue
+
+#### Level 4
+
+- Counter Kata
+- Unbound Strike
+
+#### Level 5
+
+- Masterless Momentum
+- Walk Between
+
+#### Level 6
+
+- Resonant Corruption
+- Iron Scar
+
+#### Level 7
+
+- Long Road Endurance
+- Exile's Cut
+
+#### Level 8
+
+- Fracture Strike
+- Ghost Step
+
+#### Level 9
+
+- The Long Road
+- Exile's Edge
+
+#### Level 10
+
+- Unshackled Violence
+- Hollow Frequency
+
+#### Level 11
+
+- No Lord's Form
+- Corrupt Pulse
+
+#### Level 12
+
+- Masterless Perfection
+- Scar Cascade
+
+#### Level 13
+
+- Final Contract Mark
+- Survivor's Clarity
+
+#### Level 14
+
+- Exile Ascendant
+- Broken Code Strike
+
+#### Level 15
+
+- Path of Nothing
+- Resonance Inversion
+
+#### Level 16
+
+- Masterless Peak
+- The Work Itself
+
+#### Level 17
+
+- Unwitnessed Violence
+- Debt to No One
+
+#### Level 18
+
+- Edge of the Masterless
+- Corruption Bloom
+
+#### Level 19
+
+- Freedom's Weight
+- No Oath But This
+
+#### Level 20
+
+- No Lord But the Work *(Capstone)*
+
+---
+
+### Full Card Reference
+
+---
+
+### Broken Code Strike
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You attack using everything the code would forbid — every feint, every dirty angle, every technique a trained samurai is taught to consider beneath them. Deal 22 + IRON damage. Apply Bleed 3 and Expose 3. If the target is an Ironclad Samurai or similarly code-bound fighter, this attack cannot be mitigated by Guard stacks.
+**Keywords:** Bleed 3, Expose 3, Pierce 6
+**Unlock:** Level 14
+
+---
+
+### Broken Resonance
+*Tier 0 | Passive*
+
+**Always Active:** Your corrupted lord-frequency broadcasts wrongness to any enhancement reader. Once per combat, when a creature attempts to read your enhancement signature for tactical purposes, their reading returns false data. Additionally, control cards targeting you (Taunt, Charm, Silence used against you) have their duration reduced by 1 turn — the corruption interferes with clean resonant locks.
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Combat Pragmatism
+*Tier 1 (1 AP) | Attack*
+
+**Effect:** You don't fight to look right. You fight to finish. Deal 6 + IRON damage. If the target is below half HP, add EDGE to the damage — you know exactly where to apply pressure when someone is already losing.
+**Keywords:** —
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Controlled Retreat
+*Tier 1 (1 AP) | Mobility*
+
+**Effect:** Disengage cleanly and reposition. Move up to your full speed without triggering reactions. Gain Guard 3 during this movement. This is not running — it is the Ronin's specific skill of leaving at exactly the right moment.
+**Keywords:** Guard 3
+**Unlock:** Level 2
+
+---
+
+### Corrupt Pulse
+*Tier 2 (2 AP) | Control*
+
+**Effect:** Direct your corrupted resonance outward in a focused burst. Apply Overheat 2 and Stagger to one target within reach. Enhanced targets (those with significant enhancement investment) also suffer Silence for 1 turn — your corruption destabilizes their integrated systems.
+**Keywords:** Overheat 2, Stagger, Silence
+**Unlock:** Level 11
+
+---
+
+### Corrupted Clarity
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** The degraded lord-frequency has settled into something honest. You cannot be deceived by social or resonant manipulation — any effect that would force you to believe something demonstrably false against your direct experience automatically fails. You have developed the masterless person's particular clarity about what people actually want.
+**Unlock:** Level 3
+
+---
+
+### Counter Kata
+*Tier 1 (1 AP) | Reaction*
+
+**Effect:** *Triggered when an enemy uses a named ability or class feature against you.* You have spent years watching the code from outside it. You read their pattern before they complete it. Deal 8 + EDGE damage as a counter-strike. Apply Stagger to the attacker — their form collapsed against your recognition of it.
+**Keywords:** Stagger
+**Unlock:** Level 4
+
+---
+
+### Corruption Bloom
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Your corrupted resonance erupts in a burst of destabilizing energy. Deal 18 + IRON damage to all enemies within reach (calculated separately). Apply Overheat 2 and Expose 2 to all targets hit. Until the start of your next turn, any enemy who strikes you takes 4 + EDGE resonant damage from resonant blowback.
+**Keywords:** Overheat 2, Expose 2
+**Unlock:** Level 18
+
+---
+
+### Debt to No One
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You carry no lord's frequency and no lord's obligation. This turn, all attacks you make deal maximum base damage (treat base damage as the highest value in the tier range). Gain Fortify — no control effects can land on you this turn. Apply Expose 3 to all enemies you damage.
+**Keywords:** Fortify, Expose 3
+**Unlock:** Level 17
+
+---
+
+### Dirty Finish
+*Tier 1 (1 AP) | Attack*
+
+**Effect:** A strike aimed at a hidden gap — the place where their guard assumes no threat could come from. Deal 8 + IRON damage. If the target has not yet acted this round (they are surprised, or you act before them in initiative), add EDGE to the damage.
+**Keywords:** —
+**Unlock:** Level 1
+
+---
+
+### Edge of the Masterless
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Everything the Ironclad schools protected you from has sharpened you. Deal 24 + IRON + EDGE damage to one target. This attack's critical range is extended — if IRON + EDGE combined exceeds 10, the attack also applies Bleed 3 and Expose 3 automatically.
+**Keywords:** Bleed 3, Expose 3
+**Unlock:** Level 18
+
+---
+
+### Exile Ascendant
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** The masterless state that was a wound has become something else. You move, strike, and survive outside every system. Deal 20 + IRON damage. Gain Shield equal to your FRAME + EDGE. Apply Bleed 2 and Stagger to the target. This turn, you cannot be Taunted or forced into any position.
+**Keywords:** Shield, Bleed 2, Stagger, Fortify
+**Unlock:** Level 14
+
+---
+
+### Exile's Cut
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** A technique the schools don't teach because it only works when you've lost everything and have nothing left to perform correctly. Deal 14 + IRON damage. If you are below half HP, add EDGE to the damage and apply Bleed 2.
+**Keywords:** Bleed 2
+**Unlock:** Level 7
+
+---
+
+### Exile's Edge
+*Tier 2 (2 AP) | Passive*
+
+**Always Active:** You have been sharpened by everything the Ironclad's institutions insulate their members from. Once per turn, when you deal damage that reduces a target below half HP, apply Bleed 1 to that target automatically.
+**Unlock:** Level 9
+
+---
+
+### Final Contract Mark
+*Tier 2 (2 AP) | Control*
+
+**Effect:** Designate one target as your contract. Apply Mark to this target. All your attacks against them this combat deal + EDGE additional damage. You always know their position in the encounter. This cannot be Cleansed — once you take a contract, it stands until one of you is done.
+**Keywords:** Mark
+**Unlock:** Level 13
+
+---
+
+### Fracture Strike
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** A strike that lands at the junction where resonant metal meets organic tissue — not the technique itself, but the person behind it. Deal 12 + IRON damage. Apply Expose 2. The target's next defense card (Guard, Shield, or Reaction) is suppressed — it will not trigger this round.
+**Keywords:** Expose 2, Dispel (one defense card suppressed)
+**Unlock:** Level 8
+
+---
+
+### Freedom's Weight
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** The thing the code cannot give and cannot take away. Deal 22 + IRON damage to one target. Apply Bleed 2, Expose 2, and Vulnerable 2. All debuffs currently on you are Cleansed. You cannot be controlled, moved against your will, or Silenced for the remainder of this round.
+**Keywords:** Bleed 2, Expose 2, Vulnerable 2, Cleanse, Fortify
+**Unlock:** Level 19
+
+---
+
+### Ghost Step
+*Tier 1 (1 AP) | Mobility*
+
+**Effect:** You have spent years moving through the margins of every territory. Move up to your full speed. This movement does not trigger reactions. Enhancement signature scanners do not register your movement during this card's activation.
+**Keywords:** —
+**Unlock:** Level 8
+
+---
+
+### Hard-Won Instinct
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** Years without institutional support have given you resource awareness that trained soldiers lack. Once per combat, when you would exhaust a limited card (used once per combat cards), you may treat it as not yet used — your instinct for survival finds one more application. Requires GM confirmation of once-per-combat limit.
+**Unlock:** Level 2
+
+---
+
+### Hollow Frequency
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** Your corrupted signature is broadcasting at full intensity. Until the start of your next turn: enhancement-reading systems register you as whichever caste or identity you choose, any creature that attempts to lock a control effect on you must overcome your corruption (Stagger, Root, Taunt directed at you each have a 50% chance to fail — narrative resolution, not dice), and one ally within reach gains Guard 4 from the resonant noise covering their signature.
+**Keywords:** Guard 4 (ally)
+**Unlock:** Level 10
+
+---
+
+### Iron Scar
+*Tier 1 (1 AP) | Defense*
+
+**Effect:** Your enhancements have been repaired by your own hands more times than you can count, and the repairs have built toughness the clean versions don't have. Gain Shield 8. This shield has a rough quality — if it absorbs 5 or more damage in a single hit, also apply Bleed 1 to the attacker (the scar tissue bites back).
+**Keywords:** Shield 8, Bleed 1 (conditional)
+**Unlock:** Level 6
+
+---
+
+### Long Road Endurance
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** You have survived masterless longer than most. This survival has calcified into something that functions like wisdom and works like armor. Reduce all incoming damage by 1 (minimum 0). Once per combat, when you fail a saving throw or miss an attack, you may treat it as a success or hit instead.
+**Unlock:** Level 7
+
+---
+
+### Masterless Edge
+*Tier 1 (1 AP) | Attack*
+
+**Effect:** You have shed the ritual constraints of the code without losing the skills. Your form is rawer than an Ironclad's, less predictable, and harder to read. Deal 6 + IRON damage. When you are the only one attacking this target this round (no allies engaged the same target), add EDGE to the damage.
+**Keywords:** —
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Masterless Momentum
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Your combat style builds on itself — each hit opens the next angle. Deal 10 + IRON damage, then deal 8 + IRON damage to the same target as a follow-through. After the second hit, move up to half your speed as a free repositioning — toward or away from the target.
+**Keywords:** —
+**Unlock:** Level 5
+
+---
+
+### Masterless Peak
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Your combat style has reached a refinement that the coded schools cannot achieve because it was built entirely from necessity. Deal 20 + IRON damage, then 16 + IRON damage, then 12 + IRON damage to the same target. Each subsequent hit ignores the Guard remaining after the previous one.
+**Keywords:** Pierce (cumulative — each hit ignores remaining Guard from prior hits)
+**Unlock:** Level 16
+
+---
+
+### Masterless Perfection
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Three connected strikes in the style the schools don't teach. Deal 18 + IRON damage three times to the same target (calculated separately). If all three land against the same target, they must save or be Staggered until the end of their next turn.
+**Keywords:** Stagger (conditional)
+**Unlock:** Level 12
+
+---
+
+### No Lord But the Work
+*Tier 3 (3 AP) | Signature — Capstone*
+
+**Effect:** You have found, or made, or become your own reason to be. Declare one target your Final Contract. Against this target, this turn: deal 26 + IRON + EDGE damage. This attack cannot miss, cannot be mitigated by Guard or Shield, and applies Bleed 3, Expose 4, and Vulnerable 3. You are immune to all control effects for the remainder of this combat. Once per combat.
+**Keywords:** Bleed 3, Expose 4, Vulnerable 3, Pierce 20, Fortify (permanent this combat)
+**Unlock:** Level 20
+
+---
+
+### No Lord's Form
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** You fight in a style that has no name because it was never taught — it was survived into. Deal 14 + IRON damage. Apply Stagger and Expose 2. The target cannot benefit from any bonus their class or features give them against your attacks this turn (they were designed for coded opponents; you are not one).
+**Keywords:** Stagger, Expose 2, Dispel (class feature bonuses to defense)
+**Unlock:** Level 11
+
+---
+
+### No Oath But This
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Whatever you serve now — a cause, a person, a simple refusal to stop — it is yours. This turn, your attacks deal + IRON + EDGE instead of only IRON. Gain Guard 6 + Shield 6. Apply Bleed 2 to all enemies you damage. Cleanse all debuffs from yourself.
+**Keywords:** Guard 6, Shield 6, Bleed 2, Cleanse
+**Unlock:** Level 19
+
+---
+
+### Path of Nothing
+*Tier 2 (2 AP) | Power*
+
+**Effect:** The masterless Ronin's secret advantage: you have nothing left to protect. Until your next turn, damage you take is reduced by 4. Any creature that kills you this turn (reduces you to 0 HP) takes 10 + IRON damage from the last act of someone who had already decided to be done.
+**Keywords:** —
+**Unlock:** Level 15
+
+---
+
+### Relentless Press
+*Tier 1 (1 AP) | Control*
+
+**Effect:** You advance and don't stop. Deal 5 + IRON damage. Apply Root to the target — they cannot disengage from you until the start of their next turn. If they attempt to move away anyway, you may immediately deal 4 + IRON damage as a reactive strike (counts as your Reaction this round).
+**Keywords:** Root
+**Unlock:** Level 1
+
+---
+
+### Resonance Inversion
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** You redirect your corrupted resonance inward, using it as a temporary amplifier. Gain Guard 5. Until end of turn, your attacks deal + EDGE additional damage. Gain Overheat 1 — the corruption doesn't amplify cleanly.
+**Keywords:** Guard 5, Overheat 1
+**Unlock:** Level 15
+
+---
+
+### Resonant Corruption
+*Tier 2 (2 AP) | Power*
+
+**Effect:** Channel the corrupted lord-frequency outward as a weapon. Until end of turn: your attacks deal an additional 8 + IRON resonant damage. Any creature that strikes you in melee takes 4 + EDGE resonant damage as blowback. Your enhancement signature broadcasts at maximum intensity — enhanced enemies have their Tier 2 and 3 card costs increased by 1 AP this turn.
+**Keywords:** —
+**Unlock:** Level 6
+
+---
+
+### Scar Cascade
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Every scar on your enhancement network has become a weapon. Deal 20 + IRON damage. Apply Bleed 4 to the target. If you are below half HP, this card deals + EDGE additional damage and applies Expose 3 as well — your worst state is your most dangerous.
+**Keywords:** Bleed 4, Expose 3 (conditional)
+**Unlock:** Level 12
+
+---
+
+### Scar Tissue
+*Tier 1 (1 AP) | Defense*
+
+**Effect:** Your body has been repaired by your own hands more times than you can count. Gain Shield 6. When this shield absorbs damage, you also gain Regen 1 for 1 turn — the scar tissue distributes impact and recovers faster than clean enhancements would.
+**Keywords:** Shield 6, Regen 1
+**Unlock:** Level 3
+
+---
+
+### Survivor's Clarity
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** The thing the masterless develop that the code-bound don't: perfect clarity about what's actually happening. Cleanse all debuffs from yourself. Gain Fortify for 2 turns. Until end of turn, you see through all Veil effects — concealment, false signatures, and suppressed enhancements are visible to you.
+**Keywords:** Cleanse, Fortify
+**Unlock:** Level 13
+
+---
+
+### The Long Road
+*Tier 2 (2 AP) | Power*
+
+**Effect:** You have survived masterless longer than most. You cannot be frightened. You cannot be compelled. Once this combat, when you fail a saving throw, you treat it as a success instead — you have been through worse. Gain Regen 2 for 3 turns.
+**Keywords:** Regen 2, Fortify
+**Unlock:** Level 9
+
+---
+
+### The Work Itself
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** There is no lord. There is no code. There is only the work — the thing in front of you that requires your best. Deal 22 + IRON + EDGE damage. Apply Expose 4 to the target. Gain Shield equal to your FRAME × 2. This card may be played once per combat.
+**Keywords:** Expose 4, Shield
+**Unlock:** Level 16
+
+---
+
+### Unbound Strike
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** A strike that comes from outside the patterns — from a place the kata system doesn't document because it can't be taught. Deal 14 + IRON damage. Apply Stagger to the target. If this attack's total damage exceeds the target's Guard + Shield combined, the target is also Exposed 2 — your strike landed somewhere the defenses weren't.
+**Keywords:** Stagger, Expose 2 (conditional)
+**Unlock:** Level 4
+
+---
+
+### Unshackled Violence
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** The full expression of the Ronin's uncodified combat — no pattern, no form, no predictability. Deal 20 + IRON damage. Apply Bleed 2, Stagger, and Expose 2 simultaneously. If any of these effects were already present on the target, add EDGE to the damage for each one already present.
+**Keywords:** Bleed 2, Stagger, Expose 2
+**Unlock:** Level 10
+
+---
+
+### Unwitnessed Violence
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** A masterless person does their most terrible work without a lord's seal to authorize it and without a code to condemn it. Deal 24 + IRON damage. This attack leaves no readable enhancement signature trace — any attempt to forensically attribute it fails. Apply Bleed 3 and Vulnerable 3 to the target.
+**Keywords:** Bleed 3, Vulnerable 3
+**Unlock:** Level 17
+
+---
+
+### Walk Between
+*Tier 1 (1 AP) | Mobility*
+
+**Effect:** Years of moving through hostile territory without a lord's safe passage have made you extraordinarily capable. Move up to your full speed. Enhancement signature scanners do not detect you during this movement. You cannot be targeted by Reactions triggered by movement this turn.
+**Keywords:** —
+**Unlock:** Level 5
+
+---
+
+## Subclasses
 
 **Level 1: Masterless Edge**
 You have shed the ritual constraints of the code without losing the skills. Your combat style is rawer than an Ironclad's, less predictable, and harder to read precisely because it does not follow expected patterns. You gain the following:

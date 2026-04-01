@@ -21,99 +21,335 @@ The Warbanner on a battlefield is the thing that transforms a collection of indi
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM
 
-**Hit Die:** d8
-**Primary Ability:** Charisma (command authority), Intelligence (signal processing)
-**Saving Throw Proficiencies:** Charisma, Intelligence
-**Armor Proficiencies:** Wire-mesh armor, salvage plating (light and medium)
-**Weapon Proficiencies:** Resonant blades (standard and short), circuit lances, pulse arms (all weights), signal staffs
-**Tool Proficiencies:** Wire Craft tools, signal instruments, cartography tools
-**Skills:** Choose 3 from: Athletics, History, Insight, Investigation, Perception, Persuasion, Intimidation
-**Starting Equipment:** Salvage plating (medium), circuit lance, signal staff (with integrated Wire Craft array), wire-craft tools, formal herald credentials (recognized across 3 territories), encoded message kit (5 messages of highest-tier encryption), 20 gp equivalent
+**Primary Stats:** IRON + VEIL
+**HP:** (FRAME × 8) + 14
+**Hand Size:** 6
+**AP:** 3 per turn. Basic Attack free (0 AP), once per turn.
+
+### Class Identity
+The Iron Herald is a force multiplier. Their six cards hit harder than most classes and reshape the rules of the space they control. Several card titles contain Zone, Field, or Command — these are the Herald's signature: areas where enemies operate at disadvantage, where allies move freely, where specific card types are suppressed. The Herald's power scales with how many allies are in combat. Alone, they are a capable fighter. At the center of a force, they are the reason the force wins.
+
+**Command Zone (status):** Applied to areas by Herald cards. Enemies within a Command Zone take −VEIL to their damage output. Allies within a Command Zone deal +VEIL damage on their first card each turn. A Command Zone is centered on a point you designate (not on you), has a 15-meter radius, and lasts until end of combat or until you designate a new Zone (you may only have one active Zone at a time).
+
+**Priority Target (status):** Applied to enemies. All allied attacks against a Priority Target deal +3 bonus damage. You may have one Priority Target active at a time; designating a new one removes the previous.
 
 ---
 
-### Class Features by Level
+### Starting Hand (Level 1)
 
-**Level 1: Wire Craft Array**
-Your enhancements include a long-range Wire Craft array. You can send and receive Wire Craft communications up to 5 miles under clear conditions (reduced in interference-heavy environments). You can communicate with any other Wire Craft-capable creature within range without interception by an ordinary monitoring system. Signals you send are automatically encoded. Breaking your encryption requires a successful DC 20 Intelligence check by a skilled practitioner.
+Choose 2 of the following 3 cards to begin with. You gain the third at Level 2.
 
-**Level 1: Herald's Voice**
-When you announce yourself as a Herald in a social context and invoke the traditions of the Iron Herald role, creatures trained in Tesshari cultural protocols have disadvantage on Perception and Investigation checks made to find reasons to detain, attack, or obstruct you for the next hour. This does not work against creatures who have formally rejected the herald tradition or who have been specifically ordered to disregard it.
+---
 
-**Level 1: Rally Charges**
-You have a pool of Rally Charges equal to your Charisma modifier + your proficiency bonus (minimum 2). You regain all Rally Charges on a long rest and half (rounded down) on a short rest.
+### Card Reference
 
-**Level 2: Battlefield Relay**
-You can broadcast tactical information to allies within 60 feet who have any cybernetic enhancement (which includes most creatures in Tesshari). As a bonus action, spend 1 Rally Charge to transmit a tactical update: all receiving allies gain advantage on the next Perception or Initiative check they make within 1 minute. You can broadcast combat positioning information that eliminates one surprise attack against a receiving ally per combat.
+#### Command Pulse
+*Tier 1 (1 AP) | Signal Attack | Command*
 
-**Level 2: Information Cascade**
-You process incoming information faster than normal. You cannot be surprised in any situation. Additionally, when you have advance information about a location or encounter (anything beyond general knowledge), you can share it with allies as a 10-minute briefing: all allies who receive the briefing have advantage on the first skill check they make in that encounter.
+**Effect:** Deal 5 + SIGNAL damage to one target within 40 meters. All allies within 20 meters of you gain +2 to their next attack this turn.
+**Keywords:** Ally-boost
+**Unlock:** Level 1 (Starting Hand)
 
-**Level 3: Iron Herald Subclass**
-You choose your path: The Warbanner, The Neutral Tongue, or The Signal. Your subclass grants features at levels 3, 6, 10, and 14.
+---
 
-**Level 3: Herald's Passage**
-Your formal credentials and the weight of the herald tradition give you protected movement through hostile territory. When you are traveling between territories, move through a checkpoint, or otherwise attempt to cross a boundary that would normally require force, you can invoke Herald's Passage: the controlling party must have a reason not to allow passage (you are known as an enemy agent, you are carrying contraband, etc.) or they must allow you through. The default is passage. The burden of justification for denial falls on the detaining party, not you.
+#### Herald's Strike
+*Tier 1 (1 AP) | Melee Attack*
 
-**Level 4: Ability Score Improvement**
+**Effect:** Deal 6 + IRON damage. If you are currently within a Command Zone you have established, deal 9 + IRON instead.
+**Keywords:** Zone-synergy
+**Unlock:** Level 1 (Starting Hand)
 
-**Level 5: Extended Broadcast**
-Your Wire Craft Array range increases to 20 miles. You can now establish a secure communication channel with any specific individual whose Wire Craft signature you know, regardless of their location within range, and the channel persists for 1 hour without requiring your active attention. You can maintain simultaneous channels equal to your Intelligence modifier.
+---
 
-**Level 5: Voice of Command**
-As a bonus action, issue a single command to all allies within 60 feet who can hear or receive your Wire Craft signal. Allies may choose to follow the command; if they do, they gain advantage on the action it describes for this round. You cannot compel action — only enhance it when allies choose to follow your direction.
+#### Priority Call
+*Tier 1 (1 AP) | Control | Command*
 
-**Level 6: Subclass Feature**
+**Effect:** Apply Priority Target to one enemy within 60 meters. Immediately, one ally of your choice within 60 meters may make a Basic Attack against that target as a free action (this does not cost the ally their Basic Attack for the turn).
+**Keywords:** Priority Target, Ally-trigger
+**Unlock:** Level 1 (Starting Hand)
 
-**Level 6: Signal Integrity**
-Your communications cannot be intercepted by ordinary intelligence means. Additionally, you always know when someone is attempting to intercept or falsify a communication you are sending or have sent. You can send a false message through an intercepted channel with a contested Intelligence check, making the interceptor believe they have received genuine intelligence.
+---
 
-**Level 7: Tactical Overlay**
-As an action, spend 2 Rally Charges to broadcast a tactical overlay to all allies within 60 feet. For 1 minute, your allies cannot be flanked by you (they always benefit from your positioning awareness), and when any ally attacks a creature you have designated as a priority target, they deal an extra 1d6 damage. The priority designation requires a bonus action to establish and lasts 1 minute.
+#### Tactical Relay
+*Tier 1 (1 AP) | Utility | Signal*
 
-**Level 8: Ability Score Improvement**
+**Effect:** One ally within 60 meters immediately repositions up to their EDGE in meters. This movement does not trigger responses. If they end this movement adjacent to an enemy, they gain +4 to their next attack.
+**Keywords:** Ally-movement, Bonus-attack
+**Unlock:** Level 2
 
-**Level 8: Diplomatic Immunity (Extended)**
-Your herald credentials now provide protection against forces in all territories that formally recognize the Iron Herald tradition. This covers the majority of organized powers in Tesshari. Within protected territory, you cannot be legally detained without cause. Attacks against you in formal contexts trigger social and political consequences for the attacker.
+---
 
-**Level 9: Emergency Broadcast**
-Once per short rest, as a bonus action, you can broadcast an emergency signal to every Wire Craft-capable creature within 1 mile simultaneously. All allies within this range gain advantage on their next saving throw. All enemies must make an Intelligence saving throw (DC = your Herald save DC) or have disadvantage on their next attack roll as your signal disrupts their enhancement communications for 1 round.
+#### Field Suppression
+*Tier 1 (1 AP) | Control | Zone*
 
-**Level 10: Subclass Feature**
+**Effect:** Designate a Command Zone centered on a point within 50 meters. Enemies entering or starting their turn in this Zone have their AP reduced by 1 until they exit (minimum 1 AP). Allies in the Zone are unaffected.
+**Keywords:** Command Zone, AP Drain, Area
+**Unlock:** Level 2
 
-**Level 10: Command Network**
-Your command authority has expanded beyond the immediate battlefield. You can now coordinate actions with allies who are up to 20 miles away via your Wire Craft Array. You can maintain synchronized operations with up to your Intelligence modifier separate allied units simultaneously. When you coordinate a surprise for an allied group (providing them timing, positioning, and approach information in advance), their surprise attack deals an additional 2d6 damage.
+---
 
-**Level 11: Herald's Sanctum**
-Once per long rest, you can declare a location as a Sanctum for up to 1 hour. Within a 60-foot radius of the Sanctum point: fighting cannot begin without one party breaking the herald's peace (they take 2d10 psychic damage from the spiritual violation and lose disadvantage protection from Herald's Voice permanently within the affected territory); all Wire Craft communications are secure and cannot be intercepted; and neutral parties conducting negotiations have advantage on all social skill checks. This is the herald's most significant battlefield tool and their most significant diplomatic tool, and many Heralds use it exclusively for one of the two purposes.
+#### Breach Signal
+*Tier 1 (1 AP) | Signal Attack*
 
-**Level 12: Ability Score Improvement**
+**Effect:** Deal 6 + SIGNAL damage. Apply Overheat 1. If target has active Shield, deal +4 damage and remove 3 points of their Shield before damage resolves.
+**Keywords:** Overheat 1, Anti-Shield
+**Unlock:** Level 3
 
-**Level 12: Priority Channel**
-You can establish a Priority Channel to one ally per long rest. The Priority Channel bypasses all interference, range limitations, and signal jamming while you maintain it. The channel costs 1 Rally Charge per day to maintain. Through the Priority Channel, you can transmit not just information but a coordinated action command: once per round, your Priority Channel ally can take a bonus action to execute any action you transmit to them.
+---
 
-**Level 13: War Room**
-Your broadcast capabilities now extend to full war-room function. As a 10-minute setup, you can establish a mobile command node anywhere. Within 2 miles, you can maintain awareness of all Wire Craft-capable allied units' locations and status. Any allied unit within range that follows your tactical guidance gains a +2 bonus to their AC and +1d4 to attack rolls. You can redirect this guidance to different units as a bonus action.
+#### Command Voice
+*Tier 1 (1 AP) | Social | Control*
 
-**Level 14: Subclass Feature**
+**Effect:** Apply Taunt to one enemy within 30 meters — they must direct their next attack at you if able. While they are Taunted, all allies within 20 meters gain +2 to their defense cards until the Taunt expires.
+**Keywords:** Taunt, Ally-defense
+**Unlock:** Level 3
 
-**Level 15: The Living Standard**
-Your presence on a battlefield functions as a command flag. Allied creatures within 60 feet cannot be frightened while you are conscious and they can hear or receive your Wire Craft signal. When an ally within range would be reduced to 0 hit points, you can spend 2 Rally Charges as a reaction to keep them at 1 hit point. You can use this reaction once per creature per combat.
+---
 
-**Level 16: Ability Score Improvement**
+#### Zone Anchor
+*Tier 1 (1 AP) | Defense | Zone*
 
-**Level 17: Signal Mastery**
-Your Wire Craft Array range is now 100 miles in clear conditions. You can communicate with any individual whose Wire Craft signature you have ever encountered, as long as they are within range and capable of receiving. You can broadcast to every Wire Craft-capable creature within 5 miles simultaneously as an action. You can jam all Wire Craft communications within 1 mile (hostile communications only) for 10 minutes per long rest, maintaining your own communications through the jam.
+**Effect:** Apply Guard equal to your FRAME to yourself. If you are within your Command Zone, apply Guard equal to your FRAME to all allies within the Zone as well (each gets the full value).
+**Keywords:** Guard (self + allies), Zone-synergy
+**Unlock:** Level 4
 
-**Level 18: The Voice That Ends Wars**
-Once per month, you can initiate a Grand Herald Action: a formal communication across all hostile lines simultaneously, invoking the full weight of the herald tradition. All parties that recognize the tradition must provide safe passage for a designated negotiator (which can be you) for 48 hours. All armed forces within 10 miles must cease hostilities for 1 hour while the formal communication is received. This does not compel agreement — only a pause and an audience. What happens in that audience is up to the parties. You are the mechanism, not the solution.
+---
 
-**Level 19: Ability Score Improvement**
+#### Forward Command
+*Tier 1 (1 AP) | Mobility | Command*
 
-**Level 20: Signal Supreme**
-Your Wire Craft Array has evolved to a capability beyond standard enhancement. You are always simultaneously broadcasting and receiving at all times — you never miss a Wire Craft transmission within 100 miles that is not specifically encrypted against you. Your Rally Charges maximum doubles. Once per long rest, for 10 minutes, you can take full control of all Wire Craft communications in a 5-mile radius: deciding what transmits, what is blocked, what is redirected. No Wire Craft communication enters, exits, or crosses through the radius without your knowledge and consent. This is, in communications terms, absolute power. A battlefield with a Signal Supreme-level Herald controlling communications is a battlefield where one side can see and the other side is blind. The Heralds built a tradition around neutrality. This is what happens when that tradition is set aside.
+**Effect:** You move up to your EDGE in meters. One ally within 30 meters may move up to their EDGE in meters at the same time (free, not their action). Neither movement triggers responses.
+**Keywords:** Joint Mobility
+**Unlock:** Level 4
+
+---
+
+#### Field Designation
+*Tier 1 (1 AP) | Control | Zone*
+
+**Effect:** Move your active Command Zone to any point within 60 meters. All allies currently in the new Zone location immediately gain Regen 2 (lasts 2 turns). All enemies who were in the old Zone and are now outside it lose any AP Drain effect; enemies now in the new Zone begin taking AP Drain immediately.
+**Keywords:** Command Zone (relocate), Regen 2 (allies)
+**Unlock:** Level 5
+
+---
+
+#### Synchronized Strike
+*Tier 2 (2 AP) | Melee Attack | Command*
+
+**Effect:** Deal 11 + IRON damage. Simultaneously, up to two allies within 40 meters each make a Basic Attack against the same target or different targets (their choice). These Basic Attacks deal +VEIL bonus damage.
+**Keywords:** Ally-trigger (×2 Basic Attacks), VEIL-bonus
+**Unlock:** Level 5
+
+---
+
+#### Signal Jam Field
+*Tier 2 (2 AP) | Control | Zone | Signal*
+
+**Effect:** Apply Silence to all enemies within your Command Zone until the end of their next turn. Enemies without cybernetic enhancements are unaffected. Allies in the Zone are unaffected.
+**Keywords:** Silence (area), Zone-synergy
+**Unlock:** Level 6
+
+---
+
+#### The Unbroken Line
+*Tier 2 (2 AP) | Defense | Command | Signature*
+
+**Effect:** Until the start of your next turn, any ally within 30 meters who would be reduced to 0 HP is instead reduced to 1 HP. This effect applies once per ally. Applies to all allies simultaneously — not a single target. The Herald holds the line.
+**Keywords:** Death-prevent (all allies, once each)
+**Unlock:** Level 6
+
+---
+
+#### Command Field
+*Tier 2 (2 AP) | Zone | Utility*
+
+**Effect:** Expand your active Command Zone's radius to 30 meters until the start of your next turn. While expanded, allies deal +IRON (instead of +VEIL) on their first card per turn. Enemies in the Zone have Disadvantage on attacks against targets outside the Zone — they cannot effectively strike beyond the field you control.
+**Keywords:** Zone-expand, Ally-boost (IRON), Enemy-restrict
+**Unlock:** Level 7
+
+---
+
+#### Override Broadcast
+*Tier 2 (2 AP) | Signal Attack | Control*
+
+**Effect:** Deal 12 + SIGNAL damage to one target. Apply Stagger. If target has active cybernetic enhancements, also apply Overheat 2 and suppress their Reaction for this round.
+**Keywords:** Stagger, Overheat 2, Reaction-suppress
+**Unlock:** Level 7
+
+---
+
+#### Field of Authority
+*Tier 2 (2 AP) | Zone | Control*
+
+**Effect:** Establish a Command Zone. All enemies who enter the Zone this turn must succeed against your VEIL (contested against their IRON) or lose their ability to play Tier 3 cards this turn — they cannot operate at full power in a space you command.
+**Keywords:** Command Zone, Tier 3 Suppress (conditional), Contested
+**Unlock:** Level 8
+
+---
+
+#### Priority Elimination
+*Tier 2 (2 AP) | Melee Attack | Command*
+
+**Effect:** Deal 13 + IRON damage to your current Priority Target. All allies within 40 meters may use their Reaction this round to make one Basic Attack against the Priority Target (this does not expend their round Reaction for other uses — it is a Herald-granted opportunity).
+**Keywords:** Priority Target required, Ally-Reaction (Basic Attack)
+**Unlock:** Level 8
+
+---
+
+#### Signal Dominance
+*Tier 2 (2 AP) | Signal Attack | Zone*
+
+**Effect:** Deal 10 + SIGNAL damage to all enemies within your Command Zone simultaneously.
+**Keywords:** Area Attack (Zone), SIGNAL
+**Unlock:** Level 9
+
+---
+
+#### Command Presence
+*Tier 2 (2 AP) | Social | Control | Passive*
+
+**Effect:** Passive. This card counts toward your hand size but is never "played." While this card is in your hand: at the start of each of your turns, enemies within 20 meters of you must spend 1 additional AP to target allies (not you) with attacks — your command presence redirects threat toward the Herald. Enemies without cybernetic enhancements are unaffected.
+**Keywords:** Passive, Threat-redirect, AP-tax
+**Unlock:** Level 9
+
+---
+
+#### The Living Standard
+*Tier 2 (2 AP) | Defense | Command | Reaction*
+
+**Effect:** Reaction. Triggered when an ally within 30 meters would be reduced to 0 HP. That ally is reduced to 1 HP instead. Apply Regen 3 to them. You gain Taunt against the attacker until your next turn — they attacked your standard and you have noted it.
+**Keywords:** Death-prevent (1 ally), Regen 3, Taunt, Reaction
+**Unlock:** Level 10
+
+---
+
+#### Zone of Advance
+*Tier 2 (2 AP) | Zone | Mobility*
+
+**Effect:** Establish a Command Zone. All allies within 60 meters may immediately move up to their EDGE in meters toward the Zone without triggering responses. Enemies within the Zone cannot use Reaction cards until the end of their next turn — the advance was too coordinated to respond to.
+**Keywords:** Command Zone, Mass Ally Advance, Reaction-suppress (enemies)
+**Unlock:** Level 10
+
+---
+
+#### Herald's Sanctum
+*Tier 3 (3 AP) | Zone | Control | Signature*
+
+**Effect:** Establish a Sanctum Zone centered on a point within 40 meters. Within the 25-meter radius: all enemies take Expose 2; all allies gain Guard equal to your IRON; Silence applies to all enemies for 2 full rounds; and enemies cannot enter or exit the Zone on a turn where they have already played a card — they are held in place by the field's authority. The Sanctum lasts 3 rounds.
+**Keywords:** Command Zone, Expose 2 (enemies), Guard (allies), Silence (2 rounds), Movement-lock (conditional)
+**Unlock:** Level 11
+
+---
+
+#### War Room Command
+*Tier 3 (3 AP) | Command | Utility | Signature*
+
+**Effect:** Until the start of your next turn, all allies in combat gain the following simultaneously: +VEIL to all damage; their Basic Attacks cost 0 AP (already free, but may now be used an additional time this turn); any enemy that attacks an ally grants that ally a free Reaction Basic Attack in response. You have broadcast a complete tactical picture. Everyone knows what to do.
+**Keywords:** Ally-buff (universal), Extra Basic Attack, Retaliatory Reaction
+**Unlock:** Level 12
+
+---
+
+#### Command Field: Total
+*Tier 3 (3 AP) | Zone | Control | Signature*
+
+**Effect:** Your Command Zone becomes a Total Command Field until the start of your next turn. Within the Zone: enemies take 6 + VEIL damage at the start of each of their turns; enemies cannot designate Priority Targets or use social/command cards; allies deal maximum base damage on all Attack cards (no bonus stats — just maximized base values). The Herald's zone is not a suggestion.
+**Keywords:** Command Zone, Persistent Damage (enemies), Ability-suppress, Max Damage (allies)
+**Unlock:** Level 13
+
+---
+
+#### Signal Supreme
+*Tier 3 (3 AP) | Signal Attack | Zone | Signature*
+
+**Effect:** Deal 20 + SIGNAL damage to one target. Apply Overheat 3 and Silence for 2 rounds. If this target is within your Command Zone, the effect jumps — apply Overheat 1 and Silence (1 round) to all enemies within 15 meters of the original target as well.
+**Keywords:** Chain (Zone), Overheat 3, Silence, Area (conditional)
+**Unlock:** Level 14
+
+---
+
+#### Priority: All Fronts
+*Tier 3 (3 AP) | Command | Control | Signature*
+
+**Effect:** Apply Priority Target to all enemies currently in combat simultaneously. While any enemy has Priority Target from this card, all allies deal +5 bonus damage on every attack. When the first Priority Target enemy is reduced to 0 HP this combat, all remaining Priority Target enemies become Vulnerable 2.
+**Keywords:** Mass Priority Target, Ally-buff (+5), Cascade-Vulnerable
+**Unlock:** Level 15
+
+---
+
+#### Field of Reckoning
+*Tier 3 (3 AP) | Zone | Melee Attack | Signature*
+
+**Effect:** Establish a Command Zone. Immediately deal 16 + IRON damage to one enemy within the Zone. All allies within 40 meters may immediately reposition into the Zone (up to their EDGE in meters, no responses triggered). Until end of round, enemies attempting to leave the Zone take 8 + IRON damage as they go — the Herald does not permit disorderly retreat.
+**Keywords:** Command Zone, Melee Attack, Mass Reposition (allies), Zone-exit damage
+**Unlock:** Level 16
+
+---
+
+#### The Voice That Ends Wars
+*Tier 3 (3 AP) | Social | Control | Signature*
+
+**Effect:** All enemies within 60 meters must spend 2 AP (instead of their normal cost) to play any card this turn. All allies within 60 meters have their AP Max increased to 4 this turn only. Apply Taunt to yourself — every enemy in range now knows where the authority is. While Taunted enemies attack you, your allies act freely in the opened space.
+**Keywords:** AP Tax (enemies, +1), AP Boost (allies, +1), Taunt (self), Area
+**Unlock:** Level 17
+
+---
+
+#### Signal Blackout
+*Tier 3 (3 AP) | Zone | Signal | Signature*
+
+**Effect:** Apply a Signal Blackout to the entire combat space for 1 full round. All enemies lose access to Signal and Resonance cards for the duration. All enemies with cybernetic enhancements gain Overheat 2 immediately. Allies are unaffected. The Herald decides what this battlefield can and cannot transmit.
+**Keywords:** Global Silence (Signal+Resonance), Overheat 2 (enemies), 1-round duration
+**Unlock:** Level 18
+
+---
+
+#### Command: Absolute
+*Tier 3 (3 AP) | Command | Zone | Signature*
+
+**Effect:** Until the start of your next turn, you establish Absolute Field: your Command Zone expands to encompass the entire combat space. All Zone-synergy effects activate for all allies simultaneously. All enemies in the space are treated as within the Command Zone for all purposes. All allies may play one additional card this turn at no AP cost (chosen by each ally). The battlefield is yours. Every enemy already knows it.
+**Keywords:** Command Zone (global), Ally-extra card (1 each), All Zone effects active
+**Unlock:** Level 19
+
+---
+
+#### Signal Supreme: Full Authority
+*Tier 3 (3 AP) | Signal | Zone | Signature | Capstone*
+
+**Effect:** You take full control of all Wire Craft communications in the combat space for 1 full round. Mechanically: all enemies lose their Reaction for the round; all Signal cards played by enemies are redirected to target their own allies (DM adjudicates effect); all allies gain +SIGNAL to all damage; and you may reposition your Command Zone to any point in the combat space as a free action. After this round, all enemies have Overheat 3 from the broadcast. You were the line between what they could do and what they could not. You drew it. They found out where it was.
+**Keywords:** Reaction-strip (enemies), Signal-redirect (enemies), Ally-buff (+SIGNAL), Zone-relocate, Overheat 3
+**Unlock:** Level 20
+
+---
+
+### Level Unlock List
+
+| Level | Cards Available to Choose |
+|---|---|
+| 1 | Starting Hand: choose 2 of (Command Pulse, Herald's Strike, Priority Call) |
+| 2 | Tactical Relay, Field Suppression — gain the Starting Hand card you did not take |
+| 3 | Breach Signal, Command Voice |
+| 4 | Zone Anchor, Forward Command |
+| 5 | Field Designation, Synchronized Strike |
+| 6 | Signal Jam Field, The Unbroken Line |
+| 7 | Command Field, Override Broadcast |
+| 8 | Field of Authority, Priority Elimination |
+| 9 | Signal Dominance, Command Presence |
+| 10 | The Living Standard, Zone of Advance |
+| 11 | Herald's Sanctum |
+| 12 | War Room Command |
+| 13 | Command Field: Total |
+| 14 | Signal Supreme |
+| 15 | Priority: All Fronts |
+| 16 | Field of Reckoning |
+| 17 | The Voice That Ends Wars |
+| 18 | Signal Blackout |
+| 19 | Command: Absolute |
+| 20 | Signal Supreme: Full Authority (Capstone) |
+
+*Total cards: 36. Hand Size: 6. At max hand size, each new card replaces one existing card.*
 
 ---
 

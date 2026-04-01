@@ -49,43 +49,55 @@ The spiritual dimension of your character is particularly rich. You are, by the 
 
 ---
 
-## D&D 5E Racial Traits
+---
 
-**Ability Score Increase:** +2 Charisma, +1 Constitution. The Iron Blessed's overwhelming presence and the resilience developed through a lifetime of pain define their fundamental capabilities.
+## CARD SYSTEM: The Iron Blessed
 
-**Age:** Iron Blessed age similarly to the Forged, with formations continuing to grow — sometimes dramatically — throughout their lives. Very old Iron Blessed are almost entirely covered by formations, their organic tissue visible only in gaps between the metal. They typically live 80-100 years.
+**Stat Bonuses:** +2 RESONANCE
+**Hand Size Modifier:** +0 (see Subtypes below — one subtype gains +1, one loses -1)
 
-**Alignment:** Iron Blessed trend toward lawful neutral or neutral alignments, shaped by a life lived within institutional control. Those who break from the Orthodoxy's management often swing toward chaotic alignments in response.
+The Iron Blessed come in two subtypes, chosen at character creation. Both share the same stat bonus and passives. Their Hand Size and race cards differ.
 
-**Size:** Medium, though the formations can add significant perceived mass. Iron Blessed are rarely mistaken for small.
+**Subtype: The Tended** — Iron Blessed who have remained within the Orthodoxy's management structure. They have access to temple resources, formal spiritual training, and the full weight of institutional resonance behind them. Hand Size Modifier: +1. Their race cards reflect channeled, directed power.
 
-**Speed:** 30 feet. The weight of formations does not significantly impede movement for those who have grown up with them, but very heavily formed individuals may move at 25 feet (DM's discretion for very advanced age).
+**Subtype: The Unregistered** — Iron Blessed who have broken from Orthodoxy control, operating outside the temple system. They have lost institutional support but gained something the Orthodoxy cannot give: the experience of what the formations feel like when no one else is defining them. Hand Size Modifier: -1. Their race cards hit harder and stranger.
 
-**Languages:** Tesshari Common, Temple Sutra (the formal religious dialect of the Iron Sutra Orthodoxy's clergy and institutional text), and Spine-Speak (the tactile-vibrational language of Iron Blessed communities; usable only in physical contact with another Iron Blessed).
+### Passive Traits
+
+**Resonant Attunement.** The Iron Blessed attunes to resonant items and locations faster than any other race — what takes others a full scene takes the Iron Blessed a single moment of contact. Resonant items in their presence occasionally activate unpredictably: once per session, the GM may trigger a minor spontaneous effect from a nearby resonant item or location. This is not always beneficial. It is always significant.
+
+**Sutensai Attention.** The Iron Blessed is monitored by the Iron Sutra priesthood. This is a narrative passive with real social weight: the Orthodoxy knows where the Iron Blessed has been, who they have spoken to, and what public actions they have taken. This creates both leverage (the Orthodoxy's protection is real) and constraint (the Orthodoxy's disapproval is costly). How the character navigates this attention is a persistent feature of play.
+
+**Unexpected Enhancement Integration.** The Iron Blessed's cybernetic enhancements occasionally develop minor resonant properties beyond their designed function — a targeting system that also reads emotional states, a structural brace that hums at a frequency that calms nearby animals, a comm implant that sometimes receives transmissions from sources that shouldn't be able to reach it. The player and GM define one such emergent property at character creation, and additional properties may develop through play.
+
+### Race Cards
+
+The following cards are available to both subtypes. Each subtype also has one exclusive card.
+
+#### Prior Ascended Echo
+**Tier 2 (2 AP) | Resonant Attack | Race Card**
+
+**Effect:** The Iron Blessed channels a fragment of Prior Ascended resonance through their formations — not their own power but an echo of something vastly larger, half-formed and strange. All enemies within 15 feet take 5 + RESONANCE damage. Any enemy that is a construct, undead, or creature connected to the Iron Afterlife takes an additional 4 damage and receives Expose 2. The Iron Blessed cannot control exactly what comes through: after this card resolves, the GM selects one additional minor effect from the following list (roll or choose): the light in the area changes color for one turn; one nearby object of resonant significance glows; one enemy within range receives a fragmented impression of something it cannot interpret. The card's damage is real. The riders are genuine but half-formed.
+**Keywords:** Expose
+**Always Available:** Yes
 
 ---
 
-### Traits
+#### Formation Flare (Tended only)
+**Tier 2 (2 AP) | Defense | Race Card**
 
-**Resonant Formations**
-Your natural armor is exceptional. When you are not wearing armor, your AC is 14 + your Dexterity modifier, as the formations provide natural plating. This cannot be combined with other natural armor bonuses, but can be combined with a shield.
+**Effect:** The Iron Blessed channels resonance through their formations in a controlled burst. Apply Guard (6 + RESONANCE) to yourself. All allies within 10 feet gain Guard (3 + RESONANCE). Any enemy within 10 feet that makes a melee attack against the Iron Blessed this turn takes 3 + RESONANCE damage from formation spines on contact. The Orthodoxy's training makes this disciplined, directed, and reliable.
+**Keywords:** Guard
+**Always Available:** Yes
 
-Additionally, once per long rest, when you take damage that would reduce you to 0 hit points, your formations flare with resonant energy. You instead take damage equal to your Constitution modifier (minimum 1), and all creatures within 10 feet of you take 2d6 radiant damage as the flare discharges. You then fall to 0 hit points normally and begin making death saving throws.
+---
 
-**Living Sign**
-Your presence carries spiritual weight that affects those around you. You have proficiency in the Persuasion and Intimidation skills. When you make a Persuasion or Intimidation check, you may choose to call on the weight of your formations — the visual and resonant authority they carry — adding 1d4 to the roll. If you use this ability in the presence of devout Iron Sutra practitioners, they automatically treat you as a person of significant spiritual authority (Friendly disposition regarding Sutra matters) unless they have specific reason not to.
+#### Uncontrolled Resonance (Unregistered only)
+**Tier 3 (3 AP) | Power | Race Card**
 
-**Resonance Sense**
-Your formations are sensitive to spiritual resonance in ways that exceed ordinary perception. You can sense the presence of strong spiritual activity — active religious ritual, significant death, major use of resonant power — within 60 feet of you, though you don't know its exact source or nature until you investigate. Additionally, you have advantage on Wisdom (Insight) checks, as your formations read the emotional resonance of those around you before your conscious mind processes it.
-
-**The Constant Pain**
-The formations are permanent and ongoing, and the pain they produce is real. You have disadvantage on Concentration checks unless the damage that triggered the check dealt fewer than 5 points. However, you have advantage on Wisdom saving throws against being charmed, as the constant pain provides a grounding reality that mental intrusions struggle to override.
-
-**Formations of the Faithful**
-The resonant metal is responsive to spiritual energy. As an action, you can channel resonant energy through your formations, causing them to emit bright light in a 20-foot radius and dim light for an additional 20 feet. This light has specific properties: undead and spirits within the bright light must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until they leave the lit area. You can maintain this effect for up to 10 minutes as a concentration effect. You can use this feature a number of times equal to your Charisma modifier (minimum once) per long rest.
-
-**Immovable Formation**
-The formations cannot be removed, and attempts to force their removal or damage them trigger extreme pain responses. When a creature attempts to grapple you, shove you, or otherwise forcibly move you, you have advantage on the contested roll. If a creature succeeds in grappling you, they take 1d4 piercing damage at the start of each of their turns from the formations' spines. Additionally, you cannot be willingly disarmed of your natural weapons (unarmed strikes using the formations deal 1d6 piercing damage).
+**Effect:** Without the Orthodoxy's containment frameworks, the Iron Blessed's formations discharge freely. All enemies within 20 feet take 7 + RESONANCE damage and receive Stagger. Enemies at or below half HP instead receive Stagger and Expose 3. The Iron Blessed takes 3 damage from the uncontrolled discharge — their own formations turn against them briefly. After this card resolves, the Iron Blessed's next card this turn costs 0 AP, as the discharge has temporarily cleared their resonance channels. This card cannot be Overclocked.
+**Keywords:** Stagger, Expose
+**Always Available:** Yes
 
 ---
 

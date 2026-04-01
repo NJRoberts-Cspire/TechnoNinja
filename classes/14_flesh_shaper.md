@@ -21,99 +21,202 @@ War has increased both demand and dread. The Ascension War's body count is enorm
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM: Flesh Shaper
 
-**Hit Die:** d8
-**Primary Ability:** Wisdom (organic perception), Constitution (personal endurance)
-**Saving Throw Proficiencies:** Wisdom, Constitution
-**Armor Proficiencies:** Wire-mesh armor
-**Weapon Proficiencies:** Resonant blades (short configuration), pulse arms (sidearm weight), surgical implements (function as resonant blades but with precision bonuses)
-**Tool Proficiencies:** Healing tools, surgical kit, biological assessment instruments
-**Skills:** Choose 3 from: Medicine, Nature (biological systems), Insight, Perception, Stealth, Intimidation, Investigation
-**Starting Equipment:** Wire-mesh wrappings, surgical kit, healing tools (10 uses), personal notes on biological systems (encrypted), 2 surgical implements, 8 gp equivalent
+**HP Tier:** Technical
+**Hand Size:** 7
+**Primary Stats:** IRON + SIGNAL
+**HP Formula:** (FRAME × 8) + 6
+
+### Starting Hand
+
+### Flesh Sense
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Passive component: you always know the HP tier (full / wounded / critical) of all living creatures within 30 feet. Active component: target one creature within 30 feet. Learn their exact current HP and any active debuffs or structural damage they carry.
+**Keywords:** —
+**Unlock:** Level 1 (Starting Card)
 
 ---
 
-### Class Features by Level
+### Touch Mend
+*Tier 1 (1 AP) | Utility*
 
-**Level 1: Flesh Sense**
-You can feel living organic tissue within 30 feet as a passive perceptual field. You automatically know the current hit point status (rough — full/wounded/critical) of any living creature within range. As an action, you can extend this sense as a diagnostic: learn a creature's exact hit points, any diseases, poisons, enhancement integration failures, or structural damage they carry. You can use this diagnostic on a willing creature or unconscious creature as a bonus action.
+**Effect:** Restore 6 + SIGNAL HP to one ally you are adjacent to or yourself. Remove one Bleed stack from the target.
+**Keywords:** Cleanse (Bleed)
+**Unlock:** Level 1 (Starting Card)
 
-**Level 1: Touch Healing**
-You can heal through direct contact. As an action, spend 1 Shaping Point (see below) to heal a creature you are touching for 1d8 + Wisdom modifier hit points. At level 5, this increases to 2d8 + Wisdom modifier. At level 11, 3d8 + Wisdom modifier. At level 17, 4d8 + Wisdom modifier.
+---
 
-**Level 1: Shaping Points**
-You have a pool of Shaping Points equal to your Wisdom modifier + your proficiency bonus + your level (minimum 3). You regain all Shaping Points on a long rest and regain Wisdom modifier Shaping Points on a short rest.
+### Organic Strike
+*Tier 1 (1 AP) | Melee Attack*
 
-**Level 2: Organic Craft**
-Your understanding of organic tissue allows precise manipulation. You have advantage on Medicine checks. When you stabilize a dying creature, they regain 1 hit point instead of merely stabilizing. You can remove poison or disease from a creature with a 1-minute physical treatment (costs 2 Shaping Points).
+**Effect:** Deal 5 + IRON melee damage to one adjacent target. If the target has organic components, apply Bleed 2.
+**Keywords:** Bleed 2
+**Unlock:** Level 1 (Starting Card)
 
-**Level 2: Cellular Integrity**
-As an action, spend 1 Shaping Point to temporarily fortify a creature's tissue. The creature gains temporary hit points equal to your Wisdom modifier + your proficiency bonus. These last until the next short rest.
+---
 
-**Level 3: Flesh Shaper Subclass**
-You choose your path: The Mender, The Corruptor, or The Self-Shaper. Your subclass grants features at levels 3, 6, 10, and 14.
+### Level Unlock List
 
-**Level 3: Pain Management**
-You understand pain at a cellular level. As a bonus action, spend 1 Shaping Point to suppress a creature's pain response for 1 hour. A creature under pain suppression can ignore one level of exhaustion and can act normally even with injuries that would impose movement penalties (DM's discretion). Pain suppression does not heal — it allows function through damage. The creature can still be killed.
+#### Level 2
+- **Cellular Fortify** — Tier 1 (1 AP) | Defense: Apply Guard 4 + SIGNAL to one ally within 10 feet. Their organic tissue resists the next instance of Bleed or Burn damage this round.
+- **Diagnostic Touch** — Tier 1 (1 AP) | Utility: Touch one creature. Remove one debuff of your choice from them and restore 4 + SIGNAL HP. If they are at critical HP, restore 8 + SIGNAL HP instead.
 
-**Level 4: Ability Score Improvement**
+#### Level 3
+- **Pain Architecture** — Tier 2 (2 AP) | Control: Deal 8 + IRON melee damage to one adjacent target with organic components. Apply Expose 3 and Stagger. The target's FRAME is treated as 2 lower for damage threshold purposes until your next turn.
+- **Tissue Graft** — Tier 1 (1 AP) | Utility: Restore 5 + SIGNAL HP to yourself as a free self-modification. You may immediately remove one Bleed, Burn, or Expose stack from yourself.
 
-**Level 5: Mass Touch**
-Your Touch Healing can now affect multiple creatures in sequence. When you use Touch Healing, you can spend additional Shaping Points (1 per additional creature) to heal up to your Wisdom modifier creatures in the same action, as long as you can touch all of them (an area effect, a crowd, etc.) within a 5-foot reach. Each creature heals for the same roll.
+#### Level 4
+- **Organic Shield** — Tier 1 (1 AP) | Defense: Apply Guard 5 + SIGNAL to yourself. Your organic tissue thickens. Until your next turn, Bleed and Burn effects deal −SIGNAL damage to you.
+- **Neural Override** — Tier 2 (2 AP) | Control: Target one creature within 10 feet with organic components. Apply Stagger and Root. They cannot use melee Attack cards this turn. Deal 6 + IRON melee damage.
 
-**Level 5: Structural Assessment**
-You can evaluate any enhancement integration you examine and determine precisely what is wrong with it and what organic repair is required. This takes 10 minutes of examination and provides a complete diagnostic. You can then attempt to physically repair the organic components of failed enhancement integration with a Wisdom (Medicine) check (DC set by DM based on severity). Success restores the enhancement to function.
+#### Level 5
+- **Accelerated Repair** — Tier 2 (2 AP) | Utility: Restore 12 + SIGNAL HP to one ally within 10 feet. Remove all Bleed stacks from them. If they were at critical HP, also remove Stagger or Root (your choice).
+- **Seam Pull** — Tier 2 (2 AP) | Melee Attack: Deal 10 + IRON melee damage to one adjacent target with organic components. Reduce their effective IRON by 2 until the start of your next turn. Apply Bleed 3.
 
-**Level 6: Subclass Feature**
+#### Level 6
+- **Mass Mend** — Tier 2 (2 AP) | Utility: Restore 8 + SIGNAL HP to yourself and up to two allies within 10 feet. Remove one Bleed stack from each target.
+- **Biologic Corruption** — Tier 2 (2 AP) | Control: Target one creature within 10 feet with organic components. Deal 9 + IRON melee damage. Apply Expose 4 and reduce their effective FRAME by 2 until the start of your next turn.
 
-**Level 6: Accelerated Tissue**
-You can push cellular repair to emergency speeds. As an action, spend 3 Shaping Points to trigger accelerated healing in a creature you touch. They immediately regain hit points equal to their level × 2, and any stabilized conditions (broken bones, severed connections) that would normally take days are reduced to hours. Using this feature more than once on the same creature within 24 hours costs double (then triple) Shaping Points — the tissue resists being pushed again so quickly.
+#### Level 7
+- **Organic Armor** — Tier 2 (2 AP) | Defense: Apply Guard 7 + SIGNAL to yourself or one ally within 10 feet. The target has resistance to Bleed and Burn damage until the start of your next turn. Apply Regen 2 to the target.
+- **Pressure Strike** — Tier 2 (2 AP) | Melee Attack: Deal 11 + IRON melee damage to one adjacent target. If the target is Exposed, this attack deals +IRON bonus damage and applies Vulnerable 2.
 
-**Level 7: Organic Armor**
-As a bonus action, spend 2 Shaping Points to fortify your own (or a willing creature's) organic tissue temporarily. The target gains resistance to bludgeoning, piercing, and slashing damage for 1 minute. The tissue visibly thickens and firms. When this effect ends, the fortified tissue is somewhat fatigued — the creature loses the resistance bonus and has disadvantage on Strength and Dexterity checks for 1 hour as the tissue recovers.
+#### Level 8
+- **Deep Shaping** — Tier 2 (2 AP) | Control: Target one creature within 10 feet with organic components. Apply Expose 4, Vulnerable 3, and Bleed 3. Deal 8 + SIGNAL signal damage (you are rewriting their tissue from the inside). Restore 4 HP to yourself as the shaping feeds back.
+- **Crisis Mend** — Tier 1 (1 AP) | Reaction: *Trigger: An ally within 20 feet drops to critical HP or below.* Restore 7 + SIGNAL HP to that ally immediately.
 
-**Level 8: Ability Score Improvement**
+#### Level 9
+- **Flesh Surge** — Tier 3 (3 AP) | Signature: Restore 16 + SIGNAL HP to yourself. Remove all debuffs from yourself. Your next melee Attack card this turn deals +IRON bonus damage and applies Bleed 4.
+- **Biologic Wrecking** — Tier 2 (2 AP) | Melee Attack: Deal 13 + IRON melee damage to one adjacent target with organic components. Reduce their effective IRON and FRAME each by 2 until start of your next turn. Apply Bleed 3 and Expose 3.
 
-**Level 8: Deep Reading**
-Your Flesh Sense extends to full biological history. When you use the diagnostic action on a creature, you can choose to read deeply, learning: all injuries they have sustained in the past month, any Flesh Shaping that has been performed on them (including by whom, if you've encountered that practitioner's work before), the general condition of their enhancement integrations, and any biological modifications that are not standard enhancements. This reading takes 1 minute instead of a bonus action.
+#### Level 10
+- **Tissue Mastery** — Tier 2 (2 AP) | Utility: Apply a permanent in-combat modification to one willing ally within 10 feet: choose either Guard 4 (passive, stacks with other Guard) or Regen 3 (ongoing). The effect lasts until end of combat. Restore 6 + SIGNAL HP to the target.
+- **Reshape** — Tier 2 (2 AP) | Control: Deal 10 + SIGNAL signal damage to one target within 10 feet with organic components. Apply Stagger and Expose 4. The target's next attack roll is treated as if they had 2 fewer IRON.
 
-**Level 9: Crisis Heal**
-Once per short rest, as a reaction when a creature within 30 feet drops to 0 hit points, you can spend 4 Shaping Points to immediately restore them to hit points equal to your Wisdom modifier + your Flesh Shaper level. The biological emergency response is instantaneous. The creature remains at risk — they are functional, not safe.
+#### Level 11
+- **Emergency Restore** — Tier 3 (3 AP) | Signature: Restore 18 + SIGNAL HP to one ally within 10 feet. Remove all debuffs from them. If they were at 0 HP or below this turn, they return to combat with Regen 3 active.
+- **Cellular Assault** — Tier 2 (2 AP) | Melee Attack: Deal 14 + IRON melee damage to one adjacent target with organic components. Apply Bleed 4 and Expose 4. Restore 5 HP to yourself.
 
-**Level 10: Subclass Feature**
+#### Level 12
+- **Organic Network** — Tier 2 (2 AP) | Passive: While in hand, passive. You always know the exact HP of all allies and the HP tier of all enemies within 40 feet. Once per combat, when any ally drops below half HP, you may play Crisis Mend as a free action.
+- **Symbiotic Strike** — Tier 3 (3 AP) | Melee Attack: Deal 16 + IRON melee damage to one adjacent target. Restore 8 + SIGNAL HP to yourself. Apply Bleed 3 and Vulnerable 3 to the target.
 
-**Level 10: Tissue Mastery**
-Your control over organic tissue is now comprehensive. You can perform biological modifications that permanently alter a willing subject's organic components. Working examples include: expanding sensory sensitivity (advantage on Perception), fortifying organic-metal interfaces (resistance to resonant damage), restructuring musculature for specific function (advantage on specific Strength applications), or suppressing specific biological responses permanently (immunity to one poison or disease you have studied). Each permanent modification requires 1 hour of work, costs 5 Shaping Points, and requires one week of recovery time for the subject.
+#### Level 13
+- **Combat Shaping** — Tier 2 (2 AP) | Control: Deal 10 + IRON melee damage to one adjacent target with organic components. Apply Stagger, Root, and Expose 3 simultaneously. The target's effective IRON and FRAME are each reduced by 2 until start of your next turn.
+- **Pain Cascade** — Tier 3 (3 AP) | Melee Attack: Deal 18 + IRON melee damage to one adjacent target with organic components. Apply Bleed 5 and Expose 5. Restore 6 HP to yourself from the violent feedback.
 
-**Level 11: Regenerate**
-Once per long rest, spend 5 Shaping Points to regenerate a significant organic component of a creature you touch over 10 minutes: a severed organic limb re-grows, a destroyed sensory organ is reconstructed, severely damaged organic tissue is fully rebuilt. This does not regenerate cybernetic enhancements — only flesh.
+#### Level 14
+- **Rapid Reconstruction** — Tier 3 (3 AP) | Utility: Restore 20 + SIGNAL HP to one ally within 10 feet. Remove all debuffs. Apply Regen 4 and Guard 6 + SIGNAL. If the target was at critical HP, they may immediately play one card from their hand for free (0 AP).
+- **Hollow Art Strike** — Tier 3 (3 AP) | Melee Attack: Deal 20 + IRON melee damage to one adjacent target with organic components. Reduce their effective IRON, FRAME, and EDGE each by 2 until end of their next turn. Apply Bleed 4 and Expose 4.
 
-**Level 12: Ability Score Improvement**
+#### Level 15
+- **Lifeline** — Tier 3 (3 AP) | Utility: A creature that dropped to 0 HP this turn and is within 10 feet is restored to 10 + SIGNAL HP. They are cleared of all debuffs and Bleed stacks. They may act normally this round if they have not already used their turn.
+- **Biologic Devastation** — Tier 3 (3 AP) | Melee Attack: Deal 22 + IRON melee damage to one adjacent target with organic components. Apply Expose 5, Vulnerable 4, and Bleed 5. Restore 8 HP to yourself.
 
-**Level 12: Organic Network**
-You have developed such deep familiarity with your patients' biological profiles that you maintain a connected awareness. Choose up to your Wisdom modifier creatures. You always know their general hit point status (the same rough diagnostic from Level 1). If any of them drops below half hit points, you know immediately, regardless of distance.
+#### Level 16
+- **Mass Reconstruction** — Tier 3 (3 AP) | Utility: Restore 14 + SIGNAL HP to yourself and up to two allies within 10 feet. Remove all debuffs and Bleed stacks from each. Apply Regen 3 to each target.
+- **Systemic Collapse** — Tier 3 (3 AP) | Control: Target one creature within 10 feet with organic components. Deal 18 + SIGNAL signal damage. Apply Expose 6, Vulnerable 5, and Stagger. Reduce their effective IRON, FRAME, and EDGE by 3 each until end of their next turn.
 
-**Level 13: Combat Shaping**
-You can use your abilities as weapons with precision. When you succeed on a melee attack, you can spend Shaping Points (2 minimum) to add an effect: 2 points causes the target to have disadvantage on saving throws until the end of their next turn; 4 points causes the target to drop what they're holding (a neural override); 6 points causes the target to be stunned until the end of their next turn (Wisdom save DC = your Flesh Shaper save DC to resist). These effects work only on creatures with organic components (not purely mechanical constructs).
+#### Level 17
+- **Living Architecture** — Tier 3 (3 AP) | Utility: Reshape organic material in the environment within 30 feet. Create difficult terrain in a 15-foot area, or create a partial barrier (Guard 8 for any ally standing adjacent to it). This card has no effect on living creatures directly.
+- **Absolute Mend** — Tier 3 (3 AP) | Utility: Restore 24 + SIGNAL HP to one ally within 10 feet. Remove all debuffs and ongoing effects. Apply Regen 5 and Guard 8 + SIGNAL.
 
-**Level 14: Subclass Feature**
+#### Level 18
+- **Shaper's Harvest** — Tier 3 (3 AP) | Melee Attack: Deal 24 + IRON melee damage to one adjacent target with organic components. Restore 12 HP to yourself from the shaping feedback. Apply Bleed 5 and Expose 5. Echo (repeat base damage once, no riders).
+- **Emergency Mastery** — Tier 2 (2 AP) | Passive: While in hand, passive. Crisis Mend may be played twice per round instead of once. Accelerated Repair and Diagnostic Touch cost 0 AP once per turn each.
 
-**Level 15: Lifeline**
-Once per long rest, by spending 1 minute in physical contact with a creature that has died within the past 10 minutes, you can attempt to restore them to life. Make a Medicine check (DC 20, or DC 25 if the body is significantly damaged). On success, the creature is restored to 1 hit point with one level of exhaustion. On failure, the body is no longer viable for this attempt. This is not a spiritual rite — you are not calling back a soul. You are restarting organic machinery. Whether the Echomind returns from the Iron Afterlife of its own accord is outside your control.
+#### Level 19
+- **Total Shaping** — Tier 3 (3 AP) | Signature: Target one creature within 10 feet with organic components. Deal 26 + IRON melee damage. Apply Expose 6, Vulnerable 5, Bleed 5, Stagger, and Root simultaneously. Restore 10 HP to yourself.
+- **Apex Mend** — Tier 3 (3 AP) | Utility: Restore 26 + SIGNAL HP to one ally within 10 feet. Remove all debuffs. Apply Regen 6, Guard 10 + SIGNAL, and Shield 10. The target acts as if at full HP for triggering any HP-threshold effects this round.
 
-**Level 16: Ability Score Improvement**
+#### Level 20 — Capstone
+- **The Body Complete** — Tier 3 (3 AP) | Signature (Capstone): *Absolute mastery of organic systems.* Choose one: (A) **Restore** — restore full HP to one ally within 10 feet, remove all conditions and debuffs, apply Regen 6 and Shield 14. (B) **Unmake** — deal 28 + IRON melee damage to one adjacent target with organic components, apply Expose 6, Vulnerable 6, Bleed 6, Stagger, Root, and reduce their effective IRON and FRAME by 4 each until end of their next turn. Restore 14 HP to yourself regardless of which option is chosen.
 
-**Level 17: Living Architecture**
-Your ability to shape tissue has reached a scale beyond individual creatures. You can shape organic material in your environment as well as bodies: create barriers from dense organic matter, reshape plant life and organic debris into functional structures, or manipulate the biological components of large areas. As an action, spend 4 Shaping Points to manipulate organic material within 30 feet: create difficult terrain, a partial barrier, or a biological effect in a 15-foot area. This does not affect living creatures directly (that would be Corruptor territory). It affects the environment.
+---
 
-**Level 18: Emergency Mastery**
-Your Crisis Heal now costs only 2 Shaping Points and has no rest limitation — you can use it any number of times, but each time it is used on the same creature within 24 hours, it costs 2 additional Shaping Points.
+### Full Card Reference
 
-**Level 19: Ability Score Improvement**
+**Accelerated Repair** — Tier 2 (2 AP) | Utility: Restore 12 + SIGNAL HP to one ally within 10 feet. Remove all Bleed stacks. If critical HP, also remove Stagger or Root. *Unlock: Level 5*
 
-**Level 20: The Body Complete**
-You have achieved comprehensive mastery of organic systems. Your Shaping Points maximum increases by your Wisdom modifier. Once per long rest, for 1 minute, you can enter a state of Absolute Shaping: Touch Healing heals maximum hit points, all Shaping effects cost half their normal Shaping Points, and you can use Touch Healing as a bonus action. Additionally, once per long rest at any time, you can choose to spend 10 Shaping Points to restore a creature you touch to full hit points and remove all conditions and ongoing effects. This takes 1 action and cannot be done in combat without dedicating your full attention.
+**Absolute Mend** — Tier 3 (3 AP) | Utility: Restore 24 + SIGNAL HP to one ally within 10 feet. Remove all debuffs. Apply Regen 5 and Guard 8 + SIGNAL. *Unlock: Level 17*
+
+**Apex Mend** — Tier 3 (3 AP) | Utility: Restore 26 + SIGNAL HP to one ally within 10 feet. Remove all debuffs. Apply Regen 6, Guard 10 + SIGNAL, and Shield 10. *Unlock: Level 19*
+
+**Biologic Corruption** — Tier 2 (2 AP) | Control: Deal 9 + IRON melee damage to one target within 10 feet with organic components. Apply Expose 4. Reduce effective FRAME by 2 until your next turn. *Unlock: Level 6*
+
+**Biologic Devastation** — Tier 3 (3 AP) | Melee Attack: Deal 22 + IRON melee damage to one adjacent target with organic components. Apply Expose 5, Vulnerable 4, and Bleed 5. Restore 8 HP to yourself. *Unlock: Level 15*
+
+**Biologic Wrecking** — Tier 2 (2 AP) | Melee Attack: Deal 13 + IRON melee damage to one adjacent target with organic components. Reduce effective IRON and FRAME by 2 each. Apply Bleed 3 and Expose 3. *Unlock: Level 9*
+
+**Cellular Assault** — Tier 2 (2 AP) | Melee Attack: Deal 14 + IRON melee damage to one adjacent target with organic components. Apply Bleed 4 and Expose 4. Restore 5 HP to yourself. *Unlock: Level 11*
+
+**Cellular Fortify** — Tier 1 (1 AP) | Defense: Apply Guard 4 + SIGNAL to one ally within 10 feet. Resist next Bleed or Burn damage instance this round. *Unlock: Level 2*
+
+**Combat Shaping** — Tier 2 (2 AP) | Control: Deal 10 + IRON melee damage to one adjacent target with organic components. Apply Stagger, Root, and Expose 3. Reduce effective IRON and FRAME by 2 each. *Unlock: Level 13*
+
+**Crisis Mend** — Tier 1 (1 AP) | Reaction: *Trigger: An ally within 20 feet drops to critical HP.* Restore 7 + SIGNAL HP immediately. *Unlock: Level 8*
+
+**Deep Shaping** — Tier 2 (2 AP) | Control: Deal 8 + SIGNAL signal damage to one target within 10 feet. Apply Expose 4, Vulnerable 3, and Bleed 3. Restore 4 HP to yourself. *Unlock: Level 8*
+
+**Diagnostic Touch** — Tier 1 (1 AP) | Utility: Remove one debuff from one ally within reach. Restore 4 + SIGNAL HP (or 8 + SIGNAL at critical HP). *Unlock: Level 2*
+
+**Emergency Mastery** — Tier 2 (2 AP) | Passive: Crisis Mend may be played twice per round. Accelerated Repair and Diagnostic Touch cost 0 AP once per turn each. *Unlock: Level 18*
+
+**Emergency Restore** — Tier 3 (3 AP) | Signature: Restore 18 + SIGNAL HP to one ally within 10 feet. Remove all debuffs. Apply Regen 3 if the ally was at 0 HP this turn. *Unlock: Level 11*
+
+**Flesh Sense** — Tier 1 (1 AP) | Utility: Passive HP tier awareness of all living creatures in 30 feet. Active: learn exact HP and all active debuffs/structural damage on one target. *Unlock: Level 1 (Starting Card)*
+
+**Flesh Surge** — Tier 3 (3 AP) | Signature: Restore 16 + SIGNAL HP to yourself. Remove all debuffs. Next melee Attack card this turn deals +IRON damage and applies Bleed 4. *Unlock: Level 9*
+
+**Hollow Art Strike** — Tier 3 (3 AP) | Melee Attack: Deal 20 + IRON melee damage to one adjacent target with organic components. Reduce effective IRON, FRAME, and EDGE by 2 each. Apply Bleed 4 and Expose 4. *Unlock: Level 14*
+
+**Lifeline** — Tier 3 (3 AP) | Utility: A creature that dropped to 0 HP this turn and is within 10 feet is restored to 10 + SIGNAL HP. Clear all debuffs and Bleed stacks. They may act normally this round. *Unlock: Level 15*
+
+**Living Architecture** — Tier 3 (3 AP) | Utility: Create difficult terrain in 15-foot area within 30 feet, or create a partial barrier (Guard 8 for adjacent allies). Does not affect living creatures directly. *Unlock: Level 17*
+
+**Mass Mend** — Tier 2 (2 AP) | Utility: Restore 8 + SIGNAL HP to yourself and up to two allies within 10 feet. Remove one Bleed stack from each. *Unlock: Level 6*
+
+**Mass Reconstruction** — Tier 3 (3 AP) | Utility: Restore 14 + SIGNAL HP to yourself and up to two allies within 10 feet. Remove all debuffs and Bleed stacks from each. Apply Regen 3 to each. *Unlock: Level 16*
+
+**Neural Override** — Tier 2 (2 AP) | Control: Target one creature within 10 feet with organic components. Apply Stagger and Root. They cannot use melee Attack cards this turn. Deal 6 + IRON melee damage. *Unlock: Level 4*
+
+**Organic Armor** — Tier 2 (2 AP) | Defense: Apply Guard 7 + SIGNAL to yourself or one ally within 10 feet. Resistance to Bleed and Burn damage until your next turn. Apply Regen 2. *Unlock: Level 7*
+
+**Organic Network** — Tier 2 (2 AP) | Passive: Know exact HP of all allies and HP tier of all enemies within 40 feet. Once per combat, play Crisis Mend as a free action when any ally drops below half HP. *Unlock: Level 12*
+
+**Organic Shield** — Tier 1 (1 AP) | Defense: Apply Guard 5 + SIGNAL to yourself. Bleed and Burn effects deal −SIGNAL damage to you until your next turn. *Unlock: Level 4*
+
+**Organic Strike** — Tier 1 (1 AP) | Melee Attack: Deal 5 + IRON melee damage to one adjacent target. If the target has organic components, apply Bleed 2. *Unlock: Level 1 (Starting Card)*
+
+**Pain Architecture** — Tier 2 (2 AP) | Control: Deal 8 + IRON melee damage to one adjacent target with organic components. Apply Expose 3 and Stagger. Target's effective FRAME reduced by 2 until your next turn. *Unlock: Level 3*
+
+**Pain Cascade** — Tier 3 (3 AP) | Melee Attack: Deal 18 + IRON melee damage to one adjacent target with organic components. Apply Bleed 5 and Expose 5. Restore 6 HP to yourself. *Unlock: Level 13*
+
+**Pressure Strike** — Tier 2 (2 AP) | Melee Attack: Deal 11 + IRON melee damage to one adjacent target. If target is Exposed, deal +IRON bonus damage and apply Vulnerable 2. *Unlock: Level 7*
+
+**Rapid Reconstruction** — Tier 3 (3 AP) | Utility: Restore 20 + SIGNAL HP to one ally within 10 feet. Remove all debuffs. Apply Regen 4 and Guard 6 + SIGNAL. If critical HP, target may play one card free (0 AP). *Unlock: Level 14*
+
+**Reshape** — Tier 2 (2 AP) | Control: Deal 10 + SIGNAL signal damage to one target within 10 feet with organic components. Apply Stagger and Expose 4. Target's next attack treated as 2 fewer IRON. *Unlock: Level 10*
+
+**Seam Pull** — Tier 2 (2 AP) | Melee Attack: Deal 10 + IRON melee damage to one adjacent target with organic components. Reduce effective IRON by 2. Apply Bleed 3. *Unlock: Level 5*
+
+**Shaper's Harvest** — Tier 3 (3 AP) | Melee Attack: Deal 24 + IRON melee damage to one adjacent target with organic components. Restore 12 HP to yourself. Apply Bleed 5 and Expose 5. Echo (repeat base damage once, no riders). *Unlock: Level 18*
+
+**Symbiotic Strike** — Tier 3 (3 AP) | Melee Attack: Deal 16 + IRON melee damage to one adjacent target. Restore 8 + SIGNAL HP to yourself. Apply Bleed 3 and Vulnerable 3 to the target. *Unlock: Level 12*
+
+**Systemic Collapse** — Tier 3 (3 AP) | Control: Deal 18 + SIGNAL signal damage to one target within 10 feet with organic components. Apply Expose 6, Vulnerable 5, and Stagger. Reduce effective IRON, FRAME, and EDGE by 3 each until end of their next turn. *Unlock: Level 16*
+
+**The Body Complete** — Tier 3 (3 AP) | Signature (Capstone): Choose Restore (full HP + Regen 6 + Shield 14 to one ally within 10 feet) or Unmake (28 + IRON damage + Expose 6 + Vulnerable 6 + Bleed 6 + Stagger + Root to one adjacent target). Restore 14 HP to yourself regardless. *Unlock: Level 20*
+
+**Tissue Graft** — Tier 1 (1 AP) | Utility: Restore 5 + SIGNAL HP to yourself. Remove one Bleed, Burn, or Expose stack from yourself. *Unlock: Level 3*
+
+**Tissue Mastery** — Tier 2 (2 AP) | Utility: Apply Guard 4 (passive) or Regen 3 (ongoing) to one willing ally within 10 feet for rest of combat. Restore 6 + SIGNAL HP to the target. *Unlock: Level 10*
+
+**Total Shaping** — Tier 3 (3 AP) | Signature: Deal 26 + IRON melee damage to one target within 10 feet with organic components. Apply Expose 6, Vulnerable 5, Bleed 5, Stagger, and Root. Restore 10 HP to yourself. *Unlock: Level 19*
+
+**Touch Mend** — Tier 1 (1 AP) | Utility: Restore 6 + SIGNAL HP to one adjacent ally or yourself. Remove one Bleed stack. *Unlock: Level 1 (Starting Card)*
 
 ---
 

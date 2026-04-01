@@ -49,52 +49,38 @@ The social texture is perhaps more interesting. You are very frequently underest
 
 ---
 
-## D&D 5E Racial Traits
+---
 
-**Ability Score Increase:** +2 Dexterity, +1 Intelligence. The Diminished's exceptional physical precision and technical intelligence are fundamental to their survival and their identity.
+## CARD SYSTEM: The Diminished
 
-**Age:** Diminished age similarly to the Forged, living 80-120 years. They reach functional adulthood by age 16.
+**Stat Bonuses:** +1 VEIL, +1 EDGE
+**Hand Size Modifier:** +2
 
-**Alignment:** Diminished trend toward lawful neutral or chaotic neutral alignments — there is significant internal variation between those who work within the system (which requires a kind of lawful pragmatism) and those who have decided to work against it (which requires a kind of principled chaos). Rarely evil; the ethics of their situation tend to produce moral clarity rather than moral abandonment.
+### Passive Traits
 
-**Size:** Small. Diminished are 3.5 to 4 feet tall and weigh between 40 and 60 pounds. They are Small for all mechanical purposes.
+**Social Invisibility.** In contexts where the Diminished presents as low-caste or maintenance-class — which is most contexts — many institutional systems and high-status individuals simply do not register them as a meaningful presence. Security systems calibrated for threat-profiling, administrative gatekeepers, and social-hierarchy-aware NPCs require a DC 14 VEIL check to notice or engage with the Diminished as a person of consequence unless the Diminished has done something to specifically draw attention. This does not function in combat or after the Diminished has been identified as a threat.
 
-**Speed:** 30 feet. Despite their small frames, Diminished move quickly and efficiently — their stride is rapid and their locomotion in their preferred environments exceeds that of larger races.
+**Environmental Awareness.** The Diminished cannot be surprised by environmental threats — collapsing structures, failing systems, gas leaks, automated defenses, unstable terrain. Their lifetime of working inside infrastructure that can kill without warning has built a constant low-level threat-read into their perception. They can still be surprised by direct combat ambush from living opponents, but the environment itself never catches them off guard.
 
-**Languages:** Tesshari Common, Deep Cant (the technical and social language of Diminished maintenance communities, incomprehensible to most non-Diminished and actively indistinguishable from machine-system operational code at casual listening), and the regional technical dialect of whichever kingdom's infrastructure they were raised maintaining.
+**Lean Target.** Enhancement-targeting abilities — effects that specifically attack, disable, or exploit cybernetic augmentations — deal half effect against the Diminished. They have less to target. Abilities that suppress or destroy specific systems find fewer systems to suppress. This applies to Overheat, Silence effects delivered through enhancement disruption, and any ability whose text specifies it targets augmented or cybernetic components.
+
+### Race Cards
+
+#### Below the Threshold
+**Tier 1 (1 AP) | Utility | Race Card**
+
+**Effect:** The Diminished exploits the gap between what their opponents expect and what they are actually capable of. Until the start of the Diminished's next turn, the next card they play is treated as coming from an unexpected vector: it cannot be Reacted to, its damage cannot be reduced by Guard or Shield, and any status effect it applies cannot be resisted this turn. This works because no one built their defenses against someone this size doing something this precise. Once per combat, the target of this card's follow-up attack may not be the same target again for the remainder of the combat — the trick works once per opponent.
+**Keywords:** Pierce 99 (next card only, non-stacking)
+**Always Available:** Yes
 
 ---
 
-### Traits
+#### Infrastructure Advantage
+**Tier 2 (2 AP) | Control | Race Card**
 
-**Small Frame**
-You are Small. You can move through the space of any creature one size larger than you without expending extra movement. You can hide in spaces that a Medium creature could not conceal themselves in, even without full cover, as long as the space is large enough for your body.
-
-Your size has limitations in a world built for larger beings: you have disadvantage on Strength (Athletics) checks to perform tasks that require reaching heights designed for Medium creatures, and you cannot wield Heavy weapons without disadvantage.
-
-**Precision Hands**
-Your hands are extraordinarily capable. You have advantage on all Dexterity (Sleight of Hand) checks. You have proficiency with tinker's tools and thieves' tools, and your proficiency bonus is doubled for ability checks made using either. Additionally, when you make an attack with a finesse weapon, you may use a bonus action to make a precision strike: the attack does not benefit from extra damage dice but cannot be blocked by a shield (the shield's AC bonus does not apply against this strike).
-
-**Infrastructure Intuition**
-You were raised in the machine. You understand how systems connect at an instinctive level. You can identify the function and basic operation of any technological system by examining it for 1 minute, even if you have never encountered that specific system before. This does not give you the ability to operate it safely or bypass its security — only to understand what it does and how it is organized. When you roll for Arcana or Investigation checks involving technological systems or infrastructure, you add double your proficiency bonus regardless of whether you are already proficient.
-
-**Diminished Augmentation Tradition (Signature Trait)**
-Standard augmentations do not fit your body. What you have instead is the Deep School tradition — smaller, denser, more precise modifications that your community has developed over generations. At 1st level, choose one Diminished Augmentation from the list below. At 5th level, choose a second.
-
-*Diminished Augmentation List:*
-
-- **Micro-Optical Array:** Your eyes have been enhanced with augmentation calibrated for close-range precision work. You can see clearly in dim light as if it were bright light. You have advantage on Investigation and Perception checks that rely on close examination of small objects, fine text, or intricate mechanisms. You can read machine code and technical schematics as fluently as written language.
-- **Subdermal Tool Cache:** You have had tool-interfaces installed beneath the skin of both forearms. You can deploy a set of tinker's tools, thieves' tools, or a specific set of surgical instruments (chosen at installation) as a bonus action, drawing them from beneath the skin. These are always with you, cannot be confiscated without surgical intervention, and are considered masterwork quality (+1 to checks made using them).
-- **Reflex Enhancement:** Neural accelerators calibrated for your frame. You have advantage on Initiative rolls, and you can take the Disengage or Hide action as a bonus action on each of your turns.
-- **Joint Extension:** Supplementary micro-joints in your hands, wrists, and ankles provide range of motion that larger frames cannot achieve. You can squeeze through spaces as small as 6 inches in diameter and climb surfaces with advantage on Athletics checks. You cannot be restrained by conventional restraints (manacles, rope, etc.) — your joints allow you to work free in 1 minute without a check.
-- **Resonance Tap:** A small but sophisticated resonance-reading augmentation, calibrated for Diminished neurology. You can sense the emotional charge of spaces (positive, negative, neutral, mixed) at a range of 10 feet without concentration. Once per long rest, you can extend this sense to receive a specific emotional impression from an object or location you touch, similar to the Tethered's Spiritual Resonance but focused on emotional state rather than event history.
-- **Integrated Comm:** A communication implant that connects to infrastructure communication networks without external hardware. You can transmit and receive communications through any active network you are within 100 feet of, with no detectable external device. You always know when a network you are near is being monitored, as your system identifies monitoring traffic automatically.
-
-**Urban Ghost**
-In urban environments — settlements, cities, infrastructure complexes — you have advantage on Dexterity (Stealth) checks. You are expert at using a city's own structure to become invisible within it: the sightlines designed for Medium creatures, the shadows that fall below average eye level, the acoustic dampening of machine corridors. Additionally, you can always find shelter in any urban environment within 1d4 hours — you know how cities work well enough to find the spaces that don't appear on any official map.
-
-**The Overlooked**
-You have spent your life being systematically underestimated, and you have learned to use it. When you are present in a social situation and choose to be unobtrusive — not actively hiding, but simply not drawing attention — most creatures will not include you in their awareness of the room without specific reason to do so. This functions as a passive version of the Stealth skill in social contexts: a DC 12 Perception check for creatures in the area to register your presence as noteworthy. This does not function in combat or when you have actively drawn attention to yourself.
+**Effect:** The Diminished uses the environment the way only someone who grew up inside it can. In any location with mechanical infrastructure — which includes almost everywhere in Tesshari — the Diminished triggers a targeted system failure affecting one enemy within 40 feet. That enemy takes 4 + EDGE damage, receives Root for 1 turn, and loses the benefit of any enhancement-based stat bonuses until the start of the Diminished's next turn (their systems are momentarily disrupted by the environment the Diminished just weaponized). If the target has no cybernetic augmentations, this card instead applies Expose 2 and deals 3 + VEIL damage as the Diminished simply removes the environmental advantage the target was relying on. This card cannot be used in locations with no mechanical infrastructure (open wilderness, etc.).
+**Keywords:** Root, Expose
+**Always Available:** Yes
 
 ---
 

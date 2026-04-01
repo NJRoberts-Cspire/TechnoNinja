@@ -49,52 +49,44 @@ Others treat you with a range that reflects the world's complexity. The Tethered
 
 ---
 
-## D&D 5E Racial Traits
+---
 
-**Ability Score Increase:** Choose two of the following arrays when you create your character, reflecting your kingdom of origin and personal augmentation history:
-- **Ironhold Heritage:** +2 Constitution, +1 Strength
-- **Wire Market Heritage:** +2 Intelligence, +1 Dexterity
-- **Ashlands Heritage:** +1 Constitution, +1 Dexterity, +1 Wisdom
-- **Unaligned (no regional affiliation):** +1 to any two different ability scores of your choice
+## CARD SYSTEM: The Forged
 
-**Age:** Forged biological components age, but mechanical components do not decay at the same rate. Most Forged live between 80 and 120 years, though heavily modified individuals sometimes persist far longer — their organic tissue sustained by mechanical life support long past its natural span. They reach functional adulthood by about 18.
+**Stat Bonuses:** +1 IRON, +1 to one stat of the player's choice (reflects specific enhancement loadout — chosen at character creation)
+**Hand Size Modifier:** +0
 
-**Alignment:** The Forged trend toward no particular alignment — they are the world's neutral, shaped entirely by circumstance and choice. Ironhold Forged often lean lawful; Wire Market Forged lean neutral; Ashlands Forged lean chaotic by necessity.
+### Passive Traits
 
-**Size:** Medium. Forged range from roughly 5 to 6.5 feet depending on modification history, with heavily augmented individuals sometimes taller due to structural additions.
+**Integrated Chassis.** Your body includes meaningful mechanical augmentation. You are immune to status effects that specifically target organic tissue — disease, biological toxins, and flesh-degradation effects do not apply to your augmented systems. Purely chemical or mechanical damage still affects you normally.
 
-**Speed:** 30 feet.
+**Maintenance Dependent.** Your chassis requires regular upkeep. If you complete a full rest without access to basic maintenance tools or a willing chassis-wright, you begin the next combat with Overheat 1 already applied and cannot remove it until proper maintenance is performed. This cannot be suppressed by cards or enhancements — it is structural.
 
-**Languages:** Tesshari Common and one regional dialect (Ironhold Cant, Wire-Tongue, or Ashlands Drift, chosen at character creation).
+**Chassis Memory.** Your mechanical sensors record sensory data with fidelity that organic memory cannot match. Once per scene, you may recall precise sensory details — measurements, voices, visual specifics — from any event you witnessed within the last 24 hours. This is a factual recall of recorded data, not emotional memory. It does not extend to interpretation or feeling.
+
+**Forged Resilience.** When you would be reduced to 0 HP by a single hit, you may immediately apply Guard 4 against that specific hit only. This does not stack with existing Guard. Once used, this passive is suppressed until the start of your next turn.
+
+### Race Cards
 
 ---
 
-### Traits
+### Chassis Lock
 
-**Integrated Chassis**
-Your body includes at least some mechanical augmentation. You are resistant to one damage type of your choice from the following list, chosen at character creation and reflecting your specific augmentation focus: bludgeoning, slashing, or piercing (from nonmagical attacks). This resistance represents reinforced plating, shock-absorption systems, or subdermal mesh. Once chosen, this resistance cannot be changed without extended downtime and access to a chassis-wright.
+*Tier 1 (1 AP) | Defense | Race: The Forged*
 
-**Modular Augmentation (Signature Trait)**
-The Forged are defined by their adaptability. At 1st level, choose one augmentation from the Forged Augmentation List below. You gain its benefits immediately. At 5th level, you may choose a second augmentation. At 10th level, you may replace one previously chosen augmentation with a different one from the list (representing major surgical revision).
+**Effect:** Apply Guard (4 + FRAME) to yourself. If you are currently suffering a status effect that targets mechanical systems (Overheat, Silence applied through Signal disruption), reduce its stack count by 1.
+**Keywords:** Guard, Cleanse
+**Always Available:** Yes
 
-*Forged Augmentation List:*
+---
 
-- **Reinforced Limb:** One arm or leg has been replaced with a more powerful mechanical version. Your unarmed strikes deal 1d6 bludgeoning damage, and you have advantage on Strength (Athletics) checks made to climb, grapple, or break objects.
-- **Optical Suite:** Your eyes have been replaced with advanced scanning units. You have darkvision out to 60 feet. If you already have darkvision from another source, it extends to 90 feet. Additionally, you cannot be surprised while you are conscious.
-- **Vox Modulator:** Your voice box has been replaced with a precision communication device. You can perfectly mimic voices you have heard for at least 1 minute. A creature that hears the mimicry can make a DC 13 Insight check to identify it as an imitation.
-- **Subdermal Plating:** Layered steel mesh runs beneath your skin. Your natural AC becomes 13 + your Dexterity modifier when you are not wearing armor.
-- **Neural Accelerator:** A processing augment in your brain. You can take the Ready action as a bonus action once per short rest.
-- **Intake Filter:** Your respiratory and circulatory systems have been mechanically filtered. You have advantage on saving throws against poison and disease, and you have resistance to poison damage.
-- **Hydraulic Frame:** Pneumatic systems supplement your musculature. Your carrying capacity doubles, and you count as one size larger for the purpose of grappling.
+### Override Protocol
 
-**Maintenance Dependent**
-The Forged body requires upkeep. If you complete a long rest without access to basic maintenance tools (included in a standard traveling kit, cost 5 gold) or someone proficient with tinker's tools assisting you, you gain one level of exhaustion that cannot be removed until proper maintenance is performed. This represents the slow accumulation of misalignment, minor fractures, and lubricant depletion that an unattended chassis suffers.
+*Tier 2 (2 AP) | Control | Race: The Forged*
 
-**Chassis Memory**
-Your mechanical components record and retain sensory data with unusual fidelity. You have advantage on Intelligence checks made to recall specific sensory details (sights, sounds, physical dimensions) from events that occurred within the last 24 hours. This does not extend to emotional or interpretive memory — only to raw factual recall of what your sensors recorded.
-
-**Forged Resilience**
-When you are reduced to 0 hit points but not killed outright, you can use your reaction to drop to 1 hit point instead. Once you use this feature, you cannot use it again until you finish a long rest. Additionally, you have advantage on death saving throws made while your chassis is intact (i.e., you have not suffered a critical hit that specifically targeted structural components — DM's discretion).
+**Effect:** Target one creature within melee range that has cybernetic augmentations. Apply Stagger and Expose 2 to that target. If the target is another Forged or a mechanically augmented monster, also apply Overheat 1. You may instead use this card on yourself to immediately remove Overheat (all stacks) and gain +2 to your next card's base damage.
+**Keywords:** Stagger, Expose, Overheat, Dispel
+**Always Available:** Yes
 
 ---
 

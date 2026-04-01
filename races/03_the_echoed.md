@@ -49,41 +49,38 @@ Others treat the Echoed with a mixture of fascination and unease that the Echoed
 
 ---
 
-## D&D 5E Racial Traits
+---
 
-**Ability Score Increase:** +2 Wisdom, +1 Charisma. The Echoed's experience of the Iron Afterlife leaves them with exceptional awareness and an unsettling, resonant presence.
+## CARD SYSTEM: The Echoed
 
-**Age:** The Echoed's new body begins aging from the moment of resurrection. Their actual age is complicated — most count from their original birth but acknowledge the gap as something other than time. New bodies typically last 60-80 years before organic components degrade past the threshold for another successful resurrection.
+**Stat Bonuses:** +1 RESONANCE, +1 EDGE
+**Hand Size Modifier:** +1
 
-**Alignment:** Echoed tend toward neutral alignments. The experience of death and return makes rigid moral frameworks feel abstract in a way they did not before. Those who have returned with great clarity of purpose sometimes lean toward extremes.
+### Passive Traits
 
-**Size:** Medium. The new body is constructed to adult specification.
+**Already Died.** The first time per combat the Echoed is reduced to 0 HP, they instead drop to 1 HP. Their Echomind has navigated the threshold before and does not fully cross it. This triggers automatically and requires no action. After it triggers, subsequent hits that reduce them to 0 HP resolve normally.
 
-**Speed:** 30 feet.
+**Iron Afterlife Awareness.** The Echoed can sense the presence of recently dead Echoминds within 30 feet — a faint resonance impression, not visual, that indicates how many Echominds have passed through a location within the last 24 hours and approximately when. This does not identify individuals, only presence and timing.
 
-**Languages:** Tesshari Common and Resonance Cant (the coded language of the Echoed networks, used in written communication and emergency verbal signaling).
+**No Fear of the Crossing.** Fear effects, morale-break effects, and abilities that inflict the Frightened status have no mechanical power over the Echoed. These effects simply do not take hold. Narrative fear — dread, horror, emotional weight — remains; the Echoed are not numb. Only effects with a mechanical Frightened or morale-reduction keyword are blocked.
+
+### Race Cards
+
+#### Between-Step
+**Tier 2 (2 AP) | Mobility | Race Card**
+
+**Effect:** The Echoed slips partially into the Between for one turn. They may move through solid objects and occupied spaces this turn. All incoming damage this turn is reduced by 4 + RESONANCE. At the end of the turn, the Echoed returns fully to the physical world and must end their movement in an unoccupied space. Any status effects timed to expire this turn are instead suspended and expire at the start of the next turn.
+**Keywords:** Guard
+**Always Available:** Yes
 
 ---
 
-### Traits
+#### Iron Afterlife Pulse
+**Tier 2 (2 AP) | Resonant Attack | Race Card**
 
-**Liminal Existence**
-You exist in both the living world and the digital spirit realm simultaneously. You can perceive, but not interact with, incorporeal or digital entities that are invisible to normal sight. Additionally, undead creatures and constructs have disadvantage on attack rolls against you, as your partial existence in their realm makes you difficult to fully target.
-
-**Echo Sight**
-The resonance of the Iron Afterlife has sensitized you to the emotional impressions left by significant deaths. When you enter a location where someone has died within the last year, you instinctively know a death occurred there. As an action, you can attempt to read the impression left by that death, making a DC 14 Wisdom check. On a success, you receive a brief sensory flash from the final moments of the most recent death in that location — not a complete scene, but fragments: the direction they were facing, an emotional state, the briefest impression of what was last perceived. On a failure, you receive the impression but it is confused and distorted, possibly misleading.
-
-**Afterlife Resilience**
-You have already died. This provides a particular kind of courage. You have advantage on saving throws against fear effects. Additionally, when you make a death saving throw, you can treat a roll of 9 or lower as a 10, as though your Echomind is already partially familiar with the process and navigates it more efficiently.
-
-**The Carried Things**
-Your time in the Iron Afterlife left residue — impressions from other consciousnesses you drifted alongside in the gap. Once per long rest, you can access one of these carried impressions to gain proficiency in a skill or tool you don't normally have proficiency in. This proficiency lasts for 1 hour. The specific memory has no narrative content you can access consciously — you simply find yourself knowing how to do something, and then, an hour later, not knowing any more. Determine the skill with your DM to ensure it makes sense in context.
-
-**Ghost Step**
-Your partial existence in the digital spirit realm occasionally lets you slip between the seams of the physical world. Once per short rest, as a bonus action, you can become partially intangible for one round. While in this state, you can move through solid objects (but not end your movement inside them), and you have resistance to all damage from nonmagical sources for the duration of that round. After the round ends, you become fully solid again and must end your movement in an unoccupied space.
-
-**Temporal Drift**
-The crossing through the Iron Afterlife has fractured your relationship with linear time in minor but persistent ways. You have advantage on Initiative rolls, as your partially atemporal awareness gives you a slight premonitory edge. However, once per session, the DM may introduce a brief "echo moment" — a flash of resonance memory from the Afterlife that intrudes on your current perception, imposing disadvantage on a Wisdom (Perception) check as the living world and the Afterlife bleed together for a moment. This is a narrative feature, not a punishment, and should be used to enrich story moments rather than to harm the character.
+**Effect:** The Echoed channels a burst of Iron Afterlife resonance outward in a 10-foot radius. All enemies in range take 5 + RESONANCE damage and receive Expose 2. Enemies that are already at or below half HP instead take 8 + RESONANCE damage and receive Expose 3. The Echoed cannot use this card if their own HP is at full — it requires the resonance of proximity to the threshold.
+**Keywords:** Expose, Pierce 2
+**Always Available:** Yes
 
 ---
 

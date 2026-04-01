@@ -49,46 +49,38 @@ Others relate to Wireborn with a mixture of practical dependence and existential
 
 ---
 
-## D&D 5E Racial Traits
+---
 
-**Ability Score Increase:** +2 Intelligence, +1 Dexterity. The Wireborn's deep data-integration and precise physical control are fundamental to their nature.
+## CARD SYSTEM: The Wireborn
 
-**Age:** Wireborn physical bodies age on a similar timeline to the Forged, but their data-selves persist somewhat independently of their physical condition. Most Wireborn live 80-100 years physically, though there is significant variance. A small number of very old Wireborn have maintained existence primarily in data long past their body's functional lifespan — but these cases are controversial and the quality of that continued existence is debated.
+**Stat Bonuses:** +2 SIGNAL
+**Hand Size Modifier:** +1
 
-**Alignment:** Wireborn tend toward neutral and lawful neutral alignments. Their deep relationship with information and systems breeds a respect for structure, though their loyalties run to the systems themselves rather than to whoever claims authority over them.
+### Passive Traits
 
-**Size:** Small-to-Medium. Wireborn consistently fall in the 4.5 to 5.5 foot range and are considered Medium for most mechanical purposes, though they trend toward the smaller end.
+**Ambient Wire Sense.** The Wireborn is always aware of active Wire Craft systems within 60 feet — their presence, general direction, and approximate power level. This awareness is constant and requires no action. Hidden or concealed systems are not exempt; the Wireborn's subdermal circuitry reads operational data signatures regardless of physical concealment. This does not grant access to those systems, only awareness of their existence.
 
-**Speed:** 30 feet.
+**Signal Vulnerability.** Silence effects last 1 additional turn on the Wireborn. Their deeper integration with Wire Craft infrastructure means disruption resonates further through their neurology than it would for other races. This is a structural weakness that cannot be suppressed by cards or enhancements.
 
-**Languages:** Tesshari Common, Wire-Tongue (the technical dialect of the Wire Market and broader data-infrastructure communities), and Binary Cant (a rapid, tonal shorthand language used between Wireborn for communication in compromised acoustic environments).
+**Digital Navigation.** In any environment with active Wire Craft infrastructure, the Wireborn navigates data architecture as fluently as physical space. They always know the layout of accessible network systems they are connected to, cannot become disoriented within digital environments, and can retrace any data path they have previously traveled with perfect fidelity.
+
+### Race Cards
+
+#### Signal Hijack
+**Tier 2 (2 AP) | Control | Race Card**
+
+**Effect:** The Wireborn reaches into a target's active Signal card and seizes it mid-function. Choose one enemy within 30 feet that has played a Signal card this combat. That card's effect is negated and the Wireborn immediately plays it as their own, targeting any valid target of their choice. The hijacked card uses the Wireborn's SIGNAL stat. This card cannot be used against targets with no Signal cards in their hand.
+**Keywords:** Dispel
+**Always Available:** Yes
 
 ---
 
-### Traits
+#### Infrastructure Broadcast
+**Tier 2 (2 AP) | Control | Race Card**
 
-**Native Interface**
-You do not require tools, cables, or augmentations to interface with digital systems. You can connect to any accessible network node, data terminal, or machine-system through touch alone, taking 1 minute to establish a connection unless the system is actively resisting you. While connected, you can access any information the system has available to you based on your access level, and you can issue commands as though operating a terminal. You have proficiency with any technological tools or systems you interact with in this way.
-
-**The Split (Signature Trait)**
-You can project a portion of your consciousness into a connected digital system while your body remains in physical space. As an action, you can enter a state of Split consciousness. While Split:
-- Your consciousness operates within a network or system you have connected to (per Native Interface), able to travel through that network at will, accessing and manipulating data.
-- Your body remains where you left it, maintaining basic biological functions (breathing, heartbeat) but taking no actions, moving nowhere, and being considered incapacitated for purposes of physical interaction.
-- Your Split consciousness can perceive through any networked sensor within the system you are inhabiting (cameras, microphones, environmental sensors, etc.).
-- The Split can last up to 10 minutes per use. You can end it at will as a bonus action to return to full inhabitation of your body. If your body takes damage while you are Split, you must make a DC 13 Constitution saving throw or be forcibly returned to your body and stunned until the end of your next turn.
-- You can use this feature a number of times equal to your Intelligence modifier (minimum once) per long rest.
-
-**Subdermal Circuitry**
-Your circuit-trace patterns are not merely cosmetic — they are functional data-processing substrate embedded in your biology. You have advantage on Intelligence (Investigation) checks made to understand, analyze, or interact with technological systems. When you roll for Initiative in environments containing active machine-networks or data infrastructure, you have advantage on the roll as your subdermal systems receive environmental data before your conscious mind fully processes the threat.
-
-**Data Sensitivity**
-Your constant low-level connection to data networks gives you unusual sensory range in data-rich environments. You are aware of the presence of active technological systems within 30 feet of you, even if they are hidden or concealed (though not their nature or location precisely). You cannot be surprised by mechanical or digital surveillance you are within range of, as your subdermal circuitry detects their operation.
-
-**Precise Architecture**
-Your fine motor control is exceptional — a product of data-mediated physical coordination. You have proficiency with tinker's tools, and your proficiency bonus is doubled for any ability check made using tinker's tools. Additionally, you have advantage on Dexterity (Sleight of Hand) checks involving precision manipulation of small objects or mechanisms.
-
-**Network Fragility**
-The Split is a vulnerability as well as a power. When you are in an area affected by a suppression field, electromagnetic pulse, or similar anti-technology effect, you are treated as poisoned for the duration of the effect, as the disruption of your subdermal circuitry interferes with your basic neurological function. Additionally, effects that deal psychic damage deal 1 additional die of damage to you, as your partially-data nature is more vulnerable to consciousness-targeting effects.
+**Effect:** The Wireborn pushes an effect through the Wire Craft infrastructure in the area. All enemies within 40 feet that are interfacing with or benefiting from an active Wire Craft system — including active Signal cards, network-dependent enhancements, or linked equipment — take 4 + SIGNAL damage and receive Silence for 1 turn. Enemies with no Wire Craft dependency are unaffected. The Wireborn cannot use this card if they are currently under a Silence effect.
+**Keywords:** Silence
+**Always Available:** Yes
 
 ---
 

@@ -21,99 +21,204 @@ The Breaker subclass exists at the fringe of respectability within the tradition
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM: Voice of Debt
 
-**Hit Die:** d8
-**Primary Ability:** Wisdom (oath perception), Charisma (binding authority)
-**Saving Throw Proficiencies:** Wisdom, Charisma
-**Armor Proficiencies:** Wire-mesh armor
-**Weapon Proficiencies:** Resonant blades (short configuration), pulse arms (sidearm weight), signal staffs
-**Tool Proficiencies:** Scales of debt (ceremonial, used in oath-binding), administrative tools, legal codices
-**Skills:** Choose 3 from: Insight, History, Intimidation, Investigation, Persuasion, Religion, Deception
-**Starting Equipment:** Wire-mesh wrappings, signal staff, scales of debt (ceremonial instrument, functions as a focus), formal debt ledger (partially filled — the beginning of your practice record), certified copy of the standard oath protocols, 18 gp equivalent
+**HP Tier:** Social
+**Hand Size:** 8
+**Primary Stats:** VEIL + SIGNAL
+**HP Formula:** (FRAME × 8) + 6
+
+*Note: The Voice of Debt is a slow-burn class. Debt stacks are the engine. Apply Debt to enemies early, layer it, then detonate it for compounding damage. Debt X means: the target carries X Debt stacks. When a Debt Detonation card is played against a target, stacks convert to bonus damage and effects at rate specified on the card. Debt stacks do not expire — they persist until detonated or the combat ends.*
+
+### Starting Hand
+
+### Oath Read
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Passive component: you always know whether any creature within 30 feet carries active obligations or broken promises (GM discretion on depth). Active component: target one creature within 40 feet. Apply Debt 2 to them. Learn their current HP tier and whether they have any status effects active.
+**Keywords:** Debt 2
+**Unlock:** Level 1 (Starting Card)
 
 ---
 
-### Class Features by Level
+### Weight of Obligation
+*Tier 1 (1 AP) | Social Control*
 
-**Level 1: Oath Sense**
-You can feel active oaths in creatures near you. As a passive ability, you know when any creature within 30 feet has an active oath obligation (you don't know what the oath is — only that it exists and roughly how heavy it is: minor, significant, or binding). As an action, you can perform a targeted reading on one creature within 30 feet: you learn the general shape of their oath obligations (what categories — commercial, personal, military, spiritual — and whether any are overdue). You can use the targeted reading Wisdom modifier times per long rest.
+**Effect:** Deal 5 + VEIL social damage to one target within 40 feet. Apply Debt 2. If the target already carries Debt stacks, deal +VEIL bonus damage.
+**Keywords:** Debt 2
+**Unlock:** Level 1 (Starting Card)
 
-**Level 1: The Binding Word**
-You can administer formal oaths that carry spiritual weight. When two or more parties take an oath in your presence and you formally witness it, the oath is registered in the spiritual fabric of the Iron Afterlife. Both parties know when the other violates the oath (they feel it). You know when any oath you have witnessed is violated, regardless of distance.
+---
 
-**Level 1: Debt Charges**
-You have a pool of Debt Charges equal to your Wisdom modifier + your proficiency bonus (minimum 2). You regain all Debt Charges on a long rest and half (rounded down) on a short rest.
+### Signal Binding
+*Tier 1 (1 AP) | Signal Attack*
 
-**Level 2: Oath Breaker's Weight**
-When you know a creature has violated an oath you have witnessed, you can invoke the weight of that violation. As an action, spend 1 Debt Charge: the oath-breaker must make a Wisdom saving throw (DC = 8 + proficiency bonus + Wisdom modifier). On failure, they take 2d8 psychic damage and have disadvantage on the next Charisma-based check they make. On success, half damage only. This ability has no effect on creatures who have never made an oath in their lives — they carry no weight to invoke.
+**Effect:** Deal 5 + SIGNAL signal damage to one target within 40 feet. Apply Debt 1 and Expose 1.
+**Keywords:** Debt 1, Expose 1
+**Unlock:** Level 1 (Starting Card)
 
-**Level 2: Read the Room**
-Your oath-sense gives you sharp social perception. You have advantage on Insight checks. You always know when a creature is speaking words they are internally committed to vs. words they are performing. You don't always know which side of this divide is the truth; you know which side they believe.
+---
 
-**Level 3: Voice of Debt Subclass**
-You choose your path: The Oath Keeper, The Debt Collector, or The Breaker. Your subclass grants features at levels 3, 6, 10, and 14.
+### Level Unlock List
 
-**Level 3: Formal Witness**
-Your witnessing of oaths confers additional weight. Oaths you formally witness have a DC 20 Wisdom saving throw to violate voluntarily — the spiritual weight of the witnessed oath resists conscious betrayal. This does not prevent violation, but it makes it harder.
+#### Level 2
+- **Oath Breaker's Weight** — Tier 1 (1 AP) | Social Control: Deal 4 + VEIL social damage to one target within 40 feet who carries at least 1 Debt stack. Apply Stagger. Apply Debt 2.
+- **Ledger Entry** — Tier 1 (1 AP) | Utility: Apply Debt 3 to one target within 40 feet. This card costs 0 AP if you have already played a Social or Signal card this turn.
 
-**Level 4: Ability Score Improvement**
+#### Level 3
+- **Compound Interest** — Tier 2 (2 AP) | Social Control: Deal 8 + VEIL social damage to one target within 40 feet. Apply Debt 3. If target has 4 or more Debt stacks after this card resolves, apply Expose 2 as well.
+- **Formal Witness** — Tier 1 (1 AP) | Utility: Apply Debt 2 to one target within 40 feet. Apply Debt 1 to all other enemies within 30 feet. The Iron Afterlife is watching all of them now.
 
-**Level 5: Compel Truth**
-As an action, spend 2 Debt Charges: one creature within 30 feet must make a Wisdom saving throw (DC = your Debt Save DC) or be unable to intentionally lie for 1 minute. The creature can remain silent; it cannot actively mislead. They know they are compelled. The compulsion ends if they succeed on a save at the end of each of their turns.
+#### Level 4
+- **The Account** — Tier 2 (2 AP) | Signal Attack: Deal 8 + SIGNAL signal damage to one target within 40 feet. Apply Debt 3 and Expose 2.
+- **Spiritual Lien** — Tier 1 (1 AP) | Control: Apply Root to one target within 40 feet. Apply Debt 2. The weight of what they owe holds them in place.
 
-**Level 5: Binding Contract**
-You can now create binding contracts without both parties physically present — you can formalize a contract from a written document, as long as you have genuine resonant proof (an oath, a recorded testimony, a document with provable provenance) that both parties agreed to the terms. The binding weight of the contract is the same as a witnessed oath.
+#### Level 5
+- **First Detonation** — Tier 2 (2 AP) | Social Control: *Debt Detonation.* Target one creature within 40 feet carrying Debt stacks. Deal 6 + VEIL social damage plus 3 damage per Debt stack they carry. Remove all Debt stacks from the target after damage resolves. Apply Stagger.
+- **Compel Truth** — Tier 1 (1 AP) | Control: Apply Silence to one target within 40 feet until your next turn (they cannot play Social or Command cards — they cannot lie in the language that matters). Apply Debt 2.
 
-**Level 6: Subclass Feature**
+#### Level 6
+- **Debt's Reach** — Tier 2 (2 AP) | Social Control: Deal 9 + VEIL social damage to one target within 50 feet. Apply Debt 3 and Expose 3.
+- **Binding Chain** — Tier 2 (2 AP) | Control: Apply Debt 2 to up to three different targets within 40 feet. Apply Root to one of them. The obligations are linked — the Iron Afterlife tracks all of them.
 
-**Level 6: Debt's Reach**
-Your Oath Breaker's Weight feature's range extends to 120 feet. Additionally, the psychic damage increases to 3d8.
+#### Level 7
+- **Accumulated Weight** — Tier 2 (2 AP) | Social Control: Deal 10 + VEIL social damage to one target within 40 feet. Apply Debt 4. If target already had Debt stacks before this card, apply Vulnerable 2.
+- **Signal Ledger** — Tier 1 (1 AP) | Signal Attack: Deal 7 + SIGNAL signal damage to one target within 40 feet. Apply Debt 2 and Overheat 1.
 
-**Level 7: The Record**
-Your formal oath ledger is now spiritually significant. Any oath you have formally recorded cannot be altered, denied, or forgotten by the parties involved — they always remember having made it clearly and completely. Attempts to claim an oath was not made, was made under duress, or was misunderstood are met with the full clarity of spiritual memory. Your ledger, if consulted, provides unimpeachable testimony in any Sutensai court or territorial legal proceeding.
+#### Level 8
+- **The Collector** — Tier 2 (2 AP) | Social Control: Deal 11 + VEIL social damage to one target within 40 feet who carries 3 or more Debt stacks. Apply Stagger and Expose 3. Apply Debt 2 more stacks.
+- **Invoke Obligation** — Tier 2 (2 AP) | Control: Target one creature within 40 feet. Apply Root and Stagger. Apply Debt 3. They cannot play Tier 3 cards this turn — the weight of what they owe slows even their greatest efforts.
 
-**Level 8: Ability Score Improvement**
+#### Level 9
+- **Full Detonation** — Tier 3 (3 AP) | Signature: *Debt Detonation.* Target one creature within 40 feet carrying Debt stacks. Deal 10 + VEIL social damage plus 5 damage per Debt stack they carry. Remove all Debt stacks. Apply Expose 4 and Vulnerable 3.
+- **Spiritual Weight** — Tier 2 (2 AP) | Control: Apply Debt 4 to one target within 40 feet. Apply Expose 3. Until your next turn, any card that target plays costs 1 additional AP — every action they take costs more when they carry this much weight.
 
-**Level 8: Invoke Obligation**
-Once per long rest, as an action, you can invoke a specific obligation that a creature owes to any other party — not just to oaths you have personally witnessed. If you have evidence (documentary, testimonial, or resonant) that the obligation exists, the creature must succeed on a Wisdom saving throw (DC = your Debt Save DC) or be compelled to take one specific action that fulfills the obligation. The action must be something the creature is physically capable of doing immediately. On a success, they are compelled for 1 round and then resist completely.
+#### Level 10
+- **Mass Ledger** — Tier 2 (2 AP) | Utility: Apply Debt 2 to all enemies within 40 feet simultaneously. Apply Expose 1 to each. The Iron Afterlife opens an account for everyone in the room.
+- **Compound Detonation** — Tier 3 (3 AP) | Signature: *Debt Detonation.* Target up to two creatures within 40 feet each carrying Debt stacks. Deal 8 + VEIL social damage to each plus 4 damage per Debt stack each carries. Remove all Debt stacks from each. Apply Stagger to each.
 
-**Level 9: Spiritual Weight**
-The Iron Afterlife itself now reinforces your enforcement. When you use Oath Breaker's Weight, creatures who fail the saving throw also suffer the following until they fulfill the violated obligation or 7 days pass: disadvantage on all saving throws, and they cannot benefit from the rested condition (they wake from long rests with 0 temporary hit points and no restored hit dice). This does not apply to oaths they made under coercion, oaths that have been formally dissolved, or obligations they genuinely cannot fulfill due to circumstances beyond their control.
+#### Level 11
+- **The Living Ledger** — Tier 2 (2 AP) | Passive: While in hand, passive. At the start of each of your turns, apply Debt 1 to all enemies within 30 feet who already carry at least 1 Debt stack. The debt compounds automatically now.
+- **Obligation Cascade** — Tier 2 (2 AP) | Social Control: Deal 12 + VEIL social damage to one target within 40 feet. Apply Debt 4 and Expose 3. If any other enemy within 20 feet of the target carries Debt stacks, apply Debt 1 to each of them as well — obligation is contagious.
 
-**Level 10: Subclass Feature**
+#### Level 12
+- **The Collector's Presence** — Tier 2 (2 AP) | Utility: Apply Expose 3 to all enemies within 40 feet who carry Debt stacks. Apply Stagger to any enemy within 40 feet who carries 5 or more Debt stacks. This card costs 0 AP if every enemy in range carries at least 1 Debt stack.
+- **Escalating Pressure** — Tier 3 (3 AP) | Social Control: Deal 14 + VEIL social damage to one target within 40 feet. Apply Debt 5 and Expose 4. Apply Vulnerable 3. If this target has been damaged by a Detonation card earlier this combat, apply Stagger in addition.
 
-**Level 10: Mass Witness**
-You can now witness and formalize a group oath — an oath taken by an entire organization or military unit. The oath functions as individual witnessed oaths for every member who participates. You know when any member violates the group oath. You can invoke Oath Breaker's Weight against any member of a witnessed group oath with a single action, affecting up to your Wisdom modifier members simultaneously.
+#### Level 13
+- **Chain Detonation** — Tier 3 (3 AP) | Signature: *Debt Detonation.* Target one primary creature within 40 feet. Deal 12 + VEIL social damage plus 5 damage per Debt stack the primary target carries. Remove all primary target's Debt stacks. Then deal 6 + VEIL social damage plus 2 damage per Debt stack to each other enemy within 20 feet of the primary target (regardless of their own Debt stacks — they feel the resonant collapse of the primary target's debt).
+- **Compulsion Mastery** — Tier 2 (2 AP) | Control: Apply Silence, Root, and Stagger to one target within 40 feet simultaneously. Apply Debt 3. This card costs 1 AP instead of 2 AP if the target already carries 3 or more Debt stacks.
 
-**Level 11: Binding Chain**
-You can link obligations together. When two separate oaths involve the same party, you can formally link them so that violation of one constitutes violation of both. The linked violation activates both of the violating party's spiritual weight penalties simultaneously. This is a significant legal mechanism — formally linking oaths creates compound obligations that are extremely difficult to wriggle out of without resolving both underlying issues.
+#### Level 14
+- **The Final Notice** — Tier 3 (3 AP) | Signature: Deal 16 + VEIL social damage to one target within 40 feet. Apply Debt 5, Expose 5, and Vulnerable 4. Apply Root and Stagger. Until your next turn, that target cannot remove Debt stacks by any means. The account is due.
+- **Iron Verdict** — Tier 3 (3 AP) | Social Control: *Debt Detonation.* Deal 14 + VEIL social damage plus 6 damage per Debt stack to one target within 40 feet. Remove all Debt stacks. Apply Expose 5, Vulnerable 4, Stagger, and Silence. This is not a threat. It is a statement of what is already true.
 
-**Level 12: Ability Score Improvement**
+#### Level 15
+- **Resonant Debt** — Tier 3 (3 AP) | Signal Attack: Deal 18 + SIGNAL signal damage to one target within 40 feet. Apply Debt 5 and Expose 4. If the target carries 5 or more Debt stacks after this card resolves, apply Overheat 2 in addition — their systems are buckling under the accumulated weight.
+- **Total Obligation** — Tier 3 (3 AP) | Social Control: Apply Debt 4 to all enemies within 40 feet. Apply Expose 3 to each. Apply Root to any enemy within 40 feet who already carried Debt stacks before this card.
 
-**Level 12: The Living Ledger**
-Your oath records have become part of your Echomind. You never forget an oath you have witnessed, you can recall the exact terms at will, and you can share the resonant memory of a witnessed oath directly with another creature by touch — they experience the oath as if they had witnessed it personally. In Sutensai courts, a Voice of Debt's direct memory testimony is legally equivalent to the original written record.
+#### Level 16
+- **Apex Detonation** — Tier 3 (3 AP) | Signature: *Debt Detonation.* Target one creature within 40 feet. Deal 14 + VEIL social damage plus 7 damage per Debt stack they carry. Remove all Debt stacks. Apply Expose 6, Vulnerable 5, and Stagger. Restore 8 HP to yourself — even the Voice of Debt is owed something.
+- **Network of Obligation** — Tier 2 (2 AP) | Utility: Apply Debt 3 to all enemies within 50 feet who already carry at least 1 Debt stack. Apply Expose 2 to each. The web of obligation extends to every corner of this room.
 
-**Level 13: Compulsion Mastery**
-Compel Truth no longer requires Debt Charges to activate. You can now cast it as a bonus action. Additionally, when you use Compel Truth, you can also compel the target to answer one direct question truthfully before the compulsion ends.
+#### Level 17
+- **The Weight of All Things** — Tier 3 (3 AP) | Social Control: Deal 18 + VEIL social damage to one target within 40 feet. Apply Debt 6, Expose 5, and Vulnerable 4. Until your next turn, that target's cards all cost 1 additional AP — the accumulated weight slows everything they attempt.
+- **Debt Cascade** — Tier 3 (3 AP) | Signature: *Debt Detonation.* Deal 10 + VEIL social damage to all enemies within 40 feet who carry Debt stacks. Each enemy takes an additional 4 damage per Debt stack they carry. Remove all Debt stacks from all targets. Apply Stagger to each.
 
-**Level 14: Subclass Feature**
+#### Level 18
+- **Absolute Witness** — Tier 3 (3 AP) | Utility: Apply Debt 4 to all enemies within 50 feet. Apply Expose 3 to all enemies within 50 feet. All Debt stacks applied this combat that have not yet been detonated gain +1 stack (they have been compounding while you watched).
+- **The Living Record** — Tier 2 (2 AP) | Passive: While in hand, passive. Whenever you apply Debt stacks to any target, apply 1 additional Debt stack beyond the card's listed amount. The Iron Afterlife's interest rate has increased.
 
-**Level 15: The Iron Verdict**
-Once per long rest, you can speak a formal Verdict on a creature you have witnessed violating an oath. The Verdict is a spiritual condemnation that the Iron Afterlife recognizes. The target must make a Wisdom saving throw (DC = your Debt Save DC) or suffer the following for 30 days: disadvantage on all ability checks and saving throws, and the visible spiritual mark of oath-breaking (a faint resonant distortion visible to anyone with spiritual sensitivity — including all Sutensai practitioners). This mark can be removed early only by fulfilling the violated obligation completely and being formally absolved by the Voice of Debt who issued the Verdict.
+#### Level 19
+- **Total Detonation** — Tier 3 (3 AP) | Signature: *Debt Detonation.* Target all enemies within 40 feet who carry any Debt stacks. Deal 12 + VEIL social damage to each plus 5 damage per Debt stack each carries. Remove all Debt stacks from all targets. Apply Expose 5 and Stagger to each.
+- **Final Collection** — Tier 3 (3 AP) | Social Control: Deal 22 + VEIL social damage to one target within 40 feet. Apply Debt 6, Expose 6, Vulnerable 5, Stagger, and Root simultaneously. Until your next turn, this target cannot benefit from Guard, Shield, or Regen. Everything they've avoided paying is due at once.
 
-**Level 16: Ability Score Improvement**
+#### Level 20 — Capstone
+- **The Debt of All Things** — Tier 3 (3 AP) | Signature (Capstone): *The Iron Afterlife does not forgive forever. You are the voice it has chosen to speak through today.* Apply Debt 5 to all enemies within 60 feet who do not already carry Debt stacks. Then: *Debt Detonation* against all enemies within 60 feet. Each enemy takes 14 + VEIL social damage plus 6 damage per Debt stack they carry. Remove all Debt stacks from all targets. Apply Expose 6, Vulnerable 5, and Stagger to each. Restore 12 HP to yourself. Voices of Debt who have used this ability describe the experience as one of the most spiritually significant of their lives, and not always in a comfortable way.
 
-**Level 17: Network of Obligation**
-You have formalized so many oaths that you have a comprehensive picture of the obligations holding Tesshari's social fabric together. Once per long rest, you can query this network: ask who, within your operational history, owes an obligation to whom that is currently relevant to your situation. The DM provides the most significant relevant obligation from your records. This feature has, in the careers of senior Voices of Debt, produced information that directly changed the course of the Ascension War.
+---
 
-**Level 18: Absolute Witness**
-You can now witness and formalize oaths made anywhere you have an established presence — you do not need to be physically present. A creature can take a witnessed oath before any member of your network (any Contact or ally who knows the formal witnessing procedure), and the oath carries your full spiritual weight. Your network is now a distributed witnessing institution.
+### Full Card Reference
 
-**Level 19: Ability Score Improvement**
+**Absolute Witness** — Tier 3 (3 AP) | Utility: Apply Debt 4 to all enemies within 50 feet. Apply Expose 3 to all enemies within 50 feet. All existing undetonated Debt stacks gain +1. *Unlock: Level 18*
 
-**Level 20: The Debt of All Things**
-You have become, in the eyes of the Iron Afterlife and the traditions of Tesshari, the senior living arbiter of obligation. Your Debt Charges maximum doubles. Once per long rest, you can invoke the Total Weight: every creature within 60 feet who has an active violated oath must succeed on a Wisdom saving throw (DC = your Debt Save DC) or immediately be compelled to take one action toward fulfilling their most significant violated obligation. Whether any given obligation can be fulfilled in one action is the DM's judgment. What matters is the compulsion: the Iron Afterlife does not forgive forever, and you are the voice it has chosen to speak through today. This is the last resort. Voices of Debt who have used it describe the experience as one of the most spiritually significant of their lives, and not always in a comfortable way.
+**Accumulated Weight** — Tier 2 (2 AP) | Social Control: Deal 10 + VEIL social damage. Apply Debt 4. If target already had Debt stacks, apply Vulnerable 2. *Unlock: Level 7*
+
+**Apex Detonation** — Tier 3 (3 AP) | Signature: *Detonation.* Deal 14 + VEIL social damage plus 7 damage per Debt stack. Remove all stacks. Apply Expose 6, Vulnerable 5, Stagger. Restore 8 HP. *Unlock: Level 16*
+
+**Binding Chain** — Tier 2 (2 AP) | Control: Apply Debt 2 to up to three targets within 40 feet. Apply Root to one of them. *Unlock: Level 6*
+
+**Chain Detonation** — Tier 3 (3 AP) | Signature: *Detonation.* Primary target: 12 + VEIL damage plus 5 per Debt stack, remove stacks. All enemies within 20 feet of primary: 6 + VEIL damage plus 2 per their own Debt stacks. *Unlock: Level 13*
+
+**Compound Detonation** — Tier 3 (3 AP) | Signature: *Detonation.* Up to two targets within 40 feet. Deal 8 + VEIL social damage each plus 4 per Debt stack each. Remove all stacks from each. Stagger each. *Unlock: Level 10*
+
+**Compound Interest** — Tier 2 (2 AP) | Social Control: Deal 8 + VEIL social damage. Apply Debt 3. If target reaches 4+ Debt stacks, apply Expose 2. *Unlock: Level 3*
+
+**Compel Truth** — Tier 1 (1 AP) | Control: Apply Silence (no Social/Command cards) to one target within 40 feet until your next turn. Apply Debt 2. *Unlock: Level 5*
+
+**Compulsion Mastery** — Tier 2 (2 AP) | Control: Apply Silence, Root, and Stagger to one target within 40 feet. Apply Debt 3. Costs 1 AP instead of 2 AP if target carries 3+ Debt stacks. *Unlock: Level 13*
+
+**Debt Cascade** — Tier 3 (3 AP) | Signature: *Detonation.* All enemies within 40 feet with Debt stacks take 10 + VEIL social damage plus 4 per Debt stack. Remove all stacks. Stagger each. *Unlock: Level 17*
+
+**Debt's Reach** — Tier 2 (2 AP) | Social Control: Deal 9 + VEIL social damage within 50 feet. Apply Debt 3 and Expose 3. *Unlock: Level 6*
+
+**Escalating Pressure** — Tier 3 (3 AP) | Social Control: Deal 14 + VEIL social damage. Apply Debt 5, Expose 4, Vulnerable 3. If previously Detonated this combat, also Stagger. *Unlock: Level 12*
+
+**Final Collection** — Tier 3 (3 AP) | Social Control: Deal 22 + VEIL social damage. Apply Debt 6, Expose 6, Vulnerable 5, Stagger, Root. Target cannot benefit from Guard, Shield, or Regen until your next turn. *Unlock: Level 19*
+
+**First Detonation** — Tier 2 (2 AP) | Social Control: *Detonation.* Deal 6 + VEIL social damage plus 3 per Debt stack. Remove all stacks. Apply Stagger. *Unlock: Level 5*
+
+**Formal Witness** — Tier 1 (1 AP) | Utility: Apply Debt 2 to one target within 40 feet. Apply Debt 1 to all other enemies within 30 feet. *Unlock: Level 3*
+
+**Full Detonation** — Tier 3 (3 AP) | Signature: *Detonation.* Deal 10 + VEIL social damage plus 5 per Debt stack. Remove all stacks. Apply Expose 4 and Vulnerable 3. *Unlock: Level 9*
+
+**Invoke Obligation** — Tier 2 (2 AP) | Control: Apply Root, Stagger, and Debt 3 to one target within 40 feet. Target cannot play Tier 3 cards this turn. *Unlock: Level 8*
+
+**Iron Verdict** — Tier 3 (3 AP) | Social Control: *Detonation.* Deal 14 + VEIL social damage plus 6 per Debt stack. Remove all stacks. Apply Expose 5, Vulnerable 4, Stagger, Silence. *Unlock: Level 14*
+
+**Ledger Entry** — Tier 1 (1 AP) | Utility: Apply Debt 3 to one target within 40 feet. Costs 0 AP if you have already played a Social or Signal card this turn. *Unlock: Level 2*
+
+**Mass Ledger** — Tier 2 (2 AP) | Utility: Apply Debt 2 and Expose 1 to all enemies within 40 feet. *Unlock: Level 10*
+
+**Network of Obligation** — Tier 2 (2 AP) | Utility: Apply Debt 3 to all enemies within 50 feet who already carry at least 1 Debt stack. Apply Expose 2 to each. *Unlock: Level 16*
+
+**Oath Breaker's Weight** — Tier 1 (1 AP) | Social Control: Deal 4 + VEIL social damage to one target within 40 feet who carries at least 1 Debt stack. Apply Stagger. Apply Debt 2. *Unlock: Level 2*
+
+**Oath Read** — Tier 1 (1 AP) | Utility: Passive obligation awareness within 30 feet. Active: apply Debt 2 to one target within 40 feet. Learn their HP tier and active status effects. *Unlock: Level 1 (Starting Card)*
+
+**Obligation Cascade** — Tier 2 (2 AP) | Social Control: Deal 12 + VEIL social damage. Apply Debt 4 and Expose 3. Apply Debt 1 to each other enemy within 20 feet of the target who already carries Debt stacks. *Unlock: Level 11*
+
+**Resonant Debt** — Tier 3 (3 AP) | Signal Attack: Deal 18 + SIGNAL signal damage. Apply Debt 5 and Expose 4. If target reaches 5+ Debt stacks, apply Overheat 2. *Unlock: Level 15*
+
+**Signal Binding** — Tier 1 (1 AP) | Signal Attack: Deal 5 + SIGNAL signal damage. Apply Debt 1 and Expose 1. *Unlock: Level 1 (Starting Card)*
+
+**Signal Ledger** — Tier 1 (1 AP) | Signal Attack: Deal 7 + SIGNAL signal damage. Apply Debt 2 and Overheat 1. *Unlock: Level 7*
+
+**Spiritual Lien** — Tier 1 (1 AP) | Control: Apply Root and Debt 2 to one target within 40 feet. *Unlock: Level 4*
+
+**Spiritual Weight** — Tier 2 (2 AP) | Control: Apply Debt 4 and Expose 3 to one target within 40 feet. Until your next turn, that target's cards cost 1 additional AP. *Unlock: Level 9*
+
+**The Account** — Tier 2 (2 AP) | Signal Attack: Deal 8 + SIGNAL signal damage. Apply Debt 3 and Expose 2. *Unlock: Level 4*
+
+**The Collector** — Tier 2 (2 AP) | Social Control: Deal 11 + VEIL social damage to one target with 3+ Debt stacks. Apply Stagger, Expose 3, and Debt 2. *Unlock: Level 8*
+
+**The Collector's Presence** — Tier 2 (2 AP) | Utility: Apply Expose 3 to all enemies with Debt stacks within 40 feet. Apply Stagger to any enemy with 5+ Debt stacks. Costs 0 AP if every enemy in range carries at least 1 Debt stack. *Unlock: Level 12*
+
+**The Debt of All Things** — Tier 3 (3 AP) | Signature (Capstone): Apply Debt 5 to all enemies within 60 feet without Debt stacks. Then Detonation against all enemies within 60 feet: 14 + VEIL social damage plus 6 per Debt stack each. Remove all stacks. Apply Expose 6, Vulnerable 5, Stagger to each. Restore 12 HP. *Unlock: Level 20*
+
+**The Final Notice** — Tier 3 (3 AP) | Signature: Deal 16 + VEIL social damage. Apply Debt 5, Expose 5, Vulnerable 4, Root, Stagger. Target cannot remove Debt stacks until your next turn. *Unlock: Level 14*
+
+**The Living Ledger** — Tier 2 (2 AP) | Passive: At the start of each of your turns, apply Debt 1 to all enemies within 30 feet who already carry at least 1 Debt stack. *Unlock: Level 11*
+
+**The Living Record** — Tier 2 (2 AP) | Passive: Whenever you apply Debt stacks to any target, apply 1 additional Debt stack beyond the listed amount. *Unlock: Level 18*
+
+**The Weight of All Things** — Tier 3 (3 AP) | Social Control: Deal 18 + VEIL social damage. Apply Debt 6, Expose 5, Vulnerable 4. Until your next turn, target's cards cost 1 additional AP. *Unlock: Level 17*
+
+**Total Detonation** — Tier 3 (3 AP) | Signature: *Detonation.* All enemies within 40 feet with Debt stacks: 12 + VEIL social damage plus 5 per Debt stack each. Remove all stacks. Apply Expose 5 and Stagger to each. *Unlock: Level 19*
+
+**Total Obligation** — Tier 3 (3 AP) | Social Control: Apply Debt 4 to all enemies within 40 feet. Apply Expose 3 to each. Apply Root to any who already carried Debt stacks. *Unlock: Level 15*
+
+**Weight of Obligation** — Tier 1 (1 AP) | Social Control: Deal 5 + VEIL social damage. Apply Debt 2. Deal +VEIL bonus damage if target already carries Debt stacks. *Unlock: Level 1 (Starting Card)*
 
 ---
 

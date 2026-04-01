@@ -21,27 +21,479 @@ Within the Broken Reaches, samurai serve as the professional military backbone o
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM: Ironclad Samurai
 
-**Hit Die:** d10
-**Primary Ability:** Strength or Dexterity, Wisdom
-**Saving Throw Proficiencies:** Strength, Wisdom
-**Armor Proficiencies:** Wire-mesh armor, Layered plate, Resonant shields
-**Weapon Proficiencies:** Resonant blades (all), circuit lances, voidsteel tanto, iron-whip, force mace
-**Tool Proficiencies:** Forge maintenance kit (basic), one gaming set appropriate to samurai culture (strategy tiles)
-**Skills:** Choose 2 from Athletics, Insight, Intimidation, History (Iron Sutra), Perception, Persuasion
+**HP Tier:** Martial
+**Hand Size:** 6
+**Primary Stats:** IRON (melee attacks), RESONANCE (oath-empowered and spiritual effects)
+**HP Formula:** (FRAME × 8) + 14
 
-**Starting Equipment:**
-- A resonant blade (your choice of form — long or short configuration)
-- Wire-mesh armor or layered plate
-- A voidsteel tanto (secondary blade)
-- A lord's seal or a Sutra medallion (mark of your oath)
-- A forge maintenance kit
-- A pouch containing 15 weight in trade-metal
+### Starting Hand
+- **Vein Strike** — the core attack, a disciplined blow carrying the weight of the code
+- **Between Stance** — a defensive kata that makes you hard to read
+- **Iron Breath** — a passive that anchors your oath
 
 ---
 
-### Class Features by Level
+### Level Unlock List
+
+#### Level 1
+- Oath Edge
+- Code Form
+
+#### Level 2
+- Burden Strike
+- Iron Witness
+
+#### Level 3
+- Stillness Kata
+- Resonant Pulse
+
+#### Level 4
+- Vein Discipline
+- Oath Pressure
+
+#### Level 5
+- Double Vein
+- Between Awareness
+
+#### Level 6
+- Iron Endurance
+- Resonant Surge
+
+#### Level 7
+- Steel Resolve
+- Code-Sworn Precision
+
+#### Level 8
+- Blade-Sworn Bond
+- Resonant Armor
+
+#### Level 9
+- Perfect Kata
+- Echomind Clarity
+
+#### Level 10
+- Oath Consecration
+- Between Mastery
+
+#### Level 11
+- Iron Vanguard
+- Hollow Memory Strike
+
+#### Level 12
+- Sutra's Edge
+- Undying Debt
+
+#### Level 13
+- Temple Form
+- Debt Becomes the Blade
+
+#### Level 14
+- Vein of the Flesh
+- Iron Judgment
+
+#### Level 15
+- Unbroken Fealty
+- Resonant Dominance
+
+#### Level 16
+- The Final Sutra
+- Oath Cascade
+
+#### Level 17
+- Iron Lord's Will
+- Between the Worlds
+
+#### Level 18
+- Seventh Resonance
+- Blade of Obligation
+
+#### Level 19
+- Echomind Ascendant
+- Oath-Shatter
+
+#### Level 20
+- The Seventh Vein *(Capstone)*
+
+---
+
+### Full Card Reference
+
+---
+
+### Between Awareness
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** You cannot be ambushed while conscious. At the start of combat, you act before any creature whose EDGE is lower than your RESONANCE. If a hidden attacker targets you, reduce their first attack's damage by your RESONANCE before it lands.
+**Unlock:** Level 5
+
+---
+
+### Between Mastery
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Enter absolute combat clarity for this turn. All attacks you make deal + IRON + RESONANCE damage. Apply Guard equal to your RESONANCE to yourself. Any enemy who targets you this round suffers Stagger.
+**Keywords:** Guard, Stagger
+**Unlock:** Level 10
+
+---
+
+### Between Stance
+*Tier 0 | Passive*
+
+**Always Active:** When you have not moved this turn, the first attack made against you has its damage reduced by your RESONANCE. You may still play cards normally while standing in place.
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Blade of Obligation
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Your resonant blade extends its oath to a single target within reach. Deal 22 + IRON damage. Apply Bleed 3 and Expose 2. If the target has any status effect already, this attack deals an additional 8 damage and cannot be mitigated by Guard or Shield.
+**Keywords:** Bleed 3, Expose 2, Pierce 6
+**Unlock:** Level 18
+
+---
+
+### Blade-Sworn Bond
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** Your resonant blade is a literal extension of your Echomind. This turn, any attack you make with it deals + IRON + RESONANCE damage instead of only IRON. If your blade is removed from your hand, you may retrieve it as part of this card's activation at no additional cost.
+**Keywords:** Echo (on next attack)
+**Unlock:** Level 8
+
+---
+
+### Burden Strike
+*Tier 1 (1 AP) | Reaction*
+
+**Effect:** *Triggered when an enemy attacks an ally within your reach.* You interpose between attacker and ally. Redirect the attack to yourself. Deal 6 + IRON damage to the attacker as a counterstrike.
+**Keywords:** —
+**Unlock:** Level 2
+
+---
+
+### Code Form
+*Tier 1 (1 AP) | Defense*
+
+**Effect:** Drop into your combat form. Gain Guard 5. Until the start of your next turn, the first enemy who attacks you suffers Stagger — their form breaks against yours.
+**Keywords:** Guard 5, Stagger
+**Unlock:** Level 1
+
+---
+
+### Code-Sworn Precision
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** Once per turn, when you deal damage, treat your IRON as 1 higher for that calculation. The code demands correct performance — not perfect, but correct.
+**Unlock:** Level 7
+
+---
+
+### Debt Becomes the Blade
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Your accumulated obligation crystallizes into a single devastating strike. Deal 24 + IRON + RESONANCE damage to one target. If this target has been named as an oath-debt enemy (story designation, with GM), this attack is automatically at maximum damage. Apply Expose 3 and Bleed 2.
+**Keywords:** Expose 3, Bleed 2
+**Unlock:** Level 13
+
+---
+
+### Double Vein
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Two connected strikes — the first opens the gap, the second crosses it. Deal 10 + IRON damage, then immediately deal 8 + IRON damage to the same target. The second strike ignores Guard stacks remaining after the first.
+**Keywords:** Pierce 4 (second strike only)
+**Unlock:** Level 5
+
+---
+
+### Between Stance
+*Tier 0 | Passive*
+
+**Always Active:** Already listed in Starting Hand above.
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Echomind Ascendant
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Your Echomind surges through your enhancement network and outward. Deal 20 + RESONANCE resonant damage to all enemies within reach. Apply Silence to all targets hit. Allies within reach gain Regen 3 for 2 turns from the resonant overflow.
+**Keywords:** Silence, Regen 3
+**Unlock:** Level 19
+
+---
+
+### Echomind Clarity
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** Your Echomind achieves perfect resonant alignment this turn. Cleanse one debuff from yourself. Until end of turn, any control card used against you (Root, Silence, Stagger, etc.) automatically fails.
+**Keywords:** Cleanse, Fortify
+**Unlock:** Level 9
+
+---
+
+### Hollow Memory Strike
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** You strike carrying the resonant weight of the dead you remember — lords, companions, the fallen. Deal 14 + IRON damage. If the target is below half HP, add RESONANCE to the damage and apply Expose 2.
+**Keywords:** Expose 2
+**Unlock:** Level 11
+
+---
+
+### Iron Breath
+*Tier 0 | Passive*
+
+**Always Active:** Your enhancement signature is under precise control. You cannot be read by passive resonance scanning unless you choose to broadcast. Once per combat, when a creature attempts to assess your caste or loyalties through technology, their attempt fails and you become aware of it.
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Iron Endurance
+*Tier 1 (1 AP) | Reaction*
+
+**Effect:** *Triggered when you take damage that would reduce you below half HP.* Activate your enhancement network's endurance subroutine. Reduce incoming damage by 6 + FRAME. If this prevents the damage that would have dropped you below half, gain Regen 2 for 2 turns.
+**Keywords:** Regen 2
+**Unlock:** Level 6
+
+---
+
+### Iron Judgment
+*Tier 2 (2 AP) | Control*
+
+**Effect:** You assess the enemy's form and find its flaw — not through malice but through the code's demand for correctness. Apply Expose 3 and Stagger to one target. They cannot recover Guard stacks until the start of their next turn.
+**Keywords:** Expose 3, Stagger, Dispel (Guard only)
+**Unlock:** Level 14
+
+---
+
+### Iron Lord's Will
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** The authority of your oath radiates outward. All allies within the encounter gain Fortify and Guard 4 this turn. All enemies within reach must save or be Taunted — they must target you until the start of your next turn. Deal 16 + IRON damage to one marked enemy.
+**Keywords:** Guard 4, Fortify, Taunt
+**Unlock:** Level 17
+
+---
+
+### Iron Vanguard
+*Tier 2 (2 AP) | Defense*
+
+**Effect:** You step between your lord, your allies, or your oath-ward and harm. Until your next turn, any attack targeting an adjacent ally may be redirected to you at your choice (no cost, once per round). Gain Shield 10 to absorb the redirected blow.
+**Keywords:** Shield 10, Taunt
+**Unlock:** Level 11
+
+---
+
+### Iron Witness
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** When an enemy within reach is reduced to 0 HP, gain Shield 4. This represents the code's recognition of a completed act — a moment of resonant clarity in the midst of violence.
+**Unlock:** Level 2
+
+---
+
+### Oath Cascade
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Your oath becomes a wave that crashes through multiple enemies. Deal 18 + IRON damage to up to three enemies within reach (calculated separately for each). Apply Bleed 2 to all targets hit.
+**Keywords:** Bleed 2
+**Unlock:** Level 16
+
+---
+
+### Oath Consecration
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** You briefly consecrate your position — a still center in the violence. Gain Guard 8. Allies within reach gain Guard 3. Any enemy who moves adjacent to you this turn takes 6 + RESONANCE resonant damage on contact.
+**Keywords:** Guard 8 (self), Guard 3 (allies)
+**Unlock:** Level 10
+
+---
+
+### Oath Edge
+*Tier 1 (1 AP) | Attack*
+
+**Effect:** A measured, committed strike — form-perfect. Deal 6 + IRON damage. If you have not moved this turn, add RESONANCE to the damage. The code rewards stillness.
+**Keywords:** —
+**Unlock:** Level 1
+
+---
+
+### Oath-Shatter
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Against an enemy whose oath you have witnessed breaking — a samurai who has acted dishonorably, a lord who has betrayed — your strike carries maximum weight. Deal 26 + IRON damage. Apply Expose 4, Bleed 3, and Vulnerable 3 to the target. This card's base damage cannot be reduced by Guard.
+**Keywords:** Expose 4, Bleed 3, Vulnerable 3, Pierce 10
+**Unlock:** Level 19
+
+---
+
+### Oath Pressure
+*Tier 1 (1 AP) | Control*
+
+**Effect:** The weight of your code presses against their defenses. Apply Expose 2 and Root to one target. The root represents not a physical restraint but the psychological weight of facing someone who has no doubt.
+**Keywords:** Expose 2, Root
+**Unlock:** Level 4
+
+---
+
+### Perfect Kata
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** A single, absolute expression of the code — body, blade, and Echomind fully unified. Deal 22 + IRON + RESONANCE damage to one target. This attack cannot be reacted to, cannot be mitigated by Shield, and cannot miss. Once per combat.
+**Keywords:** Pierce 20
+**Unlock:** Level 9
+
+---
+
+### Resonant Armor
+*Tier 1 (1 AP) | Defense*
+
+**Effect:** Your enhancement network redistributes impact across your resonant metal, spreading harm across a larger surface. Gain Shield 6 + RESONANCE. Until end of turn, any attacker who strikes you takes 3 + RESONANCE resonant damage as resonant blowback.
+**Keywords:** Shield
+**Unlock:** Level 8
+
+---
+
+### Resonant Dominance
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Your Echomind broadcasts at full intensity. Apply Taunt to all enemies in the encounter. Deal 20 + RESONANCE resonant damage to one target. All allies in the encounter gain Regen 2 for 2 turns from your resonant output.
+**Keywords:** Taunt, Regen 2
+**Unlock:** Level 15
+
+---
+
+### Resonant Pulse
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Your Echomind discharges through your resonant blade — a pulse of spiritual force wrapped in physical steel. Deal 12 + RESONANCE resonant damage. Apply Silence to the target for 1 turn.
+**Keywords:** Silence
+**Unlock:** Level 3
+
+---
+
+### Resonant Surge
+*Tier 2 (2 AP) | Power*
+
+**Effect:** Channel your Echomind into a burst of heightened performance. Gain Guard 4. This turn, one attack you make deals + IRON + RESONANCE instead of only IRON. Apply Overheat 1 to yourself (the surge has a cost).
+**Keywords:** Guard 4, Overheat 1
+**Unlock:** Level 6
+
+---
+
+### Seventh Resonance
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You touch the unwritten principle — the one that cannot be taught, only discovered. Deal 24 + IRON + RESONANCE resonant damage to one target. Gain Regen 3 for 3 turns. All debuffs currently on you are Cleansed. Allies within reach gain Guard 6.
+**Keywords:** Regen 3, Cleanse, Guard 6
+**Unlock:** Level 18
+
+---
+
+### Steel Resolve
+*Tier 1 (1 AP) | Defense*
+
+**Effect:** Your will and your metal have become one thing. Cleanse all Fear or Charm effects currently on you. Until the start of your next turn, you are immune to control cards (Root, Silence, Stagger, Taunt used against you).
+**Keywords:** Cleanse, Fortify
+**Unlock:** Level 7
+
+---
+
+### Stillness Kata
+*Tier 1 (1 AP) | Attack*
+
+**Effect:** You have not moved. The code rewards this. Deal 8 + IRON damage. This card may only be played if you have not used a Mobility card this turn and have not moved. If both conditions are met, add RESONANCE to the damage.
+**Keywords:** —
+**Unlock:** Level 3
+
+---
+
+### Sutra's Edge
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Your strike carries theological intention. Deal 14 + IRON damage. If the target is a Shell-state, Resonance-Broken entity, or Iron Afterlife entity, add RESONANCE to the damage and apply Expose 2. Enemies killed by this card cannot be immediately re-raised.
+**Keywords:** Expose 2
+**Unlock:** Level 12
+
+---
+
+### Temple Form
+*Tier 2 (2 AP) | Power*
+
+**Effect:** You enter a combat state where every act is worship. Choose one form this turn: **Water** (gain Mobility — your movement does not trigger reactions), **Fire** (after dealing damage, target loses their Reaction), or **Iron** (when you take damage this turn, gain Shield equal to half the damage received).
+**Keywords:** Variable by form
+**Unlock:** Level 13
+
+---
+
+### The Final Sutra
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You perform the Iron Rite on a target you have just struck. Deal 20 + IRON + RESONANCE damage. The target's Echomind is disrupted — apply Silence, Stagger, and Expose 3. If this reduces the target to 0 HP, their body cannot be reanimated during this encounter.
+**Keywords:** Silence, Stagger, Expose 3
+**Unlock:** Level 16
+
+---
+
+### The Seventh Vein
+*Tier 3 (3 AP) | Signature — Capstone*
+
+**Effect:** The unwritten principle made manifest. Deal 26 + IRON + RESONANCE resonant damage to one target. Gain Regen 4 for 3 turns. Cleanse all debuffs from yourself. Apply Expose 4 and Bleed 3 to the target. All allies in the encounter gain Guard 8. Once per combat — this is the deepest expression of everything the code has made you.
+**Keywords:** Regen 4, Cleanse, Expose 4, Bleed 3, Guard 8 (allies)
+**Unlock:** Level 20
+
+---
+
+### Unbroken Fealty
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** Your oath is a physical thing. Target one adjacent ally who is below half HP. Transfer up to 12 HP from yourself to them. This card cannot reduce you below 1 HP. The ally also gains Guard 4 from your resonant protection.
+**Keywords:** Guard 4
+**Unlock:** Level 15
+
+---
+
+### Undying Debt
+*Tier 2 (2 AP) | Power*
+
+**Effect:** You carry the names of the dead in your resonant metal. Against a designated oath-debt target (story designation with GM), deal 16 + IRON damage and apply Bleed 3. Until the end of this combat, this target cannot hide from you — you always know their position.
+**Keywords:** Bleed 3, Mark
+**Unlock:** Level 12
+
+---
+
+### Vein Discipline
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** Your code creates clarity of form. Once per turn, when you take damage, reduce it by 2 (this is the code's demand that you absorb and continue, not merely react).
+**Unlock:** Level 4
+
+---
+
+### Vein of the Flesh
+*Tier 2 (2 AP) | Defense*
+
+**Effect:** The body is the temple. When you take damage this turn, gain Shield equal to your FRAME + RESONANCE. This shield persists until depleted, not just until end of turn.
+**Keywords:** Shield
+**Unlock:** Level 14
+
+---
+
+### Vein Strike
+*Tier 1 (1 AP) | Attack*
+
+**Effect:** A disciplined blow that carries the weight of your oath. Deal 6 + IRON damage. Once per turn, if this is the first card you played this turn, add RESONANCE to the damage.
+**Keywords:** —
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+## Subclasses
 
 **Level 1: Vein of Iron**
 You have internalized the code of the Ironclad. Your enhancements are tuned to ethical clarity. Choose a Vein Oath — a specific principle your Echomind resonates around: Loyalty, Restraint, Sacrifice, or Clarity. Once chosen, this oath shapes your access to certain features. Your Vein Oath functions mechanically as an ethical alignment anchor — if you ever act directly contrary to your oath's principle (at the DM's discretion), you suffer Resonance Fracture: disadvantage on all attack rolls and saving throws until you perform a meaningful act of atonement, spend an hour in resonance meditation (requiring a forge maintenance kit), and regain the DM's acknowledgment that you have returned to alignment.

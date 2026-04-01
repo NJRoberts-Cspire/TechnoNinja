@@ -21,99 +21,337 @@ In communities that have dealt with Iron Afterlife contamination, Fracture Knigh
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM
 
-**Hit Die:** d10
-**Primary Ability:** Strength (weapon mastery), Wisdom (Afterlife connection)
-**Saving Throw Proficiencies:** Strength, Wisdom
-**Armor Proficiencies:** Wire-mesh armor, salvage plating (all), void anchors (as spiritual focus)
-**Weapon Proficiencies:** Resonant blades (all configurations), circuit lances, pulse arms (all weights), void anchors
-**Tool Proficiencies:** Calibration tools, memorial circuit kit
-**Skills:** Choose 2 from: Athletics, History, Insight, Intimidation, Perception, Religion, Survival
-**Starting Equipment:** Salvage plating (medium), resonant blade (standard — it has been used by someone who is now dead; their resonant signature is faintly present in the metal), void anchor (a personal focus object), memorial circuit kit, a document related to the dead individual(s) in you — a letter, a service record, a last message that was never delivered, 15 gp equivalent
+**Primary Stats:** IRON + RESONANCE
+**HP:** (FRAME × 8) + 20
+**Hand Size:** 5
+**AP:** 3 per turn. Basic Attack free (0 AP), once per turn.
+
+### Class Identity
+The Fracture Knight is a slow build that detonates. Their hand is the smallest of any class — five cards, focused, each one powerful. Their signature mechanic is **Fracture**, a status they apply to themselves and enemies that stacks to create escalating damage. The Fracture Knight hits harder than any other class at the Tier 3 ceiling, but requires setup. Their damage ceiling is the highest single-card damage in the game. Their survivability is lower than it looks.
+
+**Fracture (status):** Fracture can be applied to enemies or to the Fracture Knight themselves. Each Fracture stack on an enemy increases damage they take from the Fracture Knight's cards by 3. Each Fracture stack on the Fracture Knight increases the damage of their next Attack card by 4 (consumed on use — all stacks discharge into that attack). Fracture stacks to 5. Fracture on enemies persists until end of combat. Fracture on the Fracture Knight is consumed when an Attack card is played.
+
+**Phantom Charges (resource):** Gain Phantom Charges from specific cards and at the start of combat (begin with 2). Phantom Charges fuel several mid-to-high tier cards. Maximum: 6. Reset to 0 at end of combat.
 
 ---
 
-### Class Features by Level
+### Starting Hand (Level 1)
 
-**Level 1: Fractured Presence**
-The dead in you are present. You can sense the Iron Afterlife as an overlay on physical reality — Afterlife activity within 30 feet is perceptible to you (passive). You can see the Echomind signatures of the dead within 30 feet as faint impressions. Creatures in the Iron Afterlife within 10 feet of your location are aware of you, as a living presence, even if you cannot see them.
+Choose 2 of the following 3 cards to begin with. You gain the third at Level 2.
 
-**Level 1: Between-Strike**
-The dead adjust your attacks through angles you could not achieve alone. When you hit with a melee weapon attack, you can spend 1 Phantom Charge (see below) to have the attack deal an extra 1d8 necrotic damage as the hit arrives from an angle that exists partially in the Iron Afterlife. At level 5, this increases to 2d8; at level 11, 3d8; at level 17, 4d8.
+---
 
-**Level 1: Phantom Charges**
-You have a pool of Phantom Charges equal to your Wisdom modifier + your proficiency bonus (minimum 2). You regain all Phantom Charges on a long rest and half (rounded down) on a short rest. Your connection to the dead is the source of these charges.
+### Card Reference
 
-**Level 2: Phase Lurch**
-As a bonus action, spend 1 Phantom Charge to lurch briefly through the Iron Afterlife: you phase out, move up to 15 feet through any solid matter, and phase back in at the destination. If you would end this movement inside an object, you are expelled to the nearest unoccupied space and take 1d10 force damage. The dead pull you through; they do not always pull you cleanly.
+#### Between-Strike
+*Tier 1 (1 AP) | Melee Attack*
 
-**Level 2: Afterlife Awareness**
-Your connection deepens. You can now see invisible creatures that have died within the past year (their Echomind has not fully integrated into the Afterlife yet — they are visible to you as a faint impression). You have advantage on saving throws against effects originating from the Iron Afterlife.
+**Effect:** Deal 6 + IRON damage. Apply Fracture 1 to the target. Gain 1 Phantom Charge.
+**Keywords:** Fracture 1, Phantom Charge-gain
+**Unlock:** Level 1 (Starting Hand)
 
-**Level 3: Fracture Knight Subclass**
-You choose your path: The Claimed, The Haunted Legion, or The Anchor. Your subclass grants features at levels 3, 6, 10, and 14.
+---
 
-**Level 3: Dead Hands**
-The dead in you can be directed briefly. Once per short rest, as a bonus action, spend 2 Phantom Charges to call on the dead for a single action: make one additional attack with advantage (the dead guide the blow), move through the Iron Afterlife to any unoccupied space within 60 feet that you can see (Void Stride variant), or use your reaction to reduce damage from one attack against you by 3d6 as the dead interpose themselves.
+#### Fractured Presence
+*Tier 1 (1 AP) | Utility | Passive*
 
-**Level 4: Ability Score Improvement**
+**Effect:** Passive. This card counts toward hand size and is never "played." While this card is in your hand: you sense all Afterlife-connected creatures within 40 meters (including puppets — their control thread is visible to you as a faint resonant line). Additionally, at the start of each combat, gain 2 Phantom Charges.
+**Keywords:** Passive, Afterlife-sense, Puppet-detection, Phantom Charge-gain (start of combat)
+**Unlock:** Level 1 (Starting Hand)
 
-**Level 5: Extra Attack**
-You can attack twice when you take the Attack action on your turn. At level 11, this becomes three attacks.
+---
 
-**Level 5: Spectral Resilience**
-The dead in you reinforce what can be broken. You have resistance to necrotic damage. Additionally, your hit point maximum cannot be reduced by necrotic effects — the reduction is absorbed by the dead's presence rather than your own Echomind.
+#### Phase Lurch
+*Tier 1 (1 AP) | Mobility*
 
-**Level 6: Subclass Feature**
+**Effect:** Move up to 20 meters, passing through walls and solid matter. Arrive at any open space within range. On arrival, apply Fracture 1 to the nearest enemy within 5 meters. Gain 1 Phantom Charge.
+**Keywords:** Phase Movement, Fracture 1 (on arrival), Phantom Charge-gain
+**Unlock:** Level 1 (Starting Hand)
 
-**Level 6: Ghost Walk**
-When you use Phase Lurch, you can now choose to remain in the Iron Afterlife for up to 1 minute (concentration required). While in the Iron Afterlife: you are invisible to non-sensitive living observers, you can move through all physical matter, and Afterlife entities can see and interact with you as if you were one of them (this has consequences). Your attacks against physical creatures deal half damage from the Iron Afterlife. When you return, you can choose to arrive dramatically — appearing within melee range of any creature you could see from the Afterlife, with your first attack having advantage.
+---
 
-**Level 7: The Dead Remember**
-The dead in you have knowledge that you do not. Once per long rest, you can ask the dead you carry a question about a subject they knew in life. The DM provides what those specific dead individuals would know — their knowledge is limited to their own experience, and they may not answer questions clearly, may answer in the manner of the dead (fragmented, associative, non-linear). But they know things. Things you could not know without them.
+#### Dead Hands
+*Tier 1 (1 AP) | Defense | Reaction*
 
-**Level 8: Ability Score Improvement**
+**Effect:** Reaction. Triggered when you are targeted by an Attack card. Reduce incoming damage by 6 + RESONANCE. The dead interpose. Gain 1 Phantom Charge from the contact.
+**Keywords:** Reaction, Damage Reduction (6 + RESONANCE), Phantom Charge-gain
+**Unlock:** Level 2
 
-**Level 8: Between Sight**
-Your sight now operates partially in the Iron Afterlife at all times. You can see through darkness and magical concealment. You can see the spiritual health of creatures (a rough impression of their Echomind stability). You can see any creature connected to the Iron Afterlife by any means — including creatures being operated as flesh puppets. The puppet's Afterlife connection is visible to you as a thread leading away from their body.
+---
 
-**Level 9: Spectral Strike**
-As an action, spend 3 Phantom Charges to make a single Spectral Strike: the attack is made partially from the Iron Afterlife and cannot be blocked by physical barriers. It hits automatically (no attack roll required). The target takes 4d10 necrotic damage plus your Strength modifier. They must make a Wisdom saving throw (DC = your Fracture Knight save DC) or be frightened of you for 1 minute and unable to benefit from any non-magical healing until the fear ends — the dead in your strike have left an impression.
+#### Spectral Resilience
+*Tier 1 (1 AP) | Defense | Endurance*
 
-**Level 10: Subclass Feature**
+**Effect:** Apply Guard equal to your RESONANCE × 2. Apply Fracture 1 to yourself — the dead in you press forward, and you will use that pressure. While this Guard is active, you cannot be Frightened.
+**Keywords:** Guard (RESONANCE×2), Self-Fracture 1, Fright-immunity
+**Unlock:** Level 2
 
-**Level 10: Fracture Step**
-Your Phase Lurch range increases to 30 feet. You can now bring one willing creature with you when you Phase Lurch, as long as they are touching you. Additionally, you can use Phase Lurch a number of times per short rest equal to your Wisdom modifier without spending Phantom Charges.
+---
 
-**Level 11: Voice of the Dead**
-The dead in you can speak through you. Once per short rest, as a bonus action, allow one of the dead you carry to speak. Their voice is slightly wrong — a harmonic resonance that makes it clearly not entirely physical. When the dead speak: all creatures within 30 feet who are not specifically resistant to spiritual effects must succeed on a Wisdom saving throw (DC = your Fracture Knight save DC) or be frightened until the end of their next turn. The dead may also communicate information through this speech — this is their voice, not yours.
+#### Fracture Strike
+*Tier 1 (1 AP) | Melee Attack*
 
-**Level 12: Ability Score Improvement**
+**Effect:** Deal 5 + IRON damage + (3 × Fracture stacks on target). If the target has Fracture 3+, also apply Expose 1.
+**Keywords:** Fracture-scaling, Expose 1 (conditional)
+**Unlock:** Level 3
 
-**Level 12: Death's Proximity**
-Your constant proximity to the dead has made you familiar in ways others are not. You have advantage on all saving throws against death effects and instant-kill abilities. When you make a death saving throw, you can expend 1 Phantom Charge to roll twice and take the higher result. The dead do not want to lose you — not yet.
+---
 
-**Level 13: Between Army**
-Once per long rest, as an action, spend 5 Phantom Charges to call the dead through you in force. For 1 minute, spectral presences (not fully manifest, but present) flicker in a 30-foot radius around you. All enemies in this radius have disadvantage on attack rolls (the presence is distracting), and at the start of each enemy turn, they must succeed on a Wisdom saving throw or take 2d8 psychic damage. Allies in the radius have advantage on saving throws against death effects for the duration.
+#### Ghost Walk
+*Tier 1 (1 AP) | Mobility | Defense*
 
-**Level 14: Subclass Feature**
+**Effect:** Phase into the Iron Afterlife momentarily. Until the start of your next turn, the first Attack card targeting you has no effect — you were partially elsewhere. Reposition up to 15 meters (phase movement). Gain 1 Phantom Charge.
+**Keywords:** Phase, Card-negate (first Attack), Phantom Charge-gain
+**Unlock:** Level 3
 
-**Level 15: The Negotiation**
-You can now negotiate with Afterlife entities in the same way you would negotiate with living creatures. They have interests. They have things they want. They may have information or capabilities you need. The negotiation is real — not a skill check but an actual conversation, with an actual entity that has actual desires that you must address. You have been doing this with the dead inside you. Now you can do it with the dead outside you.
+---
 
-**Level 16: Ability Score Improvement**
+#### Voice of the Dead
+*Tier 1 (1 AP) | Control | Resonance*
 
-**Level 17: Fracture Form**
-Once per long rest, for 1 minute, you can enter a state where the boundary between yourself and the Iron Afterlife fully dissolves. You become partially incorporeal (25% chance to ignore any given attack), your Between-Strike deals its maximum dice rather than rolling, and any creature you kill during this minute has their Echomind briefly held by you before passing — you can ask them one question and receive an honest answer. When this ends, you gain two levels of exhaustion and the dead in you are agitated for 24 hours (more present, more vocal, more demanding of your attention).
+**Effect:** The dead in you speak. Apply Stagger and Expose 1 to one enemy within 20 meters. If that enemy has Fracture 2+, they are also Frightened until end of their next turn.
+**Keywords:** Stagger, Expose 1, Frightened (conditional)
+**Unlock:** Level 4
 
-**Level 18: The Long View**
-The dead you carry have seen enough of Tesshari's history that you now access their perspective on the long view. You have advantage on Intelligence (History) checks. Once per long rest, you can ask the dead in you what pattern they see in the current situation — they have context that goes back before your birth and they will share it, in their way.
+---
 
-**Level 19: Ability Score Improvement**
+#### Fracture Self
+*Tier 1 (1 AP) | Utility*
 
-**Level 20: Fracture Complete**
-You are now genuinely between the worlds. The dead in you are fully integrated — they are not separate presences but aspects of a larger self. Your Phantom Charges maximum doubles. You are immune to the effects of the Iron Afterlife being forcibly activated against you (your relationship with it is personal, not institutional). Once per long rest, for 10 minutes, you can fully step into the Iron Afterlife while simultaneously maintaining a physical presence — you exist in both worlds. From the physical world's perspective, you are slightly translucent and your attacks deal half physical and half necrotic damage. From the Afterlife's perspective, you are the most anomalous presence they have seen since the last time something like you came through. The dead treat you as whatever you have proven yourself to be. The living do the same. You have become the evidence for what it costs to be the connection.
+**Effect:** Apply Fracture 2 to yourself. Your next Attack card deals +8 bonus damage from consuming these stacks. Gain 1 Phantom Charge — the dead are watching and they approve.
+**Keywords:** Self-Fracture 2, Damage-stored (8, consumed on next Attack), Phantom Charge-gain
+**Unlock:** Level 4
+
+---
+
+#### Between Sight
+*Tier 1 (1 AP) | Utility | Passive*
+
+**Effect:** Passive. While this card is in your hand: you see through all concealment, darkness, and invisibility. Additionally, when you identify a puppet-controlled creature (via Fractured Presence or other means), your first Attack card against them this combat deals +RESONANCE bonus damage — you see where the thread runs and you cut toward it.
+**Keywords:** Passive, True-sight, Puppet-bonus
+**Unlock:** Level 5
+
+---
+
+#### Spectral Strike
+*Tier 2 (2 AP) | Resonant Attack | Signature*
+
+**Effect:** Spend 2 Phantom Charges. Deal 14 + RESONANCE damage. This attack cannot be blocked by Guard or Shield effects. Apply Fracture 2 to the target. The strike arrives from an angle that does not exist in this world.
+**Keywords:** Pierce (Guard + Shield), Fracture 2, Phantom Charge-spend (2)
+**Unlock:** Level 5
+
+---
+
+#### Fracture Step
+*Tier 2 (2 AP) | Mobility | Melee Attack*
+
+**Effect:** Phase-move up to 30 meters. At any point during this movement, make a melee attack for 12 + IRON damage. Apply Fracture 1 to the target. If you passed through an enemy's space during movement, apply Fracture 1 to them as well (separate from the attack target).
+**Keywords:** Phase Movement, Fracture 1, Fracture 1 (pass-through)
+**Unlock:** Level 6
+
+---
+
+#### Death's Proximity
+*Tier 2 (2 AP) | Defense | Endurance*
+
+**Effect:** Apply Shield equal to your RESONANCE × 3. Until start of your next turn, you cannot be reduced below 1 HP by any single damage instance. The dead are not finished with you yet.
+**Keywords:** Shield (RESONANCE×3), Death-floor (1 HP, 1 turn)
+**Unlock:** Level 6
+
+---
+
+#### Between Army
+*Tier 2 (2 AP) | Resonant Attack | Area | Signature*
+
+**Effect:** Spend 3 Phantom Charges. Spectral presences flicker through a 25-meter radius centered on you. All enemies in the area take 10 + RESONANCE damage and are Frightened until end of their next turn. Apply Fracture 1 to all enemies hit.
+**Keywords:** Area, Phantom Charge-spend (3), Frightened, Fracture 1 (all)
+**Unlock:** Level 7
+
+---
+
+#### Fracture: Loaded
+*Tier 2 (2 AP) | Utility | Signature*
+
+**Effect:** Apply Fracture 3 to yourself. Your next Attack card this combat that consumes these stacks deals +12 bonus damage. Additionally, apply Fracture 1 to one enemy within 20 meters — the pressure bleeds outward.
+**Keywords:** Self-Fracture 3, Damage-stored (12), Fracture 1 (enemy)
+**Unlock:** Level 7
+
+---
+
+#### Afterlife Pull
+*Tier 2 (2 AP) | Control | Resonance*
+
+**Effect:** Select one enemy within 30 meters. Apply Fracture 2 to them and pull them up to 10 meters toward you (phase pull — passes through obstacles). If they end this movement adjacent to you, they take 8 + RESONANCE damage on arrival.
+**Keywords:** Fracture 2, Forced Movement (pull), Arrival Damage
+**Unlock:** Level 8
+
+---
+
+#### Fracture Form: Entry
+*Tier 2 (2 AP) | Defense | Utility*
+
+**Effect:** Until start of your next turn: you are partially incorporeal — the first two Attack cards targeting you deal half damage; your Basic Attack deals +RESONANCE bonus damage; and you gain 1 Phantom Charge at the end of each of your actions this turn.
+**Keywords:** Incorporeal (partial, 2 attacks halved), Basic Attack boost, Phantom Charge-gain (per action)
+**Unlock:** Level 8
+
+---
+
+#### Dead Weight
+*Tier 2 (2 AP) | Melee Attack | Control*
+
+**Effect:** Deal 13 + IRON damage. Apply Fracture 2 and Vulnerable 1 to the target. If the target already had Fracture before this card, apply Vulnerable 2 instead.
+**Keywords:** Fracture 2, Vulnerable (scaling)
+**Unlock:** Level 9
+
+---
+
+#### Fracture Detonation
+*Tier 2 (2 AP) | Melee Attack | Signature*
+
+**Effect:** Deal 10 + IRON damage + (5 × Fracture stacks on target). Consume all Fracture stacks on the target after this hit — the accumulation discharges. For each stack consumed, apply Expose 1 to the target (stacks, up to Expose 5).
+**Keywords:** Fracture-consume (all, target), Scaling, Expose (per stack)
+**Unlock:** Level 9
+
+---
+
+#### Phase Anchor
+*Tier 2 (2 AP) | Control | Resonance*
+
+**Effect:** Apply Fracture 2 to one target. Root them until end of their next turn — the dead have weight, and they press down. If this target has Fracture 3+, also apply Stagger.
+**Keywords:** Fracture 2, Root, Stagger (conditional)
+**Unlock:** Level 10
+
+---
+
+#### Fracture: Maximum
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** Apply Fracture 5 to yourself (maximum). Gain 2 Phantom Charges. Your next Attack card consumes all 5 stacks: +20 bonus damage. You are not about to do something careful.
+**Keywords:** Self-Fracture 5, Damage-stored (20), Phantom Charge-gain
+**Unlock:** Level 10
+
+---
+
+#### Spectral Strike: Deep
+*Tier 3 (3 AP) | Resonant Attack | Signature*
+
+**Effect:** Spend 3 Phantom Charges. Deal 20 + RESONANCE damage. Cannot be blocked by Guard, Shield, or any mitigation effect. Apply Fracture 3 to the target. The target is Frightened for 2 rounds — the dead in your strike leave an impression that does not fade quickly.
+**Keywords:** Pierce (all mitigation), Fracture 3, Frightened (2 rounds), Phantom Charge-spend (3)
+**Unlock:** Level 11
+
+---
+
+#### Between Worlds: Strike
+*Tier 3 (3 AP) | Melee Attack | Signature*
+
+**Effect:** Deal 22 + IRON damage. Consume all Fracture stacks on yourself (add +4 per stack as bonus damage). Consume all Fracture stacks on the target (add +3 per stack as bonus damage). The attack arrives from both sides of the Veil simultaneously. Apply Expose 2 to the target after damage resolves.
+**Keywords:** Self-Fracture-consume, Target-Fracture-consume, Scaling (both), Expose 2
+**Unlock:** Level 12
+
+---
+
+#### The Dead Remember
+*Tier 3 (3 AP) | Resonant Attack | Area | Signature*
+
+**Effect:** Spend 4 Phantom Charges. The dead surge outward in a 30-meter radius. All enemies in the area take 16 + RESONANCE damage. Apply Fracture 2 and Vulnerable 2 to all enemies hit. All enemies in the area are Frightened for 1 round. Allies in the area gain Shield equal to your RESONANCE × 2.
+**Keywords:** Area, Phantom Charge-spend (4), Fracture 2 (all), Vulnerable 2 (all), Frightened, Ally-shield
+**Unlock:** Level 13
+
+---
+
+#### Fracture: Detonation Chain
+*Tier 3 (3 AP) | Melee Attack | Signature*
+
+**Effect:** Target one enemy. Deal 18 + IRON damage + (5 × their Fracture stacks). Consume all their Fracture stacks. Each consumed stack triggers a chain hit on a different enemy within 10 meters of the original target for 6 + IRON damage (up to 5 chain hits, one per stack consumed). Chain hits apply Fracture 1 each.
+**Keywords:** Fracture-consume (target), Chain (per stack), Fracture 1 (chain targets)
+**Unlock:** Level 14
+
+---
+
+#### Fracture Form: Complete
+*Tier 3 (3 AP) | Defense | Signature*
+
+**Effect:** Until start of your next turn: you are fully incorporeal — all Attack cards targeting you deal 0 damage (effects still apply); your melee attacks deal +RESONANCE × 2 bonus damage; you gain 1 Phantom Charge per enemy that attempts to attack you; and you may phase-move up to 15 meters as a free action once this turn. You are here and not here simultaneously. This is not evasion. This is what you are.
+**Keywords:** Full Incorporeal (1 turn), Damage-immunity (Attacks), Melee boost, Phantom Charge-gain (per attacker), Phase Movement (free)
+**Unlock:** Level 15
+
+---
+
+#### Between: Absolute Strike
+*Tier 3 (3 AP) | Melee Attack | Signature*
+
+**Effect:** Consume all Phantom Charges (minimum 2). Deal 24 + IRON damage + (6 × Phantom Charges consumed). Apply Fracture 3 to the target. This attack ignores all Guard, Shield, and damage reduction. The dead guide this blow from every angle at once.
+**Keywords:** Pierce (all mitigation), Phantom Charge-spend (all), Scaling (6 per Charge), Fracture 3
+**Unlock:** Level 16
+
+---
+
+#### The Haunted Weight
+*Tier 3 (3 AP) | Control | Resonance | Signature*
+
+**Effect:** Apply Fracture 5 to one target (maximum, regardless of current stacks). Apply Vulnerable 3 and Expose 3 simultaneously. The target cannot remove Fracture stacks by any means for 2 rounds. The dead have decided they are interested in this target. That interest does not leave.
+**Keywords:** Fracture 5 (lock), Vulnerable 3, Expose 3, Fracture-lock (2 rounds)
+**Unlock:** Level 17
+
+---
+
+#### Fracture: World's Edge
+*Tier 3 (3 AP) | Resonant Attack | Area | Signature*
+
+**Effect:** Spend all Phantom Charges (minimum 3). Reality cracks in a 20-meter radius around you. All enemies in the area take (12 + RESONANCE) damage + (4 × Phantom Charges spent). Apply Fracture 2 to all enemies hit. All enemies in the area can see into the Iron Afterlife for 1 round and must succeed against your RESONANCE (contested by their IRON) or spend their next turn unable to act (paralyzed by what they see).
+**Keywords:** Area, Phantom Charge-spend (all), Scaling, Fracture 2 (all), Paralysis (contested)
+**Unlock:** Level 18
+
+---
+
+#### Fracture Complete
+*Tier 3 (3 AP) | Signature | Capstone*
+
+**Effect:** For 1 full round, you exist in both worlds. All your Attack cards deal an additional +RESONANCE damage and are Pierce (all mitigation) for this round. At the end of this round, you may consume all Fracture stacks on all enemies within 20 meters simultaneously: deal (6 + IRON) damage per stack consumed to the enemy who carried it. This damage cannot be reduced. Then gain HP equal to your RESONANCE × total stacks consumed. The dead in you are fully integrated. They are not separate presences. They are what you have become, and what you have become is the evidence for everything that it costs to be the connection.
+**Keywords:** Dual-world (1 round), Pierce (all Attacks, this round), +RESONANCE (all Attacks), Mass Fracture-consume, Self-heal
+**Unlock:** Level 19 (activates at Level 20)
+
+---
+
+#### Between: The Final Blow
+*Tier 3 (3 AP) | Melee Attack | Signature | Capstone*
+
+**Effect:** Spend all Phantom Charges. Apply Fracture 5 to yourself. This card consumes both simultaneously: deal (28 + IRON) + (6 × Phantom Charges spent) + (4 × 5 self-Fracture stacks) damage to one target. This is the highest base damage value of any single card in Tesshari. It cannot be reduced by any effect. It hits from both sides of the Veil. The dead guided it. You threw it. The math was always going to come out here.
+**Keywords:** Pierce (all mitigation), Phantom Charge-spend (all), Self-Fracture-consume (5), Fixed maximum damage formula
+**Unlock:** Level 20 (choose one of the two Capstone cards)
+
+---
+
+### Level Unlock List
+
+| Level | Cards Available to Choose |
+|---|---|
+| 1 | Starting Hand: choose 2 of (Between-Strike, Fractured Presence, Phase Lurch) |
+| 2 | Dead Hands, Spectral Resilience — gain the Starting Hand card you did not take |
+| 3 | Fracture Strike, Ghost Walk |
+| 4 | Voice of the Dead, Fracture Self |
+| 5 | Between Sight, Spectral Strike |
+| 6 | Fracture Step, Death's Proximity |
+| 7 | Between Army, Fracture: Loaded |
+| 8 | Afterlife Pull, Fracture Form: Entry |
+| 9 | Dead Weight, Fracture Detonation |
+| 10 | Phase Anchor, Fracture: Maximum |
+| 11 | Spectral Strike: Deep |
+| 12 | Between Worlds: Strike |
+| 13 | The Dead Remember |
+| 14 | Fracture: Detonation Chain |
+| 15 | Fracture Form: Complete |
+| 16 | Between: Absolute Strike |
+| 17 | The Haunted Weight |
+| 18 | Fracture: World's Edge |
+| 19 | Fracture Complete |
+| 20 | Between: The Final Blow (Capstone — choose one of the two Level 19-20 Capstone cards) |
+
+*Total cards: 37. Hand Size: 5. At max hand size, each new card replaces one existing card.*
+
+*Design note: Between: The Final Blow at maximum Phantom Charges (6) and full self-Fracture (5) resolves at 28 + IRON + 36 + 20 = 84 + IRON base damage before Fracture stacks on the target and Expose/Vulnerable multipliers. This is intentional — it is the highest single-card damage ceiling in the game, requires substantial setup, and is the Fracture Knight's identity expressed as arithmetic.*
 
 ---
 

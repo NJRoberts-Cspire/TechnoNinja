@@ -21,99 +21,202 @@ The Possessor is the one the Sutensai watches most carefully and the one that th
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM: Puppet Binder
 
-**Hit Die:** d8
-**Primary Ability:** Intelligence (puppet architecture), Wisdom (Echomind extension)
-**Saving Throw Proficiencies:** Intelligence, Wisdom
-**Armor Proficiencies:** Wire-mesh armor
-**Weapon Proficiencies:** Pulse arms (sidearm weight), resonant blades (short configuration), wire-whips
-**Tool Proficiencies:** Biological modification tools, wire-craft tools, construction instruments
-**Skills:** Choose 3 from: Arcana (resonance theory), Deception, Insight, Investigation, Medicine, Perception, Stealth
-**Starting Equipment:** Wire-mesh wrappings, wire-whip, biological modification tools, 1 prepared vessel (a constructed body of roughly humanoid form, no combat statistics), field notes on Echomind extension (written in a private cipher), 10 gp equivalent
+**HP Tier:** Social
+**Hand Size:** 8
+**Primary Stats:** VEIL + SIGNAL
+**HP Formula:** (FRAME × 8) + 6
+
+### Starting Hand
+
+### Thread Probe
+*Tier 1 (1 AP) | Control*
+
+**Effect:** Extend a surface Echomind contact to one target within 40 feet. Deal 4 + VEIL social damage. Learn their current HP tier and one active card in their hand (GM's choice). Apply Expose 1.
+**Keywords:** Expose 1
+**Unlock:** Level 1 (Starting Card)
 
 ---
 
-### Class Features by Level
+### Vessel Strike
+*Tier 1 (1 AP) | Signal Attack*
 
-**Level 1: Echomind Extension**
-You can extend your Echomind into a prepared vessel within 30 feet that you have personally constructed or prepared (see Vessel Preparation, below). As an action, spend 1 Thread (see Thread pool, below) to enter the vessel. While in the vessel: you perceive the world through the vessel's senses, you can control the vessel's movement and actions, and the vessel has your Intelligence and Wisdom scores but uses its own physical stats (DM provides statistics based on vessel type). Your original body is unconscious and vulnerable while you are in the vessel. You can return to your body as a bonus action.
+**Effect:** Deal 5 + SIGNAL signal damage to one target within 40 feet. If you have an active vessel adjacent to the target, deal +SIGNAL bonus damage.
+**Keywords:** —
+**Unlock:** Level 1 (Starting Card)
 
-**Level 1: Thread Pool**
-You have a number of Threads equal to your Intelligence modifier + your proficiency bonus (minimum 2). Threads represent the active resonant connections you can maintain to vessels. You regain all Threads on a long rest. Some abilities cost Threads as a continuing maintenance cost.
+---
 
-**Level 1: Vessel Preparation**
-A prepared vessel requires 8 hours of work to create (a constructed body) or 1 hour of work to prepare (a recently deceased body, within 24 hours of death, whose organic-cybernetic integration is still active). A constructed vessel persists indefinitely until destroyed. A prepared deceased vessel degrades: it loses 1 point of effectiveness per day and becomes inert after Wisdom modifier days. You can maintain a number of prepared vessels equal to your Intelligence modifier (minimum 1).
+### Puppet Screen
+*Tier 1 (1 AP) | Defense*
 
-**Level 2: Vessel Fortitude**
-Your vessels are more durable than standard constructed bodies. When you are in a vessel, you can add your Intelligence modifier to the vessel's AC. Additionally, when a vessel is reduced to 0 hit points, you can make a DC 14 Intelligence saving throw to withdraw your Echomind back to your body before the vessel is destroyed, rather than experiencing the feedback of destruction.
+**Effect:** Direct your active vessel to intercept the next attack targeting you or one ally within 20 feet this round. Reduce incoming damage by 6 + SIGNAL. The vessel takes the reduced damage instead.
+**Keywords:** Guard 6 + SIGNAL (redirected to vessel)
+**Unlock:** Level 1 (Starting Card)
 
-**Level 2: Remote Senses**
-Even when not actively occupying a vessel, you can use your action to see and hear through any vessel within 60 feet that you have prepared. This does not require entering the vessel. The vessel stands still unless it has been given a standing instruction (see Level 6 feature).
+---
 
-**Level 3: Puppet Binder Subclass**
-You choose your path: The Architect, The Possessor, or The Network. Your subclass grants features at levels 3, 6, 10, and 14.
+### Level Unlock List
 
-**Level 3: Vessel Resilience**
-While you occupy a vessel, you cannot be frightened, charmed, or subjected to effects that target your Echomind specifically — you are not fully there. Your original body, while you are away, has advantage on saving throws against effects that would detect, identify, or track you by your Echomind signature.
+#### Level 2
+- **Wire Tap** — Tier 1 (1 AP) | Utility: You read surface-level intent from one target within 40 feet. Learn whether they intend to attack this round and which ally they are targeting. Apply Expose 2 to them.
+- **Remote Hands** — Tier 1 (1 AP) | Signal Attack: Your active vessel makes an attack. Deal 6 + SIGNAL signal damage to one target adjacent to your vessel. The vessel is not damaged by this action.
 
-**Level 4: Ability Score Improvement**
+#### Level 3
+- **Binding Thread** — Tier 2 (2 AP) | Control: Apply Root and Stagger to one target within 40 feet. Deal 7 + VEIL social damage. This is the first stage of binding — a target Bound by this card takes +VEIL damage from all your cards this combat.
+- **Deflection Protocol** — Tier 1 (1 AP) | Reaction: *Trigger: You are targeted by a melee attack.* Redirect the attack to your active vessel instead. The vessel takes the full damage. You are unharmed.
 
-**Level 5: Stronger Extension**
-Your Echomind Extension range increases to 120 feet. You can now maintain occupation of a vessel even when your original body takes damage — previously, any damage to your body forced withdrawal. Now, you can maintain occupation until your original body drops below half hit points, at which point you must make a DC 15 Intelligence saving throw each round or be forced to withdraw.
+#### Level 4
+- **Puppet Pull** — Tier 2 (2 AP) | Control: Target one creature within 40 feet. Deal 8 + VEIL social damage. Force them to move up to 10 feet in a direction you choose. Apply Expose 3. This pull does not provoke reactions.
+- **Signal Intrusion** — Tier 1 (1 AP) | Signal Attack: Deal 7 + SIGNAL signal damage to one target within 40 feet. Apply Silence for one turn. If the target has cybernetic enhancements, apply Overheat 1 in addition.
 
-**Level 5: Vessel Combat**
-Vessels you occupy can fight. While in a vessel, you can use your attack bonus and your weapon proficiencies. The vessel uses its Strength and Dexterity scores for physical attacks; your Intelligence score for any resonant or precision-based attacks. Attacks against the vessel deal damage to the vessel's hit points, not yours.
+#### Level 5
+- **Occupation** — Tier 2 (2 AP) | Control: Target one Staggered or Rooted creature within 30 feet. That creature cannot use Attack cards on their next turn — you have briefly seized control of their motor function. Deal 9 + VEIL social damage. Apply Expose 3.
+- **Thread Web** — Tier 2 (2 AP) | Control: Apply Root to up to two targets within 40 feet. Deal 6 + VEIL social damage to each. Targets that are already Bound by Binding Thread take Stagger in addition.
 
-**Level 6: Subclass Feature**
+#### Level 6
+- **Redirect Strike** — Tier 2 (2 AP) | Control: *When an enemy attacks an ally within 30 feet:* spend this card as a reaction to redirect their attack to a different target of your choice within their reach (including themselves). Deal 8 + VEIL social damage to the original attacker.
+- **Vessel Overload** — Tier 2 (2 AP) | Signal Attack: Detonate an active vessel in a 15-foot radius around its location. Deal 12 + SIGNAL signal damage to all targets in range. The vessel is destroyed. You are unharmed.
 
-**Level 6: Standing Instructions**
-You can issue a standing instruction to a vessel outside of your occupation. The vessel will follow a simple programmed instruction (patrol this route, guard this door, move toward this person) until you return to occupy it or 8 hours pass. The vessel follows standing instructions with roughly human-level competence but cannot improvise. Creatures observing a vessel following standing instructions and making a Perception check (DC 15) notice that it is not responding to its environment the way a genuine person would.
+#### Level 7
+- **Deep Binding** — Tier 2 (2 AP) | Control: Build on an existing Binding Thread. Target one Bound creature within 40 feet. Deal 10 + VEIL social damage. Apply Vulnerable 3 and Expose 3. The target's VEIL is treated as 2 lower for the rest of combat.
+- **Echomind Leash** — Tier 2 (2 AP) | Control: Apply Root and Expose 3 to one target within 40 feet. Until your next turn, if that target plays any card, deal 5 + SIGNAL signal damage to them as a free reaction. They feel the leash.
 
-**Level 7: Split Awareness**
-You can maintain partial awareness in one vessel while acting normally with your original body. While split: you receive sensory information from the vessel as if you were in it, but your actions are slightly slower — your movement speed is reduced by 10 feet and you have disadvantage on Wisdom checks due to divided attention. You can maintain split awareness indefinitely.
+#### Level 8
+- **Puppet Redirect** — Tier 2 (2 AP) | Control: Force one non-Bound target within 30 feet to use their Basic Attack against a target of your choice within their range. Deal 7 + VEIL social damage to the redirected creature. Apply Expose 2.
+- **Whisper Network** — Tier 1 (1 AP) | Utility: Apply Expose 2 to all enemies within 40 feet simultaneously. This card costs 0 AP if you have an active vessel on the field.
 
-**Level 8: Ability Score Improvement**
+#### Level 9
+- **Full Occupation** — Tier 3 (3 AP) | Signature: Target one Staggered or Bound creature within 30 feet. That creature does not act on their next turn — you have fully seized control. They take 14 + VEIL social damage. Apply Vulnerable 4 and Expose 4. The creature is aware this is happening.
+- **Vessel Barrage** — Tier 2 (2 AP) | Signal Attack: Your vessel makes two sequential attacks. Deal 8 + SIGNAL signal damage twice to targets adjacent to your vessel (may be same or different targets). Apply Expose 2 to each struck target.
 
-**Level 8: Vessel Network**
-Your maximum vessels increases to Intelligence modifier + 2. You can now prepare a vessel anywhere you have visited, given sufficient preparation time and materials. The Thread cost to occupy a vessel remains 1; maintaining split awareness with a vessel costs 0 (it's passive).
+#### Level 10
+- **Thread Severance** — Tier 2 (2 AP) | Control: Target one enemy within 40 feet. Deal 11 + SIGNAL signal damage. Cancel the next card they play this turn (you sever the neural command before it executes). Apply Stagger.
+- **Distributed Sense** — Tier 1 (1 AP) | Utility: While you have an active vessel on the field, you perceive through it simultaneously. Until your next turn, your Signal Attack and Control cards may originate from your vessel's position instead of yours.
 
-**Level 9: Emergency Transfer**
-Once per long rest, if your original body is reduced to 0 hit points while your Echomind is in a vessel, you can make a DC 20 Intelligence saving throw to avoid death — on a success, your Echomind is fully transferred to the vessel, and your original body is now an empty shell that functions as a standard deceased vessel. The transfer is not announced. You are, technically, in a vessel now. Whether that matters depends on how you define yourself.
+#### Level 11
+- **Binding Chain** — Tier 3 (3 AP) | Signature: Apply Binding Thread effects to up to three targets within 40 feet simultaneously. Deal 10 + VEIL social damage to each. All three targets are considered Bound for the rest of combat. Apply Root to each.
+- **Puppet Counter** — Tier 2 (2 AP) | Reaction: *Trigger: A Bound target attacks an ally.* Redirect that attack back at the attacker. They take their own attack's base damage + your SIGNAL. Apply Expose 3 to them.
 
-**Level 10: Subclass Feature**
+#### Level 12
+- **Vessel Sacrifice** — Tier 2 (2 AP) | Utility: Destroy your active vessel to generate a powerful distraction. All enemies within 20 feet of the vessel are Staggered and take Expose 3. Deal 12 + SIGNAL signal damage to all enemies in range. You are unharmed.
+- **Complete Control** — Tier 3 (3 AP) | Signature: Target one Bound creature within 30 feet. That creature fights for you this round: they use their action to attack the nearest enemy (not you or your allies). Deal 13 + VEIL social damage to them. Apply Vulnerable 4 and Expose 4. The creature remembers.
 
-**Level 10: Precision Craft**
-Your vessels are engineered to specialist standards. You can create vessels with specific features: enhanced sensory apparatus (advantage on relevant Perception checks), reinforced structure (resistance to one damage type), specialized tool integration (advantage on one tool proficiency), or concealment design (Stealth advantage). Each specialization requires an additional 4 hours of construction time. A vessel can have up to your Intelligence modifier in specializations.
+#### Level 13
+- **Ghost Protocol** — Tier 2 (2 AP) | Utility: Your vessel becomes undetectable as non-living until the end of combat or until it attacks. Enemies cannot identify it as a vessel without a SIGNAL check. While Ghost Protocol is active, your vessel's attacks deal +SIGNAL bonus damage on the first hit.
+- **Mass Thread** — Tier 2 (2 AP) | Control: Apply Expose 2 and Root to all enemies within 30 feet. Deal 7 + VEIL social damage to each. Enemies that are already Bound take Stagger in addition.
 
-**Level 11: Extended Range**
-Your Echomind Extension range increases to 1 mile. You can occupy vessels at this range with no penalty to your original body's awareness.
+#### Level 14
+- **Puppet Army** — Tier 3 (3 AP) | Signature: You issue simultaneous commands to all active Bound targets within 40 feet. Each Bound target is Staggered and takes 12 + VEIL social damage. Apply Expose 4 to each. Each Bound target takes +VEIL bonus damage from all sources this round as the binding tightens.
+- **Thread Detonation** — Tier 3 (3 AP) | Signal Attack: Sever all active Binding Threads simultaneously in an explosive resonant discharge. Deal 18 + SIGNAL signal damage to each Bound target within 40 feet. Apply Vulnerable 5 to each. The binding ends but the damage is done.
 
-**Level 12: Ability Score Improvement**
+#### Level 15
+- **The Network Speaks** — Tier 3 (3 AP) | Utility: Your vessels and all Bound targets become nodes in a single tactical network. Until your next turn, you may redirect any attack from any Bound target to any other enemy within range. Deal 10 + VEIL social damage to all Bound targets as the network surges through them.
+- **Phantom Occupation** — Tier 3 (3 AP) | Control: Target one non-Bound creature within 30 feet. Deal 16 + VEIL social damage. Apply Vulnerable 4, Expose 4, Stagger, and Root. On their next turn, they cannot take offensive actions — full motor seizure for one round.
 
-**Level 12: Vessel Sacrifice**
-Once per short rest, you can detonate a vessel you are occupying or maintaining as a bonus action. The vessel explodes in a 15-foot radius dealing 4d8 force damage (Constitution saving throw, DC = your Puppet Binder save DC, for half). The vessel is destroyed. You are unharmed (you withdraw instantaneously before detonation). Witnesses to the detonation understand what happened — that a vessel was destroyed from the inside. The intelligence services make a note.
+#### Level 16
+- **Vessel Cascade** — Tier 3 (3 AP) | Signal Attack: Your vessel performs a sequence of strikes. Deal 20 + SIGNAL signal damage divided among up to three targets adjacent to your vessel. Apply Expose 3 to each target struck. The vessel is unharmed.
+- **Mind Architecture** — Tier 3 (3 AP) | Control: Permanently Bind one target within 30 feet for the rest of combat, regardless of whether Binding Thread was previously applied. Deal 15 + VEIL social damage. Apply Vulnerable 5 and Expose 5. Apply Stagger.
 
-**Level 13: Ghost Protocol**
-You can make a vessel indistinguishable from a living person at rest. When a vessel is standing still and following standing instructions in a social environment, creatures must actively attempt to detect it (Insight or Perception, DC 18) to notice anything is wrong. This does not hold up to close physical examination (touch, medical assessment, etc.) or a Flesh Sense ability, but it defeats visual and behavioral observation at conversational distance.
+#### Level 17
+- **Perfect Vessel** — Tier 2 (2 AP) | Passive: While in hand, passive. Your vessel is indistinguishable from a living person until it attacks. All Vessel Strike and Remote Hands damage is increased by +SIGNAL. Your vessel gains Guard 6 at the start of each of your turns.
+- **Distributed Self** — Tier 3 (3 AP) | Signature: For one round, you act from both your body and your vessel simultaneously. Your vessel takes its own full turn (same AP as yours) as a separate initiative. Any cards played by your vessel use your stats. The vessel acts immediately after your turn.
 
-**Level 14: Subclass Feature**
+#### Level 18
+- **Total Binding** — Tier 3 (3 AP) | Control: Target one creature within 30 feet. They are Bound, Rooted, Staggered, and Silenced simultaneously. Deal 20 + VEIL social damage. Apply Vulnerable 5 and Expose 5. They cannot remove any of these effects until the start of your next turn.
+- **Resonant Web** — Tier 3 (3 AP) | Signal Attack: Deal 18 + SIGNAL signal damage to all enemies within 40 feet. Apply Expose 3 to each. All Bound targets in range take an additional 8 + VEIL social damage from the web resonating through existing threads.
 
-**Level 15: The Network Speaks**
-Your vessels can now communicate with each other through your Echomind as a relay. You can relay information between vessels you are monitoring, transmit tactical instructions to all vessels simultaneously as a bonus action, and receive a composite summary of all vessel sensory feeds as a single coherent impression (rather than a simultaneous flood) at will.
+#### Level 19
+- **The Author's Mirror** — Tier 3 (3 AP) | Signature: Target one non-Bound creature within 30 feet. Deal 22 + VEIL social damage. Apply Vulnerable 5, Expose 5, Stagger, Root, and Silence. That creature cannot take offensive actions this round. You are aware of everything they were about to do.
+- **Thread Cascade** — Tier 3 (3 AP) | Control: Every Bound target within 40 feet takes 16 + SIGNAL signal damage. Apply Vulnerable 4 and Expose 4 to each. Each Bound target is also Staggered. The cascade cannot be resisted — the threads are already inside them.
 
-**Level 16: Ability Score Improvement**
+#### Level 20 — Capstone
+- **The Hollow Practice** — Tier 3 (3 AP) | Signature (Capstone): *The practice at its theoretical maximum.* Apply Binding Thread to all enemies within 40 feet simultaneously (they are all Bound). Deal 24 + VEIL social damage to each. Apply Expose 6, Vulnerable 5, and Stagger to each. Your vessel acts independently this round with its own 3 AP turn. For the rest of combat, Bound targets take +VEIL damage from all sources and cannot remove the Bound condition. The Hollow Author can do this to hundreds. You can do it to everyone in this room. The answer is a matter of what you choose to do with the capacity.
 
-**Level 17: Perfect Vessel**
-You can now create a vessel that is, to all external examination short of deep Sutensai Reading, biologically indistinguishable from a living person. It has fully simulated biological functions (heartbeat, warmth, apparent respiration) and an Echomind impression that reads as normal unless specifically tested. Creating a Perfect Vessel requires 48 hours of work and costs 8 Threads worth of construction energy (temporarily reducing your Thread maximum by 1 until you finish a long rest). This is what the Hollow Author produces industrially. You can produce one.
+---
 
-**Level 18: Distributed Self**
-You can now split your consciousness fully — not just divided attention, but actual parallel processing. You can fully occupy two vessels simultaneously while your original body remains active. Each instance of you is fully you: full intelligence, full access to your abilities, full decision-making capacity. Coordinating three instances of yourself (original body + two vessels) requires no check. Using this feature requires spending 3 Threads (one for each active vessel). While distributed, each instance has independent initiative and turn.
+### Full Card Reference
 
-**Level 19: Ability Score Improvement**
+**Binding Chain** — Tier 3 (3 AP) | Signature: Apply Binding Thread to up to three targets within 40 feet. Deal 10 + VEIL social damage to each. All three are Bound for rest of combat. Apply Root to each. *Unlock: Level 11*
 
-**Level 20: The Hollow Practice**
-You have developed the Puppet Binder practice to its theoretical maximum. Your Thread maximum doubles. Once per long rest, you can spend 10 minutes constructing an on-the-spot prepared vessel from available organic and mechanical material, regardless of standard preparation requirements. The result is crude but functional. Additionally: any vessel you have ever prepared retains a passive connection to your Echomind indefinitely — you know if it is destroyed, can locate it to within 1 mile, and can reoccupy it at standard range cost. The Hollow Author can do this to hundreds of vessels. You can do it to your full maximum. If you have ever asked yourself whether you are becoming something like what the Author is — you are asking the right question. The answer is a matter of what you choose to do with the capacity, not the capacity itself.
+**Binding Thread** — Tier 2 (2 AP) | Control: Apply Root and Stagger to one target within 40 feet. Deal 7 + VEIL social damage. Bound targets take +VEIL damage from all your cards this combat. *Unlock: Level 3*
+
+**Complete Control** — Tier 3 (3 AP) | Signature: Force one Bound target within 30 feet to attack the nearest enemy. Deal 13 + VEIL social damage. Apply Vulnerable 4 and Expose 4. *Unlock: Level 12*
+
+**Deep Binding** — Tier 2 (2 AP) | Control: Target one Bound creature within 40 feet. Deal 10 + VEIL social damage. Apply Vulnerable 3 and Expose 3. Target's VEIL treated as 2 lower for rest of combat. *Unlock: Level 7*
+
+**Deflection Protocol** — Tier 1 (1 AP) | Reaction: *Trigger: You are targeted by a melee attack.* Redirect attack to your active vessel. Vessel takes full damage. You are unharmed. *Unlock: Level 3*
+
+**Distributed Self** — Tier 3 (3 AP) | Signature: Your vessel takes its own full turn (same AP) as a separate initiative immediately after yours. Vessel uses your stats. *Unlock: Level 17*
+
+**Distributed Sense** — Tier 1 (1 AP) | Utility: Until your next turn, Signal Attack and Control cards may originate from your vessel's position. *Unlock: Level 10*
+
+**Echomind Leash** — Tier 2 (2 AP) | Control: Apply Root and Expose 3 to one target within 40 feet. If they play any card until your next turn, deal 5 + SIGNAL signal damage as a free reaction. *Unlock: Level 7*
+
+**Full Occupation** — Tier 3 (3 AP) | Signature: One Staggered or Bound target within 30 feet does not act next turn. Deal 14 + VEIL social damage. Apply Vulnerable 4 and Expose 4. *Unlock: Level 9*
+
+**Ghost Protocol** — Tier 2 (2 AP) | Utility: Vessel is undetectable as non-living until it attacks. Vessel's first hit deals +SIGNAL bonus damage. *Unlock: Level 13*
+
+**Mass Thread** — Tier 2 (2 AP) | Control: Apply Expose 2 and Root to all enemies within 30 feet. Deal 7 + VEIL social damage to each. Bound targets also take Stagger. *Unlock: Level 13*
+
+**Mind Architecture** — Tier 3 (3 AP) | Control: Permanently Bind one target within 30 feet for rest of combat. Deal 15 + VEIL social damage. Apply Vulnerable 5, Expose 5, and Stagger. *Unlock: Level 16*
+
+**Occupation** — Tier 2 (2 AP) | Control: One Staggered or Rooted creature within 30 feet cannot use Attack cards next turn. Deal 9 + VEIL social damage. Apply Expose 3. *Unlock: Level 5*
+
+**Phantom Occupation** — Tier 3 (3 AP) | Control: Target one non-Bound creature within 30 feet. Deal 16 + VEIL social damage. Apply Vulnerable 4, Expose 4, Stagger, Root. No offensive actions on their next turn. *Unlock: Level 15*
+
+**Puppet Army** — Tier 3 (3 AP) | Signature: All Bound targets within 40 feet are Staggered. Deal 12 + VEIL social damage to each. Apply Expose 4 to each. Bound targets take +VEIL bonus damage from all sources this round. *Unlock: Level 14*
+
+**Puppet Counter** — Tier 2 (2 AP) | Reaction: *Trigger: A Bound target attacks an ally.* Redirect attack back at attacker. They take their own base damage + your SIGNAL. Apply Expose 3. *Unlock: Level 11*
+
+**Puppet Pull** — Tier 2 (2 AP) | Control: Deal 8 + VEIL social damage to one target within 40 feet. Force them to move up to 10 feet in a direction you choose. Apply Expose 3. *Unlock: Level 4*
+
+**Puppet Redirect** — Tier 2 (2 AP) | Control: Force one non-Bound target within 30 feet to use their Basic Attack against a target of your choice. Deal 7 + VEIL social damage. Apply Expose 2. *Unlock: Level 8*
+
+**Puppet Screen** — Tier 1 (1 AP) | Defense: Direct vessel to intercept next attack on you or one ally within 20 feet. Reduce incoming damage by 6 + SIGNAL. Vessel takes the reduced damage. *Unlock: Level 1 (Starting Card)*
+
+**Redirect Strike** — Tier 2 (2 AP) | Control: *Reaction: an enemy attacks an ally within 30 feet.* Redirect their attack to a different target of your choice within their reach. Deal 8 + VEIL social damage to the attacker. *Unlock: Level 6*
+
+**Remote Hands** — Tier 1 (1 AP) | Signal Attack: Your active vessel attacks. Deal 6 + SIGNAL signal damage to one target adjacent to your vessel. *Unlock: Level 2*
+
+**Resonant Web** — Tier 3 (3 AP) | Signal Attack: Deal 18 + SIGNAL signal damage to all enemies within 40 feet. Apply Expose 3 to each. Bound targets take an additional 8 + VEIL damage. *Unlock: Level 18*
+
+**Signal Intrusion** — Tier 1 (1 AP) | Signal Attack: Deal 7 + SIGNAL signal damage to one target within 40 feet. Apply Silence for one turn. If target has enhancements, apply Overheat 1. *Unlock: Level 4*
+
+**The Author's Mirror** — Tier 3 (3 AP) | Signature: Target one non-Bound creature within 30 feet. Deal 22 + VEIL social damage. Apply Vulnerable 5, Expose 5, Stagger, Root, Silence. No offensive actions this round. *Unlock: Level 19*
+
+**The Hollow Practice** — Tier 3 (3 AP) | Signature (Capstone): Bind all enemies within 40 feet. Deal 24 + VEIL social damage to each. Apply Expose 6, Vulnerable 5, Stagger to each. Vessel acts independently this round. Bound cannot be removed for rest of combat. *Unlock: Level 20*
+
+**The Network Speaks** — Tier 3 (3 AP) | Utility: Until your next turn, redirect any Bound target's attack to any enemy within range. Deal 10 + VEIL social damage to all Bound targets. *Unlock: Level 15*
+
+**Thread Cascade** — Tier 3 (3 AP) | Control: All Bound targets within 40 feet take 16 + SIGNAL signal damage. Apply Vulnerable 4, Expose 4, and Stagger to each. *Unlock: Level 19*
+
+**Thread Detonation** — Tier 3 (3 AP) | Signal Attack: Sever all active Binding Threads. Deal 18 + SIGNAL signal damage to each Bound target within 40 feet. Apply Vulnerable 5 to each. Binding ends. *Unlock: Level 14*
+
+**Thread Probe** — Tier 1 (1 AP) | Control: Deal 4 + VEIL social damage to one target within 40 feet. Learn their HP tier and one card in their hand. Apply Expose 1. *Unlock: Level 1 (Starting Card)*
+
+**Thread Severance** — Tier 2 (2 AP) | Control: Deal 11 + SIGNAL signal damage to one target within 40 feet. Cancel the next card they play this turn. Apply Stagger. *Unlock: Level 10*
+
+**Thread Web** — Tier 2 (2 AP) | Control: Apply Root to up to two targets within 40 feet. Deal 6 + VEIL social damage to each. Bound targets also take Stagger. *Unlock: Level 5*
+
+**The Author's Mirror** — Tier 3 (3 AP) | Signature: See above. *Unlock: Level 19*
+
+**Total Binding** — Tier 3 (3 AP) | Control: Target one creature within 30 feet. Apply Bound, Root, Stagger, and Silence simultaneously. Deal 20 + VEIL social damage. Apply Vulnerable 5 and Expose 5. Cannot remove effects until your next turn. *Unlock: Level 18*
+
+**Vessel Barrage** — Tier 2 (2 AP) | Signal Attack: Vessel makes two attacks. Deal 8 + SIGNAL signal damage twice (same or different targets adjacent to vessel). Apply Expose 2 to each. *Unlock: Level 9*
+
+**Vessel Cascade** — Tier 3 (3 AP) | Signal Attack: Deal 20 + SIGNAL signal damage divided among up to three targets adjacent to your vessel. Apply Expose 3 to each. Vessel is unharmed. *Unlock: Level 16*
+
+**Vessel Overload** — Tier 2 (2 AP) | Signal Attack: Detonate active vessel in a 15-foot radius. Deal 12 + SIGNAL signal damage to all in range. Vessel destroyed. You are unharmed. *Unlock: Level 6*
+
+**Vessel Sacrifice** — Tier 2 (2 AP) | Utility: Destroy active vessel. All enemies within 20 feet of vessel are Staggered and take Expose 3. Deal 12 + SIGNAL signal damage to enemies in range. *Unlock: Level 12*
+
+**Vessel Strike** — Tier 1 (1 AP) | Signal Attack: Deal 5 + SIGNAL signal damage to one target within 40 feet. If vessel is adjacent to target, deal +SIGNAL bonus damage. *Unlock: Level 1 (Starting Card)*
+
+**Whisper Network** — Tier 1 (1 AP) | Utility: Apply Expose 2 to all enemies within 40 feet. Costs 0 AP if you have an active vessel on the field. *Unlock: Level 8*
+
+**Wire Tap** — Tier 1 (1 AP) | Utility: Learn whether one target within 40 feet intends to attack this round and which ally they are targeting. Apply Expose 2 to them. *Unlock: Level 2*
 
 ---
 

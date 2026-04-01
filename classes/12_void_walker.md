@@ -21,99 +21,473 @@ Among the Shellbroken — the freed puppets of the Hollow Author — Void Walker
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM: Void Walker
 
-**Hit Die:** d8
-**Primary Ability:** Wisdom (Void perception), Dexterity (phase movement)
-**Saving Throw Proficiencies:** Dexterity, Wisdom
-**Armor Proficiencies:** Wire-mesh armor, salvage plating (light configurations)
-**Weapon Proficiencies:** Resonant blades (all configurations), pulse arms (sidearm weight), void anchors
-**Tool Proficiencies:** Resonance mapping tools, veil-sense instruments
-**Skills:** Choose 3 from: Acrobatics, Athletics, Insight, Investigation, Perception, Stealth, Survival
-**Starting Equipment:** Salvage plating (light), resonant blade (standard configuration), void anchor (focus item — a personally significant object from someone deceased), resonance mapping tools, 12 gp equivalent
+**HP Tier:** Technical
+**Hand Size:** 7
+**Primary Stats:** RESONANCE + EDGE
+**HP Formula:** (FRAME × 8) + 6
+
+### Starting Hand
+- Phase Step
+- Afterlife Perception
+- Void Strike
 
 ---
 
-### Class Features by Level
+### Level Unlock List
 
-**Level 1: Phase Step**
-You can briefly step out of physical reality into the space that borders the Iron Afterlife. As a bonus action, spend 1 Void Charge (see below) to become incorporeal until the start of your next turn. While incorporeal: you are invisible to non-magical sight, you can move through non-living solid matter (taking 1d10 force damage if you end your turn inside an object), attacks against you have disadvantage, and your attacks deal half damage. You cannot use this feature again until the start of your next turn.
+#### Level 1
+- Ghost Sight
+- Void Step
 
-**Level 1: Void Charges**
-You have a pool of Void Charges equal to your proficiency bonus + Wisdom modifier (minimum 2). You regain all Void Charges on a long rest and half (rounded down) on a short rest.
+#### Level 2
+- Phase Dodge
+- Void Sense
 
-**Level 1: Afterlife Perception**
-You can see into the Iron Afterlife as a passive layer over the physical world. You can see Echomind signatures of creatures (identifying them even through concealment if they have significant spiritual resonance), detect locations where death has occurred within the past week, and sense the presence of any active Afterlife connections within 30 feet.
+#### Level 3
+- Void Stride
+- Sustained Phase
 
-**Level 2: Void Step**
-Your Phase Step improves. When you return from incorporeal state, you can choose to reappear at any unoccupied space within 15 feet of where you phased out, as long as you can see it or have been to it before.
+#### Level 4
+- Phase Strike
+- Veil Resilience
 
-**Level 2: Ghost Sight**
-You can see through walls and solid objects by extending your Afterlife Perception up to 10 feet of solid matter. This is not X-ray vision — you see the Afterlife impression of what's on the other side, which corresponds closely but not perfectly to physical reality. Once per short rest, you can extend this to 30 feet for 1 minute by spending 1 Void Charge.
+#### Level 5
+- Void Pull
+- Between Sight
 
-**Level 3: Void Walker Subclass**
-You choose your path: The Ghost Operative, The Threshold Puller, or The Anchor Keeper. Your subclass grants features at levels 3, 6, 10, and 14.
+#### Level 6
+- Phase Immunity
+- Afterlife Navigation
 
-**Level 3: Void Stride**
-You can now move through the Iron Afterlife as a means of physical traversal. As an action, spend 2 Void Charges to enter the Afterlife and exit at any point within 60 feet that you have line of sight to or have previously visited. The traversal is instantaneous. You do not pass through the Iron Afterlife in a subjective sense — you are simply elsewhere. Creatures in the Iron Afterlife may notice you pass.
+#### Level 7
+- Void Burst
+- Transit Step
 
-**Level 4: Ability Score Improvement**
+#### Level 8
+- Phase Assault
+- Void Slip
 
-**Level 5: Extra Attack**
-You can attack twice, instead of once, when you take the Attack action on your turn.
+#### Level 9
+- The Void's Memory
+- Phase Field
 
-**Level 5: Phase Strike**
-When you attack from Phase Step (incorporeal state), your attacks deal full damage (not half). Additionally, when you return from incorporeal state and immediately attack, you have advantage on the attack roll.
+#### Level 10
+- Afterlife Anchor
+- Void Bleed
 
-**Level 6: Subclass Feature**
+#### Level 11
+- Perfect Phase
+- Transit Network
 
-**Level 6: Veil Resilience**
-The Iron Afterlife has shaped your resilience. You have resistance to necrotic damage. You also have advantage on death saving throws — the Afterlife knows you, and it is not yet ready to accept you permanently.
+#### Level 12
+- Void Rend
+- Phase Master
 
-**Level 7: Sustained Phase**
-When you use Phase Step, you can choose to spend an additional 1 Void Charge to extend the incorporeal state to 1 minute rather than 1 round. You can end this state early as a bonus action. You must concentrate to maintain extended Phase (as concentration on a spell).
+#### Level 13
+- Between Strike
+- Void Sovereign
 
-**Level 8: Ability Score Improvement**
+#### Level 14
+- Phase Cascade
+- Afterlife Walk
 
-**Level 8: Void Pull**
-As an action, spend 2 Void Charges to pull one willing creature within 30 feet through a brief Void transit — they phase out and reappear at any unoccupied space within 30 feet of their origin. Unwilling creatures must succeed on a Wisdom saving throw (DC = 8 + proficiency bonus + Wisdom modifier) or be phase-pulled to a space of your choice within 30 feet.
+#### Level 15
+- Void Dominion
+- Phase Absolute
 
-**Level 9: Afterlife Navigation**
-You can navigate the Iron Afterlife for longer transits. As a 10-minute ritual, spend 3 Void Charges to travel through the Afterlife to any location within 5 miles that you have personally visited. You emerge at the location's Afterlife anchor point. You can bring up to Wisdom modifier willing creatures with you; each additional traveler costs 1 additional Void Charge.
+#### Level 16
+- The Disappeared
+- Void Eruption
 
-**Level 10: Subclass Feature**
+#### Level 17
+- Between the Worlds Protocol
+- Ghost Sovereign
 
-**Level 10: Phase Immunity**
-You have been in and out of incorporeal state so often that certain effects simply cannot find you. While in incorporeal state, you are immune to all conditions except exhaustion. Additionally, you can use Phase Step as a reaction when you are hit by an attack, taking the hit at half damage before phasing.
+#### Level 18
+- Void Master
+- Phase Everything
 
-**Level 11: Void Sense (Extended)**
-Your Afterlife Perception now extends 60 feet. You automatically know the name and approximate emotional state of any dead individual whose Echomind you have previously encountered, if they are within range. You have advantage on saving throws against effects originating from the Iron Afterlife.
+#### Level 19
+- Sovereignty Declared
+- Void Apotheosis
 
-**Level 12: Ability Score Improvement**
+#### Level 20
+- Between the Worlds (Capstone)
 
-**Level 12: Transit Network**
-You can establish anchor points in the Iron Afterlife — permanent way-stations at locations you designate. You can have up to your Wisdom modifier anchor points active simultaneously. Traveling between your anchor points costs only 1 Void Charge and 1 bonus action. You can grant access to your anchor network to up to 3 other creatures — they can travel between your anchors as well, at your discretion.
+---
 
-**Level 13: Void Burst**
-As an action, spend 3 Void Charges to release a burst of concentrated Iron Afterlife energy. All creatures within 20 feet must make a Wisdom saving throw (DC = your Void Save DC) or take 5d10 psychic damage and be stunned until the end of their next turn. On a success: half damage, not stunned. Additionally, all cybernetic communication in the area is disrupted for 1 round.
+### Full Card Reference
 
-**Level 14: Subclass Feature**
+---
 
-**Level 15: The Void's Memory**
-You have traversed the Iron Afterlife enough times that it has begun to remember you. Afterlife entities do not treat you as an intruder — they treat you as a known traveler. Once per long rest, you can commune with the Afterlife's collective memory for 10 minutes to ask a question about any event that has occurred in the past year anywhere within 20 miles of your current location. The answer comes in fragments of dead testimony — accurate but not always linear. Additionally, the dead who knew you before their death can find you in the Afterlife and send you messages even while you are in the physical world — you receive these as brief impressions, images, or emotional states during moments of stillness.
+### Afterlife Anchor
+*Tier 2 (2 AP) | Utility*
 
-**Level 16: Ability Score Improvement**
+**Effect:** Establish a permanent Afterlife anchor point at your current location. For the rest of the scene, you can teleport to this anchor as a free action (once per round). Additionally, one ally you designate can use your anchor as a destination for their own Mobility cards.
+**Keywords:** —
+**Unlock:** Level 10
 
-**Level 17: Perfect Phase**
-Your Phase Step no longer requires Void Charges. You can maintain incorporeal state indefinitely without concentration. Your weapons deal full resonant damage while incorporeal (no longer half). You can choose to phase specific parts of your body — an arm, a weapon, a foot — allowing targeted applications of incorporeality.
+---
 
-**Level 18: Void Master**
-You have achieved mastery of the space between worlds. Your Void Stride range extends to 300 feet. The Iron Afterlife cannot harm you while you traverse it. You can remain in the Iron Afterlife for up to 1 hour at a time before needing to return to the physical world for at least 1 hour. While in the Iron Afterlife, you can interact with the environment as if physical.
+### Afterlife Navigation
+*Tier 2 (2 AP) | Mobility | Utility*
 
-**Level 19: Ability Score Improvement**
+**Effect:** Phase through the Iron Afterlife to a location you have visited. Teleport to any point within 200 feet that you have previously been to this scene. On arrival, you are invisible for 1 round — the physical world does not immediately register your return.
+**Keywords:** Veil
+**Unlock:** Level 6
 
-**Level 20: Between the Worlds**
-You have become something that neither world fully contains. Your maximum Void Charges doubles. Once per long rest, you can declare a Void Sovereignty over a 100-foot radius area for 1 minute: you control all Void-related phenomena in the area (phase steps, Afterlife contacts, death effects) and can allow or deny any creature's ability to use phase-related abilities within the area. Any creature you choose within the area can see the Iron Afterlife overlay as clearly as you do. Any creature who dies within the area has their Echomind held stable by your presence — they cannot pass to the Iron Afterlife until you release them or the effect ends. When this ends, you immediately gain three levels of exhaustion and are ejected from any incorporeal state into the nearest unoccupied physical space.
+---
+
+### Afterlife Perception
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Open your Afterlife senses fully. Detect all Echomind signatures within 60 feet, including concealed and hidden creatures. Learn one enemy's HP bracket and one keyword from an unplayed card they hold. Iron Afterlife entities within range are automatically revealed and targetable.
+**Keywords:** —
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Afterlife Walk
+*Tier 3 (3 AP) | Mobility | Utility*
+
+**Effect:** Step fully into the Iron Afterlife and walk through it. Teleport to any point within 300 feet you have visited. During transit you cannot be targeted. On arrival, gain Veil for 1 round and +3 EDGE until end of turn. You may bring one willing ally with you.
+**Keywords:** Veil
+**Unlock:** Level 14
+
+---
+
+### Between Sight
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Your Afterlife Perception pierces all concealment. For 1 round, you cannot be surprised, cannot be affected by Veil cards, and detect the exact location of every creature within 60 feet regardless of concealment, invisibility, or phasing. Apply Mark to one detected enemy.
+**Keywords:** Mark
+**Unlock:** Level 5
+
+---
+
+### Between Strike
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Strike from between worlds — your weapon phases through defenses before solidifying at impact. Deal 14 + EDGE damage. Pierce 8. If you are currently in incorporeal state (via Phase Step), this card deals +6 additional damage.
+**Keywords:** Pierce 8
+**Unlock:** Level 13
+
+---
+
+### Between the Worlds
+*Tier 3 (3 AP) | Signature | Capstone*
+
+**Effect:** Declare Void Sovereignty over a 100-foot radius for 1 round. You control all phase-related phenomena in the area. Every ally within range can use Mobility cards at 0 AP cost this round. Every enemy within range cannot use Mobility cards or Phase cards — the space between worlds belongs to you. Any enemy who dies this round has their Echomind held — they cannot pass to the Afterlife until you release them. After this card resolves, gain Overheat 2 and lose 10 HP.
+**Keywords:** Root (enemy Mobility), Overheat 2
+**Unlock:** Level 20
+
+---
+
+### Between the Worlds Protocol
+*Tier 3 (3 AP) | Utility | Signature*
+
+**Effect:** For the rest of the scene: you exist partially in both worlds simultaneously. You gain +3 RESONANCE and +3 EDGE. All your Phase cards cost 0 AP. You cannot be surprised. Your Basic Attack deals +RESONANCE damage. Once per scene.
+**Keywords:** —
+**Unlock:** Level 17
+
+---
+
+### Ghost Sight
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Extend your Afterlife Perception through solid matter. For 1 round, see through up to 30 feet of walls and solid objects as an Afterlife impression. Hidden enemies within this range are revealed. In combat, learn one piece of information about an enemy you locate this way — their HP bracket or one card they hold.
+**Keywords:** —
+**Unlock:** Level 1
+
+---
+
+### Ghost Sovereign
+*Tier 3 (3 AP) | Utility | Signature*
+
+**Effect:** Become completely undetectable for 1 round. You are invisible to all senses — physical, resonant, Wire Craft, and Afterlife. During this round, your Attack cards deal +RESONANCE damage and you cannot be targeted by any card. After the round ends, you reappear at a location of your choice within 30 feet.
+**Keywords:** Veil
+**Unlock:** Level 17
+
+---
+
+### Phase Absolute
+*Tier 3 (3 AP) | Defense | Utility*
+
+**Effect:** Enter an absolute phase state. For 1 round, you cannot be hit by any Attack card — all attacks pass through you. You can still play cards and move normally. At the end of the round, phase back fully and immediately play one free Attack card from your hand.
+**Keywords:** —
+**Unlock:** Level 15
+
+---
+
+### Phase Assault
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Phase into an enemy's space and strike from within. Deal 14 + RESONANCE damage. Pierce 6. Apply Stagger. After the strike, you phase out and reappear up to 20 feet away — this movement does not trigger reactions.
+**Keywords:** Stagger, Pierce 6
+**Unlock:** Level 8
+
+---
+
+### Phase Cascade
+*Tier 3 (3 AP) | Mobility | Attack*
+
+**Effect:** Phase through up to three enemies in sequence, striking each. Move up to 60 feet total, passing through each enemy's space. Each enemy takes 12 + EDGE damage and gains Expose 2. This movement does not trigger reactions.
+**Keywords:** Expose 2
+**Unlock:** Level 14
+
+---
+
+### Phase Dodge
+*Tier 1 (1 AP) | Defense | Reaction*
+
+**Effect:** Triggered when you are targeted by an attack. Phase briefly — the attack passes through you. Gain Guard 8 against that attack. After it resolves, you reappear up to 10 feet from your original position.
+**Keywords:** Guard 8
+**Unlock:** Level 2
+
+---
+
+### Phase Everything
+*Tier 3 (3 AP) | Utility | Signature*
+
+**Effect:** Phase yourself and all allies within 20 feet simultaneously. All phased creatures gain Guard 12 and cannot be targeted by Attack cards for 1 round. On return, each phased creature may teleport up to 20 feet to any unoccupied space. Once per scene.
+**Keywords:** Guard 12
+**Unlock:** Level 18
+
+---
+
+### Phase Field
+*Tier 2 (2 AP) | Control | Defense*
+
+**Effect:** Extend a phase field over a 20-foot radius centered on you. For 1 round, any ally entering the field gains Guard 8. Any enemy entering the field takes 8 + RESONANCE damage and gains Stagger — the between-space rejects them.
+**Keywords:** Guard 8, Stagger
+**Unlock:** Level 9
+
+---
+
+### Phase Immunity
+*Tier 2 (2 AP) | Defense | Utility*
+
+**Effect:** Your familiarity with incorporeal states makes you resistant to control. For 1 round, you cannot be Staggered, Silenced, or Rooted. Gain Guard 8. You may use Phase Step as a Reaction this round at 0 AP cost when hit by an attack.
+**Keywords:** Guard 8, Fortify
+**Unlock:** Level 6
+
+---
+
+### Phase Master
+*Tier 2 (2 AP) | Utility | Passive*
+
+**Effect:** Your phase transitions have become instantaneous and effortless. For the rest of the scene: Phase Step can be played as a Reaction at 0 AP cost (once per round). All your Mobility cards move you +10 feet further than listed. Your EDGE increases by 2.
+**Keywords:** —
+**Unlock:** Level 12
+
+---
+
+### Phase Strike
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Strike from incorporeal state with full force. Deal 12 + EDGE damage. If you are currently incorporeal (via Phase Step), this card deals +8 additional damage and applies Expose 2. After this strike, you may immediately move up to 20 feet — this movement does not trigger reactions.
+**Keywords:** Expose 2 (while incorporeal)
+**Unlock:** Level 4
+
+---
+
+### Phase Step
+*Tier 1 (1 AP) | Mobility | Defense*
+
+**Effect:** Step out of physical reality. You become incorporeal until the start of your next turn. While incorporeal: you cannot be targeted by Attack cards, you can move through solid barriers, and your attacks deal +4 damage (you strike from the between-space). On return, reappear up to 15 feet from where you phased.
+**Keywords:** Veil
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Perfect Phase
+*Tier 2 (2 AP) | Defense | Utility*
+
+**Effect:** Your incorporeal state has become effortless and indefinite. Enter Phase Step at no AP cost as part of playing this card. You remain incorporeal for 2 rounds instead of 1. While incorporeal under Perfect Phase, you can interact with physical objects normally — picking locks, opening doors, retrieving items.
+**Keywords:** Veil
+**Unlock:** Level 11
+
+---
+
+### Sovereignty Declared
+*Tier 3 (3 AP) | Control | Utility*
+
+**Effect:** Assert Void dominance over a 60-foot radius. For 1 round: no enemy can use Phase, Mobility, or Afterlife cards within the area. Any enemy who attempts phasing takes 12 + RESONANCE damage. Allies within the area gain +2 EDGE and cannot be Rooted.
+**Keywords:** Root (enemy phase/mobility)
+**Unlock:** Level 19
+
+---
+
+### Sustained Phase
+*Tier 2 (2 AP) | Defense | Utility*
+
+**Effect:** Extend your incorporeal state to 2 rounds. While sustained-phased: you are invisible to non-Afterlife senses, you can move freely through terrain, and you cannot be targeted by Signal cards. You can end the state early as a free action on your turn.
+**Keywords:** Veil
+**Unlock:** Level 3
+
+---
+
+### The Disappeared
+*Tier 3 (3 AP) | Mobility | Utility*
+
+**Effect:** Vanish completely from the physical world and reappear anywhere within 200 feet you have previously visited. During transit, you cannot be detected by any means. On arrival: apply Veil for 1 round and deal 10 + EDGE damage to one enemy within 10 feet of your arrival point as a free action.
+**Keywords:** Veil
+**Unlock:** Level 16
+
+---
+
+### The Void's Memory
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** Commune with the Afterlife's memory of this location. In combat: learn the exact HP total, all active status effects, and all card categories held by one enemy within 60 feet. Out of combat: ask the Afterlife one question about any event within 20 miles over the past year. The answer comes in fragments.
+**Keywords:** —
+**Unlock:** Level 9
+
+---
+
+### Transit Network
+*Tier 2 (2 AP) | Utility | Passive*
+
+**Effect:** Your Afterlife anchor network becomes fully operational. You may have up to 3 active anchor points. Teleporting between anchor points costs 0 AP and can be done once per round as a free action. One designated ally may also use your anchor network to teleport between your anchors.
+**Keywords:** —
+**Unlock:** Level 11
+
+---
+
+### Transit Step
+*Tier 1 (1 AP) | Mobility*
+
+**Effect:** Phase through the Afterlife and emerge up to 40 feet away. This movement cannot be blocked by terrain, barriers, or effects. You cannot be targeted during transit. On arrival, gain +2 EDGE until end of turn.
+**Keywords:** —
+**Unlock:** Level 7
+
+---
+
+### Veil Resilience
+*Tier 1 (1 AP) | Defense*
+
+**Effect:** The Iron Afterlife has reshaped your resilience. Gain Guard 6. You cannot be reduced below 1 HP this turn by any single hit — the Afterlife is not yet ready to accept you permanently.
+**Keywords:** Guard 6
+**Unlock:** Level 4
+
+---
+
+### Void Apotheosis
+*Tier 3 (3 AP) | Utility | Signature*
+
+**Effect:** Become fully between worlds for 1 round. You exist in both simultaneously — you cannot be hit (all attacks pass through), you deal +RESONANCE to all your cards, and you can teleport up to 30 feet as a free action at any point during your turn. After this round, gain Overheat 2. Once per scene.
+**Keywords:** Overheat 2
+**Unlock:** Level 19
+
+---
+
+### Void Bleed
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Bleed Afterlife energy into the physical world at one target within 40 feet. Deal 12 + RESONANCE damage. Apply Expose 2 and Bleed 3 — the Afterlife continues to drain them at the end of each of their turns.
+**Keywords:** Expose 2, Bleed 3
+**Unlock:** Level 10
+
+---
+
+### Void Burst
+*Tier 3 (3 AP) | Attack | Control*
+
+**Effect:** Release a burst of concentrated Iron Afterlife energy in a 20-foot radius within 40 feet. All enemies take 18 + RESONANCE damage and gain Stagger. All Signal communication in the area is disrupted for 1 round — Signal and Resonance cards used by enemies in the area this round deal 0 base damage.
+**Keywords:** Stagger, Silence
+**Unlock:** Level 7
+
+---
+
+### Void Dominion
+*Tier 3 (3 AP) | Utility | Passive*
+
+**Effect:** Your mastery of the between-space reaches its operational peak. For the rest of the scene: all your Mobility cards cost 0 AP. Your EDGE and RESONANCE each increase by 2. Enemies cannot become hidden or concealed from you. Once per scene.
+**Keywords:** —
+**Unlock:** Level 15
+
+---
+
+### Void Eruption
+*Tier 3 (3 AP) | Attack*
+
+**Effect:** Channel a massive eruption of Afterlife energy at a point within 80 feet. All enemies within 30 feet of that point take 20 + RESONANCE damage. Apply Stagger and Expose 2 to each. Incorporeal and Afterlife entities in the area are expelled from the physical world.
+**Keywords:** Stagger, Expose 2, Pierce 4
+**Unlock:** Level 16
+
+---
+
+### Void Master
+*Tier 3 (3 AP) | Defense | Utility*
+
+**Effect:** Assert total mastery over the between-space. For 1 round: all incoming damage is halved before Guard applies. You can teleport up to 50 feet as a free action at any point during your turn. Your Attack cards deal +8 damage. The Iron Afterlife cannot harm you while this card is active.
+**Keywords:** Fortify
+**Unlock:** Level 18
+
+---
+
+### Void Pull
+*Tier 2 (2 AP) | Control | Mobility*
+
+**Effect:** Pull one target within 40 feet through a brief Void transit. Willing target: teleport them to any unoccupied space within 40 feet of their origin. Unwilling target: deal 8 + RESONANCE damage and teleport them to a space of your choice within 30 feet. Apply Stagger to unwilling targets.
+**Keywords:** Stagger (unwilling)
+**Unlock:** Level 5
+
+---
+
+### Void Rend
+*Tier 3 (3 AP) | Attack*
+
+**Effect:** Tear a rift through the between-space directly into one target within 60 feet. Deal 22 + RESONANCE damage. Pierce 8. Apply Expose 3 and Stagger. The rift lingers — the target takes 6 damage at the start of their next turn as the Afterlife continues to pull at them.
+**Keywords:** Expose 3, Stagger, Pierce 8, Bleed 6
+**Unlock:** Level 12
+
+---
+
+### Void Sense
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Extend your Afterlife Perception to its fullest passive range. Detect all Echomind presences within 80 feet. You automatically know whether each creature is living, dead, or partially phased. Hidden and concealed creatures within 40 feet are revealed. Learn one active keyword on an unplayed card from each enemy detected.
+**Keywords:** —
+**Unlock:** Level 2
+
+---
+
+### Void Slip
+*Tier 1 (1 AP) | Mobility | Reaction*
+
+**Effect:** Triggered when a card targets you or when you are in melee range of an attacker. Slip briefly into the between-space — move up to 20 feet without triggering reactions and reappear in an unoccupied space. The triggering attack misses if it relied on your original position.
+**Keywords:** —
+**Unlock:** Level 8
+
+---
+
+### Void Sovereign
+*Tier 3 (3 AP) | Utility | Signature*
+
+**Effect:** Assert Void authority over a 60-foot radius. For 1 round: you teleport freely within the area at 0 AP cost. All allies within the area gain Guard 10. All enemies within the area cannot use Phase or Mobility cards. You may designate one dead creature whose Echomind is in the area — they are held stable and cannot pass to the Afterlife until you release them.
+**Keywords:** Guard 10, Root (enemy mobility)
+**Unlock:** Level 13
+
+---
+
+### Void Step
+*Tier 1 (1 AP) | Mobility*
+
+**Effect:** Phase and reappear. When you return from Phase Step (incorporeal state), choose to reappear at any unoccupied space within 25 feet of where you phased, as long as you have line of sight or have previously been there.
+**Keywords:** —
+**Unlock:** Level 1
+
+---
+
+### Void Strike
+*Tier 1 (1 AP) | Attack*
+
+**Effect:** A strike channeled through the between-space. Deal 6 + RESONANCE damage to one target within melee range. If you are incorporeal when you play this card, deal 10 + RESONANCE damage instead and apply Expose 1.
+**Keywords:** Expose 1 (while incorporeal)
+**Unlock:** Level 1 (Starting Hand)
 
 ---
 

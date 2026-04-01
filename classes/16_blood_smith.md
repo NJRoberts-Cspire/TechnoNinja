@@ -21,99 +21,203 @@ Among the Shellbroken — the former puppets of the Hollow Author — Blood Smit
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM: Blood Smith
 
-**Hit Die:** d10
-**Primary Ability:** Constitution (physical endurance), Strength (shaping force)
-**Saving Throw Proficiencies:** Constitution, Strength
-**Armor Proficiencies:** Salvage plating (light and medium), wire-mesh armor
-**Weapon Proficiencies:** All weapons derived from their own body (class features), resonant blades (all configurations), pulse arms (sidearm weight), circuit lances
-**Tool Proficiencies:** Calibration tools, first aid kit (repair focus)
-**Skills:** Choose 2 from: Athletics, Acrobatics, Medicine, Intimidation, Survival, Perception
-**Starting Equipment:** Salvage plating (medium), resonant blade (standard), calibration tools, first aid kit (5 uses), wrappings to contain bleed-off, 8 gp equivalent. Note: you begin play with visible scarring on your enhancement interfaces.
+**HP Tier:** Martial
+**Hand Size:** 6
+**Primary Stats:** IRON + RESONANCE
+**HP Formula:** (FRAME × 8) + 14
+
+### Starting Hand
+
+### Blood Weapon
+*Tier 1 (1 AP) | Melee Attack*
+
+**Effect:** Deal 6 + IRON melee damage to one adjacent target. Pay 4 HP in addition to 1 AP. The wound feeds the blade — if you are below half HP when you play this card, deal +IRON bonus damage.
+**Keywords:** Bleed 2
+**Unlock:** Level 1 (Starting Card)
 
 ---
 
-### Class Features by Level
+### Forge Shell
+*Tier 1 (1 AP) | Defense*
 
-**Level 1: Liquefaction**
-As a bonus action, you can force a portion of your enhancement lattice into a temporarily fluid state. You take 1d4 necrotic damage (this damage cannot be reduced or prevented) and gain 1 Forge Charge (see below). You can liquefy up to your Constitution modifier times per short rest.
+**Effect:** Apply Guard 5 + IRON to yourself. Pay 3 HP in addition to 1 AP. While Guard from this card is active, enemies that hit you with melee attacks take 3 resonant damage.
+**Keywords:** Guard 5 + IRON
+**Unlock:** Level 1 (Starting Card)
 
-**Level 1: Forge Charges**
-You have a pool of Forge Charges that power your Blood Smithing abilities. You begin each combat with 0 Forge Charges. You gain Forge Charges by using Liquefaction or through subclass features. Your maximum Forge Charges at any time equals your Constitution modifier + your proficiency bonus. Forge Charges persist until you finish a short rest, at which point your enhancement lattice re-solidifies and the charges dissipate.
+---
 
-**Level 1: Blood Weapon**
-As a bonus action, spend 1 Forge Charge to manifest a Blood Weapon from your enhanced tissue. The weapon deals 1d8 + Strength modifier slashing or piercing damage, is treated as a resonant weapon, and uses your Strength modifier for attack and damage rolls. It lasts until you dismiss it (free action) or you drop it. If the weapon is destroyed in combat, you take 1d6 necrotic damage as the connection is severed. Blood Weapons improve with your level: at level 5, they deal 1d10 + Strength modifier damage; at level 11, 1d12 + Strength modifier; at level 17, 2d8 + Strength modifier.
+### Lattice Read
+*Tier 1 (1 AP) | Utility*
 
-**Level 2: Iron Tolerance**
-You have developed an extraordinary threshold for what your body can sustain. Your maximum hit points increase by your Constitution modifier for each level you gain in this class (retroactively applied). When you take necrotic damage from your own Liquefaction, you do not lose concentration on effects if you are concentrating.
+**Effect:** Passive component: you always know the enhancement status (stable / stressed / failing) of all creatures within 20 feet. Active component: learn the exact HP of one target within 20 feet and apply Expose 2 to them.
+**Keywords:** Expose 2
+**Unlock:** Level 1 (Starting Card)
 
-**Level 2: Blood Sense**
-Your constant intimate awareness of your own enhancement lattice gives you a tactile sense for resonant metal in your environment. You can sense enhancement lattices in creatures within 15 feet (passive). As a bonus action, you can extend this sense to 30 feet for 1 round, learning the general enhancement status (stable/stressed/malfunctioning) of every creature in range.
+---
 
-**Level 3: Blood Smith Subclass**
-You choose your path: The Weaponsmith, The Armorer, or The Sculptor. Your subclass grants features at levels 3, 6, 10, and 14.
+### Level Unlock List
 
-**Level 3: Deliberate Bleed**
-You have refined your Liquefaction technique. When you use Liquefaction, you can choose to take 2d4 damage instead of 1d4 to gain 2 Forge Charges instead of 1. Additionally, once per short rest, you can use Liquefaction as a free action on your turn.
+#### Level 2
+- **Deliberate Bleed** — Tier 1 (1 AP) | Utility: Pay 6 HP instead of 1 AP. Apply Guard 4 + IRON to yourself and gain Regen 2 until your next turn. This card costs 0 AP — the HP is the cost.
+- **Iron Tolerance** — Tier 1 (1 AP) | Passive: While in hand, passive. Whenever you pay HP as a card cost, reduce that HP cost by 2 (minimum 1). You have adapted to the payment.
 
-**Level 4: Ability Score Improvement**
+#### Level 3
+- **Blood Spike** — Tier 1 (1 AP) | Melee Attack: Deal 7 + IRON melee damage to one adjacent target. Pay 4 HP. If you are below half HP, apply Bleed 3 instead of Bleed 2.
+**Keywords:** Bleed 2
+- **Resonant Edge** — Tier 2 (2 AP) | Melee Attack: Deal 10 + IRON melee damage to one adjacent target. Apply Bleed 2 and Expose 2. Pay 5 HP in addition to 2 AP.
 
-**Level 5: Extra Attack**
-You can attack twice when you take the Attack action on your turn.
+#### Level 4
+- **Blood Armor** — Tier 2 (2 AP) | Defense: Apply Guard 7 + IRON to yourself. Pay 5 HP in addition to 2 AP. Enemies that hit you with melee attacks this round take 4 + RESONANCE resonant damage.
+- **Lattice Pulse** — Tier 1 (1 AP) | Melee Attack: Deal 6 + RESONANCE resonant damage to one adjacent target with enhancements. Their enhancement lattice stutters — apply Overheat 1 and Expose 2.
 
-**Level 5: Combat Forge**
-You can create Blood Weapons as part of the same bonus action as an attack — you no longer need to spend a separate action. Additionally, while holding a Blood Weapon, your unarmed strikes also deal 1d4 + Strength modifier resonant damage instead of standard unarmed damage — the fluid lattice in your fist is not entirely contained.
+#### Level 5
+- **Combat Forge** — Tier 2 (2 AP) | Melee Attack: Deal 12 + IRON melee damage to one adjacent target. Pay 6 HP in addition to 2 AP. Apply Bleed 3. If you are below half HP, Echo (repeat base damage once, no riders).
+- **Pain Dividend** — Tier 1 (1 AP) | Utility: Pay 8 HP instead of 1 AP. Restore 8 + RESONANCE HP to yourself at the start of your next turn. This card costs 0 AP — the HP is the cost. Net recovery if you survive the round.
 
-**Level 6: Subclass Feature**
+#### Level 6
+- **Scar Tissue** — Tier 1 (1 AP) | Passive: While in hand, passive. At the start of each of your turns, if you paid HP as a card cost last turn, restore 3 HP to yourself. Resonant damage against you is reduced by RESONANCE.
+- **Blood Lash** — Tier 2 (2 AP) | Melee Attack: Deal 11 + IRON melee damage to one adjacent target. Pay 5 HP. Apply Bleed 3 and Expose 3. The HP cost cannot be reduced by Iron Tolerance — this one costs what it costs.
 
-**Level 6: Scar Tissue Resistance**
-Your enhanced tissue has adapted to repeated stress. You have resistance to necrotic damage. Additionally, you have advantage on Constitution saving throws made to maintain hit points at extremity — death saves, saving throws against effects that impose maximum hit point reductions, etc.
+#### Level 7
+- **Metal Storm** — Tier 2 (2 AP) | Melee Attack: Deal 8 + IRON melee damage to all enemies within 15 feet of you (cone). Pay 8 HP in addition to 2 AP. Apply Bleed 2 to each target struck.
+- **Blood Link** — Tier 2 (2 AP) | Defense: Link yourself to one ally within 10 feet. Until your next turn, all damage dealt to that ally is split between you both (50/50, rounded up to you). Apply Guard 5 + IRON to that ally. Pay 6 HP.
 
-**Level 7: Blood Armor**
-As a bonus action, spend 2 Forge Charges to coat yourself in a layer of rapidly-solidified resonant metal drawn from your enhancement lattice. You gain temporary hit points equal to your Constitution modifier × 2 + your Blood Smith level. These last until the start of your next turn unless you spend an additional 1 Forge Charge per round to maintain them. While this armor is active, creatures that hit you with melee attacks take 1d4 piercing damage from exposed edges.
+#### Level 8
+- **Pain is Data** — Tier 1 (1 AP) | Passive: While in hand, passive. The first time each combat that you drop below half HP, restore 6 HP to yourself immediately and apply Guard 4 + IRON. You have learned to use what you feel.
+- **Forge Blade** — Tier 2 (2 AP) | Melee Attack: Deal 13 + IRON melee damage to one adjacent target. Pay 7 HP. Apply Bleed 3. Pierce 4 (ignore 4 Guard/Shield on this card's damage).
 
-**Level 8: Ability Score Improvement**
+#### Level 9
+- **Total Bleed** — Tier 2 (2 AP) | Melee Attack: Deal 14 + IRON melee damage to one adjacent target. Pay 8 HP. Apply Bleed 4 and Expose 3. If the target is already Bleeding, deal +RESONANCE bonus damage.
+- **Resonant Burst** — Tier 3 (3 AP) | Melee Attack: Deal 18 + RESONANCE resonant damage to one adjacent target. Pay 10 HP in addition to 3 AP. Apply Expose 4 and Bleed 3. This card costs 0 AP if you are below half HP — the HP alone is the cost.
 
-**Level 8: Pain is Data**
-Your relationship with personal damage has become functional rather than limiting. When you take any damage that reduces you below half your hit points for the first time in a combat, you immediately gain Forge Charges equal to your proficiency bonus. You feel it. You have learned to use what you feel.
+#### Level 10
+- **Living Forge** — Tier 2 (2 AP) | Passive: While in hand, passive. All your melee Attack cards gain Pierce 3. If you have paid HP as a cost this turn, your next melee Attack card deals +IRON bonus damage.
+- **Iron Aura** — Tier 2 (2 AP) | Defense: Apply Guard 8 + IRON to yourself. Enemies within 10 feet take 3 + RESONANCE resonant damage at the start of each of their turns while this Guard is active. Pay 8 HP in addition to 2 AP.
 
-**Level 9: Metal Storm**
-As an action, spend 3 Forge Charges to release a spray of sharpened resonant metal from your enhancement lattice. Each creature in a 15-foot cone takes 4d6 piercing damage plus 2d6 resonant damage (Dexterity saving throw, DC = 8 + proficiency bonus + Constitution modifier, for half). You take 2d6 necrotic damage from the release regardless of the outcome. The metal re-integrates within rounds, at biological cost.
+#### Level 11
+- **Blood Forge** — Tier 3 (3 AP) | Signature: Deal 18 + IRON melee damage to one adjacent target. Pay 10 HP in addition to 3 AP. Apply Bleed 4, Expose 4, and Vulnerable 3. If you are below half HP, this card also applies Stagger.
+- **Shared Pain** — Tier 2 (2 AP) | Melee Attack: Deal 12 + IRON melee damage to one adjacent target. Pay 6 HP. You and the target both take your RESONANCE in resonant damage as the lattice resonates between you — but you gain Guard 4 + RESONANCE immediately after.
 
-**Level 10: Subclass Feature**
+#### Level 12
+- **Forge Mastery** — Tier 2 (2 AP) | Passive: While in hand, passive. The first time each combat that you would drop to 0 HP, you drop to 1 HP instead. Immediately apply Guard 5 + IRON to yourself. Pay 0 HP — the near-death is the cost.
+- **Lattice Rend** — Tier 3 (3 AP) | Melee Attack: Deal 19 + IRON melee damage to one adjacent target with enhancements. Pay 10 HP. Apply Bleed 4, Overheat 2, and Expose 4. Their enhancement lattice is stressed — all their enhancement-based card effects deal 2 less damage until end of their next turn.
 
-**Level 10: Living Forge**
-You can maintain Blood Weapons and Blood Armor simultaneously with no concentration requirement. Additionally, your Blood Weapons are now magically precise — they can strike ethereal or phase-shifted targets, and they ignore resistance to slashing and piercing damage.
+#### Level 13
+- **Total Liquefaction** — Tier 3 (3 AP) | Signature: Pay 12 HP instead of 3 AP (costs 0 AP). Until your next turn, all your melee Attack cards deal +RESONANCE bonus damage and apply Bleed 3 in addition to their listed keywords. Your enhancement interfaces visibly glow. Enemies within 10 feet take 4 resonant damage at the start of their next turn.
+- **Forge Spike** — Tier 2 (2 AP) | Melee Attack: Deal 15 + IRON melee damage to one adjacent target. Pay 8 HP. Pierce 5. Apply Bleed 3 and Expose 3.
 
-**Level 11: Blood Link**
-Once per long rest, you can use your action to forge a temporary biological link between yourself and one willing creature by touch, sharing your enhancement lattice for 1 minute. During this time: the linked creature gains resistance to bludgeoning, piercing, and slashing damage; you share their hit point losses 50/50 (damage to them is split between you); and you have an instinctive awareness of their location and status at all times during the link. When the link ends, any damage split is resolved — you both catch up on what was owed to each of you individually.
+#### Level 14
+- **Iron Body** — Tier 2 (2 AP) | Passive: While in hand, passive. You are immune to Stagger. At the start of each of your turns, restore 3 HP if you paid HP as a card cost last turn. Death Saves succeed on 7 or higher.
+- **Resonant Flood** — Tier 3 (3 AP) | Melee Attack: Deal 20 + RESONANCE resonant damage to all enemies within 15 feet. Pay 12 HP in addition to 3 AP. Apply Bleed 3 and Expose 3 to each.
 
-**Level 12: Ability Score Improvement**
+#### Level 15
+- **Blood Forge Aura** — Tier 3 (3 AP) | Passive: While in hand, passive. All enemies within 10 feet with enhancements take 4 + RESONANCE resonant damage at the start of each of your turns. This is passive — no AP spent on your turn to trigger it.
+- **Apex Blade** — Tier 3 (3 AP) | Melee Attack: Deal 22 + IRON melee damage to one adjacent target. Pay 12 HP. Apply Bleed 5, Expose 5, and Vulnerable 4. Pierce 6.
 
-**Level 12: Forge Mastery**
-Your Forge Charge maximum increases by your proficiency bonus. When you drop to 0 hit points, instead of falling unconscious, you can spend all your remaining Forge Charges (minimum 3) to remain standing at 1 hit point for 1 round. After that round, if you have not been healed, you fall unconscious normally.
+#### Level 16
+- **Lattice Storm** — Tier 3 (3 AP) | Melee Attack: Deal 18 + IRON melee damage to all enemies within 15 feet. Pay 12 HP in addition to 3 AP. Apply Bleed 4 to each. Each target with enhancements also takes Expose 3.
+- **Blood Fortress** — Tier 3 (3 AP) | Defense: Apply Guard 12 + IRON to yourself. Pay 12 HP in addition to 3 AP. Enemies that hit you with melee attacks this round take 8 + RESONANCE resonant damage. Apply Regen 4 to yourself.
 
-**Level 13: Total Liquefaction**
-Once per short rest, as an action, you can liquefy your entire enhancement lattice simultaneously. You take 4d6 necrotic damage and gain Forge Charges equal to your Constitution modifier × 2. The total liquefaction state lasts 1 round and produces visible effects — your enhancement interfaces glow, fluid metal moves visibly beneath your skin, and your attacks this round deal an additional 2d8 resonant damage.
+#### Level 17
+- **Sustained Liquefaction** — Tier 2 (2 AP) | Passive: While in hand, passive. At the start of each of your turns, restore 4 HP to yourself. All HP costs on your cards are reduced by 3 (minimum 1). The body has adapted to the rhythm of payment.
+- **Total Forge** — Tier 3 (3 AP) | Melee Attack: Deal 24 + IRON melee damage to one adjacent target. Pay 14 HP. Apply Bleed 5 and Expose 5. Pierce 6. If you are below half HP, apply Vulnerable 5 in addition.
 
-**Level 14: Subclass Feature**
+#### Level 18
+- **Iron Convergence** — Tier 3 (3 AP) | Signature: Deal 22 + IRON melee damage to one adjacent target. Pay 12 HP. Apply Bleed 5, Expose 5, and Vulnerable 4. Echo (repeat base damage once, no riders). Restore 10 HP to yourself as the lattice reconverges.
+- **Forge Aura Surge** — Tier 3 (3 AP) | Defense: Apply Guard 14 + IRON to yourself. Pay 14 HP in addition to 3 AP. Until your next turn, enemies within 15 feet take 6 + RESONANCE resonant damage at the start of each of their turns. Apply Regen 5 to yourself.
 
-**Level 15: Iron Body**
-The repeated trauma and reconstruction of your enhancement lattice has produced a body that is genuinely extraordinary. Your Constitution maximum increases to 24. You are immune to the frightened condition. When you make a death saving throw, you succeed on a 7 or higher (instead of 10). Once per long rest, when you would be reduced to 0 hit points, you can instead take the damage as necrotic damage to a Blood Armor or Blood Weapon, destroying that structure but remaining conscious.
+#### Level 19
+- **Bleeding Edge** — Tier 3 (3 AP) | Melee Attack: Deal 26 + IRON melee damage to one adjacent target. Pay 16 HP. Apply Bleed 6, Expose 6, and Vulnerable 5. Pierce 6. If target is already Bleeding, deal +RESONANCE bonus damage and apply Stagger.
+- **Full Lattice** — Tier 3 (3 AP) | Signature: Pay 14 HP instead of 3 AP (costs 0 AP). Until your next turn, all your cards have their AP cost reduced to 0. All your melee Attack cards deal +IRON and +RESONANCE bonus damage. Apply Bleed 4 and Expose 4 automatically to every target you damage this turn.
 
-**Level 16: Ability Score Improvement**
+#### Level 20 — Capstone
+- **The Bleeding Edge** — Tier 3 (3 AP) | Signature (Capstone): *The Blood Smith practice at its absolute limit.* Pay 20 HP instead of 3 AP (costs 0 AP). Deal 28 + IRON melee damage to one adjacent target and 14 + IRON to all other enemies within 15 feet. Apply Bleed 6, Expose 6, and Vulnerable 6 to the primary target. Apply Bleed 3 and Expose 3 to all secondary targets. Restore 16 HP to yourself as the lattice reconverges at maximum output. At the start of your next turn, pay 10 HP — the morning after always comes.
 
-**Level 17: Blood Forge Aura**
-While you have 3 or more Forge Charges, you radiate a passive resonant heat that affects nearby enhancement lattices. Creatures within 10 feet with cybernetic enhancements take 1d6 resonant damage at the start of each of their turns. Allies can suppress this for themselves as a bonus action. Enemies cannot.
+---
 
-**Level 18: Sustained Liquefaction**
-You can maintain Liquefaction indefinitely without the self-damage. While in Sustained Liquefaction, you gain 1 Forge Charge at the start of each of your turns automatically, and your Blood Weapons and Blood Armor cost 1 fewer Forge Charge to create. You can enter and exit Sustained Liquefaction as a bonus action. It does not count against your Liquefaction limit.
+### Full Card Reference
 
-**Level 19: Ability Score Improvement**
+**Apex Blade** — Tier 3 (3 AP) | Melee Attack: Deal 22 + IRON melee damage. Pay 12 HP. Apply Bleed 5, Expose 5, Vulnerable 4. Pierce 6. *Unlock: Level 15*
 
-**Level 20: The Bleeding Edge**
-You have pushed the Blood Smith practice to its absolute limit and survived to develop the limit further. Your Forge Charge maximum is now doubled. Once per long rest, declare a Full Forge state for 1 minute: all your Blood Smith ability costs are reduced to 0 Forge Charges, your Blood Weapon deals maximum damage rather than rolling, you are immune to all damage that is not pure energy or psychic, and at the end of each round you automatically restore 1d6 hit points as your body adapts on the fly. When Full Forge ends, you gain two levels of exhaustion and one of your enhancement interfaces requires repair — it is non-functional until you complete a long rest and receive 1 hour of technical work on the affected site. The things that can be endured always have a morning after.
+**Blood Armor** — Tier 2 (2 AP) | Defense: Apply Guard 7 + IRON to yourself. Pay 5 HP. Enemies hitting you with melee attacks take 4 + RESONANCE resonant damage. *Unlock: Level 4*
+
+**Blood Forge** — Tier 3 (3 AP) | Signature: Deal 18 + IRON melee damage. Pay 10 HP. Apply Bleed 4, Expose 4, Vulnerable 3. If below half HP, also Stagger. *Unlock: Level 11*
+
+**Blood Forge Aura** — Tier 3 (3 AP) | Passive: All enemies within 10 feet with enhancements take 4 + RESONANCE resonant damage at the start of each of your turns. *Unlock: Level 15*
+
+**Blood Fortress** — Tier 3 (3 AP) | Defense: Apply Guard 12 + IRON. Pay 12 HP. Melee attackers take 8 + RESONANCE resonant damage. Apply Regen 4 to yourself. *Unlock: Level 16*
+
+**Blood Lash** — Tier 2 (2 AP) | Melee Attack: Deal 11 + IRON melee damage. Pay 5 HP (unreducible). Apply Bleed 3 and Expose 3. *Unlock: Level 6*
+
+**Blood Link** — Tier 2 (2 AP) | Defense: Link to one ally within 10 feet — damage to them is split 50/50. Apply Guard 5 + IRON to that ally. Pay 6 HP. *Unlock: Level 7*
+
+**Blood Spike** — Tier 1 (1 AP) | Melee Attack: Deal 7 + IRON melee damage. Pay 4 HP. Apply Bleed 2 (or Bleed 3 if below half HP). *Unlock: Level 3*
+
+**Blood Weapon** — Tier 1 (1 AP) | Melee Attack: Deal 6 + IRON melee damage. Pay 4 HP. Apply Bleed 2. Deal +IRON bonus damage if below half HP. *Unlock: Level 1 (Starting Card)*
+
+**Bleeding Edge (card)** — Tier 3 (3 AP) | Melee Attack: Deal 26 + IRON melee damage. Pay 16 HP. Apply Bleed 6, Expose 6, Vulnerable 5. Pierce 6. +RESONANCE bonus damage and Stagger if target is already Bleeding. *Unlock: Level 19*
+
+**Combat Forge** — Tier 2 (2 AP) | Melee Attack: Deal 12 + IRON melee damage. Pay 6 HP. Apply Bleed 3. Echo if below half HP. *Unlock: Level 5*
+
+**Deliberate Bleed** — Tier 1 (1 AP) | Utility: Pay 6 HP (0 AP cost). Apply Guard 4 + IRON to yourself and gain Regen 2. *Unlock: Level 2*
+
+**Forge Aura Surge** — Tier 3 (3 AP) | Defense: Apply Guard 14 + IRON. Pay 14 HP. Enemies within 15 feet take 6 + RESONANCE resonant damage each turn until your next turn. Apply Regen 5. *Unlock: Level 18*
+
+**Forge Blade** — Tier 2 (2 AP) | Melee Attack: Deal 13 + IRON melee damage. Pay 7 HP. Apply Bleed 3. Pierce 4. *Unlock: Level 8*
+
+**Forge Mastery** — Tier 2 (2 AP) | Passive: First time each combat you would drop to 0 HP, drop to 1 HP instead. Apply Guard 5 + IRON immediately. *Unlock: Level 12*
+
+**Forge Shell** — Tier 1 (1 AP) | Defense: Apply Guard 5 + IRON. Pay 3 HP. Enemies hitting you with melee attacks take 3 resonant damage. *Unlock: Level 1 (Starting Card)*
+
+**Forge Spike** — Tier 2 (2 AP) | Melee Attack: Deal 15 + IRON melee damage. Pay 8 HP. Pierce 5. Apply Bleed 3 and Expose 3. *Unlock: Level 13*
+
+**Full Lattice** — Tier 3 (3 AP) | Signature: Pay 14 HP (0 AP cost). Until your next turn, all cards cost 0 AP. All melee attacks deal +IRON and +RESONANCE bonus damage and auto-apply Bleed 4 and Expose 4 to every target hit. *Unlock: Level 19*
+
+**Iron Aura** — Tier 2 (2 AP) | Defense: Apply Guard 8 + IRON. Pay 8 HP. Enemies within 10 feet take 3 + RESONANCE resonant damage per turn while Guard is active. *Unlock: Level 10*
+
+**Iron Body** — Tier 2 (2 AP) | Passive: Immune to Stagger. Restore 3 HP per turn if you paid HP last turn. Death Saves succeed on 7+. *Unlock: Level 14*
+
+**Iron Convergence** — Tier 3 (3 AP) | Signature: Deal 22 + IRON melee damage. Pay 12 HP. Apply Bleed 5, Expose 5, Vulnerable 4. Echo. Restore 10 HP to yourself. *Unlock: Level 18*
+
+**Iron Tolerance** — Tier 1 (1 AP) | Passive: While in hand, reduce all HP card costs by 2 (minimum 1). *Unlock: Level 2*
+
+**Lattice Pulse** — Tier 1 (1 AP) | Melee Attack: Deal 6 + RESONANCE resonant damage to one adjacent target with enhancements. Apply Overheat 1 and Expose 2. *Unlock: Level 4*
+
+**Lattice Read** — Tier 1 (1 AP) | Utility: Passive enhancement status awareness within 20 feet. Active: learn exact HP of one target within 20 feet and apply Expose 2. *Unlock: Level 1 (Starting Card)*
+
+**Lattice Rend** — Tier 3 (3 AP) | Melee Attack: Deal 19 + IRON melee damage to one target with enhancements. Pay 10 HP. Apply Bleed 4, Overheat 2, Expose 4. Target's enhancement card effects deal 2 less damage until end of their next turn. *Unlock: Level 12*
+
+**Lattice Storm** — Tier 3 (3 AP) | Melee Attack: Deal 18 + IRON melee damage to all enemies within 15 feet. Pay 12 HP. Apply Bleed 4 to each. Targets with enhancements also take Expose 3. *Unlock: Level 16*
+
+**Living Forge** — Tier 2 (2 AP) | Passive: All melee Attack cards gain Pierce 3. If you paid HP as a cost this turn, next melee Attack deals +IRON bonus damage. *Unlock: Level 10*
+
+**Metal Storm** — Tier 2 (2 AP) | Melee Attack: Deal 8 + IRON melee damage to all enemies within 15 feet (cone). Pay 8 HP. Apply Bleed 2 to each target struck. *Unlock: Level 7*
+
+**Pain Dividend** — Tier 1 (1 AP) | Utility: Pay 8 HP (0 AP cost). Restore 8 + RESONANCE HP at the start of your next turn. *Unlock: Level 5*
+
+**Pain is Data** — Tier 1 (1 AP) | Passive: First time each combat you drop below half HP, restore 6 HP immediately and apply Guard 4 + IRON. *Unlock: Level 8*
+
+**Resonant Burst** — Tier 3 (3 AP) | Melee Attack: Deal 18 + RESONANCE resonant damage to one adjacent target. Pay 10 HP. Apply Expose 4 and Bleed 3. Costs 0 AP (HP only) if below half HP. *Unlock: Level 9*
+
+**Resonant Edge** — Tier 2 (2 AP) | Melee Attack: Deal 10 + IRON melee damage. Pay 5 HP. Apply Bleed 2 and Expose 2. *Unlock: Level 3*
+
+**Resonant Flood** — Tier 3 (3 AP) | Melee Attack: Deal 20 + RESONANCE resonant damage to all enemies within 15 feet. Pay 12 HP. Apply Bleed 3 and Expose 3 to each. *Unlock: Level 14*
+
+**Scar Tissue** — Tier 1 (1 AP) | Passive: Restore 3 HP at start of each turn if you paid HP last turn. Resonant damage against you reduced by RESONANCE. *Unlock: Level 6*
+
+**Shared Pain** — Tier 2 (2 AP) | Melee Attack: Deal 12 + IRON melee damage. Pay 6 HP. You and target both take RESONANCE in resonant damage. Gain Guard 4 + RESONANCE immediately after. *Unlock: Level 11*
+
+**Sustained Liquefaction** — Tier 2 (2 AP) | Passive: Restore 4 HP at start of each turn. All HP costs on your cards reduced by 3 (minimum 1). *Unlock: Level 17*
+
+**The Bleeding Edge** — Tier 3 (3 AP) | Signature (Capstone): Pay 20 HP (0 AP cost). Deal 28 + IRON melee damage to one adjacent target and 14 + IRON to all enemies within 15 feet. Apply Bleed 6, Expose 6, Vulnerable 6 to primary; Bleed 3, Expose 3 to secondaries. Restore 16 HP to yourself. Pay 10 HP at start of your next turn. *Unlock: Level 20*
+
+**Total Bleed** — Tier 2 (2 AP) | Melee Attack: Deal 14 + IRON melee damage. Pay 8 HP. Apply Bleed 4 and Expose 3. +RESONANCE bonus damage if target is already Bleeding. *Unlock: Level 9*
+
+**Total Forge** — Tier 3 (3 AP) | Melee Attack: Deal 24 + IRON melee damage. Pay 14 HP. Apply Bleed 5 and Expose 5. Pierce 6. If below half HP, also apply Vulnerable 5. *Unlock: Level 17*
+
+**Total Liquefaction** — Tier 3 (3 AP) | Signature: Pay 12 HP (0 AP cost). Until your next turn, all melee Attack cards deal +RESONANCE damage and apply Bleed 3. Enhancement interfaces glow visibly. Enemies within 10 feet take 4 resonant damage at start of their next turn. *Unlock: Level 13*
 
 ---
 

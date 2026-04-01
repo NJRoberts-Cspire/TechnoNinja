@@ -47,50 +47,35 @@ The Drift is an ongoing source of character development. Your body changes. Some
 
 ---
 
-## D&D 5E Racial Traits
-
-**Ability Score Increase:** +2 Constitution, +1 Strength. The Stitched's assembled resilience and physical power are fundamental to their survival.
-
-**Age:** Varies enormously. Original biological components age; mechanical components do not. Stitched who have access to maintenance and occasional component replacement can persist far longer than would otherwise be expected, though the quality of that persistence degrades without careful management. Some Stitched have been assembling and reassembling themselves for over a century.
-
-**Alignment:** Stitched tend toward chaotic alignments — their history of having been put together from outside their own choice breeds a fundamental resistance to external control. Those who have found community and purpose sometimes find stability in neutral ground.
-
-**Size:** Medium, though component variation means Stitched range more widely in physical dimensions than most races (5 to 6.5 feet, occasionally larger if structural augmentation is incorporated).
-
-**Speed:** 30 feet. Some Stitched have unusual locomotion based on their specific assembly, but 30 feet is standard.
-
-**Languages:** Tesshari Common and Patchwork (a practical pidgin language used across the Ashlands and Stitched communities that incorporates technical jargon from multiple regional dialects and chassis-work traditions).
-
 ---
 
-### Traits
+## CARD SYSTEM: The Stitched
 
-**Assembled Frame**
-Your body has been constructed to survive conditions that would kill a normal person. When you are reduced to 0 hit points, you can choose to instead be reduced to 1 hit point. You are then stunned until the end of your next turn, as your body's emergency redundancies engage. Once you use this feature, you cannot use it again until you finish a long rest.
+**Stat Bonuses:** +1 FRAME, +1 to one stat of the player's choice (chosen at character creation, reflects the dominant nature of the Stitched's assembly)
+**Hand Size Modifier:** +0
 
-Additionally, you have resistance to the following damage types due to your mixed organic-mechanical construction: you choose two from the following list when you create your character — bludgeoning, slashing, piercing, fire, lightning (reflecting the specific nature of your assembly and its most reinforced components).
+### Passive Traits
 
-**Modular Resilience**
-When a specific body part or component would be destroyed or significantly impaired (a critical hit that targets a limb, a trap that damages a specific system, etc.), the DM may allow you to lose function of that component rather than suffering the full damage effect, at your choice. If you choose this option, you take half the damage but lose use of the affected component until it is repaired during a short rest (requiring tinker's tools) or regenerated naturally over 24 hours if organic. This represents your body's ability to compartmentalize damage rather than cascade it through the whole system.
+**Modular Construction.** Replacing or repairing the Stitched's enhancements costs half the standard time and resources. A repair that would take a full rest for another race takes a short rest for the Stitched. A modification that would require a chassis-wright's full session can be performed in a single scene. This reflects the Stitched's body being built for replacement rather than permanence.
 
-**The Drift**
-Your body evolves in unpredictable ways. At the end of each long rest, roll a d20. On a 17 or higher, a minor Drift adaptation has occurred. Roll on the Drift table below, or work with your DM to create a custom adaptation. Drift adaptations last until replaced by a new one (only one Drift adaptation can be active at a time).
+**Inconsistent Resonance Signature.** Abilities and effects that target a specific Echomind — tracking effects, identity-lock status, and abilities that require reading a target's personal resonance — have a 50% chance to misfire against the Stitched. When such an ability targets the Stitched, the GM rolls a die before applying its effect; on an odd result, the ability fails to lock on and is wasted. Standard damage and non-targeting effects are unaffected.
 
-*Sample Drift Table (d8):*
-1. **Hardened Seam:** A line of unusual dense tissue develops at an assembly seam. You gain +1 to AC until the next Drift roll.
-2. **Sensitive Junction:** A nerve cluster has developed unusual sensitivity. You have advantage on the next three Perception checks you make.
-3. **Reinforced Socket:** A joint connection strengthens unexpectedly. You cannot be knocked prone involuntarily until the next Drift roll.
-4. **Biological Bloom:** Small organic growths appear at a mechanical-organic interface. These are harmless but visually striking; you have disadvantage on Deception checks to appear inconspicuous, but advantage on Persuasion checks with creatures that find the Stitched's unique biology interesting.
-5. **Current Surge:** Electrical systems in your body experience a brief enhancement. Your unarmed strikes deal an additional 1d4 lightning damage until the next Drift roll.
-6. **Coolant Flush:** Your thermal regulation improves dramatically. You have resistance to fire damage until the next Drift roll.
-7. **Phantom Junction:** A component develops a ghost-sensitivity. You gain advantage on Insight checks as your body's expanded sensory range picks up physiological signals in others.
-8. **Component Silence:** Your mechanical components quiet to near-inaudibility. You have advantage on Dexterity (Stealth) checks until the next Drift roll.
+**Stagger Resistance.** The first source of Stagger per combat that would be applied to the Stitched is negated. Their distributed pain response and redundant systems absorb the first disruption before it can cascade. Subsequent Stagger from different sources in the same combat applies normally.
 
-**Disturbing Presence**
-Your assembled form affects people at a primal level before conscious thought engages. You have proficiency in the Intimidation skill. When you attempt to intimidate a creature that can see you clearly, if you succeed, the creature remains shaken (-1d4 to their next attack roll or saving throw) for 1 minute after the initial effect ends.
+### Race Cards
 
-**Emergency Redundancy**
-Your vital systems are distributed rather than concentrated. You have advantage on saving throws against effects that would instantly kill you (e.g., disintegrate, power word kill) or reduce you to 0 hit points in a single effect. Additionally, you stabilize automatically when you fail your first death saving throw — your body's redundant systems engage before you would otherwise die from blood loss or shutdown.
+#### Composite Response
+**Tier 2 (2 AP) | Power | Race Card**
+
+**Effect:** The Stitched calls on one of their two dominant components, defined at character creation. Choose which component is active when this card is played.
+
+Component A (player-defined at creation, example: Heavy Frame): Deal 6 + IRON damage to one target in melee range and apply Root for 1 turn. The Stitched gains Guard (4 + FRAME) until the start of their next turn.
+
+Component B (player-defined at creation, example: Precision Assembly): Deal 4 + EDGE damage to one target within 20 feet and apply Expose 2. The Stitched may immediately reposition up to 10 feet without spending movement.
+
+Both options are always available. The player records their two component definitions at character creation with their GM and they do not change.
+**Keywords:** varies by component (see above)
+**Always Available:** Yes
 
 ---
 

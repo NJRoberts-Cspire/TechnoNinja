@@ -21,152 +21,482 @@ In the lower castes, Pulse Callers occupy a position of specific prestige: they 
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM: Pulse Caller
 
-**Hit Die:** d8
-**Primary Ability:** Dexterity, Wisdom
-**Saving Throw Proficiencies:** Dexterity, Wisdom
-**Armor Proficiencies:** Wire-mesh armor, Enhancement skins, Light layered plate
-**Weapon Proficiencies:** All pulse arms (basic and advanced), resonant launchers, charged-coil projectors, voidsteel tanto (sidearm), needle lance
-**Tool Proficiencies:** Discharge calibration kit, Wire Craft interface kit (basic)
-**Skills:** Choose 3 from Acrobatics, Athletics, Insight, Investigation, Perception, Stealth, Survival, Technology (discharge systems)
+**HP Tier:** Technical
+**Hand Size:** 7
+**Primary Stats:** SIGNAL + RESONANCE
+**HP Formula:** (FRAME × 8) + 6
 
-**Starting Equipment:**
-- A pulse arm (integrated; your primary weapon — built into your enhancement system, cannot be disarmed)
-- Wire-mesh armor
-- A voidsteel tanto (sidearm)
-- A discharge calibration kit
-- Extra resonant charge cells (20 uses before requiring a short rest to replenish)
-- 10 weight in trade-metal
+### Starting Hand
+- Pulse Shot
+- Precision Lock
+- Suppression Line
 
 ---
 
-### Pulse System Notes:
-The Pulse Caller's integrated weapons use **Resonant Charge Cells** instead of conventional ammunition. A Pulse Caller has a pool of Charge Cells equal to 20 + their Constitution modifier. They recover all cells on a long rest and half on a short rest. Most Pulse abilities cost cells, representing the draw on the body's resonant energy stores.
+### Level Unlock List
 
-Standard integrated pulse arm: Range 80/320, deals 1d10 radiant-adjacent resonant damage + Dexterity modifier, counts as magical for overcoming resistance.
+#### Level 1
+- Thermal Read
+- Snapshot
+
+#### Level 2
+- Disruption Round
+- Double Tap
+
+#### Level 3
+- Armor Pierce
+- Ricochet Shot
+
+#### Level 4
+- Overcharge
+- Area Pulse
+
+#### Level 5
+- Burst Protocol
+- Dead Eye
+
+#### Level 6
+- Resonant Round
+- Kill Zone
+
+#### Level 7
+- System Feedback
+- Focused Discharge
+
+#### Level 8
+- Pre-Conscious Strike
+- Pulse Volley
+
+#### Level 9
+- Full Suppression
+- Resonant Cascade
+
+#### Level 10
+- Soul Shot
+- Field Denial
+
+#### Level 11
+- Fluid Engagement
+- Overwatch Field
+
+#### Level 12
+- Resonant Charge
+- Between the Shots
+
+#### Level 13
+- Discharge Mastery
+- Apex Lock
+
+#### Level 14
+- Convergence Line
+- System Synchrony
+
+#### Level 15
+- Resonant Barrage
+- Living Weapon Protocol
+
+#### Level 16
+- Signal Flood
+- Pulse Dominance
+
+#### Level 17
+- Apex Precision
+- Resonant Purge
+
+#### Level 18
+- Total Discharge
+- Dead Zone
+
+#### Level 19
+- Intention Made Real
+- Convergence Field
+
+#### Level 20
+- The Living Weapon (Capstone)
 
 ---
 
-**Level 1: Nervous System Integration**
-Your discharge system is wired into your nervous system at the pre-conscious level. You gain:
-- Your integrated pulse arm cannot be disarmed, suppressed, or removed without extended modification surgery (which you would never willingly submit to).
-- You can draw or stow your integrated weapon with no action cost — it is simply active or inactive.
-- You cannot be disarmed of your primary weapon by any in-combat effect.
-- You add your Wisdom modifier to damage rolls with your integrated weapon (in addition to your Dexterity modifier), representing the intuitive depth of your firing process.
+### Full Card Reference
 
-**Level 1: Precision Protocol**
-Your firing system has been calibrated for targeting accuracy beyond standard pulse arm specifications. You gain:
-- Your ranged attack rolls do not have disadvantage for long range (you fire at the same effectiveness at 320 feet as at 80 feet).
-- When you make a ranged attack against a creature that has not yet taken an action this combat (including surprise rounds), you deal an additional 2d6 precision damage.
-- You can make ranged attacks while prone without disadvantage.
+---
 
-**Level 2: Discharge Techniques**
-You have developed specialized firing modes. Choose two Discharge Techniques at level 2, and gain additional techniques at levels 5, 9, and 13.
+### Apex Lock
+*Tier 2 (2 AP) | Control*
 
-- **Armor Pierce:** Your shots treat the target's AC as 3 lower (minimum AC 10). This represents finding the gap in enhancement-assisted armor. Cost: 1 Charge Cell.
-- **Double Tap:** As a bonus action after you hit with a ranged attack, you can make a second ranged attack against the same target. Cost: 1 Charge Cell.
-- **Suppression Fire:** As an action, lay suppressive fire on a 15-foot-wide line extending 60 feet from you. Any creature moving through this line on their turn must make a Dexterity save (DC = 8 + proficiency + Dexterity modifier) or take 2d8 damage and have their movement reduced by 20 feet until the start of their next turn. Lasts until the start of your next turn. Cost: 2 Charge Cells.
-- **Thermal Reading:** Before making an attack, scan your target's enhancement systems. You know their current hit points (approximate) and one damage type they are vulnerable or resistant to. No cost. Once per turn.
-- **Ricochet Shot:** Your shot bounces from the primary target to one secondary target within 15 feet of the primary. Make a second attack roll against the secondary target at -2. Cost: 1 Charge Cell.
-- **Disruption Round:** This shot targets enhancement systems rather than the body. On a hit, the target makes an Intelligence save (DC = 8 + proficiency + Wisdom modifier) or one class feature of your choice goes offline for 1 minute. Cost: 2 Charge Cells.
-- **Overcharge:** Your next shot uses a higher energy output. It deals 3d10 additional damage, but you cannot fire again until the start of your next turn (the system is cooling). Cost: 3 Charge Cells.
-- **Snapshot:** You can make a ranged attack as a reaction when a creature enters your line of sight within normal range. Cost: 1 Charge Cell.
+**Effect:** Target one creature within 120 feet. Apply Expose 3. Their next defensive card costs +1 AP. If they are already Exposed, deal 12 + SIGNAL damage in addition.
+**Keywords:** Expose 3
+**Unlock:** Level 13
 
-**Level 2: Tactical Positioning**
-Your effectiveness depends on positioning. You have internalized this:
-- When you have not moved this turn, you have advantage on your next ranged attack.
-- When you are on higher ground than your target (at least 10 feet elevation difference), your attacks deal an additional 1d6 damage.
-- When you are behind cover (at least half cover), you have advantage on Dexterity saving throws.
+---
 
-**Level 3: Pulse Caller Path**
-You choose your Pulse Caller Path subclass. See Subclasses below.
+### Apex Precision
+*Tier 3 (3 AP) | Attack | Signature*
 
-**Level 4: Ability Score Improvement**
-Increase one ability score by 2, or two ability scores by 1 each.
+**Effect:** Fire a precision shot at one target within 120 feet. Deal 20 + SIGNAL damage. Apply Stagger. If the target is below half HP, they also gain Root — their next Mobility card is suppressed.
+**Keywords:** Stagger, Root
+**Unlock:** Level 17
 
-**Level 5: Burst Protocol**
-When you take the Attack action, you can attack twice. Additionally, when you take the Extra Attack action, you can choose to instead make one Burst attack: a high-capacity discharge that deals 3d10 + Dexterity modifier + Wisdom modifier damage to one target (no additional attacks). The burst attack costs 3 Charge Cells.
+---
 
-**Level 5: Dead Eye**
-Your targeting has reached a level of precision that most combat instructors consider conceptually impossible. Your critical hit range extends to 19-20 with integrated weapons. Additionally, when you roll a critical hit, you can choose to deal the critical hit on either the standard double-damage format or as a precision effect (DM determines: a head shot that stuns, a joint shot that reduces movement, a system hit that disables a specific enhancement feature).
+### Area Pulse
+*Tier 2 (2 AP) | Attack*
 
-**Level 6: Pulse Caller Path Feature**
-Your subclass grants an additional feature at this level.
+**Effect:** Discharge a wide area pulse. All enemies within a 20-foot radius of a point within 60 feet take 10 + SIGNAL damage. Apply Stagger to each target hit.
+**Keywords:** Stagger
+**Unlock:** Level 4
 
-**Level 7: System Feedback**
-Your nervous system integration has created feedback loops that protect you. You gain:
-- When a creature within your weapon's normal range attacks you, you can make an opportunity attack against them with your integrated weapon as a reaction (ranged opportunity attack). Cost: 1 Charge Cell.
-- When you are hit by a ranged attack, you can halve the damage as a reaction. Cost: 2 Charge Cells.
+---
 
-**Level 8: Ability Score Improvement**
-As level 4.
+### Armor Pierce
+*Tier 1 (1 AP) | Attack*
 
-**Level 8: Pre-Conscious Targeting**
-Your firing system operates below the threshold of deliberate choice. You gain:
-- You cannot be surprised while conscious.
-- When you roll for initiative, you can add your Wisdom modifier to the roll (in addition to Dexterity).
-- In the first round of combat, your attacks have advantage.
+**Effect:** Fire a shot that cuts through enhancement-assisted armor. Deal 7 + SIGNAL damage. Pierce 6 — ignore 6 points of Guard or Shield on this shot.
+**Keywords:** Pierce 6
+**Unlock:** Level 3
 
-**Level 9: Charged System**
-Your resonant energy management has improved. Your Charge Cell pool increases to 30 + your Constitution modifier. Additionally, you can spend 1 minute (short rest) to generate 5 Charge Cells from your body's resonant energy field rather than waiting for a full short rest.
+---
 
-**Level 10: Pulse Caller Path Feature**
-Your subclass grants an additional feature at this level.
+### Between the Shots
+*Tier 3 (3 AP) | Attack*
 
-**Level 11: Fluid Engagement**
-Your combat movement and firing have merged into a single integrated system. You can now:
-- Move your full movement speed without it affecting your firing accuracy (previously you lost the stationary bonus when you moved; now the bonus applies after any amount of movement if you end your turn still).
-- Make one ranged attack as a bonus action when you Dash.
-- Ignore cover bonuses to AC when calculating your attack rolls (your targeting system compensates for the cover geometry).
+**Effect:** Fire a shot that crosses the resonant layer, hitting both physical and spiritual targets in a 5-foot-wide, 120-foot line. All creatures (physical and incorporeal) in the line take 18 + RESONANCE damage.
+**Keywords:** Pierce 4
+**Unlock:** Level 12
 
-**Level 12: Ability Score Improvement**
-As level 4.
+---
 
-**Level 12: Resonant Charge**
-Your shots carry increasing resonant energy as the firing sequence builds. Each consecutive hit on the same target within a single combat session deals 1d8 additional resonant damage (cumulative: 1st hit normal, 2nd hit +1d8, 3rd hit +2d8, etc.). This stacks up to a maximum bonus of +5d8 (6 consecutive hits). The stack resets if you miss, attack a different target, or the combat ends.
+### Burst Protocol
+*Tier 2 (2 AP) | Attack*
 
-**Level 13: Discharge Mastery**
-Your Discharge Techniques have been fully developed. All Discharge Techniques cost 1 fewer Charge Cell than listed (minimum 0). Additionally, you can use two different Discharge Techniques on the same attack (the costs apply separately).
+**Effect:** Fire a high-capacity burst discharge at one target within 80 feet. Deal 16 + SIGNAL damage. If you have not moved this turn, deal +4 additional damage.
+**Keywords:** —
+**Unlock:** Level 5
 
-**Level 14: Pulse Caller Path Feature**
-Your subclass grants an additional feature at this level.
+---
 
-**Level 15: System Synchrony**
-Your nervous system and enhancement have achieved a degree of integration that goes beyond calibration — they have become genuinely continuous. You gain:
-- Your integrated weapon cannot be disrupted by any enhancement-disruption effect (Wire crashes, system overloads, counter-weave attacks). It functions regardless.
-- You have resistance to lightning-analog and resonant damage (your systems are hardened by the constant energy flow).
-- When you make a death saving throw, you can add your Wisdom modifier to the result.
+### Convergence Field
+*Tier 3 (3 AP) | Control | Attack*
 
-**Level 16: Ability Score Improvement**
-As level 4.
+**Effect:** Declare a 30-foot radius convergence zone within 120 feet. All enemies within take 18 + RESONANCE damage. All Signal and Resonance cards used within the zone by enemies this round deal 0 base damage (their stat modifier still applies). Lasts 1 round.
+**Keywords:** Silence
+**Unlock:** Level 19
 
-**Level 16: Overwatch Field**
-Your awareness of the firing space has extended to a degree that makes all movement within it feel supervised. As a bonus action (once per short rest), you can activate an Overwatch Field for 1 minute. During the Overwatch Field:
-- Any creature that moves within your weapon's normal range is subject to an opportunity attack from you (not just creatures that leave your melee range).
-- You can make up to 3 opportunity attacks per round (instead of the normal 1).
-- Creatures within your normal range that take the Dodge action still provide you a target — Dodge removes the disadvantage-on-their-rolls benefit against you.
+---
 
-**Level 17: Apex Precision**
-Your critical hit range with integrated weapons extends to 18-20. When you critically hit:
-- The target is stunned until the start of your next turn (no save — your shot hit something that cannot simply be resisted).
-- You recover 3 Charge Cells.
-- If the target is under 25% hit points, the critical hit reduces them to 0 hit points (a kill shot that the precision system identifies and executes when the window opens).
+### Convergence Line
+*Tier 3 (3 AP) | Attack*
 
-**Level 18: Pulse Caller Path Feature**
-Your subclass grants an additional feature at this level.
+**Effect:** Fire a charged shot that builds resonant energy along a 5-foot-wide, 80-foot line. All enemies in the line take 22 + SIGNAL damage. The line becomes a kill corridor until the start of your next turn — any enemy who enters it takes 8 damage immediately.
+**Keywords:** Pierce 5
+**Unlock:** Level 14
 
-**Level 19: Ability Score Improvement**
-As level 4.
+---
 
-**Level 20: The Living Weapon**
-At the highest expression of the Pulse Caller's development is this: the distinction between the weapon and the person has fully dissolved. You are not a person who has a weapon. You are the expression of intention through energy. The weapon does not fire. You fire. The difference is everything and it is nothing.
+### Dead Eye
+*Tier 2 (2 AP) | Attack*
 
-Mechanically:
-- Your integrated weapon's base damage increases to 2d10 + Dexterity modifier + Wisdom modifier.
-- Your Charge Cell pool becomes unlimited — you generate Charge Cells as fast as you expend them during combat (no cell cost for any Discharge Technique).
-- Once per long rest, as an action, you can declare a Convergence Shot. Your next attack, whenever you choose to make it (within 1 hour), hits automatically and deals maximum damage, treated as a critical hit, and bypasses all damage resistance and immunity. The target also makes a DC 20 Constitution save or is incapacitated for 1 minute. This shot represents the full integration of your intention, your enhancement, and the resonant energy you carry — a single moment of perfect expression.
-- You have advantage on all Wisdom saving throws.
+**Effect:** Take a moment to lock targeting and fire. Deal 14 + SIGNAL damage to one target within 120 feet. Apply Expose 2. If you have not moved this turn, apply Pierce 4 in addition.
+**Keywords:** Expose 2, Pierce 4
+**Unlock:** Level 5
+
+---
+
+### Dead Zone
+*Tier 3 (3 AP) | Control*
+
+**Effect:** Declare a 60-foot radius Dead Zone centered on a point within 120 feet. For 2 rounds: enemies within the zone take 10 + SIGNAL damage when they first enter it and cannot use Mobility cards. You move freely through the zone without restriction.
+**Keywords:** Root
+**Unlock:** Level 18
+
+---
+
+### Discharge Mastery
+*Tier 2 (2 AP) | Utility | Passive*
+
+**Effect:** Your discharge system has reached full calibration. All your Tier 1 Attack cards deal +4 damage. You may play two different Attack cards in a single turn as if they cost 1 fewer AP each (minimum 0, once per turn total reduction).
+**Keywords:** —
+**Unlock:** Level 13
+
+---
+
+### Disruption Round
+*Tier 2 (2 AP) | Control*
+
+**Effect:** Fire a shot targeting enhancement systems rather than the body. Deal 8 + SIGNAL damage. Apply Stagger and Silence for 1 round. The target cannot play Signal or Resonance cards on their next turn.
+**Keywords:** Stagger, Silence
+**Unlock:** Level 2
+
+---
+
+### Double Tap
+*Tier 1 (1 AP) | Attack*
+
+**Effect:** Fire two rapid shots at the same target within 80 feet. First shot deals 5 + SIGNAL damage. Second shot deals 5 + SIGNAL damage. Each shot is resolved separately — Guard and Shield apply to each individually.
+**Keywords:** —
+**Unlock:** Level 2
+
+---
+
+### Field Denial
+*Tier 3 (3 AP) | Control*
+
+**Effect:** Lock down a 60-foot radius area within 120 feet for 2 rounds. Any enemy entering the area from outside takes 14 + SIGNAL damage. Enemies within the area cannot use Mobility cards. You designate the area when you play this card.
+**Keywords:** Root
+**Unlock:** Level 10
+
+---
+
+### Fluid Engagement
+*Tier 2 (2 AP) | Mobility | Utility*
+
+**Effect:** Move up to 30 feet without triggering reactions. After moving, immediately play one Tier 1 Attack card from your hand at 0 AP cost as part of this card's resolution.
+**Keywords:** —
+**Unlock:** Level 11
+
+---
+
+### Focused Discharge
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** A deliberate, fully-aimed shot at one target within 120 feet. Deal 14 + SIGNAL damage. Apply Expose 2. If the target has Expose already active, deal +6 additional damage.
+**Keywords:** Expose 2
+**Unlock:** Level 7
+
+---
+
+### Full Suppression
+*Tier 3 (3 AP) | Control | Attack*
+
+**Effect:** Execute a comprehensive suppression discharge in a 60-foot radius within 80 feet. All enemies in the area take 12 + SIGNAL damage. Apply Root to each. They cannot use Mobility cards or take reactions until the start of their next turn.
+**Keywords:** Root
+**Unlock:** Level 9
+
+---
+
+### Intention Made Real
+*Tier 3 (3 AP) | Attack | Signature*
+
+**Effect:** Channel your pre-conscious targeting into a single perfect shot. Deal 24 + SIGNAL damage to one target within 120 feet. This card cannot be negated by Veil, Mirror Protocol, or redirect effects — the shot was already in flight before it was decided. Apply Stagger and Expose 3.
+**Keywords:** Stagger, Expose 3, Pierce 6
+**Unlock:** Level 19
+
+---
+
+### Kill Zone
+*Tier 2 (2 AP) | Control*
+
+**Effect:** Establish a Kill Zone in a 30-foot radius within 80 feet. For 2 rounds, any enemy who moves more than 15 feet within the zone takes 8 + SIGNAL damage. Enemies who end their turn in the zone gain Expose 1.
+**Keywords:** Expose 1
+**Unlock:** Level 6
+
+---
+
+### Living Weapon Protocol
+*Tier 3 (3 AP) | Utility | Passive*
+
+**Effect:** Your integration has reached full synthesis. For the rest of the scene, all your Attack cards deal +RESONANCE bonus damage (add your RESONANCE to every Attack card's damage in addition to SIGNAL). Your Basic Attack deals +8 damage. Once per scene.
+**Keywords:** —
+**Unlock:** Level 15
+
+---
+
+### Overcharge
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Charge your discharge system to maximum and release. Deal 16 + SIGNAL damage to one target within 80 feet. Your system requires a cooldown — you cannot play another Attack card until the start of your next turn.
+**Keywords:** Pierce 4
+**Unlock:** Level 4
+
+---
+
+### Overwatch Field
+*Tier 2 (2 AP) | Control | Utility*
+
+**Effect:** Activate a targeting field covering all enemies within 80 feet. For 1 round, any enemy that moves triggers a free Basic Attack from you (max 3 per round). Enemies cannot benefit from cover bonuses against your attacks while the field is active.
+**Keywords:** —
+**Unlock:** Level 11
+
+---
+
+### Pre-Conscious Strike
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Your firing system acts before deliberate decision. Deal 12 + SIGNAL damage to one target within 80 feet. This card may be played as a Reaction when an enemy declares an attack or card against you, resolving before their action.
+**Keywords:** —
+**Unlock:** Level 8
+
+---
+
+### Precision Lock
+*Tier 1 (1 AP) | Control | Utility*
+
+**Effect:** Lock your targeting system onto one enemy within 120 feet. Apply Mark. Your next Attack card against this target deals +6 damage. Mark is consumed when the bonus triggers.
+**Keywords:** Mark
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Pulse Dominance
+*Tier 3 (3 AP) | Attack | Signature*
+
+**Effect:** Release a full-power resonant discharge. All enemies within 40 feet of a point you can see within 120 feet take 20 + SIGNAL damage. Apply Expose 2 and Stagger to each. Automated Signal systems in the area crash for 1 round.
+**Keywords:** Expose 2, Stagger
+**Unlock:** Level 16
+
+---
+
+### Pulse Shot
+*Tier 1 (1 AP) | Attack*
+
+**Effect:** Fire a standard integrated pulse at one target within 80 feet. Deal 6 + SIGNAL damage.
+**Keywords:** —
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Pulse Volley
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Fire a volley of pulses at up to three targets within 60 feet. Each takes 8 + SIGNAL damage. Targets share no damage — each is hit individually.
+**Keywords:** —
+**Unlock:** Level 8
+
+---
+
+### Resonant Barrage
+*Tier 3 (3 AP) | Attack*
+
+**Effect:** Unleash a sustained resonant barrage at one target within 120 feet. Deal 22 + RESONANCE damage. Apply Expose 3. If the target is a Signal-class enemy, they also gain Silence for 1 round.
+**Keywords:** Expose 3, Silence
+**Unlock:** Level 15
+
+---
+
+### Resonant Cascade
+*Tier 3 (3 AP) | Attack*
+
+**Effect:** Build resonant charge through the firing sequence. Deal 10 + SIGNAL damage. Each consecutive time you hit the same target this scene, this card deals +4 additional cumulative damage (maximum +20 after 5 hits).
+**Keywords:** —
+**Unlock:** Level 9
+
+---
+
+### Resonant Charge
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Channel resonant energy into your next shot. Deal 12 + RESONANCE damage to one target within 100 feet. Apply Expose 2. If the target has already been hit by a Resonant card this scene, deal +6 additional damage.
+**Keywords:** Expose 2
+**Unlock:** Level 12
+
+---
+
+### Resonant Purge
+*Tier 3 (3 AP) | Control | Attack*
+
+**Effect:** Fire a spiritually-calibrated discharge in a 30-foot radius within 80 feet. All creatures take 16 + RESONANCE damage. All Iron Afterlife presences in the area are expelled. All enhancement-disruption effects (Silence, Stagger, Overheat) on allies in the area are Cleansed.
+**Keywords:** Cleanse
+**Unlock:** Level 17
+
+---
+
+### Resonant Round
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Fire a spiritually-tuned shot at one target within 80 feet. Deal 10 + RESONANCE damage. If the target is an incorporeal or Iron Afterlife entity, this shot deals full damage regardless of any damage reduction or immunity.
+**Keywords:** Pierce 8 (vs. incorporeal targets)
+**Unlock:** Level 6
+
+---
+
+### Ricochet Shot
+*Tier 1 (1 AP) | Attack*
+
+**Effect:** Fire a shot that bounces from the primary target to one secondary target within 20 feet. Primary target takes 6 + SIGNAL damage. Secondary target takes 6 + SIGNAL damage. Resolve each hit separately.
+**Keywords:** —
+**Unlock:** Level 3
+
+---
+
+### Signal Flood
+*Tier 3 (3 AP) | Control | Attack*
+
+**Effect:** Flood a 40-foot radius within 100 feet with resonant signal discharge. All enemies take 14 + SIGNAL damage. Apply Overheat 2 to each target. Wire-connected enemies also gain Stagger.
+**Keywords:** Overheat 2, Stagger
+**Unlock:** Level 16
+
+---
+
+### Snapshot
+*Tier 1 (1 AP) | Attack | Reaction*
+
+**Effect:** Triggered when an enemy enters your line of sight within 80 feet or declares movement. Fire immediately before their action resolves. Deal 5 + SIGNAL damage. Apply Expose 1.
+**Keywords:** Expose 1
+**Unlock:** Level 1
+
+---
+
+### Soul Shot
+*Tier 3 (3 AP) | Attack | Signature*
+
+**Effect:** Fire a shot tuned to the resonant layer, bypassing physical defenses. Deal 20 + RESONANCE damage to one target within 100 feet. This card ignores Guard, Shield, and Fortify. Apply Silence for 1 round. If the target is an Iron Afterlife entity, they are expelled from the physical world immediately.
+**Keywords:** Pierce 10, Silence
+**Unlock:** Level 10
+
+---
+
+### Suppression Line
+*Tier 1 (1 AP) | Control*
+
+**Effect:** Lay suppressive fire along a 15-foot-wide line extending 60 feet from you. Any enemy crossing the line this round takes 5 + SIGNAL damage and gains Root until the start of their next turn.
+**Keywords:** Root
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### System Feedback
+*Tier 2 (2 AP) | Defense | Reaction*
+
+**Effect:** Triggered when you are hit by a ranged or Signal attack. Your nervous system feedback loop absorbs the hit. Gain Guard 8 against that attack. Immediately fire a Pulse Shot at the attacker at 0 AP cost.
+**Keywords:** Guard 8
+**Unlock:** Level 7
+
+---
+
+### System Synchrony
+*Tier 2 (2 AP) | Utility | Passive*
+
+**Effect:** Your weapon integration becomes hardened against disruption. Your integrated discharge cannot be Silenced, Staggered, or suppressed by any card this scene. Your Pulse Shot Basic Attack deals +4 damage for the rest of the scene. Once per scene.
+**Keywords:** —
+**Unlock:** Level 14
+
+---
+
+### The Living Weapon
+*Tier 3 (3 AP) | Signature | Capstone*
+
+**Effect:** You are the weapon. Declare a Convergence Shot. Choose any target you can perceive within 120 feet. Deal 26 + SIGNAL damage. This card cannot be redirected, mirrored, or negated. Apply Stagger, Expose 3, and Silence simultaneously. After firing, your Basic Attack deals +RESONANCE damage for the rest of the scene.
+**Keywords:** Stagger, Expose 3, Silence, Pierce 6
+**Unlock:** Level 20
+
+---
+
+### Thermal Read
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Scan one target within 80 feet before your next attack. Learn their current HP bracket (high/mid/low), one keyword active on an unplayed card, and one stat value of your choice. Your next Attack card against this target deals +4 damage.
+**Keywords:** —
+**Unlock:** Level 1
+
+---
+
+### Total Discharge
+*Tier 3 (3 AP) | Attack | Signature*
+
+**Effect:** Release your full resonant energy store in a single discharge at one target within 120 feet. Deal 24 + SIGNAL damage. Pierce 8. Apply Expose 3, Stagger, and Overheat 2 to the target. Your discharge system requires a full reset — you cannot play Attack cards until the start of your next turn.
+**Keywords:** Expose 3, Stagger, Overheat 2, Pierce 8
+**Unlock:** Level 18
 
 ---
 

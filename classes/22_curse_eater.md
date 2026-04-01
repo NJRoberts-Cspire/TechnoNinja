@@ -23,103 +23,335 @@ The Sutensai recognizes Curse Eater practice officially but struggles to fit it 
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM
 
-**Hit Die:** d10
-**Primary Ability:** Constitution (absorption endurance), Wisdom (contamination perception)
-**Saving Throw Proficiencies:** Constitution, Wisdom
-**Armor Proficiencies:** Wire-mesh armor, salvage plating (any weight — they tend to accumulate mass)
-**Weapon Proficiencies:** Resonant blades (standard and short), circuit lances, unarmed strikes (contamination-charged)
-**Tool Proficiencies:** Purification tools, healing tools, contamination assessment instruments
-**Skills:** Choose 3 from: Athletics, Medicine, Insight, Perception, Survival, Investigation, Nature
-**Starting Equipment:** Salvage plating (medium), resonant blade (standard), purification tools, contamination assessment instruments, medical notes (partially incoherent — written at different times, in different states), personal corruption log, 10 gp equivalent
+**Primary Stats:** FRAME + RESONANCE
+**HP:** (FRAME × 8) + 10
+**Hand Size:** 7
+**AP:** 3 per turn. Basic Attack free (0 AP), once per turn.
+
+### Class Identity
+The Curse Eater absorbs, transforms, and weaponizes negative status effects. They want to be debuffed. Their signature mechanic — **Loaded** — tracks how many debuffs the Curse Eater currently carries. Many cards scale with Loaded count or require a minimum Loaded value to unlock their full effect. When an enemy applies a status effect to the Curse Eater, specific cards in their hand become enhanced. The Curse Eater approaches combat as a conversion engine: suffering goes in, destruction comes out.
+
+**Loaded (mechanic):** The Curse Eater's Loaded count equals the number of active debuff stacks currently on them (count each stack of Bleed, Burn, Expose, Vulnerable, Stagger, Root, Silence, Overheat, etc. as 1 Loaded each). Loaded is not a status applied by enemies — it is calculated from whatever is on them. Track it each turn. Cards reference Loaded as a threshold ("if Loaded 3+") or a scale ("deal +2 per Loaded").
+
+**Corruption Pulse (mechanic):** Several cards trigger a Corruption Pulse — a burst of absorbed energy. Corruption Pulse deals RESONANCE damage to all enemies within 10 meters and removes 1 debuff stack from the Curse Eater (they process what they release).
 
 ---
 
-### Class Features by Level
+### Starting Hand (Level 1)
 
-**Level 1: Absorb**
-As an action, you can absorb a resonant contamination, spiritual corruption, or curse from a willing or unconscious creature within 5 feet. The creature is freed from the contamination/curse immediately. You take it into yourself. Mechanically, you gain 1 Corruption Point. You also gain temporary hit points equal to your Constitution modifier + your Curse Eater level from the process — the absorbed energy is uncomfortable, but it is energy.
+Choose 2 of the following 3 cards to begin with. You gain the third at Level 2.
 
-**Level 1: Corruption Points and Corruption Track**
-You track Corruption Points separately from other resources. Your maximum Corruption Points equals your Constitution modifier × 4 + your level. While you have Corruption Points, certain abilities are available to you. If you ever reach your maximum, make a DC 15 Constitution saving throw or gain one level of exhaustion and one Corruption Feature (see below). You reduce Corruption Points by 1 per long rest automatically (your body processes what it can), or faster using specific features.
+---
 
-**Level 1: Corruption Sense**
-You can feel resonant contamination and curses within 30 feet as a passive sense. You know when a creature near you is affected by enhancement corruption, spiritual contamination, or Drift. As an action, you can identify the specific nature and severity of corruption in a creature you touch.
+### Card Reference
 
-**Level 1: Corruption Features**
-As your Corruption Points accumulate, your body changes. At 25%, 50%, 75%, and 100% of your maximum Corruption Points, gain one of the following (discuss with DM what makes narrative sense; each represents something the absorbed corruption has altered in you):
-- Enhancement Interface Alteration: One of your enhancement interfaces has changed appearance and function. Choose one: your eyes glow with the color of absorbed corruption, your voice carries a harmonic resonance audible as wrong, or one of your limbs has texture changes that are visible through clothing.
-- Corruption Resistance: You gain resistance to one damage type associated with what you've absorbed.
-- Absorption Sensitivity: Your Corruption Sense extends to 60 feet.
-- Transformed Strength: One ability score of your choice increases by 1 (maximum 22).
+#### Absorb
+*Tier 1 (1 AP) | Resonant Attack | Utility*
 
-**Level 2: Purification Touch**
-As an action, spend 1 minute in physical contact with a creature to remove one disease, one curse, or one spiritual contamination of moderate severity. This costs you 2 Corruption Points. You can cleanse more severe contaminations with longer contact time (5 minutes for severe, 10 minutes for critical).
+**Effect:** Deal 4 + RESONANCE damage to one target within 10 meters. Remove one debuff currently on yourself and apply it to the target instead. If this transfer raises your Loaded count to 0, gain Shield equal to your FRAME.
+**Keywords:** Debuff-transfer, Shield (conditional)
+**Unlock:** Level 1 (Starting Hand)
 
-**Level 3: Curse Eater Subclass**
-You choose your path: The Purifier, The Conduit, or The Consumed. Your subclass grants features at levels 3, 6, 10, and 14.
+---
 
-**Level 3: Partial Discharge**
-As a bonus action, spend 2 Corruption Points to release a small pulse of absorbed corruption: one creature within 15 feet that you can see takes 2d8 necrotic damage (Constitution saving throw, DC = 8 + proficiency bonus + Constitution modifier, for half). The damage type reflects what you have absorbed — describe it to the DM and flavor accordingly.
+#### Corruption Sense
+*Tier 1 (1 AP) | Utility | Passive*
 
-**Level 4: Ability Score Improvement**
+**Effect:** Passive. This card counts toward hand size and is never "played." While this card is in your hand: you automatically detect all status effects on every combatant at the start of each round (no action required). Additionally, at the start of your turn, if your Loaded count is 3+, gain Regen 2 for that turn — your body is processing, and processing generates heat.
+**Keywords:** Passive, Detection, Regen 2 (conditional)
+**Unlock:** Level 1 (Starting Hand)
 
-**Level 5: Mass Absorption**
-You can now absorb from multiple creatures at once. As an action, spend 3 Corruption Points to absorb contamination from up to Constitution modifier creatures within 15 feet of you simultaneously. Each creature is freed from one contamination/curse. You gain 1 Corruption Point per creature (after the cost is paid, net gain = number of creatures affected minus 2).
+---
 
-**Level 5: Corruption Channeled**
-Your absorbed corruption enhances your physical strikes. While you have 5 or more Corruption Points, your unarmed strikes and resonant blade attacks deal an extra 1d6 necrotic damage. This damage represents absorbed contamination discharging on contact.
+#### Partial Discharge
+*Tier 1 (1 AP) | Resonant Attack*
 
-**Level 6: Subclass Feature**
+**Effect:** Deal 5 + RESONANCE damage to one target within 15 meters. Trigger a Corruption Pulse (RESONANCE damage to all enemies within 10 meters; remove 1 debuff from yourself).
+**Keywords:** Corruption Pulse
+**Unlock:** Level 1 (Starting Hand)
 
-**Level 6: Iron Gut**
-Your body has adapted to containing what would kill others. You have advantage on Constitution saving throws against poison, disease, and necrotic damage effects. Additionally, you can absorb environmental contamination — if you spend 1 hour in a corrupted area (a fracture zone, a Drift-affected location, a site of sustained Hollow Author activity), you reduce the area's contamination severity by one tier and gain 2 Corruption Points.
+---
 
-**Level 7: Absorption Efficiency**
-You can now use Absorb as a bonus action (instead of a full action). Additionally, when you absorb, you gain temporary hit points equal to your Constitution modifier × 2 (instead of just your modifier).
+#### Loaded Strike
+*Tier 1 (1 AP) | Melee Attack*
 
-**Level 8: Ability Score Improvement**
+**Effect:** Deal 4 + FRAME damage. Deal +2 additional damage per Loaded stack currently on you (no maximum).
+**Keywords:** Loaded-scaling
+**Unlock:** Level 2
 
-**Level 8: Corruption Pulse**
-As an action, spend 4 Corruption Points to release a pulse of absorbed corruption in a 20-foot radius. All hostile creatures in the area take 3d10 necrotic damage (Constitution save, DC = your Curse Eater save DC, for half). All allied creatures in the area are cleansed of one active contamination/curse effect each. The pulse is not targeted — it releases what you carry indiscriminately, good and bad.
+---
 
-**Level 9: The Drift Recognition**
-You can now identify Drift contamination specifically and distinguish it from other forms of corruption. You sense Drift-affected creatures within 60 feet automatically. When you absorb Drift contamination, you gain 1 additional Corruption Point but also gain a piece of information about the Drift's source, direction, or nature (DM determines what is knowable). The Drift has a signature you are learning to read.
+#### Purification Touch
+*Tier 1 (1 AP) | Utility | Resonance*
 
-**Level 10: Subclass Feature**
+**Effect:** Remove all debuffs from one ally within touch range. For each debuff removed this way, gain 1 Loaded (the corruption goes into you). Gain Shield 3 per debuff transferred.
+**Keywords:** Cleanse (ally), Self-Load, Shield (per stack)
+**Unlock:** Level 2
 
-**Level 10: Corruption Mastery**
-Your Corruption Point maximum increases by 10. You reduce Corruption Points by 2 per long rest (instead of 1). When you reach a Corruption Feature threshold, you choose your feature from any option on the list rather than receiving one randomly.
+---
 
-**Level 11: Environmental Cleansing**
-Your area contamination absorption improves. You can now cleanse a contaminated area completely by spending 4 hours in it, rather than just reducing its severity. The cleansed area is free of resonant contamination, Drift influence, and spiritual residue for 1 month. You gain Corruption Points equal to the severity tier of the contamination (DM assigns 1-5).
+#### Contamination Tag
+*Tier 1 (1 AP) | Control | Resonance*
 
-**Level 12: Ability Score Improvement**
+**Effect:** Apply Bleed 1 and Expose 1 to one target within 20 meters. If your Loaded count is 2+, apply Bleed 2 and Expose 1 instead.
+**Keywords:** Bleed, Expose, Loaded-synergy
+**Unlock:** Level 3
 
-**Level 12: Combat Absorption**
-As a reaction when you take necrotic, psychic, or resonant damage, you can absorb it. You take half damage and gain 1 Corruption Point. This represents your body's trained response to energetic contamination — taking it in rather than suffering its full effect. You can use this reaction a number of times per short rest equal to your Constitution modifier.
+---
 
-**Level 13: Corruption Weaponized**
-Your Corruption Channeled feature improves. While you have 10 or more Corruption Points: your attacks deal an extra 2d6 necrotic damage (replacing the 1d6 from Level 5), and when you hit a creature with a melee attack, you can transfer 1 Corruption Point of your choice to the target as a minor contamination (they take 1d8 necrotic damage at the start of each of their turns until they succeed on a DC 14 Constitution saving throw).
+#### Iron Gut
+*Tier 1 (1 AP) | Defense | Endurance*
 
-**Level 14: Subclass Feature**
+**Effect:** Apply Guard equal to your FRAME + current Loaded count to yourself. If Loaded is 4+, also apply Regen 3.
+**Keywords:** Guard (FRAME + Loaded), Regen 3 (conditional)
+**Unlock:** Level 3
 
-**Level 15: Absorption Mastery**
-You can now absorb curses that are attached to locations and objects, not just creatures. Absorbing a location or object curse costs 1 hour of contact and gains you 1d6 Corruption Points. Additionally, you can absorb spiritual contamination from the Iron Afterlife — contaminations that follow people from the Afterlife boundary are now within your operational scope.
+---
 
-**Level 16: Ability Score Improvement**
+#### Willing Vessel
+*Tier 1 (1 AP) | Utility | Reaction*
 
-**Level 17: The Great Absorption**
-Once per long rest, you can attempt to absorb all contamination in a 60-foot radius area simultaneously. Make a Constitution saving throw (DC 15 + the DM's assigned severity of the total contamination). On success: all contamination, curses, and Drift in the area are absorbed and you gain Corruption Points equal to half the total absorbed. On failure: as success, but you gain the full Corruption Points and must make a secondary Constitution saving throw (DC 20) or gain two levels of exhaustion. This ability is the most significant single-use purification capability available to any class. Using it at maximum contamination levels is a genuine risk of driving your Corruption to your maximum.
+**Effect:** Reaction. Triggered when an enemy applies any debuff to you. Accept the debuff without resistance and immediately deal 3 + RESONANCE damage to the attacker. Gain Shield 4. The Curse Eater does not flinch. They were waiting for this.
+**Keywords:** Reaction, Debuff-welcome, Shield 4
+**Unlock:** Level 4
 
-**Level 18: Corruption Integration**
-Your body has adapted so thoroughly that your Corruption no longer purely threatens you. Each Corruption Point you carry above 25% of your maximum grants you +1 to Constitution saving throws and +1 to your damage with necrotic and resonant attacks (maximum +10 for each). The corruption has become part of you.
+---
 
-**Level 19: Ability Score Improvement**
+#### Drift Reading
+*Tier 1 (1 AP) | Utility | Resonance*
 
-**Level 20: The Vessel Complete**
-You have absorbed more than any practitioner in known Tesshari history. Your Corruption maximum increases by 20. You are immune to the negative effects of reaching your Corruption maximum — you no longer risk exhaustion from Corruption overload. Once per long rest, you can deliberately overload: for 1 minute, all your Corruption Points convert to pure resonant energy that manifests as an aura extending 30 feet. All hostile creatures in the aura take 3d10 necrotic damage at the start of each turn (Constitution save DC = your Curse Eater save DC for half). When the overload ends, you return to 1 Corruption Point and gain two levels of exhaustion. The contamination does not leave you — it simply goes quiet, rebuilding for the next time the world asks you to carry it.
+**Effect:** Identify all debuffs currently on one target within 30 meters. Apply Expose 1 to that target. If they have 3+ active debuff stacks, apply Expose 2 and Vulnerable 1 instead.
+**Keywords:** Expose, Vulnerable (conditional)
+**Unlock:** Level 4
+
+---
+
+#### Conversion Strike
+*Tier 1 (1 AP) | Melee Attack*
+
+**Effect:** Deal 6 + FRAME damage. On hit, remove one debuff from yourself and apply it to the target.
+**Keywords:** Debuff-transfer
+**Unlock:** Level 5
+
+---
+
+#### Mass Absorption
+*Tier 1 (1 AP) | Utility | Resonance*
+
+**Effect:** Remove one debuff from up to three allies within 15 meters. For each debuff absorbed this way, gain 1 Loaded. Gain Regen 2 per absorbed debuff (stacks, lasts 2 turns per stack).
+**Keywords:** Cleanse (3 allies), Self-Load, Regen (per stack)
+**Unlock:** Level 5
+
+---
+
+#### Pulse Discharge
+*Tier 2 (2 AP) | Resonant Attack | Area*
+
+**Effect:** Trigger a Corruption Pulse centered on yourself (RESONANCE damage to all enemies within 10 meters). Additionally, deal 10 + RESONANCE damage to one target within 20 meters. Remove up to 2 debuffs from yourself.
+**Keywords:** Corruption Pulse, Area, Debuff-clear (self, 2)
+**Unlock:** Level 6
+
+---
+
+#### The Body Remembers
+*Tier 2 (2 AP) | Defense | Endurance*
+
+**Effect:** Apply Shield equal to your FRAME × 2. If your Loaded count is 3+, apply Guard equal to your FRAME as well. If your Loaded count is 5+, also gain immunity to the next control card played against you this round.
+**Keywords:** Shield (FRAME×2), Guard (conditional), Control-immune (conditional)
+**Unlock:** Level 6
+
+---
+
+#### Weaponized Corruption
+*Tier 2 (2 AP) | Resonant Attack | Signature*
+
+**Effect:** Deal 12 + RESONANCE damage. Apply Bleed 2 and Expose 2 to the target. If your Loaded count is 4+, deal 18 + RESONANCE instead and also apply Vulnerable 2.
+**Keywords:** Bleed 2, Expose 2, Vulnerable 2 (conditional), Loaded-synergy
+**Unlock:** Level 7
+
+---
+
+#### Corrupt the Source
+*Tier 2 (2 AP) | Control | Resonance*
+
+**Effect:** Select one enemy. Transfer all debuff stacks currently on you to that target. Each transferred stack also applies 1 stack of Bleed (in addition to the original debuff) — the corruption has transformed in transit. After transfer, your Loaded count is 0.
+**Keywords:** Debuff-transfer (all), Bleed-conversion, Self-clear
+**Unlock:** Level 7
+
+---
+
+#### Consumption Wave
+*Tier 2 (2 AP) | Resonant Attack | Area*
+
+**Effect:** Deal 11 + RESONANCE damage to all enemies within 15 meters. For each enemy hit, remove 1 debuff from yourself and apply that debuff to one of the hit enemies (your choice of which enemy receives which debuff). You eat what they gave you and send it back, distributed.
+**Keywords:** Area, Mass Debuff-transfer
+**Unlock:** Level 8
+
+---
+
+#### Absorption Mastery
+*Tier 2 (2 AP) | Defense | Utility | Reaction*
+
+**Effect:** Reaction. Triggered when you take damage of any type. Take half damage and add 1 Loaded (you absorbed the impact). If this would bring your Loaded count to 5+, also gain Guard equal to your FRAME.
+**Keywords:** Reaction, Damage Halve, Self-Load, Guard (conditional)
+**Unlock:** Level 8
+
+---
+
+#### Loaded State
+*Tier 2 (2 AP) | Utility | Passive*
+
+**Effect:** Passive. While this card is in your hand: whenever any enemy applies a debuff to you, the next Resonant Attack card you play this turn has its base damage increased by 4. This bonus stacks if multiple debuffs are applied in the same turn (max +12 per turn).
+**Keywords:** Passive, Debuff-trigger, Damage-boost (stacking)
+**Unlock:** Level 9
+
+---
+
+#### The Full Weight
+*Tier 2 (2 AP) | Resonant Attack | Signature*
+
+**Effect:** Deal damage equal to 8 + RESONANCE + (3 × Loaded count). This card gets stronger the worse you are doing. At Loaded 6+, also trigger a Corruption Pulse as part of this attack (no additional AP).
+**Keywords:** Loaded-scaling, Corruption Pulse (conditional)
+**Unlock:** Level 9
+
+---
+
+#### Great Absorption
+*Tier 2 (2 AP) | Utility | Resonance*
+
+**Effect:** Remove all debuffs from yourself. For each removed, deal 2 + RESONANCE damage to one enemy within 20 meters (you choose the target per debuff; same target is allowed). After this card resolves, your Loaded count is 0 and you gain Shield 5.
+**Keywords:** Self-clear (all), Damage-per-debuff, Shield 5
+**Unlock:** Level 10
+
+---
+
+#### Corruption Channeled
+*Tier 2 (2 AP) | Melee Attack | Signature*
+
+**Effect:** Deal 13 + FRAME damage. On hit, apply one copy of each debuff type currently on you to the target (Bleed, Burn, Expose, etc. — each type once, not each stack). Your Loaded count is unchanged — you kept them and gave them copies.
+**Keywords:** Debuff-copy (all types), Loaded-retained
+**Unlock:** Level 10
+
+---
+
+#### Drift Integration
+*Tier 3 (3 AP) | Resonant Attack | Signature*
+
+**Effect:** Deal 18 + RESONANCE damage. If your Loaded count is 3+, deal 24 + RESONANCE instead. Apply Vulnerable 2 and Expose 2 to the target. Trigger a Corruption Pulse. This card can only be played if you currently have at least 2 Loaded stacks — you need something to convert.
+**Keywords:** Loaded-required (2+), Loaded-scaling, Vulnerable 2, Expose 2, Corruption Pulse
+**Unlock:** Level 11
+
+---
+
+#### The Conduit Opens
+*Tier 3 (3 AP) | Resonant Attack | Area | Signature*
+
+**Effect:** Deal 16 + RESONANCE damage to all enemies within 20 meters. Apply Bleed 2 to all hit targets. Remove all debuffs from yourself (post-damage — you discharge them outward). Gain Regen 4 for 3 turns from the relief of emptying.
+**Keywords:** Area, Bleed 2 (all), Self-clear (post), Regen 4
+**Unlock:** Level 12
+
+---
+
+#### The Vessel Holds
+*Tier 3 (3 AP) | Defense | Endurance | Signature*
+
+**Effect:** Until start of your next turn: you cannot be reduced below 1 HP by any single damage instance; every debuff applied to you grants you Shield 6 (applied immediately on receipt); and any enemy that applies a debuff to you takes 8 + RESONANCE damage immediately (the corruption burns on contact). The Vessel is not breaking today.
+**Keywords:** Death-floor (1 HP, 1 turn), Shield-on-debuff, Damage-on-debuff
+**Unlock:** Level 13
+
+---
+
+#### Consumption: Complete
+*Tier 3 (3 AP) | Resonant Attack | Signature*
+
+**Effect:** Deal damage equal to 14 + RESONANCE + (5 × Loaded count). Apply all debuff types currently on you to the target (copies — you retain your own). Trigger a Corruption Pulse. If Loaded is 5+, this attack cannot be mitigated by Guard or Shield.
+**Keywords:** Loaded-scaling, Debuff-copy (all), Corruption Pulse, Pierce (at Loaded 5+)
+**Unlock:** Level 14
+
+---
+
+#### The Absorbed Become the Weapon
+*Tier 3 (3 AP) | Resonant Attack | Area | Signature*
+
+**Effect:** All debuffs currently on you are simultaneously discharged as damage. Each debuff stack deals 4 + RESONANCE damage to all enemies within 15 meters (each stack separately — if you have Bleed 3, that is 3 instances of 4 + RESONANCE). After discharge, your Loaded count is 0. Gain HP equal to half the total damage dealt from this card.
+**Keywords:** Loaded-discharge (all stacks), Area, Self-heal (50% of damage)
+**Unlock:** Level 15
+
+---
+
+#### Iron Gut: Perfected
+*Tier 3 (3 AP) | Defense | Endurance | Signature*
+
+**Effect:** Apply Shield equal to your FRAME × 4. Apply Regen 5 for 4 turns. Apply Fortify until start of your next turn. If Loaded is 6+, this card also removes all Silence, Stagger, and Root effects from you as part of its resolution — the body has absorbed so much that control effects simply do not adhere anymore.
+**Keywords:** Shield (FRAME×4), Regen 5, Fortify, Control-clear (conditional)
+**Unlock:** Level 16
+
+---
+
+#### The Drift Returns
+*Tier 3 (3 AP) | Resonant Attack | Control | Signature*
+
+**Effect:** Select one target. Apply every debuff type currently on you to that target at double stack value (if you have Bleed 2, they get Bleed 4; Expose 1 becomes Expose 2, etc., capped at each keyword's maximum). Remove those debuffs from yourself afterward. Deal 20 + RESONANCE damage to that target. What you carried, they now carry. The difference is you chose to carry it. They did not.
+**Keywords:** Debuff-transfer (double), Self-clear, Pierce (ignores Guard on transfer damage)
+**Unlock:** Level 17
+
+---
+
+#### Corruption: Overload
+*Tier 3 (3 AP) | Resonant Attack | Area | Signature*
+
+**Effect:** Maximum Loaded required (Loaded 6+). Deal 22 + RESONANCE damage to all enemies within 25 meters. Trigger a Corruption Pulse. Apply Vulnerable 3 and Expose 3 to all enemies hit. Remove all debuffs from yourself. Gain HP equal to your RESONANCE × 4 from the released energy.
+**Keywords:** Loaded 6+ required, Area, Vulnerable 3, Expose 3, Corruption Pulse, Self-clear, Self-heal
+**Unlock:** Level 18
+
+---
+
+#### The Vessel Complete
+*Tier 3 (3 AP) | Resonant Attack | Signature | Capstone*
+
+**Effect:** For 1 full round after this card is played, you become the Vessel Complete. All debuffs applied to you during this round are absorbed without effect (they still add to Loaded but deal no damage and impose no penalties). At the start of your next turn, every Loaded stack is discharged simultaneously: deal (6 + RESONANCE) per Loaded stack to all enemies within 20 meters, then trigger a Corruption Pulse, then gain HP equal to your RESONANCE × current FRAME. Your Loaded count resets to 0. The contamination does not leave you. It simply goes quiet. It will come back when the world needs you to carry it again.
+**Keywords:** Debuff-absorption (1 round), Delayed discharge (all Loaded, area), Self-heal, Corruption Pulse
+**Unlock:** Level 19 (activates at Level 20)
+
+---
+
+#### The Consumed Form
+*Tier 3 (3 AP) | Signature | Capstone*
+
+**Effect:** Until the start of your next turn, you manifest your accumulated absorption fully. All attack cards deal +RESONANCE bonus damage. All enemies within 20 meters take 5 + RESONANCE damage at the start of each of their turns. You are immune to all debuffs during this state — every attempt to apply a status to you adds 2 Loaded instead. Allies within 20 meters are cleansed of 1 debuff at the start of each of their turns. You do not stop. You have not stopped for years.
+**Keywords:** Damage-boost (all attacks), Aura (persistent damage, enemies), Debuff-immunity (self), Cleanse-aura (allies)
+**Unlock:** Level 20 (choose one of the two Capstone cards)
+
+---
+
+### Level Unlock List
+
+| Level | Cards Available to Choose |
+|---|---|
+| 1 | Starting Hand: choose 2 of (Absorb, Corruption Sense, Partial Discharge) |
+| 2 | Loaded Strike, Purification Touch — gain the Starting Hand card you did not take |
+| 3 | Contamination Tag, Iron Gut |
+| 4 | Willing Vessel, Drift Reading |
+| 5 | Conversion Strike, Mass Absorption |
+| 6 | Pulse Discharge, The Body Remembers |
+| 7 | Weaponized Corruption, Corrupt the Source |
+| 8 | Consumption Wave, Absorption Mastery |
+| 9 | Loaded State, The Full Weight |
+| 10 | Great Absorption, Corruption Channeled |
+| 11 | Drift Integration |
+| 12 | The Conduit Opens |
+| 13 | The Vessel Holds |
+| 14 | Consumption: Complete |
+| 15 | The Absorbed Become the Weapon |
+| 16 | Iron Gut: Perfected |
+| 17 | The Drift Returns |
+| 18 | Corruption: Overload |
+| 19 | The Vessel Complete |
+| 20 | The Consumed Form (Capstone — choose one of the two Level 19-20 Capstone cards) |
+
+*Total cards: 37. Hand Size: 7. At max hand size, each new card replaces one existing card.*
 
 ---
 

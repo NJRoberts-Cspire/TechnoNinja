@@ -21,28 +21,492 @@ The Wire Market's relationship with Forge Tenders is one of structural dependenc
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM: Forge Tender
 
-**Hit Die:** d8
-**Primary Ability:** Intelligence, Wisdom
-**Saving Throw Proficiencies:** Intelligence, Wisdom
-**Armor Proficiencies:** Wire-mesh armor, Enhancement skins
-**Weapon Proficiencies:** Resonant blades (short configuration), voidsteel tanto, forge hammer, circuit lance (basic)
-**Tool Proficiencies:** Forge maintenance kit (mastery), Medic kit, Resonance tuning tools
-**Skills:** Choose 3 from Arcana (adapted: Enhancement Theory), History (Iron Sutra), Insight, Investigation, Medicine, Persuasion, Religion (Iron Sutra)
+**HP Tier:** Balanced
+**Hand Size:** 7
+**Primary Stats:** SIGNAL (enhancement manipulation, technical precision), RESONANCE (Echomind attunement, spiritual healing, ward effects)
+**HP Formula:** (FRAME × 8) + 10
 
-**Starting Equipment:**
-- A forge maintenance kit (quality)
-- A resonance tuning set (compact, portable)
-- Wire-mesh armor
-- A voidsteel tanto
-- A medic kit
-- An iron sutra medallion or a community token
-- 10 weight in trade-metal
+### Starting Hand
+
+- **Resonance Reading** — passive that gives you diagnostic sight over all allies
+- **Forge Mending** — the core healing card, direct enhancement repair
+- **Enhancement Stabilization** — a reaction that catches falling allies before they hit the ground
 
 ---
 
-### Class Features by Level
+### Level Unlock List
+
+#### Level 1
+
+- Suture Protocol
+- Resonant Triage
+
+#### Level 2
+
+- Network Maintenance
+- Enhancement Read
+
+#### Level 3
+
+- Restoration Protocol
+- Fortify Ally
+
+#### Level 4
+
+- Emergency Override
+- Cascade Prevention
+
+#### Level 5
+
+- Sutra's Grace
+- Keeper's Bond
+
+#### Level 6
+
+- Resonance Mastery
+- Sutensai Protocol
+
+#### Level 7
+
+- Forge Under Fire
+- Combat Triage
+
+#### Level 8
+
+- Sacred Maintenance
+- The Keeper's Knowledge
+
+#### Level 9
+
+- Iron Sutra Rite
+- Black Market Modification
+
+#### Level 10
+
+- Forbidden Technique
+- Echomind Preservation
+
+#### Level 11
+
+- Master Forge Work
+- The Living Forge
+
+#### Level 12
+
+- Forge Surge
+- Signal Disruption
+
+#### Level 13
+
+- Resonant Barrier
+- Void Mending
+
+#### Level 14
+
+- Cascade Wall
+- Overhaul
+
+#### Level 15
+
+- The Work That Saves
+- Deep Keeper Bond
+
+#### Level 16
+
+- Black Forge Resurrection
+- Resonance Flood
+
+#### Level 17
+
+- Emergency Overhaul
+- Keeper's Wrath
+
+#### Level 18
+
+- Forge Apotheosis
+- Living Resonance
+
+#### Level 19
+
+- Final Tendance
+- The Body Endures
+
+#### Level 20
+
+- The Body is the Temple *(Capstone)*
+
+---
+
+### Full Card Reference
+
+---
+
+### Black Forge Resurrection
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You perform a procedure the Wire Market would call impossible and the Sutensai would call profane. A creature that has been dead for up to 1 hour (and whose Echomind has not fully integrated into the Iron Afterlife) is restored to 1 HP. This requires your full action and full concentration. The restored creature bears a modification scar visible to any Echomind-reader — they have come back from the edge. Once per combat (or scene).
+**Keywords:** —
+**Unlock:** Level 16
+
+---
+
+### Black Market Modification
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** You install an experimental, unlicensed modification in a willing adjacent ally. Choose one significant effect (work with GM — it should be powerful and have a meaningful downside reflecting its unofficial nature). The modification lasts until the end of the encounter. At the end of the encounter, the ally saves against Overheat 1 — the modification was not designed to last.
+**Keywords:** Overheat 1 (ally, on expiry)
+**Unlock:** Level 9
+
+---
+
+### Cascade Prevention
+*Tier 1 (1 AP) | Reaction*
+
+**Effect:** *Triggered when an ally you have maintained takes damage that reduces them to half HP or below.* You are immediately aware and respond. The triggering damage is reduced by your SIGNAL + RESONANCE. The ally also gains Guard 3 against the next hit this round.
+**Keywords:** Guard 3
+**Unlock:** Level 4
+
+---
+
+### Cascade Wall
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Your attunement to the allies you maintain becomes a defensive barrier. All allies you have maintained this combat gain Shield equal to your RESONANCE × 3 simultaneously. Until your next turn, any damage that would bring a maintained ally to 0 HP is reduced by your SIGNAL first — you intercept the cascade before it lands.
+**Keywords:** Shield (all maintained allies)
+**Unlock:** Level 14
+
+---
+
+### Combat Triage
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** You perform forge work in active combat without hesitation. Use Forge Mending as part of this card (no additional AP cost). The target recovers HP equal to 8 + RESONANCE. If the target is at 0 HP, they return to consciousness and may act on their next turn immediately — no disorientation.
+**Keywords:** —
+**Unlock:** Level 7
+
+---
+
+### Deep Keeper Bond
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** Your resonance record of an ally becomes a two-way channel. Choose one ally you have maintained. Until end of combat: you know their precise HP at all times, they receive + RESONANCE bonus HP whenever they recover HP from any source, and when they make a defense roll (GM ruling), you may share your SIGNAL modifier to assist.
+**Keywords:** —
+**Unlock:** Level 15
+
+---
+
+### Echomind Preservation
+*Tier 2 (2 AP) | Utility | Reaction*
+
+**Effect:** *Triggered when an ally within 60 feet is reduced to 0 HP.* Capture a resonant impression of their Echomind in a prepared container you carry. The soul passes normally, but the impression is a perfect record of who they were at the moment of death — their knowledge, personality, history. Usable for testimony, resurrection assistance, or continued consultation. Additionally, the dying ally gains Regen 2 for their next 2 turns if they survive (stabilize at 1 HP rather than dying, once per combat for this ally).
+**Keywords:** Regen 2
+**Unlock:** Level 10
+
+---
+
+### Emergency Override
+*Tier 2 (2 AP) | Power*
+
+**Effect:** You overclock an adjacent ally's enhancement network. Until their next turn: their movement speed doubles, they gain Shield equal to your SIGNAL × 2, and their next attack deals + SIGNAL additional damage. After this card resolves, the ally gains Overheat 1 — emergency work, not maintenance.
+**Keywords:** Shield, Overheat 1 (ally)
+**Unlock:** Level 4
+
+---
+
+### Emergency Overhaul
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** A rapid, comprehensive emergency repair on one adjacent ally. They recover to full HP. All conditions and debuffs are removed from them. One of their expended once-per-combat cards is restored. For the next 2 turns, their attacks deal + SIGNAL additional damage — their enhancements are running hot. After those 2 turns, they gain Overheat 2 as the system settles.
+**Keywords:** Cleanse (ally), Overheat 2 (ally, delayed)
+**Unlock:** Level 17
+
+---
+
+### Enhancement Read
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Diagnostically read one target's enhancement configuration. Learn: their approximate remaining HP (GM: full/bloodied/critical), any enhancement abilities they are suppressing or charging, and one specific vulnerability in their network (GM provides — a damage type, a disruptive condition, or an unprotected area). In combat, this information is immediately useful: apply Expose 1 to the target.
+**Keywords:** Expose 1
+**Unlock:** Level 2
+
+---
+
+### Enhancement Stabilization
+*Tier 0 | Passive — Reaction*
+
+**Always Active:** When an ally within 30 feet would be reduced to 0 HP, you may use your Reaction to stabilize their enhancement network. They remain at 1 HP instead of falling. This Reaction may be used once per round. Additionally, stabilized allies gain Shield 4 from the emergency resonant reinforcement.
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Final Tendance
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** A 10-minute forge work (or a combat-compressed version as a full-turn action) that permanently grants one willing ally any one benefit from the Master Forge Work list, for free. In combat, the compressed version instead grants: one ally immediately recovers to full HP, all their debuffs are Cleansed, and they gain Guard 8 and Regen 4 for 3 turns.
+**Keywords:** Cleanse (ally), Guard 8 (ally), Regen 4 (ally)
+**Unlock:** Level 19
+
+---
+
+### Forbidden Technique
+*Tier 2 (2 AP) | Power*
+
+**Effect:** Apply one blacklisted procedure to an adjacent ally. Choose one: **Resonance Weapon** — their unarmed/weapon attacks deal + RESONANCE additional resonant damage until their next turn; **Signature Null** — they become undetectable to technological systems for 1 turn; **Pain Redirect** — they ignore all wound penalties and HP-based penalties for 1 turn; or **Emergency Enhancement** — the next Forge Mending targeting them heals triple the amount.
+**Keywords:** Variable
+**Unlock:** Level 10
+
+---
+
+### Forge Apotheosis
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Your body has become a refinement instrument. All allies in the encounter simultaneously: recover HP equal to your RESONANCE × 3, gain Regen 3 for 3 turns, and have one debuff Cleansed. Until your next turn, all damage dealt to allies within 30 feet is reduced by your SIGNAL. Once per combat.
+**Keywords:** Regen 3, Cleanse (all allies)
+**Unlock:** Level 18
+
+---
+
+### Forge Mending
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Restore hit points to one ally within reach by repairing their enhancements and treating their wounds. The ally recovers 8 + RESONANCE HP. If the ally is below half HP, add your SIGNAL to the recovery — you identify the cascade points and address them first. This is the work. This is always the work.
+**Keywords:** —
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Forge Surge
+*Tier 2 (2 AP) | Power*
+
+**Effect:** You direct an intense burst of resonant energy through one ally's enhancement network. They immediately recover 14 + RESONANCE HP. They gain Shield 8 and Regen 3 for 2 turns. Their next attack deals + SIGNAL additional damage — the surge flows through them into their strike.
+**Keywords:** Shield 8, Regen 3
+**Unlock:** Level 12
+
+---
+
+### Forge Under Fire
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** You cannot be interrupted while performing Forge actions — not by noise, movement, or damage to your own body mid-work. Your forge cards cannot fail due to environmental conditions. Once per combat, you may perform a Forge card on a target at range up to 30 feet (voice-guided resonance channel rather than physical contact).
+**Unlock:** Level 7
+
+---
+
+### Fortify Ally
+*Tier 1 (1 AP) | Defense*
+
+**Effect:** Reinforce one ally's enhancement network against incoming harm. They gain Shield equal to your SIGNAL × 2. Until your next turn, the first control effect that lands on them (Root, Stagger, Silence) has its duration reduced by 1 turn — your fortification provides partial Echomind insulation.
+**Keywords:** Shield
+**Unlock:** Level 3
+
+---
+
+### Iron Sutra Rite
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You perform the Iron Sutra Rite — forge work as prayer. One willing adjacent ally: recovers to full HP, all conditions removed, and for the next 2 turns their attacks deal + RESONANCE additional damage and all HP they recover is doubled. This requires your full turn and the ally's cooperation. The Rite requires quiet focus — you cannot play other cards this turn.
+**Keywords:** Cleanse (ally)
+**Unlock:** Level 9
+
+---
+
+### Keeper's Bond
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** For each ally you have used Forge Mending on this combat, you maintain a resonant record. You always know their approximate HP status (full/bloodied/critical). When another character uses a healing card on a bonded ally, add your RESONANCE to the amount healed — your record improves every healer's work on people you know.
+**Unlock:** Level 5
+
+---
+
+### Keeper's Wrath
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** When an enemy harms someone you are responsible for, your response is precise and technical. Deal 12 + SIGNAL signal damage to one target. Apply Stagger and Expose 2. This card costs 0 AP if played in the same turn that one of your maintained allies was reduced to half HP or below.
+**Keywords:** Stagger, Expose 2
+**Unlock:** Level 17
+
+---
+
+### Living Resonance
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** Your presence becomes a healing field. Until your next turn: all allies within 30 feet gain Regen 4. All incoming damage to allies within 30 feet is reduced by your RESONANCE. Any ally within 30 feet who uses a card that costs 2 or more AP also recovers 6 HP as a resonant echo from your active maintenance. Once per combat.
+**Keywords:** Regen 4 (all nearby allies)
+**Unlock:** Level 18
+
+---
+
+### Master Forge Work
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** A transformative forge procedure on one willing adjacent ally. Choose one permanent effect (requires rare materials for out-of-combat use; in combat, the effect lasts this encounter): **Enhancement Augmentation** — add + SIGNAL to one of their attack cards for the rest of combat; **Resonance Hardening** — they gain resistance to one damage type (incoming damage of that type reduced by your RESONANCE); or **Echomind Anchor** — their class features cannot be disrupted by Silence or Stagger for the rest of combat.
+**Keywords:** Variable
+**Unlock:** Level 11
+
+---
+
+### Network Maintenance
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Comprehensive maintenance of all allies in the encounter. Each ally recovers 4 + RESONANCE HP. Each ally gains Guard 2 against the next hit they take. This card represents the Forge Tender's ambient presence — being in a fight with a good Tender means you are always slightly better maintained than you would otherwise be.
+**Keywords:** Guard 2 (all allies)
+**Unlock:** Level 2
+
+---
+
+### Overhaul
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** Perform comprehensive repairs on one adjacent ally during a pause in combat. They recover 16 + RESONANCE HP. Remove one ongoing condition (Bleed, Burn, Overheat — one stack cleared). Their next attack this combat deals + SIGNAL additional damage — the overhaul temporarily optimizes their offensive output.
+**Keywords:** Cleanse (one condition stack)
+**Unlock:** Level 14
+
+---
+
+### Resonance Flood
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You flood the encounter with healing resonance. All allies simultaneously recover 12 + RESONANCE HP. All allies gain Regen 2 for 3 turns. All allies have one debuff Cleansed. Enemies with heavy enhancement integration take 8 + RESONANCE resonant damage — the flood destabilizes uncalibrated systems.
+**Keywords:** Regen 2 (all allies), Cleanse (one debuff, all allies)
+**Unlock:** Level 16
+
+---
+
+### Resonance Mastery
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** Your understanding of the resonant relationship between Echomind and enhancement is deep enough to be therapeutic. Remove the Stagger or Root condition from one adjacent ally as an action (enhancement network realignment). Additionally, this turn, your Forge Mending heals all allies within 5 feet of the target for half the rolled amount — the resonance radiates.
+**Keywords:** Cleanse (Stagger or Root, ally)
+**Unlock:** Level 6
+
+---
+
+### Resonance Reading
+*Tier 0 | Passive*
+
+**Always Active:** You read the state of any person's enhancement network as naturally as reading their face. Once per turn as a free action, you know one ally's precise current HP and any ongoing conditions affecting them. Your Forge Mending cards deal + RESONANCE additional healing against any ally you have read this turn. The knowledge is sacred. What you do with it is your ethics, not your capability.
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Resonant Barrier
+*Tier 2 (2 AP) | Defense*
+
+**Effect:** You project a resonant field anchored to your Echomind. All allies within 15 feet gain Shield equal to your RESONANCE × 2. Until your next turn, the first attack that would reduce any shielded ally to 0 HP instead leaves them at 1 HP — the barrier intercepts the cascade. Once per combat per ally.
+**Keywords:** Shield (all nearby allies)
+**Unlock:** Level 13
+
+---
+
+### Restoration Protocol
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** A focused restoration procedure on one ally within reach. They recover 16 + RESONANCE HP. Remove one ongoing condition from them (Bleed stack, Burn stack, Overheat stack, or a single status condition like Silence, Root, or Stagger). If the ally is unconscious from HP damage, they regain consciousness immediately.
+**Keywords:** Cleanse (one condition)
+**Unlock:** Level 3
+
+---
+
+### Sacred Maintenance
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Your comprehensive maintenance carries spiritual resonance — forge work as prayer. One ally you touch recovers 8 + RESONANCE HP. They also gain Fortify for 1 turn — their next saving throw (GM ruling) is treated as a success. If the ally is a Sutensai or Iron Sutra-aligned character, add SIGNAL to the HP recovery.
+**Keywords:** Fortify (ally)
+**Unlock:** Level 8
+
+---
+
+### Signal Disruption
+*Tier 2 (2 AP) | Control*
+
+**Effect:** You read an enemy's enhancement configuration and disrupt it precisely. Deal 10 + SIGNAL signal damage. Apply Silence and Stagger. If your SIGNAL exceeds their SIGNAL, apply Overheat 2 as well — you found the cascade point and triggered it deliberately.
+**Keywords:** Silence, Stagger, Overheat 2 (conditional)
+**Unlock:** Level 12
+
+---
+
+### Sutra's Grace
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Your forge work carries spiritual resonance. When you use this card alongside a Forge Mending or healing card this turn, the healed ally also gains Fortify for 2 turns — your work realigns their Echomind as well as their hardware. If the ally is suffering from early Echomind misalignment, this card advances their realignment by one stage (GM pacing).
+**Keywords:** Fortify (ally)
+**Unlock:** Level 5
+
+---
+
+### Suture Protocol
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Emergency forge work performed in moments — the kind that should take an hour compressed into a breath. An ally within reach recovers HP equal to 6 + RESONANCE. Remove one debuff currently affecting them. This card may be played as part of the same turn as another Forge card without conflict.
+**Keywords:** Cleanse (one debuff, ally)
+**Unlock:** Level 1
+
+---
+
+### Sutensai Protocol
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** Forge Mending performed as a Sutensai rite — technical practice and spiritual care unified. One ally within reach recovers 12 + RESONANCE + SIGNAL HP. They also recover one expended once-per-combat card (GM ruling — a card with a once-per-combat limit). Both you and the healed ally gain Guard 4 against the next hit you each take.
+**Keywords:** Guard 4 (self and ally)
+**Unlock:** Level 6
+
+---
+
+### The Body Endures
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You are the bridge between flesh and survival. Choose one ally who has fallen to 0 HP this combat or who is currently at or below 25% HP. They immediately recover to 50% of their maximum HP. All debuffs are Cleansed from them. They gain Shield equal to your SIGNAL × 3 and Regen 4 for 3 turns. Once per combat.
+**Keywords:** Cleanse (ally), Shield (ally), Regen 4 (ally)
+**Unlock:** Level 19
+
+---
+
+### The Body is the Temple
+*Tier 3 (3 AP) | Signature — Capstone*
+
+**Effect:** You have become, in the fullest expression of the Iron Sutra's most profound claim, the bridge between flesh and the divine. Your forge work is not merely technical — it is, in a specific and inarguable sense, sacred. All allies in the encounter immediately recover to full HP. All conditions and debuffs are Cleansed from all allies. All allies gain Regen 4 for 3 turns and Shield equal to your RESONANCE × 4. Once per combat — this is everything you have trained to be, given freely.
+**Keywords:** Cleanse (all allies), Regen 4 (all allies), Shield (all allies)
+**Unlock:** Level 20
+
+---
+
+### The Keeper's Knowledge
+*Tier 2 (2 AP) | Passive*
+
+**Always Active:** Your accumulated knowledge of the people you serve has become its own form of power and obligation. For each ally you have used Forge Mending on this combat: you know their precise HP at all times, you sense immediately if they fall unconscious, and healing cards used by any character on them recover + RESONANCE additional HP — your resonance record improves every healer's work.
+**Unlock:** Level 8
+
+---
+
+### The Living Forge
+*Tier 2 (2 AP) | Passive*
+
+**Always Active:** Your presence stabilizes enhancement networks in proximity. All allies within 30 feet who have received Forge Mending from you gain advantage on death-equivalent saves (GM ruling). Enhancement disruption effects on allies within 30 feet last 1 turn less than normal. When you use Forge Mending, the resonance radiates — all allies within 5 feet of the target recover RESONANCE HP as secondary healing.
+**Unlock:** Level 11
+
+---
+
+### The Work That Saves
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You perform procedures that the Wire Market would declare impossible and the Sutensai would declare profane, and people are alive because you did. Deal 16 + SIGNAL signal damage to one enemy (the technical precision of someone who knows exactly how enhancement systems break). Simultaneously, heal the two lowest-HP allies in the encounter for 14 + RESONANCE HP each. Once per combat.
+**Keywords:** —
+**Unlock:** Level 15
+
+---
+
+### Void Mending
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** You repair enhancement damage caused by dissolution, void-edge weapons, or Iron Afterlife contact — the specific harm that standard medical kits cannot address. One ally recovers 12 + RESONANCE HP. Remove one instance of Overheat or Silence from them. If the ally has been exposed to Shell-state resonance or Iron Afterlife energy, this card also removes that contamination (GM ruling).
+**Keywords:** Cleanse (Overheat or Silence, ally)
+**Unlock:** Level 13
+
+---
+
+## Subclasses
 
 **Level 1: Resonance Reading**
 You can read the state of a person's enhancement network as naturally as reading their face. When you spend 1 minute examining a willing creature's enhancements (or an unconscious/dead creature), you learn:

@@ -21,106 +21,202 @@ For a player character, being Sutensai means being the institution made mobile a
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM: Sutensai
 
-**Hit Die:** d8
-**Primary Ability:** Wisdom (Echomind attunement), Charisma (spiritual authority)
-**Saving Throw Proficiencies:** Wisdom, Charisma
-**Armor Proficiencies:** Wire-mesh armor, salvage plating, void anchors (as ceremonial protection)
-**Weapon Proficiencies:** Resonant blades (standard and short), signal staffs, calibration lances
-**Tool Proficiencies:** Calibration tools, Reading instruments (Sutensai formal kit), administrative seals
-**Skills:** Choose 3 from: History, Insight, Medicine, Persuasion, Religion, Investigation, Intimidation
-**Starting Equipment:** Sutensai vestments (count as wire-mesh armor), calibration lance (signal staff variant), full Reading kit, Sutensai formal seal, copy of the Iron Sutra (annotated, institution edition), 20 gp equivalent in official currency
+**HP Tier:** Technical
+**Hand Size:** 7
+**Primary Stats:** RESONANCE + VEIL
+**HP Formula:** (FRAME × 8) + 6
+
+### Starting Hand
+
+### Echomind Reading
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Target one creature within 30 feet. Learn their current HP tier (full / wounded / critical), whether they carry active spiritual violations, and their general resonant alignment. Until the end of combat, your VEIL cards against this target deal +2 damage.
+**Keywords:** —
+**Unlock:** Level 1 (Starting Card)
 
 ---
 
-### Class Features by Level
+### Sutra Condemnation
+*Tier 1 (1 AP) | Resonant Attack*
 
-**Level 1: The Reading**
-You can perform the formal Sutensai Reading on a willing or restrained creature. The Reading takes 10 minutes and requires your full attention. On completion, you learn: the creature's Caste level, whether their enhancements are operating legally, their general spiritual alignment (orthodox/resonant/circle/unclear), whether they have committed any act the Iron Sutra classifies as a spiritual crime in the past year, and the general emotional state of their Echomind. You can perform the Reading as an abbreviated 1-minute version once per short rest, learning only the caste level and whether any spiritual flags exist. You can perform the full Reading a number of times per long rest equal to your Wisdom modifier (minimum 1).
+**Effect:** Deal 5 + RESONANCE resonant damage to one target within 40 feet. If the target has a spiritual violation active, apply Expose 2.
+**Keywords:** Expose 2 (conditional)
+**Unlock:** Level 1 (Starting Card)
 
-**Level 1: Spiritual Authority**
-You carry the official weight of the Sutensai. When you identify yourself formally, creatures trained in Tesshari cultural context must make a Charisma saving throw (DC = 8 + proficiency bonus + Charisma modifier) or be compelled to at least acknowledge your authority — they may still refuse orders, but they cannot deny your right to give them. Against creatures of CR 4 or lower, this compels full deference unless you actively threaten them.
+---
 
-**Level 1: Faith Charges**
-You have a pool of Faith Charges equal to your Wisdom modifier + your proficiency bonus. You regain all Faith Charges on a long rest, and regain half (rounded up) on a short rest after a formal act of Sutensai practice (performing a Reading, conducting a rite, etc.).
+### Iron Ward Pulse
+*Tier 1 (1 AP) | Defense*
 
-**Level 2: Afterlife Channel**
-Your Sutensai training has given you structured access to the Iron Afterlife. As an action, spend 1 Faith Charge to send a formalized message to the Iron Afterlife regarding a specific dead individual. You learn whether they have reached the Afterlife or are spiritually unresolved, and receive a one-word answer to one yes/no question. The message must be directed to a specific individual by name. This is not conversation — it is official inquiry.
+**Effect:** Apply Guard 4 + RESONANCE to yourself or one ally within 20 feet. Spirits and Afterlife entities cannot enter the warded space until the start of your next turn.
+**Keywords:** Guard 4 + RESONANCE
+**Unlock:** Level 1 (Starting Card)
 
-**Level 2: Iron Ward**
-As an action, spend 1 Faith Charge to consecrate a space in a 15-foot radius around you until the end of your next long rest. In this space: undead entities take 2d8 radiant damage if they enter or start their turn there, creatures have advantage on death saving throws, and no spirits can enter or leave without your awareness.
+---
 
-**Level 3: Sutensai Subclass**
-You choose your path: The Warden, The Veil Master, or The Voice of the Sect. Your subclass grants features at levels 3, 6, 10, and 14.
+### Level Unlock List
 
-**Level 3: Echomind Sight**
-Your Reading ability has expanded beyond formal ritual. At will, you can see the general resonant state of any creature within 30 feet — an impressionistic sense of their spiritual health, distress, or spiritual contamination. This does not give you the specific information that a full Reading provides; it gives you a feeling, like reading a person's face. You are rarely wrong about what the feeling means.
+#### Level 2
+- **Afterlife Inquiry** — Tier 1 (1 AP) | Utility: You send a formal query into the Iron Afterlife. Ask the GM one yes/no question about a named dead individual. Answer arrives as a resonant impression at the start of your next turn.
+- **Authority Seal** — Tier 1 (1 AP) | Social Control: Deal 4 + VEIL social damage to one target within 30 feet. Apply Root. Any target that fails to resist this card also cannot willingly close distance with you this turn.
 
-**Level 4: Ability Score Improvement**
+#### Level 3
+- **Spiritual Stricture** — Tier 2 (2 AP) | Resonant Attack: Deal 10 + RESONANCE resonant damage to one target within 40 feet. Apply Stagger. Cost: pay 4 HP instead of 1 AP (play this card for 1 AP + 4 HP).
+- **Doctrinal Silence** — Tier 1 (1 AP) | Control: Apply Silence to one target within 30 feet until the start of your next turn. Silenced targets cannot play Signal or Resonance cards.
 
-**Level 5: Radiant Sentence**
-As an action, spend 2 Faith Charges to issue a formal spiritual condemnation of one creature within 60 feet that you can see. The creature must make a Charisma saving throw (DC = 8 + proficiency bonus + Wisdom modifier). On a failure: the creature takes 4d8 radiant damage and has disadvantage on attack rolls until the end of your next turn. On a success: half damage, no disadvantage. Against creatures you have performed a full Reading on, they have disadvantage on the saving throw. This is not a metaphorical condemnation. You are speaking with the authority of the Iron Afterlife, channeled through Sutensai training. Some practitioners report seeing the faces of Prior Ascended overlaid on their own reflection when they use this feature.
+#### Level 4
+- **Sutra Ward** — Tier 1 (1 AP) | Reaction: *Trigger: An ally within 20 feet is targeted by a Resonant or Signal attack.* Reduce incoming damage by 5 + RESONANCE. Apply Guard 3 to that ally.
+- **Weight of Law** — Tier 2 (2 AP) | Social Control: Deal 8 + VEIL social damage to one target within 30 feet. Apply Expose 3 and Stagger. Cost: pay 6 HP instead of 2 AP (play for 0 AP + 6 HP).
 
-**Level 5: Rite of Passage**
-Once per long rest, you can perform the Sutensai's formal death rite over a creature that has died within 1 minute. The rite takes 1 minute and ensures that the dead individual's Echomind passes cleanly to the Iron Afterlife without spiritual contamination, hostile attachment, or exploitation. Additionally, a creature who has received the formal rite cannot be reanimated or puppeted without breaking a spiritual ward equivalent to a 5th-level effect.
+#### Level 5
+- **Radiant Sentence** — Tier 2 (2 AP) | Resonant Attack: Deal 12 + RESONANCE resonant damage to one target within 50 feet. If you have performed Echomind Reading on this target this combat, apply Vulnerable 3.
+- **Rite of Passage** — Tier 2 (2 AP) | Utility: A creature that died within the last minute is sealed into the Iron Afterlife cleanly. They cannot be reanimated or puppeted this combat. Allies who witness the rite gain Regen 2 until end of their next turn.
 
-**Level 6: Subclass Feature**
+#### Level 6
+- **Doctrinal Violence** — Tier 2 (2 AP) | Resonant Attack: Deal 14 + RESONANCE resonant damage to one target within 40 feet. Cost: pay 8 HP instead of 2 AP (play for 0 AP + 8 HP).
+- **Inquisitor's Eye** — Tier 1 (1 AP) | Passive: *While in hand, passive.* You always sense when a creature within 30 feet is lying about spiritual matters. Once per combat, when an enemy uses a Utility or Social card within range, you may declare it false — canceling its non-damage riders.
 
-**Level 6: Sutra Shield**
-As a reaction when you or a creature within 30 feet is targeted by a spiritual or resonant attack, spend 2 Faith Charges to impose disadvantage on that attack roll. If the attack still hits, reduce the damage by your Wisdom modifier. You can use this feature a number of times per long rest equal to your Wisdom modifier.
+#### Level 7
+- **Echomind Suppress** — Tier 2 (2 AP) | Control: Apply Silence and Stagger to one target within 40 feet until the start of your next turn. If the target has any Resonance cards in their hand, they lose 1 AP this turn.
+- **Caste Condemnation** — Tier 2 (2 AP) | Social Control: Deal 10 + VEIL social damage to one target within 30 feet. Apply Expose 4. All allies within 20 feet may immediately play one 0-AP card as a free reaction.
 
-**Level 7: Inquisitor's Eye**
-You can always tell when someone is lying to you about spiritual matters — anything related to the Iron Sutra, their Echomind, their enhancements, or the Iron Afterlife. This is passive and automatic. You do not always know the truth; you know when the stated version is false. Additionally, when you perform a full Reading, you detect all lies told by the subject in the previous 24 hours, including the topics (but not the content) of those lies.
+#### Level 8
+- **Archive Pull** — Tier 1 (1 AP) | Utility: You retrieve a specific resonant memory from the Sutensai spiritual archive. Remove one debuff (Silence, Stagger, Root, or Expose) from yourself or an ally within 20 feet. Gain Guard 3 + RESONANCE.
+- **Prior's Echo** — Tier 2 (2 AP) | Resonant Attack: Deal 13 + RESONANCE resonant damage in a 20-foot cone. All targets in range take Expose 2. Cost: pay 10 HP instead of 2 AP (play for 0 AP + 10 HP).
 
-**Level 8: Ability Score Improvement**
+#### Level 9
+- **Channel Prior** — Tier 3 (3 AP) | Signature: Choose one effect: (A) Deal 18 + RESONANCE resonant damage to all enemies within 25 feet. (B) Apply Stagger and Root to all enemies within 25 feet until start of your next turn. (C) Restore 10 + RESONANCE HP to all allies within 25 feet.
+- **Veil Authority** — Tier 2 (2 AP) | Control: Target one spiritual entity or Afterlife-adjacent creature within 30 feet. They must obey one direct command on their next turn (no action required on your part). Against standard enemies, apply Stagger and Expose 3 instead.
 
-**Level 8: The Sutensai Record**
-You have formal access to the Sutensai's archives of Readings, death records, and caste histories. Once per long rest, as a 30-minute process that requires a signal connection to any Sutensai-administered territory, you can query the archive for any recorded information about a person, location, or event in Sutensai records. The archive goes back centuries. It is not complete. It has been edited. You may not always receive the full picture, but you will always receive something — and sometimes what you receive will not match what you were taught.
+#### Level 10
+- **Sutra of Binding** — Tier 2 (2 AP) | Control: Apply Vulnerable 4 and Root to one target within 40 feet. Until the target breaks free (at end of each of their turns they may attempt to clear Root), any damage they take is increased by your RESONANCE.
+- **Spiritual Arrest** — Tier 3 (3 AP) | Signature: Target one creature within 40 feet. Deal 16 + RESONANCE resonant damage. Apply Stagger, Root, and Silence simultaneously. Cost: pay 12 HP instead of 3 AP (play for 0 AP + 12 HP).
 
-**Level 9: Channel Prior**
-Once per long rest, you can invoke one of the Six Prior Ascended as a channel for your spiritual power. Choose one of the following effects (DM and player should agree on which Prior corresponds to which effect, based on campaign context):
-- A burst of radiant energy in a 30-foot radius (5d10 radiant damage, Dexterity saving throw for half)
-- A declaration that commands all creatures of CR 6 or lower within 60 feet to flee (Wisdom saving throw or frightened, 1 minute)
-- A healing pulse that restores 4d10 hit points to every living creature within 30 feet
-- A spiritual truth-compulsion: one creature within 30 feet cannot lie for 1 hour (Wisdom saving throw to resist; DC = your Faith Save DC)
+#### Level 11
+- **Reading Mastery** — Tier 2 (2 AP) | Utility: Perform a deep Reading on one target within 30 feet. All your cards against this target deal +RESONANCE bonus damage for the rest of combat. Apply Expose 3 to the target immediately.
+- **Institutional Weight** — Tier 2 (2 AP) | Social Control: Deal 12 + VEIL social damage to all enemies within 30 feet who are not currently in melee with an ally. Apply Stagger to each.
 
-**Level 10: Subclass Feature**
+#### Level 12
+- **Iron Sutra Aura** — Tier 2 (2 AP) | Passive: *While in hand, passive.* You and all allies within 20 feet have Guard 2 at the start of each of your turns. Spiritual or Resonant attacks against the group deal −RESONANCE damage.
+- **Sealed Departure** — Tier 2 (2 AP) | Utility: Seal one dead or dying creature against spiritual exploitation. Remove all spiritual debuffs from allies within 20 feet. Restore 6 + RESONANCE HP to one ally within 20 feet.
 
-**Level 10: Veil Authority**
-Your connection to the Iron Afterlife is now institutionally sanctioned to the point of being spiritually embedded. Entities from the Iron Afterlife treat you as a recognized authority unless actively hostile to the Sutensai. You can negotiate with Afterlife entities as equals. Once per long rest, you can issue a formal command to one Afterlife entity within 30 feet — it must succeed on a Wisdom saving throw (DC = your Faith Save DC) or obey one direct command within its capabilities.
+#### Level 13
+- **Rite of Watching** — Tier 2 (2 AP) | Utility: Until end of combat, you know the HP tier of all enemies at all times (no card required for Echomind Reading on new targets). Your Resonant Attack cards gain Pierce 3.
+- **Compelled Testimony** — Tier 2 (2 AP) | Social Control: Target one creature within 30 feet. Deal 10 + VEIL social damage and apply Vulnerable 3. The target cannot willingly benefit from concealment or Veil keyword effects this round.
 
-**Level 11: Reading Mastery**
-Your full Reading now reveals everything about a subject's spiritual history, not just the past year. You learn the complete Caste history, every formal spiritual violation the Sutensai would recognize, significant resonant events in their life, and the general character of their Echomind as it has developed. This is, frankly, more than most people want known about them. Performing this level of Reading on someone who is not willing requires binding or restraint.
+#### Level 14
+- **The Full Weight** — Tier 3 (3 AP) | Signature: Formally condemn one target within 40 feet you have performed Echomind Reading on. Deal 20 + RESONANCE resonant damage. Apply Expose 5 and Vulnerable 4. All allies within 30 feet gain Guard 5 + RESONANCE.
+- **Doctrinal Purge** — Tier 3 (3 AP) | Resonant Attack: Deal 18 + RESONANCE resonant damage to one target and 9 + RESONANCE to all enemies adjacent to them. Cost: pay 14 HP instead of 3 AP (play for 0 AP + 14 HP).
 
-**Level 12: Ability Score Improvement**
+#### Level 15
+- **Sutensai's Truth** — Tier 3 (3 AP) | Social Control: Target one creature within 40 feet. Deal 16 + VEIL social damage. Apply Silence, Stagger, and Expose 4. For the rest of combat, the target cannot use social or deception-based card riders.
+- **Prior's Conduit** — Tier 2 (2 AP) | Resonant Attack: Deal 15 + RESONANCE resonant damage to one target. Echo (repeat base damage once, no riders). Cost: pay 10 HP instead of 2 AP (play for 0 AP + 10 HP).
 
-**Level 12: Institutional Weight**
-Your presence carries the full weight of the Sutensai institution. You can add your Wisdom modifier to Persuasion, Intimidation, and Insight checks made in social contexts. Once per long rest, you can invoke full Sutensai authority over a situation: all creatures within 60 feet who are not actively hostile to you must succeed on a Wisdom saving throw (DC = your Faith Save DC) or be incapable of taking hostile actions for 1 minute (they may move, speak, and take non-hostile actions). Creatures who are actively at war with the Sutensai or its allies are immune.
+#### Level 16
+- **Voice of the Dead** — Tier 3 (3 AP) | Signature: Channel one of the Six Prior Ascended. Deal 22 + RESONANCE resonant damage in a 30-foot radius. All enemies in range are Staggered. All allies in range gain Regen 4 until end of their next turn.
+- **Afterlife Condemnation** — Tier 3 (3 AP) | Resonant Attack: Deal 24 + RESONANCE resonant damage to one target. Apply Vulnerable 5 and Expose 5. The target cannot receive healing from any source until the start of your next turn.
 
-**Level 13: Sustained Rite**
-You can maintain ongoing spiritual rituals that function continuously. You currently know one sustained rite from the following, and learn a second at level 17:
-- Rite of Watching: A 100-foot radius area around any location you designate (within 1 mile) is spiritually monitored. You know when any creature dies, any spiritual violation occurs, or any Afterlife entity crosses the Veil within this area.
-- Rite of Peace: A 30-foot radius around you is spiritually consecrated (as Iron Ward, permanent while maintained). Maintaining this costs no Faith Charges but requires 10 minutes of Sutensai prayer per long rest.
-- Rite of Binding: One creature you have performed a full Reading on is spiritually tagged — you always know their direction and approximate distance, and you know if they die.
+#### Level 17
+- **Rite of Peace** — Tier 2 (2 AP) | Defense: Apply Guard 8 + RESONANCE to yourself and all allies within 20 feet. Remove one debuff from each ally in range.
+- **Absolute Witness** — Tier 3 (3 AP) | Control: Target up to three creatures within 40 feet. Each takes 12 + VEIL social damage and is Silenced and Staggered. Cost: pay 16 HP instead of 3 AP (play for 0 AP + 16 HP).
 
-**Level 14: Subclass Feature**
+#### Level 18
+- **Channel Prior (Twin)** — Tier 3 (3 AP) | Signature: Invoke two Prior effects simultaneously (choose two from Channel Prior's list). Deal 20 + RESONANCE resonant damage to all enemies in 25 feet and restore 8 + RESONANCE HP to all allies in 25 feet.
+- **Living Archive** — Tier 2 (2 AP) | Utility: Remove all debuffs from yourself. Gain Shield 10 + RESONANCE. Until end of combat, your Echomind Reading is free (0 AP) and reveals full HP values on targets.
 
-**Level 15: The Sutensai's Truth**
-Once per long rest, you can compel absolute spiritual truth from one creature you can see within 60 feet. The creature must make a Wisdom saving throw (DC = your Faith Save DC) or be unable to lie, omit significant information, or mislead by implication for 1 hour. The creature is aware they are compelled. This is one of the most feared Sutensai abilities in Tesshari — it is not the capacity to harm but the capacity to know, and in Tesshari, knowing is power.
+#### Level 19
+- **Sutra Annihilation** — Tier 3 (3 AP) | Resonant Attack: Deal 26 + RESONANCE resonant damage to one target. Apply Vulnerable 5, Expose 5, and Silence. Cost: pay 18 HP instead of 3 AP (play for 0 AP + 18 HP).
+- **Institutional Reckoning** — Tier 3 (3 AP) | Social Control: Deal 18 + VEIL social damage to all enemies within 40 feet. Apply Stagger and Expose 3 to each. All allies within 30 feet gain Guard 6 + RESONANCE.
 
-**Level 16: Ability Score Improvement**
+#### Level 20 — Capstone
+- **The Last Reading** — Tier 3 (3 AP) | Signature: *The Final Reading. The full accounting.* Target one creature within 40 feet. Deal 28 + RESONANCE resonant damage. Apply Expose 6, Vulnerable 5, Silence, Stagger, and Root simultaneously. Choose one judgment: (A) **Absolved** — remove all debuffs from all allies within 30 feet, restore 12 + RESONANCE HP to each. (B) **Condemned** — the target takes an additional 14 + RESONANCE resonant damage at the start of each of their next three turns. Both judgments carry the force of formal Sutensai law. Cost: pay 20 HP instead of 3 AP (play for 0 AP + 20 HP).
 
-**Level 17: Living Archive**
-You have internalized so much Sutensai record that you have become a walking historical resource. You can answer questions about Tesshari's spiritual history, caste records, and Sutensai doctrine going back five centuries as if consulting a perfect record. Once per long rest, you can share a specific memory from the archive with another creature by touch — they experience it as if they were there.
+---
 
-**Level 18: Channel Prior (Advanced)**
-Your Channel Prior now requires no rest to reuse — you can use it once per short rest. Additionally, you can invoke two Prior Ascended simultaneously once per long rest, combining their effects.
+### Full Card Reference
 
-**Level 19: Ability Score Improvement**
+**Absolute Witness** — Tier 3 (3 AP) | Control: Target up to three creatures within 40 feet. Each takes 12 + VEIL social damage and is Silenced and Staggered. Cost: pay 16 HP instead of 3 AP. *Unlock: Level 17*
 
-**Level 20: The Last Reading**
-Once per long rest, you can perform what the Sutensai calls the Final Reading — a full accounting of a creature's entire spiritual existence. This requires either a willing subject or a restrained one. The reading takes 1 minute. On completion: you learn everything about the subject's Echomind going back to its formation — every choice, every violation, every truth and lie they have told in a spiritual context, and the current state of their soul. This is absolute. There is no defense against it except not having a soul. The subject knows they have been read completely. Most people find this either liberating or shattering, depending on what you find. You may choose, after the reading, to share a formal Sutensai judgment: if you judge the creature absolved, they are freed from any spiritual contamination, curse, or binding they carry. If you judge them condemned, every Sutensai-affiliated creature within 1 mile becomes aware of their specific crimes. Both judgments have the force of formal Sutensai law.
+**Afterlife Condemnation** — Tier 3 (3 AP) | Resonant Attack: Deal 24 + RESONANCE resonant damage to one target. Apply Vulnerable 5 and Expose 5. Target cannot receive healing until your next turn. *Unlock: Level 16*
+
+**Afterlife Inquiry** — Tier 1 (1 AP) | Utility: Ask the GM one yes/no question about a named dead individual. Answer arrives as resonant impression at start of your next turn. *Unlock: Level 2*
+
+**Archive Pull** — Tier 1 (1 AP) | Utility: Remove one debuff (Silence, Stagger, Root, or Expose) from yourself or one ally within 20 feet. Gain Guard 3 + RESONANCE. *Unlock: Level 8*
+
+**Authority Seal** — Tier 1 (1 AP) | Social Control: Deal 4 + VEIL social damage to one target within 30 feet. Apply Root. Target cannot close distance this turn. *Unlock: Level 2*
+
+**Caste Condemnation** — Tier 2 (2 AP) | Social Control: Deal 10 + VEIL social damage to one target within 30 feet. Apply Expose 4. All allies within 20 feet may play one 0-AP card as a free reaction. *Unlock: Level 7*
+
+**Channel Prior** — Tier 3 (3 AP) | Signature: Choose one effect: (A) 18 + RESONANCE resonant damage to all enemies in 25 feet. (B) Stagger and Root all enemies in 25 feet. (C) Restore 10 + RESONANCE HP to all allies in 25 feet. *Unlock: Level 9*
+
+**Channel Prior (Twin)** — Tier 3 (3 AP) | Signature: Invoke two Prior effects simultaneously. Deal 20 + RESONANCE resonant damage to all enemies in 25 feet and restore 8 + RESONANCE HP to all allies in 25 feet. *Unlock: Level 18*
+
+**Compelled Testimony** — Tier 2 (2 AP) | Social Control: Deal 10 + VEIL social damage to one target within 30 feet. Apply Vulnerable 3. Target cannot use concealment or Veil effects this round. *Unlock: Level 13*
+
+**Doctrinal Purge** — Tier 3 (3 AP) | Resonant Attack: Deal 18 + RESONANCE to one target and 9 + RESONANCE to all adjacent enemies. Cost: pay 14 HP instead of 3 AP. *Unlock: Level 14*
+
+**Doctrinal Silence** — Tier 1 (1 AP) | Control: Apply Silence to one target within 30 feet until start of your next turn. *Unlock: Level 3*
+
+**Doctrinal Violence** — Tier 2 (2 AP) | Resonant Attack: Deal 14 + RESONANCE resonant damage to one target within 40 feet. Cost: pay 8 HP instead of 2 AP. *Unlock: Level 6*
+
+**Echomind Reading** — Tier 1 (1 AP) | Utility: Learn target HP tier, spiritual violations, and resonant alignment within 30 feet. Your VEIL cards against this target deal +2 damage. *Unlock: Level 1 (Starting Card)*
+
+**Echomind Suppress** — Tier 2 (2 AP) | Control: Apply Silence and Stagger to one target within 40 feet until start of your next turn. Target loses 1 AP if they have Resonance cards. *Unlock: Level 7*
+
+**Inquisitor's Eye** — Tier 1 (1 AP) | Passive: Sense lies about spiritual matters within 30 feet. Once per combat, cancel non-damage riders on one enemy Utility or Social card within range. *Unlock: Level 6*
+
+**Institutional Reckoning** — Tier 3 (3 AP) | Social Control: Deal 18 + VEIL social damage to all enemies within 40 feet. Apply Stagger and Expose 3 to each. All allies within 30 feet gain Guard 6 + RESONANCE. *Unlock: Level 19*
+
+**Institutional Weight** — Tier 2 (2 AP) | Social Control: Deal 12 + VEIL social damage to all enemies within 30 feet not in melee with an ally. Apply Stagger to each. *Unlock: Level 11*
+
+**Iron Sutra Aura** — Tier 2 (2 AP) | Passive: While in hand, you and allies within 20 feet gain Guard 2 at the start of each of your turns. Spiritual/Resonant attacks against the group deal −RESONANCE damage. *Unlock: Level 12*
+
+**Iron Ward Pulse** — Tier 1 (1 AP) | Defense: Apply Guard 4 + RESONANCE to yourself or one ally within 20 feet. Spirits and Afterlife entities cannot enter the warded space until your next turn. *Unlock: Level 1 (Starting Card)*
+
+**The Full Weight** — Tier 3 (3 AP) | Signature: Deal 20 + RESONANCE resonant damage to one condemned target within 40 feet. Apply Expose 5 and Vulnerable 4. All allies within 30 feet gain Guard 5 + RESONANCE. *Unlock: Level 14*
+
+**The Last Reading** — Tier 3 (3 AP) | Signature (Capstone): Deal 28 + RESONANCE resonant damage. Apply Expose 6, Vulnerable 5, Silence, Stagger, Root. Choose Absolved (heal allies) or Condemned (ongoing damage). Cost: pay 20 HP instead of 3 AP. *Unlock: Level 20*
+
+**Living Archive** — Tier 2 (2 AP) | Utility: Remove all debuffs from yourself. Gain Shield 10 + RESONANCE. Echomind Reading is free (0 AP) and reveals full HP values for rest of combat. *Unlock: Level 18*
+
+**Prior's Conduit** — Tier 2 (2 AP) | Resonant Attack: Deal 15 + RESONANCE resonant damage. Echo (repeat base damage once). Cost: pay 10 HP instead of 2 AP. *Unlock: Level 15*
+
+**Prior's Echo** — Tier 2 (2 AP) | Resonant Attack: Deal 13 + RESONANCE resonant damage in a 20-foot cone. All targets take Expose 2. Cost: pay 10 HP instead of 2 AP. *Unlock: Level 8*
+
+**Radiant Sentence** — Tier 2 (2 AP) | Resonant Attack: Deal 12 + RESONANCE resonant damage to one target within 50 feet. If Echomind Reading was performed on this target, apply Vulnerable 3. *Unlock: Level 5*
+
+**Reading Mastery** — Tier 2 (2 AP) | Utility: All your cards against one target deal +RESONANCE bonus damage for the rest of combat. Apply Expose 3 immediately. *Unlock: Level 11*
+
+**Rite of Passage** — Tier 2 (2 AP) | Utility: Seal a recently dead creature against reanimation this combat. Allies who witness the rite gain Regen 2 until end of their next turn. *Unlock: Level 5*
+
+**Rite of Peace** — Tier 2 (2 AP) | Defense: Apply Guard 8 + RESONANCE to yourself and all allies within 20 feet. Remove one debuff from each. *Unlock: Level 17*
+
+**Rite of Watching** — Tier 2 (2 AP) | Utility: Know HP tier of all enemies at all times for rest of combat. Your Resonant Attack cards gain Pierce 3. *Unlock: Level 13*
+
+**Sealed Departure** — Tier 2 (2 AP) | Utility: Seal one dead or dying creature against spiritual exploitation. Remove all spiritual debuffs from allies within 20 feet. Restore 6 + RESONANCE HP to one ally within 20 feet. *Unlock: Level 12*
+
+**Spiritual Arrest** — Tier 3 (3 AP) | Signature: Deal 16 + RESONANCE resonant damage to one target within 40 feet. Apply Stagger, Root, and Silence simultaneously. Cost: pay 12 HP instead of 3 AP. *Unlock: Level 10*
+
+**Spiritual Stricture** — Tier 2 (2 AP) | Resonant Attack: Deal 10 + RESONANCE resonant damage to one target within 40 feet. Apply Stagger. Cost: pay 4 HP in addition to 1 AP (costs 1 AP + 4 HP). *Unlock: Level 3*
+
+**Sutra Annihilation** — Tier 3 (3 AP) | Resonant Attack: Deal 26 + RESONANCE resonant damage to one target. Apply Vulnerable 5, Expose 5, and Silence. Cost: pay 18 HP instead of 3 AP. *Unlock: Level 19*
+
+**Sutra Condemnation** — Tier 1 (1 AP) | Resonant Attack: Deal 5 + RESONANCE resonant damage. If target has a spiritual violation active, apply Expose 2. *Unlock: Level 1 (Starting Card)*
+
+**Sutra of Binding** — Tier 2 (2 AP) | Control: Apply Vulnerable 4 and Root to one target within 40 feet. Damage the target takes is increased by your RESONANCE while bound. *Unlock: Level 10*
+
+**Sutra Ward** — Tier 1 (1 AP) | Reaction: *Trigger: An ally within 20 feet is targeted by a Resonant or Signal attack.* Reduce incoming damage by 5 + RESONANCE. Apply Guard 3 to that ally. *Unlock: Level 4*
+
+**Sutensai's Truth** — Tier 3 (3 AP) | Social Control: Deal 16 + VEIL social damage to one target within 40 feet. Apply Silence, Stagger, and Expose 4. Target cannot use social or deception card riders for rest of combat. *Unlock: Level 15*
+
+**Veil Authority** — Tier 2 (2 AP) | Control: Target one spiritual or Afterlife-adjacent creature within 30 feet. They obey one direct command on their next turn. Against standard enemies: apply Stagger and Expose 3 instead. *Unlock: Level 9*
+
+**Voice of the Dead** — Tier 3 (3 AP) | Signature: Deal 22 + RESONANCE resonant damage in a 30-foot radius. Stagger all enemies in range. All allies in range gain Regen 4 until end of their next turn. *Unlock: Level 16*
+
+**Weight of Law** — Tier 2 (2 AP) | Social Control: Deal 8 + VEIL social damage to one target within 30 feet. Apply Expose 3 and Stagger. Cost: pay 6 HP instead of 2 AP. *Unlock: Level 4*
 
 ---
 

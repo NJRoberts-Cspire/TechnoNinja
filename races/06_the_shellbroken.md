@@ -45,54 +45,38 @@ The identity mechanic — building a self from scratch — is the Shellbroken's 
 
 ---
 
-## D&D 5E Racial Traits
+---
 
-**Ability Score Increase:** +1 to three different ability scores of your choice. The Shellbroken's identity is self-constructed; their capabilities emerge from deliberate cultivation rather than inherited tendency.
+## CARD SYSTEM: The Shellbroken
 
-**Age:** Shellbroken are already adults at the time of liberation. Their ongoing age is determined by their physical form (typically Forged). The question of whether the years under the Author's control "count" toward their felt age is one each Shellbroken resolves privately.
+**Stat Bonuses:** +1 FRAME, +1 RESONANCE
+**Hand Size Modifier:** +0
 
-**Alignment:** Shellbroken begin with no strong alignment tendency — they are, literally, starting from neutral. Over play, their alignment should develop through choice rather than be predetermined. This is the only race in Tesshari whose alignment is genuinely intended to shift and crystallize through play.
+### Passive Traits
 
-**Size:** Medium, as determined by their physical form.
+**Void-Touched Mind.** Psychic effects, mental intrusion, fear, and morale-based effects have no mechanical power over the Shellbroken. The Hollow Author's occupation has left the Shellbroken's inner territory already-claimed by their own rebuilt will — there is no purchase for outside influence where a self has been deliberately reconstructed. Effects with Frightened, Charmed, or Taunt keywords do not apply to the Shellbroken. Damage from psychic or resonance sources still applies normally.
 
-**Speed:** 30 feet.
+**Shell-State Awareness.** The Shellbroken can sense the presence of beings currently under the Hollow Author's control within 60 feet. This manifests as a physical sensation at the base of the skull — the same architecture used to puppet them now registers in reverse. The Shellbroken does not know which specific creature is controlled, only that a puppeted presence exists nearby.
 
-**Languages:** Tesshari Common and whatever regional dialect their body was raised speaking. Many Shellbroken gradually add a third language as part of their self-construction — something new, chosen, that belongs to who they are becoming rather than who they were.
+**Survivor's Clarity.** Once per combat, when the Shellbroken is reduced below half their maximum HP, they immediately gain Guard 4 as a free reaction. This triggers automatically and requires no card or action. It can only trigger once per combat regardless of how many times the Shellbroken crosses the threshold.
+
+### Race Cards
+
+#### Shell-Adjacent State
+**Tier 3 (3 AP) | Power | Race Card**
+
+**Effect:** The Shellbroken briefly re-enters the hollow state — not as a victim but as a controlled weapon. For 1 turn, the Shellbroken's presence becomes genuinely terrifying: all enemies within 20 feet must spend 1 AP to take any offensive action (they feel the wrongness of what stands before them). The Shellbroken's next attack this turn deals 8 + RESONANCE damage and applies Expose 3 and Stagger. If the target is under the Hollow Author's control, the attack also severs that control for 3 turns and the target acts independently for that duration. After this card resolves, the Shellbroken gains Vulnerable 2 until the start of their next turn — the re-entry has a cost.
+**Keywords:** Expose, Stagger, Dispel
+**Always Available:** Yes
 
 ---
 
-### Traits
+#### What Emptiness Knows
+**Tier 2 (2 AP) | Control | Race Card**
 
-**The Blank Slate (Signature Mechanic)**
-The Shellbroken's identity is under construction. At character creation, you receive 4 Identity Tokens. At the start of each session, you retain any remaining tokens and may gain additional ones (see below). Identity Tokens represent the crystallizing self — moments of genuine choice that define who you are.
-
-*Gaining Identity Tokens:*
-- You gain 1 Identity Token when you make a choice that defines your character in a significant way — not a tactical choice, but an identity choice. (Examples: refusing to betray an ally even under serious pressure; acting on a stated value at personal cost; forgiving or refusing to forgive something meaningful.)
-- You gain 1 Identity Token when you voluntarily share something true about yourself with another character.
-- The DM may award additional tokens for particularly resonant roleplay moments.
-
-*Spending Identity Tokens:*
-- **Certainty of Self:** Spend 1 Identity Token to add +1d6 to any saving throw against an effect that would control your mind, alter your personality, or suppress your will. You know who you are. You hold onto it.
-- **Constructed Expertise:** Spend 1 Identity Token to gain proficiency in a skill for the duration of a scene. This represents a facet of your constructed identity asserting itself — a capacity you have deliberately cultivated manifesting in a moment of need. You cannot use this for the same skill twice in the same session.
-- **Moment of Clarity:** Spend 2 Identity Tokens to gain advantage on any single roll. This represents complete internal alignment — a moment where who you are and what you are trying to do are in perfect accord.
-
-*Identity Tokens cap at 6.* Tokens do not reset — they are preserved. If you ever reach 6 tokens and maintain them, the DM should consider this a milestone indicating your character has developed a stable, genuine self.
-
-**Residual Channel**
-The Hollow Author's architecture remains in your body. It is dormant, but not dead. You can use this residual connection in the following ways:
-
-- **Passive Awareness:** When another creature under the Hollow Author's control is within 30 feet of you, you become aware of it. You don't know their identity or which creature it is — only that a puppeted presence is near. This awareness manifests as an uncomfortable resonance at the base of your skull.
-- **Channel Disruption:** As an action, you can attempt to disrupt the Author's connection to a controlled creature you can see within 30 feet of you. Make a contested Charisma check against the Hollow Author's Charisma modifier (the DM sets this, typically DC 15). On a success, you sever the Author's connection to that creature for 1 minute, during which time the creature either acts on its own judgment or is incapacitated (DM's call based on the individual's situation). After this minute, the Author may re-establish control normally. You can use this feature once per long rest. The Author is aware that this disruption occurred and knows it originated from a freed shell. Act accordingly.
-- **Channel Risk:** Once per session, the DM may call for a DC 12 Wisdom saving throw when you are in a situation of extreme stress or vulnerability. On a failure, you receive a fragmented transmission from the Hollow Author's network — a flash of information, instruction, or simply noise that you cannot determine the intent of. This is never direct control and never overrides player agency. It is information, possibly false, definitely dangerous, and entirely up to the player to act on or not.
-
-**Adaptive Survival**
-A person who has been a puppet and survived liberation has developed a resilience to violations of self that most beings never needed to develop. You have advantage on saving throws against enchantment spells and effects that would take control of your actions or alter your mental state. When you succeed on such a saving throw, you can use your reaction to immediately move up to half your speed without provoking opportunity attacks, as the survival instinct that freed you in the first place reasserts itself.
-
-**Built, Not Given**
-Because your capabilities are constructed rather than inherited, you develop skills with unusual intentionality. At 1st level, you gain proficiency in two additional skills of your choice. These represent what you have deliberately learned and chosen since liberation, and they are yours in a way that nothing before the break could be.
-
-**Unmarked History**
-Your body has a history you don't remember, which means that history can be both a liability and an asset. You have proficiency in Deception and have advantage on Deception checks made to deny involvement in events that occurred before your liberation. You also have advantage on Insight checks to identify when someone else is being controlled or coerced, as you have a somatic awareness of the tells that a hijacked will produces.
+**Effect:** The Shellbroken draws on specific knowledge that only comes from having been completely empty — from knowing what a self looks like from the outside. Target one enemy within 30 feet. The Shellbroken reads that target's next action before it occurs: the target's next card played this combat has its effect halved and its keywords negated. Additionally, all allies within 15 feet gain Guard (2 + RESONANCE) as the Shellbroken telegraphs the incoming threat. This card cannot be used on the same target more than once per combat.
+**Keywords:** Guard
+**Always Available:** Yes
 
 ---
 

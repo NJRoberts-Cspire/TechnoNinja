@@ -21,27 +21,496 @@ Among the common people, Oni Hunters occupy the space of necessary horror. In th
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM: Oni Hunter
 
-**Hit Die:** d10
-**Primary Ability:** Strength or Dexterity, Wisdom
-**Saving Throw Proficiencies:** Strength, Wisdom
-**Armor Proficiencies:** Wire-mesh armor, Layered plate, Enhancement-resistant weave
-**Weapon Proficiencies:** Resonant blades, circuit lances, disruption pulse arms, void-edge weapons, resonant whip, spiritual anchor tools
-**Tool Proficiencies:** Hunter's assessment kit (enhancement dissolution reading), Medic kit (enhancement trauma), Forge maintenance kit (basic)
-**Skills:** Choose 3 from Athletics, Insight, Investigation, Medicine, Perception, Religion (Iron Sutra), Stealth, Survival
+**HP Tier:** Balanced
+**Hand Size:** 6
+**Primary Stats:** RESONANCE (spiritual sensing, void-edge attacks, dissolution disruption), IRON (direct physical strikes against quarry)
+**HP Formula:** (FRAME × 8) + 10
 
-**Starting Equipment:**
-- A disruption weapon of your choice (void-edge blade or disruption pulse arm)
-- Wire-mesh armor
-- A hunter's assessment kit
-- A spiritual anchor (a device that localizes and weakens Iron Afterlife entities)
-- A medic kit (field)
-- 10 weight in trade-metal
+### Starting Hand
+
+- **Hunter's Mark** — passive that designates quarry and tracks them
+- **Dissolution Reading** — utility that reads the state of an Echomind
+- **Void Strike** — a disruption attack tuned for Shell-states and afterlife entities
 
 ---
 
-### Class Features by Level
+### Level Unlock List
+
+#### Level 1
+
+- Quarry's Weakness
+- Fieldwork
+
+#### Level 2
+
+- Shell-State Disruption
+- Afterlife Anchor
+
+#### Level 3
+
+- Enhancement Interrupt
+- Resonance Trace
+
+#### Level 4
+
+- Adaptive Hunting
+- Clinical Distance
+
+#### Level 5
+
+- Relentless Hunter
+- Void-Edge Attunement
+
+#### Level 6
+
+- Refined Assessment
+- Between the Hunts
+
+#### Level 7
+
+- Dissolution Immunity
+- Quarry's End
+
+#### Level 8
+
+- Perfect Hunt
+- Dark Read
+
+#### Level 9
+
+- Dissolution Resistance
+- Veil Sight
+
+#### Level 10
+
+- Anchor Protocol
+- Iron Tongue
+
+#### Level 11
+
+- Shell Sight
+- Network Read
+
+#### Level 12
+
+- Disruption Strike
+- Enhancement Override
+
+#### Level 13
+
+- Clean Dissolution
+- Absorbed Resonance
+
+#### Level 14
+
+- Partial Integration
+- Between Walker
+
+#### Level 15
+
+- The Mirror Breaks
+- Deep Dissolution
+
+#### Level 16
+
+- Hunt's End
+- Final Mark Preparation
+
+#### Level 17
+
+- No Body Left
+- Void Cascade
+
+#### Level 18
+
+- Edge of Living
+- Hunter's Apotheosis
+
+#### Level 19
+
+- The Last Quarry
+- Dissolution Nova
+
+#### Level 20
+
+- The Final Mark *(Capstone)*
+
+---
+
+### Full Card Reference
+
+---
+
+### Absorbed Resonance
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** You carry dissolution resonance from prior hunts — fragments of what you have ended, partially integrated. Your attacks against Shell-states and Iron Afterlife entities deal + RESONANCE additional damage. Incoming necrotic and psychic damage is reduced by your RESONANCE (minimum 0). Once per combat, the absorbed resonance may surface as a behavioral impression — a flash of the hunted creature's perspective (GM narrates; no mechanical penalty unless you choose to act on it).
+**Unlock:** Level 13
+
+---
+
+### Adaptive Hunting
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** Your Mark has evolved. Once per turn, as a free action, you may transfer your active Mark to any enemy you can see. When a marked creature ends their turn adjacent to you, you may make a Basic Attack against them at no AP cost (counts as your Basic Attack for the turn).
+**Unlock:** Level 4
+
+---
+
+### Afterlife Anchor
+*Tier 1 (1 AP) | Control*
+
+**Effect:** Deploy your spiritual anchor at a target within 30 feet. Apply Mark and Exposed 2 to the target. If the target is an Iron Afterlife entity, they also cannot use teleportation, phasing, or plane-shifting until the anchor is destroyed or removed. The anchor device itself is a physical object (HP 10, no defenses).
+**Keywords:** Mark, Expose 2
+**Unlock:** Level 2
+
+---
+
+### Anchor Protocol
+*Tier 2 (2 AP) | Control*
+
+**Effect:** Deploy up to three spiritual anchors in formation. Any Iron Afterlife entity within the anchor network (all three within 30 feet of each other) suffers Stagger, Expose 2, and cannot use movement abilities to leave the network's area. Entities already present when the network activates also take 8 + RESONANCE resonant damage.
+**Keywords:** Stagger, Expose 2
+**Unlock:** Level 10
+
+---
+
+### Between Walker
+*Tier 2 (2 AP) | Power*
+
+**Effect:** You step into the Iron Afterlife's resonant border layer while remaining physically present. Until your next turn: you can observe the Iron Afterlife layer (seeing all entities there), Iron Afterlife entities see you as one of their own and will not initiate attacks against you, and all your attacks deal + RESONANCE additional resonant damage as you strike from within their frequency.
+**Keywords:** —
+**Unlock:** Level 14
+
+---
+
+### Between the Hunts
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** The work has marked you in ways that have become practical. You can see the resonant echoes of recent deaths within 60 feet — where they occurred, how recently, a fragment of their final experience (GM provides). In combat: apply Expose 2 to all enemies in the encounter — you read their dissolution risk and find the cracks.
+**Keywords:** Expose 2
+**Unlock:** Level 6
+
+---
+
+### Clean Dissolution
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Your technique for ending Shell-states has been refined toward something almost gentle. Deal 14 + IRON damage. If this reduces a Shell-state to 0 HP, the dissolution is spiritually clean — no violent final discharge, no haunting residue. The Echomind fragments dissolve properly. Once per combat, this effect may apply to a non-Shell-state as well (GM ruling on appropriateness).
+**Keywords:** Pierce 4 (against Shell-states only)
+**Unlock:** Level 13
+
+---
+
+### Clinical Distance
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** You have developed the specific detachment required to do this work without being unmade by it. Fear effects caused by creatures with corrupted or absent Echominds automatically fail against you. Once per combat, when the GM would apply a psychological effect from witnessing a Shell-state or dissolution event, you may negate it.
+**Unlock:** Level 4
+
+---
+
+### Dark Read
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** You read an enemy's dissolution risk, enhancement failures, and combat patterns simultaneously. Apply Expose 2 to one target. Until the end of this combat, your first attack each round against this target deals + RESONANCE additional damage — you know exactly where the fractures are.
+**Keywords:** Expose 2
+**Unlock:** Level 8
+
+---
+
+### Deep Dissolution
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You reach into a target's Echomind-enhancement interface and accelerate what was already beginning. Deal 20 + RESONANCE resonant damage. Apply Stagger, Silence, and Overheat 3. If the target is a Shell-state or Resonance-Broken, this damage cannot be mitigated by Guard or Shield — the disruption is internal.
+**Keywords:** Stagger, Silence, Overheat 3, Pierce (vs Shell-states/Resonance-Broken)
+**Unlock:** Level 15
+
+---
+
+### Disruption Strike
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Your attack carries specifically designed disruption protocols. Deal 12 + IRON damage. Against a Shell-state, you may additionally attempt to disable one of their enhancement systems (GM determines available systems — one is taken offline for the remainder of the encounter). Shell-states do not recover Guard while you have them Marked.
+**Keywords:** Dispel (Shell-state enhancement system)
+**Unlock:** Level 12
+
+---
+
+### Dissolution Immunity
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** Your prolonged exposure to Echomind dissolution states has built a specific, structural resistance. No force in Tesshari can push your Echomind out of alignment with your enhancements. Dissolution-based control effects (Silence, Stagger from Shell-state or afterlife sources) have their duration reduced by 1 turn.
+**Unlock:** Level 7
+
+---
+
+### Dissolution Nova
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** The dissolution resonance you carry erupts outward in a burst that disrupts every Echomind in range. Deal 18 + RESONANCE resonant damage to all enemies within reach (calculated separately). Apply Stagger to all targets hit. Against Shell-states and Iron Afterlife entities, apply Expose 3 as well.
+**Keywords:** Stagger, Expose 3 (conditional)
+**Unlock:** Level 19
+
+---
+
+### Dissolution Reading
+*Tier 0 | Passive*
+
+**Always Active:** You read the state of a creature's Echomind-enhancement alignment as naturally as reading their face. In combat: once per turn as a free action, identify one enemy's dissolution stage, Shell-state status, or Iron Afterlife resonance (GM confirms). This information improves your targeting — your first attack against a newly-assessed target this turn deals + RESONANCE additional damage.
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Dissolution Resistance
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** Your long work with dissolution energy has made you specifically resilient. Incoming necrotic damage is reduced by your RESONANCE. Control effects sourced from your Echomind being targeted (Silence, mind-altering effects that work through resonance) are reduced in duration by 1 turn.
+**Unlock:** Level 9
+
+---
+
+### Edge of Living
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You have walked the edge between hunter and quarry long enough to stand there deliberately. Until your next turn: all your attacks deal + IRON + RESONANCE damage. You cannot be reduced below 1 HP (once per combat — not a Passive, this is a chosen moment). Apply Expose 4 to your Marked target. You may make a Basic Attack as part of this card's activation.
+**Keywords:** Expose 4, Fortify (temporary)
+**Unlock:** Level 18
+
+---
+
+### Enhancement Interrupt
+*Tier 1 (1 AP) | Control*
+
+**Effect:** You disrupt a specific enhancement system in one heavily-enhanced target. Apply Stagger — they cannot use Tier 2 or 3 cards until the start of their next turn as their system reboots. If your RESONANCE exceeds their SIGNAL, also apply Silence for 1 turn.
+**Keywords:** Stagger, Silence (conditional)
+**Unlock:** Level 3
+
+---
+
+### Enhancement Override
+*Tier 2 (2 AP) | Power*
+
+**Effect:** You reach into an adjacent Shell-state's enhancement network and force a brief reboot. Deal 10 + IRON damage. Apply Stagger for 2 turns. During the first turn of the Stagger, the Shell-state achieves a brief Echomind resurgence — a moment of self-awareness. They cannot act but can hear, understand, and speak. GM plays this moment. It may be the most important thing that happens in the encounter.
+**Keywords:** Stagger
+**Unlock:** Level 12
+
+---
+
+### Fieldwork
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Your work requires extended periods of solo operation. This card activates in out-of-combat contexts: set traps tuned for specific target types during a short rest (GM adjudicates effect), or move at full speed while tracking without penalty, or conduct a Resonance Trace on an escaped target (recover their direction and speed for 24 hours). In combat: deal 6 + IRON damage and apply Mark as you assess and commit.
+**Keywords:** Mark
+**Unlock:** Level 1
+
+---
+
+### Final Mark Preparation
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** You designate one target as your Final Mark. Until the end of this combat: your Basic Attack against this target deals + IRON + RESONANCE additional damage. You always know their position in the encounter. They cannot hide from you through any means — your assessment is complete and your Mark is absolute.
+**Keywords:** Mark (enhanced — cannot be removed)
+**Unlock:** Level 16
+
+---
+
+### Hunt's End
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** The hunt is complete. Deal 22 + IRON + RESONANCE damage to your Marked target. This attack cannot miss. Apply Bleed 3, Expose 3, and Vulnerable 3. If this reduces the target to 0 HP, the dissolution is clean — they pass correctly, without haunting residue.
+**Keywords:** Bleed 3, Expose 3, Vulnerable 3
+**Unlock:** Level 16
+
+---
+
+### Hunter's Apotheosis
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You have become more present in the space between living and dead than in either. Deal 24 + RESONANCE resonant damage to your Marked target. Apply Silence, Stagger, and Expose 4. All enemies in the encounter take 8 + RESONANCE resonant damage as your Echomind broadcasts at maximum disruption intensity.
+**Keywords:** Silence, Stagger, Expose 4
+**Unlock:** Level 18
+
+---
+
+### Hunter's Mark
+*Tier 0 | Passive*
+
+**Always Active:** You may designate one creature as your Marked quarry (free action, once per turn). While Marked: your attacks against that target deal + RESONANCE additional damage, you always know their position within 90 feet even if hidden, and your Perception checks regarding them automatically succeed. If your Marked target reaches 0 HP, you may immediately transfer the Mark to a new target as a free action.
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Iron Tongue
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** You speak directly with Iron Afterlife entities, including those incomprehensible from dissolution or age. In combat: open negotiation with an Iron Afterlife entity in the encounter (GM adjudicates — some will engage, some will not). On a successful negotiation, the entity ceases hostility. Additionally, apply Expose 2 to all hostile Iron Afterlife entities — your fluency reveals their angles.
+**Keywords:** Expose 2
+**Unlock:** Level 10
+
+---
+
+### Network Read
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** You read a Shell-state's enhancement network configuration on sight. Instantly learn: their former enhancement capabilities (GM provides their card suite), their current degradation level, and one specific vulnerability in their network (GM provides one weakness — a specific damage type, a disruption point, or a behavioral trigger). Apply Expose 1.
+**Keywords:** Expose 1
+**Unlock:** Level 11
+
+---
+
+### No Body Left
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** A hunter who has accepted what they are. Deal 22 + IRON damage. Apply Bleed 3 and Expose 3. This attack's damage cannot be reduced by resistances or immunities from Shell-states or Iron Afterlife entities — you have tuned specifically for what they are. Gain Regen 2 for 3 turns.
+**Keywords:** Bleed 3, Expose 3, Pierce (vs Shell-states/Iron Afterlife — all resistances)
+**Unlock:** Level 17
+
+---
+
+### Partial Integration
+*Tier 2 (2 AP) | Power*
+
+**Effect:** You deliberately channel a controlled burst of dissolution resonance through your system. Until your next turn: all your attacks deal maximum base damage, you cannot be frightened or charmed. After this card resolves, you must save against Overheat 1 (automatic — no roll, the cost is fixed). You accept it. This is the work.
+**Keywords:** Overheat 1 (mandatory cost)
+**Unlock:** Level 14
+
+---
+
+### Perfect Hunt
+*Tier 2 (2 AP) | Passive*
+
+**Always Active:** Your discipline is complete. Your attacks against your Marked target cannot be made at disadvantage by any means. You may maintain two active Marks simultaneously. When any creature in the encounter drops to 0 HP, you may immediately transfer one of your Marks to a new target as a free action.
+**Unlock:** Level 8
+
+---
+
+### Quarry's End
+*Tier 2 (2 AP) | Control*
+
+**Effect:** After landing a hit against your Marked target, press the disruption. Apply one of (your choice): **Grounded** — their movement speed becomes 0 until their next turn (Root); **Disrupted** — they cannot use Tier 2 or 3 cards until their next turn (Stagger); **Exposed** — apply Expose 3 until the start of your next turn.
+**Keywords:** Root, or Stagger, or Expose 3 (choose one)
+**Unlock:** Level 7
+
+---
+
+### Quarry's Weakness
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** You have studied the failure points of your common targets. Choose a type: Shell-states, Iron Afterlife entities, or heavily-enhanced humanoids. Against the chosen type, your attacks this combat apply Expose 1 on every hit. Additionally, once per combat, identify one target of the chosen type and gain one specific vulnerability about them (GM provides).
+**Keywords:** Expose 1 (on-hit, vs chosen type)
+**Unlock:** Level 1
+
+---
+
+### Refined Assessment
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Your Dissolution Reading has become instantaneous and precise. Perform a rapid field assessment of one target this turn (free, as part of this card). Your next attack against the assessed target deals + RESONANCE additional damage, and apply Expose 2 — you know exactly where to press.
+**Keywords:** Expose 2
+**Unlock:** Level 6
+
+---
+
+### Relentless Hunter
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** Your Marked quarry cannot escape through ordinary means. When your Marked target uses a movement ability or card, you may make a Basic Attack against them as a free action (once per round). Magical, technological, and resonant concealment methods do not prevent your Hunter's Mark from tracking their location.
+**Unlock:** Level 5
+
+---
+
+### Resonance Trace
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** After a target escapes your reach or combat, read the resonance traces left by their passage. You learn their direction of travel and approximate movement speed, persisting for 24 hours. In active combat: apply Mark and Expose 1 to the target as you read their resonant trail in real time.
+**Keywords:** Mark, Expose 1
+**Unlock:** Level 3
+
+---
+
+### Shell-State Disruption
+*Tier 1 (1 AP) | Control*
+
+**Effect:** When you hit a Shell-state or Resonance-Broken creature, apply Stagger — they cannot make reactions until the start of your next turn. Additionally, apply Expose 2 as you disrupt the enhancement cascade driving their behavior. This card may be played as a Reaction when a Shell-state attempts to act.
+**Keywords:** Stagger, Expose 2
+**Unlock:** Level 2
+
+---
+
+### Shell Sight
+*Tier 2 (2 AP) | Power*
+
+**Effect:** You see the world as Shell-states see it — stripped of social signal, reduced to movement and threat. Until your next turn: you see through walls and obstacles up to 60 feet (movement patterns only), and your attacks deal + RESONANCE additional damage. You must make a RESONANCE check (GM-set difficulty) to take the Help action while Shell Sight is active — the stripped perception removes social context.
+**Keywords:** —
+**Unlock:** Level 11
+
+---
+
+### The Final Mark
+*Tier 3 (3 AP) | Signature — Capstone*
+
+**Effect:** At the highest level of the Oni Hunter's practice, you have become the person who exists in the place where they hunt. Declare one target your Final Mark. For the rest of this combat: this target cannot be reduced to 0 HP by any source except you — all other damage stabilizes them at 1 HP. You always know their precise position. All your attacks against them deal + IRON + RESONANCE damage and apply Bleed 1 on every hit. When you finally strike them down, the dissolution is clean — they pass correctly, their Echomind intact. Once per combat.
+**Keywords:** Mark (absolute), Bleed 1 (on-hit)
+**Unlock:** Level 20
+
+---
+
+### The Last Quarry
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** You have hunted long enough to know what the last hunt feels like. Deal 24 + IRON + RESONANCE damage to your Marked target. Apply Expose 4, Bleed 3, and Vulnerable 2. Gain Regen 3 for 3 turns. If this attack reduces the target to 0 HP, you may immediately declare a new Final Mark as a free action.
+**Keywords:** Expose 4, Bleed 3, Vulnerable 2, Regen 3
+**Unlock:** Level 19
+
+---
+
+### The Mirror Breaks
+*Tier 2 (2 AP) | Power*
+
+**Effect:** You have reached the edge and chosen not to cross it. This choice, made consciously under pressure, has crystallized into something structural. Cleanse all dissolution-sourced debuffs from yourself. You are immune to Echomind dissolution for the rest of this combat — no force can push your Echomind out of alignment. Gain Fortify for 2 turns. Once per combat.
+**Keywords:** Cleanse, Fortify
+**Unlock:** Level 15
+
+---
+
+### Veil Sight
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** Your perception extends into the resonant layer of the Iron Afterlife. You can see Iron Afterlife entities regardless of their visibility status. You can read the emotional resonance of locations — whether something died nearby, approximately when, and whether the death was violent. Iron Afterlife entities recognize you as a Hunter on sight.
+**Unlock:** Level 9
+
+---
+
+### Void Cascade
+*Tier 3 (3 AP) | Signature*
+
+**Effect:** The void-edge quality your weapons have absorbed erupts outward. Deal 20 + RESONANCE resonant damage to all enemies within reach (calculated separately). Against Shell-states and Iron Afterlife entities, this damage cannot be mitigated by any resistance or immunity. Apply Expose 2 to all targets hit.
+**Keywords:** Expose 2, Pierce (vs Shell-states/Iron Afterlife — all resistances)
+**Unlock:** Level 17
+
+---
+
+### Void Strike
+*Tier 1 (1 AP) | Attack*
+
+**Effect:** A disruption strike tuned for the specific resonant frequencies of enhancement failure and spiritual dissolution. Deal 6 + IRON damage. Against Shell-states, Resonance-Broken individuals, and Iron Afterlife entities, add RESONANCE to the damage — the void-edge quality of your weapon finds exactly what it was built to find.
+**Keywords:** —
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Void-Edge Attunement
+*Tier 1 (1 AP) | Passive*
+
+**Always Active:** Your weapons have absorbed enough resonant disruption energy to carry a permanent void-edge quality. Your attacks against Shell-states, Resonance-Broken individuals, and Iron Afterlife entities deal + RESONANCE additional damage that cannot be reduced by any of those creatures' resistances or immunities.
+**Unlock:** Level 5
+
+---
+
+## Subclasses
 
 **Level 1: Hunter's Mark**
 You have developed the ability to read the specific resonance signatures that distinguish Shell-states, Resonance-Broken individuals, and Iron Afterlife entities from normal enhanced beings. As a bonus action, you can mark one creature you can see within 60 feet. While marked:

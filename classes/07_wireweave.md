@@ -21,165 +21,482 @@ Among the common people, Wireweave are often the keepers of informal communicati
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM: Wireweave
 
-**Hit Die:** d8
-**Primary Ability:** Intelligence, Dexterity
-**Saving Throw Proficiencies:** Intelligence, Dexterity
-**Armor Proficiencies:** Wire-mesh armor, Light enhancement skins
-**Weapon Proficiencies:** Resonant blades (short configuration), voidsteel tanto, wire-whip, pulse arms (basic), neural spike
-**Tool Proficiencies:** Wire Craft interface kit (mastery), forgery kit (digital), thieves' tools (enhancement access)
-**Skills:** Choose 4 from Deception, History (Wire systems), Insight, Investigation, Perception, Sleight of Hand, Stealth, Technology (Wire Craft)
+**HP Tier:** Technical
+**Hand Size:** 7
+**Primary Stats:** SIGNAL + EDGE
+**HP Formula:** (FRAME × 8) + 6
 
-**Starting Equipment:**
-- A neural spike and voidsteel tanto
-- Wire-mesh armor
-- A Wire Craft interface kit (quality)
-- A signal scrambler
-- A portable Wire relay node (allows field Wire access)
-- 12 weight in trade-metal
+### Starting Hand
+- Signal Skim
+- Ghost Step
+- Wire Lock
 
 ---
 
-### Class Features by Level
+### Level Unlock List
 
-**Wireweave Cantrips and the Weave System:**
-The Wireweave's abilities are powered by their Weave Port's charge capacity. Rather than spell slots, the Wireweave uses **Weave Charges** — a pool of computational and resonant energy that powers their Wire Craft abilities. This represents the actual physical load that Wire operations place on their enhancement network.
+#### Level 1
+- Interference Pulse
+- Surface Read
 
-**Weave Charge Pool:** 2 + your Intelligence modifier at level 1. This increases as follows: Level 1: 2+INT, Level 2: 4+INT, Level 3: 6+INT, Level 5: 8+INT, Level 7: 10+INT, Level 9: 12+INT, Level 11: 15+INT, Level 13: 17+INT, Level 15: 20+INT, Level 17: 22+INT, Level 20: 26+INT.
-You recover all Weave Charges on a long rest, and recover half your total charges (rounded down) on a short rest.
+#### Level 2
+- Ghost Tag
+- Signal Dart
 
-**Weave Save DC:** 8 + your proficiency bonus + your Intelligence modifier.
-**Weave Attack Bonus:** Your proficiency bonus + your Intelligence modifier.
+#### Level 3
+- Wire Walk
+- Blind Sensor
+
+#### Level 4
+- Enhancement Disrupt
+- Cascade Flicker
+
+#### Level 5
+- Signal Clone
+- Mirror Protocol
+
+#### Level 6
+- Deep Read
+- Wire Crash
+
+#### Level 7
+- Neural Spike
+- Redirect Feed
+
+#### Level 8
+- Signal Suppress
+- Phantom Signature
+
+#### Level 9
+- Wire Burn
+- System Override
+
+#### Level 10
+- Cascade Shutdown
+- Identity Theft
+
+#### Level 11
+- Protocol Ghost
+- Adaptive Intercept
+
+#### Level 12
+- Wire Sovereign
+- Network Domination
+
+#### Level 13
+- Neural Plague
+- Signal Mirror
+
+#### Level 14
+- Wire Anchor
+- Living Node
+
+#### Level 15
+- Iron Afterlife Touch
+- Cascade Architect
+
+#### Level 16
+- Signal Fortress
+- Deep Immersion
+
+#### Level 17
+- Echomind Intercept
+- Wire Flood
+
+#### Level 18
+- Total Override
+- Ghost Sovereign
+
+#### Level 19
+- Network Collapse
+- The Weave Speaks
+
+#### Level 20
+- The Architect (Capstone)
 
 ---
 
-**Level 1: Wire Interface**
-Your Weave Port allows you to interface with Wire Craft systems. You can:
-- Sense the presence and approximate nature of any Wire network within 60 feet.
-- Communicate through any Wire network you are connected to as easily as speaking aloud.
-- Detect active monitoring within the Wire networks you inhabit.
-- Read surface-level data from unsecured Wire nodes within 60 feet (no action required — it is passive background awareness).
-
-**Level 1: Weave Tricks (Cantrip equivalents)**
-You can perform the following Wire Craft operations at will, with no Weave Charge cost:
-- **Signal Ping:** Send a short message (25 words) through any connected Wire network to any recipient whose Weave signature you know, instantaneously.
-- **Interference:** Create a momentary disruption in a mechanical system within 30 feet — a brief flicker of lights, a momentary hesitation in a locking mechanism, a sensor glitch. This lasts 1 round and has no lasting effect.
-- **Surface Skim:** Read the most recent data from a Wire node you can touch, gaining the most recently accessed information.
-- **Identity Tag:** Make one object emit a false Wire identity signature of your choice for 1 hour.
-
-**Level 1: Weave Abilities**
-You know three Weave abilities from the following list. You learn additional abilities as you level (total known: 3 at level 1, 4 at level 3, 5 at level 5, 6 at level 7, 7 at level 9, 8 at level 11, 9 at level 13, 10 at level 15, 11 at level 17, 12 at level 20).
-
-**Weave Ability List:**
-
-*Charge Cost 1:*
-- **Wire Lock:** Lock or unlock any Wire-controlled door, gate, or container within 60 feet. Duration: until changed.
-- **Blind Sensor:** Disable one Wire-connected sensor (camera, motion detector, signature scanner) for 1 hour. Range: 60 feet.
-- **Signal Burst:** Release a pulse of Wire disruption in a 15-foot cone. Enhanced creatures in the area make an Intelligence save or are unable to use enhancement features until the end of their next turn.
-- **Data Read:** Access one piece of information stored in a Wire node within 60 feet. This information must have been recorded at some point.
-- **Ghost Tag:** Apply an invisible Wire tag to one creature. You always know that creature's location within 1 mile for 24 hours.
-- **System Speak:** Communicate with and issue commands to automated Wire-controlled systems (doors, defenses, utilities) within 120 feet as if you were an authorized user.
-
-*Charge Cost 2:*
-- **Wire Crash:** Attempt to crash a Wire system within 60 feet. Systems make a "saving throw" with an effective modifier equal to their security rating (DM determines 0–6; 0 is unsecured, 6 is military-grade). On a failed save against your Weave DC, the system goes offline for 1d10 minutes.
-- **Enhancement Disrupt:** Target one enhanced creature within 60 feet. They make an Intelligence save or one specific enhancement system (DM determines) goes offline for 1 minute.
-- **Wire Walk:** Step into the Wire network and emerge from a different connected node within 300 feet. You are visible at neither location during the transition. Transit takes your full movement.
-- **Signal Clone:** Create a convincing false Wire presence — a ghost signal that registers as a specific person or entity in Wire monitoring systems. The clone can move along the network as you direct (bonus action to update location) for up to 1 hour.
-- **Deep Read:** Perform a comprehensive data extraction from any Wire system within 60 feet. You learn all unencrypted information stored in the system. Encrypted data requires a DC 15 Intelligence check.
-- **Neural Spike:** (Requires the neural spike weapon) Make a Wire-enhanced melee attack. On a hit, deals 2d8 lightning-analog damage and the target makes an Intelligence save or is incapacitated until the end of their next turn.
-
-*Charge Cost 3:*
-- **Wire Burn:** Release a Wire cascade surge targeting all enhanced creatures in a 30-foot radius. Each makes an Intelligence save or takes 4d10 lightning-analog damage (half on success). This also briefly crashes all automated systems in the radius.
-- **System Override:** Take administrative control of one Wire system within 120 feet for 1 hour. While controlled, the system obeys your commands and denies access to all other users.
-- **Identity Theft:** Copy and project another creature's complete Wire identity, including enhancement signature, access codes, and registered authority, for up to 8 hours. Requires 10 minutes of Wire proximity to the target.
-- **Wire Anchor:** Create a persistent Wire node at your current location. For the next 24 hours, you can Wire Walk to this location from any connected Wire system, regardless of distance.
-- **Cascade Shutdown:** Attempt to shut down all enhancement activity in a 15-foot radius sphere centered on a point within 60 feet. Each affected enhanced creature makes a Constitution save or all their enhancement-based features are suppressed for 1 minute (can retry save at end of each turn).
-
-*Charge Cost 4:*
-- **Iron Afterlife Touch:** Briefly access the boundary of the Iron Afterlife through the Wire. For 1 minute, you can see all creatures who have recently died within 300 feet as Echomind echoes, ask them one question each, and locate their remains or last-known position.
-- **Wire Fortress:** Establish total Wire dominance of a 300-foot area. For 1 hour, all Wire systems in the area obey you, all monitoring in the area reports to you, and any creature attempting to use Wire abilities in the area must contest your Weave DC.
-- **Neural Plague:** Target one enhanced creature within 60 feet. They make an Intelligence save or their enhancement network begins a cascade failure over the next minute — they lose access to one class feature per round until the cascade is stopped (DC 15 Constitution save at the end of each round) or all features are suppressed.
+### Full Card Reference
 
 ---
 
-**Level 2: Wire Awareness**
-Your passive Wire sense has sharpened. You are always aware of:
-- Active monitoring within 60 feet.
-- Creatures attempting to access Wire systems within 30 feet.
-- Whether any Wire communication mentioning your name or identity signature is passing through networks within 300 feet (you don't hear the content, just that it's happening).
+### Adaptive Intercept
+*Tier 2 (2 AP) | Control | Reaction*
 
-**Level 3: Wireweave Path**
-You choose your Wireweave Path subclass. See Subclasses below.
+**Effect:** Triggered when a target within 60 feet uses a Signal or Resonance card. Redirect that card's effect to a target of your choice within range, or suppress it entirely. Suppressed card is wasted.
+**Keywords:** Silence
+**Unlock:** Level 11
 
-**Level 4: Ability Score Improvement**
-Increase one ability score by 2, or two ability scores by 1 each.
+---
 
-**Level 5: Extended Wire**
-Your Wire Walk range increases to 600 feet. Your Signal Ping range becomes unlimited (any Wire network on the same plane). Your Weave ability known count and Charge Pool increase as noted above.
+### Blind Sensor
+*Tier 1 (1 AP) | Utility*
 
-**Level 6: Wireweave Path Feature**
-Your subclass grants an additional feature at this level.
+**Effect:** Disable one Wire-connected sensor or automated system within 60 feet for the scene. While disabled, it cannot transmit data, trigger alarms, or take actions. Out of combat, this lasts 1 hour.
+**Keywords:** —
+**Unlock:** Level 3
 
-**Level 7: Wire Shield**
-Your Weave Port's signal monitoring extends to personal protection. When you are targeted by an attack, you can expend 1 Weave Charge as a reaction to receive tactical data on the incoming strike — you add your Intelligence modifier to your AC against that attack. Additionally, you have advantage on Intelligence saving throws.
+---
 
-**Level 8: Ability Score Improvement**
-As level 4.
+### Cascade Architect
+*Tier 3 (3 AP) | Control*
 
-**Level 9: Deep Wire Immersion**
-When you enter the Wire through Wire Walk or Wire Entry, you can enter a Deep Immersion state. In Deep Immersion:
-- Your Wire presence operates at doubled speed (120 feet per round in digital space).
-- You can perform Wire abilities from within Wire space, projecting their effects into the physical world (using your Wire-presence as the origin point rather than your physical body).
-- Your physical body is protected by a Wire feedback loop — it is difficult to harm physically while you are in Deep Immersion (attackers have disadvantage against your physical body, though it is unconscious and has AC 10).
+**Effect:** Trigger a Wire cascade through all Signal-connected targets within 120 feet. Each takes 10 + SIGNAL damage and gains Silence for 1 round. Automated systems crash for the scene.
+**Keywords:** Silence, Pierce 4
+**Unlock:** Level 15
 
-**Level 10: Wireweave Path Feature**
-Your subclass grants an additional feature at this level.
+---
 
-**Level 11: Adaptive Protocol**
-Once per short rest, you can analyze a creature's enhancement system during combat. As a bonus action after you have hit them or they have used an enhancement ability, you identify a protocol weakness. For the next minute:
-- Your Weave abilities targeting that creature are made at advantage.
-- That creature's saving throws against your Weave abilities are made at disadvantage.
-- You know their current Weave Charge equivalent (if any) and remaining class feature availability.
+### Cascade Flicker
+*Tier 1 (1 AP) | Control*
 
-**Level 12: Ability Score Improvement**
-As level 4.
+**Effect:** Target one enhanced creature within 60 feet. Apply Stagger. Their Signal and Resonance cards cost 1 additional AP this turn.
+**Keywords:** Stagger
+**Unlock:** Level 4
 
-**Level 13: Wire Sovereign**
-You have achieved a level of Wire authority that the Market's official hierarchy does not grant but cannot practically revoke. You gain:
-- You can access any Wire system (including military-grade) with a DC 17 Intelligence check (down from 20 or higher for most military systems).
-- When you take control of a system, the duration is permanent until you release control or the system is physically destroyed.
-- You can revoke any other user's Wire access as a bonus action if they are connected to a network you control.
+---
 
-**Level 14: Wireweave Path Feature**
-Your subclass grants an additional feature at this level.
+### Cascade Shutdown
+*Tier 3 (3 AP) | Control*
 
-**Level 15: The Living Network**
-Your own enhancement network has become a Wire node — you are, in a limited sense, a piece of Wire infrastructure. You gain:
-- Other Wireweave and creatures with Wire access can route communications through you (you are aware of this, can listen if you choose, and can block it).
-- You can extend your Wire Awareness to all creatures who pass through your network node, learning their identity signature and current enhancement state.
-- Your Weave Charges now regenerate at a rate of 1 per minute in addition to short/long rest recovery.
+**Effect:** All enhanced creatures within 30 feet of a point you can see within 60 feet make a SIGNAL contest (oppose with your SIGNAL). Failures: 18 + SIGNAL damage and Silence for 2 rounds. Successes: Stagger only.
+**Keywords:** Silence, Stagger
+**Unlock:** Level 10
 
-**Level 16: Ability Score Improvement**
-As level 4.
+---
 
-**Level 17: Cascade Architect**
-You can construct Wire Craft cascades — effects that propagate through networks rather than operating point-to-point. When you use a Wire Crash, Wire Burn, or Cascade Shutdown ability, you can choose to make it cascading: it propagates through all Wire-connected systems and enhanced creatures within a 300-foot radius, potentially affecting all of them. The DM adjudicates cascading effects — the base ability affects the primary target, secondary targets make saves at +4 bonus.
+### Deep Immersion
+*Tier 3 (3 AP) | Utility | Signature*
 
-**Level 18: Wireweave Path Feature**
-Your subclass grants an additional feature at this level.
+**Effect:** Project your consciousness fully into the Wire network. Your physical body gains Guard 12. Your Wire-presence can move to any connected node within 300 feet and originate card effects from that location. Lasts until you end it as a free action or take damage exceeding your Guard.
+**Keywords:** Guard 12
+**Unlock:** Level 16
 
-**Level 19: Ability Score Improvement**
-As level 4.
+---
 
-**Level 20: The Architect**
-At the apex of the Wireweave's development is this: the Wire no longer has an outside, from your perspective. You are in it. It is in you. The distinction is genuinely unclear and largely irrelevant.
+### Deep Read
+*Tier 2 (2 AP) | Utility*
 
-Mechanically:
-- Your Weave Charge Pool becomes 30 + your Intelligence modifier.
-- All Weave abilities cost 1 fewer Charge than listed (minimum 0; 0-cost abilities remain free).
-- You can use Wire Walk as a bonus action (instead of an action).
-- Once per long rest, you can temporarily become the Wire — your physical body dissolves into digital signal for up to 1 hour. During this time, you are the Wire Craft network within 1 mile. You perceive everything, control everything connected, and cannot be physically harmed. You return to physical form at any location within 1 mile that you choose. When you return, make a DC 15 Wisdom saving throw. On a failure, you struggle to remember where the Wire ends and you begin for 1d4 hours (disadvantage on all Wisdom checks and saves during this period).
+**Effect:** Perform a comprehensive data extraction from any Wire system within 60 feet. You learn all stored information in the system. Encrypted data is also accessible. Out of combat, this provides the GM with a signal to deliver scene-relevant intelligence.
+**Keywords:** —
+**Unlock:** Level 6
+
+---
+
+### Echomind Intercept
+*Tier 2 (2 AP) | Control*
+
+**Effect:** Target one enhanced creature within 60 feet. Their Echomind connection is disrupted. They cannot use Resonance cards this round and take 12 + SIGNAL damage. Apply Expose 3 to all Resonance damage they receive until end of their next turn.
+**Keywords:** Expose 3, Silence
+**Unlock:** Level 17
+
+---
+
+### Enhancement Disrupt
+*Tier 2 (2 AP) | Control*
+
+**Effect:** Target one enhanced creature within 60 feet. Deal 10 + SIGNAL damage. Apply Stagger. The target's highest-cost card costs +1 AP next turn.
+**Keywords:** Stagger
+**Unlock:** Level 4
+
+---
+
+### Ghost Step
+*Tier 1 (1 AP) | Mobility*
+
+**Effect:** Move up to 30 feet without triggering reactions. You leave no Wire trace — sensor systems do not register this movement.
+**Keywords:** —
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Ghost Sovereign
+*Tier 3 (3 AP) | Utility | Signature*
+
+**Effect:** Become completely invisible to all Wire systems, sensors, and enhancement-detection for the scene. While active, enemy Signal and Control cards cannot target you unless the attacker has direct physical line of sight. Apply Veil to yourself each round.
+**Keywords:** Veil
+**Unlock:** Level 18
+
+---
+
+### Ghost Tag
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Apply an invisible Wire tag to one creature within 60 feet. While tagged, you know their exact position within 300 feet. Tagged enemies cannot become hidden from you. Lasts until the end of the scene or until dispelled.
+**Keywords:** Mark
+**Unlock:** Level 2
+
+---
+
+### Identity Theft
+*Tier 3 (3 AP) | Control | Utility*
+
+**Effect:** Copy one target creature's complete Wire identity signature. For the scene, you register as that creature to all Wire systems, sensors, and enhancement scanners. Additionally, once this scene, force one enemy with a Wire system to treat you as an ally for 1 round (they cannot target you with hostile cards during that round).
+**Keywords:** —
+**Unlock:** Level 10
+
+---
+
+### Interference Pulse
+*Tier 1 (1 AP) | Control*
+
+**Effect:** Release a Wire disruption pulse in a 15-foot cone from you. Enhanced creatures in the area take 5 + SIGNAL damage and gain Stagger.
+**Keywords:** Stagger
+**Unlock:** Level 1
+
+---
+
+### Iron Afterlife Touch
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** Access the boundary between the Wire and the Iron Afterlife. You perceive all Echomind echoes of creatures who have died within 300 feet in the last 24 hours. Out of combat: ask each echo one question. In combat: you may ask one echo one yes/no question as a free action.
+**Keywords:** —
+**Unlock:** Level 15
+
+---
+
+### Living Node
+*Tier 2 (2 AP) | Utility | Passive*
+
+**Effect:** Your enhancement network becomes a Wire relay. You are aware of all Wire-active creatures within 120 feet and can route Signal cards through any of them as if they were your origin point. Enemies within 120 feet cannot become hidden from you via Wire means.
+**Keywords:** —
+**Unlock:** Level 14
+
+---
+
+### Mirror Protocol
+*Tier 2 (2 AP) | Control | Reaction*
+
+**Effect:** Triggered when a Signal Attack card targets you or an ally within 30 feet. Reflect that card's base damage back at the attacker. You take no damage from the reflected card.
+**Keywords:** —
+**Unlock:** Level 5
+
+---
+
+### Network Collapse
+*Tier 3 (3 AP) | Control*
+
+**Effect:** All Wire-connected enemies within 120 feet take 20 + SIGNAL damage and gain Silence for 2 rounds. Automated Wire systems in the area crash for the rest of the scene. Enemies under Silence also lose 1 AP from their next turn.
+**Keywords:** Silence, Pierce 5
+**Unlock:** Level 19
+
+---
+
+### Network Domination
+*Tier 3 (3 AP) | Control | Utility*
+
+**Effect:** Take administrative control of all Wire systems within 200 feet for the scene. Controlled systems obey your mental commands as a free action. Enemy Wire Craft cards used within the area must first overcome your SIGNAL — if your SIGNAL exceeds theirs, those cards are suppressed instead.
+**Keywords:** —
+**Unlock:** Level 12
+
+---
+
+### Neural Plague
+*Tier 3 (3 AP) | Control*
+
+**Effect:** Target one enhanced creature within 60 feet. Deal 14 + SIGNAL damage. Apply Overheat 3. If the target already has Overheat, they immediately lose 1 AP from their next turn and gain Stagger.
+**Keywords:** Overheat 3, Stagger
+**Unlock:** Level 13
+
+---
+
+### Neural Spike
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Wire-enhanced melee strike. Deal 12 + SIGNAL damage. If this card hits an already-Staggered target, apply Silence for 1 round.
+**Keywords:** Stagger, Silence
+**Unlock:** Level 7
+
+---
+
+### Phantom Signature
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** Create a convincing false Wire presence that moves along the network as you direct. Enemies targeting Wire signatures must succeed on a SIGNAL contest against your SIGNAL or spend their targeting card on the phantom instead. Lasts until end of scene or until three attacks are wasted on it.
+**Keywords:** —
+**Unlock:** Level 8
+
+---
+
+### Protocol Ghost
+*Tier 2 (2 AP) | Mobility*
+
+**Effect:** Step into the Wire and emerge at any connected node within 120 feet. During transit you cannot be targeted. On arrival, apply Veil — the first hostile card targeting you this turn loses all riders.
+**Keywords:** Veil
+**Unlock:** Level 11
+
+---
+
+### Redirect Feed
+*Tier 2 (2 AP) | Control | Reaction*
+
+**Effect:** Triggered when an enemy uses a Wire Craft or Signal card within 60 feet. You hijack the feed: choose a new valid target for that card within its original range. The card resolves normally against your chosen target instead.
+**Keywords:** —
+**Unlock:** Level 7
+
+---
+
+### Signal Clone
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** Create a perfect false Wire identity that moves along the network. Enemies cannot distinguish the clone from you via Wire. Additionally, once this scene, misdirect one enemy's next Signal Attack toward the clone — the attack is wasted.
+**Keywords:** —
+**Unlock:** Level 5
+
+---
+
+### Signal Dart
+*Tier 1 (1 AP) | Attack*
+
+**Effect:** Fire a targeted signal spike at one creature within 60 feet. Deal 6 + SIGNAL damage. Apply Expose 1.
+**Keywords:** Expose 1
+**Unlock:** Level 2
+
+---
+
+### Signal Fortress
+*Tier 3 (3 AP) | Control | Utility*
+
+**Effect:** Establish total Wire dominance in a 300-foot radius for the scene. All Wire systems obey you. All Signal cards used within the area by enemies suffer -4 to their base damage. Any enemy attempting a Wire Craft action must contest your SIGNAL or fail.
+**Keywords:** —
+**Unlock:** Level 16
+
+---
+
+### Signal Mirror
+*Tier 3 (3 AP) | Control*
+
+**Effect:** For 1 round, every Signal Attack card targeting you or an ally within 30 feet is mirrored back at its source at full damage. You and allies take no damage from mirrored cards. Applies to up to 3 incoming cards this round.
+**Keywords:** —
+**Unlock:** Level 13
+
+---
+
+### Signal Skim
+*Tier 1 (1 AP) | Attack*
+
+**Effect:** Send a focused signal spike at one target within 60 feet. Deal 5 + SIGNAL damage.
+**Keywords:** —
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Signal Suppress
+*Tier 2 (2 AP) | Control*
+
+**Effect:** Target one enhanced creature within 60 feet. Apply Silence for 2 rounds. They take 8 + SIGNAL damage. While Silenced, they cannot gain Regen or Shield from cards.
+**Keywords:** Silence
+**Unlock:** Level 8
+
+---
+
+### Surface Read
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Access any Wire node within 60 feet as a free action and read its most recent data. In combat, this reveals one piece of tactical information about an enemy (current HP bracket, a keyword on an unplayed card, or one status immunity). GM provides the information.
+**Keywords:** —
+**Unlock:** Level 1
+
+---
+
+### System Override
+*Tier 3 (3 AP) | Control | Utility*
+
+**Effect:** Take permanent control of one Wire-connected system within 120 feet. In combat: one Wire-connected enemy (a creature with Signal-based class features) is Stunned for 1 round — they cannot play cards. Out of combat: the system obeys you for the rest of the scene.
+**Keywords:** Root, Stagger
+**Unlock:** Level 9
+
+---
+
+### The Architect
+*Tier 3 (3 AP) | Signature | Capstone*
+
+**Effect:** You become the Wire for 1 round. You perceive all Wire-active creatures and systems within 300 feet. This round: all your Signal Attack cards deal +SIGNAL bonus damage. One enemy of your choice within 300 feet has all their Signal and Resonance cards suppressed. One ally of your choice within 300 feet may play one additional card this turn at no AP cost. After this turn, gain Overheat 2.
+**Keywords:** Silence, Overheat 2
+**Unlock:** Level 20
+
+---
+
+### The Weave Speaks
+*Tier 3 (3 AP) | Control | Utility*
+
+**Effect:** Broadcast a Wire message to all Signal-connected creatures within 300 feet simultaneously. In combat: all enemies within range are Staggered and take 8 + SIGNAL damage. The message cannot be blocked or filtered. Out of combat: the message reaches every Wire-active creature in range regardless of encryption.
+**Keywords:** Stagger
+**Unlock:** Level 19
+
+---
+
+### Total Override
+*Tier 3 (3 AP) | Control*
+
+**Effect:** Choose one enhanced enemy within 60 feet. Their enhancement network enters cascade failure. Deal 22 + SIGNAL damage. Apply Overheat 3, Silence, and Stagger simultaneously. If the target already had Overheat, they also lose their Basic Attack next turn.
+**Keywords:** Overheat 3, Silence, Stagger, Pierce 4
+**Unlock:** Level 18
+
+---
+
+### Wire Anchor
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** Create a persistent Wire node at your current location. For the rest of the scene, you can play Wire Walk to this specific node from any connected point within 300 feet as a free action. The anchor persists even if you move.
+**Keywords:** —
+**Unlock:** Level 14
+
+---
+
+### Wire Burn
+*Tier 3 (3 AP) | Attack*
+
+**Effect:** Release a Wire cascade surge. All enhanced creatures within 30 feet of a point within 60 feet take 18 + SIGNAL damage. All automated systems in the radius crash until the end of the scene.
+**Keywords:** Pierce 3
+**Unlock:** Level 9
+
+---
+
+### Wire Crash
+*Tier 2 (2 AP) | Control*
+
+**Effect:** Target one Wire system or enhanced creature within 60 feet. Systems crash for the scene. Creatures: deal 10 + SIGNAL damage and apply Stagger. If the target has an active Silence, deal an additional 6 damage.
+**Keywords:** Stagger
+**Unlock:** Level 6
+
+---
+
+### Wire Flood
+*Tier 3 (3 AP) | Attack*
+
+**Effect:** Flood the Wire in a 60-foot radius with corrupted signal. All enhanced enemies in range take 16 + SIGNAL damage. Apply Expose 2 to each target. Signal cards they play next turn are reduced to 0 base damage before stat modifiers.
+**Keywords:** Expose 2
+**Unlock:** Level 17
+
+---
+
+### Wire Lock
+*Tier 1 (1 AP) | Control | Utility*
+
+**Effect:** Lock or unlock any Wire-controlled door, barrier, or container within 60 feet. In combat: one enemy loses their Mobility card option this turn (Root). Out of combat: the effect is permanent until changed.
+**Keywords:** Root
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Wire Sovereign
+*Tier 2 (2 AP) | Utility | Passive*
+
+**Effect:** Your Wire authority reaches its operational peak. Any Wire system you take control of (via System Override, Network Domination, or Signal Fortress) cannot be retaken by enemies this scene. Wire Crash cards you play deal +4 damage. You automatically succeed at accessing any unencrypted Wire system.
+**Keywords:** —
+**Unlock:** Level 12
+
+---
+
+### Wire Walk
+*Tier 1 (1 AP) | Mobility*
+
+**Effect:** Step into the Wire and emerge at any connected node within 120 feet. You cannot be targeted during transit. On arrival, your next Signal Attack card this turn deals +4 damage.
+**Keywords:** —
+**Unlock:** Level 3
 
 ---
 

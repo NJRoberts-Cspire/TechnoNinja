@@ -21,103 +21,484 @@ The three sects of the Iron Sutra have different relationships with the Iron Mon
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM: Iron Monk
 
-**Hit Die:** d10
-**Primary Ability:** Wisdom (Between attunement), Constitution (resonant endurance)
-**Saving Throw Proficiencies:** Strength, Wisdom
-**Armor Proficiencies:** Wire-mesh armor, salvage plating (no heavy reinforced chassis)
-**Weapon Proficiencies:** Resonant blades (all forms), pulse arms (sidearm weight), signal staffs, unarmed strikes (treated as resonant weapons)
-**Tool Proficiencies:** Calibration tools, meditation incense kit
-**Skills:** Choose 3 from: Athletics, Acrobatics, Insight, Medicine, Perception, Religion, Stealth
-**Starting Equipment:** Wire-mesh wrappings (acts as wire-mesh armor), two resonant blades (short configuration), calibration tools, copy of the Iron Sutra (personal annotations), 10 incense sticks
+**HP Tier:** Heavy
+**Hand Size:** 5
+**Primary Stats:** IRON + RESONANCE
+**HP Formula:** (FRAME × 8) + 20
+
+**Design Note:** The Iron Monk has the smallest hand in the game. Every card is chosen with intent. Many Iron Monk cards scale in power when the Monk is below half HP — suffering is a resource, and the Between speaks clearest when the body is closest to its limit.
+
+### Starting Hand
+- Resonant Strike
+- Between Step
+- Iron Guard
 
 ---
 
-### Class Features by Level
+### Level Unlock List
 
-**Level 1: Between Sense**
-Your attunement to the resonant space within yourself grants heightened awareness. You have advantage on Perception checks related to detecting cybernetic enhancements, resonant energy, or spiritual disturbances. Additionally, you can detect the presence of active enhancements within 30 feet as a bonus action, though not their specific nature.
+#### Level 1
+- Deliberate Breath
+- Between Sense
 
-**Level 1: Resonant Strike**
-Your unarmed strikes and resonant blade attacks channel Between energy. They count as magical for the purpose of overcoming resistance and immunity. Additionally, once per turn when you hit with an unarmed strike or resonant blade, you can spend 1 Between Point (see Between Points, below) to deal an extra 1d6 resonant damage.
+#### Level 2
+- Resonant Defense
+- Iron Endurance
 
-**Level 1: Between Points**
-You have a pool of Between Points equal to your Wisdom modifier + your proficiency bonus (minimum 2). You regain all spent Between Points when you finish a short or long rest. Many Iron Monk features cost Between Points to activate.
+#### Level 3
+- Resonant Pulse
+- Between Ward
 
-**Level 2: Unarmored Resonance**
-While you are wearing no armor or only wire-mesh wrappings, your Armor Class equals 10 + your Dexterity modifier + your Wisdom modifier.
+#### Level 4
+- Perfect Strike
+- Harmonized Step
 
-**Level 2: Resonant Defense**
-When you are hit by an attack, you can use your reaction and spend 1 Between Point to add your Wisdom modifier to your AC against that attack, potentially causing it to miss.
+#### Level 5
+- Between Flicker
+- Iron Discipline
 
-**Level 3: Iron Monk Subclass**
-You choose your path: Path of the Orthodoxy, Path of the Resonants, Path of the Flesh Circle, or Path of the Between. Your subclass grants features at levels 3, 6, 10, and 14.
+#### Level 6
+- Void Brush
+- Suffering Engine
 
-**Level 3: Deliberate Breath**
-You can take the Dodge action as a bonus action. When you do, you may spend 1 Between Point to also gain advantage on your next attack roll before the end of your next turn.
+#### Level 7
+- Resonant Form
+- Between Sight
 
-**Level 4: Ability Score Improvement**
-Increase one ability score by 2, or two ability scores by 1 each. You cannot raise a score above 20 this way. Alternatively, take a feat.
+#### Level 8
+- Iron Body
+- Precision Cascade
 
-**Level 5: Extra Attack**
-You can attack twice, instead of once, when you take the Attack action on your turn.
+#### Level 9
+- Sustained Between
+- Empty Hand
 
-**Level 5: Between Step**
-When you move on your turn, you can spend 1 Between Point to move through the spaces of other creatures without provoking opportunity attacks. Your movement this turn becomes partially resonant — you briefly flicker between physical and spiritual states.
+#### Level 10
+- Perfect Balance
+- Resonant Rebuke
 
-**Level 6: Subclass Feature**
+#### Level 11
+- Between Anchor
+- Iron Communion
 
-**Level 6: Iron Endurance**
-Your Constitution saving throw maximum for death saving throws is reduced — you stabilize on any death save result of 8 or higher (not just 10+). Additionally, you have resistance to one damage type of your choice from the following: bludgeoning, piercing, or slashing — representing your resonant body absorbing impact. You can change this resistance when you finish a long rest.
+#### Level 12
+- Void Edge
+- Resonant Barrier
 
-**Level 7: Resonant Pulse**
-As an action, spend 2 Between Points to release a pulse of resonant energy. All creatures of your choice within 15 feet must make a Constitution saving throw (DC = 8 + proficiency bonus + Wisdom modifier) or take 3d6 resonant damage and be pushed 10 feet away from you. On a success, half damage only. This does not require line of sight in any direction you can feel the resonance flowing.
+#### Level 13
+- Iron Ascendancy
+- Between Mastery
 
-**Level 8: Ability Score Improvement**
+#### Level 14
+- The Living Sutra
+- Final Breath
 
-**Level 8: Between Sight**
-You can see through illusions created by resonant or digital means, and you have advantage on saving throws against such effects. You can also see the resonant "outline" of creatures who are hidden by purely mechanical means (camouflage plating, etc.) within 30 feet.
+#### Level 15
+- Resonant Sovereign
+- Iron Aftermath
 
-**Level 9: Harmonized Movement**
-You gain a climbing speed equal to your walking speed, and a swimming speed equal to your walking speed. Your movement no longer suffers from difficult terrain when you spend 1 Between Point at the start of your turn.
+#### Level 16
+- Between Absolute
+- Perfect Endurance
 
-**Level 10: Subclass Feature**
+#### Level 17
+- Iron Body Complete
+- Resonant Devastation
 
-**Level 10: Perfect Strike**
-Once per turn, when you hit with an attack, you can spend 3 Between Points to deal maximum damage on that attack rather than rolling. The strike lands exactly where it must.
+#### Level 18
+- The Between Speaks
+- Void Culmination
 
-**Level 11: Between Ward**
-You can extend your resonant protection to others. As a reaction when a creature within 10 feet of you is hit by an attack, spend 2 Between Points to halve the damage they receive. The Between catches what it can.
+#### Level 19
+- Absolute Strike
+- Iron Apotheosis
 
-**Level 12: Ability Score Improvement**
+#### Level 20
+- The Between Made Flesh (Capstone)
 
-**Level 12: Resonant Sight (Extended)**
-Your Between Sense range extends to 60 feet. You can also sense creatures in the Iron Afterlife within 10 feet of your location, though you cannot interact with them.
+---
 
-**Level 13: Sustained Between**
-You can maintain the Between state even under extreme duress. You have advantage on Constitution saving throws made to maintain concentration on effects, and you cannot be paralyzed as long as you have at least 1 Between Point remaining.
+### Full Card Reference
 
-**Level 14: Subclass Feature**
+---
 
-**Level 14: Iron Body**
-Your Between mastery is now near-total. You gain immunity to the poisoned and frightened conditions. Your unarmed strikes deal 2d8 + Wisdom modifier resonant damage. Your Between Points maximum increases by your proficiency bonus.
+### Absolute Strike
+*Tier 3 (3 AP) | Attack | Signature*
 
-**Level 15: Void Brush**
-You have felt the edge of the Iron Afterlife enough times that its touch no longer unmakes you. You have resistance to necrotic damage and to psychic damage from spiritual sources. Once per long rest, if you would be reduced to 0 hit points, you can spend 4 Between Points to instead be reduced to 1 hit point. The Between holds you.
+**Effect:** A strike of total Between-channeled intent. Deal 20 + IRON damage. This card cannot be reduced by Guard, Shield, or Fortify. Apply Stagger and Expose 3. **Below half HP:** Deal an additional 8 damage and apply Root.
+**Keywords:** Stagger, Expose 3, Root, Pierce 10
+**Unlock:** Level 19
 
-**Level 16: Ability Score Improvement**
+---
 
-**Level 17: Resonant Form**
-Once per long rest, as a bonus action, you can enter full Resonant Form for 1 minute. While in this state: your attacks deal an additional 2d6 resonant damage, you have advantage on all saving throws, creatures that hit you with melee attacks take 1d8 resonant damage, and your Between Points regenerate 1 per round. When the form ends, you gain one level of exhaustion.
+### Between Absolute
+*Tier 3 (3 AP) | Defense | Utility*
 
-**Level 18: Subclass Feature (if applicable) / Perfect Balance**
-You no longer need to spend Between Points to activate Between Step. Your movement speed increases by 10 feet. You can move through non-magical difficult terrain without any movement penalty.
+**Effect:** Enter a state of total Between awareness for 1 round. All incoming damage is reduced by 10 (before Guard). You cannot be targeted by Control cards. Your next Attack card this turn deals +RESONANCE bonus damage.
+**Keywords:** Fortify
+**Unlock:** Level 16
 
-**Level 19: Ability Score Improvement**
+---
 
-**Level 20: The Between Made Flesh**
-You have achieved what the Sutra calls the Iron Body Complete. Your Wisdom and Constitution scores each increase by 2, to a maximum of 24. You always have advantage on attacks made on your turn when you have not been hit since the start of your last turn. Your Between Points maximum is now doubled. Once per long rest, you can enter a state of perfect resonance for 10 minutes: you cannot be surprised, your attacks are critical hits on a 19 or 20, and you are immune to effects that would alter your cybernetic enhancements or organic tissue against your will. When this state ends, you immediately suffer three levels of exhaustion.
+### Between Anchor
+*Tier 2 (2 AP) | Defense | Utility*
+
+**Effect:** Root yourself in the Between. Gain Guard 10 and Fortify. You cannot be moved by forced movement this round. **Below half HP:** Also gain Regen 3 for 1 round.
+**Keywords:** Guard 10, Fortify, Regen 3 (below half HP)
+**Unlock:** Level 11
+
+---
+
+### Between Flicker
+*Tier 2 (2 AP) | Mobility*
+
+**Effect:** Briefly phase between physical and resonant states. Move up to 40 feet without triggering reactions, passing through one solid barrier if needed. On arrival, gain +2 EDGE until end of turn. **Below half HP:** Also apply Expose 2 to the nearest enemy within 10 feet on arrival.
+**Keywords:** Expose 2 (below half HP)
+**Unlock:** Level 5
+
+---
+
+### Between Mastery
+*Tier 3 (3 AP) | Utility | Passive*
+
+**Effect:** The Between is no longer a resource — it is your state. For the rest of the scene: your Resonant Strike and Perfect Strike cards deal +4 damage. Your Guard cards provide +4 additional Guard. Your mobility cards cannot be countered by Root or Stagger.
+**Keywords:** —
+**Unlock:** Level 13
+
+---
+
+### Between Sense
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Extend your Between awareness. Detect all enhanced creatures and active Signal/Resonance cards within 60 feet. Learn one keyword from an unplayed card each detected enemy holds. In combat, this also reveals hidden or concealed enemies within 30 feet.
+**Keywords:** —
+**Unlock:** Level 1
+
+---
+
+### Between Sight
+*Tier 1 (1 AP) | Utility*
+
+**Effect:** Your Between attunement pierces illusion and concealment. For 1 round, you cannot be surprised, cannot be targeted by Veil effects, and detect the exact position of all concealed creatures within 60 feet. **Below half HP:** Also apply Mark to all detected enemies.
+**Keywords:** Mark (below half HP)
+**Unlock:** Level 7
+
+---
+
+### Between Step
+*Tier 1 (1 AP) | Mobility*
+
+**Effect:** Move up to 30 feet. This movement does not trigger reactions. You may pass through enemy-occupied spaces.
+**Keywords:** —
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Between Ward
+*Tier 1 (1 AP) | Defense | Reaction*
+
+**Effect:** Triggered when an ally within 15 feet is hit. Halve the damage they receive. **Below half HP:** The Between absorbs even more — reduce the damage to zero if it would have been 10 or less.
+**Keywords:** Guard 8
+**Unlock:** Level 3
+
+---
+
+### The Between Made Flesh
+*Tier 3 (3 AP) | Signature | Capstone*
+
+**Effect:** You become the living proof of the Sutra's promise. For 1 round: all your Attack cards deal maximum base damage (no variance — the number is fixed at its highest value). You cannot be reduced below 1 HP by any single hit. Your Basic Attack deals +RESONANCE damage. Enemies who hit you with melee attacks take 10 + RESONANCE damage as feedback. After this round, gain Overheat 2 and lose 8 HP (the cost of perfect expression).
+**Keywords:** Overheat 2
+**Unlock:** Level 20
+
+---
+
+### The Between Speaks
+*Tier 3 (3 AP) | Control | Attack*
+
+**Effect:** Channel the Between into a burst that disrupts all enhancements within 20 feet. All enemies in range take 18 + RESONANCE damage and gain Stagger and Silence for 1 round. Allies within 20 feet gain Guard 8 and Regen 2.
+**Keywords:** Stagger, Silence, Guard 8, Regen 2
+**Unlock:** Level 18
+
+---
+
+### Deliberate Breath
+*Tier 1 (1 AP) | Defense*
+
+**Effect:** Center yourself in the Between. Gain Guard 6. Your next Attack card this turn deals +4 damage from the stillness. **Below half HP:** Guard increases to 10.
+**Keywords:** Guard 6 (Guard 10 below half HP)
+**Unlock:** Level 1
+
+---
+
+### Empty Hand
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** A strike that carries no force — only the Between. Deal 10 + RESONANCE damage. This card ignores Guard and Shield entirely. Apply Expose 2. **Below half HP:** Also apply Stagger.
+**Keywords:** Expose 2, Pierce 10, Stagger (below half HP)
+**Unlock:** Level 9
+
+---
+
+### Final Breath
+*Tier 3 (3 AP) | Defense | Utility*
+
+**Effect:** The Between holds you. Once per scene: when this card would reduce you to 0 HP instead, you remain at 1 HP. This effect triggers automatically — it does not require your action. If played proactively: gain Guard 14 and Regen 4 for 2 rounds.
+**Keywords:** Guard 14, Regen 4
+**Unlock:** Level 14
+
+---
+
+### Harmonized Step
+*Tier 1 (1 AP) | Mobility*
+
+**Effect:** Move up to 40 feet through any terrain without impediment, including difficult terrain, vertical surfaces, and hazardous ground. This movement does not trigger reactions. **Below half HP:** Gain +2 EDGE until end of turn.
+**Keywords:** —
+**Unlock:** Level 4
+
+---
+
+### Iron Apotheosis
+*Tier 3 (3 AP) | Power | Signature*
+
+**Effect:** Push your Between-integration to its absolute limit. Gain +4 IRON and +4 RESONANCE until end of turn. Your next two Attack cards each deal +12 damage. After both cards resolve, lose 10 HP (the cost of maximum output). **Below half HP:** The bonus damage increases to +18 per card.
+**Keywords:** —
+**Unlock:** Level 19
+
+---
+
+### Iron Ascendancy
+*Tier 3 (3 AP) | Attack*
+
+**Effect:** A cascading sequence of Between-empowered strikes. Play up to two Attack cards from your hand as part of this card's resolution, each at 0 AP cost. Each card deals +6 additional damage. **Below half HP:** Each card deals +12 additional damage instead.
+**Keywords:** —
+**Unlock:** Level 13
+
+---
+
+### Iron Aftermath
+*Tier 3 (3 AP) | Defense | Utility*
+
+**Effect:** After taking significant damage (10+ in a single hit this round), the Between hardens around you. Gain Guard 16 and Regen 5 for 2 rounds. Apply Fortify. **Below half HP:** Also immediately recover 12 HP.
+**Keywords:** Guard 16, Regen 5, Fortify
+**Unlock:** Level 15
+
+---
+
+### Iron Body
+*Tier 2 (2 AP) | Defense | Passive*
+
+**Effect:** Your Between-hardened body shrugs off what would stop others. Gain Guard 10 and immunity to Stagger for 1 round. **Below half HP:** Also gain Regen 3 and immunity to Silence for 1 round.
+**Keywords:** Guard 10, Regen 3 (below half HP)
+**Unlock:** Level 8
+
+---
+
+### Iron Body Complete
+*Tier 3 (3 AP) | Defense | Utility*
+
+**Effect:** Achieve the Sutra's promised state for 1 round. You cannot be reduced below 1 HP. All incoming damage is reduced by 8 before Guard. Your IRON and RESONANCE each increase by 3. **Below half HP:** You deal +RESONANCE damage on all attacks for the duration.
+**Keywords:** Fortify
+**Unlock:** Level 17
+
+---
+
+### Iron Communion
+*Tier 2 (2 AP) | Utility*
+
+**Effect:** Deepen your Between connection mid-combat. Recover 10 HP. Remove one active Stagger, Silence, or Expose effect from yourself. **Below half HP:** Recover 16 HP instead and remove two effects.
+**Keywords:** Cleanse
+**Unlock:** Level 11
+
+---
+
+### Iron Discipline
+*Tier 1 (1 AP) | Defense | Utility*
+
+**Effect:** The Between steadies you. Remove one Overheat, Expose, or Vulnerable stack from yourself. Gain Guard 5. **Below half HP:** Guard increases to 9.
+**Keywords:** Guard 5, Cleanse
+**Unlock:** Level 5
+
+---
+
+### Iron Endurance
+*Tier 1 (1 AP) | Defense*
+
+**Effect:** Absorb an incoming hit through the Between. Gain Guard 8. If you are hit by an attack this turn despite your Guard, recover 4 HP (the Between recycles the impact). **Below half HP:** Guard increases to 12.
+**Keywords:** Guard 8 (Guard 12 below half HP)
+**Unlock:** Level 2
+
+---
+
+### Iron Guard
+*Tier 1 (1 AP) | Defense*
+
+**Effect:** Brace in the Between. Gain Guard 7. Incoming forced movement is reduced by 20 feet this round.
+**Keywords:** Guard 7
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Perfect Balance
+*Tier 2 (2 AP) | Mobility | Defense*
+
+**Effect:** Your Between movement has become effortless. Move up to 50 feet through any terrain without triggering reactions. Gain Guard 8. For 1 round, Root and Stagger effects do not reduce your mobility or AP.
+**Keywords:** Guard 8
+**Unlock:** Level 10
+
+---
+
+### Perfect Endurance
+*Tier 3 (3 AP) | Defense | Passive*
+
+**Effect:** For 1 round, all damage you take is reduced by 12 before Guard applies. You cannot be Silenced or Staggered. Your Basic Attack deals +8 damage. **Below half HP:** You also cannot be reduced below 1 HP this round.
+**Keywords:** Fortify
+**Unlock:** Level 16
+
+---
+
+### Perfect Strike
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** A Between-guided strike that lands exactly where it must. Deal 12 + IRON damage. Pierce 8 — this strike ignores 8 points of Guard and Shield. **Below half HP:** Deal 18 + IRON damage instead.
+**Keywords:** Pierce 8
+**Unlock:** Level 4
+
+---
+
+### Precision Cascade
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** A rapid sequence of targeted Between-strikes. Deal 8 + IRON damage to one target. Then deal 6 + IRON damage to the same or a different target within reach. Each hit is resolved separately. **Below half HP:** Each strike deals +4 additional damage.
+**Keywords:** —
+**Unlock:** Level 8
+
+---
+
+### Resonant Barrier
+*Tier 2 (2 AP) | Defense*
+
+**Effect:** Project a Between barrier that covers yourself and one ally within 15 feet. Both gain Guard 10. **Below half HP:** The barrier is more intense — Guard increases to 14 for yourself, 10 for the ally.
+**Keywords:** Guard 10
+**Unlock:** Level 12
+
+---
+
+### Resonant Defense
+*Tier 1 (1 AP) | Defense | Reaction*
+
+**Effect:** Triggered when you are hit by an attack. Channel the Between between you and the strike. Gain Guard 6 against that attack. **Below half HP:** Guard increases to 10.
+**Keywords:** Guard 6 (Guard 10 below half HP)
+**Unlock:** Level 2
+
+---
+
+### Resonant Devastation
+*Tier 3 (3 AP) | Attack*
+
+**Effect:** Release everything the Between has built in you. Deal 22 + RESONANCE damage to one target within melee range. Pierce 6. Apply Expose 3, Stagger, and Silence. **Below half HP:** Also deal 10 + RESONANCE damage to all other enemies within 15 feet as resonant overflow.
+**Keywords:** Expose 3, Stagger, Silence, Pierce 6
+**Unlock:** Level 17
+
+---
+
+### Resonant Form
+*Tier 3 (3 AP) | Power | Signature*
+
+**Effect:** Enter full Resonant Form for 1 round. Your Attack cards deal +8 damage. Enemies who hit you in melee take 8 + RESONANCE damage. Gain Regen 3 for the round. **Below half HP:** Attack bonus increases to +14 damage, and Regen increases to 5.
+**Keywords:** Regen 3
+**Unlock:** Level 7
+
+---
+
+### Resonant Pulse
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Release a pulse of Between energy from your body. All enemies within 15 feet take 10 + RESONANCE damage and are pushed 10 feet away. **Below half HP:** Damage increases to 16 + RESONANCE and all affected enemies gain Stagger.
+**Keywords:** Stagger (below half HP)
+**Unlock:** Level 3
+
+---
+
+### Resonant Rebuke
+*Tier 2 (2 AP) | Attack | Reaction*
+
+**Effect:** Triggered when an enemy hits you with a melee attack. Immediately strike back. Deal 12 + IRON damage. Apply Expose 2. **Below half HP:** Deal 16 + IRON damage instead and apply Stagger.
+**Keywords:** Expose 2, Stagger (below half HP)
+**Unlock:** Level 10
+
+---
+
+### Resonant Sovereign
+*Tier 3 (3 AP) | Utility | Signature*
+
+**Effect:** Your Between mastery reaches its operational peak. For the rest of the scene: your IRON and RESONANCE each increase by 2. Your below-half-HP bonuses on all cards activate even when above half HP. Once per scene.
+**Keywords:** —
+**Unlock:** Level 15
+
+---
+
+### Resonant Strike
+*Tier 1 (1 AP) | Attack*
+
+**Effect:** A Between-channeled strike. Deal 6 + IRON damage. This attack counts as resonant — it affects incorporeal and Iron Afterlife entities at full damage. **Below half HP:** Deal 10 + IRON damage instead.
+**Keywords:** —
+**Unlock:** Level 1 (Starting Hand)
+
+---
+
+### Suffering Engine
+*Tier 2 (2 AP) | Utility | Passive*
+
+**Effect:** Convert your damage into Between energy. When you take 10 or more damage in a single hit, your next Attack card this scene deals +10 damage. This bonus stacks — each qualifying hit adds +10 to the pool (maximum +30). The pool resets when you use it.
+**Keywords:** —
+**Unlock:** Level 6
+
+---
+
+### Sustained Between
+*Tier 2 (2 AP) | Defense | Utility*
+
+**Effect:** Hold the Between state under pressure. Remove one Stagger, Silence, or Root effect from yourself. Gain Fortify for 1 round. **Below half HP:** Also recover 8 HP.
+**Keywords:** Fortify, Cleanse
+**Unlock:** Level 9
+
+---
+
+### The Living Sutra
+*Tier 3 (3 AP) | Attack | Utility*
+
+**Effect:** You are the Sutra expressed. Deal 16 + IRON damage to one target within melee range. All allies within 30 feet who can see you recover 8 HP and gain Guard 8. **Below half HP:** Your attack deals 24 + IRON damage instead, and allied recovery increases to 14 HP.
+**Keywords:** Guard 8, Pierce 4
+**Unlock:** Level 14
+
+---
+
+### Void Brush
+*Tier 2 (2 AP) | Defense | Utility*
+
+**Effect:** The Iron Afterlife's edge no longer unmakes you. Gain immunity to Silence and Stagger for 1 round. Gain Guard 8. Once per scene: if a hit would reduce you to 0 HP, reduce it to 1 HP instead (automatic, no action required). **Below half HP:** Guard increases to 12.
+**Keywords:** Guard 8
+**Unlock:** Level 6
+
+---
+
+### Void Culmination
+*Tier 3 (3 AP) | Attack | Signature*
+
+**Effect:** Channel everything you have endured into a single expression of the Between. Deal 20 + IRON damage to one target. Pierce 8. For every 10 HP you have lost this scene (not current, total lost), deal +4 additional damage (maximum +20). Apply Expose 3 and Stagger.
+**Keywords:** Expose 3, Stagger, Pierce 8
+**Unlock:** Level 18
+
+---
+
+### Void Edge
+*Tier 2 (2 AP) | Attack*
+
+**Effect:** Strike from the Between's edge. Deal 14 + IRON damage. This card deals +6 additional damage for each Control effect (Stagger, Silence, Root, Expose, Overheat) currently active on the target.
+**Keywords:** Pierce 4
+**Unlock:** Level 12
 
 ---
 

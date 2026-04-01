@@ -49,44 +49,44 @@ Others will react to you. The devout will look at you with a reverence that feel
 
 ---
 
-## D&D 5E Racial Traits
+---
 
-**Ability Score Increase:** +2 Wisdom, +1 Constitution. The Tethered's undivided Echomind and hardened biological form are reflected in exceptional perception and endurance.
+## CARD SYSTEM: The Tethered
 
-**Age:** Tethered age biologically and live between 70 and 90 years — slightly shorter than the Forged, without mechanical life-extension, but their final years are typically fully functional rather than degraded.
+**Stat Bonuses:** +1 RESONANCE, +1 VEIL
+**Hand Size Modifier:** +1
 
-**Alignment:** Tethered trend toward neutral alignments, shaped by a life of navigating other people's worlds. A deep pragmatism sits at their core. Those who have lived under Orthodoxy protection sometimes lean lawful; those who survived the Ashlands lean chaotic.
+### Passive Traits
 
-**Size:** Medium. Tethered average between 5 and 5.5 feet and are compact and dense.
+**Echomind Undivided.** Your soul is concentrated entirely in flesh, undivided by any chassis resonance. You cannot be affected by status effects that specifically target augmentations or mechanical systems (Overheat, enhancement-disabling effects, chassis-targeting Signal attacks). You have none. These effects simply do not apply to you.
 
-**Speed:** 30 feet.
+**Biological Acuity.** Your senses operate without technological filtering. You have a permanent +2 bonus to RESONANCE checks made to read people, places, or the residue of recent events — this stacks with your stat. Additionally, you cannot be surprised by living creatures whose physiological state (heartbeat, breath, movement) you can perceive.
 
-**Languages:** Tesshari Common and Old Breath (the ancient pre-steel language preserved in Tethered communities, used for spiritual practice and private communication).
+**Old Flesh Memory.** Your body stores and compensates for damage in ways that augmented tissue cannot fully replicate. At the start of each combat, you begin with Regen 1 already active. This Regen cannot be dispelled by effects that specifically strip augmentation-based buffs.
+
+**Unclocked.** You do not register on most scanning and identification systems in Tesshari, which are calibrated to read augmentation signatures. In non-combat scenes, any attempt to locate, identify, or track you through technological means automatically fails unless the operator has specific knowledge that you are Tethered and adjusts their search accordingly.
+
+### Race Cards
 
 ---
 
-### Traits
+### Weight of Flesh
 
-**Unaugmented Resilience**
-Your biology, never given the option of mechanical substitution, has developed extraordinary self-sufficiency. You regain the maximum number of hit points possible from any Hit Die spent during a short rest. Additionally, your hit point maximum increases by 1 for each level you gain, reflecting a body that grows more capable rather than more dependent.
+> Tier 1 (1 AP) | Control | Race: The Tethered
 
-**Echomind Undivided**
-Your soul is concentrated entirely in flesh, without the resonance-split that Forged chassis create. You have advantage on Wisdom saving throws against enchantment and illusion effects. When you fail a Constitution saving throw to maintain concentration on a spell, you may use your reaction to reroll the saving throw, taking the second result. You can use this reaction once per long rest.
+**Effect:** Target one creature within 10 feet. Apply Expose 2 and Root to that target. If the target has cybernetic augmentations, the Root lasts an additional round as your undiluted spiritual presence disrupts their enhancement calibration. This card cannot be Silenced — it originates from your Echomind, not from any system.
+**Keywords:** Expose, Root
+**Always Available:** Yes
 
-**Biological Acuity**
-Your senses operate without technological filtering or augmentation, pushing biological capability to its limit. You have proficiency in the Perception skill. When you make a Wisdom (Perception) check relying on hearing, smell, or touch (rather than sight), you add double your proficiency bonus instead of your normal proficiency bonus.
+---
 
-**Old Flesh Memory**
-Your body stores and processes physical experience in ways that augmented beings cannot replicate. You have advantage on saving throws against exhaustion and disease. Additionally, when you are subjected to a condition (blinded, deafened, paralyzed, etc.) that would be mitigated by having a mechanical component in place of an organic one, you may make a Constitution saving throw (DC 12) to resist that condition entirely as your body rapidly compensates.
+### The Still Point
 
-**Spiritual Resonance**
-The Tethered's concentrated Echomind makes them unusually sensitive to the residue of significant events. Once per short rest, you can spend 1 minute in quiet focus to attempt to read the spiritual resonance of a location. You learn the general emotional tenor of the most recent significant event that occurred there (violence, grief, joy, fear, etc.), as well as an approximate timeframe (within the last hour, day, week, month, or year). You do not receive images or names — only emotional resonance and age. The DM determines what qualifies as "significant."
+> Tier 2 (2 AP) | Utility | Race: The Tethered
 
-**The Unclocked**
-In a world built for augmented beings, you have learned to move through systems designed to exclude you. You have proficiency with one of the following skill sets of your choice: Stealth and Sleight of Hand, or Medicine and Nature. This represents either the expertise in going unnoticed by technological infrastructure, or the deep biological and healing knowledge that Tethered communities have preserved.
-
-**Fragile in the World of Steel**
-The Tethered's vulnerability in an augmented world is real. You have disadvantage on Strength (Athletics) checks made to interact with objects, doors, or systems specifically designed for augmented users (palm-plate locks, neural-interface weapons, weight-triggered systems calibrated for armored chassis). Additionally, you do not benefit from any magical or technological effect that specifically requires a mechanical component or augmentation to function. Your DM will identify relevant situations.
+**Effect:** You center yourself completely in your undivided Echomind. Remove all control effects currently applied to you (Stagger, Root, Silence, Vulnerable). For the remainder of this round, the first card an enemy plays that targets you loses all keyword riders — only its base damage or base effect resolves. Additionally, apply Fortify to yourself until the start of your next turn.
+**Keywords:** Cleanse, Fortify, Veil
+**Always Available:** Yes
 
 ---
 

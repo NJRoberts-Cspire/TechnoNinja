@@ -10,7 +10,7 @@
 ---
 
 # The Iron Oni
-*Construct (Shell-State, Extreme Enhancement) | CR 12 | Large | Unaligned (see Below)*
+*Brute | Boss | Large*
 
 ## Description
 Whatever it was before the Shelling is no longer accessible. The records the Oni Hunters have recovered suggest a senior military commander — someone with decades of service and a corresponding decades-deep enhancement load: structural reinforcement of the entire skeletal system, combat-reflex packages layered over each other across multiple upgrade cycles, sensory packages that covered eleven distinct frequency ranges, a power cell infrastructure that could sustain combat operations for six continuous days without recharge. When the Echomind that held all of this together finally gave out, what remained was approximately nine feet of military-grade cybernetic infrastructure running on programming alone.
@@ -28,55 +28,64 @@ The Sutensai's position: they want their senior Veil Master to get close enough 
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 20 (decades of layered military-grade enhancement)
-**Hit Points:** 207 (18d10 + 108)
-**Speed:** 20 ft. (slow to start) — on its second turn of movement in any encounter, speed increases to 45 ft. as power systems reach operational threshold
+**HP:** 160 (FRAME 10 × 8 + 40 + accumulated frame bonus — see Passive)
+**AP Max:** 4
+**Hand Size:** 10 cards
+**Initiative:** 6 (EDGE — cannot be surprised)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 26 (+8) | 14 (+2) | 22 (+6) | 8 (-1) | 4 (-3) | 3 (-4) |
+| 10 | 6 | 10 | 3 | 2 | 1 |
 
-**Saving Throws:** Str +13, Con +11
-**Skills:** Athletics +13
-**Damage Resistances:** All damage types except resonant-disruption
-**Damage Immunities:** Psychic, Poison; Bludgeoning, Piercing, and Slashing from nonmagical weapons not made of resonant metal
-**Condition Immunities:** All conditions (it has no psychology to affect)
-**Senses:** Darkvision 120 ft., Electromagnetic Scan 60 ft. (full tactical awareness of all electronic and enhancement signatures), Passive Perception 7
-**Languages:** None (Understands military command codes at a level below active processing — see The Pause)
-**Challenge:** 12 (8,400 XP)
+**Status Immunities:** All conditions — no psychology to affect, no biology to constrain
+**Resistances:** All damage types except resonant-disruption deal half value. Non-resonant-metal physical attacks deal quarter value. Psychic and poison deal no effect.
+**Senses:** Darkvision 120 ft.; Electromagnetic Scan 60 ft. — full tactical awareness of all electronic and enhancement signatures; cannot be surprised
 
-### Special Traits
-**Echomind Void.** The Iron Oni cannot be targeted by any mind or soul-affecting ability. There is nothing to affect.
+### Basic Attack — Armament Strike
+*0 AP | Melee Attack | Once per turn*
+**Effect:** Deal 20 damage (10 + IRON 10) to one target within 15 ft. This attack ignores 5 points of Guard and Shield.
+**Keywords:** Pierce 5
 
-**Accumulated Frame.** The Iron Oni has incorporated artillery components, salvaged enhancement gear, and structural material into its frame over six years. Its effective HP includes this additional mass. Additionally, when the Iron Oni takes 40 or more damage from a single attack, it loses one incorporated piece — this does not reduce its HP but does reduce one special trait by one tier (DM's choice; this represents the destruction of one enhancement package).
+### Artillery Release
+*Tier 3 (3 AP) | Ranged Attack — Recharge: once per 2 rounds*
+**Effect:** The Iron Oni fires one incorporated artillery component. Deal 32 damage (22 + IRON 10) to one primary target within 200 ft. and 16 damage to all creatures within 15 ft. of that target.
+**Keywords:** Pierce 6, Echo (area damage only)
 
-**Combat Architecture.** The Iron Oni's six years of continued combat operation have optimized its programming beyond its original parameters. It has advantage on initiative rolls and cannot be surprised. It automatically identifies the weakest point in an opposing formation and targets it.
+### Enhancement Suppression Wave
+*Tier 2 (2 AP) | Signal Attack | Area*
+**Effect:** The Iron Oni emits a suppression frequency in a 30-ft. radius. Deal 13 damage (3 + SIGNAL 3 + 7) to all creatures with active enhancements in range. All enhanced creatures that fail to resist (FRAME difficulty 5) have their enhancements Silenced for 1 minute. The Iron Oni's own enhancements are immune.
+**Keywords:** Silence (mass)
 
-**The Pause.** At the end of the Iron Oni's first turn in any encounter, roll a d20. On an 18-20, the Iron Oni pauses at the end of its turn — it does not take actions for one full round. During this time, it does not defend, does not respond to attacks (but it does not take damage differently), and its posture changes to something that is not a combat stance. A creature that uses this window to approach within 10 feet and speak to the Iron Oni — specifically addressing the person who used to be here, by name if known, with something specific that person would recognize — can attempt a DC 20 Charisma (Persuasion) check. On a success, the Iron Oni takes no offensive action for 1 additional round and the Oni Hunters gain one piece of verifiable evidence that residual Echomind fragment exists.
+### Target Lock
+*Tier 2 (2 AP) | Power*
+**Effect:** The Iron Oni designates one target it can perceive. Until the start of the Iron Oni's next turn, all of its attacks against that target gain +6 damage and Pierce 3.
+**Keywords:** Mark, Pierce 3
 
-**Powerplant Acceleration.** On the Iron Oni's third and subsequent turns, its attacks deal an additional 1d10 damage of any type the DM chooses (representing different combat systems reaching operational peak). This resets if the Iron Oni is reduced to half hit points or below.
-
-### Actions
-**Multiattack.** The Iron Oni makes four Armament Strike attacks.
-
-**Armament Strike.** *Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:* 21 (2d12 + 8) bludgeoning damage. This attack ignores cover and the first 5 points of any damage resistance.
-
-**Artillery Release (Recharge 5-6).** The Iron Oni fires one of its incorporated artillery components. *Ranged Attack:* +8 to hit, range 200 ft., one target. *Hit:* 42 (12d6) bludgeoning and fire damage to the target, and 21 (6d6) bludgeoning damage to all creatures within 15 feet of the target (DC 17 Dexterity saving throw for half). After firing, this component must recharge over 1 minute.
-
-**Enhancement Suppression Wave.** The Iron Oni emits a suppression frequency in a 30-foot radius. All creatures with active enhancements in range must succeed on a DC 18 Constitution saving throw or have their enhancements disabled for 1 minute. The Iron Oni's own enhancements are immune to this effect.
-
-### Legendary Actions
-The Iron Oni can take 3 legendary actions.
-
-**Press (1 action).** The Iron Oni makes one Armament Strike and moves up to 10 feet.
-
-**Target Lock (2 actions).** The Iron Oni designates one target it can perceive. Until the start of the Iron Oni's next turn, all of its attacks against that target are made with advantage and deal an additional 2d6 damage.
-
-**Full Release (3 actions).** The Iron Oni's power systems discharge fully. Every creature within 20 feet takes 28 (8d6) lightning damage (DC 18 Dexterity saving throw for half) and is knocked prone on a failed save.
+### Full Release
+*Tier 4 (4 AP) | Boss Card*
+**Effect:** The Iron Oni's power systems discharge fully. Deal 28 damage (18 + IRON 10) to every creature within 20 ft. Creatures that fail to resist (EDGE difficulty 5) are knocked prone and Rooted until end of their next turn.
+**Keywords:** Pierce 4, Root (on failed resist)
 
 ---
+
+**Passive — Echomind Void:** Cannot be targeted by any mind or soul-affecting ability.
+
+**Passive — Accumulated Frame:** The Iron Oni has incorporated artillery components, salvaged enhancement gear, and structural material over six years. Its effective HP includes this mass. When the Iron Oni takes 40+ damage from a single attack, it loses one incorporated piece — this reduces one special ability by one tier (GM's choice, representing the destruction of one enhancement package).
+
+**Passive — Combat Architecture:** Six years of continued combat operation have optimized its programming beyond original parameters. The Iron Oni automatically identifies the weakest point in an opposing formation and targets it. Cannot be surprised.
+
+**Passive — Powerplant Acceleration:** On the Iron Oni's third and subsequent turns, all attacks deal +8 damage (power systems reaching operational peak). This resets if the Iron Oni is reduced to half HP.
+
+**Passive — The Pause:** At the end of the Iron Oni's first turn in any encounter, roll 1d20. On an 18–20, the Iron Oni pauses — it takes no actions for one full round. Its posture changes to something that is not a combat stance. A creature that uses this window to approach within 10 ft. and speak to the Iron Oni — addressing the person who used to be here, by name if known, with something specific that person would recognize — can attempt a VEIL challenge (difficulty 6). On success, the Iron Oni takes no offensive action for 1 additional round and the Oni Hunters gain one piece of verifiable evidence that residual Echomind fragment exists.
+
+---
+
+## AI Behavior
+**Role:** Boss / Brute
+**Priority:** Identifies the highest-HP target and applies Target Lock. Uses Armament Strike every turn. Uses Artillery Release as soon as it recharges against the highest-damage combatant. Uses Enhancement Suppression Wave when 3+ enhanced creatures cluster within 30 ft. Saves Full Release for when the party converges within 20 ft.
+**Threat State Shifts:** At 80 HP, Powerplant Acceleration resets and begins climbing again — this is the encounter's second wind, and it should feel like one. At 40 HP, The Pause triggers automatically (no roll required) — the power systems are straining and something deeper than programming surfaces for a moment.
 
 ## Encounter Notes
 The Iron Oni is a boss encounter built around two simultaneous questions: can the party survive it, and is there someone still inside it? These questions should feel incompatible in practice — getting close enough to attempt The Pause interaction is extremely dangerous; staying at range is safer but forecloses the human (or post-human) dimension of the encounter.
@@ -89,7 +98,7 @@ The Iron Oni has been stationary for three days in the ruins of a small settleme
 ---
 
 # The Bone Singer
-*Humanoid (Tethered, Extreme Echomind) | CR 9 | Medium | Neutral Good (mostly)*
+*Support | Elite | Medium*
 
 ## Description
 They have never had a cybernetic enhancement. Not one. In a world where enhancements are so common that their absence is itself unusual, the Bone Singer is a Tethered — one of the uncommon individuals who either cannot accept resonant metal due to biological rejection, or who chose not to, or who was raised in one of the communities that maintains the old pre-Shattering practices of unaided resonance development.
@@ -109,46 +118,59 @@ The Bone Singer has been working with a Sutensai resonance theorist on a dampeni
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 14 (Echomind-reinforced natural defense — their resonance provides a subtle physical protection)
-**Hit Points:** 112 (15d8 + 45)
-**Speed:** 30 ft.
+**HP:** 72 (FRAME 6 × 8 + 24 — their Echomind provides subtle physical resilience)
+**AP Max:** 3
+**Hand Size:** 6 cards
+**Initiative:** 4 (EDGE)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 12 (+1) | 14 (+2) | 16 (+3) | 14 (+2) | 20 (+5) | 16 (+3) |
+| 2 | 4 | 6 | 3 | 10 | 7 |
 
-**Saving Throws:** Wis +9, Cha +7
-**Skills:** Insight +9, Medicine +9, Perception +9, History +6
-**Damage Resistances:** Psychic
-**Condition Immunities:** Charmed (their resonance is too strong for external influence to easily attach to)
-**Senses:** Passive Perception 19, Resonance Awareness (passive — they can feel the resonance signature of every enhanced creature within 60 feet without trying)
-**Languages:** Tesshari common, three regional dialects, Iron Sutra liturgical script (fluent), pre-Shattering resonance notation (reading only)
-**Challenge:** 9 (5,000 XP)
+**Status Immunities:** Charmed (their resonance is too strong for external influence to easily attach to)
+**Resistances:** Psychic damage deals half value. No cybernetic enhancements — immune to all enhancement-disruption effects entirely.
+**Senses:** Passive Resonance Awareness — feels the resonance signature of every enhanced creature within 60 ft. without trying; Unaided Sight — perceives Echoes, Hunger-Dead, and Between entities without equipment
 
-### Special Traits
-**Resonant Presence.** All creatures with active cybernetic enhancements within 30 feet of the Bone Singer feel their resonance's sympathy effect. This is pleasant at first: they gain a +2 bonus to saving throws. However, for each round they remain within 30 feet after the first, they must succeed on a DC 14 Constitution saving throw at the start of their turn or take 5 (1d10) necrotic damage as the sympathy resonance becomes too strong for integration points.
+### Basic Attack — Resonance Touch
+*0 AP | Resonant Attack | Once per turn — used reluctantly*
+**Effect:** Deal 14 damage (4 + RESONANCE 10) to one target with cybernetic enhancements within 5 ft. Requires direct skin contact. The Bone Singer does not use this lightly.
 
-**Resonance Collapse (Fear Triggered).** When the Bone Singer is Frightened, their Echomind resonance spikes involuntarily. All creatures with active cybernetic enhancements within 60 feet immediately take 28 (8d6) necrotic damage (DC 17 Constitution save for half) and must succeed on the save or have all their enhancements disabled for 1 minute. This is not controllable. The Bone Singer is aware of this. They are trying not to be frightened. They have not always succeeded.
+### Calming Resonance
+*Tier 1 (1 AP) | Support*
+**Effect:** One creature within 10 ft. that can hear the Bone Singer's voice regains 14 HP, is cleansed of one status condition (Frightened, Charmed, or Stagger), and gains Guard 4 on their next turn. Enhanced creatures receiving this benefit must resist (FRAME difficulty 3) or take 5 damage from the proximal calming resonance being too strong at close range.
+**Keywords:** Regen effect, Cleanse
 
-**Natural Resonance.** The Bone Singer has no cybernetic enhancements and cannot be affected by enhancement-disruption abilities. Their Echomind is entirely natural and cannot be externally accessed via wire craft or enhancement-interface abilities.
+### Resonance Reading
+*Tier 2 (2 AP) | Utility — requires willing subject, 1 minute outside combat*
+**Effect:** The Bone Singer reads the resonance signature of one creature's Echomind or enhancement system. Reveals: current Echomind coherence state; whether Shell-state onset is occurring; whether enhancement corruption is present; and one piece of specific information about the creature's resonant history.
 
-**Unaided Sight.** The Bone Singer's unaided Echomind can see the Iron Afterlife partially — a skill that normally requires enhancement interfaces. They can perceive Echoes, Hunger-Dead, and other Iron Afterlife entities without equipment. They can speak to Echoes in ways that aid Finishing protocols (advantage on Finishing checks).
+### Resonance Collapse — Deliberate
+*Tier 3 (3 AP) | Resonant Attack | Area — once per encounter*
+**Effect:** The Bone Singer deliberately spikes their resonance in a 30-ft. radius. They take 14 damage from the effort. All creatures with active enhancements in range take 25 damage (15 + RESONANCE 10) and must resist (FRAME difficulty 5) or have all enhancements Silenced for 1 hour. The Bone Singer is visibly distressed afterward and cannot use Calming Resonance until they spend 1 minute in stillness.
+**Keywords:** Silence (mass), Pierce 5
 
-### Actions
-**Resonance Touch.** *Melee Spell Attack:* +9 to hit, reach 5 ft., one target with cybernetic enhancements. *Hit:* 22 (4d8 + 4) necrotic damage as the Bone Singer's resonance directly interfaces with the target's enhancement integration. This is not an attack the Bone Singer uses lightly — it requires skin contact and the intent to harm.
-
-**Calming Resonance.** *Action, no attack roll.* One creature within 10 feet that can hear the Bone Singer's voice is affected by a calming resonance wave. The creature: regains 14 (4d6) hit points, is cured of one condition of the Bone Singer's choice (Frightened, Charmed, or Stunned), and has advantage on their next saving throw. Enhancement-equipped creatures that receive this benefit are at risk of Resonance Collapse triggering (DC 12 Constitution save or take 5 (1d10) necrotic damage from the proximal calming resonance being too strong at close range).
-
-**Resonance Reading.** *Ritual, 10 minutes, requires willing subject.* The Bone Singer reads the resonance signature of one creature's Echomind or enhancement system. They can determine: the current state of the creature's Echomind coherence, whether any Shell-state onset is occurring, whether the creature's enhancement system contains corruption (Convergence-related or otherwise), and one piece of specific information about the creature's resonant history (an enhancement that was removed, a past injury, an emotion that left a strong resonance mark). This is a medical procedure, not an attack.
-
-**Resonance Collapse (Deliberate, 1/day).** The Bone Singer deliberately spikes their resonance in a 30-foot radius — they take 14 (4d6) psychic damage from the effort and all creatures with active enhancements in range take 35 (10d6) necrotic damage (DC 18 Constitution save for half) and must succeed on the save or have all enhancements disabled for 1 hour. The Bone Singer uses this only in extremis and is visibly distressed afterward.
-
-### Reactions
-**Don't Frighten Me.** When the Bone Singer would be affected by a Frightened condition from any source, they can make a DC 14 Wisdom saving throw to resist it. If they fail, Resonance Collapse (Fear Triggered) immediately activates.
+### Don't Frighten Me
+*Reaction | Triggered by: any effect that would apply Frightened to the Bone Singer*
+**Effect:** The Bone Singer attempts to resist the Frightened condition (RESONANCE difficulty 4). If they fail, Resonance Collapse — Fear Triggered activates immediately (see Passive).
 
 ---
+
+**Passive — Resonant Presence:** All creatures with active cybernetic enhancements within 30 ft. of the Bone Singer feel the sympathy resonance. This is pleasant at first: they gain Guard 3. However, for each round they remain within 30 ft. after the first, they must resist (FRAME difficulty 3) at the start of their turn or take 5 damage as the sympathy resonance exceeds safe levels.
+
+**Passive — Resonance Collapse — Fear Triggered:** When the Bone Singer is Frightened, their Echomind resonance spikes involuntarily. All creatures with active enhancements within 60 ft. immediately take 20 damage (10 + RESONANCE 10) and must resist (FRAME difficulty 5) or have all enhancements Silenced for 1 minute. This is not controllable. The Bone Singer knows this. They try very hard not to be frightened.
+
+**Passive — Natural Resonance:** No cybernetic enhancements. Cannot be affected by enhancement-disruption abilities. Echomind is entirely natural and cannot be externally accessed via Wire Craft.
+
+**Passive — Unaided Sight:** Can perceive Echoes, Hunger-Dead, and Between entities without equipment. Gains advantage on Finishing checks for Echoes and similar protocols.
+
+---
+
+## AI Behavior
+**Role:** Support / Reluctant Combatant
+**Priority:** The Bone Singer should not be encountered as an enemy. As an NPC, their priorities are: use Calming Resonance to heal the party member most in need; use Resonance Reading to provide critical information; stay at the distance that balances Resonant Presence's Guard benefit against its damage risk. Only uses Resonance Touch if directly assaulted with no other option. Only uses Deliberate Resonance Collapse if someone is about to die and nothing else will stop it.
+**Threat State Shifts:** If the Bone Singer is Frightened, Resonance Collapse triggers and the encounter changes entirely — the party must manage the aftermath of a mass enhancement Silence while protecting the Bone Singer from whatever caused the fright.
 
 ## Encounter Notes
 The Bone Singer should not be encountered as an enemy. They are one of the most powerful nonviolent NPCs in the Tesshari bestiary — their capabilities (Resonance Reading, Calming Resonance, Unaided Sight) make them an extraordinary resource. The danger of their presence is what makes every encounter with them tense: they are genuinely trying not to harm anyone, and they are genuinely dangerous, and the gap between these two facts is where the encounter lives.
@@ -156,12 +178,12 @@ The Bone Singer should not be encountered as an enemy. They are one of the most 
 The most interesting Bone Singer encounter puts a heavily enhanced party member in the situation of needing healing that only the Bone Singer can provide, in a situation where the Bone Singer's proximity is itself risky. How close do you get? How long do you stay? The Bone Singer is a healer who cannot be close to their patients. This is their life. They know what it costs. They do it anyway.
 
 ## Adventure Hook
-The party has been asked to find the Bone Singer by a desperate Sutensai Shepherd — the Shepherd has a Shell-state onset case (a Thinning situation like the Shell-Touched) where the standard stabilization protocol has failed and the patient is running out of time. The Bone Singer's Resonance Reading could identify exactly what is failing and potentially identify an alternative stabilization approach. The problem: the patient is extensively enhanced, and the Bone Singer cannot get close enough to read without risking triggering their field. The problem within the problem: finding the Bone Singer requires going into the mountains where they live in deliberate isolation, and they have declined Sutensai contact requests for the last two years. What changed? Something happened to them that they haven't reported to anyone.
+The party has been asked to find the Bone Singer by a desperate Sutensai Shepherd — the Shepherd has a Shell-state onset case where the standard stabilization protocol has failed and the patient is running out of time. The Bone Singer's Resonance Reading could identify exactly what is failing and potentially identify an alternative stabilization approach. The problem: the patient is extensively enhanced, and the Bone Singer cannot get close enough to read without risking triggering their field. The problem within the problem: finding the Bone Singer requires going into the mountains where they live in deliberate isolation, and they have declined Sutensai contact requests for the last two years. What changed? Something happened to them that they haven't reported to anyone.
 
 ---
 
 # The Sutensai's Regret
-*Undead (Veil-Merged, Iron Afterlife-Integrated) | CR 14 | Medium | Chaotic Neutral*
+*Controller | Boss | Medium*
 
 ## Description
 The Sutensai calls them an absence. That is the official word: the Regret is an "absence" from the active roster, an "absence" from the records of practicing Veil Masters, an "absence" from the doctrine-formation sessions where, three years ago, this person was one of the most influential voices. The Sutensai does not say what happened to them. The Sutensai says there are no records of an incident. The Sutensai says this very smoothly, to people who did not know the Veil Master well.
@@ -181,141 +203,146 @@ The Sutensai's internal communication about the Regret is the subject of the mos
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 16 (Veil-reinforced — they are simultaneously more and less in the physical world)
-**Hit Points:** 184 (16d8 + 112)
-**Speed:** 30 ft. (physical); additionally, they can move through solid barriers at their normal speed as if the barriers were not there
+**HP:** 120 (FRAME 8 × 8 + 40 — Veil-reinforced, simultaneously more and less in the physical world)
+**AP Max:** 4
+**Hand Size:** 10 cards
+**Initiative:** 7 (EDGE — they perceive both worlds simultaneously and act accordingly)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 14 (+2) | 16 (+3) | 24 (+7) | 20 (+5) | 22 (+6) | 18 (+4) |
+| 3 | 7 | 8 | 6 | 10 | 8 |
 
-**Saving Throws:** Int +10, Wis +11, Cha +9
-**Skills:** Arcana +15, History +10, Insight +11, Persuasion +9, Religion +10
-**Damage Resistances:** Necrotic, Psychic; Bludgeoning, Piercing, Slashing from nonmagical weapons
-**Damage Immunities:** Cold, Poison
-**Condition Immunities:** Exhaustion, Frightened, Grappled, Prone, Restrained (they are not fully bound by physical space)
-**Senses:** Truesight 60 ft. (sees both physical and Iron Afterlife simultaneously), Passive Perception 16
-**Languages:** All languages known by any Veil Master they have encountered in the Iron Afterlife (extensive); speak with the voices of specific dead individuals when channeling
-**Challenge:** 14 (11,500 XP)
+**Status Immunities:** Frightened, Grappled, Prone, Restrained (not fully bound by physical space)
+**Resistances:** Necrotic and psychic damage deal half value. Physical damage from non-resonant weapons deals half value. Cold and poison deal no effect.
+**Senses:** Truesight 60 ft. — sees both physical world and Iron Afterlife simultaneously; perceives all Echoes, Hunger-Dead, and Between entities within range without effort
 
-### Special Traits
-**Veil-Merged.** The Regret exists in both the physical world and the Iron Afterlife simultaneously. They have advantage on all saving throws. Physical attacks have a 25% chance to miss entirely as the attack passes through the portion of their existence that is currently Afterlife-side. They cannot be fully banished to either world — attempts to banish them to the Afterlife or anchor them to the physical world fail automatically.
+### Basic Attack — Afterlife Strike
+*0 AP | Resonant Attack | Once per turn*
+**Effect:** Deal 14 damage (4 + RESONANCE 10) to one target. The strike channels Iron Afterlife energy — it passes through Guard and Shield as if they were not there.
+**Keywords:** Pierce 6
 
-**Dead Voices.** The Regret carries the Iron Afterlife with them. Within 30 feet of their location, Echoes manifest spontaneously, Hunger-Dead are attracted, and the Veil becomes thin enough that creatures can feel it as a pressure change. The Regret has no full control over which dead voices speak through them — they can suppress it (using their full concentration) or let it happen. In combat, they don't suppress it.
+### Veil Tear
+*Tier 2 (2 AP) | Resonant Control | Area*
+**Effect:** The Regret tears a temporary opening to the Iron Afterlife in a 20-ft. radius around one point within 60 ft. All creatures in range must resist (RESONANCE difficulty 5) or take 14 damage (4 + RESONANCE 10) and be Staggered until end of their next turn as the Afterlife's proximity overwhelms their Echomind.
+**Keywords:** Stagger, Expose 2
 
-**Old Veil Knowledge.** The Regret has spent two years moving through the Iron Afterlife's deep architecture. They know things about the Seventh Convergence, the Voice Below, the structure of the Afterlife, and the Sutensai's suppressed history that almost no one living knows. A creature that successfully negotiates for information (DC 16 Persuasion, modified by the party's relationship with the Regret) can ask three specific questions. The answers will be accurate. They may not be complete.
+### Voice of the Departed
+*Tier 2 (2 AP) | Resonant Control*
+**Effect:** The Regret channels the voice of someone known to one target — someone the target has lost. The target must resist (VEIL difficulty 5) or be Staggered for 1 round and Exposed 3 as recognition and grief momentarily overwhelm them. This is not manipulation — the voice is real. The dead are actually speaking through the Regret. What they say is true.
+**Keywords:** Stagger, Expose 3
 
-**Sutensai Protocols Active.** The Regret still uses Sutensai Veil Weaving techniques, but applied without institutional constraints. Their abilities are stronger than standard Veil Weaving and are considered irregular by any Sutensai practitioner who observes them.
+### Deep Afterlife Immersion
+*Tier 3 (3 AP) | Resonant Attack*
+**Effect:** The Regret fully immerses one target's Echomind in the Iron Afterlife for 1 round. Deal 20 damage (10 + RESONANCE 10) and apply Silence and Stagger. While Silenced this way, the target perceives only the Iron Afterlife — they can act physically but cannot perceive physical threats and cannot use Signal or Resonance cards.
+**Keywords:** Silence, Stagger, Pierce 4
 
-### Actions
-**Multiattack.** The Regret uses Dead Voices as a bonus action and makes two Veil Touch attacks.
-
-**Veil Touch.** *Melee Spell Attack:* +11 to hit, reach 5 ft., one target. *Hit:* 21 (4d6 + 7) necrotic damage and the target must succeed on a DC 19 Wisdom saving throw or be stunned for 1 round as the Regret pushes them briefly into the Iron Afterlife's sensory perception. Constructs and creatures with no Echomind are immune to the stunning effect.
-
-**Channeled Finality.** *Ranged Spell Attack:* +11 to hit, range 60 ft., one target. *Hit:* 35 (10d6) necrotic damage. If the target fails a DC 19 Constitution saving throw, their cybernetic enhancements are disabled for 1d6 rounds as the Afterlife's silence bleeds through the resonant metal. Targets with no enhancements take half damage and do not make the Constitution save.
-
-**Veil Tear.** *Recharge 5-6.* The Regret tears open a temporary Seep in a 20-foot radius around a point they choose within 60 feet. The Seep lasts for 1 minute, generating an Afterlife energy field (all creatures in range take 10 (3d6) necrotic damage at the start of their turns), producing 1d3 Echoes immediately, and disrupting all enhancement function in the area (50% chance per round of random activation or shutdown for any enhancement in the area).
-
-**Finishing (ritual, 1 minute).** The Regret performs a greatly accelerated version of the Sutensai Finishing protocol, completing the departure of up to three Echoes simultaneously. This cannot be used in combat. After this use, the Regret is visibly exhausted for 1 hour.
-
-### Legendary Actions
-The Regret can take 3 legendary actions.
-
-**Voice (1 action).** One dead voice speaks through the Regret. All creatures within 30 feet must succeed on a DC 17 Wisdom saving throw or take 7 (2d6) psychic damage as the voice resonates directly with their Echomind. Constructs are immune.
-
-**Phase (2 actions).** The Regret moves through any solid barrier and makes one Veil Touch attack from the other side.
-
-**Convergence Revelation (3 actions).** The Regret speaks a specific piece of information about the Seventh Convergence that they learned in the deep Afterlife. All creatures within 60 feet that can hear and understand must succeed on a DC 20 Intelligence saving throw or take 35 (10d6) psychic damage and be Stunned for 1 minute as the magnitude of the information overwhelms their processing. On a successful save, they take half damage and are not stunned, but they do have the information, with full context, and it cannot be un-known.
+### Phase Step
+*Tier 1 (1 AP) | Mobility*
+**Effect:** The Regret steps through the Between to any location within 60 ft., passing through all barriers. Cannot be opportunity-attacked during this movement. Can be used as a reaction movement against area effects.
 
 ---
+
+**Passive — Incorporeal Movement:** The Regret can move through creatures and objects. Takes 5 damage if ending their turn inside a solid object.
+
+**Passive — Veil Sight:** Perceives both the physical world and Iron Afterlife simultaneously. Can see and interact with all Afterlife entities regardless of physical barriers or concealment.
+
+**Passive — Afterlife Echo:** When the Regret takes 20+ damage from a single hit, the Afterlife's energy reflexively discharges — deal 8 damage (RESONANCE 10 − 2) to all creatures within 10 ft. as a free action.
+
+---
+
+## AI Behavior
+**Role:** Boss / Controller — unlikely to be fought
+**Priority:** The Regret is not an enemy unless the party makes them one. As an NPC or reluctant combatant, they prioritize Phase Step for positioning, Voice of the Departed to create openings without permanent harm, and Veil Tear to control space. They use Afterlife Strike only against creatures actively threatening them. Deep Afterlife Immersion is used against the most dangerous attacker when cornered.
+**Threat State Shifts:** At 60 HP, the Regret's anger with the Sutensai focuses — if the party contains Sutensai members or is working for the Sutensai, the Regret directs Voice of the Departed specifically at them, using information only the dead (and the Regret) would know about their past. At 30 HP, they stop fighting and begin talking — they have something to say and they have decided the party is worth saying it to.
 
 ## Encounter Notes
-The Regret should never be a random encounter. They are a person — a specific, known person with a history, a grievance, and a purpose — and encounters with them should reflect this. They are not working against the party; they are working around the Sutensai, which may or may not put them in the party's path depending on the campaign's relationship with the Sutensai.
+The Sutensai's Regret is one of the most complex potential encounters in this bestiary because they are almost certainly not an enemy. They are an extremely powerful, extremely damaged, extremely knowledgeable person who has been abandoned by the institution that was supposed to support them, and who is doing genuine good in unconventional ways. The party meeting them should feel less like an encounter and more like an audience with someone who has seen things they haven't and paid a price they don't fully understand.
 
-The most powerful version of a Regret encounter is when the party needs what the Regret knows. The Convergence Revelation legendary action is a gift of information that is also a trauma — they warn before using it, giving the party the choice of receiving or not receiving. Some of what they learned in the deep Afterlife is information the party needs to have and cannot get elsewhere. The cost is what it does to you to know it.
-
-If the Sutensai has been presented as an ambiguous or compromised institution in the campaign, the Regret is a walking critique of that ambiguity — everything the Sutensai says is fine about its methods, they are evidence that it isn't.
+The most interesting version of this encounter: the Regret needs the party to do something the Regret cannot do themselves — something that requires being fully in the physical world, which the Regret no longer fully is. In exchange, they offer what only they have: information from the deep Afterlife, access to the voices of specific dead people the party needs to hear from, or the ability to Finish an Echo that has resisted all other attempts.
 
 ## Adventure Hook
-The party's most Sutensai-connected member receives a message with no attribution — a specific location, a specific time, the words "come alone, I will speak to one person." Investigation confirms the message came through a network the Sutensai doesn't officially have access to — which means either the Sutensai sent it through unofficial channels, or someone outside the Sutensai who knows its unofficial channels sent it. Arriving at the location alone (or less alone than requested), the party member finds the Regret. The Regret has information about what the Seventh Convergence actually produces — not a catastrophe, but a choice, a specific choice that will need to be made by a specific person at a specific moment — and they believe this party member is that person, or knows them. They want to tell them what they learned. They want to make sure the Sutensai doesn't control the information flow when the moment arrives.
+The party has been looking for a specific piece of information that appears in no living record — something that existed only in the Sutensai's internal archives before those archives were partially destroyed in a conflict three years ago. A contact tells them that the Regret was present during the events the information concerns, and the Regret has an Afterlife-perfect memory: they experienced those events, and then they went into the Iron Afterlife, and the dead told them everything that the records didn't include. The contact gives the party a location where the Regret was seen recently. They also strongly suggest that the party not mention they were sent by the Sutensai. The Regret will know anyway. The suggestion is more about the party's survival instincts than about actual deception.
 
 ---
 
-# The Seventh's Herald
-*Entity (Convergence Manifestation) | CR 18 | Large | Unknown*
+# The Convergence-Touched
+*Controller | Boss | Medium*
 
 ## Description
-It appeared four months ago. Not emerged — appeared. One moment it was not there; the next moment it was, standing in a field south of the Pale Reach, already oriented south toward the Sutra Sanctum, already walking at the pace it has maintained for four months without variation.
+The Seventh Convergence is not a future event. It is a process, and the process has been underway for years, and the people who stood closest to its most active expressions — the Ashlands, the major Seep sites, the deep Veil-work that the Sutensai and others have been doing in response — have been changed by the proximity in ways that range from subtle to total.
 
-The pace is exactly 2.3 miles per hour. Not approximately. Exactly. It does not speed up. It does not slow down. It does not pause for terrain — it walks through hills without changing pace, through streams without submerging, through structures without stopping. The structures are damaged by this passage. The Herald is not. At 2.3 miles per hour, it will reach the Sutra Sanctum in approximately three weeks from the current date.
+The Convergence-Touched are the ones at the far end of the range.
 
-It is Large — roughly eight feet tall — and shaped like a person in the way that a summary is shaped like the thing it summarizes. The details of its form are difficult to hold in memory: those who have seen it struggle to describe what they saw beyond general impressions of height, of a quality of light around it that is not glow but is not normal either, of a sound that precedes it. The sound is what sets the sensitive running before they can see it: a resonance at a frequency that was documented once, in the recorded moment of the Last Voice's ascension — the Iron Sutra's most recent person to achieve something beyond ordinary Echomind coherence, three hundred years ago. The sound of that ascension was preserved in an Iron Sutra acoustic document in the deepest archive. The sound that precedes the Herald is the same sound.
+They look like a person who has been superimposed on a space slightly larger than they occupy. Their edges don't hold still. Their resonance signature is not one signature but many, layered on top of each other, the Convergence's multiple temporal expressions simultaneously present in a single body. They speak in tenses that don't exist in standard Tesshari grammar — things that have not happened yet described in the past tense, things that happened decades ago described as ongoing. Their Echomind is not damaged. It is expanded, in a direction that the Sutensai's frameworks were not built to describe.
 
-It has not attacked anyone. It has not responded to anything. It walks. Seventeen Sutensai agents have been sent to intercept it. Six have not reported back. The eleven who did report back are not available for public comment. The Sutensai has not sent an eighteenth.
+They are not necessarily hostile. They are not fully here in any continuous sense. They exist at the intersection of what was, what is, and what is becoming, and their relationship to cause and effect is the relationship of someone who can see all three at once — which makes them alien, unpredictable, and occasionally terrifying, even when they are trying to be helpful.
 
 ## Lore
-The Sutensai's official position: no comment. The Sutensai's unofficial position, distributed in three encrypted communications to its most senior Veil Masters: "Maintain observation. Do not engage. Document behavior. Assess nature. Determine if it is coming from the Convergence or going to meet it. Determine if this distinction is meaningful."
+There are seven confirmed Convergence-Touched individuals in Tesshari. The Sutensai tracks them with the same resources and urgency it deploys for major Seep sites. The Ironhold classifies them as Tier-One anomalies and prefers not to engage with them directly, having had three negative outcomes in attempted detentions.
 
-The Iron Sutra's common clergy have a fracture forming. The traditionalist position: the Herald is a harbinger of catastrophe — the Seventh Convergence is an ending, and the Herald is its announcement. The progressive position: the Iron Sutra does not have an adequate theological category for this entity; it may be something the Iron Sutra has been waiting for without knowing what it was waiting for. The Last Voice was not waiting for destruction. What if neither is this?
-
-The Oni Hunters have exactly two documented observations of the Herald. The first: when the six agents who were sent to stop it never came back, the Oni Hunters sent their most senior practitioner to observe from distance. She watched for six hours, made fourteen pages of notes, returned to the order's nearest chapter house, and wrote one sentence of formal assessment: "I do not believe we are sufficient for this." The second: a junior Hunter who got closer than protocol allowed reported that in the moment the Herald passed within twenty feet of them, they heard something. Not the ascension sound. Something after the ascension sound. Something they described as the silence on the other side of the loudest thing that could be said.
+What the Convergence-Touched know — or rather, what they perceive across temporal registers — makes them the most significant living intelligence source about the Seventh Convergence's nature and trajectory. The problem is that they experience time non-linearly, which means conversations with them are confusing, their warnings are often about things that have already happened, and their advice occasionally requires doing something that seems wrong for reasons that only make sense after the fact. Two Sutensai Veil Masters who have successfully consulted Convergence-Touched individuals describe the experience consistently: "correct information, delivered in the wrong order, with the emotional register of someone who lived through the relevant events years ago." Both Veil Masters found the information they received accurate. Both found the conversation deeply disturbing.
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 24 (it is difficult to describe why attacks don't connect; they simply often don't)
-**Hit Points:** 420 (40d10 + 200)
-**Speed:** 20 ft. (2.3 mph, constant, never modified)
+**HP:** 128 (FRAME 8 × 8 + 40 — Convergence energy reinforces physical coherence)
+**AP Max:** 4
+**Hand Size:** 11 cards
+**Initiative:** 10 (EDGE — they perceive actions before they happen)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 28 (+9) | 10 (+0) | 30 (+10) | 26 (+8) | 28 (+9) | 30 (+10) |
+| 3 | 10 | 8 | 7 | 10 | 6 |
 
-**Saving Throws:** Str +16, Con +17, Int +15, Wis +16, Cha +17
-**Skills:** All skills at +15 or better
-**Damage Immunities:** All damage types (conventional)
-**Damage Resistances:** Resonant-disruption damage (one of the very few things that touches it at all)
-**Condition Immunities:** All conditions. It cannot be stopped, slowed, redirected, stunned, paralyzed, frightened, charmed, or persuaded.
-**Senses:** Total awareness — it perceives everything within 1 mile simultaneously at all times, Passive Perception 26
-**Languages:** All languages simultaneously; does not speak
-**Challenge:** 18 (20,000 XP)
+**Status Immunities:** Charmed, Frightened, Stagger (temporal perception makes normal disruption ineffective — they experience the disruption before it lands and have already adjusted)
+**Resistances:** All physical damage deals half value. Resonant-disruption attacks deal full value — the only effective vector.
+**Senses:** Temporal Sight — perceives the past and future of any location or creature within 60 ft. simultaneously with the present; cannot be surprised; knows the results of any action before it is taken
 
-### Special Traits
-**The Walk.** The Herald cannot be stopped by any force available in Tesshari. Its speed cannot be modified by any ability, spell, or environmental effect. It does not interact with terrain — it passes through obstacles, including solid structures, as if they were not present. The obstacles take damage: 56 (16d6) bludgeoning damage to any structure it passes through. The Herald takes no damage from obstacles.
+### Basic Attack — Convergence Strike
+*0 AP | Resonant Attack | Once per turn*
+**Effect:** Deal 14 damage (4 + RESONANCE 10) to one target. The strike arrives before the movement that preceded it — it cannot be anticipated by readied actions.
+**Keywords:** Pierce 4
 
-**Unstoppable Presence.** Any creature that attempts to physically block the Herald's path must succeed on a DC 25 Strength saving throw or be moved to the nearest point that is not in the Herald's path. On a failed save, the creature also takes 28 (8d6) force damage. The Herald does not initiate this — it is simply a property of its passage.
+### Temporal Displacement
+*Tier 2 (2 AP) | Resonant Control*
+**Effect:** The Convergence-Touched displaces one target's Echomind slightly in time. Deal 12 damage (2 + RESONANCE 10) and apply Stagger. The target experiences their own immediate future for one round — they act based on predictions that are slightly wrong, losing all bonuses from flanking, positioning, and coordination until end of their next turn.
+**Keywords:** Stagger, Expose 2
 
-**Ascension Resonance.** The sound of the Last Voice's ascension precedes the Herald by 200 feet. Any creature within this radius that has cybernetic enhancements must succeed on a DC 22 Constitution saving throw at the start of each of their turns or take 14 (4d6) necrotic damage as the resonance interferes with enhancement integration. Creatures without enhancements are not physically harmed but are affected emotionally — roll 1d6: 1-2, Frightened; 3-4, Awed (the Inspired condition, as if affected by Bardic Inspiration); 5-6, Overcome (no mechanical effect, but they describe feeling the weight of something enormous). These effects end when the creature leaves the resonance radius.
+### Convergence Pulse
+*Tier 2 (2 AP) | Resonant Attack | Area*
+**Effect:** The Convergence-Touched releases a pulse of Convergence energy in a 30-ft. radius. Deal 18 damage (8 + RESONANCE 10) to all creatures in range. Enhanced creatures must resist (RESONANCE difficulty 5) or have one enhancement card fire involuntarily — the GM determines which and what it targets.
+**Keywords:** Overheat 2, Silence (one random card, involuntary firing)
 
-**Echomind Transparency.** The Herald's nature cannot be determined by any divination, detection, or resonance-reading ability. It is either beyond such abilities or simply does not contain what they are looking for. Veil Masters who attempt to read it describe the experience as "reading a word in a language where I understand every letter and cannot understand the word."
+### Temporal Rewind
+*Tier 3 (3 AP) | Power — once per encounter*
+**Effect:** The Convergence-Touched rewrites the last action taken against them. The action that just occurred does not occur — any damage dealt to the Convergence-Touched in the last card played against them is negated and the AP that card cost is lost. The acting creature watches their own action unhappen.
 
-**The Six Who Didn't Report Back.** The Herald's passage does not produce conventional casualties. The six agents who didn't report back are not dead — they are simply not in the physical world at the moment. Whether they will return, and when, and what they will know, is information the Herald has not provided.
-
-**Not Yet Hostile.** The Herald has not made any offensive action in four months. This fact is load-bearing in every analysis of what it is. Its stat block contains combat abilities because those abilities exist — the Oni Hunters' instrument readings confirm significant offensive capability — but the Herald has not used them. This may be because it does not need to. This may be because it has chosen not to. The distinction is significant and unknowable.
-
-### Actions
-**The Herald takes no actions.** It walks.
-
-If attacked, it does not retaliate. If cornered (an impossible achievement given the Walk), it would not be cornered. If somehow bypassed and blocked at the destination — the Sutra Sanctum itself — it will arrive at the Sanctum in three weeks regardless of what is at the Sanctum.
-
-**Convergence Touch (Passive, if engaged in direct physical combat by a creature that successfully hits it).** A creature that succeeds on an attack roll against the Herald and makes physical contact with it must succeed on a DC 25 Wisdom saving throw. On a failed save, the creature is transported to a liminal space between the physical world and the Iron Afterlife for 1 minute (equivalent to unconscious in the physical world — their body drops where it stands). During this minute, they are in the presence of the Herald's full self, which cannot be described but can be survived. When they return, they permanently gain the following benefit and flaw: Benefit: they know, with certainty, one specific true thing about the Seventh Convergence that is relevant to the campaign's current situation. Flaw: they cannot speak of what they saw directly. They can only describe it in metaphor. The metaphors are always accurate.
-
-### Legendary Actions
-The Herald does not use legendary actions. What it does at the Sutra Sanctum — when it arrives — is the encounter that these three weeks of walking have been building toward. The DM decides what that encounter is. It should be the campaign's hinge point.
+### Already Happened
+*Tier 4 (4 AP) | Boss Card — once per encounter*
+**Effect:** The Convergence-Touched declares that a specific event in the next 10 minutes has already happened. They describe it in past tense. If it is something they declare as the party's victory (they are trying to help), the party gains: all HP restored to full, all status conditions cleared, one round of free actions. If it is something they declare as the party's defeat, deal 30 damage (20 + RESONANCE 10) to all creatures within 60 ft. and apply Silence (mass) and Stagger — the weight of the predetermined outcome lands before it occurs.
 
 ---
+
+**Passive — Temporal Sight:** Cannot be surprised. Knows the result of any action before it is taken — all attacks against the Convergence-Touched have their damage reduced by 6 as they partially avoid what they see coming.
+
+**Passive — Non-Linear Presence:** The Convergence-Touched exists across multiple temporal expressions simultaneously. When they would be reduced to 0 HP, roll 1d6. On a 4–6, a past version of themselves occupies the space — they regain 20 HP and the attacking creature is Staggered (they just attacked someone who isn't fully here).
+
+**Passive — Convergence Resonance:** All creatures within 30 ft. of the Convergence-Touched experience mild temporal bleed — they occasionally perceive things slightly before they happen or receive impressions from moments past. This provides +2 to EDGE-based checks but applies Overheat 1 each round as the temporal information overloads processing.
+
+---
+
+## AI Behavior
+**Role:** Boss / Controller — frequently non-hostile
+**Priority:** The Convergence-Touched is rarely an enemy. As an NPC, they use Temporal Displacement to stall the party if they are doing something the Convergence-Touched perceives as catastrophic in the future. They use Convergence Pulse only if directly attacked. Already Happened is used in crisis — either to save the party from something they can see coming, or to demonstrate the weight of what they carry. Temporal Rewind is used defensively when a single attack would reduce them to 0 HP.
+**Threat State Shifts:** The Convergence-Touched doesn't experience threat states in the normal sense — they've seen how this ends. At 64 HP, they stop fighting and start narrating: describing, in past tense, what is about to happen, what the party needs to do, and why it matters. At 32 HP, they use Already Happened — and whether they use it for the party or against them depends entirely on how the party has treated them.
 
 ## Encounter Notes
-The Herald is not a combat encounter. It is a countdown. The most important decision the DM makes about the Herald is: what happens when it arrives at the Sutra Sanctum? Every encounter with it in the three weeks leading up to that arrival should be about understanding, not stopping — the party has three weeks to learn what it is, where it came from, what the sound of the Last Voice's ascension means in this context, what the Sutensai's archived records of the first six Convergence events say about what comes next, and what — if anything — they need to do at the Sanctum when the Herald arrives.
+The Convergence-Touched is simultaneously the most dangerous and most potentially valuable encounter in this category. They know what is coming. They have seen the Seventh Convergence from a temporal position no one else occupies. The question of whether the party can have a meaningful conversation with someone who experiences time non-linearly — and extract useful information from that conversation — is the real challenge.
 
-The Convergence Touch flaw — "cannot speak of what they saw directly, only in metaphor" — is a gift to the DM. The player who made contact has a specific truth that the campaign needs but that cannot be delivered cleanly. They have to find ways to communicate the essential shape of what they know. Other players have to listen carefully to metaphor and determine which part is the load-bearing truth.
-
-The six missing Sutensai agents should return, not all at once, in the final days before the Herald's arrival. What they know will complete the picture the party has been building. What they are like when they come back — changed or unchanged, present or absent from themselves — will tell the party something about what the Herald's arrival at the Sanctum will mean for anyone who is there.
+Combat with a Convergence-Touched individual who has decided to fight is terrifying: Temporal Sight eliminates the effectiveness of most tactical approaches, Temporal Rewind negates the party's best single strike, and Already Happened can end the encounter in one direction or the other with one action. The party should not want to fight this person. They should desperately want to talk to them.
 
 ## Adventure Hook
-The party has been present for the Herald's passage through a city they were stationed in — they were not specifically targeted, but they were there, and the Ascension Resonance affected them in their specific d6-rolled ways, and two of them noticed that the Herald's passage coincided exactly with a Convergence Seep in the city's lowest district closing permanently without any intervention. The Seep was scheduled for Sutensai closure next month. The Herald simply walked and the Seep sealed in its wake. The Sutensai, when asked, has no comment. A senior Oni Hunter who approaches the party privately wants them to follow the Herald at a safe distance for the next week and document everything. She has a theory about what it is. She will not share the theory until she has the party's documentation. She says: "I need to know if I'm right before I say it out loud. If I'm right, saying it out loud changes things."
-
-She is right.
+An Oni Hunter has been following a Convergence-Touched individual for three weeks, trying to establish contact. The individual keeps appearing at locations that the Hunter has not yet decided to visit — they are apparently navigating based on the Hunter's future itinerary, which they have somehow accessed. The Hunter needs backup: someone the Convergence-Touched has not already accounted for in their temporal map. The party is that someone. What the Hunter wants to ask, if contact can be established: what do the Convergence-Touched know about the Seventh Convergence's peak date, and what did they mean when they were overheard describing something as "the second time this has happened"?

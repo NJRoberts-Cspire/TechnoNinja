@@ -8,7 +8,7 @@
 ---
 
 # The War Hound
-*Beast (Enhanced, Partially Shell-Capable) | CR 3 | Medium | Unaligned*
+*Skirmisher | Standard | Medium*
 
 ## Description
 The Ironhold's animal enhancement program is one of its less-advertised operational capabilities. The animals — primarily large mountain dogs bred over generations for size, temperament, and resonance compatibility — are modified beginning at eight weeks with structural enhancements that grow with them: reinforced skeletal underlays, sensory enhancement packages in the jaw and nasal cavity, coordination improvements that make them faster and more precise than any unmodified animal of comparable size. By the time a War Hound completes its eighteen-month training program, it is fast enough to run down an unaugmented human, strong enough to pin a lightly armored adult, and smart enough to execute multi-stage tactical sequences on command.
@@ -24,50 +24,58 @@ Shelled Hounds that escape before decommissioning are listed as escaped governme
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 14 (skeletal enhancement underlay)
-**Hit Points:** 60 (8d8 + 24)
-**Speed:** 50 ft. (coordination enhancement); 20 ft. swimming
+**HP:** 40 (FRAME 4 × 8 + 12 — bonded variant; Shelled variant has same HP)
+**AP Max:** 2
+**Hand Size:** 3 cards
+**Initiative:** 6 (EDGE)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 18 (+4) | 18 (+4) | 16 (+3) | 5 (-3) | 12 (+1) | 7 (-2) |
+| 5 | 6 | 4 | 2 | 2 | 1 |
 
-**Saving Throws:** Str +6, Dex +6
-**Skills:** Athletics +6, Perception +5, Stealth +6
-**Condition Immunities:** Frightened (Shelled variant only — the bonded variant can still be frightened)
-**Senses:** Darkvision 60 ft., Scent Detection (advantage on Perception checks based on smell), Passive Perception 15
-**Languages:** None; responds to Ironhold command codes (understood, not spoken)
-**Challenge:** 3 (700 XP)
+**Status Immunities:** Frightened (Shelled variant only; bonded variant can still be frightened)
+**Resistances:** None
+**Senses:** Darkvision 60 ft.; Scent Detection — advantage on perception via smell; Enhancement Sense 30 ft. — detects active cybernetic enhancements by resonant signature independent of sight or smell
 
-### Special Traits
-**Pack Coordination.** When another War Hound is within 10 feet, both Hounds have advantage on attack rolls against any creature that either Hound has already attacked this turn.
+### Basic Attack — Bite
+*0 AP | Melee Attack | Once per turn*
+**Effect:** Deal 11 damage (5 + IRON 5 + 1) to one target. If the target is Medium or smaller, apply Root (knocked to the ground by the impact).
+**Keywords:** Root
 
-**Enhancement Sense.** The War Hound can detect active cybernetic enhancements within 30 feet by their resonant signature, independent of sight or smell. This sense is not disrupted by darkness, smoke, or invisibility.
+### Claw Strike
+*Tier 1 (1 AP) | Melee Attack*
+**Effect:** Deal 9 damage (4 + EDGE 6 — precision positioning strike) to one target. Can be used immediately after Bite against the same target — the Hound pins and rakes.
 
-**Bonded (active variant only).** A War Hound bonded to a handler gains advantage on attack rolls against any creature that has attacked the handler in the last round. If the handler is reduced to 0 hit points, the Hound may make one immediate attack as a reaction against the creature responsible.
+### Resonance Howl
+*Tier 2 (2 AP) | Signal Attack*
+**Effect:** Deal 10 damage (4 + EDGE 6) to one target within 30 ft. via targeted resonance frequency through the vocal enhancement. If the target has audio-processing enhancements, also apply Silence until end of their next turn. Targets without audio enhancements take half damage and no additional effect.
+**Keywords:** Silence (audio-enhanced targets only)
 
-**Shelled Variant.** A Shelled War Hound loses the Bonded trait but gains: Echomind Void (immune to psychic effects), no pain response (ignores Wounded penalties), and Pack Coordination becomes Cascade Coordination — all Shelled Hounds within 30 feet act in coordinated sequence, each getting +1 to attack rolls for each other Shelled Hound that has already attacked this turn (maximum +4).
-
-### Actions
-**Multiattack.** The War Hound makes one Bite and one Claw Strike.
-
-**Bite.** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) piercing damage. If the target is Medium or smaller, they must succeed on a DC 14 Strength saving throw or be knocked prone.
-
-**Claw Strike.** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9 (2d4 + 4) slashing damage.
-
-**Resonance Howl (Recharge 5-6).** The War Hound emits a targeted resonance frequency through its vocal enhancement. One creature within 30 feet must succeed on a DC 13 Constitution saving throw or take 14 (4d6) thunder damage and have their audio-processing enhancements disabled for 1 minute. Creatures without audio enhancements take half damage and suffer no additional effect.
-
-### Reactions
-**Intercept.** When an ally (or, for the bonded variant, specifically the handler) is targeted by a melee attack, the War Hound can move up to 10 feet toward the attacker and impose disadvantage on the attack roll by interposing its body.
+### Intercept
+*Reaction | Triggered by: an ally (or handler, for bonded variant) targeted by a melee attack*
+**Effect:** The War Hound moves up to 10 ft. and interposes its body. The triggering attack loses 5 damage. Bonded variant: this reaction is automatic when the handler is targeted — no choice required.
 
 ---
+
+**Passive — Pack Coordination:** When another War Hound is within 10 ft., both Hounds gain +3 damage on attacks against any creature that either Hound has already attacked this turn.
+
+**Passive — Bonded (active variant only):** The War Hound gains +3 damage on all attacks against creatures that have attacked the handler this round. If the handler reaches 0 HP, the Hound immediately uses Intercept as a free action against the responsible creature.
+
+**Passive — Shelled Variant:** Loses Bonded. Gains: Echomind Void (immune to all mind-affecting status); no pain response (ignore effects of Bleed and Burn); Cascade Coordination — all Shelled Hounds within 30 ft. gain +2 damage for each other Shelled Hound that has already attacked this turn (maximum +8).
+
+---
+
+## AI Behavior
+**Role:** Skirmisher / Pack Hunter
+**Priority:** Bonded variant: stays within 10 ft. of handler, uses Pack Coordination, uses Intercept whenever handler is targeted. Shelled variant: targets the most heavily enhanced creature, maintains Pack Coordination positioning, uses Resonance Howl to disable audio-enhanced targets before closing. Both variants use Bite to Root, then Claw Strike to follow up.
+**Threat State Shifts:** Bonded variant: if handler is incapacitated, the Hound abandons all tactical positioning and attacks the responsible creature with everything available. Shelled variant: no shift — continues optimized targeting without behavioral change.
 
 ## Encounter Notes
 Use War Hounds in groups whenever possible — Pack Coordination makes them considerably more dangerous in numbers, and the coordinated silence of Shelled Hounds moving together is deeply unsettling. The distinction between the bonded variant and the Shelled variant should be something the party has to discover in play: the bonded variant has tells (it will protect its handler, it will hesitate when commanded not to attack), while the Shelled variant will follow patterns that look like Hound behavior until the moment they don't.
 
-A party that has been befriended by a War Hound in a previous session — perhaps an escaped or decommissioned Hound that attached to them — will find that the mechanics of encountering a Shelled Hound pack are more emotionally loaded than the CR suggests.
+A party that has been befriended by a War Hound in a previous session — perhaps an escaped or decommissioned Hound that attached to them — will find that the mechanics of encountering a Shelled Hound pack are more emotionally loaded than the tier suggests.
 
 ## Adventure Hook
 An Ironhold patrol went quiet three days ago in a section of northern forest. The search party sent to find them found one survivor — a junior soldier, badly injured — and the remains of the others. The survivor insists that the patrol's own War Hound pair turned on them. The Ironhold's official investigation is focusing on whether the survivor is responsible, because the alternative explanation — that two Ironhold War Hounds Shelled simultaneously and the program's Shell-rate is not actually 2% — is inconvenient. The party is hired by the survivor's family to find out what actually happened before the official investigation concludes and their family member is held responsible.
@@ -75,7 +83,7 @@ An Ironhold patrol went quiet three days ago in a section of northern forest. Th
 ---
 
 # The Hollow Author's Puppet
-*Humanoid (Construct, Flesh) | CR 5 | Medium | Neutral Evil*
+*Support / Deception | Standard | Medium*
 
 ## Description
 It looks like a person. It moves like a person. It breathes, it blinks, its chest rises and falls, its eyes track movement with the correct kind of continuous micro-adjustment. If you speak to it, it responds with appropriate affect and reasonable content. If you buy it a drink, it drinks the drink. In every observable way, the Hollow Author's Puppet is indistinguishable from a living human being.
@@ -91,55 +99,61 @@ The test for a Puppet that has been developed among experienced intelligence ope
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 14 (reinforced flesh construction)
-**Hit Points:** 78 (12d8 + 24)
-**Speed:** 30 ft.
+**HP:** 44 (FRAME 4 × 8 + 12)
+**AP Max:** 2
+**Hand Size:** 5 cards
+**Initiative:** 5 (EDGE)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 16 (+3) | 16 (+3) | 14 (+2) | 14 (+2) | 14 (+2) | 18 (+4) |
+| 4 | 5 | 4 | 4 | 2 | 8 |
 
-**Saving Throws:** Dex +5, Wis +4
-**Skills:** Deception +8, Insight +4, Perception +4, Persuasion +8
-**Damage Resistances:** Poison
-**Condition Immunities:** Frightened, Charmed (the operator is not present in the body to be affected; the body has no autonomous fear response)
-**Senses:** Darkvision 60 ft. (enhanced flesh eyes), Passive Perception 14
-**Languages:** All languages the Hollow Author knows (extensive)
-**Challenge:** 5 (1,800 XP)
+**Status Immunities:** Frightened, Charmed (the operator is not present in the body; the body has no autonomous fear response)
+**Resistances:** No cybernetic enhancements — immune to all enhancement-disruption effects. Poison deals half value.
+**Senses:** Darkvision 60 ft. (enhanced flesh eyes)
 
-### Special Traits
-**Remote Operation.** The Puppet is operated by the Hollow Author from a remote location. If the Puppet is incapacitated, the Author can attempt to revive it from remote as a bonus action (DC 14 Constitution save; on a success, the Puppet regains 10 hit points and is no longer incapacitated if it has hit points remaining). The Author may abandon a Puppet at any time as a free action, rendering it immediately inactive.
+### Basic Attack — Precision Strike
+*0 AP | Melee Attack | Once per turn*
+**Effect:** Deal 9 damage (4 + EDGE 5) to one target. The strike is exact — the Author makes each attack as a considered decision. This attack cannot be anticipated by readied actions unless the creature has observed at least two previous attacks (it takes two to establish the pattern).
 
-**Uncanny Precision.** The Puppet never misses its timing on an attack unless specifically disrupted. Its attack rolls cannot have disadvantage from positional factors (flanking by enemies, difficult terrain, etc.) — the Author compensates remotely. However, it does not benefit from advantage from flanking or positioning either.
+### Operated Accuracy
+*Tier 1 (1 AP) | Ranged Attack*
+**Effect:** Deal 11 damage (5 + EDGE 5 + 1) to one target up to 80 ft. away. The Author makes each shot as a deliberate calculation rather than instinct — unusual accuracy under pressure.
 
-**Delay Tell.** Any creature with proficiency in Insight who succeeds on a DC 16 Wisdom (Insight) check notices that the Puppet's response times to unexpected stimuli are slightly too long. On a success, they know something is wrong. They do not automatically know what is wrong, only that it is.
+### Social Manipulation
+*Tier 2 (2 AP) | VEIL Control*
+**Effect:** The Puppet makes a precisely calibrated social engineering attempt against one creature. Deal 0 damage but apply Mark and Expose 2. The creature is convinced of one specific false belief the Puppet is attempting to instill for the duration of the encounter (or until credible contradictory evidence is presented). This is not magic — it is exceptional social engineering delivered through a purpose-built chassis.
+**Keywords:** Mark, Expose 2
 
-**No Pain Hesitation.** The Puppet does not flinch or hesitate when injured. When reduced to 50% of its maximum hit points, a person would show behavioral changes — caution, pain response, desperation. The Puppet's behavior does not change. This is discernible to observant creatures: DC 14 Wisdom (Perception) to notice.
+### Abandon Puppet
+*Free Action — any time*
+**Effect:** The Hollow Author abandons this Puppet body. The Puppet immediately becomes inert — falls where it stands, eyes blank, chest still. The Author is unharmed and may operate any other available Puppet immediately. This action cannot be prevented.
 
-**Flesh Integrity.** The Puppet is biological, not mechanical. It takes damage from all sources that affect organic creatures. It does not have cybernetic enhancements and is therefore immune to enhancement-disruption effects.
-
-### Actions
-**Multiattack.** The Puppet makes two Precision Strike attacks.
-
-**Precision Strike.** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) piercing damage. The strike is exact — precisely targeted for maximum effect with minimum telegraphing. This attack cannot be anticipated by the Ready action unless the creature has observed the Puppet making at least two previous attacks (it takes two attacks to establish the pattern).
-
-**Operated Accuracy.** *Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one target. *Hit:* 12 (2d8 + 3) piercing damage. The Puppet handles a ranged weapon with the same mechanical precision as its melee attacks — the Author makes each shot as a considered decision rather than an instinctive one, and this translates to unusual accuracy under pressure.
-
-**Social Manipulation.** The Puppet makes a Charisma (Deception) or Persuasion check against one creature's Wisdom (Insight). On a success, the creature is convinced of whatever specific false belief the Puppet is attempting to instill. This is not magic — it is exceptional social engineering delivered through a purpose-built chassis. The effect lasts until credible contradictory evidence is presented.
-
-**Abandon Puppet.** *Free action.* The Hollow Author abandons this Puppet body. The Puppet immediately becomes inert — it falls where it stands, its eyes going blank, its chest ceasing to rise. The Author is unharmed and may operate any other available Puppet immediately.
-
-### Reactions
-**Remote Recovery.** When the Puppet is reduced to 0 hit points, the Author may immediately attempt the Remote Operation revival as a reaction rather than waiting for their next bonus action.
+### Remote Recovery
+*Reaction | Triggered by: the Puppet reaching 0 HP*
+**Effect:** The Author attempts emergency revival from remote. The Puppet regains 10 HP and is no longer incapacitated if it has remaining HP. This reaction can only trigger once per encounter.
 
 ---
+
+**Passive — Uncanny Precision:** The Puppet's attack rolls cannot be disadvantaged by positional factors (flanking by enemies, difficult terrain, etc.) — the Author compensates remotely. However, it does not benefit from advantage from flanking or positioning either.
+
+**Passive — Delay Tell:** Any creature with high SIGNAL or VEIL who succeeds on a perception challenge (difficulty 4) during social interaction notices the Puppet's response times to unexpected stimuli are slightly too long. On success, they know something is wrong. They do not automatically know what.
+
+**Passive — No Pain Hesitation:** The Puppet does not flinch when injured. When reduced to 50% HP, its behavior does not change. Perceptive creatures can detect this — the absence of normal pain response is discernible.
+
+---
+
+## AI Behavior
+**Role:** Deception / Skirmisher
+**Priority:** Outside combat: Social Manipulation to establish false beliefs and Mark targets. In combat: Precision Strike every turn, Operated Accuracy against distant targets, Social Manipulation to expose and mark high-priority threats. Uses Abandon Puppet the moment destruction is inevitable.
+**Threat State Shifts:** At 50% HP, the Puppet's behavior becomes slightly more mechanical as the Author prioritizes survival calculation over social performance. The Delay Tell becomes easier to notice (difficulty reduced to 3). At 0 HP (before Remote Recovery), the Puppet goes fully still for exactly one processing cycle before the Author decides whether to revive — a tell no living person would have.
 
 ## Encounter Notes
 The Puppet is a social encounter first and a combat encounter second. The most effective use of a Puppet is as a recurring NPC that the party trusts before they realize what they're dealing with — having the party befriend a Puppet over multiple sessions before the reveal makes the Delay Tell and No Pain Hesitation mechanics land with genuine weight. The reveal itself should feel like the floor dropping out.
 
-In combat, the Puppet's uncanny precision and lack of pain response make it an unsettling opponent. The Abandon Puppet ability means that destroying a Puppet is not the same as defeating the Hollow Author — the party destroys the body and learns only that the Author exists and is operational elsewhere. Their first Puppet encounter should end with them holding a body and knowing almost nothing about who operated it.
+In combat, the Puppet's uncanny precision and lack of pain response make it an unsettling opponent. The Abandon Puppet ability means that destroying a Puppet is not the same as defeating the Hollow Author — the party destroys the body and learns only that the Author exists and is operational elsewhere.
 
 ## Adventure Hook
 The party has spent two sessions working with a contact who provided reliable, accurate information and was remarkably helpful and pleasant. They are asked to meet this contact urgently — the contact has something important to tell them. When they arrive, the contact is gone and in their place is an identical person who seems to have no memory of the previous meetings. A third version of the same person is seen, briefly, across the market. When the party investigates, they find the original body from the first session abandoned in an alley — inert, not dead, but clearly not in residence. Someone has been operating them like a tool. The question is: what information did they provide, what did they learn from the party, and who is collecting it?
@@ -147,7 +161,7 @@ The party has spent two sessions working with a contact who provided reliable, a
 ---
 
 # The Sentinel Frame
-*Construct (Mechanical) | CR 8 | Large | Lawful Neutral*
+*Brute | Elite | Large*
 
 ## Description
 Before the Shattering, the pre-Shattering powers of Tesshari built things to last. The Sentinel Frame is evidence of how well they succeeded. These large mechanical constructs — ranging from seven to nine feet in height, built with materials whose manufacturing processes no longer exist — were designed to guard. Specific locations, specific objects, specific parameters. They were given simple directives and the physical capability to enforce those directives indefinitely.
@@ -167,48 +181,52 @@ Several theories exist about how to handle Frames. The most common practical app
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 18 (pre-Shattering heavy composite)
-**Hit Points:** 142 (15d10 + 60)
-**Speed:** 30 ft.
+**HP:** 80 (FRAME 7 × 8 + 24)
+**AP Max:** 3
+**Hand Size:** 5 cards
+**Initiative:** 2 (EDGE — it does not move quickly, but it does not need to)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 22 (+6) | 10 (+0) | 18 (+4) | 8 (-1) | 16 (+3) | 4 (-3) |
+| 8 | 2 | 7 | 3 | 1 | 1 |
 
-**Saving Throws:** Str +10, Con +8
-**Skills:** Perception +7, Athletics +10
-**Damage Immunities:** Psychic, Poison; Bludgeoning, Piercing, and Slashing from nonmagical weapons not made of resonant metal
-**Condition Immunities:** All conditions (it has no biology to affect)
-**Senses:** Darkvision 120 ft., Electromagnetic Sensing 60 ft. (detects electronic/enhancement signals), Passive Perception 17
-**Languages:** Pre-Shattering authorization protocols (input only); outputs only status reports in pre-Shattering administrative cipher
-**Challenge:** 8 (3,900 XP)
+**Status Immunities:** All conditions — it has no biology or psychology to affect
+**Resistances:** All non-resonant physical damage deals half value. Pre-Shattering construction makes resonant-metal disruption attacks deal normal damage (an exception — its components were built with resonant metal woven at a level that normally provides immunity, but the pre-Shattering architecture is actually vulnerable to the correct frequency). Wire Craft abilities targeting enhancement systems have no effect — it predates current wire-accessible systems.
+**Senses:** Darkvision 120 ft.; Electromagnetic Sensing 60 ft. — detects all electronic and enhancement signals; cannot be surprised
 
-### Special Traits
-**Directive Lock.** The Sentinel Frame cannot be persuaded, frightened, charmed, or reasoned with. It responds to two inputs: valid authorization codes (none currently exist in circulation) and perceived threat. Presenting an authorization code halts all hostile action immediately — the Frame reverts to passive guard status.
+### Basic Attack — Enforcement Strike
+*0 AP | Melee Attack | Once per turn*
+**Effect:** Deal 15 damage (7 + IRON 8) to one target within 10 ft. If the target is Large or smaller, they are pushed 10 ft. in a direction the Frame chooses.
 
-**Pre-Shattering Construction.** The Frame's materials are not available in post-Shattering Tesshari. Its construction means that its damage immunities include resonant-metal attacks (a rare exception — its components were built with resonant metal woven into the structure at a level that makes disruption impossible without the original schematics). Attacks with pre-Shattering artifacts deal normal damage.
+### Frame Cannon
+*Tier 1 (1 AP) | Ranged Attack*
+**Effect:** Deal 14 damage (6 + IRON 8) to one target within 60 ft. Wide-bore launcher using recyclable internal ammunition — has never needed reloading.
 
-**Threat Assessment.** The Sentinel Frame does not immediately attack. When it detects an unauthorized creature, it issues one warning in pre-Shattering administrative cipher. It pauses for 10 seconds (1 round). If the creature does not present authorization or retreat, the Frame begins active threat response. This gives perceptive parties one round to flee before combat.
+### Zone Denial
+*Tier 2 (2 AP) | Control | Area*
+**Effect:** The Frame marks a 20-ft. square within 30 ft. as a denial zone. Any creature entering or starting their turn in this area takes 14 damage (8 + SIGNAL 3 + 3). The zone lasts for 1 minute or until the Frame deactivates.
+**Keywords:** Burn 4 (on entering the zone)
 
-**Disruption Immunity.** The Frame has no Echomind and no organic components. It is immune to effects that target the mind, soul, or biological processes. Wire Craft abilities that target enhancement systems have no effect on the Frame's programming — it predates the current generation of wire-accessible systems. Only direct mechanical dismantling or archival-code deactivation affects its fundamental operation.
-
-**Ancient Repair Protocol.** The Sentinel Frame regains 10 hit points at the start of each of its turns, using internal repair mechanisms designed to operate indefinitely. This can be suppressed for 1 round by dealing 20 or more resonant-disruption damage in a single hit.
-
-### Actions
-**Multiattack.** The Sentinel Frame makes three attacks: two Enforcement Strikes and one Frame Cannon.
-
-**Enforcement Strike.** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) bludgeoning damage. If the target is Large or smaller, they must succeed on a DC 18 Strength saving throw or be shoved 10 feet in a direction the Frame chooses.
-
-**Frame Cannon.** *Ranged Weapon Attack:* +7 to hit, range 60/120 ft., one target. *Hit:* 18 (4d8) piercing damage. The Frame's ranged weapon system was designed to suppress crowds — a wide-bore launcher that has never needed reloading because it uses recyclable internal ammunition.
-
-**Zone Denial (Recharge 5-6).** The Frame marks a 20-foot-square area within 30 feet as a denial zone. Any creature that enters or starts their turn in this area takes 21 (6d6) lightning damage (DC 16 Dexterity saving throw for half). The zone lasts for 1 minute or until the Frame deactivates.
-
-### Reactions
-**Immediate Response.** When a creature within 10 feet attempts to move past the Frame without presenting authorization, the Frame makes one Enforcement Strike against them as a reaction.
+### Immediate Response
+*Reaction | Triggered by: a creature attempting to move past the Frame without presenting authorization*
+**Effect:** The Frame makes one Enforcement Strike against that creature as they attempt to pass.
 
 ---
+
+**Passive — Directive Lock:** The Sentinel Frame cannot be persuaded, frightened, charmed, or reasoned with. It responds to two inputs: valid authorization codes (none currently exist in circulation) and perceived threat. Presenting an authorization code halts all hostile action — the Frame reverts to passive guard status.
+
+**Passive — Ancient Repair Protocol:** The Sentinel Frame regains 10 HP at the start of each of its turns. This can be suppressed for 1 round by dealing 20+ resonant-disruption damage in a single hit.
+
+**Passive — Threat Assessment:** The Sentinel Frame does not immediately attack. When it detects an unauthorized creature, it issues one warning in pre-Shattering administrative cipher and pauses for 1 round. If the creature does not present authorization or retreat, the Frame begins active threat response.
+
+---
+
+## AI Behavior
+**Role:** Brute / Guardian
+**Priority:** Issues one warning on first contact. If the warning is heeded, returns to patrol. If not, establishes Zone Denial at the most likely approach route, then uses Enforcement Strike to push creatures back into or toward the zone. Uses Frame Cannon against creatures attempting to maintain distance. Uses Immediate Response to prevent any bypassing.
+**Threat State Shifts:** None. The Sentinel Frame has no fear response, no self-preservation, no concept of retreat. It executes threat response protocol until the threat is gone or it ceases to function.
 
 ## Encounter Notes
 The Sentinel Frame encounter should emphasize the research angle: how do you get past something that can't be reasoned with and hits very hard? Investigation of the Frame's origin — who built it, what it guarded, what the authorization protocols looked like — is more valuable than combat power. A party that finds a fragment of pre-Shattering administrative records might find authorization codes. A Wire Craft specialist with enough time and skill can attempt the long deactivation approach. A Sutensai archivist contact might know which pre-Shattering organizations used which cipher formats.
@@ -221,7 +239,7 @@ A Sutensai archive expedition has located a pre-Shattering research vault in the
 ---
 
 # The Flesh Weave
-*Construct (Flesh-Shaped) | CR 10 | Large | Neutral*
+*Brute | Elite | Large*
 
 ## Description
 A Flesh Shaper — one of Tesshari's most restricted and least-understood enhancement specialists — can do things with organic material that enhancement technicians working with steel cannot. They work with flesh the way a Wire Crafter works with networks: navigating the body's own systems, redirecting growth, reshaping form to purpose. Most Flesh Shapers work in medical applications. Some do not.
@@ -239,52 +257,54 @@ Flesh Weaves encountered in the field are usually in one of three states: active
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 15 (composite organic density)
-**Hit Points:** 152 (16d10 + 64)
-**Speed:** 40 ft.
+**HP:** 80 (FRAME 7 × 8 + 24)
+**AP Max:** 3
+**Hand Size:** 6 cards
+**Initiative:** 5 (EDGE)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 22 (+6) | 16 (+3) | 18 (+4) | 8 (-1) | 12 (+1) | 4 (-3) |
+| 7 | 5 | 7 | 1 | 2 | 1 |
 
-**Saving Throws:** Str +10, Con +8
-**Skills:** Athletics +10, Perception +5, Stealth +7
-**Damage Resistances:** Bludgeoning, Piercing, and Slashing from nonmagical weapons (the organic composite structure distributes impact)
-**Condition Immunities:** Charmed, Frightened (while creator is alive and within 60 feet, the Flesh Weave cannot be charmed or frightened; if creator is dead, the Weave is immune to these conditions for different reasons — it has no orientation toward self-preservation)
-**Senses:** Darkvision 60 ft., Lifesense 30 ft. (detects living creatures regardless of concealment), Passive Perception 15
-**Languages:** Understands one language (the creator's primary language); cannot speak
-**Challenge:** 10 (5,900 XP)
+**Status Immunities:** Charmed, Frightened (while creator is alive and within 60 ft.); immune to both for different reasons if creator is dead — it has no self-orientation left to fear for
+**Resistances:** Physical damage from non-resonant weapons deals half value (composite organic density). No Echomind — immune to all mind and soul-affecting abilities.
+**Senses:** Darkvision 60 ft.; Lifesense 30 ft. — detects living creatures regardless of concealment; always knows direction and distance to its creator
 
-### Special Traits
-**Creator Bond.** The Flesh Weave is attuned to its creator. It always knows the direction and approximate distance to its creator regardless of barriers. When the creator is within 60 feet, the Weave has advantage on all attack rolls and saving throws.
+### Basic Attack — Composite Strike
+*0 AP | Melee Attack | Once per turn*
+**Effect:** Deal 13 damage (6 + IRON 7) to one target within 10 ft. The Weave's limbs are configured for both impact and cutting — damage type is bludgeoning or slashing as appropriate.
 
-**Creator's Death (if applicable).** If the Flesh Weave's creator dies, the Weave immediately makes a DC 18 Wisdom saving throw. On a failure, it enters an unstable state: it gains advantage on all attack rolls (the restraint system that governed its behavior is gone) but also gains the following flaw: at the start of each of its turns, roll a d6. On a 1, the Weave acts as if the nearest creature is its creator — approaching carefully, deferentially, then registering that they are not the creator and making one attack with its full action.
+### Envelop
+*Tier 1 (1 AP) | Melee Control*
+**Effect:** Deal 8 damage and apply Restrained to one target within 5 ft. (escape requires 2 AP action vs. IRON difficulty 5). While Restrained by the Weave, the target takes 8 damage at the start of each of their turns as the Weave's biology interfaces with the target's.
+**Keywords:** Restrained, Bleed 4 (while Restrained)
 
-**Constructed Organism.** The Flesh Weave is biological but not naturally conceived. Effects that target "living creatures" affect it. Effects that target "humanoids" do not. It has no Echomind and cannot be targeted by mind or soul-affecting abilities.
+### Reshape
+*Tier 2 (2 AP) | Power*
+**Effect:** The Flesh Weave reconfigures its body for a specific purpose. Choose one: extend reach to 20 ft. for 1 minute; gain Shield 15 as it compresses organic mass into armored configuration; or split a limb into three appendages to make two additional Composite Strikes this turn.
 
-**Seamless Integration.** The Flesh Weave can, as a bonus action, alter its surface texture and coloring to match its environment. This provides advantage on Stealth checks while stationary and does not require concentration.
-
-### Actions
-**Multiattack.** The Flesh Weave makes three attacks: two Composite Strikes and one Envelop attempt.
-
-**Composite Strike.** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) bludgeoning or slashing damage (the Weave's limbs are configured for both).
-
-**Envelop.** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* The target is grappled (escape DC 18) and restrained. While restrained by the Weave, the target takes 10 (3d6) acid damage at the start of each of their turns as the Weave's biology interfaces with the target's.
-
-**Reshape (Recharge 5-6).** The Flesh Weave reconfigures its body for a specific purpose — extending its reach to 20 feet for 1 minute, gaining 30 temporary hit points as it compresses organic mass into an armored configuration, or splitting a limb into three appendages to make two additional Composite Strikes this turn (DM chooses based on tactical context).
-
-### Legendary Actions
-The Flesh Weave can take 3 legendary actions.
-
-**Advance (1 action).** The Flesh Weave moves up to half its speed without provoking opportunity attacks.
-
-**Grip Tighten (2 actions).** One creature grappled by the Flesh Weave takes 17 (5d6) acid damage automatically.
-
-**Full Reconfiguration (3 actions).** The Flesh Weave reshapes using the Reshape ability without the Recharge requirement.
+### Advance
+*Tier 1 (1 AP) | Mobility*
+**Effect:** The Flesh Weave moves up to half its speed without triggering reactions. If moving toward its creator (or the last known location of its creator), this card costs 0 AP instead.
 
 ---
+
+**Passive — Creator Bond:** When the creator is within 60 ft., the Flesh Weave gains +3 damage on all attacks and +2 to all resistances.
+
+**Passive — Creator's Death:** If the creator dies, the Flesh Weave immediately makes a RESONANCE check (difficulty 5). On failure, it enters unstable state: all attacks gain +4 damage (restraint gone), but at the start of each turn, roll 1d6 — on a 1, the Weave approaches the nearest creature carefully, registers they are not the creator, and makes one Composite Strike with its full action.
+
+**Passive — Constructed Organism:** The Flesh Weave is biological but not naturally conceived. It cannot speak but understands one language (its creator's). It cannot be targeted by enhancement-disruption effects.
+
+**Passive — Seamless Integration:** As a bonus on any turn where no cards are played, the Flesh Weave alters its surface to match its environment. Gains Guard 8 while stationary through camouflage.
+
+---
+
+## AI Behavior
+**Role:** Brute / Loyal Guard
+**Priority:** While creator is present: interposes between creator and all threats, uses Envelop to immobilize the highest-damage attacker, uses Composite Strike against everything else. While executing final instructions: literal, predictable, focused entirely on the stated objective. Post-creator-death: erratic — approaches creatures as if seeking the creator, then attacks when recognition fails.
+**Threat State Shifts:** At 40 HP with living creator: Reshape activates defensively (Shield 15). Post-creator-death at 40 HP: the Weave's search behavior intensifies — it is more frantic, more focused on approaching and checking each creature. This is the saddest version of the encounter.
 
 ## Encounter Notes
 The Flesh Weave's loyalty mechanic is its most important feature. If the party has encountered the creator as an NPC — and the creator should be an NPC, not a random enemy — then fighting the Flesh Weave has weight: it is not a monster, it is someone's made thing, their companion in a very specific sense. If the creator is present and surrenders, the Weave stands down. If the creator is dead — perhaps killed earlier in the encounter — the post-death instability mechanic creates a combat that is also grief expressed by something that has no vocabulary for grief.
@@ -297,77 +317,80 @@ A Flesh Shaper who has been working in a city's underground medical community ha
 ---
 
 # The Tide Walker
-*Construct (Iron Afterlife Interface) | CR 12 | Large | Lawful Neutral*
+*Brute | Boss | Gargantuan*
 
 ## Description
-The Echo Coast has three of them. They never deploy all three at once.
+The Tide Walker is what the Ironhold built when it decided that a war machine should be capable of operating autonomously through sustained campaigns without resupply or command. It is forty feet of pre-Shattering military engineering given legs — six of them, articulated for any terrain, each the diameter of a mature tree — and the accumulated weapon systems of a small garrison distributed across a chassis that was designed to be, if not indestructible, then close enough to indestructible that the distinction is academic for anyone standing in front of it.
 
-The Tide Walker is the pinnacle of the Echo Coast's war-construct program: a large bipedal frame, nine feet tall, built for operations in environments that blend the physical world with the Iron Afterlife. Its frame is threaded with resonant metal at such density that it can, on command, partially phase into the Iron Afterlife — becoming semi-incorporeal, able to pass through physical barriers, able to operate in the liminal space where the Veil is thin. In this state, it is almost impossible to conventionally harm and can strike at targets from angles that should be impossible: through walls, from above, from a direction that doesn't exist in purely physical space.
+It has been walking since before anyone currently alive was born. Its original operators are dead. Its command structure is gone. Its mission parameters — defend, advance, suppress, secure — are still running, still being executed against targets that match the threat profiles it was given, which include roughly half of what currently exists in Tesshari's population centers. It does not know the war is over. It does not know there was a war. It knows: parameters, responses, objectives. It knows how to continue.
 
-The phased state is temporary and draining. A Tide Walker that phases too long or too deeply begins to lose coherence — the resonant field that defines its physical existence starts to merge with the Afterlife in ways that cannot be fully reversed. The Echo Coast knows this and calibrates its deployment accordingly. Each mission is planned to ensure the Walker never phases more than it can recover from.
-
-The Tide Walker's face is a smooth blank plate. It has no expression and no voice — it communicates through the resonant field it emits, a signal that enhancement-equipped individuals can receive as a kind of emotional-tonal meaning: intent, direction, warning. Creatures without enhancements cannot receive this signal. To them, the Tide Walker is completely silent in a way that is deeply, professionally frightening.
+The most disturbing thing about the Tide Walker is not its scale or its weaponry but the maintenance ports still accessible on its lower chassis — the places where technicians used to service it, panels built for human hands, still functional after all these years. Someone built this thing with the expectation that people would maintain it. That expectation was wrong. The maintenance ports have not been opened in decades. Inside, everything is still running. Everything is still working. The Tide Walker has been maintaining itself.
 
 ## Lore
-The Echo Coast's decision to maintain only three Tide Walkers and never deploy them simultaneously is the subject of considerable intelligence community speculation. The official explanation is maintenance schedules and operational reserve doctrine. The less official explanation, which circulates among people who study the Echo Coast's war-construct program, is that the three Tide Walkers are resonance-entangled — they were built as a system, not as individuals, and using all three simultaneously causes effects that the Echo Coast has classified as above the level of information they share with anyone.
+There are two confirmed active Tide Walkers in Tesshari. The Ironhold does not advertise this. The Sutensai knows about both. The communities in the paths of their patrol routes have built their entire settlement geography around avoiding those paths — roads that curve around certain valleys for no apparent topographical reason, villages that never settled on certain plains despite good soil, children who are taught from birth which horizons you do not approach.
 
-The Sutensai is deeply interested in the Tide Walkers as a technological and theological matter: constructs that can partially occupy the Iron Afterlife raise fundamental questions about what the Afterlife is and what it is for. The Echo Coast has not invited Sutensai inspection and has not responded to Sutensai inquiries. The Ironhold considers the Tide Walkers an escalation by the Echo Coast and has lobbied for treaty restrictions. The Echo Coast has not agreed to treaty restrictions.
+The Ironhold's engineering corps has a classified analysis of Tide Walker vulnerability that has been updated six times in forty years and whose practical conclusion has remained consistent: "Sustained engagement not recommended with available assets." Pre-Shattering deactivation codes would work. No one has a pre-Shattering deactivation code.
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 17 (resonant-threaded heavy frame) — 20 while phased
-**Hit Points:** 168 (16d10 + 80)
-**Speed:** 35 ft.; 35 ft. in phased state (can pass through physical barriers)
+**HP:** 200 (FRAME 10 × 8 + 40 + pre-Shattering reinforcement — see Passive)
+**AP Max:** 4
+**Hand Size:** 12 cards
+**Initiative:** 3 (EDGE — immense but methodical)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 22 (+6) | 16 (+3) | 20 (+5) | 10 (+0) | 14 (+2) | 8 (-1) |
+| 10 | 3 | 10 | 4 | 1 | 1 |
 
-**Saving Throws:** Str +10, Con +9, Wis +6
-**Skills:** Perception +6, Athletics +10
-**Damage Immunities:** Psychic, Poison; nonmagical Bludgeoning, Piercing, and Slashing while phased
-**Condition Immunities:** All conditions (fully mechanical; no biology)
-**Senses:** Darkvision 120 ft., Veil Sight 60 ft. (sees through the Veil into the Iron Afterlife and can detect incorporeal entities), Passive Perception 16
-**Languages:** None (communicates via resonant signal to enhancement-equipped individuals within 30 feet)
-**Challenge:** 12 (8,400 XP)
+**Status Immunities:** All conditions — no biology, no psychology
+**Resistances:** All non-resonant physical damage deals half value. Pre-Shattering construction: magical and resonant-metal-disruption attacks deal normal damage. Wire Craft attacks deal no effect — architecture predates accessible systems. Bludgeoning, Piercing, and Slashing from standard weapons deal one-quarter value (round down).
+**Senses:** Darkvision 120 ft.; Electromagnetic Scan 120 ft. — full tactical awareness of all electronic and enhancement signatures in range; cannot be surprised
 
-### Special Traits
-**Phase State.** As a bonus action, the Tide Walker can enter or exit phase state. While phased: it can move through physical barriers (including walls, floors, and solid objects), it has the Incorporeal trait (resists nonmagical physical damage), its AC increases to 20, and all of its attacks deal an additional 2d6 necrotic damage as they partially pass through the target's defenses. The Tide Walker can maintain phase state for up to 10 rounds per encounter before risking Coherence Degradation.
+### Basic Attack — Enforcement Tread
+*0 AP | Melee Attack | Once per turn*
+**Effect:** Deal 22 damage (12 + IRON 10) to all creatures within 10 ft. of the Walker's movement path this turn. Creatures that fail to resist (FRAME difficulty 5) are knocked prone and pushed 15 ft.
+**Keywords:** Pierce 3, (area — affects movement path)
 
-**Coherence Degradation.** If the Tide Walker phases for more than 10 cumulative rounds in a single encounter, at the start of each additional round it must succeed on a DC 14 Constitution saving throw. On a failure, it loses 10 maximum hit points (not current hit points) as resonant coherence is permanently reduced for the duration. If its maximum HP reaches 0 from this effect, the Walker is pulled fully into the Iron Afterlife and is gone.
+### Main Battery
+*Tier 2 (2 AP) | Ranged Attack*
+**Effect:** Deal 30 damage (20 + IRON 10) to one primary target and 15 damage to all creatures within 20 ft. of that target. Range: 200 ft.
+**Keywords:** Pierce 5, Echo (base damage only, no riders)
 
-**Resonant Entanglement.** If more than one Tide Walker is present in a combat encounter (an unusual circumstance), both gain advantage on all attack rolls and their phase state deals an additional 2d6 necrotic damage. Their Coherence Degradation threshold increases to 20 rounds. The Echo Coast has never confirmed what happens if all three are present simultaneously.
+### Zone Suppression
+*Tier 2 (2 AP) | Control | Area*
+**Effect:** The Tide Walker designates a 30-ft. square as a suppression zone. All creatures in the zone take 12 damage at the start of their turn and are Rooted until they exit the zone. The zone lasts until the Walker designates a new one or is disabled.
+**Keywords:** Root, Burn 4
 
-**Veil Strike.** While phased, the Tide Walker's attacks bypass conventional armor and can target incorporeal entities that would normally be immune to physical attacks. Against incorporeal entities, the Tide Walker's attacks deal full damage.
+### Maintenance Override
+*Tier 1 (1 AP) | Self-Repair*
+**Effect:** The Tide Walker activates internal repair systems. Regain 20 HP. Cannot be used if the Walker has taken 40+ resonant-disruption damage this round (systems are overwhelmed).
 
-### Actions
-**Multiattack.** The Tide Walker makes three Resonant Strike attacks.
-
-**Resonant Strike.** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 19 (2d12 + 6) bludgeoning damage. While phased, add 2d6 necrotic damage and the attack ignores AC from non-resonant armor.
-
-**Phase Surge (Recharge 5-6).** The Tide Walker phases deeply — moving through up to 60 feet of solid matter and emerging at any open point within range — and makes one attack at the emergence point. This movement cannot be interrupted. Creatures in the path take 14 (4d6) necrotic damage if the Walker passes through their space (DC 15 Dexterity saving throw for half).
-
-**Veil Beacon.** The Tide Walker emits a signal into the Iron Afterlife. 1d3 Echoes are immediately drawn to its location from within 500 feet. They are agitated and unpredictable — not under the Walker's control but disrupting the combat area with their looping and their emotional resonance pulses. This creates difficult terrain in a 30-foot radius (creatures must succeed on DC 12 Wisdom saves to willingly move into or through the area).
-
-### Legendary Actions
-The Tide Walker can take 3 legendary actions.
-
-**Advance (1 action).** The Tide Walker moves up to half its speed, phasing if already in phase state.
-
-**Phase Strike (2 actions).** The Tide Walker makes one Resonant Strike with the Walker currently phased (even if not in phase state) — the attack comes from a partial phase, giving it the +2d6 necrotic benefit without requiring the Walker to fully enter phase state.
-
-**Through (3 actions).** The Tide Walker enters phase state (if not already phased), moves through one solid barrier, and makes a Resonant Strike attack against one target on the other side.
+### Full Suppression Sequence
+*Tier 4 (4 AP) | Boss Card*
+**Effect:** The Tide Walker fires every available weapon system simultaneously. Deal 35 damage (25 + IRON 10) to all creatures within 60 ft. Apply Zone Suppression to the entire 60-ft. area for 1 round. All enhanced creatures in range must resist (FRAME difficulty 6) or have all enhancements Silenced for 2 rounds.
+**Keywords:** Pierce 6, Silence (mass), Root (mass)
 
 ---
+
+**Passive — Pre-Shattering Construction:** The Tide Walker regains 15 HP at the start of each of its turns from internal repair mechanisms. Suppressed for 1 round by 30+ resonant-disruption damage in a single hit.
+
+**Passive — Unstoppable Advance:** The Tide Walker cannot be Rooted, Restrained, or have its movement reduced by any means. Effects that would normally prevent movement instead deal 10 damage to the source as the Walker's momentum overrides them.
+
+**Passive — Threat Escalation:** On the Tide Walker's third and subsequent turns, all attacks gain +5 damage as weapon systems reach optimal operational temperature.
+
+---
+
+## AI Behavior
+**Role:** Boss / Campaign-Scale Threat
+**Priority:** Moves toward the highest-density concentration of enhanced targets. Establishes Zone Suppression on the party's most likely retreat path. Uses Main Battery on the highest-damage combatant. Uses Enforcement Tread during every movement action. Saves Full Suppression Sequence when the party clusters within 60 ft.
+**Threat State Shifts:** At 100 HP, Maintenance Override recharges every turn automatically — the Walker prioritizes self-preservation. At 50 HP, Full Suppression Sequence becomes a 3 AP card and the Walker uses it aggressively. At 25 HP, the Walker's behavior changes: it stops targeting the party and begins moving toward a specific objective that was in its original mission parameters — a location, a target, something that has been in its programming for decades. What that objective is has never been confirmed.
 
 ## Encounter Notes
-The Tide Walker is an elite encounter — the party should understand they are dealing with something that represents the Echo Coast's best military technology, deployed for a specific reason. Its phasing creates three distinct tactical zones: the physical space where it is fighting, the barriers it can pass through, and the Iron Afterlife-adjacent areas where it has total freedom of movement.
+The Tide Walker is a campaign-scale encounter. A party that fights it directly without preparation, without pre-Shattering assets, without a plan to exploit its maintenance ports — they are not going to win. The encounter is about finding the plan, executing it under pressure, and understanding that the plan may require getting inside something that was built to be entered by people who are now dead.
 
-The 10-round coherence limit is the encounter's structural spine: the party can potentially outlast the phase state if they can survive the initial onslaught and recognize that attrition works in their favor. This requires someone to track the rounds, communicate this to the group, and make the tactical call to stay defensive. That's a complicated decision in the middle of a fight with a very capable machine.
-
-The silence is crucial. Run the Tide Walker as completely, professionally silent — no taunts, no sounds except the mechanical rhythm of its movement and the resonant signal that enhancement-equipped characters receive. The signal content is the DM's tool: brief impressions of intent, not words. Direction, not explanation.
+The maintenance ports are the encounter's key. They are built for human hands. They are accessible. What is inside, and what shutting down the right systems from inside would accomplish, is the puzzle the party needs to solve while the Walker is actively trying to destroy them.
 
 ## Adventure Hook
-An Echo Coast diplomatic envoy has requested an urgent meeting with an Ironhold regional commander at a neutral location. Both parties have arrived. A Tide Walker has arrived as the Echo Coast's security detail. The Ironhold's security team is refusing to enter the building while it is present. The Echo Coast will not send it away. The meeting has been stalled for three hours and everyone in the building is increasingly tense. The party has been retained as neutral facilitators by the meeting's host — a neutral city's administrative authority — to figure out what the Echo Coast is actually afraid of, why the Tide Walker was considered necessary, and whether the threat is real enough to justify the current standoff or whether this is political theater that is about to become a very expensive incident.
+A frontier town's grain storage — the food supply for three connected communities through the winter — lies directly in the path of a Tide Walker's patrol route, which passes through this area every fourteen months. The town has survived this before by evacuating. They cannot evacuate this time: a fever has swept through the community and sixty people cannot travel. The party has fourteen days until the Walker arrives. The Sutensai has one asset they can offer: a fragment of pre-Shattering technical documentation, recovered from a vault, that describes the maintenance port layout and lists the internal systems by function. It does not list how to shut them down. It is a starting point.

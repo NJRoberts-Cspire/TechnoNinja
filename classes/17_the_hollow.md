@@ -21,150 +21,206 @@ The Shell — those who chose steel — face different problems. At high levels 
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM: The Hollow
 
-**Hit Die:** d10 (The Empty) / d12 (The Shell)
-**Primary Ability:** Wisdom (The Empty — purified Echomind) / Constitution (The Shell — mechanical perfection)
-**Saving Throw Proficiencies:** Wisdom and Charisma (The Empty) / Constitution and Strength (The Shell)
-**Armor Proficiencies:** None (The Empty — armor interferes with Echomind clarity) / All (The Shell — armor is another mechanical system to integrate)
-**Weapon Proficiencies:** Resonant blades (short configuration), signal staffs, unarmed strikes (The Empty) / All weapons (The Shell)
-**Tool Proficiencies:** Meditation tools (The Empty) / Engineering tools, calibration tools (The Shell)
-**Skills (The Empty):** Choose 3 from: Insight, Religion, Perception, Medicine, Stealth, Survival, History
-**Skills (The Shell):** Choose 2 from: Athletics, Intimidation, Investigation, Perception, History, Technology
-**Starting Equipment (The Empty):** Unadorned wrappings, signal staff, meditation tools, Iron Sutra (heavily annotated, several passages crossed out), 5 gp equivalent
-**Starting Equipment (The Shell):** Heavy reinforced chassis (acts as medium armor), circuit lance, engineering tools, technical schematics (partially completed), 15 gp equivalent
+**HP Tier:** Balanced
+**Hand Size:** 6
+**Primary Stats:** FRAME + RESONANCE
+**HP Formula:** (FRAME × 8) + 10
 
-*Note: Players choose Empty or Shell at character creation. This choice cannot be reversed. It defines not just subclass but the Hit Die, proficiency list, and several core features. Both options are fully functional from level 1.*
+*Note: At character creation, choose The Empty or The Shell. This choice is permanent and shapes which cards you can take from the unlock list. Both paths are marked. Cards without a path tag are available to both.*
+
+### Starting Hand
+
+### Void Presence
+*Tier 1 (1 AP) | Resonant Attack*
+
+**Effect:** Deal 5 + RESONANCE resonant damage to one target within 30 feet. This card deals +RESONANCE bonus damage for each 10 HP you are missing (calculated at time of play).
+**Keywords:** —
+**Unlock:** Level 1 (Starting Card — both paths)
 
 ---
 
-### Class Features by Level
+### Hollow Guard
+*Tier 1 (1 AP) | Defense*
 
-**Level 1: The Commitment**
-Choose The Empty or The Shell. This choice is permanent.
+**Effect:** Apply Guard 5 + FRAME to yourself. If you are below half HP, apply Guard 5 + FRAME + RESONANCE instead.
+**Keywords:** Guard 5 + FRAME (or Guard 5 + FRAME + RESONANCE if below half HP)
+**Unlock:** Level 1 (Starting Card — both paths)
 
-**The Empty — Bare Echomind:** You have removed or never taken cybernetic enhancements. Your Echomind, without the steel it was designed to resonate with, has begun to... change. It is louder. It fills the space the steel would have occupied. You gain the following:
-- Unarmored Defense: AC = 10 + Dexterity modifier + Wisdom modifier
-- Echomind Clarity: You are immune to effects that specifically target cybernetic enhancements. Effects that target "living creatures" affect you normally.
-- Spirit Sense: You can sense the presence of spiritual disturbances, Afterlife activity, or resonant contamination within 30 feet (passive).
+---
 
-**The Shell — Iron Body:** You have begun the systematic replacement of organic tissue with cybernetic components. Your body is increasingly mechanical. You gain the following:
-- Iron Endurance: Your hit point maximum increases by 2 per level in this class.
-- Mechanical Resistance: Resistance to poison damage. Immunity to disease.
-- Power Core: Your body runs on an internal power source. You do not need to eat or sleep, though you require 4 hours of low-power maintenance (similar to a trance) per day.
+### The Edge of Presence
+*Tier 1 (1 AP) | Control*
 
-**Level 2: The Path Diverges**
-- The Empty — Absence Power (I): Once per short rest, as a bonus action, you can invoke the raw Echomind energy that fills the space your enhancements would have occupied. Until the end of your next turn, your unarmed strikes deal 1d8 + Wisdom modifier radiant damage, and creatures that hit you with melee attacks take your Wisdom modifier in radiant damage as the exposed Echomind pulses back.
-- The Shell — Integration (I): Choose one of the following mechanical integrations. You can add additional integrations at levels 4, 8, 12, 16, and 20 (choose from the same list or new options as your DM approves):
-  - Reinforced Frame: +1 AC (stacks up to three times across levels)
-  - Enhanced Strength Assembly: Strength score increases by 2, to a maximum of 24
-  - Optical Suite: Darkvision 120 feet, advantage on Perception checks
-  - Tactical Processor: Advantage on Initiative rolls; you cannot be surprised
+**Effect:** Apply Expose 2 and Stagger to one target within 30 feet. Deal 4 + RESONANCE resonant damage. This card's Expose value increases by 1 for each 15 HP you are missing.
+**Keywords:** Expose 2+, Stagger
+**Unlock:** Level 1 (Starting Card — both paths)
 
-**Level 3: Hollow Subclass**
-You formally declare your subclass: The Empty or The Shell. This was already determined at level 1; level 3 provides your first subclass feature.
+---
 
-**Level 3: Empty — Resonant Field**
-Your Echomind projects outward. Creatures within 10 feet that have cybernetic enhancements must make a Wisdom saving throw (DC = 8 + proficiency bonus + Wisdom modifier) at the start of each of their turns or have disadvantage on one attack of their choice that turn, as the naked Echomind resonance interferes with their systems. Creatures can suppress this effect on a successful save until the start of their next turn.
+### Level Unlock List
 
-**Level 3: Shell — Combat Protocol**
-You gain one additional attack when you take the Attack action. Additionally, your melee attacks deal an additional 1d6 force damage as your mechanical strikes exceed standard biological force output.
+#### Level 2
+- **[Empty] Bare Resonance** — Tier 1 (1 AP) | Resonant Attack: Deal 6 + RESONANCE resonant damage to one target within 30 feet. Enemies with enhancements that are hit by this card take Overheat 1 — your unanchored Echomind disrupts their systems.
+- **[Shell] Iron Chassis** — Tier 1 (1 AP) | Defense: Apply Guard 6 + FRAME to yourself. If you have taken damage this combat, apply Regen 2 in addition.
 
-**Level 4: Ability Score Improvement**
+#### Level 3
+- **[Empty] Resonant Field** — Tier 1 (1 AP) | Passive: While in hand, passive. All enemies with enhancements within 15 feet take Expose 1 at the start of each of your turns. This is the naked Echomind bleeding outward — it doesn't stop.
+- **[Shell] Combat Protocol** — Tier 1 (1 AP) | Melee Attack: Deal 7 + IRON melee damage to one adjacent target. Apply Bleed 2. Your mechanical body hits harder than biology allows.
 
-**Level 5: Empty — Spiritual Velocity**
-Your Echomind, fully unanchored by steel, moves faster than bodies should. Your movement speed increases by 10 feet, and you can take the Disengage or Dodge action as a bonus action. Once per short rest, as a reaction when you are targeted by an attack, you can move up to your speed without provoking opportunity attacks as the Echomind briefly pulls your body clear.
+#### Level 4
+- **Threshold Strike** — Tier 2 (2 AP) | Resonant Attack: Deal 10 + RESONANCE resonant damage to one target within 30 feet. This card deals double its RESONANCE modifier bonus if you are below half HP.
+- **Void Anchor** — Tier 1 (1 AP) | Defense: Apply Guard 5 + FRAME and Shield 4 to yourself. If you are at critical HP, apply Guard 5 + FRAME + RESONANCE and Shield 6 instead.
 
-**Level 5: Shell — Extra Attack**
-You can attack twice when you take the Attack action. (This stacks with Combat Protocol to give you a total of two standard attacks plus the Combat Protocol extra attack from level 3.)
+#### Level 5
+- **[Empty] Absence Ward** — Tier 2 (2 AP) | Defense: Apply Guard 7 + RESONANCE to yourself. Enhancement-based cards targeting you this round deal −RESONANCE damage. Apply Regen 2.
+- **[Shell] Mechanical Surge** — Tier 2 (2 AP) | Melee Attack: Deal 11 + IRON melee damage to one adjacent target. Apply Bleed 2 and Expose 2. If you are below half HP, deal +FRAME bonus damage.
 
-**Level 6: Subclass Feature**
+#### Level 6
+- **[Empty] The Listening** — Tier 1 (1 AP) | Passive: While in hand, passive. You always know when enemies within 30 feet are lying or concealing information. Once per combat, when an enemy uses a Utility or Control card within range, cancel its non-damage riders.
+- **[Shell] Override Protocol** — Tier 1 (1 AP) | Utility: Remove one status effect (Stagger, Root, Silence, or Stun) from yourself. Apply Guard 4 + FRAME. Your mechanical redundancy suppresses what organic bodies cannot.
 
-**Level 6: Empty — Absence Ward**
-The space where your enhancements would be now functions as a ward. You have advantage on saving throws against effects from the Iron Afterlife, spiritual contamination, and Flesh Shaping targeted at you. Additionally, effects created by cybernetic enhancement abilities deal only half damage to you.
+#### Level 7
+- **Resonant Collapse** — Tier 2 (2 AP) | Resonant Attack: Deal 12 + RESONANCE resonant damage to one target within 30 feet. Apply Expose 3. If you are below half HP, also apply Stagger.
+- **Hollow Endurance** — Tier 2 (2 AP) | Defense: Apply Guard 8 + FRAME to yourself. Restore 5 + FRAME HP to yourself. This card's healing increases by RESONANCE if you are below half HP.
 
-**Level 6: Shell — Systems Redundancy**
-Your organic systems have been backed up by mechanical equivalents. When you would be subject to a condition that targets biological systems (poisoned, diseased, charmed), make a Constitution saving throw (DC = the effect's original DC). On a success, the condition is suppressed by your mechanical redundancy and does not apply.
+#### Level 8
+- **[Empty] Echomind Pulse** — Tier 2 (2 AP) | Resonant Attack: Deal 10 + RESONANCE resonant damage to all enemies within 20 feet with enhancements. Apply Overheat 1 to each. If you are below half HP, apply Overheat 2 instead.
+- **[Shell] Power Surge** — Tier 2 (2 AP) | Melee Attack: Deal 13 + IRON melee damage to one adjacent target. Apply Bleed 3 and Expose 2. All your melee Attack cards deal +FRAME bonus damage until your next turn.
 
-**Level 7: Empty — The Listening**
-Without enhancement noise, your Echomind can hear things others cannot. You permanently hear the Iron Afterlife as a faint background. You can communicate with willing dead individuals within 60 feet without requiring a check. You have advantage on Insight checks. Creatures cannot lie to you without your awareness of it — you don't always know the truth, but you know when you are not being told it.
+#### Level 9
+- **Void Deepens** — Tier 2 (2 AP) | Resonant Attack: Deal 14 + RESONANCE resonant damage to one target within 30 feet. If you are below half HP, this card deals an additional RESONANCE + FRAME bonus damage and applies Vulnerable 3.
+- **Absence Armor** — Tier 2 (2 AP) | Defense: Apply Guard 9 + FRAME + RESONANCE to yourself. Restore 6 + RESONANCE HP if below half HP.
 
-**Level 7: Shell — Override Protocol**
-Your mechanical systems have overrides your organic systems no longer do. Once per short rest, as a bonus action, you can push past a condition or status that would limit your function: you ignore the effects of one condition (frightened, stunned, paralyzed) until the end of your next turn as your mechanical systems compensate. This does not remove the condition; it suppresses its effects for 1 round.
+#### Level 10
+- **[Empty] Transcendent Form** — Tier 3 (3 AP) | Signature: For one round, you are immune to Signal and enhancement-based damage. All your resonant Attack cards deal +RESONANCE bonus damage. Apply Expose 4 to all enemies within 20 feet. Restore 8 + RESONANCE HP to yourself. After this round ends, the corona fades — you are still here, still deciding what that means.
+- **[Shell] Perfect Machine** — Tier 2 (2 AP) | Passive: While in hand, passive. You are immune to Bleed and all organic-targeting debuffs. At the start of each of your turns, restore 3 HP. You do not show damage to external observation.
 
-**Level 8: Ability Score Improvement**
+#### Level 11
+- **The Hollow Threshold** — Tier 3 (3 AP) | Signature: Deal 18 + RESONANCE resonant damage to one target within 30 feet. Apply Expose 4 and Vulnerable 3. This card deals +RESONANCE + FRAME bonus damage for each 20 HP you are missing (calculated at time of play). The closer you are to the edge, the stronger this becomes.
+- **Shell-State Flicker** — Tier 2 (2 AP) | Utility: You briefly enter a partial Shell-state. Until your next turn, all attacks against you lose their riders (no keywords, no status effects — damage only). Apply Guard 8 + FRAME to yourself. Restore 6 HP.
 
-**Level 8: Empty — Echomind Expansion**
-Your Echomind, now running without bounds, expands. Your Resonant Field radius increases to 20 feet. Once per long rest, as an action, you can release a pulse of pure Echomind energy in a 30-foot radius. All creatures with cybernetic enhancements must make a Wisdom saving throw (DC = your Hollow save DC) or take 4d10 psychic damage and be incapacitated until the end of their next turn. On a success: half damage, not incapacitated.
+#### Level 12
+- **[Empty] Resonant Void** — Tier 3 (3 AP) | Control: Until your next turn, all enhancement-based cards within 30 feet of you cost 1 additional AP to play (enemies only). Apply Expose 3 to all enemies within 30 feet. Deal 10 + RESONANCE resonant damage to all enemies with enhancements in range.
+- **[Shell] Chassis Dominance** — Tier 2 (2 AP) | Melee Attack: Deal 15 + IRON melee damage to one adjacent target. Apply Bleed 3 and Expose 3. Your FRAME is treated as 2 higher for calculating this card's damage.
 
-**Level 8: Shell — Power Surge**
-Once per short rest, as a bonus action, you can channel your power core into a surge that lasts 1 minute. During the surge: your movement speed increases by 20 feet, you have advantage on Strength and Constitution checks and saving throws, and your attacks deal an additional 1d8 force damage. When the surge ends, you cannot use Power Surge again until you complete a short rest.
+#### Level 13
+- **Void Walk** — Tier 3 (3 AP) | Signature: You briefly exit the physical plane. Until your next turn, you cannot be targeted by any card or attack. You may still play cards. At the start of your next turn, your return deals 12 + RESONANCE resonant damage to all enemies within 15 feet. Apply Expose 3 to each.
+- **Threshold Defense** — Tier 2 (2 AP) | Defense: Apply Guard 10 + FRAME + RESONANCE to yourself. This card's Guard value increases by RESONANCE for each 20 HP you are missing (calculated at time of play).
 
-**Level 9: Empty — Spiritual Shielding**
-Your Echomind is now strong enough to project protective resonance to others. As a bonus action, you can extend your Absence Ward to one creature within 30 feet for 1 minute. They gain advantage on saving throws against cybernetic enhancement effects and take half damage from enhancement-based attacks. You can have up to your Wisdom modifier creatures shielded simultaneously.
+#### Level 14
+- **[Empty] Spiritual Body** — Tier 2 (2 AP) | Passive: While in hand, passive. You have resistance to all physical damage (melee, ranged). Resonant damage you deal is increased by RESONANCE. Enhancement-targeting effects deal half damage to you.
+- **[Shell] Maximum Output** — Tier 3 (3 AP) | Signature: Deal 20 + IRON melee damage to one adjacent target. Apply Bleed 4 and Expose 4. Until your next turn, all your melee Attack cards deal +IRON bonus damage. Your mechanical output is at maximum — the question of who is doing this can wait.
 
-**Level 9: Shell — Full Integration**
-Choose one additional Integration from your Level 2 options. Additionally, your existing Integrations improve: Reinforced Frame gains an additional +1 (if taken), Enhanced Strength Assembly increases its bonus to +4 total, Optical Suite adds infrared and resonance-detection overlays, Tactical Processor adds advantage on all saving throws during the first round of combat.
+#### Level 15
+- **Hollow Resonance** — Tier 3 (3 AP) | Resonant Attack: Deal 20 + RESONANCE resonant damage to one target within 30 feet. Apply Expose 5 and Vulnerable 4. If you are below half HP, this card also Staggers the target and deals +FRAME bonus damage.
+- **Unanchored Strike** — Tier 3 (3 AP) | Resonant Attack: Deal 18 + RESONANCE resonant damage to all enemies within 20 feet. Apply Expose 3 to each. Restore 8 + FRAME HP to yourself.
 
-**Level 10: Subclass Feature**
+#### Level 16
+- **[Empty] The Light Within** — Tier 2 (2 AP) | Utility: Remove all debuffs from yourself. Apply Guard 6 + RESONANCE. Until your next turn, you are immune to Silence and Stagger. Invisible or concealed enemies within 40 feet are revealed to you.
+- **[Shell] Living Machine** — Tier 2 (2 AP) | Passive: While in hand, passive. You are immune to critical hits. Your FRAME is treated as 2 higher for all HP calculations. Enemies cannot determine your HP by observation.
 
-**Level 10: Empty — Transcendent Form**
-Once per long rest, as a bonus action, you can manifest your Echomind in a visible form for 1 minute. You become surrounded by a barely-visible spiritual corona. During this time: you are invisible to mechanical detection, you have advantage on all saving throws, your Absence Power deals 2d8 + Wisdom modifier damage (instead of 1d8), and creatures that fail the Resonant Field saving throw are also frightened of you until the end of their next turn. When this ends, you gain one level of exhaustion.
+#### Level 17
+- **Void Deepens (Apex)** — Tier 3 (3 AP) | Resonant Attack: Deal 22 + RESONANCE resonant damage to one target within 30 feet. Apply Expose 5, Vulnerable 4, and Stagger. For each 20 HP you are missing, deal an additional RESONANCE bonus damage. No ceiling on this scaling.
+- **Hollow Fortress** — Tier 3 (3 AP) | Defense: Apply Guard 12 + FRAME + RESONANCE to yourself. Restore 10 + FRAME HP. All damage you take until your next turn is reduced by FRAME. If below half HP, also apply Regen 5.
 
-**Level 10: Shell — Perfect Machine**
-Your organic percentage has dropped to a minority of your body composition. You are now immune to effects that specifically target organic tissue. You do not age. Effects that rely on you having biological needs (food, water, air) simply do not apply.
+#### Level 18
+- **[Empty] Pure State** — Tier 3 (3 AP) | Signature: Until your next turn, you are immune to all non-resonant damage. All your resonant Attack cards deal +RESONANCE + FRAME bonus damage. Apply Expose 5 to all enemies within 30 feet. Restore 12 HP to yourself.
+- **[Shell] Minimal Remainder** — Tier 3 (3 AP) | Signature: Until your next turn, you are immune to Stagger, Root, Silence, and Stun simultaneously. All your melee Attack cards deal +IRON + FRAME bonus damage. Apply Bleed 4 and Expose 4 to all enemies within 15 feet. Restore 10 HP. The Echomind is still present. You are still making choices.
 
-**Level 11: Empty — The Echo Walks**
-You can now enter the Iron Afterlife physically (not just in perception) for up to 1 hour per long rest. In the Iron Afterlife, you move and interact physically. Your Echomind, unanchored by steel, is visible and legible to Afterlife entities — they can see you as clearly as you can see them, and they treat you with the particular attention given to living beings who should not be there.
+#### Level 19
+- **Shell State** — Tier 3 (3 AP) | Signature: You briefly enter full Shell-state — the void between presence and nothing. Until your next turn, you cannot be damaged or targeted by any effect. You may play cards. Your return at the start of your next turn deals 18 + RESONANCE resonant damage to all enemies within 20 feet and applies Expose 5 and Vulnerable 4 to each.
+- **The Hollow's Edge** — Tier 3 (3 AP) | Resonant Attack: Deal 24 + RESONANCE resonant damage to one target within 30 feet. Apply Expose 6, Vulnerable 5, and Stagger. This card's total damage increases by RESONANCE + FRAME for every 20 HP you are missing.
 
-**Level 11: Shell — Maximum Output**
-Your Power Surge now costs nothing to activate. Additionally, during Power Surge, your attacks against creatures that are concentrating on effects automatically break concentration (they automatically fail the Constitution saving throw).
+#### Level 20 — Capstone
+- **The End of One Road** — Tier 3 (3 AP) | Signature (Capstone): *The Hollow at its absolute limit — the brief full Shell-state as a weapon.* Enter full Shell-state for one complete round. You cannot be targeted, damaged, or affected by anything during this round. At the start of your next turn, return and deal 28 + RESONANCE resonant damage to all enemies within 25 feet. Apply Expose 6, Vulnerable 6, and Stagger to each. Restore 16 + FRAME HP to yourself. For the rest of combat, all your cards deal +RESONANCE bonus damage for each 20 HP you are missing. The doctrine never accounted for you. That is your answer to it.
 
-**Level 12: Ability Score Improvement**
+---
 
-**Level 12: Empty — Resonant Void**
-The absence in you has become a genuine force. You can now actively suppress resonant enhancement function in creatures near you. As an action, concentrate on suppression: all enhancement-based abilities of your choice within 30 feet are treated as suppressed — they cannot be activated. This requires concentration (as concentration on a spell) and lasts up to 1 minute. Creatures can attempt a Wisdom saving throw at the start of each turn (DC = your Hollow save DC) to resist the suppression for that round.
+### Full Card Reference
 
-**Level 12: Shell — Chassis Upgrade**
-Choose two additional Integrations. Your Constitution score maximum increases to 24.
+**Absence Armor** — Tier 2 (2 AP) | Defense: Apply Guard 9 + FRAME + RESONANCE. Restore 6 + RESONANCE HP if below half HP. *Unlock: Level 9*
 
-**Level 13: Empty — The Light Within**
-Your Echomind emits light that reveals spiritual things. Invisible creatures within 60 feet of you are visible to you. Illusions appear as transparent to you. The Iron Afterlife is visible to you at all times as an overlay on physical reality. Creatures from the Afterlife within 60 feet cannot become invisible to you.
+**Absence Ward** [Empty] — Tier 2 (2 AP) | Defense: Apply Guard 7 + RESONANCE. Enhancement cards targeting you deal −RESONANCE damage. Apply Regen 2. *Unlock: Level 5*
 
-**Level 13: Shell — Tactical Overhaul**
-When you roll initiative, you can have the result be any number you choose rather than rolling. You are never surprised. Creatures attempting to use deception or social manipulation against you must succeed on a contested Insight check, but you use your Intelligence modifier instead of Wisdom for Insight — your logical processing is better than your intuition.
+**Bare Resonance** [Empty] — Tier 1 (1 AP) | Resonant Attack: Deal 6 + RESONANCE resonant damage. Targets with enhancements take Overheat 1. *Unlock: Level 2*
 
-**Level 14: Subclass Feature**
+**Chassis Dominance** [Shell] — Tier 2 (2 AP) | Melee Attack: Deal 15 + IRON melee damage. Apply Bleed 3 and Expose 3. FRAME treated as 2 higher for this card's damage. *Unlock: Level 12*
 
-**Level 15: Empty — Unanchored**
-Your Echomind has fully separated from the physical world's need for the between. You are immune to effects that would alter, suppress, or drain your Echomind. You have resistance to all damage from effects that originate from the Iron Afterlife. Creatures in the Iron Afterlife that you have not given permission to cannot interact with you while you are in the physical world.
+**Combat Protocol** [Shell] — Tier 1 (1 AP) | Melee Attack: Deal 7 + IRON melee damage. Apply Bleed 2. *Unlock: Level 3*
 
-**Level 15: Shell — The Question**
-You gain one final organic memory per long rest — a moment of complete, unfiltered biological sensation. It might be warmth, or hunger, or something else entirely. It lasts for 1 round and during that round you have advantage on all Charisma-based checks (the residual humanity reads as genuine because it is). After the moment passes, you return to full mechanical function and cannot remember the sensation clearly, only that it occurred. You are not certain if this is evidence that the Echomind persists or that it is nearly gone. You cannot tell from the inside.
+**Echomind Pulse** [Empty] — Tier 2 (2 AP) | Resonant Attack: Deal 10 + RESONANCE resonant damage to all enemies within 20 feet with enhancements. Apply Overheat 1 (or 2 if below half HP) to each. *Unlock: Level 8*
 
-**Level 16: Ability Score Improvement**
+**Hollow Endurance** — Tier 2 (2 AP) | Defense: Apply Guard 8 + FRAME. Restore 5 + FRAME HP (or 5 + FRAME + RESONANCE if below half HP). *Unlock: Level 7*
 
-**Level 17: Empty — Spiritual Body**
-You are no longer fully physical. Your natural AC is now 15 + Wisdom modifier (it no longer adds Dexterity). You have resistance to bludgeoning, piercing, and slashing damage from non-magical, non-resonant sources. You no longer age and do not need to eat, drink, or breathe — the Echomind sustains you. You can see in all lighting conditions and are immune to effects that rely on sensory input (blindness, deafness from non-spiritual sources).
+**Hollow Fortress** — Tier 3 (3 AP) | Defense: Apply Guard 12 + FRAME + RESONANCE. Restore 10 + FRAME HP. Reduce all damage taken by FRAME until your next turn. If below half HP, also apply Regen 5. *Unlock: Level 17*
 
-**Level 17: Shell — The Living Machine**
-Your hit point maximum increases to your Constitution score × your Blood Smith level (corrected: your Constitution score × your Hollow level). You are immune to critical hits — the absence of vulnerable organic structure means there are no vital targets. Creatures cannot determine your true hit point total by observation; to them, you appear uniformly intact.
+**Hollow Guard** — Tier 1 (1 AP) | Defense: Apply Guard 5 + FRAME (or Guard 5 + FRAME + RESONANCE if below half HP). *Unlock: Level 1 (Starting Card)*
 
-**Level 18: Empty — Pure State**
-Your Echomind is now so clearly itself that it functions as an independent force. Once per long rest, for 10 minutes, you can project your Echomind fully while leaving your body behind (within 60 feet). Your projected state is invisible to non-sensitive observers, can move through all barriers, and can interact with spiritual entities directly. Your body is unconscious but protected by an Echomind ward (all attacks against it have disadvantage, and it cannot be killed while you are projected, only reduced to 0). Return to your body as a free action.
+**Hollow Resonance** — Tier 3 (3 AP) | Resonant Attack: Deal 20 + RESONANCE resonant damage. Apply Expose 5 and Vulnerable 4. If below half HP, also Stagger and deal +FRAME bonus damage. *Unlock: Level 15*
 
-**Level 18: Shell — Minimal Remainder**
-Your organic components now occupy less than 5% of your total body composition. You choose what those components are. Whatever you have chosen to keep is protected as intensely as your mechanical components allow. You have advantage on all saving throws. Your Intelligence and Wisdom scores can now be increased above 20 (maximum 24) because your mechanical processing has begun compensating for what those scores represent. The Echomind is still present. You are not certain of much else.
+**Hollow Threshold, The** — Tier 3 (3 AP) | Signature: Deal 18 + RESONANCE resonant damage. Apply Expose 4 and Vulnerable 3. Deal +RESONANCE + FRAME bonus damage for each 20 HP missing. *Unlock: Level 11*
 
-**Level 19: Ability Score Improvement**
+**Hollow's Edge, The** — Tier 3 (3 AP) | Resonant Attack: Deal 24 + RESONANCE resonant damage. Apply Expose 6, Vulnerable 5, Stagger. Damage increases by RESONANCE + FRAME for every 20 HP missing. *Unlock: Level 19*
 
-**Level 20: The End of One Road**
+**Iron Chassis** [Shell] — Tier 1 (1 AP) | Defense: Apply Guard 6 + FRAME. Apply Regen 2 if damaged this combat. *Unlock: Level 2*
 
-**The Empty — Ascension Pending:**
-Your Echomind is now essentially independent. You have resistance to all damage except force damage. You are immune to the frightened, charmed, and stunned conditions. Once per long rest, you can become fully incorporeal for 1 hour — untouchable by physical means, able to pass through all barriers, perceiving both the physical world and the Iron Afterlife simultaneously. You can choose to remain incorporeal permanently (this is a character-ending choice to be discussed with the DM — it represents the completion of the Empty path, the Echomind fully released from physical anchor). If you remain physical, you continue to function at the limits of what the Iron Sutra says is impossible. The doctrine never accounted for you. That is your answer to it.
+**Light Within, The** [Empty] — Tier 2 (2 AP) | Utility: Remove all debuffs. Apply Guard 6 + RESONANCE. Immune to Silence and Stagger until your next turn. Reveal all invisible/concealed enemies within 40 feet. *Unlock: Level 16*
 
-**The Shell — The Final Question:**
-You have replaced everything that could be replaced. What remains of your original organic tissue is whatever you chose to keep. Your mechanical systems are the finest in Tesshari. You are, by every measurable metric, the most powerful physical being in the room at almost all times. You are also not entirely certain you are still you. The Echomind is present — it must be, because you are still making choices — but it registers in your own internal diagnostics as a faint signal in a much louder machine. Once per long rest, for 1 minute, you can dedicate your full mechanical output to combat: you are immune to all damage except psychic and force, your attacks deal maximum damage, and you cannot be moved, stunned, or stopped by any physical force. When this ends: make a Wisdom saving throw (DC 20). On a success, you remember who you are and why you are doing this. On a failure, you do not act for 1 round as your Echomind struggles to reassert itself. This saving throw will, eventually, fail. The Shell knows this. They have decided it is worth it. They are still deciding.
+**Listening, The** [Empty] — Tier 1 (1 AP) | Passive: Always sense lies within 30 feet. Once per combat, cancel non-damage riders on one enemy Utility or Control card. *Unlock: Level 6*
+
+**Living Machine** [Shell] — Tier 2 (2 AP) | Passive: Immune to critical hits. FRAME treated as 2 higher for HP. Enemies cannot determine your HP. *Unlock: Level 16*
+
+**Maximum Output** [Shell] — Tier 3 (3 AP) | Signature: Deal 20 + IRON melee damage. Apply Bleed 4 and Expose 4. All melee Attack cards deal +IRON bonus damage until your next turn. *Unlock: Level 14*
+
+**Mechanical Surge** [Shell] — Tier 2 (2 AP) | Melee Attack: Deal 11 + IRON melee damage. Apply Bleed 2 and Expose 2. Deal +FRAME bonus damage if below half HP. *Unlock: Level 5*
+
+**Minimal Remainder** [Shell] — Tier 3 (3 AP) | Signature: Immune to Stagger, Root, Silence, Stun until your next turn. All melee Attack cards deal +IRON + FRAME bonus damage. Apply Bleed 4 and Expose 4 to all enemies within 15 feet. Restore 10 HP. *Unlock: Level 18*
+
+**Override Protocol** [Shell] — Tier 1 (1 AP) | Utility: Remove one status effect from yourself. Apply Guard 4 + FRAME. *Unlock: Level 6*
+
+**Perfect Machine** [Shell] — Tier 2 (2 AP) | Passive: Immune to Bleed and organic-targeting debuffs. Restore 3 HP per turn. Do not show damage externally. *Unlock: Level 10*
+
+**Power Surge** [Shell] — Tier 2 (2 AP) | Melee Attack: Deal 13 + IRON melee damage. Apply Bleed 3 and Expose 2. All melee Attack cards deal +FRAME bonus damage until your next turn. *Unlock: Level 8*
+
+**Pure State** [Empty] — Tier 3 (3 AP) | Signature: Immune to all non-resonant damage until your next turn. All resonant Attack cards deal +RESONANCE + FRAME bonus damage. Apply Expose 5 to all enemies within 30 feet. Restore 12 HP. *Unlock: Level 18*
+
+**Resonant Collapse** — Tier 2 (2 AP) | Resonant Attack: Deal 12 + RESONANCE resonant damage. Apply Expose 3. If below half HP, also apply Stagger. *Unlock: Level 7*
+
+**Resonant Field** [Empty] — Tier 1 (1 AP) | Passive: All enemies with enhancements within 15 feet take Expose 1 at the start of each of your turns. *Unlock: Level 3*
+
+**Resonant Void** [Empty] — Tier 3 (3 AP) | Control: Until your next turn, all enhancement-based cards within 30 feet cost 1 additional AP (enemies only). Apply Expose 3 to all enemies with enhancements within 30 feet. Deal 10 + RESONANCE resonant damage to each. *Unlock: Level 12*
+
+**Shell State** — Tier 3 (3 AP) | Signature: Until your next turn, cannot be damaged or targeted. Return deals 18 + RESONANCE resonant damage to all enemies within 20 feet. Apply Expose 5 and Vulnerable 4 to each. *Unlock: Level 19*
+
+**Shell-State Flicker** — Tier 2 (2 AP) | Utility: All attacks against you lose their riders until your next turn. Apply Guard 8 + FRAME. Restore 6 HP. *Unlock: Level 11*
+
+**Spiritual Body** [Empty] — Tier 2 (2 AP) | Passive: Resistance to all physical damage. Resonant damage you deal increased by RESONANCE. Enhancement effects deal half damage to you. *Unlock: Level 14*
+
+**The Edge of Presence** — Tier 1 (1 AP) | Control: Apply Expose 2 (increases by 1 per 15 HP missing) and Stagger to one target within 30 feet. Deal 4 + RESONANCE resonant damage. *Unlock: Level 1 (Starting Card)*
+
+**The End of One Road** — Tier 3 (3 AP) | Signature (Capstone): Enter full Shell-state for one round (untargetable). Return deals 28 + RESONANCE resonant damage to all enemies within 25 feet. Apply Expose 6, Vulnerable 6, Stagger to each. Restore 16 + FRAME HP. For rest of combat, all cards deal +RESONANCE damage per 20 HP missing. *Unlock: Level 20*
+
+**The Hollow Threshold** — Tier 3 (3 AP) | Signature: See above. *Unlock: Level 11*
+
+**Threshold Defense** — Tier 2 (2 AP) | Defense: Apply Guard 10 + FRAME + RESONANCE (increases by RESONANCE per 20 HP missing). *Unlock: Level 13*
+
+**Threshold Strike** — Tier 2 (2 AP) | Resonant Attack: Deal 10 + RESONANCE resonant damage. Double RESONANCE modifier bonus if below half HP. *Unlock: Level 4*
+
+**Transcendent Form** [Empty] — Tier 3 (3 AP) | Signature: Immune to Signal and enhancement damage for one round. All resonant Attack cards deal +RESONANCE bonus damage. Apply Expose 4 to all enemies within 20 feet. Restore 8 + RESONANCE HP. *Unlock: Level 10*
+
+**Unanchored Strike** — Tier 3 (3 AP) | Resonant Attack: Deal 18 + RESONANCE resonant damage to all enemies within 20 feet. Apply Expose 3 to each. Restore 8 + FRAME HP. *Unlock: Level 15*
+
+**Void Anchor** — Tier 1 (1 AP) | Defense: Apply Guard 5 + FRAME and Shield 4 (or Guard 5 + FRAME + RESONANCE and Shield 6 if at critical HP). *Unlock: Level 4*
+
+**Void Deepens** — Tier 2 (2 AP) | Resonant Attack: Deal 14 + RESONANCE resonant damage. If below half HP, deal +RESONANCE + FRAME bonus damage and apply Vulnerable 3. *Unlock: Level 9*
+
+**Void Deepens (Apex)** — Tier 3 (3 AP) | Resonant Attack: Deal 22 + RESONANCE resonant damage. Apply Expose 5, Vulnerable 4, Stagger. Deal +RESONANCE bonus damage per 20 HP missing (no ceiling). *Unlock: Level 17*
+
+**Void Presence** — Tier 1 (1 AP) | Resonant Attack: Deal 5 + RESONANCE resonant damage. Deal +RESONANCE bonus damage for each 10 HP missing. *Unlock: Level 1 (Starting Card)*
+
+**Void Walk** — Tier 3 (3 AP) | Signature: Cannot be targeted until your next turn. Return deals 12 + RESONANCE resonant damage to all enemies within 15 feet. Apply Expose 3 to each. *Unlock: Level 13*
 
 ---
 

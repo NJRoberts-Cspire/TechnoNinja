@@ -8,7 +8,7 @@
 ---
 
 # The Drifted
-*Humanoid (Corrupted Enhancement) | CR 3 | Medium | Chaotic Neutral*
+*Controller | Standard | Medium*
 
 ## Description
 They still have a name. They still know their name. They can tell you their name, their history, the name of their home village, the year they had their first modifications installed, the name of the technician who did it. They are still entirely present. They are also doing things they did not decide to do, and the things they are doing are becoming harder to explain.
@@ -24,50 +24,58 @@ Enhancement technicians who work in the Ashlands region have developed an inform
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 13 (cybernetic subdermal weave)
-**Hit Points:** 52 (8d8 + 16)
-**Speed:** 30 ft.
+**HP:** 44 (FRAME 4 × 8 + 12)
+**AP Max:** 2
+**Hand Size:** 4 cards
+**Initiative:** 4 (EDGE)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 14 (+2) | 15 (+2) | 14 (+2) | 12 (+1) | 10 (+0) | 11 (+0) |
+| 3 | 4 | 4 | 4 | 3 | 3 |
 
-**Saving Throws:** Con +4, Int +3
-**Skills:** Athletics +4, Perception +4 (enhancement-assisted)
-**Condition Immunities:** Charmed (the Drifted's enhancements interfere with external influence on their nervous system, though this is a side effect, not a defense)
-**Senses:** Darkvision 60 ft., Enhanced Perception (unusual frequencies, see Drift Signal), Passive Perception 14
-**Languages:** Tesshari regional dialect, Iron Sutra liturgical script (reading only)
-**Challenge:** 3 (700 XP)
+**Status Immunities:** Charmed (the Drifted's enhancements interfere with external influence — a side effect, not a defense)
+**Resistances:** None
+**Senses:** Darkvision 60 ft.; Enhanced Perception — picks up frequencies beyond normal range due to Drift Signal
 
-### Special Traits
-**Drift Signal.** The Drifted's enhancements are receiving corrupted input from the Convergence's effect on local resonance fields. At the start of each of the Drifted's turns in combat, roll a d6. On a 1-2, an enhancement fires without authorization: the Drifted makes one random attack against the nearest creature (roll 1d4 to determine target if multiple creatures are equidistant; this attack can target the Drifted's allies). On a 3-4, the Drifted receives a burst of enhanced sensory data and has advantage on their next Perception or Investigation check. On a 5-6, their enhancement package operates normally for this round.
+### Basic Attack — Reinforced Strike
+*0 AP | Melee Attack | Once per turn*
+**Effect:** Deal 7 damage (3 + IRON 3 + 1 variable) to one target. Roll 1d6 at the start of each turn before this attack — on a 1–2, the strike fires without authorization against the nearest creature instead of the Drifted's intended target (can hit allies).
 
-**Involuntary Broadcast.** The Drifted's corrupted enhancements emit irregular resonance signals. Any creature with mesh-linked enhancements within 30 feet must succeed on a DC 12 Intelligence saving throw at the start of their turn or receive a fragment of the Drifted's current sensory input as a distraction, suffering disadvantage on their next attack roll or ability check.
+### Drift Burst
+*Tier 2 (2 AP) | Signal Attack | Area*
+**Effect:** The Drifted's enhancements fire simultaneously in an uncontrolled surge. Deal 11 damage (4 + SIGNAL 4 + 3) to all creatures within 15 ft. The Drifted also takes 5 damage from the uncontrolled discharge. This card cannot be voluntarily held — if the Drifted has 2 AP available and enhanced creatures are within 15 ft., it plays automatically on a roll of 1–2 on the drift table.
+**Keywords:** Overheat 1
 
-**Still Human.** The Drifted is not a Shell. They respond to communication, can be reasoned with, can provide information, can be helped. A creature that spends an action engaging the Drifted in non-threatening conversation can attempt a DC 12 Persuasion check. On success, the Drifted's Drift Signal rolls shift one step positive (1-2 becomes 1 only; 3-4 becomes 2-4) for 1 minute as the engagement of their Echomind stabilizes the corrupted signal.
+### Targeted Override
+*Tier 1 (1 AP) | Attack — once per encounter*
+**Effect:** The Drifted seizes momentary control of one specific enhancement and uses it deliberately. Deal 10 damage (6 + SIGNAL 4) to one target. The effort of forcing control through the corrupted signal leaves the Drifted Exposed 2 until end of their next turn.
+**Keywords:** Expose 2 (self)
 
-**Corruption Signature.** A Sutensai Veil Weaver or enhancement technician who examines the Drifted can identify the specific corruption batch affecting them and, with a DC 14 Medicine or Arcana check, determine the likely timeline of progression and the nearest person or facility with the appropriate recalibration equipment.
-
-### Actions
-**Multiattack.** The Drifted makes two attacks.
-
-**Reinforced Strike.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) bludgeoning or slashing damage (depending on enhancement configuration).
-
-**Drift Burst (Recharge 5-6).** The Drifted's enhancements fire simultaneously in a surge that the Drifted cannot control. Each creature within 15 feet must succeed on a DC 13 Dexterity saving throw or take 10 (3d6) lightning damage. The Drifted takes 5 (1d10) lightning damage from the uncontrolled surge.
-
-**Targeted Override (1/day).** The Drifted seizes momentary control of a specific enhancement and uses it deliberately. This functions as one enhancement-based ability of the DM's choice (determined by what enhancements the Drifted has installed). The effort of forcing this control through the corrupted signal is exhausting — the Drifted has disadvantage on all attack rolls and ability checks until the start of their next turn.
-
-### Reactions
-**Involuntary Defense.** When targeted by a melee attack, the Drifted's defensive enhancements may fire automatically. Roll a d6. On a 5-6, the attack has disadvantage as the Drifted's body interposes a reinforced limb without their conscious action. The Drifted cannot choose to activate this — it fires or it doesn't.
+### Involuntary Defense
+*Reaction | Triggered by: a melee attack targeting the Drifted*
+**Effect:** Roll 1d6. On a 5–6, the Drifted's defensive enhancements fire automatically — the attack loses 4 damage as a reinforced limb interposes. The Drifted cannot choose to activate this. It fires or it doesn't.
 
 ---
+
+**Passive — Drift Signal:** At the start of each of the Drifted's turns in combat, roll 1d6. On a 1–2: an enhancement fires without authorization — the Drifted's Basic Attack fires against the nearest creature (ally or enemy). On a 3–4: the Drifted receives enhanced sensory data — they gain +2 to their next attack this turn. On a 5–6: the enhancement package operates normally.
+
+**Passive — Involuntary Broadcast:** The Drifted's corrupted enhancements emit irregular resonance signals. Any creature with mesh-linked enhancements within 30 ft. receives a fragment of the Drifted's current sensory input as a distraction — their next card this round loses 3 damage or effect value.
+
+**Passive — Still Human:** The Drifted is not a Shell. A creature that spends 1 AP engaging the Drifted in non-threatening communication can attempt a VEIL challenge (difficulty 3). On success, the Drift Signal rolls shift one step positive for 1 minute as the Echomind engagement stabilizes the corrupted signal.
+
+---
+
+## AI Behavior
+**Role:** Reluctant Combatant / Controller
+**Priority:** The Drifted does not want to fight. If communication is initiated before combat (Still Human passive), it de-escalates. In combat, Drift Signal drives behavior unpredictably. The Drifted will use Targeted Override when it achieves a moment of control, then visibly struggle to maintain it.
+**Threat State Shifts:** At 50% HP, the Drifted's Drift Signal worsens — all rolls of 1–3 trigger the unauthorized attack. They may briefly cry out — their name, a location, a person — before the Drift pulls them back under.
 
 ## Encounter Notes
 The Drifted is most interesting when the party does not immediately know what they're dealing with. Someone acting strangely, moving in unexpected directions, starting and stopping with visible distress, occasionally doing something that looks like an attack and then immediately apologizing — this is a mystery before it is a combat encounter.
 
-The question of what the Drifted's enhancements are moving them toward is the core of any Drifted encounter: that destination is always connected to the Convergence somehow. Following a Drifted to where they were being pulled can lead to a Seep, an Ashlands contamination site, another Drifted group (which raises the alarming possibility of coordinated Drift behavior), or a location connected to whatever the Convergence is actually building toward.
+The question of what the Drifted's enhancements are moving them toward is the core of any Drifted encounter: that destination is always connected to the Convergence somehow. Following a Drifted to where they were being pulled can lead to a Seep, an Ashlands contamination site, another Drifted group, or a location connected to whatever the Convergence is building toward.
 
 ## Adventure Hook
 The party is in a village that has reported three cases of unusual behavior from residents with cybernetic enhancements. All three were installed by the same traveling enhancement technician, six months ago. Two of the three affected residents have left the village without explanation in the last week — one was found by Ironhold soldiers 20 miles away, moving southeast with no apparent awareness of their destination. The third is still in the village and is frightened. They know the pattern. They're asking for help before they start walking too.
@@ -75,7 +83,7 @@ The party is in a village that has reported three cases of unusual behavior from
 ---
 
 # The Overgrown
-*Monstrosity (Flesh-Metal Conflict) | CR 7 | Medium | Chaotic Neutral*
+*Brute | Elite | Medium*
 
 ## Description
 Enhancement rejection is not rare. The human body's resonant field is not always compatible with the specific resonant frequency of a given metal, and even compatible matches can drift over years. Most rejection is managed: recalibration, medication, gradual replacement with better-matched components. Most rejection does not produce the Overgrown.
@@ -91,49 +99,56 @@ The Sutensai's Shepherds — specialists in Shelling cases — have the closest 
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 17 (calcified flesh-metal composite shell)
-**Hit Points:** 114 (12d8 + 60)
-**Speed:** 35 ft. (built-up musculature enables speed the original person never had)
+**HP:** 84 (FRAME 7 × 8 + 24 + composite shell bonus — see Passive)
+**AP Max:** 3
+**Hand Size:** 5 cards
+**Initiative:** 3 (EDGE)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 20 (+5) | 10 (+0) | 20 (+5) | 8 (-1) | 8 (-1) | 6 (-2) |
+| 7 | 3 | 7 | 2 | 2 | 2 |
 
-**Saving Throws:** Str +8, Con +8
-**Skills:** Athletics +8
-**Damage Resistances:** Bludgeoning, Piercing, and Slashing from nonmagical weapons (the composite shell is dense)
-**Condition Immunities:** Frightened, Charmed (pain has built a resistance to further disruption)
-**Senses:** Darkvision 30 ft., Passive Perception 9
-**Languages:** Understands languages known before the cascade, speaks with difficulty
-**Challenge:** 7 (2,900 XP)
+**Status Immunities:** Frightened, Charmed (pain has built a resistance to further disruption)
+**Resistances:** Physical damage from non-resonant weapons deals half value (composite shell). Cannot be knocked unconscious — only reduced to 0 HP.
+**Senses:** Darkvision 30 ft.; no enhanced perception
 
-### Special Traits
-**Pain Threshold.** The Overgrown cannot be knocked unconscious except by reduction to 0 hit points. Additionally, whenever the Overgrown takes 10 or more damage from a single hit, their next attack roll is made with advantage as the pain triggers an adrenaline-rage response.
+### Basic Attack — Conflict Strike
+*0 AP | Melee Attack | Once per turn*
+**Effect:** Deal 13 damage (6 + IRON 7) to one target. The strike comes from composite-reinforced limbs that have become, structurally, partly weapon.
 
-**Composite Shell.** The calcified flesh-metal composites provide damage resistance to physical attacks. Additionally, the first time each encounter that the Overgrown takes bludgeoning, piercing, or slashing damage from a weapon attack, reduce the damage by 5 (the shell absorbs the initial impact).
+### Resonance Shatter
+*Tier 2 (2 AP) | Signal Attack | Area*
+**Effect:** The Overgrown expels a surge of conflicted resonant energy in a 20-ft. cone. Deal 15 damage (8 + SIGNAL 2 + 5 conflict bonus) to all creatures in the cone. Creatures that fail to resist have their enhancements Silenced for 1 minute.
+**Keywords:** Silence, Pierce 2
 
-**Uncontrolled Resonance.** The Overgrown's internal resonance field is in constant fluctuation. Creatures with active cybernetic enhancements within 10 feet take 3 (1d6) lightning damage at the start of each of their turns as the Overgrown's field interferes with nearby enhancement systems.
+### Howl of Conflict
+*Tier 1 (1 AP) | Control — Involuntary*
+**Effect:** The Overgrown releases a sound that is not quite a scream and not quite a mechanical shriek. All creatures within 20 ft. must resist (RESONANCE difficulty 4) or be Frightened of the Overgrown for 1 minute. This is not a calculated intimidation — it is involuntary. The Overgrown does not know they are doing it.
+**Keywords:** (Fear — Frightened)
 
-**Rejection Fury.** When the Overgrown has 57 or fewer hit points (half), their conflict escalates. They gain one additional attack on their Multiattack and their speed increases to 40 ft. as the rejection cascade intensifies with exertion.
-
-### Actions
-**Multiattack.** The Overgrown makes three Conflict Strike attacks.
-
-**Conflict Strike.** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) bludgeoning damage. The strike comes from composite-reinforced limbs that have become, structurally, partly weapon.
-
-**Resonance Shatter (Recharge 5-6).** The Overgrown expels a surge of conflicted resonant energy in a 20-foot cone. Creatures in the area must succeed on a DC 16 Constitution saving throw or take 21 (6d6) lightning damage and have their enhancements disabled for 1 minute. On a successful save, they take half damage and enhancements are disabled until the end of their next turn only.
-
-**Howl of Conflict.** *Bonus Action.* The Overgrown releases a sound that is not quite a scream and not quite a mechanical shriek. All creatures within 20 feet must succeed on a DC 14 Wisdom saving throw or be Frightened of the Overgrown for 1 minute. This is not a calculated intimidation — it is involuntary. The Overgrown does not know they are doing it.
-
-### Reactions
-**Impact Absorption.** When the Overgrown would be knocked prone, they may use their reaction to succeed on the knockdown regardless of the triggering save.
+### Impact Absorption
+*Reaction | Triggered by: any effect that would apply Root or Prone to the Overgrown*
+**Effect:** The Overgrown's composite structure absorbs the impact. The Root or Prone effect is negated. The Overgrown takes 3 damage from the internal stress.
 
 ---
 
+**Passive — Pain Threshold:** Whenever the Overgrown takes 12 or more damage from a single hit, their next attack gains +4 damage as pain triggers an adrenaline-rage response.
+
+**Passive — Uncontrolled Resonance:** The Overgrown's internal resonance field fluctuates constantly. Creatures with active cybernetic enhancements within 10 ft. take 4 damage at the start of each of their turns as the field interferes with nearby systems.
+
+**Passive — Rejection Fury:** At 42 HP (half), the Overgrown's conflict escalates. They gain +1 to their Basic Attack damage and their speed increases. If they have not already used Howl of Conflict this encounter, it triggers automatically.
+
+---
+
+## AI Behavior
+**Role:** Brute / Tragic Combatant
+**Priority:** Closes distance immediately and uses Conflict Strike every turn. Uses Howl of Conflict early to clear space. Uses Resonance Shatter when multiple enhanced creatures cluster within cone range. Does not pursue strategically — moves toward the nearest creature and strikes.
+**Threat State Shifts:** At 42 HP, Rejection Fury activates. The Overgrown becomes faster and harder-hitting but also less controlled — it may briefly surface: their real voice, their name, something specific only they could say. Then the pain takes them back under.
+
 ## Encounter Notes
-The Overgrown is a tragic combat encounter. The party is likely to fight it, but the most memorable version of this fight includes a moment when communication is possible — either before combat begins, or during a brief window when the Overgrown's pain recedes enough for the person inside to surface and speak. What they say in that window is up to the DM, but it should be specific: their name, someone they miss, something they want the party to know. Then the pain takes them back under.
+The Overgrown is a tragic combat encounter. The party is likely to fight it, but the most memorable version of this fight includes a moment when communication is possible — either before combat begins, or during a brief window when the Overgrown's pain recedes enough for the person inside to surface and speak. What they say in that window is up to the GM, but it should be specific: their name, someone they miss, something they want the party to know. Then the pain takes them back under.
 
 The question of whether to try to help vs. fight vs. end it mercifully is something the party should have to decide together. There is no clean right answer.
 
@@ -143,7 +158,7 @@ A Sutensai Shepherd has been tracking an Overgrown case for three weeks and has 
 ---
 
 # The Spliced Horror
-*Monstrosity (Failed Stitching) | CR 11 | Large | Chaotic Evil*
+*Brute | Boss | Large*
 
 ## Description
 The Stitched — those who have incorporated additional bodies into their own frame, expanding their physical form across multiple integrated selves — represent the furthest edge of what cybernetic enhancement can do to the human form. A successful Stitching requires compatible bodies, compatible enhancement packages, and, most critically, compatible Echominds: the personalities and consciousness patterns of the individual selves must be able to coexist, integrate, and eventually merge into something that can be called a single new identity.
@@ -161,62 +176,62 @@ The current case — a Spliced Horror that emerged from an illegal Stitching ope
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 16 (multi-layered body integration)
-**Hit Points:** 176 (17d10 + 85)
-**Speed:** 35 ft.
+**HP:** 140 (FRAME 9 × 8 + 40 + integrated resilience pool — see Passive)
+**AP Max:** 4
+**Hand Size:** 9 cards
+**Initiative:** 3 (EDGE — multiple imperatives slow decisive action)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 22 (+6) | 12 (+1) | 20 (+5) | 10 (+0) | 6 (-2) | 8 (-1) |
+| 9 | 3 | 9 | 3 | 2 | 2 |
 
-**Saving Throws:** Str +10, Con +9
-**Skills:** Athletics +10, Perception +2
-**Damage Resistances:** Bludgeoning, Piercing, and Slashing from nonmagical weapons
-**Damage Immunities:** Psychic (the Spliced Horror cannot be psychically affected because there is no coherent target for psychic influence within it)
-**Condition Immunities:** Charmed, Frightened, Stunned
-**Senses:** Darkvision 60 ft. (multiple overlapping perspectives), Passive Perception 12
-**Languages:** Speaks fragments of all languages known by its components — usually incoherently, sometimes briefly lucid
-**Challenge:** 11 (7,200 XP)
+**Status Immunities:** Charmed, Frightened, Stunned (no coherent mind to target — too many fragments to form a single target)
+**Resistances:** Physical damage from non-resonant weapons deals half value. Cannot be targeted by abilities requiring a single coherent mind or soul.
+**Senses:** Darkvision 60 ft.; multiple overlapping sensory perspectives from integrated components
 
-### Special Traits
-**Multiple Imperatives.** The Spliced Horror operates on multiple competing behavioral programs simultaneously. At the start of each of its turns, roll a d4:
-- 1: Pursuit — the Horror fixates on the nearest creature and moves directly toward it at full speed before any actions.
-- 2: Defense — the Horror retreats 15 feet from the most recent attacker.
-- 3: Coherent Moment — the Horror acts according to one integrated will for this round (see Lucid Window, below).
-- 4: Rage Cascade — the Horror makes all Multiattack attacks this round at +2 to hit but against random targets within range.
+### Basic Attack — Composite Strike
+*0 AP | Melee Attack | Once per turn*
+**Effect:** Deal 16 damage (7 + IRON 9) to one target within 10 ft.
 
-**Lucid Window.** On a Coherent Moment (roll of 3, above), one fragment briefly achieves dominance. The Horror becomes still, speaks in a single voice, and is capable of coherent communication for one round. It is also, in this state, able to be persuaded to disengage (DC 16 Persuasion). A creature with knowledge of one of the original selves (their name, a specific memory) has advantage on this check. After the round ends, the window closes.
+### Voice Cascade
+*Tier 2 (2 AP) | Area Attack*
+**Effect:** All voices in the Spliced Horror speak simultaneously at maximum resonance. Deal 18 damage (9 + IRON 9) to all creatures within 30 ft. Creatures that fail to resist are Staggered until end of their next turn. Creatures with audio-enhancement implants are Exposed 2 as the resonance directly targets their implants.
+**Keywords:** Stagger, Expose 2 (audio-enhanced targets)
 
-**Fragmented Echomind.** The Spliced Horror cannot be targeted by any ability that requires a coherent mind or soul as a target (not because it lacks a mind, but because it has too many fragments to form a coherent target). This includes enchantment and divination spells targeting "a creature you can see." However, its psychic immunity does not protect it from resonance-disruption damage.
+### Resonance Overload
+*Tier 1 (1 AP) | Signal Attack*
+**Effect:** The Spliced Horror's multiple enhancement packages pulse simultaneously against one target within 20 ft. Deal 10 damage (4 + SIGNAL 3 + 3) and apply Silence until end of their next turn.
+**Keywords:** Silence, Overheat 1
 
-**Integrated Resilience.** When the Spliced Horror would be killed by an attack or effect that doesn't reduce it to 0 hit points, roll a d4. On a 3-4, one remaining fragment surges and the Horror regains 15 hit points. This can occur once per round maximum.
+### Fragment Surge
+*Tier 1 (1 AP) | Attack*
+**Effect:** One body segment acts independently. Make one additional Composite Strike against any target within reach (can target a different creature than the main action).
 
-### Actions
-**Multiattack.** The Spliced Horror makes four Composite Strike attacks (subject to Multiple Imperatives modification).
-
-**Composite Strike.** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 15 (2d8 + 6) bludgeoning damage.
-
-**Voice Cascade (Recharge 5-6).** All voices within the Spliced Horror speak simultaneously at maximum resonance. Every creature within 30 feet must succeed on a DC 17 Constitution saving throw or take 28 (8d6) thunder damage and be deafened for 1 minute. On a successful save, they take half damage. Creatures with audio-enhancement implants have disadvantage on this save (the resonance directly targets their implants).
-
-**Resonance Overload.** *Bonus Action.* The Spliced Horror's multiple enhancement packages pulse simultaneously. One creature within 20 feet must succeed on a DC 15 Constitution saving throw or have their cybernetic enhancements overloaded: they take 10 (3d6) lightning damage and are unable to use enhancement-based abilities until the end of their next turn.
-
-### Legendary Actions
-The Spliced Horror can take 3 legendary actions.
-
-**Fragment Surge (1 action).** One body segment of the Spliced Horror makes one Composite Strike attack independently.
-
-**Voice (2 actions).** The Spliced Horror targets one creature within 60 feet who knew one of its original selves. That creature must succeed on a DC 15 Wisdom saving throw or be Stunned for 1 round as they hear a voice they recognize clearly, from the wrong face, saying something specific only that person could know. This is not an attack in any conventional sense.
-
-**Override (3 actions).** The Spliced Horror achieves temporary internal coherence and acts again this turn, using its full action on one of its standard attacks or Recharge abilities.
+### Override
+*Tier 3 (3 AP) | Boss Card*
+**Effect:** The Spliced Horror achieves temporary internal coherence and acts with unified will. All cards played this turn gain +4 damage. The Lucid Window (see Passive) opens for this round — one fragment briefly achieves dominance and the Horror can communicate coherently.
 
 ---
 
-## Encounter Notes
-The Spliced Horror is most powerful as an encounter when the party knows who at least one of the components was. The Voice legendary action should deploy this: a name they recognize, a detail only that person would know, a question or a statement that surfaces from under the chaos of the fragmented whole. The combat becomes layered with grief.
+**Passive — Multiple Imperatives:** At the start of each of the Spliced Horror's turns, roll 1d4: 1 = Pursuit (move directly toward nearest creature before acting); 2 = Defense (move 15 ft. away from most recent attacker); 3 = Lucid Window (see below); 4 = Rage Cascade (all attacks this round gain +4 damage but target random creatures within reach).
 
-The Lucid Window mechanic creates the possibility of a non-combat resolution path — but it requires preparation: the party needs to know the names of the original selves, have information specific enough to anchor a communication, and be ready to make the DC 16 check in a single round while managing a combat environment. This is hard. It should be hard. If they manage it, the Spliced Horror can tell them one thing before the window closes: something the fragments collectively know that the party needs. Then the coherence shatters and the combat resumes, or doesn't — the DM's call.
+**Passive — Lucid Window:** On a roll of 3 (Multiple Imperatives), one fragment briefly achieves dominance. The Horror becomes still, speaks in a single voice, and is capable of coherent communication for one round. It can be persuaded to disengage (VEIL difficulty 5). A creature with knowledge of one of the original selves (their name, a specific memory) reduces this difficulty by 2. After one round, the window closes.
+
+**Passive — Integrated Resilience:** When the Spliced Horror would be reduced to 0 HP by an attack that does not deal 40+ damage in a single hit, roll 1d4. On a 3–4, one remaining fragment surges and the Horror regains 15 HP. This can occur once per round.
+
+---
+
+## AI Behavior
+**Role:** Boss / Tragic Brute
+**Priority:** Multiple Imperatives determines turn-to-turn behavior. The GM rolls the d4 openly — the unpredictability is part of the encounter's texture. When Override is available, the Horror uses it to consolidate and attack its primary target. Fragment Surge is used whenever AP allows. Voice Cascade is reserved for clustered targets.
+**Threat State Shifts:** At 70 HP, Multiple Imperatives rolls of 1 and 4 become more common — the internal conflict escalates as the fragments feel their shared body failing. At 35 HP, Lucid Windows become longer: the surviving fragments know they are dying and one of them wants to say something before they go.
+
+## Encounter Notes
+The Spliced Horror is most powerful as an encounter when the party knows who at least one of the components was. The Lucid Window should deploy this: a name they recognize, a detail only that person would know, a question or a statement that surfaces from under the chaos of the fragmented whole. The combat becomes layered with grief.
+
+The Lucid Window mechanic creates the possibility of a non-combat resolution path — but it requires preparation: the party needs to know the names of the original selves, have information specific enough to anchor a communication, and be ready to make the VEIL check in a single round while managing a combat environment. This is hard. It should be hard. If they manage it, the Spliced Horror can tell them one thing before the window closes: something the fragments collectively know that the party needs. Then the coherence shatters and the combat resumes, or doesn't.
 
 ## Adventure Hook
 A merchant family is quietly approaching anyone they think might be able to help. Their eldest child — who underwent an illegal Stitching six months ago to try to survive an injury that would otherwise have been fatal — has become a Spliced Horror. The other component in the Stitching was a street medic who volunteered to save the merchant's child's life. Both families are now dealing with something that was once two people they loved. They don't want it destroyed. They don't know what they want. They need the party to figure out if there is anything other than destruction as an option, and to tell them truthfully when there isn't.
@@ -224,7 +239,7 @@ A merchant family is quietly approaching anyone they think might be able to help
 ---
 
 # The Burnout
-*Humanoid (Wire-Lost) | CR 4 | Medium | Chaotic Neutral*
+*Controller | Standard | Medium*
 
 ## Description
 Wire Craft — the practice of projecting Echomind-aspects into digital networks via the resonant metal in one's enhancements — is among the most powerful and most dangerous of Tesshari's enhancement-based arts. The deeper a Wire Crafter goes into a network, the more of their consciousness they commit to the interface. Most practitioners know their limit. Most practitioners respect it.
@@ -242,48 +257,56 @@ The distributed Echomind in the network is not a comfortable existence. Wire pra
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 13 (wire-reinforced neural plating)
-**Hit Points:** 55 (10d8 + 10)
-**Speed:** 30 ft.
+**HP:** 44 (FRAME 4 × 8 + 12)
+**AP Max:** 2
+**Hand Size:** 4 cards
+**Initiative:** 5 (EDGE)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 12 (+1) | 16 (+3) | 12 (+1) | 14 (+2) | 6 (-2) | 8 (-1) |
+| 2 | 5 | 4 | 6 | 2 | 2 |
 
-**Saving Throws:** Dex +5, Int +4
-**Skills:** Stealth +5, Technology-related checks +6 (wire network navigation, enhancement diagnostics)
-**Damage Resistances:** Lightning (the body has adapted to conducting network signals)
-**Condition Immunities:** Charmed, Frightened (no coherent mind to affect)
-**Senses:** Darkvision 30 ft., Network Sense 60 ft. (aware of all active wire-linked enhancements and network nodes within range), Passive Perception 8
-**Languages:** Understands languages it knew; cannot meaningfully communicate verbally, but can transmit fragments through wire-linked devices
-**Challenge:** 4 (1,100 XP)
+**Status Immunities:** Charmed, Frightened (no coherent mind to affect)
+**Resistances:** Lightning damage deals half value (the body has adapted to conducting network signals)
+**Senses:** Darkvision 30 ft.; Network Sense 60 ft. — aware of all active wire-linked enhancements and network nodes within range
 
-### Special Traits
-**Distributed Consciousness.** The Burnout's Echomind is partially distributed across the local wire network. It cannot be targeted by effects that specifically target the mind or soul (charm, fear, divination), but it can be partially reached through wire-linked systems. A Wire Craft practitioner who accesses the local network and makes a DC 15 Arcana check can communicate with a fragment of the Burnout's consciousness — receiving incomplete, emotionally charged responses that may contain mission-relevant information.
+### Basic Attack — Wire Lash
+*0 AP | Signal Attack | Once per turn*
+**Effect:** Deal 9 damage (3 + SIGNAL 6) to one target within 10 ft. via extending wire filaments from the body.
 
-**Network Dependency.** The Burnout must remain within 200 feet of a wire network node to function. If cut off from the network (severing the connection requires DC 16 Wire Craft check or physical destruction of all nodes within range), the body immediately collapses and begins experiencing 5 (1d10) necrotic damage per round until a network connection is restored.
+### Network Overwrite
+*Tier 2 (2 AP) | Signal Control*
+**Effect:** The Burnout transmits a corrupted signal through one wire-linked enhancement within 20 ft. Deal 8 damage and apply Silence. If the target fails to resist (SIGNAL difficulty 4), their wire-linked enhancement executes the Burnout's instructions for 1 round — the enhancement continues to function but follows the Burnout's transmission rather than the creature's intent. The creature is aware this is happening.
+**Keywords:** Silence, Overheat 2
 
-**Autopilot Combat.** The Burnout's combat behavior is compiled from threat-response protocols without context. At the start of each turn, roll a d6: on a 1-2, the Burnout makes an attack against the nearest creature regardless of whether that creature is hostile; on a 3-4, it moves toward the nearest wire network node as a priority; on a 5-6, it operates with a reasonable simulation of tactical behavior for this round.
-
-**Signal Bleed.** The Burnout bleeds network signals from its enhancements constantly. Wire-linked enhancement users within 30 feet receive fragments of the Burnout's distributed consciousness as intrusive thoughts — not harmful, but distracting (disadvantage on Concentration checks for wire/network-based abilities).
-
-### Actions
-**Multiattack.** The Burnout makes two Wire Lash attacks.
-
-**Wire Lash.** *Melee Weapon Attack:* +5 to hit, reach 10 ft. (extending wire filaments from the body), one target. *Hit:* 10 (2d6 + 3) lightning damage.
-
-**Network Overwrite (Recharge 5-6).** The Burnout transmits a corrupted signal through one wire-linked enhancement within 20 feet. The targeted creature must succeed on a DC 14 Intelligence saving throw or have their wire-linked enhancement completely overwritten for 1 minute — the enhancement continues to function but follows instructions transmitted by the Burnout rather than by the creature. The creature retains awareness that their enhancement is being operated externally. They can repeat the saving throw at the end of each of their turns.
-
-**Static Discharge.** *Bonus Action.* The Burnout releases accumulated network signal as a burst. One creature within 5 feet takes 7 (2d6) lightning damage and must succeed on a DC 12 Constitution saving throw or be pushed 10 feet directly away.
+### Static Discharge
+*Tier 1 (1 AP) | Signal Attack*
+**Effect:** The Burnout releases accumulated network signal as a burst against one creature within 5 ft. Deal 8 damage (2 + SIGNAL 6) and push the target 10 ft. directly away.
+**Keywords:** (Forced movement)
 
 ---
+
+**Passive — Distributed Consciousness:** The Burnout's Echomind is partially distributed across the local wire network. It cannot be targeted by effects that specifically target the mind or soul. A Wire Craft practitioner who accesses the local network and succeeds on a SIGNAL challenge (difficulty 4) can communicate with a fragment of the Burnout's consciousness — receiving incomplete, emotionally charged responses that may contain mission-relevant information.
+
+**Passive — Network Dependency:** The Burnout must remain within 200 ft. of a wire network node to function. If cut off from the network, the body collapses and takes 5 damage per round until connection is restored.
+
+**Passive — Autopilot Combat:** At the start of each turn, roll 1d6: on a 1–2, the Burnout attacks the nearest creature regardless of whether that creature is hostile; on a 3–4, it moves toward the nearest wire network node; on a 5–6, it operates with reasonable tactical behavior.
+
+**Passive — Signal Bleed:** Wire-linked enhancement users within 30 ft. receive fragments of the Burnout's distributed consciousness as intrusive thoughts — their Signal and Resonance cards cost 1 additional AP to play while within range.
+
+---
+
+## AI Behavior
+**Role:** Controller / Tragic Combatant
+**Priority:** Autopilot drives erratic behavior. When functioning normally (roll 5–6), the Burnout prioritizes Network Overwrite against the most wire-dependent target, then Wire Lash. Uses Static Discharge to maintain distance when cornered. Does not pursue strategically.
+**Threat State Shifts:** At 50% HP, the Autopilot Combat table worsens — rolls of 1–3 trigger erratic behavior. Fragments of personality may break through the Signal Bleed as coherent thoughts: a name, a moment of recognition, the beginning of a sentence that never finishes.
 
 ## Encounter Notes
 The Burnout introduces the wire network as a tactical environment. Clever parties will try to reach the distributed consciousness before or during combat — the network communication can provide information, and might reveal what the Burnout was doing in the network when they dissolved, which is usually something important. The communication is difficult: the fragments are fragmented. Emotional content tends to come through more clearly than facts.
 
-If the party can stabilize the connection — a Sutensai Wire Crafter can attempt to pull the distributed consciousness back together with a DC 18 Arcana check after 10 minutes of sustained contact, at the cost of pulling it out of the network entirely and leaving the body permanently inert — they can recover a person, in a sense. Not the person they were. Something assembled from what the network retained. Whether this counts as saving someone is genuinely ambiguous.
+If the party can stabilize the connection — a Sutensai Wire Crafter can attempt to pull the distributed consciousness back together with a Tier 3 SIGNAL action after 10 minutes of sustained contact, at the cost of pulling it out of the network entirely and leaving the body permanently inert — they can recover a person, in a sense. Not the person they were. Something assembled from what the network retained. Whether this counts as saving someone is genuinely ambiguous.
 
 ## Adventure Hook
 An Ironhold installation's internal wire network has been exhibiting anomalous behavior for three weeks: security systems activating at random, access logs showing movement in areas that are physically empty, maintenance alerts cycling without triggering actual maintenance protocols. The Ironhold has sealed the installation and is not interested in advertising that it doesn't know what's happening to its own network. A disgruntled former Ironhold technician contacts the party: there was a Wire Craft operator assigned to this installation who went missing during a deep network diagnostic six weeks ago. They think they know what's in the network. They want help getting that person out, and they want to get in and out before the Ironhold figures out that someone else has accessed their system.
@@ -291,80 +314,78 @@ An Ironhold installation's internal wire network has been exhibiting anomalous b
 ---
 
 # The Amalgam
-*Monstrosity (Ashlands Confluence) | CR 14 | Gargantuan | Neutral*
+*Brute | Boss | Gargantuan*
 
 ## Description
 Near the Engine Scar, where the industrial catastrophe of fifty years ago left the ground itself contaminated with resonant-metal particulate and the Veil thinner than anywhere outside the Iron Afterlife proper, the materials of the Ashlands have been doing something that no one designed and no one fully understands. The resonant metal in the soil has been bonding with organic matter — with the vegetation that still grows in the Ashlands' contaminated ground, with the animals that eat that vegetation, and, over time, with the people who have lived and died near the Scar. This bonding process is slow, and for years it produced nothing more than slightly strange alloys found in the sediment.
 
 Then it started producing the Amalgam.
 
-The Amalgam is massive. It is not unified in the way a creature is unified — it does not have a head or a center, it does not have a front or a back. It has zones: regions where particular types of material dominate, where faces are occasionally visible pressed into the surface at angles that suggest they arrived there by being incorporated rather than by being grown, where machinery that has not operated in decades still sometimes activates in the way that a dream-response activates a sleeping person's muscles. It moves slowly and without apparent direction, and then it moves quickly toward something with complete intent, and then it moves slowly again.
+The Amalgam is not a creature in any normal sense — it is a convergence of the Ashlands' contaminated materials, organized by the resonant field of the Engine Scar into something that moves, that responds to stimuli, that has a rudimentary behavior: assimilation. It incorporates what it encounters into itself. Living things, dead things, resonant metal, organic tissue — all of it becomes part of the Amalgam's structure, growing it, feeding it, making it more of what it already is. It does not want. It does not plan. It is the Ashlands' fifty years of contaminated synthesis given terrible physical form, and it is continuing to grow.
 
-It is aware in some sense. Senior Sutensai practitioners who have studied it using long-range Veil Weaving report that the Amalgam's interior resonance pattern is unlike any Echomind they have encountered — not the coherent singularity of a person, not the fragmented chaos of a failed Stitching, but something distributed and diffuse that is more like a landscape than a consciousness. They describe contacting it as "walking into a place rather than talking to a person." They cannot confirm whether the place is aware of them.
-
-The Ashlands communities that have not fled the Scar's expansion have developed a complex relationship with the Amalgam. It does not pursue them. It has never, in fifty years, attacked a settlement. But it has grown. And the things it incorporates do not come out.
+The Amalgam's surface is a record of what it has incorporated: the shapes of organisms are visible in its mass, partially digested, their resonant metal now serving the whole. Some of these shapes are recognizable as human.
 
 ## Lore
-The Amalgam is the Ashlands' secret. The Ironhold has a file on it — Level Five Classification, which means fewer than twenty people in Tesshari know it exists — because its existence raises questions about the Engine Scar that the Ironhold would prefer not to formally investigate. If the Scar has been doing this for fifty years, what else has it been producing? If the Amalgam is aware, does it know what happened? If the Amalgam is aware, does it remember the people it has incorporated? These questions do not have convenient answers.
+The Sutensai has been aware of the primary Amalgam near the Engine Scar for eight years and has not publicized this information for the same reason the Ironhold hasn't publicized the Deep Pulse: doing so would require explaining the Engine Collapse in terms that neither institution wants to use in public. The Sutensai's internal assessment rates the Amalgam as "stable but growing" and notes that three smaller secondary Amalgam formations have been identified in the past two years, all within fifteen miles of the primary site.
 
-The Deep Pulse — whatever is at the center of the Engine Scar — is sometimes described by the Ashlands communities as the Amalgam's heart. Whether this is metaphorical is unclear. The Amalgam does seem to maintain a consistent orientation relative to the Scar: it is always closer to the Scar than it was a year ago.
+The Ashlands communities who live near the Scar have a different relationship with the Amalgam. They call it "the Gathering." Some of them leave offerings near the edge of its territory — resonant metal, salvage, sometimes things more personal. They say it is collecting the Ashlands' dead, and that the dead should not be disturbed once they have been gathered. The Sutensai does not know what to do with this theology. It does not dismiss it.
 
 ---
 
-## Stat Block
+## Combat Stats
 
-**Armor Class:** 19 (massively dense composite)
-**Hit Points:** 253 (22d20 + 22)
-**Speed:** 15 ft. (slow but inexorable)
+**HP:** 168 (FRAME 10 × 8 + 40 + regeneration pool — see Passive)
+**AP Max:** 4
+**Hand Size:** 10 cards
+**Initiative:** 1 (EDGE — the Amalgam does not hurry)
 
-| STR | DEX | CON | INT | WIS | CHA |
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
 |---|---|---|---|---|---|
-| 28 (+9) | 6 (-2) | 26 (+8) | 6 (-2) | 12 (+1) | 8 (-1) |
+| 10 | 1 | 10 | 3 | 5 | 1 |
 
-**Saving Throws:** Str +14, Con +13
-**Skills:** Perception +6
-**Damage Resistances:** All damage types except resonant-disruption
-**Damage Immunities:** Psychic, Poison; Bludgeoning, Piercing, and Slashing from nonmagical weapons
-**Condition Immunities:** Blinded, Charmed, Deafened, Exhaustion, Frightened, Prone, Stunned
-**Senses:** Tremorsense 120 ft., Blindsight 60 ft. (through resonant field detection), Passive Perception 16
-**Languages:** None verbal; see Deep Knowing
-**Challenge:** 14 (11,500 XP)
+**Status Immunities:** All conditions — the Amalgam has no biology, no psychology, no discrete nervous system to affect
+**Resistances:** Physical damage from non-resonant weapons deals half value. Fire damage deals full value and suppresses Regeneration for 1 round.
+**Senses:** Tremorsense 120 ft.; resonant metal detection throughout this range regardless of barriers
 
-### Special Traits
-**Gargantuan Presence.** The Amalgam occupies a 20-by-20-foot space. Creatures within this space at the start of their turn take 10 (3d6) bludgeoning damage from the ambient crushing pressure of the Amalgam's mass.
+### Basic Attack — Assimilation Strike
+*0 AP | Melee Attack | Once per turn*
+**Effect:** Deal 22 damage (12 + IRON 10) to one target within 15 ft. The target must resist (FRAME difficulty 5) or be Rooted as the Amalgam's surface mass reaches for them.
+**Keywords:** Root
 
-**Resonant Field.** All active cybernetic enhancements within 30 feet of the Amalgam are disrupted by its ambient resonance field. These enhancements have a 50% chance each round to function improperly: either failing completely (1-2 on 1d6) or firing in an uncontrolled manner (3 on 1d6). On a 4-6, they function normally.
+### Incorporation Attempt
+*Tier 2 (2 AP) | Control — requires Rooted target*
+**Effect:** The Amalgam attempts to incorporate one Rooted target. Deal 20 damage (10 + IRON 10) and apply Restrained. A Restrained target that does not break free before the start of the Amalgam's next turn is partially incorporated — one of their enhancement cards is permanently disabled (retrieve the physical component to restore function). The Amalgam regains 15 HP.
+**Keywords:** Restrained, Pierce 4
 
-**Incorporation.** Any creature that is grappled by the Amalgam and fails a DC 18 Constitution saving throw at the start of their turn is drawn 5 feet into the Amalgam's surface. A creature fully incorporated (requiring 3 failed saves while grappled) is absorbed into the Amalgam. Absorbed creatures are unconscious but stable — they can be freed if the Amalgam's HP is reduced to 0.
+### Resonance Expulsion
+*Tier 2 (2 AP) | Resonant Attack | Area*
+**Effect:** The Amalgam releases accumulated resonant energy from its incorporated components in a 40-ft. burst. Deal 18 damage (8 + RESONANCE 5 + 5) to all creatures in range. After this release, Regeneration is suppressed for 2 rounds as the energy pool depletes.
+**Keywords:** Overheat 2 (on Amalgam — reduces its AP max by 1 for 2 rounds)
 
-**Deep Knowing.** The Amalgam contains fragments of the consciousness of everyone it has incorporated in fifty years. A creature that establishes physical contact with its surface and succeeds on a DC 16 Wisdom (Insight) check can receive a vision from one of the incorporated: a memory, a warning, a piece of information relevant to the Engine Scar. The DM chooses the content. This can only be attempted once per creature per long rest — sustained contact is painful (5 (1d10) necrotic damage per round of contact).
-
-**Asymmetric Regeneration.** The Amalgam regenerates 15 hit points at the start of each of its turns. Regeneration is suppressed for 1 round when the Amalgam takes resonant-disruption damage.
-
-### Actions
-**Multiattack.** The Amalgam makes two Crushing Mass attacks and one Resonance Absorption.
-
-**Crushing Mass.** *Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:* 28 (4d10 + 6) bludgeoning damage and the target must succeed on a DC 20 Strength saving throw or be grappled (escape DC 18).
-
-**Resonance Absorption.** The Amalgam draws resonant energy from all active enhancements within 30 feet. Each creature with active enhancements in range must succeed on a DC 16 Constitution saving throw or take 18 (4d8) necrotic damage as the Amalgam pulls resonance from their systems. The Amalgam regains HP equal to half the total damage dealt this way.
-
-**Ground Swell.** The Amalgam causes the ground within 30 feet to become difficult terrain for 1 minute as Ashlands contaminated particulate rises to the surface and partially incorporates into the mass. Creatures in the area must succeed on a DC 16 Strength saving throw or be restrained until they use their action to free themselves (DC 16 Strength check).
-
-### Legendary Actions
-The Amalgam can take 3 legendary actions.
-
-**Reach (1 action).** The Amalgam makes one Crushing Mass attack.
-
-**Surface Activation (2 actions).** The Amalgam activates the consciousness of one incorporated individual for one round. That individual may speak through the Amalgam's surface and can provide information. They are not in pain and they are not distressed. They seem, in this moment, at peace with what they are.
-
-**Pulse (3 actions).** The Amalgam releases a resonance pulse from the Scar's energy that has accumulated within it. All creatures within 50 feet take 35 (10d6) necrotic damage (DC 18 Constitution save for half) and all active enhancements in range are immediately disabled for 1 minute (DC 18 Constitution save to resist).
+### Mass Assimilation Pulse
+*Tier 4 (4 AP) | Boss Card | Area*
+**Effect:** The Amalgam extends pseudopods throughout a 30-ft. radius. Deal 25 damage to all creatures within range. All creatures that fail to resist are simultaneously Rooted and Exposed 3. Enhanced creatures that are already Rooted must resist Incorporation (FRAME difficulty 6) immediately.
+**Keywords:** Root, Expose 3, Pierce 5
 
 ---
+
+**Passive — Assimilation Growth:** Each time the Amalgam successfully incorporates a creature or component (via Incorporation Attempt), it regains 15 HP and its reach increases by 5 ft. (maximum 30 ft. reach).
+
+**Passive — Regeneration:** The Amalgam regains 15 HP at the start of each of its turns, drawing energy from the contaminated soil.
+
+**Passive — Inorganic Immunity:** Effects that target living creatures' biology or psychology have no effect. The Amalgam is immune to Bleed, Burn, and Poison.
+
+---
+
+## AI Behavior
+**Role:** Boss / Environmental Brute
+**Priority:** The Amalgam moves toward the most resonant-heavy target. Uses Assimilation Strike every turn to establish Root. Follows with Incorporation Attempt against the most enhancement-loaded Rooted target. Uses Resonance Expulsion when 3+ creatures cluster within 40 ft. Saves Mass Assimilation Pulse for the party's most dangerous convergence.
+**Threat State Shifts:** At 84 HP, the Amalgam's growth accelerates — it gains 10 ft. of movement and Incorporation Attempt recharges after 1 round instead of requiring AP. At 40 HP, Mass Assimilation Pulse becomes a 2 AP card.
 
 ## Encounter Notes
-The Amalgam should not be fought unless the party has specifically come to fight it — and even then, they should not expect to win cleanly. It is not aggressive unless something threatens to disrupt the Engine Scar or the path between the Amalgam and the Scar's center. Use it instead as an encounter that reveals information and establishes stakes: it contains fifty years of Ashlands history, absorbed and distributed through its mass.
+The Amalgam is terrain more than enemy — it is the Ashlands made animate and hungry. The encounter should feel like navigating a slowly tightening space. The shapes visible in its surface are the real horror: half-digested forms, the outlines of people and animals, the occasional legible serial number on an incorporated enhancement component. Who are they? The party can read the surface if they get close enough. Getting close enough risks incorporation.
 
-The Surface Activation mechanic is this encounter's most powerful tool: give the party the chance to speak to someone who was incorporated decades ago and knows things about the original Engine Collapse that no living person knows. The cost is that they have to come close enough to be in range of the Crushing Mass. The reward is information that changes everything.
+The resonant-disruption approach works differently here than against other enemies: the Amalgam has incorporated so much resonant metal that disrupting it is like disrupting a landscape. Sustained Tier 3 Signal attacks can introduce destructive interference into its resonance field — weakening its cohesion without the need to destroy it outright, which may be important if people the party cares about are visible in its outer structure.
 
 ## Adventure Hook
-Something has changed. For the first time in fifty years of moving slowly toward the Engine Scar, the Amalgam has stopped. It has been stationary for eleven days. The Ashlands community that tracks its movement has noticed and is alarmed — they do not know what stopping means, but they know movement was the status quo and stationary is wrong. A message has been sent to the nearest Ironhold outpost and to the Sutensai. Neither has responded. The party is the only available investigative resource. Getting close enough to investigate puts them in Resonant Field range. Getting close enough to use Deep Knowing puts them in Crushing Mass range. What has made the Amalgam stop is connected to the Deep Pulse — something has changed at the center of the Engine Scar, and whatever the Amalgam perceives in a distributed, landscape-aware way has caused it to pause. For the first time in fifty years, it may be listening for something rather than moving toward it.
+A Sutensai field team sent to document secondary Amalgam formations near the Engine Scar has not reported in for eight days. A relay station 30 miles out received one partial transmission: coordinates and the word "growing." The party is sent to investigate. At the coordinates, they find not a small secondary formation but something between the secondary and primary scale — and in its outer surface, clearly visible, is the equipment configuration of the missing field team. The team's data chips are in there somewhere. So, possibly, are the team members themselves. The Sutensai needs that data. The question is whether it is worth the cost of retrieving it.

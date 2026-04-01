@@ -21,109 +21,248 @@ The Unnamed class text must be transparent about something: this is the most dem
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM
 
-**Hit Die:** d8
-**Primary Ability:** Intelligence or Wisdom (player's choice at Level 1, represents the direction of development)
-**Saving Throw Proficiencies:** Two of the following, player's choice at Level 1: Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma
-**Armor Proficiencies:** Wire-mesh armor, plus one additional armor type chosen at Level 3 (reflects your development direction)
-**Weapon Proficiencies:** Resonant blades (short and standard), pulse arms (sidearm weight), plus two additional weapon types chosen at level 3
-**Tool Proficiencies:** Two of any tool proficiencies, player's choice
-**Skills:** Choose 4 from any available skill list
-**Starting Equipment:** Wire-mesh wrappings, resonant blade (short), a journal that contains the beginning of a theory about what you are becoming, one tool from your two proficiency choices, 15 gp equivalent
+**Primary Stats:** None fixed — see Fluid Stat below.
+**HP:** (FRAME × 8) + 0. The Unnamed's HP is calculated differently: at character creation, after distributing stats, take the two highest stats and average them (round down). Add that value × 4 to base HP. This represents development that spreads across the chassis rather than concentrating in any one structure.
+**Hand Size:** 5
+**AP:** 3 per turn. Basic Attack free (0 AP), once per turn.
+
+### Class Identity
+The Unnamed is the most demanding class to run and the most flexible to play. Their five cards are not named by the tradition — they are named by the player through play. Mechanically, each card has a conditional effect that the player defines at the level it is unlocked. The framework below provides each card's mechanical skeleton and power tier; the player fills in the condition and the flavor with DM collaboration. No two Unnamed are alike. The Unnamed has no primary stat: their cards use the **Fluid Stat** mechanic.
+
+**Fluid Stat (mechanic):** At the start of each combat, identify your highest stat value among the six (IRON, EDGE, FRAME, SIGNAL, RESONANCE, VEIL). Ties broken by player choice. That stat is your **Active Stat** for this combat. All Unnamed cards that reference "Active Stat" use this value. Active Stat cannot change during combat — it is set at the start and held.
+
+**Condition (mechanic):** Each Unnamed card has a **Condition** — a circumstance the player defines that, when true, enhances the card beyond its baseline. Conditions are defined at level-up and cannot be changed except by explicitly replacing that card. Conditions must be: observable during play (the DM can adjudicate them without extended debate), not dependent on other players' choices, and scaled to Tier (Tier 1 conditions are simple; Tier 3 conditions may be more specific). Examples are provided per card slot as reference — they are not required choices.
+
+**Naming (narrative mechanic):** Each Unnamed card begins as "Card 1," "Card 2," etc. on the character sheet. When the player first uses the card in a way that feels significant — a moment the table remembers — they name it. The name is recorded. It is now that card's name in the world. This is not a mechanical rule. It is an invitation.
 
 ---
 
-### Class Features by Level
+### Starting Hand (Level 1)
 
-**Level 1: The Unnamed State**
-You are developing in a way the existing frameworks don't contain. Three immediate effects:
-- Your Echomind does not read cleanly in standard Sutensai Reading. A Reader gets "active, present, genuine" and beyond that, uncertainty. This is not deception — your Echomind simply doesn't map to the patterns they know.
-- Choose your Primary Ability (Intelligence or Wisdom). All Unnamed abilities that reference "your primary modifier" use this.
-- You begin building your Unique Signature (see below).
+The Unnamed begins with 2 cards at Level 1, gains the 3rd at Level 2, and gains 1 card per level thereafter until reaching Hand Size 5.
 
-**Level 1: Unique Signature**
-The Unnamed's power is personal. You begin with 3 Signature Abilities — choose them from any of the following origin pools (or propose analogues with DM approval):
-- Draw from existing class features at their lowest level from any Tesshari class (Iron Monk, Echo Speaker, Void Walker, Sutensai, Flesh Shaper, Puppet Binder, Blood Smith, Shadow Daimyo, Voice of Debt, Merchant Knife, Iron Herald, Curse Eater, Shell Dancer, Fracture Knight) — you gain the feature as if you were level 1 in that class, but it is flavored as emerging from your Echomind rather than from formal training.
-- A unique ability developed with your DM, based on your character's specific development.
+---
 
-You gain 1 additional Signature Ability at levels 2, 4, 7, 10, 13, 16, and 19 (total of 10 by level 20). These can be from any origin pool and do not need to be internally consistent — the Unnamed is not consistent.
+### Card Reference
 
-**Level 1: Development Points**
-You have a pool of Development Points equal to your primary modifier + your proficiency bonus (minimum 2). Development Points fuel your Signature Abilities and certain Unnamed features. You regain all Development Points on a long rest and half on a short rest.
+*Each card below provides the mechanical skeleton. The player defines the Condition and the card's name through play. Example conditions are given in italics — these are illustrations, not prescriptions.*
 
-**Level 2: Signature Ability (1st additional)**
+---
 
-**Level 3: Unnamed Subclass**
-You choose The Convergent or The Divergent. This choice does not restrict your Signature Ability choices — it defines additional features you gain at levels 3, 6, 10, and 14 and reflects the general direction of your development.
+#### Card 1
+*Tier 1 (1 AP) | Attack — type determined by Active Stat*
 
-**Level 3: Adaptive Defense**
-Your development has produced an instinctive protective response. Your AC equals 10 + your Dexterity modifier + your primary modifier while wearing only wire-mesh armor or less. This can be flavored as psychic shielding, resonant fortification, or any physical manifestation that reflects your current Signature direction.
+**Baseline Effect:** Deal 5 + Active Stat damage to one target within range appropriate to Active Stat type (melee for IRON/FRAME, ranged for EDGE/SIGNAL, resonant for RESONANCE, social for VEIL).
+**Condition Slot:** Define one condition at level-up. When that condition is true: deal 8 + Active Stat damage instead, and apply one keyword of your choice (Bleed 1, Expose 1, Stagger, or Root — chosen at level-up, fixed).
+*Example conditions: "target has not yet acted this combat," "you have taken damage this combat," "you spoke to this creature before combat began," "you are the last ally standing."*
+**Keywords:** Active Stat, Conditional
+**Unlock:** Level 1 (Starting Hand)
 
-**Level 4: Ability Score Improvement / Signature Ability (2nd additional)**
+---
 
-**Level 5: Development Surge**
-Once per short rest, as a bonus action, spend 3 Development Points to activate a Surge state for 1 minute. During the Surge: all Signature Abilities cost half their normal Development Points (rounded down, minimum 0), you have advantage on one saving throw type of your choice (chosen when you activate), and your primary ability modifier is treated as 2 higher for purposes of calculating any DCs or bonuses. When the Surge ends, you cannot benefit from another Surge until you complete a short rest.
+#### Card 2
+*Tier 1 (1 AP) | Defense or Utility — player chooses at level-up*
 
-**Level 5: Expanding Reach**
-Choose one Signature Ability you have. Its range, if it has one, doubles. Its duration, if it has one, extends by 50%. Its damage, if it deals damage, increases by one die size. This expansion applies permanently to that ability. You can expand one additional Signature Ability at levels 9 and 15.
+**Baseline Effect (Defense path):** Apply Guard equal to Active Stat to yourself.
+**Baseline Effect (Utility path):** Apply one status of your choice (Regen 2, Shield 6, or Veil) to yourself or one ally within 20 meters.
+**Condition Slot:** When your condition is true: double the Guard value, or apply the status to all allies within 15 meters instead of one.
+*Example conditions: "you played no Attack card last turn," "an ally is below half HP," "you are in the same space as an enemy," "this is the second consecutive turn you have used this card."*
+**Keywords:** Active Stat, Conditional, Choose path at level-up
+**Unlock:** Level 1 (Starting Hand)
 
-**Level 6: Subclass Feature**
+---
 
-**Level 6: Signature Integration**
-Two of your Signature Abilities can now be activated in concert — when you use one, you may immediately use the other as a bonus action (paying its normal cost). Choose which two abilities are integrated; this pairing can be changed when you finish a long rest. The integration represents your Echomind discovering a resonance between two apparently separate aspects of your development.
+#### Card 3
+*Tier 1 (1 AP) | Control*
 
-**Level 7: Signature Ability (3rd additional)**
+**Baseline Effect:** Apply one control status of your choice (chosen at level-up: Stagger, Root, Silence, or Overheat 1) to one target within 30 meters.
+**Condition Slot:** When your condition is true: apply the status to all enemies within 15 meters instead of one, or apply the status at double intensity (Overheat 2, or two different statuses from the list).
+*Example conditions: "target has a status effect already," "you have not attacked this target yet," "you used a Mobility card this turn," "target is the largest enemy in the combat."*
+**Keywords:** Active Stat, Conditional, Control
+**Unlock:** Level 2
 
-**Level 8: Ability Score Improvement**
+---
 
-**Level 8: Between All Things**
-Your Echomind has developed enough that you intuitively sense the category of any creature or effect near you. You always know: what class tradition (if any) a creature's abilities draw from, whether a creature is under any form of external control (puppet, enchantment, compulsion), and whether a creature's stated motivation is their genuine motivation or a performed one. This is passive. It cannot be turned off.
+#### Card 4
+*Tier 1 (1 AP) | Mobility or Reaction — player chooses at level-up*
 
-**Level 9: Expanded Reach (2nd Signature Ability)**
+**Baseline Effect (Mobility path):** Move up to Active Stat × 2 meters. This movement does not trigger responses.
+**Baseline Effect (Reaction path):** Reaction. Triggered by a condition you define. Apply Guard equal to Active Stat or deal 3 + Active Stat damage to the triggering attacker.
+**Condition Slot:** When your condition is true: Mobility path deals 4 + Active Stat damage to one enemy you pass within 3 meters during the move. Reaction path: the trigger condition itself becomes the enhanced effect (define at level-up what "enhanced" means for your specific trigger).
+*Example conditions for Mobility: "you end movement adjacent to an ally." Example conditions for Reaction: "triggered when an ally is targeted," "triggered when you are Staggered," "triggered when a Tier 3 card is played."*
+**Keywords:** Active Stat, Conditional, Choose path at level-up
+**Unlock:** Level 3
 
-**Level 10: Subclass Feature**
+---
 
-**Level 10: Signature Ability (4th additional)**
+#### Card 5
+*Tier 2 (2 AP) | Attack*
 
-**Level 10: The Pattern Emerges**
-Your Echomind has been developing long enough that a pattern is becoming visible. Work with your DM to identify the 2-3 Signature Abilities that have proven most central to your character's identity. These become your Core Signature. Core Signature Abilities:
-- Cost 1 fewer Development Point to activate (minimum 0)
-- Cannot be suppressed by anti-enhancement effects — they are too deep in your Echomind to be reached by standard suppression
-- Are visually distinctive when activated — there is a specific, recognizable visual or physical manifestation unique to you. Two Unnamed have never produced the same visual signature.
+**Baseline Effect:** Deal 10 + Active Stat damage to one target. Apply one status of your choice (chosen at level-up) from: Expose 1, Vulnerable 1, Bleed 2, Overheat 2.
+**Condition Slot:** When your condition is true: deal 15 + Active Stat instead, and the status applies at +1 intensity (Expose 2, Vulnerable 2, Bleed 3, Overheat 3).
+*Example conditions: "target is the only enemy remaining," "you have played no other Attack cards this turn," "this combat has lasted 3+ rounds," "you have at least 2 status effects currently on you."*
+**Keywords:** Active Stat, Conditional
+**Unlock:** Level 4
 
-**Level 11: Echomind Pressure**
-Your developing Echomind exerts passive influence. Any creature that can sense Echominds (Sutensai Readers, Echo Speakers, Iron Monks, Fracture Knights) who comes within 30 feet of you is aware of your presence as an anomaly. This is not threatening — it is simply present and unmistakable. Creatures attempting to affect your Echomind through external means (puppeting, Reading coercion, spiritual compulsion) must succeed on a Wisdom check (DC = 8 + proficiency bonus + your primary modifier) or fail — your Echomind resists categorization and thereby resists targeted manipulation.
+---
 
-**Level 12: Ability Score Improvement**
+#### Card 6
+*Tier 2 (2 AP) | Defense*
 
-**Level 12: Rapid Signature**
-Three times per long rest, you can use a Signature Ability as a bonus action instead of whatever its normal action cost would be. This represents the ability becoming so deeply integrated that it no longer requires deliberate activation — it emerges.
+**Baseline Effect:** Apply Shield equal to Active Stat × 2 to yourself. Apply Regen 2 for 2 turns.
+**Condition Slot:** When your condition is true: apply the Shield and Regen to all allies within 20 meters simultaneously.
+*Example conditions: "you took damage on the previous turn," "no ally has 0 HP this combat," "this is the first Defense card you have played this combat," "an ally played a card targeting you last turn."*
+**Keywords:** Active Stat, Conditional
+**Unlock:** Level 5
 
-**Level 13: Signature Ability (5th additional)**
+---
 
-**Level 13: Cross-Pattern**
-You can create temporary new ability combinations on the fly. Once per long rest, during a short rest, you can declare a Cross-Pattern: combine the effect of any two Signature Abilities you have into one new combined effect that activates as one action (at the combined Development Point cost). Describe what the combined effect looks like. The combination lasts until your next short rest. This represents your Echomind discovering a connection it had not previously found.
+#### Card 7
+*Tier 2 (2 AP) | Utility | Passive*
 
-**Level 14: Subclass Feature**
+**Baseline Effect:** Passive. This card counts toward hand size and is never "played." While this card is in your hand: at the start of each of your turns, if your condition is true, gain 1 AP (your AP max for this turn becomes 4). This is the Unnamed's most powerful passive slot — the condition must be meaningful, not trivially always true.
+**Condition Slot:** The condition is the entire mechanic. Define it carefully. It fires or it doesn't. When it fires, you get an extra AP.
+*Example conditions: "you have not played a Tier 3 card this combat," "you are the only character in your party without a defined class tradition," "you took no damage last turn," "you have spoken the name of this card aloud at the table at least once."*
+**Keywords:** Active Stat, Passive, AP-gain (conditional)
+**Unlock:** Level 6
 
-**Level 15: Expanded Reach (3rd Signature Ability)**
+---
 
-**Level 16: Signature Ability (6th additional)**
+#### Card 8
+*Tier 2 (2 AP) | Control | Area*
 
-**Level 16: Ability Score Improvement**
+**Baseline Effect:** Apply one control status of your choice (chosen at level-up) to all enemies within 15 meters.
+**Condition Slot:** When your condition is true: apply a second control status (also chosen at level-up) to all targets as well, simultaneously.
+*Example conditions: "you are at the center of the enemy formation," "more than 3 enemies are within range," "you have used Card 3 this combat," "an ally has been reduced to 0 HP this combat."*
+**Keywords:** Active Stat, Conditional, Area
+**Unlock:** Level 7
 
-**Level 17: Unnamed Recognition**
-The Sutensai's senior Readers have a word now for what you are, because you and others like you have been examined enough times to produce a category. The word is whispered, and it is the number of the Prior Ascended whose name was removed. You are known in the Sutensai's internal records. You are one of a small group of people who represent either the next stage of human development or the first sign of an existential spiritual crisis for Tesshari's theology, and no one is sure which. The effects of this Recognition are narrative — the Sutensai's response to you has changed from "monitor carefully" to "engage with as a significant spiritual event."
+---
 
-**Level 18: Signature Mastery**
-Your Core Signature Abilities now activate for free once per round, each — you do not need to spend Development Points. Additionally, your Development Points maximum doubles.
+#### Card 9
+*Tier 2 (2 AP) | Attack | Signature*
 
-**Level 19: Ability Score Improvement**
+**Baseline Effect:** Deal 12 + Active Stat damage. Apply Expose 1 and your choice of one additional keyword (chosen at level-up).
+**Condition Slot:** When your condition is true: deal 18 + Active Stat instead. Pierce Guard and Shield on this attack.
+*Example conditions: "this is the third time you have attacked this target," "target has a status effect you applied," "you have not used any Tier 1 cards this turn," "Active Stat is currently RESONANCE or VEIL."*
+**Keywords:** Active Stat, Conditional, Pierce (conditional)
+**Unlock:** Level 8
 
-**Level 20: The Unnamed Complete**
+---
 
-You are something that does not have a full description yet. Your primary ability score increases by 2 (to a maximum of 24). Your Development Points maximum increases by your proficiency bonus. Once per long rest, for 10 minutes, you can activate a state of Full Expression: every Signature Ability you have activates simultaneously at maximum effect, at no cost. The visual manifestation of this state is genuinely extraordinary and completely unique to you — work with your DM to develop it over the course of the campaign as your character's abilities have evolved. When the Full Expression ends, you gain two levels of exhaustion and must make a DC 15 Constitution saving throw or have your Unique Signature temporarily suppressed (abilities are still accessible but not at their enhanced levels) for 24 hours as your Echomind processes the full output. Whether this represents the beginning of Ascension or something else entirely depends on what the First Prior's story, when finally recovered, actually says. You may be living through the answer.
+#### Card 10
+*Tier 2 (2 AP) | Reaction | Signature*
+
+**Baseline Effect:** Reaction. Triggered by a condition the player defines at level-up (more specific than Card 4 — this is a Tier 2 reaction, so the trigger should be a meaningful combat event). When triggered: deal 8 + Active Stat damage to the source of the trigger, or apply Shield equal to Active Stat × 2 to yourself or an ally (player chooses which at level-up: it is always one or the other, not both).
+**Condition Slot:** When a secondary condition is also true at trigger time: the effect applies at double value (16 + Active Stat, or Shield Active Stat × 4).
+*Example triggers: "triggered when a Tier 3 card targets an ally," "triggered when you are Silenced," "triggered when an enemy uses a Reaction card," "triggered when any creature reaches 0 HP."*
+**Keywords:** Active Stat, Conditional, Reaction
+**Unlock:** Level 9
+
+---
+
+#### Card 11
+*Tier 3 (3 AP) | Attack | Signature*
+
+**Baseline Effect:** Deal 18 + Active Stat damage. Apply two keywords of your choice (chosen at level-up) from the full keyword list.
+**Condition Slot:** When your condition is true: deal 24 + Active Stat instead and apply all three keywords at +1 intensity. This is the Unnamed's first Tier 3 card — the condition should reflect something true about how this Unnamed specifically engages combat.
+*Example conditions: "you have named this card at the table," "you have at least 3 different status effects currently on enemies," "this combat has not gone the way you expected," "an ally named this card for you."*
+**Keywords:** Active Stat, Conditional, 2 keywords chosen at level-up
+**Unlock:** Level 10
+
+---
+
+#### Card 12
+*Tier 3 (3 AP) | Defense | Signature*
+
+**Baseline Effect:** Apply Shield equal to Active Stat × 3. Apply Fortify until start of your next turn. Apply Regen 4 for 3 turns.
+**Condition Slot:** When your condition is true: these effects also apply to all allies within 25 meters simultaneously. The Unnamed, for one moment, holds something they did not know they could hold.
+*Example conditions: "you have used every card in your hand at least once this combat," "no enemy has been reduced to 0 HP this combat," "you are below 25% HP," "an ally said your character's name aloud this session."*
+**Keywords:** Active Stat, Conditional, Fortify, Area (conditional)
+**Unlock:** Level 11
+
+---
+
+#### Card 13
+*Tier 3 (3 AP) | Control | Area | Signature*
+
+**Baseline Effect:** Apply Stagger and Expose 2 to all enemies within 20 meters.
+**Condition Slot:** When your condition is true: also apply Vulnerable 2 to all affected enemies, and all allies within 20 meters gain +Active Stat to their next Attack card this turn.
+*Example conditions: "you have been in Shell Step or a similar absence-state this combat," "you identified an enemy's class tradition before this combat began," "more allies are in range than enemies," "you are the last character to act in the initiative order."*
+**Keywords:** Active Stat, Conditional, Area, Ally-boost (conditional)
+**Unlock:** Level 12
+
+---
+
+#### Card 14
+*Tier 3 (3 AP) | Utility | Signature*
+
+**Baseline Effect:** Until start of your next turn, your Active Stat is treated as 2 higher for all purposes. All your cards this turn deal +Active Stat bonus damage (applied after the increase). This card cannot be mitigated — it is not an attack.
+**Condition Slot:** When your condition is true: your Active Stat is treated as 4 higher instead, and one ally within 30 meters also uses your Active Stat value for their next card this turn.
+*Example conditions: "this is the first Tier 3 card played this combat (by anyone)," "you have not named this card yet," "you know why the First Prior's name was removed," "this is the last session of a major story arc."*
+**Keywords:** Active Stat-boost, Conditional, Ally-share (conditional)
+**Unlock:** Level 13
+
+---
+
+#### Card 15 — The Named
+*Tier 3 (3 AP) | Signature | Capstone*
+
+**This card is written by the player.**
+
+At Level 20, the player writes the effect of Card 15 — the Unnamed's Capstone — in collaboration with their DM. The effect must meet the following constraints:
+
+- It is Tier 3 in power scale: comparable to other Tier 3 Capstone cards in the system.
+- It uses Active Stat in its damage or effect calculation.
+- It cannot directly affect other players' abilities, cards, or stats (it can affect them indirectly through area effects, ally boosts, or battlefield conditions).
+- It must have a Condition (following the same rules as all Unnamed cards).
+- It must have a name. This is the card that names itself. The player writes it. It has never existed before.
+
+*Design note for the DM: The Unnamed's Capstone is a trust exercise. The player has been at the table long enough that you know what they would write and whether it fits. The constraints exist to anchor the power level and prevent the mechanic from collapsing into "I win." Within those constraints, the card they write will almost certainly be exactly right for their character. Let it be.*
+
+**Unlock:** Level 20
+
+---
+
+### Level Unlock List
+
+| Level | Cards Available |
+|---|---|
+| 1 | Card 1, Card 2 (Starting Hand) |
+| 2 | Card 3 |
+| 3 | Card 4 |
+| 4 | Card 5 |
+| 5 | Card 6 |
+| 6 | Card 7 |
+| 7 | Card 8 |
+| 8 | Card 9 |
+| 9 | Card 10 |
+| 10 | Card 11 |
+| 11 | Card 12 |
+| 12 | Card 13 |
+| 13 | Card 14 |
+| 14–19 | No new cards — deepen, refine, rename. At each of these levels, the player may redefine the Condition on one existing card (the development is ongoing). |
+| 20 | Card 15 — The Named (Capstone, player-written) |
+
+*Total cards: 15. Hand Size: 5. The Unnamed reaches Hand Size 5 at Level 5 and replaces at all subsequent levels. Each new card from Levels 6-13 replaces one existing card.*
+
+*Design note: The Unnamed's 35-40 card equivalent is the depth of the Condition system — 14 defined cards with player-authored conditions, plus 6 levels of condition refinement, and a player-written Capstone. The variation space far exceeds any fixed card list. Two Unnamed will never be the same. This is the point.*
+
+---
+
+### The Unnamed: How to Use This System at the Table
+
+**At character creation:** Work with your DM to define the conditions for Cards 1 and 2. Keep them simple and honest — Tier 1 conditions should fire regularly. The first session will teach you whether you set them right.
+
+**At each level-up (Levels 2-13):** Define the new card's Condition before the next session. Write it on the card. Show your DM. If the condition is unclear or breaks the guidelines, revise it now rather than mid-combat.
+
+**Between Levels 14 and 19:** You are not growing the hand — you are learning what you already have. At each of these levels, look at your existing cards. Is one Condition no longer true to how you play? Revise it. This represents development, not replacement.
+
+**Naming:** The naming mechanic is not required. It is offered. If your table enjoys the ritual of naming, use it. If it would slow play, skip it. The cards work without names. But named things in Tesshari are real in a way unnamed things are not. Your character is finding out what that means.
+
+**The Capstone:** Write Card 15 after Session 19 or before Session 20 (the last session of the campaign arc, if applicable). Give it to your DM in writing before the session. Do not surprise them.
 
 ---
 

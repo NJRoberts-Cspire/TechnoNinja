@@ -21,99 +21,353 @@ The Supply Cutter is at their most valuable in wartime — they are the person w
 
 ---
 
-## D&D 5E Class Features
+## CARD SYSTEM
 
-**Hit Die:** d8
-**Primary Ability:** Intelligence (economic analysis), Dexterity (precision action)
-**Saving Throw Proficiencies:** Intelligence, Dexterity
-**Armor Proficiencies:** Wire-mesh armor, salvage plating (light)
-**Weapon Proficiencies:** Resonant blades (short and standard), pulse arms (all weights), dart-launchers, wire-whips
-**Tool Proficiencies:** Thieves' tools, forgery tools, merchant's scales, one additional trade tool of choice
-**Skills:** Choose 4 from: Deception, History, Insight, Investigation, Persuasion, Sleight of Hand, Stealth, Perception
-**Starting Equipment:** Wire-mesh wrappings, resonant blade (short), dart-launcher (5 darts), thieves' tools, merchant's ledger (current), 2 forged documents (blank, high quality), 30 gp equivalent in liquid assets
+**Primary Stats:** SIGNAL + EDGE
+**HP:** (FRAME × 8) + 6
+**Hand Size:** 8
+**AP:** 3 per turn. Basic Attack free (0 AP), once per turn.
+
+### Class Identity
+The Merchant Knife is a surgical information-warfare class. Their hand is the largest of any combat-capable class, but the cards are conditional — many require Intelligence status on the target, or specific combat circumstances, or full information to activate their highest form. The Merchant Knife gathers intelligence mid-combat to unlock card bonuses in later turns. They are the only class with the **Intelligence** card subtype. An uninformed Merchant Knife is a competent fighter. A fully-informed one is an economic execution.
+
+**Intelligence (status):** Applied to targets by several Merchant Knife cards. While a target has Intelligence status, Merchant Knife cards with conditional bonuses unlock those bonuses against that target. Intelligence stacks to 3; each stack increases the value of conditional bonuses. Intelligence lasts until end of combat unless otherwise noted.
+
+**Debt (status):** Applied by several Merchant Knife cards. A target with Debt takes +2 damage from all Merchant Knife cards per Debt stack. Debt stacks to 5.
 
 ---
 
-### Class Features by Level
+### Starting Hand (Level 1)
 
-**Level 1: Economic Analysis**
-You see all social interactions as transactions. When you meet a new creature, as a bonus action make an Intelligence check (DC determined by DM based on target's sophistication): on success, you learn their approximate financial status, what they currently want or need most, and one significant economic leverage point (a debt, a dependency, a commercial vulnerability). Additionally, you can always tell when you are being offered a deal that is structurally unfair to you, even if the unfairness is concealed by complexity.
+Choose 2 of the following 3 cards to begin with. You gain the third at Level 2.
 
-**Level 1: Market Value**
-You always know the approximate market value of any item, service, or information you encounter. When you identify leverage on a creature, you also know roughly how much they would pay to have that leverage removed. This is not magic — it is expertise.
+---
 
-**Level 1: Operation Charges**
-You have a pool of Operation Charges equal to your Intelligence modifier + your proficiency bonus (minimum 2). You regain all Operation Charges on a long rest and Intelligence modifier charges on a short rest.
+### Card Reference
 
-**Level 2: Calculated Strike**
-When you attack a creature you have performed an Economic Analysis on, you deal an extra 1d6 damage. This increases to 2d6 at level 9 and 3d6 at level 17. This represents not physical advantage but the precision of someone who has calculated exactly where and when the attack will have maximum effect.
+#### Market Read
+*Tier 1 (1 AP) | Intelligence | Utility*
 
-**Level 2: Leverage Portfolio**
-You maintain a record of leverage you have identified on various creatures and organizations. Each leverage point you record can be deployed once: impose disadvantage on a creature's Charisma check or saving throw against your abilities, provide advantage on your own Persuasion or Intimidation check against them, or force a reaction that reveals information they would prefer to conceal (the specific reaction is subject to DM interpretation of what the leverage represents).
+**Effect:** Apply Intelligence 1 to one target within 60 feet. Until end of combat, you know that target's current HP total and any active status effects on them. If target already has Intelligence, add 1 stack (max 3).
+**Keywords:** Intelligence
+**Unlock:** Level 1 (Starting Hand)
 
-**Level 3: Merchant Knife Subclass**
-You choose your path: The Supply Cutter, The Gilded Blade, or The Kingmaker. Your subclass grants features at levels 3, 6, 10, and 14.
+---
 
-**Level 3: Due Diligence**
-When you have 24 hours of research time regarding a target, organization, or operation, you can construct a comprehensive economic profile: their income sources, financial obligations, key supply dependencies, and the specific economic actions that would most damage them. This profile is effectively an intelligence product that would take a team of ordinary analysts weeks to produce.
+#### Precision Cut
+*Tier 1 (1 AP) | Precision Attack*
 
-**Level 4: Ability Score Improvement**
+**Effect:** Deal 5 + EDGE damage. If target has Intelligence 1+, deal 8 + EDGE instead and apply Bleed 1.
+**Keywords:** Bleed 1 (conditional)
+**Unlock:** Level 1 (Starting Hand)
 
-**Level 5: Market Manipulation**
-Once per long rest, you can intervene in local markets to create economic effects. Options: flood a specific market with supply to drive a target's inventory value down (reducing a business's income for 1 month by 25%), create artificial scarcity of a commodity a target depends on (imposing operational disadvantage — DM determines specifics), or redirect payment of a specific financial obligation (requiring a DC 20 Investigation check to detect the redirection). These operations require 24 hours of setup and produce effects over 1 week.
+---
 
-**Level 5: Precision Violence**
-When you attack a creature with advantage, you can use one of the following precision effects on the attack: force the target to drop one held item, impose disadvantage on their next attack roll, or reduce their movement speed by 15 feet until the end of their next turn. These effects represent not power but placement — you know where to hit.
+#### Cold Entry
+*Tier 1 (1 AP) | Precision Attack*
 
-**Level 6: Subclass Feature**
+**Effect:** Deal 4 + EDGE damage. If this is the first combat of the session, deal 10 + EDGE instead and apply Expose 1.
+**Keywords:** Expose 1 (conditional)
+**Unlock:** Level 1 (Starting Hand)
 
-**Level 6: Operational Patience**
-You can maintain up to 3 long-term economic operations simultaneously (operations initiated by Level 5 and subclass features). Each operation can have different timelines. You can delay, accelerate, or redirect operations as circumstances change. Operations you initiate leave no attributable trace — the economic disruption they cause looks like market fluctuation, not deliberate manipulation, to anyone investigating with a skill check lower than 20.
+---
 
-**Level 7: Asset Acquisition**
-Between operations, you accumulate financial leverage. Once per long rest, you can liquidate part of your portfolio: you gain 1d10 × your Intelligence modifier in gold pieces as liquid assets, representing returns from past operations. This is not your personal wealth — it is operational budget for current needs. Using it leaves financial records.
+#### Leverage Point
+*Tier 1 (1 AP) | Control | Social*
 
-**Level 8: Ability Score Improvement**
+**Effect:** Apply Debt 1 to one target within 60 feet. If target has Intelligence 1+, apply Debt 2 instead.
+**Keywords:** Debt, Intelligence-synergy
+**Unlock:** Level 2
 
-**Level 8: Target Analysis**
-Your Economic Analysis can now be used at range (60 feet, visual contact) and can be performed in 1 minute instead of requiring longer observation. Additionally, your analysis now provides strategic information: you learn their most important ally, their most significant enemy, and the single action that would most damage their position within 1 month if taken now.
+---
 
-**Level 9: Network Investment**
-You have invested in people as well as markets. You have a network of commercial contacts (similar to Shadow Daimyo Contacts but oriented around commerce) consisting of merchants, financiers, and trade officials. You have 5 Commercial Contacts. Each can provide: market intelligence, financial services, or facilitated introduction to commercial entities in their sector. You gain 1 additional Commercial Contact per 2 levels above 9.
+#### Filed Assessment
+*Tier 1 (1 AP) | Intelligence | Utility*
 
-**Level 10: Subclass Feature**
+**Effect:** Apply Intelligence 1 to one target. On your next turn, the first Merchant Knife card you play against that target costs 0 AP if it normally costs 1 AP.
+**Keywords:** Intelligence, Cost Reduction
+**Unlock:** Level 2
 
-**Level 10: The Long Calculation**
-You can now plan and execute economic operations on a strategic scale — not just disrupting individual targets but reshaping markets. Over 1 month of concentrated effort, you can: redirect significant trade flows between territories, arrange for a major financial house to become dependent on or independent from a specific power, or create conditions that will produce a specific economic crisis in a designated territory within 6 months. These operations require resources (the DM will specify) and leave trails that sophisticated analysis can eventually follow.
+---
 
-**Level 11: Ruthless Efficiency**
-You have eliminated all inefficiency from your violent operations. When you take the Attack action and hit your target, you can make one additional attack as part of the same action against any creature that was within 5 feet of your target — a collateral-efficient second strike if the target has associates. Additionally, you have advantage on attacks against surprised creatures.
+#### Supply Interrupt
+*Tier 1 (1 AP) | Control | Signal*
 
-**Level 12: Ability Score Improvement**
+**Effect:** Apply Root to one target until end of their next turn. If target has Debt 2+, also apply Stagger.
+**Keywords:** Root, Stagger (conditional), Debt-synergy
+**Unlock:** Level 3
 
-**Level 12: Portfolio Mastery**
-Your Leverage Portfolio is now an active weapon in ongoing interactions. When you enter a scene involving any creature you have leverage on, you can declare your active Leverage as a bonus action at the start of the scene. The creature must succeed on a Wisdom saving throw (DC = your Merchant Knife save DC) or have disadvantage on all Charisma checks and contested ability checks for the duration of the scene, as they are aware you hold something over them.
+---
 
-**Level 13: Cascade**
-Once per long rest, you can trigger a Cascade — a chain of economic consequences that follows from an initial operation. When one of your Market Manipulation operations concludes, you can immediately chain a second operation that builds on the first's effects, exploiting the disruption you created. The second operation completes twice as fast and costs no Operation Charges.
+#### The First Account
+*Tier 1 (1 AP) | Precision Attack*
 
-**Level 14: Subclass Feature**
+**Effect:** Deal 6 + EDGE damage. If this is the first time you have attacked this specific target this combat, apply Intelligence 1 and deal +4 bonus damage.
+**Keywords:** Intelligence (conditional), First-Strike
+**Unlock:** Level 3
 
-**Level 15: Strategic Reserve**
-You have built a financial foundation that is resistant to disruption. You are immune to economic leverage being used against you — you have no exploitable financial vulnerabilities, multiple concealed financial layers, and contingency arrangements for every foreseeable economic attack. Additionally, once per month, you can liquidate a Strategic Reserve for 5d10 × your Intelligence modifier gold pieces.
+---
 
-**Level 16: Ability Score Improvement**
+#### Observed Weakness
+*Tier 1 (1 AP) | Intelligence | Utility*
 
-**Level 17: The Complete Picture**
-Your understanding of economic systems is now comprehensive at a territorial scale. Once per long rest, you can analyze any territory you have spent 1 week in: you know its complete financial structure, the dependency chains that hold its economy together, and the three most efficient interventions that would cause the most significant disruption. This analysis is strategic intelligence of the highest order.
+**Effect:** Apply Expose 1 to one target with Intelligence 1+. This card can only be played against targets you have Intelligence on. If target has Intelligence 2+, apply Expose 2 instead.
+**Keywords:** Expose, Intelligence-synergy, Restricted
+**Unlock:** Level 4
 
-**Level 18: Market Authority**
-In the Wire Market and any commercial zone that recognizes Market authority, your word carries financial weight. Your stated valuations of assets are considered authoritative. Deals you endorse carry implicit Market backing. Once per long rest, you can invoke full Market authority to: halt a commercial transaction that violates Market protocols, guarantee a deal with your personal financial reputation (effectively unlimited backing for 24 hours), or call in a Market debt against any party that has conducted business in the Market.
+---
 
-**Level 19: Ability Score Improvement**
+#### Wire-Tap Strike
+*Tier 1 (1 AP) | Signal Attack*
 
-**Level 20: The Invisible Hand**
-You have become a force of economic nature in Tesshari. Your Market Manipulation operations can now affect inter-territorial trade flows. You can run 5 operations simultaneously. Once per long rest, you can take the Decisive Intervention: identify one economic actor (a financial house, a supply chain, a major commercial territory's economic infrastructure) and trigger a pre-planned cascade that you have been preparing for weeks. The cascade's effects are DM-determined based on the depth of your preparation, but the Merchant Knife tradition has examples of Decisive Interventions that ended wars, triggered revolutions, and reshaped entire territories — without a single violent act attributable to the practitioner. The Invisible Hand: you were never here, and this was inevitable.
+**Effect:** Deal 5 + SIGNAL damage. If target has any active cybernetic enhancement, apply Overheat 1.
+**Keywords:** Overheat 1 (conditional)
+**Unlock:** Level 4
+
+---
+
+#### The Clean Exit
+*Tier 1 (1 AP) | Mobility | Reaction*
+
+**Effect:** Reaction. When you reduce a target to 0 HP, immediately reposition up to your EDGE in meters without provoking responses. Gain Veil (first hostile card targeting you next turn loses all riders).
+**Keywords:** Veil, Reaction
+**Unlock:** Level 5
+
+---
+
+#### Collateral Efficiency
+*Tier 1 (1 AP) | Precision Attack*
+
+**Effect:** Deal 5 + EDGE damage to one target. If that target is adjacent to another enemy, deal 3 + EDGE damage to the adjacent enemy as well (no additional AP cost). Neither instance requires Intelligence.
+**Keywords:** Splash
+**Unlock:** Level 5
+
+---
+
+#### Due Diligence
+*Tier 1 (1 AP) | Intelligence | Utility*
+
+**Effect:** Apply Intelligence 2 to one target within 60 feet. This card cannot be played if you have no current Intelligence sources — you must have observed this target for at least one full round of combat (they have taken at least one turn).
+**Keywords:** Intelligence 2, Restricted
+**Unlock:** Level 6
+
+---
+
+#### Coordinated Removal
+*Tier 1 (1 AP) | Precision Attack*
+
+**Effect:** Deal 7 + EDGE damage. If an ally attacked this target on their last turn, deal 11 + EDGE instead.
+**Keywords:** Ally-synergy
+**Unlock:** Level 6
+
+---
+
+#### The Long Approach
+*Tier 2 (2 AP) | Intelligence | Utility*
+
+**Effect:** Apply Intelligence 3 to one target (maximum stack, regardless of current stacks). Until end of combat, that target cannot remove Intelligence status by any means. All Merchant Knife conditional bonuses against this target are permanently unlocked regardless of stack count.
+**Keywords:** Intelligence 3, Lock, Permanent-condition
+**Unlock:** Level 7
+
+---
+
+#### Precision Elimination
+*Tier 2 (2 AP) | Precision Attack | Signature*
+
+**Effect:** Deal 12 + EDGE damage. If target has Intelligence 2+, deal 18 + EDGE instead. If target has Intelligence 3, deal 22 + EDGE and apply Bleed 2 and Expose 1.
+**Keywords:** Intelligence-synergy, Bleed (conditional), Expose (conditional)
+**Unlock:** Level 7
+
+---
+
+#### Debt Spiral
+*Tier 2 (2 AP) | Control | Social*
+
+**Effect:** Apply Debt 3 to one target. If target already has Debt, apply Vulnerable 2 as well. The existing Debt stacks are retained.
+**Keywords:** Debt 3, Vulnerable 2 (conditional)
+**Unlock:** Level 8
+
+---
+
+#### Signal Drain
+*Tier 2 (2 AP) | Signal Attack | Control*
+
+**Effect:** Deal 10 + SIGNAL damage. Apply Silence until end of target's next turn. If target has Intelligence 1+, also apply Overheat 2.
+**Keywords:** Silence, Overheat 2 (conditional)
+**Unlock:** Level 8
+
+---
+
+#### Portfolio Strike
+*Tier 2 (2 AP) | Precision Attack*
+
+**Effect:** Deal 11 + EDGE damage. For each Debt stack on the target (up to 5), deal +3 bonus damage.
+**Keywords:** Debt-synergy, Scaling
+**Unlock:** Level 9
+
+---
+
+#### Market Collapse
+*Tier 2 (2 AP) | Control | Signal | Signature*
+
+**Effect:** Apply Debt 2 to all enemies in a 20-meter radius. Enemies with Intelligence status additionally receive Expose 1. This card represents the economic shock arriving simultaneously for all involved parties.
+**Keywords:** Area, Debt 2, Expose 1 (conditional), Intelligence-synergy
+**Unlock:** Level 9
+
+---
+
+#### Precision Nerve Strike
+*Tier 2 (2 AP) | Precision Attack | Control*
+
+**Effect:** Deal 10 + EDGE damage. Apply Stagger. If target has Intelligence 2+, apply Stagger and Root simultaneously.
+**Keywords:** Stagger, Root (conditional)
+**Unlock:** Level 10
+
+---
+
+#### Filed and Forgotten
+*Tier 2 (2 AP) | Intelligence | Utility | Reaction*
+
+**Effect:** Reaction. Triggered when any enemy applies a status effect to you. Remove that status effect. Apply Intelligence 1 to the attacker — you have filed their method. This card does not cost your round Reaction if played in response to a social/command card.
+**Keywords:** Cleanse (self), Intelligence, Reaction
+**Unlock:** Level 10
+
+---
+
+#### The Clean Account
+*Tier 2 (2 AP) | Precision Attack | Signature*
+
+**Effect:** Deal 14 + EDGE damage. If this attack reduces the target to 0 HP, remove all Debt and Intelligence stacks from them and apply one stack of each to the nearest enemy within 20 meters — the account transfers. The transfer requires no additional AP.
+**Keywords:** Transfer-on-kill, Debt, Intelligence
+**Unlock:** Level 11
+
+---
+
+#### Asymmetric Information
+*Tier 2 (2 AP) | Intelligence | Control*
+
+**Effect:** Select one enemy with Intelligence 2+. Until end of their next turn, they cannot benefit from any ally-synergy effects — their allies cannot provide them bonuses, flanking, or reaction support. They are isolated in the information gap.
+**Keywords:** Intelligence-synergy, Isolation, Restricted
+**Unlock:** Level 11
+
+---
+
+#### Supply Cut
+*Tier 2 (2 AP) | Control | Signal*
+
+**Effect:** Apply Regen suppression to one target: target cannot benefit from Regen, healing cards, or Shield for 2 rounds. If target has Debt 3+, this extends to 3 rounds.
+**Keywords:** Anti-Heal, Debt-synergy
+**Unlock:** Level 12
+
+---
+
+#### Competitive Analysis
+*Tier 2 (2 AP) | Intelligence | Utility*
+
+**Effect:** Apply Intelligence 1 to all enemies currently in combat. This triggers all Intelligence-conditional bonuses on subsequent cards this turn against any of those targets at minimum activation threshold.
+**Keywords:** Intelligence (area), Mass-Apply
+**Unlock:** Level 12
+
+---
+
+#### The Correct Calculation
+*Tier 3 (3 AP) | Precision Attack | Signature*
+
+**Effect:** Deal 20 + EDGE damage. This card requires Intelligence 1+ on target to play. For each Intelligence stack beyond 1 on the target, deal +6 additional damage. At Intelligence 3, this card also cannot be mitigated by Guard or Shield effects — the calculation has accounted for their defenses.
+**Keywords:** Intelligence-required, Pierce (conditional), Scaling
+**Unlock:** Level 13
+
+---
+
+#### Economic Execution
+*Tier 3 (3 AP) | Precision Attack | Signature*
+
+**Effect:** Deal 18 + EDGE damage. Apply Debt 2 and Expose 2. If target has Intelligence 3, this attack ignores all mitigation and the target cannot use Reaction cards this turn — the operation was so thoroughly prepared that there is no response available.
+**Keywords:** Pierce (at Intel 3), Reaction-lock (conditional), Debt 2, Expose 2
+**Unlock:** Level 14
+
+---
+
+#### The Invisible Operation
+*Tier 3 (3 AP) | Control | Signal | Signature*
+
+**Effect:** Select one target. Remove all their Guard and Shield. Apply Intelligence 3, Debt 3, Expose 2, and Vulnerable 2 simultaneously. This card represents a complete economic profile being activated in a single moment — everything you know about them, deployed at once. If target is reduced to 0 HP this turn, no ally of theirs within range can spend their Reaction — they were not prepared for this outcome.
+**Keywords:** Dispel (Guard/Shield), Intelligence 3, Debt 3, Expose 2, Vulnerable 2, Cascade-kill
+**Unlock:** Level 15
+
+---
+
+#### Cascade Protocol
+*Tier 3 (3 AP) | Control | Signature*
+
+**Effect:** Trigger a Cascade: select any two Merchant Knife cards you have already played this combat. Their effects apply again at no AP cost to the same targets (or new targets — your choice per card). The cascade does not apply damage, only status effects and Intelligence stacks. This represents the second-order consequences of a well-designed operation arriving on schedule.
+**Keywords:** Repeat-effect, No-damage, Status-only
+**Unlock:** Level 16
+
+---
+
+#### Market Authority
+*Tier 3 (3 AP) | Social | Control | Signature*
+
+**Effect:** Select one target. Until end of combat, all allies treat that target as having Intelligence 3 for purposes of ally attack bonuses. All Debt on the target is doubled (up to the maximum of 5). Any card played by any ally against this target this turn deals +SIGNAL bonus damage (you have broadcast the complete profile). This represents invoking full Market authority on a target.
+**Keywords:** Intelligence-broadcast, Debt-double, Ally-synergy
+**Unlock:** Level 17
+
+---
+
+#### The Long Short
+*Tier 3 (3 AP) | Control | Intelligence | Signature*
+
+**Effect:** Select one target with Debt 2+ and Intelligence 1+. Apply Vulnerable 3 and Expose 3. Until this target's next turn, any damage they deal to any target is reduced by your SIGNAL. They are operating in a market you have already shorted — every action they take is working against their position.
+**Keywords:** Vulnerable 3, Expose 3, Damage-reduction (reflected)
+**Unlock:** Level 18
+
+---
+
+#### Decisive Intervention
+*Tier 3 (3 AP) | Precision Attack | Signature*
+
+**Effect:** Deal 24 + EDGE damage. This card requires Intelligence 3 on target. Cannot be reduced by any mitigation effect. On kill: remove this target from the encounter record — their allies do not benefit from morale bonuses or rage effects from their death. This happened because it was inevitable. It does not constitute a crisis. It is a completed project.
+**Keywords:** Pierce (full), Morale-suppress, Intelligence 3 required
+**Unlock:** Level 19
+
+---
+
+#### The Invisible Hand
+*Tier 3 (3 AP) | Signature | Capstone*
+
+**Effect:** You were never here, and this was inevitable. Select up to three targets currently in combat. For each target with Intelligence on them, apply the following simultaneously: all their Debt stacks are converted to Vulnerable stacks at equal value; all their Guard and Shield are removed; they cannot play Tier 2 or Tier 3 cards for 1 full round. For each target without Intelligence, this card applies Intelligence 3 and Debt 3 instead — the file has been opened. The economic architecture of this encounter was designed before the encounter began. This is the completion date.
+**Keywords:** Mass-conversion, Pierce (Guard/Shield), Stagger (Tier 2-3), Intelligence 3, Debt 3, Area
+**Unlock:** Level 20
+
+---
+
+### Level Unlock List
+
+| Level | Cards Available to Choose |
+|---|---|
+| 1 | Starting Hand: choose 2 of (Market Read, Precision Cut, Cold Entry) |
+| 2 | Filed Assessment, Leverage Point — gain the Starting Hand card you did not take |
+| 3 | Supply Interrupt, The First Account |
+| 4 | Observed Weakness, Wire-Tap Strike |
+| 5 | The Clean Exit, Collateral Efficiency |
+| 6 | Due Diligence, Coordinated Removal |
+| 7 | The Long Approach, Precision Elimination |
+| 8 | Debt Spiral, Signal Drain |
+| 9 | Portfolio Strike, Market Collapse |
+| 10 | Precision Nerve Strike, Filed and Forgotten |
+| 11 | The Clean Account, Asymmetric Information |
+| 12 | Supply Cut, Competitive Analysis |
+| 13 | The Correct Calculation |
+| 14 | Economic Execution |
+| 15 | The Invisible Operation |
+| 16 | Cascade Protocol |
+| 17 | Market Authority |
+| 18 | The Long Short |
+| 19 | Decisive Intervention |
+| 20 | The Invisible Hand (Capstone) |
+
+*Total cards: 36. Hand Size: 8. At max hand size, each new card replaces one existing card.*
 
 ---
 
