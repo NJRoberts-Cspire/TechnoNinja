@@ -331,7 +331,7 @@ Wire Market operators love Ronin, specifically because their skills are availabl
 ### Long Road Endurance
 *Tier 1 (1 AP) | Passive*
 
-**Always Active:** You have survived masterless longer than most. This survival has calcified into something that functions like wisdom and works like armor. Reduce all incoming damage by 1 (minimum 0). Once per combat, when you fail a saving throw or miss an attack, you may treat it as a success or hit instead.
+**Always Active:** You have survived masterless longer than most. This survival has calcified into something that functions like wisdom and works like armor. Reduce all incoming damage by 1 (minimum 0). Once per combat, when you fail a resistance check or miss an attack, you may treat it as a success or hit instead.
 **Unlock:** Level 7
 
 ---
@@ -465,7 +465,7 @@ Wire Market operators love Ronin, specifically because their skills are availabl
 ### The Long Road
 *Tier 2 (2 AP) | Power*
 
-**Effect:** You have survived masterless longer than most. You cannot be frightened. You cannot be compelled. Once this combat, when you fail a saving throw, you treat it as a success instead — you have been through worse. Gain Regen 2 for 3 turns.
+**Effect:** You have survived masterless longer than most. You cannot be frightened. You cannot be compelled. Once this combat, when you fail a resistance check, you treat it as a success instead — you have been through worse. Gain Regen 2 for 3 turns.
 **Keywords:** Regen 2, Fortify
 **Unlock:** Level 9
 
@@ -521,19 +521,19 @@ Wire Market operators love Ronin, specifically because their skills are availabl
 **Level 1: Masterless Edge**
 You have shed the ritual constraints of the code without losing the skills. Your combat style is rawer than an Ironclad's, less predictable, and harder to read precisely because it does not follow expected patterns. You gain the following:
 - You can use Dexterity instead of Strength for attack and damage rolls with resonant blades.
-- When you are the only character making attacks against a target (no allies are engaging the same target), your attack rolls have advantage.
-- You are proficient with improvised weapons, and improvised weapons in your hands deal 1d6 damage plus your ability modifier.
+- When you are the only character making attacks against a target (no allies are engaging the same target), your attack cards gain +3 damage.
+- You are proficient with improvised weapons, and improvised weapons in your hands deal 5 damage (fixed) plus your IRON.
 
 **Level 1: Broken Resonance**
 Your enhancement signature broadcasts your masterless state, but you have learned to use that corruption. Once per short rest, when a creature attempts to read your enhancements, assess your caste, or determine your loyalties through technological means, you can invert the corruption — broadcasting false or confusing data instead. This requires no action.
 
-Additionally, your Echomind's drift makes you difficult to resonance-lock. You have advantage on saving throws against effects that would bind, charm, or compel you through enhancement interference.
+Additionally, your Echomind's drift makes you difficult to resonance-lock. You gain +3 to resistance checks against effects that would bind, charm, or compel you through enhancement interference.
 
 **Level 2: Combat Pragmatism**
 You fight to survive, not to perform. Choose one Pragmatism Style:
-- **Dirty Finish:** When you make an attack against a creature that is surprised, prone, or unaware of you, you deal an additional 2d6 damage. This stacks with other sources of extra damage.
-- **Relentless Press:** When you deal damage to a creature with a melee attack, that creature cannot disengage from you until the start of your next turn. If they attempt to do so, you can use your reaction to make one melee attack against them.
-- **Controlled Retreat:** You can Disengage as a bonus action. While disengaging, your movement speed increases by 10 feet.
+- **Dirty Finish:** When you play an attack card against a creature that is surprised, prone, or unaware of you, you deal an additional 8 damage (fixed). This stacks with other sources of extra damage.
+- **Relentless Press:** When you deal damage to a creature with a melee attack card, that creature cannot disengage from you until the start of your next turn. If they attempt to do so, you can use your Reaction to make one basic attack against them.
+- **Controlled Retreat:** You can Disengage as a free action. While disengaging, your movement speed increases by 10 feet.
 
 **Level 2: Hard-Won Knowledge**
 Your years without institutional support have made you resourceful. You gain proficiency in one additional skill from the Ronin list, and you can perform a long rest in 4 hours instead of 8 hours. You are accustomed to sleeping light, staying ready, and making do.
@@ -541,31 +541,31 @@ Your years without institutional support have made you resourceful. You gain pro
 **Level 3: Ronin's Path**
 You choose your Ronin Path subclass, representing the direction you have found — or made — in your masterless state. See Subclasses below.
 
-**Level 4: Ability Score Improvement**
-Increase one ability score by 2, or two ability scores by 1 each.
+**Level 4: Stat Improvement**
+Increase one stat by 2, or two stats by 1 each.
 
 **Level 5: Extra Attack**
 You can attack twice, instead of once, whenever you take the Attack action on your turn.
 
 **Level 5: Masterless Momentum**
-Your combat style builds on itself. When you hit with your first attack on your turn, your second attack deals an additional 1d8 damage. If you hit with your second attack, you gain 5 feet of movement that can only be used to move toward or away from the creature you attacked.
+Your combat style builds on itself. When you hit with your first attack card on your turn, your next attack card deals an additional 5 damage (fixed). If that attack also hits, you gain 5 feet of movement that can only be used to move toward or away from the creature you attacked.
 
 **Level 6: Ronin's Path Feature**
 Your subclass grants an additional feature at this level.
 
 **Level 7: Scar Tissue**
-Your enhancements have been repaired by your own hands more times than you can count, and the repairs have created a certain toughness. You gain resistance to slashing and piercing damage from non-enhanced sources. Additionally, when you succeed on a death saving throw, you gain 1 hit point instead of simply stabilizing (unless you also roll a 20, in which case you regain the standard hit points).
+Your enhancements have been repaired by your own hands more times than you can count, and the repairs have created a certain toughness. You gain resistance to slashing and piercing damage from non-enhanced sources. Additionally, when you succeed on a death resistance check, you stabilize at 1 HP.
 
-**Level 8: Ability Score Improvement**
+**Level 8: Stat Improvement**
 As level 4.
 
 **Level 8: Corrupted Clarity**
-The degraded lord's frequency in your enhancements has settled into something that is not clean but is honest. You can no longer be forced to act against your own survival by any effect short of full mind control. Effects that would persuade you of things demonstrably false against your direct experience require a DC 20 Wisdom check (instead of your normal save) to affect you.
+The degraded lord's frequency in your enhancements has settled into something that is not clean but is honest. You can no longer be forced to act against your own survival by any effect short of full mind control. Effects that would persuade you of things demonstrably false against your direct experience require a VEIL resistance check, difficulty 5, to affect you.
 
-Additionally, you have advantage on Insight checks. The masterless see clearly what people with lords choose not to see.
+Additionally, you gain +3 to VEIL-based perception cards. The masterless see clearly what people with lords choose not to see.
 
 **Level 9: Unbound Strike**
-You have developed a technique that the Ironclad schools do not teach — a strike that rejects the patterns, that comes from a place outside the kata. Once per turn, when you make an attack, you can declare it an Unbound Strike. Roll the attack twice and take either result (your choice). If both dice hit, the attack deals an additional 3d8 damage. If the Unbound Strike hits, the target is disoriented until the start of their next turn: their next attack roll has disadvantage.
+You have developed a technique that the Ironclad schools do not teach — a strike that rejects the patterns, that comes from a place outside the kata. Once per turn, when you play an attack card, you can declare it an Unbound Strike. Play the card twice and take either result (your choice). If both hits land, the attack deals an additional 14 damage (fixed). If the Unbound Strike hits, the target is Staggered until the start of their next turn.
 
 **Level 10: Ronin's Path Feature**
 Your subclass grants an additional feature at this level.
@@ -573,22 +573,22 @@ Your subclass grants an additional feature at this level.
 **Level 11: Walk Between**
 Years of moving without a lord's protection — through hostile territory, past checkpoint sensors calibrated for house samurai, through the margins of every territory — have made you extraordinarily capable of navigating hostile environments. You gain:
 - You are not detected by enhancement signature scanners as long as you concentrate (no action required; you are aware if you need to concentrate harder due to high-quality scanners).
-- You have advantage on Stealth and Survival checks in urban environments.
+- You gain +3 to Stealth and Survival cards in urban environments.
 - You cannot be tracked by enhancement-signature following methods.
 
-**Level 12: Ability Score Improvement**
+**Level 12: Stat Improvement**
 As level 4.
 
 **Level 12: Counter Kata**
-You have spent years observing the Ironclad's techniques from the outside, fighting them, fighting alongside them, and learning to anticipate every pattern in the code. When a creature uses a named combat technique, ki ability, or class feature against you, you can use your reaction to make an attack against them with advantage. This represents your pattern recognition cutting through their form.
+You have spent years observing the Ironclad's techniques from the outside, fighting them, fighting alongside them, and learning to anticipate every pattern in the code. When a creature uses a named combat card or class feature against you, you can use your Reaction to make a basic attack against them with +3 damage. This represents your pattern recognition cutting through their form.
 
 **Level 13: Resonant Corruption (Weaponized)**
-The corruption in your enhancements has been present long enough that you have learned to direct it. As a bonus action, you can channel the corrupted resonance outward. Until the end of your next turn:
-- Your weapon attacks deal an additional 2d6 resonant damage.
-- Any creature that touches you or strikes you with an unarmed attack takes 1d8 resonant damage.
-- Your enhancement corruption broadcasts at high intensity, potentially triggering nearby enhancement-reading systems, but also imposing disadvantage on attacks against you made by creatures with extensive enhancement integration (DM's discretion).
+The corruption in your enhancements has been present long enough that you have learned to direct it. As a free action, you can channel the corrupted resonance outward. Until the end of your next turn:
+- Your attack cards deal an additional 8 resonance damage (fixed).
+- Any creature that touches you or strikes you with an unarmed attack takes 5 resonance damage (fixed).
+- Your enhancement corruption broadcasts at high intensity, potentially triggering nearby enhancement-reading systems, but also causing attacks against you made by creatures with extensive enhancement integration to lose their damage riders (GM's discretion).
 
-You can use this feature a number of times equal to your proficiency bonus per long rest.
+You can use this feature a number of times equal to your IRON per day.
 
 **Level 14: Ronin's Path Feature**
 Your subclass grants an additional feature at this level.
@@ -596,31 +596,30 @@ Your subclass grants an additional feature at this level.
 **Level 15: The Long Road**
 You have survived masterless longer than most. This survival has calcified into something that functions like wisdom. You gain:
 - You cannot be frightened.
-- When you make a saving throw and fail, you can choose to succeed instead. Once you use this feature, you cannot use it again until you complete a short rest.
-- Your hit point maximum increases by 20 (retroactive).
+- Once per combat, when you fail a resistance check, you may treat it as a success instead.
+- Your HP maximum increases by 20 (retroactive).
 
-**Level 16: Ability Score Improvement**
+**Level 16: Stat Improvement**
 As level 4.
 
 **Level 16: Masterless Perfection**
-Your combat style has reached a refinement that the coded schools cannot achieve — because it was built entirely from necessity. When you use Extra Attack, you can make three attacks instead of two. Additionally, when you hit a creature with all three attacks on a single turn, they must succeed on a Constitution saving throw (DC = 8 + your proficiency bonus + your Strength or Dexterity modifier) or be stunned until the end of their next turn.
+Your combat style has reached a refinement that the coded schools cannot achieve — because it was built entirely from necessity. You may play one additional attack card per turn. Additionally, when you land three attack cards against a single target on the same turn, they must make a FRAME resistance check, difficulty 4, or gain Stagger until the end of their next turn.
 
 **Level 17: Exile's Edge**
-You have been sharpened by everything that the Ironclad's institutions protect their members from. Your critical hit range with resonant blades expands to 18-20. Additionally, when you score a critical hit, the target must make a DC 16 Constitution saving throw or be incapacitated (not unconscious — they can still move and defend, but they cannot make attacks) until the end of their next turn.
+You have been sharpened by everything that the Ironclad's institutions protect their members from. When your attack cards deal maximum damage, the target must make a FRAME resistance check, difficulty 4, or be Staggered (they can move and defend, but cannot play attack cards) until the end of their next turn.
 
 **Level 18: Ronin's Path Feature**
 Your subclass grants an additional feature at this level.
 
-**Level 19: Ability Score Improvement**
+**Level 19: Stat Improvement**
 As level 4.
 
 **Level 20: No Lord But the Work**
 At the highest expression of the Ronin's path is this: you have found, or made, or become your own reason to be. The masterless state that was once a wound has become a condition of perfect, terrible freedom. You answer to nothing and no one in the universe except what you have chosen to answer to.
 
 Mechanically:
-- You have proficiency in all weapons and all armor.
-- Your critical hit range is now 17-20 with any weapon.
-- Once per long rest, you can declare a target your Final Contract. Against this target, all your attacks hit automatically (no roll required) and deal maximum damage. This state lasts until the target is dead or 1 hour has passed, whichever comes first. You cannot declare a new Final Contract until the previous one is resolved.
+- You are proficient with all weapons and all armor.
+- Once per day, you can declare a target your Final Contract. Against this target, all your attack cards deal their maximum possible damage. This state lasts until the target is dead or 1 hour has passed, whichever comes first. You cannot declare a new Final Contract until the previous one is resolved.
 - You become immune to charm, compulsion, and any effect that would alter your stated goals or values without your consent.
 
 ---
@@ -633,18 +632,18 @@ When the Ascension War erupted, it offered the masterless something they had not
 
 **Level 3: Factional Edge**
 Choose a faction (The Warlord's Steel Vanguard, The Monk's Iron Sutra Resurgent, or a more secretive group). You gain one faction-specific benefit:
-- **Steel Vanguard:** You deal an additional 1d8 damage when flanking an enemy alongside another faction member.
-- **Sutra Resurgent:** You gain advantage on all Insight checks, and you can detect enhanced individuals within 60 feet by resonance signature without active scanning.
-- **Shadow Faction (Mage's agents):** You can telepathically communicate with anyone you can see within 120 feet, but doing so reveals a trace of dark resonance (DM tracks this).
+- **Steel Vanguard:** You deal an additional 5 damage (fixed) when flanking an enemy alongside another faction member.
+- **Sutra Resurgent:** You gain +3 to VEIL-based perception cards, and you can detect enhanced individuals within 60 feet by resonance signature without active scanning.
+- **Shadow Faction (Mage's agents):** You can telepathically communicate with anyone you can see within 120 feet, but doing so reveals a trace of dark resonance (GM tracks this).
 
 **Level 6: War's Lesson**
-The Ascension War has taught you things that cannot be taught in peacetime. You gain proficiency in one additional weapon type, and once per short rest you can use a bonus action to grant one ally within 30 feet advantage on their next attack roll (you are directing their approach based on tactical pattern recognition).
+The Ascension War has taught you things that cannot be taught in peacetime. You gain class expertise with one additional weapon type, and once per combat you can use a free action to grant one ally within 30 feet +3 on their next attack card (you are directing their approach based on tactical pattern recognition).
 
 **Level 10: Faction's Fervor**
-Your commitment, however pragmatic in origin, has become genuine. Once per long rest, you can enter a state of Factional Fervor for 1 minute. During this time, you have advantage on all attack rolls and saving throws, your movement speed increases by 10 feet, and you cannot be frightened, charmed, or compelled. However, during Fervor, you cannot take the Help action or use any feature that benefits allies over yourself — the fervor is personal.
+Your commitment, however pragmatic in origin, has become genuine. Once per day, you can enter a state of Factional Fervor for 1 minute. During this time, all your attack cards gain +3 damage and you gain +3 to all resistance checks, your movement speed increases by 10 feet, and you cannot be frightened, charmed, or compelled. However, during Fervor, you cannot play cards that benefit allies over yourself — the fervor is personal.
 
 **Level 14: Voice of the Cause**
-You have become a symbol for your faction among the masterless class. When you speak to Ronin or other exiles about your cause, your Persuasion checks are made with advantage, and on a success, the target considers themselves genuinely persuaded (not simply compliant). Additionally, each long rest, you can request a faction favor: intelligence, equipment, or backup (DM adjudicates the scope).
+You have become a symbol for your faction among the masterless class. When you speak to Ronin or other exiles about your cause, your VEIL-based social cards gain +3, and on a success, the target considers themselves genuinely persuaded (not simply compliant). Additionally, once per day, you can request a faction favor: intelligence, equipment, or backup (GM adjudicates the scope).
 
 ---
 
@@ -654,18 +653,18 @@ Some Ronin stop searching for a new lord and start building something different:
 
 **Level 3: Contract Terms**
 When you accept a specific task, target, or objective (work with your DM to define this at the start of a session or arc), you are considered On Contract. While On Contract:
-- You deal an additional 1d6 damage against your specific contract target.
-- You have advantage on Perception and Investigation checks related to finding or tracking your target.
+- You deal an additional 4 damage (fixed) against your specific contract target.
+- You gain +3 to Perception and tracking cards related to finding your target.
 - You cannot be persuaded to abandon the contract by social means alone — only by renegotiation (which you control) or by events that make the contract's completion literally impossible.
 
 **Level 6: Professional Distance**
-Your approach to violence is clinical and efficient. When you kill a creature, you can immediately make a Stealth check to disappear into the environment (if environmental cover exists). Additionally, you have advantage on Deception checks when maintaining a false identity or persona.
+Your approach to violence is clinical and efficient. When you kill a creature, you can immediately play a Stealth card to disappear into the environment (if environmental cover exists). Additionally, you gain +3 to Deception cards when maintaining a false identity or persona.
 
 **Level 10: Clean Finish**
-You have refined your killing techniques to minimize struggle and complication. When you attack a target that has not yet acted in combat (surprise round) or when you attack a restrained, incapacitated, or paralyzed target, you deal an additional 4d8 damage. Additionally, targets you reduce to 0 hit points with these bonus-damage attacks make no noise beyond what physics requires (no screaming, no crashing unless the body falls).
+You have refined your killing techniques to minimize struggle and complication. When you play an attack card against a target that has not yet acted in combat (surprise round) or against a Rooted, Staggered, or Silenced target, you deal an additional 22 damage (fixed). Additionally, targets you reduce to 0 HP with these bonus-damage attacks make no noise beyond what physics requires (no screaming, no crashing unless the body falls).
 
 **Level 14: Iron Reputation**
-Your reputation among those who hire such work has become significant. Once per long rest, as an action, you can invoke your professional name. Any humanoid creature that can hear you and has heard of your reputation (DM's discretion) must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or become frightened of you for 1 minute. More practically: your reputation as a reliable contractor means that once per arc, you can call in a significant professional favor from someone in the hiring networks — information, gear, or access to a specific location.
+Your reputation among those who hire such work has become significant. Once per day, as an action, you can invoke your professional name. Any humanoid creature that can hear you and has heard of your reputation (GM's discretion) must make a VEIL resistance check, difficulty 4, or become frightened of you for 1 minute. More practically: your reputation as a reliable contractor means that once per arc, you can call in a significant professional favor from someone in the hiring networks — information, gear, or access to a specific location.
 
 ---
 
@@ -674,18 +673,18 @@ Your reputation among those who hire such work has become significant. Once per 
 These Ronin have not accepted their masterless state as permanent. They are searching — with the patience and determination that only someone who was trained from childhood to serve a specific purpose can bring to a search — for a lord worthy enough to take their oath again. This is, in Tesshari, considered either noble or delusional depending on who you ask. The Vein of Iron suggests that once broken, an oath cannot be re-sworn at the same resonance. The Returning Blade takes the theological minority position: that an oath re-sworn after genuine masterlessness is stronger than one never tested, because it is chosen rather than inherited.
 
 **Level 3: Honorable Conduct**
-You maintain the Vein of Iron even without a lord, demonstrating that the code exists independent of its institutional context. You gain advantage on all Persuasion and Insight checks when interacting with Ironclad Samurai, former samurai, or nobles of the Caste hierarchy. Additionally, your enhancements' corrupted signature, rather than broadcasting shame, broadcasts something harder to categorize — most observers register it as honorable loss rather than disgrace.
+You maintain the Vein of Iron even without a lord, demonstrating that the code exists independent of its institutional context. You gain +3 to VEIL-based social cards when interacting with Ironclad Samurai, former samurai, or nobles of the Caste hierarchy. Additionally, your enhancements' corrupted signature, rather than broadcasting shame, broadcasts something harder to categorize — most observers register it as honorable loss rather than disgrace.
 
 **Level 6: Prove the Code**
-Once per short rest, you can make a Demonstration — performing an act of discipline, restraint, or honor in a situation where abandoning it would be easier. Mechanically, choose one creature that witnesses your Demonstration. Until your next long rest, they have disadvantage on attack rolls against you, as your commitment creates a kind of combat reluctance in honorable opponents. Dishonorable opponents are unaffected.
+Once per combat, you can make a Demonstration — performing an act of discipline, restraint, or honor in a situation where abandoning it would be easier. Mechanically, choose one creature that witnesses your Demonstration. Until your next rest, they lose all damage riders on attack cards targeting you, as your commitment creates a kind of combat reluctance in honorable opponents. Dishonorable opponents are unaffected.
 
 **Level 10: Worthy Service**
-You have been without a lord long enough to understand precisely what you would need a lord to be. You gain a supernatural sense for potential. You can spend 1 hour in conversation with a person to assess their capacity for worthy lordship — at the end of this time, you know whether they are genuinely capable of being someone you could serve, or whether they would eventually break an oath you gave them. This does not reveal alignment or statistics — it reveals character. Additionally, if you do find a worthy lord and formally re-swear an oath, you gain advantage on all attack rolls made in direct service to that lord.
+You have been without a lord long enough to understand precisely what you would need a lord to be. You gain a supernatural sense for potential. You can spend 1 hour in conversation with a person to assess their capacity for worthy lordship — at the end of this time, you know whether they are genuinely capable of being someone you could serve, or whether they would eventually break an oath you gave them. This does not reveal stats — it reveals character. Additionally, if you do find a worthy lord and formally re-swear an oath, your attack cards gain +3 damage when made in direct service to that lord.
 
 **Level 14: The Oath Renewed**
 You have either found your worthy lord or you have made peace with the search itself becoming the journey. Choose one:
-- **If you have re-sworn:** Your new oath carries double resonance. Your enhancements' corruption is cleansed (over 1d4 weeks, visible to all observers), and you gain the full benefits of the Iron Lord subclass's Level 3 and Level 6 features in addition to your Returning Blade features.
-- **If the search continues:** Your unsworn oath has become its own kind of power. You cannot be killed by a single attack that would reduce you from above 50% hit points to 0 — you are instead reduced to 1 hit point. Your search protects you, because you have not yet found what you came back for.
+- **If you have re-sworn:** Your new oath carries double resonance. Your enhancements' corruption is cleansed (over 2–4 weeks, visible to all observers), and you gain the full benefits of the Iron Lord subclass's Level 3 and Level 6 features in addition to your Returning Blade features.
+- **If the search continues:** Your unsworn oath has become its own kind of power. You cannot be killed by a single attack that would reduce you from above 50% HP to 0 — you are instead reduced to 1 HP. Your search protects you, because you have not yet found what you came back for.
 
 ---
 

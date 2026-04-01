@@ -14,7 +14,7 @@
 ---
 
 # The First Tooth
-*Very Rare Resonant Blade | Requires Attunement*
+*Very Rare Resonant Blade | Requires Integration (spend a long rest in contact with the item)*
 
 ## "He named it after the first thing he took. He has not been asked to elaborate."
 
@@ -34,18 +34,19 @@ The names on the hilt are the names of people he killed in those eleven years wh
 
 He replaced the blade with the integrated systems in his arm during the reconstruction that began his transformation into what he is now. The replacement was practical: the built-in systems are more efficient, more reliable, more lethal. He kept the blade. He has never explained why. It is in his personal vault in the fortress of the First Reach, in a case made of something that is neither wood nor metal, lined with material he apparently brought from the Fifth Reach after the occupation. The case is not locked. He does not believe anyone would take it.
 
-## Properties
+## Card Modifications
 
-**While Attuned:**
+**While Integrated:**
 
-The First Tooth functions as a +2 resonant blade. Beyond the mechanical enhancement, it carries something from its decades of use:
+The First Tooth functions as a high-quality resonant blade with accumulated combat memory:
 
-- **Known Target.** The bearer designates one creature they have fought before (within the past week) as a Known Target as a bonus action. Against Known Targets, the blade deals an additional 2d6 damage on a hit. This represents the blade's accumulated memory of combat — it has been in enough fights that it has opinions about people who fight in particular ways.
+- **Card Modification:** +2 damage to all Melee Attack cards.
+- **Known Target.** The bearer designates one creature they have fought before (within the past week) as a Known Target as a free action. Against Known Targets, all Melee Attack cards deal an additional 6 damage. This represents the blade's accumulated memory of combat — it has been in enough fights that it has opinions about people who fight in particular ways.
 - **The List.** Once per long rest, the bearer may press the blade flat to their palm and concentrate for one minute. They receive a vision of one combat that Korrath fought during the blade's time with him — not as an outside observer, but from inside his perspective. These visions are not flattering. They are accurate. A creature who has seen enough of them begins to understand what Korrath was before he decided what to become.
-- **Resonant Ring.** When the blade strikes a creature with cybernetic enhancements, the ring tells the bearer the general location of the most significant enhancement (head, torso, left arm, etc.) as a free action. This has been useful for forty years.
+- **Resonant Ring.** When any Melee Attack card played with this blade hits a creature with cybernetic enhancements, the ring tells the bearer the general location of the most significant enhancement (head, torso, left arm, etc.) as a free action. This has been useful for forty years.
 - The blade cannot be broken by mundane means. It has been broken three times in its history and repaired each time. Something in the metal knows how to hold together.
 
-**Drawback.** A bearer who attunes to the blade and spends more than three days with it will begin to hear, faintly, the voices of the twenty-three names. They do not say anything. They are simply present. The bearer knows they are there.
+**Drawback.** A bearer who integrates with the blade and spends more than three days with it will begin to hear, faintly, the voices of the twenty-three names. They do not say anything. They are simply present. The bearer knows they are there.
 
 ## Adventure Hook
 
@@ -54,7 +55,7 @@ Korrath's vault archivist has gone missing. She vanished three days ago and the 
 ---
 
 # The Salvage Manifesto
-*Very Rare Wondrous Item (Document) | Requires Attunement by a creature with military command experience*
+*Very Rare Wondrous Item (Document) | Requires: a creature who has commanded others in real combat and lost someone under their command*
 
 ## "It is not a book about war. It is a book about geometry. The war is just the application."
 
@@ -76,16 +77,16 @@ The Manifesto circulates in fragments — pieces copied by commanders who memori
 
 The current copy is in Korrath's personal library. Unlike the First Tooth, this is locked — behind three independent security systems, one of which is biological (keyed to Korrath's remaining organic tissue) and two of which are resonant-signal locks that reset daily.
 
-## Properties
+## Card Modifications
 
-**Attunement.** Requires a creature who has commanded at least ten people in actual combat (not training, not simulation — real stakes, real consequences). The creature must have lost someone under their command. This is the specific prerequisite: not just command, but command that cost them something.
+**Requires:** A creature who has commanded at least ten people in actual combat (not training, not simulation — real stakes, real consequences) and who has lost someone under their command.
 
-**While Attuned:**
+**While Integrated:**
 
-- The bearer gains proficiency in all Intelligence-based skills if they are not already proficient. The Manifesto does not teach — it optimizes what the bearer already knows.
-- Once per long rest, the bearer may consult the Manifesto (or simply hold it and think, if attuned) to receive a tactical analysis of their current situation. The DM provides the optimal tactical approach for the next 4 hours of activity — ambush angles, resource allocation, vulnerability assessment — as if the bearer had spent 8 hours in strategic planning. The bearer does not have to follow this analysis. They simply have it.
-- The bearer is immune to being surprised in combat. Their enhancement-level thinking makes them functionally incapable of being caught without a contingency.
-- **Force Multiplier.** Any creature that the bearer commands and who can clearly hear the bearer's instructions receives a +2 bonus to attack rolls for the first round of any combat. This is not enhancement. This is the consequence of being told, precisely, what to do by someone who knows.
+- All SIGNAL cards used for tactical analysis, planning, or information processing gain +3 to their effect. The Manifesto does not teach — it optimizes what the bearer already knows.
+- Once per long rest, the bearer may consult the Manifesto (or simply hold it and think, if integrated) to receive a tactical analysis of their current situation. The DM provides the optimal tactical approach for the next 4 hours of activity — ambush angles, resource allocation, vulnerability assessment — as though the bearer had spent 8 hours in strategic planning. The bearer does not have to follow this analysis. They simply have it.
+- The bearer cannot be surprised. Their enhanced tactical thinking makes them functionally incapable of being caught without a contingency.
+- **Card Modification — Force Multiplier.** Any creature that the bearer commands and who can clearly hear the bearer's instructions gains +2 damage to all Attack cards for the first round of any combat. This is not enhancement. This is the consequence of being told, precisely, what to do by someone who knows.
 
 **Limitation.** The Manifesto only provides genuine tactical advantage against situations its bearer has not already mastered. If a bearer becomes too good — if they have internalized more than the Manifesto contains — it goes quiet. It will not optimize for someone who already knows more than it does. This is the final lesson in the document, which the reader only understands once they've reached it.
 
@@ -96,7 +97,7 @@ A senior commander in one of the Broken Reaches factions has a fragment — thre
 ---
 
 # The Last Flesh
-*Legendary Wondrous Item | Cannot be attuned*
+*Legendary Wondrous Item | Cannot be integrated*
 
 ## "There is a theory that Korrath's only remaining vulnerability is biological. The theory is correct. The theory is also, technically, actionable."
 
@@ -118,7 +119,7 @@ No one has been able to verify the popular theory that destroying the Last Flesh
 
 ## Properties
 
-This item cannot be attuned. It has no active properties. It is a piece of biological material in a container.
+This item cannot be integrated. It has no active properties. It is a piece of biological material in a container.
 
 **What the Records Suggest:**
 
@@ -147,7 +148,7 @@ A defector from Korrath's intelligence apparatus — a signals specialist who in
 ---
 
 # The First Removal
-*Rare Wondrous Item | Requires Attunement by a creature that has voluntarily surrendered something they valued*
+*Rare Wondrous Item | Requires: a creature who has voluntarily surrendered something they valued because keeping it was inconsistent with who they were trying to become*
 
 ## "The extraction was performed in a public square, before her followers, without anesthetic. She did not make a sound. Those who were there still cannot explain how that was possible."
 
@@ -169,20 +170,19 @@ The extraction was performed in the same public square where she made the addres
 
 Her followers collected the enhancement. The Iron Sutra does not officially acknowledge her movement, but three of the Iron Sutra's inner council have privately visited the enhancement in its current keeping place.
 
-## Properties
+## Card Modifications
 
-**Attunement.** The enhancement attunes to creatures who have genuinely given something up — not lost it, not had it taken, but chosen to relinquish something they valued because keeping it was inconsistent with who they were trying to become. The giving-up must have cost them something real.
+**Attunement Condition:**
+A creature who attempts to integrate while holding on to something they should release will find the enhancement cold and quiet. They will hear, once, in the frequency between sound and resonance: *"Not yet."*
 
-A creature who attempts to attune while holding on to something they should release will find the enhancement cold and quiet. They will hear, once, in the frequency between sound and resonance: *"Not yet."*
+**While Integrated:**
 
-**While Attuned:**
+- **Card Modification:** All RESONANCE-based Utility and Control cards gain +3 to their effect when used to understand another person's motivations, emotional state, or hidden intentions. The First Removal carried Vaen's Echomind for nine years. Something of her capacity to hear past the surface has remained in the metal.
+- The bearer can hear the resonant frequency of any cybernetic enhancement within 30 feet. This is not audible to others. They hear it as a quiet background hum, distinct per-enhancement, identifiable with practice (SIGNAL check, difficulty 3, to identify specific enhancement types).
+- Once per long rest, the bearer may enter a state of stillness (cannot move, must be sitting or standing without preparation for combat) for one full minute. At the end of this minute, the bearer has clarity of purpose for the next 24 hours: Control cards targeting them through psychological or social means cannot take effect for this duration.
+- The bearer cannot be affected by Compulsion or Domination card effects that require them to act against their stated values. The enhancement recognizes integrity and defends it.
 
-- The bearer has advantage on all Wisdom (Insight) checks to understand another person's motivations, emotional state, or hidden intentions. The First Removal carried Vaen's Echomind for nine years. Something of her capacity to hear past the surface has remained in the metal.
-- The bearer can hear the resonant frequency of any cybernetic enhancement within 30 feet. This is not audible to others. They hear it as a quiet background hum, distinct per-enhancement, identifiable with practice (DC 12 Perception check to identify specific enhancement types). This is Vaen's original enhancement's function — amplified auditory sensitivity — operating in the register of resonant metal rather than sound.
-- Once per long rest, the bearer may enter a state of stillness (cannot move, must be sitting or standing without preparation for combat) for one full minute. At the end of this minute, the bearer has a clarity of purpose for the next 24 hours: disadvantage cannot be imposed on them by psychological or social effects for this duration.
-- The bearer cannot be magically compelled or charmed by effects that require the bearer to act against their stated values. The enhancement recognizes integrity and defends it.
-
-**Attunement Cost.** The bearer gradually loses the ability to ignore pain. Not enhanced pain — they simply begin to feel minor discomforts that enhancements typically filter. This is Vaen's point. It does not impair function. It is uncomfortable.
+**Integration Cost.** The bearer gradually loses the ability to ignore pain. Not enhanced pain — they simply begin to feel minor discomforts that enhancements typically filter. This is Vaen's point. It does not impair function. It is uncomfortable.
 
 ## Adventure Hook
 
@@ -203,19 +203,19 @@ But her hands are the only tools she uses. And contact with her hands does somet
 
 Physical contact with Vaen's hands — skin contact, deliberate, for more than a few seconds — does the following:
 
-## Mechanical Properties
+## Encounter Properties
 
 This is not an item. It is an encounter property. When a player character touches Vaen's hands (held, blessed, or any extended skin-to-skin contact), apply the following:
 
-**The Touching:** The creature immediately makes a DC 18 Wisdom saving throw. This is not a hostile effect. The creature may choose to fail.
+**The Touching:** The creature immediately makes a RESONANCE check (difficulty 5). This is not a hostile effect. The creature may choose to fail.
 
-**On a Failed Save (or Chosen Failure):** The creature experiences a flash of absolute clarity about one thing they are avoiding. The DM identifies this privately — it should be something true about the character that the player has not yet confronted, something the character has been circling but not addressing. The character knows what it is. They know Vaen knows what it is. There is no exchange of words. The information is not spoken. It is simply present between them.
+**On a Failed Check (or Chosen Failure):** The creature experiences a flash of absolute clarity about one thing they are avoiding. The DM identifies this privately — it should be something true about the character that the player has not yet confronted, something the character has been circling but not addressing. The character knows what it is. They know Vaen knows what it is. There is no exchange of words. The information is not spoken. It is simply present between them.
 
 The character also feels, for the next 24 hours, as if one of their cybernetic enhancements is not part of them — they feel it as foreign in a way they have not felt it before. If they have no enhancements, they feel instead the absence of something they rely on that is not physical. This is not debilitating. It is simply present.
 
-**On a Successful Save:** The creature feels nothing unusual. But they have disadvantage on Wisdom (Insight) checks for 24 hours. They have refused something.
+**On a Successful Check:** The creature feels nothing unusual. But they take -2 to all RESONANCE-based Utility cards for 24 hours. They have refused something.
 
-**Long-Term.** A creature who has experienced the contact effect twice has a permanent +2 bonus to Wisdom saving throws. Something in the experience of being seen clearly, twice, makes a person harder to deceive — including by themselves.
+**Long-Term.** A creature who has experienced the contact effect twice gains a permanent +2 to all RESONANCE checks made to resist deception — including self-deception. Something in the experience of being seen clearly, twice, makes a person harder to deceive.
 
 ## Context
 
@@ -230,7 +230,7 @@ A party member who has been touched by Vaen begins experiencing something unexpe
 ---
 
 # The Unsent Letter
-*Legendary Wondrous Item (Document) | Requires Attunement: by reading it aloud, alone, in its entirety*
+*Legendary Wondrous Item (Document) | Requires: reading it aloud, alone, in its entirety*
 
 ## "She wrote it in one sitting. She folded it. She addressed it to a dead woman. Then she put it in a case and has carried it for eighteen months through every public event, every removal, every speech, and she has not sent it because there is no one left to send it to."
 
@@ -244,7 +244,7 @@ The letter is not sealed. It was never sealed. The paper is slightly worn at the
 
 ## Contents of the Letter
 
-*The DM should read this aloud to the player who attuned to it, privately if possible.*
+*The DM should read this aloud to the player who integrated with it, privately if possible.*
 
 ---
 
@@ -274,18 +274,19 @@ The letter is not sealed. It was never sealed. The paper is slightly worn at the
 
 ---
 
-## Properties
+## Card Modifications
 
-**Attunement.** Reading the letter aloud, alone, in its entirety constitutes attunement. There is no other condition. The reading must be aloud — breath and voice, not just eyes on page. This is the only attunement condition Vaen's item imposes: that the person who has it be unable to pretend they don't know what it says.
+**Integration Condition:**
+Reading the letter aloud, alone, in its entirety constitutes integration. There is no other condition. The reading must be aloud — breath and voice, not just eyes on page.
 
 A creature that reads the letter aloud and genuinely means it — meaning: is affected by it, is moved by it, finds something true in it — is permanently affected by the following:
 
-**While Attuned:**
+**While Integrated:**
 
-- The bearer understands the emotional truth behind any action they witness. They cannot be deceived about motivations, not because they see perfectly, but because they now know what it looks like when someone is doing the right thing for the wrong reasons. They have seen it named. They have +5 to all Wisdom (Insight) checks to identify hidden motivations, conflicting loyalties, or actions driven by fear.
-- The bearer is immune to any effect that would cause them to act against their deepest held value — not their stated values, their actual ones. The letter makes the distinction between those two things undeniable once it has been read aloud.
-- Once per long rest, the bearer may speak with complete honesty about their own fear — to one willing creature — and that creature is bound by the same honesty in return. This is not a compulsion effect. It is an invitation, and invitations of this quality are almost never refused.
-- The bearer has advantage on saving throws against any effect caused by hopelessness, despair, or nihilism.
+- **Card Modification:** +5 to all RESONANCE-based checks to identify hidden motivations, conflicting loyalties, or actions driven by fear. The bearer understands the emotional truth behind any action they witness. They cannot be deceived about motivations — not because they see perfectly, but because they now know what it looks like when someone is doing the right thing for the wrong reasons.
+- The bearer is immune to any card effect that would cause them to act against their deepest held value — not their stated values, their actual ones. The letter makes the distinction between those two things undeniable once it has been read aloud.
+- Once per long rest, the bearer may speak with complete honesty about their own fear — to one willing creature — and that creature is bound by the same honesty in return. This is not a Compulsion effect. It is an invitation, and invitations of this quality are almost never refused.
+- **Card Modification:** All RESONANCE-based Defense cards gain +2 against hopelessness, despair, or nihilism effects.
 
 **The Cost.** The bearer carries eleven people who regret their choices and won't say so. Not literally. But they are aware, in a way that is difficult to articulate, of the gap between the good they are doing and the people who have been hurt by the good they are doing. This is not mechanical. This is a role-playing note. The bearer is no longer able to feel purely good about anything they achieve. They feel the weight of the cost. This does not make them less effective. It makes them less comfortable.
 
@@ -308,7 +309,7 @@ Word reaches the party from a credible source: the Hollow Author's puppets have 
 ---
 
 # The Control Sigil
-*Rare Wondrous Item | Requires Attunement*
+*Rare Wondrous Item | Requires Integration (spend a long rest in contact with the item)*
 
 ## "It doesn't tell you who is real. It tells you who might not be. That is a different and worse kind of knowledge."
 
@@ -328,13 +329,14 @@ Several Sigils were produced — the Author does not work from a single original
 
 The Wire Market currently has this Sigil in their possession and is deciding what to do with it. The options they are weighing: sell it to one of the other claimants (highest immediate value, significant blowback risk), use it themselves for intelligence operations (high operational value, requires a field agent they trust), or give it to a third party with instructions and a reporting obligation (lowest immediate value, highest long-term intelligence yield). They have been deliberating for six weeks.
 
-## Properties
+## Card Modifications
 
-**While Attuned:**
+**While Integrated:**
 
-- **Puppet Detection.** The bearer may hold the Sigil and concentrate for one action while within 30 feet of a creature they suspect might be a puppet body under the Author's influence. The bearer makes a DC 14 Intelligence (Investigation) check. On a success, they learn whether the creature is currently under active remote influence. On a failure, they learn nothing. They cannot attempt this check on the same creature again for 24 hours.
+- **Puppet Detection.** The bearer may hold the Sigil and concentrate for one action while within 30 feet of a creature they suspect might be a puppet body under the Author's influence. The bearer makes a SIGNAL check (difficulty 4). On a success, they learn whether the creature is currently under active remote influence. On a failure, they learn nothing. They cannot attempt this check on the same creature again for 24 hours.
 - **Signal Residue.** If a puppet body has been in a location within the past 24 hours, the Sigil becomes subtly warmer in that location. This is not precise — it indicates "influenced body was here" across an area roughly 30 feet in diameter, not a specific path or position.
 - **Interference.** Once per long rest, the bearer may press the Sigil against a puppet body and activate it (requires a successful grapple or willing contact). The Author's control of that body is disrupted for 1 minute. During this time, the Author is aware of the interference but cannot act through that body.
+- **Card Modification:** All SIGNAL-based detection and investigation cards gain +2 when used to identify the Author's presence, influence, or methods.
 - **Author Awareness.** If the bearer uses the Sigil against an active puppet, there is a 30% chance the Author becomes aware of the Sigil's location. This chance increases to 60% if the bearer uses the Interference property. The Author cannot act immediately on this knowledge, but they are patient.
 
 ## Adventure Hook
@@ -344,7 +346,7 @@ The Wire Market contacts the party: they have the Sigil, they want it deployed, 
 ---
 
 # The Freed Shell
-*Very Rare Construct | Requires no Attunement*
+*Very Rare Construct | Requires no Integration*
 
 ## "It is still walking. It is just walking for itself now, and it does not know what that means yet."
 
@@ -368,13 +370,13 @@ The freed shell calls itself Seventh. It chose this name independently, which is
 
 ## Properties
 
-Seventh functions as an NPC companion or, with DM approval, as a player character construct. It is not a standard item with a properties list; it is a character.
+Seventh functions as an NPC companion or, with DM approval, as a player character construct. It is not a standard item with a card modification list; it is a character.
 
 **Construct Traits:**
 - Seventh does not need to breathe, eat, or sleep. It benefits from long rests through a maintenance period (4 hours of inactivity).
-- Seventh is immune to disease, poison, and the frightened condition.
-- Seventh has AC 16, 75 hit points, and a +4 bonus to Dexterity checks. It was built for infiltration and social operation.
-- Seventh can reconfigure its facial mask to approximate the appearance of a specific humanoid it has observed for at least one hour (Charisma (Deception) check DC 14 to maintain this appearance convincingly under scrutiny).
+- Seventh is immune to disease, poison, and fear-based Control card effects.
+- **HP:** 75. **Defense Value:** +6 (adds to Guard/Shield pool at combat start). **EDGE:** 4 (built for infiltration and social operation).
+- Seventh can reconfigure its facial mask to approximate the appearance of a specific humanoid it has observed for at least one hour. A VEIL check (difficulty 4) is required to maintain this appearance convincingly under scrutiny.
 
 **The Ongoing Question:**
 Every session that Seventh is present, the DM should present one situation in which Seventh must decide something for itself — without instruction, without precedent, without being told what the right answer is. What Seventh decides, over time, is what Seventh is becoming. This is the point of Seventh.
@@ -389,7 +391,7 @@ Seventh asks the party for something specific: it wants to know what it was doin
 ---
 
 # The Original Face
-*Very Rare Wondrous Item | Requires Attunement*
+*Very Rare Wondrous Item | Requires Integration (spend a long rest in contact with the item)*
 
 ## "The mask predates every account of the Author. Whoever wore it was a person. The Author is not a person. This is the only physical evidence that the transition between those two states happened."
 
@@ -411,19 +413,20 @@ The Iron Sutra theorizes that the mask was left behind deliberately — not forg
 
 Wire Market intelligence acquired the mask during a classified operation four years ago. It has been in secure storage since, flagged as a psychological and intelligence asset rather than a technical one. The flag is accurate: the mask carries something that is not information but is adjacent to information — an impression, an emotional weight, a quality of grief so compressed it takes time to notice.
 
-## Properties
+## Card Modifications
 
-**Attunement.** A creature that holds the mask for one full minute and genuinely attempts to understand the person who wore it — not the Author, but the person before — will find attunement complete without further action. The mask wants to be understood. It is the one object the Author could not completely leave behind because it refuses to be left.
+**Integration Condition:**
+A creature that holds the mask for one full minute and genuinely attempts to understand the person who wore it — not the Author, but the person before — will find integration complete without further action. The mask wants to be understood. It is the one object the Author could not completely leave behind because it refuses to be left.
 
-**While Attuned:**
+**While Integrated:**
 
-- **Author's Pattern.** The bearer can recognize the Author's presence in a puppet body, an environment the Author has recently controlled, or a plan the Author has designed. They have advantage on Intelligence (Investigation) checks to identify the Author's involvement in any situation, and they automatically know when a plan they are analyzing was not originally a human plan — when the architecture is the Author's.
+- **Author's Pattern.** The bearer can recognize the Author's presence in a puppet body, an environment the Author has recently controlled, or a plan the Author has designed. All SIGNAL cards used to identify the Author's involvement in any situation gain +3 to their effect, and the bearer automatically knows when a plan they are analyzing was not originally a human plan — when the architecture is the Author's.
 - **The Face Speaks.** Once per long rest, the bearer may place the mask against their own face (they may wear it or simply hold it flat to their skin) and enter a trance for 1 minute. During this trance, they experience one memory from the person who wore the mask — not the Author, but the person before. The DM determines the memory, but it should be a specific, human moment: a conversation, a fear, a small joy, something that a god-claimant would not have anymore. These memories accumulate. After ten distinct memories, the bearer knows the Author's original name, original motivation, and the specific moment of decision that created the Author from the person.
-- The bearer has advantage on Charisma (Persuasion) checks against the Author directly, made in person or through a puppet, if the bearer addresses the Author by their original name. The Author cannot be compelled by this. But they can be slowed, confused, briefly stopped in a way that has not been possible through any other means.
+- **Card Modification:** All VEIL cards used in direct confrontation or negotiation with the Author gain +3 to their effect if the bearer addresses the Author by their original name. The Author cannot be compelled by this. But they can be slowed, confused, briefly stopped in a way that has not been possible through any other means.
 
-**The Cost.** The bearer begins to feel, with increasing specificity, the grief of having been someone that they are not anymore. This is not the bearer's grief — it is borrowed, ancient, compressed. They are carrying the emotional mass of a transformation that was irreversible. After three weeks of attunement, the bearer has disadvantage on Charisma (Performance) checks that require them to pretend to be happier than they are. The mask is honest about sadness. Its bearer becomes honest about sadness.
+**The Cost.** The bearer begins to feel, with increasing specificity, the grief of having been someone that they are not anymore. This is not the bearer's grief — it is borrowed, ancient, compressed. They are carrying the emotional mass of a transformation that was irreversible. After three weeks of integration, all VEIL cards used to perform happiness or social ease take -2. The mask is honest about sadness. Its bearer becomes honest about sadness.
 
-**Author Attention.** If the bearer uses the *Author's Pattern* ability in the Author's direct vicinity (within 500 feet), the Author is aware that someone holds the mask and where they are. This will not be ignored.
+**Author Attention.** If the bearer uses the Author's Pattern ability in the Author's direct vicinity (within 500 feet), the Author is aware that someone holds the mask and where they are. This will not be ignored.
 
 ## Current Location
 
@@ -431,7 +434,7 @@ Wire Market secure storage, Fourth Reach. Classified. Available as leverage, as 
 
 ## Adventure Hook
 
-A Wire Market senior analyst — not an agent, a researcher, someone whose hands are not supposed to get dirty — has been authorized to make contact with the party. She has been sitting with the mask for six months. She has not attuned to it, following protocol. But she has heard things, she says. Not words. Frequencies. She wants to know if anyone among the party would be willing to formally attune and share the memories, supervised, documented, in controlled conditions. She believes the name under the scratched-out name is still there, in the metal somewhere. She believes if they find it, they will understand something about the Seventh Convergence that none of the three claimants' factions want them to know.
+A Wire Market senior analyst — not an agent, a researcher, someone whose hands are not supposed to get dirty — has been authorized to make contact with the party. She has been sitting with the mask for six months. She has not integrated with it, following protocol. But she has heard things, she says. Not words. Frequencies. She wants to know if anyone among the party would be willing to formally integrate and share the memories, supervised, documented, in controlled conditions. She believes the name under the scratched-out name is still there, in the metal somewhere. She believes if they find it, they will understand something about the Seventh Convergence that none of the three claimants' factions want them to know.
 
 ---
 

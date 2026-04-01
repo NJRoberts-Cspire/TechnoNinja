@@ -111,3 +111,68 @@ One of the twelve personally maintained records belongs to someone the players a
 
 **3. The Threshold (Climactic/Personal)**
 The contamination ratio has crossed into instability. The Archivist sends a message to Veran, and Veran brings it to the players. The message is precise and not distressed: the ratio has begun shifting, the Archivist needs external cognitive grounding — someone physically present with them in the Archive who can provide contrast, a living perspective, for sustained research sessions. The players are asked to come down into the deep chamber and sit with the body, in the room, and talk. What they talk about does not matter. The presence matters. The Archivist, in this session, will do the deepest research they have done — and in the course of it, will find the oldest record in the Iron Afterlife and tell the players what it is. This is the session that changes the shape of the campaign.
+
+---
+
+## COMBAT STATS
+
+> *These stats represent The Drowned Archivist in direct confrontation. Most encounters with them will not reach this point — and they know it. The stat block exists for when diplomacy, manipulation, and leverage have all failed.*
+
+**Tier:** Elite
+**Role:** controller
+**HP:** 88 (FRAME 8 × 8 + 24 Elite base — the Archive's life-support is extensive and constitutes most of this value; the body itself is fragile)
+**AP Max:** 3
+**Hand Size:** 7
+**Initiative:** 1 (the body does not move; the Echomind does)
+
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
+|---|---|---|---|---|---|
+| 1 | 1 | 8 | 8 | 9 | 4 |
+
+*Note: IRON and EDGE are effectively 1 — the body is immobile. All offensive capability is through SIGNAL and RESONANCE, delivered through the Archive's relay system. Attacking the Archivist physically means attacking the Archive's life-support first (see Archive Disruption, below).*
+
+### Basic Attack — The Chorus Speaks
+*0 AP | Attack | Once per turn*
+**Effect:** The Archivist channels the accumulated emotional weight of four hundred thousand dead through the resonance relay. All living creatures within the relay range who can perceive it must contend with the voices. Resonant attack, 1 target. Damage: 8 + RESONANCE (17 total). The target must pass a RESONANCE check (difficulty 4) or be Staggered as they momentarily cannot distinguish their own thoughts from the dead's.
+**Keywords:** Stagger
+
+### Archive Query — Combat Application
+*Tier 1 (1 AP) | Control*
+**Effect:** The Archivist accesses the records of the person they are fighting. Every significant event the enemy has experienced that left an Iron Afterlife impression is briefly surfaced. The target is Marked and Exposed 2 as the Archivist knows, now, exactly what they are. The Archivist does not find this gratifying. It is simply accurate.
+**Keywords:** Mark, Expose 2
+
+### The Dead Do Not Forget
+*Tier 1 (1 AP) | Attack*
+**Effect:** The Archivist routes the resonance relay through the Iron Afterlife and returns something that a dead person directed at the living target. Signal/Resonance attack, 1 target within relay range. Damage: 7 + SIGNAL (15 total). Apply Bleed 2 — not physical, Echomind Bleed; the target's resonance signature is fraying.
+**Keywords:** Bleed 2
+
+### Forty Percent Contamination
+*Tier 2 (2 AP) | Control*
+**Effect:** The Archivist briefly drops the boundary between their thoughts and the dead's. A wave of accumulated consciousness floods the relay. All enemies within relay range take 6 + RESONANCE (15 total) Resonance damage and must pass a RESONANCE check (difficulty 4) or be Silenced for 1 round — the dead's signal drowns the living's.
+**Keywords:** Silence
+
+### Archive Lockdown
+*Tier 2 (2 AP) | Defense | 1/Combat*
+**Effect:** The Archive's systems activate full protective protocols. The body gains Guard 10 + FRAME (18 total) from the Archive's physical reinforcement. All Signal and Resonance attacks targeting the Archivist this round are reflected — the attacker takes 4 + RESONANCE (13 total) Resonance damage for each reflected attack. The Archive was designed to protect what is inside it.
+**Keywords:** Guard
+
+### The Oldest Record
+*Tier 3 (3 AP) | Boss | 1/Scene*
+**Effect:** The Archivist deploys the thing they found at the deepest accessible layer — not a weapon, never a weapon, but something that is not designed for living perception. All enemies within relay range take 12 + RESONANCE (21 total) Resonance damage and are Staggered and Silenced for 1 round. Enemies below half HP must pass a RESONANCE check (difficulty 5) or be Rooted for 1 round as their Echomind processes something it was never meant to encounter. The Archivist takes 15 HP self-damage from the output — the ratio shifts 3% after using this.
+**Keywords:** Stagger, Silence, Root
+
+### Archive Disruption (Environmental Rule)
+*If the Archive's life-support systems are targeted directly: they have FRAME 6, HP 40, and no defense. Each round they are damaged, the Archivist loses 10 HP. At 0 HP life-support, the Archivist begins dying at 10 HP per round.*
+
+### Reaction: The Chorus Intervenes
+*Reaction | Triggered by: an ally within relay range failing a saving throw or check*
+**Effect:** The Archivist channels relevant dead perspectives to the ally's situation. The ally rerolls their check or saving throw with Guard 6 + RESONANCE (15 total) applied to the triggering damage, if any. The relay fills briefly with voices that are not the Archivist's. This is the one time per round the distinction matters.
+
+---
+
+### Combat Behavior
+The Archivist does not want this fight and cannot physically flee it. They use Archive Query to understand each enemy, The Dead Do Not Forget to wear down the most dangerous threat, and Archive Lockdown when under serious pressure. They use The Oldest Record only as a last resort, and they are aware of the cost. Fighting the Archivist is a mistake not because they are a powerful combatant, but because harming the Archive makes everyone in Tesshari worse off, and the Archivist can explain this in detail while it is happening.
+
+### "I Would Prefer Not To"
+The Archivist will trade almost any piece of information for a cessation of hostilities. They have four hundred thousand records. Something in there is worth more to the attacker than continuing this fight.
+

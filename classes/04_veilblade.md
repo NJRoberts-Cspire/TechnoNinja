@@ -517,15 +517,15 @@ The Sutensai are specifically disturbed by Veilblade and specific about why. The
 ## Subclasses
 
 **Level 1: Signature Null**
-Your enhancements have been modified with a suppression layer that allows you to control your resonant output. As a bonus action, you can suppress your enhancement signature. While suppressed:
+Your enhancements have been modified with a suppression layer that allows you to control your resonant output. As a free action, you can suppress your enhancement signature. While suppressed:
 - Enhancement-reading systems register you as either unenhanced or at a caste level of your choice.
 - Tracking by enhancement signature is impossible.
-- You have advantage on Stealth checks in environments where others are monitoring for enhancement activity.
+- You gain +3 to Stealth checks in environments where others are monitoring for enhancement activity.
 
-Suppression lasts for up to 1 hour. During this time, you cannot use any Veilblade class features that require active resonant output. You can end suppression as a bonus action.
+Suppression lasts for up to 1 hour. During this time, you cannot use any Veilblade class features that require active resonant output. You can end suppression as a free action.
 
 **Level 1: Precision Strike**
-You have been trained to find the gap — the unenhanced point, the unshielded nerve, the junction where resonant metal meets organic tissue. Once per turn, when you hit a creature while you are hidden or when you have advantage on the attack roll, you deal an additional 1d6 precision damage. This increases: to 2d6 at level 5, 3d6 at level 9, 4d6 at level 13, 5d6 at level 17.
+You have been trained to find the gap — the unenhanced point, the unshielded nerve, the junction where resonant metal meets organic tissue. Once per turn, when you hit a creature while you are hidden or when you have +3 to the attack roll, you deal an additional 4 precision damage (fixed). This increases: to 8 at level 5, 12 at level 9, 16 at level 13, 20 at level 17.
 
 **Level 2: Wire Entry**
 You can interface with Wire Craft networks directly through your specialized cranial modifications. When you are adjacent to a Wire network access point (building system, vehicle interface, enhancement relay, communication node), you can spend an action to enter the Wire. While in Wire:
@@ -539,21 +539,21 @@ You can remain in Wire for up to 10 minutes. When you exit, you exit at your phy
 
 **Level 2: Shadow Discipline**
 Your training has given you extraordinary control over your physical presence. You gain:
-- Proficiency in Stealth if you don't already have it, and you add double your proficiency bonus to Stealth checks.
-- You can attempt to hide as a bonus action.
+- You gain +3 to Stealth checks (or +5 if you have existing Stealth training).
+- You can attempt to hide as a free action.
 - When you are hidden and you miss with an attack, you remain hidden (the attack's origin is unclear).
 
 **Level 3: Veilblade Path**
 You choose your Veilblade Path subclass. See Subclasses below.
 
-**Level 4: Ability Score Improvement**
-Increase one ability score by 2, or two ability scores by 1 each.
+**Level 4: Stat Improvement**
+Increase one stat by 2, or two stats by 1 each.
 
 **Level 5: Wire Network**
 Your Wire integration has deepened. You gain:
-- You can enter Wire without being adjacent to a physical access point — you can locate and connect to a Wire signal within 60 feet with a DC 12 Intelligence check.
-- While in Wire, you can attempt to enter or observe another enhanced person's enhancement network if they are connected to the same Wire system (contested Intelligence checks).
-- Precision Strike damage increases to 2d6.
+- You can enter Wire without being adjacent to a physical access point — you can locate and connect to a Wire signal within 60 feet with a SIGNAL check, difficulty 2.
+- While in Wire, you can attempt to enter or observe another enhanced person's enhancement network if they are connected to the same Wire system (contested SIGNAL checks).
+- Precision Strike damage increases to 8 (fixed).
 
 **Level 5: Uncanny Dodge**
 When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.
@@ -562,7 +562,7 @@ When an attacker that you can see hits you with an attack, you can use your reac
 Your subclass grants an additional feature at this level.
 
 **Level 7: Evasion**
-When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
+When you are subjected to an effect that allows you to make an EDGE resistance check to take only half damage, you instead take no damage if you succeed, and only half damage if you fail.
 
 **Level 7: Ghost Walk**
 Your movement has been modified at the kinematic level — your footfall pattern, the heat signature of your motion, the subtle air disturbance of your passage. You gain:
@@ -570,38 +570,38 @@ Your movement has been modified at the kinematic level — your footfall pattern
 - When you move on your turn, you can choose to Ghost Walk for that movement. During Ghost Walk movement, you are invisible to mechanical sensors and detection systems (but not to the naked eye).
 - You can walk on surfaces that would normally be too fragile to support weight without triggering pressure sensors.
 
-**Level 8: Ability Score Improvement**
+**Level 8: Stat Improvement**
 As level 4.
 
 **Level 8: Counter-Wire**
 You have learned to use your Wire integration defensively. When a creature attempts to hack, disrupt, or read your enhancements:
 - You are immediately aware of the attempt.
-- You can use your reaction to counter-access their enhancement network or Wire interface, forcing a contested Intelligence check. On a success, you briefly control their enhancement output — they cannot use class features or enhancement-based abilities until the end of their next turn.
+- You can use your Reaction to counter-access their enhancement network or Wire interface, forcing a contested SIGNAL check. On a success, you briefly control their enhancement output — they cannot use class features or enhancement-based abilities until the end of their next turn.
 
 **Level 9: Deep Wire**
 Your Wire access has expanded to include deeper system levels. You can now:
 - Access Wire networks remotely, up to 120 feet away, without any visible interface action (you simply… connect).
-- Sever another creature's Wire connection as a bonus action while in Wire (contested Intelligence checks; on success they cannot use Wire or digital-enhancement abilities for 1 minute).
+- Sever another creature's Wire connection as a free action while in Wire (contested SIGNAL checks; on success they cannot use Wire or digital-enhancement abilities for 1 minute).
 - Plant a Wire tap — an invisible monitoring presence that persists for 24 hours after you leave the Wire, automatically transmitting information to your interface kit.
 
-**Level 9: Precision Strike** increases to 3d6.
+**Level 9: Precision Strike** increases to 12 (fixed).
 
 **Level 10: Veilblade Path Feature**
 Your subclass grants an additional feature at this level.
 
 **Level 11: Null Projection**
-You have gained the ability to project a false enhancement signature outward — not merely suppressing your own but broadcasting a fabricated one. You can now impersonate any specific individual's enhancement signature you have previously scanned (from within Wire or in physical proximity for 10+ minutes). This projection is convincing to all automated systems and requires a DC 20 Investigation check for a trained observer to identify it as false.
+You have gained the ability to project a false enhancement signature outward — not merely suppressing your own but broadcasting a fabricated one. You can now impersonate any specific individual's enhancement signature you have previously scanned (from within Wire or in physical proximity for 10+ minutes). This projection is convincing to all automated systems and requires a SIGNAL check, difficulty 5, for a trained observer to identify it as false.
 
-**Level 12: Ability Score Improvement**
+**Level 12: Stat Improvement**
 As level 4.
 
 **Level 12: Wire Combat**
-You can fight while partially in Wire — maintaining a wire-presence while your body acts. As a bonus action on your turn, you can extend a Wire tendril from your interface port. While the tendril is extended (concentration, up to 1 minute):
-- You have advantage on Intelligence saving throws and checks.
+You can fight while partially in Wire — maintaining a wire-presence while your body acts. As a free action on your turn, you can extend a Wire tendril from your interface port. While the tendril is extended (concentration, up to 1 minute):
+- You gain +3 to SIGNAL resistance checks and checks.
 - You can use the Wire Entry feature's observational capabilities passively while taking physical actions.
 - Once per turn, you can use the Wire tendril to make a disruption attack against an enhanced target within 30 feet (Intelligence vs. Constitution; on success they lose their reaction until the start of their next turn).
 
-**Level 13: Precision Strike** increases to 4d6.
+**Level 13: Precision Strike** increases to 16 (fixed).
 
 **Level 14: Veilblade Path Feature**
 Your subclass grants an additional feature at this level.
@@ -612,22 +612,22 @@ Your signature suppression has become absolute. When you suppress your enhanceme
 - You are effectively invisible to magic, technology, and any detection method that operates through the Wire network or resonant detection.
 - You can maintain suppression while using all Veilblade features (the early limitation is removed — you have learned to act without broadcasting).
 
-**Level 16: Ability Score Improvement**
+**Level 16: Stat Improvement**
 As level 4.
 
 **Level 16: Wire Sovereign**
 Within any Wire network you have accessed, you function as an administrator. You can:
-- Lock any other user out of the network as a bonus action.
+- Lock any other user out of the network as a free action.
 - Access all historical data stored in the network (everything any sensor has ever recorded).
 - Issue system-wide commands without individual checks (the systems obey you within the scope of their physical capability).
-- While your Wire-presence is within a network, any creature attempting to access the same network must succeed on an Intelligence check (DC = 8 + your proficiency bonus + your Intelligence modifier) or be detected and ejected by you.
+- While your Wire-presence is within a network, any creature attempting to access the same network must succeed on a SIGNAL check, difficulty 3 + your SIGNAL modifier, or be detected and ejected by you.
 
-**Level 17: Precision Strike** increases to 5d6.
+**Level 17: Precision Strike** increases to 20 (fixed).
 
 **Level 18: Veilblade Path Feature**
 Your subclass grants an additional feature at this level.
 
-**Level 19: Ability Score Improvement**
+**Level 19: Stat Improvement**
 As level 4.
 
 **Level 20: The Unwitnessed**
@@ -635,8 +635,8 @@ At the apex of the Veilblade's development is the condition the training was alw
 
 Mechanically:
 - You cannot be forced to reveal your presence against your will by any means, including magical compulsion, mind reading, or truth effects. You know what you have done. No one else can compel you to.
-- Your Precision Strike now deals 6d6 damage, and the bonus damage type bypasses all damage resistances and immunities.
-- Once per long rest, you can declare an action Unwitnessed. This action occurs with perfect physical and digital stealth — no evidence of any kind is left behind, including kill wounds that do not bleed outward, no sound, no scent, no Wire record.
+- Your Precision Strike now deals 24 damage (fixed), and the bonus damage type bypasses all damage resistances and immunities.
+- Once per day, you can declare an action Unwitnessed. This action occurs with perfect physical and digital stealth — no evidence of any kind is left behind, including kill wounds that do not bleed outward, no sound, no scent, no Wire record.
 - When you die, your Echomind leaves no trace detectable in the Iron Afterlife's standard records. Whether this is liberation or damnation is a theological question you will never receive an official answer to.
 
 ---
@@ -648,10 +648,10 @@ Mechanically:
 Pure assassination. The Clean Strike Veilblade has refined the act of killing to something approaching an art form, which is a morally terrible thing to be. They do not hate their targets. They do not enjoy the work. They assess, they plan, they execute, they leave. What makes them extraordinary is not their combat skill (though that is considerable) but their commitment to the principle of the Clean Strike: the right kill, at the right time, in the right way, with no collateral, no mess, and no complications. Some Veilblade find this tradition cold. The practitioners find it clarifying.
 
 **Level 3: Marked Target**
-You can designate one creature as your Marked Target as a bonus action. Against your Marked Target:
-- Your Precision Strike damage increases by an additional 2d6.
+You can designate one creature as your Marked Target as a free action. Against your Marked Target:
+- Your Precision Strike damage increases by an additional 8 (fixed).
 - You always know their location while on the same plane, as long as you have seen them within the last 24 hours.
-- Your attack rolls against them do not have disadvantage from any source.
+- Your attack rolls against them never lose damage riders from any source.
 
 You can have only one Marked Target at a time. You can change your Marked Target after a short rest.
 
@@ -659,16 +659,16 @@ You can have only one Marked Target at a time. You can change your Marked Target
 You have perfected the pre-strike approach. In a planned assassination (not random combat), if you can spend at least 10 minutes observing your target before striking, your first attack against them is an automatic critical hit and your Precision Strike damage is doubled for that attack.
 
 **Level 10: Leave Nothing**
-When you reduce a creature to 0 hit points with a Precision Strike, you can choose a Clean Kill. A Clean Kill:
+When you reduce a creature to 0 HP with a Precision Strike, you can choose a Clean Kill. A Clean Kill:
 - Leaves no external wounds visible from more than 5 feet away.
 - The target appears to have collapsed naturally for at least 1 hour after death.
-- You immediately make a DC 10 Stealth check (any result of DC 10 or higher — this is a simple check, not contested). On a success, no one in the area registers the kill's cause.
+- You immediately make a VEIL check, difficulty 2 (a simple check, not contested). On a success, no one in the area registers the kill's cause.
 
 **Level 14: Inevitable**
-You have become something that approaches the conceptual end-state of assassination: the death that was always going to happen. Once per long rest, you can declare a target Inevitable. Over the next 24 hours, you have the following properties against this target:
+You have become something that approaches the conceptual end-state of assassination: the death that was always going to happen. Once per day, you can declare a target Inevitable. Over the next 24 hours, you have the following properties against this target:
 - Your attacks cannot miss (if you are in range and able to attack, you hit).
-- You have advantage on all ability checks, saving throws, and attack rolls related to approaching, tracking, or killing this target.
-- The target has a growing sense of dread (no mechanical effect unless the DM chooses to add one).
+- You gain +3 to all checks and attack cards related to approaching, tracking, or killing this target.
+- The target has a growing sense of dread (no mechanical effect unless the GM chooses to add one).
 At the end of 24 hours, the effect ends. Whether you succeeded or not is up to the situation. Being Inevitable does not mean victory — it means you will have the best possible chance.
 
 ---
@@ -678,18 +678,18 @@ At the end of 24 hours, the effect ends. Whether you succeeded or not is up to t
 Espionage, not assassination. The Listening Wire Veilblade is primarily an information operative — they can fight and kill when necessary, but their primary value is what they know and what they can find out. They are among the most valuable assets in the Ascension War, because information in Tesshari flows through Wire networks that the Listening Wire has uniquely deep access to. They are also among the most isolated: they know things that get people killed, they have been places where things were said that were not meant to be overheard, and every piece of intelligence they carry is simultaneously an asset and a liability.
 
 **Level 3: Deep Listener**
-Your Wire Entry duration extends to 1 hour, and you can take short rests while in Wire (your body remains motionless but your mind recovers). Additionally, while in Wire, you have advantage on all checks to find, access, or interpret data, and you can understand encrypted systems with a DC 15 Intelligence check (DC 20 for high-security systems).
+Your Wire Entry duration extends to 1 hour, and you can take short rests while in Wire (your body remains motionless but your mind recovers). Additionally, while in Wire, you gain +3 to all checks to find, access, or interpret data, and you can understand encrypted systems with a SIGNAL check, difficulty 4 (difficulty 5 for high-security systems).
 
 **Level 6: Social Architecture**
 You have learned to construct and maintain false identities at a level that goes beyond normal disguise. You can establish a Cover — a false identity complete with forged enhancement documentation, a fabricated history accessible through Wire records, and a social presentation. Your Cover can withstand interrogation unless the interrogating party has specific intelligence contradicting it. You can maintain up to 3 Covers simultaneously, and you can switch between them during a short rest.
 
 **Level 10: Wire Intercept**
-You can intercept Wire communications passively. While you are within 120 feet of an active Wire communication, you can attempt to intercept it with a DC 14 Intelligence check. On a success, you hear/read the full communication. This works on encrypted communications with a DC 18 check. You cannot be detected performing this intercept unless the sender has active counter-intelligence protocols (DC 20 Intelligence check to notice).
+You can intercept Wire communications passively. While you are within 120 feet of an active Wire communication, you can attempt to intercept it with a SIGNAL check, difficulty 3. On a success, you hear/read the full communication. This works on encrypted communications with a SIGNAL check, difficulty 4. You cannot be detected performing this intercept unless the sender has active counter-intelligence protocols (SIGNAL check, difficulty 5, to notice).
 
 **Level 14: Blacksite**
 You have built a hidden data repository within your own enhancement network — a Wire-space that does not appear on any registry and that only you can access. This Blacksite stores:
 - Up to 10 pieces of intelligence in perfect, tamper-evident preservation.
-- Any skill proficiency or piece of technical knowledge you choose to archive (once per long rest, you can add one skill proficiency to the Blacksite; you can access any archived proficiency once per long rest, gaining that proficiency for 24 hours).
+- Any skill or piece of technical knowledge you choose to archive (once per day, you can add one skill to the Blacksite; you can access any archived skill once per day, gaining that skill for 24 hours).
 - A dead-drop protocol: if you are killed, the Blacksite automatically transmits one pre-designated message to one pre-designated recipient through the Wire.
 
 ---
@@ -702,24 +702,24 @@ The Iron Ghost Veilblade has gone too far into the Wire, and they know it. Their
 Your Wire immersion has introduced death-resonance into your Echomind. You gain:
 - You can see invisible entities connected to the Iron Afterlife or digital death resonance.
 - You are immune to the Frightened condition.
-- Undead and Iron Afterlife entities have disadvantage on attack rolls against you (you resonate at a frequency that is partially their own).
-- Once per short rest, you can make a DC 13 Intelligence check to ask the death-resonance within you one question. The answer comes as impression, image, or fragmented sensation — not always clear, but always honest.
+- Undead and Iron Afterlife entities lose damage riders on attack rolls against you (you resonate at a frequency that is partially their own).
+- Once per combat, you can make a RESONANCE check, difficulty 3, to ask the death-resonance within you one question. The answer comes as impression, image, or fragmented sensation — not always clear, but always honest.
 
 **Level 6: Death Walk**
-You can briefly push your resonance into the Iron Afterlife while maintaining your physical presence. As a bonus action, you enter a Death Walk state for up to 1 minute. During Death Walk:
+You can briefly push your resonance into the Iron Afterlife while maintaining your physical presence. As a free action, you enter a Death Walk state for up to 1 minute. During Death Walk:
 - You are invisible to all non-enhanced creatures.
 - You can move through solid objects (though you cannot end your turn inside one).
 - You have resistance to all physical damage types.
 - Enhanced creatures can still see you, and Iron Afterlife entities see you as one of their own (they will not attack unless threatened).
 
 **Level 10: Afterlife Interface**
-Your death-resonance has stabilized into something controllable. You can now communicate directly with recently-deceased Echominds in the Iron Afterlife within 24 hours of their death. This communication requires 10 minutes and a DC 15 Intelligence check. On a success, you can ask the deceased up to 3 questions. They are not compelled to answer, but they usually will — the newly dead are often confused and may not realize what you are.
+Your death-resonance has stabilized into something controllable. You can now communicate directly with recently-deceased Echominds in the Iron Afterlife within 24 hours of their death. This communication requires 10 minutes and a RESONANCE check, difficulty 4. On a success, you can ask the deceased up to 3 questions. They are not compelled to answer, but they usually will — the newly dead are often confused and may not realize what you are.
 
 **Level 14: Between the Worlds**
-You have found the specific frequency that places you between the living world and the Iron Afterlife without fully entering either. As a reaction to being killed (reduced to 0 hit points by a killing blow), you can phase into the Between — existing in both spaces simultaneously for 1 minute. During this minute:
-- You are neither fully dead nor fully alive. Death saving throws are suspended.
+You have found the specific frequency that places you between the living world and the Iron Afterlife without fully entering either. As a Reaction to being killed (reduced to 0 HP by a killing blow), you can phase into the Between — existing in both spaces simultaneously for 1 minute. During this minute:
+- You are neither fully dead nor fully alive. Death resistance checks are suspended.
 - You can take one action per round.
-- When the minute ends, choose: return to the living world at 1 hit point (this choice can only be made once per long rest), or pass to the Iron Afterlife (actual death).
+- When the minute ends, choose: return to the living world at 1 HP (this choice can only be made once per day), or pass to the Iron Afterlife (actual death).
 This feature can be used once. It resets on a long rest only if you completed the previous long rest in full.
 
 ---
@@ -729,25 +729,25 @@ This feature can be used once. It resets on a long rest only if you completed th
 Network Veilblade are the wire-specialists — the ones who have built their entire combat and operational approach around their control of Wire infrastructure. They are less about personal stealth and more about controlling the information environment: shutting down enemy communications, overloading enhancement systems, and using the Wire as an active weapon rather than a passive tool. They work best when the target is in territory connected to a Wire network, which in Tesshari's enhanced world is almost everywhere.
 
 **Level 3: Wire Assault**
-You can weaponize your Wire connection. As an action, while you are within 120 feet of a Wire network access point, you can direct a Wire surge at one enhanced target within 60 feet of the network. The target makes a Constitution saving throw (DC = 8 + your proficiency bonus + your Intelligence modifier). On a failure, their enhancements briefly overload: they take 2d8 lightning-analog damage, cannot use enhancement-based class features until the start of their next turn, and are stunned until the end of their current turn.
+You can weaponize your Wire connection. As an action, while you are within 120 feet of a Wire network access point, you can direct a Wire surge at one enhanced target within 60 feet of the network. The target makes a FRAME resistance check, difficulty 3. On a failure, their enhancements briefly overload: they take 14 lightning-analog damage (fixed), cannot use enhancement-based class features until the start of their next turn, and are stunned until the end of their current turn.
 
-This damage increases to 3d8 at level 5, 4d8 at level 9, 5d8 at level 13, and 6d8 at level 17.
+This damage increases to 17 at level 5, 22 at level 9, 27 at level 13, and 32 at level 17.
 
 **Level 6: Network Domination**
-When you control a Wire network (see Level 16 Wire Sovereign, or DM determines control through access), you can extend your control to affect the area. Once per short rest:
+When you control a Wire network (see Level 16 Wire Sovereign, or GM determines control through access), you can extend your control to affect the area. Once per combat:
 - Shut down all enhancement signatures in a 60-foot radius for 30 seconds (one round — this affects allies too).
-- Flood a target's enhancement with sensory overload: they make a DC 14 Constitution save or are blinded and deafened for 1 minute (can repeat save at end of each turn).
+- Flood a target's enhancement with sensory overload: they make a FRAME resistance check, difficulty 3, or are blinded and deafened for 1 minute (can repeat the check at the end of each turn).
 - Broadcast a forged command through the network that all automated systems treat as legitimate.
 
 **Level 10: Distributed Presence**
 You can fragment your Wire-presence across multiple nodes in a network. While distributed, you gain the following:
-- You have advantage on all Wire-based checks.
+- You gain +3 to all Wire-based checks.
 - Any creature attempting to sever your Wire connection must deal with multiple nodes simultaneously, requiring 3 successful contested Intelligence checks (not just 1) to completely disconnect you.
 - You can take two Wire Entry actions simultaneously, operating in two locations within the same network.
 
 **Level 14: Network Weapon**
-The Wire network in your area of operation is, effectively, your weapon. Once per long rest:
-- You can trigger a network-wide cascade: all enhanced creatures within 300 feet that are connected to the Wire take 8d10 lightning-analog damage (Constitution save DC = 8 + proficiency + Intelligence modifier for half). This cascade takes 1 round to propagate and can be predicted by those who make a DC 20 Technology check.
+The Wire network in your area of operation is, effectively, your weapon. Once per day:
+- You can trigger a network-wide cascade: all enhanced creatures within 300 feet that are connected to the Wire take 44 lightning-analog damage (fixed) (FRAME resistance check, difficulty 3 + your SIGNAL, for half). This cascade takes 1 round to propagate and can be predicted by those who make a SIGNAL check, difficulty 5.
 - For 1 hour following the cascade, you have administrative control of every Wire system in the affected area.
 
 ---

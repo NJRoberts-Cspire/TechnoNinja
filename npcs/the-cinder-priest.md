@@ -104,3 +104,59 @@ Vek, the administrator, has filed a formal request with Korrath's office requiri
 
 **3. The Wall (Catastrophic/Personal)**
 Players have pieced together enough about the Pale Reach payments. They come to the Cinder Priest with evidence. He initially deflects — his internal architecture is very good. But if players come with the right combination of evidence (the sealed temple, the payments, what happened to Asel), they can force the load-bearing wall open. What's behind it is not a monster. It's a tired man who knows exactly who he is and has been refusing to finish the thought for twenty years. This conversation, done right, can turn him into the most significant intelligence asset the players have in the Ironhold — or, if done wrong, into an enemy who will not protect them when Korrath asks questions.
+
+---
+
+## COMBAT STATS
+
+> *These stats represent The Cinder Priest in direct confrontation. Most encounters with him will not reach this point — and he knows it. The stat block exists for when diplomacy, manipulation, and leverage have all failed.*
+
+**Tier:** Standard
+**Role:** controller
+**HP:** 42 (FRAME 4 × 8 + 10 Balanced tier base)
+**AP Max:** 2
+**Hand Size:** 5
+**Initiative:** 3
+
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
+|---|---|---|---|---|---|
+| 2 | 3 | 4 | 4 | 7 | 5 |
+
+### Basic Attack — Word of Cinder
+*0 AP | Attack | Once per turn*
+**Effect:** The Cinder Priest speaks a resonant phrase targeted to the specific frequency of a listener's regret. Resonant attack, 1 target within close range who can hear him. Damage: 6 + RESONANCE (13 total). The target must pass a VEIL check (difficulty 3) or be Staggered as involuntary memories surface — he has a gift for this, and he has spent twenty years not thinking about what that makes him.
+**Keywords:** Stagger
+
+### Resonance Suppression
+*Tier 1 (1 AP) | Control*
+**Effect:** The Cinder Priest activates the plate at the base of his skull and creates a dampening field. Until the start of his next turn, all Resonance and Signal cards played within close range have their damage halved. Iron Afterlife access within the area is blocked. He has been using this to conduct confessions without resonance eavesdropping. It works in other contexts as well.
+**Keywords:** Silence (partial — Resonance and Signal only)
+
+### Echomind Reading
+*Tier 1 (1 AP) | Control*
+**Effect:** The resonant-steel lattice behind his eyes activates fully. He reads 1 enemy's Echomind signature and identifies their most significant unresolved conflict. That enemy is Marked and Exposed 2 — not because he is exploiting them, he tells himself, but because he needs to understand what he's dealing with.
+**Keywords:** Mark, Expose 2
+
+### Confession Inverted
+*Tier 2 (2 AP) | Control | 1/Combat*
+**Effect:** The Cinder Priest applies twenty years of hearing confessions in a direction he has never used it before. He states, quietly and precisely, what he sees in the room: the choices made, the compromises accepted, the specific cost of each. All enemies within close range must pass a VEIL check (difficulty 4) or be Staggered as the statement of accurate fact lands differently than any accusation could. He does not feel good about using this. He does it anyway.
+**Keywords:** Stagger (area)
+
+### Suppress the Reading
+*Tier 2 (2 AP) | Defense*
+**Effect:** The Cinder Priest has spent twenty years making his face not show what the Echomind lattice sees. He extends this capability. He and 1 ally within close range gain Veil status for 1 round — the first hostile card targeting either of them this round loses all secondary effects. Additionally, both gain Guard 4 + RESONANCE (11 total) as the resonance field turns inward.
+**Keywords:** Veil, Guard
+
+### Reaction: The Thing He Has Not Crossed
+*Reaction | Triggered by: being asked to cross a specific ethical line in combat — revealing confession, harming Sorev, or acting against his remaining integrity*
+**Effect:** The Cinder Priest does not do this. Regardless of what would make tactical sense, the triggering action simply does not happen. He gains Fortify 2 until end of his next turn and immediately recovers 8 HP — the load-bearing wall holds. He did not know he could still do that.
+**Keywords:** Fortify 2
+
+---
+
+### Combat Behavior
+The Cinder Priest suppresses Resonance and Signal capabilities first, then uses Echomind Reading to identify the most threatening enemy and Marked them for the party to focus. He uses Confession Inverted reluctantly and only under real duress. He does not pursue enemies who disengage. He has been surviving on careful positioning for twenty years and applies that here.
+
+### "I Would Prefer Not To"
+If there is any version of this situation where no one is harmed, the Cinder Priest will find it. He will offer whatever the other party needs to stop — confession access, records, information, the sealed temple — before he continues fighting. He has been looking for a reason to stop for a long time.
+

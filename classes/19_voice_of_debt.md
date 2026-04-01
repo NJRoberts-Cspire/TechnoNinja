@@ -30,6 +30,8 @@ The Breaker subclass exists at the fringe of respectability within the tradition
 
 *Note: The Voice of Debt is a slow-burn class. Debt stacks are the engine. Apply Debt to enemies early, layer it, then detonate it for compounding damage. Debt X means: the target carries X Debt stacks. When a Debt Detonation card is played against a target, stacks convert to bonus damage and effects at rate specified on the card. Debt stacks do not expire — they persist until detonated or the combat ends.*
 
+*Debt Stack Maximum: No target may carry more than 8 Debt stacks at one time. Any application of Debt stacks that would exceed 8 is reduced to bring the target to the cap. The Living Ledger and The Living Record maintain targets at the cap rather than pushing above it.*
+
 ### Starting Hand
 
 ### Oath Read
@@ -229,13 +231,13 @@ The Breaker subclass exists at the fringe of respectability within the tradition
 The Oath Keeper has taken the Voice of Debt's power and oriented it entirely around the positive function: the making, witnessing, and preservation of oaths. They are the practitioners who make contracts work, who make alliances stable, who give the Wire Market's word-of-honor system the spiritual backing it needs to function. They believe in oaths. They believe in the power of a promise genuinely made and genuinely kept. They have built their entire professional life around this belief, and they are the most optimistic practitioners of a tradition that otherwise tends toward the cynical.
 
 **Level 3: Enhanced Binding**
-When you formally witness an oath, the Wisdom saving throw DC to voluntarily violate the oath increases to 25. Additionally, creatures who have taken an oath in your presence feel a gentle spiritual reminder when they are about to act in a way that would violate it — a moment's unease that requires a DC 15 Wisdom check to override.
+When you formally witness an oath, the RESONANCE resistance check DC to voluntarily violate the oath increases to 25. Additionally, creatures who have taken an oath in your presence feel a gentle spiritual reminder when they are about to act in a way that would violate it — a moment's unease that requires a DC 15 RESONANCE check to override.
 
 **Level 3: Keeper's Seal**
 Once per long rest, as part of witnessing an oath, you can apply the Keeper's Seal: a formal Sutensai-adjacent spiritual guarantee that the oath will be fulfilled. One party to the oath (of their choice) gains advantage on all ability checks made directly in service of fulfilling the oath's terms. The seal lasts until the obligation is fulfilled or broken.
 
 **Level 6: Sustaining Bond**
-When parties fulfill obligations under oaths you have witnessed, they are rewarded. When a creature completes a sworn obligation (in your presence or witnessed by your network), they gain temporary hit points equal to twice your proficiency bonus, lasting until their next long rest. The Iron Afterlife honors what it promised to honor.
+When parties fulfill obligations under oaths you have witnessed, they are rewarded. When a creature completes a sworn obligation (in your presence or witnessed by your network), they gain temporary hit points equal to twice your class expertise bonus, lasting until their next long rest. The Iron Afterlife honors what it promised to honor.
 
 **Level 10: The Web of Trust**
 You have formalized enough oaths between enough parties that you have woven a web of mutual obligation that stabilizes social structures. In any territory where you have active witnessed oaths between major parties, political violence between those parties cannot begin without one party violating a witnessed oath — and you know about it the moment it happens. You can then invoke Oath Breaker's Weight against the violating party at advantage and with no Debt Charge cost.
@@ -250,19 +252,19 @@ Once per month, you can perform a Sacred Compact ceremony — the highest form o
 The Debt Collector is the enforcement arm. They are the practitioners who show up when the gentle reminder has not worked, when the spiritual weight has been insufficient, when the party who made a promise has decided that the promise can be ignored. The Debt Collector does not primarily threaten violence — they invoke consequences more profound than violence. They are patient. They have been told "no" before. "No" is not a final answer when the Iron Afterlife has registered a different one.
 
 **Level 3: Collector's Presence**
-When you arrive to collect on a violated obligation, you carry the full weight of what the obligation represents. As a bonus action, you can invoke your Collector's Presence for 1 minute. During this time: you have advantage on Intimidation checks, creatures who have violated oaths you are collecting on have disadvantage on saving throws against your abilities, and creatures within 30 feet who sense your purpose (an Insight check, DC 15, reveals it) feel the unease of someone who knows a bill is due.
+When you arrive to collect on a violated obligation, you carry the full weight of what the obligation represents. As a bonus action, you can invoke your Collector's Presence for 1 minute. During this time: you gain +3 to Intimidation checks, creatures who have violated oaths you are collecting on have -3 to resistance checks against your abilities, and creatures within 30 feet who sense your purpose (an Insight check, DC 15, reveals it) feel the unease of someone who knows a bill is due.
 
 **Level 3: Escalating Pressure**
 Each time you invoke Oath Breaker's Weight against the same creature within a 24-hour period, the save DC increases by 2 (to a maximum increase of +8). The Iron Afterlife's patience is not unlimited and neither is your practice's.
 
 **Level 6: The Collection**
-Once per long rest, as an action, you can formally demand collection on one specific violated obligation. The target must succeed on a Wisdom saving throw (DC = your Debt Save DC + 4) or immediately take a concrete step toward fulfilling the obligation — a step that is within their power and that advances toward completion. On a success, they are compelled for 1 round only. On a failure, they are compelled until the obligation is fulfilled or 1 hour passes, after which normal resistance applies again.
+Once per long rest, as an action, you can formally demand collection on one specific violated obligation. The target must succeed on a RESONANCE resistance check (DC = your Debt Save DC + 4) or immediately take a concrete step toward fulfilling the obligation — a step that is within their power and that advances toward completion. On a success, they are compelled for 1 round only. On a failure, they are compelled until the obligation is fulfilled or 1 hour passes, after which normal resistance applies again.
 
 **Level 10: No Hiding**
 You can always find creatures who have violated oaths you are collecting on. You know their general direction and distance at all times while they have an outstanding collection against them. You can track them through any concealment except active magical intervention. You cannot be permanently lost from someone you are actively collecting on.
 
 **Level 14: The Final Notice**
-Once per long rest, you can issue a Final Notice to a creature who has violated an oath. The creature must make a Wisdom saving throw (DC = your Debt Save DC + 6) or be immediately paralyzed until the start of their next turn as the full weight of their obligation lands on them simultaneously. For 24 hours after the Final Notice: the creature cannot take the Dash action (moving away from debt slows you down), cannot benefit from effects that reduce or ignore saving throws (the weight of obligation cannot be filtered), and when they roll a natural 1 on any check or saving throw, they must immediately spend their next action toward fulfilling their obligation in whatever way is immediately available. The Final Notice is not a threat. It is a statement of what is already true.
+Once per long rest, you can issue a Final Notice to a creature who has violated an oath. The creature must make a RESONANCE resistance check (DC = your Debt Save DC + 6) or be immediately paralyzed until the start of their next turn as the full weight of their obligation lands on them simultaneously. For 24 hours after the Final Notice: the creature cannot take the Dash action (moving away from debt slows you down), cannot benefit from effects that reduce or ignore resistance checks (the weight of obligation cannot be filtered), and when they roll a natural 1 on any check or resistance check, they must immediately spend their next action toward fulfilling their obligation in whatever way is immediately available. The Final Notice is not a threat. It is a statement of what is already true.
 
 ---
 

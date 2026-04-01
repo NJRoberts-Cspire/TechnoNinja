@@ -112,3 +112,56 @@ Players have encountered Runner Seven twice. They are in the northern Wandering 
 
 **3. The Pull Resolves (Revelation/Climax)**
 Runner Seven reaches the Pale Reach. The directional pull leads them to a specific location in the White Mines — not the lower levels, but a maintenance corridor that connects to them — that they navigate from memory they have never consciously accessed. Players who are with them witness the navigation. What Runner Seven finds at the end of it: a small cache, hidden in the corridor wall, that was placed there by a previous puppet in a moment of residual-agency that the Author didn't detect. Inside: a partial map of the lower levels, an access code Runner Seven's fragment-memory confirms is current, and a note from the previous puppet. The note is addressed to whoever came after. It says: "I didn't get out. You did. Use this." There is no name. The handwriting is careful.
+
+---
+
+## COMBAT STATS
+
+> *These stats represent Runner Seven in direct confrontation. Most encounters with them will not reach this point — and they know it. The stat block exists for when diplomacy, manipulation, and leverage have all failed.*
+
+**Tier:** Standard
+**Role:** skirmisher
+**HP:** 44 (FRAME 4 × 8 + 12 Standard base — Second Caste remaining integration, lightweight but functional)
+**AP Max:** 2
+**Hand Size:** 5
+**Initiative:** 7
+
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
+|---|---|---|---|---|---|
+| 3 | 7 | 4 | 3 | 4 | 3 |
+
+### Basic Attack — Operational Instinct
+*0 AP | Attack | Once per turn*
+**Effect:** Runner Seven does not remember learning this. The movement is already happening before the decision arrives. Melee, 1 target. Damage: 5 + EDGE (12 total). Immediately after the attack, they move up to short range without provoking a response. They were never quite where you were aiming.
+
+### Ghost Step
+*Tier 1 (1 AP) | Mobility*
+**Effect:** Runner Seven uses trained evasion technique that the puppet-architecture burned into muscle memory. They move up to full speed, ignoring engagement penalties. For the remainder of this turn, attacks against them have their damage reduced by EDGE (7). This is not enhancement-fast. It is professionally fast.
+
+### Residual Technique
+*Tier 1 (1 AP) | Attack*
+**Effect:** A puppet-memory surfaces in the middle of a fight: a specific engagement protocol Runner Seven has no conscious knowledge of but whose body executes perfectly. Melee, 1 target. Damage: 6 + EDGE (13 total). Apply Bleed 2. If this attack drops the target below half HP, Runner Seven may immediately move up to short range — the protocol includes an exit.
+**Keywords:** Bleed 2
+
+### Fragment Burst
+*Tier 2 (2 AP) | Control | 1/Combat*
+**Effect:** The directional pull, the fragments, the Pale Reach resonance orientation — it all spikes at once. Runner Seven's remaining Author infrastructure discharges involuntarily. All enemies within close range who have cybernetic enhancements take 5 + RESONANCE (9 total) Resonance damage and are Staggered for 1 round. Runner Seven takes 4 HP of self-damage from the discharge — it was not supposed to do that.
+**Keywords:** Stagger
+
+### Shellbroken Network
+*Tier 1 (1 AP) | Utility*
+**Effect:** Runner Seven reaches through residual puppet-resonance channels. They cannot be surprised for the remainder of the encounter. Additionally, they gain Guard 4 + EDGE (11 total) as other Shellbroken in the network provide fragmentary situational awareness. This Guard persists until it absorbs damage.
+**Keywords:** Guard
+
+### Reaction: Not Here, Not Yet
+*Reaction | Triggered by: any attack targeting Runner Seven*
+**Effect:** Runner Seven was already moving. Reduce incoming damage by EDGE (7). If this reduces damage to 0, they may immediately move up to short range. The Author's operational training is thorough even when the Author is gone.
+
+---
+
+### Combat Behavior
+Runner Seven fights to survive and exit, not to win. They open with Ghost Step to position away from any area-of-effect, use Operational Instinct to stay mobile, and only use Fragment Burst when cornered or when allies are in immediate danger. They are protecting the people they have found, not the self they have not finished finding. They will retreat the moment it is possible to do so safely.
+
+### "I Would Prefer Not To"
+Runner Seven will stop fighting the moment there is a clear path to what they came for — the directional pull is more important than the fight. If someone offers to help them reach the Pale Reach instead, they will take the offer.
+

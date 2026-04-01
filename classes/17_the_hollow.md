@@ -122,7 +122,7 @@ The Shell — those who chose steel — face different problems. At high levels 
 - **[Shell] Living Machine** — Tier 2 (2 AP) | Passive: While in hand, passive. You are immune to critical hits. Your FRAME is treated as 2 higher for all HP calculations. Enemies cannot determine your HP by observation.
 
 #### Level 17
-- **Void Deepens (Apex)** — Tier 3 (3 AP) | Resonant Attack: Deal 22 + RESONANCE resonant damage to one target within 30 feet. Apply Expose 5, Vulnerable 4, and Stagger. For each 20 HP you are missing, deal an additional RESONANCE bonus damage. No ceiling on this scaling.
+- **Void Deepens (Apex)** — Tier 3 (3 AP) | Resonant Attack: Deal 22 + RESONANCE resonant damage to one target within 30 feet. Apply Expose 5, Vulnerable 4, and Stagger. For each 20 HP you are missing, deal an additional RESONANCE bonus damage (maximum +RESONANCE × 5 additional damage from this scaling).
 - **Hollow Fortress** — Tier 3 (3 AP) | Defense: Apply Guard 12 + FRAME + RESONANCE to yourself. Restore 10 + FRAME HP. All damage you take until your next turn is reduced by FRAME. If below half HP, also apply Regen 5.
 
 #### Level 18
@@ -131,7 +131,7 @@ The Shell — those who chose steel — face different problems. At high levels 
 
 #### Level 19
 - **Shell State** — Tier 3 (3 AP) | Signature: You briefly enter full Shell-state — the void between presence and nothing. Until your next turn, you cannot be damaged or targeted by any effect. You may play cards. Your return at the start of your next turn deals 18 + RESONANCE resonant damage to all enemies within 20 feet and applies Expose 5 and Vulnerable 4 to each.
-- **The Hollow's Edge** — Tier 3 (3 AP) | Resonant Attack: Deal 24 + RESONANCE resonant damage to one target within 30 feet. Apply Expose 6, Vulnerable 5, and Stagger. This card's total damage increases by RESONANCE + FRAME for every 20 HP you are missing.
+- **The Hollow's Edge** — Tier 3 (3 AP) | Resonant Attack: Deal 24 + RESONANCE resonant damage to one target within 30 feet. Apply Expose 6, Vulnerable 5, and Stagger. This card's total damage increases by RESONANCE + FRAME for every 20 HP you are missing (maximum +(RESONANCE + FRAME) × 4 additional damage from this scaling).
 
 #### Level 20 — Capstone
 - **The End of One Road** — Tier 3 (3 AP) | Signature (Capstone): *The Hollow at its absolute limit — the brief full Shell-state as a weapon.* Enter full Shell-state for one complete round. You cannot be targeted, damaged, or affected by anything during this round. At the start of your next turn, return and deal 28 + RESONANCE resonant damage to all enemies within 25 feet. Apply Expose 6, Vulnerable 6, and Stagger to each. Restore 16 + FRAME HP to yourself. For the rest of combat, all your cards deal +RESONANCE bonus damage for each 20 HP you are missing. The doctrine never accounted for you. That is your answer to it.
@@ -162,7 +162,7 @@ The Shell — those who chose steel — face different problems. At high levels 
 
 **Hollow Threshold, The** — Tier 3 (3 AP) | Signature: Deal 18 + RESONANCE resonant damage. Apply Expose 4 and Vulnerable 3. Deal +RESONANCE + FRAME bonus damage for each 20 HP missing. *Unlock: Level 11*
 
-**Hollow's Edge, The** — Tier 3 (3 AP) | Resonant Attack: Deal 24 + RESONANCE resonant damage. Apply Expose 6, Vulnerable 5, Stagger. Damage increases by RESONANCE + FRAME for every 20 HP missing. *Unlock: Level 19*
+**Hollow's Edge, The** — Tier 3 (3 AP) | Resonant Attack: Deal 24 + RESONANCE resonant damage. Apply Expose 6, Vulnerable 5, Stagger. Damage increases by RESONANCE + FRAME for every 20 HP missing (maximum +(RESONANCE + FRAME) × 4 from this scaling). *Unlock: Level 19*
 
 **Iron Chassis** [Shell] — Tier 1 (1 AP) | Defense: Apply Guard 6 + FRAME. Apply Regen 2 if damaged this combat. *Unlock: Level 2*
 
@@ -216,7 +216,7 @@ The Shell — those who chose steel — face different problems. At high levels 
 
 **Void Deepens** — Tier 2 (2 AP) | Resonant Attack: Deal 14 + RESONANCE resonant damage. If below half HP, deal +RESONANCE + FRAME bonus damage and apply Vulnerable 3. *Unlock: Level 9*
 
-**Void Deepens (Apex)** — Tier 3 (3 AP) | Resonant Attack: Deal 22 + RESONANCE resonant damage. Apply Expose 5, Vulnerable 4, Stagger. Deal +RESONANCE bonus damage per 20 HP missing (no ceiling). *Unlock: Level 17*
+**Void Deepens (Apex)** — Tier 3 (3 AP) | Resonant Attack: Deal 22 + RESONANCE resonant damage. Apply Expose 5, Vulnerable 4, Stagger. Deal +RESONANCE bonus damage per 20 HP missing (maximum +RESONANCE × 5 from this scaling). *Unlock: Level 17*
 
 **Void Presence** — Tier 1 (1 AP) | Resonant Attack: Deal 5 + RESONANCE resonant damage. Deal +RESONANCE bonus damage for each 10 HP missing. *Unlock: Level 1 (Starting Card)*
 

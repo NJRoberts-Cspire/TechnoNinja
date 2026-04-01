@@ -202,7 +202,7 @@ The discomfort she produces — the specific wrongness that a perceptive person 
 
 She becomes the closest thing she has to animated when talking about the actual sensory experience of resonance — what she feels when she is near the Between, what the difference between flesh-mediated and bare-skin resonance reception is like. This is the subject about which she has the most to say and says it most directly. She is describing something most people have never experienced and she knows this and she does not simplify it. She gives the full technical detail and trusts people to find their own way to the part that means something to them.
 
-### Stat Block (D&D 5E)
+### Stat Block
 
 ```
 VAEN OF THE EMPTY HAND
@@ -210,54 +210,55 @@ Legendary Humanoid (Unenhanced), Neutral
 
 Armor Class: 15 (unaugmented resonance attunement; her body reads
         incoming force and moves the minimum necessary amount)
-Hit Points: 120 (20d8 + 20)
+HP: 120
 Speed: 30 ft.
 
-STR 10 (+0) | DEX 16 (+3) | CON 12 (+1)
-INT 20 (+5) | WIS 24 (+7) | CHA 18 (+4)
+IRON 10 (+0) | EDGE 16 (+3) | FRAME 12 (+1)
+SIGNAL 20 (+5) | RESONANCE 24 (+7) | VEIL 18 (+4)
 
-Saving Throws: Wis +15, Cha +12, Int +13
+Resistance Checks: RESONANCE +15, VEIL +12, SIGNAL +13
 Skills: Insight +15, Perception +15, Persuasion +12, Religion +13,
         Medicine +9, History +13
 Damage Resistances: Psychic; Bludgeoning, Piercing, and Slashing
-        from magical attacks (the Between partially redistributes
-        force directed at her)
+        from resonance-based attacks (the Between partially
+        redistributes force directed at her)
 Condition Immunities: Charmed, Frightened, Paralyzed, Stunned
 Senses: Tremorsense 60 ft. (resonance-based; she perceives
         active resonance signatures as clearly as sight),
         passive Perception 25
 Languages: All languages of Tesshari
-Challenge: 22 (41,000 XP)    Proficiency Bonus: +7
+Threat: 22    Class Expertise: +7
 
 ---
 SPECIAL TRAITS
 
 The Ambient Field. Vaen emanates a field of resonance calm in a
 120-foot radius. Any creature that starts its turn within this radius
-must succeed on a DC 22 Wisdom saving throw or be affected by the
-calm for 1 hour. While affected:
+must succeed on a RESONANCE resistance check at difficulty 11 or be
+affected by the calm for 1 hour. While affected:
 - The creature cannot take the Attack action against Vaen specifically
-  unless it first takes a DC 24 Wisdom saving throw as a bonus action.
+  unless it first takes a RESONANCE resistance check at difficulty 12
+  as a bonus action.
 - The creature cannot feel urgency: it cannot take the Dash action,
   cannot use abilities with the "bonus" action designation for
   movement, and cannot make decisions it would describe as panicked.
 - The creature is not controlled. It can act normally. It simply
   cannot access fear-based or urgency-based motivation.
 - The effect feels, from inside, like relief.
-Creatures with Intelligence 3 or lower are immune. Creatures that
-succeed their saving throw are immune to the field for 24 hours.
+Creatures with SIGNAL 3 or lower are immune. Creatures that succeed
+their resistance check are immune to the field for 24 hours.
 Korrath and others with Legendary Resistance can suppress the effect
 for short periods (spending 1 use per hour).
 
 This is Not Harm. Vaen herself takes no action to hurt anyone. Any
 creature that takes damage while in the field that was caused by
-Vaen's followers (within 300 feet) must succeed on a DC 20 Wisdom
-saving throw or be unable to attribute the harm to Vaen — not because
-they forget but because the causal chain from calm-field to follower-
-action to damage seems, in their field-affected state, to not
-implicate her. This is not magic. This is how responsibility works
-when urgency is removed from judgment. DMs should use this to explore,
-not resolve.
+Vaen's followers (within 300 feet) must succeed on a RESONANCE
+resistance check at difficulty 10 or be unable to attribute the harm
+to Vaen — not because they forget but because the causal chain from
+calm-field to follower-action to damage seems, in their field-affected
+state, to not implicate her. This is not a technique. This is how
+responsibility works when urgency is removed from judgment. DMs should
+use this to explore, not resolve.
 
 Unenhanced Resonance. Vaen's Echomind resonance is unmediated by any
 cybernetic enhancement. Effects that target cybernetic enhancements
@@ -266,15 +267,15 @@ by resonance-based weapons or abilities that target the enhancement-
 flesh bond. She is, to resonance-targeting systems, essentially
 invisible.
 
-The Between Notices Her. Vaen has advantage on all saving throws
-against effects originating from the Between or deep resonance
-phenomena. Any creature that attempts to scry, divine, or detect her
-must succeed on a DC 26 Wisdom saving throw or instead perceive a
-visual of open water or empty sky — her resonance reads to magical
-detection as an absence shaped like a person.
+The Between Notices Her. Vaen has +3 to all resistance checks against
+effects originating from the Between or deep resonance phenomena. Any
+creature that attempts to scry, divine, or detect her must succeed on
+a RESONANCE resistance check at difficulty 13 or instead perceive a
+visual of open water or empty sky — her resonance reads to detection
+systems as an absence shaped like a person.
 
-Legendary Resistance (3/day). If Vaen fails a saving throw, she can
-choose to succeed instead.
+Legendary Resistance (3/day). If Vaen fails a resistance check, she
+can choose to succeed instead.
 
 Uncanny Body. Vaen does not need to eat, drink, or sleep in the
 conventional sense. She does need periodic stillness (1 hour of
@@ -290,20 +291,20 @@ The world around Vaen does not permit conventional combat against her.
 If forced to take actions in initiative order, she uses the following:
 
 Resonate (1 action). Vaen touches a creature that is willing, helpless,
-or that has failed its Ambient Field saving throw. That creature takes
-no damage. Instead, they must succeed on a DC 22 Intelligence saving
-throw. On a failure: one belief they currently hold (DM's choice from
-those known to DM) is revealed to them to be performing a function
-other than its stated purpose. The creature is not told what the belief
-is for. They simply know. This is not harmful. It may be the worst
-thing that has ever happened to them.
+or that has failed its Ambient Field resistance check. That creature
+takes no damage. Instead, they must succeed on a SIGNAL resistance
+check at difficulty 11. On a failure: one belief they currently hold
+(DM's choice from those known to DM) is revealed to them to be
+performing a function other than its stated purpose. The creature is
+not told what the belief is for. They simply know. This is not harmful.
+It may be the worst thing that has ever happened to them.
 
 Empty Palm. Melee action (used only as a last option). Vaen places her
-palm against a creature's chest. The creature must succeed on a DC 22
-Constitution saving throw or be knocked unconscious for 1 minute (no
-damage). She does not punch, strike, or attack. She simply redirects.
-On a successful save, the creature takes 2d8 force damage and is pushed
-5 feet.
+palm against a creature's chest. The creature must succeed on a FRAME
+resistance check at difficulty 11 or be knocked unconscious for 1
+minute (no damage). She does not punch, strike, or attack. She simply
+redirects. On a successful check, the creature takes 9 force damage and
+is pushed 5 feet.
 
 Pass Through. Vaen takes the Disengage action as a free action at any
 time, regardless of turn order. No opportunity attacks can be made
@@ -313,20 +314,19 @@ against her.
 LEGENDARY ACTIONS (3/round, at end of another creature's turn)
 
 Step Away (1 action). Vaen moves up to her speed. No creature can
-willingly move to intercept her this turn (Wisdom DC 22 to override
-this reluctance).
+willingly move to intercept her this turn (RESONANCE difficulty 11 to
+override this reluctance).
 
 Extend the Field (2 actions). The Ambient Field's radius doubles to
 240 feet until the start of Vaen's next turn. All creatures in the
-expanded radius must re-roll their saving throws.
+expanded radius must re-roll their resistance checks.
 
 The Silence Between (3 actions, recharge after short rest). Vaen
-becomes still. All sound within 120 feet stops. All ongoing magical
-effects in the area are suppressed for 1 round. All creatures in the
-area feel, with absolute clarity, one question they have been
-avoiding. The DM identifies this question for each creature privately.
-The creatures do not have to answer it. They will not be able to
-unfeel it.
+becomes still. All sound within 120 feet stops. All ongoing effects in
+the area are suppressed for 1 round. All creatures in the area feel,
+with absolute clarity, one question they have been avoiding. The DM
+identifies this question for each creature privately. The creatures do
+not have to answer it. They will not be able to unfeel it.
 
 ---
 REACTIONS
@@ -335,10 +335,10 @@ Release. When a creature hits Vaen with an attack, she can use her
 reaction to halve the damage. Visible: she does not move away from
 the blow. She simply breathes out. The resonance redistributes.
 
-Present. When a creature within 30 feet drops to 0 hit points, Vaen
-can use her reaction to move to their side without provoking
-opportunity attacks and stabilize them. She does this automatically
-and without hesitation for anyone — ally, enemy, or unknown.
+Present. When a creature within 30 feet drops to 0 HP, Vaen can use
+her reaction to move to their side without provoking opportunity
+attacks and stabilize them. She does this automatically and without
+hesitation for anyone — ally, enemy, or unknown.
 ```
 
 ### Combat Philosophy

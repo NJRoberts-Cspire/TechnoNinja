@@ -110,3 +110,59 @@ Farro gives players one piece of information from his research — specific, ver
 
 **3. The Transfer (Urgency/Legacy)**
 Two months have passed or the enhancement failure has accelerated. Farro makes contact with urgency — not dramatic urgency, just the clipped efficiency of someone managing a timeline. He needs to give them the complete case. He takes four hours. He is thorough. At the end, he gives them the document case with his filing system and explains it carefully. He says: "Jessel's death — I've left a note on what I couldn't confirm. If you can confirm it, do." He then stands, shakes their hands, and leaves. He is not doing a goodbye scene. He has one more thing to verify and then he's going to find a place to rest. Players who follow up in two weeks will learn he is dead. The replacement enhancement money, if they raised it, will have been returned to them with a note: "Found someone who needed it more. Thank you."
+
+---
+
+## COMBAT STATS
+
+> *These stats represent The Collector in direct confrontation. Most encounters with him will not reach this point — and he knows it. The stat block exists for when diplomacy, manipulation, and leverage have all failed.*
+
+**Tier:** Standard
+**Role:** skirmisher
+**HP:** 36 (FRAME 3 × 8 + 12 Standard base — the enhancement failure has reduced his effective FRAME below what it was)
+**AP Max:** 2
+**Hand Size:** 5
+**Initiative:** 6
+
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
+|---|---|---|---|---|---|
+| 3 | 6 | 3 | 8 | 4 | 3 |
+
+*Note: FRAME is listed at 3 due to the cardiac enhancement failure. In any combat scenario where his HP has already been reduced by the Enhancement Failure mechanic, reduce this further accordingly.*
+
+### Basic Attack — The Short Blade
+*0 AP | Attack | Once per turn*
+**Effect:** The blade was not visible until it was being used. That is the point. Melee, 1 target. Damage: 5 + EDGE (11 total). Farro immediately moves up to short range after this attack. He has been dressed to not be noticed for three years. This extends to his combat technique.
+
+### Pattern Read
+*Tier 1 (1 AP) | Control*
+**Effect:** Farro observes the combat geometry for exactly long enough. He designates 1 enemy and identifies: one attack pattern they will repeat, one exploitable position, or one defensive gap. That enemy is Marked and Exposed 2 for 2 rounds. He does this with the same detachment he brings to everything. It is professional.
+**Keywords:** Mark, Expose 2
+
+### Counter-Intelligence
+*Tier 1 (1 AP) | Defense*
+**Effect:** Farro applies thirty years of operational awareness to his own position. He gains Guard 5 + SIGNAL (13 total) until start of his next turn. If an enemy attacks him while this Guard is active and the attack is fully absorbed, Farro immediately gains information about the attacker: their EDGE value, one of their cards, or their current AP total.
+**Keywords:** Guard
+
+### The Network Map
+*Tier 2 (2 AP) | Control | 1/Combat*
+**Effect:** Farro presents, rapidly and precisely, exactly what he knows about whoever is trying to kill him. 1 enemy is Staggered and Exposed 3 as Farro deploys thirty years of intelligence work against them specifically — he has files on most people who would be sent after him, and he prepared for this. Against an enemy he has no file on, this only applies Stagger.
+**Keywords:** Stagger, Expose 3
+
+### Operational Exit
+*Tier 2 (2 AP) | Mobility | 1/Combat*
+**Effect:** Farro executes the exit plan he prepared before this conversation started. He moves up to full speed, passes through occupied spaces without engagement penalties, and gains Veil status for 1 round. The document case goes with him. This is not abandonment. He will be in contact within 24 hours.
+**Keywords:** Veil
+
+### Reaction: The Cardiac Catch
+*Reaction | Triggered by: taking damage that would drop Farro below 15 HP*
+**Effect:** The enhancement failure intervenes before the violence can. Farro's hand goes to his chest — a second, a breath — and then he is still fighting. Reduce incoming damage by 6. He does not acknowledge this happened and continues the sentence he was in the middle of.
+
+---
+
+### Combat Behavior
+Farro uses Pattern Read immediately, then Counter-Intelligence to make himself expensive to target. He fights from distance, moves constantly, and uses Operational Exit the moment the document case is at risk. He is not trying to win the fight. He is trying to get the research out. He will sacrifice everything else for that goal without apparent distress.
+
+### "I Would Prefer Not To"
+If the person attacking him can demonstrate they are not connected to the Hollow Author's network, Farro will stop fighting and verify. He cannot afford to shoot the wrong person. He has too little time left to waste it.
+

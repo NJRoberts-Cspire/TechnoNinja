@@ -521,7 +521,7 @@ Your shots against your Focal Point hit with such precision that the target's de
 Once per long rest, you can spend your full action to prepare and execute a perfect shot against your Focal Point. This shot:
 - Cannot miss.
 - Deals 10d10 + your Dexterity modifier + your Wisdom modifier damage.
-- If this reduces the target to 0 hit points, they are killed instantly (no death saving throws, no stabilization, no revival of any kind short of true resurrection magic equivalent).
+- If this reduces the target to 0 hit points, they are killed instantly (no resistance checks, no stabilization, no revival of any kind short of true resurrection magic equivalent).
 - If this does not reduce the target to 0 hit points, they are at half their remaining hit points (the shot still did catastrophic damage to the wrong part of their system — round down).
 
 ---
@@ -533,18 +533,18 @@ The Iron Suppressor has built their practice around area denial and crowd contro
 **Level 3: Area Protocol**
 Your Suppression Fire technique is enhanced:
 - Its area of effect extends to 30-foot-wide.
-- The saving throw DC is now your Weave-equivalent DC (8 + proficiency + Wisdom modifier).
-- Creatures who fail the save also have disadvantage on their first attack roll (not just movement reduction).
+- The resistance check DC is now your Weave-equivalent DC (8 + proficiency + Wisdom modifier).
+- Creatures who fail the check also have -3 to Attack cards on their first attack (not just movement reduction).
 
 Additionally, you can maintain Suppression Fire as a concentration effect (up to 1 minute), re-establishing the fire area at the start of each of your turns without using your action.
 
 **Level 6: Zone Control**
 You can designate a Kill Zone — a 30-foot radius area within your weapon's normal range. As a bonus action, you establish the Kill Zone. While active (up to 1 minute, concentration):
 - Any creature that moves more than 15 feet in a single turn within the Kill Zone takes 2d8 damage.
-- Creatures that end their turn in the Kill Zone must make a Dexterity save (DC = 8 + proficiency + Wisdom modifier) or be unable to take the Dash action on their next turn.
+- Creatures that end their turn in the Kill Zone must make an EDGE resistance check (DC = 8 + proficiency + Wisdom modifier) or be unable to take the Dash action on their next turn.
 
 **Level 10: Full Suppression**
-Once per short rest, as an action, you can execute a Full Suppression — a comprehensive discharge that locks down a 60-foot radius area for 1 round. All creatures in the area (friend and foe) make Dexterity saving throws (DC = 8 + proficiency + Wisdom modifier). On a failure:
+Once per short rest, as an action, you can execute a Full Suppression — a comprehensive discharge that locks down a 60-foot radius area for 1 round. All creatures in the area (friend and foe) make EDGE resistance checks (DC = 8 + proficiency + Wisdom modifier). On a failure:
 - They take 4d8 resonant damage.
 - They cannot take reactions until the start of their next turn.
 - They cannot move more than 10 feet on their next turn.
@@ -554,7 +554,7 @@ On a success: half damage, no other effects.
 **Level 14: Denied**
 Your area control has reached its terminal expression. Once per long rest, as an action, you can declare an area Denied — a 60-foot radius that exists for 10 minutes. Within the Denied area:
 - No creature (friend or foe) can take the Dash action.
-- Any creature that attempts to enter the area from outside must make a Dexterity saving throw (DC = 8 + proficiency + Wisdom modifier) or take 6d8 resonant damage and be knocked prone at the entry point.
+- Any creature that attempts to enter the area from outside must make an EDGE resistance check (DC = 8 + proficiency + Wisdom modifier) or take 6d8 resonant damage and be knocked prone at the entry point.
 - You can move freely through the Denied area without affecting yourself.
 
 ---
@@ -571,17 +571,17 @@ Your discharge systems have been tuned to interact with resonant frequencies bey
 
 **Level 6: Between the Shots**
 Your ability to interact with resonant space between the physical and digital has grown. You gain:
-- Once per short rest, you can fire a Between Shot — a shot that crosses into the Iron Afterlife's resonant layer and affects both physical and spiritual targets simultaneously. This shot affects all creatures (physical and incorporeal) in a 5-foot-wide, 120-foot-long line. Each takes 3d10 resonant damage (Dexterity save for half, DC = 8 + proficiency + Wisdom modifier).
+- Once per short rest, you can fire a Between Shot — a shot that crosses into the Iron Afterlife's resonant layer and affects both physical and spiritual targets simultaneously. This shot affects all creatures (physical and incorporeal) in a 5-foot-wide, 120-foot-long line. Each takes 3d10 resonant damage (EDGE resistance check for half, DC = 8 + proficiency + Wisdom modifier).
 - When you reduce an Iron Afterlife entity to 0 hit points, you can choose to Anchor it — preventing its return to the Iron Afterlife for 24 hours. It is temporarily bound to the physical world and vulnerable.
 
 **Level 10: Soul Shot**
-Your shots can now affect the Echomind directly. Once per short rest, as an action, you can fire a Soul Shot at one creature within normal range. This shot bypasses all physical defenses (AC is irrelevant — it hits automatically). The target makes a Wisdom saving throw (DC = 8 + proficiency + Wisdom modifier). On a failure:
+Your shots can now affect the Echomind directly. Once per short rest, as an action, you can fire a Soul Shot at one creature within normal range. This shot bypasses all physical defenses (AC is irrelevant — it hits automatically). The target makes a RESONANCE resistance check (DC = 8 + proficiency + Wisdom modifier). On a failure:
 - They take 5d10 resonant damage.
 - Their Echomind is disrupted — their class features that rely on spiritual, resonant, or Echomind connection are suppressed for 1 minute.
-- If they are an Iron Afterlife entity, they must pass to the Iron Afterlife (they are destroyed in the physical world) — no death saving throws.
+- If they are an Iron Afterlife entity, they must pass to the Iron Afterlife (they are destroyed in the physical world) — no resistance checks.
 
 **Level 14: Convergence Fire**
-Your Resonant Shot abilities have reached their highest expression. Once per long rest, as an action, you can fire a Convergence Shot — a discharge that targets the resonant structure of reality in a 30-foot radius sphere. Every creature in the area makes a Wisdom saving throw (DC = 8 + proficiency + Wisdom modifier):
+Your Resonant Shot abilities have reached their highest expression. Once per long rest, as an action, you can fire a Convergence Shot — a discharge that targets the resonant structure of reality in a 30-foot radius sphere. Every creature in the area makes a RESONANCE resistance check (DC = 8 + proficiency + Wisdom modifier):
 - On a failure: 8d10 resonant damage and all enhancement features, class features, and spiritual abilities are suppressed for 1 minute.
 - On a success: half damage, no suppression.
 

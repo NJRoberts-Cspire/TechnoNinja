@@ -498,26 +498,26 @@ Among the Hollow Poor and low-caste communities, Chrome Shapers who are willing 
 The War Shaper has applied the Chrome Shaper's design philosophy specifically to combat — treating enhancement configuration as a battlefield asset, designing modifications that are primarily functional as weapons, and developing the ability to reconfigure allied combat capabilities on the fly in response to battlefield conditions. Where the Chrome Shaper's general practice works over hours and days, the War Shaper has developed the techniques of the forge to function at combat speed.
 
 **Level 3: Combat Modification**
-You have a set of pre-designed combat modification packages that you can apply rapidly. In combat, as a bonus action, you can apply a Combat Modification to an ally or yourself. Choose from the following packages:
-- **Strike Package:** +2d6 damage to weapon attacks, lasts 3 rounds. Constitution save DC 11 when it expires or 1 level exhaustion.
-- **Dodge Package:** +3 AC and advantage on Dexterity saves, lasts 3 rounds.
-- **Disruption Package:** Attacks impose disadvantage on the target's next save or attack, lasts 3 rounds.
+You have a set of pre-designed combat modification packages that you can apply rapidly. In combat, as a free action, you can apply a Combat Modification to an ally or yourself. Choose from the following packages:
+- **Strike Package:** +8 damage to weapon attacks (fixed), lasts 3 rounds. FRAME resistance check, difficulty 2, when it expires or 1 level exhaustion.
+- **Dodge Package:** +3 AC and +3 to EDGE resistance checks, lasts 3 rounds.
+- **Disruption Package:** Attacks cause the target to lose damage riders on their next resistance check or attack, lasts 3 rounds.
 
 Each package can only be applied once per creature per combat.
 
 **Level 6: War Configuration**
 Your combat modification packages have expanded. Add the following:
 - **Surge Package:** The creature can attack three times instead of twice on their turn (or twice instead of once if they have Extra Attack), for 1 round. This replaces their normal Extra Attack for that round.
-- **Resilience Package:** The creature gains 30 temporary hit points.
-- **Overwatch Package:** The creature can make a ranged attack as a reaction when any creature moves within 30 feet of them, for 1 minute.
+- **Resilience Package:** The creature gains 30 temporary HP.
+- **Overwatch Package:** The creature can make a ranged attack as a Reaction when any creature moves within 30 feet of them, for 1 minute.
 
 **Level 10: Battle Forge**
-During combat, when you take the Attack action, you can replace one of your attacks with a Battle Forge action — rapidly modifying an adjacent ally's or your own configuration. You immediately apply any Combat Modification or Field Reconfiguration that would normally require a bonus action, without using your bonus action.
+During combat, when you take the Attack action, you can replace one of your attacks with a Battle Forge action — rapidly modifying an adjacent ally's or your own configuration. You immediately apply any Combat Modification or Field Reconfiguration that would normally require a free action, without using your free action.
 
 **Level 14: Configuration Command**
-You can manage the battlefield's enhancement landscape. As an action (once per short rest):
-- Boost all allies within 30 feet: they gain advantage on their next attack roll and +10 feet of movement.
-- Suppress all enemies within 30 feet: they make a Constitution save (DC = 8 + proficiency + Intelligence modifier) or have disadvantage on their next attack and saving throw.
+You can manage the battlefield's enhancement landscape. As an action (once per combat):
+- Boost all allies within 30 feet: they gain +3 to their next attack roll and +10 feet of movement.
+- Suppress all enemies within 30 feet: they make a FRAME resistance check, difficulty 3, or lose damage riders on their next attack and resistance check.
 
 ---
 
@@ -527,9 +527,9 @@ The Edge Builder is the research-and-development specialist: the Chrome Shaper w
 
 **Level 3: Prototype Work**
 Your Experimental Frames are more ambitious than standard. When you design an Experimental Frame:
-- The effect can be up to one level more powerful than the standard guideline (DM adjudicates).
-- The Constitution save DC is 1 lower than it would be for a standard Frame of equivalent power.
-- When an Experimental Frame fails (the Constitution save is failed), you can make an Intelligence check (DC = the Frame's complexity + 5) to learn exactly why it failed. On a success, you permanently redesign the Frame — future versions of that same Frame have their DC reduced by 2.
+- The effect can be up to one level more powerful than the standard guideline (GM adjudicates).
+- The resistance check difficulty is 1 lower than it would be for a standard Frame of equivalent power.
+- When an Experimental Frame fails (the resistance check is failed), you can make a SIGNAL check (difficulty = the Frame's complexity + 2) to learn exactly why it failed. On a success, you permanently redesign the Frame — future versions of that same Frame have their difficulty reduced by 2.
 
 **Level 6: Failure Analysis**
 Your comprehensive documentation of failure modes has built an enormous knowledge base. You gain:
@@ -567,11 +567,11 @@ When you install an Experimental Frame using resonance techniques:
 You can directly improve the resonant relationship between a person's Echomind and their modifications. During a long rest, you can perform Soul Engineering on a willing creature. Choose one effect:
 - **Resonance Deepening:** The creature's class features that involve resonant or spiritual components are enhanced — their damage, duration, or range improves by 25% permanently.
 - **Echomind Clarity:** The creature becomes immune to effects that would cloud, alter, or read their Echomind without their consent.
-- **Resonant Armor:** The creature's Echomind-enhancement resonance provides passive protection — they gain a permanent +1 to all saving throws.
+- **Resonant Armor:** The creature's Echomind-enhancement resonance provides passive protection — they gain a permanent +1 to all resistance checks.
 
 **Level 14: The Perfect Resonance**
 You have achieved what the Sutensai calls the highest engineering aspiration: the perfectly resonant configuration, where a person's modifications express their Echomind with no friction, no loss, and no gap between who they are and what they can do. Once per arc, you can perform the Perfect Resonance procedure on one willing creature (including yourself). This 8-hour process:
-- Permanently improves their primary ability score by 2 (maximum 24 — the Resonance Sculptor can exceed the normal 20 cap through this specific procedure, because the improvement comes from within the person rather than being externally imposed).
+- Permanently improves their primary stat by 2 (maximum 24 — the Resonance Sculptor can exceed the normal 20 cap through this specific procedure, because the improvement comes from within the person rather than being externally imposed).
 - Removes all enhancement misalignments and degradations permanently.
 - Grants them resistance to dissolution effects and immunity to Shell-state progression — their resonance is too perfectly aligned to be disrupted by external forces.
 

@@ -509,8 +509,8 @@ Combat Weave Wireweave have taken their technical ability and oriented it entire
 **Level 3: Combat Interface**
 Your Wire abilities have been optimized for combat application. You gain:
 - Signal Burst and Neural Spike cost 1 fewer Weave Charge.
-- When you hit a creature with a weapon attack, you can simultaneously release a Wire disruption — the creature makes an Intelligence save or takes 1d8 lightning-analog damage and has disadvantage on their next saving throw.
-- You can use Wire abilities as a bonus action if they target a creature you have attacked this turn.
+- When you hit a creature with a weapon attack, you can simultaneously release a Wire disruption — the creature makes a SIGNAL resistance check (Weave DC) or takes 5 lightning-analog damage (fixed) and loses damage riders on their next resistance check.
+- You can use Wire abilities as a free action if they target a creature you have attacked this turn.
 
 **Level 6: Enhancement Crash**
 Your targeted disruption of enhancement systems has become surgical. When you use Enhancement Disrupt:
@@ -518,13 +518,13 @@ Your targeted disruption of enhancement systems has become surgical. When you us
 - On a critical hit using Neural Spike, the target's enhancement network automatically crashes — all enhancement features are suppressed for 1 minute (no save).
 
 **Level 10: Signal Overload**
-Once per short rest, as an action, you can release a full Signal Overload. All enhanced creatures within 30 feet make an Intelligence save (Weave DC). On a failure:
-- They take 6d10 lightning-analog damage.
+Once per combat, as an action, you can release a full Signal Overload. All enhanced creatures within 30 feet make a SIGNAL resistance check (Weave DC). On a failure:
+- They take 33 lightning-analog damage (fixed).
 - All their enhancement features are suppressed for 1 minute.
 - Their Wire connectivity is severed for 1 hour (they cannot send or receive Wire communications or be tracked by Wire systems).
 
 **Level 14: Total Crash**
-Your ability to crash enhancement networks has reached its terminal expression. Once per long rest, as an action, choose one enhanced creature within 60 feet. That creature makes a Constitution save (Weave DC + 2). On a failure, their enhancement network enters total cascade failure — they lose all class features (including passive ones), their enhancements deal 3d10 damage to them (the failure's physical consequence), and they must make a DC 15 check (Constitution) to prevent their enhancement network from going permanently offline. A Forge Tender can repair permanent shutdown, but it requires 1 hour of work.
+Your ability to crash enhancement networks has reached its terminal expression. Once per day, as an action, choose one enhanced creature within 60 feet. That creature makes a FRAME resistance check (Weave DC + 2). On a failure, their enhancement network enters total cascade failure — they lose all class features (including passive ones), their enhancements deal 17 damage to them (fixed, the failure's physical consequence), and they must make a FRAME resistance check, difficulty 4, to prevent their enhancement network from going permanently offline. A Forge Tender can repair permanent shutdown, but it requires 1 hour of work.
 
 ---
 
@@ -537,23 +537,23 @@ You maintain a personal digital Archive in your enhancement network — a secure
 - After any significant interaction (encounter, meeting, infiltration), you can store a full record in your Archive.
 - You have instant access to any stored record (no check required).
 - The Archive is immune to Wire Crash or any attempt to delete or access it externally.
-- Once per short rest, you can consult the Archive on a specific topic, gaining advantage on one Intelligence check related to that topic (because you have, somewhere, a record that's relevant).
+- Once per combat, you can consult the Archive on a specific topic, gaining +3 to one SIGNAL check related to that topic (because you have, somewhere, a record that's relevant).
 
 **Level 6: Signal Network**
 You have established a network of Wire contacts across the Broken Reaches — informants, other Wireweave, sympathetic Wire operators, and passive monitoring nodes you have installed over time. Once per session:
-- You can query your Signal Network about any topic. The DM provides information equivalent to 1 hour of dedicated Wire research.
+- You can query your Signal Network about any topic. The GM provides information equivalent to 1 hour of dedicated Wire research.
 - You can pass information through your network to any recipient you know, regardless of Wire infrastructure between you.
 - You receive unsolicited alerts when significant events occur that your network has been monitoring.
 
 **Level 10: Leverage**
-Your information holdings have reached the point where they constitute leverage — the kind that changes behavior. Once per long rest, you can deploy Leverage against one creature who has secrets that you have discovered. The target must make a Wisdom save (Weave DC). On a failure, they will not take hostile action against you or your companions for 24 hours, and they will provide one significant favor (access, information, or direct assistance) within that time. This is not mind control — it is the persuasion of someone who understands the consequences of refusal. Creatures with nothing to lose are immune.
+Your information holdings have reached the point where they constitute leverage — the kind that changes behavior. Once per day, you can deploy Leverage against one creature who has secrets that you have discovered. The target must make a RESONANCE resistance check (Weave DC). On a failure, they will not take hostile action against you or your companions for 24 hours, and they will provide one significant favor (access, information, or direct assistance) within that time. This is not mind control — it is the persuasion of someone who understands the consequences of refusal. Creatures with nothing to lose are immune.
 
 **Level 14: The Full Picture**
 Your information about the current conflict has reached a comprehensiveness that is almost paralyzing in its specificity. Once per arc, you can spend 1 hour in Wire consultation to construct a Full Picture — a comprehensive analysis of the current state of any organization, conflict, or situation you have been observing. The Full Picture includes:
 - All major actors' true motivations (as opposed to stated ones), as far as your intelligence can determine.
 - The most likely next major development.
 - One hidden fact that no one in the situation wants widely known.
-The DM provides these answers based on the actual campaign state — this feature should deliver meaningful intelligence, not vague impressions.
+The GM provides these answers based on the actual campaign state — this feature should deliver meaningful intelligence, not vague impressions.
 
 ---
 
@@ -565,22 +565,22 @@ These Wireweave have gone too deep, too often, and found something on the other 
 Your Wire access has extended to the boundary of the Iron Afterlife. You gain:
 - You can detect recently-departed Echominds (within 24 hours of death) as Wire-presence anomalies within 300 feet.
 - You can access the last transmitted data of a deceased enhanced individual — the Wire records their final Wire activity before death. This provides their last location, their last communication, and the state of their systems at moment of death.
-- Once per short rest, you can ask the Iron Afterlife's boundary one yes/no question. The answer comes as a signal fluctuation — unmistakably intentional, and always accurate on factual questions (questions about the future are answered with probability, which is less reliable).
+- Once per combat, you can ask the Iron Afterlife's boundary one yes/no question. The answer comes as a signal fluctuation — unmistakably intentional, and always accurate on factual questions (questions about the future are answered with probability, which is less reliable).
 
 **Level 6: Ghost Channel**
-You can open a Wire channel to the Iron Afterlife directly. As an action (10 Weave Charges), you open a Ghost Channel to one specific Echomind in the Iron Afterlife, if you know their identity signature. The communication works like a Wire call — it lasts up to 10 minutes, both parties can speak and listen, but the Echomind in the Iron Afterlife is under no obligation to answer truthfully or at all. The channel is visible to Sutensai assessors and carries significant theological risk (DM determines long-term consequences of frequent use).
+You can open a Wire channel to the Iron Afterlife directly. As an action (10 Weave Charges), you open a Ghost Channel to one specific Echomind in the Iron Afterlife, if you know their identity signature. The communication works like a Wire call — it lasts up to 10 minutes, both parties can speak and listen, but the Echomind in the Iron Afterlife is under no obligation to answer truthfully or at all. The channel is visible to Sutensai assessors and carries significant theological risk (GM determines long-term consequences of frequent use).
 
 **Level 10: Afterlife Architecture**
 Your understanding of the Iron Afterlife's Wire structure has become architectural. You can:
 - Map the locations of Echominds in the Iron Afterlife relative to the physical world.
 - Detect when an Echomind from the Iron Afterlife is attempting to push through into the physical world, and trace their origin point.
 - Temporarily suppress an Iron Afterlife entity's ability to manifest in the physical world (contested Intelligence check; on success, the entity cannot manifest for 1 hour).
-- Once per long rest, extract a specific piece of information from an Echomind in the Iron Afterlife without their cooperation — the extraction requires 1 hour and a DC 18 Intelligence check, and it leaves traces that the extracted Echomind will resent.
+- Once per day, extract a specific piece of information from an Echomind in the Iron Afterlife without their cooperation — the extraction requires 1 hour and a SIGNAL check, difficulty 5, and it leaves traces that the extracted Echomind will resent.
 
 **Level 14: Between Sovereign**
 You have achieved something that the Sutensai considers either a profound heresy or a catastrophic accident: full sovereignty over the seam between the Wire and the Iron Afterlife. You can:
-- Open or close the seam in a 300-foot radius for up to 1 hour (preventing Iron Afterlife entities from manifesting, or actively pulling them through — your choice, once per long rest).
-- When you die, your Echomind has the option to route through the Wire instead of directly entering the Iron Afterlife. Your Echomind persists in the Wire network for up to 1 week, able to communicate through connected nodes and potentially influence Wire-connected systems. At the end of the week, you must choose to pass to the Iron Afterlife or attempt a permanent Wire existence (the DM adjudicates what this means — it is not standard resurrection and comes with costs and conditions).
+- Open or close the seam in a 300-foot radius for up to 1 hour (preventing Iron Afterlife entities from manifesting, or actively pulling them through — your choice, once per day).
+- When you die, your Echomind has the option to route through the Wire instead of directly entering the Iron Afterlife. Your Echomind persists in the Wire network for up to 1 week, able to communicate through connected nodes and potentially influence Wire-connected systems. At the end of the week, you must choose to pass to the Iron Afterlife or attempt a permanent Wire existence (the GM adjudicates what this means — it is not standard resurrection and comes with costs and conditions).
 
 ---
 
@@ -592,7 +592,7 @@ The Loom-Maker is the engineer-specialist: the Wireweave who has turned their Wi
 As part of a short rest, you can construct one of the following Wire nodes using materials worth 5 trade-metal:
 - **Relay Node:** Extends Wire coverage in an area (60-foot radius) and amplifies signal quality. Your Wire abilities used within a relay's range cost 1 fewer Charge.
 - **Sensor Node:** Monitors a 60-foot area, transmitting to your interface kit. You receive notifications of any Wire activity, physical movement, or enhancement use within the area.
-- **Encryption Node:** Creates an encrypted Wire channel within 60 feet that cannot be intercepted except by a DC 20 Intelligence check.
+- **Encryption Node:** Creates an encrypted Wire channel within 60 feet that cannot be intercepted except by a SIGNAL check, difficulty 5.
 
 Nodes last for 24 hours unless physically destroyed. You can maintain a number of nodes equal to your Intelligence modifier.
 
@@ -600,16 +600,16 @@ Nodes last for 24 hours unless physically destroyed. You can maintain a number o
 You can perform Wire enhancement upgrades on willing creatures during a short rest. Choose one enhancement upgrade per creature:
 - **Signal Boost:** The creature's Wire-based abilities (class features that use Wire or digital systems) have their range doubled for 24 hours.
 - **Armor Protocol:** Add an additional 2 to the creature's AC until the next long rest (the upgrade integrates a deflection subroutine).
-- **Combat Enhancement:** One specific weapon attack of the creature's deals an additional 1d8 lightning-analog damage for 24 hours.
+- **Combat Enhancement:** One specific weapon attack of the creature's deals an additional 5 lightning-analog damage (fixed) for 24 hours.
 
 **Level 10: Network Architecture**
 Your ability to construct Wire infrastructure has reached a large-scale expression. During a long rest, you can construct:
 - A full Wire network covering a 1-mile radius, with full monitoring and communication capacity, in 8 hours of work.
-- An autonomous Wire defense system that attacks unauthorized enhanced intruders (deals 3d8 lightning-analog damage per round to unauthorized individuals within the network, Constitution save for half, Weave DC).
+- An autonomous Wire defense system that attacks unauthorized enhanced intruders (deals 14 lightning-analog damage per round (fixed) to unauthorized individuals within the network, FRAME resistance check (Weave DC) for half).
 - A secure digital vault within the Wire — a protected data space that cannot be accessed without your authorization.
 
 **Level 14: The Impossible Build**
-Once per arc, you can spend 1 week constructing a Wire Craft installation of extraordinary capability. Work with your DM — the installation should be something meaningful to the campaign (a communication network for a resistance, a Wire bridge between two previously-separated territories, a system that affects the Iron Afterlife's accessibility in a region). The installation requires rare materials (worth 1,000+ trade-metal) and time, but the result is permanent and can change the strategic landscape of the campaign.
+Once per arc, you can spend 1 week constructing a Wire Craft installation of extraordinary capability. Work with your GM — the installation should be something meaningful to the campaign (a communication network for a resistance, a Wire bridge between two previously-separated territories, a system that affects the Iron Afterlife's accessibility in a region). The installation requires rare materials (worth 1,000+ trade-metal) and time, but the result is permanent and can change the strategic landscape of the campaign.
 
 ---
 

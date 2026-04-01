@@ -405,13 +405,13 @@ Before accepting or executing any significant action, you spend 10 minutes in an
 When you attack a target you have spent at least 24 hours researching (Economic Analysis or better), you deal maximum damage on the first attack of each combat. This represents the completeness of your preparation — you know where to strike and have practiced the exact angles.
 
 **Level 6: The Contingency Fee**
-You always have an escape option. When you complete a successful elimination (reduce a target to 0 hit points), you can immediately take the Disengage action as a free action and move your full speed. Additionally, you have advantage on checks to disappear into a crowd or environment immediately following an operation.
+You always have an escape option. When you complete a successful elimination (reduce a target to 0 hit points), you can immediately take the Disengage action as a free action and move your full speed. Additionally, you gain +3 to checks to disappear into a crowd or environment immediately following an operation.
 
 **Level 10: Closed Account**
 When you reduce a target to 0 hit points, their financial and operational records become accessible to you: you immediately know the contents of their most recent significant business transaction, their most significant current obligation, and the name of whoever will most want to know about this. This information arrives in a brief flash of insight — the economic network registers the vacancy and informs you. This is not magical; it is the residue of complete pre-operational research.
 
 **Level 14: The Perfect Contract**
-Once per long rest, you can execute a Perfect Contract — an action you have prepared so completely that failure is not a planned outcome. Select one target and one action (an attack, a deception, a theft, etc.). You automatically succeed on the initial execution check — no roll required. The target has disadvantage on any saving throw against the initial effect. You have advantage on all checks related to the operation for 1 hour after initiation. This requires 1 week of preparation work and complete pre-operational analysis.
+Once per long rest, you can execute a Perfect Contract — an action you have prepared so completely that failure is not a planned outcome. Select one target and one action (an attack, a deception, a theft, etc.). You automatically succeed on the initial execution check — no roll required. The target has -3 to any resistance check against the initial effect. You gain +3 to all checks related to the operation for 1 hour after initiation. This requires 1 week of preparation work and complete pre-operational analysis.
 
 ---
 

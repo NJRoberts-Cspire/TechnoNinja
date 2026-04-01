@@ -11,14 +11,14 @@
 
 ## RANDOM ENCOUNTER TABLES BY BROKEN REACH
 
-*Roll 1d10 for the appropriate Reach. Entries marked (S) are social encounters, (E) are exploration, (C) are combat/conflict.*
+*Roll 1–10 for the appropriate Reach. Entries marked (S) are social encounters, (E) are exploration, (C) are combat/conflict.*
 
 ---
 
 ### THE SUNDER REACH
 *Korrath's territory. Industrial, militarized, the most organized of the Reaches and the most controlled. Cities that function better than they should under wartime conditions. Soldiers who look at everything like it might be a threat — not anxiously, but professionally.*
 
-| d10 | Encounter |
+| Roll | Encounter |
 |-----|-----------|
 | 1 | **(C)** A checkpoint of four Korrath soldiers examining travelers' enhancement documentation. One traveler in the line has salvage enhancements with no documentation — Ashwalker caste, clearly. The soldiers are not cruel, but they are following protocol, and protocol says unauthorized enhancement is confiscated. The traveler is a middle-aged man with reinforced lumbar steel that lets him walk without pain from an old injury. He has had it for twelve years. |
 | 2 | **(S)** A military enhancement surgeon operating a field clinic on the roadside — voluntary, free, serving anyone who presents. Her work is good. Her small talk is the small talk of someone who has seen a lot of damage and decided the correct response is competence. She will answer questions about what she has seen in Korrath's campaigns honestly. She has opinions about the Unmaking policy. They are more complicated than simple condemnation. |
@@ -36,7 +36,7 @@
 ### THE VEILWARD REACH
 *Vaen's homeland and the Pilgrimage's origin. A Reach that has always been more spiritually attentive than politically powerful, with a tradition of Sutensai authority that runs deeper here than anywhere else in Tesshari. The Pilgrimage has transformed it — where there was one major religion, there are now two communities with very different ideas about what the afterlife is for.*
 
-| d10 | Encounter |
+| Roll | Encounter |
 |-----|-----------|
 | 1 | **(S)** A community debate at a Sutensai temple steps — the local hierarchy and the local Pilgrimage chapter are arguing about burial rites. The Sutensai want to continue standard resonance-send rites; the Pilgrimage wants to introduce Voiding-adjacent practices for the dying who request them. The argument is theologically sharp and neither side is wrong in its own terms. The dead person in question, whose rites are being debated, was loved by people in both factions. |
 | 2 | **(E)** A Voiding scar garden — a contemplative space maintained by the Pilgrimage where the deliberate scars of enhancement removal are documented in illuminated records. Each entry describes who was Voided, why, what they felt, and what their life has been since. The records are honest — including people who found the Voiding difficult, who regretted it initially, who took years to feel what the doctrine says they should feel. The garden is beautiful and the honesty of the records is the best thing about it. |
@@ -54,7 +54,7 @@
 ### THE PALE REACH
 *Nominally independent, managed by merchant councils, the most politically complex Reach and the most information-dense. The Wire Market. The puppet network's highest concentration. Architecture that values appearance over honesty. Everyone here is managing something.*
 
-| d10 | Encounter |
+| Roll | Encounter |
 |-----|-----------|
 | 1 | **(S)** A council member's public reception — obligatory, scripted, efficient — at which the players can observe the behavioral fingerprint of the Author's puppet network if they know to look for it: two of the six council members present have the half-second response delay, the specific inward listening quality that indicates a secondary consciousness operating. A Wire Market broker who is also at the reception has noticed and is watching with the careful attention of someone building a case. |
 | 2 | **(E)** A document auction — a Wire Market institution where contested or recovered documents are sold to the highest bidder. The current auction includes a cache of pre-Sutra resonance theory papers that no one in the room can fully read, the provenance of which the auctioneer is deliberately vague about. A Craftbound scholar attempting to authenticate the papers before bidding will find they match the notational style of theoretical work from ninety years ago. |
@@ -72,7 +72,7 @@
 ### THE IRON TEETH REACH
 *The most industrially developed Reach not under Korrath's control. Mines, foundries, enhancement-material production. Also the most economically stratified — the Resonant and Craftbound castes here are extremely distinct, and the Craftbound labor force is well-organized in ways that occasionally approach rebellion. Functional, productive, deeply unequal.*
 
-| d10 | Encounter |
+| Roll | Encounter |
 |-----|-----------|
 | 1 | **(C)** A labor action at a resonant-metal foundry — Craftbound workers have stopped production over an enhancement-safety complaint. The foundry's management (Resonant caste) is preparing to use security forces to break the action. The workers are right about the safety issue. The management is right that their supply contract penalties are severe enough that delay is genuinely threatening to the Reach's economic stability. Both things are true simultaneously. |
 | 2 | **(S)** A master enhancement artisan in their workshop, doing finishing work on a commissioned piece of armor that is extraordinary — years of craft visible in every joint. The artisan is old enough to have known this commission would be the last major work of their life and is working with the specific attention of someone who knows this. They will not stop working to talk but will talk while working, and what they say about craft, about iron, about what steel is when it is well-made, is the closest thing to theology that a secular person can offer. |
@@ -90,7 +90,7 @@
 ### THE ASH RIVER REACH
 *The largest and least governed of the Reaches. The primary corridor for refugees and migrant workers. Ashwalker caste populations are the highest here, and the local governance structure is genuinely patchwork — a dozen minor warlords with shifting alliances, none powerful enough to dominate but none willing to subordinate themselves to another. Everything is negotiated. Nothing holds indefinitely.*
 
-| d10 | Encounter |
+| Roll | Encounter |
 |-----|-----------|
 | 1 | **(S)** A refugee column — three hundred people moving from a destroyed village toward wherever they can reach. The column has a rough internal structure: families near the center, mobile adults at the edges. Someone in the column has a medical crisis — enhancement rejection, accelerating, the kind that requires surgical intervention. The column has no surgeon. They have been walking toward the nearest city for four days. They will not reach it in time. |
 | 2 | **(E)** An abandoned waystation that has been repurposed by Ashwalker families as a semi-permanent settlement. Not legal. Functioning. A community of approximately sixty people who have been here for two years, have built water capture and food production infrastructure, and have cultivated relationships with the minor local warlord sufficient to maintain de facto tolerance. They are one bad negotiation cycle from eviction. They know this. They are not letting it stop them from building anyway. |
@@ -108,7 +108,7 @@
 ### THE SUTENSAI CAPITAL REACH
 *Called the Bright Reach by its own citizens and "the Temple City" by everyone else. The administrative and spiritual center of the Iron Sutra. The Sutensai hierarchy is headquartered here. More Sutensai-marked caste than anywhere else. More secret-keeping than anywhere else. The architecture is designed to impress belief, and it works, which is either the best or worst thing about it.*
 
-| d10 | Encounter |
+| Roll | Encounter |
 |-----|-----------|
 | 1 | **(S)** A public Sutensai ceremony — the daily midday resonance rite, performed at the central temple with the full hierarchy in attendance. The ceremony is genuinely beautiful: the coordinated resonance of hundreds of Sutensai-marked enhancements produces a visible harmonic in the light. The players can see, if they look during the ceremony, the senior hierarchy's body language. The Veil Masters at the back of the platform are not performing the ceremony. They are watching the ceremony with the expression of people who know something the ceremony doesn't account for. |
 | 2 | **(E)** The Sutensai archive's public reading room — researchers of all castes are permitted here by appointment. In the public reading room, a character with relevant knowledge can identify, within an hour, the specific gaps where suppressed documents were removed: the finding aids reference materials that are no longer present, the cataloging notation marks removals with a specific symbol, and the pattern of removals across three hundred years of history follows a coherent logic — everything that points too clearly at the digestive truth of the Afterlife. The gaps are a map. |
@@ -126,7 +126,7 @@
 ### THE GRAY WATER REACH
 *A coastal Reach, trade-dependent, nominally neutral in the factional wars because its harbor is too economically important to all sides for anyone to fully occupy it. The most internationally-facing Reach — there are trade partners beyond Tesshari's borders, and the Gray Water receives their ships and their information. The only place in Tesshari where someone might have heard of the entity in the Between from a non-Iron Sutra tradition.*
 
-| d10 | Encounter |
+| Roll | Encounter |
 |-----|-----------|
 | 1 | **(S)** A foreign merchant ship in harbor — crew from a nation beyond Tesshari's borders, where resonant metal is rare and enhancement is minimal. The crew finds Tesshari enhancement culture alternately fascinating and disturbing. One of them — a navigator, quietly perceptive — asks the players questions about the Iron Sutra's afterlife doctrine that are structurally identical to the questions a philosopher would ask if they suspected the doctrine was concealing something. She has heard things. Other doctrines. Other accounts of what the Between contains. She is not going to say more unless the players give her reason to trust. |
 | 2 | **(E)** A Gray Water harbor district building whose basement, accessible through a rusted door that has not been opened in approximately sixty years, contains a resonance research lab that is not on any official record. The equipment is sixty years old. Some of it is Kael Shen's design. The lab was a secondary research site, used briefly and then abandoned when the primary site was located and closed. A resonance-theory-capable character can reconstruct, from the equipment configuration alone, what experiments were being run here. |
@@ -148,9 +148,9 @@
 ---
 
 ### TABLE A: ENHANCEMENT-RELATED PHYSICAL DESCRIPTIONS
-*Roll 1d20. These are the first things someone notices when they look at this NPC.*
+*Roll 1–20. These are the first things someone notices when they look at this NPC.*
 
-| d20 | Physical Description |
+| Roll | Physical Description |
 |-----|---------------------|
 | 1 | Right arm is full enhancement — not a replacement, but a complete external armature that fits over the arm like a second skeleton, moving with it. The original arm is visible through the gaps, flesh between metal, vulnerable in a way the person seems entirely unbothered by. |
 | 2 | Neck has three vertical seams where resonance cables were routed subcutaneously. The seams are old and well-healed but catch the light. The person moves their head very carefully in ways that suggest the cables create a small limitation in rotation. |
@@ -176,9 +176,9 @@
 ---
 
 ### TABLE B: PERSONALITY TRAITS SHAPED BY THE IRON SUTRA
-*Roll 1d20. These are dispositions, habits, or worldviews formed by living inside the Iron Sutra's framework.*
+*Roll 1–20. These are dispositions, habits, or worldviews formed by living inside the Iron Sutra's framework.*
 
-| d20 | Personality Trait |
+| Roll | Personality Trait |
 |-----|------------------|
 | 1 | Counts resonance tones automatically — aware of the quality of harmonic in any space with multiple enhancements, often visibly distracted by particularly clean or discordant harmonics. Finds discordance mildly distressing. Cannot fully explain why. |
 | 2 | Has a private relationship with one specific Prior Ascended — not mystical communion, just the habit of framing decisions as conversations with this Ascended. "The Second would say—" is a genuine heuristic for them, and they know it is projection and use it anyway. |
@@ -204,9 +204,9 @@
 ---
 
 ### TABLE C: COMPLICATIONS AND SECRETS
-*Roll 1d20. This is what this NPC is managing underneath everything else.*
+*Roll 1–20. This is what this NPC is managing underneath everything else.*
 
-| d20 | Complication or Secret |
+| Roll | Complication or Secret |
 |-----|----------------------|
 | 1 | They have been sending small amounts of money, every month for three years, to a family in another Reach. The family is not theirs by blood. They have never met them. They owe this family something that cannot be repaid but they keep trying with money because it is the only currency available. |
 | 2 | They know where something important is hidden and have known for years and have never told anyone. Telling would require explaining how they know, and explaining how they know would require confessing something else entirely. |
@@ -232,9 +232,9 @@
 ---
 
 ## RANDOM LOCATION FLAVOR TABLE
-*Roll 1d20. These are brief textural descriptions for unnamed locations across Tesshari.*
+*Roll 1–20. These are brief textural descriptions for unnamed locations across Tesshari.*
 
-| d20 | Location Description |
+| Roll | Location Description |
 |-----|---------------------|
 | 1 | A roadside tea house that has been at this exact crossroads for eighty years — the original building expanded three times, the original three tables now twenty-two, the original owner's granddaughter now running the operation. Every surface has been touched by enough people for long enough that the resonance reading of the building itself is warm, layered, complex. Old buildings in Tesshari develop a character that new buildings lack. This one has lived. |
 | 2 | A market square in the early morning, an hour before the merchants arrive — the stalls present but empty, the square occupied only by the people whose job it is to be there first: cleaners, the children who mark spots for their parents, one very old man who sits on the same bench every morning before the noise arrives and will not explain why except to say "It sounds different when it's quiet." |
@@ -260,9 +260,9 @@
 ---
 
 ## SIGNS OF THE CONVERGENCE TABLE
-*Roll 1d12. These are specific, observable events that players might witness hinting at the approaching Seventh Convergence. Best used in Act Two and Act Three.*
+*Roll 1–12. These are specific, observable events that players might witness hinting at the approaching Seventh Convergence. Best used in Act Two and Act Three.*
 
-| d12 | Sign |
+| Roll | Sign |
 |-----|------|
 | 1 | **The Birds.** Every mechanical resonance-bird in an area of approximately a hundred yards simultaneously orients in the same direction — toward the nearest thin place or the Iron Garden, whichever is closer. They remain oriented for approximately forty seconds, then resume normal behavior. A character who was watching one bird when it turned will have the impression that the bird looked purposeful rather than mechanical. |
 | 2 | **The Enhancement Echo.** A character with enhancements experiences a moment — three to five seconds — where their enhancement performs a function it does not have and has never been designed for. A smith's precision hands sketch, in metal shavings, a symbol that matches the Iron Garden inscriptions. A military targeting enhancement displays a location that is not on any map but is, if any player character is tracking it, due north and very close. The function does not repeat. |
@@ -287,7 +287,7 @@
 
 ### THE SUNDER REACH RUMORS
 
-| d6 | Rumor |
+| Roll | Rumor |
 |----|-------|
 | 1 | **(T)** "Korrath's already been to the Iron Garden. Years ago, alone. No announcement. He went in, stayed three days, came out without saying what he found. The soldiers who watched the entrance said he looked different when he came out — not scared. Decided." |
 | 2 | **(F)** "The Unmaking strips the soul too, not just the enhancements. The people Korrath Unmakes lose their Echomind clarity permanently. They can't enter a proper Afterlife when they die. He's not just removing steel. He's cutting people off from eternity." |
@@ -300,7 +300,7 @@
 
 ### THE VEILWARD REACH RUMORS
 
-| d6 | Rumor |
+| Roll | Rumor |
 |----|-------|
 | 1 | **(T)** "Vaen's never told anyone what they saw when they crossed the Between in the Voiding rite. Brother Aul knows — you can see it in how he talks about it. He's seen the same thing. Neither of them will name it." |
 | 2 | **(F)** "The Pilgrimage is recruiting children. If you bring a child to the Pilgrimage camps, they take them in and Void them and you never see them again." *(The Pilgrimage explicitly prohibits Voiding anyone under twenty. Children in the camp are there with families. The rumor was started by a Reach lord who didn't want his citizens leaving.)* |
@@ -313,7 +313,7 @@
 
 ### THE PALE REACH RUMORS
 
-| d6 | Rumor |
+| Roll | Rumor |
 |----|-------|
 | 1 | **(T)** "Half the council has been replaced in two years. Not new elections — same people, technically. But they vote differently. They agree on everything now. They didn't used to agree on anything." |
 | 2 | **(P)** "There's a conspiracy in the Pale Reach that runs through the Wire Market into the council chambers. Someone is controlling the Reach from below." *(True. Incomplete: the controller is a specific, identifiable entity with a coherent strategic goal. The rumor implies random corruption rather than deliberate architecture.)* |
@@ -326,7 +326,7 @@
 
 ### THE IRON TEETH REACH RUMORS
 
-| d6 | Rumor |
+| Roll | Rumor |
 |----|-------|
 | 1 | **(T)** "The resonance mines in the deep seam have started singing. Not the equipment — the stone. Three shifts have refused to go back in. The management is calling it equipment malfunction and paying double shift rates to get people to work." |
 | 2 | **(F)** "Enhancement made in the Iron Teeth Reach in the last six months has been subtly sabotaged. Someone in the foundries is inserting a flaw into the resonance bonding that makes the enhancement reliable for three months and then causes accelerated rejection. The saboteur is a Craftbound labor organizer making a point." *(The recent enhancement failures are Convergence-related resonance instability, not sabotage. The labor organizer is a convenient person to blame.)* |
@@ -339,7 +339,7 @@
 
 ### THE ASH RIVER REACH RUMORS
 
-| d6 | Rumor |
+| Roll | Rumor |
 |----|-------|
 | 1 | **(T)** "There's a woman in the long refugee column who's been traveling with the column for eight months but never arrives anywhere. She walks with the column, rests with the column, eats with the column when offered, and every time the column reaches a destination, she keeps walking. She doesn't know where she's going. She says she'll know when she gets there." |
 | 2 | **(P)** "The Ash River Reach warlords are going to unite behind Vaen." *(Two of the twelve minor warlords have made statements broadly favorable to Vaen's movement. The other ten have made no statements. Unification would require something that has not yet occurred. The rumor inflates two voices into a consensus that does not exist.)* |
@@ -352,7 +352,7 @@
 
 ### THE SUTENSAI CAPITAL REACH RUMORS
 
-| d6 | Rumor |
+| Roll | Rumor |
 |----|-------|
 | 1 | **(T)** "The Prior Ascended haven't spoken in almost a year. The hierarchy knows why and isn't saying. The last Veil Masters who attempted a deep communion came out looking like they'd seen something they weren't going to describe." |
 | 2 | **(P)** "The Grand Sutensai is preparing an announcement about the Seventh Convergence — a full doctrinal statement clarifying what the hierarchy believes about who the Seventh will be." *(A statement is being drafted. It has been being drafted for four months. The faction that wants controlled disclosure and the faction that wants to maintain silence are producing competing drafts. No announcement has been approved. The announcement may never come.)* |
@@ -365,7 +365,7 @@
 
 ### THE GRAY WATER REACH RUMORS
 
-| d6 | Rumor |
+| Roll | Rumor |
 |----|-------|
 | 1 | **(T)** "A foreign merchant who trades in and out of the Gray Water harbor told a dockside tavern three months ago that their nation's scholars have records of something called the Between — not by that name, different name — that match the Iron Sutra's descriptions almost exactly. The tavern is still talking about it. The merchant hasn't come back." |
 | 2 | **(P)** "The Gray Water harbor has a Hollow Author puppet running the trade licensing office." *(One of the three senior licensing officials is an Author puppet. The licensing office itself is not controlled — only this individual, whose position is used to flag specific shipments for the Author's intelligence network.)* |

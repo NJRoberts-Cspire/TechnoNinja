@@ -112,3 +112,68 @@ The other Veil Masters have filed a formal censure motion against Soren Hai and 
 
 **3. The Candidate (Endgame Revelation)**
 Soren Hai calls the players to the Deep Temple. She tells them the name of her candidate for Sutensai Prime. She explains why this person — who the players may know, in a different context — is the only one who can hold the position given what she knows about the structure at the bottom of the Iron Afterlife. The conversation that follows is not a quest assignment. It is an explanation of the entire nature of the Ascension War, from a perspective that reframes every faction in it. Players who have been paying attention will find that everything connects. Players who haven't will still understand that something fundamental has shifted. Soren Hai, when she finishes, will ask: "Do you understand why I didn't vote?"
+
+---
+
+## COMBAT STATS
+
+> *These stats represent Veil Master Soren Hai in direct confrontation. Most encounters with her will not reach this point — and she knows it. The stat block exists for when diplomacy, manipulation, and leverage have all failed.*
+
+**Tier:** Boss
+**Role:** boss
+**HP:** 96 (FRAME 7 × 8 + 40 Boss base — eighty-three years of Seventh Caste enhancement integration, forty years of continuous Iron Afterlife access)
+**AP Max:** 4
+**Hand Size:** 9
+**Initiative:** 2 (she is partially elsewhere; her body's responses are fractionally delayed)
+
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
+|---|---|---|---|---|---|
+| 2 | 2 | 7 | 6 | 10 | 8 |
+
+*Note: RESONANCE at 10 is the outer edge of what enhanced flesh achieves. This is not a weapon she built. It is what forty years of continuous Iron Afterlife access does to a person who was already exceptional.*
+
+### Basic Attack — Iron Afterlife Pull
+*0 AP | Attack | Once per turn*
+**Effect:** Soren Hai reaches through the dead and finds purchase in the living target's Echomind. Resonant attack, 1 target within medium range. Damage: 8 + RESONANCE (18 total). The target must pass a RESONANCE check (difficulty 5) or be Staggered as their Echomind briefly occupies the Iron Afterlife against their will. Undead and previously Echoed have difficulty 6.
+**Keywords:** Stagger
+
+### The Weight of Sixty Years
+*Tier 1 (1 AP) | Control*
+**Effect:** Soren Hai looks at 1 target who is attempting deception, manipulation, or social leverage. She does not respond to what they said. She responds to what they are doing. That creature must pass a SIGNAL check (difficulty 5) or their next action fails entirely as they become briefly, completely aware of themselves from the outside. She has seen ten thousand versions of this.
+**Keywords:** Stagger
+
+### Partial Phase
+*Tier 1 (1 AP) | Defense*
+**Effect:** Soren Hai is not entirely in the physical world. She has not been for years. She shifts further into elsewhere. For the remainder of this round, 35% of all attacks against her miss regardless of roll. She does not consider this a combat ability. She uses it occasionally when the room becomes more dangerous than interesting.
+
+### What the Dead Know
+*Tier 2 (2 AP) | Control*
+**Effect:** Soren Hai accesses a specific deceased consciousness and channels what it knows about an enemy in this fight. That enemy is Marked and Exposed 3 as Soren Hai describes, with exact accuracy, one thing about them that the enemy has never told a living person. She is not threatening them. She is being accurate. The distinction matters to her.
+**Keywords:** Mark, Expose 3
+
+### The Door Has Opened
+*Tier 2 (2 AP) | Attack*
+**Effect:** Soren Hai deploys the structure she found at the bottom of the Iron Afterlife — not fully, she would not do that, but a fraction of what she mapped over nine years. Signal/Resonance attack, all enemies within close range. Damage: 9 + RESONANCE (19 total). All targets must pass a RESONANCE check (difficulty 5) or be Silenced for 2 rounds. Targets below half HP are also Rooted as their Echomind processes something it was not designed for.
+**Keywords:** Silence, Root
+
+### The Thing At The Bottom
+*Tier 3 (3 AP) | Boss | 1/Scene*
+**Effect:** Soren Hai opens the deepest channel she has mapped. What comes through is not hostile — it predates hostility. All enemies within medium range take 14 + RESONANCE (24 total) Resonance damage. They must pass a RESONANCE check (difficulty 6) or be Staggered, Silenced, and Rooted simultaneously for 1 round as their Echomind encounters the oldest thing in the Iron Afterlife. Soren Hai takes 10 HP self-damage. The iridescence in her eyes intensifies. This is not something she planned to use.
+**Keywords:** Stagger, Silence, Root
+
+### Sixty Years, Three Exceptions
+*Tier 3 (3 AP) | Defense | 3/Scene*
+**Effect:** Soren Hai decides not to fail. If she fails a check or saving throw, she succeeds instead. She has been in the dead for forty years. She has made her peace with most things. She has not made her peace with this ending before the work is done.
+
+### Reaction: She Already Knew
+*Reaction | Triggered by: any creature attempting an attack, card, or action against Soren Hai*
+**Effect:** She answers the question that was not asked. The attacker takes 6 + RESONANCE (16 total) Resonance damage as she responds to the intent rather than the action — what they were going to do registers in the Iron Afterlife before they do it, and she has been reading the Iron Afterlife for forty years.
+
+---
+
+### Combat Behavior
+Soren Hai does not initiate. If attacked, she begins with The Weight of Sixty Years to suppress whatever social or manipulative approach preceded the violence, uses Partial Phase to reduce incoming damage, and responds with Iron Afterlife Pull and What the Dead Know to systematically dismantle the opposition's capacity and confidence. She uses The Thing At The Bottom once, reluctantly, when she has calculated that no other path preserves the work. She does not retreat — she is eighty-three, she has been partially elsewhere for forty years, and she has already thought about this.
+
+### "I Would Prefer Not To"
+If the attacker can demonstrate that they are, in fact, the people she has been waiting for — the right people for the right kind of truth — she will stop immediately and ask them to sit down. She has things to tell them. She would rather tell them than fight them. There is very little time left for fighting.
+

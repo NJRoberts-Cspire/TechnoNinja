@@ -311,7 +311,7 @@ The Cascade is the nightmare scenario that justifies rapid Shell containment: a 
 
 ## Combat Stats
 
-**HP:** 120 (FRAME 8 × 8 + 40 — represents the core network node; individual Shells are Standard tier)
+**HP:** 104 (FRAME 8 × 8 + 40 — represents the core network node; individual Shells are Standard tier)
 **AP Max:** 4
 **Hand Size:** 9 cards
 **Initiative:** 3 (EDGE)

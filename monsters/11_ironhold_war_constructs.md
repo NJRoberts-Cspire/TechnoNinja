@@ -28,7 +28,7 @@ Sentry Platforms were originally deployed as perimeter defense for Ironhold forw
 
 **IRON** 2 | **EDGE** 3 | **FRAME** 3 | **SIGNAL** 2 | **RESONANCE** 1 | **VEIL** 1
 
-**HP:** 20 | **Initiative:** 3 | **AP:** 1 | **Hand Size:** 2
+**HP:** 28 | **Initiative:** 3 | **AP:** 1 | **Hand Size:** 2
 
 **Basic Attack — Targeting Array** (0 AP, once per turn): Ranged, 1 target within medium range. Damage: 5 + EDGE (8 total).
 
@@ -198,7 +198,7 @@ Each unaccounted-for Siege-Walker has a dedicated Ironhold intelligence file mar
 
 **IRON** 10 | **EDGE** 4 | **FRAME** 10 | **SIGNAL** 3 | **RESONANCE** 1 | **VEIL** 1
 
-**HP:** 160 | **Initiative:** 4 | **AP:** 4 | **Hand Size:** 10
+**HP:** 120 | **Initiative:** 4 | **AP:** 4 | **Hand Size:** 10
 
 **Basic Attack — Siege Fist** (0 AP, once per turn): Melee reach (15 ft.), 1 target. Damage: 13 + IRON (23 total). Structures take double damage.
 
@@ -244,7 +244,7 @@ There were seven Override Prime prototypes. Two were successfully decommissioned
 
 **IRON** 7 | **EDGE** 7 | **FRAME** 7 | **SIGNAL** 8 | **RESONANCE** 2 | **VEIL** 3
 
-**HP:** 120 | **Initiative:** 7 | **AP:** 4 | **Hand Size:** 10
+**HP:** 96 | **Initiative:** 7 | **AP:** 4 | **Hand Size:** 10
 
 **Basic Attack — Precision Strike** (0 AP, once per turn): Melee or Ranged, 1 target. Damage: 9 + EDGE (16 total). Ignores cover bonuses.
 
@@ -291,6 +291,7 @@ The Null-Frame represents the absolute terminal expression of the Ironhold's wea
 **IRON** 10 | **EDGE** 3 | **FRAME** 10 | **SIGNAL** 5 | **RESONANCE** 1 | **VEIL** 1
 
 **HP:** 200 | **Initiative:** 3 | **AP:** 4 | **Hand Size:** 12
+*(Note: HP intentionally exceeds formula (FRAME 10 × 8 + 40 = 120) — the Null-Frame is designated a campaign-scale threat not intended for direct combat resolution. See Encounter Notes.)*
 
 **Basic Attack — Null-Fist** (0 AP, once per turn): Melee reach (20 ft.), 1 target. Damage: 14 + IRON (24 total). Structures take triple damage.
 

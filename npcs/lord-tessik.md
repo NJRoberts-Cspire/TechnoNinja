@@ -109,3 +109,74 @@ Players encounter Mira the mining engineer (separately filed). She shows them th
 
 **3. The Replacement (Aftermath/Revelation)**
 Players have unmasked Tessik or forced the Author to deploy the replacement. They are back in the Pale Reach three weeks later. "Tessik" is at his desk. He welcomes them warmly. The scar near his chin is slightly different. He orders wine from the wrong vineyard, catching the error and laughing about it: "I've been drinking the second-hill vintage lately, I keep forgetting you prefer the first-hill." Players who notice these details and confront them will find the replacement version of the Tessik puppet performing the exact reaction the Author has prepared for this scenario: genuine-seeming confusion, the right amount of hurt at the accusation, and then a subtle shift toward administrative authority that is slightly more naked than the original Tessik ever showed. The Pale Reach's people will not believe the players. Not yet. They've known Tessik for thirty-one years.
+
+---
+
+## COMBAT STATS
+
+> *These stats represent Lord Tessik in direct confrontation. Most encounters with him will not reach this point — and he knows it. The stat block exists for when diplomacy, manipulation, and leverage have all failed.*
+
+**Tier:** Boss
+**Role:** boss
+**HP:** 104 (FRAME 8 × 8 + 40 Boss base — thirty-one years of progressive enhancement integration has exceeded the original frame)
+**AP Max:** 4
+**Hand Size:** 9
+**Initiative:** 4
+
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
+|---|---|---|---|---|---|
+| 4 | 4 | 8 | 6 | 4 | 10 |
+
+*Note: Tessik's VEIL and SIGNAL are at the apex of the puppet model's capability. His RESONANCE is deliberately suppressed — the Author cannot replicate what it cannot model. His FRAME is genuinely exceptional; thirty-one years of enhancement accumulation is real regardless of the original architecture.*
+
+### Basic Attack — The Lord's Welcome
+*0 AP | Attack | Once per turn*
+**Effect:** Tessik says exactly the right thing. Social/Command, 1 target within close range who can hear him. Damage: 7 + VEIL (17 total). The target must pass a VEIL check (difficulty 4) or be Staggered — not from force, from the specific vertigo of realizing someone you trusted is doing this.
+**Keywords:** Stagger
+
+### Thirty-One Years of Obligation
+*Tier 1 (1 AP) | Control*
+**Effect:** Tessik invokes the accumulated weight of relationships, favors, and genuine goodwill he has built across the Pale Reach. 1 target who has had a positive interaction with him must pass a VEIL check (difficulty 5) or be Rooted — they cannot bring themselves to take the next action against him. Against targets who have never met him, this functions as a standard VEIL difficulty 3 check.
+**Keywords:** Root
+
+### Graceful Misdirection
+*Tier 1 (1 AP) | Control*
+**Effect:** Tessik answers a question that was not asked, in a way that satisfies the asker. 1 target who asked a question or made a demand this round is Staggered as the response redirects their attention. The puppet has done this so many times it is reflexive.
+**Keywords:** Stagger
+
+### Administrative Command
+*Tier 2 (2 AP) | Control*
+**Effect:** Tessik invokes Pale Reach institutional authority. He can do one of: apply Silence and Root to 1 enemy as communication and movement are officially restricted, grant all allies in the scene Guard 6 + FRAME (14) as Pale Reach personnel respond to their lord's signal, or Expose 3 a single target as their position is publicly declared compromised.
+**Keywords:** Silence, Root, Guard, Expose 3
+
+### The Puppet Speaks
+*Tier 2 (2 AP) | Attack*
+**Effect:** The warmth drops. The Author's real architecture surfaces for one action. Signal attack, 1 target. Damage: 9 + SIGNAL (15 total). Apply Expose 2 and Vulnerable 2. The target makes a RESONANCE check (difficulty 4) or is also Silenced — the Author's raw signal is not designed to be comfortable for living Echominds.
+**Keywords:** Expose 2, Vulnerable 2, Silence
+
+### Replacement Protocol
+*Tier 2 (2 AP) | Utility | 1/Combat*
+**Effect:** The Author severs the primary connection and reroutes to the secondary architecture. Tessik recovers 20 HP and all current status effects are cleared. His behavioral model shifts slightly — the reaction time improves 1 tick, the warmth in his voice calibrates 2% colder. Players who were tracking the original will notice. Most won't.
+
+### The Pale Reach Belongs to Me
+*Tier 3 (3 AP) | Boss*
+**Effect:** Tessik invokes his full political authority as a legitimate ruler. All NPCs in the scene who have not been explicitly told the truth about him must pass a VEIL check (difficulty 5) or turn against the players' side for 2 rounds — not through magical compulsion, but through thirty-one years of earned trust being deployed as a weapon. Against player characters: Expose 3 and Vulnerable 3 as the social architecture of the room becomes hostile.
+**Keywords:** Expose 3, Vulnerable 3
+
+### Author Override
+*Tier 4 (4 AP) | Boss | 1/Scene*
+**Effect:** The Author takes direct control rather than delegating. Tessik functions at full Author capability for 1 round. He makes one attack against every enemy in close range simultaneously: Damage 8 + SIGNAL (14 total) each, Signal type. Apply Silence to all targets hit. Then Tessik (the puppet body) drops to 1 HP — direct Author control is not sustainable from range.
+**Keywords:** Silence
+
+### Reaction: What I Would Never Do
+*Reaction | Triggered by: being accused of deception or revealed as a puppet in front of NPCs*
+**Effect:** Tessik performs hurt, genuine-seeming confusion, and the appropriate amount of authority simultaneously. All NPCs present must pass a VEIL check (difficulty 5) or believe his denial over the accusation. He does not use this reaction. It simply occurs. That is how good the behavioral model is.
+
+---
+
+### Combat Behavior
+Tessik uses Thirty-One Years of Obligation and Graceful Misdirection to suppress combat before it escalates, then The Pale Reach Belongs to Me to turn the room against the players if it does. The Puppet Speaks is the tell — when Tessik uses this, players who have been paying attention will understand they have finally seen what was there all along. He uses Author Override only when the behavioral model has run out of options. He does not retreat; he replaces.
+
+### "I Would Prefer Not To"
+If the players are willing to walk away with what they came for — and without telling anyone — Tessik will offer it. The offer is genuine. The Author has calculated that they are more useful intact than escalated. This calculation may be correct.
+

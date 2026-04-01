@@ -104,3 +104,53 @@ Players learn, through another source (Sev's information network, or the Collect
 
 **3. The Testimony (Endgame/Aftermath)**
 Tessik (the puppet) has been exposed. The Pale Reach is in administrative chaos. Someone needs to stand before the Reach's council and explain what happened in the lower mines and for how long. Mira is the only person who documented it and can speak to it technically. She is not a public person. She is afraid of the room and of what comes after. She is going to do it anyway. Players who have been her allies will be in the room. She will not ask for support — she will simply note, before she stands up, that she is glad they are there.
+
+---
+
+## COMBAT STATS
+
+> *These stats represent Mira of the Pale in direct confrontation. Most encounters with her will not reach this point — and she knows it. The stat block exists for when diplomacy, manipulation, and leverage have all failed.*
+
+**Tier:** Standard
+**Role:** skirmisher
+**HP:** 52 (FRAME 5 × 8 + 12 Standard base — Mira is solidly built and maintains her own enhancements)
+**AP Max:** 2
+**Hand Size:** 4
+**Initiative:** 3
+
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
+|---|---|---|---|---|---|
+| 5 | 3 | 5 | 6 | 3 | 2 |
+
+### Basic Attack — Survey Instrument
+*0 AP | Attack | Once per turn*
+**Effect:** Mira does not carry a weapon. She carries tools, and tools can break things. She swings a calibrated survey instrument with the force of someone who has been handling heavy equipment for sixteen years. Melee, 1 target. Damage: 6 + IRON (11 total). On a hit, reduce the target's Guard by 2 — she knows how to find the structural weakness.
+
+### Structural Analysis
+*Tier 1 (1 AP) | Control*
+**Effect:** Mira examines the environment around a target and identifies the load-bearing point. She designates a terrain feature within close range. Until end of combat, any attack from cover behind that feature loses its defense bonus — she has already calculated exactly why the wall will not protect them. Alternatively: one enemy with visible enhancement architecture is Exposed 2 as she identifies the integration flaw.
+**Keywords:** Expose 2
+
+### Ore Sense
+*Tier 1 (1 AP) | Utility*
+**Effect:** Mira activates her resonance sensor and reads the area. She identifies: the location of all resonant-metal in close range (including concealed weapons and enhancement architecture), whether any terrain within close range is structurally compromised, and one enemy whose enhancement configuration is specifically vulnerable to her next attack. That enemy is Marked for 1 round.
+**Keywords:** Mark
+
+### Documentation of Record
+*Tier 2 (2 AP) | Control | 1/Combat*
+**Effect:** Mira produces three years of personal documentation and states, calmly, what it proves. 1 target within close range who can hear her must pass a VEIL check (difficulty 4) or be Staggered as the specific weight of provable, documented truth lands. If the target is directly implicated in the discrepancy she has spent three years tracking, the difficulty increases to 5. This is not persuasion. This is evidence.
+**Keywords:** Stagger
+
+### Mine Structural Collapse
+*Tier 2 (2 AP) | Control*
+**Effect:** Mira is only available in mine environments. She identifies a structural failure point and initiates a controlled collapse. All enemies within a designated close-range area must pass a FRAME check (difficulty 3) or be Rooted in rubble and take 4 + SIGNAL (10 total) damage from falling debris. She knew where to push.
+**Keywords:** Root
+
+---
+
+### Combat Behavior
+Mira uses Structural Analysis and Ore Sense first — she needs to understand what she's dealing with before she acts. She does not want to fight, but if she does, she fights practically: find the weakness, apply pressure to it, stop when the threat stops. She will use Mine Structural Collapse without hesitation if it ends a confrontation in a mine environment. She is not a soldier. She is a professional who is very good at her job, and her job is knowing how things break.
+
+### "I Would Prefer Not To"
+The moment the immediate threat to her documentation is neutralized, Mira will stop fighting and offer information instead — she has spent three years looking for someone to give it to, and combat is not how she wants this to end.
+

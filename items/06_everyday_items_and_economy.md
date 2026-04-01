@@ -15,10 +15,7 @@ The primary currency is the **Resonant Mark** (RM) — a flat, stamped disk of l
 
 Secondary currency is the **Standard Weight** (SW) — non-resonant metal currency used in the outer Reaches and Ashlands territories where the Wire Market's verification system is not fully present. Standard Weights are approximately equivalent to gold pieces in function but worth roughly 60% of a Resonant Mark in Reach territory.
 
-**Conversion:** 1 Resonant Mark = approximately 1.6 gold pieces in standard D&D economy terms.
-**For simplicity in play:** Use Resonant Marks as the base unit with the following equivalents:
-- 1 RM = 1 gp (use standard gp prices for base equipment)
-- Modify as noted in the tables below
+**For simplicity in play:** Use Resonant Marks as the base unit. The Resonant Mark is the standard unit of exchange in all seven Reaches and replaces gold piece equivalencies from any reference tables.
 
 The **Ashlands** operate on barter — no currency is accepted in deep Ashlands settlements because there is no infrastructure to back it and nothing to spend it on. Barter rates are listed separately.
 
@@ -28,44 +25,43 @@ The **Ashlands** operate on barter — no currency is accepted in deep Ashlands 
 
 ### Weapons
 
-*Tesshari weapon names replace standard D&D equivalents. The underlying mechanics are identical unless noted.*
+*Tesshari weapon names replace standard equivalents. The underlying damage values are as listed unless noted.*
 
-| Tesshari Name | D&D Equivalent | Cost (RM) | Notes |
+| Tesshari Name | Type | Cost (RM) | Notes |
 |---|---|---|---|
-| **Scavenged Blade** | Dagger | 2 RM | Salvage grade. Roll d6; on 1, requires maintenance after use |
-| **Circuit Dagger** | Dagger | 5 RM | Standard quality, resonant wire inlay |
-| **Resonant Blade** | Short Sword | 15 RM | Standard resonant construction |
-| **Long Resonant Blade** | Long Sword | 25 RM | |
-| **Spine Blade** | Rapier | 25 RM | Slender construction, preferred by Wire Market operatives |
-| **Ashlands Chopper** | Hand Axe | 8 RM | Heavy and unrefined; +1 to Strength checks involving cutting |
+| **Scavenged Blade** | Light blade | 2 RM | Salvage grade. After each use in combat, DM rolls privately — on a 1, requires maintenance before next use or takes -1 damage |
+| **Circuit Dagger** | Light blade | 5 RM | Standard quality, resonant wire inlay |
+| **Resonant Blade** | Short blade | 15 RM | Standard resonant construction |
+| **Long Resonant Blade** | Long blade | 25 RM | |
+| **Spine Blade** | Finesse blade | 25 RM | Slender construction, preferred by Wire Market operatives. Uses EDGE instead of IRON for Melee Attack cards |
+| **Ashlands Chopper** | Heavy light blade | 8 RM | Heavy and unrefined; +1 to IRON checks involving cutting through materials |
 | **Void Lance** | Spear | 8 RM | Resonant tip on standard haft |
-| **Signal Staff** | Quarterstaff | 10 RM | Resonant ends; serves as Wire Craft interface when touching conductive surface |
-| **Wire-Whip** | Whip | 18 RM | Wire-silk composite; reach 15 feet (not 10), 1d6 damage |
-| **Salvage Bar** | Greatclub | 3 RM | Repurposed structural component |
-| **Resonant Greatsword** | Greatsword | 55 RM | |
-| **War Frame Blade** | Maul (functions as) | 45 RM | Two-handed heavy chopper for enhanced-arm users |
-| **Pulse Arm, Standard** | Hand Crossbow (ranged equivalent) | 80 RM | Signal-discharge weapon. 30/90 range, 1d8 force damage. Uses power cells (5 RM per 20 shots). Requires no physical ammunition |
-| **Pulse Arm, Heavy** | Heavy Crossbow (ranged equivalent) | 200 RM | 60/120 range, 1d12 force damage. Power cells 8 RM/20 shots |
-| **Signal Thrower** | Shortbow (ranged equivalent) | 35 RM | Wire-silk tension, resonant bolts. Standard bolt construction |
-| **Resonant Bolts (20)** | Arrows (20) | 3 RM | |
-| **Void-Dart** | Dart | 5 RM per 10 | Resonant tips; function as darts |
+| **Signal Staff** | Staff | 10 RM | Resonant ends; serves as Wire Craft interface when touching a conductive surface |
+| **Wire-Whip** | Reach weapon | 18 RM | Wire-silk composite; reach 15 feet, 1d6 base damage, uses EDGE |
+| **Salvage Bar** | Two-handed club | 3 RM | Repurposed structural component |
+| **Resonant Greatsword** | Two-handed blade | 55 RM | |
+| **War Frame Blade** | Two-handed heavy | 45 RM | Heavy chopper for enhanced-arm users |
+| **Pulse Arm, Standard** | Ranged (signal) | 80 RM | Signal-discharge weapon. Range 30/90, base damage 8 force. Uses EDGE. Power cells 5 RM per 20 shots. No physical ammunition |
+| **Pulse Arm, Heavy** | Ranged (signal) | 200 RM | Range 60/120, base damage 12 force. Power cells 8 RM per 20 shots |
+| **Signal Thrower** | Ranged (physical) | 35 RM | Wire-silk tension, resonant bolts. Uses EDGE |
+| **Resonant Bolts (20)** | Ammunition | 3 RM | |
+| **Void-Dart** | Light thrown | 5 RM per 10 | Resonant tips |
 
 ---
 
 ### Armor
 
-| Tesshari Name | D&D Equivalent | Cost (RM) | Notes |
+| Tesshari Name | Type | Cost (RM) | Notes |
 |---|---|---|---|
-| **Salvage Patchwork** | Leather Armor | 10 RM | Mismatched but functional |
-| **Wire-Mesh Armor** | Studded Leather | 45 RM | Wire-silk composite with resonant studs |
-| **Signal Weave** | Hide Armor | 10 RM | Treated non-resonant material; common in lower castes |
-| **Salvage Plating** | Scale Mail | 50 RM | Individual resonant plates on backing; adjustable |
-| **Standard Resonant Plate** | Breastplate | 400 RM | Quality resonant metal torso armor |
-| **Resonance Shell** | Half Plate | 750 RM | Resonant plate with flexible wire-silk undersuit |
-| **Full Resonance Carapace** | Plate Armor | 1,500 RM | Full body resonant plate; requires fitting |
-| **Void-Weave Robe** | Mage Armor equivalent | 200 RM | Non-standard armor for practitioners; AC 13 + DEX, no armor proficiency needed |
-| **Flesh-Reinforced Carapace** | Special | 2,000 RM | Resonant plate integrated with biological reinforcement at key points; AC 18, Disadvantage on STR checks but not Stealth. Rare, requires specialist fitting |
-| **Tower Shield Equivalent** | Shield | 30 RM | Resonant metal shield; +2 AC standard |
+| **Salvage Patchwork** | Light | 10 RM | Defense Value +2. Mismatched but functional |
+| **Wire-Mesh Armor** | Light | 45 RM | Defense Value +3. Wire-silk composite with resonant studs |
+| **Signal Weave** | Light | 10 RM | Defense Value +2. Treated non-resonant material; common in lower castes |
+| **Salvage Plating** | Medium | 50 RM | Defense Value +4. Individual resonant plates on backing; adjustable |
+| **Standard Resonant Plate** | Medium | 400 RM | Defense Value +5. Quality resonant metal torso armor |
+| **Resonance Shell** | Medium-Heavy | 750 RM | Defense Value +6. Resonant plate with flexible wire-silk undersuit |
+| **Full Resonance Carapace** | Heavy | 1,500 RM | Defense Value +8. Full body resonant plate; requires fitting |
+| **Void-Weave Robe** | Light (practitioner) | 200 RM | Defense Value +3. No armor restriction on cards. For non-martial bearers |
+| **Flesh-Reinforced Carapace** | Heavy (integrated) | 2,000 RM | Defense Value +8. Resonant plate integrated with biological reinforcement at key points. All IRON checks take -1 but Stealth is unaffected. Rare, requires specialist fitting |
 
 ---
 
@@ -73,9 +69,9 @@ The **Ashlands** operate on barter — no currency is accepted in deep Ashlands 
 
 | Item | Cost (RM) | Notes |
 |---|---|---|
-| **Standard Ward** | 30 RM | Resonant metal shield, +2 AC |
-| **Signal Ward** | 85 RM | Enhanced resonant shield; provides +2 AC and resistance to pulse arm / force damage once per encounter |
-| **Salvage Ward** | 8 RM | Improvised; +1 AC, 10% chance per hit of requiring repair |
+| **Standard Ward** | 30 RM | Resonant metal shield. Defense Value +2 |
+| **Signal Ward** | 85 RM | Enhanced resonant shield. Defense Value +2. Once per encounter, reduce incoming force damage by 4 |
+| **Salvage Ward** | 8 RM | Improvised. Defense Value +1. After each hit, DM rolls privately — on a 1, the ward requires repair before granting its bonus again |
 
 ---
 
@@ -88,15 +84,15 @@ Cybernetic enhancements are tiered in Tesshari's Caste of Steel system. The pack
 
 **Salvage Tier Enhancement: Per Enhancement, 50–200 RM**
 
-| Enhancement | Description | Cost (RM) | Mechanical Benefit |
+| Enhancement | Description | Cost (RM) | Card Modification |
 |---|---|---|---|
-| **Salvage Eye** | Optical replacement from repurposed components | 80 RM | Low-light vision to 60 ft; disadvantage on Perception checks in bright light (calibration drift) |
-| **Salvage Arm** | Single arm replacement, basic motor function | 100 RM | Arm cannot be disarmed. +1 to Strength checks involving that arm. Occasional system lag (DC 10 CON check; on fail, arm doesn't respond for 1 round, 1/day) |
-| **Salvage Leg** | Single leg replacement, basic mobility | 150 RM | Movement speed +5 ft. Difficult terrain doesn't reduce speed to zero (minimum 10 ft) |
-| **Salvage Hearing Array** | Ear replacement from repurposed audio equipment | 60 RM | Advantage on Perception checks involving sound in quiet environments; disadvantage in loud environments |
-| **Salvage Pain Filter** | Crude neurological suppressor | 50 RM | Ignore first 5 damage from any single attack. After 6 months: DC 12 WIS save monthly or lose pain sensation entirely (also lose Danger Sense — not warned by physical threat signals) |
+| **Salvage Eye** | Optical replacement from repurposed components | 80 RM | Low-light vision to 60 ft. All Perception cards in bright light take -1 (calibration drift) |
+| **Salvage Arm** | Single arm replacement, basic motor function | 100 RM | Arm cannot be disarmed. +1 to IRON checks involving that arm. Once per day, DM rolls privately — on a 1, the arm doesn't respond until the start of the bearer's next turn |
+| **Salvage Leg** | Single leg replacement, basic mobility | 150 RM | All Mobility cards gain +5 feet of movement range. Difficult terrain cannot reduce speed to zero (minimum 10 ft movement) |
+| **Salvage Hearing Array** | Ear replacement from repurposed audio equipment | 60 RM | All sound-based Perception cards gain +2 in quiet environments; take -2 in loud environments |
+| **Salvage Pain Filter** | Crude neurological suppressor | 50 RM | Reduce incoming damage from any single Attack card by 5, once per round. After 6 months: RESONANCE check (difficulty 3) monthly or lose pain sensation entirely — also lose the ability to detect physical danger through sensation (Perception cards for physical threats take -2 permanently) |
 
-**Salvage Tier Full Package (all above):** 380 RM, installed. Requires salvage-grade installer (available in most settlements). Package installation: 4 days, DC 12 Medicine check per enhancement.
+**Salvage Tier Full Package (all above):** 380 RM installed. Requires salvage-grade installer (available in most settlements). Package installation: 4 days, SIGNAL check (difficulty 3) per enhancement.
 
 ---
 
@@ -105,16 +101,16 @@ Cybernetic enhancements are tiered in Tesshari's Caste of Steel system. The pack
 
 **Standard Tier Enhancement: Per Enhancement, 300–1,200 RM**
 
-| Enhancement | Description | Cost (RM) | Mechanical Benefit |
+| Enhancement | Description | Cost (RM) | Card Modification |
 |---|---|---|---|
-| **Standard Optical Array** | Full visual replacement with adjustable settings | 500 RM | Darkvision 60 ft; magnification up to 10x; low-light vision 120 ft; advantage on Perception (sight) |
-| **Standard Limb System — Arm** | Full arm replacement, precision-calibrated | 800 RM | +1 to attack rolls with that arm. Cannot be disarmed. +2 to all Strength and Dexterity checks involving the arm |
-| **Standard Limb System — Leg** | Full leg replacement | 800 RM | Movement speed +10 ft; advantage on Athletics (jumping, climbing) |
-| **Standard Auditory Array** | Enhanced hearing with signal-filtering | 400 RM | Advantage on Perception (sound). Can filter specific sounds/signal types (Wire Craft communication, resonant frequencies) as a bonus action |
-| **Standard Respiratory Filter** | Lung-augmentation with environmental filter | 350 RM | Immunity to inhaled toxins and poisons; advantage on CON saves against airborne effects |
-| **Neural Processing Node** | Signal-speed enhancement for cognitive processing | 600 RM | +1 to initiative; advantage on INT checks made as reactions |
-| **Subdermal Resonant Plating** | Below-skin resonant mesh for protection | 700 RM | +1 AC, does not count as armor, does not require wearing |
-| **Metabolic Stabilizer** | Biological-process enhancement | 500 RM | Can go twice as long without food, water, sleep before suffering exhaustion; reduce exhaustion recovery time by half |
+| **Standard Optical Array** | Full visual replacement with adjustable settings | 500 RM | Darkvision 60 ft; magnification up to 10x; low-light vision 120 ft. All sight-based Perception cards gain +2 |
+| **Standard Limb System — Arm** | Full arm replacement, precision-calibrated | 800 RM | +1 damage to all Attack cards using that arm. Arm cannot be disarmed. +2 to all IRON and EDGE checks involving the arm |
+| **Standard Limb System — Leg** | Full leg replacement | 800 RM | All Mobility cards gain +10 feet of movement range. All Athletics-based cards for jumping and climbing gain +2 |
+| **Standard Auditory Array** | Enhanced hearing with signal-filtering | 400 RM | All sound-based Perception cards gain +2. As a free action, filter specific sound or signal types (Wire Craft communication, resonant frequencies) to ignore background noise |
+| **Standard Respiratory Filter** | Lung-augmentation with environmental filter | 350 RM | Immune to inhaled toxins and poisons. All FRAME checks against airborne effects gain +2 |
+| **Neural Processing Node** | Signal-speed enhancement for cognitive processing | 600 RM | +1 to initiative order (EDGE tiebreaker). All SIGNAL checks made as reactions gain +2 |
+| **Subdermal Resonant Plating** | Below-skin resonant mesh for protection | 700 RM | Defense Value +1. Does not count as armor. Does not require wearing |
+| **Metabolic Stabilizer** | Biological-process enhancement | 500 RM | The bearer can go twice as long without food, water, and sleep before suffering exhaustion. Exhaustion recovery time is halved |
 
 **Standard Tier Full Package (Combat Focus — Arms, Legs, Optical, Neural):** 2,700 RM installed. Wire Market standard installer required. 8 days total installation. Package pricing includes post-installation calibration.
 
@@ -127,16 +123,16 @@ Cybernetic enhancements are tiered in Tesshari's Caste of Steel system. The pack
 
 **Resonant Tier Enhancement: Per Enhancement, 2,000–15,000 RM**
 
-| Enhancement | Description | Cost (RM) | Mechanical Benefit |
+| Enhancement | Description | Cost (RM) | Card Modification |
 |---|---|---|---|
-| **Resonant Optical Array** | Full optical system with predictive analysis layer | 4,000 RM | All Standard Optical benefits; +2 to attack rolls (predictive targeting); cannot be surprised; advantage on DEX saves |
-| **Resonant Limb — Combat Arm** | Integrated weapon system with precision calibration | 8,000 RM | +2 to attack and damage rolls; advantage on Athletics checks; one integrated weapon of choice (functions as a masterwork version of any Standard Tier weapon) |
-| **Resonant Spine Array** | Full spinal enhancement with Echomind integration | 6,000 RM | +2 to all Strength and Dexterity checks; cannot be paralyzed; Wire Craft network access without external device |
-| **Resonant Neural Matrix** | High-grade cognitive and signal processing | 7,000 RM | +2 to Intelligence and Wisdom checks; cannot be surprised; advantage on saving throws against mental effects |
-| **Resonant Cardiac System** | Heart and circulatory replacement | 5,000 RM | +3 to maximum hit points per level; advantage on CON saves; resistance to disease and poison |
-| **Resonant Respiratory Complex** | Full respiratory replacement | 3,500 RM | Immunity to all inhaled effects; can function in vacuum/water for up to 4 hours; advantage on CON saves |
-| **Resonant Skeletal Reinforcement** | Structural enhancement of the biological skeleton | 10,000 RM | +3 AC (subdermal, doesn't stack with standard subdermal); immunity to being broken/disarmed; +4 to Strength checks |
-| **Echomind Interface** | Direct neural-resonant interface for Echomind amplification | 12,000 RM | Iron Sutra Readings are extended; +4 to all spiritually-based checks; can initiate Wire Craft Deep Interface without additional hardware |
+| **Resonant Optical Array** | Full optical system with predictive analysis layer | 4,000 RM | All Standard Optical benefits. +2 damage to all Attack cards (predictive targeting). Bearer cannot be surprised. All EDGE Defense cards gain +2 |
+| **Resonant Limb — Combat Arm** | Integrated weapon system with precision calibration | 8,000 RM | +2 damage to all Attack cards using that arm. +2 to all Athletics-based IRON cards. One integrated weapon of choice functioning as a masterwork weapon of its type |
+| **Resonant Spine Array** | Full spinal enhancement with Echomind integration | 6,000 RM | +2 to all IRON and EDGE checks. Immune to Stagger and paralysis effects. Wire Craft network access without external device |
+| **Resonant Neural Matrix** | High-grade cognitive and signal processing | 7,000 RM | +2 to all SIGNAL and RESONANCE checks. Bearer cannot be surprised. All Defense cards against mental Control effects gain +2 |
+| **Resonant Cardiac System** | Heart and circulatory replacement | 5,000 RM | +3 HP maximum per level. All FRAME checks gain +2. Reduce incoming disease and poison effects by 3 |
+| **Resonant Respiratory Complex** | Full respiratory replacement | 3,500 RM | Immune to all inhaled effects. Can function in vacuum or underwater for up to 4 hours. All FRAME checks gain +2 |
+| **Resonant Skeletal Reinforcement** | Structural enhancement of the biological skeleton | 10,000 RM | Defense Value +3 (subdermal; does not stack with standard subdermal plating). Immune to disarm and forced-drop effects. All IRON checks gain +4 |
+| **Echomind Interface** | Direct neural-resonant interface for Echomind amplification | 12,000 RM | Iron Sutra Readings are extended and more detailed. All RESONANCE-based cards gain +4. Can initiate Wire Craft Deep Interface without additional hardware |
 
 **Resonant Tier Full Military Configuration (Optical, Combat Arm x2, Spine, Neural):** 33,000 RM. Requires Resonant-certified Wire Market installation specialist. 3 weeks installation and calibration. Individual calibration to bearer's Echomind; non-transferable without recalibration (2,000 RM, 1 week).
 
@@ -148,7 +144,7 @@ Cybernetic enhancements are tiered in Tesshari's Caste of Steel system. The pack
 
 | Service | Cost (RM) | Notes |
 |---|---|---|
-| **Standard Enhancement Maintenance** | 50 RM/month | Calibration, minor repairs, signal-alignment. Skipping: 10% chance per month of enhancement malfunction (DM rolls in secret) |
+| **Standard Enhancement Maintenance** | 50 RM/month | Calibration, minor repairs, signal-alignment. Skipping: 10% chance per month of enhancement card modification malfunction (DM rolls in secret) |
 | **Emergency Enhancement Repair** | 150–800 RM | Varies by damage severity and tier |
 | **Full Recalibration** | 200–1,500 RM | After significant physical trauma, enhancement mismatch, or system conflict. Required if two enhancements develop resonant-frequency interference |
 | **Enhancement Removal** | 300–2,000 RM | Depends on bonding depth. Salvage-tier: 300 RM. Standard: 600 RM. Resonant: 2,000+ RM |
@@ -168,10 +164,10 @@ Cybernetic enhancements are tiered in Tesshari's Caste of Steel system. The pack
 | **Standard Reading** | 30 RM | Echomind assessment; spiritual health check; identifies enhancement-related spiritual drift |
 | **Deep Reading** | 150 RM | Extended assessment; identifies spiritual conflicts, Afterlife residue, between-plane sensitivity. Requires an Iron Sutra practitioner of rank |
 | **Iron Afterlife Consultation — Near-Plane** | 200 RM | Communication with recently-dead (within 1 year) Echominds via Iron Sutra practitioner intermediary |
-| **Iron Afterlife Consultation — Deep** | 800 RM | Communication with longer-dead Echominds; success not guaranteed (DC 15 + years dead, Wisdom check by practitioner) |
+| **Iron Afterlife Consultation — Deep** | 800 RM | Communication with longer-dead Echominds; success not guaranteed (RESONANCE check by practitioner, difficulty 3 + 1 per decade dead) |
 | **Spiritual Cleansing** | 100–500 RM | Removal of between-plane residue, minor Afterlife contamination, Convergence-adjacent influence. Heavy contamination may require multiple sessions |
 | **Convergence Assessment** | 250 RM | Iron Sutra reading specifically focused on the bearer's relationship to the Seventh Convergence; which claimant's signal they are resonant with (if any); proximity to Convergence sensitivity |
-| **Enhancement Spiritual Calibration** | 80 RM | Iron Sutra blessing of a cybernetic enhancement; the enhancement resonates with the Echomind more smoothly. Mechanics: advantage on first Attunement roll for that enhancement |
+| **Enhancement Spiritual Calibration** | 80 RM | Iron Sutra blessing of a cybernetic enhancement; the enhancement resonates with the Echomind more smoothly. The bearer's first Integration attempt with that enhancement gains +2 |
 | **Funeral Rites** | 50–300 RM | Proper Echomind transition ceremony; prevents the dead from lingering in the near-Afterlife involuntarily. Skipping rites: 20% chance the deceased Echomind becomes a near-Afterlife residue entity |
 
 ---
@@ -249,7 +245,7 @@ In deep Ashlands settlements, currency does not circulate. The Wire Market's sig
 
 | Service | Barter Equivalent |
 |---|---|
-| **Salvage salvage run (one day)** | Negotiated; typically a share of what is found |
+| **Salvage run (one day)** | Negotiated; typically a share of what is found |
 | **Enhancement repair (salvage-grade)** | Materials cost + 2–4 water-days labor |
 | **Guide services (Scar approaches)** | 6–10 water-days per day, paid in advance, no refunds |
 | **Medical care (actual surgery)** | Rare. The value is whatever the patient has. The healer knows this and negotiates accordingly |

@@ -109,3 +109,61 @@ Players observe Harren in a social situation arguing about the Wire Market's new
 
 **3. The Replacement (Revelation/Consequence)**
 Players have gathered enough evidence. They confront Harren. The scene goes wrong — the puppet assesses exposure as imminent and takes action. The body of Harren (the puppet) is found two days later. Within the week, "Harren" is back at his desk with a slightly different laugh, no memory of the confrontation, a small scar near his left ear that wasn't there before, and an explanation about a medical procedure. Players now have proof of flesh-puppet technique in the Wire Market, a live replacement puppet in a position of power, and a Wire Market that is resistant to believing them. The Signal, when contacted, says: "I've been trying to tell people about this for eight years."
+
+---
+
+## COMBAT STATS
+
+> *These stats represent Guild Master Harren in direct confrontation. Most encounters with him will not reach this point — and he knows it. The stat block exists for when diplomacy, manipulation, and leverage have all failed.*
+
+**Tier:** Elite
+**Role:** controller
+**HP:** 68 (FRAME 5 × 8 + 28 — the puppet's structural integrity exceeds a living body of equivalent apparent Caste)
+**AP Max:** 3
+**Hand Size:** 7
+**Initiative:** 5
+
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
+|---|---|---|---|---|---|
+| 3 | 5 | 5 | 7 | 2 | 8 |
+
+### Basic Attack — Chilled Bitter-Leaf
+*0 AP | Attack | Once per turn*
+**Effect:** Harren does not attack violently. He makes a social observation that reframes the entire situation. Social/Command, 1 target within close range. Damage: 6 + VEIL (14 total). If the target is currently Marked or Exposed, add +3 damage — he was waiting for this.
+
+### Charming Deflection
+*Tier 1 (1 AP) | Control*
+**Effect:** Harren responds to a threat with the exact right thing. 1 target who can hear him must pass a VEIL check (difficulty 5) or be Staggered as they recalibrate — the response was so appropriate that it briefly reads as no threat at all. Harren takes no damage from the triggering source if the check fails.
+**Keywords:** Stagger
+
+### Wire Market Access
+*Tier 1 (1 AP) | Control*
+**Effect:** Harren activates an Eastern Lanes network contact. He can: apply Silence to an enemy who relies on Wireweave infrastructure, reduce one enemy's AP Max by 1 until end of their next turn (their communication lines are cut), or grant an ally +3 to their next SIGNAL check.
+**Keywords:** Silence
+
+### The Whole Board
+*Tier 2 (2 AP) | Control*
+**Effect:** Harren has been processing this situation since before it began. He designates up to 2 enemies within close range. Both are Marked and Exposed 1 as he commits to the Author's contingency protocol. Allies targeting either Marked enemy this round gain +SIGNAL (7) bonus damage.
+**Keywords:** Mark, Expose 1
+
+### Operational Necessity
+*Tier 2 (2 AP) | Attack | 1/Combat*
+**Effect:** Harren has not had to do this personally in fourteen years. He produces a concealed resonant-steel tool and strikes with the precise efficiency of the Author's engineering. Melee, 1 target. Damage: 10 + SIGNAL (17 total). Apply Bleed 2. The target must pass a FRAME check (difficulty 4) or be Staggered — the technique is very specifically targeted.
+**Keywords:** Bleed 2, Stagger
+
+### Puppet Discard
+*Tier 3 (3 AP) | Boss | 1/Scene*
+**Effect:** When Harren is reduced below 30 HP, the Author severs the control connection. The body undergoes a catastrophic release of its suppressed resonance architecture. Burst, all creatures within close range. Damage: 8 + SIGNAL (15 total) Resonance damage. The body then falls. Within 72 hours, a replacement is in position.
+
+### Reaction: Behavioral Model Error
+*Reaction | Triggered by: an attack or social card that falls completely outside the behavioral model's training parameters*
+**Effect:** The puppet hesitates — a fraction of a second, processing, before the human response arrives. Harren's defense against the triggering card is reduced by 2 this turn. Players who notice this tell have found the seam.
+
+---
+
+### Combat Behavior
+Harren deploys Charming Deflection first — the situation may still resolve through conversation. He uses Wire Market Access to degrade enemy capabilities from range, applies The Whole Board when the Author's protocol shifts from management to termination. He fights to create an exit or a delay, not a victory. If Puppet Discard triggers, it's not him making the decision.
+
+### "I Would Prefer Not To"
+If exposure has not yet occurred, Harren will offer everything the players want except the one thing that matters, in exchange for their cooperation. He will be very convincing about it.
+

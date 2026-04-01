@@ -111,3 +111,63 @@ The Engine Scar's signal has shifted again, significantly this time. The Voice b
 
 **3. The History Before (Personal/Revelation)**
 Late in the campaign, players have accumulated enough information about the Hollow Author's network to recognize that the Voice's trained responses — the specific improvised integration techniques, the intelligence-gathering instincts, the pre-Ashlands fragments — match the profile of a Wire Market intelligence asset. They can bring this to the Voice. The Voice will not receive it well, initially. This is a careful conversation. If done right, it gives the Voice access to a history they buried deliberately, which may also give them access to knowledge they didn't know they had — specifically, a specific technique for identifying flesh-puppet architecture that they learned before they learned they'd learned it. This knowledge will matter.
+
+---
+
+## COMBAT STATS
+
+> *These stats represent The Char's Voice in direct confrontation. Most encounters with them will not reach this point — and they know it. The stat block exists for when diplomacy, manipulation, and leverage have all failed.*
+
+**Tier:** Elite
+**Role:** brute
+**HP:** 80 (FRAME 7 × 8 + 24 Elite base — patchwork enhancements that have adapted to Ashlands conditions for decades)
+**AP Max:** 3
+**Hand Size:** 6
+**Initiative:** 5
+
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
+|---|---|---|---|---|---|
+| 7 | 5 | 7 | 3 | 6 | 6 |
+
+### Basic Attack — Repurposed Steel
+*0 AP | Attack | Once per turn*
+**Effect:** The Voice does not carry a weapon. They carry resonant-steel components that are, right now, functioning as one. Melee, 1 target. Damage: 8 + IRON (15 total). On a critical, the resonant-steel discharges: apply Burn 3 to the target. They have been integrating this hardware for decades. They know exactly how it fails.
+**Keywords:** Burn 3 (on critical)
+
+### Terrain Authority
+*Tier 1 (1 AP) | Control*
+**Effect:** In the Ashlands (or any difficult terrain environment), The Voice moves through the landscape as if it were a tool they are using. They move up to full speed ignoring terrain penalties and designate a close-range area as controlled ground. Enemies entering that area this round must pass a FRAME check (difficulty 3) or be Rooted — the Voice chose this ground before the fight started.
+**Keywords:** Root
+
+### Settlement Decision
+*Tier 1 (1 AP) | Support*
+**Effect:** The Voice speaks and it has the force of a decision. All allies within medium range who can hear them gain Guard 5 + RESONANCE (11 total) and immunity to Stagger for 1 round. This is not enhancement. This is twenty years of people doing what the Voice says because they have always been right.
+**Keywords:** Guard
+
+### Scar Resonance Pulse
+*Tier 2 (2 AP) | Attack*
+**Effect:** The Voice's patchwork Ashlands-adapted integration carries the Engine Scar's background signal. They discharge it. All enemies within close range take 7 + RESONANCE (13 total) Resonance damage. Enemies with standard Wire Market enhancements (not Ashlands-adapted) are also Silenced until end of their next turn — the Scar's frequency interferes with clean enhancement signal.
+**Keywords:** Silence
+
+### The Settlement Answers
+*Tier 2 (2 AP) | Control | 1/Combat*
+**Effect:** Within the Char settlement only: The Voice calls for support and 1d4+2 settlement defenders arrive within 1 round, entering combat on the Voice's next turn. These defenders act as Standard-tier allies with IRON 4, FRAME 4, and basic attack only (damage: 6 + IRON = 10). Outside the settlement, this card cannot be played.
+
+### The Fifth Refusal
+*Tier 3 (3 AP) | Boss | 1/Scene*
+**Effect:** The Voice has declined this four times. They said the fifth would be more emphatic. All enemies within medium range take 10 + IRON (17 total) physical damage as the Voice demonstrates, without ceremony, that they made their decision before this fight started. Apply Expose 3 to all enemies hit. Enemies below half HP are also Staggered. The Voice does not announce this card. They simply do it.
+**Keywords:** Expose 3, Stagger
+
+### Reaction: Already Calculated
+*Reaction | Triggered by: taking damage that would reduce the Voice below half HP*
+**Effect:** The Voice has already made the calculation. Reduce incoming damage by FRAME (7). If they are still brought below half HP, they gain Regen 3 for 2 rounds — the Ashlands adaptation is real, and it keeps running.
+**Keywords:** Regen 3
+
+---
+
+### Combat Behavior
+The Voice does not initiate unless they have decided to. Once they have decided, they use Terrain Authority to control the ground, Settlement Decision to protect their people, and Scar Resonance Pulse to suppress enhancement-dependent enemies. They do not threaten. They act. The Fifth Refusal is used exactly once per combat and is the last communication they intend to make before the situation resolves.
+
+### "I Would Prefer Not To"
+The moment the settlement's people are no longer in immediate danger, the Voice will state, clearly, that they have no further interest in this fight. They will not say please. They will say: done.
+

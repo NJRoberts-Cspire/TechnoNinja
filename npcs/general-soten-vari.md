@@ -104,3 +104,60 @@ Korrath has ordered the arrest of a unit of soldiers accused of mutiny. Vari kno
 
 **3. What She Would Sacrifice (Catastrophic Potential)**
 Late in the campaign, after the players have proven themselves: Vari has reached the conclusion that Korrath will not stop. She has a plan. The plan requires the players and will almost certainly get her killed — not dramatically, not heroically, just: after this, she will not survive what Korrath does next. She will present the plan to the players as a military problem with a solution. She will not mention that she knows what it costs her. Players who have been paying attention will figure it out. She will not acknowledge them figuring it out.
+
+---
+
+## COMBAT STATS
+
+> *These stats represent General Soten Vari in direct confrontation. Most encounters with her will not reach this point — and she knows it. The stat block exists for when diplomacy, manipulation, and leverage have all failed.*
+
+**Tier:** Elite
+**Role:** controller
+**HP:** 80 (FRAME 7 × 8 + 24 Elite base)
+**AP Max:** 3
+**Hand Size:** 6
+**Initiative:** 6
+
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
+|---|---|---|---|---|---|
+| 6 | 6 | 7 | 5 | 3 | 5 |
+
+### Basic Attack — Combat Knife, Left Hand
+*0 AP | Attack | Once per turn*
+**Effect:** Vari does not draw a sword for show. She draws the shortest blade that closes the engagement. Melee, 1 target. Damage: 7 + IRON (13 total). She can move up to short range before or after this attack without provoking response.
+
+### Read the Engagement
+*Tier 1 (1 AP) | Control*
+**Effect:** Vari marks 1 enemy she can see. Until the start of her next turn, all allies within medium range of that enemy treat their attacks against them as having Expose 2. Vari can only have one target Marked at a time.
+**Keywords:** Mark
+
+### Command the Line
+*Tier 1 (1 AP) | Support*
+**Effect:** Vari issues a tactical order. Up to 2 allies within medium range who can hear her may immediately move up to short range as a free action. This movement does not provoke responses. On their next action, those allies deal +VEIL (5) bonus damage.
+
+### Zone Control
+*Tier 2 (2 AP) | Control*
+**Effect:** Vari designates a close-range area. Until the start of her next turn, any enemy entering or moving through that zone must pass a VEIL check (difficulty 4) or be Rooted until end of their turn. Vari controls the battlefield geometry — she does not need to touch anyone.
+**Keywords:** Root
+
+### Force the Engagement
+*Tier 2 (2 AP) | Attack*
+**Effect:** Vari takes the tactically correct action and forces an enemy to respond. 1 target within medium range. Damage: 8 + IRON (14 total). The target must pass a FRAME check (difficulty 3) or be pushed into an adjacent position of Vari's choice and Staggered. Allies may immediately move to the vacated position.
+**Keywords:** Stagger
+
+### Tactical Withdrawal
+*Tier 2 (2 AP) | Mobility | 1/Combat*
+**Effect:** Vari and up to 2 willing allies within close range immediately reposition up to medium range. This movement cannot be interrupted. Vari chooses the destination. This is not retreat — it is repositioning.
+
+### Reaction: Calculated Interposition
+*Reaction | Triggered by: an ally within close range being targeted by an attack*
+**Effect:** Vari steps into the attack's path, reducing the incoming damage by 4 + FRAME (11 total). If this reduces the damage to 0, she does not take any damage either — she simply positioned correctly.
+
+---
+
+### Combat Behavior
+Vari fights the way she plans campaigns: she reads the geometry, marks the most dangerous target, and uses Zone Control to limit how the enemy can respond. She prioritizes commanding her allies over dealing damage personally, using Force the Engagement to create space for them. She does not retreat from a fight she chose; she repositions from one she's losing.
+
+### "I Would Prefer Not To"
+If she calculates that continuing the fight costs more than it gains, Vari will say so out loud and offer workable terms — not out of weakness, but because she is always doing the math.
+

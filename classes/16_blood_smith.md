@@ -239,7 +239,7 @@ Your Blood Weapons can take specialized forms beyond the standard blade or spike
 - Burst: single-use, 2d8 damage to one target, automatically converts back after use for no cost
 
 **Level 6: Blood Fury**
-When you score a critical hit with a Blood Weapon, you immediately gain 2 Forge Charges from the violence. Additionally, on a critical hit, you can choose to shatter the Blood Weapon into the target, dealing an additional 2d6 necrotic damage and imposing disadvantage on the target's next saving throw as the resonant metal disrupts their enhancement lattice.
+When you score a critical hit with a Blood Weapon, you immediately gain 2 Forge Charges from the violence. Additionally, on a critical hit, you can choose to shatter the Blood Weapon into the target, dealing an additional 2d6 necrotic damage and imposing -3 to the target's next resistance check as the resonant metal disrupts their enhancement lattice.
 
 **Level 10: Combat Alchemy**
 During combat, switching your Blood Weapon's form is now a free action once per turn. Additionally, when you drop a Blood Weapon (voluntarily or forcibly), you can instantly re-manifest it in your other hand as a free action rather than spending the normal creation action.
@@ -257,7 +257,7 @@ The Armorer is built to receive damage and continue. Their Blood Smithing practi
 When you take damage, you can use your reaction and spend 1 Forge Charge to reduce the damage by 1d8 + your Constitution modifier. Your lattice absorbs and redistributes the impact. You can use this reaction any number of times, as long as you have Forge Charges.
 
 **Level 3: Iron Endurance**
-You have advantage on Constitution saving throws made to resist forced movement, knockdown, or environmental hazards. Additionally, when you use your Deliberate Bleed feature, you can choose to gain the Forge Charges without taking any damage — instead, you accept one level of a minor physical impairment (reduced speed by 5 feet, disadvantage on Dexterity checks for 1 round, etc.) of your choice. Your tolerance for reconfiguration has exceeded your tolerance for pain.
+You gain +3 to FRAME resistance checks made to resist forced movement, knockdown, or environmental hazards. Additionally, when you use your Deliberate Bleed feature, you can choose to gain the Forge Charges without taking any damage — instead, you accept one level of a minor physical impairment (reduced speed by 5 feet, -3 to EDGE-based cards for 1 round, etc.) of your choice. Your tolerance for reconfiguration has exceeded your tolerance for pain.
 
 **Level 6: Standing Ground**
 When you would be moved against your will (pushed, pulled, teleported), you can spend 2 Forge Charges to plant your feet. You are not moved. Additionally, you cannot be knocked prone while you have at least 1 Forge Charge.
@@ -266,7 +266,7 @@ When you would be moved against your will (pushed, pulled, teleported), you can 
 While you have 3 or more Forge Charges, you have resistance to bludgeoning, piercing, and slashing damage. While you have 5 or more Forge Charges, the resistance extends to all physical damage types. This does not stack with the Scar Tissue Resistance feature — it supersedes it for physical damage.
 
 **Level 14: The Unbroken Form**
-Once per long rest, when you would drop to 0 hit points, your lattice fully liquefies and re-solidifies in a combat configuration. You remain at 1 hit point, immediately gain your Forge Charge maximum in Forge Charges, and for 1 minute: you have resistance to all damage, attacks against you that deal less than 5 damage deal 0 damage after resistance is applied, and at the start of each of your turns you regain hit points equal to your Constitution modifier. When this minute ends, you fall prone and must succeed on a DC 18 Constitution saving throw or gain three levels of exhaustion. The body has limits. The Armorer has learned where they are, and how far past them they can go.
+Once per long rest, when you would drop to 0 hit points, your lattice fully liquefies and re-solidifies in a combat configuration. You remain at 1 hit point, immediately gain your Forge Charge maximum in Forge Charges, and for 1 minute: you have resistance to all damage, attacks against you that deal less than 5 damage deal 0 damage after resistance is applied, and at the start of each of your turns you regain hit points equal to your Constitution modifier. When this minute ends, you fall prone and must succeed on a DC 18 FRAME resistance check or gain three levels of exhaustion. The body has limits. The Armorer has learned where they are, and how far past them they can go.
 
 ---
 
@@ -281,13 +281,13 @@ As an action, spend 2 Forge Charges to create a structure from solidified lattic
 Once per short rest, spend 3 Forge Charges to create a combat construct from your lattice material. The construct has hit points equal to your Blood Smith level × 2, AC 12, and on its turn can make one attack dealing 1d8 + your Constitution modifier bludgeoning damage. It lasts 1 minute or until destroyed. You take 2d4 necrotic damage when the construct is created. The construct acts on your initiative.
 
 **Level 6: Rapid Structure**
-You can create External Forge structures as a bonus action. Additionally, your structures gain hit points equal to your proficiency bonus × 3 (in addition to the standard amount). You can spend 1 Forge Charge as a free action to repair one of your active structures for 1d8 hit points.
+You can create External Forge structures as a bonus action. Additionally, your structures gain hit points equal to your class expertise bonus × 3 (in addition to the standard amount). You can spend 1 Forge Charge as a free action to repair one of your active structures for 1d8 hit points.
 
 **Level 10: Complex Architecture**
 Your External Forge structures can now include mechanical components: a structure can have a hinged section (a door), a trap component (a pressure-trigger that deals 2d6 damage and triggers on non-you creatures that step on it), or a signal relay (a Wire Craft amplification point that extends your communication range by 60 feet while active). Each additional component costs 1 extra Forge Charge and 1 additional round of work.
 
 **Level 14: The Battlefield Rewritten**
-Once per long rest, spend 8 Forge Charges to perform a Battlefield Sculpt — a full-scale reshaping of a 30-foot radius area that takes 1 full minute of work. You can: create difficult terrain from solidified lattice-metal, construct a full defensive position (four wall segments, a roof, and internal supports), create a network of trap-triggered structures, or raise a structure large enough to serve as tactical high ground. You take 3d8 necrotic damage from the creation. The result lasts for 1 hour. Within this sculpted area, allied creatures have advantage on Dexterity saving throws (they know the terrain; enemies don't). The structures built this way have your proficiency bonus × 5 hit points each.
+Once per long rest, spend 8 Forge Charges to perform a Battlefield Sculpt — a full-scale reshaping of a 30-foot radius area that takes 1 full minute of work. You can: create difficult terrain from solidified lattice-metal, construct a full defensive position (four wall segments, a roof, and internal supports), create a network of trap-triggered structures, or raise a structure large enough to serve as tactical high ground. You take 3d8 necrotic damage from the creation. The result lasts for 1 hour. Within this sculpted area, allied creatures gain +3 to EDGE resistance checks (they know the terrain; enemies don't). The structures built this way have your class expertise bonus × 5 hit points each.
 
 ---
 

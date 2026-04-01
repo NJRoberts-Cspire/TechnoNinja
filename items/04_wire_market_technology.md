@@ -34,22 +34,22 @@ A short resonant blade — circuit-etched along the flat of the blade with a pro
 
 Standard Wire Market issue for their field operations staff. Available for civilian purchase. The price point is positioned to be attainable by motivated professionals and painful enough to discourage casual acquisition.
 
-## Properties
+## Card Modifications
 
-- Functions as a resonant blade (+1 to attack and damage rolls, deals 1d6 + Strength modifier slashing damage).
-- **Signal Cut.** When the blade hits a creature with active cybernetic enhancements, the circuit array discharges a signal pulse into the enhancement system. The creature must succeed on a DC 13 Constitution saving throw or have one of their active enhancements shut down for 1 minute (attacker's choice of which enhancement, if known). This cannot be used against the same enhancement twice per encounter.
-- **Wire Craft Interface.** A bearer with Wire Craft access may transfer data from a touched surface through the blade — cutting into a sealed system and extracting a data packet as part of an attack action (in addition to the attack) with a DC 15 Intelligence (Investigation) check. This does not require breaking security encryption — it accesses the physical layer.
-- The blade is designed for field conditions. It is waterproof, pressure-resistant, and self-cleaning.
+- **Card Modification:** +1 damage to all Melee Attack cards.
+- **Signal Cut.** When any Melee Attack card played with this blade hits a creature with active cybernetic enhancements, the circuit array discharges a signal pulse into the enhancement system. The target must succeed on a FRAME check (difficulty 4) or one of their active enhancement card modifications shuts down for 1 minute (attacker's choice of which, if known). This cannot be used against the same enhancement twice per encounter.
+- **Wire Craft Interface.** A bearer with Wire Craft access may transfer data from a touched surface through the blade — cutting into a sealed system and extracting a data packet as part of a Melee Attack card action (in addition to the attack) with a SIGNAL check (difficulty 4). This accesses the physical layer; it does not require breaking signal encryption.
+- The blade is designed for field conditions. Waterproof, pressure-resistant, self-cleaning.
 
 ## History and Lore
 
-Fourth-generation design. The first three generations had issues — the signal array would occasionally discharge on the wielder during a blocked strike. That problem was corrected in generation three. Generation four added the Wire Craft interface function, which was not in the original specification but emerged from field operative feedback: "We need to be able to cut through problems," one operative apparently reported, and the development team took this more literally than intended.
+Fourth-generation design. The first three generations had issues — the signal array would occasionally discharge on the wielder during a blocked strike. Generation three corrected this. Generation four added the Wire Craft interface function, which was not in the original specification but emerged from field operative feedback: "We need to be able to cut through problems," one operative apparently reported, and the development team took this more literally than intended.
 
 Widely used by Wire Market field staff. Knockoff versions exist throughout the Third and Fifth Reaches — identifiable because the glow is the wrong color (knockoffs emit yellow; authentic Signal Blades emit blue-white) and the signal cut function doesn't work in cold weather.
 
 ## Where Found
 
-Wire Market outlets, all Reaches. Standard catalog item.
+Wire Market outlets, all Reaches. Standard catalog item. 220 RM.
 
 ---
 
@@ -62,18 +62,18 @@ A full-body undergarment of wire-silk woven with resonant metal filaments in a p
 
 Worn under outer garments or armor, the Null-Skin Mesh provides meaningful physical protection. More importantly: it disrupts incoming resonant-based targeting and detection systems.
 
-## Properties
+## Card Modifications
 
-- +2 AC (does not stack with other resonant armor unless the outer armor explicitly states compatibility).
-- **Signal Suppression.** Ranged attacks using signal-based targeting (pulse arms, Wire Craft weapons, any system that requires a resonant lock) have disadvantage against the wearer. The mesh scrambles the targeting signal.
-- **Detection Resistance.** Wire Craft detection systems, resonant scanning, and enhancement-based perception systems cannot accurately identify the wearer's enhancement configuration. They detect the presence of a person but cannot read enhancement specifics. This does not affect normal visual detection.
-- **Echomind Opacity.** Iron Sutra Readings performed on the wearer while the mesh is active provide only surface information (the reader knows the target is a living person with an Echomind; they cannot assess the depth or configuration). The reader may make a DC 18 Wisdom check to notice they are being blocked.
+- **Card Modification:** Defense Value +2 (adds to Guard/Shield pool at start of combat; does not stack with other resonant armor unless the outer armor explicitly states compatibility).
+- **Signal Suppression.** All Ranged Attack cards using signal-based targeting against the wearer take -3 damage. The mesh scrambles the targeting signal.
+- **Detection Resistance.** Wire Craft detection systems, resonant scanning, and enhancement-based Perception cards cannot accurately identify the wearer's enhancement configuration. They detect a living person but cannot read enhancement specifics.
+- **Echomind Opacity.** Iron Sutra Readings performed on the wearer while the mesh is active provide only surface information. The reader may make a RESONANCE check (difficulty 5) to notice they are being blocked.
 
 **Restriction.** Null-Skin Mesh requires Wire Market clearance to purchase because its primary practical use is avoiding the Wire Market's own tracking systems. The Wire Market is aware of this irony. They sell it anyway because someone with enough motivation to acquire it through other means would be more dangerous than a known, paying customer.
 
 ## Where Found
 
-Wire Market restricted catalog. Requires a clearance review (typically 3-7 business days). Questions asked include: professional affiliation, intended use, and whether the applicant has any existing Wire Market debts. The last question is the important one.
+Wire Market restricted catalog. Clearance review required (typically 3–7 business days). Questions asked include professional affiliation, intended use, and whether the applicant has any existing Wire Market debts. The last question is the important one. 1,400 RM.
 
 ---
 
@@ -86,11 +86,11 @@ A handheld device slightly larger than a closed fist, in the Wire Market's stand
 
 The extraction process requires the subject to be either willing or unconscious. Willing extraction takes 10 minutes. Involuntary extraction from an unconscious subject takes 30 minutes and requires the subject to remain unconscious throughout.
 
-What is extracted: the subject's most recently accessible memory archive, from their cybernetic neural enhancement. This does not include all memories — only those that have been processed through their enhancement system. Unenhanced biological memory is not accessible. A heavily enhanced individual may have most of their recent memory in the enhancement archive. A minimally enhanced individual may have almost none.
+What is extracted: the subject's most recently accessible memory archive, from their cybernetic neural enhancement. This does not include all memories — only those that have been processed through their enhancement system. A heavily enhanced individual may have most of their recent memory in the enhancement archive. A minimally enhanced individual may have almost none.
 
-## Properties
+## Card Modifications
 
-- On a willing subject (or an unconscious subject with a DC 14 Medicine check to maintain proper interface): extracts up to 72 hours of the subject's most recent enhancement-archived memories. These are stored in the crystal and can be reviewed through the device's playback interface.
+- On a willing subject (or an unconscious subject with a SIGNAL check, difficulty 3, to maintain proper interface): extracts up to 72 hours of the subject's most recent enhancement-archived memories, stored in the crystal and reviewable through the device's playback interface.
 - The playback is not a recording — it is a reconstruction. The memory is experienced from the subject's perspective, with their emotional context. The reviewer is an observer in the subject's experience. Vivid, detailed, and deeply invasive.
 - **Interrogation Use.** On an unwilling, unconscious subject, extraction is automatic (no check required beyond maintaining the unconscious state). The Wire Market's operational guidelines prohibit this use. Their field operatives use it this way regularly.
 - The crystal can be copied to other storage media by a Wire Craft specialist with the right equipment. The Wire Market sells the crystals separately.
@@ -105,7 +105,7 @@ A used MEU-7 with data still in the crystal is on the market somewhere in the Se
 
 ## Where Found
 
-Wire Market restricted catalog. Available to registered intelligence contractors, legal representatives, and approved Wire Market affiliates. Also available on the black market in the Second and Third Reaches at approximately 40% markup.
+Wire Market restricted catalog. Available to registered intelligence contractors, legal representatives, and approved Wire Market affiliates. Also available on the black market in the Second and Third Reaches at approximately 40% markup. 800 RM standard catalog.
 
 ---
 
@@ -114,19 +114,19 @@ Wire Market restricted catalog. Available to registered intelligence contractors
 
 ## Description
 
-A palm-sized hexagonal device in matte-dark resonant metal. Six small apertures around the circumference and one on the face, each containing a resonant emitter. When active, the device produces no audible sound. What it produces is a carefully tuned resonant signal — a composite of multiple frequencies layered to produce a specific effect on living Echomine bearers within range.
+A palm-sized hexagonal device in matte-dark resonant metal. Six small apertures around the circumference and one on the face, each containing a resonant emitter. When active, the device produces no audible sound. What it produces is a carefully tuned resonant signal — a composite of multiple frequencies layered to produce a specific effect on living Echomind bearers within range.
 
 The Chorus Device is a crowd-scale communication and emotional resonance tool. The Wire Market's official documentation describes it as a "mass signal coordinator for organized operations." This is accurate but understated.
 
 What the Chorus Device does, when properly calibrated: it makes a group of people feel that they are in agreement. Not controlled — not compelled — but resonantly aligned. The specific emotion or intention is programmed via the device's configuration interface. Standard configurations include: urgency, trust, resolve, and one that the documentation lists only as "compliance orientation."
 
-## Properties
+## Card Modifications
 
 - Range: 200-foot radius from the device's location.
-- **Resonant Chorus.** All creatures within range that have cybernetic enhancements make a DC 15 Wisdom saving throw. On a failure, their emotional state is shifted toward the configured orientation for the duration of the effect (up to 1 hour). The shift is subtle — creatures do not feel controlled, they feel that the configured emotion is their own response to circumstances. They can act against it but must make an additional DC 13 Wisdom saving throw each time they take an action contrary to the configured state.
+- **Resonant Chorus.** All creatures within range that have cybernetic enhancements must succeed on a RESONANCE check (difficulty 4). On a failure, their emotional state is shifted toward the configured orientation for up to 1 hour (functions as a sustained Tier 2 Control card). The shift is subtle — creatures do not feel controlled, they feel that the configured emotion is their own response to circumstances. They can act against it but must succeed on an additional RESONANCE check (difficulty 3) each time they take an action contrary to the configured state.
 - The device affects only creatures with cybernetic enhancements. Creatures with no resonant metal bonded to their flesh are unaffected. This has significant implications in the Ashlands.
-- **Precision Configuration.** A DC 18 Intelligence (Investigation) check to configure allows the Chorus to target only creatures matching specific enhancement profiles — affecting only creatures with military-grade systems, for instance, while leaving civilian-enhanced bystanders unaffected.
-- The device can be identified as active with a DC 14 Wisdom (Perception) check by creatures who know what to look for.
+- **Precision Configuration.** A SIGNAL check (difficulty 5) to configure allows the Chorus to target only creatures matching specific enhancement profiles — affecting only creatures with military-grade systems, for instance, while leaving civilian-enhanced bystanders unaffected.
+- The device can be identified as active with a RESONANCE check (difficulty 4) by creatures who know what to look for.
 
 **Restriction.** Chorus Devices are restricted because the Wire Market considers them operational assets rather than general products. Their restriction category is genuine — they sell few of these and track the few they sell carefully.
 
@@ -134,11 +134,11 @@ What the Chorus Device does, when properly calibrated: it makes a group of peopl
 
 The Chorus Device was the Wire Market's answer to a specific problem: coordinating large-scale operations in contested territory without radio-equivalent communication that could be intercepted. The answer they arrived at was not communication — it was alignment. If everyone in the operation *feels* the same way about the objective, explicit communication becomes less necessary.
 
-Whether this is a tool or a weapon depends on who is pointing it. The Wire Market has used it for legitimate operational coordination. The Wire Market has also used it during the Third Reach commercial disputes of six years ago, where several market-adjacent protests dispersed without incident after Chorus Devices on compliant-orientation configuration were deployed in the area. There is no official documentation of this. There is significant unofficial documentation.
+Whether this is a tool or a weapon depends on who is pointing it. The Wire Market has used it for legitimate operational coordination. The Wire Market has also used it during the Third Reach commercial disputes of six years ago, where several market-adjacent protests dispersed without incident after Chorus Devices on compliance-orientation configuration were deployed in the area. There is no official documentation of this. There is significant unofficial documentation.
 
 ## Where Found
 
-Wire Market restricted catalog, very high clearance. Also available on the Black Tier at three times list price.
+Wire Market restricted catalog, very high clearance. Also available on the Black Tier at three times list price. 3,200 RM standard catalog.
 
 ---
 
@@ -153,10 +153,10 @@ The communication is text-equivalent — a resonant-pulse system that the user o
 
 Standard Wire Market equipment. Issued to all field operatives. Available for civilian purchase.
 
-## Properties
+## Card Modifications
 
 - Paired long-wire communication, unlimited range within Tesshari, two-second latency.
-- Communications are encrypted with the Wire Market's standard proprietary cipher. A Wire Craft specialist can decrypt Wire Market communications with a DC 19 Intelligence check and the right equipment; the Wire Market's own analysts can decrypt them with ease.
+- Communications are encrypted with the Wire Market's standard proprietary cipher. A Wire Craft specialist can decrypt Wire Market communications with a SIGNAL check (difficulty 6) and the right equipment; the Wire Market's own analysts can decrypt them with ease.
 - **Trace Immunity.** Messages sent through the Long-Wire are not stored on the Wire Market network. They are direct point-to-point transmissions. They can be intercepted but not retrieved retroactively.
 - The device includes a six-hour power source from ambient metabolic resonance (worn on the body). Away from a living body, it runs on a stored charge for 48 hours.
 
@@ -164,7 +164,7 @@ Standard Wire Market equipment. Issued to all field operatives. Available for ci
 
 ## Where Found
 
-Wire Market open catalog. All Reaches. Inexpensive. Ubiquitous among Wire Market affiliates and a large portion of the working professional population.
+Wire Market open catalog. All Reaches. Inexpensive. Ubiquitous among Wire Market affiliates and a large portion of the working professional population. 85 RM per pair.
 
 ---
 
@@ -185,30 +185,30 @@ The Wire Market has been testing it for architectural survey purposes. Several t
 
 The Wire Market considers this a calibration issue. They are still calibrating.
 
-## Properties
+## Card Modifications
 
-**Experimental Status.** Each use of the Architect System requires the DM to roll a d20. On a 1-5, an unexpected outcome occurs (see table below). On a 6-20, the system functions as intended.
+**Experimental Status.** Each use of the Architect System requires the DM to roll a d20. On a 1–5, an unexpected outcome occurs (see table below). On a 6–20, the system functions as intended.
 
-**Intended Functions (activated as a bonus action, one function per activation, concentration up to 1 minute each):**
+**Intended Functions (activated as a free action, one function per activation, concentration up to 1 minute each):**
 
 - **Phase.** One surface within 60 feet becomes temporarily permeable — creatures and objects can pass through it for the duration. The surface still exists and bears weight normally. It is simply not a barrier.
 - **Anchor.** One structure within 60 feet becomes indestructible for the duration. It cannot be damaged by any means, physical or resonant.
-- **Direct.** One structure within 60 feet is designated to collapse. At the end of the duration, it does — in the direction the wearer specifies. All creatures in that path make a DC 17 Dexterity saving throw or take 6d10 bludgeoning damage.
-- **Map.** The wearer perceives the full three-dimensional layout of any structure they are inside, including concealed spaces, structural weak points, and anything else that is architecturally present. This is passive and does not require concentration.
+- **Direct.** One structure within 60 feet is designated to collapse. At the end of the duration, it does — in the direction the wearer specifies. All creatures in that path must succeed on an EDGE check (difficulty 5) or take 33 bludgeoning damage.
+- **Map.** The wearer perceives the full three-dimensional layout of any structure they are inside, including concealed spaces, structural weak points, and anything else that is architecturally present. Passive; does not require concentration.
 
-**Unexpected Outcomes Table (d20 roll of 1-5, then roll again):**
+**Unexpected Outcomes Table (d20 roll of 1–5, then roll again):**
 
 | Roll | Outcome |
 |------|---------|
-| 1-2 | The Phase function activates on the wearer rather than the target. The wearer is temporarily incorporeal (cannot attack or be attacked by physical means; cannot pick up objects; can pass through solid objects). Duration 1d6 rounds. |
-| 3 | All resonant metal within 60 feet temporarily loses its properties. Cybernetic enhancements stop functioning. Attuned items lose their attunement. Duration 1 minute. |
-| 4-5 | The Anchor function applies to the wearer. They cannot move from their current position until the duration ends (1 minute). They are not harmed, but they are physically part of the floor. |
-| 6-10 | The intended function works but affects a random 60-degree arc instead of the targeted surface. |
-| 11-15 | The intended function works but lasts twice as long as intended. |
-| 16-18 | The intended function works but the wearer briefly perceives themselves as a structural element. This lasts 1 round. During this round they take no actions but cannot be targeted by attacks (they are, locally, architecture). |
-| 19-20 | The system runs at perfect efficiency. The DC for any saves required is increased by 3 for this activation. |
+| 1–2 | The Phase function activates on the wearer rather than the target. The wearer is temporarily incorporeal (cannot play Attack cards or be targeted by physical Attack cards; can pass through solid objects). Duration 1d6 rounds. |
+| 3 | All resonant metal within 60 feet temporarily loses its properties. Cybernetic enhancement card modifications stop functioning. Integrated items lose their integration. Duration 1 minute. |
+| 4–5 | The Anchor function applies to the wearer. They cannot use Mobility cards or move from their current position until the duration ends (1 minute). They are not harmed. They are physically part of the floor. |
+| 6–10 | The intended function works but affects a random 60-degree arc instead of the targeted surface. |
+| 11–15 | The intended function works but lasts twice as long as intended. |
+| 16–18 | The intended function works but the wearer briefly perceives themselves as a structural element for 1 round. During this round they cannot play cards but cannot be targeted by Attack cards (they are, locally, architecture). |
+| 19–20 | The system runs at perfect efficiency. All checks required by the function increase in difficulty by 1 for this activation. |
 
-**The "Perceptual Integration Events."** If the DM rolls a 1 on the initial d20 and then rolls a 1-2 on the outcomes table, the wearer does not simply become incorporeal — they perceive themselves as part of the structure for the duration. This is vivid and the DM should describe it in full. The wearer understands the building's history, its stress points, its age. If the building has been present for violence, they feel it. When the duration ends, the wearer returns to normal. They remember everything. They may need a moment.
+**The "Perceptual Integration Events."** If the DM rolls a 1 on the initial d20 and then rolls a 1–2 on the outcomes table, the wearer does not simply become incorporeal — they perceive themselves as part of the structure for the duration. This is vivid and the DM should describe it in full. The wearer understands the building's history, its stress points, its age. If the building has been present for violence, they feel it. When the duration ends, the wearer returns to normal. They remember everything. They may need a moment.
 
 ## Where Found
 
@@ -229,11 +229,11 @@ The Soft Key interfaces with any Wire Market access system — door locks, restr
 
 This means it is useless on a freshly reset system. It is very useful on any system that has been recently used by an authorized person.
 
-## Properties
+## Card Modifications
 
 - **Mirror Access.** When pressed against any Wire Market access point that has been used within the past 24 hours, the Soft Key succeeds on all access checks as though the bearer had the same authorization as the last authenticated user.
 - If the last authenticated user had administrative access, the Soft Key grants administrative access.
-- The Soft Key leaves a trace — not a false positive, but a duplicate entry. A Wire Market system security analyst reviewing access logs within 48 hours will notice the duplicate and identify it as unauthorized access. A DC 18 Intelligence (Investigation) check to notice within 24 hours; DC 14 within 48 hours; automatic detection after 48 hours.
+- The Soft Key leaves a trace — not a false positive, but a duplicate entry. A Wire Market system security analyst reviewing access logs within 48 hours will notice the duplicate and identify it as unauthorized access. A SIGNAL check (difficulty 5) to notice within 24 hours; difficulty 4 within 48 hours; automatic detection after 48 hours.
 - **Single Use per Access Point.** After using the Soft Key on a system, it resets the mirrored credential and cannot be used on the same access point again for 24 hours.
 
 **Black Tier.** The Wire Market does not sell the Soft Key because the Soft Key is explicitly a tool for circumventing Wire Market security. Selling it would be commercially irrational. Their black-market arm sells it because commercially irrational is a sliding scale when the margin is sufficient.
@@ -248,7 +248,7 @@ Haro-Sei has been retired for six years. He lives comfortably in the Second Reac
 
 ## Where Found
 
-Black Tier, Wire Market. Through a cutout in the Third Reach who operates a legitimate signal-device repair service and conducts other business in the back. Password required. The password changes monthly. If the party does not know the password, they will need to find someone who does. This is intentional.
+Black Tier, Wire Market. Through a cutout in the Third Reach who operates a legitimate signal-device repair service and conducts other business in the back. Password required. The password changes monthly. If the party does not know the password, they will need to find someone who does. This is intentional. 600 RM through the cutout.
 
 ---
 
@@ -263,24 +263,22 @@ The pages are written on not with ink but with signal — a Wire Craft stylus is
 
 The Ledger's notable property is that it is signal-invisible. Its resonant field is tuned to be below the detection threshold of standard Wire Craft scanning equipment. It does not appear in resonant-metal scans. It does not register as a storage device. To standard analysis, it is a nice notebook.
 
-## Properties
+## Card Modifications
 
-- Stores up to 10,000 pages of information in resonant format, accessible via Wire Craft interface or DC 16 Intelligence check with appropriate resonant sensing equipment.
+- Stores up to 10,000 pages of information in resonant format, accessible via Wire Craft interface or SIGNAL check (difficulty 5) with appropriate resonant sensing equipment.
 - **Signal Silence.** The Ledger does not appear in Wire Craft resonant scans. It is, for detection purposes, a mundane object.
-- **Encrypted Storage.** Information in the Ledger can be encrypted with a personal Echomind signature — in which case it can only be read by the person who wrote it (their Echomind is the key) or by someone with their enhancement profile. This requires an initial DC 14 Intelligence check to set up properly.
-- A Ledger in use accumulates resonant impressions from the information stored in it. A reader with the Between-Sense enhancement or the Listening Wire can sense the emotional weight of what is recorded — not the content, but whether it is frightening, important, sorrowful. This is an undocumented feature that the Wire Market has chosen not to mention in the catalog listing.
+- **Encrypted Storage.** Information in the Ledger can be encrypted with a personal Echomind signature — readable only by the person who wrote it (their Echomind is the key) or by someone with their enhancement profile. Setting this up requires an initial SIGNAL check (difficulty 3).
+- A Ledger in use accumulates resonant impressions from the information stored in it. A bearer with the Between-Sense enhancement or the Listening Wire can sense the emotional weight of what is recorded — not the content, but whether it is frightening, important, sorrowful. This is an undocumented feature the Wire Market has chosen not to mention in the catalog listing.
 
 ## History and Lore
 
 The Resonant Ledger was designed for Wire Market senior analysts who needed to maintain off-network records of their work. The Wire Market's internal network is theoretically secure. Their senior analysts are well aware that "theoretically" is doing heavy lifting in that sentence. The Ledger was an approved solution to the problem of keeping information that the analyst needed but that the Wire Market did not need to have access to.
 
-The Wire Market approves of this because they trust their senior analysts, and because a ledger that cannot be scanned is also a ledger that enemies of the Wire Market cannot scan. It is their secure external storage. The analyst uses it. The Wire Market has read-access for any non-encrypted content if they get their hands on the physical volume.
-
-The analyst understands this. They encrypt their important content. The Wire Market understands the analyst understands this. The arrangement continues because everyone involved is a professional and professionals maintain useful fictions in the interest of functional working relationships.
+The Wire Market approves of this because they trust their senior analysts, and because a ledger that cannot be scanned is also a ledger that enemies of the Wire Market cannot scan. The analyst uses it. The Wire Market has read-access for any non-encrypted content if they get their hands on the physical volume. The analyst understands this. They encrypt their important content. The Wire Market understands the analyst understands this. The arrangement continues because everyone involved is a professional and professionals maintain useful fictions in the interest of functional working relationships.
 
 ## Where Found
 
-Wire Market restricted catalog. Available to registered Wire Market affiliates at the senior level. Available on the black market in the First and Second Reaches without restriction, because the restricted status is lightly enforced and the legitimate need for signal-invisible storage is widespread.
+Wire Market restricted catalog. Available to registered Wire Market affiliates at the senior level. Available on the black market in the First and Second Reaches without restriction, because the restricted status is lightly enforced and the legitimate need for signal-invisible storage is widespread. 550 RM.
 
 ---
 
@@ -293,20 +291,20 @@ A portable device in the Wire Market's standard casing, approximately the size o
 
 Standard operational security tool. Used by Wire Market operatives, military intelligence units, and anyone who needs a meeting to not appear in the Wire Craft logs.
 
-## Properties
+## Card Modifications
 
 - Active range: 100-foot radius.
 - **Signal Block.** Within the field, no Wire Craft communications can enter or exit. Long-Wire Communicators, standard signal devices, and network connections are severed.
-- **Enhancement Disruption.** Within the field, enhancement features that require network connectivity (real-time tactical overlays, remote medical monitoring, shared signal systems) cease functioning. Physical cybernetic enhancements still work.
-- **Lock Detection Interference.** Signal-based locks (including Wire Market access points) within the field cannot receive authentication signals. They are effectively locked to any signal-based access method. Physical bypass is unaffected.
+- **Enhancement Disruption.** Within the field, enhancement card modifications that require network connectivity (real-time tactical overlays, remote medical monitoring, shared signal systems) cease functioning. Physical cybernetic enhancements still work; their network-dependent card modifications do not.
+- **Lock Detection Interference.** Signal-based locks within the field cannot receive authentication signals and are effectively sealed to any signal-based access method. Physical bypass is unaffected.
 - **Duration and Power.** The Signal Cage runs for up to 8 hours on a standard charge. Recharge requires 4 hours at a Wire Market charging point or 12 hours of ambient metabolic resonance from a wearer.
-- The device itself is detectable from outside the field as a disruption source with a DC 12 Intelligence (Investigation) check. Inside the field, it appears as any other device.
+- The device itself is detectable from outside the field as a disruption source with a SIGNAL check (difficulty 3). Inside the field, it appears as any other device.
 
 **Note.** The Signal Cage affects Wire Market communications as much as anyone else's. The Wire Market sells it anyway because it is also used against Wire Market communications by parties who would otherwise be a security risk, and controlling the hardware means controlling the capability.
 
 ## Where Found
 
-Wire Market restricted catalog. Standard issue for mid-level field operatives. Available for purchase by registered security contractors. Widely used. Frequently misplaced. Second-hand Signal Cages are common on the gray market and usually fully functional.
+Wire Market restricted catalog. Standard issue for mid-level field operatives. Available for purchase by registered security contractors. Widely used. Frequently misplaced. Second-hand Signal Cages are common on the gray market and usually fully functional. 1,800 RM.
 
 ---
 

@@ -158,41 +158,41 @@ It is approximately spherical, approximately three meters across, and it does no
 
 ## Environmental Hazard Tables
 
-Roll d8 on entering each ring, and again each hour of time spent there.
+Roll 1–8 on entering each ring, and again each hour of time spent there.
 
 **Outer Ring:**
-1. Signal pulse: all enhanced individuals make a Constitution save (DC 12) or experience 1 level of Signal Fatigue (see below)
-2. Unstable ground: one random party member must Dexterity save (DC 14) or fall into a depression in the fused surface (10 ft down, no fall damage but requires climbing to exit)
-3. Echo-Walker contact: 1d4 Walkers orient toward the party; moving away resolves without incident; moving toward or standing still leads to contact and Collapse memory flash (Wisdom save DC 13 or frightened 1 minute)
-4. Memory Field: the path passes through a saturated zone; DC 11 Wisdom save or involuntary vision (Collapse memory, 1d4 rounds)
-5. Debris vibration: a particularly dense resonant metal fragment underfoot vibrates to enhance-activating frequency; whoever is in contact with it makes DC 14 Constitution save or takes 1d6 resonant damage
-6. Singing intensification: the chord builds for 1d4 minutes; enhanced individuals have disadvantage on Concentration checks and on any checks requiring focus on non-Scar stimuli during this period
+1. Signal pulse: all enhanced individuals make a FRAME resistance check at difficulty 6 or experience 1 level of Signal Fatigue (see below)
+2. Unstable ground: one random party member must make an EDGE resistance check at difficulty 7 or fall into a depression in the fused surface (10 ft down, no fall damage but requires climbing to exit)
+3. Echo-Walker contact: 2 Walkers orient toward the party; moving away resolves without incident; moving toward or standing still leads to contact and Collapse memory flash (RESONANCE resistance check at difficulty 7 or frightened 1 minute)
+4. Memory Field: the path passes through a saturated zone; RESONANCE resistance check at difficulty 6 or involuntary vision (Collapse memory, 2 rounds)
+5. Debris vibration: a particularly dense resonant metal fragment underfoot vibrates to enhance-activating frequency; whoever is in contact with it makes a FRAME resistance check at difficulty 7 or takes 3 resonant damage
+6. Singing intensification: the chord builds for 2 minutes; enhanced individuals take -3 to Concentration checks and to any checks requiring focus on non-Scar stimuli during this period
 7. Clear: no additional event this period
 8. Ashlands runner observed from a distance, moving in a specific direction quickly; investigating can lead to useful contact or a warning
 
 **Middle Ring:**
-1. Signal spike: DC 15 Constitution save for all enhanced individuals or 2d6 resonant damage and one round of uncontrolled enhancement activation
-2. Composite Walker encounter: 1d3 Composite Walkers seek memory transfer; declining is possible but the Walkers pursue; accepting the transfer provides information but requires DC 13 Constitution save or 1 level of Signal Fatigue
-3. Memory Field (strong): mandatory vision, DC 15 Wisdom save or 2 levels of Signal Fatigue and frightened 1 minute; success: vision but functional
+1. Signal spike: FRAME resistance check at difficulty 8 for all enhanced individuals or 7 resonant damage and one round of uncontrolled enhancement activation
+2. Composite Walker encounter: 2 Composite Walkers seek memory transfer; declining is possible but the Walkers pursue; accepting the transfer provides information but requires a FRAME resistance check at difficulty 7 or 1 level of Signal Fatigue
+3. Memory Field (strong): mandatory vision, RESONANCE resistance check at difficulty 8 or 2 levels of Signal Fatigue and frightened 1 minute; success: vision but functional
 4. Resonant vegetation movement: nearby plants orient toward a player, attracted by enhancement signal; they do not attack but navigation is impeded; clear with 10 minutes of careful movement
-5. Equipment resonance: all resonant-metal equipment in the party vibrates in synchrony with the middle ring harmonic; fine motor tasks require DC 13 Dexterity check to perform; effect lasts 1 hour
-6. Signal spike (severe): DC 17 Constitution save or all enhancement systems lock to maximum output for 1d6 rounds (exhaustion consequence per round)
+5. Equipment resonance: all resonant-metal equipment in the party vibrates in synchrony with the middle ring harmonic; fine motor tasks require an EDGE resistance check at difficulty 7 to perform; effect lasts 1 hour
+6. Signal spike (severe): FRAME resistance check at difficulty 9 or all enhancement systems lock to maximum output for 3 rounds (exhaustion consequence per round)
 7. The singer: a single Composite Walker has specifically oriented on the party and will not disengage; it has specific information to communicate; engaging fully requires the memory transfer; the Walker will follow until engaged or until the party exits the middle ring
 8. Safe: the middle ring presents relatively calm conditions this period; advance freely
 
 **Inner Ring:**
-1. Continuous heat damage: 1d6 fire damage per 10 minutes without heat protection
-2. Enhancement critical activation: DC 16 Constitution save or one enhancement system activates at maximum output uncontrollably for 1d4 rounds (type determined by enhancement)
-3. Anchored Dead: the party passes through a cluster of fixed Echoминds; the presences do not move but the resonant saturation in their immediate area is intense; Wisdom save DC 14 or incapacitated with grief for 1 round
+1. Continuous heat damage: 3 fire damage per 10 minutes without heat protection
+2. Enhancement critical activation: FRAME resistance check at difficulty 8 or one enhancement system activates at maximum output uncontrollably for 2 rounds (type determined by enhancement)
+3. Anchored Dead: the party passes through a cluster of fixed Echoминds; the presences do not move but the resonant saturation in their immediate area is intense; RESONANCE resistance check at difficulty 7 or incapacitated with grief for 1 round
 4. Engine Structure instability: a section of the regrown Engine installation shifts; structural check or area becomes impassable; requires navigation reroute
-5. Signal storm: a sustained signal spike lasting 1d6 minutes; all enhanced individuals take 1d8 resonant damage per round; the signal storm contains information if they can process it (DC 18 Arcana/resonance check to extract useful information from the damage)
-6. Engine Ghost proximity: Mirei's loop produces a localized signal radius; entering it triggers Collapse memory flash, no save, automatic; full vivid experience of the Collapse moment from the workers' perspective
+5. Signal storm: a sustained signal spike lasting 3 minutes; all enhanced individuals take 4 resonant damage per round; the signal storm contains information if they can process it (resonance check at difficulty 9 to extract useful information)
+6. Engine Ghost proximity: Mirei's loop produces a localized signal radius; entering it triggers Collapse memory flash, automatic; full vivid experience of the Collapse moment from the workers' perspective
 7. The Pulse hears: the Deep Pulse has detected living resonance at this range and oriented; enhanced individuals feel the full weight of its attention; non-harmful but counts as 2 levels of Signal Fatigue for the duration of inner ring presence
-8. The ground speaks: a section of the inner ring's polished surface reflects the Deep Pulse's current signal upward; players who look directly at it see the Afterlife's architectural structure for one round; Wisdom save DC 15 or stunned 1 round; success: useful information
+8. The ground speaks: a section of the inner ring's polished surface reflects the Deep Pulse's current signal upward; players who look directly at it see the Afterlife's architectural structure for one round; RESONANCE resistance check at difficulty 8 or stunned 1 round; success: useful information
 
 **Signal Fatigue Mechanic:**
-1 level: Disadvantage on Wisdom checks and saves
-2 levels: Disadvantage on all mental ability checks and saves; cybernetics function at reduced capacity
+1 level: -3 to RESONANCE-based actions
+2 levels: -3 to all mental stat actions; cybernetics function at reduced capacity
 3 levels: Incapacitation episodes (1 round, 1/hour); cybernetics begin producing interference rather than function
 4 levels: Unconsciousness; cybernetics in uncontrolled full-activation state; dangerous without immediate treatment
 5 levels: Permanent change; the character's enhancement-to-self boundary is disrupted; requires Veil Master intervention or extended rest in a signal-null environment

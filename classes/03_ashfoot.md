@@ -527,117 +527,117 @@ Among their own communities, Ashfoot are the protectors, the proven ones, the pe
 
 **Level 1: Ashfoot Grit**
 You are not enhanced for combat. You are combat-hardened by experience, which is not the same thing and in several ways is more durable. You gain the following:
-- When you are reduced to 0 hit points by an attack, you can use your reaction to stay at 1 hit point instead. Once you use this feature, you cannot use it again until you complete a short rest. (Note: this represents gritting through damage that would put a more institutionally-trained fighter down — you have learned to take hits that should stop you and keep moving.)
-- You have advantage on Constitution saving throws against exhaustion.
-- Your hit point maximum increases by 2 at level 1, and by 1 for every Ashfoot level thereafter.
+- When you are reduced to 0 HP by an attack, you can use your Reaction to stay at 1 HP instead. Once you use this feature, you cannot use it again until you complete a short rest. (Note: this represents gritting through damage that would put a more institutionally-trained fighter down — you have learned to take hits that should stop you and keep moving.)
+- You have +3 to FRAME-based resistance checks against exhaustion.
+- Your HP maximum increases by 2 at level 1, and by 1 for every Ashfoot level thereafter.
 
 **Level 1: Salvage Mastery**
 You have spent enough time in low-resource environments to understand that a weapon is anything with mass and velocity. You can treat any object as a viable weapon, and objects used as improvised weapons in your hands deal:
-- Small objects (bottles, tools, plates): 1d4 + Strength modifier bludgeoning or piercing
-- Medium objects (chairs, pipes, scavenged metal): 1d8 + Strength modifier damage
-- Large objects (machinery parts, doors): 2d6 + Strength modifier damage (requires two hands)
+- Small objects (bottles, tools, plates): 3 + IRON bludgeoning or piercing damage (fixed)
+- Medium objects (chairs, pipes, scavenged metal): 5 + IRON damage (fixed)
+- Large objects (machinery parts, doors): 8 + IRON damage (fixed, requires two hands)
 
-Additionally, when you attack with a salvage weapon, you can use your bonus action to attempt to disarm, trip, or shove the target (no roll — the target makes a DC 10 + your Strength modifier saving throw or is affected).
+Additionally, when you attack with a salvage weapon, you can use your free action to attempt to disarm, trip, or shove the target (no roll — the target makes a FRAME resistance check, difficulty 2, or is affected).
 
 **Level 2: Fighting Dirty**
 You fight to win, not to look correct doing it. Choose one Fighting Dirty technique at Level 2, and an additional technique at Level 5, Level 9, and Level 13:
 
-- **Eye Strike:** Once per turn, when you hit a creature with a melee attack, you can attempt a blinding strike. The target makes a Constitution save (DC 8 + your proficiency bonus + your Strength or Dexterity modifier) or is blinded until the end of their next turn.
-- **Gut Check:** Once per short rest, when a creature succeeds on a saving throw you imposed, you can immediately make one free attack against them as a reaction.
+- **Eye Strike:** Once per turn, when you hit a creature with a melee attack, you can attempt a blinding strike. The target makes a FRAME resistance check, difficulty 3, or is blinded until the end of their next turn.
+- **Gut Check:** Once per combat, when a creature succeeds on a resistance check you imposed, you can immediately make one free attack against them as a Reaction.
 - **Find the Hole:** You learn to exploit gaps in enhanced armor. Your attacks ignore resistance to bludgeoning, piercing, and slashing damage from non-magical, non-enhancement armor.
-- **Down Here:** When you are prone, you do not have disadvantage on attack rolls against adjacent creatures. You also have advantage on attack rolls against prone targets.
-- **Pain Threshold:** Your hit dice are treated as one die size larger for the purpose of hit point recovery during short rests.
-- **Nothing to Lose:** When you have 10 or fewer hit points, your attack rolls deal an additional 1d8 damage and you have advantage on Intimidation checks.
+- **Down Here:** When you are prone, you do not lose damage riders on attack rolls against adjacent creatures. You also gain +3 to attack rolls against prone targets.
+- **Pain Threshold:** Your HP recovery during short rests is treated as one tier higher.
+- **Nothing to Lose:** When you have 10 or fewer HP, your attack rolls deal an additional 5 damage (fixed) and you gain +3 to Intimidation checks.
 
 **Level 2: Hard March**
 Your constitution has been shaped by constant movement, poor conditions, and minimal support. You gain:
 - You require only half the normal amount of food and water.
 - Difficult terrain costs you no additional movement when moving through it at a walking pace (you still expend normal movement speed, but not the penalty).
-- You have advantage on saving throws against disease, poison, and environmental hazards.
+- You have +3 to resistance checks against disease, poison, and environmental hazards.
 
 **Level 3: Ashfoot Path**
 You choose your Ashfoot Path subclass, representing the specific fighting tradition and context you have developed your skills within. See Subclasses below.
 
-**Level 4: Ability Score Improvement**
-Increase one ability score by 2, or two ability scores by 1 each.
+**Level 4: Stat Improvement**
+Increase one stat by 2, or two stats by 1 each.
 
 **Level 5: Extra Attack**
 You can attack twice, instead of once, whenever you take the Attack action on your turn.
 
 **Level 5: Crowd Read**
-You have fought in enough messy situations to read the flow of group combat intuitively. As a bonus action, you can survey the battlefield and identify:
-- Which enemy is most likely to attack you on their next turn (DM provides this information or you gain advantage on your next Perception check to determine it).
+You have fought in enough messy situations to read the flow of group combat intuitively. As a free action, you can survey the battlefield and identify:
+- Which enemy is most likely to attack you on their next turn (GM provides this information or you gain +3 to your next Perception check to determine it).
 - The weakest structural point in any formation or defensive position within 60 feet.
-- Whether any enemies are about to flee, rally, or receive reinforcements (DM provides intuitive read).
+- Whether any enemies are about to flee, rally, or receive reinforcements (GM provides intuitive read).
 
-This feature represents practical battlefield intelligence, not supernatural ability. You can use it a number of times per short rest equal to your Intelligence modifier (minimum 1).
+This feature represents practical battlefield intelligence, not supernatural ability. You can use it a number of times per combat equal to your SIGNAL modifier (minimum 1).
 
 **Level 6: Ashfoot Path Feature**
 Your subclass grants an additional feature at this level.
 
 **Level 7: Salvage Upgrade**
 You have developed a talent for improving what you have. During a long rest, you can modify any weapon you have access to, giving it one of the following properties until your next long rest (or until the weapon is destroyed):
-- **Weighted:** The weapon deals an additional 1d4 damage.
+- **Weighted:** The weapon deals an additional 3 damage (fixed).
 - **Balanced:** You can throw the weapon up to 30 feet as a ranged attack.
 - **Brutal:** The weapon's critical hit range extends to 19-20.
-- **Disrupting:** When the weapon hits an enhanced target, their enhancement systems briefly stutter — they cannot use class features that require bonus actions until the start of their next turn.
+- **Disrupting:** When the weapon hits an enhanced target, their enhancement systems briefly stutter — they cannot use class features that require free actions until the start of their next turn.
 
-**Level 8: Ability Score Improvement**
+**Level 8: Stat Improvement**
 As level 4.
 
 **Level 8: Veteran's Reflex**
 You have survived enough ambushes, failed plans, and situations that went wrong in the worst way to have developed reflexes that function independently of your conscious planning. You gain:
 - You cannot be surprised as long as at least one ally is also not surprised.
-- When you fail a saving throw, you can use your reaction to add your proficiency bonus to the result. This can turn a failure into a success. You can use this reaction a number of times equal to your proficiency bonus per long rest.
+- When you fail a resistance check, you can use your Reaction to add your FRAME to the result. This can turn a failure into a success. You can use this Reaction a number of times equal to your FRAME per day.
 
 **Level 9: Into the Grinder**
 You have been in sustained, grinding combat — not the short, sharp engagements of formal duels but the kind of fighting that goes on for hours in confined territory. Your endurance in extended combat is remarkable. You gain:
 - The first time you take the maximum damage result on a damage die against you each turn, that die is treated as having rolled its median value instead. (Example: if someone rolls a 10 on a d10 against you, treat it as 5.)
-- You can take a short rest in 5 minutes instead of 1 hour, but you must be somewhere you have a reasonable expectation of not being immediately attacked (DM's discretion).
+- You can take a short rest in 5 minutes instead of 1 hour, but you must be somewhere you have a reasonable expectation of not being immediately attacked (GM's discretion).
 
 **Level 10: Ashfoot Path Feature**
 Your subclass grants an additional feature at this level.
 
 **Level 11: Weight of the Line**
-You know what it means to hold a position that should not be held, to stay because leaving means everyone behind you dies. Once per long rest, you can designate a Line — a specific position, area, or set of allies that you are holding for. While holding the Line:
+You know what it means to hold a position that should not be held, to stay because leaving means everyone behind you dies. Once per day, you can designate a Line — a specific position, area, or set of allies that you are holding for. While holding the Line:
 - You cannot be moved against your will from your designated position by any means short of teleportation.
 - While you remain in position, all allies within 30 feet behind you have a +2 bonus to AC.
-- Any creature that attempts to move through your designated position must make a Strength saving throw (DC = 8 + your proficiency bonus + your Strength modifier) or be stopped.
+- Any creature that attempts to move through your designated position must make a FRAME resistance check, difficulty 3, or be stopped.
 
 This effect lasts for 1 minute or until you choose to end it.
 
-**Level 12: Ability Score Improvement**
+**Level 12: Stat Improvement**
 As level 4.
 
 **Level 12: Bloody-Minded**
 You don't stop. This is not courage — it is the absence of the option to stop, internalized over years until it functions like courage. You gain:
 - You have resistance to psychic damage.
-- When you are under 25% of your maximum hit points, your attack rolls deal an additional 1d6 damage and your movement speed increases by 10 feet.
-- When you make a death saving throw, you can add your proficiency bonus to the result.
+- When you are under 25% of your maximum HP, your attack rolls deal an additional 4 damage (fixed) and your movement speed increases by 10 feet.
+- When you make a death resistance check, you can add your FRAME to the result.
 
 **Level 13: Salvage Master**
 Your ability to work with what's available has reached its highest expression. You gain:
-- You can create weapons and armor from salvage during a short rest with a DC 12 Salvage Kit check. These are temporary but fully functional.
-- You can dismantle an enemy's weapon as a bonus action after hitting them with an attack (the target makes a DC 15 Strength save or their weapon gains the Broken condition, imposing disadvantage on their attack rolls until repaired).
-- You have advantage on all Salvage kit checks.
+- You can create weapons and armor from salvage during a short rest with an IRON check, difficulty 2, using a Salvage Kit. These are temporary but fully functional.
+- You can dismantle an enemy's weapon as a free action after hitting them with an attack (the target makes a FRAME resistance check, difficulty 4, or their weapon gains the Broken condition, causing them to lose damage riders on their attack rolls until repaired).
+- You gain +3 to all Salvage kit checks.
 
 **Level 14: Ashfoot Path Feature**
 Your subclass grants an additional feature at this level.
 
 **Level 15: Unbreakable**
 Something in you simply refuses to finish. The Ashfoot's famous survival instinct has reached a point that is nearly incomprehensible to those who haven't seen it. You gain:
-- Your hit point maximum cannot be reduced below 1 by any effect.
-- When you are stabilized after dropping to 0 hit points, you regain 1d6 + your Constitution modifier hit points immediately.
-- You have advantage on death saving throws.
-- When you make three successful death saving throws, you regain 10% of your maximum hit points (rounded up) in addition to the normal stabilization.
+- Your HP maximum cannot be reduced below 1 by any effect.
+- When you are stabilized after dropping to 0 HP, you regain FRAME + 3 HP immediately.
+- You have +3 to death resistance checks.
+- When you make three successful death resistance checks, you regain 10% of your maximum HP (rounded up) in addition to the normal stabilization.
 
-**Level 16: Ability Score Improvement**
+**Level 16: Stat Improvement**
 As level 4.
 
 **Level 16: One More Round**
-You have learned to give more than you have — and to find something after you thought you were empty. Once per long rest, as a bonus action, you can enter One More Round. For 1 minute:
+You have learned to give more than you have — and to find something after you thought you were empty. Once per day, as a free action, you can enter One More Round. For 1 minute:
 - Your speed doubles.
-- You have advantage on all attack rolls.
+- You gain +3 to all attack cards.
 - You ignore the effects of exhaustion and all ongoing conditions that reduce your combat effectiveness.
 At the end of One More Round, you gain one level of exhaustion. If you are already exhausted, you gain two levels. This cost does not reduce the feature's value — you take the exhaustion. That's the whole point.
 
@@ -647,18 +647,18 @@ Improvised and salvage weapons in your hands are no longer inferior substitutes 
 **Level 18: Ashfoot Path Feature**
 Your subclass grants an additional feature at this level.
 
-**Level 19: Ability Score Improvement**
+**Level 19: Stat Improvement**
 As level 4.
 
 **Level 20: What We're Worth**
 The Ashfoot is told, all their life, what they are worth. The hierarchy has a number for it. The Caste system has a tier. At this level, you have demonstrated, definitively, that the number was wrong.
 
 Mechanically:
-- Your hit point maximum increases by 40 (retroactive).
-- You can use Ashfoot Grit an unlimited number of times per short rest.
-- When you roll for hit points at level up, you always take the maximum value.
-- Once per long rest, when a creature you can see is reduced to 0 hit points, you can use your reaction to grant them a death saving throw immediately (before they begin their death saves at the start of their turn). If they succeed, they regain 1 hit point.
-- You are immune to effects that would lower your hit point maximum.
+- Your HP maximum increases by 40 (retroactive).
+- You can use Ashfoot Grit an unlimited number of times per combat.
+- Your HP at level up always uses the maximum value.
+- Once per day, when a creature you can see is reduced to 0 HP, you can use your Reaction to grant them a death resistance check immediately (before they begin their checks at the start of their turn). If they succeed, they regain 1 HP.
+- You are immune to effects that would lower your HP maximum.
 
 ---
 
@@ -669,16 +669,16 @@ Mechanically:
 The Salvage and Spike fighters are the Ashfoot who have turned limited resources into a fighting philosophy. Where others see broken equipment, they see components. Where others see wreckage, they see opportunity. Their approach to combat is defined by radical improvisation — not as a temporary measure until better equipment arrives, but as the permanent method. They are often the most dangerous opponents in unstructured environments, where their ability to use anything as a weapon and to upgrade mid-fight is most visible.
 
 **Level 3: Salvage Combat**
-Your improvised weapons deal damage as if they were one size larger than their normal improvised classification (see Salvage Mastery). Additionally, you can perform a Salvage Grab as a bonus action: grab a loose object in the environment and immediately make one attack with it (using the improvised weapon rules). If the attack hits, you can choose to either deal damage normally or disarm, blind, or trip the target (target's choice of saving throw, DC = 8 + proficiency + Strength modifier).
+Your improvised weapons deal damage as if they were one size larger than their normal improvised classification (see Salvage Mastery). Additionally, you can perform a Salvage Grab as a free action: grab a loose object in the environment and immediately make one attack with it (using the improvised weapon rules). If the attack hits, you can choose to either deal damage normally or disarm, blind, or trip the target (target's choice of resistance check, FRAME resistance check, difficulty 3).
 
 **Level 6: Scrap Armor**
 During combat, if you take 10 or more damage from a single source, you can use your reaction to strip a component from your own equipment or the environment and jury-rig a protective modification. Until the start of your next turn, you have a +3 bonus to AC. This represents repurposing whatever is nearby as improvised ablative protection.
 
 **Level 10: Weapon Forge**
-You can, during combat, attempt to assemble a functional weapon from two smaller objects. As an action, combine two objects you are holding or can reach. Make a DC 13 Salvage Kit check (you are proficient with the kit). On a success, you create a functional weapon that deals 2d8 damage and has a special property of your choice (weighted, balanced, brutal, or disrupting from the Level 7 Salvage Upgrade list). This weapon lasts until the end of the encounter.
+You can, during combat, attempt to assemble a functional weapon from two smaller objects. As an action, combine two objects you are holding or can reach. Make an IRON check, difficulty 3, using a Salvage Kit. On a success, you create a functional weapon that deals 14 damage (fixed) and has a special property of your choice (weighted, balanced, brutal, or disrupting from the Level 7 Salvage Upgrade list). This weapon lasts until the end of the encounter.
 
 **Level 14: Environment as Arsenal**
-Your awareness of the combat environment as a weapons depot is complete. You are always considered armed. Additionally, once per turn, you can use a bonus action to throw a piece of the environment (loose stonework, shattered equipment, a chair, anything that fits in one hand) at a target within 20 feet. This attack deals 2d6 bludgeoning damage and the target must succeed on a DC 14 Strength saving throw or be knocked prone.
+Your awareness of the combat environment as a weapons depot is complete. You are always considered armed. Additionally, once per turn, you can use a free action to throw a piece of the environment (loose stonework, shattered equipment, a chair, anything that fits in one hand) at a target within 20 feet. This attack deals 8 bludgeoning damage (fixed) and the target must succeed on a FRAME resistance check, difficulty 3, or be knocked prone.
 
 ---
 
@@ -688,12 +688,12 @@ Formation fighters are the Ashfoot who have internalized the fundamental militar
 
 **Level 3: Formation Instinct**
 You have an innate tactical awareness of the space your allies occupy. You gain:
-- When an ally within 5 feet of you is hit by an attack, you can use your reaction to reduce the damage by your Constitution modifier.
-- You have advantage on all attack rolls when you have at least one ally adjacent to you.
-- You can take the Help action as a bonus action.
+- When an ally within 5 feet of you is hit by an attack, you can use your Reaction to reduce the damage by your FRAME.
+- You gain +3 to all attack rolls when you have at least one ally adjacent to you.
+- You can take the Help action as a free action.
 
 **Level 6: Anchor Point**
-You can designate yourself as an Anchor Point as a bonus action. While anchored:
+You can designate yourself as an Anchor Point as a free action. While anchored:
 - Enemies cannot flank you (they receive no flanking bonuses against you).
 - Allies within 10 feet of you gain a +2 bonus to their AC while you are conscious.
 - If an ally within 10 feet would be forced to move, you can make a Strength check contested by the forcing effect to prevent their movement.
@@ -701,12 +701,12 @@ You can designate yourself as an Anchor Point as a bonus action. While anchored:
 This effect lasts until the start of your next turn and can be re-applied each round.
 
 **Level 10: Coordinated Strike**
-When you take the Attack action and an ally attacks the same target, you can coordinate your strikes. If both attacks hit, the target takes an additional 3d6 damage and must make a DC 14 Strength saving throw or be knocked prone. Additionally, once per turn when an ally hits a target, you can make one melee attack against the same target as a reaction.
+When you take the Attack action and an ally attacks the same target, you can coordinate your strikes. If both attacks hit, the target takes an additional 12 damage (fixed) and must make a FRAME resistance check, difficulty 3, or be knocked prone. Additionally, once per turn when an ally hits a target, you can make one melee attack against the same target as a Reaction.
 
 **Level 14: Unbreakable Line**
 You have internalized the formation principle completely. While you are conscious and within 30 feet of at least two allies:
 - You and your allies within 30 feet have resistance to bludgeoning damage.
-- If any ally within 30 feet makes a death saving throw, you can use your reaction to grant them advantage on that throw.
+- If any ally within 30 feet makes a death resistance check, you can use your Reaction to grant them +3 on that check.
 - You cannot be paralyzed, petrified, or stunned as long as at least one ally is also conscious within 30 feet of you.
 
 ---
@@ -716,22 +716,22 @@ You have internalized the formation principle completely. While you are consciou
 Guerrilla fighters, resistance members, and deep-territory operatives. The Ghost Ground Ashfoot has learned to fight not by meeting force with force but by making the environment itself an ally. They hit and disappear. They strike at supply lines and command nodes, not at armored samurai. They understand that winning a war does not require defeating the enemy's strongest soldiers — it requires making the enemy too tired, too uncertain, and too spread-thin to use those soldiers effectively. They are rarely celebrated and they are rarely thanked. They are necessary.
 
 **Level 3: Ground Knowledge**
-You can melt into environments you are familiar with. In terrain you have spent at least 24 hours in (forests, urban areas, ruins, specific buildings), you are considered to have total cover while standing still and have advantage on all Stealth and Survival checks. Additionally, you can move through difficult terrain in wilderness and urban environments at normal speed.
+You can melt into environments you are familiar with. In terrain you have spent at least 24 hours in (forests, urban areas, ruins, specific buildings), you are considered to have total cover while standing still and gain +3 to all Stealth and Survival checks. Additionally, you can move through difficult terrain in wilderness and urban environments at normal speed.
 
 **Level 6: Strike and Fade**
-Your hit-and-move approach has been refined to a discipline. When you take the Attack action, you can move up to half your speed before or after the attack without provoking opportunity attacks. Additionally, after using Strike and Fade, you can make a DC 12 Stealth check as a free action. On a success, you are considered hidden until the start of your next turn or until you attack again.
+Your hit-and-move approach has been refined to a discipline. When you take the Attack action, you can move up to half your speed before or after the attack without provoking opportunity attacks. Additionally, after using Strike and Fade, you can make a VEIL check, difficulty 2, as a free action. On a success, you are considered hidden until the start of your next turn or until you attack again.
 
 **Level 10: Saboteur's Eye**
 You have developed a talent for identifying and exploiting structural and mechanical weaknesses. You gain:
 - Your attacks against objects, structures, and vehicles deal triple damage.
-- Once per short rest, you can make an Investigation check (DC 12) to identify the critical point of any structure, vehicle, or fortification within 60 feet. On a success, your next attack against that point deals maximum damage and creates a cascade effect (DM determines the structural consequence).
-- You have advantage on checks to set traps, create diversions, and sabotage equipment.
+- Once per combat, you can make a SIGNAL check, difficulty 2, to identify the critical point of any structure, vehicle, or fortification within 60 feet. On a success, your next attack against that point deals maximum damage and creates a cascade effect (GM determines the structural consequence).
+- You gain +3 to checks to set traps, create diversions, and sabotage equipment.
 
 **Level 14: Deep Cover**
 You have learned to disappear not just physically but systematically. You gain:
 - You cannot be tracked by enhancement signature methods.
 - You can spend 1 hour establishing a false enhancement signature in a new area, causing enhancement-reading systems to register you as a different caste and identity until you leave the area or choose to cancel the effect.
-- Once per long rest, as a bonus action, you can become effectively invisible to all mechanical detection for 1 minute. Creatures can still see you normally, but no scanner, sensor, or automated detection system can register your presence.
+- Once per day, as a free action, you can become effectively invisible to all mechanical detection for 1 minute. Creatures can still see you normally, but no scanner, sensor, or automated detection system can register your presence.
 
 ---
 

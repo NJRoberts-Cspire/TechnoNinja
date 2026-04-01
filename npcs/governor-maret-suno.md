@@ -104,3 +104,57 @@ The northern pass lord has shut the pass and is demanding Hessenkai formally dec
 
 **3. The Eight Months (Secret/Personal Cost)**
 Someone else has found documentation of the decision from the eight months after the governorship transition. Not the Wire Market, not any claimant. A private investigator, recently hired by someone unknown. The investigator is not a threat to Maret — they're a threat to the city, because the person who hired them wants leverage over Hessenkai's governor, not over Maret personally. She needs the investigator's employer identified before the documentation surfaces. She will ask the players for this favor with honest desperation she does not entirely manage to conceal. This is the only time she will be visibly afraid.
+
+---
+
+## COMBAT STATS
+
+> *These stats represent Governor Maret Suno in direct confrontation. Most encounters with her will not reach this point — and she knows it. The stat block exists for when diplomacy, manipulation, and leverage have all failed.*
+
+**Tier:** Standard
+**Role:** controller
+**HP:** 30 (FRAME 3 × 8 + 6 Social tier base)
+**AP Max:** 2
+**Hand Size:** 5
+**Initiative:** 3
+
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
+|---|---|---|---|---|---|
+| 2 | 3 | 3 | 5 | 2 | 7 |
+
+### Basic Attack — Political Weight
+*0 AP | Attack | Once per turn*
+**Effect:** Maret identifies the most damaging true thing she can say and says it. Social/Command attack, 1 target within close range who can hear her. Damage: 5 + VEIL (12 total) — not physical, not resonant, but the specific kind of damage that comes from being correctly assessed by someone with twenty years of records on everyone in this room.
+
+### Leverage Point
+*Tier 1 (1 AP) | Control*
+**Effect:** Maret opens her notebook and reads aloud. 1 target who can hear her is Staggered as she presents information about their position, obligations, or vulnerabilities that she has been holding for exactly this moment. The target must pass a VEIL check (difficulty 4) or cannot take aggressive actions against Maret until end of their next turn.
+**Keywords:** Stagger
+
+### Information Denial
+*Tier 1 (1 AP) | Control*
+**Effect:** Maret uses her administrative network to cut off an enemy's access to communication or support. 1 enemy is Silenced (cannot use Signal cards) until the start of Maret's next turn. If the enemy is using Wireweave or official channels, this lasts until the end of combat.
+**Keywords:** Silence
+
+### Recall the Debt
+*Tier 2 (2 AP) | Control*
+**Effect:** Maret identifies the specific obligation one target within close range owes to someone in her network and calls it in, right now. The target must pass a VEIL check (difficulty 5) or be Rooted as they recalculate their position. While Rooted this way, all social attacks against them by any ally deal +4 damage.
+**Keywords:** Root
+
+### Twenty Years of Meetings
+*Tier 2 (2 AP) | Utility | 1/Combat*
+**Effect:** Maret activates her resource network, instantly redirecting institutional support. She can: remove one harmful status effect from herself or an ally, produce an official document that changes the legal standing of one NPC in this scene, or establish that one enemy in the scene owes her a favor they cannot currently afford to refuse. This is not magic. It is twenty years of administration.
+
+### Reaction: Read the Room
+*Reaction | Triggered by: any creature targeting Maret with an attack or social manipulation card*
+**Effect:** Maret already saw this coming. She imposes Expose 2 on the triggering creature's next action as she deploys counter-information she has been holding in reserve.
+**Keywords:** Expose 2
+
+---
+
+### Combat Behavior
+Maret does not fight. She manages. She uses Leverage Point and Information Denial to reduce the opposition's options, positions herself behind any available cover or ally, and uses Twenty Years of Meetings the moment it will end the confrontation without further violence. She is always calculating whether talking is still possible. Usually it is.
+
+### "I Would Prefer Not To"
+If she can put a number on the cost of continuing — in lives, in infrastructure, in political capital — and that number is higher than the cost of stopping, she will state the number and propose terms.
+

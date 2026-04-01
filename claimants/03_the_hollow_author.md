@@ -230,7 +230,7 @@ The tell in the Penitent: after a healing — after a genuine act of resonance c
 
 **The Universal Tell:** All three puppets, when asked directly about their early history or their childhood or the original shape of their life before they became what they are now, deflect with a specificity that is inconsistent with their general directness. Shivenne becomes briefly overly academic. Tessik changes the subject with the smooth competence of a practiced misdirector. The Penitent simply does not respond. The original history is the thing the Author cannot generate for them because the original history is the thing the Author no longer has access to themselves.
 
-### Stat Block (D&D 5E)
+### Stat Block
 
 The Hollow Author is never personally present in combat. What follows is the stat block for the Author's combat capability when operating through a puppet, followed by a separate section for the Author in the room in the extreme scenario where the players find the room.
 
@@ -240,20 +240,20 @@ Legendary Construct/Humanoid (Resonance-Directed), Neutral
 
 Note: All puppets share this stat block in directed combat mode.
 A puppet that reaches 0 HP does not die — it goes inert. The Author
-activates a replacement within 1d4 hours. There are potentially
+activates a replacement within 2 hours. There are potentially
 hundreds of prepared puppet bodies distributed across Tesshari.
 The Author has never been in personal danger.
 
 Armor Class: 17 (enhanced reflexes, resonance deflection)
-Hit Points: 200 (per puppet; each is a separate pool)
+HP: 200 (per puppet; each is a separate pool)
 Speed: 35 ft.
 
-STR 16 (+3) | DEX 20 (+5) | CON 16 (+3)
-INT 22 (+6) | WIS 18 (+4) | CHA 20 (+5)
+IRON 16 (+3) | EDGE 20 (+5) | FRAME 16 (+3)
+SIGNAL 22 (+6) | RESONANCE 18 (+4) | VEIL 20 (+5)
 
-Saving Throws: Dex +12, Int +13, Wis +11, Cha +12
+Resistance Checks: EDGE +12, SIGNAL +13, RESONANCE +11, VEIL +12
 Skills: Deception +12, Insight +11, Perception +11,
-        Persuasion +12, Arcana/Resonance Lore +13,
+        Persuasion +12, Resonance Lore +13,
         Sleight of Hand +12, Stealth +12
 Damage Resistances: Psychic; Bludgeoning from nonmagical attacks
 Condition Immunities: Charmed, Frightened
@@ -263,18 +263,17 @@ Senses: Darkvision 60 ft., passive Perception 21; additionally,
         the Author perceives through all active puppets
         simultaneously (up to 300 miles)
 Languages: All languages of Tesshari
-Challenge Rating: 20 per puppet (41,000 XP)
-Proficiency Bonus: +7
+Threat: 20 per puppet    Class Expertise: +7
 
 ---
 SPECIAL TRAITS
 
-The Puppet Does Not Die. When a puppet reaches 0 hit points, it goes
-inert immediately with no death saves. The Author becomes aware and
-begins activating a replacement. A prepared replacement can be made
-available within 1d4 hours in urban areas; 1d4 days in remote areas.
-The Author has not accumulated enough evidence for anyone to know
-the total number of prepared puppets. There is no known upper limit.
+The Puppet Does Not Die. When a puppet reaches 0 HP, it goes inert
+immediately. The Author becomes aware and begins activating a
+replacement. A prepared replacement can be made available within 2
+hours in urban areas; 2 days in remote areas. The Author has not
+accumulated enough evidence for anyone to know the total number of
+prepared puppets. There is no known upper limit.
 
 Distributed Attention. The Author perceives everything within 30 feet
 of any active puppet simultaneously, regardless of distance. The Author
@@ -282,39 +281,38 @@ cannot be surprised while any puppet is active. Any attempt to sneak
 up on the Author (via any puppet) requires beating a passive Perception
 of 21.
 
-No Center in the Room. Divination, scrying, or magical detection
-targeting the Author as a person always locates the nearest active
-puppet rather than the Author's actual body, unless the questioner
-specifically frames the request as locating the Author's body rather
-than the Author. The Author's actual body has no magic aura. It is
-a person in a room. Nothing more.
+No Center in the Room. Resonance detection targeting the Author as a
+person always locates the nearest active puppet rather than the
+Author's actual body, unless the questioner specifically frames the
+request as locating the Author's body rather than the Author. The
+Author's actual body has no resonance aura. It is a person in a room.
+Nothing more.
 
 Resonance Misdirection. Once per round as a free action, the Author
-can cause any one active puppet to appear — to magical detection and
-resonance scanning — as a completely normal, unaugmented human being
-with no Echomind anomalies. This illusion lasts until the puppet acts
-in a way that produces resonance output (combat, directed healing, etc.)
+can cause any one active puppet to appear — to resonance scanning —
+as a completely normal, unaugmented human being with no Echomind
+anomalies. This cover lasts until the puppet acts in a way that
+produces resonance output (combat, directed healing, etc.)
 
 ---
 PUPPET ACTIONS (3 attacks per action)
 
 Precise Strike. Melee or Ranged Weapon Attack: +12 to hit, reach 5 ft.
-or range 60/120 ft. Hit: 3d8 + 5 damage (type varies by puppet's
-carried weapon; Shivenne uses a resonance blade, Tessik prefers a
-short blade and dirk, the Penitent uses resonance-channeling palms).
-On a hit, the target must succeed on a DC 20 Constitution saving throw
-or have disadvantage on their next saving throw (resonance disruption).
+or range 60/120 ft. Hit: 17 damage (type varies by puppet's carried
+weapon; Shivenne uses a resonance blade, Tessik prefers a short blade
+and dirk, the Penitent uses resonance-channeling palms). On a hit,
+the target must succeed on a FRAME resistance check at difficulty 10
+or take -3 to their next resistance check (resonance disruption).
 
 Directed Resonance (Recharge 5–6). The Author pushes a focused
 resonance pulse through a puppet. One target within 60 feet must
-succeed on a DC 21 Constitution saving throw or take 6d10 psychic
-damage and be stunned until the end of their next turn.
+succeed on a FRAME resistance check at difficulty 11 or take 33
+psychic damage and be stunned until the end of their next turn.
 
 The Penitent Only — Resonance Heal. As an action, the Penitent
-puppet may touch a willing creature and restore 4d10 + 20 hit points,
-remove one disease or condition, or stabilize a dying creature.
-This requires the Penitent to remain stationary for the full action.
-Recharge: Long Rest.
+puppet may touch a willing creature and restore 42 HP, remove one
+condition, or stabilize a dying creature. This requires the Penitent
+to remain stationary for the full action. Recharge: Extended Rest.
 
 ---
 LEGENDARY ACTIONS (3/round, at end of another creature's turn)
@@ -325,8 +323,8 @@ the full tactical situation through all active puppets.
 
 Resonance Read (1 action). The Author scans one creature within 60
 feet, learning their current HP, one active condition, and one active
-ability or spell effect. Information is processed at the Author's
-location, not the puppet's.
+ability or effect. Information is processed at the Author's location,
+not the puppet's.
 
 Simultaneous Direction (2 actions). If multiple puppets are active in
 the same encounter, the Author can use this action to have a second
@@ -343,33 +341,33 @@ THE AUTHOR IN THE ROOM
 (If the players find the actual body — extreme late-campaign scenario)
 
 Armor Class: 10 (they have not moved with intent in years)
-Hit Points: 60 (the body is maintained but not trained)
+HP: 60 (the body is maintained but not trained)
 Speed: 20 ft. (atrophied; the resonance systems compensate but the
         body itself has not been exercised)
 
-STR 8 (-1) | DEX 10 (+0) | CON 10 (+0)
-INT 26 (+8) | WIS 20 (+5) | CHA 14 (+2)
+IRON 8 (-1) | EDGE 10 (+0) | FRAME 10 (+0)
+SIGNAL 26 (+8) | RESONANCE 20 (+5) | VEIL 14 (+2)
 
 (No legendary actions. No special combat abilities. A person in a room.)
 
 Special: While in the room, the Author maintains full cognitive
 connection to all active puppets. Incapacitating or killing the Author
-here causes all puppets to go inert simultaneously within 1d4 rounds.
+here causes all puppets to go inert simultaneously within 2 rounds.
 The Author is aware of this and has prepared the room accordingly
 (see Lair Actions).
 
 LAIR ACTIONS (Author's Room):
 - Resonance Lockdown: The room's resonance grid activates. All
-  creatures in the room (except the Author) must succeed on a DC 23
-  Constitution saving throw or be paralyzed for 1 minute.
+  creatures in the room (except the Author) must succeed on a FRAME
+  resistance check at difficulty 12 or be paralyzed for 1 minute.
 - Puppet Recall: One puppet within 300 miles immediately moves toward
   the room at maximum speed, arriving in DM-determined time.
-- Emergency Dissemination: The Author pushes their full Echomind
-  into the puppet network simultaneously. The Author's body goes
-  inert (0 HP, stable, not dead) and the Author is now distributed
-  across all active puppets. For 1 hour, all puppets have +4 to all
-  ability scores and can take an extra action per turn. After 1 hour,
-  the Author reassembles in the body (1 HP).
+- Emergency Dissemination: The Author pushes their full Echomind into
+  the puppet network simultaneously. The Author's body goes inert (0
+  HP, stable, not dead) and the Author is now distributed across all
+  active puppets. For 1 hour, all puppets have +4 to all stats and can
+  take an extra action per turn. After 1 hour, the Author reassembles
+  in the body (1 HP).
 ```
 
 ### Combat Philosophy

@@ -106,3 +106,59 @@ Players need to understand what happened at a specific significant location — 
 
 **3. The Decision (Information/Trust Climax)**
 Veran has decided the players are who she was looking for. She calls them to the Echo Coast — not formally, through a personal message. She tells them about the fourth party. She tells them the Tidecourt has been sitting on this for seven years. She tells them she is giving it to them without authorization because she has concluded that the authorization is not coming and the window is closing. She is calm about this. After she tells them, she says: "I expect there will be professional consequences. I'd appreciate it if you acted on this before those consequences become the interesting story." She is asking them to matter with the information before the Tidecourt can take it back.
+
+---
+
+## COMBAT STATS
+
+> *These stats represent Tidecourt Speaker Veran in direct confrontation. Most encounters with her will not reach this point — and she knows it. The stat block exists for when diplomacy, manipulation, and leverage have all failed.*
+
+**Tier:** Standard
+**Role:** support
+**HP:** 46 (FRAME 4 × 8 + 14 Martial-adjacent base — two deaths and two revivals have changed her physiology in ways that make her more resilient than her frame suggests)
+**AP Max:** 2
+**Hand Size:** 6
+**Initiative:** 4
+
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
+|---|---|---|---|---|---|
+| 2 | 4 | 4 | 4 | 7 | 7 |
+
+### Basic Attack — Emotional Weight
+*0 AP | Attack | Once per turn*
+**Effect:** Veran reads the emotional residue of this exact moment and names it aloud. Resonant/Social attack, 1 target within close range. Damage: 5 + RESONANCE (12 total). If the target has unresolved significant emotional weight in this space — guilt, grief, fear — they are also Staggered. She cannot always predict this. She can usually predict this.
+**Keywords:** Stagger
+
+### Read the Ambush
+*Tier 1 (1 AP) | Defense*
+**Effect:** Veran read the intent before the attack arrived — emotional residue of ambush intent reads differently from neutral presence. She and all allies within close range gain Guard 5 + RESONANCE (12 total) until start of her next turn. She cannot be surprised this round.
+**Keywords:** Guard
+
+### Twice-Echoed Resilience
+*Tier 1 (1 AP) | Defense | 2/Combat*
+**Effect:** Two revival processes have done something to Veran's physiology. When reduced to 0 HP, she instead drops to 1 HP and immediately recovers Guard 8 + RESONANCE (15 total). She has died twice. She is not particularly impressed by this attempt.
+**Keywords:** Guard
+
+### The Room Is Very Heavy
+*Tier 2 (2 AP) | Control*
+**Effect:** Veran reads the full emotional residue of the space and broadcasts it through the Fifth Caste threading in her hands. All enemies within close range take 7 + RESONANCE (14 total) Resonance damage and must pass a RESONANCE check (difficulty 4) or be Staggered as significant emotional events that occurred in this space wash over them. In a location where something terrible happened, the difficulty increases to 5. She does not misread clear ones.
+**Keywords:** Stagger
+
+### Withheld Information
+*Tier 2 (2 AP) | Control | 1/Combat*
+**Effect:** Veran releases one piece of the information the Tidecourt has been sitting on for seven years — specifically, the piece most relevant to whoever is threatening her. The target must pass a VEIL check (difficulty 5) or be Rooted and Staggered as the weight of what they didn't know recontextualizes their current actions. This is not a threat. It is information. It changes things.
+**Keywords:** Root, Stagger
+
+### Reaction: I Know What This Weighs
+*Reaction | Triggered by: taking damage from a significant emotional source — betrayal, deliberate cruelty, the second death approaching*
+**Effect:** Veran has felt what matters more than once. Reduce incoming damage by VEIL (7) and immediately grant 1 ally within close range Regen 3 for 2 rounds — her diplomatic instinct redirects toward whoever still needs protecting.
+**Keywords:** Regen 3
+
+---
+
+### Combat Behavior
+Veran reads the room before acting. She uses Read the Ambush to protect allies proactively, The Room Is Very Heavy to suppress clustered enemies, and positions herself where her emotional perception is most useful. She uses Withheld Information only when she has concluded that the fight will end better if the other party understands what they are actually doing. She will not initiate lethal force.
+
+### "I Would Prefer Not To"
+Veran will offer the withheld information freely if it means the violence stops. She has been holding it for seven years. She would rather give it to someone who will act on it than to no one because she was protecting herself.
+

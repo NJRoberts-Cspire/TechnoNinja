@@ -106,3 +106,56 @@ Kessen has finished a section of her metrics document and needs someone with acc
 
 **3. Dessa's Finding (Personal/Revelation)**
 Players have been investigating the Engine Scar's changed signal. Kessen tells them about Dessa, the patient she lost in year four. She tells them something she has never told anyone: after Dessa died, the Engine Scar's background signal shifted slightly for approximately six hours. She noted it in her records at the time as an environmental anomaly and did not connect it to Dessa's death until years later, when she had enough data to recognize the pattern. The Scar responds to the death of people carrying scar resonance. It has been doing this, in small ways, every time an Ashlands resident with the third resonance component dies. The Scar is, in some way, receiving them. The players now have to decide what this means for the Iron Afterlife, the Engine Scar, and everything they thought they knew about where the dead go.
+
+---
+
+## COMBAT STATS
+
+> *These stats represent Forge-Sister Kessen in direct confrontation. Most encounters with her will not reach this point — and she knows it. The stat block exists for when diplomacy, manipulation, and leverage have all failed.*
+
+**Tier:** Standard
+**Role:** support
+**HP:** 38 (FRAME 4 × 8 + 6 Social tier base)
+**AP Max:** 2
+**Hand Size:** 5
+**Initiative:** 3
+
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
+|---|---|---|---|---|---|
+| 2 | 3 | 4 | 4 | 7 | 4 |
+
+### Basic Attack — Sutensai Needle
+*0 AP | Attack | Once per turn*
+**Effect:** Kessen drives a resonant-steel medical instrument into a pressure point. Melee, 1 target. Damage: 4 + IRON (6 total). Apply Bleed 1 — not from aggression, from knowing exactly where the body fails.
+
+### Ashlands Patch
+*Tier 1 (1 AP) | Support*
+**Effect:** Kessen applies Ashlands-adapted resonance treatment to 1 ally within close range. That ally recovers 6 + RESONANCE (13 total) HP. If the ally has a resonance-based status condition (Silence, Expose from Signal damage, resonance-related Bleed), remove it.
+**Keywords:** Cleanse
+
+### Resonance Stabilizer
+*Tier 1 (1 AP) | Defense*
+**Effect:** Kessen reads a target's Echomind and reinforces their resonance signature. 1 ally within close range gains Shield 5 + RESONANCE (12 total) until the start of Kessen's next turn. This Shield applies against Signal and Resonance damage only.
+
+### Diagnostic Override
+*Tier 2 (2 AP) | Control*
+**Effect:** Kessen identifies and exploits a flaw in a target's enhancement architecture. 1 enemy within close range is Staggered and takes Expose 2 as their integration destabilizes. Kessen must have observed this target for at least 1 round.
+**Keywords:** Expose 2
+
+### Third Resonance Pulse
+*Tier 2 (2 AP) | Utility | 1/Combat*
+**Effect:** Kessen emits the anomalous "scar resonance" frequency she documented in Ashlands patients. All enemies within close range with cybernetic enhancements take 5 + RESONANCE (12 total) Resonance damage and are Silenced until end of their next turn. Allies with Ashlands resonance signatures are unaffected.
+**Keywords:** Silence
+
+### Reaction: Stabilizing Touch
+*Reaction | Triggered by: an ally within close range dropping to 0 HP or below*
+**Effect:** Kessen immediately moves up to half speed toward the ally and applies emergency resonance support. That ally is stabilized at 1 HP instead of falling unconscious. Usable once per round.
+
+---
+
+### Combat Behavior
+Kessen does not want to fight and her stat block reflects it. She positions behind allies, uses Ashlands Patch and Resonance Stabilizer to keep them functional, and only uses Diagnostic Override when an enemy is actively threatening a patient she's treating. She treats combat as a medical emergency she is managing, not a fight she is winning. She will retreat if retreat protects the people she is responsible for.
+
+### "I Would Prefer Not To"
+If anyone she is treating is no longer in immediate danger, Kessen will call for a halt and attempt to negotiate — her concern is outcomes, not winning.
+

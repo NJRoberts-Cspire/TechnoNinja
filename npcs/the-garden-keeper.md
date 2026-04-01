@@ -108,3 +108,60 @@ A Resonant pilgrim recently left a component at the garden that the Garden Keepe
 
 **3. The Completion (Campaign Climax Potential)**
 The garden's signal reaches whatever it's been building toward. The Garden Keeper, for the first time in fifteen years, speaks in something like urgency. He tells the players that the accumulated resonance of the garden — the aggregate Echomind signal of thousands of discarded enhancements — has formed something. Not a mind. Not a ghost. Something that doesn't have a name yet. And it has something to say about the Convergence. Players who are present witness something that the Iron Sutra's framework cannot fully accommodate and that will reshape their understanding of what the Iron Afterlife actually is.
+
+---
+
+## COMBAT STATS
+
+> *These stats represent The Garden Keeper in direct confrontation. Most encounters with him will not reach this point — and he knows it. The stat block exists for when diplomacy, manipulation, and leverage have all failed.*
+
+**Tier:** Standard
+**Role:** controller
+**HP:** 36 (FRAME 3 × 8 + 12 Standard base — the body is approximately sixty, lightly enhanced, and has not been maintained the way the garden has)
+**AP Max:** 2
+**Hand Size:** 5
+**Initiative:** 2
+
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
+|---|---|---|---|---|---|
+| 2 | 2 | 3 | 3 | 9 | 4 |
+
+*Note: The Garden Keeper's RESONANCE is 9 — not because he has enhanced it, but because fifteen years of deep immersion in thousands of discarded Echomind signatures has made him a passive resonance accumulator. He did not choose this. The garden chose it for him.*
+
+### Basic Attack — The Garden Speaks
+*0 AP | Attack | Once per turn*
+**Effect:** The Garden Keeper touches a discarded enhancement component and lets the accumulated grief of its original owner pass through him toward a target. Resonant attack, 1 target within close range. Damage: 6 + RESONANCE (15 total). The target must pass a RESONANCE check (difficulty 3) or be Staggered — not from force, from the weight of someone else's ending.
+**Keywords:** Stagger
+
+### Aggregate Listening
+*Tier 1 (1 AP) | Control*
+**Effect:** The Garden Keeper quiets himself and lets the garden's full accumulated signal focus on 1 enemy within the garden's boundaries. That enemy is Marked and must pass a RESONANCE check (difficulty 4) or be Rooted for 1 round — the garden has opinions about people who come here to cause harm.
+**Keywords:** Mark, Root
+
+### The Metal Remembers
+*Tier 1 (1 AP) | Control*
+**Effect:** The Keeper reads a resonant-metal component within close range and surfaces its stored impression directly into the combat space. 1 target is Exposed 2 as the emotional weight of a specific loss, grief, or regret passes through them — not theirs, someone else's, and somehow worse for that. If the target has enhanced resonant-steel, they also take 4 + RESONANCE (13 total) Resonance damage.
+**Keywords:** Expose 2
+
+### Distributed Attention
+*Tier 2 (2 AP) | Defense*
+**Effect:** The Garden Keeper's self is not organized in the usual way. When targeted by a hostile effect, he simply... is not quite where the effect expected him to be. He gains Veil status for 2 rounds — the first hostile card targeting him each round loses all secondary effects. Additionally, the attacker must pass a RESONANCE check (difficulty 4) or be Staggered by the disorientation of trying to harm someone who is mostly elsewhere.
+**Keywords:** Veil
+
+### Fifteen Years of Signal
+*Tier 2 (2 AP) | Attack | 1/Combat*
+**Effect:** The garden's accumulated resonance — fifteen years, thousands of enhancements, every grief and hope that was left here — discharges through the Keeper in a single moment. All enemies within close range take 10 + RESONANCE (19 total) Resonance damage. They must pass a RESONANCE check (difficulty 5) or be Silenced for 2 rounds as the aggregate signal drowns their own Echomind signal out. The Keeper does not aim this. He simply stops holding it.
+**Keywords:** Silence
+
+### Reaction: The Garden Will Not Allow This
+*Reaction | Triggered by: any creature attempting to attack The Garden Keeper while inside the garden's boundaries*
+**Effect:** The attacker must pass a VEIL check (difficulty 5) or lose their action entirely — they cannot bring themselves to do it. This is not enhancement. The garden has simply accumulated enough resonant weight that it has opinions, and the Keeper is part of the garden now.
+
+---
+
+### Combat Behavior
+The Garden Keeper does not initiate, does not pursue, and will not leave the garden to fight. He uses Aggregate Listening and The Metal Remembers to slow and disorient attackers, Distributed Attention when under direct threat, and Fifteen Years of Signal only when the garden itself is at risk. He is not trying to win. He is trying for the situation to stop being this.
+
+### "I Would Prefer Not To"
+If an attacker stops — simply stops — the Garden Keeper will offer them tea. He means this without irony. He will ask where they are going and listen to the answer as if it matters. Usually this resolves things.
+

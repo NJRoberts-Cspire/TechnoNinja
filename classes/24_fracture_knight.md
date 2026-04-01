@@ -318,7 +318,7 @@ Choose 2 of the following 3 cards to begin with. You gain the third at Level 2.
 #### Between: The Final Blow
 *Tier 3 (3 AP) | Melee Attack | Signature | Capstone*
 
-**Effect:** Spend all Phantom Charges. Apply Fracture 5 to yourself. This card consumes both simultaneously: deal (28 + IRON) + (6 × Phantom Charges spent) + (4 × 5 self-Fracture stacks) damage to one target. This is the highest base damage value of any single card in Tesshari. It cannot be reduced by any effect. It hits from both sides of the Veil. The dead guided it. You threw it. The math was always going to come out here.
+**Effect:** Spend all Phantom Charges. Apply Fracture 5 to yourself. This card consumes both simultaneously: deal (18 + IRON) + (6 × Phantom Charges spent) + (3 × 5 self-Fracture stacks) damage to one target. This is the highest base damage value of any single card in Tesshari. It cannot be reduced by any effect. It hits from both sides of the Veil. The dead guided it. You threw it. The math was always going to come out here.
 **Keywords:** Pierce (all mitigation), Phantom Charge-spend (all), Self-Fracture-consume (5), Fixed maximum damage formula
 **Unlock:** Level 20 (choose one of the two Capstone cards)
 
@@ -351,7 +351,7 @@ Choose 2 of the following 3 cards to begin with. You gain the third at Level 2.
 
 *Total cards: 37. Hand Size: 5. At max hand size, each new card replaces one existing card.*
 
-*Design note: Between: The Final Blow at maximum Phantom Charges (6) and full self-Fracture (5) resolves at 28 + IRON + 36 + 20 = 84 + IRON base damage before Fracture stacks on the target and Expose/Vulnerable multipliers. This is intentional — it is the highest single-card damage ceiling in the game, requires substantial setup, and is the Fracture Knight's identity expressed as arithmetic.*
+*Design note: Between: The Final Blow at maximum Phantom Charges (6) and full self-Fracture (5) resolves at 18 + IRON + 36 + 15 = 69 + IRON base damage before Fracture stacks on the target and Expose/Vulnerable multipliers. This is the highest single-card damage ceiling in the game, requires substantial setup, and is the Fracture Knight's identity expressed as arithmetic. Base and self-Fracture multiplier were reduced from the original (28 + 4×stack) during balance review to prevent near-one-shotting a boss from a single card at high IRON.*
 
 ---
 
@@ -365,16 +365,16 @@ One specific dead individual has attached. They are present in every moment — 
 Work with your DM to establish who has attached to you: their name, their history, their reason for being here, and what they want. This is a real character in your game, present in every session in a limited but genuine sense. The attached dead can communicate with you (impressions, flashes, occasional clear words), can provide information from their life experience, and can occasionally take a more active role in moments the DM designates as appropriate.
 
 **Level 3: Their Strength**
-The attached dead augments your abilities in their area of expertise. Work with your DM to determine what they were skilled in (a warrior, a diplomat, a healer, a strategist). You have advantage on skill checks and ability checks related to their area of expertise. This is not your skill — it is theirs, borrowed.
+The attached dead augments your abilities in their area of expertise. Work with your DM to determine what they were skilled in (a warrior, a diplomat, a healer, a strategist). You gain +3 to skill checks and stat-based checks related to their area of expertise. This is not your skill — it is theirs, borrowed.
 
 **Level 6: Their Memory**
 Once per long rest, you can access a specific memory from the attached dead as a 1-minute trance: you live the memory fully, gaining complete information about a specific event, location, or person from their life. This memory is fully accurate (the dead do not forget, and do not lie, at least not to the person they're attached to).
 
 **Level 10: Full Partnership**
-Your relationship with the attached dead has matured into something approaching partnership. Once per long rest, for 1 minute, you can allow them to act through you fully. During this time, you have advantage on all checks and attacks in their area of expertise. When you attack, you can use their best ability modifier (Strength, Dexterity, or Intelligence, as established by their history) instead of your own, if it is higher. When this minute ends, you are yourself again, but they are present more strongly for 24 hours — their influence on your choices is more marked.
+Your relationship with the attached dead has matured into something approaching partnership. Once per long rest, for 1 minute, you can allow them to act through you fully. During this time, you gain +3 to all checks and Attack cards in their area of expertise. When you attack, you can use their best ability modifier (Strength, Dexterity, or Intelligence, as established by their history) instead of your own, if it is higher. When this minute ends, you are yourself again, but they are present more strongly for 24 hours — their influence on your choices is more marked.
 
 **Level 14: The Reckoning**
-The attached dead's unfinished business has now fully incorporated into your story. Once per long rest, you can invoke their final purpose: for 1 minute, you are the vessel for their complete spiritual intention. All attacks deal an extra 4d8 necrotic damage. All allies within 30 feet gain advantage on death saving throws. Any creature directly responsible for the attached dead's unfinished business (the target of the purpose, the unresolved issue) has disadvantage on all saving throws against your abilities for the duration. When this ends: the attached dead rests somewhat. They are less agitated for 7 days. They have not left — but they are, temporarily, at peace.
+The attached dead's unfinished business has now fully incorporated into your story. Once per long rest, you can invoke their final purpose: for 1 minute, you are the vessel for their complete spiritual intention. All attacks deal an extra 4d8 necrotic damage. All allies within 30 feet gain +3 to resistance checks against death. Any creature directly responsible for the attached dead's unfinished business (the target of the purpose, the unresolved issue) has -3 to all resistance checks against your abilities for the duration. When this ends: the attached dead rests somewhat. They are less agitated for 7 days. They have not left — but they are, temporarily, at peace.
 
 ---
 
@@ -389,13 +389,13 @@ You carry multiple dead. Their number is not fixed — the DM tracks it as a nar
 When you use Between-Strike, you add the number of distinct dead you carry (DM tracks, narrative count) to the extra damage, to a maximum of +5. The chorus concentrates in the strike.
 
 **Level 6: Massed Presence**
-Your Fractured Presence radiates more forcefully. Creatures within 30 feet (instead of 10) can sense something wrong — the accumulated weight of many dead pressing close to the world. Creatures who fail a Wisdom saving throw (DC = your Fracture Knight save DC) when they first come within 30 feet of you are unsettled for 1 hour: disadvantage on Wisdom saving throws while unsettled.
+Your Fractured Presence radiates more forcefully. Creatures within 30 feet (instead of 10) can sense something wrong — the accumulated weight of many dead pressing close to the world. Creatures who fail a RESONANCE resistance check (DC = your Fracture Knight save DC) when they first come within 30 feet of you are unsettled for 1 hour: -3 to RESONANCE resistance checks while unsettled.
 
 **Level 10: Directed Voices**
-Once per short rest, as an action, release a directed wave of the dead's collective presence in a 30-foot cone. All creatures in the cone must make Wisdom saving throws (DC = your Fracture Knight save DC) or take 4d10 psychic damage, be frightened until the end of their next turn, and be deafened for 1 round (the voices replace everything else). On a success: half damage, no other effects.
+Once per short rest, as an action, release a directed wave of the dead's collective presence in a 30-foot cone. All creatures in the cone must make RESONANCE resistance checks (DC = your Fracture Knight save DC) or take 4d10 psychic damage, be frightened until the end of their next turn, and be deafened for 1 round (the voices replace everything else). On a success: half damage, no other effects.
 
 **Level 14: Legion Ascendant**
-Once per long rest, for 1 minute, the dead all speak in unison. For this minute: you have advantage on all attack rolls and saving throws, creatures that hit you with melee attacks take 2d8 psychic damage from the collective force that passes through you, and any creature reduced to 0 hit points within 30 feet of you adds their presence to the chorus temporarily — their voice joins for the duration of the combat, adding their strength to the Legion Ascendant damage. When the minute ends, the temporarily-joined voices return to the Afterlife, and you are exhausted (one level) from the volume of them.
+Once per long rest, for 1 minute, the dead all speak in unison. For this minute: you gain +3 to Attack cards and resistance checks, creatures that hit you with melee attacks take 2d8 psychic damage from the collective force that passes through you, and any creature reduced to 0 hit points within 30 feet of you adds their presence to the chorus temporarily — their voice joins for the duration of the combat, adding their strength to the Legion Ascendant damage. When the minute ends, the temporarily-joined voices return to the Afterlife, and you are exhausted (one level) from the volume of them.
 
 ---
 

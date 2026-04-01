@@ -108,3 +108,57 @@ Players operating in the Sutra Sanctum find that one of their members has been f
 
 **3. The Breaking Point (Faith/Crisis)**
 Tessen completes the investigation. He brings it to Warden-Superior Malen. Malen thanks him for his thoroughness, takes the documentation, and tells him the matter will be handled through appropriate channels. The appropriate channels do not exist. Two weeks later, nothing has happened and Tessen's access to the relevant records has been quietly revoked. He finds the players. He has not slept in five days. He says, very carefully: "I need to know what to do when the institution you serve decides that the truth is a problem." This is the most important conversation of his young life, and the players are the only people he trusted enough to have it with.
+
+---
+
+## COMBAT STATS
+
+> *These stats represent Warden Tessen in direct confrontation. Most encounters with him will not reach this point — and he knows it. The stat block exists for when diplomacy, manipulation, and leverage have all failed.*
+
+**Tier:** Standard
+**Role:** brute
+**HP:** 54 (FRAME 5 × 8 + 14 Martial tier base — Fifth Caste integration, resonant-steel reinforced Warden uniform, built for enforcement)
+**AP Max:** 2
+**Hand Size:** 5
+**Initiative:** 5
+
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
+|---|---|---|---|---|---|
+| 5 | 5 | 5 | 7 | 3 | 2 |
+
+### Basic Attack — Enforcement Strike
+*0 AP | Attack | Once per turn*
+**Effect:** Tessen does not swing to intimidate. He swings because this is what the evidence has determined is necessary. Melee, 1 target. Damage: 7 + IRON (12 total), plus an additional 4 + SIGNAL (11 total) as the resonant-steel discharges — he was not planning to use the discharge feature, but it activates when his conviction does. The target's right shoulder twitches. So does his.
+
+### Evidence Lattice
+*Tier 1 (1 AP) | Control*
+**Effect:** Tessen's right arm lattice has been recording since he walked in. He cross-references current statements and actions against every prior observation and finds the inconsistency. 1 target who has said or done anything that can be contradicted by earlier evidence is Marked and Exposed 2. If the target is the Hollow Author's network, the Marked condition also applies Stagger — he has, unknowingly, seen enough of this to recognize it when he sees it again.
+**Keywords:** Mark, Expose 2, Stagger (vs. Author network)
+
+### Official Detention
+*Tier 1 (1 AP) | Control*
+**Effect:** Tessen invokes formal Warden authority. 1 target within close range who is in Sanctum-aligned territory must pass a VEIL check (difficulty 4) or be Rooted as the institutional weight of official detention lands. The lattice is already logging this. The target knows it. In non-Sanctum territory, this card applies Stagger instead of Root.
+**Keywords:** Root / Stagger
+
+### Methodical Advance
+*Tier 2 (2 AP) | Attack*
+**Effect:** Tessen does not rush. He documents the optimal approach and executes it. He moves up to medium range and makes an attack against 1 target: Damage 9 + IRON (14 total). If the target is Marked, add Bleed 2 and Expose 2 — he found the structural weakness before he advanced. Additionally, the lattice records the full approach; this attack cannot be retroactively denied or dismissed as accidental.
+**Keywords:** Bleed 2, Expose 2
+
+### Three Unresolved Anomalies
+*Tier 2 (2 AP) | Control | 1/Combat*
+**Effect:** Tessen has accumulated enough. He states, carefully and with the specific vocabulary of someone who has documented everything, what three things he cannot square with the official record. All enemies within close range who are implicated in those anomalies must pass a SIGNAL check (difficulty 4) or be Staggered — not from the accusation but from the evidence. Players who know what he has found and what it means will understand that he is, right now, choosing what kind of Warden he is.
+**Keywords:** Stagger
+
+### Reaction: Unresolved Anomaly
+*Reaction | Triggered by: taking damage from a source that contradicts something in Tessen's recorded evidence*
+**Effect:** The lattice flags it. Tessen notes it. He reduces incoming damage by SIGNAL (7) as his recording architecture provides a split-second of anticipatory data. He marks the attacker for evidence purposes. The shoulder twitches again.
+
+---
+
+### Combat Behavior
+Tessen enters combat the way he enters an investigation: methodically. He uses Evidence Lattice to establish information advantage, Official Detention to control movement, and Methodical Advance to close on the highest-threat target. He is not a calculated fighter. He is a principled one, which is different and sometimes harder to predict. He does not retreat from a legally authorized engagement. He will reconsider a legally ambiguous one if given sufficient evidence.
+
+### "I Would Prefer Not To"
+If anyone in the room can produce documentation that changes the evidentiary basis of the confrontation, Tessen will stop and evaluate it. He cannot simply dismiss it. He has never been able to simply dismiss things. This has gotten him into trouble. It will probably get him out of this.
+

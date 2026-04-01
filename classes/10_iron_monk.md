@@ -145,8 +145,8 @@ The three sects of the Iron Sutra have different relationships with the Iron Mon
 ### Between Anchor
 *Tier 2 (2 AP) | Defense | Utility*
 
-**Effect:** Root yourself in the Between. Gain Guard 10 and Fortify. You cannot be moved by forced movement this round. **Below half HP:** Also gain Regen 3 for 1 round.
-**Keywords:** Guard 10, Fortify, Regen 3 (below half HP)
+**Effect:** Root yourself in the Between. Gain Guard 7 and Fortify. You cannot be moved by forced movement this round. **Below half HP:** Also gain Regen 3 for 1 round.
+**Keywords:** Guard 7, Fortify, Regen 3 (below half HP)
 **Unlock:** Level 11
 
 ---
@@ -289,8 +289,8 @@ The three sects of the Iron Sutra have different relationships with the Iron Mon
 ### Iron Body
 *Tier 2 (2 AP) | Defense | Passive*
 
-**Effect:** Your Between-hardened body shrugs off what would stop others. Gain Guard 10 and immunity to Stagger for 1 round. **Below half HP:** Also gain Regen 3 and immunity to Silence for 1 round.
-**Keywords:** Guard 10, Regen 3 (below half HP)
+**Effect:** Your Between-hardened body shrugs off what would stop others. Gain Guard 7 and immunity to Stagger for 1 round. **Below half HP:** Also gain Regen 3 and immunity to Silence for 1 round.
+**Keywords:** Guard 7, Regen 3 (below half HP)
 **Unlock:** Level 8
 
 ---
@@ -518,10 +518,10 @@ As a bonus action, speak a short sutra to grant yourself or one creature within 
 Choose one classical Iron Monk combat technique: Hammer of the Sutra (your unarmed strikes and resonant blade attacks push targets 5 feet on a hit), Rising Wind Step (after you Dash, your next attack this turn has advantage), or Stone Endurance (when you use Resonant Defense, the damage reduction also applies to the next attack that hits you before the start of your next turn).
 
 **Level 10: Orthodox Resolve**
-Your connection to tradition steadies you. You cannot be charmed or frightened by creatures of lower CR than your level. When you roll a saving throw against an effect from a creature of equal or greater CR, you may spend 2 Between Points to reroll the save and take the higher result.
+Your connection to tradition steadies you. You cannot be charmed or frightened by creatures of lower CR than your level. When you make a resistance check against an effect from a creature of equal or greater CR, you may spend 2 Between Points to reroll the check and take the higher result.
 
 **Level 14: The Ancestor's Hand**
-Once per long rest, when you reduce a creature to 0 hit points, you can invoke the ancestors. All allies within 30 feet who can see or hear you regain hit points equal to your Wisdom modifier + your proficiency bonus. You also gain advantage on all attack rolls until the end of your next turn. The orthodox believe the dead fight alongside the living. Sometimes they are right.
+Once per long rest, when you reduce a creature to 0 hit points, you can invoke the ancestors. All allies within 30 feet who can see or hear you regain hit points equal to your Wisdom modifier + your class expertise bonus. You also gain +3 to Attack cards until the end of your next turn. The orthodox believe the dead fight alongside the living. Sometimes they are right.
 
 ---
 
@@ -530,13 +530,13 @@ Once per long rest, when you reduce a creature to 0 hit points, you can invoke t
 The Resonants say that the Between is not a spiritual state — it is an emergent property of sufficiently integrated biological and mechanical systems, and that if one optimizes the integration aggressively enough, the Between expands without limit. Resonant Iron Monks push their enhancements harder than any other path, operating at output levels that would permanently damage a less attuned practitioner. They burn brighter. They break more often. They have discovered things about the Between that the orthodox tradition does not want to hear.
 
 **Level 3: Overcharge**
-When you activate Resonant Strike, you can choose to spend an additional Between Point to deal an extra 1d6 resonant damage and push the target 5 feet. If you spend 2 additional Between Points instead, the push increases to 10 feet and the target must succeed on a Strength saving throw or be knocked prone.
+When you activate Resonant Strike, you can choose to spend an additional Between Point to deal an extra 1d6 resonant damage and push the target 5 feet. If you spend 2 additional Between Points instead, the push increases to 10 feet and the target must succeed on an IRON resistance check or be knocked prone.
 
 **Level 3: Enhancement Surge**
-Once per short rest, as a bonus action, overclock your enhancements. For 1 minute, your speed increases by 10 feet, your attacks deal an extra 1d4 resonant damage, and you have advantage on Strength checks. When the surge ends, roll a d6: on a 1-2, one of your enhancements malfunctions until repaired (imposes disadvantage on Strength or Dexterity checks, DM's choice).
+Once per short rest, as a bonus action, overclock your enhancements. For 1 minute, your speed increases by 10 feet, your attacks deal an extra 1d4 resonant damage, and you gain +3 to IRON-based cards. When the surge ends, roll a d6: on a 1-2, one of your enhancements malfunctions until repaired (imposes -3 to IRON or EDGE-based cards, DM's choice).
 
 **Level 6: Resonant Cascade**
-When you are hit by a melee attack, you can use your reaction and spend 2 Between Points to discharge a resonant cascade. The attacker takes resonant damage equal to your Wisdom modifier, and if they have cybernetic enhancements, they must make a Constitution saving throw or have disadvantage on their next attack roll as their systems briefly stagger.
+When you are hit by a melee attack, you can use your reaction and spend 2 Between Points to discharge a resonant cascade. The attacker takes resonant damage equal to your Wisdom modifier, and if they have cybernetic enhancements, they must make a FRAME resistance check or have -3 to Attack cards on their next attack as their systems briefly stagger.
 
 **Level 10: Signal Integration**
 Your enhancement integration is now deep enough that you can broadcast resonant energy deliberately. You gain a bonus action Wire Craft effect: you can send mental messages to willing creatures within 60 feet who have any cybernetic enhancements, and you can detect the rough emotional state of creatures with enhancements within 30 feet even if they are behind cover.
@@ -551,10 +551,10 @@ Once per long rest, you can push your enhancements to absolute maximum. For 1 mi
 The Flesh Circle teaches that the Iron Sutra's paradise of perfect integration is a trap — that the steel is always, ultimately, dominating the flesh, and that the Between is merely a beautiful name for the moment before flesh surrenders entirely. Flesh Circle Iron Monks test this theory on themselves: as they advance, they remove enhancements. Not in haste, not in anger, but in deliberate, meditative sequence, observing what happens to the Between as each component is extracted. What they find is not what anyone expected. The Between does not collapse. It becomes something else — something rawer and stranger and harder to name.
 
 **Level 3: Reduction Practice**
-You begin the practice of deliberate reduction. For each enhancement you have voluntarily removed (tracked with your DM), gain +1 to your Wisdom modifier for Between Point calculations. Additionally, when you make a saving throw against effects that target cybernetic enhancements specifically, you have advantage.
+You begin the practice of deliberate reduction. For each enhancement you have voluntarily removed (tracked with your DM), gain +1 to your Wisdom modifier for Between Point calculations. Additionally, when you make a resistance check against effects that target cybernetic enhancements specifically, you gain +3 to that check.
 
 **Level 3: Flesh Sense**
-Your reduced enhancement load makes your organic systems more sensitive. You have advantage on Insight checks. When you use Between Sense, you also detect the emotional state of creatures within range.
+Your reduced enhancement load makes your organic systems more sensitive. You gain +3 to Insight checks. When you use Between Sense, you also detect the emotional state of creatures within range.
 
 **Level 6: The Silence Beneath**
 Your Between, with less mechanical interference, becomes quieter and more precise. Resonant Pulse now costs only 1 Between Point. When you use it, you can choose to silence all cybernetic communications in the area for 1 round — no Wire Craft, no signal-based abilities, no enhancement broadcasts.
@@ -563,7 +563,7 @@ Your Between, with less mechanical interference, becomes quieter and more precis
 Your deliberately diminished enhancements make you invisible to certain kinds of detection. You cannot be detected by resonance-based sensing. Enhancement tracking systems do not register you as a target. Creatures whose abilities specifically target cybernetic enhancements cannot use those abilities against you (because what they target, you no longer carry).
 
 **Level 14: Return to Stillness**
-Once per long rest, you can enter a state of absolute organic calm — every enhancement quieted, every circuit at minimum output. For 1 minute: you are immune to all effects that require targeting cybernetic enhancements, you have advantage on all saving throws, your unarmed strikes deal 4d6 resonant damage (paradoxically — the Between is purest with the least interference), and you are invisible to any form of mechanical or resonant detection. When this ends, you must succeed on a DC 14 Constitution saving throw or gain one level of exhaustion from the strain of re-engaging your remaining systems.
+Once per long rest, you can enter a state of absolute organic calm — every enhancement quieted, every circuit at minimum output. For 1 minute: you are immune to all effects that require targeting cybernetic enhancements, you gain +3 to all resistance checks, your unarmed strikes deal 4d6 resonant damage (paradoxically — the Between is purest with the least interference), and you are invisible to any form of mechanical or resonant detection. When this ends, you must succeed on a DC 14 FRAME resistance check or gain one level of exhaustion from the strain of re-engaging your remaining systems.
 
 ---
 
@@ -572,10 +572,10 @@ Once per long rest, you can enter a state of absolute organic calm — every enh
 The Path of the Between claims no sect. It acknowledges no political affiliation. It studies the Between the way a scholar studies a text — without agenda, with complete attention, with willingness to find what is there rather than what is expected. Between monks are philosophical to a degree that occasionally becomes infuriating to people who want them to take a side. They do not refuse sides because they are cowards. They refuse sides because they have seen what the Between actually is, and what it is does not favor any of the factions arguing about it.
 
 **Level 3: Balanced State**
-You have found the precise point between excess enhancement and excess reduction. While neither under-enhanced for your tier nor over-extended beyond your calibration, you have advantage on saving throws against effects that specifically target either flesh or cybernetic components (but not both). Your DM determines what constitutes balanced state based on your character's enhancement level.
+You have found the precise point between excess enhancement and excess reduction. While neither under-enhanced for your tier nor over-extended beyond your calibration, you gain +3 to resistance checks against effects that specifically target either flesh or cybernetic components (but not both). Your DM determines what constitutes balanced state based on your character's enhancement level.
 
 **Level 3: Equilibrium Strike**
-When you hit a target with Resonant Strike, you can choose to deal your extra damage as either resonant damage or bludgeoning damage — you have learned to modulate the output type. Additionally, once per turn when you deal damage with Resonant Strike, you can choose to deal no damage and instead force the target to make a Wisdom saving throw. On a failure, the creature has disadvantage on its next saving throw.
+When you hit a target with Resonant Strike, you can choose to deal your extra damage as either resonant damage or bludgeoning damage — you have learned to modulate the output type. Additionally, once per turn when you deal damage with Resonant Strike, you can choose to deal no damage and instead force the target to make a RESONANCE resistance check. On a failure, the creature has -3 to its next resistance check.
 
 **Level 6: The Listening**
 Your Between attunement is now precise enough to sense imbalance in others. As an action, you can examine a creature within 30 feet. You learn whether they are operating their enhancements at overload, optimal, or reduced levels, whether they are under the influence of any spiritual effects, and whether any of their enhancements are malfunctioning. You may use this ability a number of times per long rest equal to your Wisdom modifier.
@@ -584,7 +584,7 @@ Your Between attunement is now precise enough to sense imbalance in others. As a
 You have learned to exist in the Between so completely that you can briefly step into it. Once per short rest, as a bonus action, you become partially incorporeal for 1 round: attacks against you have disadvantage, you can move through creatures and objects (taking 1d10 force damage if you end your turn inside an object), and your attacks deal half damage but cannot miss. You then return to full physical reality. This is not the Iron Afterlife. It is the space that borders it. The difference matters.
 
 **Level 14: Perfect Resonance**
-Your understanding of the Between has reached the theoretical limit described in the Sutra. You are immune to effects that specifically target either flesh or cybernetic enhancements to the exclusion of the other. Your Between Points maximum increases by 5. Once per long rest, when you would take damage that would reduce you to 0 hit points, you can instead reduce the damage to the minimum required to leave you at 1 hit point — the Between absorbs the excess. When you do this, every creature within 15 feet sees a brief discharge of resonant light and must succeed on a Wisdom saving throw (DC = your Between Save DC) or be frightened of you until the end of their next turn.
+Your understanding of the Between has reached the theoretical limit described in the Sutra. You are immune to effects that specifically target either flesh or cybernetic enhancements to the exclusion of the other. Your Between Points maximum increases by 5. Once per long rest, when you would take damage that would reduce you to 0 hit points, you can instead reduce the damage to the minimum required to leave you at 1 hit point — the Between absorbs the excess. When you do this, every creature within 15 feet sees a brief discharge of resonant light and must succeed on a RESONANCE resistance check (DC = your Between Save DC) or be frightened of you until the end of their next turn.
 
 ---
 

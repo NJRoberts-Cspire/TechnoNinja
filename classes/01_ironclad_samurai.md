@@ -496,12 +496,12 @@ Within the Broken Reaches, samurai serve as the professional military backbone o
 ## Subclasses
 
 **Level 1: Vein of Iron**
-You have internalized the code of the Ironclad. Your enhancements are tuned to ethical clarity. Choose a Vein Oath — a specific principle your Echomind resonates around: Loyalty, Restraint, Sacrifice, or Clarity. Once chosen, this oath shapes your access to certain features. Your Vein Oath functions mechanically as an ethical alignment anchor — if you ever act directly contrary to your oath's principle (at the DM's discretion), you suffer Resonance Fracture: disadvantage on all attack rolls and saving throws until you perform a meaningful act of atonement, spend an hour in resonance meditation (requiring a forge maintenance kit), and regain the DM's acknowledgment that you have returned to alignment.
+You have internalized the code of the Ironclad. Your enhancements are tuned to ethical clarity. Choose a Vein Oath — a specific principle your Echomind resonates around: Loyalty, Restraint, Sacrifice, or Clarity. Once chosen, this oath shapes your access to certain features. Your Vein Oath functions mechanically as an ethical alignment anchor — if you ever act directly contrary to your oath's principle (at the GM's discretion), you suffer Resonance Fracture: -3 to all attack cards and resistance checks until you perform a meaningful act of atonement, spend an hour in resonance meditation (requiring a forge maintenance kit), and regain the GM's acknowledgment that you have returned to alignment.
 
 Additionally, choose one of the following Vein disciplines at level 1:
 
-- **Between Stance:** When you take the Attack action, you can use a bonus action to enter the Between Stance. Until the start of your next turn, your movement does not provoke opportunity attacks, and the first attack made against you has disadvantage.
-- **Iron Breath:** You can use a bonus action to suppress your enhancement signatures temporarily. For 1 minute, you appear to scanning abilities as a lower-caste individual. This feature can be used once per short rest.
+- **Between Stance:** When you play an attack card, you can activate Between Stance as a free action. Until the start of your next turn, your movement does not provoke opportunity attacks, and the first attack made against you loses its damage riders.
+- **Iron Breath:** You can suppress your enhancement signatures temporarily as a free action. For 1 minute, you appear to scanning abilities as a lower-caste individual. This feature can be used once per combat.
 
 **Level 1: Resonant Strike**
 Your enhancements are integrated with your strikes. Once per turn when you hit with a melee attack using a resonant blade or force mace, you can add your Wisdom modifier to the damage roll. This represents the harmonic discharge of your Echomind through the resonant metal at the moment of contact.
@@ -509,9 +509,9 @@ Your enhancements are integrated with your strikes. Once per turn when you hit w
 **Level 2: Vein Discipline**
 You have learned to shape your combat style around the obligations of the code. Choose one Vein Discipline:
 
-- **Stillness Kata:** When you have not moved during your turn, your attack rolls have advantage until the end of that turn. You can use this feature a number of times equal to your proficiency bonus per long rest.
-- **Burden Strike:** When an enemy attacks an ally within 10 feet of you, you can use your reaction to impose disadvantage on that attack roll. You must be able to see the attacker.
-- **Iron Witness:** When a creature within 30 feet of you drops to 0 hit points, you gain temporary hit points equal to your Wisdom modifier + your proficiency bonus.
+- **Stillness Kata:** When you have not moved during your turn, your attack cards gain +3 damage until the end of that turn. Usable once per day.
+- **Burden Strike:** When an enemy attacks an ally within 10 feet of you, you can use your Reaction to impose -3 on that attack's damage. You must be able to see the attacker.
+- **Iron Witness:** When a creature within 30 feet of you drops to 0 HP, you gain Shield equal to your RESONANCE.
 
 **Level 2: Enhancement Integration**
 Your resonant metal has bonded more deeply with your nervous system. You gain the following benefits:
@@ -521,32 +521,32 @@ Your resonant metal has bonded more deeply with your nervous system. You gain th
 **Level 3: Vein Path**
 You choose your Vein Path subclass, representing the specific tradition and oath structure that defines your samurai identity. See Subclasses below.
 
-**Level 4: Ability Score Improvement**
-Increase one ability score by 2, or two ability scores by 1 each. As normal, you cannot increase a score above 20 using this feature.
+**Level 4: Stat Improvement**
+Increase one stat by 2, or two stats by 1 each. Standard stat maximums apply.
 
 **Level 5: Extra Attack**
 You can attack twice, instead of once, whenever you take the Attack action on your turn.
 
 **Level 5: Between Awareness**
-Your awareness of the resonant space between action and reaction sharpens. You cannot be surprised as long as you are conscious. Additionally, you have advantage on initiative rolls.
+Your awareness of the resonant space between action and reaction sharpens. You cannot be surprised as long as you are conscious. Additionally, you always act before any creature whose EDGE is lower than your RESONANCE.
 
 **Level 6: Vein Path Feature**
 Your subclass grants an additional feature at this level.
 
 **Level 7: Iron Endurance**
-Your enhancements reinforce your body against punishment. You gain resistance to one damage type of your choice from the following: slashing, piercing, or bludgeoning. This choice reflects your enhancement configuration and cannot be changed without a week of forge work. Additionally, when you are reduced to 0 hit points but not killed outright, you can make a DC 15 Wisdom saving throw. On a success, you drop to 1 hit point instead. This feature can be used once per long rest.
+Your enhancements reinforce your body against punishment. You gain resistance to one damage type of your choice from the following: slashing, piercing, or bludgeoning. This choice reflects your enhancement configuration and cannot be changed without a week of forge work. Additionally, when you are reduced to 0 HP but not killed outright, you can make a FRAME check, difficulty 4. On a success, you drop to 1 HP instead. This feature can be used once per day.
 
-**Level 8: Ability Score Improvement**
+**Level 8: Stat Improvement**
 As level 4.
 
 **Level 8: Code-Sworn Precision**
-Your absolute commitment to the code creates a clarity of purpose that extends into combat. Once per turn, you can treat a roll of 9 or lower on a d20 attack roll as a 10. This represents the code's demand that you perform correctly — not perfectly, but correctly.
+Your absolute commitment to the code creates a clarity of purpose that extends into combat. Once per turn, when an attack card would deal less than 10 base damage, treat it as 10. This represents the code's demand that you perform correctly — not perfectly, but correctly.
 
 **Level 9: Resonant Surge**
-You can channel your Echomind's resonance into a burst of enhanced combat performance. As a bonus action, for 1 minute, you gain the following benefits:
+You can channel your Echomind's resonance into a burst of enhanced combat performance. As a free action, for 1 minute, you gain the following benefits:
 - Your movement speed increases by 10 feet.
-- Once per turn, you can deal an additional 2d6 resonant damage on a hit (this damage type bypasses standard damage immunities).
-- You have advantage on saving throws against effects that would move you against your will or knock you prone.
+- Once per turn, you can deal an additional 8 resonance damage (fixed) on a hit (this damage type bypasses standard damage immunities).
+- You gain +3 to FRAME-based resistance checks against forced movement and knockdown effects.
 
 Once you use this feature, you cannot use it again until you complete a short or long rest.
 
@@ -554,40 +554,40 @@ Once you use this feature, you cannot use it again until you complete a short or
 Your subclass grants an additional feature at this level.
 
 **Level 11: Steel Resolve**
-Your enhancements and your will have become inseparable. You are immune to the Frightened condition. Additionally, when you fail a saving throw against a charm or compulsion effect, you can use your reaction to immediately reroll the saving throw. You must take the second result.
+Your enhancements and your will have become inseparable. You are immune to the Frightened condition. Additionally, when you fail a resistance check against a charm or compulsion effect, you can use your Reaction to immediately reroll the check. You must take the second result.
 
-**Level 12: Ability Score Improvement**
+**Level 12: Stat Improvement**
 As level 4.
 
 **Level 12: Perfect Kata**
-You have mastered the integration of code, body, and enhancement to a degree that allows brief moments of absolute combat clarity. When you use your action to take the Attack action, you can declare a Perfect Kata. For that action only, all your attacks are made with advantage, and you add your proficiency bonus as bonus damage to each hit. Once you use this feature, you cannot use it again until you complete a long rest.
+You have mastered the integration of code, body, and enhancement to a degree that allows brief moments of absolute combat clarity. When you play attack cards this turn, you can declare a Perfect Kata. For that turn only, all your attack cards deal +IRON bonus damage per hit. Once you use this feature, you cannot use it again until you complete a long rest.
 
 **Level 13: Resonant Armor**
-Your body's enhancement network has been tuned to deflect incoming harm. When not wearing armor, your AC equals 10 + your Dexterity modifier + your Constitution modifier + your Wisdom modifier. Additionally, as a reaction when you are hit by an attack, you can activate your resonant armor's deflection subroutine, reducing the damage by 1d10 + your Wisdom modifier. You can use this reaction a number of times equal to your proficiency bonus per long rest.
+Your body's enhancement network has been tuned to deflect incoming harm. When not wearing armor, you gain Guard equal to FRAME + RESONANCE at the start of each turn. Additionally, as a Reaction when you are hit by an attack, you can activate your resonant armor's deflection subroutine, reducing the damage by RESONANCE + 4. You can use this Reaction a number of times equal to your IRON per day.
 
 **Level 14: Vein Path Feature**
 Your subclass grants an additional feature at this level.
 
 **Level 15: Echomind Clarity**
-Your Echomind has achieved a rare depth of integration. You have advantage on all Wisdom saving throws. Additionally, you cannot be forced to act against your Vein Oath by magical or technological compulsion — effects that would control your actions simply fail against you, as your resonant alignment is too strong to be overwritten.
+Your Echomind has achieved a rare depth of integration. You gain +3 to all RESONANCE-based resistance checks. Additionally, you cannot be forced to act against your Vein Oath by technological compulsion — effects that would control your actions simply fail against you, as your resonant alignment is too strong to be overwritten.
 
-**Level 16: Ability Score Improvement**
+**Level 16: Stat Improvement**
 As level 4.
 
 **Level 16: Between Mastery**
-Your control of the Between — the resonant space at the edge of action — has become instinctive. You can take the Dodge action as a bonus action. Additionally, when you use Resonant Surge, its duration extends to 10 minutes, and its resonant damage increases to 3d6.
+Your control of the Between — the resonant space at the edge of action — has become instinctive. You can play a Defense card as a free action once per turn. Additionally, when you use Resonant Surge, its duration extends to 10 minutes, and its resonance damage increases to 12 (fixed).
 
 **Level 17: Blade-Sworn**
 Your resonant blade (or weapon of choice) has been bonded to your Echomind at a level that makes it a literal extension of your nervous system. The weapon gains the following properties permanently:
 - It returns to your hand as a bonus action if within 60 feet.
-- It deals an additional 1d8 resonant damage on every hit.
+- It deals an additional 5 resonance damage (fixed) on every hit.
 - If you are disarmed, you can use your reaction to immediately reclaim it.
 - The weapon can strike incorporeal and digitally-manifested entities (including Iron Afterlife entities) as if they were physical.
 
 **Level 18: Vein Path Feature**
 Your subclass grants an additional feature at this level.
 
-**Level 19: Ability Score Improvement**
+**Level 19: Stat Improvement**
 As level 4.
 
 **Level 20: The Seventh Vein**
@@ -595,8 +595,8 @@ You have reached the end of the code — not its conclusion, but its deepest exp
 
 Mechanically, the Seventh Vein grants:
 - Your Resonant Strike now adds double your Wisdom modifier to damage.
-- You can use Resonant Surge twice per short rest.
-- When you die, your Echomind does not immediately depart to the Iron Afterlife — you remain present in your body for 1 additional round, able to take one final action before your soul departs. This final action cannot be undone by any means short of full resurrection.
+- You can use Resonant Surge twice per combat.
+- When you die, your Echomind does not immediately depart to the Iron Afterlife — you remain present in your body for 1 additional round, able to take one final action before your soul departs. This final action cannot be undone by any means.
 - You gain immunity to resonant damage.
 
 ---
@@ -608,18 +608,18 @@ Mechanically, the Seventh Vein grants:
 A samurai of the Iron Lord has bound themselves to a specific lord or ruling house with a depth of oath that goes beyond contractual loyalty — it is constitutional. Their enhancements carry the lord's resonant signature. Their Echomind is tuned to the lord's harmonic frequency. They are, in a real sense, more that lord's than they are their own. This is not slavery — it is a freely chosen total commitment, and Iron Lord samurai consider it the purest expression of the Vein of Iron. The tragedy is that lords die. Lords are overthrown. Lords prove unworthy. And when that happens, the Iron Lord samurai is left with their oath still humming in their enhancements, bound to something that no longer exists.
 
 **Level 3: Lord's Resonance**
-You choose a lord, cause, or house to serve. You gain advantage on all Charisma checks made while representing that lord's interests. Additionally, when you are fighting to protect a designated ward (your lord, a noble of that house, or someone your lord has entrusted to your protection), your attack rolls against any enemy threatening that ward deal an additional 1d6 resonant damage.
+You choose a lord, cause, or house to serve. You gain +3 to all VEIL-based cards made while representing that lord's interests. Additionally, when you are fighting to protect a designated ward (your lord, a noble of that house, or someone your lord has entrusted to your protection), your attack cards against any enemy threatening that ward deal an additional 4 resonance damage (fixed).
 
 **Level 6: Iron Vanguard**
 Your commitment to your lord's safety has become instinctive. When your designated ward is targeted by an attack, you can use your reaction to move up to your speed toward them and interpose yourself, becoming the target of the attack instead. This movement does not provoke opportunity attacks.
 
 **Level 10: Code of the House**
 Your lord's resonant frequency has become part of your own. You gain the following benefits while serving your oath:
-- You have advantage on saving throws against effects that would remove you from combat or compel retreat.
+- You gain +3 to FRAME-based resistance checks against effects that would remove you from combat or compel retreat.
 - When you use Iron Endurance's damage reduction, you can extend its protection to your ward as well (applying the same reduction to damage they receive on the same turn).
 
 **Level 14: Unbroken Fealty**
-Even death cannot sever what you have sworn. Once per long rest, when your ward is reduced to 0 hit points within 60 feet of you, you can use your reaction to transfer up to half of your current hit points to them (they regain that many hit points). This transfer cannot reduce you below 1 hit point.
+Even death cannot sever what you have sworn. Once per day, when your ward is reduced to 0 HP within 60 feet of you, you can use your Reaction to transfer up to half of your current HP to them (they regain that many HP). This transfer cannot reduce you below 1 HP.
 
 ---
 
@@ -631,16 +631,16 @@ These samurai have bound their service not to a lord but to the Iron Sutra itsel
 Your strikes carry theological intention. When you kill a creature, you can choose to perform the Iron Rite, a brief consecration of the killing blow. Creatures killed with the Iron Rite cannot be raised as undead or digitally reanimated without your explicit permission. Additionally, your resonant blades deal an additional 1d4 radiant-adjacent resonant damage (called Sutensai light) against entities whose Echomind is corrupted, displaced, or absent.
 
 **Level 6: Theological Authority**
-Your role as the church's blade gives you standing even among those who might otherwise dismiss a samurai. You gain proficiency in Religion (Iron Sutra), and your proficiency bonus is doubled for that skill. Additionally, once per long rest, you can invoke the Sutra's authority: one creature that can hear you must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Wisdom modifier) or be unable to attack you or your allies for 1 minute. They can repeat the saving throw at the end of each of their turns.
+Your role as the church's blade gives you standing even among those who might otherwise dismiss a samurai. You gain class expertise in Iron Sutra doctrine. Additionally, once per day, you can invoke the Sutra's authority: one creature that can hear you must make a VEIL resistance check, difficulty 4, or be unable to attack you or your allies for 1 minute. They may repeat the check at the end of each of their turns.
 
 **Level 10: Between Consecration**
 You can declare a space holy to the Between. As an action, you consecrate a 30-foot radius area centered on you. For 10 minutes, the following effects apply within this area:
-- Undead and Iron Afterlife entities have disadvantage on attack rolls.
-- Your allies within the area can reroll death saving throws once per round, taking the higher result.
+- Undead and Iron Afterlife entities deal -3 damage on all attacks.
+- Your allies within the area may reroll any failed resistance check once per round, taking the higher result.
 - You can see invisible entities that are connected to the Iron Afterlife or digital resonance.
 
 **Level 14: The Final Sutra**
-You have internalized the deepest theological teachings. Once per long rest, when you reduce a creature to 0 hit points with a melee attack, you can choose to Sutra-Bind their soul — their Echomind is held in a state of resonant suspension, unable to pass to the Iron Afterlife or be recovered for digital reanimation, until you choose to release it (which can be done as a bonus action). A Sutra-Bound soul can be questioned (requiring a DC 18 Wisdom check to resist) and must answer truthfully. This binding lasts until you release it or until 24 hours have passed.
+You have internalized the deepest theological teachings. Once per day, when you reduce a creature to 0 HP with a melee attack card, you can choose to Sutra-Bind their soul — their Echomind is held in a state of resonant suspension, unable to pass to the Iron Afterlife or be recovered for digital reanimation, until you choose to release it (free action). A Sutra-Bound soul can be questioned (RESONANCE resistance check, difficulty 5, to resist) and must answer truthfully. This binding lasts until you release it or until 24 hours have passed.
 
 ---
 
@@ -649,15 +649,15 @@ You have internalized the deepest theological teachings. Once per long rest, whe
 When a samurai's lord, family, or sworn companions die in ways that have not been answered — unavenged, dishonored, incompletely grieved — some samurai enter the state of Undying Debt. They do not become Ronin, because they have not lost their oath: they have gained one. The debt itself is their lord. The memory of the dead is their master. They continue to follow the Vein of Iron with frightening precision, but they have reoriented its demands entirely around the act of paying what is owed. They are patient, focused, and subtly terrifying — the kind of person who will wait ten years to deliver a single strike.
 
 **Level 3: Debt's Memory**
-You have inscribed your debt — the names of those you avenge and those who wronged them — into the resonant metal of your enhancements. Choose up to three named individuals, factions, or entities that are the object of your debt (they wronged those you avenge, or are somehow connected to their deaths). Against these named targets and their direct subordinates, your attack rolls have advantage, and you deal an additional 1d8 resonant damage on every hit.
+You have inscribed your debt — the names of those you avenge and those who wronged them — into the resonant metal of your enhancements. Choose up to three named individuals, factions, or entities that are the object of your debt (they wronged those you avenge, or are somehow connected to their deaths). Against these named targets and their direct subordinates, your attack cards gain +3 damage, and you deal an additional 5 resonance damage (fixed) on every hit.
 
 Additionally, you cannot be persuaded, charmed, or frightened into abandoning your debt. Any effect that would cause you to forget your debt or abandon its pursuit automatically fails.
 
 **Level 6: Hollow Memory**
-The faces of your dead are engraved on your Echomind. You can spend 10 minutes in resonant meditation to speak with the echoes of those whose debt you carry. This is not true communication — they are not present — but your own Echomind constructs answers based on what you knew of them. These answers can provide insight, recall memories you may have forgotten, and grant you advantage on one skill check within 24 hours of the meditation that is directly related to pursuing the debt.
+The faces of your dead are engraved on your Echomind. You can spend 10 minutes in resonant meditation to speak with the echoes of those whose debt you carry. This is not true communication — they are not present — but your own Echomind constructs answers based on what you knew of them. These answers can provide insight, recall memories you may have forgotten, and grant +3 to one relevant card used within 24 hours of the meditation that is directly related to pursuing the debt.
 
 **Level 10: Unfinished Business**
-Your refusal to die before the debt is paid becomes supernatural in its intensity. When you are reduced to 0 hit points, you can use your reaction to remain at 1 hit point. While at 1 hit point through this feature, you have advantage on all attack rolls against your debt targets, and you cannot be moved against your will. This state ends at the end of your next turn, at which point you fall unconscious normally. This feature can be used once per long rest.
+Your refusal to die before the debt is paid becomes supernatural in its intensity. When you are reduced to 0 HP, you can use your Reaction to remain at 1 HP. While at 1 HP through this feature, your attack cards gain +3 damage against your debt targets, and you cannot be moved against your will. This state ends at the end of your next turn, at which point you fall unconscious normally. This feature can be used once per day.
 
 **Level 14: The Debt Becomes the Blade**
 Your accumulated grief and obligation has crystallized into something almost tangible. Once per long rest, as an action, you can manifest the Debt's Blade — a spectral resonant weapon that deals 6d10 resonant damage to a single target that appears to be made of the crystallized memory of your dead. This is automatically a critical hit against your named debt targets. Additionally, until your debt is paid, you age at half the normal rate — your Echomind's refusal to let go has a physiological expression.
@@ -677,10 +677,10 @@ You have developed a signature combat form — a kata system specific to your bo
 You can switch between forms during a short rest.
 
 **Level 6: Spiritual Violence**
-Your conviction that combat is sacred has a tangible effect. Your weapon attacks deal an additional 1d4 resonant damage. Additionally, when you drop a creature to 0 hit points, you regain hit points equal to your Wisdom modifier (minimum 1). This represents the spiritual completion of the act.
+Your conviction that combat is sacred has a tangible effect. Your attack cards deal an additional 3 resonance damage (fixed). Additionally, when you drop a creature to 0 HP, you regain HP equal to your RESONANCE (minimum 1). This represents the spiritual completion of the act.
 
 **Level 10: Perfect Instrument**
-Your body is a temple. It has become extraordinarily resilient. Your hit point maximum increases by 20 (retroactive to all prior levels). Additionally, you have advantage on Constitution saving throws, and when you make a death saving throw, you can add your Wisdom modifier to the result.
+Your body is a temple. It has become extraordinarily resilient. Your HP maximum increases by 20 (retroactive to all prior levels). Additionally, you gain +3 to FRAME-based resistance checks, and when you make a death resistance check, you can add your RESONANCE to the result.
 
 **Level 14: The Temple Burns**
 At the deepest level of the Flesh Temple philosophy is an acceptance of destruction as transformation. Once per long rest, you can enter the Temple Burns state as a bonus action. For 1 minute:

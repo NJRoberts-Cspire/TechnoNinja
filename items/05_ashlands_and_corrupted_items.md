@@ -28,7 +28,7 @@ Three categories of corruption exist in Tesshari's item economy:
 ---
 
 # Patchwork Resonance Blade
-*Uncommon Salvage Weapon | No Attunement Required*
+*Uncommon Salvage Weapon | No Integration Required*
 
 ## Description
 
@@ -38,11 +38,11 @@ It should not hold together. It does. Ashlands salvage workers have a theory tha
 
 The blade rings when it strikes because the three resonant types are not in the same frequency. The collision of frequencies on impact produces a tone. No two strikes produce the same tone.
 
-## Properties
+## Card Modifications
 
-- Functions as a resonant short blade or long blade (improvised — bearer chooses at first use; the blade locks to that function after being used once). +0 to attack rolls (not a refined weapon), 1d8 slashing damage.
-- **Frequency Collision.** When the blade hits a creature with cybernetic enhancements, the clashing resonant frequencies cause interference. The target must succeed on a DC 12 Constitution saving throw or have disadvantage on their next attack roll (the interference disrupts their targeting systems). This cannot be predicted — the tone is random, the disruption is random, but it is persistent.
-- **Salvage Weight.** The blade is heavier than it looks and handles slightly differently each day (the wire-silk bonds flex and resettle). A DC 10 Strength check on the first use each day determines if the current configuration is favorable (success: +1 to attack rolls today) or challenging (failure: no change).
+- **Card Modification:** +0 bonus damage to Melee Attack cards (not a refined weapon). Base damage 8 slashing. Bearer chooses at first use whether the blade functions as a short or long blade; it locks to that function after being used once.
+- **Frequency Collision.** When any Melee Attack card played with this blade hits a creature with cybernetic enhancements, the clashing resonant frequencies cause interference. The target must succeed on a FRAME check (difficulty 3) or their next Attack card takes -2 damage (the interference disrupts targeting systems). This cannot be predicted — the tone is random, the disruption is random, but it is persistent.
+- **Salvage Weight.** The blade handles slightly differently each day (the wire-silk bonds flex and resettle). At the start of each day, the DM rolls privately: on an even result, the current configuration is favorable (+1 damage to Melee Attack cards today); on an odd result, no change.
 - The blade cannot be destroyed by any method that would not also destroy each of its three component materials individually. It is held together by stubbornness.
 
 ## History and Lore
@@ -51,12 +51,12 @@ Made by a salvage-worker named Ore-Sata who needed a weapon and had parts. She u
 
 ## Where Found
 
-Ashlands border markets, salvage trade networks. Not rare — there are dozens of Patchwork Blades, each different, each made by someone specific for a reason. The one described above is one of them.
+Ashlands border markets, salvage trade networks. Not rare — there are dozens of Patchwork Blades, each different, each made by someone specific for a reason. The one described above is one of them. 25–60 RM or equivalent barter.
 
 ---
 
 # Salvage Shell Vest
-*Uncommon Salvage Armor | No Attunement Required*
+*Uncommon Salvage Armor | No Integration Required*
 
 ## Description
 
@@ -64,18 +64,18 @@ A vest of layered salvage plating — pieces of resonant metal sheeting, Wire Ma
 
 The vest sits on the body with the weight of things that have been used. Not worn down — settled. Like it has opinions about posture.
 
-## Properties
+## Card Modifications
 
-- AC 15 (medium armor, no Dexterity cap applies due to the irregular plate distribution — the gaps are load-bearing, the salvage worker understood stress distribution in a way the standard armor models do not).
-- **Improvised Resistance.** The random material composition means attacks strike materials that are unexpectedly hard or resilient. Once per encounter, the DM may choose for an attack that hits to bounce off an unexpectedly resilient patch — the attack deals minimum damage. The DM chooses when this applies; it should feel like luck, because it is.
-- **Repair Culture.** A salvage worker, armor-smith, or character proficient in relevant tools can repair the vest during a short rest using salvaged materials. Each repair requires a DC 12 skill check. Success adds 5 temporary hit points to the bearer's total (these represent improved coverage) until the vest takes damage. These temporary hit points do not stack.
-- The vest cannot be upgraded by standard armor-smithing methods. It can only be repaired or replaced in kind.
+- **Defense Value +5** (adds to Guard/Shield pool at start of combat; medium protection, irregular plate distribution — the gaps are load-bearing, the salvage worker understood stress distribution in ways standard armor models do not).
+- **Improvised Resistance.** The random material composition means attacks strike materials that are unexpectedly hard or resilient. Once per encounter, the DM may choose for an Attack card that hits to deal minimum damage instead. The DM chooses when this applies; it should feel like luck, because it is.
+- **Repair Culture.** A salvage worker, armorsmith, or character with relevant tools can repair the vest during a short rest using salvaged materials. Each repair requires a SIGNAL or IRON check (difficulty 3). Success grants the bearer Shield 5 (temporary protection representing improved coverage) until the vest next takes damage. These do not stack.
+- The vest cannot be upgraded by standard armorsmithing methods. It can only be repaired or replaced in kind.
 
-**Drawback.** The vest is loud. Moving in it produces a faint but consistent resonant noise — the plates shifting against each other at their frequency boundaries. The wearer has disadvantage on Dexterity (Stealth) checks.
+**Drawback.** The vest is loud. Moving in it produces a faint but consistent resonant noise — the plates shifting against each other at their frequency boundaries. All Stealth-based Utility cards take -2.
 
 ## Where Found
 
-Ashlands salvage markets. Made to order by specific salvage-armorsmiths who have developed their own techniques. Available for barter or a significant amount of hard currency. The maker's mark on the inner lining identifies the smith; their reputation is worth asking about before buying.
+Ashlands salvage markets. Made to order by specific salvage-armorsmiths who have developed their own techniques. Available for barter or a significant amount of hard currency. The maker's mark on the inner lining identifies the smith; their reputation is worth asking about before buying. 80–150 RM or equivalent barter.
 
 ---
 
@@ -84,7 +84,7 @@ Ashlands salvage markets. Made to order by specific salvage-armorsmiths who have
 ---
 
 # The Scar Blade
-*Very Rare Contaminated Weapon | Requires Attunement*
+*Very Rare Contaminated Weapon | Requires Integration (spend a long rest in contact with the item)*
 
 ## "Useful. Genuinely useful. The cost is specific and most of the people who use it have decided they can live with specific."
 
@@ -94,20 +94,20 @@ A resonant blade of indeterminate original design — the Engine Scar contaminat
 
 Holding the Scar Blade for extended periods (more than an hour) produces a warmth in the palm that migrates up the arm. Not painful. Persistent. The warmth is the contamination testing the boundary between the blade and the bearer.
 
-## Installation/Attunement Requirements
+## Integration
 
-The Scar Blade attunes through use rather than deliberate ceremony. A character who uses the blade in combat and survives finds attunement complete after three combat encounters. The blade has decided they are compatible.
+The Scar Blade integrates through use rather than deliberate ceremony. A character who uses the blade in combat and survives finds integration complete after three combat encounters. The blade has decided they are compatible.
 
-## Properties
+## Card Modifications
 
-**While Attuned:**
+**While Integrated:**
 
-- The blade deals 2d8 slashing + 2d6 fire damage (Engine Scar energy manifest).
-- **Scar Strike.** Once per short rest, the bearer may invoke the full Engine Scar energy on a strike. The target takes an additional 4d10 necrotic damage and must succeed on a DC 16 Constitution saving throw or have one of their cybernetic enhancements permanently damaged — the enhancement provides no benefits and requires Wire Craft repair (4 hours, DC 15 Medicine check, suitable tools) to restore. The damaged enhancement is the bearer's choice, if known.
-- **Contamination Field.** Creatures struck by the blade twice in the same encounter must make a DC 15 Constitution saving throw. On a failure, they suffer Engine Scar contamination: their next attack roll with a cybernetically integrated weapon is made at disadvantage (the contamination interferes with targeting), and the disadvantage persists until they succeed on a Constitution saving throw (repeatable at the end of each of their turns).
+- **Card Modification:** All Melee Attack cards played with this blade deal +9 fire (Engine Scar energy) damage in addition to their base damage.
+- **Scar Strike.** Once per short rest, the bearer may invoke the full Engine Scar energy on a Melee Attack card. On a hit, the target takes an additional 22 necrotic damage and must succeed on a FRAME check (difficulty 5) or have one of their cybernetic enhancement card modifications permanently disabled — the enhancement provides no card modification benefits and requires Wire Craft repair (4 hours, SIGNAL check difficulty 4, suitable tools) to restore. The disabled modification is the bearer's choice, if known.
+- **Contamination Field.** Creatures struck by the blade twice in the same encounter must succeed on a FRAME check (difficulty 4). On a failure, they suffer Engine Scar contamination: their next Attack card using a cybernetically integrated weapon takes -3 damage, and this penalty persists until they succeed on a FRAME check (repeatable at the end of each of their turns).
 - The blade is immune to rust, corrosion, mundane breakage, and standard resonant-disruption effects. Engine Scar contamination has made it something that disruption effects do not know how to address.
 
-**The Cost.** Each time the Scar Strike is used, the bearer gains 1 point of Engine Scar contamination (tracking system: see Cursed Enhancements chapter). At 3 points: the bearer's hand and forearm show Engine Scar markings — irregular orange-dark patterns in the skin. At 6 points: the blade has begun to bond to the hand in a way that makes setting it down increasingly difficult (Wisdom DC 14 to put the blade down voluntarily). At 10 points: the bearer cannot put the blade down without a DC 18 Wisdom saving throw.
+**The Cost.** Each time the Scar Strike is used, the bearer gains 1 point of Engine Scar contamination (tracking system — see Cursed Enhancements). At 3 points: the bearer's hand and forearm show Engine Scar markings — irregular orange-dark patterns in the skin. At 6 points: the blade has begun to bond to the hand in a way that makes setting it down increasingly difficult (RESONANCE check difficulty 4 to put the blade down voluntarily). At 10 points: the bearer cannot put the blade down without a RESONANCE check (difficulty 5).
 
 ## History and Lore
 
@@ -120,7 +120,7 @@ Deep Ashlands salvage. Not on any open market — people who find Engine Scar we
 ---
 
 # Scar-Sight Lens
-*Rare Contaminated Enhancement | Requires Attunement*
+*Rare Contaminated Enhancement | Requires Integration (spend a long rest in contact with the item)*
 
 ## Description
 
@@ -130,18 +130,18 @@ The lens sees the Scar. Specifically: it perceives Engine Scar contamination in 
 
 In the Ashlands: overwhelming. Everywhere is contaminated at some level. The bearer's Scar-Sight eye shows them the Ashlands the way a fever shows you the world — everything has a quality that healthy experience does not have, and the quality is accurate.
 
-## Properties
+## Card Modifications
 
-**While Attuned:**
+**While Integrated:**
 
 - The bearer can see Engine Scar contamination in any object, creature, or environment within 60 feet. The visual overlay shows contamination level (none / trace / moderate / heavy / saturated) as an intensity of orange light.
-- The bearer has advantage on saving throws against Engine Scar contamination effects — they can see them coming.
-- **Scar Reading.** Once per long rest, the bearer may concentrate on a contaminated object or location for one minute. They receive a full contamination history: how long the contamination has been present, what its source was, and (for living creatures) how it has affected the subject's physiology. This is useful for diagnosis, investigation, and understanding the Scar's movement patterns.
-- The bearer can see through smoke, mist, and light that has been distorted by Engine Scar energy.
+- **Card Modification:** All Defense cards against Engine Scar contamination effects gain +2. The bearer can see them coming.
+- **Scar Reading.** Once per long rest, the bearer may concentrate on a contaminated object or location for one minute. They receive a full contamination history: how long the contamination has been present, what its source was, and (for living creatures) how it has affected the subject's physiology. Useful for diagnosis, investigation, and understanding the Scar's movement patterns.
+- The bearer can see through smoke, mist, and light distorted by Engine Scar energy.
 
-**Drawback.** The lens applies the contamination-vision overlay constantly. A character in a standard city sees nothing unusual. A character near the Ashlands is overwhelmed. In the deep Ashlands: the overlay is so intense it functions as a light source, which eliminates stealth and produces headaches (Constitution saving throw DC 13 per hour in saturated areas; failure causes one level of exhaustion). The headaches are visible in the lens — a visible irregular flickering at the iris.
+**Drawback.** The lens applies the contamination-vision overlay constantly. In a standard city: nothing unusual. Near the Ashlands: overwhelming. In the deep Ashlands, the overlay is so intense it functions as a light source, which eliminates Stealth and causes persistent headaches (FRAME check difficulty 4 per hour in saturated areas; failure causes one level of exhaustion). The headaches are visible in the lens — a visible irregular flickering at the iris.
 
-**Gradual Sight Transfer.** After six months of attunement, the bearer's biological eye (if they have one) begins to see the contamination-overlay as well, at reduced intensity. This is not reversible by removing the lens. The contamination-sight transfers to native biology. After one year, removing the lens does not remove the overlay — just reduces it. The bearer sees contamination for the rest of their life, at a lower threshold than the lens provides.
+**Gradual Sight Transfer.** After six months of integration, the bearer's biological eye (if they have one) begins to see the contamination-overlay as well, at reduced intensity. This is not reversible by removing the lens. The contamination-sight transfers to native biology. After one year, removing the lens reduces the overlay but does not eliminate it. The bearer sees contamination for the rest of their life.
 
 ## Where Found
 
@@ -150,7 +150,7 @@ Ashlands salvage, or through a specific salvage-surgeon in the Third Reach who h
 ---
 
 # The Scar-Touched Wire Whip
-*Rare Contaminated Weapon | Requires Attunement*
+*Rare Contaminated Weapon | Requires Integration (spend a long rest in contact with the item)*
 
 ## Description
 
@@ -158,16 +158,16 @@ A wire-whip — a combat weapon consisting of a resonant metal handle from which
 
 The sensation of holding the handle is the specific warmth of something that has been in a bad place long enough to carry it home. Not dangerous in the hand. Just present. The warmth knows the whip has been somewhere else.
 
-## Properties
+## Card Modifications
 
-**While Attuned:**
+**While Integrated:**
 
-- The wire-whip deals 1d8 slashing + 1d6 fire damage, reach 15 feet. The bearer may use it to make opportunity attacks against creatures entering or leaving their reach.
-- **Contamination Wrap.** When the whip wraps a target (the bearer hits and chooses to grapple with the whip), the target is both grappled and receives Scar-contamination contact — the lash conducts Engine Scar energy directly. Grappled targets take 1d6 fire damage at the start of each of the bearer's turns while grappled. To escape, they make a Strength (Athletics) or Dexterity (Acrobatics) check against the bearer's attack roll + Strength modifier.
-- **Trace.** Once per short rest, the bearer may strike a surface (ground, wall) with the whip and read the contamination of the area. This is a free-action equivalent of the Scar-Sight Lens's contamination-reading for a localized area.
-- The whip can ignite flammable materials on contact. Against heavily contaminated targets (Engine Scar-afflicted creatures), it deals an additional 2d6 fire damage.
+- **Card Modification:** All Melee Attack cards played with this whip deal +4 fire damage. Reach 15 feet. The bearer may use Reaction cards against creatures entering or leaving their reach.
+- **Contamination Wrap.** When a Melee Attack card played with the whip hits and the bearer chooses to grapple, the target is both Rooted and receives Burn 1 per round while grappled. To escape, they must succeed on an IRON or EDGE check against difficulty equal to the bearer's IRON + 2.
+- **Trace.** Once per short rest, the bearer may strike a surface (ground, wall) with the whip as a free action and read the contamination of the area — equivalent to the Scar-Sight Lens's contamination-reading for a localized area.
+- Against heavily contaminated targets (Engine Scar-afflicted creatures), all Attack cards played with this whip deal an additional 9 fire damage.
 
-**Drawback.** Prolonged use (more than 4 hours per day) causes Engine Scar contamination transfer to the bearer's hands — trace contamination that, with continued use, accumulates toward the tracking thresholds.
+**Drawback.** Prolonged use (more than 4 hours per day) causes Engine Scar contamination transfer to the bearer's hands — trace contamination that, with continued use, accumulates toward the tracking thresholds in the Cursed Enhancements chapter.
 
 ## Where Found
 
@@ -180,7 +180,7 @@ Ashlands border salvage. More common than the Scar Blade because wire-whips are 
 ---
 
 # The Singing Shard
-*Legendary Convergence-Touched Item | Requires Attunement: see below*
+*Legendary Convergence-Touched Item | Requires Integration: see below*
 
 ## "It has been singing for fourteen months. What it is singing is the Seventh Convergence drawing near. What it is becoming is what happens when a piece of the world has been listening to a god arrive for over a year."
 
@@ -198,24 +198,24 @@ This is the critical editorial note for DMs: the Singing Shard is not a finished
 
 **Current Properties (14 months in):**
 
-**Attunement.** The Shard will not attune through ceremony. It is currently only attuneable by a creature who is genuinely uncertain about which of the three claimants should reach the Seventh Convergence — or by a creature who believes none of them should. Certainty is incompatible with what the Shard is receiving. Its frequency is a question, not an answer.
+**Integration.** The Shard will not integrate through ceremony. It is currently only integrable by a creature who is genuinely uncertain about which of the three claimants should reach the Seventh Convergence — or by a creature who believes none of them should. Certainty is incompatible with what the Shard is receiving. Its frequency is a question, not an answer.
 
-**While Attuned:**
+**While Integrated:**
 
-- The bearer receives impressions of the Seventh Convergence's approach — not visions, but weather-sense, the way you feel pressure changing before a storm. They have advantage on any ability check made to predict or understand the movements, plans, or near-future actions of any of the three claimants.
+- The bearer receives impressions of the Seventh Convergence's approach — not visions, but weather-sense, the way you feel pressure changing before a storm. All cards used to predict or understand the movements, plans, or near-future actions of any of the three claimants gain +3 to their effect.
 - The Shard amplifies the bearer's resonant frequency. Iron Sutra Readings on the bearer are extended and more detailed. Spiritual entities recognize the bearer as significant.
-- **Convergence Pulse.** Once per long rest, the bearer may direct the Shard's song outward — a pulse of concentrated Convergence-resonance in a 30-foot sphere. All three claimants (or their representatives within range) must make a DC 18 Wisdom saving throw or be briefly blinded by what the pulse shows them: what the Convergence would look like if someone else reached it. This is incapacitating for 1 round and leaves them deeply unsettled for the remainder of the encounter (disadvantage on Wisdom saving throws).
+- **Convergence Pulse.** Once per long rest, the bearer may direct the Shard's song outward — a pulse of concentrated Convergence-resonance in a 30-foot sphere. All three claimants (or their representatives within range) must succeed on a RESONANCE check (difficulty 5) or be Staggered for 1 round and take -2 to all RESONANCE-based cards for the remainder of the encounter (they have been briefly shown what the Convergence looks like if someone else reaches it).
 - The bearer knows when one of the three claimants is within 1 mile. They feel the specific Convergence-orientation of each claimant's Echomind. This is not pleasant — it is a constant awareness of three people moving toward the same point from different directions.
 
 **At Convergence Approach (DM Milestone: when the Convergence is believed to be within 3 months):**
 
-The Shard's properties intensify. The bearer can hear the Convergence directly — a clear, sustained note that is not quite any existing frequency. The DC on the Convergence Pulse increases to 22. The bearer begins to dream of the Convergence itself — not what it looks like, but what it feels like to be the fixed point around which everything is turning.
+The Shard's card bonuses increase to +5. The Convergence Pulse check difficulty increases to 6. The bearer can hear the Convergence directly — a clear, sustained note that is not quite any existing frequency. The bearer begins to dream of the Convergence itself — not what it looks like, but what it feels like to be the fixed point around which everything is turning.
 
 **At Convergence (DM Milestone: the night before):**
 
 The Shard's striations complete their pattern and the song reaches a climax. The completed pattern is the answer to the question the Shard has been singing for fourteen months. The DM and the campaign have determined what the question was. The Shard's answer, translated through the bearer's Echomind, is delivered to the bearer in full. What it means is a campaign decision.
 
-**The Cost.** The bearer is always hearing it. Not loudly, not painfully, but present. They have disadvantage on all Wisdom (Perception) checks involving sound — the Shard's frequency competes. They may not sleep well. They may begin to feel, over time, that they are accompanying something rather than carrying it.
+**The Cost.** The bearer is always hearing it. Not loudly, not painfully, but present. All Perception cards involving sound take -2 — the Shard's frequency competes. The bearer may not sleep well. They may begin to feel, over time, that they are accompanying something rather than carrying it.
 
 ## Current Location
 
@@ -232,7 +232,7 @@ Mirra-Shen is in a border settlement between the Ashlands and the Second Reach, 
 ---
 
 # The Returned Mask
-*Very Rare Iron Afterlife Item | Requires Attunement*
+*Very Rare Iron Afterlife Item | Requires Integration (spend a long rest in contact with the item)*
 
 ## Description
 
@@ -242,22 +242,22 @@ The mask has been in the Iron Afterlife. Not near it — in it. In the deep leve
 
 The inner surface of the mask is slightly different from the outer surface in a way that is difficult to articulate. The outer surface is in the physical world. The inner surface — the one that would rest against a face — is not entirely. When the mask is worn, the wearer's face is in two places simultaneously. The Iron Afterlife perceives them as present. The physical world still perceives them as present. This does not damage the wearer. But the Afterlife remembers faces it has seen.
 
-## Properties
+## Card Modifications
 
-**While Attuned:**
+**While Integrated:**
 
 - The bearer can see Iron Afterlife entities (Echominds of the dead, spiritual constructs) as though they were physical. These entities can see the bearer as well.
-- The bearer can communicate with any Echomind of the dead that is willing to communicate. The communication is direct — no ritual, no intermediary. The dead hear the bearer clearly and the bearer hears them clearly. Long-dead Echominds are harder to reach (DC 12 + years dead, maximum DC 25, Wisdom check) because they have moved deeper.
-- **Fade.** Once per long rest, the bearer may cause themselves to become imperceptible to living creatures for up to 1 hour. They are not invisible — light still interacts with them normally — but living creatures simply fail to notice them unless directly interacting. The bearer is, briefly, operating on the frequency of the dead. Creatures who specifically know what to look for (Iron Sutra practitioners, bearers of the Between-Sense) make a DC 18 Wisdom check to perceive the bearer.
-- The bearer cannot be affected by fear effects generated by Iron Afterlife entities. Something in the mask tells the dead that the bearer has already made its acquaintance.
+- The bearer can communicate with any Echomind of the dead that is willing to communicate. Long-dead Echominds are harder to reach (RESONANCE check, difficulty 3 + 1 per decade dead, maximum difficulty 8) because they have moved deeper.
+- **Fade.** Once per long rest, the bearer may become imperceptible to living creatures for up to 1 hour. They are not invisible — light still interacts with them normally — but living creatures simply fail to notice them unless directly interacting. The bearer is briefly operating on the frequency of the dead. Creatures who specifically know what to look for (Iron Sutra practitioners, bearers of the Between-Sense) make a RESONANCE check (difficulty 5) to perceive the bearer.
+- **Card Modification:** All Defense cards against fear effects generated by Iron Afterlife entities automatically succeed. Something in the mask tells the dead that the bearer has already made its acquaintance.
 
-**The Wrong Feeling.** The mask feels like a guest who hasn't quite arrived. When not worn, it sits in the environment with a presence that people near it find unsettling — not frightening, just: wrong. Like a piece of furniture in the wrong room. Animals avoid it. People in the same room with it for more than an hour feel vaguely that they should be somewhere else. The bearer is immune to this effect.
+**The Wrong Feeling.** The mask feels like a guest who hasn't quite arrived. When not worn, it sits in the environment with a presence that people near it find unsettling — not frightening, just wrong. Like a piece of furniture in the wrong room. Animals avoid it. People in the same room with it for more than an hour feel vaguely that they should be somewhere else. The bearer is immune to this effect.
 
-**Deep Bleed.** After two months of attunement, the Afterlife increasingly perceives the bearer as present. NPC Echominds of the dead begin to address the bearer familiarly — as though they have met before, which, from the Afterlife's perspective, they have. Long-dead individuals begin to have specific memories of speaking with the bearer, which the bearer has no memory of. The Iron Sutra considers this "Afterlife impression bleed" and documents it as rare and not fully understood.
+**Deep Bleed.** After two months of integration, the Afterlife increasingly perceives the bearer as resident rather than visitor. NPC Echominds of the dead begin to address the bearer familiarly — as though they have met before, which, from the Afterlife's perspective, they have. Long-dead individuals begin to have specific memories of speaking with the bearer, which the bearer has no memory of. The Iron Sutra considers this "Afterlife impression bleed" and documents it as rare and not fully understood.
 
 ## History and Lore
 
-The mask was retrieved from the deep Iron Afterlife by an Iron Sutra practitioner on a sanctioned Afterlife immersion — a procedure in which a highly trained priest enters the near-Afterlife to communicate with the recently dead. This practitioner went deeper than sanctioned. She was found at the physical end of the Afterlife interface, unresponsive, after four hours. The mask was in her hands. She had gone in without it.
+The mask was retrieved from the deep Iron Afterlife by an Iron Sutra practitioner on a sanctioned Afterlife immersion. This practitioner went deeper than sanctioned. She was found at the physical end of the Afterlife interface, unresponsive, after four hours. The mask was in her hands. She had gone in without it.
 
 She came back. She was functional but different in a way she could not describe. She gave the mask to her order with the instructions: *"This came back with me. I don't know from where, exactly, or whose it was. But it wanted to come back."*
 
@@ -268,7 +268,7 @@ Iron Sutra restricted collection, Second Reach temple. Not for general access. T
 ---
 
 # The Deep Register
-*Rare Iron Afterlife Item | No Attunement Required*
+*Rare Iron Afterlife Item | No Integration Required*
 
 ## Description
 
@@ -276,15 +276,15 @@ A resonant metal data storage device — similar in physical form to the Wire Ma
 
 The Deep Register contains data. The data is a record of Echominds — specifically, Echominds of people who have died in the Ashlands border territories over a period of approximately two hundred years. Not their full lives. Their final moments, stored in the resonant architecture of a device that was apparently present in the Iron Afterlife long enough to accumulate them.
 
-The record can be read by a Wire Craft specialist (DC 16 Intelligence check, 1 hour per entry, approximately 400 entries total). The entries are not dramatic. They are small: the last thought, the last sensation, the last piece of understanding of a person in their final moment. Some of them are afraid. Some of them are not. Some of them are very clear about something they have just understood.
+The record can be read by a Wire Craft specialist (SIGNAL check difficulty 5, 1 hour per entry, approximately 400 entries total). The entries are not dramatic. They are small: the last thought, the last sensation, the last piece of understanding of a person in their final moment. Some of them are afraid. Some of them are not. Some of them are very clear about something they have just understood.
 
-## Properties
+## Card Modifications
 
-- **Afterlife Database.** The bearer (or their Wire Craft consultant) may search the Deep Register for the final record of any person who died in the Ashlands border territories over a 200-year period. Success on a DC 14 Intelligence (Investigation) check locates the record if it exists. The search takes 10 minutes.
-- **The Specific Knowledge.** Final-moment clarity is unusual. Many entries in the Deep Register contain information that the subject could not have known during their life but understood in their final moment — the location of a hidden cache, the name of the person who betrayed them, the answer to a question they had been asking. This information is accurate. The dead had no reason to lie in their final moment.
+- **Afterlife Database.** The bearer (or their Wire Craft consultant) may search the Deep Register for the final record of any person who died in the Ashlands border territories over a 200-year period. A SIGNAL check (difficulty 4) locates the record if it exists. The search takes 10 minutes.
+- **The Specific Knowledge.** Final-moment clarity is unusual. Many entries contain information the subject could not have known during their life but understood in their final moment — the location of a hidden cache, the name of the person who betrayed them, the answer to a question they had been asking. This information is accurate. The dead had no reason to lie in their final moment.
 - Iron Afterlife entities recognize the Deep Register and will not harm a bearer who is visibly carrying it. It is a record of their dead. It is, in a specific way, a census of their community. They have opinions about it.
 
-**The Cold.** The device is always cold. Always. This is not harmful but it is present. A bearer who handles it regularly (daily consulting) begins to feel the cold in their fingers for hours after setting it down. This is the Afterlife's proximity bleeding into the physical world through the object's resonant field. Purely cosmetic unless the DM decides otherwise.
+**The Cold.** The device is always cold. A bearer who handles it regularly (daily consulting) begins to feel the cold in their fingers for hours after setting it down. This is the Afterlife's proximity bleeding into the physical world through the object's resonant field. Purely cosmetic unless the DM decides otherwise.
 
 ## Where Found
 
@@ -293,7 +293,7 @@ Found in the possession of an Iron Sutra archivist who acquired it from an Ashla
 ---
 
 # The Inheritance
-*Very Rare Iron Afterlife Item | Requires Attunement*
+*Very Rare Iron Afterlife Item | Requires Integration (spend a long rest in contact with the item)*
 
 ## "It carries the last thing someone wanted to give someone else. That someone never received it. Now it waits."
 
@@ -305,14 +305,14 @@ The box is empty. This is not the point. The box is a vessel — a resonant cont
 
 Opening the box, a bearer experiences this intention directly — not as thought, but as feeling. The feeling of having something important to give and being unable to give it. This takes different forms depending on whose intention the box carries. It has carried several, over centuries.
 
-The current intention — the one settled most deeply into the metal's most recent resonance — is from a parent. Something they wanted to give their child. The child's name is in the resonant field but readable only with a DC 20 Wisdom check. What the parent wanted to give them was not a physical object. It was an understanding. Something they had learned too late.
+The current intention — the one settled most deeply into the metal's most recent resonance — is from a parent. Something they wanted to give their child. The child's name is in the resonant field but readable only with a RESONANCE check (difficulty 6). What the parent wanted to give them was not a physical object. It was an understanding. Something they had learned too late.
 
-## Properties
+## Card Modifications
 
-**While Attuned:**
+**While Integrated:**
 
-- The bearer receives, over the course of their first week of attunement, the full content of the current intention — the understanding the parent wanted to give. The DM determines this specifically, but it should be something true about grief, or love, or about what matters when everything else is removed. It should be something the bearer needs to hear. It should arrive slowly, one piece per night's sleep.
-- The bearer cannot be affected by Compulsion or Domination effects. The box's weight of purpose makes the bearer difficult to redirect.
+- The bearer receives, over the course of their first week of integration, the full content of the current intention — the understanding the parent wanted to give. The DM determines this specifically, but it should be something true about grief, or love, or about what matters when everything else is removed. It should be something the bearer needs to hear. It should arrive slowly, one piece per night's sleep.
+- **Card Modification:** All Defense cards against Compulsion and Domination effects gain Pierce 3. The box's weight of purpose makes the bearer difficult to redirect.
 - **The Giving.** Once, during the campaign, the bearer may give the box to someone who needs what it carries. The act of giving discharges the intention fully — the recipient receives the understanding in its entirety, immediately, in a vision that takes 1 round and leaves them changed in the way true understanding changes people. After this: the box is empty. The intention is delivered. Whether the right person received it is up to the DM and the player.
 - The bearer knows when a creature within 60 feet has something they need to say to someone they cannot reach. This is always on. It is rarely comfortable.
 
@@ -329,7 +329,7 @@ Iron Sutra deep storage, considered a spiritual curiosity rather than a dangerou
 ---
 
 # The Second Skin
-*Rare Iron Afterlife Item | Requires Attunement*
+*Rare Iron Afterlife Item | Requires Integration (spend a long rest in contact with the item)*
 
 ## Description
 
@@ -339,19 +339,19 @@ The robe spent time in the Iron Afterlife. The time changed it: it carries the b
 
 Iron Afterlife entities treat the bearer as a peer. Living creatures with resonant sensitivity find the bearer slightly difficult to look at directly — not frightening, just: their focus slides away. The quality of the dead adheres to the robe's wearer.
 
-## Properties
+## Card Modifications
 
-**While Attuned:**
+**While Integrated:**
 
-- The robe provides AC 14 + Dexterity modifier. It does not restrict movement.
-- **Threshold Presence.** The bearer cannot be targeted by Iron Afterlife attacks that specifically target the living (necrotic damage from Afterlife sources is halved). The Afterlife recognizes the robe.
-- The bearer moves silently when they choose to. Not mechanically silent — Afterlife-silent. Creatures perceive the bearer as present but without the unconscious auditory confirmation that presence is physical. This causes a specific unease that can be leveraged.
-- **Fade Boundary.** Once per short rest, the bearer may step to the near-Afterlife for up to 1 minute — becoming imperceptible to creatures with no resonant sensitivity. Creatures with resonant sensitivity (enhancements, spiritual training) make a DC 16 Wisdom save to perceive the bearer. The bearer can act normally during this time. Physical barriers do not impede movement while partially in the near-Afterlife.
+- **Defense Value +4** (adds to Guard/Shield pool at start of combat; the robe does not restrict movement).
+- **Threshold Presence.** All incoming necrotic damage from Iron Afterlife sources is reduced by half. The Afterlife recognizes the robe.
+- The bearer moves silently when they choose to — not with a card bonus to Stealth, but Afterlife-silent. Creatures perceive the bearer as present but without the unconscious auditory confirmation that presence is physical. This creates a specific unease that can be leveraged.
+- **Fade Boundary.** Once per short rest, the bearer may step to the near-Afterlife for up to 1 minute — becoming imperceptible to creatures with no resonant sensitivity. Creatures with resonant sensitivity (enhancements, spiritual training) make a RESONANCE check (difficulty 5) to perceive the bearer. The bearer can play cards normally during this time. Physical barriers do not impede Mobility cards while partially in the near-Afterlife.
 - The bearer can see and communicate with Iron Afterlife entities freely, as though bearing the Returned Mask.
 
-**The Wrong Feeling (amplified).** The robe produces the wrong-guest feeling at a significant level. People near the bearer for more than an hour are uncomfortable — not hostile, but aware that something is not fully present. Social situations become charged. The bearer has disadvantage on Charisma (Persuasion) checks with people who have not spent significant time with them.
+**The Wrong Feeling (amplified).** The robe produces the wrong-guest feeling at a significant level. People near the bearer for more than an hour are uncomfortable — not hostile, but aware that something is not fully present. All VEIL cards used in social situations with people who have not spent significant time with the bearer take -2.
 
-**The Cost.** After three months of attunement, the Afterlife begins to perceive the bearer as resident rather than visitor. The bearer receives correspondence from the dead — not literal letters, but Echomind-impressions of people who want to speak to them, arriving during sleep. These are not nightmares. They are conversations the dead want to have. The bearer may engage or refuse; refusing has no mechanical consequence but may disappoint specific Echominds who have been waiting for a long time.
+**The Cost.** After three months of integration, the Afterlife begins to perceive the bearer as resident rather than visitor. The bearer receives correspondence from the dead — Echomind-impressions of people who want to speak to them, arriving during sleep. These are not nightmares. They are conversations the dead want to have. The bearer may engage or refuse; refusing has no mechanical consequence but may disappoint specific Echominds who have been waiting for a long time.
 
 After six months, the bearer occasionally flickers — those near them occasionally see them as though in two places at once, the physical and the Afterlife simultaneously. Duration is less than a second. It is very unsettling to witness.
 

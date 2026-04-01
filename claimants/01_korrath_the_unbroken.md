@@ -180,20 +180,20 @@ He is not unkind to people he considers genuinely trying. He will explain things
 
 He becomes uncomfortable when asked about his feelings in the first-person present tense. "What do you want?" is more likely to produce a genuine long pause than any tactical question. He will usually answer with what he is *doing* rather than what he wants. His advisors have learned to ask "what is the right outcome here?" instead, which he can answer fluently, even when the answer and the want would be identical.
 
-### Stat Block (D&D 5E)
+### Stat Block
 
 ```
 KORRATH THE UNBROKEN
 Legendary Construct/Humanoid (Resonance-Bonded), Lawful Neutral
 
 Armor Class: 23 (resonant war-steel body, adaptive plating)
-Hit Points: 420 (40d10 + 200)
+HP: 420
 Speed: 40 ft.
 
-STR 28 (+9) | DEX 18 (+4) | CON 24 (+7)
-INT 22 (+6) | WIS 18 (+4) | CHA 16 (+3)
+IRON 28 (+9) | EDGE 18 (+4) | FRAME 24 (+7)
+SIGNAL 22 (+6) | RESONANCE 18 (+4) | VEIL 16 (+3)
 
-Saving Throws: Str +17, Con +15, Wis +12, Int +14
+Resistance Checks: IRON +17, FRAME +15, RESONANCE +12, SIGNAL +14
 Skills: Athletics +17, History +14, Insight +12, Intimidation +11,
         Perception +12, Persuasion +11
 Damage Immunities: Poison, Psychic
@@ -203,19 +203,19 @@ Condition Immunities: Charmed, Exhaustion, Frightened, Paralyzed,
         Poisoned
 Senses: Darkvision 120 ft., Tremorsense 30 ft., passive Perception 22
 Languages: All languages of Tesshari
-Challenge: 25 (75,000 XP)    Proficiency Bonus: +8
+Threat: 25    Class Expertise: +8
 
 ---
 SPECIAL TRAITS
 
-The Unbroken Adaptation. When Korrath is reduced to 0 hit points, he
+The Unbroken Adaptation. When Korrath is reduced to 0 HP, he
 does not die. Instead, he falls inert until the next sunrise. At
-sunrise, he rises with 100 hit points. The attack type or damage type
-that reduced him to 0 hit points can never again reduce him to 0 hit
-points — he has absolute immunity to that specific damage type or
+sunrise, he rises with 100 HP. The attack type or damage type
+that reduced him to 0 HP can never again reduce him to 0 HP —
+he has absolute immunity to that specific damage type or
 attack method from that moment forward. This immunity stacks across
 multiple deaths. A DM should track his accumulated immunities.
-Additionally, his maximum hit points increase by 20 each time this
+Additionally, his maximum HP increases by 20 each time this
 trait activates.
 
 War-Steel Constitution. Korrath does not need to eat, drink, or
@@ -225,52 +225,52 @@ not stack with other reduction effects). This reaction recharges at the
 start of each of his turns.
 
 Resonance Anchor. Korrath's Echomind resonance is so deeply bonded to
-the Between that spells and abilities that would banish, teleport, or
+the Between that abilities that would banish, teleport, or
 otherwise move him against his will automatically fail unless they
-overcome a DC 28 saving throw on the caster's part (Charisma, using
-their spellcasting modifier). He always knows his exact position
-relative to any resonance-enhanced individual within 300 feet.
+overcome a VEIL resistance check at difficulty 14 on the user's part.
+He always knows his exact position relative to any resonance-enhanced
+individual within 300 feet.
 
-Legendary Resistance (4/day). If Korrath fails a saving throw, he can
-choose to succeed instead.
+Legendary Resistance (4/day). If Korrath fails a resistance check, he
+can choose to succeed instead.
 
 Siege Engine. Korrath deals double damage to objects and structures.
 His movement is never reduced by difficult terrain.
 
 The Between Watches Him. Korrath cannot be scried upon, divined, or
-tracked by magical means. His resonance signature actively defeats
+tracked by resonance means. His resonance signature actively defeats
 such attempts. Any creature attempting divination targeting Korrath
-must succeed on a DC 20 Constitution saving throw or take 4d10 psychic
-damage and be stunned for 1 minute.
+must succeed on a FRAME resistance check at difficulty 10 or take 22
+psychic damage and be stunned for 1 minute.
 
 ---
 ACTIONS (3 attacks per action)
 
 Iron Fist. Melee Weapon Attack: +17 to hit, reach 10 ft., one target.
-Hit: 3d10 + 9 bludgeoning damage plus 2d8 force damage (resonance
-discharge). On a hit, the target must succeed on a DC 23 Strength
-saving throw or be knocked prone and pushed 15 feet.
+Hit: 25 bludgeoning damage plus 9 force damage (resonance discharge).
+On a hit, the target must succeed on an IRON resistance check at
+difficulty 12 or be knocked prone and pushed 15 feet.
 
 Resonance Spike (Recharge 5–6). Ranged Attack: +17 to hit, range
-60/180 ft., one target. Hit: 6d12 + 6 force damage. If the target has
+60/180 ft., one target. Hit: 45 force damage. If the target has
 any cybernetic enhancements or resonance-bonded equipment, they must
-succeed on a DC 22 Constitution saving throw or have one enhancement
-shut down until they complete a short rest (DM's choice which
-enhancement).
+succeed on a FRAME resistance check at difficulty 11 or have one
+enhancement shut down until they complete a short rest (DM's choice
+which enhancement).
 
 Systematic Crush. Melee Weapon Attack: +17 to hit, reach 10 ft., one
-creature that is grappled or restrained. Hit: 5d12 + 9 bludgeoning
-damage. If this reduces the target to 0 hit points, Korrath can use a
-bonus action to stabilize them — they are dying, not dead. He
-considers unnecessary killing a waste.
+creature that is grappled or restrained. Hit: 41 bludgeoning damage.
+If this reduces the target to 0 HP, Korrath can use a bonus action to
+stabilize them — they are dying, not dead. He considers unnecessary
+killing a waste.
 
 ---
 BONUS ACTION
 
 Grapple Drive. Korrath attempts to grapple one creature within 10 feet.
-The target must succeed on a DC 25 Strength (Athletics) or Dexterity
-(Acrobatics) check to resist. A grappled creature is restrained (not
-just grappled) in Korrath's grip.
+The target must succeed on an IRON or EDGE check at difficulty 13 to
+resist. A grappled creature is restrained (not just grappled) in
+Korrath's grip.
 
 ---
 REACTIONS
@@ -280,8 +280,8 @@ attack, he can use his reaction to make one Iron Fist attack against
 that creature.
 
 Adaptive Plating. When Korrath takes more than 30 damage from a single
-attack, he can reduce that damage by 1d10 × 3. Once this reaction is
-used, it cannot be used again until the start of his next turn.
+attack, he can reduce that damage by 15. Once this reaction is used,
+it cannot be used again until the start of his next turn.
 
 ---
 LEGENDARY ACTIONS (3/round, at end of another creature's turn)
@@ -291,18 +291,18 @@ opportunity attacks.
 
 Resonance Read (1 action). Korrath targets one creature within 60 feet
 that has cybernetic enhancements or resonance-bonded equipment. He
-learns that creature's current hit points, active abilities, and any
-currently active magical effects on them.
+learns that creature's current HP, active abilities, and any currently
+active effects on them.
 
 Structural Pressure (2 actions). All creatures within 20 feet of
-Korrath must succeed on a DC 23 Strength saving throw or take 4d8
-force damage and be knocked prone as Korrath expands a pulse of
-resonance through the surrounding area.
+Korrath must succeed on an IRON resistance check at difficulty 12 or
+take 18 force damage and be knocked prone as Korrath expands a pulse
+of resonance through the surrounding area.
 
 Claim the Fallen (3 actions). Korrath makes one Iron Fist attack and
 one Grapple Drive attempt in sequence. If both succeed, the target is
-restrained and takes an additional 3d10 bludgeoning damage at the
-start of each of their turns until they escape.
+restrained and takes an additional 16 bludgeoning damage at the start
+of each of their turns until they escape.
 
 ---
 LAIR ACTIONS (if encountered in the Ironhold Command Fortress)
@@ -310,18 +310,18 @@ LAIR ACTIONS (if encountered in the Ironhold Command Fortress)
 On initiative count 20, Korrath can take one lair action:
 
 - Resonance Grid: All creatures in the fortress that are not allied
-  with Korrath must succeed on a DC 20 Constitution saving throw or
-  have their speed reduced to 0 until the start of their next turn as
-  the fortress's resonance field destabilizes their enhancement
+  with Korrath must succeed on a FRAME resistance check at difficulty
+  10 or have their speed reduced to 0 until the start of their next
+  turn as the fortress's resonance field destabilizes their enhancement
   calibration.
 
 - Iron Lockdown: One doorway or passage within 200 feet seals with
-  resonance-bonded steel. It requires a DC 28 Strength check or
-  equivalent magical effect to open.
+  resonance-bonded steel. It requires a difficulty 14 IRON check or
+  equivalent effect to open.
 
 - Fortress Armament: One of the fortress's weapon emplacements fires
   at a target Korrath designates. Ranged Weapon Attack: +14 to hit,
-  range 300 ft., one target. Hit: 8d10 bludgeoning damage.
+  range 300 ft., one target. Hit: 44 bludgeoning damage.
 ```
 
 ### Combat Philosophy

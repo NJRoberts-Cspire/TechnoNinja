@@ -17,12 +17,12 @@ What they left behind carries something that no artificer has been able to repli
 
 Holding one of these items is described by survivors as feeling like standing in a room where someone very important has just left. The air is different. The light is different. Something knows you are there.
 
-All six artifacts are Legendary-tier items requiring attunement. Unlike standard attunement, Prior Ascended artifacts have specific, unusual requirements that cannot be bypassed. The artifact will not attune to someone who does not meet its conditions — and attempting forced attunement has consequences that the historical record describes in graphic detail.
+All six artifacts are Legendary-tier items. Unlike standard integration, Prior Ascended artifacts have specific, unusual attunement conditions that cannot be bypassed. The artifact will not integrate with someone who does not meet its conditions — and attempting forced integration has consequences that the historical record describes in graphic detail.
 
 ---
 
 # The Unnamed Fragment
-*Artifact | Legendary | Attunement: see below*
+*Artifact | Legendary*
 
 ## "No one names it. It named itself. It named everything."
 
@@ -46,27 +46,28 @@ The Fragment passed through a succession of holders across four centuries, and t
 
 The Fragment spent two centuries in a sealed vault beneath the first Iron Sutra temple. When the temple was destroyed in the Wars of the Broken Reaches, the vault was excavated. The Fragment was gone. The vault showed no signs of having been opened.
 
-## Properties
+## Card Modifications
 
-The Fragment does not attune through the standard process. It cannot be forced. A creature who spends 24 hours in physical contact with the Fragment — carrying it, holding it, sleeping with it — will either be rejected (see below) or will find the attunement complete upon waking. There is no middle state.
+**Attunement Condition:**
+A creature who spends 24 hours in physical contact with the Fragment — carrying it, holding it, sleeping with it — will either be rejected or find integration complete upon waking. There is no middle state.
 
-**The Rejection.** If the Fragment determines a creature is not suited to it, the creature experiences 24 hours of vivid hallucinations depicting the moment before the Unnamed's Ascension — what it felt like to be the last human version of a being that was about to stop being human. This is not described as unpleasant, which is itself considered disturbing. Rejected creatures suffer 4d10 psychic damage (Constitution saving throw DC 20 for half) and have disadvantage on all Wisdom checks for 1d10 days.
+**The Rejection.** If the Fragment determines a creature is not suited to it, the creature experiences 24 hours of vivid hallucinations depicting the moment before the Unnamed's Ascension — what it felt like to be the last human version of a being that was about to stop being human. This is not described as unpleasant, which is itself considered disturbing. Rejected creatures suffer 22 RESONANCE damage (FRAME check, difficulty 5 for half) and all RESONANCE-based cards are reduced by 2 for 1d10 days.
 
-**What Attuned Means.** No one is certain what the criteria for attunement are. The scholars have theories. The leading theory, held by the Iron Sutra's inner circle, is that the Fragment chooses creatures who are in the process of a genuine transformation — not of body, but of self. People in the middle of becoming something they cannot predict. If this is true, it cannot be manufactured.
+**What Integration Means.** No one is certain what the criteria for attunement are. The scholars have theories. The leading theory, held by the Iron Sutra's inner circle, is that the Fragment chooses creatures who are in the process of a genuine transformation — not of body, but of self. People in the middle of becoming something they cannot predict. If this is true, it cannot be manufactured.
 
-**While Attuned:**
+**While Integrated:**
 
 - The bearer's Echomind resonates at a frequency that no enhancement can produce artificially. They can sense the presence and rough emotional state of any resonant metal within 300 feet, including metal bonded to living flesh (this includes detecting cybernetic enhancements in other creatures).
-- The bearer cannot be magically deceived. Illusions, false signals, glamours, and digital falsifications within 60 feet are immediately apparent to them. They know the deception is happening but not necessarily what the truth is.
-- Once per long rest, the bearer may hold the Fragment and ask a question. The Fragment does not answer in language. It answers in sensation — temperature, pressure, rhythm. A Wisdom check (DC 15) allows the bearer to interpret the response. The DM determines what the Fragment knows. It is very old. It knows a great deal.
-- The bearer's maximum hit points increase by 30.
+- All Signal Attack cards and Resonance Attack cards targeting the bearer that rely on illusion, false data, or digital falsification within 60 feet automatically fail. The bearer knows the deception is happening but not necessarily what the truth is.
+- Once per long rest, the bearer may hold the Fragment and ask a question. The Fragment does not answer in language. It answers in sensation — temperature, pressure, rhythm. A RESONANCE check (difficulty 4) allows the bearer to interpret the response. The DM determines what the Fragment knows. It is very old. It knows a great deal.
+- **Card Modification:** +30 HP maximum (permanent while integrated).
 - The bearer cannot lie in the presence of resonant metal. Not will not — *cannot*. The words simply do not form. This applies to tactical misdirection, social deception, and politely saying one is fine when one is not.
 
 ## The Cost
 
-The Fragment does not take. It replaces. Over weeks and months of attunement, the bearer finds that their relationship to personal history changes. They remember events with increasing clarity — not their own memories, but the Fragment's accumulated impressions from every holder it has ever had. These intrude during sleep, during meditation, during moments of stillness. Eventually the bearer has difficulty distinguishing their own memories from the Fragment's.
+The Fragment does not take. It replaces. Over weeks and months of integration, the bearer finds that their relationship to personal history changes. They remember events with increasing clarity — not their own memories, but the Fragment's accumulated impressions from every holder it has ever had. These intrude during sleep, during meditation, during moments of stillness. Eventually the bearer has difficulty distinguishing their own memories from the Fragment's.
 
-After three months of continuous attunement, the bearer must make a DC 18 Wisdom saving throw each week. Failure means they spend 1d4 days believing they are one of the Fragment's previous holders. They are fully functional but will insist on a different name, reference events centuries past as recent, and occasionally try to walk into the sea.
+After three months of continuous integration, the bearer must make a RESONANCE check (difficulty 5) each week. Failure means they spend 1d4 days believing they are one of the Fragment's previous holders. They are fully functional but will insist on a different name, reference events centuries past as recent, and occasionally try to walk into the sea.
 
 ## Current Location
 
@@ -79,7 +80,7 @@ A Wire Market junior broker named Isoro Kael contacts the party through an inter
 ---
 
 # The Teaching Hand
-*Artifact | Legendary | Attunement: by a creature who has taught something true to another person*
+*Artifact | Legendary*
 
 ## "She held a stylus in this hand for sixty years. The stylus is gone. The hand remembers."
 
@@ -99,25 +100,26 @@ When Tesshari Ascended at the end of her sixty years, the gauntlet was simply pr
 
 The Iron Sutra's founding scholars considered it their most sacred object and kept it in the First Temple for two hundred years. When the Hollow Author's agents infiltrated the Temple forty years ago, the gauntlet was on the list of items targeted for acquisition. The Temple's head archivist removed it from the vault a day before the infiltration and has not been seen since. She was sixty-three years old and had no cybernetic enhancements. The gauntlet was with her when she vanished. No one knows if she is still alive.
 
-## Properties
+## Card Modifications
 
-**Attunement.** The gauntlet will attune only to a creature who has genuinely taught something to another person — not lectured, not recited, but taught: responded to confusion, corrected understanding, changed how someone thinks. This is a quality, not a credential. There is no way to fake it. If a creature who has never truly taught attempts attunement, the gauntlet remains warm and inert in their hands, and they hear, once, a woman's voice saying a single word in an ancient dialect that translates approximately as: *"Not yet."*
+**Attunement Condition:**
+The gauntlet will integrate only with a creature who has genuinely taught something to another person — not lectured, not recited, but taught: responded to confusion, corrected understanding, changed how someone thinks. This is a quality, not a credential. There is no way to fake it. If a creature who has never truly taught attempts integration, the gauntlet remains warm and inert in their hands, and they hear, once, a woman's voice saying a single word in an ancient dialect that translates approximately as: *"Not yet."*
 
-**While Attuned:**
+**While Integrated:**
 
-- The bearer gains proficiency in any skill in which they are not already proficient, provided a creature within 30 feet of them is also attempting to use that skill. The bearer is drawing on something the gauntlet accumulated over sixty years of instruction.
-- The bearer can communicate complex concepts perfectly to any creature that shares a language with them, regardless of that creature's intelligence score. The gauntlet assists with explanation. A DC 20 Intelligence (Arcana) check allows this to function across a language barrier for a single concept.
-- Once per long rest, the bearer may place the gauntlet's hand against the shoulder of a willing creature. That creature gains advantage on all saving throws for 8 hours and does not suffer disadvantage from exhaustion for that duration. This is exactly what Tesshari used to do for students before difficult work.
-- The gauntlet functions as resonant metal armor for the hand and forearm, granting +2 AC without reducing Dexterity modifier.
-- The bearer cannot abandon a student or a charge. If they attempt to flee a situation in which someone under their protection is in danger, they must succeed on a DC 16 Wisdom saving throw to do so.
+- When a creature within 30 feet of the bearer is attempting a skill or task, the bearer may assist them using the gauntlet's sixty years of accumulated instruction. The bearer may add +3 to any card played in direct support of that creature, even for card types outside the bearer's normal stat profile.
+- The bearer can communicate complex concepts perfectly to any creature that shares a language with them. A SIGNAL check (difficulty 5) allows this to function across a language barrier for a single concept.
+- Once per long rest, the bearer may place the gauntlet's hand against the shoulder of a willing creature. That creature gains Fortify for 8 hours and ignores the card-limiting effects of exhaustion for that duration. This is exactly what Tesshari used to do for students before difficult work.
+- **Card Modification:** Defense Value +2 (the gauntlet functions as resonant metal armor for the hand and forearm, adding to the Guard/Shield pool at the start of combat).
+- The bearer cannot abandon a student or a charge. If they attempt to flee a situation in which someone under their protection is in danger, they must succeed on a RESONANCE check (difficulty 4) to do so.
 
 ## The Cost
 
-The gauntlet teaches. The bearer begins to experience the memories of Tesshari's most difficult students — the ones she failed, the ones she lost, the ones she taught wrong. These arrive during sleep and intensify over time. The bearer does not lose Wisdom — they gain it, in the most painful way possible.
+The gauntlet teaches. The bearer begins to experience the memories of Tesshari's most difficult students — the ones she failed, the ones she lost, the ones she taught wrong. These arrive during sleep and intensify over time. The bearer does not lose wisdom — they gain it, in the most painful way possible.
 
-After two months of attunement, the bearer finds they have accumulated a persistent emotional weight: the specific grief of a teacher who outlived their students. They have -2 to Charisma checks made for personal connection (not for instruction). They are harder to be close to. They know too much about how people can fail.
+After two months of integration, the bearer finds they have accumulated a persistent emotional weight: the specific grief of a teacher who outlived their students. All VEIL cards used for personal connection (not for instruction or command) take -2 to their effect. They are harder to be close to. They know too much about how people can fail.
 
-After six months, the bearer must make a DC 16 Wisdom saving throw at each long rest. On a failure, they spend that rest in the memories rather than sleeping, and do not gain the benefits of the rest.
+After six months, the bearer must succeed on a RESONANCE check (difficulty 4) at each long rest. On a failure, they spend that rest in the memories rather than sleeping, and do not gain the benefits of the rest.
 
 ## Current Location
 
@@ -130,7 +132,7 @@ A young Iron Sutra monk — barely twenty, clearly terrified — approaches the 
 ---
 
 # Weeper's Remnant
-*Artifact | Legendary | Attunement: by a creature who has wept for something they could not change*
+*Artifact | Legendary*
 
 ## "The richest resonant metal in the world is a god's grief. Think about what that means."
 
@@ -152,25 +154,26 @@ The Iron Weeper's tears are the highest-resonance metal known to exist. A single
 
 The necklace passed through the girl's family for four generations before it was taken by a local governor who immediately lost both his sons to the same fever within a month. The governor gave it to the first Iron Sutra temple as a donation. The temple held it for a century. Then a grieving widow, newly arrived from the wars in the Second Reach, reportedly walked into the temple vault room where it was stored, took the necklace, and walked out. No lock was broken. The vault was sealed. No one has explained this. The widow's name was Tanri-En. She wore it for thirty years and then, dying, placed it in the hands of the person in the room she judged to be carrying the most hidden grief. The record of who that was has been deliberately obscured.
 
-## Properties
+## Card Modifications
 
-**Attunement.** The beads recognize genuine grief — not performance, not self-pity, but the specific ache of having lost something real and knowing it cannot be recovered. A creature must hold the necklace and speak aloud what they have lost. This is not a ritual incantation. It is a statement of loss. If the grief is real, the necklace will attune over the next hour. If it is not, the necklace falls cold in their hand and they feel, briefly, the full weight of the Iron Weeper's three centuries of accumulated grief — 3d10 psychic damage, no save.
+**Attunement Condition:**
+The beads recognize genuine grief — not performance, not self-pity, but the specific ache of having lost something real and knowing it cannot be recovered. A creature must hold the necklace and speak aloud what they have lost. This is not a ritual incantation. It is a statement of loss. If the grief is real, the necklace will integrate over the next hour. If it is not, the necklace falls cold in their hand and they feel, briefly, the full weight of the Iron Weeper's three centuries of accumulated grief — 17 RESONANCE damage, no check to avoid.
 
-**While Attuned:**
+**While Integrated:**
 
 - The bearer can perceive the emotional state of any creature within 60 feet with complete accuracy. Not surface presentation — actual state. They know when someone is afraid under the bravado, grieving under the aggression, hopeful under the despair. This is always on. It cannot be turned off.
 - Creatures within 30 feet of the bearer who have suffered genuine loss (DM's discretion) have their pain perceived and reflected back by the beads' resonance. These creatures are automatically at ease with the bearer and will be honest with them. They may not want to be, but they will be.
-- Once per long rest, the bearer may weep (willingly or not — the necklace sometimes initiates this) and their tears function as a restorative medium. A creature who receives a tear on their skin is healed of one condition (frightened, charmed, exhausted, poisoned) and 4d8 hit points. Up to three tears may be shed per activation.
-- The bearer cannot die from effects that cause despair — they are immune to the frightened condition and to any ability that functions by destroying hope.
-- The bearer has resistance to psychic damage.
+- Once per long rest, the bearer may weep (willingly or not — the necklace sometimes initiates this) and their tears function as a restorative medium. A creature who receives a tear on their skin is cleansed of one condition (Stagger, Root, Silence, or one narrative status such as frightened or poisoned) and restores 18 HP. Up to three tears may be shed per activation.
+- **Card Modification:** The bearer cannot be brought to 0 HP by effects that function through despair or hopelessness. They are immune to Morale Break and similar Control cards that function by destroying hope.
+- **Card Modification:** Reduce all incoming RESONANCE-type damage by 3.
 
 ## The Cost
 
 The bearer feels everything. Every creature's grief in range. Constantly. The empathic perception is not optional. Over time, the boundary between the bearer's own emotions and the accumulated grief of the beads and the grief of those around them becomes indistinct.
 
-After one month of attunement, the bearer must succeed on a DC 15 Wisdom saving throw at each dawn to begin the day with their own emotional baseline rather than the collective grief of their surroundings. Failure means they begin each day with one level of exhaustion that cannot be removed by rest — only by the passage of time (8 hours without contact with suffering).
+After one month of integration, the bearer must succeed on a RESONANCE check (difficulty 4) at each dawn to begin the day with their own emotional baseline rather than the collective grief of their surroundings. Failure means they begin each day with one level of exhaustion that cannot be removed by rest — only by the passage of time (8 hours without contact with suffering).
 
-After four months, the DC increases to 18. After eight months, a failed save means the bearer begins weeping and cannot stop for 1d4 hours. During this time, the tears are the highest-resonance liquid in the world and can be used as spell components for any Iron Sutra effect. The bearer is aware of this. They are not sure how to feel about it.
+After four months, the difficulty increases to 5. After eight months, a failed check means the bearer begins weeping and cannot stop for 1d4 hours. During this time, the tears are the highest-resonance liquid in the world and can be used as a medium for any Iron Sutra resonant effect. The bearer is aware of this. They are not sure how to feel about it.
 
 ## Current Location
 
@@ -183,7 +186,7 @@ A Wire Market signal specialist begins intercepting a low-frequency resonance fr
 ---
 
 # The Patience Dial
-*Artifact | Legendary | Attunement: by a creature who has waited for something across multiple years*
+*Artifact | Legendary*
 
 ## "Four hundred years. Not waiting for something. Waiting because waiting was the correct response to existence."
 
@@ -205,27 +208,28 @@ The Iron Sutra's second-generation scholars excavated it and spent thirty years 
 
 The Dial currently rests in the possession of a patience-teacher — a loose tradition in the Third Reach — who receives it at appointment and passes it to their successor. The tradition has held for two hundred years. The current holder is the Patience-Teacher Orel, who is ninety-three years old, has held the Dial for fifty-one years, and has made no arrangements for succession.
 
-## Properties
+## Card Modifications
 
-**Attunement.** The Dial will only attune to a creature who has genuinely waited across years — not strategically, not tactically, but in the simple, difficult way that waiting happens to people when they have no choice. A creature must hold the Dial and remember the waiting. If the memory is real and the waiting was endured rather than managed, attunement completes over the course of a short rest. The bearer notices nothing dramatic. They simply realize, at some point, that the Dial's needle is rotating in time with their heartbeat.
+**Attunement Condition:**
+The Dial will only integrate with a creature who has genuinely waited across years — not strategically, not tactically, but in the simple, difficult way that waiting happens to people when they have no choice. A creature must hold the Dial and remember the waiting. If the memory is real and the waiting was endured rather than managed, integration completes over the course of a short rest. The bearer notices nothing dramatic. They simply realize, at some point, that the Dial's needle is rotating in time with their heartbeat.
 
-**While Attuned:**
+**While Integrated:**
 
-- The bearer cannot be surprised. Not mechanically — they can still be physically ambushed — but their Echomind resonates with the Dial's four-hundred-year patience, and something in them always has time. They have advantage on initiative rolls and on saving throws against being stunned or incapacitated.
-- The bearer may choose to take the Dodge action as a bonus action. This represents not speed but exactness: they are never in the wrong place.
-- Once per short rest, the bearer may enter a state of absolute stillness as a reaction when taking damage. All damage from that instance is reduced to 0. The bearer must remain completely still (cannot move, cannot attack, cannot cast spells) until the start of their next turn. This is not a defensive posture. It is simply waiting for the damage to finish.
-- The bearer does not age. Time passes around them at its normal rate. They are simply present within it with complete equanimity.
+- The bearer cannot be surprised. They have +3 to all cards played on their first turn of any combat, and all Stagger and Incapacitate card effects require an additional FRAME check (difficulty 3) to take hold.
+- Once per turn, the bearer may play one Defense card as a free action by spending their Reaction. This represents not speed but exactness — they are never in the wrong place.
+- Once per short rest, as a Reaction when taking damage, the bearer may enter a state of absolute stillness. All damage from that instance is reduced to 0. The bearer cannot play cards or use Basic Attacks until the start of their next turn. This is not a defensive posture. It is simply waiting for the damage to finish.
+- **Card Modification:** The bearer does not age. Time passes around them at its normal rate. They are simply present within it with complete equanimity.
 - Once per long rest, the bearer may consult the Dial by sitting with it for one minute. They receive a vision of the most patient path to their current goal — not the fastest, not the safest, but the one that will endure.
 
 ## The Cost
 
 The bearer begins to find urgency genuinely incomprehensible. Not just physiologically controlled — they begin to *not understand* why things must be done quickly. They understand the concept intellectually. They simply stop feeling it.
 
-After two months of attunement, the bearer has disadvantage on initiative rolls made in reaction to anything other than direct physical threat (they still respond to swords; they stop responding to alarms, to distant explosions, to the urgency in other people's voices).
+After two months of integration, the bearer takes -2 to all EDGE-based cards played in reaction to anything other than direct physical threat. They still respond to swords; they stop responding to alarms, to distant explosions, to the urgency in other people's voices.
 
-After six months, the bearer must succeed on a DC 17 Wisdom saving throw to take the Dash action. They are not slow. They simply find the concept of hurrying philosophically unsound.
+After six months, the bearer must succeed on a RESONANCE check (difficulty 4) to play any Mobility card. They are not slow. They simply find the concept of hurrying philosophically unsound.
 
-After one year, the bearer must succeed on a DC 20 Wisdom saving throw once per week or become unable to initiate any action that they have not planned for at least an hour. They will wait. They have time.
+After one year, the bearer must succeed on a RESONANCE check (difficulty 5) once per week or become unable to initiate any action that they have not planned for at least an hour. They will wait. They have time.
 
 ## Current Location
 
@@ -238,7 +242,7 @@ The party arrives in The Long Consideration for any reason. Orel invites them to
 ---
 
 # The Broken Crown
-*Artifact | Legendary | Attunement: by a creature who has sacrificed authority to prevent greater harm*
+*Artifact | Legendary*
 
 ## "It was broken on the field. It was never repaired because no one who understood it could bear to."
 
@@ -262,26 +266,27 @@ The shards have been collected over two centuries by various parties. The case c
 
 The case currently rests in the possession of the Iron Sutra's High Reader — the closest thing the faith has to a central authority. The High Reader keeps it not as a sacred relic but as a reminder, prominently displayed in her private study, visible from her desk. She says it helps her remember what authority is for.
 
-## Properties
+## Card Modifications
 
-**Attunement.** The shards will only attune to a creature who has, at some point in their life, deliberately given up power or authority to prevent harm to others — and who paid a real cost for doing so. This is verified by the shards, not self-reported. A creature who was never in a position to sacrifice authority simply cannot attune. A creature who was and did not will feel the shards' edges without touching them.
+**Attunement Condition:**
+The shards will only integrate with a creature who has, at some point in their life, deliberately given up power or authority to prevent harm to others — and who paid a real cost for doing so. This is verified by the shards, not self-reported. A creature who was never in a position to sacrifice authority simply cannot integrate. A creature who was and did not will feel the shards' edges without touching them.
 
-**While Attuned (with seven shards):**
+**While Integrated (with seven shards):**
 
 - The bearer can sense the current emotional and loyalty states of any creature within 1 mile who bears resonant metal. They know who is afraid, who is angry, who is questioning their purpose. They feel this the way they feel their own emotions — as background information.
-- Once per long rest, the bearer may issue a command that cannot be disobeyed by any creature within 60 feet that can hear it (Wisdom save DC 20 to resist). The command must be a single sentence. The command cannot cause death. This is a property of the Crown, not a limitation imposed from outside: it is impossible to use this ability to order a death. The bearer will discover this the first time they try.
-- The bearer has advantage on Charisma (Persuasion) checks and automatically knows when someone is leading through fear rather than respect.
-- Any creature that has sworn loyalty to the bearer (not just ally — sworn) has resistance to all damage while within 60 feet of the bearer.
+- Once per long rest, the bearer may issue a command that functions as an unresistable Control card against all creatures within 60 feet that can hear it (VEIL check, difficulty 5 to resist). The command must be a single sentence. The command cannot cause death — this is a property of the Crown, not a limitation imposed from outside. It is impossible to use this ability to order a death. The bearer will discover this the first time they try.
+- **Card Modification:** All VEIL cards gain +2 to their effect. The bearer automatically knows when someone is leading through fear rather than respect.
+- Any creature that has sworn loyalty to the bearer (not just ally — sworn) has all incoming damage reduced by 3 while within 60 feet of the bearer.
 
-**While Attuned (with all nine shards):** The above properties are tripled in range and power. Additionally, the bearer can, once per day, broadcast a message to every resonant-metal bearer in a one-mile radius simultaneously, heard as clearly as a word spoken directly in the ear. The Iron Sutra believes this is approximately how the Broken Crown Ascended experienced governance: every citizen as a voice, always present.
+**While Integrated (with all nine shards):** The above properties double in range and card bonuses increase to +4. Additionally, the bearer can, once per day, broadcast a message to every resonant-metal bearer in a one-mile radius simultaneously, heard as clearly as a word spoken directly in the ear. The Iron Sutra believes this is approximately how the Broken Crown Ascended experienced governance: every citizen as a voice, always present.
 
 ## The Cost
 
 The Crown does not corrupt its bearer. It asks something harder: it reminds them, constantly, of what leadership requires. The bearer finds themselves aware of every failure of those under their care. They cannot dismiss it, cannot rationalize it away. They feel it with the same weight they feel their own mistakes.
 
-After one month of attunement, the bearer has disadvantage on Constitution saving throws to resist exhaustion — they do not sleep well. They are too aware of everything that needs their attention.
+After one month of integration, all FRAME checks to resist exhaustion take -2. The bearer does not sleep well. They are too aware of everything that needs their attention.
 
-After three months, the bearer must make a DC 16 Wisdom saving throw once per week. On a failure, they experience the Broken Crown Ascended's final decision in full — the moment of choosing loss over genocide — and spend 1d4 days in a state of grief so precise it has no name. They function normally in this state. They simply grieve.
+After three months, the bearer must make a RESONANCE check (difficulty 4) once per week. On a failure, they experience the Broken Crown Ascended's final decision in full — the moment of choosing loss over genocide — and spend 1d4 days in a state of grief so precise it has no name. They function normally in this state. They simply grieve.
 
 ## Current Location
 
@@ -294,7 +299,7 @@ The High Reader contacts the party through an intermediary. She needs the missin
 ---
 
 # The Last Thirty Seconds
-*Artifact | Legendary | Attunement: by a creature who understands what it means to have only one thing left to say*
+*Artifact | Legendary*
 
 ## "The speech was thirty seconds. No more. No repetitions. She chose every word. People have been arguing about those words for four centuries and she has been unavailable for comment."
 
@@ -320,24 +325,25 @@ The cylinder passed through the Iron Sutra for two centuries without incident. D
 
 The current head of the Iron Sutra's inner council considers the cylinder the most dangerous object in the world. Not because of what it might do, but because of what people will do to have it.
 
-## Properties
+## Card Modifications
 
-**Attunement.** The cylinder will not attune to a creature who has not faced a situation in which they had only one thing left to say and chose their words with full awareness that they would be the last. This is a quality of absolute clarity under extremity, not of eloquence. The moment must have been real. A creature who has had this experience holds the cylinder and feels, once, the shape of speech against their sternum — thirty seconds of vibration that is different from the repeating pattern, more personal, more direct. Attunement is complete.
+**Attunement Condition:**
+The cylinder will not integrate with a creature who has not faced a situation in which they had only one thing left to say and chose their words with full awareness that they would be the last. This is a quality of absolute clarity under extremity, not of eloquence. The moment must have been real. A creature who has had this experience holds the cylinder and feels, once, the shape of speech against their sternum — thirty seconds of vibration that is different from the repeating pattern, more personal, more direct. Integration is complete.
 
-**While Attuned:**
+**While Integrated:**
 
-- The bearer may speak with complete authority once per short rest. A single statement made in this mode is treated as a *command* spell (DC 20) that affects all creatures within 60 feet that can hear it, regardless of creature type, language, or immunity. The statement must be true. If the bearer states something false, the ability fails and they suffer 4d8 psychic damage.
+- Once per short rest, the bearer may speak with complete authority. A single statement made in this mode functions as a Tier 3 Control card that targets all creatures within 60 feet that can hear it, regardless of creature type or status immunities (RESONANCE check, difficulty 5 to resist). The statement must be true. If the bearer states something false, the card fails and they suffer 18 RESONANCE damage.
 - The bearer understands every language. Not as a translation — as comprehension. They hear meaning beneath language. This does not allow them to speak every language, only to understand.
-- Once per long rest, the bearer may activate the cylinder fully. All creatures within 60 feet who are conscious hear, for 30 seconds, a fragment of the original speech — not the words, but the *intention* behind the words. All affected creatures must make a DC 22 Wisdom saving throw. On a failure, they are affected as by a *geas* spell (no duration limit, no concentration required) to pursue a single purpose that the Last Voice intended — the DM determines this purpose, but it is always in service of preventing the Seventh Convergence from being claimed violently. On a success, creatures are simply moved, and have advantage on Charisma checks for 24 hours from the experience of having heard something true.
-- The bearer has advantage on all Charisma checks and saving throws.
+- Once per long rest, the bearer may activate the cylinder fully. All creatures within 60 feet who are conscious receive a fragment of the original speech — not the words, but the *intention* behind the words. All affected creatures must make a RESONANCE check (difficulty 6). On a failure, they are bound by an unbreakable Compulsion card effect (no duration limit) to pursue a single purpose that the Last Voice intended — the DM determines this purpose, but it is always in service of preventing the Seventh Convergence from being claimed violently. On a success, creatures are deeply moved and all VEIL cards they play gain +2 for 24 hours from the experience of having heard something true.
+- **Card Modification:** +2 to all VEIL cards and +2 to all VEIL-based checks.
 
 ## The Cost
 
 The bearer finds their own voice changed. Not damaged — *changed*. They become increasingly precise in speech and increasingly unable to say things they do not mean. Irony becomes difficult. Social pleasantry becomes uncomfortable. They do not become cold — they become exact.
 
-After one month of attunement, the bearer must succeed on a DC 14 Charisma saving throw to speak a deliberate untruth. Failure means they simply cannot; the words will not form.
+After one month of integration, the bearer must succeed on a VEIL check (difficulty 4) to speak a deliberate untruth. Failure means they simply cannot; the words will not form.
 
-After three months, the DC increases to 18. The bearer also finds they have less and less patience for indirect communication. They will say what they mean. This is frequently socially catastrophic.
+After three months, the difficulty increases to 5. The bearer also finds they have less and less patience for indirect communication. They will say what they mean. This is frequently socially catastrophic.
 
 After six months, the bearer hears the speech once, clearly and completely, in a dream. The DM delivers the speech to the player privately. The player's character now knows exactly what the Last Voice said. This changes them. What they do with this knowledge is the rest of their story.
 

@@ -381,16 +381,16 @@ Once per long rest, declare a Perfect Catastrophe. All of your enhancements simu
 The Survivor has taken the Shell Dancer's fundamental approach and pushed it entirely toward endurance. They take more damage than any other class and continue. Not because they are less vulnerable — because their body has been trained through repeated exposure to failure states to simply continue. They have been at 0 hit points more times than most practitioners have been at 25%. They have developed the specific competency of a person for whom crisis is the normal operating environment.
 
 **Level 3: Iron Constitution**
-When you make a death saving throw, you succeed on any roll of 6 or higher. Once per long rest, when you would fail three death saving throws and die, you instead automatically stabilize at 1 hit point. Your body has refused to stop more times than you can count. It has not stopped learning from the practice.
+When you make a resistance check to resist death, you succeed on any roll of 6 or higher. Once per long rest, when you would fail three such resistance checks and die, you instead automatically stabilize at 1 hit point. Your body has refused to stop more times than you can count. It has not stopped learning from the practice.
 
 **Level 3: Damage Absorption**
 When you take damage of any type, reduce it by your Constitution modifier (minimum 1). This is not resistance — it is physical tolerance. You have been hit this way before. Your body knows where to route the impact.
 
 **Level 6: Battle Hardened**
-While below half your hit points, you have advantage on Constitution and Strength saving throws. Additionally, when you spend a Hit Die during a short rest, you can roll the die twice and take the higher result.
+While below half your hit points, you gain +3 to FRAME and IRON resistance checks. Additionally, when you draw from your HP pool during a short rest, you can roll the die twice and take the higher result.
 
 **Level 10: Endurance Beyond Reason**
-Once per short rest, when you would be knocked unconscious (reduced to 0 hit points), you can continue fighting at 1 hit point for 1 additional round. During this round, you have advantage on all attack rolls and cannot be affected by conditions other than death. At the end of this round, if you have not been healed to above 0 hit points, you fall unconscious normally. The Survivor calls this the Last Round, and they have enough of them that they have started counting.
+Once per short rest, when you would be knocked unconscious (reduced to 0 hit points), you can continue fighting at 1 hit point for 1 additional round. During this round, you gain +3 to Attack cards and cannot be affected by conditions other than death. At the end of this round, if you have not been healed to above 0 hit points, you fall unconscious normally. The Survivor calls this the Last Round, and they have enough of them that they have started counting.
 
 **Level 14: Unkillable**
 Once per long rest, when you would die (three failed death saves, massive damage, etc.), you do not. You stabilize at 1 hit point and immediately gain Malfunction Charges equal to your Constitution modifier. Your enhancements are in critical failure state from whatever killed you (would have killed you) — they may look catastrophic. You continue. You have always continued.

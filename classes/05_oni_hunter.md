@@ -513,32 +513,32 @@ Among the common people, Oni Hunters occupy the space of necessary horror. In th
 ## Subclasses
 
 **Level 1: Hunter's Mark**
-You have developed the ability to read the specific resonance signatures that distinguish Shell-states, Resonance-Broken individuals, and Iron Afterlife entities from normal enhanced beings. As a bonus action, you can mark one creature you can see within 60 feet. While marked:
-- You deal an additional 1d6 damage to the marked creature with weapon attacks. This increases to 2d6 at level 6, 3d6 at level 13, 4d6 at level 17.
+You have developed the ability to read the specific resonance signatures that distinguish Shell-states, Resonance-Broken individuals, and Iron Afterlife entities from normal enhanced beings. As a free action, you can mark one creature you can see within 60 feet. While marked:
+- You deal an additional 4 damage (fixed) to the marked creature with weapon attacks. This increases to 8 at level 6, 12 at level 13, 16 at level 17.
 - You always know the marked creature's location within 90 feet, even if they are hidden or invisible.
-- You have advantage on Wisdom (Perception) checks related to the marked creature.
-- If the marked creature is killed before you switch marks, you can use a bonus action to transfer the mark to a new creature.
+- You gain +3 to RESONANCE (Perception) checks related to the marked creature.
+- If the marked creature is killed before you switch marks, you can use a free action to transfer the mark to a new creature.
 
 You can have one mark active at a time.
 
 **Level 1: Dissolution Reading**
-Your training has given you the ability to read the state of an individual's Echomind-enhancement alignment. When you spend 1 minute observing a creature, or as a bonus action if you have touched them, you can determine:
+Your training has given you the ability to read the state of an individual's Echomind-enhancement alignment. When you spend 1 minute observing a creature, or as a free action if you have touched them, you can determine:
 - Whether they are experiencing Echomind dissolution (and at what stage)
 - Whether they have any Iron Afterlife resonance in their Echomind
 - Whether they are a Shell-state
 - The approximate cause of any dissolution you detect
 
-This reading requires no check for obvious cases. Subtle early-stage dissolution requires a DC 12 Wisdom check.
+This reading requires no check for obvious cases. Subtle early-stage dissolution requires a RESONANCE check, difficulty 2.
 
 **Level 2: Quarry's Weakness**
 You have studied the mechanical and spiritual failure points of your common targets. Choose two Quarry Knowledges at level 2. You gain an additional choice at level 5, level 9, and level 13.
 
 - **Shell-State Disruption:** When you hit a Shell-state or Resonance-Broken creature, they cannot make opportunity attacks until the start of your next turn.
-- **Afterlife Anchor:** Your spiritual anchor can be thrown at an Iron Afterlife entity within 30 feet (ranged attack, +proficiency + Wisdom to hit). On a hit, the entity has disadvantage on all attack rolls and ability checks until the anchor is retrieved.
-- **Enhancement Interrupt:** Once per turn, when you hit a heavily-enhanced creature with a weapon attack, you can attempt to disrupt a specific enhancement system (DM determines which is available). The target makes a Constitution save (DC = 8 + proficiency + Wisdom modifier) or the disrupted system goes offline until the end of their next turn.
+- **Afterlife Anchor:** Your spiritual anchor can be thrown at an Iron Afterlife entity within 30 feet (ranged attack, RESONANCE to hit). On a hit, the entity loses damage riders on all attack rolls and checks until the anchor is retrieved.
+- **Enhancement Interrupt:** Once per turn, when you hit a heavily-enhanced creature with a weapon attack, you can attempt to disrupt a specific enhancement system (GM determines which is available). The target makes a FRAME resistance check, difficulty 3, or the disrupted system goes offline until the end of their next turn.
 - **Resonance Trace:** After combat with a creature that escaped, you can spend 10 minutes reading the resonance traces left by their passage. This gives you their direction of travel and approximate speed for the next 24 hours.
-- **Void-Edge Attunement:** Your weapon attacks against creatures connected to the Iron Afterlife (including Shell-states with degraded Echomind signatures) deal an additional 1d8 radiant-adjacent resonant damage.
-- **Clinical Distance:** You have advantage on saving throws against fear effects caused by creatures with corrupted or absent Echominds.
+- **Void-Edge Attunement:** Your weapon attacks against creatures connected to the Iron Afterlife (including Shell-states with degraded Echomind signatures) deal an additional 5 radiant-adjacent resonant damage (fixed).
+- **Clinical Distance:** You gain +3 to resistance checks against fear effects caused by creatures with corrupted or absent Echominds.
 
 **Level 2: Fieldwork**
 Your work requires extended periods of solo operation in hostile environments. You gain:
@@ -549,16 +549,16 @@ Your work requires extended periods of solo operation in hostile environments. Y
 **Level 3: Hunter's Path**
 You choose your Hunter's Path subclass. See Subclasses below.
 
-**Level 4: Ability Score Improvement**
-Increase one ability score by 2, or two ability scores by 1 each.
+**Level 4: Stat Improvement**
+Increase one stat by 2, or two stats by 1 each.
 
 **Level 5: Extra Attack**
 You can attack twice, instead of once, whenever you take the Attack action on your turn.
 
 **Level 5: Adaptive Hunting**
-Your Hunter's Mark has evolved. As a bonus action, you can switch your active mark to any creature you can see within 60 feet. Additionally:
-- When a marked creature ends its turn within 5 feet of you, you can make one attack against them as a reaction.
-- Hunter's Mark damage increases to 2d6.
+Your Hunter's Mark has evolved. As a free action, you can switch your active mark to any creature you can see within 60 feet. Additionally:
+- When a marked creature ends its turn within 5 feet of you, you can make one attack against them as a Reaction.
+- Hunter's Mark damage increases to 8 (fixed).
 
 **Level 6: Hunter's Path Feature**
 Your subclass grants an additional feature at this level.
@@ -566,54 +566,54 @@ Your subclass grants an additional feature at this level.
 **Level 7: Dissolution Immunity**
 Your prolonged exposure to Echomind dissolution states has built a specific resistance. You are immune to effects that would cause your Echomind to degrade, fray, or separate from your enhancements. Additionally, you are immune to the Frightened condition when facing Shell-states or Iron Afterlife entities specifically.
 
-**Level 8: Ability Score Improvement**
+**Level 8: Stat Improvement**
 As level 4.
 
 **Level 8: Relentless Hunter**
 Your marked quarry cannot escape through ordinary means. You gain:
 - Your movement speed increases by 10 feet.
-- When your marked target uses a movement ability (Dash, teleportation, ability-based movement), you can use your reaction to move up to your speed toward them without provoking opportunity attacks.
+- When your marked target uses a movement ability (Dash, teleportation, ability-based movement), you can use your Reaction to move up to your speed toward them without provoking opportunity attacks.
 - Magical and technology-based means of obscuring location (invisibility, teleportation, cloaking) do not prevent your Hunter's Mark from tracking the target's location.
 
 **Level 9: Refined Assessment**
 Your Dissolution Reading has become precise enough to be diagnostically useful. You can now:
 - Read the dissolution stage of an individual instantly (no time or check requirement).
 - Read the specific nature of an Iron Afterlife entity and identify any physical object, energy type, or spiritual anchor that would be particularly effective against it.
-- Perform a field assessment during combat (bonus action) that grants you advantage on your next attack against the assessed target.
+- Perform a field assessment during combat (free action) that grants you +3 to your next attack against the assessed target.
 
 **Level 10: Hunter's Path Feature**
 Your subclass grants an additional feature at this level.
 
 **Level 11: Void-Edge Attunement**
-Your weapons have absorbed enough resonant disruption energy from your targets that they carry a permanent void-edge quality. Your weapon attacks deal an additional 1d10 damage against Shell-states, Resonance-Broken individuals, and Iron Afterlife entities. This damage cannot be reduced by any of these creatures' resistances or immunities.
+Your weapons have absorbed enough resonant disruption energy from your targets that they carry a permanent void-edge quality. Your weapon attacks deal an additional 6 damage (fixed) against Shell-states, Resonance-Broken individuals, and Iron Afterlife entities. This damage cannot be reduced by any of these creatures' resistances or immunities.
 
-**Level 12: Ability Score Improvement**
+**Level 12: Stat Improvement**
 As level 4.
 
 **Level 12: Between the Hunts**
 The work has marked you in ways that have become practical. You gain:
 - You can see into the Iron Afterlife's resonance layer, observing the echoes of recent deaths within 60 feet. These echoes show you where people died, how recently, and sometimes a fragment of what they last experienced.
-- You have advantage on Investigation checks in locations where Shell-states or Iron Afterlife entities have been recently active.
-- Once per long rest, you can commune with the dissolution residue of a recently-killed Shell-state (within 1 hour of death), learning one piece of information about what drove them to their dissolution state.
+- You gain +3 to Investigation checks in locations where Shell-states or Iron Afterlife entities have been recently active.
+- Once per day, you can commune with the dissolution residue of a recently-killed Shell-state (within 1 hour of death), learning one piece of information about what drove them to their dissolution state.
 
-**Level 13: Hunter's Mark** damage increases to 3d6.
+**Level 13: Hunter's Mark** damage increases to 12 (fixed).
 
 **Level 13: Quarry's End**
-When you deal damage to your marked target, you can use your bonus action to attempt a Quarry's End strike. The target makes a Constitution saving throw (DC = 8 + your proficiency bonus + your Wisdom modifier). On a failure, they suffer one of the following effects (your choice):
+When you deal damage to your marked target, you can use your free action to attempt a Quarry's End strike. The target makes a FRAME resistance check, difficulty 3. On a failure, they suffer one of the following effects (your choice):
 - **Grounded:** Their movement speed becomes 0 until the end of their next turn.
 - **Disrupted:** They cannot use class features or enhancement abilities until the end of their next turn.
-- **Exposed:** All attack rolls against them have advantage until the end of your next turn.
+- **Exposed:** All attack rolls against them gain +3 until the end of your next turn.
 
 **Level 14: Hunter's Path Feature**
 Your subclass grants an additional feature at this level.
 
 **Level 15: Perfect Hunt**
 You have internalized the full discipline of the hunt. You gain:
-- Your attack rolls against your marked target cannot be made at disadvantage by any means.
-- When you or a creature within 30 feet drops to 0 hit points, you can immediately use your reaction to mark a new target.
+- Your attack rolls against your marked target never lose damage riders by any means.
+- When you or a creature within 30 feet drops to 0 HP, you can immediately use your Reaction to mark a new target.
 - You can have two targets marked simultaneously.
 
-**Level 16: Ability Score Improvement**
+**Level 16: Stat Improvement**
 As level 4.
 
 **Level 16: Dissolution Resistance**
@@ -622,12 +622,12 @@ Your long work with dissolution energy has made you specifically resilient. You 
 - Resistance to psychic damage.
 - Any effect that would alter, corrupt, or read your Echomind automatically fails unless you permit it.
 
-**Level 17: Hunter's Mark** damage increases to 4d6.
+**Level 17: Hunter's Mark** damage increases to 16 (fixed).
 
 **Level 18: Hunter's Path Feature**
 Your subclass grants an additional feature at this level.
 
-**Level 19: Ability Score Improvement**
+**Level 19: Stat Improvement**
 As level 4.
 
 **Level 20: The Final Mark**
@@ -635,9 +635,9 @@ At the highest level of the Oni Hunter's practice is this: you have become, in s
 
 Mechanically:
 - You can mark any number of targets simultaneously, with no upper limit.
-- Your Hunter's Mark damage becomes 5d6 and now affects any creature (not just dissolution or afterlife targets), representing your assessment of every living being as a potential quarry.
-- Once per long rest, you can declare a Final Mark. The marked creature cannot die by any means other than yours for 24 hours — they stabilize at 1 hit point from any other source of harm until you kill them, or until the 24 hours expire. This effect extends across any distance on the same plane.
-- When you die, you choose whether your Echomind enters the Iron Afterlife normally or persists in the resonant edge — the space between the living world and the Iron Afterlife — as a Hunter without a body. The DM determines what this means for continued play.
+- Your Hunter's Mark damage becomes 20 (fixed) and now affects any creature (not just dissolution or afterlife targets), representing your assessment of every living being as a potential quarry.
+- Once per day, you can declare a Final Mark. The marked creature cannot die by any means other than yours for 24 hours — they stabilize at 1 HP from any other source of harm until you kill them, or until the 24 hours expire. This effect extends across any distance on the same plane.
+- When you die, you choose whether your Echomind enters the Iron Afterlife normally or persists in the resonant edge — the space between the living world and the Iron Afterlife — as a Hunter without a body. The GM determines what this means for continued play.
 
 ---
 
@@ -654,20 +654,20 @@ Your perception extends into the resonant layer of the Iron Afterlife. You gain:
 - Iron Afterlife entities can see you clearly, and they identify you as a Hunter. Some will avoid you. Some will approach you.
 
 **Level 6: Anchor Protocol**
-Your spiritual anchors have been enhanced and multiplied. You can deploy up to 3 anchors simultaneously, and they create a network effect when within 30 feet of each other: any Iron Afterlife entity within the anchor network has disadvantage on all rolls and cannot use teleportation, phasing, or plane-shift effects.
+Your spiritual anchors have been enhanced and multiplied. You can deploy up to 3 anchors simultaneously, and they create a network effect when within 30 feet of each other: any Iron Afterlife entity within the anchor network loses damage riders on all rolls and cannot use teleportation, phasing, or plane-shift effects.
 
 Additionally, you can perform a Ritual of Return — a 10-minute ceremony that peacefully dissolves a non-hostile Iron Afterlife entity, allowing their Echomind to fully pass on. This is the preferred option for entities that are haunting rather than malicious.
 
 **Level 10: Iron Tongue**
-You can speak directly with Iron Afterlife entities, including those that would normally be incomprehensible due to dissolution or age. This communication is two-way — they understand you and you understand them. More significantly: you can negotiate. Iron Afterlife entities have wants, often related to unfinished business or violations of the conditions they understood when they died. Resolving these conditions allows you to end a haunting without violence. This requires good roleplaying and DM cooperation — the entities' wants should be specific and meaningful.
+You can speak directly with Iron Afterlife entities, including those that would normally be incomprehensible due to dissolution or age. This communication is two-way — they understand you and you understand them. More significantly: you can negotiate. Iron Afterlife entities have wants, often related to unfinished business or violations of the conditions they understood when they died. Resolving these conditions allows you to end a haunting without violence. This requires good roleplaying and GM cooperation — the entities' wants should be specific and meaningful.
 
 **Level 14: Between Walker**
-You have walked the resonant edge so many times that you have learned its geography. Once per long rest, you can physically step into the Iron Afterlife's resonant border layer for up to 1 hour. While there:
+You have walked the resonant edge so many times that you have learned its geography. Once per day, you can physically step into the Iron Afterlife's resonant border layer for up to 1 hour. While there:
 - You are physically present in a shadow version of the real world.
 - You can interact with Iron Afterlife entities physically.
 - You can observe the real world but cannot be seen from it.
-- You return to the real world at any point (bonus action) or automatically when the hour ends.
-Risk: each time you use this feature, make a DC 12 Wisdom saving throw. On a failure, something in the Iron Afterlife notices you in a way that has consequences (DM determines). The DC increases by 1 for each time this feature has been used.
+- You return to the real world at any point (free action) or automatically when the hour ends.
+Risk: each time you use this feature, make a RESONANCE resistance check, difficulty 2. On a failure, something in the Iron Afterlife notices you in a way that has consequences (GM determines). The difficulty increases by 1 for each time this feature has been used.
 
 ---
 
@@ -679,24 +679,24 @@ Shell Breaker Oni Hunters specialize in the most technically demanding and emoti
 You have studied the enhancement networks of Shell-states in detail and can identify their structure on sight. When you encounter a Shell-state, you instantly know:
 - The former person's enhancement configuration and therefore their combat capabilities.
 - The Shell-state's current degradation level (which affects how much of its original capability remains).
-- One specific vulnerability in their enhancement network that you can exploit (DM provides one weakness that the Shell-state has; it might be a specific damage type, a specific point of disruption, or a behavioral trigger that creates an opening).
+- One specific vulnerability in their enhancement network that you can exploit (GM provides one weakness that the Shell-state has; it might be a specific damage type, a specific point of disruption, or a behavioral trigger that creates an opening).
 
 **Level 6: Disruption Strike**
 Your attacks carry specifically designed disruption protocols tuned for Shell-state enhancement networks. When you hit a Shell-state:
-- You can, as a free action after the hit, attempt to disable a specific system in their enhancement network (DM determines available systems). The Shell-state makes a Constitution save (DC = 8 + proficiency + Wisdom modifier) or that system goes offline permanently (for this encounter).
-- Shell-states do not regain hit points from any source while you have them marked.
+- You can, as a free action after the hit, attempt to disable a specific system in their enhancement network (GM determines available systems). The Shell-state makes a FRAME resistance check, difficulty 3, or that system goes offline permanently (for this encounter).
+- Shell-states do not regain HP from any source while you have them marked.
 
 **Level 10: Enhancement Override**
-You have developed a technique for reaching into a Shell-state's enhancement network and forcing a brief reboot. As an action, while adjacent to a Shell-state, you can attempt an Override: the Shell-state makes a Constitution saving throw (DC = 8 + proficiency + Wisdom modifier). On a failure:
-- The Shell-state is stunned for 1 minute (can repeat save at end of each turn).
-- More significantly: for 1 round of the stun, the Shell-state achieves a brief Echomind resurgence — a moment of self-awareness. They cannot act in this state, but they can hear, understand, and say a few words. The DM plays this moment. It may be devastating. It may be peaceful. It may be the most important moment in the hunting sequence. This is why Shell Breakers do the work differently from other hunters.
+You have developed a technique for reaching into a Shell-state's enhancement network and forcing a brief reboot. As an action, while adjacent to a Shell-state, you can attempt an Override: the Shell-state makes a FRAME resistance check, difficulty 3. On a failure:
+- The Shell-state is stunned for 1 minute (can repeat the check at the end of each turn).
+- More significantly: for 1 round of the stun, the Shell-state achieves a brief Echomind resurgence — a moment of self-awareness. They cannot act in this state, but they can hear, understand, and say a few words. The GM plays this moment. It may be devastating. It may be peaceful. It may be the most important moment in the hunting sequence. This is why Shell Breakers do the work differently from other hunters.
 
 **Level 14: Clean Dissolution**
 Your techniques for ending Shell-states have been refined to the point of something almost gentle, given what the work is. When you kill a Shell-state:
 - It dies without the violent final discharge that typically accompanies Shell-state death (no explosive enhancement failure, no final thrashing strike, no collateral).
 - The death is spiritually clean — the residual Echomind echoes dissolve properly into the Iron Afterlife rather than becoming a haunting presence.
 - You can, if you choose, perform a brief identification ritual (10 minutes) that recovers the Shell-state's personal history for notification of their family or community.
-Additionally, once per short rest, if your attack would reduce a non-Shell-state creature to 0 hit points, you can choose to reduce them to 1 hit point instead and restrain them (no saving throw — your precision is complete enough to make this non-optional).
+Additionally, once per combat, if your attack would reduce a non-Shell-state creature to 0 HP, you can choose to reduce them to 1 HP instead and restrain them (no resistance check — your precision is complete enough to make this non-optional).
 
 ---
 
@@ -706,28 +706,28 @@ Some Oni Hunters walk the edge between hunter and quarry so long that the edge b
 
 **Level 3: Absorbed Resonance**
 You carry dissolution resonance in your enhancements — fragments of the entities and Shell-states you have hunted, partially integrated into your system. You gain:
-- Advantage on all attack rolls against Shell-states and Iron Afterlife entities.
+- +3 to all attack rolls against Shell-states and Iron Afterlife entities.
 - Resistance to necrotic and psychic damage.
 - Your attacks count as resonant and void-edge for the purpose of overcoming resistance.
-- Warning: once per long rest, the DM may have the absorbed resonance create a brief behavioral disruption — an urge, a flash of the hunted creature's perspective, a moment of someone else's want pressing through your own.
+- Warning: once per day, the GM may have the absorbed resonance create a brief behavioral disruption — an urge, a flash of the hunted creature's perspective, a moment of someone else's want pressing through your own.
 
 **Level 6: Shell Sight**
-You can see the world as Shell-states see it — stripped of social signal, reduced to movement pattern and threat calculation. For 1 minute (bonus action to activate):
+You can see the world as Shell-states see it — stripped of social signal, reduced to movement pattern and threat calculation. For 1 minute (free action to activate):
 - You see the movement patterns of all creatures within 60 feet, even through walls and obstacles.
-- You know the next action each creature intends to take (DM provides general intent, not specific mechanics).
-- You have advantage on all attack rolls.
-- While using Shell Sight, you must make a DC 13 Wisdom saving throw at the start of each of your turns. On a failure, you cannot take the Help action or any action that benefits allies (the Shell Sight strips social context).
+- You know the next action each creature intends to take (GM provides general intent, not specific mechanics).
+- You gain +3 to all attack rolls.
+- While using Shell Sight, you must make a RESONANCE resistance check, difficulty 3, at the start of each of your turns. On a failure, you cannot take the Help action or any action that benefits allies (the Shell Sight strips social context).
 
 **Level 10: Partial Integration**
 You have deliberately integrated a controlled amount of dissolution resonance into your enhancement network. This is dangerous, effective, and deeply unsettling to everyone who can read enhancement signatures. You gain:
-- You can briefly enter a Shell-state-adjacent combat mode (bonus action). For 1 minute, your attacks deal maximum damage and you cannot be frightened or charmed. You also cannot make tactical decisions more complex than "attack the nearest threat" — your judgment is offline. At the end of the minute, make a DC 15 Wisdom saving throw or gain one level of exhaustion and spend your next round disoriented.
-- You have advantage on Intimidation checks.
+- You can briefly enter a Shell-state-adjacent combat mode (free action). For 1 minute, your attacks deal maximum damage and you cannot be frightened or charmed. You also cannot make tactical decisions more complex than "attack the nearest threat" — your judgment is offline. At the end of the minute, make a RESONANCE resistance check, difficulty 4, or gain one level of exhaustion and spend your next round disoriented.
+- You gain +3 to Intimidation checks.
 - Sutensai assessors who read your enhancements will identify the dissolution integration immediately. This has social consequences.
 
 **Level 14: The Mirror Breaks**
 You have reached the edge and chosen not to cross it. This choice — made consciously, repeatedly, under pressure — has crystallized into something almost structural. You gain:
 - You are immune to Echomind dissolution. No force in Tesshari can push your Echomind out of alignment with your enhancements.
-- Once per long rest, when you enter Partial Integration mode, you can choose not to take the Wisdom saving throw penalty — you maintain your full judgment during the Shell-state-adjacent state.
+- Once per day, when you enter Partial Integration mode, you can choose not to make the RESONANCE resistance check — you maintain your full judgment during the Shell-state-adjacent state.
 - When you kill a Shell-state or Iron Afterlife entity, you can choose to not absorb their resonance (previous versions of this path absorbed automatically; you now have control).
 - You can choose to share a fragment of your absorbed resonance with a willing creature, granting them resistance to necrotic damage for 24 hours. The fragment comes from you — it reduces your resonance absorption and creates a 24-hour window where your Dark Mirror abilities function at half effectiveness.
 

@@ -106,3 +106,56 @@ Kars, the Eastern Lanes security operative, has found Sev's location and Harren 
 
 **3. Finishing the Picture (Payoff/Collaboration)**
 Players return from the Pale Reach with a communication sample from the official administrative network. Sev runs the analysis. The check succeeds. The source architecture matches. In one long evening at Sev's rebuilt workspace — new location, same filing chaos — they lay out the complete picture for the first time. The Hollow Author's network, the puppet placements, the Wire Market's compromised position, the communication infrastructure the Author has been building for decades. At the end of it, Sev says: "So. What do we do with this?" It is the first time in eight years they have said 'we.'
+
+---
+
+## COMBAT STATS
+
+> *These stats represent The Signal in direct confrontation. Most encounters with them will not reach this point — and they know it. The stat block exists for when diplomacy, manipulation, and leverage have all failed.*
+
+**Tier:** Standard
+**Role:** skirmisher
+**HP:** 42 (FRAME 3 × 8 + 6 Technical tier base — Sev is fast and evasive but not built to take hits)
+**AP Max:** 2
+**Hand Size:** 6
+**Initiative:** 7
+
+| IRON | EDGE | FRAME | SIGNAL | RESONANCE | VEIL |
+|---|---|---|---|---|---|
+| 2 | 7 | 3 | 9 | 3 | 3 |
+
+### Basic Attack — Wire-Knife
+*0 AP | Attack | Once per turn*
+**Effect:** Sev pulls resonant wire from their threading and extends it into a cutting edge. Precision/Melee, 1 target. Damage: 6 + EDGE (13 total). The target's enhancement architecture is disrupted until end of their next turn — they lose the benefit of one enhancement of Sev's choice. Sev knew exactly where the threading ran.
+
+### Deep Trace
+*Tier 1 (1 AP) | Control*
+**Effect:** Sev interfaces with any active Wireweave node within the scene — a wall socket, a weapon's signal emitter, anyone's enhancement broadcasting hardware. They trace and intercept one piece of information the enemy did not want traced. That enemy is Marked and Exposed 2 as Sev announces what they found. The announcement is not gloating. It is evidence.
+**Keywords:** Mark, Expose 2
+
+### Signal Mask
+*Tier 1 (1 AP) | Utility*
+**Effect:** Sev alters the resonance signatures of up to 3 allies. For the remainder of combat, those allies appear, to Signal and Resonance sensing, to be different entities — different Caste designations, different threat profiles. Enemies targeting those allies for the first time this round must pass a SIGNAL check (difficulty 4) or their first attack misses due to targeting lock failure.
+
+### Harren Dossier Protocol
+*Tier 2 (2 AP) | Control | 1/Combat*
+**Effect:** Sev deploys eight years of intelligence work on whoever is fighting them. This works best against enemies with a documented presence in the Wireweave — guild members, official agents, anyone using enhancement-integrated communication. 1 such target is Staggered and Silenced for 2 rounds as Sev broadcasts their real identity, real allegiances, and one specific secret to every active Wireweave node in range. This is not a threat. It is publication.
+**Keywords:** Stagger, Silence
+
+### Emergency Relocate
+*Tier 2 (2 AP) | Mobility | 1/Combat*
+**Effect:** Sev executes their prepared exit. They move up to full speed to a destination they pre-designated when they entered the space (they always pre-designate this). They gain Veil status for 1 round. The dossier copies move with them. This is not running away. The work continues.
+**Keywords:** Veil
+
+### Reaction: Pattern Recognized
+*Reaction | Triggered by: an enemy using a card or attack Sev has already seen this combat*
+**Effect:** Sev has the sequence. Reduce incoming damage by SIGNAL (9) as they were already not where the attack was going. Sev may immediately use their Basic Attack as a free action against the attacker.
+
+---
+
+### Combat Behavior
+Sev moves constantly and never holds position. They use Deep Trace to establish information advantage on the most dangerous enemy, Signal Mask to protect allies, and Emergency Relocate the moment the dossier is at risk. They use Harren Dossier Protocol against agents of the Eastern Lanes or Hollow Author network. They do not want a fair fight. They want the work to survive.
+
+### "I Would Prefer Not To"
+If the person attacking them has information Sev doesn't have about the Harren network, they will stop and ask for it. Not politely — efficiently. The information matters more than the fight.
+
