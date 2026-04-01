@@ -1,0 +1,19 @@
+﻿id	title	category	description
+arc_race_forged_base	Race: The Forged (Base)	race	Applies baseline species metadata and core Forged trait package.
+arc_race_forged_heritage_ironhold	Forged Heritage: Ironhold	race_variant	Con and Str profile with Ironhold flavor package.
+arc_race_forged_heritage_wire_market	Forged Heritage: Wire Market	race_variant	Int and Dex profile with Wire Market flavor package.
+arc_race_forged_heritage_ashlands	Forged Heritage: Ashlands	race_variant	Con Dex Wis profile with Ashlands flavor package.
+arc_race_forged_heritage_unaligned	Forged Heritage: Unaligned	race_variant	Plus one to any two different ability scores.
+arc_class_ironclad_base	Class: Ironclad Samurai (Base)	class	Applies class progression core and level-gated feature unlocks.
+arc_class_ironclad_path_iron_lord	Vein Path: Oath of the Iron Lord	subclass	Ward-protection and fealty-centered subclass package.
+arc_class_ironclad_path_sutensai_blade	Vein Path: Oath of the Sutensai Blade	subclass	Theology-enforcer package with rite and consecration mechanics.
+arc_class_ironclad_path_undying_debt	Vein Path: Oath of the Undying Debt	subclass	Vengeance-memory subclass with target-marked escalation.
+arc_class_ironclad_path_flesh_temple	Vein Path: Oath of the Flesh Temple	subclass	Combat-as-worship subclass with form-based toolkit.
+arc_monster_base_minion	Monster Base: Minion	monster_base	Low AP, simple card loop.
+arc_monster_base_standard	Monster Base: Standard	monster_base	Default AP and balanced card profile.
+arc_monster_base_elite	Monster Base: Elite	monster_base	Higher AP and expanded card set.
+arc_monster_base_boss	Monster Base: Boss	monster_base	Multi-card turns, phase scripting, encounter control hooks.
+arc_monster_role_skirmisher	Monster Role: Skirmisher	monster_role	Mobility and pressure-focused card choices.
+arc_monster_role_brute	Monster Role: Brute	monster_role	Damage-forward card choices.
+arc_monster_role_controller	Monster Role: Controller	monster_role	Control and debuff-heavy card choices.
+arc_monster_role_support	Monster Role: Support	monster_role	Sustain and ally enablement card choices.

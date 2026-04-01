@@ -1,0 +1,16 @@
+﻿status_id	name	category	default_duration_turns	max_stacks	stack_rule	dispel_group	rules_text
+st_guard	Guard	defensive_buff	1	5	add	defensive_buffs	Reduce incoming damage by Guard Value, then decrement one stack at end of owner turn.
+st_fortify	Fortify	defensive_buff	2	3	refresh	defensive_buffs	Incoming control effects have reduced potency while active.
+st_expose	Expose	offensive_debuff	2	5	add	offensive_debuffs	Increase incoming damage by Exposed Value.
+st_stagger	Stagger	offensive_debuff	1	1	refresh	offensive_debuffs	Unit cannot play power cards this turn.
+st_bleed	Bleed	damage_over_time	2	5	add	offensive_debuffs	Take fixed damage at end of turn per stack.
+st_burn	Burn	damage_over_time	2	5	add	offensive_debuffs	Take fixed damage at end of turn; burns remove one Guard stack before damage.
+st_overheat	Overheat	resource_pressure	3	6	add	resource_pressure	At threshold, reduce AP max by 1 until stacks drop below threshold.
+st_mark	Mark	tactical_debuff	2	1	refresh	offensive_debuffs	Marked target receives bonus effects from mark-synergy cards.
+st_root	Root	mobility_lock	1	1	refresh	mobility_locks	Unit cannot reposition via mobility cards.
+st_silence	Silence	casting_lock	1	1	refresh	mobility_locks	Unit cannot play utility or control card categories.
+st_veil	Veil	defensive_buff	1	1	refresh	defensive_buffs	First incoming hostile card this turn loses bonus riders.
+st_taunt	Taunt	aggro_control	1	1	refresh	offensive_debuffs	Unit must target taunt source when possible.
+st_vulnerable	Vulnerable	offensive_debuff	1	3	add	offensive_debuffs	Increase final damage multiplier by fixed step per stack.
+st_regen	Regeneration	sustain_buff	2	3	add	defensive_buffs	Recover fixed HP at start of turn per stack.
+st_shielded	Shielded	defensive_buff	2	1	refresh	defensive_buffs	Gain shield temp pool that is consumed before HP.

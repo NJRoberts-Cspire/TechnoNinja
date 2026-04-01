@@ -1,0 +1,92 @@
+﻿id	title	category	ap_cost	play_limit_per_turn	is_card	is_basic_attack	ai_tag	description
+act_core_basic_attack_card	Basic Attack	combat_card	0	1	true	true		Free basic attack card. Can be played once per turn.
+act_core_end_turn	End Turn	combat_core	0	1	false	false		Ends active combatant turn and advances turn flow.
+act_forged_select_heritage	Select Forged Heritage	character_creation	0	1	false	false		Choose one heritage branch and apply linked profile and lore tag.
+act_forged_select_integrated_resistance	Select Integrated Resistance	character_creation	0	1	false	false		Choose bludgeoning, slashing, or piercing resistance source from chassis configuration.
+act_forged_select_aug_slot_1	Select Augmentation Slot 1	character_creation	0	1	false	false		Choose one augmentation at level 1.
+act_forged_select_aug_slot_2	Select Augmentation Slot 2	level_up	0	1	false	false		At level 5, choose a second augmentation from list.
+act_forged_replace_augmentation	Replace Augmentation	level_up	0	1	false	false		At level 10, replace one prior augmentation with another list option.
+act_forged_maintenance_check	Maintenance Check	rest	0	1	false	false		On long rest, verify maintenance tools or assistance; otherwise apply degradation effect.
+act_forged_resilience_trigger	Forged Resilience Trigger	reaction	0	1	false	false		When reduced to 0 HP but not killed outright, drop to 1 HP if not used this rest.
+card_forged_vox_mimic	Vox Mimic Voice	utility_card	1	1	true	false		Social utility card; perfectly mimic a voice heard for at least one minute.
+card_forged_neural_ready	Neural Accelerator Ready	combat_card	1	1	true	false		Card version of Neural Accelerator utility.
+act_ironclad_select_vein_oath	Select Vein Oath	character_creation	0	1	false	false		Choose core oath anchor.
+act_ironclad_apply_resonance_fracture	Apply Resonance Fracture	state_change	0	1	false	false		Apply disadvantage state until atonement and meditation are completed.
+act_ironclad_between_stance	Between Stance	combat_bonus_action	0	1	false	false		Attack action rider: avoid opportunity attacks and impose disadvantage on first attack against you.
+act_ironclad_iron_breath	Iron Breath	utility_bonus_action	0	1	false	false		Suppress enhancement signature for one minute; once per short rest.
+act_ironclad_resonant_strike	Resonant Strike	passive_combat	0	1	false	false		Once per turn, add Wisdom modifier to qualified melee hit damage.
+act_ironclad_stillness_kata	Stillness Kata	combat	0	1	false	false		If you do not move, gain attack advantage this turn.
+act_ironclad_burden_strike	Burden Strike	reaction	0	1	false	false		Impose disadvantage on attack against nearby ally.
+act_ironclad_iron_witness	Iron Witness	passive_combat	0	1	false	false		Gain temporary HP when nearby creature drops to 0 HP.
+act_ironclad_enhancement_integration	Enhancement Integration	passive	0	1	false	false		Integrated weapons count magical and detect enhancement tampering.
+act_ironclad_between_awareness	Between Awareness	passive	0	1	false	false		Cannot be surprised while conscious; advantage on initiative.
+act_ironclad_iron_endurance	Iron Endurance	passive_reaction	0	1	false	false		Choose physical resistance and once per long rest drop-to-1 effect.
+act_ironclad_code_sworn_precision	Code-Sworn Precision	passive	0	1	false	false		Once per turn, treat low attack roll as 10.
+act_ironclad_resonant_surge	Resonant Surge	combat_bonus_action	0	1	false	false		Power state with speed and damage bonuses.
+act_ironclad_steel_resolve	Steel Resolve	passive	0	1	false	false		Immune frightened; reroll vs charm or compulsion on failure.
+act_ironclad_perfect_kata	Perfect Kata	combat	0	1	false	false		High-impact burst attack sequence.
+act_ironclad_resonant_armor	Resonant Armor	passive_reaction	0	1	false	false		Unarmored AC formula and reaction damage reduction.
+act_ironclad_echomind_clarity	Echomind Clarity	passive	0	1	false	false		Advantage on Wisdom saves; immune to forced oath-breaking control.
+act_ironclad_between_mastery	Between Mastery	passive	0	1	false	false		Dodge as bonus action and surge upgrades.
+act_ironclad_blade_sworn	Blade-Sworn	passive_weapon	0	1	false	false		Weapon return, anti-disarm, incorporeal strike support.
+act_ironclad_seventh_vein	The Seventh Vein	capstone	0	1	false	false		Capstone package with surge and death-action effects.
+act_path_iron_lord_lords_resonance	Lord's Resonance	subclass_iron_lord	0	1	false	false		Social advantage and ward-linked bonus damage.
+act_path_iron_lord_iron_vanguard	Iron Vanguard	subclass_iron_lord	0	1	false	false		Reaction movement to interpose and become target instead of ward.
+act_path_iron_lord_code_of_house	Code of the House	subclass_iron_lord	0	1	false	false		Anti-retreat resistance and ward protection extension.
+act_path_iron_lord_unbroken_fealty	Unbroken Fealty	subclass_iron_lord	0	1	false	false		Transfer HP to ward when they drop to 0 HP.
+act_path_sutensai_sutras_edge	Sutra's Edge	subclass_sutensai_blade	0	1	false	false		Iron Rite and anti-reanimation effects.
+act_path_sutensai_theological_authority	Theological Authority	subclass_sutensai_blade	0	1	false	false		Religion expertise and once-per-long-rest pacification invocation.
+act_path_sutensai_between_consecration	Between Consecration	subclass_sutensai_blade	0	1	false	false		Consecrate area with anti-undead pressure and ally support.
+act_path_sutensai_final_sutra	The Final Sutra	subclass_sutensai_blade	0	1	false	false		Soul-bind finishing effect.
+act_path_debt_debts_memory	Debt's Memory	subclass_undying_debt	0	1	false	false		Mark debt targets and gain bonuses.
+act_path_debt_hollow_memory	Hollow Memory	subclass_undying_debt	0	1	false	false		Meditative memory-construction consultation.
+act_path_debt_unfinished_business	Unfinished Business	subclass_undying_debt	0	1	false	false		Temporary death-defiance state.
+act_path_debt_debt_becomes_blade	The Debt Becomes the Blade	subclass_undying_debt	0	1	false	false		High-damage debt finisher.
+act_path_flesh_temple_form	Temple Form	subclass_flesh_temple	0	1	false	false		Choose Water, Fire, or Iron form.
+act_path_flesh_spiritual_violence	Spiritual Violence	subclass_flesh_temple	0	1	false	false		Bonus damage and sustain on takedown.
+act_path_flesh_perfect_instrument	Perfect Instrument	subclass_flesh_temple	0	1	false	false		Max HP and save profile upgrades.
+act_path_flesh_temple_burns	The Temple Burns	subclass_flesh_temple	0	1	false	false		Overdrive state with backlash.
+card_ironclad_basic_attack	Basic Attack (Ironclad)	combat_card	0	1	true	true		Free attack card; once per turn.
+card_ironclad_between_stance	Between Stance	combat_card	1	1	true	false		Mobility-defense attack rider card.
+card_ironclad_iron_breath	Iron Breath	utility_card	1	1	true	false		Signature suppression card.
+card_ironclad_resonant_strike	Resonant Strike	combat_card	1	1	true	false		Damage boost card tied to Wisdom scaling.
+card_ironclad_stillness_kata	Stillness Kata	combat_card	1	1	true	false		If stationary this turn, gain offensive bonus.
+card_ironclad_burden_strike	Burden Strike	reaction_card	1	1	true	false		Ally-protection reaction card.
+card_ironclad_iron_witness	Iron Witness	combat_card	1	1	true	false		Gain temporary HP on nearby takedown trigger.
+card_ironclad_resonant_surge	Resonant Surge	combat_card	2	1	true	false		Temporary power state; AP spend and duration tracked by script.
+card_ironclad_perfect_kata	Perfect Kata	combat_card	3	1	true	false		High-impact burst card; once per long rest by additional tracker.
+card_ironclad_resonant_armor	Resonant Armor	defense_card	1	1	true	false		Damage reduction reaction with use tracker.
+card_ironclad_blade_sworn	Blade-Sworn	passive_card	0	1	true	false		Passive card marker for bonded weapon behavior.
+card_ironclad_seventh_vein	The Seventh Vein	passive_card	0	1	true	false		Capstone card package enabling final-action logic and surge scaling.
+card_iron_lord_lords_resonance	Lord's Resonance	subclass_card	1	1	true	false		Ward-linked offense card.
+card_iron_lord_iron_vanguard	Iron Vanguard	subclass_reaction_card	1	1	true	false		Interpose reaction card.
+card_iron_lord_unbroken_fealty	Unbroken Fealty	subclass_power_card	2	1	true	false		Emergency ward sustain card.
+card_sutensai_sutras_edge	Sutra's Edge	subclass_card	1	1	true	false		Rite anti-reanimation strike card.
+card_sutensai_between_consecration	Between Consecration	subclass_power_card	2	1	true	false		Area consecration card.
+card_sutensai_final_sutra	The Final Sutra	subclass_power_card	3	1	true	false		Soul-bind finishing card.
+card_debt_debts_memory	Debt's Memory	subclass_card	1	1	true	false		Mark target and apply debt bonuses.
+card_debt_unfinished_business	Unfinished Business	subclass_power_card	2	1	true	false		Death-defiance card state.
+card_debt_becomes_blade	The Debt Becomes the Blade	subclass_power_card	3	1	true	false		High-damage debt finisher card.
+card_flesh_temple_form	Temple Form	subclass_card	1	1	true	false		Form selection or switch card.
+card_flesh_spiritual_violence	Spiritual Violence	subclass_card	1	1	true	false		Damage plus sustain card.
+card_flesh_temple_burns	The Temple Burns	subclass_power_card	3	1	true	false		Overdrive card with backlash resolution.
+card_monster_basic_attack	Monster Basic Attack	combat_card	0	1	true	true	attack	Free baseline attack card, once per turn.
+card_monster_guarded_step	Guarded Step	defense_card	1	1	true	false	mobility	Reposition while applying a brief defensive state.
+card_monster_pressure_strike	Pressure Strike	combat_card	1	1	true	false	attack	Standard AP attack card for damage cycling.
+card_monster_crushing_blow	Crushing Blow	power_card	2	1	true	false	finisher	High-damage card, usually for low-health targets.
+card_monster_suppressive_howl	Suppressive Howl	control_card	2	1	true	false	control	Applies debuff control state.
+card_monster_harden_plating	Harden Plating	defense_card	1	1	true	false	defense	Gain temporary mitigation for incoming damage.
+card_monster_recover_cycle	Recover Cycle	sustain_card	1	1	true	false	sustain	Recover limited HP or cleanse one minor status.
+card_monster_reactive_counter	Reactive Counter	reaction_card	1	1	true	false	reaction	Triggered response card for anti-focus behavior.
+card_monster_end_turn	End Turn	combat_core	0	1	false	false	system	Explicit monster turn end action for script flow.
+card_boss_phase_shift	Phase Shift	boss_card	2	1	true	false	control	Transition behavior state between boss phases.
+card_boss_field_pressure	Field Pressure	boss_card	2	1	true	false	control	Battlefield-wide pressure effect.
+card_boss_execution_window	Execution Window	boss_finisher_card	3	1	true	false	finisher	Heavy strike card used under threshold conditions.
+card_boss_reinforcement_call	Reinforcement Call	boss_summon_card	2	1	true	false	support	Summon allied units based on encounter script.
+card_status_guard_protocol	Guard Protocol	defense_card	1	1	true	false		Apply Guard to self or ally.
+card_status_expose_weakpoint	Expose Weakpoint	control_card	1	1	true	false		Apply Expose to enemy target.
+card_status_stagger_strike	Stagger Strike	combat_card	1	1	true	false		Deal fixed damage and apply Stagger.
+card_status_cleanse_cycle	Cleanse Cycle	utility_card	1	1	true	false		Remove one debuff from ally target.
+card_status_heat_purge	Heat Purge	utility_card	1	1	true	false		Remove Overheat stacks from self.
+card_status_mark_target	Mark Target	control_card	1	1	true	false		Apply Mark to enemy target.
+card_status_overclock_drive	Overclock Drive	power_card	2	1	true	false		Empower next card this turn and add Overheat stacks.

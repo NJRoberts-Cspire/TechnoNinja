@@ -1,0 +1,18 @@
+﻿id	title	columns	rows
+chart_card_action_schema	Card Action Schema	field,description	card_id,title,ap_cost,play_limit_per_turn,is_basic_attack,resolution_type
+chart_resolution_types	Resolution Types	key,description	attack,defense,utility,status,mobility
+chart_turn_sequence	Turn Sequence	step,script_hook	start_turn,play_card,end_turn
+chart_forged_heritage_options	Forged Heritage Options	key,name,asi_bonus,notes	ironhold,wire_market,ashlands,unaligned
+chart_forged_augmentation_options	Forged Augmentation Options	key,name,effect_summary,requires_level	reinforced_limb,optical_suite,vox_modulator,subdermal_plating,neural_accelerator,intake_filter,hydraulic_frame
+chart_maintenance_states	Maintenance States	key,label,mechanical_effect	serviced,degraded
+chart_ironclad_level_progression	Ironclad Level Progression	level,feature_ids,notes	1-20
+chart_ironclad_vein_oaths	Vein Oaths	key,name,fracture_violation_example	loyalty,restraint,sacrifice,clarity
+chart_ironclad_vein_path_options	Vein Path Options	key,name,theme	oath_iron_lord,oath_sutensai_blade,oath_undying_debt,oath_flesh_temple
+chart_ironclad_starting_gear	Ironclad Starting Gear	item_id,quantity,notes	resonant_blade,armor_choice,voidsteel_tanto,oath_mark,maintenance_kit,trade_metal
+chart_monster_ap_by_tier	Monster AP by Tier	tier,ap_max_default	minion=1,standard=2,elite=3,boss=4
+chart_monster_role_card_weights	Monster Role Card Weights	role,attack_weight,defense_weight,control_weight,sustain_weight	skirmisher,brute,controller,support,boss
+chart_monster_turn_priority	Monster Turn Priority	priority,condition,card_type	finish_kill,escape_pressure,apply_control,damage_cycle,setup
+chart_monster_card_tags	Monster Card Tags	tag,description	attack,defense,control,mobility,sustain,finisher,reaction
+chart_status_catalog	Status Catalog	status_id,name,type,default_duration,max_stacks,stack_rule,summary	guard,fortify,expose,stagger,bleed,burn,overheat,mark,root,silence,veil,taunt,vulnerable,regen,shielded
+chart_status_timing	Status Timing Rules	timing_key,description	on_apply,on_turn_start,on_turn_end,on_hit,on_damaged,on_card_play,on_expire
+chart_status_dispel_groups	Status Dispel Groups	group_id,members	defensive_buffs,offensive_debuffs,mobility_locks,resource_pressure

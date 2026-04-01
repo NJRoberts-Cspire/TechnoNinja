@@ -1,0 +1,21 @@
+keyword_id	keyword	rules_text
+kw_guard	Guard X	Gain X Guard Value or X Guard stacks depending on card template.
+kw_fortify	Fortify	Apply Fortify status.
+kw_expose	Expose X	Apply X Expose value or stacks to target.
+kw_stagger	Stagger	Apply Stagger and lock power cards for one turn.
+kw_bleed	Bleed X	Apply X Bleed stacks.
+kw_burn	Burn X	Apply X Burn stacks.
+kw_overheat	Overheat X	Add X Overheat stacks.
+kw_mark	Mark	Apply Mark to target.
+kw_root	Root	Apply Root for one turn.
+kw_silence	Silence	Apply Silence for one turn.
+kw_veil	Veil	Apply Veil for one turn.
+kw_taunt	Taunt	Apply Taunt to target.
+kw_vulnerable	Vulnerable X	Apply X Vulnerable stacks.
+kw_regen	Regen X	Apply X Regeneration stacks.
+kw_shield	Shield X	Gain X temporary shield pool.
+kw_pierce	Pierce X	Ignore X Guard or Shield when dealing damage.
+kw_cleanse	Cleanse	Remove one removable debuff from target.
+kw_dispel	Dispel	Remove one removable buff from target.
+kw_echo	Echo	Repeat a card's base effect once without additional riders.
+kw_overclock	Overclock	Increase card effect this turn, then apply Overheat.

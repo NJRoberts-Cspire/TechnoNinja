@@ -1,0 +1,8 @@
+﻿id	title	category	source_file	description
+doc_race_forged_overview	The Forged - Overview	character_options	races/01_the_forged.md	Lore-forward race reference text for players.
+doc_race_forged_roleplay	The Forged - Roleplaying Notes	character_options	races/01_the_forged.md	Guidance on identity, upgrades, and social positioning.
+doc_race_forged_war_context	The Forged - Ascension War Context	reference	races/01_the_forged.md	Faction pressure and campaign integration notes.
+doc_class_ironclad_overview	Ironclad Samurai - Overview	character_options	classes/01_ironclad_samurai.md	Core lore and class fantasy.
+doc_class_ironclad_world_context	Ironclad Samurai - In the World	character_options	classes/01_ironclad_samurai.md	Social and institutional role in Tesshari.
+doc_class_ironclad_roleplay	Ironclad Samurai - Roleplaying	character_options	classes/01_ironclad_samurai.md	Obligation and code-driven roleplay guidance.
+doc_class_ironclad_war_context	Ironclad Samurai - Ascension War Context	reference	classes/01_ironclad_samurai.md	Claimant alignment pressures and campaign stakes.

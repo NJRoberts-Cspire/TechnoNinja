@@ -1,0 +1,56 @@
+﻿id	title	type	default	category	description
+attr_ap_max	AP Max	number	3	combat_core	Maximum AP refreshed at start of turn.
+attr_ap_current	AP Current	number	3	combat_core	Spendable AP during active turn.
+attr_turn_number	Turn Number	number	0	combat_core	Global or encounter turn counter.
+attr_active_turn	Active Turn	boolean	false	combat_core	True while this unit is the active combatant.
+attr_basic_attack_used_this_turn	Basic Attack Used This Turn	boolean	false	combat_core	Enforces one free basic attack per turn.
+attr_cards_played_this_turn	Cards Played This Turn	string		combat_core	Serialized list of card action IDs played this turn.
+attr_card_play_locked	Card Play Locked	boolean	false	combat_core	Prevents play when outside valid turn state.
+attr_species	Species	string	Forged	identity	Character species label.
+attr_heritage	Forged Heritage	list	Unaligned	identity	Heritage branch: Ironhold, Wire Market, Ashlands, Unaligned.
+attr_integrated_resistance	Integrated Resistance	list	bludgeoning	defense	Damage resistance selected at character creation.
+attr_forged_aug_1	Augmentation Slot 1	list	reinforced_limb	augmentation	Primary augmentation selected at level 1.
+attr_forged_aug_2	Augmentation Slot 2	list	none	augmentation	Secondary augmentation selected at level 5.
+attr_maintenance_state	Maintenance State	list	serviced	system	Tracks maintenance dependency: serviced or degraded.
+attr_chassis_intact	Chassis Intact	boolean	true	system	Enables Forged Resilience death-save bonus logic.
+attr_forged_resilience_used	Forged Resilience Used	boolean	false	combat	Once-per-long-rest tracker.
+attr_carry_capacity_mult	Carry Capacity Multiplier	number	1	derived	Set to 2 when Hydraulic Frame is active.
+attr_unarmed_damage_die	Unarmed Damage Die	string	1d4	combat	Raised to 1d6 when Reinforced Limb is active.
+attr_darkvision_range	Darkvision Range	number	0	senses	60 or 90 extension when Optical Suite is active.
+attr_natural_ac_base	Natural AC Base	number	0	defense	Set to 13 when Subdermal Plating is active.
+attr_ready_bonus_uses	Ready Bonus Uses	number	0	combat	Set to 1 per short rest when Neural Accelerator is active.
+attr_poison_save_adv	Poison Save Advantage	boolean	false	defense	Enabled by Intake Filter.
+attr_poison_resistance	Poison Resistance	boolean	false	defense	Enabled by Intake Filter.
+attr_chassis_memory_window_hours	Chassis Memory Window Hours	number	24	utility	Memory recall window from Chassis Memory.
+attr_class	Class	string	Ironclad Samurai	identity	Character class label.
+attr_vein_oath	Vein Oath	list	loyalty	class_core	Loyalty, Restraint, Sacrifice, or Clarity.
+attr_resonance_fracture	Resonance Fracture	boolean	false	class_core	Set true when character violates Vein Oath.
+attr_vein_discipline_lvl1	Vein Discipline L1	list	between_stance	class_core	Between Stance or Iron Breath.
+attr_vein_discipline_lvl2	Vein Discipline L2	list	stillness_kata	class_core	Stillness Kata, Burden Strike, or Iron Witness.
+attr_vein_path	Vein Path	list	oath_iron_lord	subclass	Selected subclass path.
+attr_resonant_surge_uses	Resonant Surge Uses	number	1	resource	Uses per short rest, 2 at level 20.
+attr_perfect_kata_used	Perfect Kata Used	boolean	false	resource	Once-per-long-rest tracker.
+attr_iron_endurance_used	Iron Endurance Used	boolean	false	resource	Once-per-long-rest tracker for drop-to-1 effect.
+attr_iron_endurance_resistance_type	Iron Endurance Resistance Type	list	slashing	defense	Slashing, piercing, or bludgeoning selection.
+attr_resonant_armor_reaction_uses	Resonant Armor Reaction Uses	number	0	resource	Equals proficiency bonus per long rest when unlocked.
+attr_surge_bonus_damage_dice	Surge Bonus Damage Dice	string	2d6	combat	3d6 at level 16 with Between Mastery.
+attr_blade_sworn_bound	Blade-Sworn Bound Weapon	boolean	false	capstone_track	Tracks permanent weapon bond at level 17.
+attr_seventh_vein_defined	Seventh Vein Defined	boolean	false	capstone_track	Tracks level 20 narrative definition completion.
+attr_monster_role	Monster Role	list	skirmisher	combat_ai	Archetypal role: skirmisher, brute, controller, support, boss.
+attr_monster_tier	Monster Tier	list	standard	combat_ai	minion, standard, elite, boss.
+attr_monster_ap_max	Monster AP Max	number	2	combat_core	AP refreshed at monster turn start.
+attr_monster_ap_current	Monster AP Current	number	2	combat_core	AP available for card play on current turn.
+attr_monster_basic_attack_used_this_turn	Monster Basic Attack Used This Turn	boolean	false	combat_core	Enforces one free basic attack card per monster turn.
+attr_monster_cards_played_this_turn	Monster Cards Played This Turn	string		combat_core	Serialized list of monster card IDs played this turn.
+attr_monster_threat_state	Threat State	list	neutral	combat_ai	neutral, pressured, advantaged, desperate.
+attr_monster_target_lock	Target Lock	string		combat_ai	Current preferred target identifier.
+attr_monster_reaction_card_used	Reaction Card Used	boolean	false	combat_core	Optional once-per-round reaction limiter.
+attr_status_list	Active Status List	string		status	Serialized list of active status IDs on this unit.
+attr_status_stacks_map	Status Stacks Map	string		status	Serialized key or value map of status stack counts.
+attr_status_duration_map	Status Duration Map	string		status	Serialized key or value map of remaining turn durations.
+attr_guard_value	Guard Value	number	0	status_derived	Flat damage prevention from Guard-family effects.
+attr_exposed_value	Exposed Value	number	0	status_derived	Flat damage amplification from Expose-family effects.
+attr_staggered	Staggered	boolean	false	status_derived	Restricts AP or card options while active.
+attr_overheat_stacks	Overheat Stacks	number	0	status_derived	Heat pressure tracker for machine-intensive actions.
+attr_marked_target	Marked Target	boolean	false	status_derived	Unit is marked for focused interactions.
+attr_shield_temp	Shield Temp HP	number	0	status_derived	Temporary shield pool from shield keywords.

@@ -1,0 +1,38 @@
+id	title	trigger	purpose
+scr_core_turn_start_refresh_ap	Turn Start AP Refresh	on_turn_start	Set ap_current equal to ap_max, clear per-turn card trackers, unlock card play.
+scr_core_validate_card_play	Validate Card Play	on_action_attempt	Block if not active turn, insufficient AP, or card already played this turn.
+scr_core_apply_card_cost	Apply Card Cost	on_action_resolve	Subtract AP cost from ap_current for played card.
+scr_core_mark_card_played	Mark Card Played	on_action_resolve	Append action ID to cards_played_this_turn and set basic attack flag when relevant.
+scr_core_end_turn	End Turn Handler	on_action_resolve:act_core_end_turn	Lock card play and pass initiative to next combatant.
+scr_forged_on_add_initialize	Forged On Add Initialize	on_archetype_add	Set species, initialize maintenance and chassis flags, prompt resistance and augmentation picks.
+scr_forged_on_level_5_unlock	Forged Level 5 Unlock	on_level_change	Unlock and prompt second augmentation selection.
+scr_forged_on_level_10_replace	Forged Level 10 Replace	on_level_change	Offer one-time augmentation replacement workflow.
+scr_forged_on_long_rest_maintenance	Forged Long Rest Maintenance	on_long_rest	Validate maintenance kit support and apply degradation effect if missing.
+scr_forged_on_zero_hp_resilience	Forged Resilience Handler	on_hp_change	Process drop-to-1 behavior and consume rest-limited usage flag.
+scr_forged_card_tag_init	Forged Card Tag Initialize	on_archetype_add	Apply race tags and effect modifiers used by card resolution scripts.
+scr_ironclad_on_add_initialize	Ironclad On Add Initialize	on_archetype_add	Set class label, initialize resource counters, and prompt Vein Oath discipline picks.
+scr_ironclad_on_level_unlocks	Ironclad Level Unlocks	on_level_change	Grant level-gated actions and update unlocked resources.
+scr_ironclad_resonance_fracture_state	Resonance Fracture State	on_tag_or_flag_change	Apply or remove disadvantage state based on oath-violation and atonement resolution.
+scr_ironclad_resonant_surge_scaling	Resonant Surge Scaling	on_level_change	Upgrade surge duration and damage at level 16 and uses at level 20.
+scr_ironclad_resource_reset_short_rest	Ironclad Short Rest Reset	on_short_rest	Reset short-rest resources.
+scr_ironclad_resource_reset_long_rest	Ironclad Long Rest Reset	on_long_rest	Reset long-rest resources.
+scr_ironclad_blade_sworn_bind	Blade-Sworn Bind Weapon	on_feature_unlock	Bind selected weapon and apply return, disarm, and incorporeal traits.
+scr_ironclad_final_action_on_death	Seventh Vein Final Action	on_death_pre_resolve	Permit one final action before death finalization when capstone is active.
+scr_ironclad_validate_card_once_per_turn	Ironclad Card Once per Turn Validator	on_action_attempt	Reject card play if card ID already exists in cards_played_this_turn.
+scr_ironclad_validate_ap_cost	Ironclad AP Cost Validator	on_action_attempt	Ensure ap_current is greater than or equal to ap_cost for non-free cards.
+scr_ironclad_mark_basic_attack_use	Ironclad Basic Attack Marker	on_action_resolve	Set basic_attack_used_this_turn true on basic attack card play.
+scr_monster_turn_start_refresh_ap	Monster Turn Start AP Refresh	on_turn_start	Set monster AP current to max and clear per-turn card trackers.
+scr_monster_validate_card_play	Monster Card Validator	on_action_attempt	Enforce active turn, AP availability, once-per-turn-per-card, and basic attack limit.
+scr_monster_apply_ap_cost	Monster AP Cost Apply	on_action_resolve	Subtract AP cost after successful monster card play.
+scr_monster_mark_card_played	Monster Card Played Log	on_action_resolve	Append card ID to monster cards played list and set basic attack usage when relevant.
+scr_monster_ai_choose_cards	Monster AI Card Choice	on_turn_start	Select card sequence based on role, threat state, and AP budget.
+scr_monster_ai_target_selection	Monster AI Target Selection	on_turn_start	Determine target lock using threat, position, and health heuristics.
+scr_monster_end_turn	Monster End Turn	on_action_resolve:card_monster_end_turn	Finalize turn and pass initiative.
+scr_monster_reaction_reset	Monster Reaction Reset	on_round_start	Reset monster reaction usage for new round.
+scr_status_apply	Status Apply Resolver	on_action_resolve	Add status, initialize duration and stacks, and handle refresh or add stack rule.
+scr_status_tick_start	Status Tick Start	on_turn_start	Process start-of-turn effects.
+scr_status_tick_end	Status Tick End	on_turn_end	Process end-of-turn effects and decrement durations.
+scr_status_expire_cleanup	Status Expire Cleanup	on_turn_end	Remove expired statuses and reset derived fields.
+scr_status_damage_pipeline	Status Damage Pipeline	on_damage_calculation	Apply Guard, Expose, Vulnerable, and Pierce interactions in deterministic order.
+scr_status_card_lock_checks	Status Card Lock Checks	on_action_attempt	Enforce Stagger, Silence, and Root restrictions against card categories and tags.
+scr_status_cleanse_dispel	Status Cleanse or Dispel	on_action_resolve	Remove eligible status by dispel group rules.

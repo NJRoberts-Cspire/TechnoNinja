@@ -1,0 +1,21 @@
+id	title	category	description	inventory_width	inventory_height
+item_basic_maintenance_kit	Basic Maintenance Tools	gear	Required for proper long-rest servicing of Forged chassis.	1	1
+item_forged_reinforced_limb	Reinforced Limb Module	augmentation	Grants stronger unarmed strikes and athletics leverage.	1	1
+item_forged_optical_suite	Optical Suite Module	augmentation	Grants darkvision and surprise protection behavior.	1	1
+item_forged_vox_modulator	Vox Modulator Module	augmentation	Grants precision vocal mimic capability.	1	1
+item_forged_subdermal_plating	Subdermal Plating Module	augmentation	Grants natural AC baseline while unarmored.	1	1
+item_forged_neural_accelerator	Neural Accelerator Module	augmentation	Grants bonus-action Ready capability cadence.	1	1
+item_forged_intake_filter	Intake Filter Module	augmentation	Grants poison and disease defense package.	1	1
+item_forged_hydraulic_frame	Hydraulic Frame Module	augmentation	Doubles carry capacity and improves grapple profile.	1	1
+item_resonant_blade	Resonant Blade	weapon	Primary class weapon long or short configuration.	2	1
+item_voidsteel_tanto	Voidsteel Tanto	weapon	Secondary blade.	1	1
+item_circuit_lance	Circuit Lance	weapon	Class-proficient polearm variant.	2	2
+item_iron_whip	Iron-Whip	weapon	Flexible resonant weapon option.	2	1
+item_force_mace	Force Mace	weapon	Class-proficient impact weapon.	1	2
+item_wire_mesh_armor	Wire-Mesh Armor	armor	Starter armor option.	2	2
+item_layered_plate_armor	Layered Plate Armor	armor	Heavy starter armor option.	2	3
+item_resonant_shield	Resonant Shield	armor	Class-proficient shield.	2	2
+item_oath_mark_lord_seal	Lord's Seal	symbol	Oath marker object for narrative and social checks.	1	1
+item_oath_mark_sutra_medallion	Sutra Medallion	symbol	Oath marker object for narrative and social checks.	1	1
+item_forge_maintenance_kit_basic	Forge Maintenance Kit Basic	gear	Required for resonance meditation and field upkeep.	1	1
+item_trade_metal_pouch_15	Trade-Metal Pouch 15	currency	Starting currency bundle equivalent.	1	1
