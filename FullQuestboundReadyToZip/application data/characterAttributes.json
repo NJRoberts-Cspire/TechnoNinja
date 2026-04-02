@@ -1,0 +1,4677 @@
+[
+  {
+    "id": "003878f2-e1bb-44ce-9f64-4bd61058d416",
+    "title": "Echomind Undivided",
+    "description": "Immunity to augmentation-targeting status effects such as Overheat and chassis Signal attacks.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.385Z",
+    "updatedAt": "2026-04-02T18:26:56.385Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_tethered_echomind_undivided",
+    "value": true
+  },
+  {
+    "id": "01500b46-42d5-46f0-b2ec-5e76e6572897",
+    "title": "Iron Herald HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 12.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 12,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.753Z",
+    "updatedAt": "2026-04-02T18:26:56.753Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_herald_hp_mod",
+    "value": 12
+  },
+  {
+    "id": "0168d9f6-f4b8-4f7e-8c71-928b5b6b595e",
+    "title": "Fracture Knight Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"the_claimed\"\",\"\"haunted_legion\"\",\"\"the_anchor\"\"]\""
+    ],
+    "defaultValue": "the_claimed",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.815Z",
+    "updatedAt": "2026-04-02T18:26:56.815Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_fracture_knight_path",
+    "value": "the_claimed"
+  },
+  {
+    "id": "01e3b9df-931d-4504-98da-2935e3bd0b99",
+    "title": "Card 12 Condition",
+    "description": "Player-defined unlock condition for Card 12.",
+    "category": "lore_state",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.865Z",
+    "updatedAt": "2026-04-02T18:26:56.865Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_unnamed_card_12_condition",
+    "value": ""
+  },
+  {
+    "id": "0264789a-aa67-42b9-b6c0-e02e090e2ddd",
+    "title": "Sutensai Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"inquisitor\"\",\"\"archive_master\"\",\"\"priors_voice\"\"]\""
+    ],
+    "defaultValue": "inquisitor",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.650Z",
+    "updatedAt": "2026-04-02T18:26:56.650Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_sutensai_path",
+    "value": "inquisitor"
+  },
+  {
+    "id": "02b5400e-fb35-4612-bb06-b1ffd0756aff",
+    "title": "Circuit Trace Pattern",
+    "description": "Subdermal circuit-trace visible at temples/wrists/forearms/sternum; glows during data processing.",
+    "category": "appearance",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "luminous_blue_amber",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.422Z",
+    "updatedAt": "2026-04-02T18:26:56.422Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_wireborn_circuit_trace",
+    "value": "luminous_blue_amber"
+  },
+  {
+    "id": "06167576-fc7f-4c18-83b8-20a76245b33d",
+    "title": "Ambient Wire Sense",
+    "description": "Always aware of active Wire Craft within 60 feet: presence, direction, and power level.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.417Z",
+    "updatedAt": "2026-04-02T18:26:56.417Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_wireborn_ambient_sense",
+    "value": true
+  },
+  {
+    "id": "075db369-7a29-4b43-9d9c-02e0304af5c4",
+    "title": "AP Max",
+    "description": "Maximum AP refreshed at start of turn.",
+    "category": "combat_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 3,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.279Z",
+    "updatedAt": "2026-04-02T18:26:56.279Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_ap_max",
+    "value": 3
+  },
+  {
+    "id": "08e0395a-bb98-4766-969a-c220c6b5eae1",
+    "title": "Unnamed Path",
+    "description": "Selected subclass path: Convergent (stable/deepening) or Divergent (shifting/expanding).",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"convergent\"\",\"\"divergent\"\"]\""
+    ],
+    "defaultValue": "convergent",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.827Z",
+    "updatedAt": "2026-04-02T18:26:56.827Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_unnamed_path",
+    "value": "convergent"
+  },
+  {
+    "id": "08e8f464-725b-4d9e-b75b-3ff3f461d269",
+    "title": "Veilblade Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"shadow_operative\"\",\"\"signal_cutter\"\",\"\"ghost_archive\"\"]\""
+    ],
+    "defaultValue": "shadow_operative",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.528Z",
+    "updatedAt": "2026-04-02T18:26:56.528Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_veilblade_path",
+    "value": "shadow_operative"
+  },
+  {
+    "id": "0939a655-4090-401a-af3e-76587854d6bd",
+    "title": "AP Current",
+    "description": "Spendable AP during active turn.",
+    "category": "combat_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 3,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.280Z",
+    "updatedAt": "2026-04-02T18:26:56.280Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_ap_current",
+    "value": 3
+  },
+  {
+    "id": "095a97e4-626d-43ea-9d03-6410e1fbe6a9",
+    "title": "Level",
+    "description": "Character level (1–20). Used by level-scaling scripts.",
+    "category": "identity",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.270Z",
+    "updatedAt": "2026-04-02T18:26:56.270Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_level",
+    "value": 1
+  },
+  {
+    "id": "09ac0eda-91fa-438b-80a2-3e466c8b056e",
+    "title": "Anchor Points",
+    "description": "Active anchor connections to physical plane; enables anchor-conditional abilities.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.635Z",
+    "updatedAt": "2026-04-02T18:26:56.635Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_void_walker_anchor_points",
+    "value": 0
+  },
+  {
+    "id": "0c169cae-292f-4761-8154-d927e69a3bff",
+    "title": "Flesh Shaper HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 10 (Balanced tier).",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 10,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.656Z",
+    "updatedAt": "2026-04-02T18:26:56.656Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_flesh_shaper_hp_mod",
+    "value": 10
+  },
+  {
+    "id": "0c18fc08-28fb-40e8-9f9e-464ca277caca",
+    "title": "Fracture Stacks on Self",
+    "description": "Fracture stacks currently applied to this character; scales risk/reward abilities.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.813Z",
+    "updatedAt": "2026-04-02T18:26:56.813Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_fracture_knight_fracture_stacks_self",
+    "value": 0
+  },
+  {
+    "id": "0c6b9e20-64d0-4bbf-9809-a66a5cc06f5a",
+    "title": "Active Turn",
+    "description": "True while this unit is the active combatant.",
+    "category": "combat_core",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.283Z",
+    "updatedAt": "2026-04-02T18:26:56.283Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_active_turn",
+    "value": false
+  },
+  {
+    "id": "0cf057b1-2559-4a8f-9b6f-d87f0e9f0c77",
+    "title": "Stitched Frame Bonus",
+    "description": "Permanent +1 FRAME bonus from Stitched heritage.",
+    "category": "stat_modifier",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.424Z",
+    "updatedAt": "2026-04-02T18:26:56.424Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_stitched_frame_bonus",
+    "value": 1
+  },
+  {
+    "id": "0e1bc7c5-10a2-4f3a-b88f-ea76f4358dcc",
+    "title": "Card 6 Condition",
+    "description": "Player-defined unlock condition for Card 6.",
+    "category": "lore_state",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.851Z",
+    "updatedAt": "2026-04-02T18:26:56.851Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_unnamed_card_6_condition",
+    "value": ""
+  },
+  {
+    "id": "11d50302-4126-4c41-83d4-cd7bd558a61b",
+    "title": "Wireweave Primary Stats",
+    "description": "Primary stat pair: SIGNAL and EDGE.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "SIGNAL/EDGE",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.560Z",
+    "updatedAt": "2026-04-02T18:26:56.560Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_wireweave_primary_stats",
+    "value": "SIGNAL/EDGE"
+  },
+  {
+    "id": "11efdff9-92fa-4533-b186-7d57af913dbd",
+    "title": "Corruption Points",
+    "description": "Accumulated corruption; tracks Consumed subclass transformation pressure.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.780Z",
+    "updatedAt": "2026-04-02T18:26:56.780Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_curse_eater_corruption_points",
+    "value": 0
+  },
+  {
+    "id": "128b4f76-1634-4a65-96c7-d555f9b0b96b",
+    "title": "Sutensai HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 6 (Technical tier).",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 6,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.642Z",
+    "updatedAt": "2026-04-02T18:26:56.642Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_sutensai_hp_mod",
+    "value": 6
+  },
+  {
+    "id": "1314cc74-2e91-4558-99ea-a1cbaaebe7f8",
+    "title": "Voice of Debt Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"oath_keeper\"\",\"\"debt_collector\"\",\"\"the_breaker\"\"]\""
+    ],
+    "defaultValue": "oath_keeper",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.726Z",
+    "updatedAt": "2026-04-02T18:26:56.726Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_voice_of_debt_path",
+    "value": "oath_keeper"
+  },
+  {
+    "id": "13e70b42-8084-462d-b331-9c3b52955f12",
+    "title": "Monster AP Max",
+    "description": "AP refreshed at monster turn start.",
+    "category": "combat_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 2,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.343Z",
+    "updatedAt": "2026-04-02T18:26:56.343Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_monster_ap_max",
+    "value": 2
+  },
+  {
+    "id": "14b7093e-ddb8-4d9f-aedf-20f28bccc5d8",
+    "title": "Inconsistent Resonance Signature",
+    "description": "50% chance targeting/identity-lock effects misfire; GM rolls die, odd result fails.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.432Z",
+    "updatedAt": "2026-04-02T18:26:56.432Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_stitched_inconsistent_resonance",
+    "value": true
+  },
+  {
+    "id": "1557f38e-ec87-43f6-ba15-96fb9c7423b4",
+    "title": "Resonant Armor Reaction Uses",
+    "description": "Equals proficiency bonus per long rest when unlocked.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.332Z",
+    "updatedAt": "2026-04-02T18:26:56.332Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_resonant_armor_reaction_uses",
+    "value": 0
+  },
+  {
+    "id": "160509fb-609d-40e1-9358-00609a5ea4cd",
+    "title": "Carry Capacity Multiplier",
+    "description": "Set to 2 when Hydraulic Frame is active.",
+    "category": "derived",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.302Z",
+    "updatedAt": "2026-04-02T18:26:56.302Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_carry_capacity_mult",
+    "value": 1
+  },
+  {
+    "id": "16447248-f606-47cf-8b5f-298f13c8c789",
+    "title": "Threat State",
+    "description": "neutral, pressured, advantaged, desperate.",
+    "category": "combat_ai",
+    "type": "list",
+    "options": [
+      "\"[\"\"neutral\"\",\"\"pressured\"\",\"\"advantaged\"\",\"\"desperate\"\"]\""
+    ],
+    "defaultValue": "neutral",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.348Z",
+    "updatedAt": "2026-04-02T18:26:56.348Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_monster_threat_state",
+    "value": "neutral"
+  },
+  {
+    "id": "167cc347-a187-4708-8ad6-795c5ad9d82e",
+    "title": "Unnamed Primary Stats",
+    "description": "Active stat shifts each combat; defined by player through play.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "IRON",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.819Z",
+    "updatedAt": "2026-04-02T18:26:56.819Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_unnamed_primary_stats",
+    "value": "IRON"
+  },
+  {
+    "id": "16ae0c77-a48f-49e8-9510-3d9fc4c4fd32",
+    "title": "In Shell Step",
+    "description": "True while Shell Step evasion state is active.",
+    "category": "resource",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.798Z",
+    "updatedAt": "2026-04-02T18:26:56.798Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shell_dancer_in_shell_step",
+    "value": false
+  },
+  {
+    "id": "185c1015-8e5e-4c50-9fe9-90912099e447",
+    "title": "Modular Construction",
+    "description": "Repairs cost half time and resources: short rest instead of full, single scene instead of full session.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.430Z",
+    "updatedAt": "2026-04-02T18:26:56.430Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_stitched_modular_construction",
+    "value": true
+  },
+  {
+    "id": "19d76be3-1b68-4f46-b308-bef530bd546a",
+    "title": "Void-Touched Mind",
+    "description": "Psychic/mental intrusion, fear, and morale effects do not apply; psychic damage applies normally.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.448Z",
+    "updatedAt": "2026-04-02T18:26:56.448Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shellbroken_void_touched_mind",
+    "value": true
+  },
+  {
+    "id": "1a18a363-c6b2-4096-9a99-61f3d1c19ba9",
+    "title": "Wireweave Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"combat_weave\"\",\"\"wire_broker\"\",\"\"iron_afterlife_weave\"\",\"\"loom_maker\"\"]\""
+    ],
+    "defaultValue": "combat_weave",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.566Z",
+    "updatedAt": "2026-04-02T18:26:56.566Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_wireweave_path",
+    "value": "combat_weave"
+  },
+  {
+    "id": "1b8d47fc-b9d4-430a-b026-7cf7cd8c8970",
+    "title": "Veilblade Hand Size",
+    "description": "Starting hand size for Veilblade class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 7,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.520Z",
+    "updatedAt": "2026-04-02T18:26:56.520Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_veilblade_hand_size",
+    "value": 7
+  },
+  {
+    "id": "1ba053ee-b8a5-4fa5-8a1d-d24e0a0e6426",
+    "title": "Priority Target ID",
+    "description": "ID of current Priority Target; empty when unset.",
+    "category": "resource",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.758Z",
+    "updatedAt": "2026-04-02T18:26:56.758Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_herald_priority_target",
+    "value": ""
+  },
+  {
+    "id": "1e27aad4-eba1-4fe7-81cb-ed15b11efefb",
+    "title": "Current HP Percent",
+    "description": "Current HP as percentage; drives below-half and below-quarter scaling cards.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 100,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.696Z",
+    "updatedAt": "2026-04-02T18:26:56.696Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_hollow_hp_percent",
+    "value": 100
+  },
+  {
+    "id": "1f11cbea-cf97-4f10-84f3-4a72b46675e3",
+    "title": "Wireborn Hand Size Modifier",
+    "description": "+1 to starting hand size.",
+    "category": "stat_modifier",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.415Z",
+    "updatedAt": "2026-04-02T18:26:56.415Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_wireborn_hand_size_mod",
+    "value": 1
+  },
+  {
+    "id": "1fea0709-4a90-4655-928d-377dd8a0d2ec",
+    "title": "Ready Bonus Uses",
+    "description": "Set to 1 per short rest when Neural Accelerator is active.",
+    "category": "combat",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.309Z",
+    "updatedAt": "2026-04-02T18:26:56.309Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_ready_bonus_uses",
+    "value": 0
+  },
+  {
+    "id": "20456d5f-39ec-4be5-9de9-5d0cda7881b9",
+    "title": "Diminished Veil Bonus",
+    "description": "Permanent +1 VEIL bonus from Diminished heritage.",
+    "category": "stat_modifier",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.483Z",
+    "updatedAt": "2026-04-02T18:26:56.483Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_diminished_veil_bonus",
+    "value": 1
+  },
+  {
+    "id": "20de8699-7c7b-420d-bd82-c9f450839148",
+    "title": "Monster Cards Played This Turn",
+    "description": "Serialized list of monster card IDs played this turn.",
+    "category": "combat_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.347Z",
+    "updatedAt": "2026-04-02T18:26:56.347Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_monster_cards_played_this_turn",
+    "value": ""
+  },
+  {
+    "id": "215bc9af-aea5-42cd-b23d-7a48083de687",
+    "title": "Component B Secondary",
+    "description": "Player-defined at creation; determines Component B of Composite Response card.",
+    "category": "derived",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "player_defined",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.440Z",
+    "updatedAt": "2026-04-02T18:26:56.440Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_stitched_component_b",
+    "value": "player_defined"
+  },
+  {
+    "id": "22b7efaf-2797-4cb9-a4bf-17a837daa239",
+    "title": "Resonant Attunement",
+    "description": "Attune to resonant items/locations instantly; spontaneous minor resonant effects once per session.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.465Z",
+    "updatedAt": "2026-04-02T18:26:56.465Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_blessed_resonant_attunement",
+    "value": true
+  },
+  {
+    "id": "2317b9f8-4b13-4773-b17e-bf5efe166c7f",
+    "title": "Veilblade HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 10.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 10,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.523Z",
+    "updatedAt": "2026-04-02T18:26:56.523Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_veilblade_hp_mod",
+    "value": 10
+  },
+  {
+    "id": "23795b23-4d48-4630-bfdb-9bba0480d3fa",
+    "title": "Card 4 Condition",
+    "description": "Player-defined unlock condition for Card 4.",
+    "category": "lore_state",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.840Z",
+    "updatedAt": "2026-04-02T18:26:56.840Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_unnamed_card_4_condition",
+    "value": ""
+  },
+  {
+    "id": "23b694a7-cb2b-4341-8212-b4a3318e40a2",
+    "title": "Intelligence Gathered",
+    "description": "Accumulated intelligence points; unlocks option-expanding abilities.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.706Z",
+    "updatedAt": "2026-04-02T18:26:56.706Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shadow_daimyo_intelligence",
+    "value": 0
+  },
+  {
+    "id": "23d2f635-f5f7-4173-a134-4959dd58d2e5",
+    "title": "Tethered Veil Bonus",
+    "description": "Permanent +1 VEIL bonus from Tethered heritage.",
+    "category": "stat_modifier",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.381Z",
+    "updatedAt": "2026-04-02T18:26:56.381Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_tethered_veil_bonus",
+    "value": 1
+  },
+  {
+    "id": "23dd7a50-a2b5-4a2d-85f6-5206fc754a15",
+    "title": "Hollow HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 16 (Resilient tier).",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 16,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.692Z",
+    "updatedAt": "2026-04-02T18:26:56.692Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_hollow_hp_mod",
+    "value": 16
+  },
+  {
+    "id": "23e4a640-3ed9-44ae-b864-2b7b607630b3",
+    "title": "Connection Mark",
+    "description": "Faint geometric pattern at skull base or jaw; often concealed.",
+    "category": "appearance",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "skull_base_or_jaw",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.459Z",
+    "updatedAt": "2026-04-02T18:26:56.459Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shellbroken_connection_mark",
+    "value": "skull_base_or_jaw"
+  },
+  {
+    "id": "255a5996-0f0b-4b3b-9c22-51caa7a2676f",
+    "title": "Loaded Count",
+    "description": "Current Loaded status stacks on self; absorbed debuffs. Scales damage output.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.776Z",
+    "updatedAt": "2026-04-02T18:26:56.776Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_curse_eater_loaded_count",
+    "value": 0
+  },
+  {
+    "id": "26de61ea-0fc2-4347-ae62-99aca528fa6f",
+    "title": "Vein Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"oath_iron_lord\"\",\"\"oath_sutensai_blade\"\",\"\"oath_undying_debt\"\",\"\"oath_flesh_temple\"\"]\""
+    ],
+    "defaultValue": "oath_iron_lord",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.322Z",
+    "updatedAt": "2026-04-02T18:26:56.322Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_vein_path",
+    "value": "oath_iron_lord"
+  },
+  {
+    "id": "277d8f42-368f-44f5-8601-a7fd8bbb3c81",
+    "title": "Shellbroken Resonance Bonus",
+    "description": "Permanent +1 RESONANCE bonus from Shellbroken heritage.",
+    "category": "stat_modifier",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.445Z",
+    "updatedAt": "2026-04-02T18:26:56.445Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shellbroken_resonance_bonus",
+    "value": 1
+  },
+  {
+    "id": "27817ce0-28a7-451f-936e-dc9b4576b65f",
+    "title": "Forge Tender Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"resonance_keeper\"\",\"\"black_smith\"\",\"\"echomind_anchor\"\"]\""
+    ],
+    "defaultValue": "resonance_keeper",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.554Z",
+    "updatedAt": "2026-04-02T18:26:56.554Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_forge_tender_path",
+    "value": "resonance_keeper"
+  },
+  {
+    "id": "278afaaf-f16c-4174-9ec7-5a7d4972a115",
+    "title": "Flesh Shaper Hand Size",
+    "description": "Starting hand size for Flesh Shaper class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 7,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.652Z",
+    "updatedAt": "2026-04-02T18:26:56.652Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_flesh_shaper_hand_size",
+    "value": 7
+  },
+  {
+    "id": "281dc592-ea02-4f5a-b470-e4b7e95329de",
+    "title": "Shell-State Awareness",
+    "description": "Sense beings under Hollow Author control within 60 feet: presence only, no identification.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.450Z",
+    "updatedAt": "2026-04-02T18:26:56.450Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shellbroken_shell_state_awareness",
+    "value": true
+  },
+  {
+    "id": "28c2d915-674c-42fe-b188-cd93e2e187f0",
+    "title": "Shellbroken Hand Size Modifier",
+    "description": "No hand size modifier from Shellbroken heritage.",
+    "category": "stat_modifier",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.447Z",
+    "updatedAt": "2026-04-02T18:26:56.447Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shellbroken_hand_size_mod",
+    "value": 0
+  },
+  {
+    "id": "2bc4a62a-cbb8-4101-b820-02ae5f1a960e",
+    "title": "Poison Save Advantage",
+    "description": "Enabled by Intake Filter.",
+    "category": "defense",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.311Z",
+    "updatedAt": "2026-04-02T18:26:56.311Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_poison_save_adv",
+    "value": false
+  },
+  {
+    "id": "2be05dd7-d128-4ade-8ca2-5c5b0a8f4d5c",
+    "title": "Old Flesh Memory",
+    "description": "Start each combat with Regen 1, undispellable by augmentation-stripping effects.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.389Z",
+    "updatedAt": "2026-04-02T18:26:56.389Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_tethered_old_flesh_memory",
+    "value": true
+  },
+  {
+    "id": "2d02641b-7a71-4336-9502-12acf6bbeb65",
+    "title": "Wire Integration Active",
+    "description": "Character has active Wire Craft network integration.",
+    "category": "class_core",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.527Z",
+    "updatedAt": "2026-04-02T18:26:56.527Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_veilblade_wire_integration",
+    "value": true
+  },
+  {
+    "id": "2db7af2e-e40e-4be9-89e7-3b5b0db8e5f9",
+    "title": "Exposed Value",
+    "description": "Flat damage amplification from Expose-family effects.",
+    "category": "status_derived",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.359Z",
+    "updatedAt": "2026-04-02T18:26:56.359Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_exposed_value",
+    "value": 0
+  },
+  {
+    "id": "2de89574-33c4-48d7-8fa1-45d879cabd02",
+    "title": "Custom Stat Bonus",
+    "description": "+1 to one stat chosen at character creation reflecting assembly dominance.",
+    "category": "stat_modifier",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.426Z",
+    "updatedAt": "2026-04-02T18:26:56.426Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_stitched_custom_stat_bonus",
+    "value": 1
+  },
+  {
+    "id": "2e131e76-c59d-4609-b218-c406de7a4ec0",
+    "title": "Poison Resistance",
+    "description": "Enabled by Intake Filter.",
+    "category": "defense",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.312Z",
+    "updatedAt": "2026-04-02T18:26:56.312Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_poison_resistance",
+    "value": false
+  },
+  {
+    "id": "2e744ac3-d99e-43d9-8c8b-ff4cea2a3666",
+    "title": "Overheat Stacks",
+    "description": "Heat pressure tracker for machine-intensive actions.",
+    "category": "status_derived",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.363Z",
+    "updatedAt": "2026-04-02T18:26:56.363Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_overheat_stacks",
+    "value": 0
+  },
+  {
+    "id": "2e9d6b70-894a-43c1-aa98-54aac69092a9",
+    "title": "Cascade Count",
+    "description": "Current Cascade resource from 0 to 10; generated from taking damage.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.796Z",
+    "updatedAt": "2026-04-02T18:26:56.796Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shell_dancer_cascade_count",
+    "value": 0
+  },
+  {
+    "id": "2ebcd40b-54cb-4fd9-95fa-2382dd2287a7",
+    "title": "Iron Tolerance Reduction",
+    "description": "Blood Smith: reduces HP cost of enhancement cards by this amount (minimum 1 net cost).",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 2,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.272Z",
+    "updatedAt": "2026-04-02T18:26:56.272Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_tolerance_reduction",
+    "value": 2
+  },
+  {
+    "id": "2f748419-433f-4b36-bbd3-cf85add8621d",
+    "title": "Chrome Shaper Hand Size",
+    "description": "Starting hand size for Chrome Shaper class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 7,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.569Z",
+    "updatedAt": "2026-04-02T18:26:56.569Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_chrome_shaper_hand_size",
+    "value": 7
+  },
+  {
+    "id": "2fec4485-0f26-46ab-a3a4-2fc0977c19c6",
+    "title": "Oath Status",
+    "description": "Current oath relationship: Masterless, Contracted, or Returned.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "Masterless",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.506Z",
+    "updatedAt": "2026-04-02T18:26:56.506Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_ronin_oath_status",
+    "value": "Masterless"
+  },
+  {
+    "id": "309be096-cf58-4503-aad8-d1443391e668",
+    "title": "Active Contacts",
+    "description": "Number of active established contacts.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.708Z",
+    "updatedAt": "2026-04-02T18:26:56.708Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shadow_daimyo_contacts",
+    "value": 0
+  },
+  {
+    "id": "3109ac87-ea0d-42a5-aed8-7cb2e96dc47e",
+    "title": "Oni Hunter Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"dissolution_specialist\"\",\"\"afterlife_anchor\"\",\"\"resonance_collector\"\"]\""
+    ],
+    "defaultValue": "dissolution_specialist",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.540Z",
+    "updatedAt": "2026-04-02T18:26:56.540Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_oni_hunter_path",
+    "value": "dissolution_specialist"
+  },
+  {
+    "id": "3162a742-c457-4ab0-b727-73fbd73efabb",
+    "title": "Incorporeal State Active",
+    "description": "True when character is partially phased into void; enables phase-conditional abilities.",
+    "category": "resource",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.623Z",
+    "updatedAt": "2026-04-02T18:26:56.623Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_void_walker_incorporeal_state",
+    "value": false
+  },
+  {
+    "id": "33437cd1-c5f4-4fe6-b4d7-be9cda562dd8",
+    "title": "Iron Monk Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"orthodoxy\"\",\"\"resonants\"\",\"\"flesh_circle\"\",\"\"path_of_the_between\"\"]\""
+    ],
+    "defaultValue": "orthodoxy",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.599Z",
+    "updatedAt": "2026-04-02T18:26:56.599Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_monk_path",
+    "value": "orthodoxy"
+  },
+  {
+    "id": "33f074dc-c9e2-4ddb-9935-6621ed6da90f",
+    "title": "Voice of Debt Primary Stats",
+    "description": "Primary stat pair: VEIL and SIGNAL.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "VEIL/SIGNAL",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.715Z",
+    "updatedAt": "2026-04-02T18:26:56.715Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_voice_of_debt_primary_stats",
+    "value": "VEIL/SIGNAL"
+  },
+  {
+    "id": "34289f0e-cbe3-4b88-962f-6289bb475503",
+    "title": "Already Died",
+    "description": "First time per combat reduced to 0 HP, drop to 1 HP instead.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.401Z",
+    "updatedAt": "2026-04-02T18:26:56.401Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_echoed_already_died",
+    "value": true
+  },
+  {
+    "id": "3471f42e-1484-47fd-836c-a8de9ca66b64",
+    "title": "Card 14 Condition",
+    "description": "Player-defined unlock condition for Card 14.",
+    "category": "lore_state",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.870Z",
+    "updatedAt": "2026-04-02T18:26:56.870Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_unnamed_card_14_condition",
+    "value": ""
+  },
+  {
+    "id": "350ad763-5dcb-4dd5-b381-dd15d4a5fd70",
+    "title": "Vein Discipline L2",
+    "description": "Stillness Kata, Burden Strike, or Iron Witness.",
+    "category": "class_core",
+    "type": "list",
+    "options": [
+      "\"[\"\"stillness_kata\"\",\"\"burden_strike\"\",\"\"iron_witness\"\"]\""
+    ],
+    "defaultValue": "stillness_kata",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.320Z",
+    "updatedAt": "2026-04-02T18:26:56.320Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_vein_discipline_lvl2",
+    "value": "stillness_kata"
+  },
+  {
+    "id": "351b67ed-0a12-4b9b-a735-3f4601d55252",
+    "title": "Oni Hunter HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 10.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 10,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.534Z",
+    "updatedAt": "2026-04-02T18:26:56.534Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_oni_hunter_hp_mod",
+    "value": 10
+  },
+  {
+    "id": "35bf9856-bb60-4703-9be9-7f2efd7f5d7d",
+    "title": "Iron Endurance Resistance Type",
+    "description": "Slashing, piercing, or bludgeoning selection.",
+    "category": "defense",
+    "type": "list",
+    "options": [
+      "\"[\"\"slashing\"\",\"\"piercing\"\",\"\"bludgeoning\"\"]\""
+    ],
+    "defaultValue": "slashing",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.331Z",
+    "updatedAt": "2026-04-02T18:26:56.331Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_endurance_resistance_type",
+    "value": "slashing"
+  },
+  {
+    "id": "36579b64-17dc-4f54-a407-973266154ce9",
+    "title": "Exhaustion",
+    "description": "Exhaustion stacks; affects Forged maintenance and general fatigue mechanics.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.271Z",
+    "updatedAt": "2026-04-02T18:26:56.271Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_exhaustion",
+    "value": 0
+  },
+  {
+    "id": "36da0134-b4b1-4bbf-aad4-03346cd6091b",
+    "title": "Puppet Binder Hand Size",
+    "description": "Starting hand size for Puppet Binder class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 7,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.663Z",
+    "updatedAt": "2026-04-02T18:26:56.663Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_puppet_binder_hand_size",
+    "value": 7
+  },
+  {
+    "id": "379deb7b-8af1-4b0d-b207-21213c634a3c",
+    "title": "Blood Smith Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"the_weaponsmith\"\",\"\"the_armorer\"\",\"\"the_sculptor\"\"]\""
+    ],
+    "defaultValue": "the_weaponsmith",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.685Z",
+    "updatedAt": "2026-04-02T18:26:56.685Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_blood_smith_path",
+    "value": "the_weaponsmith"
+  },
+  {
+    "id": "37e165f3-07e4-41f7-a4d7-b2658c4b43e1",
+    "title": "Component A Primary",
+    "description": "Player-defined at creation; determines Component A of Composite Response card.",
+    "category": "derived",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "player_defined",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.437Z",
+    "updatedAt": "2026-04-02T18:26:56.437Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_stitched_component_a",
+    "value": "player_defined"
+  },
+  {
+    "id": "385fa067-e999-46ea-ae2e-1fa17691dafb",
+    "title": "Ashfoot Caste Tier",
+    "description": "Social caste tier at campaign start.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "Low",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.515Z",
+    "updatedAt": "2026-04-02T18:26:56.515Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_ashfoot_caste_tier",
+    "value": "Low"
+  },
+  {
+    "id": "38e0ead8-d263-469c-afd6-c4370e0e81c6",
+    "title": "Environmental Awareness",
+    "description": "Cannot be surprised by environmental threats: structures, systems, gas, terrain. Still surprised by combat ambush.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.490Z",
+    "updatedAt": "2026-04-02T18:26:56.490Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_diminished_environmental_awareness",
+    "value": true
+  },
+  {
+    "id": "39413645-0591-4c16-9171-c97b34c378e1",
+    "title": "Phantom Charges",
+    "description": "Current Phantom Charges from 0 to 6; fuel for Between-sourced abilities.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 2,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.811Z",
+    "updatedAt": "2026-04-02T18:26:56.811Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_fracture_knight_phantom_charges",
+    "value": 2
+  },
+  {
+    "id": "394274a3-b479-44f7-92d8-5837b34116ca",
+    "title": "Formation Pain Level",
+    "description": "Constant low-level ache plus acute pain during growth phases.",
+    "category": "lore_state",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "chronic_low",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.476Z",
+    "updatedAt": "2026-04-02T18:26:56.476Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_blessed_pain_level",
+    "value": "chronic_low"
+  },
+  {
+    "id": "39cb5457-b5f9-469f-929e-2dac256405a1",
+    "title": "Gap Period",
+    "description": "Blank period while under Hollow Author control; accessible through external evidence, not internal memory.",
+    "category": "lore_state",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "unknown",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.457Z",
+    "updatedAt": "2026-04-02T18:26:56.457Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shellbroken_gap_period",
+    "value": "unknown"
+  },
+  {
+    "id": "3a320dc6-e0e7-4efc-b816-10f0d60905ec",
+    "title": "Card 5 Condition",
+    "description": "Player-defined unlock condition for Card 5.",
+    "category": "lore_state",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.849Z",
+    "updatedAt": "2026-04-02T18:26:56.849Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_unnamed_card_5_condition",
+    "value": ""
+  },
+  {
+    "id": "3b553a83-e747-4f31-8263-b132c882147b",
+    "title": "Subtype",
+    "description": "Tended (Orthodoxy-aligned) or Unregistered (independent); chosen at character creation.",
+    "category": "identity",
+    "type": "list",
+    "options": [
+      "\"[\"\"tended\"\",\"\"unregistered\"\"]\""
+    ],
+    "defaultValue": "tended",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.462Z",
+    "updatedAt": "2026-04-02T18:26:56.462Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_blessed_subtype",
+    "value": "tended"
+  },
+  {
+    "id": "3f365d42-f62c-4089-8a6a-8b672d1fd0f7",
+    "title": "Seventh Vein Defined",
+    "description": "Tracks level 20 narrative definition completion.",
+    "category": "capstone_track",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.337Z",
+    "updatedAt": "2026-04-02T18:26:56.337Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_seventh_vein_defined",
+    "value": false
+  },
+  {
+    "id": "3f9fa663-f7f7-4d7d-8a21-bae63c01bb8c",
+    "title": "Forge Tender Hand Size",
+    "description": "Starting hand size for Forge Tender class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 7,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.543Z",
+    "updatedAt": "2026-04-02T18:26:56.543Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_forge_tender_hand_size",
+    "value": 7
+  },
+  {
+    "id": "400d9925-56b5-4fff-a55c-be47c1ca27fe",
+    "title": "Card 10 Condition",
+    "description": "Player-defined unlock condition for Card 10.",
+    "category": "lore_state",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.861Z",
+    "updatedAt": "2026-04-02T18:26:56.861Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_unnamed_card_10_condition",
+    "value": ""
+  },
+  {
+    "id": "402f5b7b-1682-42c8-a6d9-30fa700bbff0",
+    "title": "Corrupted Resonance Signature",
+    "description": "Oath-broken resonance signature; persists after masterless status.",
+    "category": "class_core",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.504Z",
+    "updatedAt": "2026-04-02T18:26:56.504Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_ronin_corrupted_signature",
+    "value": true
+  },
+  {
+    "id": "416499e0-99c2-479f-8185-91878d446ae8",
+    "title": "Augmentation Count",
+    "description": "Always zero; Tethered cannot integrate augmentations.",
+    "category": "derived",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.393Z",
+    "updatedAt": "2026-04-02T18:26:56.393Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_tethered_aug_count",
+    "value": 0
+  },
+  {
+    "id": "417f5f60-ecc5-45e4-bab8-789d4b262baa",
+    "title": "Ashfoot HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 10.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 10,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.513Z",
+    "updatedAt": "2026-04-02T18:26:56.513Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_ashfoot_hp_mod",
+    "value": 10
+  },
+  {
+    "id": "42b0f564-f96c-4e59-ae83-d67dadf42635",
+    "title": "Curse Eater Primary Stats",
+    "description": "Primary stat pair: RESONANCE and FRAME.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "RESONANCE/FRAME",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.768Z",
+    "updatedAt": "2026-04-02T18:26:56.768Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_curse_eater_primary_stats",
+    "value": "RESONANCE/FRAME"
+  },
+  {
+    "id": "42edb922-2c1d-49e9-92fb-125c4c73db04",
+    "title": "Stagger Resistance",
+    "description": "First Stagger source per combat is negated; subsequent applications proceed normally.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.434Z",
+    "updatedAt": "2026-04-02T18:26:56.434Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_stitched_stagger_resistance",
+    "value": true
+  },
+  {
+    "id": "42fb2ef8-e64e-4775-87bb-a38d240cda35",
+    "title": "Curse Eater Hand Size",
+    "description": "Starting hand size for Curse Eater class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 7,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.766Z",
+    "updatedAt": "2026-04-02T18:26:56.766Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_curse_eater_hand_size",
+    "value": 7
+  },
+  {
+    "id": "46e4020a-e67e-4772-a8f6-f6063a963c10",
+    "title": "Ronin HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 14.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 14,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.501Z",
+    "updatedAt": "2026-04-02T18:26:56.501Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_ronin_hp_mod",
+    "value": 14
+  },
+  {
+    "id": "46f6ef8c-bf8a-44df-9723-ec8e84b4b988",
+    "title": "Experimental Designs",
+    "description": "Count of experimental design applications available; grows with level.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.574Z",
+    "updatedAt": "2026-04-02T18:26:56.574Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_chrome_shaper_experimental_designs",
+    "value": 0
+  },
+  {
+    "id": "4723e79b-0af8-42fc-9026-931d8738c31c",
+    "title": "Gap Resonance Imprint",
+    "description": "Narrative tracker of what the Echoed carries from the Iron Afterlife.",
+    "category": "lore_state",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "unknown",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.409Z",
+    "updatedAt": "2026-04-02T18:26:56.409Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_echoed_gap_resonance_imprint",
+    "value": "unknown"
+  },
+  {
+    "id": "474dcd14-9720-4ed5-9bb8-fbef63b16aac",
+    "title": "Survivor's Clarity",
+    "description": "Once per combat when below half HP, gain Guard 4 as a free reaction.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.451Z",
+    "updatedAt": "2026-04-02T18:26:56.451Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shellbroken_survivor_clarity",
+    "value": true
+  },
+  {
+    "id": "47da4265-e7c1-4470-b02a-13cdb04b60d5",
+    "title": "Natural AC Base",
+    "description": "Set to 13 when Subdermal Plating is active.",
+    "category": "defense",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.306Z",
+    "updatedAt": "2026-04-02T18:26:56.306Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_natural_ac_base",
+    "value": 0
+  },
+  {
+    "id": "4812a50b-a67f-4083-9780-007ed811e8b4",
+    "title": "Flesh Shaper Primary Stats",
+    "description": "Primary stat pair: IRON and SIGNAL.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "IRON/SIGNAL",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.654Z",
+    "updatedAt": "2026-04-02T18:26:56.654Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_flesh_shaper_primary_stats",
+    "value": "IRON/SIGNAL"
+  },
+  {
+    "id": "4966bc77-5618-4c1c-83ff-379f66f79f64",
+    "title": "Tethered Hand Size Modifier",
+    "description": "+1 to starting hand size.",
+    "category": "stat_modifier",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.383Z",
+    "updatedAt": "2026-04-02T18:26:56.383Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_tethered_hand_size_mod",
+    "value": 1
+  },
+  {
+    "id": "4a73e487-bb05-4385-91a6-6911d917a8ce",
+    "title": "Curse Eater HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 14.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 14,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.772Z",
+    "updatedAt": "2026-04-02T18:26:56.772Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_curse_eater_hp_mod",
+    "value": 14
+  },
+  {
+    "id": "4b827acc-ad42-4a20-b250-e4e350417015",
+    "title": "Vein Oath",
+    "description": "Loyalty, Restraint, Sacrifice, or Clarity.",
+    "category": "class_core",
+    "type": "list",
+    "options": [
+      "\"[\"\"loyalty\"\",\"\"restraint\"\",\"\"sacrifice\"\",\"\"clarity\"\"]\""
+    ],
+    "defaultValue": "loyalty",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.316Z",
+    "updatedAt": "2026-04-02T18:26:56.316Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_vein_oath",
+    "value": "loyalty"
+  },
+  {
+    "id": "4b8f9b77-8d64-4d9b-896c-fbe4ac0281e4",
+    "title": "Oni Hunter Primary Stats",
+    "description": "Primary stat pair: RESONANCE and IRON.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "RESONANCE/IRON",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.532Z",
+    "updatedAt": "2026-04-02T18:26:56.532Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_oni_hunter_primary_stats",
+    "value": "RESONANCE/IRON"
+  },
+  {
+    "id": "4c4ce7ad-d21a-40ed-b529-076af85f3f5b",
+    "title": "Shadow Daimyo Hand Size",
+    "description": "Starting hand size for Shadow Daimyo class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 7,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.699Z",
+    "updatedAt": "2026-04-02T18:26:56.699Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shadow_daimyo_hand_size",
+    "value": 7
+  },
+  {
+    "id": "4c941527-6d00-43f1-a6c9-18b197e6b60b",
+    "title": "Iron Monk HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 20 (Heavy tier).",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 20,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.594Z",
+    "updatedAt": "2026-04-02T18:26:56.594Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_monk_hp_mod",
+    "value": 20
+  },
+  {
+    "id": "4d277955-2730-4f55-a8a4-aa0a46498d9f",
+    "title": "HP Cost Payment Enabled",
+    "description": "Character may pay HP instead of AP for selected cards.",
+    "category": "class_core",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.648Z",
+    "updatedAt": "2026-04-02T18:26:56.648Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_sutensai_hp_cost_enabled",
+    "value": true
+  },
+  {
+    "id": "4d39b53c-1eb7-4591-8542-5b25bcb0d43d",
+    "title": "Pulse Caller Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"single_point\"\",\"\"iron_suppressor\"\",\"\"resonant_shot\"\"]\""
+    ],
+    "defaultValue": "single_point",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.588Z",
+    "updatedAt": "2026-04-02T18:26:56.588Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_pulse_caller_path",
+    "value": "single_point"
+  },
+  {
+    "id": "50905117-c6f3-402b-afeb-1010cf48df8a",
+    "title": "Voice of Debt Hand Size",
+    "description": "Starting hand size for Voice of Debt class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 7,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.713Z",
+    "updatedAt": "2026-04-02T18:26:56.713Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_voice_of_debt_hand_size",
+    "value": 7
+  },
+  {
+    "id": "56b5287f-0ba5-469a-876b-45d018d0c98f",
+    "title": "Ronin Primary Stats",
+    "description": "Primary stat pair: IRON and EDGE.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "IRON/EDGE",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.499Z",
+    "updatedAt": "2026-04-02T18:26:56.499Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_ronin_primary_stats",
+    "value": "IRON/EDGE"
+  },
+  {
+    "id": "56fc9963-7715-4b66-b7b1-16edcf7a3dbe",
+    "title": "Chassis Intact",
+    "description": "Enables Forged Resilience death-save bonus logic.",
+    "category": "system",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.300Z",
+    "updatedAt": "2026-04-02T18:26:56.300Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_chassis_intact",
+    "value": true
+  },
+  {
+    "id": "5795abfe-7f58-4289-99d1-f5fa7f5dfd0a",
+    "title": "Puppet Binder Primary Stats",
+    "description": "Primary stat pair: SIGNAL and VEIL.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "SIGNAL/VEIL",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.665Z",
+    "updatedAt": "2026-04-02T18:26:56.665Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_puppet_binder_primary_stats",
+    "value": "SIGNAL/VEIL"
+  },
+  {
+    "id": "57c54fb7-173b-477f-bc4a-a58458c828fe",
+    "title": "Blade-Sworn Bound Weapon",
+    "description": "Tracks permanent weapon bond at level 17.",
+    "category": "capstone_track",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.335Z",
+    "updatedAt": "2026-04-02T18:26:56.335Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_blade_sworn_bound",
+    "value": false
+  },
+  {
+    "id": "58e79a6f-39bb-4a4e-a4e4-f4affc4493dd",
+    "title": "Blood Smith Primary Stats",
+    "description": "Primary stat pair: IRON and RESONANCE.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "IRON/RESONANCE",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.679Z",
+    "updatedAt": "2026-04-02T18:26:56.679Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_blood_smith_primary_stats",
+    "value": "IRON/RESONANCE"
+  },
+  {
+    "id": "5a8fff40-11ad-43f1-9c38-3ddccad4dbc7",
+    "title": "Iron Herald Hand Size",
+    "description": "Starting hand size for Iron Herald class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 7,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.746Z",
+    "updatedAt": "2026-04-02T18:26:56.746Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_herald_hand_size",
+    "value": 7
+  },
+  {
+    "id": "5bb4439f-8c84-4368-b3df-679db82a100f",
+    "title": "Class",
+    "description": "Character class label.",
+    "category": "identity",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "Ironclad Samurai",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.314Z",
+    "updatedAt": "2026-04-02T18:26:56.314Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_class",
+    "value": "Ironclad Samurai"
+  },
+  {
+    "id": "5c28dfef-3c6e-49b6-a87c-bafd09714151",
+    "title": "Puppet Binder HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 10.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 10,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.668Z",
+    "updatedAt": "2026-04-02T18:26:56.668Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_puppet_binder_hp_mod",
+    "value": 10
+  },
+  {
+    "id": "5dcb76b4-9df4-4865-ad4d-ba1b8ab68946",
+    "title": "Flesh Shaper Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"the_mender\"\",\"\"the_corruptor\"\",\"\"the_self_shaper\"\"]\""
+    ],
+    "defaultValue": "the_mender",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.661Z",
+    "updatedAt": "2026-04-02T18:26:56.661Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_flesh_shaper_path",
+    "value": "the_mender"
+  },
+  {
+    "id": "5df62455-0024-466b-b705-acb02c03947f",
+    "title": "Diminished Hand Size Modifier",
+    "description": "+2 to starting hand size: exceptional precision handling.",
+    "category": "stat_modifier",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 2,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.486Z",
+    "updatedAt": "2026-04-02T18:26:56.486Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_diminished_hand_size_mod",
+    "value": 2
+  },
+  {
+    "id": "60935d76-5785-452c-acfb-14906434af39",
+    "title": "Chrome Shaper Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"war_shaper\"\",\"\"edge_builder\"\",\"\"resonance_sculptor\"\"]\""
+    ],
+    "defaultValue": "war_shaper",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.576Z",
+    "updatedAt": "2026-04-02T18:26:56.576Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_chrome_shaper_path",
+    "value": "war_shaper"
+  },
+  {
+    "id": "60f71a9e-48fc-4fa0-a4b3-7fd3c2136323",
+    "title": "Active Status List",
+    "description": "Serialized list of active status IDs on this unit.",
+    "category": "status",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.353Z",
+    "updatedAt": "2026-04-02T18:26:56.353Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_status_list",
+    "value": ""
+  },
+  {
+    "id": "61515a8a-0b4f-4d41-bc78-c4dba5eb668b",
+    "title": "Void Walker Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"ghost_operative\"\",\"\"threshold_puller\"\",\"\"anchor_keeper\"\"]\""
+    ],
+    "defaultValue": "ghost_operative",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.636Z",
+    "updatedAt": "2026-04-02T18:26:56.636Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_void_walker_path",
+    "value": "ghost_operative"
+  },
+  {
+    "id": "63e51eb8-8e05-4ed3-a953-73d2075bcd19",
+    "title": "Surge Bonus Damage Dice",
+    "description": "3d6 at level 16 with Between Mastery.",
+    "category": "combat",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "2d6",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.334Z",
+    "updatedAt": "2026-04-02T18:26:56.334Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_surge_bonus_damage_dice",
+    "value": "2d6"
+  },
+  {
+    "id": "648e4de5-f9c9-4764-b3ef-ee823dee76c7",
+    "title": "Monster AP Current",
+    "description": "AP available for card play on current turn.",
+    "category": "combat_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 2,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.344Z",
+    "updatedAt": "2026-04-02T18:26:56.344Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_monster_ap_current",
+    "value": 2
+  },
+  {
+    "id": "652a8bbc-d465-4462-9389-ec2c909ba7ce",
+    "title": "Shadow Daimyo Primary Stats",
+    "description": "Primary stat pair: VEIL and SIGNAL.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "VEIL/SIGNAL",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.701Z",
+    "updatedAt": "2026-04-02T18:26:56.701Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shadow_daimyo_primary_stats",
+    "value": "VEIL/SIGNAL"
+  },
+  {
+    "id": "6546527c-68a7-4fff-b01a-eeaf281cb498",
+    "title": "Command Zone Active",
+    "description": "True when Command Zone is established; enables zone-synergy cards.",
+    "category": "resource",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.755Z",
+    "updatedAt": "2026-04-02T18:26:56.755Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_herald_command_zone_active",
+    "value": false
+  },
+  {
+    "id": "673cc92b-22ef-43aa-ae3b-b0f76367cb39",
+    "title": "Orthodoxy Handler Status",
+    "description": "Tended: has assigned clergy handler. Unregistered: none.",
+    "category": "lore_state",
+    "type": "list",
+    "options": [
+      "\"[\"\"has_handler\"\",\"\"no_handler\"\"]\""
+    ],
+    "defaultValue": "has_handler",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.480Z",
+    "updatedAt": "2026-04-02T18:26:56.480Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_blessed_orthodoxy_handler",
+    "value": "has_handler"
+  },
+  {
+    "id": "684f5722-b0dc-4325-b9d1-1a6bf8fdc15d",
+    "title": "Card 11 Condition",
+    "description": "Player-defined unlock condition for Card 11.",
+    "category": "lore_state",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.863Z",
+    "updatedAt": "2026-04-02T18:26:56.863Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_unnamed_card_11_condition",
+    "value": ""
+  },
+  {
+    "id": "6924cfe5-19f3-4c1c-ab9d-762dc1cb8da7",
+    "title": "Lean Target",
+    "description": "Enhancement-targeting abilities deal half effect: Overheat, Silence via enhancement disruption, augmentation-specific effects.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.491Z",
+    "updatedAt": "2026-04-02T18:26:56.491Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_diminished_lean_target",
+    "value": true
+  },
+  {
+    "id": "69b0dcb6-2e0d-4a73-9dd7-08f52fbb9e3c",
+    "title": "Fracture Knight Hand Size",
+    "description": "Starting hand size for Fracture Knight class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 7,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.804Z",
+    "updatedAt": "2026-04-02T18:26:56.804Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_fracture_knight_hand_size",
+    "value": 7
+  },
+  {
+    "id": "69b38d8a-d039-4949-90c2-a61cef0b2e02",
+    "title": "Sutensai Attention",
+    "description": "Monitored by Iron Sutra priesthood; Orthodoxy knows location, contacts, and public actions.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.467Z",
+    "updatedAt": "2026-04-02T18:26:56.467Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_blessed_sutensai_attention",
+    "value": true
+  },
+  {
+    "id": "6bbf388a-f52c-4c81-9bfc-be5753a808f8",
+    "title": "Unarmed Damage Die",
+    "description": "Raised to 1d6 when Reinforced Limb is active.",
+    "category": "combat",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "1d4",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.304Z",
+    "updatedAt": "2026-04-02T18:26:56.304Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_unarmed_damage_die",
+    "value": "1d4"
+  },
+  {
+    "id": "6be5d952-e9fd-499f-8992-bf0ac13af921",
+    "title": "Monster Tier",
+    "description": "minion, standard, elite, boss.",
+    "category": "combat_ai",
+    "type": "list",
+    "options": [
+      "\"[\"\"minion\"\",\"\"standard\"\",\"\"elite\"\",\"\"boss\"\"]\""
+    ],
+    "defaultValue": "standard",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.341Z",
+    "updatedAt": "2026-04-02T18:26:56.341Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_monster_tier",
+    "value": "standard"
+  },
+  {
+    "id": "6c01fbe1-924a-4c39-868e-9a786c0af3a2",
+    "title": "Assembly Provenance",
+    "description": "Tracker of component origins; player may track detailed sourcing.",
+    "category": "lore_state",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "mixed_sources",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.441Z",
+    "updatedAt": "2026-04-02T18:26:56.441Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_stitched_assembly_provenance",
+    "value": "mixed_sources"
+  },
+  {
+    "id": "6c3ce679-3467-449a-ac9d-f3ed700dd88e",
+    "title": "Spine-Speak Competency",
+    "description": "Can communicate with other Iron Blessed through formation vibrations; private undecoded language.",
+    "category": "lore_state",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.478Z",
+    "updatedAt": "2026-04-02T18:26:56.478Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_blessed_spine_speak",
+    "value": true
+  },
+  {
+    "id": "6d0b7ac9-a10d-4412-8b36-b8e1064c4784",
+    "title": "Digital Navigation",
+    "description": "In Wire Craft environments: perfect navigation, cannot be disoriented, perfect data-path retracing.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.420Z",
+    "updatedAt": "2026-04-02T18:26:56.420Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_wireborn_digital_navigation",
+    "value": true
+  },
+  {
+    "id": "6d47ecae-73b8-45e5-afb0-960523394f95",
+    "title": "Grief Stacks",
+    "description": "Accumulated grief resonance; scales certain high-tier abilities.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.610Z",
+    "updatedAt": "2026-04-02T18:26:56.610Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_echo_speaker_grief_stacks",
+    "value": 0
+  },
+  {
+    "id": "6e4f1184-2f84-4a26-a7c6-d7919ea18915",
+    "title": "Biological Acuity",
+    "description": "+2 RESONANCE to read people/places/events; cannot be surprised by creatures within perception range.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.387Z",
+    "updatedAt": "2026-04-02T18:26:56.387Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_tethered_biological_acuity",
+    "value": true
+  },
+  {
+    "id": "6fef8feb-6481-488d-b194-881c475cc553",
+    "title": "Dissolution Resonance",
+    "description": "Accumulated dissolution resonance; enables certain high-tier abilities.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.538Z",
+    "updatedAt": "2026-04-02T18:26:56.538Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_oni_hunter_dissolution_resonance",
+    "value": 0
+  },
+  {
+    "id": "70a6baf0-8f9a-4992-9e4a-21c4175fc859",
+    "title": "Echoed Resonance Bonus",
+    "description": "Permanent +1 RESONANCE bonus from Echoed heritage.",
+    "category": "stat_modifier",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.396Z",
+    "updatedAt": "2026-04-02T18:26:56.396Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_echoed_resonance_bonus",
+    "value": 1
+  },
+  {
+    "id": "70c7c41b-6aa0-4ab9-987b-4e0b72b0811a",
+    "title": "Merchant Knife Hand Size",
+    "description": "Starting hand size for Merchant Knife class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 7,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.730Z",
+    "updatedAt": "2026-04-02T18:26:56.730Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_merchant_knife_hand_size",
+    "value": 7
+  },
+  {
+    "id": "729c644d-4fae-4723-9217-373e8dac2c7d",
+    "title": "Binding Threads",
+    "description": "Number of currently bound targets.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.672Z",
+    "updatedAt": "2026-04-02T18:26:56.672Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_puppet_binder_binding_threads",
+    "value": 0
+  },
+  {
+    "id": "74bd3128-40f1-436e-84ab-f254faab2c2a",
+    "title": "Shell Dancer HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 10.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 10,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.793Z",
+    "updatedAt": "2026-04-02T18:26:56.793Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shell_dancer_hp_mod",
+    "value": 10
+  },
+  {
+    "id": "74f10670-20bf-4eaa-95e8-7d147e91f56d",
+    "title": "Card 9 Condition",
+    "description": "Player-defined unlock condition for Card 9.",
+    "category": "lore_state",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.859Z",
+    "updatedAt": "2026-04-02T18:26:56.859Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_unnamed_card_9_condition",
+    "value": ""
+  },
+  {
+    "id": "7605a0ad-9446-4345-badd-3a314411eaf7",
+    "title": "Ashfoot Primary Stats",
+    "description": "Primary stat pair: EDGE and IRON.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "EDGE/IRON",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.512Z",
+    "updatedAt": "2026-04-02T18:26:56.512Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_ashfoot_primary_stats",
+    "value": "EDGE/IRON"
+  },
+  {
+    "id": "7815750b-607c-48cc-822d-cba431ce800a",
+    "title": "Shellbroken Frame Bonus",
+    "description": "Permanent +1 FRAME bonus from Shellbroken heritage.",
+    "category": "stat_modifier",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.443Z",
+    "updatedAt": "2026-04-02T18:26:56.443Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shellbroken_frame_bonus",
+    "value": 1
+  },
+  {
+    "id": "7aea660d-2843-4f1b-870a-c4bee9a1e9ee",
+    "title": "Pulse Caller HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 6 (Technical tier).",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 6,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.582Z",
+    "updatedAt": "2026-04-02T18:26:56.582Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_pulse_caller_hp_mod",
+    "value": 6
+  },
+  {
+    "id": "7b4b4622-690d-4b26-b7ed-21860b40ba3c",
+    "title": "Fracture Knight HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 12.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 12,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.808Z",
+    "updatedAt": "2026-04-02T18:26:56.808Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_fracture_knight_hp_mod",
+    "value": 12
+  },
+  {
+    "id": "7c9cd75e-2b83-4b8a-9cfd-1fcd47cb3635",
+    "title": "No Fear of the Crossing",
+    "description": "Frightened and morale-break effects have no mechanical effect; narrative fear persists.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.407Z",
+    "updatedAt": "2026-04-02T18:26:56.407Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_echoed_no_fear_crossing",
+    "value": true
+  },
+  {
+    "id": "80525b19-08da-40d6-9562-1abe44edc1d6",
+    "title": "Void Walker HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 6 (Technical tier).",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 6,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.621Z",
+    "updatedAt": "2026-04-02T18:26:56.621Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_void_walker_hp_mod",
+    "value": 6
+  },
+  {
+    "id": "813c6c34-05c6-4bf3-a594-1984bf49472f",
+    "title": "Forged Heritage",
+    "description": "Heritage branch: Ironhold, Wire Market, Ashlands, Unaligned.",
+    "category": "identity",
+    "type": "list",
+    "options": [
+      "\"[\"\"Ironhold\"\",\"\"Wire Market\"\",\"\"Ashlands\"\",\"\"Unaligned\"\"]\""
+    ],
+    "defaultValue": "Unaligned",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.292Z",
+    "updatedAt": "2026-04-02T18:26:56.292Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_heritage",
+    "value": "Unaligned"
+  },
+  {
+    "id": "814709c3-dd8a-4e23-b1f7-5a71b6335503",
+    "title": "Hollow Path",
+    "description": "Selected subclass path: The Empty (pure resonance) or The Shell (machine-dominant).",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"the_empty\"\",\"\"the_shell\"\"]\""
+    ],
+    "defaultValue": "the_empty",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.694Z",
+    "updatedAt": "2026-04-02T18:26:56.694Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_hollow_path",
+    "value": "the_empty"
+  },
+  {
+    "id": "81b9c76b-750e-4a05-b23a-702617dea4ca",
+    "title": "Vessel Active",
+    "description": "True when an active bound vessel exists.",
+    "category": "resource",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.670Z",
+    "updatedAt": "2026-04-02T18:26:56.670Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_puppet_binder_vessel_active",
+    "value": false
+  },
+  {
+    "id": "82331d54-42f8-416d-9f37-c280c7898697",
+    "title": "Tethered Resonance Bonus",
+    "description": "Permanent +1 RESONANCE bonus from Tethered heritage.",
+    "category": "stat_modifier",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.372Z",
+    "updatedAt": "2026-04-02T18:26:56.372Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_tethered_resonance_bonus",
+    "value": 1
+  },
+  {
+    "id": "82abbd5e-1aea-48e7-975e-75628a6ae82d",
+    "title": "Unnamed HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 10.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 10,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.822Z",
+    "updatedAt": "2026-04-02T18:26:56.822Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_unnamed_hp_mod",
+    "value": 10
+  },
+  {
+    "id": "8302fa4a-97c1-4ad4-9216-4e99d7b78a76",
+    "title": "Puppet Binder Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"the_architect\"\",\"\"the_possessor\"\",\"\"the_network\"\"]\""
+    ],
+    "defaultValue": "the_architect",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.675Z",
+    "updatedAt": "2026-04-02T18:26:56.675Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_puppet_binder_path",
+    "value": "the_architect"
+  },
+  {
+    "id": "87af0a01-882f-48ed-ace5-0afae0589297",
+    "title": "Integrated Resistance",
+    "description": "Damage resistance selected at character creation.",
+    "category": "defense",
+    "type": "list",
+    "options": [
+      "\"[\"\"bludgeoning\"\",\"\"slashing\"\",\"\"piercing\"\"]\""
+    ],
+    "defaultValue": "bludgeoning",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.293Z",
+    "updatedAt": "2026-04-02T18:26:56.293Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_integrated_resistance",
+    "value": "bludgeoning"
+  },
+  {
+    "id": "8a29aa95-68ff-4994-91eb-70314bb26a6f",
+    "title": "Card 1 Condition",
+    "description": "Player-defined unlock condition for Card 1.",
+    "category": "lore_state",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.829Z",
+    "updatedAt": "2026-04-02T18:26:56.829Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_unnamed_card_1_condition",
+    "value": ""
+  },
+  {
+    "id": "8b19743a-df57-4b32-96ce-ee535b3d99ce",
+    "title": "Iron Endurance Used",
+    "description": "Once-per-long-rest tracker for drop-to-1 effect.",
+    "category": "resource",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.328Z",
+    "updatedAt": "2026-04-02T18:26:56.328Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_endurance_used",
+    "value": false
+  },
+  {
+    "id": "8b490e2d-93e7-4b3e-951e-6e6dd6a41525",
+    "title": "Card 8 Condition",
+    "description": "Player-defined unlock condition for Card 8.",
+    "category": "lore_state",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.856Z",
+    "updatedAt": "2026-04-02T18:26:56.856Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_unnamed_card_8_condition",
+    "value": ""
+  },
+  {
+    "id": "8b80e974-0a51-4b33-9b6e-7d4660f00665",
+    "title": "Integrated Weapon Active",
+    "description": "Pulse arm weapon is integrated into chassis.",
+    "category": "class_core",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.583Z",
+    "updatedAt": "2026-04-02T18:26:56.583Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_pulse_caller_integrated_weapon",
+    "value": true
+  },
+  {
+    "id": "8e2176d1-a09f-45b3-92cf-57fa1d37a1f6",
+    "title": "Augmentation Slot 2",
+    "description": "Secondary augmentation selected at level 5.",
+    "category": "augmentation",
+    "type": "list",
+    "options": [
+      "\"[\"\"none\"\",\"\"reinforced_limb\"\",\"\"optical_suite\"\",\"\"vox_modulator\"\",\"\"subdermal_plating\"\",\"\"neural_accelerator\"\",\"\"intake_filter\"\",\"\"hydraulic_frame\"\"]\""
+    ],
+    "defaultValue": "none",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.297Z",
+    "updatedAt": "2026-04-02T18:26:56.297Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_forged_aug_2",
+    "value": "none"
+  },
+  {
+    "id": "8e53e12a-a9e8-4354-9541-8711b54e86c1",
+    "title": "Echo Speaker Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"sutensai_aligned\"\",\"\"deep_listener\"\",\"\"herald\"\"]\""
+    ],
+    "defaultValue": "sutensai_aligned",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.613Z",
+    "updatedAt": "2026-04-02T18:26:56.613Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_echo_speaker_path",
+    "value": "sutensai_aligned"
+  },
+  {
+    "id": "8e6afe81-6916-4e5d-a3e0-33d8248830e2",
+    "title": "Card 3 Condition",
+    "description": "Player-defined unlock condition for Card 3.",
+    "category": "lore_state",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.837Z",
+    "updatedAt": "2026-04-02T18:26:56.837Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_unnamed_card_3_condition",
+    "value": ""
+  },
+  {
+    "id": "8f48f8b6-a5b6-47e5-9342-e798000066ba",
+    "title": "Merchant Knife Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"supply_cutter\"\",\"\"gilded_blade\"\",\"\"kingmaker\"\"]\""
+    ],
+    "defaultValue": "supply_cutter",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.742Z",
+    "updatedAt": "2026-04-02T18:26:56.742Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_merchant_knife_path",
+    "value": "supply_cutter"
+  },
+  {
+    "id": "8ff3169d-d08a-4b76-8619-7335b7943b50",
+    "title": "Hollow Hand Size",
+    "description": "Starting hand size for The Hollow class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 6,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.688Z",
+    "updatedAt": "2026-04-02T18:26:56.688Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_hollow_hand_size",
+    "value": 6
+  },
+  {
+    "id": "905006df-ce4c-4b9f-8418-1cf357e3b39b",
+    "title": "Sutensai Primary Stats",
+    "description": "Primary stat pair: RESONANCE and VEIL.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "RESONANCE/VEIL",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.640Z",
+    "updatedAt": "2026-04-02T18:26:56.640Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_sutensai_primary_stats",
+    "value": "RESONANCE/VEIL"
+  },
+  {
+    "id": "918dfe28-fbe4-46db-9cbd-42dbba8b4e83",
+    "title": "Echoed Edge Bonus",
+    "description": "Permanent +1 EDGE bonus from Echoed heritage.",
+    "category": "stat_modifier",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.398Z",
+    "updatedAt": "2026-04-02T18:26:56.398Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_echoed_edge_bonus",
+    "value": 1
+  },
+  {
+    "id": "924c99b3-8704-4eaa-bf84-76031c6163ed",
+    "title": "Monster Role",
+    "description": "Archetypal role: skirmisher, brute, controller, support, boss.",
+    "category": "combat_ai",
+    "type": "list",
+    "options": [
+      "\"[\"\"skirmisher\"\",\"\"brute\"\",\"\"controller\"\",\"\"support\"\",\"\"boss\"\"]\""
+    ],
+    "defaultValue": "skirmisher",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.339Z",
+    "updatedAt": "2026-04-02T18:26:56.339Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_monster_role",
+    "value": "skirmisher"
+  },
+  {
+    "id": "928911ce-5a39-4056-8516-06da7d04213d",
+    "title": "Shadow Daimyo Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"spymaster\"\",\"\"court_blade\"\",\"\"broker\"\"]\""
+    ],
+    "defaultValue": "spymaster",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.710Z",
+    "updatedAt": "2026-04-02T18:26:56.710Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shadow_daimyo_path",
+    "value": "spymaster"
+  },
+  {
+    "id": "9484c0b8-0217-4f1d-ab5a-03a5549146fd",
+    "title": "Shell Step Turns Remaining",
+    "description": "Turns remaining in Shell Step state.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.800Z",
+    "updatedAt": "2026-04-02T18:26:56.800Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shell_dancer_shell_step_turns",
+    "value": 0
+  },
+  {
+    "id": "9582309e-46ea-43af-a48a-2812c1b3fe73",
+    "title": "Hollow Author Connection",
+    "description": "Residual connectivity to Hollow Author's network; non-control, may sometimes receive or push back transmissions.",
+    "category": "lore_state",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.453Z",
+    "updatedAt": "2026-04-02T18:26:56.453Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shellbroken_hollow_author_connection",
+    "value": true
+  },
+  {
+    "id": "98cff572-8e6d-4c2c-9bbf-24d83f16356f",
+    "title": "Sutensai Hand Size",
+    "description": "Starting hand size for Sutensai class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 7,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.638Z",
+    "updatedAt": "2026-04-02T18:26:56.638Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_sutensai_hand_size",
+    "value": 7
+  },
+  {
+    "id": "99132410-9edf-479b-a3f8-7fc2cdba045e",
+    "title": "Identity Tokens",
+    "description": "Player-constructed explicit values and principles defining identity; built between sessions.",
+    "category": "lore_state",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.454Z",
+    "updatedAt": "2026-04-02T18:26:56.454Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shellbroken_identity_tokens",
+    "value": ""
+  },
+  {
+    "id": "9aafead7-0e1e-4490-89f1-f8576095e9a5",
+    "title": "Ronin Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"ascendant_blade\"\",\"\"iron_contract\"\",\"\"returning_blade\"\"]\""
+    ],
+    "defaultValue": "ascendant_blade",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.507Z",
+    "updatedAt": "2026-04-02T18:26:56.507Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_ronin_path",
+    "value": "ascendant_blade"
+  },
+  {
+    "id": "9ae6d0e1-abd1-419b-8247-f2027f6b0e99",
+    "title": "Chassis Memory Window Hours",
+    "description": "Memory recall window from Chassis Memory.",
+    "category": "utility",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 24,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.313Z",
+    "updatedAt": "2026-04-02T18:26:56.313Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_chassis_memory_window_hours",
+    "value": 24
+  },
+  {
+    "id": "9bbb10c9-d5cc-4d2d-8951-e4d0e0f15bb7",
+    "title": "Perfect Kata Used",
+    "description": "Once-per-long-rest tracker.",
+    "category": "resource",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.325Z",
+    "updatedAt": "2026-04-02T18:26:56.325Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_perfect_kata_used",
+    "value": false
+  },
+  {
+    "id": "9c25a9c2-9ac7-48c1-8d22-78d504f22fd9",
+    "title": "Void Walker Hand Size",
+    "description": "Starting hand size for Void Walker class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 7,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.616Z",
+    "updatedAt": "2026-04-02T18:26:56.616Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_void_walker_hand_size",
+    "value": 7
+  },
+  {
+    "id": "9d250fec-ddcd-48f8-9512-89f444b2c80e",
+    "title": "Card 13 Condition",
+    "description": "Player-defined unlock condition for Card 13.",
+    "category": "lore_state",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.868Z",
+    "updatedAt": "2026-04-02T18:26:56.868Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_unnamed_card_13_condition",
+    "value": ""
+  },
+  {
+    "id": "a1ee4f95-f749-4b3a-9746-d936996be5c6",
+    "title": "Pulse Caller Primary Stats",
+    "description": "Primary stat pair: SIGNAL and RESONANCE.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "SIGNAL/RESONANCE",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.580Z",
+    "updatedAt": "2026-04-02T18:26:56.580Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_pulse_caller_primary_stats",
+    "value": "SIGNAL/RESONANCE"
+  },
+  {
+    "id": "a229258f-fb25-4918-b3cc-b415af0daef0",
+    "title": "Formation Locations",
+    "description": "Player-defined resonant metal formation sites on body; individual as fingerprints.",
+    "category": "appearance",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "player_defined",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.470Z",
+    "updatedAt": "2026-04-02T18:26:56.470Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_blessed_formation_locations",
+    "value": "player_defined"
+  },
+  {
+    "id": "a231b741-b5b0-44e3-80d7-fd5ba2c32a6e",
+    "title": "Echo Speaker HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 6 (Technical tier).",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 6,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.605Z",
+    "updatedAt": "2026-04-02T18:26:56.605Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_echo_speaker_hp_mod",
+    "value": 6
+  },
+  {
+    "id": "a2acc3a1-49bb-4ded-a0e0-bd11428ce867",
+    "title": "Between State Active",
+    "description": "True when character is in Between philosophical state; enables state-conditional bonuses.",
+    "category": "resource",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.596Z",
+    "updatedAt": "2026-04-02T18:26:56.596Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_monk_between_state",
+    "value": false
+  },
+  {
+    "id": "a2b3d4af-18f9-407f-83a8-59d7a7d6d363",
+    "title": "Active Stat",
+    "description": "Current dominant stat for this combat; can shift with play.",
+    "category": "resource",
+    "type": "list",
+    "options": [
+      "\"[\"\"IRON\"\",\"\"EDGE\"\",\"\"SIGNAL\"\",\"\"RESONANCE\"\",\"\"VEIL\"\",\"\"FRAME\"\"]\""
+    ],
+    "defaultValue": "IRON",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.824Z",
+    "updatedAt": "2026-04-02T18:26:56.824Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_unnamed_active_stat",
+    "value": "IRON"
+  },
+  {
+    "id": "a43801b0-aa91-4e71-ba53-7723ed7e74d1",
+    "title": "Reaction Card Used",
+    "description": "Optional once-per-round reaction limiter.",
+    "category": "combat_core",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.351Z",
+    "updatedAt": "2026-04-02T18:26:56.351Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_monster_reaction_card_used",
+    "value": false
+  },
+  {
+    "id": "a4c8b450-4857-4372-aa07-5e99228ba442",
+    "title": "Deep School Training",
+    "description": "Trained through apprenticeship networks covering craft, political knowledge, and moral frameworks.",
+    "category": "lore_state",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.495Z",
+    "updatedAt": "2026-04-02T18:26:56.495Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_diminished_deep_school",
+    "value": true
+  },
+  {
+    "id": "a53bbfb9-883c-4aae-a6ee-eb6667187ce0",
+    "title": "Echo Speaker Hand Size",
+    "description": "Starting hand size for Echo Speaker class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 7,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.601Z",
+    "updatedAt": "2026-04-02T18:26:56.601Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_echo_speaker_hand_size",
+    "value": 7
+  },
+  {
+    "id": "a6a05cd4-6d65-4c87-becc-62ccd15c498a",
+    "title": "Max HP",
+    "description": "Character's maximum hit points.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 20,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.268Z",
+    "updatedAt": "2026-04-02T18:26:56.268Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_max_hp",
+    "value": 20
+  },
+  {
+    "id": "a8245fd6-7914-4dc2-a8ed-c2c985a22776",
+    "title": "Iron Afterlife Awareness",
+    "description": "Sense recently dead Echominds within 30 feet: presence, count, timing from last 24 hours.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.404Z",
+    "updatedAt": "2026-04-02T18:26:56.404Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_echoed_afterlife_awareness",
+    "value": true
+  },
+  {
+    "id": "a8b0bfa7-9ec5-4b59-850a-f7a9128f6bce",
+    "title": "Flesh Shaper HP Tier",
+    "description": "Tracks HP tier for tier-conditional card scaling.",
+    "category": "resource",
+    "type": "list",
+    "options": [
+      "\"[\"\"full\"\",\"\"wounded\"\",\"\"critical\"\"]\""
+    ],
+    "defaultValue": "full",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.659Z",
+    "updatedAt": "2026-04-02T18:26:56.659Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_flesh_shaper_hp_tier",
+    "value": "full"
+  },
+  {
+    "id": "aa7d26d2-7971-431d-bd90-75e151c34957",
+    "title": "Blood Smith Hand Size",
+    "description": "Starting hand size for Blood Smith class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 6,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.677Z",
+    "updatedAt": "2026-04-02T18:26:56.677Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_blood_smith_hand_size",
+    "value": 6
+  },
+  {
+    "id": "abf68d63-6da9-4b68-89f9-f607fb29093d",
+    "title": "Card 7 Condition",
+    "description": "Player-defined unlock condition for Card 7.",
+    "category": "lore_state",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.854Z",
+    "updatedAt": "2026-04-02T18:26:56.854Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_unnamed_card_7_condition",
+    "value": ""
+  },
+  {
+    "id": "ac28ae0b-5c3f-44f4-88f1-01b01f0ff950",
+    "title": "Darkvision Range",
+    "description": "60 or 90 extension when Optical Suite is active.",
+    "category": "senses",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.305Z",
+    "updatedAt": "2026-04-02T18:26:56.305Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_darkvision_range",
+    "value": 0
+  },
+  {
+    "id": "ae6da36f-2fb7-433c-8058-6f8dfc399705",
+    "title": "Blood Smith HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 14 (Martial tier).",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 14,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.681Z",
+    "updatedAt": "2026-04-02T18:26:56.681Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_blood_smith_hp_mod",
+    "value": 14
+  },
+  {
+    "id": "b06ce96b-0e28-48be-a9f1-507d39b621ee",
+    "title": "Enhancement Quality",
+    "description": "Quality tier of starting augmentations: salvage, standard, or professional.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "salvage",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.516Z",
+    "updatedAt": "2026-04-02T18:26:56.516Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_ashfoot_enhancement_quality",
+    "value": "salvage"
+  },
+  {
+    "id": "b07844ff-9eda-47e3-ad2f-6933e01b9d1a",
+    "title": "Status Stacks Map",
+    "description": "Serialized key/value map of status stack counts.",
+    "category": "status",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.354Z",
+    "updatedAt": "2026-04-02T18:26:56.354Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_status_stacks_map",
+    "value": ""
+  },
+  {
+    "id": "b098f3b5-4abd-4662-8743-4edcca60f683",
+    "title": "Hollow Primary Stats",
+    "description": "Primary stat pair: RESONANCE and FRAME.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "RESONANCE/FRAME",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.690Z",
+    "updatedAt": "2026-04-02T18:26:56.690Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_hollow_primary_stats",
+    "value": "RESONANCE/FRAME"
+  },
+  {
+    "id": "b297fb8a-cdad-46e6-bb29-316421fbb7fe",
+    "title": "Wireborn Signal Bonus",
+    "description": "Permanent +2 SIGNAL bonus from Wireborn heritage.",
+    "category": "stat_modifier",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 2,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.413Z",
+    "updatedAt": "2026-04-02T18:26:56.413Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_wireborn_signal_bonus",
+    "value": 2
+  },
+  {
+    "id": "b3f5afa7-22d1-4f9d-821f-5d6f2e1e95e3",
+    "title": "Drift State",
+    "description": "Biological/mechanical adaptations developed over time through play.",
+    "category": "lore_state",
+    "type": "list",
+    "options": [
+      "\"[\"\"none\"\",\"\"biological_lean\"\",\"\"mechanical_lean\"\",\"\"convergent\"\"]\""
+    ],
+    "defaultValue": "none",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.436Z",
+    "updatedAt": "2026-04-02T18:26:56.436Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_stitched_drift_state",
+    "value": "none"
+  },
+  {
+    "id": "b50aa934-387a-4c7f-98a5-0a3499117d48",
+    "title": "Maintenance State",
+    "description": "Tracks maintenance dependency: serviced or degraded.",
+    "category": "system",
+    "type": "list",
+    "options": [
+      "\"[\"\"serviced\"\",\"\"degraded\"\"]\""
+    ],
+    "defaultValue": "serviced",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.298Z",
+    "updatedAt": "2026-04-02T18:26:56.298Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_maintenance_state",
+    "value": "serviced"
+  },
+  {
+    "id": "b532c93c-4e09-469e-acf9-6d4ac1ed6b5e",
+    "title": "Monster Basic Attack Used This Turn",
+    "description": "Enforces one free basic attack card per monster turn.",
+    "category": "combat_core",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.345Z",
+    "updatedAt": "2026-04-02T18:26:56.345Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_monster_basic_attack_used_this_turn",
+    "value": false
+  },
+  {
+    "id": "b7b6b31f-78ec-4404-8081-e040b2269331",
+    "title": "Forge Tender HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 10.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 10,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.548Z",
+    "updatedAt": "2026-04-02T18:26:56.548Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_forge_tender_hp_mod",
+    "value": 10
+  },
+  {
+    "id": "b7efcb0c-f4bf-48db-b3c3-7fc91eedd548",
+    "title": "Iron Blessed Hand Size Modifier",
+    "description": "+1 for Tended; -1 for Unregistered. Set at character creation.",
+    "category": "stat_modifier",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.463Z",
+    "updatedAt": "2026-04-02T18:26:56.463Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_blessed_hand_size_mod",
+    "value": 1
+  },
+  {
+    "id": "b924d502-8fa8-46ef-a9b6-ac96cacfff27",
+    "title": "Shadow Daimyo HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 10.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 10,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.704Z",
+    "updatedAt": "2026-04-02T18:26:56.704Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shadow_daimyo_hp_mod",
+    "value": 10
+  },
+  {
+    "id": "b9846a4d-68c3-45a8-8e2b-8c889f2ae03f",
+    "title": "Community Dependent",
+    "description": "Character draws power and knowledge from community relationships.",
+    "category": "class_core",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.552Z",
+    "updatedAt": "2026-04-02T18:26:56.552Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_forge_tender_community_dependent",
+    "value": true
+  },
+  {
+    "id": "ba243fb9-b07b-439a-b9bb-e2dd484a4131",
+    "title": "Ashfoot Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"skirmish_specialist\"\",\"\"formation_anchor\"\",\"\"salvage_innovator\"\"]\""
+    ],
+    "defaultValue": "skirmish_specialist",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.518Z",
+    "updatedAt": "2026-04-02T18:26:56.518Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_ashfoot_path",
+    "value": "skirmish_specialist"
+  },
+  {
+    "id": "bbef1709-273b-462e-b50f-9e14718445d2",
+    "title": "Oni Hunter Hand Size",
+    "description": "Starting hand size for Oni Hunter class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 6,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.530Z",
+    "updatedAt": "2026-04-02T18:26:56.530Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_oni_hunter_hand_size",
+    "value": 6
+  },
+  {
+    "id": "bc835590-3437-4227-83e1-1d4bc2d7e891",
+    "title": "Shell Dancer Primary Stats",
+    "description": "Primary stat pair: EDGE and RESONANCE.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "EDGE/RESONANCE",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.791Z",
+    "updatedAt": "2026-04-02T18:26:56.791Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shell_dancer_primary_stats",
+    "value": "EDGE/RESONANCE"
+  },
+  {
+    "id": "bcfdfb55-f9e6-49d7-820b-afaaa11a72da",
+    "title": "Void Walker Primary Stats",
+    "description": "Primary stat pair: RESONANCE and EDGE.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "RESONANCE/EDGE",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.618Z",
+    "updatedAt": "2026-04-02T18:26:56.618Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_void_walker_primary_stats",
+    "value": "RESONANCE/EDGE"
+  },
+  {
+    "id": "bd0d2e46-7c0e-4fb4-8a7c-a8a7e422e84d",
+    "title": "Resonance Keepers Aligned",
+    "description": "Character is aligned with the Iron Sutra Resonance Keepers faction.",
+    "category": "class_core",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.550Z",
+    "updatedAt": "2026-04-02T18:26:56.550Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_forge_tender_resonance_keepers",
+    "value": false
+  },
+  {
+    "id": "bdf6abb4-1824-4f4e-8ad4-74ca06b140bc",
+    "title": "Species",
+    "description": "Character species label.",
+    "category": "identity",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "Forged",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.289Z",
+    "updatedAt": "2026-04-02T18:26:56.289Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_species",
+    "value": "Forged"
+  },
+  {
+    "id": "be70e2ad-f86a-40d9-9d3f-9022e6d72af3",
+    "title": "Stitched Hand Size Modifier",
+    "description": "No hand size modifier from Stitched heritage.",
+    "category": "stat_modifier",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.428Z",
+    "updatedAt": "2026-04-02T18:26:56.428Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_stitched_hand_size_mod",
+    "value": 0
+  },
+  {
+    "id": "bfc8acfb-fce1-4e30-9106-7fead2fbe655",
+    "title": "Iron Monk Hand Size",
+    "description": "Starting hand size for Iron Monk class (smallest in system).",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 5,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.589Z",
+    "updatedAt": "2026-04-02T18:26:56.589Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_monk_hand_size",
+    "value": 5
+  },
+  {
+    "id": "c00dba1d-7800-47f0-bf2d-c685b96038a4",
+    "title": "Vein Discipline L1",
+    "description": "Between Stance or Iron Breath.",
+    "category": "class_core",
+    "type": "list",
+    "options": [
+      "\"[\"\"between_stance\"\",\"\"iron_breath\"\"]\""
+    ],
+    "defaultValue": "between_stance",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.319Z",
+    "updatedAt": "2026-04-02T18:26:56.319Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_vein_discipline_lvl1",
+    "value": "between_stance"
+  },
+  {
+    "id": "c1fc9cd1-89f7-45ee-8421-df9484dbead3",
+    "title": "Curse Eater Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"purifier\"\",\"\"conduit\"\",\"\"the_consumed\"\"]\""
+    ],
+    "defaultValue": "purifier",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.784Z",
+    "updatedAt": "2026-04-02T18:26:56.784Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_curse_eater_path",
+    "value": "purifier"
+  },
+  {
+    "id": "c4f4eece-2c99-4ea7-b0fe-cb9327db12f2",
+    "title": "Card Play Locked",
+    "description": "Prevents play when outside valid turn state.",
+    "category": "combat_core",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.288Z",
+    "updatedAt": "2026-04-02T18:26:56.288Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_card_play_locked",
+    "value": false
+  },
+  {
+    "id": "c52da715-8530-4339-8ad8-4993378b55d5",
+    "title": "Below Half HP Bonus Active",
+    "description": "Tracks below-half-HP bonus state for scaling abilities.",
+    "category": "resource",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.598Z",
+    "updatedAt": "2026-04-02T18:26:56.598Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_monk_below_half_bonus",
+    "value": false
+  },
+  {
+    "id": "c584bc43-b1ef-41d5-8c0e-41535115730c",
+    "title": "Guard Value",
+    "description": "Flat damage prevention from Guard-family effects.",
+    "category": "status_derived",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.358Z",
+    "updatedAt": "2026-04-02T18:26:56.358Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_guard_value",
+    "value": 0
+  },
+  {
+    "id": "c605bcb6-c693-4ccb-b815-f1dcd7ea381a",
+    "title": "Shell Dancer Hand Size",
+    "description": "Starting hand size for Shell Dancer class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 7,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.789Z",
+    "updatedAt": "2026-04-02T18:26:56.789Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shell_dancer_hand_size",
+    "value": 7
+  },
+  {
+    "id": "c77f4072-5bda-4167-843f-4babd4fd44ac",
+    "title": "Basic Attack Used This Turn",
+    "description": "Enforces one free basic attack per turn.",
+    "category": "combat_core",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.285Z",
+    "updatedAt": "2026-04-02T18:26:56.285Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_basic_attack_used_this_turn",
+    "value": false
+  },
+  {
+    "id": "c7a0f0a9-d548-4487-8c4f-e169eb98149b",
+    "title": "Preconscious Fire Active",
+    "description": "Enables reaction-speed preconscious firing when unlocked.",
+    "category": "resource",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.586Z",
+    "updatedAt": "2026-04-02T18:26:56.586Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_pulse_caller_preconscious_fire",
+    "value": false
+  },
+  {
+    "id": "c9de0d23-1e6b-4d5b-b054-8b9aed45c2ee",
+    "title": "Status Duration Map",
+    "description": "Serialized key/value map of remaining turn durations.",
+    "category": "status",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.356Z",
+    "updatedAt": "2026-04-02T18:26:56.356Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_status_duration_map",
+    "value": ""
+  },
+  {
+    "id": "ca5cbef1-1267-40be-bdc6-75651019acd5",
+    "title": "Ronin Hand Size",
+    "description": "Starting hand size for Ronin class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 6,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.498Z",
+    "updatedAt": "2026-04-02T18:26:56.498Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_ronin_hand_size",
+    "value": 6
+  },
+  {
+    "id": "cc252a74-507b-417f-862b-6eb8f1aa78f6",
+    "title": "Signal Vulnerability",
+    "description": "Silence effects last 1 additional turn; structural weakness, cannot be suppressed.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.419Z",
+    "updatedAt": "2026-04-02T18:26:56.419Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_wireborn_signal_vulnerability",
+    "value": true
+  },
+  {
+    "id": "cd71f9bb-f0ab-48bc-be8d-e7f2f7811ae4",
+    "title": "Echoed Hand Size Modifier",
+    "description": "+1 to starting hand size.",
+    "category": "stat_modifier",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.400Z",
+    "updatedAt": "2026-04-02T18:26:56.400Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_echoed_hand_size_mod",
+    "value": 1
+  },
+  {
+    "id": "cdb56a5e-9d29-4f56-83e1-374a598e527c",
+    "title": "Echo Speaker Primary Stats",
+    "description": "Primary stat pair: RESONANCE and VEIL.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "RESONANCE/VEIL",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.603Z",
+    "updatedAt": "2026-04-02T18:26:56.603Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_echo_speaker_primary_stats",
+    "value": "RESONANCE/VEIL"
+  },
+  {
+    "id": "ce8ed086-fe17-49ae-a6b7-cd1410762126",
+    "title": "Carried Things Present",
+    "description": "Tracks emotional echoes from other consciousnesses encountered in the Afterlife.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.411Z",
+    "updatedAt": "2026-04-02T18:26:56.411Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_echoed_carried_things",
+    "value": true
+  },
+  {
+    "id": "cf156aa8-a489-4dcb-9047-f7d2895d4f66",
+    "title": "Iron Herald Primary Stats",
+    "description": "Primary stat pair: IRON and VEIL.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "IRON/VEIL",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.750Z",
+    "updatedAt": "2026-04-02T18:26:56.750Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_herald_primary_stats",
+    "value": "IRON/VEIL"
+  },
+  {
+    "id": "cf20c5f1-aab0-4829-8976-e2d8adf496c1",
+    "title": "Merchant Knife Primary Stats",
+    "description": "Primary stat pair: VEIL and EDGE.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "VEIL/EDGE",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.734Z",
+    "updatedAt": "2026-04-02T18:26:56.734Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_merchant_knife_primary_stats",
+    "value": "VEIL/EDGE"
+  },
+  {
+    "id": "d15b9d6b-8b78-4739-80c7-4ab890a94a00",
+    "title": "Pulse Caller Hand Size",
+    "description": "Starting hand size for Pulse Caller class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 7,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.578Z",
+    "updatedAt": "2026-04-02T18:26:56.578Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_pulse_caller_hand_size",
+    "value": 7
+  },
+  {
+    "id": "d353918b-baf0-465b-bc46-0aff67025943",
+    "title": "Formation Pain Acute",
+    "description": "Tracks active acute pain phase; set by GM during stress events or growth phases.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.481Z",
+    "updatedAt": "2026-04-02T18:26:56.481Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_blessed_pain_acute",
+    "value": false
+  },
+  {
+    "id": "d4199608-0ba8-4405-9bd7-69056d4a50b5",
+    "title": "Afterlife Affinity",
+    "description": "Character has permanent attunement to Iron Afterlife energies.",
+    "category": "class_core",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.607Z",
+    "updatedAt": "2026-04-02T18:26:56.607Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_echo_speaker_afterlife_affinity",
+    "value": true
+  },
+  {
+    "id": "d5c48ca5-f2fc-4bb9-9c4b-3658e95519d5",
+    "title": "Iron Blessed Resonance Bonus",
+    "description": "Permanent +2 RESONANCE bonus from Iron Blessed heritage.",
+    "category": "stat_modifier",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 2,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.460Z",
+    "updatedAt": "2026-04-02T18:26:56.460Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_blessed_resonance_bonus",
+    "value": 2
+  },
+  {
+    "id": "d73cc1be-bc64-4a8b-bb62-7053aeacc6cb",
+    "title": "Veilblade Primary Stats",
+    "description": "Primary stat pair: EDGE and SIGNAL.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "EDGE/SIGNAL",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.522Z",
+    "updatedAt": "2026-04-02T18:26:56.522Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_veilblade_primary_stats",
+    "value": "EDGE/SIGNAL"
+  },
+  {
+    "id": "d7e4f58c-3f21-4165-942b-083dc7e07f6d",
+    "title": "Augmentation Slot 1",
+    "description": "Primary augmentation selected at level 1.",
+    "category": "augmentation",
+    "type": "list",
+    "options": [
+      "\"[\"\"reinforced_limb\"\",\"\"optical_suite\"\",\"\"vox_modulator\"\",\"\"subdermal_plating\"\",\"\"neural_accelerator\"\",\"\"intake_filter\"\",\"\"hydraulic_frame\"\"]\""
+    ],
+    "defaultValue": "reinforced_limb",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.295Z",
+    "updatedAt": "2026-04-02T18:26:56.295Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_forged_aug_1",
+    "value": "reinforced_limb"
+  },
+  {
+    "id": "d90f37ab-1035-4729-b8d2-242f8b424968",
+    "title": "Formation Luminescence",
+    "description": "Formations glow faintly; intensify in high-resonance environments.",
+    "category": "derived",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.473Z",
+    "updatedAt": "2026-04-02T18:26:56.473Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_blessed_formation_luminescence",
+    "value": true
+  },
+  {
+    "id": "d958ba16-2ad9-41aa-9f86-764fc9885f6d",
+    "title": "Turn Number",
+    "description": "Global or encounter turn counter.",
+    "category": "combat_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.281Z",
+    "updatedAt": "2026-04-02T18:26:56.281Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_turn_number",
+    "value": 0
+  },
+  {
+    "id": "da2abd10-f65d-4d30-9c39-94320ed3209f",
+    "title": "Echomind Reading Level",
+    "description": "Current authorized reading depth; scales with level and path.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.646Z",
+    "updatedAt": "2026-04-02T18:26:56.646Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_sutensai_echomind_reading_level",
+    "value": 1
+  },
+  {
+    "id": "db4229c6-d5aa-4bac-9a42-d1a6e2469f2d",
+    "title": "Command Zone Radius",
+    "description": "Current Command Zone radius in feet; scales with level.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 15,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.761Z",
+    "updatedAt": "2026-04-02T18:26:56.761Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_herald_command_zone_radius",
+    "value": 15
+  },
+  {
+    "id": "dc5f3bde-bcb5-494d-b931-4407ab06c29c",
+    "title": "Reader Authority",
+    "description": "Character holds official Sutensai Echomind reading authority.",
+    "category": "class_core",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.644Z",
+    "updatedAt": "2026-04-02T18:26:56.644Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_sutensai_reader_authority",
+    "value": true
+  },
+  {
+    "id": "dc6dac2d-49ca-4c0a-b05b-b1c0dd94775c",
+    "title": "Resonance Fracture",
+    "description": "Set true when character violates Vein Oath.",
+    "category": "class_core",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.317Z",
+    "updatedAt": "2026-04-02T18:26:56.317Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_resonance_fracture",
+    "value": false
+  },
+  {
+    "id": "ddcf3256-191e-425c-b3ad-334d6184c93e",
+    "title": "Shell Dancer Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"the_breaker\"\",\"\"the_survivor\"\",\"\"the_scavenger\"\"]\""
+    ],
+    "defaultValue": "the_breaker",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.802Z",
+    "updatedAt": "2026-04-02T18:26:56.802Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shell_dancer_path",
+    "value": "the_breaker"
+  },
+  {
+    "id": "e0212dd5-18c9-4691-acec-1d6847055e20",
+    "title": "Unnamed Hand Size",
+    "description": "Starting hand size for The Unnamed class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 7,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.817Z",
+    "updatedAt": "2026-04-02T18:26:56.817Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_unnamed_hand_size",
+    "value": 7
+  },
+  {
+    "id": "e057bcc2-b867-44c1-bee3-b5d125a18b97",
+    "title": "Unclocked",
+    "description": "Fails automatic tech location/tracking unless operator specifically knows the Tethered.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.392Z",
+    "updatedAt": "2026-04-02T18:26:56.392Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_tethered_unclocked",
+    "value": true
+  },
+  {
+    "id": "e0e997be-fbd2-4965-b7fd-21a678be2d18",
+    "title": "Merchant Knife HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 10.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 10,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.738Z",
+    "updatedAt": "2026-04-02T18:26:56.738Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_merchant_knife_hp_mod",
+    "value": 10
+  },
+  {
+    "id": "e1cc0ff2-edf4-471e-8b2f-abe153262a03",
+    "title": "Current HP",
+    "description": "Character's current hit points. Set to max at creation.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 20,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.266Z",
+    "updatedAt": "2026-04-02T18:26:56.266Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_current_hp",
+    "value": 20
+  },
+  {
+    "id": "e8153caf-39d7-4a30-b90d-ae7b52bb02ed",
+    "title": "Shield Temp HP",
+    "description": "Temporary shield pool from shield keywords.",
+    "category": "status_derived",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.368Z",
+    "updatedAt": "2026-04-02T18:26:56.368Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_shield_temp",
+    "value": 0
+  },
+  {
+    "id": "e95358ac-8d62-4d08-95be-e1d70660f67b",
+    "title": "Iron Monk Primary Stats",
+    "description": "Primary stat pair: IRON and RESONANCE.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "IRON/RESONANCE",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.592Z",
+    "updatedAt": "2026-04-02T18:26:56.592Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_monk_primary_stats",
+    "value": "IRON/RESONANCE"
+  },
+  {
+    "id": "e97c7b79-5c5e-49f9-bf17-383d7f31686c",
+    "title": "Card 2 Condition",
+    "description": "Player-defined unlock condition for Card 2.",
+    "category": "lore_state",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.833Z",
+    "updatedAt": "2026-04-02T18:26:56.833Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_unnamed_card_2_condition",
+    "value": ""
+  },
+  {
+    "id": "ea1c4ea8-65f4-4943-aecf-83efdd361a69",
+    "title": "Voice of Debt HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 10.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 10,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.719Z",
+    "updatedAt": "2026-04-02T18:26:56.719Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_voice_of_debt_hp_mod",
+    "value": 10
+  },
+  {
+    "id": "eb818fc6-8dab-4e3f-b4ad-9f76ce141885",
+    "title": "Wireweave Hand Size",
+    "description": "Starting hand size for Wireweave class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 7,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.557Z",
+    "updatedAt": "2026-04-02T18:26:56.557Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_wireweave_hand_size",
+    "value": 7
+  },
+  {
+    "id": "ebb23fab-2bfc-46f3-b2e7-676acf88cbcf",
+    "title": "Marked Target",
+    "description": "Unit is marked for focused interactions.",
+    "category": "status_derived",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.366Z",
+    "updatedAt": "2026-04-02T18:26:56.366Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_marked_target",
+    "value": false
+  },
+  {
+    "id": "ebfb1b2b-c1ae-4ecb-8bac-ba6baa9f6360",
+    "title": "Ashfoot Hand Size",
+    "description": "Starting hand size for Ashfoot class.",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 7,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.510Z",
+    "updatedAt": "2026-04-02T18:26:56.510Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_ashfoot_hand_size",
+    "value": 7
+  },
+  {
+    "id": "ecc23d7e-8f68-4f30-838a-5307d2e6c048",
+    "title": "Resonant Surge Uses",
+    "description": "Uses per short rest, 2 at level 20.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.324Z",
+    "updatedAt": "2026-04-02T18:26:56.324Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_resonant_surge_uses",
+    "value": 1
+  },
+  {
+    "id": "ed38ce3c-587f-4353-b2a8-f7b96924edcb",
+    "title": "Staggered",
+    "description": "Restricts AP or card options while active.",
+    "category": "status_derived",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.361Z",
+    "updatedAt": "2026-04-02T18:26:56.361Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_staggered",
+    "value": false
+  },
+  {
+    "id": "ed82b120-43ad-49b5-9b94-e4fd3a244a27",
+    "title": "Wireweave HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 6 (Technical tier).",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 6,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.563Z",
+    "updatedAt": "2026-04-02T18:26:56.563Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_wireweave_hp_mod",
+    "value": 6
+  },
+  {
+    "id": "ef9ed8a5-b37e-4662-b303-b302f4505d00",
+    "title": "Infrastructure Knowledge",
+    "description": "Detailed knowledge of specific infrastructure systems; player may define specialization area.",
+    "category": "lore_state",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "system_specific",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.496Z",
+    "updatedAt": "2026-04-02T18:26:56.496Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_diminished_infrastructure_knowledge",
+    "value": "system_specific"
+  },
+  {
+    "id": "f168f79c-02cc-4e1b-bbb3-c755efee07db",
+    "title": "Debt Detonations Used",
+    "description": "Count of Debt Detonations triggered this combat; resets per encounter.",
+    "category": "resource",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.723Z",
+    "updatedAt": "2026-04-02T18:26:56.723Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_voice_of_debt_detonations_used",
+    "value": 0
+  },
+  {
+    "id": "f3168ccc-b965-4a58-bb37-f8ab36cc3ce6",
+    "title": "Contract Target",
+    "description": "Current contract target; empty if uncontracted.",
+    "category": "resource",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.509Z",
+    "updatedAt": "2026-04-02T18:26:56.509Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_ronin_contract_target",
+    "value": ""
+  },
+  {
+    "id": "f35bbea3-bd51-47ae-ab15-42518479d36a",
+    "title": "Monster Target Lock",
+    "description": "Current preferred target identifier for AI turn logic.",
+    "category": "combat_ai",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.349Z",
+    "updatedAt": "2026-04-02T18:26:56.349Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_monster_target_lock",
+    "value": ""
+  },
+  {
+    "id": "f38c0e50-2a8a-4a19-8958-1606ae00bfd5",
+    "title": "Resonant Signature State",
+    "description": "Suppressed signature prevents detection by standard resonance scans.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "suppressed",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.525Z",
+    "updatedAt": "2026-04-02T18:26:56.525Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_veilblade_resonant_signature",
+    "value": "suppressed"
+  },
+  {
+    "id": "f4195589-32a5-4bf9-bc2d-dbd71fc7bc41",
+    "title": "Diminished Edge Bonus",
+    "description": "Permanent +1 EDGE bonus from Diminished heritage.",
+    "category": "stat_modifier",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.484Z",
+    "updatedAt": "2026-04-02T18:26:56.484Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_diminished_edge_bonus",
+    "value": 1
+  },
+  {
+    "id": "f4964593-6b06-496b-8de2-772310383e5f",
+    "title": "Quarry Marked",
+    "description": "True when a quarry is actively marked; enables mark-conditional card bonuses.",
+    "category": "resource",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.536Z",
+    "updatedAt": "2026-04-02T18:26:56.536Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_oni_hunter_quarry_marked",
+    "value": false
+  },
+  {
+    "id": "f5036dae-2cbb-433e-ae89-5ad01ef35e78",
+    "title": "Forge Tender Primary Stats",
+    "description": "Primary stat pair: SIGNAL and RESONANCE.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "SIGNAL/RESONANCE",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.546Z",
+    "updatedAt": "2026-04-02T18:26:56.546Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_forge_tender_primary_stats",
+    "value": "SIGNAL/RESONANCE"
+  },
+  {
+    "id": "f679803d-f5b5-40bb-b687-182aef1886f2",
+    "title": "Cards Played This Turn",
+    "description": "Serialized list of card action IDs played this turn.",
+    "category": "combat_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.286Z",
+    "updatedAt": "2026-04-02T18:26:56.286Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_cards_played_this_turn",
+    "value": ""
+  },
+  {
+    "id": "f6da94df-ded4-455f-9fe1-92c2990177ae",
+    "title": "Social Invisibility",
+    "description": "In low-caste/maintenance contexts, institutional systems and high-status NPCs require DC 14 VEIL check to register as meaningful.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.488Z",
+    "updatedAt": "2026-04-02T18:26:56.488Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_diminished_social_invisibility",
+    "value": true
+  },
+  {
+    "id": "f87f8903-fe5c-4517-b1ca-7b3c1615cf59",
+    "title": "Chrome Shaper HP Modifier",
+    "description": "HP formula modifier: FRAME x8 + 6 (Technical tier).",
+    "category": "class_core",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 6,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.572Z",
+    "updatedAt": "2026-04-02T18:26:56.572Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_chrome_shaper_hp_mod",
+    "value": 6
+  },
+  {
+    "id": "fa2ff91e-7c5d-4d0f-8b07-58cabfab62d2",
+    "title": "Frame Specialization",
+    "description": "Skeletal structure denser and more flexible; joints at non-standard angles; lower center of gravity; fine hands.",
+    "category": "derived",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "optimized_for_confined",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.493Z",
+    "updatedAt": "2026-04-02T18:26:56.493Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_diminished_frame_spec",
+    "value": "optimized_for_confined"
+  },
+  {
+    "id": "fac4af11-fed7-4b37-8144-c4b14301bf29",
+    "title": "Forged Resilience Used",
+    "description": "Once-per-long-rest tracker.",
+    "category": "combat",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": false,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.301Z",
+    "updatedAt": "2026-04-02T18:26:56.301Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_forged_resilience_used",
+    "value": false
+  },
+  {
+    "id": "facd8bfd-d097-433c-b1f0-5660fdeeac5f",
+    "title": "Enhancement Status",
+    "description": "Tracks enhancement stress state; scales certain reactions.",
+    "category": "resource",
+    "type": "list",
+    "options": [
+      "\"[\"\"stable\"\",\"\"stressed\"\",\"\"failing\"\"]\""
+    ],
+    "defaultValue": "stable",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.683Z",
+    "updatedAt": "2026-04-02T18:26:56.683Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_blood_smith_enhancement_status",
+    "value": "stable"
+  },
+  {
+    "id": "fb3d07f4-4db4-4386-93fe-dcb9803e52e8",
+    "title": "Chrome Shaper Primary Stats",
+    "description": "Primary stat pair: IRON and SIGNAL.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "IRON/SIGNAL",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.571Z",
+    "updatedAt": "2026-04-02T18:26:56.571Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_chrome_shaper_primary_stats",
+    "value": "IRON/SIGNAL"
+  },
+  {
+    "id": "fba0ca51-e9d9-4db5-88bd-218149f7d1ed",
+    "title": "Fracture Knight Primary Stats",
+    "description": "Primary stat pair: IRON and RESONANCE.",
+    "category": "class_core",
+    "type": "string",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "IRON/RESONANCE",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.806Z",
+    "updatedAt": "2026-04-02T18:26:56.806Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_fracture_knight_primary_stats",
+    "value": "IRON/RESONANCE"
+  },
+  {
+    "id": "ff316aee-cc43-475a-83e5-37887287f7de",
+    "title": "Iron Herald Path",
+    "description": "Selected subclass path.",
+    "category": "subclass",
+    "type": "list",
+    "options": [
+      "\"[\"\"warbanner\"\",\"\"neutral_tongue\"\",\"\"the_signal\"\"]\""
+    ],
+    "defaultValue": "warbanner",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.763Z",
+    "updatedAt": "2026-04-02T18:26:56.763Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_herald_path",
+    "value": "warbanner"
+  },
+  {
+    "id": "ff6dccea-9c0c-4eef-bea6-a62f6bedc8c5",
+    "title": "Unexpected Enhancement Integration",
+    "description": "Cybernetics develop minor resonant properties beyond design; player and GM define one at creation.",
+    "category": "passive",
+    "type": "boolean",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": true,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-02T18:26:56.468Z",
+    "updatedAt": "2026-04-02T18:26:56.468Z",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "attributeId": "attr_iron_blessed_unexpected_integration",
+    "value": true
+  }
+]

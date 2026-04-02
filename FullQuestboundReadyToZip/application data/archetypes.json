@@ -1,0 +1,13 @@
+[
+  {
+    "id": "8db58a34-eb75-4dc0-8bbb-92ffa5cc4217",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "name": "Default",
+    "description": "",
+    "testCharacterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "isDefault": true,
+    "loadOrder": 0,
+    "createdAt": "2026-04-02T18:10:45.240Z",
+    "updatedAt": "2026-04-02T18:10:45.240Z"
+  }
+]

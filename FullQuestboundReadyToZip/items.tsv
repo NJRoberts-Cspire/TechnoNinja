@@ -1,0 +1,120 @@
+id	title	description	category	weight	defaultQuantity	stackSize	isContainer	isStorable	isEquippable	isConsumable	inventoryWidth	inventoryHeight	image	actionIds
+item_ammunition_resonant_bolts	Resonant Bolts (20)	Package of 20 resonant projectiles for signal thrower.	tool	0	1	1	false	true	false	false	1	1		
+item_armor_flesh_reinforced_carapace	Flesh-Reinforced Carapace	Heavy armor integrating biological reinforcement. Specialty grade; requires maintenance.	armor	0	1	1	false	true	true	false	2	3		
+item_armor_full_resonance_carapace	Full Resonance Carapace	Heavy armor of full-body resonant plate. Professional grade.	armor	0	1	1	false	true	true	false	2	3		
+item_armor_resonance_shell	Resonance Shell	Medium-heavy armor of resonant plate with wire-silk undersuit. High quality.	armor	0	1	1	false	true	true	false	2	3		
+item_armor_salvage_patchwork	Salvage Patchwork	Light armor of mismatched resonant components. Basic armor; affordable and field-repairable.	armor	0	1	1	false	true	true	false	2	2		
+item_armor_salvage_plating	Salvage Plating	Medium armor of individual adjustable resonant plates. Professional quality.	armor	0	1	1	false	true	true	false	2	3		
+item_armor_salvage_shell_vest	Salvage Shell Vest	Armor of layered salvage plating with irregular composition. Unpredictable impact deflection; user can repair with common materials.	armor	0	1	1	false	true	true	false	2	2		
+item_armor_second_skin	The Second Skin	Seamless resonant metal robe existing at life-death threshold. Provides Afterlife recognition and temporary incorporeality once per encounter.	armor	0	1	1	false	true	true	false	2	3		
+item_armor_signal_weave	Signal Weave	Light armor of treated non-resonant material. Lower caste standard; concealable.	armor	0	1	1	false	true	true	false	2	2		
+item_armor_standard_resonant_plate	Standard Resonant Plate	Medium armor of quality resonant torso plate. Professional quality.	armor	0	1	1	false	true	true	false	2	3		
+item_armor_void_weave_robe	Void-Weave Robe	Light practitioner armor without restriction. For non-martial bearers; preserves freedom of movement.	armor	0	1	1	false	true	true	false	2	2		
+item_armor_wire_mesh_light	Wire-Mesh Armor (Standard)	Light armor of wire-silk composite with resonant studs. Professional quality light armor.	armor	0	1	1	false	true	true	false	2	2		
+item_artifact_broken_crown	The Broken Crown	Seven shards of a shattered resonant amplifying crown. Bearer senses loyalty states and can issue compelling commands; carries the grief of command's weight.	artifact	0	1	1	false	true	false	false	1	1		
+item_artifact_last_thirty_seconds	The Last Thirty Seconds	A sealed cylinder containing an incomprehensible speech. Bearer gains truth-speaking authority and message broadcast capability; becomes increasingly unable to speak indirectly.	artifact	0	1	1	false	true	false	false	1	1		
+item_artifact_original_face	The Original Face (Hollow Author)	A resonant mask worn by the Author before transformation. Grants Author pattern recognition and access to original identity memories; bearer experiences grief of transformation.	artifact	0	1	1	false	true	false	false	1	1		
+item_artifact_patience_dial	The Patience Dial	A perfect disk rotating once every four hundred years. Bearer gains defensive precision and temporal immunity; loses sense of urgency.	artifact	0	1	1	false	true	false	false	1	1		
+item_artifact_teaching_hand	The Teaching Hand	A resonant gauntlet holding sixty years of teaching knowledge. Enhances instruction and protects students; requires demonstrated teaching experience to activate.	artifact	0	1	1	false	true	false	false	2	1		
+item_artifact_unnamed_fragment	The Unnamed Fragment	A resonant metal shard of impossible age containing the first Echomind resonance. Grants sensory ability and immunity to deception; bearer's memories blur with accumulated impressions.	artifact	0	1	1	false	true	false	false	1	1		
+item_artifact_weeper_remnant	Weeper's Remnant	A necklace of seven dark resonant beads forged from a god's grief. Bearer perceives emotional truth and channels healing tears; carries constant weight of others' suffering.	artifact	0	1	1	false	true	false	false	1	1		
+item_augmentation_afterlife_anchor	Afterlife Anchor	Resonant heart casing providing Echomind anchoring. Prevents possession and soul displacement; reduces Afterlife perception depth.	augmentation	0	1	1	false	true	true	false	1	1		
+item_augmentation_ashfire_knuckles	Ashfire Knuckles	Hand replacement with Engine Scar contamination. Provides fire damage and enhancement disruption; bearer experiences constant heat and contamination accumulation.	augmentation	0	1	1	false	true	true	false	2	1		
+item_augmentation_between_sense	The Between-Sense	Echomind resonator at base of skull. Grants Iron Afterlife interaction and communication with recent dead; bearer senses nearby death constantly.	augmentation	0	1	1	false	true	true	false	1	1		
+item_augmentation_cartographers_sense	Cartographer's Sense	Distributed proprioceptive system in hands, feet, and skull. Grants perfect position awareness and environmental mapping; prevents becoming lost.	augmentation	0	1	1	false	true	true	false	1	1		
+item_augmentation_convergence_engine	The Convergence Engine	Shoulder/arm replacement with pulse-arm discharge. Provides ranged force attacks and overcharge capability; requires doubled food consumption.	augmentation	0	1	1	false	true	true	false	2	2		
+item_augmentation_hollow_strike_array	Hollow Strike Array	Full leg replacement (both legs) with silent operation and strike surfaces. Extended movement and kinetic conversion; requires hip socket modification.	augmentation	0	1	1	false	true	true	false	2	3		
+item_augmentation_hunger_wire	The Hunger Wire	Wire-silk filament array harvesting ambient resonant energy. Provides healing regeneration and contact drain; bearer becomes compelled to drain even trusted companions.	augmentation	0	1	1	false	true	true	false	1	1		
+item_augmentation_listening_wire	The Listening Wire	Wire-silk filaments through cervical spine with sensor nodes. Grants spiritual perception and object history reading; requires Iron Sutra installation ritual.	augmentation	0	1	1	false	true	true	false	1	2		
+item_augmentation_patient_eye	The Patient Eye	Single eye optical system with predictive analysis. Provides guaranteed ranged hit and motion prediction; contains locked surveillance footage from previous user.	augmentation	0	1	1	false	true	true	false	1	1		
+item_augmentation_scar_sight_lens	Scar-Sight Lens	Optical enhancement perceiving Engine Scar contamination. Provides contamination visibility and reading capability; transfers to biological eye permanently.	augmentation	0	1	1	false	true	true	false	1	1		
+item_augmentation_second_voice	The Second Voice	Vocal system enhancement providing harmonic control. Grants emotional resonance manipulation and structural sound generation; bearer speaks unguarded truths in sleep.	augmentation	0	1	1	false	true	true	false	1	1		
+item_augmentation_silence_installation	The Silence Installation	Subcutaneous neurological suppressor node. Grants RESONANCE damage immunity and signal invisibility; progressively suppresses Echomind and prevents Ascension.	augmentation	0	1	1	false	true	true	false	1	1		
+item_augmentation_threadwalker_interface	Threadwalker Interface	Spinal neural enhancement for direct Wire Craft network interface. Grants network immersion and signal reading; high-risk cervical modification.	augmentation	0	1	1	false	true	true	false	1	2		
+item_augmentation_widows_architecture	Widow's Architecture	Full forearm replacement with three concealed blades. Provides Pierce attacks and additional strikes; requires forearm amputation.	augmentation	0	1	1	false	true	true	false	2	2		
+item_basic_maintenance_kit	Basic Maintenance Tools	Required for proper long-rest servicing of Forged chassis.	gear	0	1	1	false	true	false	false	1	1		
+item_circuit_lance	Circuit Lance	Class-proficient polearm variant with resonant tip.	weapon	0	1	1	false	true	true	false	2	2		
+item_construct_freed_shell	The Freed Shell (Hollow Author)	A humanoid puppet body freed from Author control, developing independent consciousness. Functional NPC companion capable of self-directed growth.	gear	0	1	1	false	true	false	false	2	3		
+item_consumable_ashlands_stimulant	Ashlands Stimulant	Unrefined chemical stimulant granting temporary endurance at cost of HP loss afterward. Single use.	consumable	0	1	99	false	true	false	true	1	1		
+item_consumable_emergency_stabilizer	Emergency Stabilizer	Injector or resonant patch stabilizing a creature at 0 HP to 1 HP. Single use.	consumable	0	1	99	false	true	false	true	1	1		
+item_consumable_full_forge_kit	Full Forge Kit	Complete maintenance kit for full long-rest chassis overhaul. Forged-specific.	consumable	0	1	99	false	true	false	true	1	1		
+item_consumable_resonant_mend_patch	Resonant Mend Patch	Topical resonant compound restoring modest HP. Single use; quick application.	consumable	0	1	99	false	true	false	true	1	1		
+item_consumable_resonant_salve	Resonant Salve	Healing compound restoring moderate HP over two turns. Single use; combat-applicable.	consumable	0	1	99	false	true	false	true	1	1		
+item_consumable_sutensai_rite_oil	Sutensai Rite Oil	Sacred oil used in Iron Sutra ritual; required for certain Sutensai class abilities.	consumable	0	1	99	false	true	false	true	1	1		
+item_consumable_void_salts	Void Salts	Ritual compound restoring Echomind stability or severing one Afterlife attachment. Single use.	consumable	0	1	99	false	true	false	true	1	1		
+item_consumable_wire_purge_vial	Wire Purge Vial	Removes one Wire Craft status effect or breaks one active signal binding. Single use.	consumable	0	1	99	false	true	false	true	1	1		
+item_currency_resonant_coin	Resonant Coin	Single high-value resonant-infused coin; used in Wire Market and upper-caste transactions.	currency	0	1	1	false	true	false	false	1	1		
+item_currency_trade_metal_large	Trade-Metal Pouch (Large)	200 trade-metal standard; contractor project fee equivalent.	currency	0	1	1	false	true	false	false	1	1		
+item_currency_trade_metal_medium	Trade-Metal Pouch (Medium)	50 trade-metal standard; skilled worker weekly wage equivalent.	currency	0	1	1	false	true	false	false	1	1		
+item_currency_trade_metal_small	Trade-Metal Pouch (Small)	10 trade-metal standard; lower-caste daily wage equivalent.	currency	0	1	1	false	true	false	false	1	1		
+item_document_claimant_intelligence	Claimant Intelligence Dossier	Compiled intelligence on one specific Claimant. Provides social and combat advantage when interacting with or opposing that Claimant.	document	0	1	1	false	true	false	false	1	1		
+item_document_deep_register	The Deep Register	Resonant data storage containing 400 final moments of Ashlands dead. Provides access to last-moment knowledge and Iron Afterlife recognition.	document	0	1	1	false	true	false	false	1	1		
+item_document_iron_sutra_text	Iron Sutra Text	A copy of a section of the Iron Sutra scripture. Required reading for Sutensai class; provides doctrinal authority in social encounters.	document	0	1	1	false	true	false	false	1	1		
+item_document_resonant_ledger	The Resonant Ledger	Resonant-thread journal storing data invisibly to scanning. Signal-invisible information storage with encryption; appears blank to non-resonant readers.	document	0	1	1	false	true	false	false	1	1		
+item_document_salvage_manifesto	The Salvage Manifesto (Korrath)	Fourteen handwritten pages of military doctrine and logistics strategy. Grants tactical analysis and force multiplication; only effective for commanders with genuine loss.	document	0	1	1	false	true	false	false	1	1		
+item_document_territory_map	Territory Map	A detailed map of a specific Tesshari region. Provides navigation and encounter advantage in that territory.	document	0	1	1	false	true	false	false	1	1		
+item_document_unsent_letter	The Unsent Letter (Vaen)	A handwritten letter to a dead woman containing unfiltered fear and doubt. Bearer gains insight into hidden motivations; carries awareness of all costs of their actions.	document	0	1	1	false	true	false	false	1	1		
+item_document_wire_market_directory	Wire Market Directory	Contact list and protocol guide for Wire Market networks. Essential for Wireweave and Veilblade operations.	document	0	1	1	false	true	false	false	1	1		
+item_force_mace	Force Mace	Class-proficient impact weapon.	weapon	0	1	1	false	true	true	false	1	2		
+item_forge_maintenance_kit_basic	Forge Maintenance Kit Basic	Required for resonance meditation and field upkeep.	gear	0	1	1	false	true	false	false	1	1		
+item_forged_hydraulic_frame	Hydraulic Frame Module	Doubles carry capacity and improves grapple profile.	augmentation	0	1	1	false	true	true	false	1	1		
+item_forged_intake_filter	Intake Filter Module	Grants poison and disease defense package.	augmentation	0	1	1	false	true	true	false	1	1		
+item_forged_neural_accelerator	Neural Accelerator Module	Grants bonus-action Ready capability cadence.	augmentation	0	1	1	false	true	true	false	1	1		
+item_forged_optical_suite	Optical Suite Module	Grants darkvision 60ft and protection against surprise.	augmentation	0	1	1	false	true	true	false	1	1		
+item_forged_reinforced_limb	Reinforced Limb Module	Grants stronger unarmed strikes and athletics leverage. Raise unarmed die to 1d6.	augmentation	0	1	1	false	true	true	false	1	1		
+item_forged_subdermal_plating	Subdermal Plating Module	Grants natural AC 13 baseline while unarmored.	augmentation	0	1	1	false	true	true	false	1	1		
+item_forged_vox_modulator	Vox Modulator Module	Grants precision vocal mimic capability and Vox Mimic card.	augmentation	0	1	1	false	true	true	false	1	1		
+item_gear_inheritance	The Inheritance	Sealed resonant box carrying undelivered intention from the dead. Bearer receives parent's understanding over time and can deliver it to one recipient.	gear	0	1	1	false	true	false	false	1	1		
+item_gear_null_skin_mesh	Null-Skin Mesh	Full-body undergarment of wire-silk and resonant metal. Disrupts signal targeting and detection; masks enhancement configuration from scans.	gear	0	1	1	false	true	false	false	1	1		
+item_gear_returned_mask	The Returned Mask	Resonant mask existing partially in Iron Afterlife. Bearer sees and communicates with Afterlife entities; bleed effects from prolonged use.	gear	0	1	1	false	true	false	false	1	1		
+item_iron_whip	Iron-Whip	Flexible resonant weapon option; reach and Bleed potential.	weapon	0	1	1	false	true	true	false	2	1		
+item_layered_plate_armor	Layered Plate Armor	Heavy starter armor option.	armor	0	1	1	false	true	true	false	2	3		
+item_oath_mark_lord_seal	Lord's Seal	Oath marker object for Ironclad Iron Lord path; narrative and social checks.	symbol	0	1	1	false	true	true	false	1	1		
+item_oath_mark_sutra_medallion	Sutra Medallion	Oath marker object for Ironclad Sutensai Blade path; narrative and social checks.	symbol	0	1	1	false	true	true	false	1	1		
+item_relic_first_removal	The First Removal (Vaen)	An extracted cybernetic auditory enhancement. Grants enhanced perception of intentions and clarity against control effects; bearer loses ability to ignore pain.	relic	0	1	1	false	true	false	false	1	1		
+item_relic_first_tooth	The First Tooth (Korrath)	A curved resonant blade with twenty-three names etched in the hilt. Provides combat memory and blade recognition; bearer hears voices of the dead.	relic	0	1	1	false	true	false	false	2	2		
+item_relic_last_flesh	The Last Flesh (Korrath)	A sealed container of preserved biological tissue; the only anchor preventing Korrath's Ascension. Cannot be integrated; treat with extreme care.	relic	0	1	1	false	true	false	false	1	1		
+item_resonant_between_compass	Between Compass	Resonant instrument pointing toward strongest Between-energy source. Void Walker and Fracture Knight utility.	resonant	0	1	1	false	true	true	false	1	1		
+item_resonant_blade	Resonant Blade	Primary class weapon: long or short configuration.	weapon	0	1	1	false	true	true	false	2	1		
+item_resonant_grief_stone	Grief Stone	Dense resonant stone absorbing and storing grief-resonance. Echo Speaker resource; amplifies grief-stacks accumulation.	resonant	0	1	1	false	true	true	false	1	1		
+item_resonant_shield	Resonant Shield	Class-proficient shield.	armor	0	1	1	false	true	true	false	2	2		
+item_resonant_signal_crystal	Signal Crystal	Crystallized pure signal frequency. Wireweave and Pulse Caller utility; amplifies signal-based abilities.	resonant	0	1	1	false	true	true	false	1	1		
+item_resonant_singing_shard	The Singing Shard	Convergence-touched resonant fragment singing below human hearing. Bearer receives Convergence approach impressions and can amplify claimant detection.	resonant	0	1	1	false	true	true	false	1	1		
+item_resonant_void_shard	Void Shard	Fragment of crystallized void energy. Fracture Knight and Void Walker utility; generates Phantom Charges.	resonant	0	1	1	false	true	true	false	1	1		
+item_shield_salvage_ward	Salvage Ward	Improvised shield from salvage materials. Basic defense; requires maintenance.	gear	0	1	1	false	true	false	false	2	1		
+item_shield_signal_ward	Signal Ward	Enhanced resonant shield with force reduction capability. Professional quality.	gear	0	1	1	false	true	false	false	2	1		
+item_shield_standard_ward	Standard Ward	Resonant metal shield. Standard defense tool.	gear	0	1	1	false	true	false	false	2	1		
+item_tool_architect_system	The Architect System	Harness-based reality-adjustment field manipulating physical space. Phases surfaces, anchors structures, or directs collapses; significant unpredictable side effects.	tool	0	1	1	false	true	false	false	2	2		
+item_tool_architects_compass	Architect's Compass	Surveying and structural analysis tool; essential for Iron Herald Command Zone calibration.	tool	0	1	1	false	true	false	false	1	1		
+item_tool_chorus_device	Chorus Device	Hexagonal signal device manipulating group emotional resonance. Creates crowd-scale agreement and compliance effects; single-use calibration.	tool	0	1	1	false	true	false	false	1	1		
+item_tool_control_sigil	The Control Sigil (Hollow Author)	A dark metal disk detecting puppet bodies under remote influence. Grants puppet detection and temporary disruption; prolonged use alerts the Author to location.	tool	0	1	1	false	true	false	false	1	1		
+item_tool_dissolution_reader	Dissolution Reader	Device measuring dissolution resonance levels and shell-state signatures. Oni Hunter utility.	tool	0	1	1	false	true	false	false	1	1		
+item_tool_forge_tools_field	Field Forge Tools	Portable toolkit for field maintenance and minor enhancement repairs.	tool	0	1	1	false	true	false	false	1	1		
+item_tool_long_wire_communicator	Long-Wire Communicator	Paired communication device functioning at unlimited range within Tesshari. Provides encrypted point-to-point transmission.	tool	0	1	1	false	true	false	false	1	1		
+item_tool_memory_extraction_unit	Memory Extraction Unit (MEU-7)	Handheld device extracting memory data from enhancement systems. Provides interrogation capability and evidence collection.	tool	0	1	1	false	true	false	false	1	1		
+item_tool_signal_cage	Signal Cage	Portable device creating a signal disruption field. Blocks Wire Craft communications and enhancement network connectivity within range.	tool	0	1	1	false	true	false	false	1	1		
+item_tool_soft_key	The Soft Key	Resonant card forging Wire Market access credentials. Mirrors last valid access signal; bypasses security systems for one entry.	tool	0	1	1	false	true	false	false	1	1		
+item_tool_wire_tap_kit	Wire Tap Kit	Tools for accessing Wire Craft networks covertly. Professional grade.	tool	0	1	1	false	true	false	false	1	1		
+item_trade_metal_pouch_15	Trade-Metal Pouch 15	Starting currency bundle equivalent.	currency	0	1	1	false	true	false	false	1	1		
+item_voidsteel_tanto	Voidsteel Tanto	Secondary blade; dark resonant metal.	weapon	0	1	1	false	true	true	false	1	1		
+item_weapon_ashlands_chopper	Ashlands Chopper	Heavy unrefined blade from salvage materials. Effective for material cutting; brutal in close quarters.	weapon	0	1	1	false	true	true	false	1	2		
+item_weapon_circuit_dagger	Circuit Dagger	Standard quality light blade with resonant wire inlay. Reliable basic weapon.	weapon	0	1	1	false	true	true	false	1	1		
+item_weapon_long_resonant_blade	Long Resonant Blade	Standard resonant construction long blade. Professional quality weapon.	weapon	0	1	1	false	true	true	false	1	2		
+item_weapon_patchwork_resonance_blade	Patchwork Resonance Blade	Sword assembled from three resonant sources with random daily performance variation. Produces frequency interference on impact.	weapon	0	1	1	false	true	true	false	1	2		
+item_weapon_pulse_arm_heavy	Pulse Arm (Heavy)	High-power signal-discharge weapon for sustained fire. Heavy ranged signal weapon.	weapon	0	1	1	false	true	true	false	2	2		
+item_weapon_pulse_arm_standard	Pulse Arm (Standard)	Signal-discharge weapon with adjustable power and range. Standard ranged signal weapon.	weapon	0	1	1	false	true	true	false	2	2		
+item_weapon_resonant_greatsword	Resonant Greatsword	Two-handed resonant blade of professional quality. Heavy weapon.	weapon	0	1	1	false	true	true	false	2	3		
+item_weapon_salvage_bar	Salvage Bar	Repurposed structural component used as two-handed club. Improvised heavy weapon.	weapon	0	1	1	false	true	true	false	2	2		
+item_weapon_scar_blade	The Scar Blade	Engine Scar contaminated resonant blade with shifting colors. Deals fire and necrotic damage; permanently disables enhancements on hit but transfers contamination to bearer.	weapon	0	1	1	false	true	true	false	1	2		
+item_weapon_scar_touched_wire_whip	The Scar-Touched Wire Whip	Wire-whip threaded with Engine Scar material. Deals fire damage and enables grappling; contamination accumulates with use.	weapon	0	1	1	false	true	true	false	1	3		
+item_weapon_scavenged_blade	Scavenged Blade	Light blade of salvage quality subject to degradation. Basic weapon requiring regular maintenance.	weapon	0	1	1	false	true	true	false	1	1		
+item_weapon_signal_blade	Signal Blade	Short resonant blade with circuit etching and signal array. Discharge disrupts enhancements and enables data extraction on hit.	weapon	0	1	1	false	true	true	false	1	2		
+item_weapon_signal_staff	Signal Staff	Staff with resonant ends serving as Wire Craft interface. Ritual and utility focus as well as combat.	weapon	0	1	1	false	true	true	false	1	3		
+item_weapon_signal_thrower	Signal Thrower	Wire-silk tension crossbow firing resonant bolts. Ranged projectile weapon.	weapon	0	1	1	false	true	true	false	2	2		
+item_weapon_spine_blade	Spine Blade	Finesse blade with precision construction. Prefers EDGE-based users.	weapon	0	1	1	false	true	true	false	1	2		
+item_weapon_standard_resonant_blade	Resonant Blade (Standard)	Standard resonant construction short blade. Professional quality weapon.	weapon	0	1	1	false	true	true	false	1	2		
+item_weapon_void_dart	Void-Dart	Light thrown weapon with resonant tip. Throwable projectile weapon.	weapon	0	1	1	false	true	true	false	1	1		
+item_weapon_void_lance	Void Lance	Spear with resonant tip on standard haft. Professional quality polearm.	weapon	0	1	1	false	true	true	false	1	3		
+item_weapon_war_frame_blade	War Frame Blade	Heavy chopper for enhanced-arm users. Heavy weapon for reinforced chassis bearers.	weapon	0	1	1	false	true	true	false	2	2		
+item_weapon_wire_whip	Wire-Whip	Wire-silk composite reach weapon. Provides reach and flexibility in combat.	weapon	0	1	1	false	true	true	false	1	2		
+item_wire_mesh_armor	Wire-Mesh Armor	Starter light armor option; wire-silk composite.	armor	0	1	1	false	true	true	false	2	2		
