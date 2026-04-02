@@ -1,0 +1,8 @@
+key	name	effect_summary	requires_level
+reinforced_limb	Reinforced Limb Module	Raise unarmed die to 1d6; bonus to Athletics	1
+optical_suite	Optical Targeting Suite	+1 to ranged attack rolls; ignore partial cover	1
+vox_modulator	Vox Modulator	Advantage on Persuasion and Deception via voice	1
+subdermal_plating	Subdermal Plating	+1 AC; lose Stealth advantage; resistance to slashing	3
+neural_accelerator	Neural Accelerator	+1 Initiative; once per short rest reroll one skill check	5
+intake_filter	Environmental Intake Filter	Immunity to inhaled hazards; advantage on CON saves vs environment	3
+hydraulic_frame	Hydraulic Frame Upgrade	+1 STR modifier for carry capacity and Athletics; heavy lift	5

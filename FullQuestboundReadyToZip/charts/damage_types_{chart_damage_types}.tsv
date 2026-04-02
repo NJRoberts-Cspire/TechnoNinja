@@ -1,0 +1,10 @@
+type	common_sources	resisted_by	keywords_applied
+slashing	Blades, claws, edge weapons	Plating augmentations, Fortify	Bleed
+piercing	Spears, fangs, drill weapons	Shield, Guard	Pierce (ignores Guard)
+bludgeoning	Hammers, hydraulic strikes, constructs	Fortify, Guard	Stagger on heavy hits
+resonant	Sutensai abilities, resonance predators, Pulse Caller	Veil, resonance resistance	Mark, Expose
+fire	Burn cards, Ashlands phenomena, Overheat discharge	None standard	Burn, Overheat
+signal	Wireborn abilities, Wire Plague, Veilblade wire integration	Signal resistance (Wireborn passive)	Silence, Root
+void	Void Walker abilities, Hollow Author agents, Gap exposure	None standard	Veil, phase effects
+spiritual	Echoed abilities, iron afterlife entities, Sutensai rites	Sutensai alignment	Mark, special conditions
+bleed_poison	Bleed stacks, Ashlands toxins	CON saves, Cleanse	Bleed (ongoing)

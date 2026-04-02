@@ -1,0 +1,23 @@
+keyword	type	effect_summary	stacking_rule
+Guard	defensive_buff	Reduce incoming damage by Guard Value per stack	Add; max 5
+Fortify	defensive_buff	Reduce control effect potency while active	Refresh; max 3
+Expose	offensive_debuff	Increase incoming damage per stack	Add; max 5
+Stagger	offensive_debuff	Target cannot play power cards this turn	Refresh; max 1
+Bleed	damage_over_time	Deal fixed damage at turn end per stack	Add; max 5
+Burn	damage_over_time	Deal fixed damage at turn end; removes Guard first	Add; max 5
+Overheat	resource_pressure	Reduce AP max at threshold stacks	Add; max 6
+Mark	tactical_debuff	Enable mark-synergy bonus effects against this target	Refresh; max 1
+Root	mobility_lock	Prevent mobility card repositioning	Refresh; max 1
+Silence	casting_lock	Prevent utility and control card play	Refresh; max 1
+Regen	sustain_buff	Recover HP at turn start per stack	Add; max 3
+Shield	defensive_buff	Absorb damage before HP; temporary pool	Refresh pool; max 1
+Vulnerable	offensive_debuff	Increase final damage multiplier per stack	Add; max 3
+Pierce	passive_modifier	Ignore Guard or Shield value when dealing damage	Not stackable
+Veil	defensive_buff	Negate bonus riders on first incoming hostile card	Refresh; max 1
+Taunt	aggro_control	Force attacker to prioritize this target	Refresh; max 1
+Echo	card_modifier	Repeat a card base effect once without riders	Triggered; not stacked
+Cascade	class_resource	Shell Dancer charge pool; generates on incoming damage	Add; max 10
+Debt	class_resource	Voice of Debt stack on target; detonates for bonus damage	Add; no cap
+Loaded	class_resource	Curse Eater absorbed debuff stack; spent on purge	Add; no cap
+Fracture	class_resource	Fracture Knight stack on target or self	Add; max 5
+Phantom	class_resource	Fracture Knight charge pool; spent for phantom strikes	Add; max 6

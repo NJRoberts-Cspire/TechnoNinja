@@ -1,0 +1,5 @@
+group_id	members
+defensive_buffs	Guard, Fortify, Veil, Shielded, Regeneration
+offensive_debuffs	Expose, Stagger, Mark, Taunt, Vulnerable, Bleed, Burn
+mobility_locks	Root, Silence
+resource_pressure	Overheat

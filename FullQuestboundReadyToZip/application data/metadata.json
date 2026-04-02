@@ -1,57 +1,102 @@
 {
-  "ruleset": {
-    "id": "4244b851-579a-4e85-b8e5-2932326df9ed",
-    "title": "Tesshari",
-    "description": "",
-    "details": {},
-    "image": null,
-    "assetId": null,
-    "version": "0.1.0",
-    "palette": [],
-    "createdBy": "User_c8a35c12",
-    "createdAt": "2026-04-02T18:10:45.225Z",
-    "updatedAt": "2026-04-02T18:10:45.225Z",
-    "characterCtaTitle": "Characters",
-    "characterCtaDescription": "Create and Manage Characters for this Ruleset",
-    "campaignsCtaTitle": "Campaigns",
-    "campaignCtaDescription": "Create and Launch a Campaign for this Ruleset",
-    "charactersCtaAssetId": null,
-    "campaignsCtaAssetId": null
-  },
-  "exportInfo": {
-    "exportedAt": "2026-04-02T18:40:50.977Z",
-    "exportedBy": "Quest Bound",
-    "version": "2.0.0"
-  },
-  "counts": {
-    "attributes": 275,
-    "actions": 395,
-    "items": 119,
-    "charts": 0,
-    "windows": 0,
-    "components": 0,
-    "composites": 0,
-    "compositeVariants": 0,
-    "assets": 0,
-    "fonts": 0,
-    "documents": 0,
-    "archetypes": 1,
-    "customProperties": 0,
-    "archetypeCustomProperties": 0,
-    "itemCustomProperties": 0,
-    "characterAttributes": 275,
-    "inventories": 1,
-    "characterWindows": 0,
-    "characterPages": 0,
-    "rulesetWindows": 0,
-    "pages": 0,
-    "inventoryItems": 0,
-    "scripts": 0,
-    "campaigns": 0,
-    "campaignScenes": 0,
-    "campaignCharacters": 0,
-    "campaignEvents": 0,
-    "sceneTurnCallbacks": 0
-  },
-  "scripts": []
+    "ruleset":  {
+                    "id":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+                    "title":  "Tesshari",
+                    "description":  "",
+                    "details":  {
+
+                                },
+                    "image":  null,
+                    "assetId":  null,
+                    "version":  "0.1.0",
+                    "palette":  [
+
+                                ],
+                    "createdBy":  "User_c8a35c12",
+                    "createdAt":  "2026-04-02T18:10:45.225Z",
+                    "updatedAt":  "2026-04-02T18:10:45.225Z",
+                    "characterCtaTitle":  "Characters",
+                    "characterCtaDescription":  "Create and Manage Characters for this Ruleset",
+                    "campaignsCtaTitle":  "Campaigns",
+                    "campaignCtaDescription":  "Create and Launch a Campaign for this Ruleset",
+                    "charactersCtaAssetId":  null,
+                    "campaignsCtaAssetId":  null
+                },
+    "exportInfo":  {
+                       "exportedAt":  "2026-04-02T18:40:50.977Z",
+                       "exportedBy":  "Quest Bound",
+                       "version":  "2.0.0"
+                   },
+    "counts":  {
+                   "attributes":  275,
+                   "actions":  395,
+                   "items":  606,
+                   "charts":  38,
+                   "windows":  0,
+                   "components":  0,
+                   "composites":  0,
+                   "compositeVariants":  0,
+                   "assets":  0,
+                   "fonts":  0,
+                   "documents":  0,
+                   "archetypes":  42,
+                   "customProperties":  0,
+                   "archetypeCustomProperties":  0,
+                   "itemCustomProperties":  0,
+                   "characterAttributes":  275,
+                   "inventories":  1,
+                   "characterWindows":  0,
+                   "characterPages":  0,
+                   "rulesetWindows":  0,
+                   "pages":  0,
+                   "inventoryItems":  0,
+                   "scripts":  4,
+                   "campaigns":  0,
+                   "campaignScenes":  0,
+                   "campaignCharacters":  0,
+                   "campaignEvents":  0,
+                   "sceneTurnCallbacks":  0
+               },
+    "scripts":  [
+                    {
+                        "id":  "034125f0-62f1-4baa-9ed0-9a7cbd61a901",
+                        "name":  "tesshari_card_core",
+                        "file":  "scripts/global/tesshari_card_core.qbs",
+                        "entityType":  "global",
+                        "entityId":  null,
+                        "entityName":  null,
+                        "isGlobal":  true,
+                        "enabled":  true
+                    },
+                    {
+                        "id":  "9ecd6bea-7922-4ceb-b5d7-31c3bda3d207",
+                        "name":  "race_scripts",
+                        "file":  "scripts/global/race_scripts.qbs",
+                        "entityType":  "global",
+                        "entityId":  null,
+                        "entityName":  null,
+                        "isGlobal":  true,
+                        "enabled":  true
+                    },
+                    {
+                        "id":  "97824eec-4f1e-4c10-bc7f-5cb8aff13312",
+                        "name":  "class_scripts_2_to_13",
+                        "file":  "scripts/global/class_scripts_2_to_13.qbs",
+                        "entityType":  "global",
+                        "entityId":  null,
+                        "entityName":  null,
+                        "isGlobal":  true,
+                        "enabled":  true
+                    },
+                    {
+                        "id":  "b705c6f7-a4a2-491b-9167-23b01ebeb9fe",
+                        "name":  "class_scripts_14_to_25",
+                        "file":  "scripts/global/class_scripts_14_to_25.qbs",
+                        "entityType":  "global",
+                        "entityId":  null,
+                        "entityName":  null,
+                        "isGlobal":  true,
+                        "enabled":  true
+                    }
+                ]
 }

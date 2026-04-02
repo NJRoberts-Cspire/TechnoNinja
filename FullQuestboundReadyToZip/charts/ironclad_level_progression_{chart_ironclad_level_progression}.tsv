@@ -1,0 +1,21 @@
+level	feature_ids	notes
+1	oath_bond, vein_access	Gain Vein Path and initial Oath; unlock starting hand
+2	fracture_threshold_1	First Fracture threshold; oath-break consequence active
+3	vein_tier_1	Vein Path tier 1 abilities unlocked
+4	oath_reinforcement	Oath bond deepens; secondary oath benefit activates
+5	fracture_threshold_2	Second Fracture threshold; expanded consequence table
+6	vein_tier_2	Vein Path tier 2 abilities unlocked
+7	sustained_resonance	Passive resonance aura; radius 10 ft
+8	oath_test_1	First Oath Test event unlocks campaign beat
+9	fracture_threshold_3	Third Fracture threshold; transformation risk present
+10	vein_tier_3	Vein Path tier 3; signature card unlocked
+11	resonance_amplify	Resonance aura radius increases to 20 ft
+12	oath_bond_deep	Deep bond; party-wide oath-support passive
+13	fracture_threshold_4	Fourth threshold; fracture-as-power mechanic available
+14	vein_tier_4	Vein Path tier 4; capstone card available
+15	oath_test_2	Second Oath Test; claimant acknowledgment event
+16	resonance_burst	Once per long rest: resonance burst (30 ft area)
+17	fracture_mastery	Fracture no longer ends Vein access; redirect mechanic
+18	vein_ascendant	Vein Path ascendant form unlocked
+19	oath_culmination	Final Oath event; choose fulfillment or fracture path
+20	convergence_ready	Convergence-tier power; campaign endgame card available

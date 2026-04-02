@@ -1,0 +1,8 @@
+tag	description
+attack	Deals damage or forces a contested roll
+defense	Reduces incoming damage or applies defensive buff
+control	Applies status conditions or limits target actions
+mobility	Repositions the monster or alters threat range
+sustain	Heals the monster or a nearby ally
+finisher	High-damage execution; prioritized against weakened targets
+reaction	Triggers off incoming player action; interrupts or counters

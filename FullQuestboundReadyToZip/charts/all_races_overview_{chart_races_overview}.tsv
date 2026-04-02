@@ -1,0 +1,9 @@
+race	primary_stats	hand_size	hp_mod_tier	passive_count	card_count	subtype
+Forged	STR/CON or INT/DEX or CON/DEX/WIS	Standard	Medium	3	3	4 heritage variants
+Tethered	CON/WIS	Standard	High	4	2	None
+Echoed	CHA/WIS	Standard	Low	4	2	None
+Wireborn	INT/DEX	Standard	Medium	3	2	None
+Stitched	Varies (Component A+B)	Standard	Medium	5	2	None
+Shellbroken	WIS/CHA	Standard	Low	4	2	None
+Iron Blessed	CHA/CON	Standard +1 or -1	Medium	6	2	Tended or Unregistered
+Diminished	DEX/WIS	Standard +2	Low	5	2	None

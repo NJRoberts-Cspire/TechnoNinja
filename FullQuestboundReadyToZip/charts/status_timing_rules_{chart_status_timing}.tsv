@@ -1,0 +1,8 @@
+timing_key	description
+on_apply	Fires immediately when status is applied to a unit
+on_turn_start	Fires at the beginning of the afflicted unit's turn
+on_turn_end	Fires at end of turn; used by Bleed, Burn, Guard decrement
+on_hit	Fires when this unit deals damage to another
+on_damaged	Fires when this unit receives damage
+on_card_play	Fires when this unit plays any card
+on_expire	Fires when duration reaches zero and status is removed

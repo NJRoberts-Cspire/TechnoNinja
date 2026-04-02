@@ -1,0 +1,5 @@
+ap_cost	tier_name	typical_power	examples
+0	Free	Basic attack or passive trigger	Basic Attack, on_add initialize, passive racial
+1	Standard	Core class ability	Most class signature cards, status applications
+2	Significant	Empowered or multi-effect	Enhanced attacks, dual-status cards, form shifts
+3	Major	Signature or capstone	Class capstone cards, Convergence-tier abilities

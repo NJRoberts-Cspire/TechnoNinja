@@ -1,0 +1,306 @@
+[
+    {
+        "id":  "chart_card_action_schema",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Card Action Schema",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_resolution_types",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Resolution Types",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_turn_sequence",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Turn Sequence",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_forged_heritage_options",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Forged Heritage Options",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_forged_augmentation_options",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Forged Augmentation Options",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_maintenance_states",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Maintenance States",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_ironclad_level_progression",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Ironclad Level Progression",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_ironclad_vein_oaths",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Vein Oaths",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_ironclad_vein_path_options",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Vein Path Options",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_ironclad_starting_gear",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Ironclad Starting Gear",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_monster_ap_by_tier",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Monster AP by Tier",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_monster_role_card_weights",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Monster Role Card Weights",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_monster_turn_priority",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Monster Turn Priority",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_monster_card_tags",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Monster Card Tags",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_status_catalog",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Status Catalog",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_status_timing",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Status Timing Rules",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_status_dispel_groups",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Status Dispel Groups",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_races_overview",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "All Races - Overview",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_classes_overview",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "All Classes - Overview",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_ap_cost_reference",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "AP Cost Reference",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_keyword_glossary",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Keyword Glossary",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_caste_system",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Caste System Reference",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_faction_matrix",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Faction Matrix",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_claimant_reference",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Claimant Reference",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_reach_overview",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Broken Reaches Overview",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_encounter_sunder_reach",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Encounter Table - Sunder Reach",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_encounter_veilward_reach",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Encounter Table - Veilward Reach",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_encounter_pale_reach",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Encounter Table - Pale Reach",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_encounter_iron_teeth_reach",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Encounter Table - Iron Teeth Reach",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_encounter_ash_river_reach",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Encounter Table - Ash River Reach",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_npc_reference",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "NPC Quick Reference",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_location_reference",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Location Quick Reference",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_monster_catalog",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Monster Catalog - All Types",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_damage_types",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Damage Types",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_rest_actions",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Rest Actions",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_loot_tables",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Loot Tables by Tier",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_level_milestones",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Level Milestone Reference",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    },
+    {
+        "id":  "chart_seventh_convergence_clocks",
+        "description":  "",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Campaign Clocks",
+        "updatedAt":  "2026-04-02T18:10:45.240Z"
+    }
+]

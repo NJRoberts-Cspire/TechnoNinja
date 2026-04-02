@@ -1,0 +1,17 @@
+npc_id	name	role	faction	location	secret
+forge_sister_kessen	Forge Sister Kessen	Sutensai resonance engineer; maintains the Iron Teeth temple apparatus	Sutensai Order	Iron Teeth Reach	Is a prior-cycle Forged who survived two Convergences; memories are fragmentary
+general_soten_vari	General Soten Vari	Korrath battlefield commander; runs Sunder Reach military operations	Korrath	Sunder Reach	Has private doubts about Korrath claim; waiting for a reason to defect
+governor_maret_suno	Governor Maret Suno	Wire Market governance representative in Pale Reach	Wire Market	Pale Reach	Is a Hollow Author proxy; does not know it yet
+guild_master_harren	Guild Master Harren	Head of the Wire Market guild council	Wire Market	Pale Reach	Has already sold Hollow Author information about all three claimants
+lord_tessik	Lord Tessik	Korrath oath-bound enforcer; hunts oath-breakers and deserters	Korrath	Mobile / Sunder Reach	His oath chain is fracturing; he knows and is terrified
+mira_pale	Mira Pale	Independent cartographer mapping resonance changes across all Reaches	Neutral	Mobile	Her maps show a fifth location no one has identified yet
+runner_seven	Runner Seven	Wire Market courier with perfect information recall	Wire Market	Mobile / Pale Reach	Is a Wireborn with an illegal neural modification; has recorded everything ever delivered
+chars_voice	Chars Voice	Presumed leader of the Sutensai Order; communicates only through intermediaries	Sutensai Order	Iron Teeth (Deep Temple)	May not be a single individual; the Voice may rotate among senior priests
+cinder_priest	The Cinder Priest	Wandering Sutensai agent monitoring Korrath activity in Sunder	Sutensai Order	Sunder Reach	Carries a sealed directive from Chars Voice that has not yet been opened
+the_collector	The Collector	Black market dealer in prior-cycle artifacts	Unknown	Mobile / Pale Reach	Is aware of the Manuscript; has sold pages to multiple parties
+drowned_archivist	The Drowned Archivist	Echoed scholar preserving knowledge about prior Convergence cycles	Neutral	Veilward Reach / Shore	Died in a prior cycle and came back; their memories are not from this cycle
+garden_keeper	The Garden Keeper	Maintains the Preparation Halls in Pale Reach	Iron Sutra	Pale Reach	The Halls contain a sealed chamber the Iron Sutra has never opened
+the_signal	The Signal	Wireborn who broadcasts encrypted information to underground networks	Neutral / Ashwalker	Mobile	Is simultaneously the Hollow Author's most valuable asset and most persistent investigative target
+tidecourt_speaker_veran	Tidecourt Speaker Veran	Diminished political voice representing Ash River communities	Neutral / Pilgrimage-aligned	Ash River Reach	Has met Vaen personally; knows the actual destination of the Pilgrimage
+veil_master_soren_hai	Veil Master Soren Hai	Veilblade instructor operating out of Veilward Reach	Independent	Veilward Reach	Trained operatives for all three claimants; keeps records of everyone
+warden_tessen	Warden Tessen	Iron Sutra warden overseeing unregistered enhancement containment	Iron Sutra	Pale Reach	Has been accepting bribes; entire containment operation is compromised

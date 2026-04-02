@@ -1,0 +1,16 @@
+status_id	name	type	default_duration	max_stacks	stack_rule	summary
+st_guard	Guard	defensive_buff	1	5	add	Reduce incoming damage by Guard Value per stack; decrement at turn end
+st_fortify	Fortify	defensive_buff	2	3	refresh	Reduce potency of incoming control effects while active
+st_expose	Expose	offensive_debuff	2	5	add	Increase incoming damage by Expose Value per stack
+st_stagger	Stagger	offensive_debuff	1	1	refresh	Unit cannot play power cards this turn
+st_bleed	Bleed	damage_over_time	2	5	add	Take fixed damage at end of turn per stack
+st_burn	Burn	damage_over_time	2	5	add	Take fixed damage at turn end; removes one Guard stack before damage
+st_overheat	Overheat	resource_pressure	3	6	add	Reduce AP max by 1 at threshold; clears below threshold
+st_mark	Mark	tactical_debuff	2	1	refresh	Mark-synergy cards deal bonus effects against this target
+st_root	Root	mobility_lock	1	1	refresh	Unit cannot reposition via mobility cards
+st_silence	Silence	casting_lock	1	1	refresh	Unit cannot play utility or control card categories
+st_veil	Veil	defensive_buff	1	1	refresh	First incoming hostile card this turn loses bonus riders
+st_taunt	Taunt	aggro_control	1	1	refresh	Unit must target taunt source when possible
+st_vulnerable	Vulnerable	offensive_debuff	1	3	add	Increase final damage multiplier by fixed step per stack
+st_regen	Regeneration	sustain_buff	2	3	add	Recover fixed HP at start of turn per stack
+st_shielded	Shielded	defensive_buff	2	1	refresh	Temporary shield pool consumed before HP damage

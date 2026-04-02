@@ -1,0 +1,17 @@
+monster_id	name	type	tier	role	key_abilities	source_file
+shell_entity_standard	Shell Entity (Standard)	shell_entities	standard	brute	Resonance pulse, Shell Drain, Mindless Advance	monsters/shell_entities.md
+shell_entity_swarm	Shell Entity Swarm	shell_entities	minion	skirmisher	Overwhelm, Signal Interference	monsters/shell_entities.md
+iron_afterlife_warden	Iron Afterlife Warden	iron_afterlife	elite	controller	Already Died Mirror, Phase Lock, Grief Anchor	monsters/iron_afterlife.md
+corrupted_forged_soldier	Corrupted Forged Soldier	corrupted_forged	standard	brute	Fracture Strike, Enhancement Malfunction, Oath Echo	monsters/corrupted_forged.md
+corrupted_forged_commander	Corrupted Forged Commander	corrupted_forged	elite	controller	Command Aura, Oath Inversion, Mass Fracture	monsters/corrupted_forged.md
+war_beast_ashlands	Ashlands War Beast	war_beasts	standard	brute	Ash Charge, Toxic Exhalation, Spine Strike	monsters/war_beasts.md
+ashlands_crawler	Ashlands Crawler	ashlands_phenomena	minion	skirmisher	Burrow, Poison Spray, Pack Flank	monsters/ashlands.md
+oni_echo	Oni Echo	oni_equivalents	elite	controller	Mark Target, Dissolution Field, Hunter Lock	monsters/oni.md
+wire_plague_node	Wire Plague Node	wire_plague	standard	support	Plague Spread, Signal Boost, Network Pulse	monsters/wire_plague.md
+the_hollowed_wanderer	The Hollowed Wanderer	the_hollowed	standard	controller	Reality Blur, Void Touch, Untethered Strike	monsters/hollowed.md
+resonance_predator	Resonance Predator	resonance_predators	elite	brute	Resonance Feed, Drain Aura, Amplified Strike	monsters/resonance_predators.md
+between_walker	Between Walker	between_walkers	elite	skirmisher	Phase Step, Between Strike, Anchor Break	monsters/between_walkers.md
+ironhold_construct	Ironhold War Construct	ironhold_constructs	boss	brute	Iron Barrage, Fortress Mode, Oath Engine	monsters/ironhold.md
+sutensai_manifestation	Sutensai Manifestation	sutensai_manifestations	elite	controller	Revelation Pulse, Truth Bind, Orthodoxy Seal	monsters/sutensai.md
+prior_ascended_remnant	Prior Ascended Remnant	prior_ascended_remnants	boss	controller	Convergence Memory, Cycle Anchor, Ascendant Form	monsters/prior_ascended.md
+ashlands_horror	Ashlands Horror	ashlands_horrors	boss	brute	Toxic Storm, Ash Burial, Mindless Rampage	monsters/ashlands.md

@@ -1,0 +1,26 @@
+class	primary_stats	hand_size	hp_mod	subclass_count	subclass_names
+Ironclad	STR/CHA	Standard	High	4	Iron Lord, Sutensai Blade, Undying Debt, Flesh Temple
+Ronin	STR/DEX	Standard	Medium	2	Ascendant Blade, Shadow Wanderer
+Ashfoot	DEX/CON	Standard	Low	2	Skirmish Specialist, Salvage Seeker
+Veilblade	DEX/CHA	-1	Medium	2	Shadow Operative, Wire Ghost
+Oni Hunter	STR/WIS	Standard	Medium	2	Dissolution Specialist, Prey Reader
+Forge Tender	CON/WIS	Standard	High	2	Resonance Keeper, Rebuild Saint
+Wireweave	INT/DEX	Standard	Medium	2	Combat Weave, Signal Loom
+Chrome Shaper	INT/CON	Standard	Medium	2	War Shaper, Forge Genius
+Pulse Caller	INT/DEX	Standard	Low	2	Single Point, Scatter Pulse
+Iron Monk	STR/WIS	-2 (hand 5)	High	2	Orthodoxy, Between Form
+Echo Speaker	CHA/WIS	Standard	Medium	2	Sutensai Aligned, Grief Conductor
+Void Walker	DEX/INT	Standard	Low	2	Ghost Operative, Phase Anchor
+Sutensai	INT/CHA	Standard	Low	2	Inquisitor, Truth Seeker
+Flesh Shaper	CON/WIS	Standard	High	2	The Mender, Flesh Architect
+Puppet Binder	INT/CHA	Standard	Medium	2	The Architect, Thread Cutter
+Blood Smith	STR/CON	Standard	Medium	2	The Weaponsmith, Iron Ritual
+The Hollow	CON/WIS	Standard	High	2	The Empty, Resonant Void
+Shadow Daimyo	INT/CHA	Standard	Low	2	Spymaster, Ghost Network
+Voice of Debt	CHA/WIS	Standard	Medium	2	Oath Keeper, Debt Lord
+Merchant Knife	DEX/INT	Standard	Medium	2	Supply Cutter, Trade War
+Iron Herald	STR/CHA	Standard	High	2	Warbanner, Iron Preacher
+Curse Eater	CON/WIS	Standard	Medium	2	Purifier, Consumed
+Shell Dancer	DEX/CON	Standard	Medium	2	The Breaker, Echo Step
+Fracture Knight	STR/INT	Standard	Medium	2	The Claimed, Phantom Forge
+The Unnamed	Any (Active Stat)	Standard	Medium	0	None (self-defined)

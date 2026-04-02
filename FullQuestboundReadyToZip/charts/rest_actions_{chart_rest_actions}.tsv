@@ -1,0 +1,3 @@
+rest_type	duration	what_resets	what_requires
+short_rest	10 minutes in-game	Short rest class resources; Quarry Mark; some pool refills	No active combat; minimal activity; no maintenance required
+long_rest	8 hours in-game	All short rest resources; HP to max; status effects expire; degraded state clears; all class pools reset	Safe location; maintenance kit for Forged; full downtime period

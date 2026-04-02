@@ -1,0 +1,6 @@
+clock_id	name	current_progress	threshold	trigger_event
+korrath_ascension	Korrath's Ascension March	0	10	At threshold: Korrath army reaches Convergence site; military endgame forces immediate resolution
+vaen_pilgrimage	Vaen's Pilgrimage Progress	0	10	At threshold: Vaen reaches the Gap threshold; dissolution cascade begins affecting all Reaches
+hollow_author_network	Hollow Author Network Exposure	0	8	At threshold: Hollow Author identity forced into the open; all proxies activated simultaneously
+iron_sutra_response	Iron Sutra Orthodoxy Response	0	6	At threshold: Iron Sutra declares all claimants heretical; military lockdown of Pale and Iron Teeth Reaches
+convergence_approach	Convergence Approach	0	12	At threshold: The Convergence event begins; all campaign clocks freeze; endgame sequence initiates

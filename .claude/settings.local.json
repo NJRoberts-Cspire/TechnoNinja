@@ -6,7 +6,9 @@
       "Bash(grep -o \"setAttr\\('[^']*'\" /c/Users/nroberts/TechnoNinja/questbound/qbscript_pack/*.qbs)",
       "Read(//c/Users/nroberts/TechnoNinja/**)",
       "Bash(grep -n \"Survivor\" /c/Users/nroberts/TechnoNinja/questbound/qbscript_pack/*.qbs)",
-      "Bash(grep -h \"setAttr\\('[^']*'\" /c/Users/nroberts/TechnoNinja/questbound/qbscript_pack/*.qbs)"
+      "Bash(grep -h \"setAttr\\('[^']*'\" /c/Users/nroberts/TechnoNinja/questbound/qbscript_pack/*.qbs)",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:github.com)"
     ]
   }
 }

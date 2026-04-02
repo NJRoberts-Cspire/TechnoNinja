@@ -1,0 +1,7 @@
+field	description
+card_id	Unique identifier for the action card (e.g. act_class_ronin_blade_flash)
+title	Display name shown on the card in-game
+ap_cost	AP required to play; 0 = free
+play_limit_per_turn	Max times per turn; 1 = once, 0 = unlimited
+is_basic_attack	true if classified as basic attack; limits to once per turn
+resolution_type	Effect category: attack / defense / utility / status / mobility

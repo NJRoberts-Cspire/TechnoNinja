@@ -1,0 +1,6 @@
+tier	item_category	item_quality	currency_range	notes
+minion	Consumables, basic tools	Common	1-3 trade metal	Typically one consumable item and minimal currency
+standard	Weapons, armor pieces, augmentation components	Common to uncommon	3-8 trade metal	May carry faction-specific item or low-tier augmentation component
+elite	Named weapons, full augmentation modules, faction gear	Uncommon to rare	8-20 trade metal	Often carries one unique item; may have Sutensai seal or Wire Market contract
+boss	Artifacts, claimant relics, unique augmentations	Rare to legendary	20-50 trade metal plus unique	Always carries a unique item; may drop campaign-significant intelligence
+environmental	Salvage, resonance crystals, prior-cycle fragments	Varies	0-5 trade metal	Location-specific; requires investigation or skill check to identify value

@@ -1,0 +1,6 @@
+priority	condition	card_type
+1	Target at or below 20% HP	finisher
+2	Self below 30% HP and mobility available	mobility
+3	No control applied this round	control
+4	Default action	attack
+5	Ally needs sustain and support available	sustain

@@ -1,0 +1,4 @@
+step	script_hook
+start_turn	beginTurn()
+play_card	runCard(actionKey, apCost, isBasicAttack)
+end_turn	endTurnLock()
