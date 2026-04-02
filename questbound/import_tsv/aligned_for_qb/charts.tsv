@@ -1,4 +1,4 @@
-﻿id	title	columns	rows
+id	title	columns	rows
 chart_card_action_schema	Card Action Schema	field,description	card_id,title,ap_cost,play_limit_per_turn,is_basic_attack,resolution_type
 chart_resolution_types	Resolution Types	key,description	attack,defense,utility,status,mobility
 chart_turn_sequence	Turn Sequence	step,script_hook	start_turn,play_card,end_turn
@@ -16,3 +16,24 @@ chart_monster_card_tags	Monster Card Tags	tag,description	attack,defense,control
 chart_status_catalog	Status Catalog	status_id,name,type,default_duration,max_stacks,stack_rule,summary	guard,fortify,expose,stagger,bleed,burn,overheat,mark,root,silence,veil,taunt,vulnerable,regen,shielded
 chart_status_timing	Status Timing Rules	timing_key,description	on_apply,on_turn_start,on_turn_end,on_hit,on_damaged,on_card_play,on_expire
 chart_status_dispel_groups	Status Dispel Groups	group_id,members	defensive_buffs,offensive_debuffs,mobility_locks,resource_pressure
+chart_races_overview	All Races - Overview	race,primary_stats,hand_size,hp_mod_tier,passive_count,card_count,subtype	Forged,Tethered,Echoed,Wireborn,Stitched,Shellbroken,Iron_Blessed,Diminished
+chart_classes_overview	All Classes - Overview	class,primary_stats,hand_size,hp_mod,subclass_count,subclass_names	Ironclad,Ronin,Ashfoot,Veilblade,Oni_Hunter,Forge_Tender,Wireweave,Chrome_Shaper,Pulse_Caller,Iron_Monk,Echo_Speaker,Void_Walker,Sutensai,Flesh_Shaper,Puppet_Binder,Blood_Smith,The_Hollow,Shadow_Daimyo,Voice_of_Debt,Merchant_Knife,Iron_Herald,Curse_Eater,Shell_Dancer,Fracture_Knight,The_Unnamed
+chart_ap_cost_reference	AP Cost Reference	ap_cost,tier_name,typical_power,examples	0,free,basic_attack_or_passive,1,standard,core_ability,2,significant,empowered_ability,3,major,signature_or_capstone
+chart_keyword_glossary	Keyword Glossary	keyword,type,effect_summary,stacking_rule	Guard,Fortify,Expose,Stagger,Bleed,Burn,Overheat,Mark,Root,Silence,Regen,Shield,Vulnerable,Pierce,Veil,Taunt,Echo,Cascade,Debt,Loaded,Fracture,Phantom
+chart_caste_system	Caste System Reference	caste,label,enhancement_access,social_context,example_professions	Resonant,Craftbound,Ironblood,Ashwalker,Voided
+chart_faction_matrix	Faction Matrix	faction,leader,territory,primary_goal,conflict_with,notes	Korrath,Vaen,Hollow_Author,Iron_Sutra,Wire_Market,Pilgrimage,Sutensai_Order
+chart_claimant_reference	Claimant Reference	claimant,true_nature,public_face,key_relic,campaign_threat	Korrath_the_Unbroken,Vaen_of_the_Empty_Hand,The_Hollow_Author
+chart_reach_overview	Broken Reaches Overview	reach,dominant_faction,caste_balance,key_locations,encounter_flavor	Sunder,Veilward,Pale,Iron_Teeth,Ash_River
+chart_encounter_sunder_reach	Encounter Table - Sunder Reach	roll,type,description	1-10 encounters from Korrath territory
+chart_encounter_veilward_reach	Encounter Table - Veilward Reach	roll,type,description	1-10 encounters from Vaen's homeland
+chart_encounter_pale_reach	Encounter Table - Pale Reach	roll,type,description	1-10 encounters from the Wire Market city
+chart_encounter_iron_teeth_reach	Encounter Table - Iron Teeth Reach	roll,type,description	1-10 encounters from the industrial Reach
+chart_encounter_ash_river_reach	Encounter Table - Ash River Reach	roll,type,description	1-10 encounters from the refugee Reach
+chart_npc_reference	NPC Quick Reference	npc_id,name,role,faction,location,secret	forge_sister_kessen,general_soten_vari,governor_maret_suno,guild_master_harren,lord_tessik,mira_pale,runner_seven,chars_voice,cinder_priest,the_collector,drowned_archivist,garden_keeper,the_signal,tidecourt_speaker_veran,veil_master_soren_hai,warden_tessen
+chart_location_reference	Location Quick Reference	location_id,name,region,key_threat,key_opportunity,encounter_theme	cinderfort,deep_temple,preparation_halls,engine_scar,shore_of_last_words,ruined_citadel
+chart_monster_catalog	Monster Catalog - All Types	monster_id,name,type,tier,role,key_abilities,source_file	shell_entities,iron_afterlife,corrupted_forged,war_beasts,ashlands_phenomena,oni_equivalents,wire_plague,the_hollowed,resonance_predators,between_walkers,ironhold_constructs,sutensai_manifestations,prior_ascended_remnants,ashlands_horrors
+chart_damage_types	Damage Types	type,common_sources,resisted_by,keywords_applied	slashing,piercing,bludgeoning,resonant,fire,signal,void,spiritual,bleed_poison
+chart_rest_actions	Rest Actions	rest_type,duration,what_resets,what_requires	short_rest,long_rest
+chart_loot_tables	Loot Tables by Tier	tier,item_category,item_quality,currency_range,notes	minion,standard,elite,boss,environmental
+chart_level_milestones	Level Milestone Reference	level,typical_features_unlocked,campaign_beats	1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
+chart_seventh_convergence_clocks	Campaign Clocks	clock_id,name,current_progress,threshold,trigger_event	korrath_ascension,vaen_pilgrimage,hollow_author_network,iron_sutra_response,convergence_approach

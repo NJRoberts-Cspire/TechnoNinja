@@ -36,3 +36,96 @@ scr_status_expire_cleanup	Status Expire Cleanup	on_turn_end	Remove expired statu
 scr_status_damage_pipeline	Status Damage Pipeline	on_damage_calculation	Apply Guard, Expose, Vulnerable, and Pierce interactions in deterministic order.
 scr_status_card_lock_checks	Status Card Lock Checks	on_action_attempt	Enforce Stagger, Silence, and Root restrictions against card categories and tags.
 scr_status_cleanse_dispel	Status Cleanse or Dispel	on_action_resolve	Remove eligible status by dispel group rules.
+scr_tethered_on_add_initialize	Tethered On Add Initialize	on_archetype_add	Set species, lock aug_count to 0, initialize passives.
+scr_echoed_on_add_initialize	Echoed On Add Initialize	on_archetype_add	Set species, initialize already_died tracker and afterlife awareness.
+scr_echoed_already_died_trigger	Echoed Already Died Trigger	on_hp_change	Drop to 1 HP instead of 0 if tracker unused; consume usage.
+scr_wireborn_on_add_initialize	Wireborn On Add Initialize	on_archetype_add	Set species, initialize signal vulnerability and digital navigation flags.
+scr_stitched_on_add_initialize	Stitched On Add Initialize	on_archetype_add	Set species, prompt component A and B selection, initialize drift state.
+scr_shellbroken_on_add_initialize	Shellbroken On Add Initialize	on_archetype_add	Set species, initialize survivor clarity and Hollow Author connection flags.
+scr_shellbroken_survivor_clarity_trigger	Shellbroken Survivor Clarity Trigger	on_hp_change	Apply Guard 4 as free reaction when first dropped below half HP in combat.
+scr_iron_blessed_on_add_initialize	Iron Blessed On Add Initialize	on_archetype_add	Set species, prompt Tended/Unregistered subtype, set hand size modifier accordingly.
+scr_diminished_on_add_initialize	Diminished On Add Initialize	on_archetype_add	Set species, initialize environmental awareness, lean target, and infrastructure knowledge.
+scr_ronin_on_add_initialize	Ronin On Add Initialize	on_archetype_add	Set class label, set corrupted resonance signature, initialize oath status to Masterless.
+scr_ronin_resource_reset_long_rest	Ronin Long Rest Reset	on_long_rest	Clear contract target if contract type changed; restore any rest-limited resources.
+scr_ashfoot_on_add_initialize	Ashfoot On Add Initialize	on_archetype_add	Set class label, set caste tier to Low, set enhancement quality to salvage.
+scr_ashfoot_resource_reset_short_rest	Ashfoot Short Rest Reset	on_short_rest	Restore any short-rest limited resources.
+scr_veilblade_on_add_initialize	Veilblade On Add Initialize	on_archetype_add	Set class label, set resonant signature to suppressed, enable wire integration.
+scr_veilblade_resource_reset_short_rest	Veilblade Short Rest Reset	on_short_rest	Restore short-rest resources.
+scr_oni_hunter_on_add_initialize	Oni Hunter On Add Initialize	on_archetype_add	Set class label, clear quarry mark, initialize dissolution resonance to 0.
+scr_oni_hunter_set_quarry_mark	Oni Hunter Set Quarry Mark	on_action_resolve:card_oni_hunter_hunters_mark	Set quarry_marked to true; record target ID in target_lock.
+scr_oni_hunter_resource_reset_short_rest	Oni Hunter Short Rest Reset	on_short_rest	Clear quarry mark; reset short-rest resources.
+scr_forge_tender_on_add_initialize	Forge Tender On Add Initialize	on_archetype_add	Set class label, initialize community dependent flag, prompt Resonance Keeper alignment.
+scr_forge_tender_resource_reset_short_rest	Forge Tender Short Rest Reset	on_short_rest	Restore short-rest heal uses.
+scr_forge_tender_resource_reset_long_rest	Forge Tender Long Rest Reset	on_long_rest	Restore all long-rest heal resources.
+scr_wireweave_on_add_initialize	Wireweave On Add Initialize	on_archetype_add	Set class label, prompt subclass path selection.
+scr_wireweave_resource_reset_short_rest	Wireweave Short Rest Reset	on_short_rest	Restore short-rest signal resources.
+scr_chrome_shaper_on_add_initialize	Chrome Shaper On Add Initialize	on_archetype_add	Set class label, initialize experimental designs counter.
+scr_chrome_shaper_config_switch	Chrome Shaper Config Switch	on_action_resolve	Apply stat modifiers for the new configuration and remove previous.
+scr_chrome_shaper_resource_reset_short_rest	Chrome Shaper Short Rest Reset	on_short_rest	Restore configuration switch resources.
+scr_pulse_caller_on_add_initialize	Pulse Caller On Add Initialize	on_archetype_add	Set class label, enable integrated weapon, initialize preconscious fire to false.
+scr_pulse_caller_resource_reset_short_rest	Pulse Caller Short Rest Reset	on_short_rest	Restore pulse arm short-rest resources.
+scr_iron_monk_on_add_initialize	Iron Monk On Add Initialize	on_archetype_add	Set class label, initialize between_state and below_half_bonus to false.
+scr_iron_monk_between_state_toggle	Iron Monk Between State Toggle	on_action_resolve	Toggle between_state boolean and apply/remove state-conditional modifiers.
+scr_iron_monk_below_half_hp_tracker	Iron Monk Below Half HP Tracker	on_hp_change	Update Below Half HP Bonus Active flag when HP drops below or rises above 50% of max.
+scr_iron_monk_resource_reset_long_rest	Iron Monk Long Rest Reset	on_long_rest	Reset long-rest resources.
+scr_echo_speaker_on_add_initialize	Echo Speaker On Add Initialize	on_archetype_add	Set class label, enable afterlife affinity, initialize grief stacks to 0.
+scr_echo_speaker_grief_accumulate	Echo Speaker Grief Accumulate	on_ally_death	Increment grief stacks by 1 when an ally drops to 0 HP within range.
+scr_echo_speaker_resource_reset_long_rest	Echo Speaker Long Rest Reset	on_long_rest	Reset grief stacks and long-rest resources.
+scr_void_walker_on_add_initialize	Void Walker On Add Initialize	on_archetype_add	Set class label, initialize incorporeal_state to false, anchor_points to 0.
+scr_void_walker_phase_toggle	Void Walker Phase Toggle	on_action_resolve	Toggle incorporeal_state; apply or remove phase-conditional defense modifiers.
+scr_void_walker_resource_reset_short_rest	Void Walker Short Rest Reset	on_short_rest	Restore short-rest phase resources.
+scr_sutensai_on_add_initialize	Sutensai On Add Initialize	on_archetype_add	Set class label, set reader_authority to true, set echomind_reading_level to 1.
+scr_sutensai_hp_cost_payment	Sutensai HP Cost Card Payment	on_action_attempt	If player chooses HP cost variant: validate HP available and deduct instead of AP.
+scr_sutensai_resource_reset_long_rest	Sutensai Long Rest Reset	on_long_rest	Reset any long-rest limited resources.
+scr_flesh_shaper_on_add_initialize	Flesh Shaper On Add Initialize	on_archetype_add	Set class label, initialize hp_tier to full.
+scr_flesh_shaper_hp_tier_tracker	Flesh Shaper HP Tier Tracker	on_hp_change	Update hp_tier attribute (full/wounded/critical) based on current HP percentage.
+scr_flesh_shaper_resource_reset_long_rest	Flesh Shaper Long Rest Reset	on_long_rest	Reset long-rest heal resources and clear crisis mend extra use if applicable.
+scr_puppet_binder_on_add_initialize	Puppet Binder On Add Initialize	on_archetype_add	Set class label, vessel_active to false, binding_threads to 0.
+scr_puppet_binder_apply_bind	Puppet Binder Apply Bind	on_action_resolve:card_puppet_binder_minor_bind	Increment binding_threads; record target; set vessel_active if first bind.
+scr_puppet_binder_release_bind	Puppet Binder Release Bind	on_action_resolve	Decrement binding_threads; clear vessel_active if count reaches 0.
+scr_puppet_binder_resource_reset_long_rest	Puppet Binder Long Rest Reset	on_long_rest	Clear all binds; reset vessel_active to false; reset binding_threads to 0.
+scr_blood_smith_on_add_initialize	Blood Smith On Add Initialize	on_archetype_add	Set class label, set enhancement_status to stable.
+scr_blood_smith_pay_hp_cost	Blood Smith HP Cost Payment	on_action_attempt	Deduct listed HP cost from current HP before resolving card; block if HP too low.
+scr_blood_smith_enhancement_stress_check	Blood Smith Enhancement Stress Check	on_hp_change	Update enhancement_status based on current HP: stable/stressed/failing thresholds.
+scr_blood_smith_resource_reset_long_rest	Blood Smith Long Rest Reset	on_long_rest	Reset enhancement_status to stable; restore any long-rest resources.
+scr_hollow_on_add_initialize	Hollow On Add Initialize	on_archetype_add	Set class label, prompt Empty/Shell path choice, initialize hp_percent to 100.
+scr_hollow_update_hp_percent	Hollow HP Percent Tracker	on_hp_change	Recalculate and update hp_percent attribute after each HP change.
+scr_hollow_resource_reset_long_rest	Hollow Long Rest Reset	on_long_rest	Reset long-rest resources.
+scr_shadow_daimyo_on_add_initialize	Shadow Daimyo On Add Initialize	on_archetype_add	Set class label, initialize intelligence_gathered to 0, active_contacts to 0.
+scr_shadow_daimyo_apply_intelligence	Shadow Daimyo Apply Intelligence	on_action_resolve:card_shadow_daimyo_gather_intelligence	Increment intelligence_gathered by 1.
+scr_shadow_daimyo_activate_contact	Shadow Daimyo Activate Contact	on_action_resolve:card_shadow_daimyo_contact_activation	Decrement active_contacts by 1 and apply contact-specific benefit.
+scr_shadow_daimyo_resource_reset_long_rest	Shadow Daimyo Long Rest Reset	on_long_rest	Restore contact slots; reset intelligence if path specifies.
+scr_voice_of_debt_on_add_initialize	Voice of Debt On Add Initialize	on_archetype_add	Set class label, initialize detonations_used to 0.
+scr_voice_of_debt_apply_debt	Voice of Debt Apply Debt Stacks	on_action_resolve	Add specified Debt stacks to target; update serialized debt map.
+scr_voice_of_debt_detonate_debt	Voice of Debt Detonate	on_action_resolve	Read target Debt stacks; calculate detonation damage; clear stacks; increment detonations_used.
+scr_voice_of_debt_resource_reset_per_encounter	Voice of Debt Encounter Reset	on_encounter_start	Reset detonations_used to 0.
+scr_merchant_knife_on_add_initialize	Merchant Knife On Add Initialize	on_archetype_add	Set class label, initialize intelligence and debt tracking maps to empty.
+scr_merchant_knife_apply_intelligence	Merchant Knife Apply Intelligence	on_action_resolve	Increment intelligence stacks on target; update serialized intelligence map.
+scr_merchant_knife_resource_reset_long_rest	Merchant Knife Long Rest Reset	on_long_rest	Clear intelligence maps; restore long-rest contact resources.
+scr_iron_herald_on_add_initialize	Iron Herald On Add Initialize	on_archetype_add	Set class label, command_zone_active to false, priority_target to empty, zone_radius to 15.
+scr_iron_herald_establish_zone	Iron Herald Establish Command Zone	on_action_resolve:card_iron_herald_command_zone_establish	Set command_zone_active to true; announce zone establishment.
+scr_iron_herald_collapse_zone	Iron Herald Collapse Zone	on_turn_end	Collapse Command Zone if character is incapacitated or moves beyond zone boundary.
+scr_iron_herald_set_priority_target	Iron Herald Set Priority Target	on_action_resolve:card_iron_herald_priority_mark	Write target ID to priority_target attribute.
+scr_iron_herald_resource_reset_short_rest	Iron Herald Short Rest Reset	on_short_rest	Restore short-rest command resources; keep zone active if not disrupted.
+scr_curse_eater_on_add_initialize	Curse Eater On Add Initialize	on_archetype_add	Set class label, initialize loaded_count to 0, corruption_points to 0.
+scr_curse_eater_absorb_debuff	Curse Eater Absorb	on_action_resolve:card_curse_eater_absorb	Read one debuff from target ally; remove it from ally; increment loaded_count by 1.
+scr_curse_eater_purge_loaded	Curse Eater Purge Loaded	on_action_resolve:card_curse_eater_purge_burst	Use loaded_count to determine purge radius/power; decrement loaded_count.
+scr_curse_eater_corruption_accumulate	Curse Eater Corruption Accumulate	on_action_resolve	When Consumed path: increment corruption_points on heavy absorb; apply transformation thresholds.
+scr_curse_eater_resource_reset_long_rest	Curse Eater Long Rest Reset	on_long_rest	Reduce loaded_count by half; reset any long-rest corruption thresholds.
+scr_shell_dancer_on_add_initialize	Shell Dancer On Add Initialize	on_archetype_add	Set class label, cascade_count to 0, in_shell_step to false, shell_step_turns to 0.
+scr_shell_dancer_generate_cascade	Shell Dancer Cascade Generator	on_damaged	On taking damage, increment cascade_count by 1 (max 10).
+scr_shell_dancer_enter_shell_step	Shell Dancer Enter Shell Step	on_action_resolve:card_shell_dancer_shell_step_enter	Set in_shell_step to true; set shell_step_turns to 2.
+scr_shell_dancer_shell_step_tick	Shell Dancer Shell Step Tick	on_turn_end	Decrement shell_step_turns by 1; if reaches 0 set in_shell_step to false.
+scr_shell_dancer_spend_cascade	Shell Dancer Spend Cascade	on_action_resolve	Deduct cascade cost from cascade_count; enforce minimum 0.
+scr_shell_dancer_resource_reset_long_rest	Shell Dancer Long Rest Reset	on_long_rest	Reset cascade_count to 0; clear shell step state.
+scr_fracture_knight_on_add_initialize	Fracture Knight On Add Initialize	on_archetype_add	Set class label, phantom_charges to 2, fracture_stacks_self to 0.
+scr_fracture_knight_generate_phantom	Fracture Knight Phantom Charge Generate	on_action_resolve	Increment phantom_charges by listed amount; cap at 6.
+scr_fracture_knight_spend_phantom	Fracture Knight Phantom Charge Spend	on_action_resolve	Deduct cost from phantom_charges; enforce minimum 0; block card if insufficient.
+scr_fracture_knight_apply_fracture_self	Fracture Knight Apply Fracture Self	on_action_resolve	Increment fracture_stacks_self when self-fracture card is played.
+scr_fracture_knight_apply_target_fracture	Fracture Knight Apply Target Fracture	on_action_resolve	Increment fracture stacks on a specific target using serialized fracture_target_map; announce stack count.
+scr_fracture_knight_resource_reset_short_rest	Fracture Knight Short Rest Reset	on_short_rest	Restore phantom_charges to 2 + any level bonus.
+scr_fracture_knight_resource_reset_long_rest	Fracture Knight Long Rest Reset	on_long_rest	Restore phantom_charges to maximum; clear fracture_stacks_self.
+scr_unnamed_on_add_initialize	Unnamed On Add Initialize	on_archetype_add	Set class label, initialize active_stat, prompt Convergent/Divergent path choice.
+scr_unnamed_stat_shift	Unnamed Active Stat Shift	on_action_resolve	Update active_stat attribute to the stat defined by played card's current shift condition.
+scr_unnamed_name_card	Unnamed Name Card	on_action_resolve	Write player-chosen name to card's condition field; announce naming event.
+scr_unnamed_resource_reset_long_rest	Unnamed Long Rest Reset	on_long_rest	Reset any unnamed-specific rest resources.

@@ -1,4 +1,4 @@
-﻿id	title	category	source_file	description
+id	title	category	source_file	description
 doc_race_forged_overview	The Forged - Overview	character_options	races/01_the_forged.md	Lore-forward race reference text for players.
 doc_race_forged_roleplay	The Forged - Roleplaying Notes	character_options	races/01_the_forged.md	Guidance on identity, upgrades, and social positioning.
 doc_race_forged_war_context	The Forged - Ascension War Context	reference	races/01_the_forged.md	Faction pressure and campaign integration notes.
@@ -6,3 +6,126 @@ doc_class_ironclad_overview	Ironclad Samurai - Overview	character_options	classe
 doc_class_ironclad_world_context	Ironclad Samurai - In the World	character_options	classes/01_ironclad_samurai.md	Social and institutional role in Tesshari.
 doc_class_ironclad_roleplay	Ironclad Samurai - Roleplaying	character_options	classes/01_ironclad_samurai.md	Obligation and code-driven roleplay guidance.
 doc_class_ironclad_war_context	Ironclad Samurai - Ascension War Context	reference	classes/01_ironclad_samurai.md	Claimant alignment pressures and campaign stakes.
+doc_race_tethered_overview	The Tethered - Overview	character_options	races/02_the_tethered.md	Biological flesh-dominant beings; the old model; deeply political in Tesshari society.
+doc_race_tethered_roleplay_symbol	The Tethered - Weight of Being a Symbol	character_options	races/02_the_tethered.md	Guidance on navigating the political and symbolic burden of Tethered identity.
+doc_race_tethered_roleplay_faith	The Tethered - The Old Breath	character_options	races/02_the_tethered.md	Secret faith traditions maintained outside Sutensai orthodoxy.
+doc_race_tethered_roleplay_longing	The Tethered - The Longing and the Pride	character_options	races/02_the_tethered.md	Emotional and social navigation of pride and grief under Tethered identity.
+doc_race_echoed_overview	The Echoed - Overview	character_options	races/03_the_echoed.md	Beings who returned from the Iron Afterlife; the gap in memory and what was carried back.
+doc_race_echoed_roleplay_gap	The Echoed - The Gap	character_options	races/03_the_echoed.md	The blank period and what it means to build identity around an absence.
+doc_race_echoed_roleplay_contamination	The Echoed - Memory Contamination	character_options	races/03_the_echoed.md	Carried Things: impressions from other consciousnesses encountered in the Afterlife.
+doc_race_echoed_roleplay_permission	The Echoed - The Permission to Still Live	character_options	races/03_the_echoed.md	Emotional framework for continuing after death; survivor's questions.
+doc_race_wireborn_overview	The Wireborn - Overview	character_options	races/04_the_wireborn.md	Born in or deeply integrated with Wire Craft networks; digital-biological beings.
+doc_race_wireborn_roleplay_presence	The Wireborn - The Problem of Presence	character_options	races/04_the_wireborn.md	How Wireborn experience physical presence vs. digital existence.
+doc_race_wireborn_roleplay_archive	The Wireborn - The Hollow Archive	character_options	races/04_the_wireborn.md	What lives in the network and what the Wireborn can access and what costs them.
+doc_race_wireborn_roleplay_self	The Wireborn - Consciousness in Split State	character_options	races/04_the_wireborn.md	Identity questions when consciousness can exist in multiple states.
+doc_race_stitched_overview	The Stitched - Overview	character_options	races/05_the_stitched.md	Assembled beings from multiple sources; modular, drifting, and deeply misread.
+doc_race_stitched_roleplay_provenance	The Stitched - The Provenance Question	character_options	races/05_the_stitched.md	What it means to be assembled from others; ownership and identity.
+doc_race_stitched_roleplay_social	The Stitched - Social Cost	character_options	races/05_the_stitched.md	The discomfort and unease others feel around Stitched presence.
+doc_race_stitched_roleplay_drift	The Stitched - What the Drift Is Teaching You	character_options	races/05_the_stitched.md	The slow biological/mechanical adaptation; what it reveals about who you are becoming.
+doc_race_shellbroken_overview	The Shellbroken - Overview	character_options	races/06_the_shellbroken.md	Formerly controlled by the Hollow Author; severed but marked; building identity from evidence.
+doc_race_shellbroken_roleplay_evidence	The Shellbroken - The Evidence Problem	character_options	races/06_the_shellbroken.md	Accountability for actions taken during the gap; provisional self-responsibility.
+doc_race_shellbroken_roleplay_trust	The Shellbroken - Trusting the Companions	character_options	races/06_the_shellbroken.md	How to extend provisional trust after betrayal was possible.
+doc_race_shellbroken_roleplay_identity	The Shellbroken - Identity Under Construction	character_options	races/06_the_shellbroken.md	Identity Tokens as active mechanic; what you choose to stand for.
+doc_race_iron_blessed_overview	The Iron Blessed - Overview	character_options	races/07_the_iron_blessed.md	Resonant metal formations spontaneously growing from flesh; spiritually significant and surveilled.
+doc_race_iron_blessed_roleplay_gift	The Iron Blessed - Gift and Burden	character_options	races/07_the_iron_blessed.md	Blessing vs. curse language and the cost of spiritual significance.
+doc_race_iron_blessed_roleplay_manager	The Iron Blessed - The Manager Problem	character_options	races/07_the_iron_blessed.md	Orthodoxy control, compliance, and the difference between Tended and Unregistered.
+doc_race_iron_blessed_roleplay_community	The Iron Blessed - Spine-Speak Community	character_options	races/07_the_iron_blessed.md	Private language and quiet understanding between Iron Blessed.
+doc_race_diminished_overview	The Diminished - Overview	character_options	races/08_the_diminished.md	Low-caste maintenance class; deep infrastructure knowledge; social invisibility as lived experience.
+doc_race_diminished_roleplay_credit	The Diminished - Competence and Credit	character_options	races/08_the_diminished.md	The gap between what Diminished know and do vs. what they receive recognition for.
+doc_race_diminished_roleplay_notice	The Diminished - Below the Notice	character_options	races/08_the_diminished.md	Information gathered through institutional invisibility; the knowledge of the unseen.
+doc_race_diminished_roleplay_complicity	The Diminished - Infrastructure Complicity	character_options	races/08_the_diminished.md	Ethical framework for maintaining systems used against your own community.
+doc_class_ronin_overview	Ronin - Overview	character_options	classes/02_ronin.md	Masterless warriors with corrupted resonance signatures; unbound and dangerous.
+doc_class_ronin_world	Ronin - In the World	character_options	classes/02_ronin.md	How oath-broken samurai navigate Tesshari society and the war.
+doc_class_ashfoot_overview	Ashfoot - Overview	character_options	classes/03_ashfoot.md	Low-caste fighters of the Broken Reaches; salvage warriors and community defenders.
+doc_class_ashfoot_world	Ashfoot - In the World	character_options	classes/03_ashfoot.md	Social position, caste pressures, and what Ashfoot fight for.
+doc_class_veilblade_overview	Veilblade - Overview	character_options	classes/04_veilblade.md	Signal-null operatives working in the space between networks; unseen and lethal.
+doc_class_veilblade_world	Veilblade - In the World	character_options	classes/04_veilblade.md	How Veilblades operate in Tesshari's intelligence and political landscape.
+doc_class_oni_hunter_overview	Oni Hunter - Overview	character_options	classes/05_oni_hunter.md	Specialists in tracking, containing, and destroying dissolution entities and shell-state threats.
+doc_class_oni_hunter_world	Oni Hunter - In the World	character_options	classes/05_oni_hunter.md	Institutional relationships with Sutensai, faction tensions, and field operations.
+doc_class_forge_tender_overview	Forge Tender - Overview	character_options	classes/06_forge_tender.md	Maintenance specialists and resonant healers; community infrastructure workers.
+doc_class_forge_tender_world	Forge Tender - In the World	character_options	classes/06_forge_tender.md	Faction alignment, black market tensions, and the politics of keeping people functional.
+doc_class_wireweave_overview	Wireweave - Overview	character_options	classes/07_wireweave.md	Wire Craft network specialists; signal architects and infrastructure combat experts.
+doc_class_wireweave_world	Wireweave - In the World	character_options	classes/07_wireweave.md	Network politics, broker relationships, and the war for infrastructure control.
+doc_class_chrome_shaper_overview	Chrome Shaper - Overview	character_options	classes/08_chrome_shaper.md	Enhancement engineers who reconfigure their own chassis in real-time combat.
+doc_class_chrome_shaper_world	Chrome Shaper - In the World	character_options	classes/08_chrome_shaper.md	Research, factions, and the ethics of enhancement modification.
+doc_class_pulse_caller_overview	Pulse Caller - Overview	character_options	classes/09_pulse_caller.md	Integrated-weapon specialists whose pulse arm is part of their body and identity.
+doc_class_pulse_caller_world	Pulse Caller - In the World	character_options	classes/09_pulse_caller.md	Military roles, institutional positioning, and the weapon-as-self philosophy.
+doc_class_iron_monk_overview	Iron Monk - Overview	character_options	classes/10_iron_monk.md	Discipline-practitioners who master resonance through physical cultivation and philosophical commitment.
+doc_class_iron_monk_world	Iron Monk - In the World	character_options	classes/10_iron_monk.md	Sutensai relationships, independent orders, and the Between as spiritual practice.
+doc_class_echo_speaker_overview	Echo Speaker - Overview	character_options	classes/11_echo_speaker.md	Iron Afterlife communicants; translators between the living and dead.
+doc_class_echo_speaker_world	Echo Speaker - In the World	character_options	classes/11_echo_speaker.md	Institutional alignment, grief politics, and what speaking for the dead costs.
+doc_class_void_walker_overview	Void Walker - Overview	character_options	classes/12_void_walker.md	Threshold specialists who exist partially between states; mobility and phase combat.
+doc_class_void_walker_world	Void Walker - In the World	character_options	classes/12_void_walker.md	How Void Walkers are perceived, employed, and feared across Tesshari.
+doc_class_sutensai_overview	Sutensai - Overview	character_options	classes/13_sutensai.md	Iron Sutra theological authorities with Echomind reading power and doctrinal violence.
+doc_class_sutensai_world	Sutensai - In the World	character_options	classes/13_sutensai.md	Institutional power, the reading authority, and the cost of doctrinal enforcement.
+doc_class_flesh_shaper_overview	Flesh Shaper - Overview	character_options	classes/14_flesh_shaper.md	Organic manipulation specialists: healers and destroyers through biological architecture.
+doc_class_flesh_shaper_world	Flesh Shaper - In the World	character_options	classes/14_flesh_shaper.md	Social fear, illegal practice, and the ethics of reshaping living tissue.
+doc_class_puppet_binder_overview	Puppet Binder - Overview	character_options	classes/15_puppet_binder.md	Thread-based binding and possession specialists; complex ethics around control.
+doc_class_puppet_binder_world	Puppet Binder - In the World	character_options	classes/15_puppet_binder.md	The legal, social, and spiritual questions around binding and possession.
+doc_class_blood_smith_overview	Blood Smith - Overview	character_options	classes/16_blood_smith.md	Resonant blood/HP economy fighters; convert damage taken into offensive and defensive power.
+doc_class_blood_smith_world	Blood Smith - In the World	character_options	classes/16_blood_smith.md	Faction relationships, Iron Sutra tensions, and the body-as-resource philosophy.
+doc_class_hollow_overview	The Hollow - Overview	character_options	classes/17_the_hollow.md	Resonance-void or chassis-dominant fighters scaling power from HP loss.
+doc_class_hollow_world	The Hollow - In the World	character_options	classes/17_the_hollow.md	How Hollow are perceived and what void-state means socially and spiritually.
+doc_class_shadow_daimyo_overview	Shadow Daimyo - Overview	character_options	classes/18_shadow_daimyo.md	Intelligence operatives and political power brokers; win through information.
+doc_class_shadow_daimyo_world	Shadow Daimyo - In the World	character_options	classes/18_shadow_daimyo.md	Networks, factions, and the price of knowing everything.
+doc_class_voice_of_debt_overview	Voice of Debt - Overview	character_options	classes/19_voice_of_debt.md	Obligation trackers who weaponize debt and invoke spiritual law as combat.
+doc_class_voice_of_debt_world	Voice of Debt - In the World	character_options	classes/19_voice_of_debt.md	The institutions and individuals who employ and fear the Voice of Debt.
+doc_class_merchant_knife_overview	Merchant Knife - Overview	character_options	classes/20_merchant_knife.md	Trade-network combat specialists; economic intelligence as tactical weapon.
+doc_class_merchant_knife_world	Merchant Knife - In the World	character_options	classes/20_merchant_knife.md	Wire Market relationships, supply chain politics, and the cost of trade-war.
+doc_class_iron_herald_overview	Iron Herald - Overview	character_options	classes/21_iron_herald.md	Command-zone specialists and battlefield coordinators; authority through presence.
+doc_class_iron_herald_world	Iron Herald - In the World	character_options	classes/21_iron_herald.md	Military positioning, faction loyalty, and the Herald as institutional instrument.
+doc_class_curse_eater_overview	Curse Eater - Overview	character_options	classes/22_curse_eater.md	Debuff absorbers who convert curses into power; corruption as resource.
+doc_class_curse_eater_world	Curse Eater - In the World	character_options	classes/22_curse_eater.md	The spiritual and political cost of eating what others cannot carry.
+doc_class_shell_dancer_overview	Shell Dancer - Overview	character_options	classes/23_shell_dancer.md	Evasion and cascade fighters; take damage to generate power; the dance of survival.
+doc_class_shell_dancer_world	Shell Dancer - In the World	character_options	classes/23_shell_dancer.md	How Shell Dancers are trained, employed, and what their philosophy costs them.
+doc_class_fracture_knight_overview	Fracture Knight - Overview	character_options	classes/24_fracture_knight.md	Between-sourced fighters with Phantom Charges and Fracture stack mechanics.
+doc_class_fracture_knight_world	Fracture Knight - In the World	character_options	classes/24_fracture_knight.md	The Claimed and Haunted Legion; spiritual debt and the cost of Between power.
+doc_class_unnamed_overview	The Unnamed - Overview	character_options	classes/25_the_unnamed.md	Player-defined class; cards unlocked through personal conditions; the self as the system.
+doc_class_unnamed_world	The Unnamed - In the World	character_options	classes/25_the_unnamed.md	How the Unnamed are perceived and what it means to define yourself in a world of defined roles.
+doc_world_overview	World Overview	player_primer	world/00_world_overview.md	Tesshari world overview: the setting, the Seventh Convergence, and what players need to know.
+doc_world_history	History and Timeline	reference	world/01_history_and_timeline.md	Chronological history of Tesshari from the Prior Ascended through the current war.
+doc_world_iron_sutra	The Iron Sutra	reference	world/02_the_iron_sutra.md	The theological framework of Tesshari: the Iron Afterlife, the Sutensai, and doctrinal law.
+doc_world_broken_reaches	The Broken Reaches	reference	world/03_the_broken_reaches.md	Geography and regions of Tesshari: the Ashlands, the Engine Scar, the Holds, and the Shore.
+doc_world_prior_ascended	The Prior Ascended	reference	world/04_the_prior_ascended.md	Who the Prior Ascended were, what they built, and what they left behind.
+doc_world_technology_society	Technology and Society	reference	world/05_technology_and_society.md	How Wire Craft, enhancement, and resonance shape social structure, caste, and daily life.
+doc_world_seventh_convergence	The Seventh Convergence	player_primer	world/06_the_seventh_convergence.md	The current crisis: what the Seventh Convergence is and why it matters for the campaign.
+doc_campaign_session_zero	Session Zero Guide	player_primer	campaign/00_session_zero.md	Safety tools, table expectations, and campaign premise for players.
+doc_campaign_act_one	Act One - Overview	gm_secrets	campaign/01_act_one.md	Campaign Act One structure, hooks, and GM notes.
+doc_campaign_act_two	Act Two - Overview	gm_secrets	campaign/02_act_two.md	Campaign Act Two structure, escalation, and faction pressure.
+doc_campaign_act_three	Act Three - Overview	gm_secrets	campaign/03_act_three.md	Campaign Act Three: convergence and resolution structure.
+doc_campaign_dm_secrets	DM Secrets	gm_secrets	campaign/04_dm_secrets.md	Hidden clocks, true motives, and information the players should not see.
+doc_campaign_random_tables	Random Tables	reference	campaign/05_random_tables.md	Encounter, rumor, NPC mood, and complication tables for session use.
+doc_campaign_dungeons	Dungeon Reference	reference	campaign/06_dungeons.md	Dungeon design notes and encounter frameworks for Tesshari locations.
+doc_campaign_dungeon_plot_bridges	Dungeon Plot Bridges	gm_secrets	campaign/07_dungeon_plot_bridges.md	How dungeon encounters connect to the larger campaign plot threads.
+doc_campaign_subquests	Subquests Compendium	reference	questbound/drafts/75_subquests_COMPLETE.md	Complete compiled subquest list across all five reaches.
+doc_location_cinderfort	The Cinderfort	reference	locations/01_the_cinderfort.md	Location reference: the Cinderfort, its factions, encounters, and significance.
+doc_location_deep_temple	The Deep Temple	reference	locations/02_the_deep_temple.md	Location reference: the Deep Temple, its resonance structures, and threats.
+doc_location_preparation_halls	The Preparation Halls	reference	locations/03_the_preparation_halls.md	Location reference: the Preparation Halls and what is prepared there.
+doc_location_engine_scar	The Engine Scar	reference	locations/04_the_engine_scar.md	Location reference: the Engine Scar, contamination zones, and survival notes.
+doc_location_shore_of_last_words	The Shore of Last Words	reference	locations/05_the_shore_of_last_words.md	Location reference: the Shore of Last Words and its Iron Afterlife proximity effects.
+doc_location_ruined_citadel	A Ruined Imperial Citadel	reference	locations/06_a_ruined_imperial_citadel.md	Location reference: ruins of a prior empire and what was left behind.
+doc_npc_forge_sister_kessen	Forge Sister Kessen	reference	npcs/forge-sister-kessen.md	NPC reference: Forge Sister Kessen, her allegiances, and her role in the campaign.
+doc_npc_general_soten_vari	General Soten Vari	reference	npcs/general-soten-vari.md	NPC reference: General Soten Vari, military commander and campaign pressure point.
+doc_npc_governor_maret_suno	Governor Maret Suno	reference	npcs/governor-maret-suno.md	NPC reference: Governor Maret Suno, political authority in the Broken Reaches.
+doc_npc_guild_master_harren	Guild Master Harren	reference	npcs/guild-master-harren.md	NPC reference: Guild Master Harren of the Wire Market.
+doc_npc_lord_tessik	Lord Tessik	reference	npcs/lord-tessik.md	NPC reference: Lord Tessik, noble authority and campaign complication.
+doc_npc_mira_pale	Mira of the Pale	reference	npcs/mira-of-the-pale.md	NPC reference: Mira of the Pale, Afterlife-adjacent figure and information source.
+doc_npc_runner_seven	Runner Seven	reference	npcs/runner-seven.md	NPC reference: Runner Seven, courier and intelligence source.
+doc_npc_chars_voice	The Char's Voice	reference	npcs/the-chars-voice.md	NPC reference: The Char's Voice, Ashlands faction representative.
+doc_npc_cinder_priest	The Cinder Priest	reference	npcs/the-cinder-priest.md	NPC reference: The Cinder Priest, Engine Scar theological authority.
+doc_npc_collector	The Collector	reference	npcs/the-collector.md	NPC reference: The Collector, relic and artifact broker.
+doc_npc_drowned_archivist	The Drowned Archivist	reference	npcs/the-drowned-archivist.md	NPC reference: The Drowned Archivist, Iron Afterlife knowledge source.
+doc_npc_garden_keeper	The Garden Keeper	reference	npcs/the-garden-keeper.md	NPC reference: The Garden Keeper, faction unknown; unusual knowledge profile.
+doc_npc_signal	The Signal	reference	npcs/the-signal.md	NPC reference: The Signal, Wire Craft entity or person; ambiguous nature.
+doc_npc_tidecourt_speaker	Tidecourt Speaker Veran	reference	npcs/tidecourt-speaker-veran.md	NPC reference: Tidecourt Speaker Veran, court faction representative.
+doc_npc_veil_master_soren_hai	Veil Master Soren Hai	reference	npcs/veil-master-soren-hai.md	NPC reference: Veil Master Soren Hai, signal intelligence authority.
+doc_npc_warden_tessen	Warden Tessen	reference	npcs/warden-tessen.md	NPC reference: Warden Tessen, custodial authority over a key location.
+doc_claimant_korrath	Korrath the Unbroken	gm_secrets	claimants/01_korrath_the_unbroken.md	Claimant reference: Korrath the Unbroken — true nature, goals, and campaign role.
+doc_claimant_vaen	Vaen of the Empty Hand	gm_secrets	claimants/02_vaen_of_the_empty_hand.md	Claimant reference: Vaen of the Empty Hand — true nature, goals, and campaign role.
+doc_claimant_hollow_author	The Hollow Author	gm_secrets	claimants/03_the_hollow_author.md	Claimant reference: The Hollow Author — true nature, puppet network, and campaign threat.
+doc_system_core_rules	Core Rules and Mechanics	reference	system/00_core_rules.md	Complete core rules reference: the card/AP combat system and base mechanics.
+doc_system_balance_audit	Balance Audit	reference	system/01_balance_audit.md	Balance notes and design decisions for GM reference.
+doc_system_keywords_status	Keywords and Status Effects	reference	system/02_keywords_and_status.md	Complete keyword glossary and status effect reference.
+doc_system_combat_reference	Combat Reference	reference	system/03_combat_reference.md	Quick reference card for running Tesshari combat encounters.
+doc_system_character_creation	Character Creation Guide	player_primer	system/04_character_creation.md	Step-by-step character creation guide for players.
+doc_system_dm_reference	DM Reference	gm_secrets	system/05_dm_reference.md	Comprehensive DM reference for running Tesshari: encounter design, AI, difficulty, loot, NPCs, and factions.
