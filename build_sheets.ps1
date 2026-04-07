@@ -5,53 +5,140 @@ $testId  = '0a0fa763-a1b8-408a-982a-4f91a4c94b0b'
 $ts      = '2026-04-02T18:10:45.240Z'
 $enc     = [System.Text.UTF8Encoding]::new($false)
 
-# ── STYLE PRESETS ────────────────────────────────────────────────────────────
+# =============================================================================
+# STYLE PRESETS
+# =============================================================================
 
-$sHeader = @{ opacity=1; color='#c8a84b'; fontSize=11; fontWeight='700';
-              outlineWidth=0; borderRadiusTopLeft=0; borderRadiusTopRight=0;
-              borderRadiusBottomLeft=0; borderRadiusBottomRight=0;
-              paddingLeft=2; verticalAlign='center' }
+# Card panel background
+$sCard = @{
+    opacity=1; backgroundColor='#0d0d22';
+    outlineWidth=1; outlineColor='#1c1c3c';
+    borderRadiusTopLeft=4; borderRadiusTopRight=4;
+    borderRadiusBottomLeft=4; borderRadiusBottomRight=4;
+    boxShadow='0 2px 12px rgba(0,0,0,0.6)'
+}
 
-$sLabel  = @{ opacity=1; color='#888898'; fontSize=12; fontWeight='400';
-              outlineWidth=0; borderRadiusTopLeft=0; borderRadiusTopRight=0;
-              borderRadiusBottomLeft=0; borderRadiusBottomRight=0;
-              verticalAlign='center'; paddingLeft=4 }
+# Section header bar (dark, slightly different from card)
+$sHdrBar = @{
+    opacity=1; backgroundColor='#16163a';
+    outlineWidth=0;
+    borderRadiusTopLeft=4; borderRadiusTopRight=4;
+    borderRadiusBottomLeft=0; borderRadiusBottomRight=0
+}
 
-$sValue  = @{ opacity=1; color='#d0d0e0'; fontSize=14; fontWeight='500';
-              outlineWidth=1; outlineColor='#2a2a4a';
-              borderRadiusTopLeft=4; borderRadiusTopRight=4;
-              borderRadiusBottomLeft=4; borderRadiusBottomRight=4;
-              backgroundColor='#16162c'; verticalAlign='center';
-              textAlign='center'; paddingLeft=4 }
+# Diamond ornament (used with rotation=45 on the component)
+$sDia = @{
+    opacity=1; backgroundColor='#c8a84b';
+    outlineWidth=0;
+    borderRadiusTopLeft=0; borderRadiusTopRight=0;
+    borderRadiusBottomLeft=0; borderRadiusBottomRight=0
+}
 
-$sInput  = @{ opacity=1; color='#ffffff'; fontSize=18; fontWeight='700';
-              outlineWidth=1; outlineColor='#3a3a6a';
-              borderRadiusTopLeft=4; borderRadiusTopRight=4;
-              borderRadiusBottomLeft=4; borderRadiusBottomRight=4;
-              backgroundColor='#16162c'; verticalAlign='center'; textAlign='center' }
+# Section header text (centered gold, bold)
+$sHdrTxt = @{
+    opacity=1; color='#e0ca60'; fontSize=12; fontWeight='700';
+    outlineWidth=0;
+    borderRadiusTopLeft=0; borderRadiusTopRight=0;
+    borderRadiusBottomLeft=0; borderRadiusBottomRight=0;
+    textAlign='center'; verticalAlign='center'
+}
 
-$sSep    = @{ opacity=1; color='#555577'; fontSize=16; fontWeight='300';
-              outlineWidth=0; borderRadiusTopLeft=0; borderRadiusTopRight=0;
-              borderRadiusBottomLeft=0; borderRadiusBottomRight=0;
-              verticalAlign='center'; textAlign='center' }
+# Field label (muted blue-grey)
+$sLbl = @{
+    opacity=1; color='#6060a0'; fontSize=12; fontWeight='400';
+    outlineWidth=0;
+    borderRadiusTopLeft=0; borderRadiusTopRight=0;
+    borderRadiusBottomLeft=0; borderRadiusBottomRight=0;
+    textAlign='start'; verticalAlign='center'; paddingLeft=4
+}
 
-$sCheck  = @{ opacity=1; outlineWidth=0; borderRadiusTopLeft=4; borderRadiusTopRight=4;
-              borderRadiusBottomLeft=4; borderRadiusBottomRight=4;
-              color='#d0d0e0'; fontSize=12; fontWeight='400'; paddingLeft=4 }
+# LARGE editable input — HP / AP current
+$sBig = @{
+    opacity=1; color='#ffffff'; fontSize=28; fontWeight='700';
+    outlineWidth=2; outlineColor='#3030a0';
+    borderRadiusTopLeft=6; borderRadiusTopRight=6;
+    borderRadiusBottomLeft=6; borderRadiusBottomRight=6;
+    backgroundColor='#111136'; verticalAlign='center'; textAlign='center';
+    boxShadow='inset 0 1px 5px rgba(0,0,0,0.7)'
+}
 
-$sGrHp   = @{ opacity=1; backgroundColor='#7a0000'; outlineWidth=0;
-              borderRadiusTopLeft=4; borderRadiusTopRight=4;
-              borderRadiusBottomLeft=4; borderRadiusBottomRight=4 }
+# MEDIUM editable input — HP / AP max
+$sMed = @{
+    opacity=1; color='#a0a0e0'; fontSize=18; fontWeight='600';
+    outlineWidth=1; outlineColor='#222260';
+    borderRadiusTopLeft=4; borderRadiusTopRight=4;
+    borderRadiusBottomLeft=4; borderRadiusBottomRight=4;
+    backgroundColor='#080820'; verticalAlign='center'; textAlign='center'
+}
 
-$sGrAp   = @{ opacity=1; backgroundColor='#0d4f8c'; outlineWidth=0;
-              borderRadiusTopLeft=4; borderRadiusTopRight=4;
-              borderRadiusBottomLeft=4; borderRadiusBottomRight=4 }
+# SMALL editable number input — resources, guard, level, zone radius
+$sNum = @{
+    opacity=1; color='#d8d8ff'; fontSize=15; fontWeight='600';
+    outlineWidth=1; outlineColor='#2020a0';
+    borderRadiusTopLeft=4; borderRadiusTopRight=4;
+    borderRadiusBottomLeft=4; borderRadiusBottomRight=4;
+    backgroundColor='#080820'; verticalAlign='center'; textAlign='center'
+}
 
-$sGrMon  = @{ opacity=1; backgroundColor='#4a2f00'; outlineWidth=0;
-              borderRadiusTopLeft=4; borderRadiusTopRight=4;
-              borderRadiusBottomLeft=4; borderRadiusBottomRight=4 }
+# TEXT input — editable string fields (paths, aug slots, monster info)
+$sTxt = @{
+    opacity=1; color='#d8d8ff'; fontSize=13; fontWeight='500';
+    outlineWidth=1; outlineColor='#2020a0';
+    borderRadiusTopLeft=4; borderRadiusTopRight=4;
+    borderRadiusBottomLeft=4; borderRadiusBottomRight=4;
+    backgroundColor='#080820'; verticalAlign='center'; textAlign='start';
+    paddingLeft=6
+}
 
-# ── HASHTABLE MERGE HELPER ───────────────────────────────────────────────────
+# READ-ONLY display — species, class (set by archetype)
+$sDsp = @{
+    opacity=1; color='#c0c0e8'; fontSize=14; fontWeight='500';
+    outlineWidth=1; outlineColor='#1a1a50';
+    borderRadiusTopLeft=4; borderRadiusTopRight=4;
+    borderRadiusBottomLeft=4; borderRadiusBottomRight=4;
+    backgroundColor='#080820'; verticalAlign='center'; textAlign='center'
+}
+
+# Separator "/"
+$sSep = @{
+    opacity=0.35; color='#9090c0'; fontSize=22; fontWeight='200';
+    outlineWidth=0;
+    borderRadiusTopLeft=0; borderRadiusTopRight=0;
+    borderRadiusBottomLeft=0; borderRadiusBottomRight=0;
+    verticalAlign='center'; textAlign='center'
+}
+
+# Checkbox
+$sChk = @{
+    opacity=1; outlineWidth=0;
+    borderRadiusTopLeft=3; borderRadiusTopRight=3;
+    borderRadiusBottomLeft=3; borderRadiusBottomRight=3;
+    color='#8888c8'; fontSize=12; fontWeight='400'; paddingLeft=6; verticalAlign='center'
+}
+
+# Progress bars
+$sGrHp  = @{ opacity=1; backgroundColor='#8b0000'; outlineWidth=0;
+             borderRadiusTopLeft=2; borderRadiusTopRight=2;
+             borderRadiusBottomLeft=2; borderRadiusBottomRight=2 }
+$sGrAp  = @{ opacity=1; backgroundColor='#0d4f8c'; outlineWidth=0;
+             borderRadiusTopLeft=2; borderRadiusTopRight=2;
+             borderRadiusBottomLeft=2; borderRadiusBottomRight=2 }
+$sGrMon = @{ opacity=1; backgroundColor='#7a4800'; outlineWidth=0;
+             borderRadiusTopLeft=2; borderRadiusTopRight=2;
+             borderRadiusBottomLeft=2; borderRadiusBottomRight=2 }
+
+# Portrait background placeholder
+$sPortBg = @{
+    opacity=1; backgroundColor='#080818';
+    outlineWidth=1; outlineColor='#2a2a6a';
+    borderRadiusTopLeft=4; borderRadiusTopRight=4;
+    borderRadiusBottomLeft=4; borderRadiusBottomRight=4
+}
+
+# =============================================================================
+# HELPERS
+# =============================================================================
+
 function Merge($base, $over) {
     $r = @{}
     foreach ($k in $base.Keys) { $r[$k] = $base[$k] }
@@ -59,274 +146,352 @@ function Merge($base, $over) {
     return $r
 }
 
-# ── COMPONENT BUILDER ────────────────────────────────────────────────────────
-
 function C($id, $winId, $type, $x, $y, $w, $h, $data, $style,
            $attrId=$null, $actionId=$null, $scriptId=$null, $childWinId=$null) {
     [PSCustomObject]@{
-        id                  = $id
-        createdAt           = $ts; updatedAt = $ts
-        rulesetId           = $rid
-        windowId            = $winId
-        type                = $type
-        x                   = $x; y = $y; z = 0
-        width               = $w; height = $h; rotation = 0
-        data                = ($data  | ConvertTo-Json -Compress)
-        style               = ($style | ConvertTo-Json -Compress)
-        locked              = $false
-        groupId             = $null; parentComponentId = $null
-        attributeId         = $attrId
-        actionId            = $actionId
-        scriptId            = $scriptId
-        childWindowId       = $childWinId
+        id                = $id
+        createdAt         = $ts; updatedAt = $ts
+        rulesetId         = $rid
+        windowId          = $winId
+        type              = $type
+        x                 = $x; y = $y; z = 0
+        width             = $w; height = $h; rotation = 0
+        data              = ($data  | ConvertTo-Json -Compress)
+        style             = ($style | ConvertTo-Json -Compress)
+        locked            = $false
+        groupId           = $null; parentComponentId = $null
+        attributeId       = $attrId
+        actionId          = $actionId
+        scriptId          = $scriptId
+        childWindowId     = $childWinId
     }
 }
 
-# ── WINDOW IDs ───────────────────────────────────────────────────────────────
+# Background card shape
+function BG($id, $winId, $x, $y, $w, $h) {
+    C $id $winId 'shape' $x $y $w $h @{sides=4} $sCard
+}
+
+# Decorated section header: dark bar + left/right gold diamonds + centered label
+# Adds 4 components to $list. Header height is always 28px.
+function AddHdr([System.Collections.Generic.List[PSCustomObject]]$list, $pfx, $win, $x, $y, $w, $label) {
+    # Header bar background
+    $bar = C "${pfx}_hb" $win 'shape' $x $y $w 28 @{sides=4} $sHdrBar
+    $list.Add($bar)
+    # Left diamond ornament (rotated square)
+    $ld = C "${pfx}_ld" $win 'shape' ($x+10) ($y+9) 10 10 @{sides=4} $sDia
+    $ld.rotation = 45
+    $list.Add($ld)
+    # Right diamond ornament
+    $rd = C "${pfx}_rd" $win 'shape' ($x+$w-20) ($y+9) 10 10 @{sides=4} $sDia
+    $rd.rotation = 45
+    $list.Add($rd)
+    # Header label text
+    $txt = C "${pfx}_ht" $win 'text' $x $y $w 28 @{value=$label} $sHdrTxt
+    $list.Add($txt)
+}
+
+# =============================================================================
+# IDs
+# =============================================================================
 $wCbt = 'win_combat_core'
 $wRes = 'win_class_resources'
 $wIdn = 'win_identity'
 $wMon = 'win_monster_combat'
 
-# ── PAGE IDs ─────────────────────────────────────────────────────────────────
 $pCbt = 'page_character_combat'
 $pIdn = 'page_character_identity'
 $pMon = 'page_monster_sheet'
 
-# ═══════════════════════════════════════════════════════════════════════════
-# COMPONENTS
-# ═══════════════════════════════════════════════════════════════════════════
-
 $allComps = [System.Collections.Generic.List[PSCustomObject]]::new()
 
-# ─────────────────────────────────────────────────────────────────────────────
-# WIN_COMBAT_CORE
-# ─────────────────────────────────────────────────────────────────────────────
+# =============================================================================
+# WIN_COMBAT_CORE  (360px wide)
+# Sections: HEALTH | ACTION POINTS | DEFENSE & STATE | ACTIVE STATUSES | TURN TRACKER
+# =============================================================================
 
-# HEALTH section
-$allComps.Add((C 'cc_hdr_hp'    $wCbt 'text' 0 0   300 18 @{value='— HEALTH ────────────────────────────'} $sHeader))
-$allComps.Add((C 'cc_hp_graph'  $wCbt 'graph' 0 22  300 26 @{numeratorAttributeId='attr_current_hp'; denominatorAttributeId='attr_max_hp'; graphVariant='horizontal-linear'; inverseFill=$false} $sGrHp))
-$allComps.Add((C 'cc_hp_curr'   $wCbt 'input' 0 52  90  36 @{viewAttributeId='attr_current_hp'; viewAttributeReadOnly=$false; type='number'; placeholder='HP'} $sInput 'attr_current_hp'))
-$allComps.Add((C 'cc_hp_sep'    $wCbt 'text'  94 52 20  36 @{value='/'} $sSep))
-$allComps.Add((C 'cc_hp_max'    $wCbt 'text'  118 52 90 36 @{viewAttributeId='attr_max_hp'; viewAttributeReadOnly=$true} $sValue 'attr_max_hp'))
-$allComps.Add((C 'cc_hp_lbl'    $wCbt 'text'  214 52 86 36 @{value='HP'} $sLabel))
+# --- Card backgrounds ---
+$allComps.Add((BG 'cc_bg_hp'  $wCbt  0   0   360 116))
+$allComps.Add((BG 'cc_bg_ap'  $wCbt  0   124 360 116))
+$allComps.Add((BG 'cc_bg_def' $wCbt  0   248 360 70))
+$allComps.Add((BG 'cc_bg_sts' $wCbt  0   326 360 118))
+$allComps.Add((BG 'cc_bg_trk' $wCbt  0   452 360 86))
 
-# ACTION POINTS section
-$allComps.Add((C 'cc_hdr_ap'    $wCbt 'text'  0 96  300 18 @{value='— ACTION POINTS ──────────────────────'} $sHeader))
-$allComps.Add((C 'cc_ap_graph'  $wCbt 'graph' 0 118 300 26 @{numeratorAttributeId='attr_ap_current'; denominatorAttributeId='attr_ap_max'; graphVariant='horizontal-linear'; inverseFill=$false} $sGrAp))
-$allComps.Add((C 'cc_ap_curr'   $wCbt 'input' 0 148 90  36 @{viewAttributeId='attr_ap_current'; viewAttributeReadOnly=$false; type='number'; placeholder='AP'} $sInput 'attr_ap_current'))
-$allComps.Add((C 'cc_ap_sep'    $wCbt 'text'  94 148 20 36 @{value='/'} $sSep))
-$allComps.Add((C 'cc_ap_max'    $wCbt 'text'  118 148 90 36 @{viewAttributeId='attr_ap_max'; viewAttributeReadOnly=$true} $sValue 'attr_ap_max'))
-$allComps.Add((C 'cc_ap_lbl'    $wCbt 'text'  214 148 86 36 @{value='AP'} $sLabel))
+# --- HEALTH ---
+AddHdr $allComps 'cc_hp' $wCbt 0 0 360 'HEALTH'
+$allComps.Add((C 'cc_hp_graph' $wCbt 'graph' 10 32  340 18 @{numeratorAttributeId='attr_current_hp'; denominatorAttributeId='attr_max_hp'; graphVariant='horizontal-linear'; inverseFill=$false} $sGrHp))
+$allComps.Add((C 'cc_hp_curr'  $wCbt 'input' 10 54  130 56 @{viewAttributeId='attr_current_hp'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sBig 'attr_current_hp'))
+$allComps.Add((C 'cc_hp_sep'   $wCbt 'text'  144 54  18  56 @{value='/'} $sSep))
+$allComps.Add((C 'cc_hp_max'   $wCbt 'input' 166 54  110 56 @{viewAttributeId='attr_max_hp'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sMed 'attr_max_hp'))
+$allComps.Add((C 'cc_hp_lbl'   $wCbt 'text'  280 54  70  56 @{value='HP'} $sLbl))
 
-# DEFENSE & STATE section
-$allComps.Add((C 'cc_hdr_def'   $wCbt 'text'  0 192 300 18 @{value='— DEFENSE & TURN STATE ───────────────'} $sHeader))
-$allComps.Add((C 'cc_grd_lbl'   $wCbt 'text'  0 214 105 30 @{value='Guard Value'} $sLabel))
-$allComps.Add((C 'cc_grd_val'   $wCbt 'input' 110 214 60 30 @{viewAttributeId='attr_guard_value'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sInput 'attr_guard_value'))
-$allComps.Add((C 'cc_turn_chk'  $wCbt 'checkbox' 180 214 118 30 @{viewAttributeId='attr_active_turn'} $sCheck 'attr_active_turn'))
+# --- ACTION POINTS ---
+AddHdr $allComps 'cc_ap' $wCbt 0 124 360 'ACTION POINTS'
+$allComps.Add((C 'cc_ap_graph' $wCbt 'graph' 10 156 340 18 @{numeratorAttributeId='attr_ap_current'; denominatorAttributeId='attr_ap_max'; graphVariant='horizontal-linear'; inverseFill=$false} $sGrAp))
+$allComps.Add((C 'cc_ap_curr'  $wCbt 'input' 10 178 130 56 @{viewAttributeId='attr_ap_current'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sBig 'attr_ap_current'))
+$allComps.Add((C 'cc_ap_sep'   $wCbt 'text'  144 178 18  56 @{value='/'} $sSep))
+$allComps.Add((C 'cc_ap_max'   $wCbt 'input' 166 178 110 56 @{viewAttributeId='attr_ap_max'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sMed 'attr_ap_max'))
+$allComps.Add((C 'cc_ap_lbl'   $wCbt 'text'  280 178 70  56 @{value='AP'} $sLbl))
 
-# STATUS section
-$allComps.Add((C 'cc_hdr_sts'   $wCbt 'text'  0 252 300 18 @{value='— ACTIVE STATUSES ────────────────────'} $sHeader))
-$allComps.Add((C 'cc_sts_val'   $wCbt 'text'  0 274 300 76 @{viewAttributeId='attr_status_list'; viewAttributeReadOnly=$true} (Merge $sValue @{verticalAlign='start'; textAlign='start'; fontSize=12; paddingLeft=6; paddingTop=4}) 'attr_status_list'))
+# --- DEFENSE & STATE ---
+AddHdr $allComps 'cc_def' $wCbt 0 248 360 'DEFENSE & STATE'
+$allComps.Add((C 'cc_grd_lbl'  $wCbt 'text'     10  280 104 34 @{value='Guard Value'} $sLbl))
+$allComps.Add((C 'cc_grd_val'  $wCbt 'input'    118 280 76  34 @{viewAttributeId='attr_guard_value'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sNum 'attr_guard_value'))
+$allComps.Add((C 'cc_turn_chk' $wCbt 'checkbox' 200 280 150 34 @{viewAttributeId='attr_active_turn'; label='Active Turn'} $sChk 'attr_active_turn'))
 
-# TURN TRACKER section
-$allComps.Add((C 'cc_hdr_trk'   $wCbt 'text'  0 358 300 18 @{value='— TURN TRACKER ───────────────────────'} $sHeader))
-$allComps.Add((C 'cc_crd_lbl'   $wCbt 'text'  0 380 90  28 @{value='Cards Played'} $sLabel))
-$allComps.Add((C 'cc_crd_val'   $wCbt 'text'  94 380 206 28 @{viewAttributeId='attr_cards_played_this_turn'; viewAttributeReadOnly=$true} (Merge $sValue @{fontSize=11; textAlign='start'; paddingLeft=6}) 'attr_cards_played_this_turn'))
-$allComps.Add((C 'cc_bau_chk'   $wCbt 'checkbox' 0 412 148 28 @{viewAttributeId='attr_basic_attack_used_this_turn'} $sCheck 'attr_basic_attack_used_this_turn'))
-$allComps.Add((C 'cc_lck_chk'   $wCbt 'checkbox' 152 412 148 28 @{viewAttributeId='attr_card_play_locked'} $sCheck 'attr_card_play_locked'))
+# --- ACTIVE STATUSES ---
+AddHdr $allComps 'cc_sts' $wCbt 0 326 360 'ACTIVE STATUSES'
+$allComps.Add((C 'cc_sts_val'  $wCbt 'text' 10 358 340 80 @{viewAttributeId='attr_status_list'; viewAttributeReadOnly=$true} (Merge $sDsp @{verticalAlign='start'; textAlign='start'; fontSize=12; paddingLeft=6; paddingTop=4}) 'attr_status_list'))
 
-# ─────────────────────────────────────────────────────────────────────────────
-# WIN_CLASS_RESOURCES
-# ─────────────────────────────────────────────────────────────────────────────
+# --- TURN TRACKER ---
+AddHdr $allComps 'cc_trk' $wCbt 0 452 360 'TURN TRACKER'
+$allComps.Add((C 'cc_crd_lbl'  $wCbt 'text'     10  484 108 26 @{value='Cards Played'} $sLbl))
+$allComps.Add((C 'cc_crd_val'  $wCbt 'text'     122 484 228 26 @{viewAttributeId='attr_cards_played_this_turn'; viewAttributeReadOnly=$true} (Merge $sDsp @{fontSize=12; textAlign='start'; paddingLeft=6}) 'attr_cards_played_this_turn'))
+$allComps.Add((C 'cc_bau_chk'  $wCbt 'checkbox' 10  514 170 20 @{viewAttributeId='attr_basic_attack_used_this_turn'; label='Basic Attack Used'} $sChk 'attr_basic_attack_used_this_turn'))
+$allComps.Add((C 'cc_lck_chk'  $wCbt 'checkbox' 186 514 164 20 @{viewAttributeId='attr_card_play_locked'; label='Card Play Locked'} $sChk 'attr_card_play_locked'))
 
-$allComps.Add((C 'cr_hdr_res'   $wRes 'text' 0 0   300 18 @{value='— CLASS RESOURCES ────────────────────'} $sHeader))
+# =============================================================================
+# WIN_CLASS_RESOURCES  (380px wide)
+# Editable number inputs for all resource counters
+# Row layout: label (left) | input (right) [| optional checkbox far right]
+# =============================================================================
 
-# Echo Speaker
-$allComps.Add((C 'cr_grief_lbl' $wRes 'text' 0 22  170 26 @{value='Grief Stacks'} $sLabel))
-$allComps.Add((C 'cr_grief_val' $wRes 'text' 174 22 56  26 @{viewAttributeId='attr_echo_speaker_grief_stacks'; viewAttributeReadOnly=$true} $sValue 'attr_echo_speaker_grief_stacks'))
+$allComps.Add((BG 'cr_bg_res' $wRes  0   0   380 268))
+$allComps.Add((BG 'cr_bg_dmy' $wRes  0   276 380 118))
+$allComps.Add((BG 'cr_bg_tgl' $wRes  0   402 380 96))
+$allComps.Add((BG 'cr_bg_oth' $wRes  0   506 380 100))
 
-# Shell Dancer
-$allComps.Add((C 'cr_casc_lbl'  $wRes 'text' 0 52  120 26 @{value='Cascade Count'} $sLabel))
-$allComps.Add((C 'cr_casc_val'  $wRes 'text' 124 52 52  26 @{viewAttributeId='attr_shell_dancer_cascade_count'; viewAttributeReadOnly=$true} $sValue 'attr_shell_dancer_cascade_count'))
-$allComps.Add((C 'cr_shlstp_ch' $wRes 'checkbox' 182 52 118 26 @{viewAttributeId='attr_shell_dancer_in_shell_step'} $sCheck 'attr_shell_dancer_in_shell_step'))
+# --- CLASS RESOURCES ---
+AddHdr $allComps 'cr_res' $wRes 0 0 380 'CLASS RESOURCES'
 
-# Fracture Knight
-$allComps.Add((C 'cr_phnt_lbl'  $wRes 'text' 0 82  130 26 @{value='Phantom Charges'} $sLabel))
-$allComps.Add((C 'cr_phnt_val'  $wRes 'text' 134 82 52  26 @{viewAttributeId='attr_fracture_knight_phantom_charges'; viewAttributeReadOnly=$true} $sValue 'attr_fracture_knight_phantom_charges'))
-$allComps.Add((C 'cr_frac_lbl'  $wRes 'text' 0 112 120 26 @{value='Fracture (Self)'} $sLabel))
-$allComps.Add((C 'cr_frac_val'  $wRes 'text' 124 112 52 26 @{viewAttributeId='attr_fracture_knight_fracture_stacks_self'; viewAttributeReadOnly=$true} $sValue 'attr_fracture_knight_fracture_stacks_self'))
+# Echo Speaker — Grief Stacks
+$allComps.Add((C 'cr_grief_lbl' $wRes 'text'  10  34  156 28 @{value='Grief Stacks'} $sLbl))
+$allComps.Add((C 'cr_grief_inp' $wRes 'input' 170 34  70  28 @{viewAttributeId='attr_echo_speaker_grief_stacks'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sNum 'attr_echo_speaker_grief_stacks'))
 
-# Puppet Binder
-$allComps.Add((C 'cr_bind_lbl'  $wRes 'text' 0 142 120 26 @{value='Binding Threads'} $sLabel))
-$allComps.Add((C 'cr_bind_val'  $wRes 'text' 124 142 52 26 @{viewAttributeId='attr_puppet_binder_binding_threads'; viewAttributeReadOnly=$true} $sValue 'attr_puppet_binder_binding_threads'))
-$allComps.Add((C 'cr_vess_chk'  $wRes 'checkbox' 182 142 118 26 @{viewAttributeId='attr_puppet_binder_vessel_active'} $sCheck 'attr_puppet_binder_vessel_active'))
+# Shell Dancer — Cascade Count + In Shell Step
+$allComps.Add((C 'cr_casc_lbl'  $wRes 'text'     10  68  140 28 @{value='Cascade Count'} $sLbl))
+$allComps.Add((C 'cr_casc_inp'  $wRes 'input'    154 68  66  28 @{viewAttributeId='attr_shell_dancer_cascade_count'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sNum 'attr_shell_dancer_cascade_count'))
+$allComps.Add((C 'cr_shlstp_ch' $wRes 'checkbox' 228 68  142 28 @{viewAttributeId='attr_shell_dancer_in_shell_step'; label='In Shell Step'} $sChk 'attr_shell_dancer_in_shell_step'))
 
-# Curse Eater
-$allComps.Add((C 'cr_load_lbl'  $wRes 'text' 0 172 110 26 @{value='Loaded Count'} $sLabel))
-$allComps.Add((C 'cr_load_val'  $wRes 'text' 114 172 52 26 @{viewAttributeId='attr_curse_eater_loaded_count'; viewAttributeReadOnly=$true} $sValue 'attr_curse_eater_loaded_count'))
-$allComps.Add((C 'cr_corr_lbl'  $wRes 'text' 172 172 82 26 @{value='Corruption'} $sLabel))
-$allComps.Add((C 'cr_corr_val'  $wRes 'text' 258 172 42 26 @{viewAttributeId='attr_curse_eater_corruption_points'; viewAttributeReadOnly=$true} $sValue 'attr_curse_eater_corruption_points'))
+# Fracture Knight — Phantom Charges + Fracture Self
+$allComps.Add((C 'cr_phnt_lbl'  $wRes 'text'  10  102 156 28 @{value='Phantom Charges'} $sLbl))
+$allComps.Add((C 'cr_phnt_inp'  $wRes 'input' 170 102 70  28 @{viewAttributeId='attr_fracture_knight_phantom_charges'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sNum 'attr_fracture_knight_phantom_charges'))
+$allComps.Add((C 'cr_frac_lbl'  $wRes 'text'  10  136 140 28 @{value='Fracture Stacks'} $sLbl))
+$allComps.Add((C 'cr_frac_inp'  $wRes 'input' 154 136 66  28 @{viewAttributeId='attr_fracture_knight_fracture_stacks_self'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sNum 'attr_fracture_knight_fracture_stacks_self'))
 
-# Oni Hunter
-$allComps.Add((C 'cr_qrry_chk'  $wRes 'checkbox' 0 202 132 26 @{viewAttributeId='attr_oni_hunter_quarry_marked'} $sCheck 'attr_oni_hunter_quarry_marked'))
-$allComps.Add((C 'cr_diss_lbl'  $wRes 'text' 138 202 90 26 @{value='Dissolution'} $sLabel))
-$allComps.Add((C 'cr_diss_val'  $wRes 'text' 234 202 66 26 @{viewAttributeId='attr_oni_hunter_dissolution_resonance'; viewAttributeReadOnly=$true} $sValue 'attr_oni_hunter_dissolution_resonance'))
+# Puppet Binder — Binding Threads + Vessel Active
+$allComps.Add((C 'cr_bind_lbl'  $wRes 'text'     10  170 140 28 @{value='Binding Threads'} $sLbl))
+$allComps.Add((C 'cr_bind_inp'  $wRes 'input'    154 170 66  28 @{viewAttributeId='attr_puppet_binder_binding_threads'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sNum 'attr_puppet_binder_binding_threads'))
+$allComps.Add((C 'cr_vess_chk'  $wRes 'checkbox' 228 170 142 28 @{viewAttributeId='attr_puppet_binder_vessel_active'; label='Vessel Active'} $sChk 'attr_puppet_binder_vessel_active'))
 
-$allComps.Add((C 'cr_hdr_dmy'   $wRes 'text' 0 232 300 18 @{value='— DAIMYO / HERALD ────────────────────'} $sHeader))
+# Curse Eater — Loaded Count | Corruption
+$allComps.Add((C 'cr_load_lbl'  $wRes 'text'  10  204 108 28 @{value='Loaded Count'} $sLbl))
+$allComps.Add((C 'cr_load_inp'  $wRes 'input' 122 204 60  28 @{viewAttributeId='attr_curse_eater_loaded_count'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sNum 'attr_curse_eater_loaded_count'))
+$allComps.Add((C 'cr_corr_lbl'  $wRes 'text'  192 204 86  28 @{value='Corruption'} $sLbl))
+$allComps.Add((C 'cr_corr_inp'  $wRes 'input' 282 204 88  28 @{viewAttributeId='attr_curse_eater_corruption_points'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sNum 'attr_curse_eater_corruption_points'))
 
-# Shadow Daimyo
-$allComps.Add((C 'cr_intel_lbl' $wRes 'text' 0 254 100 26 @{value='Intelligence'} $sLabel))
-$allComps.Add((C 'cr_intel_val' $wRes 'text' 104 254 52 26 @{viewAttributeId='attr_shadow_daimyo_intelligence'; viewAttributeReadOnly=$true} $sValue 'attr_shadow_daimyo_intelligence'))
-$allComps.Add((C 'cr_cont_lbl'  $wRes 'text' 164 254 80 26 @{value='Contacts'} $sLabel))
-$allComps.Add((C 'cr_cont_val'  $wRes 'text' 248 254 52 26 @{viewAttributeId='attr_shadow_daimyo_contacts'; viewAttributeReadOnly=$true} $sValue 'attr_shadow_daimyo_contacts'))
+# Oni Hunter — Quarry Marked + Dissolution
+$allComps.Add((C 'cr_qrry_chk'  $wRes 'checkbox' 10  238 148 28 @{viewAttributeId='attr_oni_hunter_quarry_marked'; label='Quarry Marked'} $sChk 'attr_oni_hunter_quarry_marked'))
+$allComps.Add((C 'cr_diss_lbl'  $wRes 'text'     166 238 80  28 @{value='Dissolution'} $sLbl))
+$allComps.Add((C 'cr_diss_inp'  $wRes 'input'    250 238 120 28 @{viewAttributeId='attr_oni_hunter_dissolution_resonance'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sNum 'attr_oni_hunter_dissolution_resonance'))
 
-# Iron Herald
-$allComps.Add((C 'cr_czact_chk' $wRes 'checkbox' 0 284 148 26 @{viewAttributeId='attr_iron_herald_command_zone_active'} $sCheck 'attr_iron_herald_command_zone_active'))
-$allComps.Add((C 'cr_czrad_lbl' $wRes 'text' 154 284 76 26 @{value='Zone Radius'} $sLabel))
-$allComps.Add((C 'cr_czrad_val' $wRes 'text' 234 284 66 26 @{viewAttributeId='attr_iron_herald_command_zone_radius'; viewAttributeReadOnly=$true} $sValue 'attr_iron_herald_command_zone_radius'))
+# --- DAIMYO / HERALD ---
+AddHdr $allComps 'cr_dmy' $wRes 0 276 380 'DAIMYO / HERALD'
 
-$allComps.Add((C 'cr_hdr_tgl'   $wRes 'text' 0 314 300 18 @{value='— STATE TOGGLES ──────────────────────'} $sHeader))
+# Shadow Daimyo — Intelligence | Contacts
+$allComps.Add((C 'cr_intel_lbl' $wRes 'text'  10  310 90  30 @{value='Intelligence'} $sLbl))
+$allComps.Add((C 'cr_intel_inp' $wRes 'input' 104 310 66  30 @{viewAttributeId='attr_shadow_daimyo_intelligence'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sNum 'attr_shadow_daimyo_intelligence'))
+$allComps.Add((C 'cr_cont_lbl'  $wRes 'text'  180 310 80  30 @{value='Contacts'} $sLbl))
+$allComps.Add((C 'cr_cont_inp'  $wRes 'input' 264 310 106 30 @{viewAttributeId='attr_shadow_daimyo_contacts'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sNum 'attr_shadow_daimyo_contacts'))
 
-# State toggles
-$allComps.Add((C 'cr_incorp_ch' $wRes 'checkbox' 0 336 148 26 @{viewAttributeId='attr_void_walker_incorporeal_state'} $sCheck 'attr_void_walker_incorporeal_state'))
-$allComps.Add((C 'cr_btwn_chk'  $wRes 'checkbox' 152 336 148 26 @{viewAttributeId='attr_iron_monk_between_state'} $sCheck 'attr_iron_monk_between_state'))
-$allComps.Add((C 'cr_blhf_chk'  $wRes 'checkbox' 0 366 148 26 @{viewAttributeId='attr_iron_monk_below_half_bonus'} $sCheck 'attr_iron_monk_below_half_bonus'))
-$allComps.Add((C 'cr_pcns_chk'  $wRes 'checkbox' 152 366 148 26 @{viewAttributeId='attr_pulse_caller_preconscious_fire'} $sCheck 'attr_pulse_caller_preconscious_fire'))
+# Iron Herald — Command Zone Active + Radius
+$allComps.Add((C 'cr_czact_chk' $wRes 'checkbox' 10  346 158 30 @{viewAttributeId='attr_iron_herald_command_zone_active'; label='Command Zone'} $sChk 'attr_iron_herald_command_zone_active'))
+$allComps.Add((C 'cr_czrad_lbl' $wRes 'text'     174 346 84  30 @{value='Zone Radius'} $sLbl))
+$allComps.Add((C 'cr_czrad_inp' $wRes 'input'    262 346 108 30 @{viewAttributeId='attr_iron_herald_command_zone_radius'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sNum 'attr_iron_herald_command_zone_radius'))
 
-$allComps.Add((C 'cr_hdr_oth'   $wRes 'text' 0 396 300 18 @{value='— OTHER RESOURCES ────────────────────'} $sHeader))
+# --- STATE TOGGLES ---
+AddHdr $allComps 'cr_tgl' $wRes 0 402 380 'STATE TOGGLES'
+$allComps.Add((C 'cr_incorp_ch' $wRes 'checkbox' 10  434 178 26 @{viewAttributeId='attr_void_walker_incorporeal_state'; label='Incorporeal'} $sChk 'attr_void_walker_incorporeal_state'))
+$allComps.Add((C 'cr_btwn_chk'  $wRes 'checkbox' 196 434 174 26 @{viewAttributeId='attr_iron_monk_between_state'; label='Between'} $sChk 'attr_iron_monk_between_state'))
+$allComps.Add((C 'cr_blhf_chk'  $wRes 'checkbox' 10  464 178 26 @{viewAttributeId='attr_iron_monk_below_half_bonus'; label='Below Half Bonus'} $sChk 'attr_iron_monk_below_half_bonus'))
+$allComps.Add((C 'cr_pcns_chk'  $wRes 'checkbox' 196 464 174 26 @{viewAttributeId='attr_pulse_caller_preconscious_fire'; label='Preconscious Fire'} $sChk 'attr_pulse_caller_preconscious_fire'))
 
-# Unnamed / Sutensai / Chrome Shaper / Flesh Shaper
-$allComps.Add((C 'cr_ast_lbl'   $wRes 'text' 0 418 90  26 @{value='Active Stat'} $sLabel))
-$allComps.Add((C 'cr_ast_val'   $wRes 'text' 94 418 100 26 @{viewAttributeId='attr_unnamed_active_stat'; viewAttributeReadOnly=$true} $sValue 'attr_unnamed_active_stat'))
-$allComps.Add((C 'cr_xpd_lbl'   $wRes 'text' 202 418 64 26 @{value='Exp.Designs'} $sLabel))
-$allComps.Add((C 'cr_xpd_val'   $wRes 'text' 270 418 30 26 @{viewAttributeId='attr_chrome_shaper_experimental_designs'; viewAttributeReadOnly=$true} $sValue 'attr_chrome_shaper_experimental_designs'))
-$allComps.Add((C 'cr_echo_lbl'  $wRes 'text' 0 448 120 26 @{value='Echomind Level'} $sLabel))
-$allComps.Add((C 'cr_echo_val'  $wRes 'text' 124 448 52 26 @{viewAttributeId='attr_sutensai_echomind_reading_level'; viewAttributeReadOnly=$true} $sValue 'attr_sutensai_echomind_reading_level'))
-$allComps.Add((C 'cr_hptier_lbl' $wRes 'text' 182 448 68 26 @{value='HP Tier'} $sLabel))
-$allComps.Add((C 'cr_hptier_val' $wRes 'text' 254 448 46 26 @{viewAttributeId='attr_flesh_shaper_hp_tier'; viewAttributeReadOnly=$true} $sValue 'attr_flesh_shaper_hp_tier'))
+# --- OTHER RESOURCES ---
+AddHdr $allComps 'cr_oth' $wRes 0 506 380 'OTHER RESOURCES'
+$allComps.Add((C 'cr_ast_lbl'    $wRes 'text'  10  538 86  28 @{value='Active Stat'} $sLbl))
+$allComps.Add((C 'cr_ast_inp'    $wRes 'input' 100 538 120 28 @{viewAttributeId='attr_unnamed_active_stat'; viewAttributeReadOnly=$false; type='text'; placeholder='stat'} $sTxt 'attr_unnamed_active_stat'))
+$allComps.Add((C 'cr_xpd_lbl'    $wRes 'text'  228 538 90  28 @{value='Exp. Designs'} $sLbl))
+$allComps.Add((C 'cr_xpd_inp'    $wRes 'input' 322 538 48  28 @{viewAttributeId='attr_chrome_shaper_experimental_designs'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sNum 'attr_chrome_shaper_experimental_designs'))
+$allComps.Add((C 'cr_echo_lbl'   $wRes 'text'  10  570 120 28 @{value='Echomind Level'} $sLbl))
+$allComps.Add((C 'cr_echo_inp'   $wRes 'input' 134 570 66  28 @{viewAttributeId='attr_sutensai_echomind_reading_level'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sNum 'attr_sutensai_echomind_reading_level'))
+$allComps.Add((C 'cr_hptier_lbl' $wRes 'text'  208 570 70  28 @{value='HP Tier'} $sLbl))
+$allComps.Add((C 'cr_hptier_inp' $wRes 'input' 282 570 88  28 @{viewAttributeId='attr_flesh_shaper_hp_tier'; viewAttributeReadOnly=$false; type='text'; placeholder='full'} $sTxt 'attr_flesh_shaper_hp_tier'))
 
-# ─────────────────────────────────────────────────────────────────────────────
-# WIN_IDENTITY
-# ─────────────────────────────────────────────────────────────────────────────
+# =============================================================================
+# WIN_IDENTITY  (340px wide)
+# Portrait + Identity | Subclass Path | Forged Augmentations
+# =============================================================================
 
-$allComps.Add((C 'id_hdr_idn'   $wIdn 'text' 0 0   300 18 @{value='— IDENTITY ──────────────────────────'} $sHeader))
-$allComps.Add((C 'id_spc_lbl'   $wIdn 'text' 0 22  90  30 @{value='Species'} $sLabel))
-$allComps.Add((C 'id_spc_val'   $wIdn 'text' 94 22  206 30 @{viewAttributeId='attr_species'; viewAttributeReadOnly=$true} $sValue 'attr_species'))
-$allComps.Add((C 'id_cls_lbl'   $wIdn 'text' 0 56  90  30 @{value='Class'} $sLabel))
-$allComps.Add((C 'id_cls_val'   $wIdn 'text' 94 56  206 30 @{viewAttributeId='attr_class'; viewAttributeReadOnly=$true} $sValue 'attr_class'))
-$allComps.Add((C 'id_lvl_lbl'   $wIdn 'text' 0 90  90  30 @{value='Level'} $sLabel))
-$allComps.Add((C 'id_lvl_inp'   $wIdn 'input' 94 90 80  30 @{viewAttributeId='attr_level'; viewAttributeReadOnly=$false; type='number'; placeholder='1'} $sInput 'attr_level'))
+$allComps.Add((BG 'id_bg_port' $wIdn  0   0   340 160))
+$allComps.Add((BG 'id_bg_idn'  $wIdn  0   168 340 148))
+$allComps.Add((BG 'id_bg_sub'  $wIdn  0   324 340 164))
+$allComps.Add((BG 'id_bg_aug'  $wIdn  0   496 340 100))
 
-$allComps.Add((C 'id_hdr_sub'   $wIdn 'text' 0 128 300 18 @{value='— SUBCLASS PATH ─────────────────────'} $sHeader))
-$allComps.Add((C 'id_vein_lbl'  $wIdn 'text' 0 150 90  28 @{value='Vein Path'} $sLabel))
-$allComps.Add((C 'id_vein_val'  $wIdn 'text' 94 150 206 28 @{viewAttributeId='attr_vein_path'; viewAttributeReadOnly=$true} $sValue 'attr_vein_path'))
-$allComps.Add((C 'id_rsub_lbl'  $wIdn 'text' 0 182 90  28 @{value='Ronin Path'} $sLabel))
-$allComps.Add((C 'id_rsub_val'  $wIdn 'text' 94 182 206 28 @{viewAttributeId='attr_ronin_path'; viewAttributeReadOnly=$true} $sValue 'attr_ronin_path'))
-$allComps.Add((C 'id_ashp_lbl'  $wIdn 'text' 0 214 90  28 @{value='Ashfoot Path'} $sLabel))
-$allComps.Add((C 'id_ashp_val'  $wIdn 'text' 94 214 206 28 @{viewAttributeId='attr_ashfoot_path'; viewAttributeReadOnly=$true} $sValue 'attr_ashfoot_path'))
-$allComps.Add((C 'id_vlbp_lbl'  $wIdn 'text' 0 246 90  28 @{value='Veilblade Path'} $sLabel))
-$allComps.Add((C 'id_vlbp_val'  $wIdn 'text' 94 246 206 28 @{viewAttributeId='attr_veilblade_path'; viewAttributeReadOnly=$true} $sValue 'attr_veilblade_path'))
+# --- CHARACTER PORTRAIT ---
+$allComps.Add((C 'id_portrait' $wIdn 'image' 10 10 140 140 @{useCharacterImage=$true; altText='Character Portrait'} @{
+    opacity=1; outlineWidth=1; outlineColor='#2a2a6a';
+    borderRadiusTopLeft=4; borderRadiusTopRight=4;
+    borderRadiusBottomLeft=4; borderRadiusBottomRight=4;
+    backgroundColor='#060616'
+}))
+# Species + Class displayed next to portrait
+$allComps.Add((C 'id_spc_lbl'  $wIdn 'text'  158 14  50  22 @{value='Species'} $sLbl))
+$allComps.Add((C 'id_spc_dsp'  $wIdn 'text'  158 38  174 34 @{viewAttributeId='attr_species'; viewAttributeReadOnly=$true} $sDsp 'attr_species'))
+$allComps.Add((C 'id_cls_lbl'  $wIdn 'text'  158 78  50  22 @{value='Class'} $sLbl))
+$allComps.Add((C 'id_cls_dsp'  $wIdn 'text'  158 102 174 52 @{viewAttributeId='attr_class'; viewAttributeReadOnly=$true} $sDsp 'attr_class'))
 
-$allComps.Add((C 'id_hdr_aug'   $wIdn 'text' 0 282 300 18 @{value='— FORGED AUGMENTATIONS ───────────────'} $sHeader))
-$allComps.Add((C 'id_aug1_lbl'  $wIdn 'text' 0 304 60  28 @{value='Slot 1'} $sLabel))
-$allComps.Add((C 'id_aug1_val'  $wIdn 'text' 64 304 234 28 @{viewAttributeId='attr_forged_aug_1'; viewAttributeReadOnly=$true} $sValue 'attr_forged_aug_1'))
-$allComps.Add((C 'id_aug2_lbl'  $wIdn 'text' 0 336 60  28 @{value='Slot 2'} $sLabel))
-$allComps.Add((C 'id_aug2_val'  $wIdn 'text' 64 336 234 28 @{viewAttributeId='attr_forged_aug_2'; viewAttributeReadOnly=$true} $sValue 'attr_forged_aug_2'))
+# --- IDENTITY ---
+AddHdr $allComps 'id_idn' $wIdn 0 168 340 'IDENTITY'
+$allComps.Add((C 'id_lvl_lbl'  $wIdn 'text'  10  200 80  34 @{value='Level'} $sLbl))
+$allComps.Add((C 'id_lvl_inp'  $wIdn 'input' 94  200 90  34 @{viewAttributeId='attr_level'; viewAttributeReadOnly=$false; type='number'; placeholder='1'} $sNum 'attr_level'))
+$allComps.Add((C 'id_lvl_note' $wIdn 'text'  190 200 140 34 @{value='(set by archetype)'} @{
+    opacity=0.35; color='#8888a8'; fontSize=11; fontWeight='400';
+    outlineWidth=0; borderRadiusTopLeft=0; borderRadiusTopRight=0;
+    borderRadiusBottomLeft=0; borderRadiusBottomRight=0;
+    textAlign='start'; verticalAlign='center'; paddingLeft=4
+}))
+$allComps.Add((C 'id_spc_note' $wIdn 'text'  10 240 320 22 @{value='Species and Class are set by your chosen Archetype'} @{
+    opacity=0.4; color='#8888a8'; fontSize=11; fontWeight='400';
+    outlineWidth=0; borderRadiusTopLeft=0; borderRadiusTopRight=0;
+    borderRadiusBottomLeft=0; borderRadiusBottomRight=0;
+    textAlign='center'; verticalAlign='center'
+}))
+$allComps.Add((C 'id_arc_lbl'  $wIdn 'text'  10  268 90  26 @{value='Archetype'} $sLbl))
+$allComps.Add((C 'id_arc_dsp'  $wIdn 'text'  104 268 226 26 @{value='(selected on archetype panel)'} @{
+    opacity=0.4; color='#a0a0c0'; fontSize=12; fontWeight='400';
+    outlineWidth=1; outlineColor='#1a1a50';
+    borderRadiusTopLeft=4; borderRadiusTopRight=4;
+    borderRadiusBottomLeft=4; borderRadiusBottomRight=4;
+    backgroundColor='#080820'; verticalAlign='center'; textAlign='start'; paddingLeft=6
+}))
 
-# ─────────────────────────────────────────────────────────────────────────────
-# WIN_MONSTER_COMBAT
-# ─────────────────────────────────────────────────────────────────────────────
+# --- SUBCLASS PATH ---
+AddHdr $allComps 'id_sub' $wIdn 0 324 340 'SUBCLASS PATH'
+$allComps.Add((C 'id_vein_lbl' $wIdn 'text'  10  356 82  30 @{value='Vein Path'} $sLbl))
+$allComps.Add((C 'id_vein_inp' $wIdn 'input' 96  356 234 30 @{viewAttributeId='attr_vein_path'; viewAttributeReadOnly=$false; type='text'; placeholder='choose vein path'} $sTxt 'attr_vein_path'))
+$allComps.Add((C 'id_ronin_lbl' $wIdn 'text'  10  392 82  30 @{value='Ronin Path'} $sLbl))
+$allComps.Add((C 'id_ronin_inp' $wIdn 'input' 96  392 234 30 @{viewAttributeId='attr_ronin_path'; viewAttributeReadOnly=$false; type='text'; placeholder='choose ronin path'} $sTxt 'attr_ronin_path'))
+$allComps.Add((C 'id_ashp_lbl'  $wIdn 'text'  10  428 82  30 @{value='Ashfoot Path'} $sLbl))
+$allComps.Add((C 'id_ashp_inp'  $wIdn 'input' 96  428 234 30 @{viewAttributeId='attr_ashfoot_path'; viewAttributeReadOnly=$false; type='text'; placeholder='choose ashfoot path'} $sTxt 'attr_ashfoot_path'))
+$allComps.Add((C 'id_vlbp_lbl'  $wIdn 'text'  10  464 82  30 @{value='Veilblade Path'} $sLbl))
+$allComps.Add((C 'id_vlbp_inp'  $wIdn 'input' 96  464 234 30 @{viewAttributeId='attr_veilblade_path'; viewAttributeReadOnly=$false; type='text'; placeholder='choose veilblade path'} $sTxt 'attr_veilblade_path'))
 
-$allComps.Add((C 'mn_hdr_idn'   $wMon 'text' 0 0   300 18 @{value='— MONSTER IDENTITY ───────────────────'} $sHeader))
-$allComps.Add((C 'mn_tier_lbl'  $wMon 'text' 0 22  60  28 @{value='Tier'} $sLabel))
-$allComps.Add((C 'mn_tier_val'  $wMon 'text' 64 22  236 28 @{viewAttributeId='attr_monster_tier'; viewAttributeReadOnly=$true} $sValue 'attr_monster_tier'))
-$allComps.Add((C 'mn_role_lbl'  $wMon 'text' 0 54  60  28 @{value='Role'} $sLabel))
-$allComps.Add((C 'mn_role_val'  $wMon 'text' 64 54  236 28 @{viewAttributeId='attr_monster_role'; viewAttributeReadOnly=$true} $sValue 'attr_monster_role'))
-$allComps.Add((C 'mn_thrt_lbl'  $wMon 'text' 0 86  80  28 @{value='Threat State'} $sLabel))
-$allComps.Add((C 'mn_thrt_val'  $wMon 'text' 84 86  216 28 @{viewAttributeId='attr_monster_threat_state'; viewAttributeReadOnly=$true} $sValue 'attr_monster_threat_state'))
-$allComps.Add((C 'mn_tgt_lbl'   $wMon 'text' 0 118 80  28 @{value='Target Lock'} $sLabel))
-$allComps.Add((C 'mn_tgt_val'   $wMon 'text' 84 118 216 28 @{viewAttributeId='attr_monster_target_lock'; viewAttributeReadOnly=$true} $sValue 'attr_monster_target_lock'))
+# --- FORGED AUGMENTATIONS ---
+AddHdr $allComps 'id_aug' $wIdn 0 496 340 'FORGED AUGMENTATIONS'
+$allComps.Add((C 'id_aug1_lbl' $wIdn 'text'  10  528 54  32 @{value='Slot 1'} $sLbl))
+$allComps.Add((C 'id_aug1_inp' $wIdn 'input' 68  528 262 32 @{viewAttributeId='attr_forged_aug_1'; viewAttributeReadOnly=$false; type='text'; placeholder='augmentation slot 1'} $sTxt 'attr_forged_aug_1'))
+$allComps.Add((C 'id_aug2_lbl' $wIdn 'text'  10  566 54  32 @{value='Slot 2'} $sLbl))
+$allComps.Add((C 'id_aug2_inp' $wIdn 'input' 68  566 262 32 @{viewAttributeId='attr_forged_aug_2'; viewAttributeReadOnly=$false; type='text'; placeholder='augmentation slot 2'} $sTxt 'attr_forged_aug_2'))
 
-$allComps.Add((C 'mn_hdr_hp'    $wMon 'text' 0 154 300 18 @{value='— HEALTH ────────────────────────────'} $sHeader))
-$allComps.Add((C 'mn_hp_graph'  $wMon 'graph' 0 176 300 26 @{numeratorAttributeId='attr_current_hp'; denominatorAttributeId='attr_max_hp'; graphVariant='horizontal-linear'; inverseFill=$false} $sGrHp))
-$allComps.Add((C 'mn_hp_curr'   $wMon 'input' 0 206 90  36 @{viewAttributeId='attr_current_hp'; viewAttributeReadOnly=$false; type='number'; placeholder='HP'} $sInput 'attr_current_hp'))
-$allComps.Add((C 'mn_hp_sep'    $wMon 'text'  94 206 20 36 @{value='/'} $sSep))
-$allComps.Add((C 'mn_hp_max'    $wMon 'text'  118 206 90 36 @{viewAttributeId='attr_max_hp'; viewAttributeReadOnly=$true} $sValue 'attr_max_hp'))
-$allComps.Add((C 'mn_hp_lbl'    $wMon 'text'  214 206 86 36 @{value='HP'} $sLabel))
+# =============================================================================
+# WIN_MONSTER_COMBAT  (360px wide)
+# Sections: MONSTER IDENTITY | HEALTH | ACTION POINTS | TURN STATE
+# =============================================================================
 
-$allComps.Add((C 'mn_hdr_ap'    $wMon 'text' 0 250 300 18 @{value='— ACTION POINTS ──────────────────────'} $sHeader))
-$allComps.Add((C 'mn_ap_graph'  $wMon 'graph' 0 272 300 26 @{numeratorAttributeId='attr_monster_ap_current'; denominatorAttributeId='attr_monster_ap_max'; graphVariant='horizontal-linear'; inverseFill=$false} $sGrMon))
-$allComps.Add((C 'mn_ap_curr'   $wMon 'input' 0 302 90  36 @{viewAttributeId='attr_monster_ap_current'; viewAttributeReadOnly=$false; type='number'; placeholder='AP'} $sInput 'attr_monster_ap_current'))
-$allComps.Add((C 'mn_ap_sep'    $wMon 'text'  94 302 20 36 @{value='/'} $sSep))
-$allComps.Add((C 'mn_ap_max'    $wMon 'text'  118 302 90 36 @{viewAttributeId='attr_monster_ap_max'; viewAttributeReadOnly=$true} $sValue 'attr_monster_ap_max'))
-$allComps.Add((C 'mn_ap_lbl'    $wMon 'text'  214 302 86 36 @{value='AP'} $sLabel))
+$allComps.Add((BG 'mn_bg_idn' $wMon  0   0   360 166))
+$allComps.Add((BG 'mn_bg_hp'  $wMon  0   174 360 116))
+$allComps.Add((BG 'mn_bg_ap'  $wMon  0   298 360 116))
+$allComps.Add((BG 'mn_bg_trn' $wMon  0   422 360 114))
 
-$allComps.Add((C 'mn_hdr_trn'   $wMon 'text' 0 346 300 18 @{value='— TURN STATE ────────────────────────'} $sHeader))
-$allComps.Add((C 'mn_turn_chk'  $wMon 'checkbox' 0 368 148 28 @{viewAttributeId='attr_active_turn'} $sCheck 'attr_active_turn'))
-$allComps.Add((C 'mn_react_chk' $wMon 'checkbox' 152 368 148 28 @{viewAttributeId='attr_monster_reaction_card_used'} $sCheck 'attr_monster_reaction_card_used'))
-$allComps.Add((C 'mn_mcrd_lbl'  $wMon 'text' 0 400 90  28 @{value='Cards Played'} $sLabel))
-$allComps.Add((C 'mn_mcrd_val'  $wMon 'text' 94 400 206 28 @{viewAttributeId='attr_monster_cards_played_this_turn'; viewAttributeReadOnly=$true} (Merge $sValue @{fontSize=11; textAlign='start'; paddingLeft=6}) 'attr_monster_cards_played_this_turn'))
-$allComps.Add((C 'mn_mbau_chk'  $wMon 'checkbox' 0 432 300 28 @{viewAttributeId='attr_monster_basic_attack_used_this_turn'} $sCheck 'attr_monster_basic_attack_used_this_turn'))
+# --- MONSTER IDENTITY ---
+AddHdr $allComps 'mn_idn' $wMon 0 0 360 'MONSTER IDENTITY'
+$allComps.Add((C 'mn_tier_lbl' $wMon 'text'  10  32  74  32 @{value='Tier'} $sLbl))
+$allComps.Add((C 'mn_tier_inp' $wMon 'input' 88  32  262 32 @{viewAttributeId='attr_monster_tier'; viewAttributeReadOnly=$false; type='text'; placeholder='monster tier'} $sTxt 'attr_monster_tier'))
+$allComps.Add((C 'mn_role_lbl' $wMon 'text'  10  70  74  32 @{value='Role'} $sLbl))
+$allComps.Add((C 'mn_role_inp' $wMon 'input' 88  70  262 32 @{viewAttributeId='attr_monster_role'; viewAttributeReadOnly=$false; type='text'; placeholder='monster role'} $sTxt 'attr_monster_role'))
+$allComps.Add((C 'mn_thrt_lbl' $wMon 'text'  10  108 88  28 @{value='Threat State'} $sLbl))
+$allComps.Add((C 'mn_thrt_inp' $wMon 'input' 102 108 248 28 @{viewAttributeId='attr_monster_threat_state'; viewAttributeReadOnly=$false; type='text'; placeholder='threat state'} $sTxt 'attr_monster_threat_state'))
+$allComps.Add((C 'mn_tgt_lbl'  $wMon 'text'  10  142 88  20 @{value='Target Lock'} $sLbl))
+$allComps.Add((C 'mn_tgt_inp'  $wMon 'input' 102 142 248 20 @{viewAttributeId='attr_monster_target_lock'; viewAttributeReadOnly=$false; type='text'; placeholder='target lock'} $sTxt 'attr_monster_target_lock'))
+
+# --- HEALTH ---
+AddHdr $allComps 'mn_hp' $wMon 0 174 360 'HEALTH'
+$allComps.Add((C 'mn_hp_graph' $wMon 'graph' 10  206 340 18 @{numeratorAttributeId='attr_current_hp'; denominatorAttributeId='attr_max_hp'; graphVariant='horizontal-linear'; inverseFill=$false} $sGrHp))
+$allComps.Add((C 'mn_hp_curr'  $wMon 'input' 10  228 130 56 @{viewAttributeId='attr_current_hp'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sBig 'attr_current_hp'))
+$allComps.Add((C 'mn_hp_sep'   $wMon 'text'  144 228 18  56 @{value='/'} $sSep))
+$allComps.Add((C 'mn_hp_max'   $wMon 'input' 166 228 110 56 @{viewAttributeId='attr_max_hp'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sMed 'attr_max_hp'))
+$allComps.Add((C 'mn_hp_lbl'   $wMon 'text'  280 228 70  56 @{value='HP'} $sLbl))
+
+# --- ACTION POINTS ---
+AddHdr $allComps 'mn_ap' $wMon 0 298 360 'ACTION POINTS'
+$allComps.Add((C 'mn_ap_graph' $wMon 'graph' 10  330 340 18 @{numeratorAttributeId='attr_monster_ap_current'; denominatorAttributeId='attr_monster_ap_max'; graphVariant='horizontal-linear'; inverseFill=$false} $sGrMon))
+$allComps.Add((C 'mn_ap_curr'  $wMon 'input' 10  352 130 56 @{viewAttributeId='attr_monster_ap_current'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sBig 'attr_monster_ap_current'))
+$allComps.Add((C 'mn_ap_sep'   $wMon 'text'  144 352 18  56 @{value='/'} $sSep))
+$allComps.Add((C 'mn_ap_max'   $wMon 'input' 166 352 110 56 @{viewAttributeId='attr_monster_ap_max'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sMed 'attr_monster_ap_max'))
+$allComps.Add((C 'mn_ap_lbl'   $wMon 'text'  280 352 70  56 @{value='AP'} $sLbl))
+
+# --- TURN STATE ---
+AddHdr $allComps 'mn_trn' $wMon 0 422 360 'TURN STATE'
+$allComps.Add((C 'mn_turn_chk'  $wMon 'checkbox' 10  454 166 28 @{viewAttributeId='attr_active_turn'; label='Active Turn'} $sChk 'attr_active_turn'))
+$allComps.Add((C 'mn_react_chk' $wMon 'checkbox' 184 454 166 28 @{viewAttributeId='attr_monster_reaction_card_used'; label='Reaction Used'} $sChk 'attr_monster_reaction_card_used'))
+$allComps.Add((C 'mn_mcrd_lbl'  $wMon 'text'     10  486 108 28 @{value='Cards Played'} $sLbl))
+$allComps.Add((C 'mn_mcrd_dsp'  $wMon 'text'     122 486 228 28 @{viewAttributeId='attr_monster_cards_played_this_turn'; viewAttributeReadOnly=$true} (Merge $sDsp @{fontSize=12; textAlign='start'; paddingLeft=6}) 'attr_monster_cards_played_this_turn'))
+$allComps.Add((C 'mn_mbau_chk'  $wMon 'checkbox' 10  518 340 16 @{viewAttributeId='attr_monster_basic_attack_used_this_turn'; label='Basic Attack Used'} $sChk 'attr_monster_basic_attack_used_this_turn'))
 
 Write-Host "Components built: $($allComps.Count)"
 
-# ═══════════════════════════════════════════════════════════════════════════
+# =============================================================================
 # WINDOWS
-# ═══════════════════════════════════════════════════════════════════════════
+# =============================================================================
 
 $windows = @(
-    [PSCustomObject]@{ id=$wCbt; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Combat Core';     category='character'; description='Core combat stats: HP, AP, Guard, Status, Turn Tracker'; hideFromPlayerView=$false }
-    [PSCustomObject]@{ id=$wRes; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Class Resources'; category='character'; description='Class-specific resource pools and state toggles';            hideFromPlayerView=$false }
-    [PSCustomObject]@{ id=$wIdn; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Identity';        category='character'; description='Species, Class, Level, Subclass Path, Augmentation Slots'; hideFromPlayerView=$false }
-    [PSCustomObject]@{ id=$wMon; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Monster Combat';  category='monster';   description='Monster tier, role, HP, AP, and turn tracking';            hideFromPlayerView=$false }
+    [PSCustomObject]@{ id=$wCbt; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Combat Core';     category='character'; description='HP, AP, Guard, Status, Turn Tracker'; hideFromPlayerView=$false }
+    [PSCustomObject]@{ id=$wRes; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Class Resources'; category='character'; description='All class resource pools and toggles'; hideFromPlayerView=$false }
+    [PSCustomObject]@{ id=$wIdn; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Identity';        category='character'; description='Species, Class, Level, Paths, Augmentations'; hideFromPlayerView=$false }
+    [PSCustomObject]@{ id=$wMon; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Monster Combat';  category='monster';   description='Monster identity, HP, AP, turn tracking'; hideFromPlayerView=$false }
 )
 
-# ═══════════════════════════════════════════════════════════════════════════
+# =============================================================================
 # PAGES
-# ═══════════════════════════════════════════════════════════════════════════
+# =============================================================================
 
 $pages = @(
-    [PSCustomObject]@{ id=$pCbt; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; label='Combat';       category='character'; backgroundColor='#0b0b1a'; backgroundOpacity=1; hideFromPlayerView=$false }
-    [PSCustomObject]@{ id=$pIdn; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; label='Identity';     category='character'; backgroundColor='#0b0b1a'; backgroundOpacity=1; hideFromPlayerView=$false }
-    [PSCustomObject]@{ id=$pMon; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; label='Monster Sheet'; category='monster';  backgroundColor='#0a0a12'; backgroundOpacity=1; hideFromPlayerView=$false }
+    [PSCustomObject]@{ id=$pCbt; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; label='Combat';        category='character'; backgroundColor='#080818'; backgroundOpacity=1; hideFromPlayerView=$false }
+    [PSCustomObject]@{ id=$pIdn; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; label='Identity';      category='character'; backgroundColor='#080818'; backgroundOpacity=1; hideFromPlayerView=$false }
+    [PSCustomObject]@{ id=$pMon; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; label='Monster Sheet'; category='monster';   backgroundColor='#060610'; backgroundOpacity=1; hideFromPlayerView=$false }
 )
 
-# ═══════════════════════════════════════════════════════════════════════════
-# RULESET WINDOWS (page layout)
-# ═══════════════════════════════════════════════════════════════════════════
+# =============================================================================
+# RULESET WINDOWS
+# =============================================================================
 
 $rulesetWindows = @(
-    [PSCustomObject]@{ id='rw_combat_cbt';   createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Combat Core';     windowId=$wCbt; pageId=$pCbt; x=10;  y=10; isCollapsed=$false; displayScale=1 }
-    [PSCustomObject]@{ id='rw_resources_cbt'; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Class Resources'; windowId=$wRes; pageId=$pCbt; x=330; y=10; isCollapsed=$false; displayScale=1 }
-    [PSCustomObject]@{ id='rw_identity_idn'; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Identity';        windowId=$wIdn; pageId=$pIdn; x=10;  y=10; isCollapsed=$false; displayScale=1 }
-    [PSCustomObject]@{ id='rw_monster_mon';  createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Monster Combat';  windowId=$wMon; pageId=$pMon; x=10;  y=10; isCollapsed=$false; displayScale=1 }
+    [PSCustomObject]@{ id='rw_cbt_core'; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Combat Core';     windowId=$wCbt; pageId=$pCbt; x=10;  y=10; isCollapsed=$false; displayScale=1 }
+    [PSCustomObject]@{ id='rw_cbt_res';  createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Class Resources'; windowId=$wRes; pageId=$pCbt; x=380; y=10; isCollapsed=$false; displayScale=1 }
+    [PSCustomObject]@{ id='rw_idn';      createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Identity';        windowId=$wIdn; pageId=$pIdn; x=10;  y=10; isCollapsed=$false; displayScale=1 }
+    [PSCustomObject]@{ id='rw_mon';      createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Monster Combat';  windowId=$wMon; pageId=$pMon; x=10;  y=10; isCollapsed=$false; displayScale=1 }
 )
 
-# ═══════════════════════════════════════════════════════════════════════════
-# CHARACTER PAGES (test character → pages)
-# ═══════════════════════════════════════════════════════════════════════════
+# =============================================================================
+# CHARACTER PAGES + WINDOWS
+# =============================================================================
 
 $charPages = @(
-    [PSCustomObject]@{ id='cp_test_combat';   createdAt=$ts; updatedAt=$ts; rulesetId=$rid; characterId=$testId; pageId=$pCbt; label='Combat';        category='character'; backgroundColor='#0b0b1a'; backgroundOpacity=1; sheetFitToViewport=$false }
-    [PSCustomObject]@{ id='cp_test_identity'; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; characterId=$testId; pageId=$pIdn; label='Identity';       category='character'; backgroundColor='#0b0b1a'; backgroundOpacity=1; sheetFitToViewport=$false }
-    [PSCustomObject]@{ id='cp_test_monster';  createdAt=$ts; updatedAt=$ts; rulesetId=$rid; characterId=$testId; pageId=$pMon; label='Monster Sheet';  category='monster';   backgroundColor='#0a0a12'; backgroundOpacity=1; sheetFitToViewport=$false }
+    [PSCustomObject]@{ id='cp_test_cbt'; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; characterId=$testId; pageId=$pCbt; label='Combat';        category='character'; backgroundColor='#080818'; backgroundOpacity=1; sheetFitToViewport=$false }
+    [PSCustomObject]@{ id='cp_test_idn'; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; characterId=$testId; pageId=$pIdn; label='Identity';       category='character'; backgroundColor='#080818'; backgroundOpacity=1; sheetFitToViewport=$false }
+    [PSCustomObject]@{ id='cp_test_mon'; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; characterId=$testId; pageId=$pMon; label='Monster Sheet';  category='monster';   backgroundColor='#060610'; backgroundOpacity=1; sheetFitToViewport=$false }
 )
-
-# ═══════════════════════════════════════════════════════════════════════════
-# CHARACTER WINDOWS (test character window positions)
-# ═══════════════════════════════════════════════════════════════════════════
 
 $charWindows = @(
-    [PSCustomObject]@{ id='cw_test_cbt_core'; createdAt=$ts; updatedAt=$ts; title='Combat Core';     characterId=$testId; characterPageId='cp_test_combat';   windowId=$wCbt; x=10;  y=10; isCollapsed=$false; displayScale=1 }
-    [PSCustomObject]@{ id='cw_test_cbt_res';  createdAt=$ts; updatedAt=$ts; title='Class Resources'; characterId=$testId; characterPageId='cp_test_combat';   windowId=$wRes; x=330; y=10; isCollapsed=$false; displayScale=1 }
-    [PSCustomObject]@{ id='cw_test_idn';      createdAt=$ts; updatedAt=$ts; title='Identity';        characterId=$testId; characterPageId='cp_test_identity'; windowId=$wIdn; x=10;  y=10; isCollapsed=$false; displayScale=1 }
-    [PSCustomObject]@{ id='cw_test_mon';      createdAt=$ts; updatedAt=$ts; title='Monster Combat';  characterId=$testId; characterPageId='cp_test_monster';  windowId=$wMon; x=10;  y=10; isCollapsed=$false; displayScale=1 }
+    [PSCustomObject]@{ id='cw_cbt_core'; createdAt=$ts; updatedAt=$ts; title='Combat Core';     characterId=$testId; characterPageId='cp_test_cbt'; windowId=$wCbt; x=10;  y=10; isCollapsed=$false; displayScale=1 }
+    [PSCustomObject]@{ id='cw_cbt_res';  createdAt=$ts; updatedAt=$ts; title='Class Resources'; characterId=$testId; characterPageId='cp_test_cbt'; windowId=$wRes; x=380; y=10; isCollapsed=$false; displayScale=1 }
+    [PSCustomObject]@{ id='cw_idn';      createdAt=$ts; updatedAt=$ts; title='Identity';        characterId=$testId; characterPageId='cp_test_idn'; windowId=$wIdn; x=10;  y=10; isCollapsed=$false; displayScale=1 }
+    [PSCustomObject]@{ id='cw_mon';      createdAt=$ts; updatedAt=$ts; title='Monster Combat';  characterId=$testId; characterPageId='cp_test_mon'; windowId=$wMon; x=10;  y=10; isCollapsed=$false; displayScale=1 }
 )
 
-# ═══════════════════════════════════════════════════════════════════════════
-# WRITE ALL FILES
-# ═══════════════════════════════════════════════════════════════════════════
+# =============================================================================
+# WRITE FILES
+# =============================================================================
 
 [IO.File]::WriteAllText("$appdata\components.json",      ($allComps      | ConvertTo-Json -Depth 10), $enc)
 [IO.File]::WriteAllText("$appdata\windows.json",         ($windows       | ConvertTo-Json -Depth 4),  $enc)
@@ -336,23 +501,23 @@ $charWindows = @(
 [IO.File]::WriteAllText("$appdata\characterWindows.json",($charWindows   | ConvertTo-Json -Depth 4),  $enc)
 Write-Host "All sheet files written."
 
-# ═══════════════════════════════════════════════════════════════════════════
-# UPDATE METADATA COUNTS
-# ═══════════════════════════════════════════════════════════════════════════
+# =============================================================================
+# UPDATE METADATA
+# =============================================================================
 
 $meta = Get-Content "$appdata\metadata.json" -Raw | ConvertFrom-Json
-$meta.counts.windows         = $windows.Count
-$meta.counts.components      = $allComps.Count
-$meta.counts.pages           = $pages.Count
-$meta.counts.rulesetWindows  = $rulesetWindows.Count
-$meta.counts.characterWindows= $charWindows.Count
-$meta.counts.characterPages  = $charPages.Count
+$meta.counts.windows          = $windows.Count
+$meta.counts.components       = $allComps.Count
+$meta.counts.pages            = $pages.Count
+$meta.counts.rulesetWindows   = $rulesetWindows.Count
+$meta.counts.characterWindows = $charWindows.Count
+$meta.counts.characterPages   = $charPages.Count
 [IO.File]::WriteAllText("$appdata\metadata.json", ($meta | ConvertTo-Json -Depth 6), $enc)
 Write-Host "Metadata updated: $($allComps.Count) components, $($pages.Count) pages, $($windows.Count) windows."
 
-# ═══════════════════════════════════════════════════════════════════════════
+# =============================================================================
 # REBUILD ZIP
-# ═══════════════════════════════════════════════════════════════════════════
+# =============================================================================
 
 Add-Type -Assembly System.IO.Compression.FileSystem
 Add-Type -Assembly System.IO.Compression
