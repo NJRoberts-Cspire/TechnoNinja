@@ -135,6 +135,42 @@ $sPortBg = @{
     borderRadiusBottomLeft=4; borderRadiusBottomRight=4
 }
 
+# Stat name label (bright, bold — these are primary game stats)
+$sStatLbl = @{
+    opacity=1; color='#b0b8e8'; fontSize=13; fontWeight='700';
+    outlineWidth=0;
+    borderRadiusTopLeft=0; borderRadiusTopRight=0;
+    borderRadiusBottomLeft=0; borderRadiusBottomRight=0;
+    textAlign='start'; verticalAlign='center'; paddingLeft=4
+}
+
+# Muted small descriptor (e.g., "melee damage · force")
+$sStatNote = @{
+    opacity=0.4; color='#9090c8'; fontSize=11; fontWeight='400';
+    outlineWidth=0;
+    borderRadiusTopLeft=0; borderRadiusTopRight=0;
+    borderRadiusBottomLeft=0; borderRadiusBottomRight=0;
+    textAlign='start'; verticalAlign='center'; paddingLeft=4
+}
+
+# Formula text — gold, centered (for HP = (FRAME×8) + X)
+$sFormula = @{
+    opacity=0.9; color='#c8a84b'; fontSize=14; fontWeight='600';
+    outlineWidth=0;
+    borderRadiusTopLeft=0; borderRadiusTopRight=0;
+    borderRadiusBottomLeft=0; borderRadiusBottomRight=0;
+    textAlign='center'; verticalAlign='center'
+}
+
+# Question label (dim white, used for narrative prompts)
+$sQLabel = @{
+    opacity=0.65; color='#a8a8d8'; fontSize=12; fontWeight='600';
+    outlineWidth=0;
+    borderRadiusTopLeft=0; borderRadiusTopRight=0;
+    borderRadiusBottomLeft=0; borderRadiusBottomRight=0;
+    textAlign='start'; verticalAlign='center'; paddingLeft=2
+}
+
 # =============================================================================
 # HELPERS
 # =============================================================================
@@ -198,10 +234,13 @@ $wCbt = 'win_combat_core'
 $wRes = 'win_class_resources'
 $wIdn = 'win_identity'
 $wMon = 'win_monster_combat'
+$wSts = 'win_stats'
+$wBkg = 'win_background'
 
 $pCbt = 'page_character_combat'
 $pIdn = 'page_character_identity'
 $pMon = 'page_monster_sheet'
+$pCre = 'page_character_creation'
 
 $allComps = [System.Collections.Generic.List[PSCustomObject]]::new()
 
@@ -438,6 +477,84 @@ $allComps.Add((C 'mn_mcrd_lbl'  $wMon 'text'     10  486 108 28 @{value='Cards P
 $allComps.Add((C 'mn_mcrd_dsp'  $wMon 'text'     122 486 228 28 @{viewAttributeId='attr_monster_cards_played_this_turn'; viewAttributeReadOnly=$true} (Merge $sDsp @{fontSize=12; textAlign='start'; paddingLeft=6}) 'attr_monster_cards_played_this_turn'))
 $allComps.Add((C 'mn_mbau_chk'  $wMon 'checkbox' 10  518 340 16 @{viewAttributeId='attr_monster_basic_attack_used_this_turn'; label='Basic Attack Used'} $sChk 'attr_monster_basic_attack_used_this_turn'))
 
+# =============================================================================
+# WIN_STATS  (360px wide)
+# Sections: STAT DISTRIBUTION | HP FORMULA | HAND SIZE
+# =============================================================================
+
+$allComps.Add((BG 'st_bg_dist' $wSts  0   0   360 268))
+$allComps.Add((BG 'st_bg_hp'   $wSts  0   276 360 90))
+$allComps.Add((BG 'st_bg_hand' $wSts  0   374 360 76))
+
+# --- STAT DISTRIBUTION ---
+AddHdr $allComps 'st_dist' $wSts 0 0 360 'STAT DISTRIBUTION'
+
+# Row layout per stat: label(10,y,86,30) | input(100,y,56,30) | note(162,y,188,30)
+$statRows = @(
+    @{ pfx='st_iron'; y=34;  attr='attr_stat_iron';      lbl='IRON';      note='melee damage · force'      }
+    @{ pfx='st_edge'; y=68;  attr='attr_stat_edge';      lbl='EDGE';      note='initiative · precision'    }
+    @{ pfx='st_frm';  y=102; attr='attr_stat_frame';     lbl='FRAME';     note='HP · endurance'            }
+    @{ pfx='st_sig';  y=136; attr='attr_stat_signal';    lbl='SIGNAL';    note='Wire Craft · hacking'      }
+    @{ pfx='st_res';  y=170; attr='attr_stat_resonance'; lbl='RESONANCE'; note='spiritual · healing'       }
+    @{ pfx='st_vel';  y=204; attr='attr_stat_veil';      lbl='VEIL';      note='social · concealment'      }
+)
+foreach ($r in $statRows) {
+    $allComps.Add((C "$($r.pfx)_lbl" $wSts 'text'  10  $r.y 86  30 @{value=$r.lbl}  $sStatLbl))
+    $allComps.Add((C "$($r.pfx)_inp" $wSts 'input' 100 $r.y 56  30 @{viewAttributeId=$r.attr; viewAttributeReadOnly=$false; type='number'; placeholder='1'} $sNum $r.attr))
+    $allComps.Add((C "$($r.pfx)_nte" $wSts 'text'  162 $r.y 188 30 @{value=$r.note} $sStatNote))
+}
+
+# Points spent tracker
+$allComps.Add((C 'st_pts_lbl' $wSts 'text'  10  242 154 22 @{value='Points Spent (of 20):'} $sLbl))
+$allComps.Add((C 'st_pts_inp' $wSts 'input' 168 242 56  22 @{viewAttributeId='attr_stat_points_spent'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sNum 'attr_stat_points_spent'))
+$allComps.Add((C 'st_pts_nte' $wSts 'text'  232 242 118 22 @{value='max 5 per stat'} $sStatNote))
+
+# --- HP FORMULA ---
+AddHdr $allComps 'st_hp' $wSts 0 276 360 'HP FORMULA'
+$allComps.Add((C 'st_hp_fml'  $wSts 'text'  10  304 134 56 @{value='(FRAME × 8) +'} $sFormula))
+$allComps.Add((C 'st_hp_mod'  $wSts 'input' 148 304 60  56 @{viewAttributeId='attr_hp_base_mod'; viewAttributeReadOnly=$false; type='number'; placeholder='14'} $sMed 'attr_hp_base_mod'))
+$allComps.Add((C 'st_hp_eq'   $wSts 'text'  212 304 20  56 @{value='='} $sSep))
+$allComps.Add((C 'st_hp_max'  $wSts 'input' 236 304 114 56 @{viewAttributeId='attr_max_hp'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sBig 'attr_max_hp'))
+
+# --- HAND SIZE ---
+AddHdr $allComps 'st_hnd' $wSts 0 374 360 'HAND SIZE'
+$allComps.Add((C 'st_hnd_blbl' $wSts 'text'  10  404 38  42 @{value='Base'} $sLbl))
+$allComps.Add((C 'st_hnd_binp' $wSts 'input' 52  404 50  42 @{viewAttributeId='attr_hand_size_base'; viewAttributeReadOnly=$false; type='number'; placeholder='6'} $sNum 'attr_hand_size_base'))
+$allComps.Add((C 'st_hnd_plus' $wSts 'text'  106 404 20  42 @{value='+'} $sSep))
+$allComps.Add((C 'st_hnd_rlbl' $wSts 'text'  130 404 38  42 @{value='Race'} $sLbl))
+$allComps.Add((C 'st_hnd_rinp' $wSts 'input' 172 404 46  42 @{viewAttributeId='attr_hand_size_race_mod'; viewAttributeReadOnly=$false; type='number'; placeholder='0'} $sNum 'attr_hand_size_race_mod'))
+$allComps.Add((C 'st_hnd_eq'   $wSts 'text'  222 404 20  42 @{value='='} $sSep))
+$allComps.Add((C 'st_hnd_tot'  $wSts 'input' 246 404 104 42 @{viewAttributeId='attr_hand_size_total'; viewAttributeReadOnly=$false; type='number'; placeholder='6'} $sMed 'attr_hand_size_total'))
+
+# =============================================================================
+# WIN_BACKGROUND  (380px wide)
+# Sections: WORLD PLACEMENT | CHARACTER QUESTIONS
+# =============================================================================
+
+$allComps.Add((BG 'bk_bg_wld' $wBkg  0   0   380 158))
+$allComps.Add((BG 'bk_bg_qst' $wBkg  0   166 380 256))
+
+# --- WORLD PLACEMENT ---
+AddHdr $allComps 'bk_wld' $wBkg 0 0 380 'WORLD PLACEMENT'
+
+$placementRows = @(
+    @{ pfx='bk_rch'; y=32;  attr='attr_reach';   lbl='Reach'   }
+    @{ pfx='bk_cst'; y=66;  attr='attr_caste';   lbl='Caste'   }
+    @{ pfx='bk_fct'; y=100; attr='attr_faction'; lbl='Faction' }
+)
+foreach ($r in $placementRows) {
+    $allComps.Add((C "$($r.pfx)_lbl" $wBkg 'text'  10  $r.y 68  30 @{value=$r.lbl} $sLbl))
+    $allComps.Add((C "$($r.pfx)_inp" $wBkg 'input' 82  $r.y 288 30 @{viewAttributeId=$r.attr; viewAttributeReadOnly=$false; type='text'; placeholder=$r.lbl} $sTxt $r.attr))
+}
+$allComps.Add((C 'bk_wld_nte' $wBkg 'text' 10 134 360 20 @{value='Reach · Caste · and Faction are set at character creation and rarely change.'} $sStatNote))
+
+# --- CHARACTER QUESTIONS ---
+AddHdr $allComps 'bk_qst' $wBkg 0 166 380 'CHARACTER QUESTIONS'
+$allComps.Add((C 'bk_dbt_lbl' $wBkg 'text'  10  198 360 20 @{value='Who do you owe?'} $sQLabel))
+$allComps.Add((C 'bk_dbt_inp' $wBkg 'input' 10  222 360 64 @{viewAttributeId='attr_character_debt'; viewAttributeReadOnly=$false; type='text'; placeholder='A lord, a debt, a contract, a ghost...'} $sTxt 'attr_character_debt'))
+$allComps.Add((C 'bk_ned_lbl' $wBkg 'text'  10  292 360 20 @{value='What do you need?'} $sQLabel))
+$allComps.Add((C 'bk_ned_inp' $wBkg 'input' 10  316 360 96 @{viewAttributeId='attr_character_need'; viewAttributeReadOnly=$false; type='text'; placeholder='Not want — need. The thing driving you into danger.'} $sTxt 'attr_character_need'))
+
 Write-Host "Components built: $($allComps.Count)"
 
 # =============================================================================
@@ -449,6 +566,8 @@ $windows = @(
     [PSCustomObject]@{ id=$wRes; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Class Resources'; category='character'; description='All class resource pools and toggles'; hideFromPlayerView=$false }
     [PSCustomObject]@{ id=$wIdn; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Identity';        category='character'; description='Species, Class, Level, Paths, Augmentations'; hideFromPlayerView=$false }
     [PSCustomObject]@{ id=$wMon; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Monster Combat';  category='monster';   description='Monster identity, HP, AP, turn tracking'; hideFromPlayerView=$false }
+    [PSCustomObject]@{ id=$wSts; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Stats';           category='creation';  description='6 stats, points tracker, HP formula, hand size'; hideFromPlayerView=$false }
+    [PSCustomObject]@{ id=$wBkg; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Background';      category='creation';  description='Reach, Caste, Faction, character questions'; hideFromPlayerView=$false }
 )
 
 # =============================================================================
@@ -459,6 +578,7 @@ $pages = @(
     [PSCustomObject]@{ id=$pCbt; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; label='Combat';        category='character'; backgroundColor='#080818'; backgroundOpacity=1; hideFromPlayerView=$false }
     [PSCustomObject]@{ id=$pIdn; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; label='Identity';      category='character'; backgroundColor='#080818'; backgroundOpacity=1; hideFromPlayerView=$false }
     [PSCustomObject]@{ id=$pMon; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; label='Monster Sheet'; category='monster';   backgroundColor='#060610'; backgroundOpacity=1; hideFromPlayerView=$false }
+    [PSCustomObject]@{ id=$pCre; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; label='Creation';      category='character'; backgroundColor='#060614'; backgroundOpacity=1; hideFromPlayerView=$false }
 )
 
 # =============================================================================
@@ -470,6 +590,8 @@ $rulesetWindows = @(
     [PSCustomObject]@{ id='rw_cbt_res';  createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Class Resources'; windowId=$wRes; pageId=$pCbt; x=380; y=10; isCollapsed=$false; displayScale=1 }
     [PSCustomObject]@{ id='rw_idn';      createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Identity';        windowId=$wIdn; pageId=$pIdn; x=10;  y=10; isCollapsed=$false; displayScale=1 }
     [PSCustomObject]@{ id='rw_mon';      createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Monster Combat';  windowId=$wMon; pageId=$pMon; x=10;  y=10; isCollapsed=$false; displayScale=1 }
+    [PSCustomObject]@{ id='rw_cre_sts';  createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Stats';           windowId=$wSts; pageId=$pCre; x=10;  y=10; isCollapsed=$false; displayScale=1 }
+    [PSCustomObject]@{ id='rw_cre_bkg';  createdAt=$ts; updatedAt=$ts; rulesetId=$rid; title='Background';      windowId=$wBkg; pageId=$pCre; x=380; y=10; isCollapsed=$false; displayScale=1 }
 )
 
 # =============================================================================
@@ -480,6 +602,7 @@ $charPages = @(
     [PSCustomObject]@{ id='cp_test_cbt'; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; characterId=$testId; pageId=$pCbt; label='Combat';        category='character'; backgroundColor='#080818'; backgroundOpacity=1; sheetFitToViewport=$false }
     [PSCustomObject]@{ id='cp_test_idn'; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; characterId=$testId; pageId=$pIdn; label='Identity';       category='character'; backgroundColor='#080818'; backgroundOpacity=1; sheetFitToViewport=$false }
     [PSCustomObject]@{ id='cp_test_mon'; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; characterId=$testId; pageId=$pMon; label='Monster Sheet';  category='monster';   backgroundColor='#060610'; backgroundOpacity=1; sheetFitToViewport=$false }
+    [PSCustomObject]@{ id='cp_test_cre'; createdAt=$ts; updatedAt=$ts; rulesetId=$rid; characterId=$testId; pageId=$pCre; label='Creation';       category='character'; backgroundColor='#060614'; backgroundOpacity=1; sheetFitToViewport=$false }
 )
 
 $charWindows = @(
@@ -487,6 +610,8 @@ $charWindows = @(
     [PSCustomObject]@{ id='cw_cbt_res';  createdAt=$ts; updatedAt=$ts; title='Class Resources'; characterId=$testId; characterPageId='cp_test_cbt'; windowId=$wRes; x=380; y=10; isCollapsed=$false; displayScale=1 }
     [PSCustomObject]@{ id='cw_idn';      createdAt=$ts; updatedAt=$ts; title='Identity';        characterId=$testId; characterPageId='cp_test_idn'; windowId=$wIdn; x=10;  y=10; isCollapsed=$false; displayScale=1 }
     [PSCustomObject]@{ id='cw_mon';      createdAt=$ts; updatedAt=$ts; title='Monster Combat';  characterId=$testId; characterPageId='cp_test_mon'; windowId=$wMon; x=10;  y=10; isCollapsed=$false; displayScale=1 }
+    [PSCustomObject]@{ id='cw_cre_sts';  createdAt=$ts; updatedAt=$ts; title='Stats';           characterId=$testId; characterPageId='cp_test_cre'; windowId=$wSts; x=10;  y=10; isCollapsed=$false; displayScale=1 }
+    [PSCustomObject]@{ id='cw_cre_bkg';  createdAt=$ts; updatedAt=$ts; title='Background';      characterId=$testId; characterPageId='cp_test_cre'; windowId=$wBkg; x=380; y=10; isCollapsed=$false; displayScale=1 }
 )
 
 # =============================================================================

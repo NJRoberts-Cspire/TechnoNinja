@@ -274,3 +274,19 @@ attr_unnamed_card_11_condition	Card 11 Condition	Player-defined unlock condition
 attr_unnamed_card_12_condition	Card 12 Condition	Player-defined unlock condition for Card 12.	lore_state	string	[]									
 attr_unnamed_card_13_condition	Card 13 Condition	Player-defined unlock condition for Card 13.	lore_state	string	[]									
 attr_unnamed_card_14_condition	Card 14 Condition	Player-defined unlock condition for Card 14.	lore_state	string	[]									
+attr_stat_iron	IRON	Melee damage, physical force, grapple, and forced movement.	stat	number	[]	1				1	6		
+attr_stat_edge	EDGE	Determines initiative order. Precision, ranged attacks, evasion.	stat	number	[]	1				1	6		
+attr_stat_frame	FRAME	Determines HP. Endurance, resistance, damage thresholds.	stat	number	[]	1				1	6		
+attr_stat_signal	SIGNAL	Signal attacks, Wire Craft aptitude, hacking, technical debuffs.	stat	number	[]	1				1	6		
+attr_stat_resonance	RESONANCE	Resonant attacks, spiritual interaction, healing, Iron Afterlife access.	stat	number	[]	1				1	6		
+attr_stat_veil	VEIL	Social and command cards, manipulation, concealment, crowd control.	stat	number	[]	1				1	6		
+attr_stat_points_spent	Points Spent	Running total of stat points distributed at creation (max 20).	creation	number	[]	0				0	20		
+attr_hand_size_base	Hand Size Base	Class starting hand size. Set by class archetype on_add.	derived	number	[]	6					
+attr_hand_size_race_mod	Hand Size Race Mod	Race hand size modifier (+0 Forged/Stitched, +1 most races, +2 Diminished).	derived	number	[]	0					
+attr_hand_size_total	Hand Size Total	Total cards available per turn (class base + race modifier).	derived	number	[]	6					
+attr_hp_base_mod	HP Class Modifier	Class HP modifier for HP formula: (FRAME x 8) + this value.	derived	number	[]	14					
+attr_reach	Reach	Which Reach the character is from.	background	list	"[""Sunder Reach"",""Veilward Reach"",""Pale Reach"",""Iron Teeth Reach"",""The Ashlands"",""Echo Coast"",""Northern Pale""]"	Sunder Reach					
+attr_caste	Caste	Character social caste at campaign start.	background	list	"[""Resonant Caste"",""Craftbound Caste"",""Ashwalker Caste"",""Hollow Poor""]"	Craftbound Caste					
+attr_faction	Faction Ties	Faction allegiance at campaign start, if any.	background	list	"[""Korrath the Unbroken"",""Vaen of the Empty Hand"",""Iron Sutra Orthodoxy"",""Wire Market Guilds"",""None""]"	None					
+attr_character_debt	Who I Owe	Who has a claim on this character — lord, debt, contract, family, ghost.	background	string	[]						
+attr_character_need	What I Need	Not want — need. The thing driving this character into danger.	background	string	[]						
