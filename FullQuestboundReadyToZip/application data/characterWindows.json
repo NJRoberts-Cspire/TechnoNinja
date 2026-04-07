@@ -1,0 +1,54 @@
+[
+    {
+        "id":  "cw_test_cbt_core",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "updatedAt":  "2026-04-02T18:10:45.240Z",
+        "title":  "Combat Core",
+        "characterId":  "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+        "characterPageId":  "cp_test_combat",
+        "windowId":  "win_combat_core",
+        "x":  10,
+        "y":  10,
+        "isCollapsed":  false,
+        "displayScale":  1
+    },
+    {
+        "id":  "cw_test_cbt_res",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "updatedAt":  "2026-04-02T18:10:45.240Z",
+        "title":  "Class Resources",
+        "characterId":  "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+        "characterPageId":  "cp_test_combat",
+        "windowId":  "win_class_resources",
+        "x":  330,
+        "y":  10,
+        "isCollapsed":  false,
+        "displayScale":  1
+    },
+    {
+        "id":  "cw_test_idn",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "updatedAt":  "2026-04-02T18:10:45.240Z",
+        "title":  "Identity",
+        "characterId":  "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+        "characterPageId":  "cp_test_identity",
+        "windowId":  "win_identity",
+        "x":  10,
+        "y":  10,
+        "isCollapsed":  false,
+        "displayScale":  1
+    },
+    {
+        "id":  "cw_test_mon",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "updatedAt":  "2026-04-02T18:10:45.240Z",
+        "title":  "Monster Combat",
+        "characterId":  "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+        "characterPageId":  "cp_test_monster",
+        "windowId":  "win_monster_combat",
+        "x":  10,
+        "y":  10,
+        "isCollapsed":  false,
+        "displayScale":  1
+    }
+]

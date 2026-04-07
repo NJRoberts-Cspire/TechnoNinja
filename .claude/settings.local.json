@@ -8,7 +8,10 @@
       "Bash(grep -n \"Survivor\" /c/Users/nroberts/TechnoNinja/questbound/qbscript_pack/*.qbs)",
       "Bash(grep -h \"setAttr\\('[^']*'\" /c/Users/nroberts/TechnoNinja/questbound/qbscript_pack/*.qbs)",
       "WebFetch(domain:api.github.com)",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebSearch",
+      "WebFetch(domain:blog.questbound.com)"
     ]
   }
 }
