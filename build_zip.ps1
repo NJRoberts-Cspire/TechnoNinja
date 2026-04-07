@@ -573,7 +573,11 @@ $newArcs = @(
     [PSCustomObject]@{ id='arc_class_unnamed_base';        rulesetId=$rid; name='Class: The Unnamed';    description='Active Stat cycling (IRON/EDGE/SIGNAL/RESONANCE/VEIL/FRAME); card naming mechanic; identity defined through play; self-defined convergent path'; testCharacterId=$null; isDefault=$false; loadOrder=50; createdAt=$ts; updatedAt=$ts }
 )
 
-$all = @($existing) + $newArcs
+# Upsert: merge new arcs into existing by ID (no duplicates on repeated runs)
+$arcMap = [ordered]@{}
+foreach ($a in $existing) { $arcMap[$a.id] = $a }
+foreach ($a in $newArcs)  { $arcMap[$a.id] = $a }
+$all = @($arcMap.Values)
 [IO.File]::WriteAllText("$appdata\archetypes.json", ($all | ConvertTo-Json -Depth 4), $enc)
 Write-Host "archetypes.json updated ($($all.Count) total archetypes)."
 

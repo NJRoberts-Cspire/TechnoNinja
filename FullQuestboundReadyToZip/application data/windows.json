@@ -1,1 +1,62 @@
-[]
+[
+    {
+        "id":  "win_combat_core",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "updatedAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Combat Core",
+        "category":  "character",
+        "description":  "HP, AP, Guard, Status, Turn Tracker",
+        "hideFromPlayerView":  false
+    },
+    {
+        "id":  "win_class_resources",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "updatedAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Class Resources",
+        "category":  "character",
+        "description":  "All class resource pools and toggles",
+        "hideFromPlayerView":  false
+    },
+    {
+        "id":  "win_identity",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "updatedAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Identity",
+        "category":  "character",
+        "description":  "Species, Class, Level, Paths, Augmentations",
+        "hideFromPlayerView":  false
+    },
+    {
+        "id":  "win_monster_combat",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "updatedAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Monster Combat",
+        "category":  "monster",
+        "description":  "Monster identity, HP, AP, turn tracking",
+        "hideFromPlayerView":  false
+    },
+    {
+        "id":  "win_stats",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "updatedAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Stats",
+        "category":  "creation",
+        "description":  "6 stats, points tracker, HP formula, hand size",
+        "hideFromPlayerView":  false
+    },
+    {
+        "id":  "win_background",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "updatedAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Background",
+        "category":  "creation",
+        "description":  "Reach, Caste, Faction, character questions",
+        "hideFromPlayerView":  false
+    }
+]

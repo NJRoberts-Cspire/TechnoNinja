@@ -4673,5 +4673,277 @@
     "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
     "attributeId": "attr_iron_blessed_unexpected_integration",
     "value": true
+  },
+  {
+    "id": "629f28fb-629f-4629-a629-629f28fb629f",
+    "attributeId": "attr_stat_iron",
+    "title": "IRON",
+    "description": "Melee damage, physical force, grapple, and forced movement.",
+    "category": "stat",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "value": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "createdAt": "2026-04-07T00:00:00.000Z",
+    "updatedAt": "2026-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "62a13006-62a1-462a-a62a-62a1300662a1",
+    "attributeId": "attr_stat_edge",
+    "title": "EDGE",
+    "description": "Determines initiative order. Precision, ranged attacks, evasion.",
+    "category": "stat",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "value": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "createdAt": "2026-04-07T00:00:00.000Z",
+    "updatedAt": "2026-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "0e8f8ed0-0e8f-40e8-a0e8-0e8f8ed00e8f",
+    "attributeId": "attr_stat_frame",
+    "title": "FRAME",
+    "description": "Determines HP. Endurance, resistance, damage thresholds.",
+    "category": "stat",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "value": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "createdAt": "2026-04-07T00:00:00.000Z",
+    "updatedAt": "2026-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "26eaca5b-26ea-426e-a26e-26eaca5b26ea",
+    "attributeId": "attr_stat_signal",
+    "title": "SIGNAL",
+    "description": "Signal attacks, Wire Craft aptitude, hacking, technical debuffs.",
+    "category": "stat",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "value": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "createdAt": "2026-04-07T00:00:00.000Z",
+    "updatedAt": "2026-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "74980431-7498-4749-a749-749804317498",
+    "attributeId": "attr_stat_resonance",
+    "title": "RESONANCE",
+    "description": "Resonant attacks, spiritual interaction, healing.",
+    "category": "stat",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "value": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "createdAt": "2026-04-07T00:00:00.000Z",
+    "updatedAt": "2026-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "629971b1-6299-4629-a629-629971b16299",
+    "attributeId": "attr_stat_veil",
+    "title": "VEIL",
+    "description": "Social and command cards, manipulation, concealment.",
+    "category": "stat",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 1,
+    "value": 1,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "createdAt": "2026-04-07T00:00:00.000Z",
+    "updatedAt": "2026-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "2880dfb1-2880-4288-a288-2880dfb12880",
+    "attributeId": "attr_stat_points_spent",
+    "title": "Points Spent",
+    "description": "Running total of stat points distributed at creation (max 20).",
+    "category": "creation",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "value": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "createdAt": "2026-04-07T00:00:00.000Z",
+    "updatedAt": "2026-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "49bdb773-49bd-449b-a49b-49bdb77349bd",
+    "attributeId": "attr_hand_size_base",
+    "title": "Hand Size Base",
+    "description": "Class starting hand size.",
+    "category": "derived",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 6,
+    "value": 6,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "createdAt": "2026-04-07T00:00:00.000Z",
+    "updatedAt": "2026-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "26935450-2693-4269-a269-269354502693",
+    "attributeId": "attr_hand_size_race_mod",
+    "title": "Hand Size Race Mod",
+    "description": "Race hand size modifier.",
+    "category": "derived",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 0,
+    "value": 0,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "createdAt": "2026-04-07T00:00:00.000Z",
+    "updatedAt": "2026-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "130ad108-130a-4130-a130-130ad108130a",
+    "attributeId": "attr_hand_size_total",
+    "title": "Hand Size Total",
+    "description": "Total cards available per turn.",
+    "category": "derived",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 6,
+    "value": 6,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "createdAt": "2026-04-07T00:00:00.000Z",
+    "updatedAt": "2026-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "6ab1cf63-6ab1-46ab-a6ab-6ab1cf636ab1",
+    "attributeId": "attr_hp_base_mod",
+    "title": "HP Class Modifier",
+    "description": "Class HP modifier for HP formula: (FRAME x 8) + this value.",
+    "category": "derived",
+    "type": "number",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": 14,
+    "value": 14,
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "createdAt": "2026-04-07T00:00:00.000Z",
+    "updatedAt": "2026-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "07f71da5-07f7-407f-a07f-07f71da507f7",
+    "attributeId": "attr_reach",
+    "title": "Reach",
+    "description": "Which Reach the character is from.",
+    "category": "background",
+    "type": "text",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "Sunder Reach",
+    "value": "Sunder Reach",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "createdAt": "2026-04-07T00:00:00.000Z",
+    "updatedAt": "2026-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "07223138-0722-4072-a072-072231380722",
+    "attributeId": "attr_caste",
+    "title": "Caste",
+    "description": "Character social caste at campaign start.",
+    "category": "background",
+    "type": "text",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "Craftbound Caste",
+    "value": "Craftbound Caste",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "createdAt": "2026-04-07T00:00:00.000Z",
+    "updatedAt": "2026-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "652c19ce-652c-4652-a652-652c19ce652c",
+    "attributeId": "attr_faction",
+    "title": "Faction Ties",
+    "description": "Faction allegiance at campaign start.",
+    "category": "background",
+    "type": "text",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "None",
+    "value": "None",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "createdAt": "2026-04-07T00:00:00.000Z",
+    "updatedAt": "2026-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "6d44dff7-6d44-46d4-a6d4-6d44dff76d44",
+    "attributeId": "attr_character_debt",
+    "title": "Who I Owe",
+    "description": "Who has a claim on this character.",
+    "category": "background",
+    "type": "text",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "value": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "createdAt": "2026-04-07T00:00:00.000Z",
+    "updatedAt": "2026-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "6d496bfa-6d49-46d4-a6d4-6d496bfa6d49",
+    "attributeId": "attr_character_need",
+    "title": "What I Need",
+    "description": "The need driving this character into danger.",
+    "category": "background",
+    "type": "text",
+    "options": [
+      "[]"
+    ],
+    "defaultValue": "",
+    "value": "",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "characterId": "0a0fa763-a1b8-408a-982a-4f91a4c94b0b",
+    "createdAt": "2026-04-07T00:00:00.000Z",
+    "updatedAt": "2026-04-07T00:00:00.000Z"
   }
 ]

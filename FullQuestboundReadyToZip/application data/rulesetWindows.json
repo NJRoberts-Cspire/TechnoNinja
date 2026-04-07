@@ -1,1 +1,80 @@
-[]
+[
+    {
+        "id":  "rw_cbt_core",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "updatedAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Combat Core",
+        "windowId":  "win_combat_core",
+        "pageId":  "page_character_combat",
+        "x":  10,
+        "y":  10,
+        "isCollapsed":  false,
+        "displayScale":  1
+    },
+    {
+        "id":  "rw_cbt_res",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "updatedAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Class Resources",
+        "windowId":  "win_class_resources",
+        "pageId":  "page_character_combat",
+        "x":  380,
+        "y":  10,
+        "isCollapsed":  false,
+        "displayScale":  1
+    },
+    {
+        "id":  "rw_idn",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "updatedAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Identity",
+        "windowId":  "win_identity",
+        "pageId":  "page_character_identity",
+        "x":  10,
+        "y":  10,
+        "isCollapsed":  false,
+        "displayScale":  1
+    },
+    {
+        "id":  "rw_mon",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "updatedAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Monster Combat",
+        "windowId":  "win_monster_combat",
+        "pageId":  "page_monster_sheet",
+        "x":  10,
+        "y":  10,
+        "isCollapsed":  false,
+        "displayScale":  1
+    },
+    {
+        "id":  "rw_cre_sts",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "updatedAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Stats",
+        "windowId":  "win_stats",
+        "pageId":  "page_character_creation",
+        "x":  10,
+        "y":  10,
+        "isCollapsed":  false,
+        "displayScale":  1
+    },
+    {
+        "id":  "rw_cre_bkg",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "updatedAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "title":  "Background",
+        "windowId":  "win_background",
+        "pageId":  "page_character_creation",
+        "x":  380,
+        "y":  10,
+        "isCollapsed":  false,
+        "displayScale":  1
+    }
+]

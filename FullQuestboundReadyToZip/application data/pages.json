@@ -1,1 +1,46 @@
-[]
+[
+    {
+        "id":  "page_character_combat",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "updatedAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "label":  "Combat",
+        "category":  "character",
+        "backgroundColor":  "#080818",
+        "backgroundOpacity":  1,
+        "hideFromPlayerView":  false
+    },
+    {
+        "id":  "page_character_identity",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "updatedAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "label":  "Identity",
+        "category":  "character",
+        "backgroundColor":  "#080818",
+        "backgroundOpacity":  1,
+        "hideFromPlayerView":  false
+    },
+    {
+        "id":  "page_monster_sheet",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "updatedAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "label":  "Monster Sheet",
+        "category":  "monster",
+        "backgroundColor":  "#060610",
+        "backgroundOpacity":  1,
+        "hideFromPlayerView":  false
+    },
+    {
+        "id":  "page_character_creation",
+        "createdAt":  "2026-04-02T18:10:45.240Z",
+        "updatedAt":  "2026-04-02T18:10:45.240Z",
+        "rulesetId":  "4244b851-579a-4e85-b8e5-2932326df9ed",
+        "label":  "Creation",
+        "category":  "character",
+        "backgroundColor":  "#060614",
+        "backgroundOpacity":  1,
+        "hideFromPlayerView":  false
+    }
+]
