@@ -1,0 +1,37 @@
+[
+  {
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "title": "Test Character's Inventory",
+    "category": null,
+    "type": null,
+    "entities": [],
+    "id": "7cd42869-a960-4101-a7a5-9e2518843a23",
+    "characterId": "1ceb0539-3760-4389-ae4a-6beb24c9f001",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "id": "acdd9cd1-d1c5-42ce-823f-84a30333015a",
+    "characterId": "e7efd590-7908-43cc-b1ce-4d034278f943",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "title": "Test Character (5e Default)",
+    "category": null,
+    "type": null,
+    "entities": [],
+    "items": [],
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "id": "c9cd2ad5-07fe-42ca-ae25-34a313112c5d",
+    "characterId": "ec50f443-6c5b-4852-9be4-609f98aa6f0e",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "title": "Test Character (Monster)",
+    "category": null,
+    "type": null,
+    "entities": [],
+    "items": [],
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  }
+]

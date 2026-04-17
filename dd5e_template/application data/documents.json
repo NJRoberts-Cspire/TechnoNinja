@@ -1,0 +1,218 @@
+[
+  {
+    "title": "Feats",
+    "id": "139a56e1-61b4-465e-b7ed-de5739394983",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Spellcasting",
+    "id": "344e5124-a9da-4df0-9741-76764bc16574",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Fighter",
+    "id": "382ac0e9-4228-4758-be35-b0c949ff2c24",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Barbarian",
+    "id": "3cef2a83-1666-4025-96de-b3cfbca468ad",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Character Creation",
+    "id": "48b4ccf4-81ce-46aa-8978-6374e04c02e0",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Character Origins",
+    "id": "646f0795-c238-4eac-88b9-e80cecdb9f89",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Bard",
+    "id": "6a908748-a6c1-4547-8ebe-4bea5711ccbd",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Rules Glossary",
+    "id": "8d3a03ca-57b9-4db3-99e1-86fba5ae01d3",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Combat",
+    "id": "93469a83-3002-4fd2-8e34-85021df82c80",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Contents",
+    "id": "9d7f22f0-89ff-4711-a31b-a10eb90d1ea4",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Druid",
+    "id": "af357e46-6ddb-492a-b1a6-6b9b10f7d7bc",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Gameplay Toolbox",
+    "id": "bc31d573-00a5-4ae3-97d8-b56f0856c341",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Rogue",
+    "id": "c2211c36-0b52-44e2-853c-b6ccf699673c",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Sorcerer",
+    "id": "c936f146-588f-4de4-9bb6-a67ce6efd940",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Paladin",
+    "id": "cb4420c8-02a5-4305-9a87-69fafd9dd4b6",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Wizard",
+    "id": "d392abcb-44af-4358-abbd-759646925f3d",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Gameplay",
+    "id": "e1da6675-f32d-42bf-ba88-c222247ae069",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Equipment",
+    "id": "e6ce40bf-7c30-4b68-ad8b-1354c4582451",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Ranger",
+    "id": "ebb6061e-f28c-4251-9a4f-9d6529cb9178",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Spells",
+    "id": "ed07e4f6-c79b-4279-8f6b-abc414cef5d6",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Magic Items",
+    "id": "ee5b84cf-b5da-4714-aff8-cdfb846058b6",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Warlock",
+    "id": "f37d1b2a-c1df-48d5-9813-26ea4fd27114",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Cleric",
+    "id": "f9cb245a-8b7e-4ba3-ad99-6c6a4732b404",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Monsters",
+    "id": "fe2e3f93-58de-47d4-85dc-dc3f350e9c48",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "assetId": null,
+    "pdfAssetId": null,
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  }
+]

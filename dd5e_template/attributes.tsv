@@ -1,0 +1,146 @@
+id	title	description	category	type	options	defaultValue	optionsChartRef	optionsChartColumnHeader	min	max	inventoryWidth	inventoryHeight	image	customProperties	assetFilename
+02a26f82-0608-45d7-83c0-582868a1d113	Passive Investigation		Skills	number		0									
+04d210aa-0e4a-49a1-9a1e-dd103441b1a1	Necrotic Immunity		Combat	boolean		false									
+09834bcb-bd17-44a1-9728-6ee930d096e5	Medicine Proficiency		Skills	boolean		false									
+0a281dae-0a9b-45ba-9278-d63a6510fdac	Relentless Rage	Your Rage can keep you fighting despite grievous wounds. If you drop to 0 Hit Points while your Rage is active and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, your Hit Points instead change to a number equal to twice your Barbarian level.\n\nEach time you use this feature after the first, the DC increases by 5. When you finish a Short or Long Rest, the DC resets to 10.	Barbarian Feats	boolean		false									
+0ade234c-14b8-449e-8c07-33bb84490e93	Sorcery Points		Sorcerer Feats	number		0									
+0b0da49a-744e-40cd-9a15-b7a3e0079c72	Force Vulnerability		Combat	boolean		false									
+0c00e483-9c4a-4a38-a464-d48a562b14a3	Exhaustion	### Exhaustion\n\nSome special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description.\n\n1.    Disadvantage on ability checks\n\n2.    Speed halved\n\n3.    Disadvantage on attack rolls and saving throws\n\n4.    Hit point maximum halved\n\n5.    Speed reduced to 0\n\n6.    Death	Conditions	number		0									
+11d2ffb7-9181-489d-b20a-7df56b122267	Persistent Rage	When you roll Initiative, you can regain all expended uses of Rage. After you regain uses of Rage in this way, you can't do so again until you finish a Long Rest.\n\nIn addition, your Rage is so fierce that is now lasts for 10 minutes without you needing to do anything to extend it from round to round. Your Rage ends early if you have the Unconscious condition (not just the Incapacitated condition) or don Heavy armor. 	Barbarian Feats	boolean		false									
+138d121c-0817-43dc-8c5a-8907bca44b48	Thunder Resistance		Combat	boolean		false									
+13b4d04c-6643-4fc3-9592-a81f2601d184	Acid Immunity		Combat	boolean		false									
+145ad6dc-656d-4fd6-824e-b5fb1268e774	Level 2 Spell Slots		Spell Casting	number		0				6					
+1738be7f-da5d-4df9-8d05-e55eda167baa	Petrified	### Petrified\n\n- A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.\n- The creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings.\n- Attack rolls against the creature have advantage.\n- The creature automatically fails Strength and Dexterity saving throws.\n- The creature has resistance to all damage.\n- The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.	Conditions	boolean		false									
+1a2d4003-f6ba-4dfd-bc77-ec47db69f14e	Strength Modifier	How a character's strength influences their skills.	Abilities	number		0			-10	10					
+1c26b110-1ad7-41d1-81b1-1ff9070e229d	Lightening Vulnerability 		Combat	boolean		false									
+1ceb275a-4d57-4d1d-ad3e-34376e0724f1	Vulnerabilities			string											
+1f75d0c7-e64c-4503-8441-d531621c91c3	Thunder Immunity		Combat	boolean		false									
+1f916f08-1956-479b-914b-468e9b341078	Initiative	Influences your turn order in combat	Combat	number		1			1						
+215ea27f-3b88-411c-8dfd-89616088171b	Slight of Hand Proficiency		Skills	boolean		false									
+24421c7c-f40d-4509-b662-9f0c962883ad	Wisdom Modifier	How a character's wisdom influences their skills.	Abilities	number		0			-10	10					
+255fe8c8-c6a6-4a5a-a03a-bc67a53edb13	Nature Proficiency		Skills	boolean		false									
+274b9614-deec-43c3-ad3b-742b112b75cd	Feats			string		Feats...									
+2793d9b3-007e-4d7a-8dd0-5218c73e0ce4	Hit Points with Temp		Health	number		0									
+27f9908a-1b0d-470a-91da-79d0ea3bff85	Reckless Attack	You can throw aside all concern for defense to attack with increased ferocity. When you make your first attack roll on your turn, you can decide to attack recklessly. Doing so gives you Advantage on attack rolls using Strength until the start of your next turn, but attack rolls against you have Advantage during that time.	Barbarian Feats	boolean		false									
+29217809-71fa-49f5-ac75-b2226e1bf7b6	Necrotic Resistance 		Combat	boolean		false									
+2d4be941-c509-4eb5-9d08-aaadaaaf52f8	Hit Points	A measurement of well being.	Health	number		1			0						
+2e58bfbc-7665-46fc-b07e-14ca46562704	Cold Vulnerability		Combat	boolean		false									
+301756be-ab09-43e9-8897-150ed31b3034	Poison Vulnerability 		Combat	boolean		false									
+3109979d-407e-4d48-bc33-9db427fbc190	Unconscious 	### Unconscious\n\n- An unconscious creature is incapacitated, can't move or speak, and is unaware of its surroundings.\n- The creature drops whatever it's holding and falls prone.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the creature have advantage.\n- Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.	Conditions	boolean		false									
+33505d41-71cc-43f1-8fa4-0e0cf2c649d7	Acrobatics Proficiency		Skills	boolean		false									
+339fb9bd-d4b4-4d1c-ae70-0d528bea7898	Strength Save Proficiency		Abilities	boolean		false									
+34a2371d-bd55-4edd-82c1-c565b9d473d2	Channel Divinity Charges		Cleric Feats	number		0									
+34d73700-d888-449d-a018-9096c297db93	Level 4 Spell Slots		Spell Casting	number		0				6					
+3b5ff025-0122-4bb4-aa04-5a5437acebd6	Indomitable Might	If your total for a Strength check or Strength saving throw is less than your Strength score, you can use that score in place of the total.	Barbarian Feats	boolean		false									
+3e65e102-ac70-4d35-bcea-59fa12869c4c	Self-Restoration	Through sheer force of will, you can remove one of the following conditions from yourself at the end of each of your turns: Charmed, Frightened, or Poisoned.\n\nIn addition, forgoing food and drink doesn't give you levels of Exhaustion.	Monk Feats	boolean		false									
+3ec09dc5-7993-43ff-8d97-b65d7648eaf5	Danger Sense	You gain an uncanny sense of when things aren't as they should be, giving you an edge when you dodge perils. You have Advantage on Dexterity saving throws unless you have the Incapacitated condition.	Barbarian Feats	boolean		false									
+40d5f977-a23f-413d-8ea9-6edb19b9a6a0	Investigation Proficiency		Skills	boolean		false									
+4709001b-1857-40d4-8aee-5a402042cdb3	Psychic Resistance  		Combat	boolean		false									
+47f5120e-31e7-458b-8458-b501a8e516e6	Restrained	### Restrained\n\n- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.\n- The creature has disadvantage on Dexterity saving throws.	Conditions	boolean		false									
+48cc1b5d-9fd4-4285-8d49-d4cdb8ee7ec8	Backstory	Notes about the character's backstory		string											
+490ca785-bfb9-4043-9257-b1d3c15e93c3	Performance Proficiency		Skills	boolean		false									
+49fb8017-3433-4829-b0be-20591c82a79a	Indomitable	If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. You must use the new roll, and you can't use this feature again until you finish a Long Rest.\n\nYou can use this feature twice before a Long Rest starting at level 13 and three times before a Long Rest starting at level 17.	Fighter Feats	boolean		false									
+4a683a22-514c-488f-b57e-2a1227762d35	Poison Immunity		Combat	boolean		false									
+4d5f2866-436c-47f8-9d86-b75f67984f3b	Level	A measurement of how powerful or skilled a character is.	Character	number		1			1	20					
+514d5a94-6854-41d4-a6ab-0e1c3a77b14a	Necrotic Vulnerability 		Combat	boolean		false									
+51acece7-e3f3-47aa-9103-804533781c03	Level 3 Spell Slots		Spell Casting	number		0				3					
+540ca0dd-9ccd-4b02-ba6e-d07113955fa9	Race	A character's ancestry and biological background.	Character	list	Dwarf|Elf|Hafling|Human|Dragonborn|Gnome|Half-Elf|Half-Orc|Tiefling	Human									
+557a5709-4af1-436d-90e1-6d7433f946ec	Spell Save DC	How difficult it is for targets to resist your spells.	Spell Casting	number		8			8						
+55daab42-99ec-4bdb-b74d-a853820cdec3	Lightening Immunity		Combat	boolean		false									
+55f4dfac-95d3-45c1-865e-d887744cad72	Fire Resistance		Combat	boolean		false									
+561ce007-672f-4ee5-8865-179f9b68ae2b	Unreactive	Unable to take reactions		boolean		false									
+5661d2d2-b2d9-454a-b234-1bcc6f490bc2	Athletics Proficiency		Skills	boolean		false									
+5a2e6403-6a24-4268-a523-41b5a0d9c6f3	Wisdom Save Proficiency		Abilities	boolean		false									
+5bbb7698-bbab-4d46-a1cb-039cbf128985	Deafened	### Deafened\n\n- A deafened creature can't hear and automatically fails any ability check that requires hearing.	Conditions	boolean		false									
+63af92fc-a681-4ec6-a961-19718d850b63	Fire Immunity		Combat	boolean		false									
+6494d770-c701-400f-be09-29dc64de2984	Armor Class	How difficult it is to hit you with an attack.	Combat	number		10			1						
+65280b84-bbff-40dc-8bf9-5fc48e4486d7	Perception Proficiency		Skills	boolean		false									
+65808297-225e-4618-8d7d-aab442ed50a2	Lightening Resistance 		Combat	boolean		false									
+6b14bba2-335b-4213-aac8-9c45f01c279e	Deception Proficiency		Skills	boolean		false									
+6b5598f3-9604-40a9-9338-149113f5d618	Class	A character's archetype.	Character	list	Barbarian|Bard|Cleric|Druid|Fighter|Monk|Paladin|Ranger|Rogue|Sorcerer|Warlock|Wizard	Barbarian		Class							
+6c2432c5-6924-48a6-b7fa-e7ffbc5110aa	Blinded	### Blinded\n\n- A blinded creature can't see and automatically fails any ability check that requires sight.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.	Conditions	boolean		false									
+6d6b202e-229d-4459-8cb9-da4662269cfe	Animal Handling Proficiency		Skills	boolean		false									
+704ac769-3385-469b-8178-1e0c7b95b585	Intelligence Save Proficiency		Abilities	boolean		false									
+70816bc3-1a69-41b4-968d-f7e0739e8381	Bludgeoning Resistance			boolean		false									
+73fe5730-c1d9-44bc-af14-418bccc9983f	Peerless Skill	When you make an ability check or attack roll and fail, you can expend one use of Bardic Inspiration; roll the Bardic Inspiration die, and add the number rolled to the d20, potentially turning a failure into a success. On a failure, the Bardic Inspiration isn't expended.	Bard Feats	boolean		false									
+742341d6-1bd0-4814-a037-3238af094482	Acid Resistance		Combat	boolean		false									
+74681a00-f3cc-44ab-8880-2704a2c6acba	Second Wind Charges		Fighter Feats	number		0									
+76796819-cec5-4e6b-b705-c87247fcca34	Tactical Mind	You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining Hit Points, you roll 1d10 and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind ins't expended.	Fighter Feats	boolean		false									
+76fd8160-d8d1-479c-a784-6542342d4699	Speed	How far you may move during a single turn of combat.	Combat	number		10			1						
+7cd17e6f-bc8d-4457-8dbf-c01b6b6fb661	Psychic Vulnerability 		Combat	boolean		false									
+7d29c653-b74d-4613-8caa-9501dc252190	Dexterity Save Proficiency		Abilities	boolean		false									
+7dba7311-bcbe-4ef8-8ad6-abf59da94a86	Acid Vulnerability		Combat	boolean		false									
+7e01c2df-34e3-4c7d-a2ec-7c5dff9a81e7	Constitution Save Proficiency		Abilities	boolean		false									
+7f7fdc59-a12d-4937-99f5-05f9ea5847b9	Action Surge Charges		Fighter Feats	number		0									
+8040b6a9-6d43-4580-b384-e7507f3cb8e1	Radiance Resistance 		Combat	boolean		false									
+856ab196-f8e6-496f-b4ac-082ba0323b36	Type			string											
+85d4271b-f488-4817-9c34-8dd801b62fb5	Proficiency Bonus	A modifier to add to checks for skills in which you are proficient.	Skills	number		0			0						
+86fc03cd-d680-438c-a89b-116ad6d7a577	Cold Immunity		Combat	boolean		false									
+892bdc93-d8cc-4393-8807-f15b2beb18e5	Persuasion Proficiency		Skills	boolean		false									
+899707db-d761-47e2-81e5-b8f6e624cc58	Force Immunity		Combat	boolean		false									
+89dc8104-7327-4d48-be4c-7f795d3b5374	Wild Shape Charges		Druid Feats	number		0									
+8c4dbc07-f3d5-4830-8f9e-5e06b7a32d80	Level 6 Spell Slots		Spell Casting	number		0				6					
+8d1f4ff5-7dd7-4c86-a6cc-2d8060bdd013	Inspiration	Points to be used at the Game Master's discretion.	Character	number		1			1						
+8db80eba-479f-4cb5-8b7d-7af7f71e142f	Concentration		Spell Casting	string										[{"id":"4d5f8120-c0ba-4183-bbeb-31f2711ad22b","name":"concentrating on","type":"string","defaultValue":""}]	
+8df7c5a4-e301-4cc0-baad-cec2fbd86dea	Hit Dice	The type of die used to calculate your hit points.	Health	string											
+92d73298-6f03-44dd-82dd-809e100b4079	Grappled	### Grappled\n\n- A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- The condition ends if the grappler is incapacitated (see the condition).\n- The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the Thunderwave spell.	Conditions	boolean		false									
+93b03527-e887-40d5-8a63-37abc928219e	Unarmored Defense	While you aren't wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit.	Barbarian Feats	boolean		false									
+9670a8ab-b12e-42e3-9b84-9e03b63df834	Bludgeoning Vulnerability			boolean		false									
+97605368-6199-43be-af85-2861ada8e417	Short Rest Charges		Utils	number		2				2					
+a10db1fe-5003-4114-bc03-7e790593793f	Focus Point		Monk Feats	number		0									
+a1f139c1-84e6-4750-9564-94627465de15	Charisma	A character's charm and social influence.	Abilities	number		10			1	20					
+a62d7ec8-a477-4cb5-953a-8f9011f5704c	Prone	### Prone\n\n- A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.\n- The creature has disadvantage on attack rolls.\n- An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.	Conditions	boolean		false									
+a8d7ab9c-2e87-4b4a-859a-f2fa522a4d1b	Level 8 Spell Slots		Spell Casting	number		0				6					
+a97aac7f-145a-435d-b98e-b968991ccd2a	Strength	A character's physical strength.	Abilities	number		10			1	20					
+a98ab777-284f-4867-90f7-f4fc17626385	Religion Proficiency		Skills	boolean		false									
+ab870c19-6230-4c82-b30c-c98d5d74a89d	Intimidation Proficiency		Skills	boolean		false									
+adeb419a-ae92-477a-b62f-f814ec4a9131	Paralyzed 	### Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the creature have advantage.\n- Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.	Conditions	boolean		false									
+b1c8086a-45e0-4c0a-b2ac-0b2e1255c89d	Cold Resistance 		Combat	boolean		false									
+b2887bc2-45a9-435c-8609-c1e00a030207	Description			string		Description...									
+b4d3319d-f98a-4e2b-bca1-70939506b4ec	Arcana Proficiency		Skills	boolean		false									
+bda59c74-ad26-4cbb-bb3e-ffe504fbf8df	Fire Vulnerability 		Combat	boolean		false									
+bdef5bf4-ac29-4c6c-883c-74a9fdf990cb	Bludgeoning Immunity			boolean		false									
+bf22099a-f3f8-4b06-baf8-36699fe05524	Temporary Hit Points	Additional hit points from an outside source. You may only have one source of temporary hit points at a time.	Health	number		0			0						
+c16e043d-ca6d-4ced-8b25-7a4b1d208e63	Intelligence Modifier	How a character's intelligence influences their skills.	Abilities	number		0			-10	10					
+c3e3b838-c305-4c6e-941f-8145cadd752d	Frightened	### Frightened\n\n- A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n- The creature can't willingly move closer to the source of its fear.	Conditions	boolean		false									
+c7b0f217-b91a-423f-9c5f-88a8211c7526	Spell Casting Modifier		Spell Casting	number		0									
+c994d51b-9504-4805-8a27-9e21a0178109	Poison Resistance 		Combat	boolean		false									
+caa9e3c9-aaf3-49b0-b3bb-93e8063a5255	Uncanny Metabolism	When you roll Initiative, you can regain all expended Focus Points. When you do so, roll your Martial Arts die, and regain a number of Hit Points equal to your Monk level plus the number rolled.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest.	Monk Feats	boolean		false									
+cb38cba0-6acf-482c-a424-eb6d986efe8f	Level 1 Spell Slots		Spell Casting	number		0				6					
+ccbbca5c-84a8-40c2-a3e4-49cedcbc1af8	Constitution Modifier	How a character's constitution influences their skills.	Abilities	number		0			-10	10					
+ced158d6-a5b2-48eb-95ab-6406dc66f729	Spell Casting Ability	Which ability score influences a character's ability to cast spells.	Spell Casting	list	Intelligence|Wisdom|Charisma										
+d190de90-4451-48c1-a056-dca52eda300d	Invisible	### Invisible\n\n- An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.\n- Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.	Conditions	boolean		false									
+d1bee4ac-5a46-437a-8fa2-a8e2d9cd9197	Intelligence	How quickly a character grasps complex concepts.	Abilities	number		10			1	20					
+d3c00e56-f06f-48a5-a0de-ad60a73e43df	Feral Instinct	Your instincts are so honed that you have Advantage on Initiative rolls.	Barbarian Feats	boolean		false									
+d5614140-e8d1-4d27-b8f6-aa564395bc70	Passive Insight		Skills	number		0									
+d9601a1c-85e8-442a-bfc5-62fe27b428da	Baned			boolean		false									
+da7a1096-beb4-4e64-94cf-7c94e3bcda1b	Psychic Immunity		Combat	boolean		false									
+db62a0ca-2450-474d-ac26-476c9d5f6fd7	Stealth Proficiency		Skills	boolean		false									
+dcfe93f6-16d0-4694-8f1f-4d479ac0ddae	Level 9 Spell Slots		Spell Casting	number		0				6					
+de3b35eb-fe4f-4cbc-ba49-83b583ac08e3	Spell Attack Modifier	The modifier added to spell attacks to determine if they hit their target.	Spell Casting	number		0			0						
+e3bc295b-199e-4483-9261-0ba419915f73	Radiance Vulnerability 		Combat	boolean		false									
+e416f4ab-df0a-4763-ac34-eb07c0329ef0	Level 7 Spell Slots		Spell Casting	number		0				6					
+e450e1b5-93f5-4090-a80b-0526863569b5	History Proficiency		Skills	boolean		false									
+e6ef85a3-3b26-4bbc-9c69-0467ad5c42b2	Survival Proficiency		Skills	boolean		false									
+e75cdf8e-ffb6-42af-b9ed-515f9f2aa7d6	Charmed	### Charmed\n\n- A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.\n- The charmer has advantage on any ability check to interact socially with the creature.	Conditions	boolean		false									
+e79fbc74-7cc2-4ebd-a9ef-1ac5528a3044	Hit Point Maximum	The maximum number of hit points you may have.	Health	number		1			1						
+e7d1f582-9362-4166-b141-c68a0446b771	Insight Proficiency		Skills	boolean		false									
+e8abbb0e-6f37-4f51-abe4-a23293374425	Alignment	A character's general motivation for decision making.	Character	list	Chaotic Evil|Neutral Evil|Lawful Evil|Chaotic Neutral|True Neutral|Lawful Neutral|Chaotic Good|Neutral Good|Lawful Good			Alignment							
+e97f4b0b-57e1-4035-b467-9d3059e5de47	Stunned	### Stunned\n\n- A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.\n- The creature automatically fails Strength and Dexterity saving throws.\nAttack rolls against the creature have advantage.	Conditions	boolean		false									
+e9a2eef6-3d92-46b5-957d-a08b41d7b921	Thunder Vulnerability		Combat	boolean		false									
+ea5271d4-d175-4240-a441-b2b75b98c5c2	Passive Perception	How easily you notice things without prior awareness.	Skills	number		0			-10	10					
+ec0be016-b208-406a-b6c3-6430908dd70d	Wisdom	A character's presence of mind.	Abilities	number		10			1	20					
+ece26277-2788-49b8-868a-e352540dc89f	Total Hit Points		Health	number		0									
+eeb86019-6e52-48ce-a17b-ed340e8207ea	Constitution	A character's will and ability to resist physical ailment.	Abilities	number		10			1	20					
+ef49ad3e-b8d6-4abe-8caa-e551200c636b	Blessed			boolean		false									
+ef8aa6d3-7ebb-4147-b1f2-f250fba4e315	Dexterity	How gracefully a character moves.	Abilities	number		10			1	20					
+f031852e-974e-4c0f-8665-407296ce8481	Experience Points	Determines when to advance to the next level.	Character	number		0			0						
+f17003a7-40a6-4709-a719-6d52afa5732d	Level 5 Spell Slots		Spell Casting	number		0				6					
+f2669075-b09d-478e-a0e4-076ac3b6c069	Charisma Modifier	How a character's charisma influences their skills.	Abilities	number		0			-10	10					
+f35756fa-ba1f-4e66-bfb5-2a65ae762038	Poisoned	### Poisoned\n\n- A poisoned creature has disadvantage on attack rolls and ability checks.	Conditions	boolean		false									
+f36492d1-4609-409e-a82f-e277dad7a59c	Cutting Words	You learn to use your wit to supernaturally distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of yourself makes a damage roll or succeeds on an ability check or attack roll, you can take a Reaction to expend one use of your Bardic Inspiration; roll your Bardic Inspiration die and subtract the number rolled from the creature's roll, reducing the damage or potentially turning the success into a failure. 	Bard Feats	boolean		false									
+f58f8a30-fca6-4180-b1dc-34e8ca548351	Radiance Immunity		Combat	boolean		false									
+f7f58d93-aa71-4fac-83ac-0f5999a7bc3b	Charisma Save Proficiency		Abilities	boolean		false									
+f911dfa2-d208-4c84-bc9b-2a500c553b00	Force Resistance 		Combat	boolean		false									
+fb08182a-dd31-4a70-922f-6c7b4dd68d10	Dexterity Modifier	How a character's dexterity influences their skills.	Abilities	number		0			-10	10					
+fba69201-da7d-45c2-b5f6-e496d1c14291	Incapacitated	### Incapacitated\n\n- An incapacitated creature can't take actions or reactions.	Conditions	boolean		false									

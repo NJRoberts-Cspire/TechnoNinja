@@ -1,0 +1,128 @@
+[
+  {
+    "type": "url",
+    "filename": "rogue",
+    "id": "0d794100-5c99-4af1-a7c8-666c8ce1cfd0",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z",
+    "data": "https://i0.wp.com/dungeonmister.com/wp-content/uploads/2024/06/Halfling-rogue.jpg"
+  },
+  {
+    "type": "url",
+    "filename": "fighter",
+    "id": "176c98f9-31a4-4727-80ab-1541b7ebc33f",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z",
+    "data": "https://www.flutesloot.com/wp-content/uploads/2021/11/DD-5e-Fighter-Multiclassing.jpg"
+  },
+  {
+    "type": "url",
+    "filename": "warlock",
+    "id": "1bc90eac-5537-44d7-a1ff-0e98daa0d1b5",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z",
+    "data": "https://everhearthinn.com/wp-content/uploads/2022/01/Article-Featured-Image-1200-x-630-px.webp"
+  },
+  {
+    "type": "url",
+    "filename": "barbarian",
+    "id": "1bcd6942-ab7e-4138-b483-c719c1172ab5",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z",
+    "data": "https://www.wargamer.com/wp-content/sites/wargamer/2023/04/dnd-barbarian-subclasses-5e-woman.jpg"
+  },
+  {
+    "type": "url",
+    "filename": "wizard",
+    "id": "26d1855c-b76d-492a-b13d-110a2f858289",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z",
+    "data": "https://www.themarysue.com/wp-content/uploads/2023/06/dnd-wizard-5e.webp"
+  },
+  {
+    "type": "url",
+    "filename": "sorcerer",
+    "id": "27f92abc-e65d-4275-b6fa-1b0739353922",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z",
+    "data": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2019/11/dnd-sorcererbuild-img1.jpg?q=50&fit=crop&w=825&dpr=1.5"
+  },
+  {
+    "id": "58abfdc3-0201-4d24-9fe0-12ff16f9227c",
+    "type": "url",
+    "filename": "dnd-cover",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "data": "https://www.tribality.com/wp-content/uploads/2014/10/cover-dnd-e1501645849868.jpg"
+  },
+  {
+    "type": "url",
+    "filename": "monk",
+    "id": "658489a5-c3b0-41d9-be9b-049f0c1113fc",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z",
+    "data": "https://www.wargamer.com/wp-content/sites/wargamer/2024/01/dnd-monk-subclasses-5e-long-death.jpg"
+  },
+  {
+    "type": "url",
+    "filename": "bard",
+    "id": "6d2cd783-f3fb-467c-84c3-bb59a2ce4383",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z",
+    "data": "https://i0.wp.com/dmdave.com/wp-content/uploads/2019/03/bard-dnd-1548924366-1551672496404.jpg?w=628&ssl=1"
+  },
+  {
+    "type": "url",
+    "filename": "cleric",
+    "id": "98360714-347e-4706-838f-f2a488b46840",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z",
+    "data": "https://www.wargamer.com/wp-content/sites/wargamer/2023/03/dnd-life-cleric-5e-human.jpg"
+  },
+  {
+    "type": "url",
+    "filename": "druid",
+    "id": "adef530e-dbb8-48ac-925d-4242275f3598",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z",
+    "data": "https://static.wixstatic.com/media/70fbf4_5a5dc4b7012245e8835c1607dff96009~mv2.png/v1/fill/w_568,h_320,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/70fbf4_5a5dc4b7012245e8835c1607dff96009~mv2.png"
+  },
+  {
+    "type": "url",
+    "filename": "ranger",
+    "id": "c6bb6157-5af3-4b53-961d-98e0d0255fd7",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z",
+    "data": "https://cdn.mos.cms.futurecdn.net/6JFgLfxEvzwF2ZXRgo8iFH.jpg"
+  },
+  {
+    "type": "url",
+    "filename": "paladin",
+    "id": "cc572674-3fbf-4a1a-ab2f-6402a45adbc7",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z",
+    "data": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/03/Dungeons-and-Dragons-Paladin-Official-Artwork.jpg?q=50&fit=crop&w=825&dpr=1.5"
+  },
+  {
+    "type": "url",
+    "filename": "dragon",
+    "id": "cfcccd0e-ec64-45b6-bbd3-06cb80e973aa",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z",
+    "data": "https://gamingtrend.com/content/images/size/w1200/2025/02/wizkids-red-dragon-news-fi-1.jpg"
+  }
+]

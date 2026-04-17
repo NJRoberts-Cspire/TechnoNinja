@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Character Basics",
+    "description": "",
+    "category": "Character",
+    "id": "3047cd1c-84df-4990-add1-1a544b8c2638",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Currency",
+    "description": "",
+    "category": "Inventory",
+    "id": "3cbcfd62-a8de-4380-b91d-3500e0859aad",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Hit Points",
+    "description": "",
+    "category": "Popup",
+    "id": "6a84f4b8-98c8-4d24-b16c-3d78ea4fd9c4",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Abilities",
+    "description": "",
+    "category": "",
+    "hideFromPlayerView": false,
+    "id": "7dae499b-7876-4b3c-ac26-326bddb711d6",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Top Bar",
+    "description": "",
+    "category": "",
+    "hideFromPlayerView": false,
+    "id": "917d37b4-f9ec-46a6-9326-7c28c475c755",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Monster Card",
+    "description": "",
+    "category": "",
+    "hideFromPlayerView": true,
+    "id": "eb1dd219-d372-470d-a9bf-4bec6e8bc0bd",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "title": "Rest",
+    "description": "",
+    "category": "Popup",
+    "id": "f65b4c02-5a12-4f29-8e0b-2effadc2156f",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  }
+]

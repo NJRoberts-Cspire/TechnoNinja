@@ -1,0 +1,26 @@
+/*
+### Guidance
+
+_Divination cantrip_
+
+**Casting Time**: 1 action
+
+**Range**: Touch
+
+**Components**: V, S
+
+**Duration**: Concentration, up to 1 minute
+
+You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends.
+*/
+
+on_activate():
+    set_concentration(Owner, 'Guidance')
+    if !Scene:
+        prompt('Guidance: select targets in an active scene to resolve this spell.', ['Ok'])
+        return
+
+    target = selectCharacter()
+    targ_name = target.name
+    log('{{targ_name}} may add 1d4 to one ability check before Guidance ends.')
+

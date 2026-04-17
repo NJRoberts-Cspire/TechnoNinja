@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Character Details",
+    "hideFromPlayerView": false,
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "pageId": "1a797434-c0c0-4c9a-962a-441c4988a1ec",
+    "id": "0577f293-0880-4d03-a16c-8f21b4416295",
+    "characterId": "1ceb0539-3760-4389-ae4a-6beb24c9f001",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  },
+  {
+    "id": "797493d0-0a56-46bc-951a-ea5885070093",
+    "characterId": "e7efd590-7908-43cc-b1ce-4d034278f943",
+    "pageId": "1a797434-c0c0-4c9a-962a-441c4988a1ec",
+    "label": "Character Details",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z",
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9"
+  },
+  {
+    "rulesetId": "9c2ebe7e-6eaf-46b3-8268-0eee1d8099c9",
+    "label": "Sheet",
+    "characterId": "ec50f443-6c5b-4852-9be4-609f98aa6f0e",
+    "pageId": "",
+    "id": "4ef4425e-a192-4f14-87e3-e94fbeecb76c",
+    "createdAt": "2026-04-17T13:05:39.691Z",
+    "updatedAt": "2026-04-17T13:05:39.691Z"
+  }
+]

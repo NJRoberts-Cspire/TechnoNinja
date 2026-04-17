@@ -1,0 +1,131 @@
+id	title	description	category	weight	defaultQuantity	stackSize	isContainer	isStorable	isEquippable	isConsumable	inventoryWidth	inventoryHeight	image	actionIds	assetFilename
+00ef22cc-4d8b-49f1-b99f-908235dd31b4	Jug		Adventuring Gear	4	1	0	false	false	false	false	2	2			
+04247412-3991-4133-a375-43ef9dc42a80	Candle		Adventuring Gear	0	1	0	false	false	false	false	2	2			
+0503b54b-90f6-4ec1-ad46-57138d203a5d	Caltrops		Adventuring Gear	0.1	1	20	false	false	false	false	2	2			
+066de0cc-a95b-4948-badf-77c14d1ed116	Plate Armor	**AC**: 18\n\nStealth disadvantage. Strength 15 required.	Heavy Armor	60	1	0	false	false	true	false	2	2			
+070cfa12-3942-47a5-8d87-6ed65485698a	Glass Bottle		Adventuring Gear	2	1	0	false	false	false	false	2	2			
+0bb22822-99d4-462e-a807-992cbe4bc4bd	Mess kit 		Adventuring Gear	1	1	0	false	false	false	false	2	2			
+0e0cbb97-da08-4bfe-89d3-eb36cd837bea	Battleaxe	1d10 Versatile 	Martial Weapons	4	1	0	false	false	true	false	2	2			
+0f10654c-f560-477a-87fb-ca2f799d1924	Amulet		Adventuring Gear	1	1	0	false	false	true	false	2	2			
+0fbc4723-8ca2-4487-8129-b8e15328e7be	Bucket		Adventuring Gear	2	1	0	false	false	false	false	2	2			
+123d4211-d7b3-435c-a631-1138fc872f13	Pot		Adventuring Gear	10	1	0	false	false	false	false	2	2			
+1679de2f-fba8-466f-87d7-8dda1cb635d1	Quarterstaff	**Properties**: Versatile\n\n1d8	Melee Weapons	4	1	0	false	false	true	false	2	2			
+17702983-5494-4a8a-99c2-8d635a923cd0	Book		Adventuring Gear	5	1	0	false	false	false	false	2	2			
+179a4bd7-0b55-44f8-9fc8-a42c7725f173	Spear	**Properties**: Thrown (range 20/60)\n\n1d8 Versatile 	Melee Weapons	3	1	0	false	false	true	false	2	2			
+1810518a-f37e-4cda-9ed2-47d1153ede7e	Dart	**Properties**: Finesse thrown (range 20/60)\n\n1d4 piercing	Ranged Weapons	0.25	1	0	false	false	true	false	2	2			
+18c82a68-3216-454c-85f6-e31813e41bba	Hand Crossbow	**Properties**: Ammunition (range 30/120), light, loading\n\n1d6 piercing 	Martial Ranged Weapons	3	1	0	false	false	true	false	2	2			
+19ba18e6-a7a9-4bb9-b867-ff576c42c756	Acid Vial		Adventuring Gear	2	1	0	false	false	false	false	2	2			
+1af60deb-e14c-4c21-a374-e25be2fdf9f5	Common Clothes		Adventuring Gear	3	1	0	false	false	true	false	2	2			
+1afd8267-bfec-4ddb-915d-386cdf8e152d	Ink	1 oz bottle	Adventuring Gear	0	1	0	false	false	false	false	2	2			
+1b706410-293f-4888-a4d6-8c89ab847e2c	Half Plate Armor	**AC**: 15 + Dexterity Modifier (max 2)\n\nStealth disadvantage 	Medium Armor	40	1	0	false	false	true	false	2	2			
+1b88a99b-cc0d-4bd2-80a3-86dff90728cf	Hunting Trap		Adventuring Gear	25	1	0	false	false	false	false	2	2			
+1ba0440b-e181-41bf-aed4-0cc19a43914a	Robes		Adventuring Gear	4	1	0	false	false	true	false	2	2			
+213a5681-e1f2-4537-a355-5215765f1cb8	War Pick	1d8 piercing 	Martial Weapons	2	1	0	false	false	true	false	2	2			
+23195a2a-6a92-4286-a4f5-04deab20225c	Signet Ring		Adventuring Gear	0	1	0	false	false	true	false	2	2			
+283f837b-a367-45c1-b4e1-64ff8c136f96	Ball Bearings		Adventuring Gear	2	2000	2000	true	false	false	false	2	2			
+29a896b3-7582-4f96-a8f3-9d1f246add55	Longsword	**Properties**: 1d10 Versatile\n\n1d8 slashing	Martial Weapons	3	1	0	false	false	true	false	2	2			
+2cd1227e-9bb2-41d4-ad25-4f13f31b1c76	Light Hammer	**Properties**: Light thrown (range 20/60)\n\n1d4 bludgeoning	Melee Weapons	2	1	0	false	false	true	false	2	2			
+2e50b3b9-b700-4c63-b018-b67d810f1a15	Ring Mail Armor	**AC**: 14\n\nStealth disadvantage.	Heavy Armor	40	1	0	false	false	true	false	2	2			
+2e947bd5-5596-4097-875f-f81b09905517	Sickle	**Properties**: Light\n\n1d4 slashing 	Melee Weapons	4	1	0	false	false	true	false	2	2			
+2ed7ef8f-486d-4925-8b2c-aa71e6e462b2	Trident	**Properties**: Thrown (range 20/ 60), Versatile (1d8)\n\n1d6 piercing 	Martial Weapons	4	1	0	false	false	true	false	2	2			
+32cc91f4-4eae-415d-9fbd-abdb608ad6ff	Maul	**Properties**: Heavy, two-handed\n\n2d6 bludgeoning 	Martial Weapons	3	1	0	false	false	true	false	2	2			
+340544e7-d64a-4da0-a8fe-f143b761d221	Javelin	**Properties**:  Thrown (30/120)\n\n1d6 piercing 	Melee Weapons	2	1	0	false	false	true	false	2	2			
+3468183f-c66b-4dd8-9bef-c9c78ff4ac9b	Warhammer	**Properties**: Versatile (1d10)\n\n1d8 bludgeoning 	Martial Weapons	2	1	0	false	false	true	false	2	2			
+351b81a0-1597-4625-a9f3-28c69acb5ea1	Orb		Adventuring Gear	3	1	0	false	false	false	false	2	2			
+36c48b87-1eed-4fcd-968d-b3a7bca0aa6a	Sling	**Properties**: Ammunition (range 30/120)\n\n1d4 bludgeoning	Ranged Weapons	0	1	0	false	false	true	false	2	2			
+3891d5c6-528d-40ec-bf86-1ce52318c6b3	Chain Shirt	**AC**: 13 + Dexterity Modifier (max 2)	Medium Armor	20	1	0	false	false	true	false	2	2			
+3b6450c2-b426-4ee6-8bfd-0b17500d4938	Crowbar		Adventuring Gear	5	1	0	false	false	false	false	2	2			
+3bbddef4-c895-41a0-8962-d750cfc32ef5	Leather Armor	**AC**:  11 + Dexterity Modifier 	Light Armor	10	1	0	false	false	true	false	2	2			
+3f81416f-b925-4516-8f9a-9cef996f6c0e	Traveler's Clothes		Adventuring Gear	4	1	0	false	false	true	false	2	2			
+3ffc7e54-2cbd-4acf-a835-ab7e8956594f	Morningstar	1d8 piercing 	Martial Weapons	4	1	0	false	false	true	false	2	2			
+405572b6-2fc8-4844-8305-c2bbccde0a20	Staff		Adventuring Gear	4	1	0	false	false	false	false	2	2			
+43a6d2e5-a0cb-4ae8-83a0-3bde6e736123	Manacles		Adventuring Gear	6	1	0	false	false	false	false	2	2			
+4446afe3-07a7-4015-8a39-1c2058482de5	Greataxe	**Properties** Heavy, two-handed\n\n1d12 slashing	Martial Weapons	7	1	0	false	false	true	false	2	2			
+46e78f9e-fd63-44fc-a1c4-270e87232510	Climber's Kit		Adventuring Gear	12	1	0	false	false	false	false	2	2			
+47698608-315d-4011-b666-13c8bc8d3d25	Yew Wand		Adventuring Gear	1	1	0	false	false	false	false	2	2			
+48fbb8ef-a0cb-481a-9412-38a750c6e872	Ladder	10 ft	Adventuring Gear	25	1	0	false	false	false	false	2	2			
+498f1b04-aa70-4845-b527-20e1c0664949	Ink Pen		Adventuring Gear	0	1	0	false	false	false	false	2	2			
+4a2b5060-99ef-422a-b96a-2dffde950491	Mirror		Adventuring Gear	0.5	1	0	false	false	false	false	2	2			
+4a5f12e9-60c6-40a1-9b6a-a0494b6fbcea	Handaxe	**Properties**: Light thrown (range 20/60)\n\n1d6 slashing	Melee Weapons	2	1	0	false	false	true	false	2	2			
+4dac6d7e-78cf-43bc-9311-190e7bba44dc	Lance	**Properties**: Reach, special\n\n1d12 piercing	Martial Weapons	6	1	0	false	false	true	false	2	2			
+501b10b9-376b-4f39-b4de-51fa1da619e8	Spellbook		Adventuring Gear	3	1	0	false	false	false	false	2	2			
+5033ed6c-39e3-46b4-9f78-14bd598c6d67	Wooden Staff		Adventuring Gear	4	1	0	false	false	false	false	2	2			
+518db02c-f2de-4b07-8ad5-e08b1d7925cb	Studded Leather Armor	**AC**: 12 + Dexterity Modifier 	Light Armor	13	1	0	false	false	true	false	2	2			
+567d87ee-5b0e-4d01-9cd6-92cf6da3bc32	Lock		Adventuring Gear	1	1	0	false	false	false	false	2	2			
+57a017b0-c74f-4c54-8daf-c92fe6a9d627	Shortsword	**Properties**: Finesse, light\n\n1d6 piercing 	Martial Weapons	2	1	0	false	false	true	false	2	2			
+57cd49e2-84d1-4417-834f-877308a7a5b9	Miner's Pick		Adventuring Gear	10	1	0	false	false	false	false	2	2			
+58bec9c6-9724-4d5e-a2c8-121c3997d35f	Heavy Crossbow	**Properties**: Ammunition (range 100/400), heavy, loading, two-handed\n\n1d10 piercing 	Martial Ranged Weapons	18	1	0	false	false	true	false	2	2			
+5946afd6-f746-4088-92eb-8804e124fde1	Grappling Hook		Adventuring Gear	4	1	0	false	false	false	false	2	2			
+5aef16f9-0b97-4278-907d-9b1b13c188b2	Halberd	**Properties**: Heavy, reach, two-handed\n\n1d10 slashing	Martial Weapons	6	1	0	false	false	true	false	2	2			
+5b0c03fc-06e6-4bf5-9639-19b64141c1ed	Blowgun	**Properties**: Ammunition (range 25/100), loading\n\n1 piercing 	Martial Ranged Weapons	1	1	0	false	false	true	false	2	2			
+5c85a0d9-2cfd-4f28-97ad-60d700ccc92a	Glaive	**Properties**: Heavy, reach, two-handed\n\n1d10 slashing	Martial Weapons	6	1	0	false	false	true	false	2	2			
+64739c54-8b8b-4d1e-a7cb-a323ddfc1eaa	Waterskin		Adventuring Gear	5	1	0	false	false	false	false	2	2			
+65587285-2891-499b-87a7-5cdf0cef7c84	Splint Armor	**AC**: 17\n\nStealth disadvantage. Strength 15 required.	Heavy Armor	60	1	0	false	false	true	false	2	2			
+68e4680d-76e0-4bd3-bcd0-891d4737976a	Pole	10 ft	Adventuring Gear	7	1	0	false	false	false	false	2	2			
+6aab1c95-209e-4f8e-9fb0-0bc119d20c38	Flail	1d8 bludgeoning 	Martial Weapons	2	1	0	false	false	true	false	2	2			
+6b8f2d1e-19ef-440b-a4d4-15c567d4f618	Magnifying Glass		Adventuring Gear	0	1	0	false	false	false	false	2	2			
+6e1cfc7a-a437-4a0c-8c6d-b4dd2a447566	Sling Bullet		Adventuring Gear	0.075	1	20	false	false	false	false	2	2			
+7057b230-5443-4f76-ba0f-3c12d28c1446	Bedroll		Adventuring Gear	7	1	0	false	false	false	false	2	2			
+73726b88-cfd2-459d-8410-41bd1691b8e0	Healer's Kit		Adventuring Gear	3	1	0	false	false	false	false	2	2			
+784a874e-c18d-4b3b-b669-9a148fd5c620	Fine Clothes		Adventuring Gear	6	1	0	false	false	true	false	2	2			
+7b60b283-1e75-46ae-b7b1-f10a2f6fa9c5	Crystal		Adventuring Gear	1	1	0	false	false	false	false	2	2			
+7e4dd082-0c2a-4041-8619-f0044d9c88c5	Chest		Adventuring Gear	25	1	0	true	false	false	false	2	2			
+7fc494bb-6bae-4085-98a1-35ec3df7ce5d	Arrow		Adventuring Gear	0.05	1	20	false	false	false	false	2	2			
+82132249-ed02-4184-9cda-f8d5604c4a19	Scimitar	**Properties**: Finesse, light\n\n1d6 slashing	Martial Weapons	3	1	0	false	false	true	false	2	2			
+82b9d6c2-a58f-4034-a19a-66b207e22848	Barrel		Adventuring Gear	70	1	0	false	false	false	false	2	2			
+85aa4449-f049-462f-9669-f813f2ef0ca3	Backpack		Adventuring Gear	5	1	0	true	false	false	false	2	2			
+8816f9b5-f9a6-43ca-b537-fbb31d21ddb2	Sack		Adventuring Gear	0.5	1	0	true	false	false	false	2	2			
+88bd8ca8-06ca-412b-8aa9-3fee339ed0ac	Hourglass		Adventuring Gear	1	1	0	false	false	false	false	2	2			
+8902df85-1962-4e67-8ca2-ac7c68f31278	Pike	**Properties**: Heavy, reach, two-handed\n\n1d10 piercing 	Martial Weapons	18	1	0	false	false	true	false	2	2			
+8c0cd234-caab-4043-b7bd-77c3ffa9ecd5	Chain (10 feet)		Adventuring Gear	10	1	0	false	false	false	false	2	2			
+8c71d9ba-5962-4d10-b70d-56b1d7138717	Club	**Type**: Light\n\n1d6 bludgeoning	Melee Weapons	2	1	0	false	false	true	false	2	2			
+8f146b30-1340-4df1-8b83-9377b1273326	Shortbow	**Properties**: Ammunition (range 80/320) two-handed\n\n1d6 piercing	Ranged Weapons	2	1	0	false	false	true	false	2	2			
+92753aab-ee41-4010-941a-b4f1cebf837d	Pouch		Adventuring Gear	1	1	0	true	false	false	false	2	2			
+977d6686-a86b-4fcb-a22d-ad6d7ff00d49	Light Crossbow	**Properties**: Ammunition (range 80/320), loading, two-handed\n\n1d8 piercing 	Ranged Weapons	5	1	0	false	false	true	false	2	2			
+98bf804f-9bc9-454a-a836-cb5245c8bc9b	Shovel		Adventuring Gear	5	1	0	false	false	false	false	2	2			
+99745551-58df-44ae-826e-c4011aa09e3c	Potion of Healing		Adventuring Gear	0.5	1	0	false	false	false	true	2	2			
+9c656faa-0252-4ce3-a2b6-25b1d0eb094f	Block and Tackle		Adventuring Gear	5	1	0	false	false	false	false	2	2			
+9e8a6387-ea05-4c55-a30b-ca25dd4bffb4	Crossbow Bolt		Adventuring Gear	0.075	1	20	false	false	false	false	2	2			
+a13346e2-56aa-4647-8af8-4d1f33063698	Lamp		Adventuring Gear	1	1	0	false	false	false	false	2	2			
+a3c15663-42b2-4b80-b6ec-4164ecbd05a3	Hide Armor	**AC**: 12 + Dexterity Modifier (max 2)	Medium Armor	0	1	0	false	false	true	false	2	2			
+a4706028-7361-4481-a195-6d2409ceff10	Holy Water		Adventuring Gear	1	1	0	false	false	false	false	2	2			
+a7d197df-59fb-4341-ac3f-5d10d70cc75d	Basket		Adventuring Gear	2	1	0	false	false	false	false	2	2			
+a990ce5a-9858-4c0c-933f-90297958bad4	Soap		Adventuring Gear	0	1	0	false	false	false	false	2	2			
+acacccc0-f357-4a8f-96b7-441f52f171e8	Parchment 		Adventuring Gear	0	1	1000	false	false	false	false	2	2			
+ad29e20d-8603-4450-b261-620ae2776214	Whip	**Properties**: Finesse, reach\n\n1d4 slashing	Martial Weapons	3	1	0	false	false	true	false	2	2			
+b3737c19-86e9-429b-8d5c-e22c40855e4b	Torch		Adventuring Gear	1	1	0	false	false	false	false	2	2			
+b45c5e7a-c8dd-47f5-b5dc-3588b5bcbf0b	Quiver 		Adventuring Gear	1	1	0	false	false	false	false	2	2			
+b7980edd-1d0e-4dab-8b0a-5ad5afe0c2a4	Whetstone 		Adventuring Gear	1	1	0	false	false	false	false	2	2			
+b7d976b9-db31-4627-a250-6379fdacafa1	Scale Mail Armor	**AC**: 14 + Dexterity Modifier (max 2)\n\nStealth Disadvantage 	Medium Armor	45	1	0	false	false	true	false	2	2			
+b9960c92-5dbf-4974-9da4-c890654e5d15	Merchant's Scale		Adventuring Gear	3	1	0	false	false	false	false	2	2			
+bb30838d-4dcb-4820-9928-193296db07ef	Padded Armor	**AC**: 11 + Dexterity Modifier\n\nStealth Disadvantage 	Light Armor	8	1	0	false	false	true	false	2	2			
+bb47e170-dfbd-49cd-b696-4aae30ab0940	Rope	50 ft	Adventuring Gear	10	1	0	false	false	false	false	2	2			
+bbaa63ad-e7d6-4191-93a2-e0a89061fc46	Piton		Adventuring Gear	0.25	1	40	false	false	false	false	2	2			
+bf09662f-9581-463a-a4e5-2f3563078dce	Blanket		Adventuring Gear	3	1	0	false	false	false	false	2	2			
+bfc90ccb-3755-496f-900c-f76e673d99f1	Rations	1 day's worth	Adventuring Gear	2	1	0	false	false	false	true	2	2			
+c47cc962-a85e-4400-923e-1a77d2554ca8	Basic Poison Vial		Adventuring Gear	0	1	0	false	false	false	false	2	2			
+c9728655-d1fe-40f8-be60-07a7d0e102a0	Shield	**AC** 2	Shield	6	1	0	false	false	true	false	2	2			
+cbb40ba0-1864-43f0-bdbf-9ce8ddde4f23	Hammer		Adventuring Gear	3	1	0	false	false	false	false	2	2			
+cc68932f-a695-4237-af4a-c79eed225163	Tent	Two person	Adventuring Gear	20	1	0	false	false	false	false	2	2			
+cf3a5dba-56cc-4a14-b7fb-0484fc0b2150	Component Pouch		Adventuring Gear	2	1	0	true	false	false	false	2	2			
+d0e63258-abf0-4577-9b80-e49fbc927486	Greatsword	**Properties**: Heavy, two-handed\n\n2d6 slashing	Martial Weapons	6	1	0	false	false	true	false	2	2			
+d45a2629-aacc-428e-8aee-697063f53d28	Anti-Toxin		Adventuring Gear	0	1	0	false	false	false	false	2	2			
+d45c0526-67ec-4602-9f71-a423012a76a3	Mace	1d6 bludgeoning 	Melee Weapons	4	1	0	false	false	true	false	2	2			
+d888aea6-778a-4b92-be72-c0cbc1565f32	Chain Mail Armor	**AC**: 16\n\nStealth disadvantage. Strength 13 required.	Heavy Armor	55	1	0	false	false	true	false	2	2			
+dc3d9a5b-d410-4a96-9dfb-c00dfad96d08	Oil Flash		Adventuring Gear	1	1	0	false	false	false	false	2	2			
+dd1fd5a8-058c-4fba-8e6b-64ed59cc4499	Rod		Adventuring Gear	2	1	0	false	false	false	false	2	2			
+df554edf-8bd5-4933-a645-fac5ca707046	Perfume		Adventuring Gear	0	1	0	false	false	false	false	2	2			
+e057f78a-64e2-4091-885d-5bde7351d613	Sledge Hammer		Adventuring Gear	10	1	0	false	false	false	false	2	2			
+e15b6c44-4363-4658-b738-d76e26191fef	Breast Plate	**AC**: 14 + Dexterity Modifier (max 2)	Medium Armor	20	1	0	false	false	true	false	2	2			
+e1602485-b7ba-46d9-8f79-d9fcbd22a130	Sprig of Mistletoe 		Adventuring Gear	0	1	0	false	false	false	false	2	2			
+e523bb3a-8a86-4429-b2f6-4315806cf2f8	Lantern		Adventuring Gear	2	1	0	false	false	false	false	2	2			
+e608d46d-f2cc-45a4-9167-691e38337096	Tankard		Adventuring Gear	1	1	0	false	false	false	false	2	2			
+e7ae4142-b81b-4b90-b4ed-80a1da7b9bc3	Longbow	**Properties**: Ammunition (range 150/600), heavy, two-handed\n\n1d8 piercing 	Martial Ranged Weapons	2	1	0	false	false	true	false	2	2			
+e7f012a4-d560-4475-9d55-7b1da06232fe	Wand		Adventuring Gear	1	1	0	false	false	false	false	2	2			
+e8cf80d7-dbb7-40ec-9e4b-de3849dedbb4	Greatclub	**Properties**: Two-handed\n\n1d8 bludgeoning 	Melee Weapons	10	1	0	false	false	true	false	2	2			
+f0326def-a3b6-4e5f-a048-8c2f469b2d58	Portable Ram		Adventuring Gear	35	1	0	false	false	false	false	2	2			
+f07d1d6d-a341-46b1-814f-9f99d3965229	Paper		Adventuring Gear	0	1	1000	false	false	false	false	2	2			
+f1326007-06c1-4e08-b0b0-b323d55468a8	Rapier	**Properties**: Finesse\n\n1d8 piercing 	Martial Weapons	2	1	0	false	false	true	false	2	2			
+f78ab043-873a-4d7e-9036-7d60516877a9	Alchemist's Flask		Adventuring Gear	1	1	0	false	false	false	false	2	2			
+fce2f3b7-8dbd-4bd6-887e-d0952be5f9d9	Blowgun Needles		Adventuring Gear	0.02	1	50	false	false	false	false	2	2			
+fe96937b-5164-4865-a573-cdaf60fdb3cb	Dagger	**Type**:  Finesse\n\n1d4 piercing	Melee Weapons	1	1	0	false	false	true	false	2	2			
