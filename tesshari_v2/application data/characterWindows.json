@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Character Basics",
+    "x": 20,
+    "y": 20,
+    "isCollapsed": false,
+    "id": "a383bbb0-e2a1-4347-b215-0f929958f3e5",
+    "characterId": "b41dcb77-026c-4b10-80b5-d026ce7c04be",
+    "characterPageId": "201920a7-b9fb-4dd1-8cab-fef3c91850b1",
+    "windowId": "61a91476-b4f8-4676-b314-f26b50089a98",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Stats",
+    "x": 20,
+    "y": 260,
+    "isCollapsed": false,
+    "id": "b56e948a-af2c-4466-94e9-42e9ec878433",
+    "characterId": "b41dcb77-026c-4b10-80b5-d026ce7c04be",
+    "characterPageId": "201920a7-b9fb-4dd1-8cab-fef3c91850b1",
+    "windowId": "ac69b6ed-f775-437a-9f6c-a7151478bf43",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Combat",
+    "x": 360,
+    "y": 260,
+    "isCollapsed": false,
+    "id": "1f9b4ba4-4e2e-4c3f-bf85-2d5f3ad6c1c2",
+    "characterId": "b41dcb77-026c-4b10-80b5-d026ce7c04be",
+    "characterPageId": "201920a7-b9fb-4dd1-8cab-fef3c91850b1",
+    "windowId": "a1aba3b0-2f96-4024-9105-b30c4457d3c1",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Identity",
+    "x": 700,
+    "y": 260,
+    "isCollapsed": false,
+    "id": "806998a8-09a1-4b9d-a905-b378c68af1ef",
+    "characterId": "b41dcb77-026c-4b10-80b5-d026ce7c04be",
+    "characterPageId": "201920a7-b9fb-4dd1-8cab-fef3c91850b1",
+    "windowId": "2f568768-94b9-470c-be75-a383bbf138c5",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Subclass Paths",
+    "x": 20,
+    "y": 600,
+    "isCollapsed": false,
+    "id": "02f4c92a-1b43-400f-ad46-3b799f7b39bc",
+    "characterId": "b41dcb77-026c-4b10-80b5-d026ce7c04be",
+    "characterPageId": "201920a7-b9fb-4dd1-8cab-fef3c91850b1",
+    "windowId": "ae8f335e-b873-49ec-91d6-e16c0a0de19d",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Stats",
+    "x": 20,
+    "y": 20,
+    "isCollapsed": false,
+    "id": "41193c39-5de8-4e44-a217-52ddd01b25c8",
+    "characterId": "b41dcb77-026c-4b10-80b5-d026ce7c04be",
+    "characterPageId": "45d2c6a2-e7b8-4493-97ee-83f7e96ceb22",
+    "windowId": "ac69b6ed-f775-437a-9f6c-a7151478bf43",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Background",
+    "x": 360,
+    "y": 20,
+    "isCollapsed": false,
+    "id": "14e6f043-f4a0-4b6e-8094-5d98e3063750",
+    "characterId": "b41dcb77-026c-4b10-80b5-d026ce7c04be",
+    "characterPageId": "45d2c6a2-e7b8-4493-97ee-83f7e96ceb22",
+    "windowId": "e24efbbe-4851-4a8c-be15-0a73f3732e0d",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Subclass Paths",
+    "x": 20,
+    "y": 340,
+    "isCollapsed": false,
+    "id": "59114e10-b9ba-4e35-94f4-d81d439e212d",
+    "characterId": "b41dcb77-026c-4b10-80b5-d026ce7c04be",
+    "characterPageId": "45d2c6a2-e7b8-4493-97ee-83f7e96ceb22",
+    "windowId": "ae8f335e-b873-49ec-91d6-e16c0a0de19d",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Combat",
+    "x": 20,
+    "y": 20,
+    "isCollapsed": false,
+    "id": "3614e626-3b78-43e5-986d-1b89e62123f6",
+    "characterId": "b41dcb77-026c-4b10-80b5-d026ce7c04be",
+    "characterPageId": "49469443-0ceb-43b8-8df5-2af3a5f06ce5",
+    "windowId": "a1aba3b0-2f96-4024-9105-b30c4457d3c1",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Class Resources",
+    "x": 360,
+    "y": 20,
+    "isCollapsed": false,
+    "id": "b9ad6304-7cd6-4e5e-8e68-c4af8af5af9d",
+    "characterId": "b41dcb77-026c-4b10-80b5-d026ce7c04be",
+    "characterPageId": "49469443-0ceb-43b8-8df5-2af3a5f06ce5",
+    "windowId": "a441c523-1b5b-44e6-be35-4de0c52b870d",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  }
+]

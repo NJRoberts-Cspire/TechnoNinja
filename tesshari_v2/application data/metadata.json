@@ -1,0 +1,70 @@
+{
+  "ruleset": {
+    "id": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "title": "Tesshari",
+    "description": "Card-based AP TTRPG — Forged race, Ironclad Samurai class + 23 other classes.",
+    "details": {},
+    "assetId": null,
+    "version": "0.4.0",
+    "palette": [],
+    "createdBy": "User_c8a35c12",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z",
+    "characterCtaTitle": "Characters",
+    "characterCtaDescription": "Create and Manage Characters for this Ruleset",
+    "campaignsCtaTitle": "Campaigns",
+    "campaignCtaDescription": "Create and Launch a Campaign for this Ruleset",
+    "isModule": false,
+    "charactersCtaAssetId": null,
+    "campaignsCtaAssetId": null,
+    "image": null
+  },
+  "exportInfo": {
+    "exportedAt": "2026-04-17T12:00:00.000Z",
+    "exportedBy": "Quest Bound",
+    "version": "2.0.0"
+  },
+  "counts": {
+    "attributes": 291,
+    "actions": 395,
+    "items": 606,
+    "charts": 0,
+    "windows": 7,
+    "components": 171,
+    "composites": 0,
+    "compositeVariants": 0,
+    "assets": 0,
+    "fonts": 0,
+    "documents": 0,
+    "archetypes": 42,
+    "customProperties": 0,
+    "archetypeCustomProperties": 0,
+    "itemCustomProperties": 0,
+    "characterAttributes": 291,
+    "inventories": 1,
+    "characterWindows": 10,
+    "characterPages": 3,
+    "rulesetWindows": 10,
+    "pages": 3,
+    "inventoryItems": 0,
+    "scripts": 1,
+    "campaigns": 0,
+    "campaignScenes": 0,
+    "campaignCharacters": 0,
+    "campaignEvents": 0,
+    "sceneTurnCallbacks": 0
+  },
+  "scripts": [
+    {
+      "id": "4b91c20a-5f36-470b-8af5-402e3c438b20",
+      "name": "tesshari_card_core",
+      "file": "scripts/global/tesshari_card_core.qbs",
+      "entityType": "global",
+      "entityId": null,
+      "entityName": "Tesshari Card Core",
+      "isGlobal": true,
+      "enabled": true,
+      "category": "Global"
+    }
+  ]
+}

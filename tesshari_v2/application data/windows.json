@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Character Basics",
+    "description": "",
+    "category": "",
+    "hideFromPlayerView": false,
+    "id": "61a91476-b4f8-4676-b314-f26b50089a98",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Stats",
+    "description": "",
+    "category": "",
+    "hideFromPlayerView": false,
+    "id": "ac69b6ed-f775-437a-9f6c-a7151478bf43",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Combat",
+    "description": "",
+    "category": "",
+    "hideFromPlayerView": false,
+    "id": "a1aba3b0-2f96-4024-9105-b30c4457d3c1",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Identity",
+    "description": "",
+    "category": "",
+    "hideFromPlayerView": false,
+    "id": "2f568768-94b9-470c-be75-a383bbf138c5",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Background",
+    "description": "",
+    "category": "",
+    "hideFromPlayerView": false,
+    "id": "e24efbbe-4851-4a8c-be15-0a73f3732e0d",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Class Resources",
+    "description": "",
+    "category": "",
+    "hideFromPlayerView": false,
+    "id": "a441c523-1b5b-44e6-be35-4de0c52b870d",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Subclass Paths",
+    "description": "",
+    "category": "",
+    "hideFromPlayerView": false,
+    "id": "ae8f335e-b873-49ec-91d6-e16c0a0de19d",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  }
+]
