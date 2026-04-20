@@ -104,7 +104,6 @@ const INV_ID     = uuid();
 
 const PAGES = {
   main:     { id: uuid(), label: 'Character' },
-  creation: { id: uuid(), label: 'Creation' },
   combat:   { id: uuid(), label: 'Combat' },
 };
 
@@ -131,21 +130,85 @@ const CLASS_OPTIONS = [
   'Pulse Caller','Sutensai','Flesh Shaper','Echo Speaker','Void Walker','Blood Smith',
   'Iron Herald','Shadow Daimyo','Voice of Debt','Merchant Knife','Puppet Binder','The Unnamed',
 ];
+const STAT_BOUNDS = { type: 'number', defaultValue: '1', min: '1', max: '6', inventoryWidth: '', inventoryHeight: '' };
 const OVERRIDES = {
   'attr_species': { type: 'list', optionsArr: SPECIES_OPTIONS, defaultValue: 'Forged' },
   'attr_class':   { type: 'list', optionsArr: CLASS_OPTIONS,   defaultValue: 'Ironclad Samurai' },
+  // Source TSV is column-misaligned for stats (min empty, max=1, invW=6). Override.
+  'attr_stat_iron':      STAT_BOUNDS,
+  'attr_stat_edge':      STAT_BOUNDS,
+  'attr_stat_frame':     STAT_BOUNDS,
+  'attr_stat_signal':    STAT_BOUNDS,
+  'attr_stat_resonance': STAT_BOUNDS,
+  'attr_stat_veil':      STAT_BOUNDS,
+  'attr_points_spent':   { type: 'number', defaultValue: '0', min: '0', max: '20', inventoryWidth: '', inventoryHeight: '' },
 };
+
+// ─── Combined subclass selection ───────────────────────────────────────
+// One dropdown with every subclass option across every class, prefixed
+// with the class name so the user knows which class it belongs to.
+// The character loader parses the selected string and routes to the
+// matching per-class Path attribute init function.
+// Map: option label → { attr, raw }
+const SUBCLASS_BY_CLASS = {
+  'Ironclad Samurai': { attr: 'Vein Path',             raw: ['oath_iron_lord','oath_sutensai_blade','oath_undying_debt','oath_flesh_temple'] },
+  'Ronin':            { attr: 'Ronin Path',            raw: ['ascendant_blade','iron_contract','returning_blade'] },
+  'Ashfoot':          { attr: 'Ashfoot Path',          raw: ['skirmish_specialist','formation_anchor','salvage_innovator'] },
+  'Veilblade':        { attr: 'Veilblade Path',        raw: ['shadow_operative','signal_cutter','ghost_archive'] },
+  'Oni Hunter':       { attr: 'Oni Hunter Path',       raw: ['dissolution_specialist','afterlife_anchor','resonance_collector'] },
+  'Forge Tender':     { attr: 'Forge Tender Path',     raw: ['resonance_keeper','black_smith','echomind_anchor'] },
+  'Wireweave':        { attr: 'Wireweave Path',        raw: ['combat_weave','wire_broker','iron_afterlife_weave','loom_maker'] },
+  'Chrome Shaper':    { attr: 'Chrome Shaper Path',    raw: ['war_shaper','edge_builder','resonance_sculptor'] },
+  'Pulse Caller':     { attr: 'Pulse Caller Path',     raw: ['single_point','iron_suppressor','resonant_shot'] },
+  'Iron Monk':        { attr: 'Iron Monk Path',        raw: ['orthodoxy','resonants','flesh_circle','path_of_the_between'] },
+  'Echo Speaker':     { attr: 'Echo Speaker Path',     raw: ['sutensai_aligned','deep_listener','herald'] },
+  'Void Walker':      { attr: 'Void Walker Path',      raw: ['ghost_operative','threshold_puller','anchor_keeper'] },
+  'Sutensai':         { attr: 'Sutensai Path',         raw: ['inquisitor','archive_master','priors_voice'] },
+  'Flesh Shaper':     { attr: 'Flesh Shaper Path',     raw: ['the_mender','the_corruptor','the_self_shaper'] },
+  'Puppet Binder':    { attr: 'Puppet Binder Path',    raw: ['the_architect','the_possessor','the_network'] },
+  'Blood Smith':      { attr: 'Blood Smith Path',      raw: ['the_weaponsmith','the_armorer','the_sculptor'] },
+  'The Hollow':       { attr: 'Hollow Path',           raw: ['the_empty','the_shell'] },
+  'Shadow Daimyo':    { attr: 'Shadow Daimyo Path',    raw: ['spymaster','court_blade','broker'] },
+  'Voice of Debt':    { attr: 'Voice of Debt Path',    raw: ['oath_keeper','debt_collector','the_breaker'] },
+  'Merchant Knife':   { attr: 'Merchant Knife Path',   raw: ['supply_cutter','gilded_blade','kingmaker'] },
+  'Iron Herald':      { attr: 'Iron Herald Path',      raw: ['warbanner','neutral_tongue','the_signal'] },
+  'Curse Eater':      { attr: 'Curse Eater Path',      raw: ['purifier','conduit','the_consumed'] },
+  'Shell Dancer':     { attr: 'Shell Dancer Path',     raw: ['the_breaker','the_survivor','the_scavenger'] },
+  'Fracture Knight':  { attr: 'Fracture Knight Path',  raw: ['the_claimed','haunted_legion','the_anchor'] },
+  'The Unnamed':      { attr: 'Unnamed Path',          raw: ['convergent','divergent'] },
+};
+function humanize(slug) {
+  return slug.split('_').map(w => w[0].toUpperCase() + w.slice(1)).join(' ');
+}
+const COMBINED_SUBCLASS_OPTIONS = [];
+for (const [cls, { raw }] of Object.entries(SUBCLASS_BY_CLASS)) {
+  for (const r of raw) COMBINED_SUBCLASS_OPTIONS.push(`${cls} — ${humanize(r)}`);
+}
 
 const attributes = srcAttrs.map(r => {
   const newId = mapId(r.id);
   let optsArr = parseOptions(r.options);
   let type = r.type || 'text';
   let defaultValue = r.defaultValue || '';
+  let min = r.min || '', max = r.max || '';
+  let invW = r.inventoryWidth || '', invH = r.inventoryHeight || '';
   const ov = OVERRIDES[r.id];
   if (ov) {
-    type = ov.type ?? type;
+    if (ov.type !== undefined) type = ov.type;
     if (ov.optionsArr) optsArr = ov.optionsArr;
     if (ov.defaultValue !== undefined) defaultValue = ov.defaultValue;
+    if (ov.min !== undefined) min = ov.min;
+    if (ov.max !== undefined) max = ov.max;
+    if (ov.inventoryWidth !== undefined) invW = ov.inventoryWidth;
+    if (ov.inventoryHeight !== undefined) invH = ov.inventoryHeight;
+  }
+  // Humanize raw slug options for subclass Path attributes (e.g.
+  // "oath_iron_lord" → "Oath Iron Lord") so the dropdown is readable.
+  if (r.id.endsWith('_path') && optsArr.length > 0 && optsArr.every(o => /^[a-z0-9_]+$/.test(o))) {
+    optsArr = optsArr.map(o => o.split('_').map(w => w[0].toUpperCase() + w.slice(1)).join(' '));
+    if (defaultValue && /^[a-z0-9_]+$/.test(defaultValue)) {
+      defaultValue = defaultValue.split('_').map(w => w[0].toUpperCase() + w.slice(1)).join(' ');
+    }
   }
   return {
     slug: r.id, id: newId,
@@ -155,10 +218,28 @@ const attributes = srcAttrs.map(r => {
     options: optionsToTsv(optsArr), // pipe-separated for TSV output
     defaultValue,
     optionsChartRef: r.optionsChartRef || '', optionsChartColumnHeader: r.optionsChartColumnHeader || '',
-    min: r.min || '', max: r.max || '',
-    inventoryWidth: r.inventoryWidth || '', inventoryHeight: r.inventoryHeight || '',
+    min, max,
+    inventoryWidth: invW, inventoryHeight: invH,
     image: r.image || '', customProperties: r.customProperties || '',
   };
+});
+
+// Append the synthetic combined Subclass Selection attribute (76 options,
+// each prefixed by class name so the user can scan to their class).
+attributes.push({
+  slug: 'attr_subclass_selection',
+  id: mapId('attr_subclass_selection'),
+  title: 'Subclass Selection',
+  description: 'Pick the subclass path matching your selected Class. The character loader applies the mechanical effects.',
+  category: 'subclass',
+  type: 'list',
+  optionsArr: COMBINED_SUBCLASS_OPTIONS,
+  options: optionsToTsv(COMBINED_SUBCLASS_OPTIONS),
+  defaultValue: '',
+  optionsChartRef: '', optionsChartColumnHeader: '',
+  min: '', max: '',
+  inventoryWidth: '', inventoryHeight: '',
+  image: '', customProperties: '',
 });
 
 // Helper to find attribute UUID by TITLE (for sheet building)
@@ -174,20 +255,27 @@ function coerceDefault(type, raw) {
   return raw ?? '';
 }
 
-const characterAttributes = attributes.map(a => ({
-  title: a.title, description: a.description, category: a.category,
-  type: a.type, options: a.optionsArr,
-  defaultValue: coerceDefault(a.type, a.defaultValue),
-  image: null,
-  rulesetId: RULESET_ID,
-  value: coerceDefault(a.type, a.defaultValue),
-  attributeCustomPropertyValues: {},
-  id: uuid(),
-  characterId: CHAR_ID,
-  attributeId: a.id,
-  assetId: null,
-  createdAt: TS, updatedAt: TS,
-}));
+const characterAttributes = attributes.map(a => {
+  const base = {
+    title: a.title, description: a.description, category: a.category,
+    type: a.type, options: a.optionsArr,
+    defaultValue: coerceDefault(a.type, a.defaultValue),
+    image: null,
+    rulesetId: RULESET_ID,
+    value: coerceDefault(a.type, a.defaultValue),
+    attributeCustomPropertyValues: {},
+    id: uuid(),
+    characterId: CHAR_ID,
+    attributeId: a.id,
+    assetId: null,
+    createdAt: TS, updatedAt: TS,
+  };
+  if (a.type === 'number') {
+    if (a.min !== '' && a.min !== null && a.min !== undefined) base.min = Number(a.min);
+    if (a.max !== '' && a.max !== null && a.max !== undefined) base.max = Number(a.max);
+  }
+  return base;
+});
 
 // ═══════════════════════════════════════════════════════════════════════
 // ACTIONS
@@ -215,29 +303,46 @@ const items = srcItems.map(r => ({
 }));
 
 // ═══════════════════════════════════════════════════════════════════════
-// ARCHETYPES — convert from old format to new with UUIDs
-// Preserve original slug on each for script wiring.
+// ARCHETYPES — 5e pattern: archetype = character TEMPLATE.
+// One player archetype + one monster archetype (with variantOptions).
+// Race/Class/Subclass are attribute dropdowns on the sheet, not archetypes.
 // ═══════════════════════════════════════════════════════════════════════
-// Clean slug generator for archetypes whose original ID was a UUID (e.g. QB's built-in "Default")
-function cleanSlug(a) {
-  if (a.id && a.id.startsWith('arc_')) return a.id;
-  const fromName = (a.name || 'archetype').toLowerCase()
-    .replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
-  return `arc_${fromName}`;
-}
-
-const archetypes = oldArchetypes.map((a, i) => ({
-  slug: cleanSlug(a),
-  name: a.name || a.title || 'Archetype',
-  description: a.description || '',
-  testCharacterId: i === 0 ? CHAR_ID : null,
-  isDefault: i === 0,
-  loadOrder: a.loadOrder || i + 1,
-  mapHeight: 1, mapWidth: 1,
-  id: mapId(a.id),
-  rulesetId: RULESET_ID,
-  createdAt: TS, updatedAt: TS,
-}));
+const PLAYER_ARCHETYPE_ID = uuid();
+const MONSTER_ARCHETYPE_ID = uuid();
+// Monster's testCharacter is separate from the PC's test character (like 5e does).
+// Keeping null for now since we don't generate a distinct monster test character;
+// QB appears to still list the archetype as selectable.
+const archetypes = [
+  {
+    slug: 'arc_player_character',
+    id: PLAYER_ARCHETYPE_ID,
+    rulesetId: RULESET_ID,
+    name: 'Player Character',
+    description: 'A Tesshari player character. Choose Race, Class, and Subclass on the sheet — the loader applies all mechanical effects automatically.',
+    assetId: null,
+    image: null,
+    testCharacterId: CHAR_ID,
+    isDefault: false,
+    loadOrder: 1,
+    mapHeight: 1, mapWidth: 1,
+    createdAt: TS, updatedAt: TS,
+  },
+  {
+    slug: 'arc_monster',
+    id: MONSTER_ARCHETYPE_ID,
+    rulesetId: RULESET_ID,
+    name: 'Monster',
+    description: 'An NPC opponent. Pick a variant for the tier/role profile.',
+    assetId: null,
+    image: null,
+    testCharacterId: null,
+    isDefault: false,
+    loadOrder: 2,
+    mapHeight: 1, mapWidth: 1,
+    variantOptions: ['Minion / Skirmisher','Minion / Brute','Standard / Skirmisher','Standard / Brute','Standard / Controller','Standard / Support','Elite / Skirmisher','Elite / Brute','Elite / Controller','Elite / Support','Boss / Brute','Boss / Controller'],
+    createdAt: TS, updatedAt: TS,
+  },
+];
 
 // ═══════════════════════════════════════════════════════════════════════
 // SCRIPTS — extract existing on_add_X functions from qbscript_pack,
@@ -248,7 +353,7 @@ const SCRIPT_SRC = path.resolve(__dirname, 'questbound/qbscript_pack');
 // Parse a .qbs file and extract top-level named functions as { name: body }
 // Trailing comment/blank lines before the next function are excluded.
 function extractFunctions(qbsPath) {
-  const text = fs.readFileSync(qbsPath, 'utf8');
+  const text = fs.readFileSync(qbsPath, 'utf8').replace(/^\uFEFF/, '');
   const lines = text.split(/\r?\n/);
   const fns = {};
   let currentName = null;
@@ -283,92 +388,93 @@ const classFns2 = extractFunctions(path.join(SCRIPT_SRC, '05_class_scripts_14_to
 const allFns = { ...raceFns, ...classFns1, ...classFns2 };
 console.log(`Parsed functions: race=${Object.keys(raceFns).length}, class1=${Object.keys(classFns1).length}, class2=${Object.keys(classFns2).length}`);
 
-// Rename the entry point of a function body from "on_add_X():" to "on_add():"
-function toOnAdd(body) {
-  return body.replace(/^on_add_[a-zA-Z_]+\(/m, 'on_add(').replace(/^on_add_[a-zA-Z_]+\s*\(/m, 'on_add(');
+// Strip the function header line (on_add_X(): or on_add():) to get just the body
+function stripHeader(body) {
+  const lines = body.split('\n');
+  const idx = lines.findIndex(l => /^[a-zA-Z_][a-zA-Z0-9_]*\s*\(/.test(l));
+  return idx >= 0 ? lines.slice(idx + 1).join('\n') : body;
 }
 
-// Map archetype slug → source function name
-const ARCH_TO_FN = {
-  // Races
-  'arc_race_tethered_base':    'on_add_tethered',
-  'arc_race_echoed_base':      'on_add_echoed',
-  'arc_race_wireborn_base':    'on_add_wireborn',
-  'arc_race_stitched_base':    'on_add_stitched',
-  'arc_race_shellbroken_base': 'on_add_shellbroken',
-  'arc_race_iron_blessed_base':'on_add_iron_blessed',
-  'arc_race_diminished_base':  'on_add_diminished',
-  // Classes (level-1 add)
-  'arc_class_ronin_base':          'on_add_ronin',
-  'arc_class_ashfoot_base':        'on_add_ashfoot',
-  'arc_class_veilblade_base':      'on_add_veilblade',
-  'arc_class_oni_hunter_base':     'on_add_oni_hunter',
-  'arc_class_forge_tender_base':   'on_add_forge_tender',
-  'arc_class_wireweave_base':      'on_add_wireweave',
-  'arc_class_chrome_shaper_base':  'on_add_chrome_shaper',
-  'arc_class_pulse_caller_base':   'on_add_pulse_caller',
-  'arc_class_iron_monk_base':      'on_add_iron_monk',
-  'arc_class_echo_speaker_base':   'on_add_echo_speaker',
-  'arc_class_void_walker_base':    'on_add_void_walker',
-  'arc_class_sutensai_base':       'on_add_sutensai',
-  'arc_class_flesh_shaper_base':   'on_add_flesh_shaper',
-  'arc_class_puppet_binder_base':  'on_add_puppet_binder',
-  'arc_class_blood_smith_base':    'on_add_blood_smith',
-  'arc_class_hollow_base':         'on_add_hollow',
-  'arc_class_shadow_daimyo_base':  'on_add_shadow_daimyo',
-  'arc_class_voice_of_debt_base':  'on_add_voice_of_debt',
-  'arc_class_merchant_knife_base': 'on_add_merchant_knife',
-  'arc_class_iron_herald_base':    'on_add_iron_herald',
-  'arc_class_curse_eater_base':    'on_add_curse_eater',
-  'arc_class_shell_dancer_base':   'on_add_shell_dancer',
-  'arc_class_fracture_knight_base':'on_add_fracture_knight',
-  'arc_class_unnamed_base':        'on_add_unnamed',
+// Races: display name (matches list option) → source function name
+const RACE_DISPATCH = {
+  'Tethered':       'on_add_tethered',
+  'Echoed':         'on_add_echoed',
+  'Wireborn':       'on_add_wireborn',
+  'Stitched':       'on_add_stitched',
+  'Shellbroken':    'on_add_shellbroken',
+  'Iron Blessed':   'on_add_iron_blessed',
+  'Diminished':     'on_add_diminished',
+  // Forged has no source function — generated inline
 };
 
-// Fallback generators for archetypes without explicit source functions.
-function generateFallbackScript(arch) {
-  const lines = [];
-  lines.push(`// Auto-generated on_add for ${arch.slug}`);
-  lines.push(`on_add():`);
-  if (arch.slug.startsWith('arc_race_forged_heritage_')) {
-    const heritage = arch.slug.replace('arc_race_forged_heritage_','');
-    const heritageName = heritage.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-    lines.push(`  setAttr('Forged Heritage', '${heritageName}')`);
-    lines.push(`  Owner.setProperty('heritage_tag', '${heritage}')`);
-    lines.push(`  announce('Forged Heritage: ${heritageName} applied.')`);
-  } else if (arch.slug === 'arc_race_forged_base') {
-    lines.push(`  setAttr('Species', 'Forged')`);
-    lines.push(`  Owner.setProperty('race_tag', 'forged')`);
-    lines.push(`  announce('Forged race initialized.')`);
-  } else if (arch.slug === 'arc_class_ironclad_base') {
-    lines.push(`  Owner.Attribute('Class').set('Ironclad Samurai')`);
-    lines.push(`  setAttr('Class Fantasy', 'philosopher_warrior_bound_code')`);
-    lines.push(`  announce('Ironclad Samurai initialized.')`);
-  } else if (arch.slug.startsWith('arc_class_ironclad_path_')) {
-    const path = arch.slug.replace('arc_class_ironclad_path_','');
-    lines.push(`  setAttr('Vein Path', 'oath_${path}')`);
-    lines.push(`  announce('Vein Path: ${arch.name} applied.')`);
-  } else if (arch.slug.startsWith('arc_monster_')) {
-    const role = arch.slug.replace('arc_monster_','');
-    lines.push(`  Owner.setProperty('monster_kind', '${role}')`);
-    lines.push(`  announce('Monster template: ${arch.name} applied.')`);
-  } else {
-    lines.push(`  announce('${arch.name} applied.')`);
-  }
-  lines.push(`  return`);
-  return lines.join('\n') + '\n';
-}
+// Classes: display name → source function
+const CLASS_DISPATCH = {
+  'Ronin':             'on_add_ronin',
+  'Ashfoot':           'on_add_ashfoot',
+  'Veilblade':         'on_add_veilblade',
+  'Oni Hunter':        'on_add_oni_hunter',
+  'Forge Tender':      'on_add_forge_tender',
+  'Wireweave':         'on_add_wireweave',
+  'Chrome Shaper':     'on_add_chrome_shaper',
+  'Pulse Caller':      'on_add_pulse_caller',
+  'Iron Monk':         'on_add_iron_monk',
+  'Echo Speaker':      'on_add_echo_speaker',
+  'Void Walker':       'on_add_void_walker',
+  'Sutensai':          'on_add_sutensai',
+  'Flesh Shaper':      'on_add_flesh_shaper',
+  'Puppet Binder':     'on_add_puppet_binder',
+  'Blood Smith':       'on_add_blood_smith',
+  'The Hollow':        'on_add_hollow',
+  'Shadow Daimyo':     'on_add_shadow_daimyo',
+  'Voice of Debt':     'on_add_voice_of_debt',
+  'Merchant Knife':    'on_add_merchant_knife',
+  'Iron Herald':       'on_add_iron_herald',
+  'Curse Eater':       'on_add_curse_eater',
+  'Shell Dancer':      'on_add_shell_dancer',
+  'Fracture Knight':   'on_add_fracture_knight',
+  'The Unnamed':       'on_add_unnamed',
+  // Ironclad Samurai has no source function — generated inline
+};
 
-// Build script records + write .qbs files (clear old archetype scripts first)
+// Build script records + write .qbs files
 const scriptsDir = path.join(BASE, 'scripts');
-fs.rmSync(path.join(scriptsDir, 'archetypes'), { recursive: true, force: true });
 fs.mkdirSync(path.join(scriptsDir, 'global'), { recursive: true });
-fs.mkdirSync(path.join(scriptsDir, 'archetypes'), { recursive: true });
 
 const scriptMeta = [];
 
-// Global helper script
-const globalSrc = fs.readFileSync(path.join(SCRIPT_SRC, '00_global_tesshari_card_core.qbs'), 'utf8');
+// Global helper script — minimal version containing ONLY the helpers the
+// character loader needs. The full card-economy section (runCard, validateCardPlay,
+// markCardPlayed, etc.) was triggering a parse/runtime issue where QB reported
+// "Undefined variable 'actionKey'" from the loader. Those helpers can be added
+// back once they're attached to action scripts that actually need them.
+// 4-space indent required by QBScript (2-space will fail: "expected multiple of 4 spaces")
+const globalSrc = [
+  '// Tesshari global helpers — minimal set required by the character loader.',
+  '',
+  'getAttrText(name, fallback):',
+  '    a = Owner.Attribute(name)',
+  '    if !a:',
+  '        return fallback',
+  '    v = a.value',
+  '    if v == null:',
+  '        return fallback',
+  '    return text(v)',
+  '',
+  'getAttrNumber(name, fallback):',
+  '    a = Owner.Attribute(name)',
+  '    if !a:',
+  '        return fallback',
+  '    v = a.value',
+  '    if v == null:',
+  '        return fallback',
+  '    return number(v)',
+  '',
+  'setAttr(name, value):',
+  '    a = Owner.Attribute(name)',
+  '    if a:',
+  '        a.set(value)',
+  '',
+].join('\n');
 fs.writeFileSync(path.join(scriptsDir, 'global', 'tesshari_card_core.qbs'), globalSrc, 'utf8');
 scriptMeta.push({
   id: uuid(),
@@ -382,26 +488,161 @@ scriptMeta.push({
   category: 'Global',
 });
 
-// Per-archetype scripts — write .qbs files to disk (for reference / manual attachment
-// inside QB), but DO NOT register them in metadata.scripts with entityType "archetype",
-// because QB's import doesn't recognize that type (triggers Table.get() errors).
-// Only "action", "gameManager", "global", "characterLoader" are confirmed supported.
-let wiredCount = 0, generatedCount = 0;
-for (const arch of archetypes) {
-  const fnName = ARCH_TO_FN[arch.slug];
-  let body;
-  if (fnName && allFns[fnName]) {
-    body = toOnAdd(allFns[fnName]);
-    wiredCount++;
-  } else {
-    body = generateFallbackScript(arch);
-    generatedCount++;
-  }
-  const relFile = `scripts/archetypes/${arch.slug}.qbs`;
-  fs.writeFileSync(path.join(BASE, relFile), body, 'utf8');
+// ═══════════════════════════════════════════════════════════════════════
+// CHARACTER LOADER — dispatches on ATTRIBUTE VALUES (Species, Class, Vein Path, etc.)
+// Runs whenever the character sheet loads. Setting a dropdown value then
+// re-opening the sheet applies the corresponding init.
+// ═══════════════════════════════════════════════════════════════════════
+const loaderDir = path.join(scriptsDir, 'character_loaders');
+fs.rmSync(loaderDir, { recursive: true, force: true });
+fs.mkdirSync(loaderDir, { recursive: true });
+
+// Helper: convert a display name → a safe identifier for function names
+const ident = s => s.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
+
+// Normalize leading indentation to multiples of 4 spaces (QBScript requirement).
+// Source scripts use 2-space indents; this doubles each level.
+function normalizeIndent(body) {
+  return body.split('\n').map(line => {
+    if (line.length === 0) return line;
+    const m = line.match(/^( +)/);
+    if (!m) return line;
+    const spaces = m[1].length;
+    // Count effective levels assuming 2-space source, convert to 4-space.
+    const levels = Math.floor(spaces / 2);
+    return '    '.repeat(levels) + line.slice(spaces);
+  }).join('\n');
 }
-console.log(`Archetype scripts written to disk: ${wiredCount} from existing files, ${generatedCount} auto-generated (${archetypes.length} total). Attach them manually in QB's archetype editor.`);
-console.log(`Script metadata entries: ${scriptMeta.length} (global only).`);
+
+function makeInitFn(fnNameSuffix, body) {
+  // Indent each non-empty body line with exactly 4 spaces at its base level.
+  const normalized = normalizeIndent(body);
+  const inner = normalized.split('\n').map(l => {
+    if (l.length === 0) return l;
+    if (/^ /.test(l)) return l; // already indented
+    return '    ' + l;
+  }).join('\n');
+  return `init_${fnNameSuffix}():\n${inner}`;
+}
+
+// 4-space-indented fallbacks
+function fallbackRace(name) {
+  const esc = name.replace(/'/g, "\\'");
+  return `    setAttr('Species', '${esc}')\n    Owner.setProperty('race_tag', '${ident(name)}')\n    announce('${esc} race initialized.')\n    return`;
+}
+function fallbackClass(name) {
+  const esc = name.replace(/'/g, "\\'");
+  return `    Owner.Attribute('Class').set('${esc}')\n    Owner.setProperty('class_tag', '${ident(name)}')\n    announce('${esc} class initialized.')\n    return`;
+}
+function fallbackSubclass(attrTitle, option) {
+  return `    setAttr('${attrTitle}', '${option}')\n    announce('${attrTitle}: ${option} applied.')\n    return`;
+}
+
+const loaderLines = [];
+loaderLines.push('// Tesshari character loader — runs on character load/sheet-open.');
+loaderLines.push('// Dispatches race/class/subclass logic by reading attribute values.');
+loaderLines.push('// Requires: tesshari_card_core global helpers (setAttr, announce, etc.)');
+loaderLines.push('');
+
+// Race init functions
+loaderLines.push('// ══ RACE INITS ══');
+for (const [name, fnName] of Object.entries(RACE_DISPATCH)) {
+  const id = ident(name);
+  const src = allFns[fnName];
+  const body = src ? stripHeader(src) : fallbackRace(name);
+  loaderLines.push(makeInitFn(`race_${id}`, body));
+  loaderLines.push('');
+}
+// Forged (no source function)
+loaderLines.push(makeInitFn('race_forged',
+  `  setAttr('Species', 'Forged')\n  Owner.setProperty('race_tag', 'forged')\n  announce('Forged race initialized.')\n  return`));
+loaderLines.push('');
+
+// Class init functions
+loaderLines.push('// ══ CLASS INITS ══');
+for (const [name, fnName] of Object.entries(CLASS_DISPATCH)) {
+  const id = ident(name);
+  const src = allFns[fnName];
+  const body = src ? stripHeader(src) : fallbackClass(name);
+  loaderLines.push(makeInitFn(`class_${id}`, body));
+  loaderLines.push('');
+}
+// Ironclad Samurai (no source function)
+loaderLines.push(makeInitFn('class_ironclad_samurai',
+  `  Owner.Attribute('Class').set('Ironclad Samurai')\n  setAttr('Class Fantasy', 'philosopher_warrior_bound_code')\n  announce('Ironclad Samurai initialized.')\n  return`));
+loaderLines.push('');
+
+// Subclass init functions — one per combined "Class — Path" option. The
+// loader writes the matching per-class Path attribute and announces.
+loaderLines.push('// ══ SUBCLASS INITS ══');
+const combinedSubclassSuffixByOption = {}; // { combinedOption: fnNameSuffix }
+for (const [cls, { attr: pathAttr, raw }] of Object.entries(SUBCLASS_BY_CLASS)) {
+  for (const r of raw) {
+    const pretty = humanize(r);
+    const combinedOption = `${cls} — ${pretty}`;
+    const suffix = `sub_${ident(cls)}_${ident(r)}`;
+    combinedSubclassSuffixByOption[combinedOption] = suffix;
+    const body = [
+      `    setAttr('${pathAttr}', '${pretty.replace(/'/g, "\\'")}')`,
+      `    Owner.setProperty('subclass_tag', '${ident(cls)}_${ident(r)}')`,
+      `    announce('${cls} — ${pretty} path applied.')`,
+      `    return`,
+    ].join('\n');
+    loaderLines.push(`init_${suffix}():\n${body}`);
+    loaderLines.push('');
+  }
+}
+
+// Dispatch block — all if-bodies use 4-space indent (QBScript requirement)
+loaderLines.push('// ══════════════════ DISPATCH ══════════════════');
+loaderLines.push('species = text(Owner.Attribute(\'Species\').value)');
+loaderLines.push('');
+loaderLines.push(`if species == 'Forged':`);
+loaderLines.push('    init_race_forged()');
+for (const name of Object.keys(RACE_DISPATCH)) {
+  loaderLines.push(`if species == '${name.replace(/'/g, "\\'")}':`);
+  loaderLines.push(`    init_race_${ident(name)}()`);
+}
+loaderLines.push('');
+
+loaderLines.push('className = text(Owner.Attribute(\'Class\').value)');
+loaderLines.push('');
+loaderLines.push(`if className == 'Ironclad Samurai':`);
+loaderLines.push('    init_class_ironclad_samurai()');
+for (const name of Object.keys(CLASS_DISPATCH)) {
+  loaderLines.push(`if className == '${name.replace(/'/g, "\\'")}':`);
+  loaderLines.push(`    init_class_${ident(name)}()`);
+}
+loaderLines.push('');
+
+// Combined subclass dispatch — reads the single 'Subclass Selection'
+// attribute value ("Class — Path") and fires the matching init.
+loaderLines.push("// Combined subclass dispatch — 'Class — Path' value");
+loaderLines.push("subclassSelection = text(Owner.Attribute('Subclass Selection').value)");
+for (const [opt, suffix] of Object.entries(combinedSubclassSuffixByOption)) {
+  loaderLines.push(`if subclassSelection == '${opt.replace(/'/g, "\\'")}':`);
+  loaderLines.push(`    init_${suffix}()`);
+}
+loaderLines.push('');
+
+const loaderPath = path.join(loaderDir, 'tesshari_loader.qbs');
+fs.writeFileSync(loaderPath, loaderLines.join('\n'), 'utf8');
+
+scriptMeta.push({
+  id: uuid(),
+  name: 'tesshari_loader',
+  file: 'scripts/character_loaders/tesshari_loader.qbs',
+  entityType: 'characterLoader',
+  entityId: null,
+  entityName: 'Tesshari Character Loader',
+  isGlobal: false,
+  enabled: true,
+  category: 'Character',
+});
+
+const subclassCount = Object.keys(combinedSubclassSuffixByOption).length;
+console.log(`Character loader: ${Object.keys(RACE_DISPATCH).length + 1} races, ${Object.keys(CLASS_DISPATCH).length + 1} classes, ${subclassCount} subclass options`);
+console.log(`Script metadata entries: ${scriptMeta.length} (global + characterLoader)`);
 
 // ═══════════════════════════════════════════════════════════════════════
 // WINDOWS
@@ -500,8 +741,8 @@ function addChk(winId, x, y, w, h, attrId, label) {
 }
 
 function addHeader(winId, x, y, w, label) {
-  components.push(shape(winId, x, y, w, 32, '#2a2a55', 4));
-  components.push(txt(winId, x, y, w, 32, label, sText(15, '#e0ca60', 'center', 'bold')));
+  components.push(shape(winId, x, y, w, 34, '#3b3b7a', 6));
+  components.push(txt(winId, x, y, w, 34, label, sText(16, '#ffe08a', 'center', 'bold')));
 }
 
 // Attribute binding helper — returns UUID for an attr title, or null
@@ -660,61 +901,38 @@ function a(title) {
 }
 
 // ───────────────────────────────────────────────────────────────────────
-// WINDOW: SUBCLASS PATHS — 25 per-class path dropdowns
-// Fill only the one matching your class; rest stay at default.
+// WINDOW: SUBCLASS PATH — single combined dropdown. QB doesn't support
+// dynamic option filtering by another attribute, and conditional rendering
+// doesn't natively hide text/comp-input. The cleanest design is one
+// dropdown whose options are prefixed by class name so the user scans to
+// their class. A prominent "Class:" echo above makes the filter obvious.
 // ───────────────────────────────────────────────────────────────────────
 {
   const W = WIN.subclass.id;
-  const SUBCLASSES = [
-    ['Ironclad Samurai', 'Vein Path'],
-    ['Ronin',            'Ronin Path'],
-    ['Iron Monk',        'Iron Monk Path'],
-    ['Fracture Knight',  'Fracture Knight Path'],
-    ['Ashfoot',          'Ashfoot Path'],
-    ['Veilblade',        'Veilblade Path'],
-    ['Oni Hunter',       'Oni Hunter Path'],
-    ['Shell Dancer',     'Shell Dancer Path'],
-    ['Curse Eater',      'Curse Eater Path'],
-    ['The Hollow',       'Hollow Path'],
-    ['Forge Tender',     'Forge Tender Path'],
-    ['Wireweave',        'Wireweave Path'],
-    ['Chrome Shaper',    'Chrome Shaper Path'],
-    ['Pulse Caller',     'Pulse Caller Path'],
-    ['Sutensai',         'Sutensai Path'],
-    ['Flesh Shaper',     'Flesh Shaper Path'],
-    ['Echo Speaker',     'Echo Speaker Path'],
-    ['Void Walker',      'Void Walker Path'],
-    ['Blood Smith',      'Blood Smith Path'],
-    ['Iron Herald',      'Iron Herald Path'],
-    ['Shadow Daimyo',    'Shadow Daimyo Path'],
-    ['Voice of Debt',    'Voice of Debt Path'],
-    ['Merchant Knife',   'Merchant Knife Path'],
-    ['Puppet Binder',    'Puppet Binder Path'],
-    ['The Unnamed',      'Unnamed Path'],
-  ];
-  // Two-column layout to fit all 25 rows without a huge scrolling window.
-  const rowH = 30;
-  const gap = 4;
-  const colW = 300;
-  const leftX = 10;
-  const rightX = 320;
-  const winW = 620;
-  const winH = 52 + Math.ceil(SUBCLASSES.length / 2) * (rowH + gap) + 10;
+  const winW = 440, winH = 180;
+  const classAttrId = attrByTitle['Class'];
+  const subAttrId = attrByTitle['Subclass Selection'];
 
   components.push(shape(W, 0, 0, winW, winH, '#0d0d22'));
-  addHeader(W, 0, 0, winW, 'SUBCLASS PATHS · fill only the one matching your class');
+  addHeader(W, 0, 0, winW, 'SUBCLASS PATH');
 
-  SUBCLASSES.forEach(([cls, attrTitle], i) => {
-    const col = i % 2;
-    const rowIdx = Math.floor(i / 2);
-    const x = col === 0 ? leftX : rightX;
-    const y = 48 + rowIdx * (rowH + gap);
-    components.push(txt(W, x, y, 130, rowH, cls, sText(12, '#a0a0c0', 'start')));
-    const aid = attrByTitle[attrTitle];
-    if (aid) {
-      components.push(input(W, x + 130, y, colW - 130, rowH, aid, 'text', ''));
-    }
-  });
+  // Current-Class echo — text bound via viewAttributeId (the working 5e
+  // pattern) shows the live Class value. The visible label sits to the
+  // left of it.
+  components.push(shape(W, 10, 46, winW - 20, 42, '#16163a', 6));
+  components.push(txt(W, 20, 46, 100, 42, 'CLASS', sText(13, '#a0a0c0', 'start')));
+  components.push(comp(W, 'text', 120, 46, winW - 140, 42,
+    { value: '{{Class}}', viewAttributeId: classAttrId },
+    sText(18, '#ffe08a', 'start', 'bold')));
+
+  // Instructional hint
+  components.push(txt(W, 10, 98, winW - 20, 22,
+    'Pick the option prefixed with your Class name below.',
+    sText(12, '#b0b0d0', 'start')));
+
+  // Single dropdown: all 76 options, class-prefixed
+  components.push(txt(W, 10, 126, 90, 36, 'Subclass', sText(13, '#a0a0c0', 'start')));
+  components.push(input(W, 100, 126, winW - 110, 36, subAttrId, 'text', 'Choose subclass path'));
 }
 
 // ───────────────────────────────────────────────────────────────────────
@@ -760,16 +978,12 @@ const pages = Object.entries(PAGES).map(([k, p]) => ({
 // RULESET WINDOWS — place windows on pages
 // ═══════════════════════════════════════════════════════════════════════
 const rulesetWindows = [
-  // MAIN page: basics + stats + combat + identity + subclass
+  // MAIN page: basics + stats + subclass + identity + background
   { winKey: 'basics',     pageKey: 'main', x: 20,  y: 20 },
   { winKey: 'stats',      pageKey: 'main', x: 20,  y: 260 },
-  { winKey: 'combat',     pageKey: 'main', x: 360, y: 260 },
-  { winKey: 'identity',   pageKey: 'main', x: 700, y: 260 },
-  { winKey: 'subclass',   pageKey: 'main', x: 20,  y: 600 },
-  // CREATION page: stats + background + subclass
-  { winKey: 'stats',      pageKey: 'creation', x: 20,  y: 20 },
-  { winKey: 'background', pageKey: 'creation', x: 360, y: 20 },
-  { winKey: 'subclass',   pageKey: 'creation', x: 20,  y: 340 },
+  { winKey: 'subclass',   pageKey: 'main', x: 360, y: 260 },
+  { winKey: 'identity',   pageKey: 'main', x: 820, y: 260 },
+  { winKey: 'background', pageKey: 'main', x: 20,  y: 560 },
   // COMBAT page: combat + class resources
   { winKey: 'combat',     pageKey: 'combat', x: 20,  y: 20 },
   { winKey: 'resources',  pageKey: 'combat', x: 360, y: 20 },

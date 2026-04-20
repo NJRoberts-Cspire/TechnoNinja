@@ -25,29 +25,29 @@
     "version": "2.0.0"
   },
   "counts": {
-    "attributes": 291,
+    "attributes": 292,
     "actions": 395,
     "items": 606,
     "charts": 0,
     "windows": 7,
-    "components": 171,
+    "components": 127,
     "composites": 0,
     "compositeVariants": 0,
     "assets": 0,
     "fonts": 0,
     "documents": 0,
-    "archetypes": 42,
+    "archetypes": 2,
     "customProperties": 0,
     "archetypeCustomProperties": 0,
     "itemCustomProperties": 0,
-    "characterAttributes": 291,
+    "characterAttributes": 292,
     "inventories": 1,
-    "characterWindows": 10,
-    "characterPages": 3,
-    "rulesetWindows": 10,
-    "pages": 3,
+    "characterWindows": 7,
+    "characterPages": 2,
+    "rulesetWindows": 7,
+    "pages": 2,
     "inventoryItems": 0,
-    "scripts": 1,
+    "scripts": 2,
     "campaigns": 0,
     "campaignScenes": 0,
     "campaignCharacters": 0,
@@ -56,7 +56,7 @@
   },
   "scripts": [
     {
-      "id": "4b91c20a-5f36-470b-8af5-402e3c438b20",
+      "id": "5128b1b2-24e4-4bbb-8911-3f52dfaa3816",
       "name": "tesshari_card_core",
       "file": "scripts/global/tesshari_card_core.qbs",
       "entityType": "global",
@@ -65,6 +65,17 @@
       "isGlobal": true,
       "enabled": true,
       "category": "Global"
+    },
+    {
+      "id": "9e920d9a-813d-4215-9dd4-ed470553cdb3",
+      "name": "tesshari_loader",
+      "file": "scripts/character_loaders/tesshari_loader.qbs",
+      "entityType": "characterLoader",
+      "entityId": null,
+      "entityName": "Tesshari Character Loader",
+      "isGlobal": false,
+      "enabled": true,
+      "category": "Character"
     }
   ]
 }

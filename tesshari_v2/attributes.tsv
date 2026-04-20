@@ -1,292 +1,293 @@
 id	title	description	category	type	options	defaultValue	optionsChartRef	optionsChartColumnHeader	min	max	inventoryWidth	inventoryHeight	image	customProperties	assetFilename
-62054644-0c8e-4a83-bee7-6d185272a321	Current HP	Character's current hit points. Set to max at creation.	resource	number		20									
-093b13ad-17e7-487a-81cc-5bc8158ba612	Max HP	Character's maximum hit points.	resource	number		20									
-4401fdeb-42d8-426b-b4d2-e0a91ce38a6e	Level	Character level (1–20). Used by level-scaling scripts.	identity	number		1									
-b483184f-d33f-40be-9ffd-36e72f9f9c26	Exhaustion	Exhaustion stacks; affects Forged maintenance and general fatigue mechanics.	resource	number		0									
-b428edcb-ff9b-474d-b24e-bde6fefd145b	Iron Tolerance Reduction	Blood Smith: reduces HP cost of enhancement cards by this amount (minimum 1 net cost).	class_core	number		2									
-bdbc0dc3-17cb-4f08-92f0-546a4f0b2e3e	AP Max	Maximum AP refreshed at start of turn.	combat_core	number		3									
-863abc79-ff5e-42e5-a040-93864ca188fe	AP Current	Spendable AP during active turn.	combat_core	number		3									
-bf937b64-a8bb-489f-bdac-2ec22ae0f016	Turn Number	Global or encounter turn counter.	combat_core	number		0									
-761f297f-fe8c-40ef-93f1-4e698da30771	Active Turn	True while this unit is the active combatant.	combat_core	boolean		false									
-ccdbbf83-17a7-4228-8454-bb8598e70e6f	Basic Attack Used This Turn	Enforces one free basic attack per turn.	combat_core	boolean		false									
-6136b80a-735e-49df-aa27-8e53895e0d20	Cards Played This Turn	Serialized list of card action IDs played this turn.	combat_core	string											
-218f601a-e59c-4d08-9948-a13b7909d1f0	Card Play Locked	Prevents play when outside valid turn state.	combat_core	boolean		false									
-129836ff-aee4-440c-9f22-3a53a96f78f4	Species	Character species label.	identity	list	Forged|Tethered|Echoed|Wireborn|Stitched|Shellbroken|Iron Blessed|Diminished	Forged									
-fd13a54a-8159-4439-81e5-8eb8a7918373	Forged Heritage	Heritage branch: Ironhold, Wire Market, Ashlands, Unaligned.	identity	list	Ironhold|Wire Market|Ashlands|Unaligned	Unaligned									
-a506883e-9007-4459-b76c-68ff2cb228a7	Integrated Resistance	Damage resistance selected at character creation.	defense	list	bludgeoning|slashing|piercing	bludgeoning									
-916b0df1-6946-46e2-aacb-edb03d6d5e43	Augmentation Slot 1	Primary augmentation selected at level 1.	augmentation	list	reinforced_limb|optical_suite|vox_modulator|subdermal_plating|neural_accelerator|intake_filter|hydraulic_frame	reinforced_limb									
-dbb48ec8-6335-47de-b31f-1ed2e37a55da	Augmentation Slot 2	Secondary augmentation selected at level 5.	augmentation	list	none|reinforced_limb|optical_suite|vox_modulator|subdermal_plating|neural_accelerator|intake_filter|hydraulic_frame	none									
-20a53a62-d2ed-41cc-8447-e23ef3bc3936	Maintenance State	Tracks maintenance dependency: serviced or degraded.	system	list	serviced|degraded	serviced									
-c2f90d11-5479-43f5-bc1d-d3d8e1ce874c	Chassis Intact	Enables Forged Resilience death-save bonus logic.	system	boolean		true									
-ff322c82-af66-4f4b-afb0-7ad93061c903	Forged Resilience Used	Once-per-long-rest tracker.	combat	boolean		false									
-dc82f2da-ed25-42d5-aeea-07e44d83fa22	Carry Capacity Multiplier	Set to 2 when Hydraulic Frame is active.	derived	number		1									
-1063589a-b2dc-4431-8d94-30318dd5a854	Unarmed Damage Die	Raised to 1d6 when Reinforced Limb is active.	combat	string		1d4									
-7ed6575b-7f44-4aea-8ea9-e074c13cd2c3	Darkvision Range	60 or 90 extension when Optical Suite is active.	senses	number		0									
-4e2c54c0-65a8-4cf3-b66b-ea514ebc9f2d	Natural AC Base	Set to 13 when Subdermal Plating is active.	defense	number		0									
-8358d59d-f4b1-47cc-b29a-5a5e34cdfcb0	Ready Bonus Uses	Set to 1 per short rest when Neural Accelerator is active.	combat	number		0									
-458890c5-adb7-40e0-a69b-2bf6d71188aa	Poison Save Advantage	Enabled by Intake Filter.	defense	boolean		false									
-164fa272-19e9-41ee-bbbd-56784ffbe311	Poison Resistance	Enabled by Intake Filter.	defense	boolean		false									
-279ac463-a110-44aa-bf80-e22dcf3e9f47	Chassis Memory Window Hours	Memory recall window from Chassis Memory.	utility	number		24									
-83d8dd19-e435-4648-a56d-7d3e0f7b4566	Class	Character class label.	identity	list	Ironclad Samurai|Ronin|Iron Monk|Fracture Knight|Ashfoot|Veilblade|Oni Hunter|Shell Dancer|Curse Eater|The Hollow|Forge Tender|Wireweave|Chrome Shaper|Pulse Caller|Sutensai|Flesh Shaper|Echo Speaker|Void Walker|Blood Smith|Iron Herald|Shadow Daimyo|Voice of Debt|Merchant Knife|Puppet Binder|The Unnamed	Ironclad Samurai									
-e0925aba-7063-48f7-a2d7-5a9cdb94b5cd	Vein Oath	Loyalty, Restraint, Sacrifice, or Clarity.	class_core	list	loyalty|restraint|sacrifice|clarity	loyalty									
-afcc82d0-65d4-4f99-b45a-61e845a21cc3	Resonance Fracture	Set true when character violates Vein Oath.	class_core	boolean		false									
-f421e680-4753-4e92-b4ba-296946123598	Vein Discipline L1	Between Stance or Iron Breath.	class_core	list	between_stance|iron_breath	between_stance									
-3a842d77-dd15-40a8-a8da-2bd975a84dcf	Vein Discipline L2	Stillness Kata, Burden Strike, or Iron Witness.	class_core	list	stillness_kata|burden_strike|iron_witness	stillness_kata									
-94db1fff-9d80-4dc6-9576-b629ea338259	Vein Path	Selected subclass path.	subclass	list	oath_iron_lord|oath_sutensai_blade|oath_undying_debt|oath_flesh_temple	oath_iron_lord									
-c7398ce9-48ea-4055-8d1d-773ae66152ae	Resonant Surge Uses	Uses per short rest, 2 at level 20.	resource	number		1									
-20d43723-759e-43fa-932f-a21fff1b1279	Perfect Kata Used	Once-per-long-rest tracker.	resource	boolean		false									
-eeaafb9a-e54e-4d47-86ed-175b9329ae43	Iron Endurance Used	Once-per-long-rest tracker for drop-to-1 effect.	resource	boolean		false									
-9dfd762c-0074-4f51-a8d6-6bc2398795d9	Iron Endurance Resistance Type	Slashing, piercing, or bludgeoning selection.	defense	list	slashing|piercing|bludgeoning	slashing									
-0f4ac596-78fe-4566-8f5f-1ab2ca04204e	Resonant Armor Reaction Uses	Equals proficiency bonus per long rest when unlocked.	resource	number		0									
-ec1b3275-ac4a-418e-86ff-6203044e31fb	Surge Bonus Damage Dice	3d6 at level 16 with Between Mastery.	combat	string		2d6									
-f522fdcb-3b2d-427f-9c49-03c4367e5626	Blade-Sworn Bound Weapon	Tracks permanent weapon bond at level 17.	capstone_track	boolean		false									
-3b3c8df8-8692-469e-9ef1-e9286520b71d	Seventh Vein Defined	Tracks level 20 narrative definition completion.	capstone_track	boolean		false									
-43942867-792f-4ab9-8f84-2f6cb04b7eb8	Monster Role	Archetypal role: skirmisher, brute, controller, support, boss.	combat_ai	list	skirmisher|brute|controller|support|boss	skirmisher									
-9a6da14e-f067-4270-8b3a-206670dec784	Monster Tier	minion, standard, elite, boss.	combat_ai	list	minion|standard|elite|boss	standard									
-abc7aa0a-a2b2-4d17-8a34-462a81057017	Monster AP Max	AP refreshed at monster turn start.	combat_core	number		2									
-6237f894-bc50-4721-b1b4-c7e012d1677b	Monster AP Current	AP available for card play on current turn.	combat_core	number		2									
-b8cbe320-9ebc-49a3-b929-48bfe9c679f4	Monster Basic Attack Used This Turn	Enforces one free basic attack card per monster turn.	combat_core	boolean		false									
-39d4cf5d-5644-4df0-b6c3-574b3a6f0310	Monster Cards Played This Turn	Serialized list of monster card IDs played this turn.	combat_core	string											
-812d5c20-54c9-4a6c-82e7-d38ffba0dcbc	Threat State	neutral, pressured, advantaged, desperate.	combat_ai	list	neutral|pressured|advantaged|desperate	neutral									
-10cce25c-6b6d-42e8-a9ec-056766f7d1d9	Monster Target Lock	Current preferred target identifier for AI turn logic.	combat_ai	string											
-48930d08-9314-4310-9166-6a958e5c89b6	Reaction Card Used	Optional once-per-round reaction limiter.	combat_core	boolean		false									
-553fa452-3d23-4c11-bd93-82da694522c9	Active Status List	Serialized list of active status IDs on this unit.	status	string											
-9fada9ea-48dd-4f97-bb94-899dccf15d21	Status Stacks Map	Serialized key/value map of status stack counts.	status	string											
-14be58a9-0cb9-4260-b665-8f866980a4a8	Status Duration Map	Serialized key/value map of remaining turn durations.	status	string											
-08ab3693-b7a7-4c0f-aef4-088093ef960f	Guard Value	Flat damage prevention from Guard-family effects.	status_derived	number		0									
-1b3e6d88-56af-4724-8c2d-1a43df83e68b	Exposed Value	Flat damage amplification from Expose-family effects.	status_derived	number		0									
-ecb1d107-a87c-4e10-8c9f-f9152953a343	Staggered	Restricts AP or card options while active.	status_derived	boolean		false									
-e3ce173a-914d-4656-a79d-61783f08f98a	Overheat Stacks	Heat pressure tracker for machine-intensive actions.	status_derived	number		0									
-4ec74f56-a6f3-4ccd-81b6-4aada4d16e3b	Marked Target	Unit is marked for focused interactions.	status_derived	boolean		false									
-c061ba58-0413-44fe-a7a2-ae01c6923138	Shield Temp HP	Temporary shield pool from shield keywords.	status_derived	number		0									
-fb133e96-66ba-41ae-b5dd-d42e802996a0	Tethered Resonance Bonus	Permanent +1 RESONANCE bonus from Tethered heritage.	stat_modifier	number		1									
-82417a58-3a59-4645-b8c5-53b1f43916ac	Tethered Veil Bonus	Permanent +1 VEIL bonus from Tethered heritage.	stat_modifier	number		1									
-ed917b81-8975-4f43-9ef5-c246301c1725	Tethered Hand Size Modifier	+1 to starting hand size.	stat_modifier	number		1									
-8d97ea03-a623-42b4-a9a3-7883fdb37dd3	Echomind Undivided	Immunity to augmentation-targeting status effects such as Overheat and chassis Signal attacks.	passive	boolean		true									
-b4eb6a80-ebad-4447-b626-8b2b9aedbe8c	Biological Acuity	+2 RESONANCE to read people/places/events; cannot be surprised by creatures within perception range.	passive	boolean		true									
-0cdaf875-4254-4d1e-bb28-474bb3e8760d	Old Flesh Memory	Start each combat with Regen 1, undispellable by augmentation-stripping effects.	passive	boolean		true									
-55baa7d1-3adc-4e03-bd07-f53b619aeaf9	Unclocked	Fails automatic tech location/tracking unless operator specifically knows the Tethered.	passive	boolean		true									
-2895acea-134c-4a51-afaa-7936687bd8bb	Augmentation Count	Always zero; Tethered cannot integrate augmentations.	derived	number		0									
-f62001ee-817f-47a1-8054-7bf0af0dfe6d	Echoed Resonance Bonus	Permanent +1 RESONANCE bonus from Echoed heritage.	stat_modifier	number		1									
-e556229b-132a-4ee2-a117-6324a0974de1	Echoed Edge Bonus	Permanent +1 EDGE bonus from Echoed heritage.	stat_modifier	number		1									
-48fe45b2-7a4f-4ede-815e-f79d8e34eade	Echoed Hand Size Modifier	+1 to starting hand size.	stat_modifier	number		1									
-5dddc08b-f214-46fa-92e2-87f8b0af49bb	Already Died	First time per combat reduced to 0 HP, drop to 1 HP instead.	passive	boolean		true									
-4e20aee5-ab7f-467d-97d7-1a3f119b1cbc	Iron Afterlife Awareness	Sense recently dead Echominds within 30 feet: presence, count, timing from last 24 hours.	passive	boolean		true									
-8bfb9882-8a23-422c-b2dc-ce949cbb1469	No Fear of the Crossing	Frightened and morale-break effects have no mechanical effect; narrative fear persists.	passive	boolean		true									
-f5a1dd51-7c56-43f1-aed7-41827fed6a10	Gap Resonance Imprint	Narrative tracker of what the Echoed carries from the Iron Afterlife.	lore_state	string		unknown									
-0fb277e8-91b2-47a6-b8fc-e23fd09a73d5	Carried Things Present	Tracks emotional echoes from other consciousnesses encountered in the Afterlife.	passive	boolean		true									
-78253a45-1566-4e71-9812-b035f33c57b1	Wireborn Signal Bonus	Permanent +2 SIGNAL bonus from Wireborn heritage.	stat_modifier	number		2									
-0bbc9b65-30c3-4aef-921c-90a46e2b403b	Wireborn Hand Size Modifier	+1 to starting hand size.	stat_modifier	number		1									
-d9648fb5-489a-4d73-937f-7d71e9ead1e6	Ambient Wire Sense	Always aware of active Wire Craft within 60 feet: presence, direction, and power level.	passive	boolean		true									
-46aa11aa-aabd-4a78-afcc-f281d7417210	Signal Vulnerability	Silence effects last 1 additional turn; structural weakness, cannot be suppressed.	passive	boolean		true									
-af8cda49-f630-408f-9a9a-c0e93339f569	Digital Navigation	In Wire Craft environments: perfect navigation, cannot be disoriented, perfect data-path retracing.	passive	boolean		true									
-980c4cd7-2417-4abf-8db5-a6f47aad676c	Circuit Trace Pattern	Subdermal circuit-trace visible at temples/wrists/forearms/sternum; glows during data processing.	appearance	string		luminous_blue_amber									
-9d200db0-d4b6-47b1-8a0c-67023f294ff2	Stitched Frame Bonus	Permanent +1 FRAME bonus from Stitched heritage.	stat_modifier	number		1									
-ac4a65b7-b00b-42ab-9bec-5426f2b5759f	Custom Stat Bonus	+1 to one stat chosen at character creation reflecting assembly dominance.	stat_modifier	number		1									
-0815ebc1-ec43-4c34-9deb-e664d272879c	Stitched Hand Size Modifier	No hand size modifier from Stitched heritage.	stat_modifier	number		0									
-679fdf71-7eed-4d98-951b-82b2f0d0feff	Modular Construction	Repairs cost half time and resources: short rest instead of full, single scene instead of full session.	passive	boolean		true									
-f3cb90f2-7ac5-4a84-bd8a-0e2ee57a9464	Inconsistent Resonance Signature	50% chance targeting/identity-lock effects misfire; GM rolls die, odd result fails.	passive	boolean		true									
-e15e760b-9332-487a-aaec-b400bd972016	Stagger Resistance	First Stagger source per combat is negated; subsequent applications proceed normally.	passive	boolean		true									
-02d11431-0045-4317-bb11-14bc5436e6ee	Drift State	Biological/mechanical adaptations developed over time through play.	lore_state	list	none|biological_lean|mechanical_lean|convergent	none									
-0fbfc506-1d0f-432e-8df6-371304e01d8e	Component A Primary	Player-defined at creation; determines Component A of Composite Response card.	derived	string		player_defined									
-69fe52a2-9de7-49b1-b6de-c270ed1aefda	Component B Secondary	Player-defined at creation; determines Component B of Composite Response card.	derived	string		player_defined									
-eb0e7848-79fa-4655-a91a-3872d69dfc87	Assembly Provenance	Tracker of component origins; player may track detailed sourcing.	lore_state	string		mixed_sources									
-655f34b0-9f37-4e7a-ae7d-721b58251868	Shellbroken Frame Bonus	Permanent +1 FRAME bonus from Shellbroken heritage.	stat_modifier	number		1									
-982893bd-72a6-48c2-b8c3-a65a8f78fe83	Shellbroken Resonance Bonus	Permanent +1 RESONANCE bonus from Shellbroken heritage.	stat_modifier	number		1									
-c9fcba8c-a29b-430a-9118-f79bed0260ed	Shellbroken Hand Size Modifier	No hand size modifier from Shellbroken heritage.	stat_modifier	number		0									
-de66d50b-2c86-4013-9d2c-4c465e97694e	Void-Touched Mind	Psychic/mental intrusion, fear, and morale effects do not apply; psychic damage applies normally.	passive	boolean		true									
-59c65c79-e467-4ac8-9914-4c964a7edd20	Shell-State Awareness	Sense beings under Hollow Author control within 60 feet: presence only, no identification.	passive	boolean		true									
-a89fbd57-dd7a-4b92-85c6-06ba15304aff	Survivor's Clarity	Once per combat when below half HP, gain Guard 4 as a free reaction.	passive	boolean		true									
-75e164bd-504c-4941-86c9-5e730021f880	Hollow Author Connection	Residual connectivity to Hollow Author's network; non-control, may sometimes receive or push back transmissions.	lore_state	boolean		true									
-ce1e1a49-4261-4bc2-a122-b8bd23c6f069	Identity Tokens	Player-constructed explicit values and principles defining identity; built between sessions.	lore_state	string											
-63389698-412f-4a30-bf0f-807619b1f7e1	Gap Period	Blank period while under Hollow Author control; accessible through external evidence, not internal memory.	lore_state	string		unknown									
-8a46721e-a499-4c09-8b70-0ec0eec317a5	Connection Mark	Faint geometric pattern at skull base or jaw; often concealed.	appearance	string		skull_base_or_jaw									
-ded02e77-962a-489a-b228-b756c96e0669	Iron Blessed Resonance Bonus	Permanent +2 RESONANCE bonus from Iron Blessed heritage.	stat_modifier	number		2									
-dea45da5-3e12-4541-ac4a-c9ed1e4e09ce	Subtype	Tended (Orthodoxy-aligned) or Unregistered (independent); chosen at character creation.	identity	list	tended|unregistered	tended									
-1969856d-de15-4abc-a049-1a15c2f78622	Iron Blessed Hand Size Modifier	+1 for Tended; -1 for Unregistered. Set at character creation.	stat_modifier	number		1									
-acd23183-2193-4599-bea1-e9fdd8b27370	Resonant Attunement	Attune to resonant items/locations instantly; spontaneous minor resonant effects once per session.	passive	boolean		true									
-b09ba7cd-db9b-455e-b5e5-fbd638975037	Sutensai Attention	Monitored by Iron Sutra priesthood; Orthodoxy knows location, contacts, and public actions.	passive	boolean		true									
-e438602a-4238-4417-87ae-0f989e70e66c	Unexpected Enhancement Integration	Cybernetics develop minor resonant properties beyond design; player and GM define one at creation.	passive	boolean		true									
-b33beb6c-ab97-47be-8336-14c688acb826	Formation Locations	Player-defined resonant metal formation sites on body; individual as fingerprints.	appearance	string		player_defined									
-a73f19a6-a7af-4902-bc59-622793706493	Formation Luminescence	Formations glow faintly; intensify in high-resonance environments.	derived	boolean		true									
-5684376b-a3f3-491d-b86c-b20d5f84d28a	Formation Pain Level	Constant low-level ache plus acute pain during growth phases.	lore_state	string		chronic_low									
-4ae2df6a-4873-4ff9-b2ba-e143aac6ca39	Spine-Speak Competency	Can communicate with other Iron Blessed through formation vibrations; private undecoded language.	lore_state	boolean		true									
-329151a9-d820-4167-9699-d7dbc0a5b6a3	Orthodoxy Handler Status	Tended: has assigned clergy handler. Unregistered: none.	lore_state	list	has_handler|no_handler	has_handler									
-c24cbb41-6795-44b8-bb7c-95d1d8a3db32	Formation Pain Acute	Tracks active acute pain phase; set by GM during stress events or growth phases.	passive	boolean		false									
-164ac2fd-94b5-430f-9b7b-80201e6a0be4	Diminished Veil Bonus	Permanent +1 VEIL bonus from Diminished heritage.	stat_modifier	number		1									
-1f59e7f9-4a08-4178-90ae-904d1a9f2f07	Diminished Edge Bonus	Permanent +1 EDGE bonus from Diminished heritage.	stat_modifier	number		1									
-19a9a54f-b38e-4342-8bc1-7890f90f8d9e	Diminished Hand Size Modifier	+2 to starting hand size: exceptional precision handling.	stat_modifier	number		2									
-8f8b474a-bbd3-4ce2-9d64-92145ec882c9	Social Invisibility	In low-caste/maintenance contexts, institutional systems and high-status NPCs require DC 14 VEIL check to register as meaningful.	passive	boolean		true									
-c53e2daf-bdb9-4688-a91e-c91e1d92b758	Environmental Awareness	Cannot be surprised by environmental threats: structures, systems, gas, terrain. Still surprised by combat ambush.	passive	boolean		true									
-b966b603-d8df-4e8b-a501-8fb8b893a3a5	Lean Target	Enhancement-targeting abilities deal half effect: Overheat, Silence via enhancement disruption, augmentation-specific effects.	passive	boolean		true									
-505f2689-1eb5-4339-b9aa-08ed47fd5937	Frame Specialization	Skeletal structure denser and more flexible; joints at non-standard angles; lower center of gravity; fine hands.	derived	string		optimized_for_confined									
-0cf9a253-420c-45f4-80cc-2e63b4606175	Deep School Training	Trained through apprenticeship networks covering craft, political knowledge, and moral frameworks.	lore_state	boolean		true									
-3a7545d3-a6e0-47a9-ba6f-076051370dd4	Infrastructure Knowledge	Detailed knowledge of specific infrastructure systems; player may define specialization area.	lore_state	string		system_specific									
-25f96852-966c-491e-ab2f-8ba0a73c0ff0	Ronin Hand Size	Starting hand size for Ronin class.	class_core	number		6									
-775e37f8-965c-4ab4-8a18-d150e475715c	Ronin Primary Stats	Primary stat pair: IRON and EDGE.	class_core	string		IRON/EDGE									
-65cb535d-a57c-4e99-ac60-93d55bc68418	Ronin HP Modifier	HP formula modifier: FRAME x8 + 14.	class_core	number		14									
-c0da693a-38bb-4c65-a815-27ef1f90701a	Corrupted Resonance Signature	Oath-broken resonance signature; persists after masterless status.	class_core	boolean		true									
-90483d04-d8c7-4355-bab7-d3209bffd243	Oath Status	Current oath relationship: Masterless, Contracted, or Returned.	class_core	string		Masterless									
-5f4955e4-310b-4d40-b16a-3eb5d0463a11	Ronin Path	Selected subclass path.	subclass	list	ascendant_blade|iron_contract|returning_blade	ascendant_blade									
-7c4e5690-92b7-416b-a2fe-dca06252a85d	Contract Target	Current contract target; empty if uncontracted.	resource	string											
-4da5ad53-8a98-45b9-8f4b-862b0e194f43	Ashfoot Hand Size	Starting hand size for Ashfoot class.	class_core	number		7									
-3cbc8801-e030-496b-a63b-1a3bbacdd2e3	Ashfoot Primary Stats	Primary stat pair: EDGE and IRON.	class_core	string		EDGE/IRON									
-033e492e-8bc7-4083-8add-e93f2918589e	Ashfoot HP Modifier	HP formula modifier: FRAME x8 + 10.	class_core	number		10									
-e2eb5b9a-1273-4705-be49-1ec66a914241	Ashfoot Caste Tier	Social caste tier at campaign start.	class_core	string		Low									
-d7bcc7cb-8177-4337-bffd-da1bc667c9ae	Enhancement Quality	Quality tier of starting augmentations: salvage, standard, or professional.	class_core	string		salvage									
-2e21f785-0bcc-4c25-8251-01109321ab84	Ashfoot Path	Selected subclass path.	subclass	list	skirmish_specialist|formation_anchor|salvage_innovator	skirmish_specialist									
-c279ae7f-fe39-4c31-ba3b-1f791afdc579	Veilblade Hand Size	Starting hand size for Veilblade class.	class_core	number		7									
-caa4b7c8-afde-4d07-b914-96092ceda9d9	Veilblade Primary Stats	Primary stat pair: EDGE and SIGNAL.	class_core	string		EDGE/SIGNAL									
-c5aac746-10c5-4939-89af-7793abadb0ca	Veilblade HP Modifier	HP formula modifier: FRAME x8 + 10.	class_core	number		10									
-11530e75-16f4-4c75-848c-289cba40aaee	Resonant Signature State	Suppressed signature prevents detection by standard resonance scans.	class_core	string		suppressed									
-d10ad6d6-2e07-46a7-95ff-a3b2c61fafeb	Wire Integration Active	Character has active Wire Craft network integration.	class_core	boolean		true									
-7ee0bc91-ad15-4386-ac9e-77a749d812dd	Veilblade Path	Selected subclass path.	subclass	list	shadow_operative|signal_cutter|ghost_archive	shadow_operative									
-351a6630-e609-4e2c-aabf-6b4b5a777f23	Oni Hunter Hand Size	Starting hand size for Oni Hunter class.	class_core	number		6									
-2fded87b-d6e3-40bf-8ccf-3349394ecdb4	Oni Hunter Primary Stats	Primary stat pair: RESONANCE and IRON.	class_core	string		RESONANCE/IRON									
-71fba792-2080-400b-bbfc-fb15178384cf	Oni Hunter HP Modifier	HP formula modifier: FRAME x8 + 10.	class_core	number		10									
-c7a88bd3-4d32-4ff1-9360-c610c4c00519	Quarry Marked	True when a quarry is actively marked; enables mark-conditional card bonuses.	resource	boolean		false									
-420dc37f-2f6e-47ba-9c6d-e4c727e1e50d	Dissolution Resonance	Accumulated dissolution resonance; enables certain high-tier abilities.	resource	number		0									
-cceca13a-091d-45c8-8195-bfd1bbb3374f	Oni Hunter Path	Selected subclass path.	subclass	list	dissolution_specialist|afterlife_anchor|resonance_collector	dissolution_specialist									
-b9560f8a-4924-4341-98e8-fb46e9066f90	Forge Tender Hand Size	Starting hand size for Forge Tender class.	class_core	number		7									
-d3393aa0-3284-4151-bf72-974f5dd5c0b0	Forge Tender Primary Stats	Primary stat pair: SIGNAL and RESONANCE.	class_core	string		SIGNAL/RESONANCE									
-3b0347ba-c501-4309-a063-489a9c9cda88	Forge Tender HP Modifier	HP formula modifier: FRAME x8 + 10.	class_core	number		10									
-cbf300f8-865e-4763-8ddf-9b74dc0f033f	Resonance Keepers Aligned	Character is aligned with the Iron Sutra Resonance Keepers faction.	class_core	boolean		false									
-4a76cfe0-d12d-4acf-96e7-5fccac9bbb65	Community Dependent	Character draws power and knowledge from community relationships.	class_core	boolean		true									
-02333e42-766d-40fe-b5cd-cf1ab781c9a3	Forge Tender Path	Selected subclass path.	subclass	list	resonance_keeper|black_smith|echomind_anchor	resonance_keeper									
-76360db5-fa0f-41d8-ad60-466d15c1c06e	Wireweave Hand Size	Starting hand size for Wireweave class.	class_core	number		7									
-94950b8f-5937-4131-87e4-0aac1271a89a	Wireweave Primary Stats	Primary stat pair: SIGNAL and EDGE.	class_core	string		SIGNAL/EDGE									
-4343b7a8-bdd7-4c7b-8762-5068a671a747	Wireweave HP Modifier	HP formula modifier: FRAME x8 + 6 (Technical tier).	class_core	number		6									
-3e7fb9ed-c132-4975-8496-78e5007f7ef0	Wireweave Path	Selected subclass path.	subclass	list	combat_weave|wire_broker|iron_afterlife_weave|loom_maker	combat_weave									
-10b7c8f8-6098-4b20-bad7-8e032db49de7	Chrome Shaper Hand Size	Starting hand size for Chrome Shaper class.	class_core	number		7									
-47702be4-3471-4493-99eb-30897438c535	Chrome Shaper Primary Stats	Primary stat pair: IRON and SIGNAL.	class_core	string		IRON/SIGNAL									
-59ef84c7-20fd-440d-a5e2-07339b221750	Chrome Shaper HP Modifier	HP formula modifier: FRAME x8 + 6 (Technical tier).	class_core	number		6									
-7d35a6a9-7e25-435c-baed-d17816ff20b9	Experimental Designs	Count of experimental design applications available; grows with level.	resource	number		0									
-6d608ae8-a02f-4fe9-9a36-dbfb598878bb	Chrome Shaper Path	Selected subclass path.	subclass	list	war_shaper|edge_builder|resonance_sculptor	war_shaper									
-01d76eec-dd3e-411c-a9ff-b79bc42b82d7	Pulse Caller Hand Size	Starting hand size for Pulse Caller class.	class_core	number		7									
-f4efea5b-dfa0-41b9-af9d-668687e355fe	Pulse Caller Primary Stats	Primary stat pair: SIGNAL and RESONANCE.	class_core	string		SIGNAL/RESONANCE									
-572aebc3-c705-453e-81c9-89955a9f6018	Pulse Caller HP Modifier	HP formula modifier: FRAME x8 + 6 (Technical tier).	class_core	number		6									
-2d74272c-ed75-4a80-9aaf-b83a0efd1f5b	Integrated Weapon Active	Pulse arm weapon is integrated into chassis.	class_core	boolean		true									
-c6f91887-503d-474d-892e-ddb45a132bdf	Preconscious Fire Active	Enables reaction-speed preconscious firing when unlocked.	resource	boolean		false									
-108319a4-951f-4ae7-97d7-aa7d3fc07b39	Pulse Caller Path	Selected subclass path.	subclass	list	single_point|iron_suppressor|resonant_shot	single_point									
-77b27174-831c-4fa0-a515-dd48eee55435	Iron Monk Hand Size	Starting hand size for Iron Monk class (smallest in system).	class_core	number		5									
-48d2b170-aa43-40aa-b50f-b579eec65b2b	Iron Monk Primary Stats	Primary stat pair: IRON and RESONANCE.	class_core	string		IRON/RESONANCE									
-44883c9a-1160-4d5d-a033-f284343d002b	Iron Monk HP Modifier	HP formula modifier: FRAME x8 + 20 (Heavy tier).	class_core	number		20									
-4e60145c-ae4b-4b0e-a67d-e52a3e3b0ec8	Between State Active	True when character is in Between philosophical state; enables state-conditional bonuses.	resource	boolean		false									
-bba6d12d-bd53-46d8-be9a-0a3cb068ef8b	Below Half HP Bonus Active	Tracks below-half-HP bonus state for scaling abilities.	resource	boolean		false									
-8b869c78-7fba-4f00-919e-ccf7b1bbb2bc	Iron Monk Path	Selected subclass path.	subclass	list	orthodoxy|resonants|flesh_circle|path_of_the_between	orthodoxy									
-4067a3ee-489c-4b12-80ff-748c572a9298	Echo Speaker Hand Size	Starting hand size for Echo Speaker class.	class_core	number		7									
-fb4bf102-dec3-4caf-8e6e-c99a08b6101f	Echo Speaker Primary Stats	Primary stat pair: RESONANCE and VEIL.	class_core	string		RESONANCE/VEIL									
-1dd5ff07-3df5-45ba-a4f8-d85ace376830	Echo Speaker HP Modifier	HP formula modifier: FRAME x8 + 6 (Technical tier).	class_core	number		6									
-4689a1f8-366f-4c29-8645-9bdeac91f98f	Afterlife Affinity	Character has permanent attunement to Iron Afterlife energies.	class_core	boolean		true									
-d0e329b6-bec1-42f7-bbd2-439503e7bb09	Grief Stacks	Accumulated grief resonance; scales certain high-tier abilities.	resource	number		0									
-df1fa572-5938-4715-88c9-0682cad203e1	Echo Speaker Path	Selected subclass path.	subclass	list	sutensai_aligned|deep_listener|herald	sutensai_aligned									
-c9a2dba2-1365-4b5e-9a80-f202df6f8037	Void Walker Hand Size	Starting hand size for Void Walker class.	class_core	number		7									
-4e6445af-3476-48a0-9861-6793278f089c	Void Walker Primary Stats	Primary stat pair: RESONANCE and EDGE.	class_core	string		RESONANCE/EDGE									
-e8991eab-a72d-4f40-9bce-0a71c6af83e4	Void Walker HP Modifier	HP formula modifier: FRAME x8 + 6 (Technical tier).	class_core	number		6									
-cce08197-f3e5-40b4-aca5-e8105edf2fea	Incorporeal State Active	True when character is partially phased into void; enables phase-conditional abilities.	resource	boolean		false									
-942f9144-fd79-4aad-86c6-387b07c7dc3b	Anchor Points	Active anchor connections to physical plane; enables anchor-conditional abilities.	resource	number		0									
-9edcd6ca-4ab5-4692-a6e0-420e442e2a6a	Void Walker Path	Selected subclass path.	subclass	list	ghost_operative|threshold_puller|anchor_keeper	ghost_operative									
-ddd3e3e8-06b9-4dd6-b76e-1a43ec2d3e69	Sutensai Hand Size	Starting hand size for Sutensai class.	class_core	number		7									
-571c1260-ae46-423a-8dd8-a4a5bf6c1ffa	Sutensai Primary Stats	Primary stat pair: RESONANCE and VEIL.	class_core	string		RESONANCE/VEIL									
-620dd745-d612-4cd1-8c09-3ac44f7ee5c3	Sutensai HP Modifier	HP formula modifier: FRAME x8 + 6 (Technical tier).	class_core	number		6									
-6ddc8ae5-8629-4c29-ba54-cf7c893eaa06	Reader Authority	Character holds official Sutensai Echomind reading authority.	class_core	boolean		true									
-34305b8e-63d5-4016-9e73-ba39fdd85dbf	Echomind Reading Level	Current authorized reading depth; scales with level and path.	resource	number		1									
-8c0993f6-ec80-45f8-862a-fba4e78192f0	HP Cost Payment Enabled	Character may pay HP instead of AP for selected cards.	class_core	boolean		true									
-e7f18fdb-04e9-4ebb-93a0-21fac363474b	Sutensai Path	Selected subclass path.	subclass	list	inquisitor|archive_master|priors_voice	inquisitor									
-265546e7-5774-4420-aece-6bdd566dcc07	Flesh Shaper Hand Size	Starting hand size for Flesh Shaper class.	class_core	number		7									
-a2514cf2-2399-4105-97ef-c308f890687f	Flesh Shaper Primary Stats	Primary stat pair: IRON and SIGNAL.	class_core	string		IRON/SIGNAL									
-6abc274c-7250-4504-9199-1f75e7ec14e6	Flesh Shaper HP Modifier	HP formula modifier: FRAME x8 + 10 (Balanced tier).	class_core	number		10									
-a8ec5911-b728-40d0-baa1-60d0b9899bfc	Flesh Shaper HP Tier	Tracks HP tier for tier-conditional card scaling.	resource	list	full|wounded|critical	full									
-97fe5830-9ea3-4ea3-bef5-08d605542f8e	Flesh Shaper Path	Selected subclass path.	subclass	list	the_mender|the_corruptor|the_self_shaper	the_mender									
-303be55c-6dad-407b-ac47-e0b65b134902	Puppet Binder Hand Size	Starting hand size for Puppet Binder class.	class_core	number		7									
-a5a2be97-e558-411e-a239-3269444be254	Puppet Binder Primary Stats	Primary stat pair: SIGNAL and VEIL.	class_core	string		SIGNAL/VEIL									
-2fb62494-8ae7-45a7-85ce-9edde151fe2a	Puppet Binder HP Modifier	HP formula modifier: FRAME x8 + 10.	class_core	number		10									
-635865e8-f33c-468b-b712-ecc74e400d7c	Vessel Active	True when an active bound vessel exists.	resource	boolean		false									
-81d88e28-a9f4-4b36-9a01-8a904c7cf379	Binding Threads	Number of currently bound targets.	resource	number		0									
-88bc7d76-893b-4898-93c4-eea4588c1f0c	Puppet Binder Path	Selected subclass path.	subclass	list	the_architect|the_possessor|the_network	the_architect									
-1f228deb-c887-493a-ac7b-de6c76e58d91	Blood Smith Hand Size	Starting hand size for Blood Smith class.	class_core	number		6									
-1d3c17e6-136a-4810-b0ce-b50da8766d5f	Blood Smith Primary Stats	Primary stat pair: IRON and RESONANCE.	class_core	string		IRON/RESONANCE									
-6c82b476-e72d-4c4f-a739-810378a15648	Blood Smith HP Modifier	HP formula modifier: FRAME x8 + 14 (Martial tier).	class_core	number		14									
-996ce599-113d-4242-b140-ff51c8c8da67	Enhancement Status	Tracks enhancement stress state; scales certain reactions.	resource	list	stable|stressed|failing	stable									
-c3d70dbb-f773-4120-8bbe-b3dbfdd0b346	Blood Smith Path	Selected subclass path.	subclass	list	the_weaponsmith|the_armorer|the_sculptor	the_weaponsmith									
-cddaee08-72b8-44fb-9ec4-4b0b127c7202	Hollow Hand Size	Starting hand size for The Hollow class.	class_core	number		6									
-56127464-e854-4e32-b60b-ce8eb400d83b	Hollow Primary Stats	Primary stat pair: RESONANCE and FRAME.	class_core	string		RESONANCE/FRAME									
-112f31a8-7ace-4d59-bec9-15405fe14dd2	Hollow HP Modifier	HP formula modifier: FRAME x8 + 16 (Resilient tier).	class_core	number		16									
-c24b4208-84e7-4d59-9378-3821a3660585	Hollow Path	Selected subclass path: The Empty (pure resonance) or The Shell (machine-dominant).	subclass	list	the_empty|the_shell	the_empty									
-11d3f217-8975-499b-88cb-26a8ec82cfa7	Current HP Percent	Current HP as percentage; drives below-half and below-quarter scaling cards.	resource	number		100									
-af6c858b-5f4d-4de1-8e1a-c750d15369b8	Shadow Daimyo Hand Size	Starting hand size for Shadow Daimyo class.	class_core	number		7									
-f5420cf7-e4ed-4977-8f0f-135f36e5a448	Shadow Daimyo Primary Stats	Primary stat pair: VEIL and SIGNAL.	class_core	string		VEIL/SIGNAL									
-5d7cc194-5259-4a93-85b6-b33b61c4d1a1	Shadow Daimyo HP Modifier	HP formula modifier: FRAME x8 + 10.	class_core	number		10									
-4a97772a-71ce-427d-9c9e-e48bfd50f5b4	Intelligence Gathered	Accumulated intelligence points; unlocks option-expanding abilities.	resource	number		0									
-d7ce79bb-c813-4595-a157-f4704c237141	Active Contacts	Number of active established contacts.	resource	number		0									
-881bcd71-b321-4255-af9d-1a3478fc8d1f	Shadow Daimyo Path	Selected subclass path.	subclass	list	spymaster|court_blade|broker	spymaster									
-049737d5-69fb-4040-9770-73a3dae324cb	Voice of Debt Hand Size	Starting hand size for Voice of Debt class.	class_core	number		7									
-c7d363f8-214f-4cfa-b036-20de5cb25f39	Voice of Debt Primary Stats	Primary stat pair: VEIL and SIGNAL.	class_core	string		VEIL/SIGNAL									
-1be7dc2c-90f6-4364-b904-107c1f094504	Voice of Debt HP Modifier	HP formula modifier: FRAME x8 + 10.	class_core	number		10									
-c1f225f1-6f47-49d6-b65e-c06a4ce233be	Debt Detonations Used	Count of Debt Detonations triggered this combat; resets per encounter.	resource	number		0									
-361da898-f61b-41d3-b1ce-e7360f8c7ad0	Voice of Debt Path	Selected subclass path.	subclass	list	oath_keeper|debt_collector|the_breaker	oath_keeper									
-6b65add4-61a0-4ba2-86c9-0b10ae5c813a	Merchant Knife Hand Size	Starting hand size for Merchant Knife class.	class_core	number		7									
-8fe1f3c6-2aa0-4ec8-b662-08ae25652b8a	Merchant Knife Primary Stats	Primary stat pair: VEIL and EDGE.	class_core	string		VEIL/EDGE									
-33bcedf5-8d8f-48d5-9c13-f906001a098f	Merchant Knife HP Modifier	HP formula modifier: FRAME x8 + 10.	class_core	number		10									
-a0c199dc-6286-4dc0-b0ae-e64c4d4f1780	Merchant Knife Path	Selected subclass path.	subclass	list	supply_cutter|gilded_blade|kingmaker	supply_cutter									
-cbe9f87c-b8ea-4d2c-8e0a-bb48b6dea97c	Iron Herald Hand Size	Starting hand size for Iron Herald class.	class_core	number		7									
-6fa7e871-5cb1-4315-bb8c-1d0d660ab023	Iron Herald Primary Stats	Primary stat pair: IRON and VEIL.	class_core	string		IRON/VEIL									
-d4615506-bf41-4465-a41e-af97eb6a045b	Iron Herald HP Modifier	HP formula modifier: FRAME x8 + 12.	class_core	number		12									
-f7b004dd-713e-4f68-936e-245540093e6f	Command Zone Active	True when Command Zone is established; enables zone-synergy cards.	resource	boolean		false									
-913aefef-bce0-440d-b482-44c7eaee7ca4	Priority Target ID	ID of current Priority Target; empty when unset.	resource	string											
-897829b3-3822-43c3-bbf7-5ddace6b2078	Command Zone Radius	Current Command Zone radius in feet; scales with level.	resource	number		15									
-d56e33f6-4028-4b2f-a39e-3c2b72c39ba9	Iron Herald Path	Selected subclass path.	subclass	list	warbanner|neutral_tongue|the_signal	warbanner									
-b90d797c-24de-4eea-9745-47f6f8bcc18a	Curse Eater Hand Size	Starting hand size for Curse Eater class.	class_core	number		7									
-dd973607-ebf6-47c8-aaa0-16388854ba9b	Curse Eater Primary Stats	Primary stat pair: RESONANCE and FRAME.	class_core	string		RESONANCE/FRAME									
-850efb9c-c77a-4ff3-af0e-dd0eb7e25325	Curse Eater HP Modifier	HP formula modifier: FRAME x8 + 14.	class_core	number		14									
-ef57da16-4930-4dd9-86b0-63af3703a3fe	Loaded Count	Current Loaded status stacks on self; absorbed debuffs. Scales damage output.	resource	number		0									
-1a260d9d-c78b-4208-a9ac-be2d695eccd9	Corruption Points	Accumulated corruption; tracks Consumed subclass transformation pressure.	resource	number		0									
-c6c343cb-9e68-4e44-b2f4-9830372332a8	Curse Eater Path	Selected subclass path.	subclass	list	purifier|conduit|the_consumed	purifier									
-f1c382ca-9682-4a18-8b00-e1c67e067f18	Shell Dancer Hand Size	Starting hand size for Shell Dancer class.	class_core	number		7									
-d3063c70-f0b3-4317-babf-9f6a73996f35	Shell Dancer Primary Stats	Primary stat pair: EDGE and RESONANCE.	class_core	string		EDGE/RESONANCE									
-f004f2cc-bdb0-4d0b-80d4-96b941ce9ca7	Shell Dancer HP Modifier	HP formula modifier: FRAME x8 + 10.	class_core	number		10									
-775b7531-0d13-41d7-967b-eb0a2b465ede	Cascade Count	Current Cascade resource from 0 to 10; generated from taking damage.	resource	number		0									
-16b29a11-f730-4dc3-904f-bb579773d29e	In Shell Step	True while Shell Step evasion state is active.	resource	boolean		false									
-3130cd75-abcd-4201-9423-5f0ca0f2ceb1	Shell Step Turns Remaining	Turns remaining in Shell Step state.	resource	number		0									
-905e5b51-dbac-4d81-bfb5-3a92a137b218	Shell Dancer Path	Selected subclass path.	subclass	list	the_breaker|the_survivor|the_scavenger	the_breaker									
-2724c629-6d20-452c-978b-d83321ae0f7f	Fracture Knight Hand Size	Starting hand size for Fracture Knight class.	class_core	number		7									
-9fedffc7-324f-4a27-841b-2b00c2e05c7d	Fracture Knight Primary Stats	Primary stat pair: IRON and RESONANCE.	class_core	string		IRON/RESONANCE									
-ac16362e-2161-489d-b606-7c56667a0d70	Fracture Knight HP Modifier	HP formula modifier: FRAME x8 + 12.	class_core	number		12									
-cb0b259f-2655-4adb-ace0-4055c1cc9477	Phantom Charges	Current Phantom Charges from 0 to 6; fuel for Between-sourced abilities.	resource	number		2									
-e95dba9d-f12d-4544-9ba3-533df315c694	Fracture Stacks on Self	Fracture stacks currently applied to this character; scales risk/reward abilities.	resource	number		0									
-85c3f957-24fa-48d0-8c6a-cefcb9d185bf	Fracture Knight Path	Selected subclass path.	subclass	list	the_claimed|haunted_legion|the_anchor	the_claimed									
-35760d47-c433-4d44-a627-2251484296e6	Unnamed Hand Size	Starting hand size for The Unnamed class.	class_core	number		7									
-9763e867-1dc3-49ea-b0c6-37576458223e	Unnamed Primary Stats	Active stat shifts each combat; defined by player through play.	class_core	string		IRON									
-85a1a158-676f-4e3b-b7f4-92a122834a6b	Unnamed HP Modifier	HP formula modifier: FRAME x8 + 10.	class_core	number		10									
-4ff6fc11-9c6c-41aa-92e2-d393040b3858	Active Stat	Current dominant stat for this combat; can shift with play.	resource	list	IRON|EDGE|SIGNAL|RESONANCE|VEIL|FRAME	IRON									
-ff06a454-6598-4e0e-9afb-0cb0597d773f	Unnamed Path	Selected subclass path: Convergent (stable/deepening) or Divergent (shifting/expanding).	subclass	list	convergent|divergent	convergent									
-ae2487a4-3bce-4553-b444-f5ace51d19ca	Card 1 Condition	Player-defined unlock condition for Card 1.	lore_state	string											
-a3a0531b-e2da-46c6-8ac5-5dadeac04dbd	Card 2 Condition	Player-defined unlock condition for Card 2.	lore_state	string											
-f9ab2684-9fd8-42c1-8b56-e7163d370d84	Card 3 Condition	Player-defined unlock condition for Card 3.	lore_state	string											
-718c93dc-a0b4-423c-9e8d-971343e87a12	Card 4 Condition	Player-defined unlock condition for Card 4.	lore_state	string											
-078dfc37-9d5f-4ff0-a5a1-ccfc59f82a40	Card 5 Condition	Player-defined unlock condition for Card 5.	lore_state	string											
-86ab1fdc-2754-417b-ab48-c39d49d7a4f2	Card 6 Condition	Player-defined unlock condition for Card 6.	lore_state	string											
-66e3564b-a007-42bb-9481-d0bcbb4698a2	Card 7 Condition	Player-defined unlock condition for Card 7.	lore_state	string											
-9f58f18d-bdb3-4dc3-b024-384bf5dd9695	Card 8 Condition	Player-defined unlock condition for Card 8.	lore_state	string											
-e3aa02dc-38a5-4024-8a4a-0af3003e86dd	Card 9 Condition	Player-defined unlock condition for Card 9.	lore_state	string											
-6293968d-b470-42b0-bd33-e50c1d097054	Card 10 Condition	Player-defined unlock condition for Card 10.	lore_state	string											
-1da429fe-8c7f-402f-9061-8b00c417bbd4	Card 11 Condition	Player-defined unlock condition for Card 11.	lore_state	string											
-7a36fb2b-3078-41be-b1d9-56828c906b4e	Card 12 Condition	Player-defined unlock condition for Card 12.	lore_state	string											
-b2fec9fd-badf-4662-a993-839d41b318a6	Card 13 Condition	Player-defined unlock condition for Card 13.	lore_state	string											
-b9b82a0a-ad37-4fdf-acfb-d9774c67f7cb	Card 14 Condition	Player-defined unlock condition for Card 14.	lore_state	string											
-499ada82-bee9-4693-b1ee-22ead0c8c2d1	IRON	Melee damage, physical force, grapple, and forced movement.	stat	number		1				1	6				
-f8cbb4e4-35b9-473d-ae98-7e2fc4de42ed	EDGE	Determines initiative order. Precision, ranged attacks, evasion.	stat	number		1				1	6				
-807bec98-3755-40e4-a8e0-af2eea69cc33	FRAME	Determines HP. Endurance, resistance, damage thresholds.	stat	number		1				1	6				
-84604185-aded-4a5b-aac6-ba744ef33279	SIGNAL	Signal attacks, Wire Craft aptitude, hacking, technical debuffs.	stat	number		1				1	6				
-4506f277-319d-4c47-8623-3612f5014ea9	RESONANCE	Resonant attacks, spiritual interaction, healing, Iron Afterlife access.	stat	number		1				1	6				
-fba4640c-4b6c-4c9a-86de-d9b331d8c430	VEIL	Social and command cards, manipulation, concealment, crowd control.	stat	number		1				1	6				
-48bf7ccd-50b3-4567-a988-fd1286ed74ee	Points Spent	Running total of stat points distributed at creation (max 20).	creation	number		0				0	20				
-6d6cfc6e-bf12-435a-92bc-cefb533ca75d	Hand Size Base	Class starting hand size. Set by class archetype on_add.	derived	number		6									
-122b9d05-6c8e-4255-8a78-9b9eff3774d6	Hand Size Race Mod	Race hand size modifier (+0 Forged/Stitched, +1 most races, +2 Diminished).	derived	number		0									
-9376a7df-2dbe-443f-9f0e-093021c5ee8b	Hand Size Total	Total cards available per turn (class base + race modifier).	derived	number		6									
-368e2feb-473d-43aa-a8ac-61c1a9005c18	HP Class Modifier	Class HP modifier for HP formula: (FRAME x 8) + this value.	derived	number		14									
-74c0da0c-586c-4562-b285-a62abf50a94c	Reach	Which Reach the character is from.	background	list	Sunder Reach|Veilward Reach|Pale Reach|Iron Teeth Reach|The Ashlands|Echo Coast|Northern Pale	Sunder Reach									
-cf85ddae-ae20-4b70-a9ae-f922f4087a57	Caste	Character social caste at campaign start.	background	list	Resonant Caste|Craftbound Caste|Ashwalker Caste|Hollow Poor	Craftbound Caste									
-032964bc-2ca9-4466-bd4c-f23b0cef2e27	Faction Ties	Faction allegiance at campaign start, if any.	background	list	Korrath the Unbroken|Vaen of the Empty Hand|Iron Sutra Orthodoxy|Wire Market Guilds|None	None									
-50bdb1f8-d00c-4d73-b2f5-e75f5dffa27b	Who I Owe	Who has a claim on this character — lord, debt, contract, family, ghost.	background	string											
-63211ac1-ac03-432b-a2ac-c6bbda70cac8	What I Need	Not want — need. The thing driving this character into danger.	background	string											
+177449c2-a70a-406b-bf69-0849ce176a37	Current HP	Character's current hit points. Set to max at creation.	resource	number		20									
+84fc0dfe-94d6-4ac5-8b0e-9532f64956d8	Max HP	Character's maximum hit points.	resource	number		20									
+9a590924-6bc6-40cf-a5e7-99374718e9b5	Level	Character level (1–20). Used by level-scaling scripts.	identity	number		1									
+52b0fd3b-ccd9-4b1a-aeb9-be45a61c963c	Exhaustion	Exhaustion stacks; affects Forged maintenance and general fatigue mechanics.	resource	number		0									
+a569bcb8-42c0-4093-9fbf-c0a00d745f34	Iron Tolerance Reduction	Blood Smith: reduces HP cost of enhancement cards by this amount (minimum 1 net cost).	class_core	number		2									
+085aef77-bb0f-4de1-9d84-543a53793cd0	AP Max	Maximum AP refreshed at start of turn.	combat_core	number		3									
+178636be-dcf9-49bf-b8c4-8df05faf6c99	AP Current	Spendable AP during active turn.	combat_core	number		3									
+d8c9ff73-1692-46b1-a5c5-7241678f1837	Turn Number	Global or encounter turn counter.	combat_core	number		0									
+1692ce9c-5042-4c28-a555-878c2ebf7888	Active Turn	True while this unit is the active combatant.	combat_core	boolean		false									
+8a892d93-36a0-412a-bca6-8fa7174e390b	Basic Attack Used This Turn	Enforces one free basic attack per turn.	combat_core	boolean		false									
+cea19b11-4b1d-4af3-8e07-dd6f57f41415	Cards Played This Turn	Serialized list of card action IDs played this turn.	combat_core	string											
+db317c2c-0031-4578-a95e-288e4967b2cb	Card Play Locked	Prevents play when outside valid turn state.	combat_core	boolean		false									
+dba6f2f0-8eac-4690-8b7a-f7ea64ae5a8a	Species	Character species label.	identity	list	Forged|Tethered|Echoed|Wireborn|Stitched|Shellbroken|Iron Blessed|Diminished	Forged									
+202477f0-14eb-4ed1-9a89-063005018dcb	Forged Heritage	Heritage branch: Ironhold, Wire Market, Ashlands, Unaligned.	identity	list	Ironhold|Wire Market|Ashlands|Unaligned	Unaligned									
+938faa3f-8356-414a-9f0f-94727383edbc	Integrated Resistance	Damage resistance selected at character creation.	defense	list	bludgeoning|slashing|piercing	bludgeoning									
+4b02521e-2aee-4d8c-b554-22cb52a86013	Augmentation Slot 1	Primary augmentation selected at level 1.	augmentation	list	reinforced_limb|optical_suite|vox_modulator|subdermal_plating|neural_accelerator|intake_filter|hydraulic_frame	reinforced_limb									
+534c6f31-acbd-48cb-baea-c8340ca99d48	Augmentation Slot 2	Secondary augmentation selected at level 5.	augmentation	list	none|reinforced_limb|optical_suite|vox_modulator|subdermal_plating|neural_accelerator|intake_filter|hydraulic_frame	none									
+e9f64500-900a-4dc4-8aad-5a8e769ebc52	Maintenance State	Tracks maintenance dependency: serviced or degraded.	system	list	serviced|degraded	serviced									
+fc09e617-b5ea-4281-a596-63d484dbe61e	Chassis Intact	Enables Forged Resilience death-save bonus logic.	system	boolean		true									
+16cdaeff-ed2f-4edb-ab1b-155e420a79be	Forged Resilience Used	Once-per-long-rest tracker.	combat	boolean		false									
+9cf5aa2b-dffb-4bce-b519-b4ee6e2c2b36	Carry Capacity Multiplier	Set to 2 when Hydraulic Frame is active.	derived	number		1									
+08a8b988-be09-4887-a7f6-f35aad919ff7	Unarmed Damage Die	Raised to 1d6 when Reinforced Limb is active.	combat	string		1d4									
+e8a968b8-d32b-4a22-b4f9-a0d74884e2c5	Darkvision Range	60 or 90 extension when Optical Suite is active.	senses	number		0									
+23c1d29d-8723-400a-910e-4fd48c617bb6	Natural AC Base	Set to 13 when Subdermal Plating is active.	defense	number		0									
+7d929524-96ab-45f2-834b-530aa8862823	Ready Bonus Uses	Set to 1 per short rest when Neural Accelerator is active.	combat	number		0									
+1f07c5a4-814a-48e0-9b31-8045d8101b31	Poison Save Advantage	Enabled by Intake Filter.	defense	boolean		false									
+4f05fff7-67a8-4d38-aa6f-07a98eade9f3	Poison Resistance	Enabled by Intake Filter.	defense	boolean		false									
+70f464d7-fea8-45f1-b7fc-1c116e749b6f	Chassis Memory Window Hours	Memory recall window from Chassis Memory.	utility	number		24									
+f6dbb36f-53e9-4694-8939-440f17afa209	Class	Character class label.	identity	list	Ironclad Samurai|Ronin|Iron Monk|Fracture Knight|Ashfoot|Veilblade|Oni Hunter|Shell Dancer|Curse Eater|The Hollow|Forge Tender|Wireweave|Chrome Shaper|Pulse Caller|Sutensai|Flesh Shaper|Echo Speaker|Void Walker|Blood Smith|Iron Herald|Shadow Daimyo|Voice of Debt|Merchant Knife|Puppet Binder|The Unnamed	Ironclad Samurai									
+b08eff7e-3671-4655-aa8a-2e32c3177185	Vein Oath	Loyalty, Restraint, Sacrifice, or Clarity.	class_core	list	loyalty|restraint|sacrifice|clarity	loyalty									
+17fdeb00-a597-448d-8c42-add3ff2cb87c	Resonance Fracture	Set true when character violates Vein Oath.	class_core	boolean		false									
+1d15820e-2797-4478-af72-e2e0177fd382	Vein Discipline L1	Between Stance or Iron Breath.	class_core	list	between_stance|iron_breath	between_stance									
+d7293919-a8b4-4cb5-b0fc-212adaec2fd0	Vein Discipline L2	Stillness Kata, Burden Strike, or Iron Witness.	class_core	list	stillness_kata|burden_strike|iron_witness	stillness_kata									
+59d4dba5-cfe5-48bb-b98f-20df13b33ca5	Vein Path	Selected subclass path.	subclass	list	Oath Iron Lord|Oath Sutensai Blade|Oath Undying Debt|Oath Flesh Temple	Oath Iron Lord									
+84266ca7-f140-45a1-805b-64d1beee5f1e	Resonant Surge Uses	Uses per short rest, 2 at level 20.	resource	number		1									
+c59f9628-d371-4750-a643-2b55e39140ff	Perfect Kata Used	Once-per-long-rest tracker.	resource	boolean		false									
+1e7b2ec1-3a16-4fdb-9dfd-4a5efb06cb16	Iron Endurance Used	Once-per-long-rest tracker for drop-to-1 effect.	resource	boolean		false									
+0da904f5-3351-4b65-b18e-9abf632cbf51	Iron Endurance Resistance Type	Slashing, piercing, or bludgeoning selection.	defense	list	slashing|piercing|bludgeoning	slashing									
+cc32cc65-4bd8-452e-96a1-a79676eea2c5	Resonant Armor Reaction Uses	Equals proficiency bonus per long rest when unlocked.	resource	number		0									
+7f098486-1e59-4448-90ad-ea6cdbf80e88	Surge Bonus Damage Dice	3d6 at level 16 with Between Mastery.	combat	string		2d6									
+6962dab8-a5ac-43c2-acdd-f3bd3c4739aa	Blade-Sworn Bound Weapon	Tracks permanent weapon bond at level 17.	capstone_track	boolean		false									
+059cb485-62a2-4f60-b658-0235e9ef428d	Seventh Vein Defined	Tracks level 20 narrative definition completion.	capstone_track	boolean		false									
+aba97a3f-578f-4032-8e65-eccf23a244e3	Monster Role	Archetypal role: skirmisher, brute, controller, support, boss.	combat_ai	list	skirmisher|brute|controller|support|boss	skirmisher									
+282a2ab7-5873-497c-89bf-4e42503ccc65	Monster Tier	minion, standard, elite, boss.	combat_ai	list	minion|standard|elite|boss	standard									
+4bc56a2f-91f0-4c47-8d5a-68c6b90775c8	Monster AP Max	AP refreshed at monster turn start.	combat_core	number		2									
+07fd3e2c-3c18-4a1a-bf15-2451a6d88824	Monster AP Current	AP available for card play on current turn.	combat_core	number		2									
+4bd3465f-ac60-40e8-9ee7-6d52c34959ce	Monster Basic Attack Used This Turn	Enforces one free basic attack card per monster turn.	combat_core	boolean		false									
+712bfa7e-4e7c-4413-9e05-228160a43bf7	Monster Cards Played This Turn	Serialized list of monster card IDs played this turn.	combat_core	string											
+de65168d-7ef3-441a-a68c-6412580616eb	Threat State	neutral, pressured, advantaged, desperate.	combat_ai	list	neutral|pressured|advantaged|desperate	neutral									
+219b8074-56d9-4f95-a2bd-532436b191b2	Monster Target Lock	Current preferred target identifier for AI turn logic.	combat_ai	string											
+8b069a0e-b69b-4a34-a371-3f599adee089	Reaction Card Used	Optional once-per-round reaction limiter.	combat_core	boolean		false									
+8dd91790-bdb6-4ddd-811f-badaf3041f5e	Active Status List	Serialized list of active status IDs on this unit.	status	string											
+079dcb57-62ad-4618-8c95-6b528f217326	Status Stacks Map	Serialized key/value map of status stack counts.	status	string											
+15af5f65-5fe0-43bd-b062-eb83c438eb98	Status Duration Map	Serialized key/value map of remaining turn durations.	status	string											
+b8985ae6-359b-4992-9262-4f995633d2ce	Guard Value	Flat damage prevention from Guard-family effects.	status_derived	number		0									
+ae021b14-12bc-4159-972c-44c3caa10cce	Exposed Value	Flat damage amplification from Expose-family effects.	status_derived	number		0									
+8b506f08-96d2-4bdd-8a06-44c9e22e2f4f	Staggered	Restricts AP or card options while active.	status_derived	boolean		false									
+27f50b9d-dfb0-4b15-a91b-9ee41a36d951	Overheat Stacks	Heat pressure tracker for machine-intensive actions.	status_derived	number		0									
+7aa8ed40-f943-43d7-97b7-8a4e54be3419	Marked Target	Unit is marked for focused interactions.	status_derived	boolean		false									
+937d19a1-449f-45a6-832d-216aca0c7d26	Shield Temp HP	Temporary shield pool from shield keywords.	status_derived	number		0									
+59fe8a58-78e9-468e-9eb5-8ba5213e3f9c	Tethered Resonance Bonus	Permanent +1 RESONANCE bonus from Tethered heritage.	stat_modifier	number		1									
+33b55398-0074-4df6-9a31-2de3e42698aa	Tethered Veil Bonus	Permanent +1 VEIL bonus from Tethered heritage.	stat_modifier	number		1									
+72b38f08-a116-4e30-a5d2-7fe4ce8b7620	Tethered Hand Size Modifier	+1 to starting hand size.	stat_modifier	number		1									
+b7fe7374-aec3-4a48-a033-624c14985061	Echomind Undivided	Immunity to augmentation-targeting status effects such as Overheat and chassis Signal attacks.	passive	boolean		true									
+70bb0670-b583-43fa-8e26-0d70b1dbb055	Biological Acuity	+2 RESONANCE to read people/places/events; cannot be surprised by creatures within perception range.	passive	boolean		true									
+a3419e50-f60e-4106-81f0-092f062de6c3	Old Flesh Memory	Start each combat with Regen 1, undispellable by augmentation-stripping effects.	passive	boolean		true									
+8e864739-30b4-4d95-a94e-1baa03feda1b	Unclocked	Fails automatic tech location/tracking unless operator specifically knows the Tethered.	passive	boolean		true									
+d97ac8b8-1e63-4bc7-9967-c62fe2d64b74	Augmentation Count	Always zero; Tethered cannot integrate augmentations.	derived	number		0									
+b1a1787e-b534-4edf-9bf2-4d6420020ba0	Echoed Resonance Bonus	Permanent +1 RESONANCE bonus from Echoed heritage.	stat_modifier	number		1									
+40582ac6-b074-4d22-aded-6ee88996d61f	Echoed Edge Bonus	Permanent +1 EDGE bonus from Echoed heritage.	stat_modifier	number		1									
+7693d970-59a9-4d40-a198-28ecff6b89da	Echoed Hand Size Modifier	+1 to starting hand size.	stat_modifier	number		1									
+d94ba666-380b-4ed9-a753-220b602470ba	Already Died	First time per combat reduced to 0 HP, drop to 1 HP instead.	passive	boolean		true									
+e2efe336-d4ea-4c47-b80f-158257b84766	Iron Afterlife Awareness	Sense recently dead Echominds within 30 feet: presence, count, timing from last 24 hours.	passive	boolean		true									
+f5db700e-5db0-4b6d-bfce-2c9f7aa55ba6	No Fear of the Crossing	Frightened and morale-break effects have no mechanical effect; narrative fear persists.	passive	boolean		true									
+87fc25be-de8e-4a1d-9344-05fe7131741f	Gap Resonance Imprint	Narrative tracker of what the Echoed carries from the Iron Afterlife.	lore_state	string		unknown									
+8b07e07b-1f94-48e9-b7be-ecc50e524b38	Carried Things Present	Tracks emotional echoes from other consciousnesses encountered in the Afterlife.	passive	boolean		true									
+391359a7-5a74-497b-83bf-2ef604b3cbbc	Wireborn Signal Bonus	Permanent +2 SIGNAL bonus from Wireborn heritage.	stat_modifier	number		2									
+f1e44279-5c33-4e3a-89e7-6e24dea5e8ca	Wireborn Hand Size Modifier	+1 to starting hand size.	stat_modifier	number		1									
+4635b507-68c3-49d1-8e7a-5a1985b85c65	Ambient Wire Sense	Always aware of active Wire Craft within 60 feet: presence, direction, and power level.	passive	boolean		true									
+2608d7f7-f2a2-404e-a2cb-a473e1508646	Signal Vulnerability	Silence effects last 1 additional turn; structural weakness, cannot be suppressed.	passive	boolean		true									
+da0f2508-b2a5-4620-8d8b-5724812e4a16	Digital Navigation	In Wire Craft environments: perfect navigation, cannot be disoriented, perfect data-path retracing.	passive	boolean		true									
+4b8c8c7b-3a16-4918-9bdb-5461b277f777	Circuit Trace Pattern	Subdermal circuit-trace visible at temples/wrists/forearms/sternum; glows during data processing.	appearance	string		luminous_blue_amber									
+7e88420c-9b80-43c2-b44e-68688c3cdf41	Stitched Frame Bonus	Permanent +1 FRAME bonus from Stitched heritage.	stat_modifier	number		1									
+0fb2b270-9537-4bd7-adda-d872f09b9f5b	Custom Stat Bonus	+1 to one stat chosen at character creation reflecting assembly dominance.	stat_modifier	number		1									
+4538158c-f807-451f-a03d-c31576b413ac	Stitched Hand Size Modifier	No hand size modifier from Stitched heritage.	stat_modifier	number		0									
+8c031e77-5d92-47bb-9b2a-48cd86125dde	Modular Construction	Repairs cost half time and resources: short rest instead of full, single scene instead of full session.	passive	boolean		true									
+d234a89e-c14a-49db-a2ea-3d98847f13eb	Inconsistent Resonance Signature	50% chance targeting/identity-lock effects misfire; GM rolls die, odd result fails.	passive	boolean		true									
+742d1fb2-1f76-434d-85e6-00c0dc7a6e75	Stagger Resistance	First Stagger source per combat is negated; subsequent applications proceed normally.	passive	boolean		true									
+d0479986-076e-4c66-aef7-8018ac271572	Drift State	Biological/mechanical adaptations developed over time through play.	lore_state	list	none|biological_lean|mechanical_lean|convergent	none									
+9f5f7de5-5008-4f4e-ba87-e6f310811e22	Component A Primary	Player-defined at creation; determines Component A of Composite Response card.	derived	string		player_defined									
+dde4b6eb-635e-439d-b4e0-24a0c4a87492	Component B Secondary	Player-defined at creation; determines Component B of Composite Response card.	derived	string		player_defined									
+49206035-ea10-4910-a3b1-8291ce5a85b1	Assembly Provenance	Tracker of component origins; player may track detailed sourcing.	lore_state	string		mixed_sources									
+75153e3f-2be9-425b-a5e8-ff6ea454e6bc	Shellbroken Frame Bonus	Permanent +1 FRAME bonus from Shellbroken heritage.	stat_modifier	number		1									
+2c4ddaa1-c6a2-4c96-bcab-f65f9eb75381	Shellbroken Resonance Bonus	Permanent +1 RESONANCE bonus from Shellbroken heritage.	stat_modifier	number		1									
+9808c6c4-dc07-474c-8f0e-6f5a185b8660	Shellbroken Hand Size Modifier	No hand size modifier from Shellbroken heritage.	stat_modifier	number		0									
+c6dd9b5f-6397-4e9e-a89c-617a08671c98	Void-Touched Mind	Psychic/mental intrusion, fear, and morale effects do not apply; psychic damage applies normally.	passive	boolean		true									
+ca94b43a-cf16-46a6-bc33-04e001025a87	Shell-State Awareness	Sense beings under Hollow Author control within 60 feet: presence only, no identification.	passive	boolean		true									
+453de426-b90d-4666-a32f-4e14596688a0	Survivor's Clarity	Once per combat when below half HP, gain Guard 4 as a free reaction.	passive	boolean		true									
+d981bc0f-01d5-4c7a-83b2-ac8bd35a521c	Hollow Author Connection	Residual connectivity to Hollow Author's network; non-control, may sometimes receive or push back transmissions.	lore_state	boolean		true									
+87aa2552-8860-4ec1-9506-13242b6ffe16	Identity Tokens	Player-constructed explicit values and principles defining identity; built between sessions.	lore_state	string											
+e35233d1-8a7e-4be5-bb35-2413c3d0e0d8	Gap Period	Blank period while under Hollow Author control; accessible through external evidence, not internal memory.	lore_state	string		unknown									
+131d422d-d525-49bd-a78f-530dd2cc3d1d	Connection Mark	Faint geometric pattern at skull base or jaw; often concealed.	appearance	string		skull_base_or_jaw									
+258fc3fd-8978-42ee-8f31-e8f8d49c7b84	Iron Blessed Resonance Bonus	Permanent +2 RESONANCE bonus from Iron Blessed heritage.	stat_modifier	number		2									
+0edb30fc-9b74-45a6-a3f1-275a372a3fa1	Subtype	Tended (Orthodoxy-aligned) or Unregistered (independent); chosen at character creation.	identity	list	tended|unregistered	tended									
+7d5babce-aa0a-43f3-80d3-72a779574447	Iron Blessed Hand Size Modifier	+1 for Tended; -1 for Unregistered. Set at character creation.	stat_modifier	number		1									
+1f5fb8e1-9184-4f99-94d1-a825192f9566	Resonant Attunement	Attune to resonant items/locations instantly; spontaneous minor resonant effects once per session.	passive	boolean		true									
+907e7262-2284-4d4d-bd4a-b361e24eb77c	Sutensai Attention	Monitored by Iron Sutra priesthood; Orthodoxy knows location, contacts, and public actions.	passive	boolean		true									
+b4b4ffa6-5049-4ecd-abe0-09baa4c2ef09	Unexpected Enhancement Integration	Cybernetics develop minor resonant properties beyond design; player and GM define one at creation.	passive	boolean		true									
+2763c71c-a509-4c3d-844a-a3e56de13019	Formation Locations	Player-defined resonant metal formation sites on body; individual as fingerprints.	appearance	string		player_defined									
+701d663e-705f-4abc-81b2-359eedccef2e	Formation Luminescence	Formations glow faintly; intensify in high-resonance environments.	derived	boolean		true									
+31f73fc8-9793-48c4-8cc6-a0fb3cfb9c94	Formation Pain Level	Constant low-level ache plus acute pain during growth phases.	lore_state	string		chronic_low									
+cf23a87a-d04c-44d5-9271-108f1472ad98	Spine-Speak Competency	Can communicate with other Iron Blessed through formation vibrations; private undecoded language.	lore_state	boolean		true									
+fb32667d-2ee8-450a-ad3a-e79ffe87c282	Orthodoxy Handler Status	Tended: has assigned clergy handler. Unregistered: none.	lore_state	list	has_handler|no_handler	has_handler									
+cd40530f-9437-498c-91b1-c742be3027fb	Formation Pain Acute	Tracks active acute pain phase; set by GM during stress events or growth phases.	passive	boolean		false									
+340a10ca-d05f-43e2-b748-aab12eadb5e4	Diminished Veil Bonus	Permanent +1 VEIL bonus from Diminished heritage.	stat_modifier	number		1									
+3c04321e-a957-4d3f-b9e4-c6c7d0c48b44	Diminished Edge Bonus	Permanent +1 EDGE bonus from Diminished heritage.	stat_modifier	number		1									
+afaa01b9-ca42-4764-aed9-995a047b8fc3	Diminished Hand Size Modifier	+2 to starting hand size: exceptional precision handling.	stat_modifier	number		2									
+b95359e0-fff4-4248-b89b-0d6713ab07ac	Social Invisibility	In low-caste/maintenance contexts, institutional systems and high-status NPCs require DC 14 VEIL check to register as meaningful.	passive	boolean		true									
+cdc2439a-a3d1-4183-b2c8-889b8f54f4f0	Environmental Awareness	Cannot be surprised by environmental threats: structures, systems, gas, terrain. Still surprised by combat ambush.	passive	boolean		true									
+96fe1f2d-ab58-41d9-b972-83bc0f6d9d29	Lean Target	Enhancement-targeting abilities deal half effect: Overheat, Silence via enhancement disruption, augmentation-specific effects.	passive	boolean		true									
+128ede78-c1f8-462c-b521-28133c8bcacc	Frame Specialization	Skeletal structure denser and more flexible; joints at non-standard angles; lower center of gravity; fine hands.	derived	string		optimized_for_confined									
+3843bc53-457a-459e-914c-50ec08f4ea5a	Deep School Training	Trained through apprenticeship networks covering craft, political knowledge, and moral frameworks.	lore_state	boolean		true									
+99871dea-5564-492a-9a56-c7c48a13b63c	Infrastructure Knowledge	Detailed knowledge of specific infrastructure systems; player may define specialization area.	lore_state	string		system_specific									
+3d9ceb7a-ca46-4b05-9109-768fe005f9a4	Ronin Hand Size	Starting hand size for Ronin class.	class_core	number		6									
+9c0cb26e-644b-40ac-9ddf-368339727f25	Ronin Primary Stats	Primary stat pair: IRON and EDGE.	class_core	string		IRON/EDGE									
+f420a1da-23e7-4bd1-a452-925f62639d0b	Ronin HP Modifier	HP formula modifier: FRAME x8 + 14.	class_core	number		14									
+6414b044-547d-4972-ba15-2bbce5cf78ea	Corrupted Resonance Signature	Oath-broken resonance signature; persists after masterless status.	class_core	boolean		true									
+a6b69728-77df-454f-8689-c6c920b4b147	Oath Status	Current oath relationship: Masterless, Contracted, or Returned.	class_core	string		Masterless									
+73c136cd-1c23-4441-a7e0-eb6350c105f3	Ronin Path	Selected subclass path.	subclass	list	Ascendant Blade|Iron Contract|Returning Blade	Ascendant Blade									
+e01ded0b-597f-41c2-ae1b-ae8ba51f8dae	Contract Target	Current contract target; empty if uncontracted.	resource	string											
+01baa7a7-6c1a-4bb7-9709-49c38abbb524	Ashfoot Hand Size	Starting hand size for Ashfoot class.	class_core	number		7									
+49677395-78a4-41f2-ae52-17f50a1c7a79	Ashfoot Primary Stats	Primary stat pair: EDGE and IRON.	class_core	string		EDGE/IRON									
+76a521a8-72a9-4a7c-a163-1d2837e5fe2b	Ashfoot HP Modifier	HP formula modifier: FRAME x8 + 10.	class_core	number		10									
+f24c2323-3548-4011-81ee-da7574fb920c	Ashfoot Caste Tier	Social caste tier at campaign start.	class_core	string		Low									
+cec99fd0-1f47-4cba-80b4-0e866c1607d1	Enhancement Quality	Quality tier of starting augmentations: salvage, standard, or professional.	class_core	string		salvage									
+a0757311-17d0-4f85-a1d1-7b55ce0d9048	Ashfoot Path	Selected subclass path.	subclass	list	Skirmish Specialist|Formation Anchor|Salvage Innovator	Skirmish Specialist									
+8cb74e54-a8b1-4f0a-be67-1a9e7ea7fd08	Veilblade Hand Size	Starting hand size for Veilblade class.	class_core	number		7									
+70357fb9-a23c-4a7a-b0d8-8a4a36929c26	Veilblade Primary Stats	Primary stat pair: EDGE and SIGNAL.	class_core	string		EDGE/SIGNAL									
+7661472e-c07a-44d7-a91a-cfa240605903	Veilblade HP Modifier	HP formula modifier: FRAME x8 + 10.	class_core	number		10									
+f0fa2986-25bb-458f-bc9f-82838a17908a	Resonant Signature State	Suppressed signature prevents detection by standard resonance scans.	class_core	string		suppressed									
+6f48de93-e71f-4d0d-a16f-4b49a50e3195	Wire Integration Active	Character has active Wire Craft network integration.	class_core	boolean		true									
+d789f049-df70-48a1-ae5f-7243490f2c9a	Veilblade Path	Selected subclass path.	subclass	list	Shadow Operative|Signal Cutter|Ghost Archive	Shadow Operative									
+f231d634-9410-4045-9c28-e39bff79ed8a	Oni Hunter Hand Size	Starting hand size for Oni Hunter class.	class_core	number		6									
+0a7d68cb-fd3b-4dd6-8155-95a73b93c0ce	Oni Hunter Primary Stats	Primary stat pair: RESONANCE and IRON.	class_core	string		RESONANCE/IRON									
+8ad5c89f-766e-4a2d-b480-38bbe94820ea	Oni Hunter HP Modifier	HP formula modifier: FRAME x8 + 10.	class_core	number		10									
+60972634-562f-4185-a758-549f74415a67	Quarry Marked	True when a quarry is actively marked; enables mark-conditional card bonuses.	resource	boolean		false									
+32138d15-e854-4de7-aa3c-d8171be71925	Dissolution Resonance	Accumulated dissolution resonance; enables certain high-tier abilities.	resource	number		0									
+18b0737d-eb1d-4df5-a122-fe206201d0be	Oni Hunter Path	Selected subclass path.	subclass	list	Dissolution Specialist|Afterlife Anchor|Resonance Collector	Dissolution Specialist									
+671e5e37-f3d2-4727-bd40-b6e497256312	Forge Tender Hand Size	Starting hand size for Forge Tender class.	class_core	number		7									
+aa0fc382-b698-4ce8-8fca-5b8678994963	Forge Tender Primary Stats	Primary stat pair: SIGNAL and RESONANCE.	class_core	string		SIGNAL/RESONANCE									
+d2808d14-b1b6-4d55-b386-afb44c302335	Forge Tender HP Modifier	HP formula modifier: FRAME x8 + 10.	class_core	number		10									
+ba4a4147-afac-4b27-9971-c80742010200	Resonance Keepers Aligned	Character is aligned with the Iron Sutra Resonance Keepers faction.	class_core	boolean		false									
+2a3d62ef-7905-4e76-b383-594e999a2c84	Community Dependent	Character draws power and knowledge from community relationships.	class_core	boolean		true									
+3ad976cf-3566-45d8-ad40-36eccb7b5e5b	Forge Tender Path	Selected subclass path.	subclass	list	Resonance Keeper|Black Smith|Echomind Anchor	Resonance Keeper									
+59fcd35c-5e23-4aec-86da-a67046de4a3a	Wireweave Hand Size	Starting hand size for Wireweave class.	class_core	number		7									
+09c8ca0a-98ec-4280-8722-7908296a6493	Wireweave Primary Stats	Primary stat pair: SIGNAL and EDGE.	class_core	string		SIGNAL/EDGE									
+4ef38014-fbae-40a2-a749-14eeb55cb087	Wireweave HP Modifier	HP formula modifier: FRAME x8 + 6 (Technical tier).	class_core	number		6									
+07b38e65-fcba-4801-a060-a911dd1b50f4	Wireweave Path	Selected subclass path.	subclass	list	Combat Weave|Wire Broker|Iron Afterlife Weave|Loom Maker	Combat Weave									
+61b60661-a563-4760-956f-692caa392bc2	Chrome Shaper Hand Size	Starting hand size for Chrome Shaper class.	class_core	number		7									
+11a04f1d-e3e6-4836-ab2c-63f36d51824f	Chrome Shaper Primary Stats	Primary stat pair: IRON and SIGNAL.	class_core	string		IRON/SIGNAL									
+9fe8bfa8-6c94-47e9-896b-550950adf90e	Chrome Shaper HP Modifier	HP formula modifier: FRAME x8 + 6 (Technical tier).	class_core	number		6									
+bdc0bebb-18e0-49d2-8f86-a298eff3e7a4	Experimental Designs	Count of experimental design applications available; grows with level.	resource	number		0									
+222bdea0-8bbf-489e-99c2-13102e157314	Chrome Shaper Path	Selected subclass path.	subclass	list	War Shaper|Edge Builder|Resonance Sculptor	War Shaper									
+7be2ce2f-6e39-4eb7-91b5-298bd6793aa7	Pulse Caller Hand Size	Starting hand size for Pulse Caller class.	class_core	number		7									
+51edecea-b441-4d06-b9a2-1816b2db8bd2	Pulse Caller Primary Stats	Primary stat pair: SIGNAL and RESONANCE.	class_core	string		SIGNAL/RESONANCE									
+8a2ac36b-5987-4574-83ae-665fcb440394	Pulse Caller HP Modifier	HP formula modifier: FRAME x8 + 6 (Technical tier).	class_core	number		6									
+f3dead4f-50d7-4167-8ecf-270a0724f660	Integrated Weapon Active	Pulse arm weapon is integrated into chassis.	class_core	boolean		true									
+b716e30e-22e9-4a92-b799-1b236185f52c	Preconscious Fire Active	Enables reaction-speed preconscious firing when unlocked.	resource	boolean		false									
+ee8e98e8-1a1e-4e07-afa9-aea55e03e653	Pulse Caller Path	Selected subclass path.	subclass	list	Single Point|Iron Suppressor|Resonant Shot	Single Point									
+4fa3dc56-e096-4a5d-8ab8-4d9a6d8c8dcb	Iron Monk Hand Size	Starting hand size for Iron Monk class (smallest in system).	class_core	number		5									
+3fae236e-772e-4ed8-b731-a023f3183ad7	Iron Monk Primary Stats	Primary stat pair: IRON and RESONANCE.	class_core	string		IRON/RESONANCE									
+ca9dd7ad-a2fe-415e-ba41-0b25f3134e22	Iron Monk HP Modifier	HP formula modifier: FRAME x8 + 20 (Heavy tier).	class_core	number		20									
+1a643db5-7fb1-4608-9cec-c733963697d9	Between State Active	True when character is in Between philosophical state; enables state-conditional bonuses.	resource	boolean		false									
+0e918757-8b7d-431b-acaf-1d650223720d	Below Half HP Bonus Active	Tracks below-half-HP bonus state for scaling abilities.	resource	boolean		false									
+42c787f8-8ccf-42bd-bb93-b375e3cedaf9	Iron Monk Path	Selected subclass path.	subclass	list	Orthodoxy|Resonants|Flesh Circle|Path Of The Between	Orthodoxy									
+6f4918db-39a3-4586-a394-fa6477f925ac	Echo Speaker Hand Size	Starting hand size for Echo Speaker class.	class_core	number		7									
+b82c4410-b0df-4174-b146-fe6219d1a68e	Echo Speaker Primary Stats	Primary stat pair: RESONANCE and VEIL.	class_core	string		RESONANCE/VEIL									
+cfae2d53-c789-439c-8e9c-34afe81a2f78	Echo Speaker HP Modifier	HP formula modifier: FRAME x8 + 6 (Technical tier).	class_core	number		6									
+210e2684-32b5-4ae5-b444-c8eefdd3cf4a	Afterlife Affinity	Character has permanent attunement to Iron Afterlife energies.	class_core	boolean		true									
+f2a4269f-c4f3-4318-aa9f-c5e8ba7800c8	Grief Stacks	Accumulated grief resonance; scales certain high-tier abilities.	resource	number		0									
+975ec72d-53fe-4d97-bd17-499385cf1fa8	Echo Speaker Path	Selected subclass path.	subclass	list	Sutensai Aligned|Deep Listener|Herald	Sutensai Aligned									
+f3ab8be7-f9c0-44bf-b252-70932bf30e14	Void Walker Hand Size	Starting hand size for Void Walker class.	class_core	number		7									
+b47968ac-a776-4b8a-a6ce-4b621c748b82	Void Walker Primary Stats	Primary stat pair: RESONANCE and EDGE.	class_core	string		RESONANCE/EDGE									
+d8a5c371-8cff-4570-83b7-9e1004881107	Void Walker HP Modifier	HP formula modifier: FRAME x8 + 6 (Technical tier).	class_core	number		6									
+65afee0e-60ac-47c4-888b-2c727460ffc6	Incorporeal State Active	True when character is partially phased into void; enables phase-conditional abilities.	resource	boolean		false									
+0c6f3129-a100-4ec8-b708-b818d47971fc	Anchor Points	Active anchor connections to physical plane; enables anchor-conditional abilities.	resource	number		0									
+6ec05212-dde8-42f3-8ec5-fe92bea3e6a9	Void Walker Path	Selected subclass path.	subclass	list	Ghost Operative|Threshold Puller|Anchor Keeper	Ghost Operative									
+da31bc86-87b9-4cce-8771-1cf32a2842e5	Sutensai Hand Size	Starting hand size for Sutensai class.	class_core	number		7									
+00159564-25d2-4473-8def-3bbea4f02c08	Sutensai Primary Stats	Primary stat pair: RESONANCE and VEIL.	class_core	string		RESONANCE/VEIL									
+caf18139-807a-42c4-9c41-f0884d7b3c62	Sutensai HP Modifier	HP formula modifier: FRAME x8 + 6 (Technical tier).	class_core	number		6									
+ba5995e4-3380-4e60-a6fa-dd9ad5043843	Reader Authority	Character holds official Sutensai Echomind reading authority.	class_core	boolean		true									
+b1b842f6-2468-4ede-ba2a-0e21fa0a452c	Echomind Reading Level	Current authorized reading depth; scales with level and path.	resource	number		1									
+772649dc-791b-4ff2-85fc-9af22e7d7a2c	HP Cost Payment Enabled	Character may pay HP instead of AP for selected cards.	class_core	boolean		true									
+9f2004fd-ae31-4467-a7e6-fba98a988e6d	Sutensai Path	Selected subclass path.	subclass	list	Inquisitor|Archive Master|Priors Voice	Inquisitor									
+b663b928-2d38-4bf6-991b-119db9191a18	Flesh Shaper Hand Size	Starting hand size for Flesh Shaper class.	class_core	number		7									
+09651f4b-0855-42c1-aabb-850909dc6c86	Flesh Shaper Primary Stats	Primary stat pair: IRON and SIGNAL.	class_core	string		IRON/SIGNAL									
+a2fa7b5c-868e-4c89-a694-63bf3d401d00	Flesh Shaper HP Modifier	HP formula modifier: FRAME x8 + 10 (Balanced tier).	class_core	number		10									
+c09f7016-85a9-4ce2-a055-9b55c4e49eed	Flesh Shaper HP Tier	Tracks HP tier for tier-conditional card scaling.	resource	list	full|wounded|critical	full									
+57fb258a-8636-48d6-9de3-9a1ab88c3306	Flesh Shaper Path	Selected subclass path.	subclass	list	The Mender|The Corruptor|The Self Shaper	The Mender									
+4e3c518e-1f4c-47ed-b684-86e1c2047256	Puppet Binder Hand Size	Starting hand size for Puppet Binder class.	class_core	number		7									
+dbb6df87-dadc-4f80-a054-61b7481f2c24	Puppet Binder Primary Stats	Primary stat pair: SIGNAL and VEIL.	class_core	string		SIGNAL/VEIL									
+d50f9c77-3dcc-4319-bf0f-840636b6ad96	Puppet Binder HP Modifier	HP formula modifier: FRAME x8 + 10.	class_core	number		10									
+16ee9a32-1494-471b-918b-c36bd9f76618	Vessel Active	True when an active bound vessel exists.	resource	boolean		false									
+75d5f4f0-caca-4f96-8059-ffc237d5d03b	Binding Threads	Number of currently bound targets.	resource	number		0									
+025503b1-2dc7-4c45-953e-4fe3a18353bd	Puppet Binder Path	Selected subclass path.	subclass	list	The Architect|The Possessor|The Network	The Architect									
+5cfb41e6-ee49-4ec9-a647-3fb781f67d50	Blood Smith Hand Size	Starting hand size for Blood Smith class.	class_core	number		6									
+ffa0a369-2b31-48c7-a2f3-828a687b3086	Blood Smith Primary Stats	Primary stat pair: IRON and RESONANCE.	class_core	string		IRON/RESONANCE									
+c4abdfb6-8838-4e5f-9ad0-545d60fcf096	Blood Smith HP Modifier	HP formula modifier: FRAME x8 + 14 (Martial tier).	class_core	number		14									
+3ae0924a-2abc-436e-bd67-aff8226ce1a5	Enhancement Status	Tracks enhancement stress state; scales certain reactions.	resource	list	stable|stressed|failing	stable									
+23a4d3c4-25b4-4ff2-a835-2ece90adef3e	Blood Smith Path	Selected subclass path.	subclass	list	The Weaponsmith|The Armorer|The Sculptor	The Weaponsmith									
+206a193d-2cb5-47de-8fa3-d571046dae5a	Hollow Hand Size	Starting hand size for The Hollow class.	class_core	number		6									
+7f609f34-27eb-49ba-9dd2-37e79531a5e6	Hollow Primary Stats	Primary stat pair: RESONANCE and FRAME.	class_core	string		RESONANCE/FRAME									
+d139555e-d6e0-42fd-9f00-2b28e6e3aed6	Hollow HP Modifier	HP formula modifier: FRAME x8 + 16 (Resilient tier).	class_core	number		16									
+cd4bd89c-285c-4de4-bd2a-b9a9fdcc5844	Hollow Path	Selected subclass path: The Empty (pure resonance) or The Shell (machine-dominant).	subclass	list	The Empty|The Shell	The Empty									
+1a184aa9-887b-4eda-8e75-d2098063363b	Current HP Percent	Current HP as percentage; drives below-half and below-quarter scaling cards.	resource	number		100									
+4da0d7fd-c513-41c4-bb5b-5418a28f52a4	Shadow Daimyo Hand Size	Starting hand size for Shadow Daimyo class.	class_core	number		7									
+796fdd56-c46c-49c5-8a29-18218fcd9b95	Shadow Daimyo Primary Stats	Primary stat pair: VEIL and SIGNAL.	class_core	string		VEIL/SIGNAL									
+0568d862-f910-4fb4-9d57-2260437f6d0d	Shadow Daimyo HP Modifier	HP formula modifier: FRAME x8 + 10.	class_core	number		10									
+f6c0c5cc-39e4-4f40-9b0a-d47a1a3bae09	Intelligence Gathered	Accumulated intelligence points; unlocks option-expanding abilities.	resource	number		0									
+85ec14f1-68ad-4dab-b668-cb80c129aee6	Active Contacts	Number of active established contacts.	resource	number		0									
+ee5ca71b-331f-4c05-9d40-2b47ae574cd6	Shadow Daimyo Path	Selected subclass path.	subclass	list	Spymaster|Court Blade|Broker	Spymaster									
+e655b6c1-1d4d-4c2f-b64c-4bcd341c4cf7	Voice of Debt Hand Size	Starting hand size for Voice of Debt class.	class_core	number		7									
+bb40e8fb-630d-4e1b-a2da-afe173a1118d	Voice of Debt Primary Stats	Primary stat pair: VEIL and SIGNAL.	class_core	string		VEIL/SIGNAL									
+9a5a2b3f-dc5d-4291-986c-afcf5a79b869	Voice of Debt HP Modifier	HP formula modifier: FRAME x8 + 10.	class_core	number		10									
+38f03d68-5ff7-4840-8f45-165e9184c1a9	Debt Detonations Used	Count of Debt Detonations triggered this combat; resets per encounter.	resource	number		0									
+a5f6359f-f2e4-44a5-b4c5-85ccd0c4888f	Voice of Debt Path	Selected subclass path.	subclass	list	Oath Keeper|Debt Collector|The Breaker	Oath Keeper									
+92227ff5-30e6-4f08-8ea5-d94e3110d0d5	Merchant Knife Hand Size	Starting hand size for Merchant Knife class.	class_core	number		7									
+1cfbd6e6-a794-429e-970b-919a475a45fc	Merchant Knife Primary Stats	Primary stat pair: VEIL and EDGE.	class_core	string		VEIL/EDGE									
+e2ee4434-ea7b-4ffe-a07f-a97aa85ddbff	Merchant Knife HP Modifier	HP formula modifier: FRAME x8 + 10.	class_core	number		10									
+f62facc6-1f65-4d20-a0a4-affc3d6e28b5	Merchant Knife Path	Selected subclass path.	subclass	list	Supply Cutter|Gilded Blade|Kingmaker	Supply Cutter									
+008c81bb-9f83-456f-aeff-478d3aceb626	Iron Herald Hand Size	Starting hand size for Iron Herald class.	class_core	number		7									
+65187fe3-0e17-40ee-a728-d287454e4046	Iron Herald Primary Stats	Primary stat pair: IRON and VEIL.	class_core	string		IRON/VEIL									
+b80c9d2c-bc64-4aac-ab84-c517ce661db1	Iron Herald HP Modifier	HP formula modifier: FRAME x8 + 12.	class_core	number		12									
+fc8cdb3c-00fa-440e-b39a-e4a65320366f	Command Zone Active	True when Command Zone is established; enables zone-synergy cards.	resource	boolean		false									
+ff6e6dc5-5616-4c85-8395-d91d93a9df16	Priority Target ID	ID of current Priority Target; empty when unset.	resource	string											
+8f02c090-dd2e-4b67-9257-4f6f2fd31b0e	Command Zone Radius	Current Command Zone radius in feet; scales with level.	resource	number		15									
+13df6b11-9c55-4a2a-8d78-563b5e5c01c0	Iron Herald Path	Selected subclass path.	subclass	list	Warbanner|Neutral Tongue|The Signal	Warbanner									
+9104c37c-087c-472e-b06c-eb98f1d03013	Curse Eater Hand Size	Starting hand size for Curse Eater class.	class_core	number		7									
+83d1c899-bcca-4f05-a258-7a8cf467bb04	Curse Eater Primary Stats	Primary stat pair: RESONANCE and FRAME.	class_core	string		RESONANCE/FRAME									
+b31fbbda-f0c8-4fcf-9d5f-01d361f2930e	Curse Eater HP Modifier	HP formula modifier: FRAME x8 + 14.	class_core	number		14									
+b0a4a44a-a002-4da1-bdc0-3593311cfc9f	Loaded Count	Current Loaded status stacks on self; absorbed debuffs. Scales damage output.	resource	number		0									
+917b1bd9-9579-4bea-b0df-b4f946728d4e	Corruption Points	Accumulated corruption; tracks Consumed subclass transformation pressure.	resource	number		0									
+9e00b2ce-e6c1-4aea-9f93-165111e36142	Curse Eater Path	Selected subclass path.	subclass	list	Purifier|Conduit|The Consumed	Purifier									
+5568db73-e96e-4e15-a94d-9ef86711376f	Shell Dancer Hand Size	Starting hand size for Shell Dancer class.	class_core	number		7									
+6561c244-3e4e-4ab7-9d53-8dacf0d21f37	Shell Dancer Primary Stats	Primary stat pair: EDGE and RESONANCE.	class_core	string		EDGE/RESONANCE									
+1b83960c-8eea-4091-892c-26394dca5d50	Shell Dancer HP Modifier	HP formula modifier: FRAME x8 + 10.	class_core	number		10									
+638a0c94-d487-4bb8-90a9-85360e2eaedf	Cascade Count	Current Cascade resource from 0 to 10; generated from taking damage.	resource	number		0									
+96f8b380-7345-4af2-9263-8ba443734e4d	In Shell Step	True while Shell Step evasion state is active.	resource	boolean		false									
+b89d8bde-c4e0-4e2a-851d-81a981f417d8	Shell Step Turns Remaining	Turns remaining in Shell Step state.	resource	number		0									
+9fc13b8b-915e-44cc-ab35-43b738918b29	Shell Dancer Path	Selected subclass path.	subclass	list	The Breaker|The Survivor|The Scavenger	The Breaker									
+1833c399-7ee9-4361-a43d-b1f457fac7da	Fracture Knight Hand Size	Starting hand size for Fracture Knight class.	class_core	number		7									
+deb966a6-edf8-4ccc-be19-6a517b59861c	Fracture Knight Primary Stats	Primary stat pair: IRON and RESONANCE.	class_core	string		IRON/RESONANCE									
+5bbef789-7df6-412b-a578-22dcdf5f2721	Fracture Knight HP Modifier	HP formula modifier: FRAME x8 + 12.	class_core	number		12									
+099a42a9-49fe-44b9-b3f8-ec331e2856e8	Phantom Charges	Current Phantom Charges from 0 to 6; fuel for Between-sourced abilities.	resource	number		2									
+75190c0e-b4f9-49f7-884a-acf31687448e	Fracture Stacks on Self	Fracture stacks currently applied to this character; scales risk/reward abilities.	resource	number		0									
+c8f68a56-c4e8-48ab-bd36-b10addbc9a96	Fracture Knight Path	Selected subclass path.	subclass	list	The Claimed|Haunted Legion|The Anchor	The Claimed									
+281f7413-f083-4407-8614-860bf647a0cc	Unnamed Hand Size	Starting hand size for The Unnamed class.	class_core	number		7									
+c8fe5be1-c32a-4e41-8712-8f95256b3ee2	Unnamed Primary Stats	Active stat shifts each combat; defined by player through play.	class_core	string		IRON									
+50fbf8bf-cba4-4002-83f0-4af23e7de797	Unnamed HP Modifier	HP formula modifier: FRAME x8 + 10.	class_core	number		10									
+dcc2cee1-7271-4c7a-bfb1-87132d42a5e3	Active Stat	Current dominant stat for this combat; can shift with play.	resource	list	IRON|EDGE|SIGNAL|RESONANCE|VEIL|FRAME	IRON									
+3aa5c296-4ef1-4336-b2b1-2637b2df1f1e	Unnamed Path	Selected subclass path: Convergent (stable/deepening) or Divergent (shifting/expanding).	subclass	list	Convergent|Divergent	Convergent									
+f72aff88-0ce3-472f-95dd-9c915ab73e26	Card 1 Condition	Player-defined unlock condition for Card 1.	lore_state	string											
+d6414ad5-fec2-4451-a4b8-b7c1b19dc329	Card 2 Condition	Player-defined unlock condition for Card 2.	lore_state	string											
+256097a2-2ffe-43c4-b64f-99ead7454c52	Card 3 Condition	Player-defined unlock condition for Card 3.	lore_state	string											
+afe35a7d-4ec2-46ee-b1ba-4f88d770d9c9	Card 4 Condition	Player-defined unlock condition for Card 4.	lore_state	string											
+04eeae36-131f-423d-bb3f-8ddc76c6c022	Card 5 Condition	Player-defined unlock condition for Card 5.	lore_state	string											
+0a861a6f-6043-4006-b133-7909bcb258f7	Card 6 Condition	Player-defined unlock condition for Card 6.	lore_state	string											
+c347b67d-81c1-48b7-ab54-262df043e58b	Card 7 Condition	Player-defined unlock condition for Card 7.	lore_state	string											
+68acc979-4bd5-454d-8fb8-db22d19899ae	Card 8 Condition	Player-defined unlock condition for Card 8.	lore_state	string											
+8e54598b-38ba-49d9-8f61-f9b5aa7476ae	Card 9 Condition	Player-defined unlock condition for Card 9.	lore_state	string											
+281db913-48f3-40bd-bf24-501828a4b4d2	Card 10 Condition	Player-defined unlock condition for Card 10.	lore_state	string											
+0b13102f-99ea-4bda-987a-32d49f623fd5	Card 11 Condition	Player-defined unlock condition for Card 11.	lore_state	string											
+38e84e1d-feb5-4f37-9653-b0e327e09348	Card 12 Condition	Player-defined unlock condition for Card 12.	lore_state	string											
+eafe400e-937b-4d96-a905-217b8d4fbb7b	Card 13 Condition	Player-defined unlock condition for Card 13.	lore_state	string											
+865fa5eb-b349-49ce-8e1f-ee81e10b7f17	Card 14 Condition	Player-defined unlock condition for Card 14.	lore_state	string											
+ee833873-c5fb-40c3-95e9-a5501e254186	IRON	Melee damage, physical force, grapple, and forced movement.	stat	number		1			1	6					
+ca0ab739-0ba0-431d-8034-5622a2005754	EDGE	Determines initiative order. Precision, ranged attacks, evasion.	stat	number		1			1	6					
+2ea1a2e4-4dec-46ce-8260-571ebfc26ca3	FRAME	Determines HP. Endurance, resistance, damage thresholds.	stat	number		1			1	6					
+240f9ee1-31f9-479a-a4c7-ab5cb3a0c0f4	SIGNAL	Signal attacks, Wire Craft aptitude, hacking, technical debuffs.	stat	number		1			1	6					
+b8863831-a522-4295-a658-d70ed86158b9	RESONANCE	Resonant attacks, spiritual interaction, healing, Iron Afterlife access.	stat	number		1			1	6					
+cf235f9c-7298-47ca-ac77-c8a0ebdee133	VEIL	Social and command cards, manipulation, concealment, crowd control.	stat	number		1			1	6					
+61a8e318-b453-40a0-b18b-f7d52cbeb857	Points Spent	Running total of stat points distributed at creation (max 20).	creation	number		0				0	20				
+69e18909-a39f-4a1a-97d8-797f9ae0dbeb	Hand Size Base	Class starting hand size. Set by class archetype on_add.	derived	number		6									
+9896621d-9abd-4c07-ba57-99daca4f7fdf	Hand Size Race Mod	Race hand size modifier (+0 Forged/Stitched, +1 most races, +2 Diminished).	derived	number		0									
+110aba6b-fb71-43c9-9ed4-7b2f22596f59	Hand Size Total	Total cards available per turn (class base + race modifier).	derived	number		6									
+7880e770-5e97-4e88-95ae-69e3768a4c5a	HP Class Modifier	Class HP modifier for HP formula: (FRAME x 8) + this value.	derived	number		14									
+b9778f78-06e8-471b-a811-2cc536d80d04	Reach	Which Reach the character is from.	background	list	Sunder Reach|Veilward Reach|Pale Reach|Iron Teeth Reach|The Ashlands|Echo Coast|Northern Pale	Sunder Reach									
+d9ebc936-b399-4329-89ab-21588361adaf	Caste	Character social caste at campaign start.	background	list	Resonant Caste|Craftbound Caste|Ashwalker Caste|Hollow Poor	Craftbound Caste									
+8cf72fb7-6365-4f4f-ad7c-b1a3634292c0	Faction Ties	Faction allegiance at campaign start, if any.	background	list	Korrath the Unbroken|Vaen of the Empty Hand|Iron Sutra Orthodoxy|Wire Market Guilds|None	None									
+5ddfb616-f650-45e4-ae8f-0331f0b4eb40	Who I Owe	Who has a claim on this character — lord, debt, contract, family, ghost.	background	string											
+80289b34-8b02-4751-9195-443f97e9bcf1	What I Need	Not want — need. The thing driving this character into danger.	background	string											
+c5ecee74-94f7-4096-b5d0-22afc313c9c1	Subclass Selection	Pick the subclass path matching your selected Class. The character loader applies the mechanical effects.	subclass	list	Ironclad Samurai — Oath Iron Lord|Ironclad Samurai — Oath Sutensai Blade|Ironclad Samurai — Oath Undying Debt|Ironclad Samurai — Oath Flesh Temple|Ronin — Ascendant Blade|Ronin — Iron Contract|Ronin — Returning Blade|Ashfoot — Skirmish Specialist|Ashfoot — Formation Anchor|Ashfoot — Salvage Innovator|Veilblade — Shadow Operative|Veilblade — Signal Cutter|Veilblade — Ghost Archive|Oni Hunter — Dissolution Specialist|Oni Hunter — Afterlife Anchor|Oni Hunter — Resonance Collector|Forge Tender — Resonance Keeper|Forge Tender — Black Smith|Forge Tender — Echomind Anchor|Wireweave — Combat Weave|Wireweave — Wire Broker|Wireweave — Iron Afterlife Weave|Wireweave — Loom Maker|Chrome Shaper — War Shaper|Chrome Shaper — Edge Builder|Chrome Shaper — Resonance Sculptor|Pulse Caller — Single Point|Pulse Caller — Iron Suppressor|Pulse Caller — Resonant Shot|Iron Monk — Orthodoxy|Iron Monk — Resonants|Iron Monk — Flesh Circle|Iron Monk — Path Of The Between|Echo Speaker — Sutensai Aligned|Echo Speaker — Deep Listener|Echo Speaker — Herald|Void Walker — Ghost Operative|Void Walker — Threshold Puller|Void Walker — Anchor Keeper|Sutensai — Inquisitor|Sutensai — Archive Master|Sutensai — Priors Voice|Flesh Shaper — The Mender|Flesh Shaper — The Corruptor|Flesh Shaper — The Self Shaper|Puppet Binder — The Architect|Puppet Binder — The Possessor|Puppet Binder — The Network|Blood Smith — The Weaponsmith|Blood Smith — The Armorer|Blood Smith — The Sculptor|The Hollow — The Empty|The Hollow — The Shell|Shadow Daimyo — Spymaster|Shadow Daimyo — Court Blade|Shadow Daimyo — Broker|Voice of Debt — Oath Keeper|Voice of Debt — Debt Collector|Voice of Debt — The Breaker|Merchant Knife — Supply Cutter|Merchant Knife — Gilded Blade|Merchant Knife — Kingmaker|Iron Herald — Warbanner|Iron Herald — Neutral Tongue|Iron Herald — The Signal|Curse Eater — Purifier|Curse Eater — Conduit|Curse Eater — The Consumed|Shell Dancer — The Breaker|Shell Dancer — The Survivor|Shell Dancer — The Scavenger|Fracture Knight — The Claimed|Fracture Knight — Haunted Legion|Fracture Knight — The Anchor|The Unnamed — Convergent|The Unnamed — Divergent										

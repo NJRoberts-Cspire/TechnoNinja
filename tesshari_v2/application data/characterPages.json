@@ -3,19 +3,9 @@
     "label": "Character",
     "hideFromPlayerView": false,
     "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
-    "pageId": "1d8dfec4-d7b1-4c14-a1a5-d50ddc5416a0",
-    "id": "201920a7-b9fb-4dd1-8cab-fef3c91850b1",
-    "characterId": "b41dcb77-026c-4b10-80b5-d026ce7c04be",
-    "createdAt": "2026-04-17T12:00:00.000Z",
-    "updatedAt": "2026-04-17T12:00:00.000Z"
-  },
-  {
-    "label": "Creation",
-    "hideFromPlayerView": false,
-    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
-    "pageId": "abfb5c48-bd41-41ea-9a4e-0f9df4e612ca",
-    "id": "45d2c6a2-e7b8-4493-97ee-83f7e96ceb22",
-    "characterId": "b41dcb77-026c-4b10-80b5-d026ce7c04be",
+    "pageId": "16ecd56b-989c-49d6-bbc3-a69db6c60bb6",
+    "id": "a5274722-d904-4879-bc1f-99b3e0f82fcb",
+    "characterId": "7c26a059-4c05-44e5-bc7a-a09a7197fa35",
     "createdAt": "2026-04-17T12:00:00.000Z",
     "updatedAt": "2026-04-17T12:00:00.000Z"
   },
@@ -23,9 +13,9 @@
     "label": "Combat",
     "hideFromPlayerView": false,
     "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
-    "pageId": "6fee9f8f-257e-4183-8cdc-84293bf73a34",
-    "id": "49469443-0ceb-43b8-8df5-2af3a5f06ce5",
-    "characterId": "b41dcb77-026c-4b10-80b5-d026ce7c04be",
+    "pageId": "784cf195-a28e-49d5-a8a0-719cead31d3b",
+    "id": "b9d672b2-22fd-4a79-8516-e67430b7b176",
+    "characterId": "7c26a059-4c05-44e5-bc7a-a09a7197fa35",
     "createdAt": "2026-04-17T12:00:00.000Z",
     "updatedAt": "2026-04-17T12:00:00.000Z"
   }

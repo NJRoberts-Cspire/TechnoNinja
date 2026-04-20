@@ -3,13 +3,13 @@
 Rebuilt using the D&D 5e System Module format as reference.
 
 ## Counts
-- Attributes: 291
+- Attributes: 292
 - Actions: 395
 - Items: 606
-- Archetypes: 42
+- Archetypes: 2
 - Windows: 7
-- Pages: 3
-- Components: 171
+- Pages: 2
+- Components: 127
 
 ## Import
 Delete existing Tesshari ruleset in QB, then import this zip.
