@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "data": "node scripts/build-data.mjs",
+    "data": "node scripts/stat-cards.mjs && node scripts/build-data.mjs",
     "dev": "npm run data && vite",
     "build": "npm run data && tsc -b && vite build",
     "preview": "vite preview",

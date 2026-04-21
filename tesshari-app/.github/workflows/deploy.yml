@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - 'tesshari-app/**'
+      - 'questbound/import_tsv/aligned_for_qb/**'
+      - 'tesshari_v2/documents/**'
       - '.github/workflows/deploy.yml'
   workflow_dispatch:
 

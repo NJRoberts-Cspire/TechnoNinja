@@ -1,10 +1,10 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import type { Character, StatKey } from '@/data/types';
-import { defaultCharacter, STAT_KEYS, STAT_DESCRIPTIONS, STAT_BUDGET, STAT_MIN, STAT_MAX } from '@/data/types';
-import { SPECIES, CLASSES, SUBCLASS_BY_CLASS, SPECIES_FLAVOR, CLASS_FLAVOR, SUBCLASS_FLAVOR } from '@/data/generated';
+import { defaultCharacter, STAT_KEYS, STAT_DESCRIPTIONS, STAT_TOTAL_BUDGET, STAT_MIN, STAT_CREATION_MAX } from '@/data/types';
+import { SPECIES, CLASSES, SUBCLASS_BY_CLASS, SPECIES_FLAVOR, CLASS_FLAVOR, SUBCLASS_FLAVOR, CLASS_PRIMARY_STATS, RACE_STAT_BONUSES, RACE_HAND_MOD } from '@/data/generated';
 import { ClassDetail } from '@/components/ClassDetail';
 import { SkillTree } from '@/components/SkillTree';
-import { pointsRemaining, pointsSpent, cn } from '@/lib/utils';
+import { pointsRemaining, pointsSpent, cn, maxHpFor, maxHpForUnnamed, effectiveStats, effectiveStat } from '@/lib/utils';
 
 type Step = 'species' | 'class' | 'subclass' | 'stats' | 'background' | 'review';
 const STEPS: { key: Step; label: string }[] = [
@@ -26,16 +26,23 @@ export function CreationWizard({ onCancel, onCreate }: Props) {
   const [draft, setDraft] = useState<Character>(() => defaultCharacter());
 
   const stepIdx = STEPS.findIndex((s) => s.key === step);
+
+  // Bonus-any is required for races that have a player-chosen stat bonus (Forged, Echoed).
+  const speciesNeedsBonusPick = useMemo(() => {
+    return (RACE_STAT_BONUSES[draft.species] || []).some((b) => b.stat === 'any');
+  }, [draft.species]);
+  const speciesBonusChosen = speciesNeedsBonusPick ? !!draft.speciesBonusStat : true;
+
   const canAdvance = useMemo(() => {
     switch (step) {
-      case 'species': return !!draft.species;
+      case 'species': return !!draft.species && speciesBonusChosen;
       case 'class': return !!draft.className;
       case 'subclass': return true; // optional
       case 'stats': return pointsRemaining(draft.stats) === 0;
       case 'background': return !!draft.name.trim();
       case 'review': return true;
     }
-  }, [step, draft]);
+  }, [step, draft, speciesBonusChosen]);
 
   const next = () => {
     if (stepIdx < STEPS.length - 1) setStep(STEPS[stepIdx + 1].key);
@@ -45,11 +52,13 @@ export function CreationWizard({ onCancel, onCreate }: Props) {
   };
 
   const finish = () => {
-    // Set HP/AP based on FRAME stat
-    const maxHP = 20 + (draft.stats.FRAME - 1) * 5;
+    const effFrame = effectiveStat(draft, 'FRAME');
+    const newMax = draft.className === 'The Unnamed'
+      ? maxHpForUnnamed(draft.level, effectiveStats(draft))
+      : maxHpFor(draft.className, draft.level, effFrame);
     onCreate({
       ...draft,
-      hp: { current: maxHP, max: maxHP },
+      hp: { current: newMax, max: newMax },
       ap: { current: 3, max: 3 },
       pointsSpent: pointsSpent(draft.stats),
       createdAt: new Date().toISOString(),
@@ -57,7 +66,28 @@ export function CreationWizard({ onCancel, onCreate }: Props) {
     });
   };
 
+  // Enter-to-advance (but not inside textareas).
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== 'Enter' || e.shiftKey || e.altKey || e.ctrlKey || e.metaKey) return;
+      const target = e.target as HTMLElement | null;
+      if (target && target.tagName === 'TEXTAREA') return;
+      if (target && target.tagName === 'BUTTON') return;
+      if (step === 'review') {
+        e.preventDefault();
+        finish();
+      } else if (canAdvance) {
+        e.preventDefault();
+        next();
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  });
+
   const patch = (p: Partial<Character>) => setDraft((d) => ({ ...d, ...p }));
+  const patchBg = (bg: Partial<Character['background']>) =>
+    setDraft((d) => ({ ...d, background: { ...d.background, ...bg } }));
   const setStat = (k: StatKey, v: number) => setDraft((d) => ({ ...d, stats: { ...d.stats, [k]: v } }));
 
   return (
@@ -81,13 +111,11 @@ export function CreationWizard({ onCancel, onCreate }: Props) {
 
       <div className="bg-ink-900 border border-ink-700 rounded-lg p-6 min-h-[520px]">
         {step === 'species' && (
-          <Picker
-            title="Choose your Species"
-            hint="Eight strains of forged & remade. Species shapes flavor and identity more than numbers."
-            options={SPECIES as readonly string[]}
-            selected={draft.species}
-            onSelect={(v) => patch({ species: v })}
-            describe={(v) => SPECIES_FLAVOR[v]}
+          <SpeciesStep
+            species={draft.species}
+            bonusStat={draft.speciesBonusStat || ''}
+            onSelect={(v) => patch({ species: v, speciesBonusStat: '' })}
+            onBonusChange={(v) => patch({ speciesBonusStat: v })}
           />
         )}
 
@@ -107,21 +135,25 @@ export function CreationWizard({ onCancel, onCreate }: Props) {
         )}
 
         {step === 'stats' && (
-          <StatsStep stats={draft.stats} setStat={setStat} />
+          <StatsStep
+            draft={draft}
+            setStat={setStat}
+            setStats={(s) => setDraft((d) => ({ ...d, stats: s }))}
+            className={draft.className}
+          />
         )}
 
         {step === 'background' && (
           <BackgroundStep
             name={draft.name}
-            heritage={draft.background.heritage}
             background={draft.background}
             onNameChange={(name) => patch({ name })}
-            onBgChange={(bg) => patch({ background: { ...draft.background, ...bg } })}
+            onBgChange={patchBg}
           />
         )}
 
         {step === 'review' && (
-          <Review draft={draft} />
+          <Review draft={draft} onJumpTo={setStep} />
         )}
       </div>
 
@@ -162,36 +194,102 @@ export function CreationWizard({ onCancel, onCreate }: Props) {
   );
 }
 
-function Picker({ title, hint, options, selected, onSelect, describe }: {
-  title: string;
-  hint: string;
-  options: readonly string[];
-  selected: string;
+function SpeciesStep({ species, bonusStat, onSelect, onBonusChange }: {
+  species: string;
+  bonusStat: string;
   onSelect: (v: string) => void;
-  describe?: (v: string) => string | undefined;
+  onBonusChange: (v: StatKey | '') => void;
 }) {
+  const bonuses = RACE_STAT_BONUSES[species] || [];
+  const needsAnyPick = bonuses.some((b) => b.stat === 'any');
+  const fixedBonuses = bonuses.filter((b) => b.stat !== 'any');
+  const handMod = RACE_HAND_MOD[species] ?? 0;
+
   return (
     <div>
-      <h2 className="font-display text-2xl text-accent-gold">{title}</h2>
-      <p className="text-sm text-slate-400 mt-1 mb-4">{hint}</p>
+      <h2 className="font-display text-2xl text-accent-gold">Choose your Species</h2>
+      <p className="text-sm text-slate-400 mt-1 mb-4">
+        Eight strains of forged & remade. Species grants stat bonuses and a hand-size modifier — they apply on top of your creation stats.
+      </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
-        {options.map((v) => (
-          <button
-            type="button"
-            key={v}
-            onClick={() => onSelect(v)}
-            className={cn(
-              'text-left p-3 rounded border transition',
-              selected === v
-                ? 'bg-ink-600 border-accent-gold text-slate-50'
-                : 'bg-ink-800 border-ink-700 text-slate-300 hover:bg-ink-700 hover:border-ink-500',
-            )}
-          >
-            <div className="font-display font-bold">{v}</div>
-            {describe?.(v) && <div className="text-xs text-slate-400 mt-1 leading-snug">{describe(v)}</div>}
-          </button>
-        ))}
+        {SPECIES.map((v) => {
+          const bs = RACE_STAT_BONUSES[v] || [];
+          const hm = RACE_HAND_MOD[v] ?? 0;
+          return (
+            <button
+              type="button"
+              key={v}
+              onClick={() => onSelect(v)}
+              className={cn(
+                'text-left p-3 rounded border transition',
+                species === v
+                  ? 'bg-ink-600 border-accent-gold text-slate-50'
+                  : 'bg-ink-800 border-ink-700 text-slate-300 hover:bg-ink-700 hover:border-ink-500',
+              )}
+            >
+              <div className="font-display font-bold">{v}</div>
+              <div className="flex gap-1 flex-wrap mt-1">
+                {bs.map((b, i) => (
+                  <span key={i} className="text-[10px] bg-accent-gold/15 text-accent-gold px-1.5 py-0.5 rounded">
+                    +{b.value} {b.stat === 'any' ? 'any' : b.stat}
+                  </span>
+                ))}
+                {hm !== 0 && (
+                  <span className="text-[10px] bg-accent-steel/15 text-accent-steel px-1.5 py-0.5 rounded">
+                    Hand {hm > 0 ? '+' : ''}{hm}
+                  </span>
+                )}
+              </div>
+              {SPECIES_FLAVOR[v] && <div className="text-xs text-slate-400 mt-1 leading-snug">{SPECIES_FLAVOR[v]}</div>}
+            </button>
+          );
+        })}
       </div>
+
+      {species && (
+        <div className="mt-6 bg-ink-800 border border-ink-700 rounded p-4">
+          <div className="text-xs uppercase tracking-wider text-slate-400 mb-2">
+            {species} bonuses
+          </div>
+          <div className="flex flex-wrap gap-2 text-sm mb-3">
+            {fixedBonuses.map((b, i) => (
+              <span key={i} className="bg-accent-gold/15 text-accent-gold px-2 py-1 rounded font-display">
+                +{b.value} {b.stat}
+              </span>
+            ))}
+            {handMod !== 0 && (
+              <span className="bg-accent-steel/15 text-accent-steel px-2 py-1 rounded font-display">
+                Hand {handMod > 0 ? '+' : ''}{handMod}
+              </span>
+            )}
+          </div>
+          {needsAnyPick && (
+            <div>
+              <div className="text-xs uppercase tracking-wider text-slate-400 mb-2">
+                Choose your +1 bonus stat
+              </div>
+              <div className="flex flex-wrap gap-1.5">
+                {STAT_KEYS.map((k) => (
+                  <button
+                    type="button"
+                    key={k}
+                    onClick={() => onBonusChange(k)}
+                    className={cn(
+                      'px-3 py-1.5 text-xs rounded border font-display',
+                      bonusStat === k
+                        ? 'bg-ink-600 border-accent-gold text-accent-gold'
+                        : 'bg-ink-800 border-ink-700 text-slate-300 hover:bg-ink-700',
+                    )}
+                  >
+                    {k}
+                  </button>
+                ))}
+              </div>
+              {!bonusStat && <div className="text-xs text-red-400 mt-2">Pick one before advancing.</div>}
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }
@@ -314,15 +412,68 @@ function SubclassStep({ className, selected, onSelect }: { className: string; se
   );
 }
 
-function StatsStep({ stats, setStat }: { stats: Record<StatKey, number>; setStat: (k: StatKey, v: number) => void }) {
+function StatsStep({ draft, setStat, setStats, className }: {
+  draft: Character;
+  setStat: (k: StatKey, v: number) => void;
+  setStats: (s: Record<StatKey, number>) => void;
+  className: string;
+}) {
+  const stats = draft.stats;
   const remaining = pointsRemaining(stats);
+  const primary = (CLASS_PRIMARY_STATS[className] || []) as StatKey[];
+
+  const reset = (): Record<StatKey, number> =>
+    STAT_KEYS.reduce((acc, k) => ({ ...acc, [k]: STAT_MIN }), {} as Record<StatKey, number>);
+
+  const budgetToSpend = STAT_TOTAL_BUDGET - STAT_KEYS.length; // 14 points above base of 1 each
+
+  const applyBalanced = () => {
+    const base = reset();
+    const order: StatKey[] = [...STAT_KEYS];
+    for (let i = 0; i < budgetToSpend; i += 1) {
+      const k = order[i % order.length];
+      if (base[k] < STAT_CREATION_MAX) base[k] += 1;
+    }
+    setStats(base);
+  };
+
+  const applyRecommended = () => {
+    const base = reset();
+    const primaries = primary.length > 0 ? primary : (STAT_KEYS.slice(0, 2) as StatKey[]);
+    const secondaries = STAT_KEYS.filter((k) => !primaries.includes(k));
+    let left = budgetToSpend;
+    for (const k of primaries) {
+      const grow = Math.min(STAT_CREATION_MAX - 1, left);
+      base[k] = STAT_MIN + grow;
+      left -= grow;
+    }
+    let idx = 0;
+    while (left > 0 && secondaries.length > 0) {
+      const k = secondaries[idx % secondaries.length];
+      if (base[k] < STAT_CREATION_MAX) {
+        base[k] += 1;
+        left -= 1;
+      } else if (secondaries.every((s) => base[s] >= STAT_CREATION_MAX)) {
+        break;
+      }
+      idx += 1;
+    }
+    setStats(base);
+  };
+
+  const resetAll = () => setStats(reset());
+
   return (
     <div>
-      <div className="flex items-end justify-between mb-4">
+      <div className="flex items-end justify-between mb-3 flex-wrap gap-3">
         <div>
           <h2 className="font-display text-2xl text-accent-gold">Allocate Stats</h2>
           <p className="text-sm text-slate-400 mt-1">
-            Every stat starts at 1. Distribute {STAT_BUDGET} points; each stat caps at {STAT_MAX}.
+            Distribute {STAT_TOTAL_BUDGET} points total across six stats. Minimum 1, creation cap {STAT_CREATION_MAX}.
+            Race bonuses apply after and can push past {STAT_CREATION_MAX}.
+            {primary.length > 0 && (
+              <> <span className="text-accent-gold">{className}</span> favors <span className="text-accent-gold">{primary.join(' + ')}</span>.</>
+            )}
           </p>
         </div>
         <div className={cn(
@@ -334,57 +485,112 @@ function StatsStep({ stats, setStat }: { stats: Record<StatKey, number>; setStat
         </div>
       </div>
 
+      <div className="flex gap-2 mb-4 flex-wrap">
+        <button
+          type="button"
+          onClick={applyRecommended}
+          className="px-3 py-1.5 text-xs rounded bg-ink-700 border border-ink-600 hover:bg-ink-600 font-display uppercase tracking-wider text-slate-200"
+        >
+          Recommended
+        </button>
+        <button
+          type="button"
+          onClick={applyBalanced}
+          className="px-3 py-1.5 text-xs rounded bg-ink-700 border border-ink-600 hover:bg-ink-600 font-display uppercase tracking-wider text-slate-200"
+        >
+          Balanced
+        </button>
+        <button
+          type="button"
+          onClick={resetAll}
+          className="px-3 py-1.5 text-xs rounded bg-ink-800 border border-ink-700 hover:bg-ink-700 font-display uppercase tracking-wider text-slate-400 hover:text-slate-200"
+        >
+          Reset
+        </button>
+      </div>
+
       <div className="grid gap-3">
-        {STAT_KEYS.map((k) => (
-          <div key={k} className="flex items-center gap-3 bg-ink-800 border border-ink-700 rounded p-3">
-            <div className="w-28">
-              <div className="font-display font-bold">{k}</div>
-              <div className="text-xs text-slate-400">{STAT_DESCRIPTIONS[k]}</div>
-            </div>
-            <button
-              type="button"
-              onClick={() => setStat(k, Math.max(STAT_MIN, stats[k] - 1))}
-              disabled={stats[k] <= STAT_MIN}
-              className="w-10 h-10 rounded bg-ink-700 hover:bg-ink-600 disabled:opacity-30 text-xl font-bold"
+        {STAT_KEYS.map((k) => {
+          const isPrimary = primary.includes(k);
+          const base = stats[k];
+          const eff = effectiveStat(draft, k);
+          const bonus = eff - base;
+          return (
+            <div
+              key={k}
+              className={cn(
+                'flex items-center gap-3 border rounded p-3',
+                isPrimary ? 'bg-ink-800 border-accent-gold/40' : 'bg-ink-800 border-ink-700',
+              )}
             >
-              −
-            </button>
-            <div className="flex-1">
-              <div className="flex items-center gap-1">
-                {Array.from({ length: STAT_MAX }, (_, i) => i + 1).map((n) => (
-                  <div
-                    key={n}
-                    className={cn(
-                      'flex-1 h-6 rounded',
-                      n <= stats[k] ? 'bg-accent-gold' : 'bg-ink-700',
-                    )}
-                  />
-                ))}
+              <div className="w-28">
+                <div className="font-display font-bold flex items-center gap-1.5">
+                  {k}
+                  {isPrimary && (
+                    <span
+                      className="text-[9px] bg-accent-gold/20 text-accent-gold px-1.5 py-0.5 rounded font-normal tracking-wider"
+                      title={`Primary stat for ${className}`}
+                    >
+                      PRIMARY
+                    </span>
+                  )}
+                </div>
+                <div className="text-xs text-slate-400">{STAT_DESCRIPTIONS[k]}</div>
               </div>
+              <button
+                type="button"
+                onClick={() => setStat(k, Math.max(STAT_MIN, base - 1))}
+                disabled={base <= STAT_MIN}
+                aria-label={`Decrease ${k}`}
+                className="w-10 h-10 rounded bg-ink-700 hover:bg-ink-600 disabled:opacity-30 text-xl font-bold"
+              >
+                −
+              </button>
+              <div className="flex-1">
+                <div className="flex items-center gap-1">
+                  {Array.from({ length: STAT_CREATION_MAX }, (_, i) => i + 1).map((n) => (
+                    <div
+                      key={n}
+                      className={cn(
+                        'flex-1 h-6 rounded',
+                        n <= base ? 'bg-accent-gold' : 'bg-ink-700',
+                      )}
+                    />
+                  ))}
+                </div>
+              </div>
+              <div className="w-16 text-right font-display text-2xl text-accent-gold font-bold">
+                {eff}
+                {bonus > 0 && (
+                  <span className="text-[10px] text-accent-gold/70 ml-0.5" title={`${base} + ${bonus} race`}>
+                    +{bonus}
+                  </span>
+                )}
+              </div>
+              <button
+                type="button"
+                onClick={() => setStat(k, Math.min(STAT_CREATION_MAX, base + 1))}
+                disabled={base >= STAT_CREATION_MAX || remaining <= 0}
+                aria-label={`Increase ${k}`}
+                className="w-10 h-10 rounded bg-ink-700 hover:bg-ink-600 disabled:opacity-30 text-xl font-bold"
+              >
+                +
+              </button>
             </div>
-            <div className="w-10 text-center font-display text-2xl text-accent-gold font-bold">{stats[k]}</div>
-            <button
-              type="button"
-              onClick={() => setStat(k, Math.min(STAT_MAX, stats[k] + 1))}
-              disabled={stats[k] >= STAT_MAX || remaining <= 0}
-              className="w-10 h-10 rounded bg-ink-700 hover:bg-ink-600 disabled:opacity-30 text-xl font-bold"
-            >
-              +
-            </button>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );
 }
 
-function BackgroundStep({ name, heritage, background, onNameChange, onBgChange }: {
+function BackgroundStep({ name, background, onNameChange, onBgChange }: {
   name: string;
-  heritage: string;
   background: Character['background'];
   onNameChange: (name: string) => void;
   onBgChange: (bg: Partial<Character['background']>) => void;
 }) {
+  const heritage = background.heritage;
   const Field = ({ label, value, onChange, placeholder, textarea }: {
     label: string; value: string; onChange: (v: string) => void; placeholder?: string; textarea?: boolean;
   }) => (
@@ -431,30 +637,48 @@ function BackgroundStep({ name, heritage, background, onNameChange, onBgChange }
   );
 }
 
-function Review({ draft }: { draft: Character }) {
-  const Line = ({ label, value }: { label: string; value: string | number | undefined }) => (
-    <div className="flex border-b border-ink-700 py-2">
+function Review({ draft, onJumpTo }: { draft: Character; onJumpTo: (step: Step) => void }) {
+  const Line = ({ label, value, step }: { label: string; value: string | number | undefined; step: Step }) => (
+    <button
+      type="button"
+      onClick={() => onJumpTo(step)}
+      className="w-full flex border-b border-ink-700 py-2 text-left hover:bg-ink-800 transition"
+      title={`Jump back to ${step}`}
+    >
       <div className="w-40 text-xs uppercase tracking-wider text-slate-400 shrink-0">{label}</div>
-      <div className="text-slate-100">{value || <span className="text-slate-500 italic">(blank)</span>}</div>
-    </div>
+      <div className="text-slate-100 flex-1">
+        {value || <span className="text-slate-500 italic">(blank)</span>}
+      </div>
+      <div className="text-xs text-slate-500">edit</div>
+    </button>
   );
+  const eff = effectiveStats(draft);
+  const effFrame = eff.FRAME;
+  const hpMax = draft.className === 'The Unnamed'
+    ? maxHpForUnnamed(draft.level, eff)
+    : maxHpFor(draft.className, draft.level, effFrame);
   return (
     <div>
       <h2 className="font-display text-2xl text-accent-gold">Review</h2>
-      <p className="text-sm text-slate-400 mt-1 mb-4">Final look. You can edit everything after creating.</p>
+      <p className="text-sm text-slate-400 mt-1 mb-4">Final look. Click any row to jump back and change it, or edit everything after creating.</p>
 
-      <Line label="Name" value={draft.name} />
-      <Line label="Species" value={draft.species} />
-      <Line label="Class" value={draft.className} />
-      <Line label="Subclass Path" value={draft.subclassPath} />
-      <Line label="Level" value={draft.level} />
-      <Line label="Stats" value={STAT_KEYS.map((k) => `${k} ${draft.stats[k]}`).join(' · ')} />
-      <Line label="Heritage" value={draft.background.heritage} />
-      <Line label="Reach" value={draft.background.reach} />
-      <Line label="Caste" value={draft.background.caste} />
-      <Line label="Faction" value={draft.background.faction} />
-      <Line label="Who I Owe" value={draft.background.whoIOwe} />
-      <Line label="What I Need" value={draft.background.whatINeed} />
+      <Line label="Name" value={draft.name} step="background" />
+      <Line label="Species" value={`${draft.species}${draft.speciesBonusStat ? ` (+1 ${draft.speciesBonusStat})` : ''}`} step="species" />
+      <Line label="Class" value={draft.className} step="class" />
+      <Line label="Subclass Path" value={draft.subclassPath} step="subclass" />
+      <Line label="Level" value={draft.level} step="stats" />
+      <Line
+        label="Stats (effective)"
+        value={STAT_KEYS.map((k) => `${k} ${eff[k]}`).join(' · ')}
+        step="stats"
+      />
+      <Line label="HP at L1" value={hpMax} step="stats" />
+      <Line label="Heritage" value={draft.background.heritage} step="background" />
+      <Line label="Reach" value={draft.background.reach} step="background" />
+      <Line label="Caste" value={draft.background.caste} step="background" />
+      <Line label="Faction" value={draft.background.faction} step="background" />
+      <Line label="Who I Owe" value={draft.background.whoIOwe} step="background" />
+      <Line label="What I Need" value={draft.background.whatINeed} step="background" />
     </div>
   );
 }

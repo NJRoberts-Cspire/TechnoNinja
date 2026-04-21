@@ -7,6 +7,7 @@ import {
 } from '@/data/generated';
 import type { Action } from '@/data/generated';
 import { cn } from '@/lib/utils';
+import { categoryColor } from '@/lib/colors';
 
 interface Props {
   className: string;
@@ -30,20 +31,6 @@ const TIERS = [
   { level: 9, label: 'Subclass Power · Level 9', color: 'border-purple-500', accent: 'text-purple-300' },
   { level: 20, label: 'Capstone · Level 20', color: 'border-orange-500', accent: 'text-orange-300' },
 ];
-
-const COLOR_MAP: Record<string, string> = {
-  capstone: 'bg-orange-500',
-  combat: 'bg-red-500',
-  defense: 'bg-blue-400',
-  control: 'bg-purple-400',
-  mobility: 'bg-green-400',
-  utility: 'bg-yellow-500',
-  passive: 'bg-slate-500',
-  power: 'bg-pink-500',
-  reaction: 'bg-cyan-400',
-  subclass: 'bg-accent-gold',
-  misc: 'bg-slate-600',
-};
 
 export function SkillTree({ className, subclassPath, currentLevel, compact, pickedIds, onTogglePick, picksLeft }: Props) {
   const actions = useMemo(() => {
@@ -149,13 +136,23 @@ function TreeCard({ a, compact, picked, tierUnlocked, onTogglePick, picksLeft, p
         !tierUnlocked && 'opacity-60',
       )}
     >
-      <div className={cn('w-1 self-stretch rounded-full', COLOR_MAP[a.colorKey] || 'bg-slate-600')} />
+      <div className={cn('w-1 self-stretch rounded-full', categoryColor(a.colorKey))} />
       <div className="flex-1 min-w-0">
-        <div className="flex items-start gap-2">
-          <div className="font-display font-bold text-accent-gold text-sm flex-1 truncate">{a.title}</div>
+        <div className="flex items-start gap-2 flex-wrap">
+          <div className="font-display font-bold text-accent-gold text-sm flex-1 min-w-0 truncate">{a.title}</div>
+          {a.tier !== null && (
+            <span className="text-[10px] font-display font-bold bg-ink-700 text-purple-200 px-1.5 py-0.5 rounded shrink-0" title={`Tier ${a.tier}`}>
+              T{a.tier}
+            </span>
+          )}
           {a.apCost > 0 && (
             <span className="text-[10px] font-display font-bold bg-ink-700 text-accent-steel px-1.5 py-0.5 rounded shrink-0">
               {a.apCost} AP
+            </span>
+          )}
+          {a.baseDamage !== null && (
+            <span className="text-[10px] font-display font-bold bg-red-900/40 border border-red-700/40 text-red-200 px-1.5 py-0.5 rounded shrink-0">
+              {a.baseDamage}{a.damageStat && `+${a.damageStat}`}
             </span>
           )}
           {a.isBasicAttack && (
@@ -164,6 +161,15 @@ function TreeCard({ a, compact, picked, tierUnlocked, onTogglePick, picksLeft, p
         </div>
         {!compact && a.description && (
           <div className="text-xs text-slate-400 mt-1 leading-snug">{a.description}</div>
+        )}
+        {!compact && a.keywords.length > 0 && (
+          <div className="flex gap-1 flex-wrap mt-1">
+            {a.keywords.map((k, i) => (
+              <span key={`${k.name}-${i}`} className="text-[9px] font-display bg-ink-800 border border-ink-700 text-accent-gold px-1 py-0.5 rounded">
+                {k.name}{k.value !== null ? ` ${k.value}` : ''}
+              </span>
+            ))}
+          </div>
         )}
       </div>
       {pickable && (

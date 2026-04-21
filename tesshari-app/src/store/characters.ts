@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import type { Character } from '@/data/types';
+import { migrateCharacter } from '@/lib/utils';
 
 const KEY = 'tesshari:characters:v1';
 
@@ -9,11 +10,7 @@ function read(): Character[] {
     if (!raw) return [];
     const parsed = JSON.parse(raw);
     if (!Array.isArray(parsed)) return [];
-    // Migrate older records lacking new fields.
-    return parsed.map((c: any) => ({
-      unlockedCards: [],
-      ...c,
-    })) as Character[];
+    return parsed.map((c: any) => migrateCharacter(c));
   } catch {
     return [];
   }
@@ -26,7 +23,6 @@ function write(chars: Character[]) {
 export function useCharacters() {
   const [characters, setCharacters] = useState<Character[]>(() => read());
 
-  // Cross-tab sync
   useEffect(() => {
     const onStorage = (e: StorageEvent) => {
       if (e.key === KEY) setCharacters(read());
@@ -35,18 +31,52 @@ export function useCharacters() {
     return () => window.removeEventListener('storage', onStorage);
   }, []);
 
-  const save = (next: Character[]) => {
-    setCharacters(next);
-    write(next);
-  };
+  const mutate = useCallback((updater: (prev: Character[]) => Character[]) => {
+    setCharacters((prev) => {
+      const next = updater(prev);
+      write(next);
+      return next;
+    });
+  }, []);
 
-  return {
-    characters,
-    add(c: Character) { save([...characters, c]); },
-    update(id: string, patch: Partial<Character>) {
-      save(characters.map((c) => (c.id === id ? { ...c, ...patch, updatedAt: new Date().toISOString() } : c)));
+  const add = useCallback(
+    (c: Character) => mutate((prev) => [...prev, c]),
+    [mutate],
+  );
+  const update = useCallback(
+    (id: string, patch: Partial<Character>) =>
+      mutate((prev) =>
+        prev.map((c) => (c.id === id ? { ...c, ...patch, updatedAt: new Date().toISOString() } : c)),
+      ),
+    [mutate],
+  );
+  const remove = useCallback(
+    (id: string) => mutate((prev) => prev.filter((c) => c.id !== id)),
+    [mutate],
+  );
+  const duplicate = useCallback(
+    (id: string): string | null => {
+      let newId: string | null = null;
+      mutate((prev) => {
+        const src = prev.find((c) => c.id === id);
+        if (!src) return prev;
+        newId = (crypto.randomUUID?.() ?? String(Date.now()));
+        const now = new Date().toISOString();
+        const copy: Character = {
+          ...src,
+          id: newId,
+          name: `${src.name} (copy)`,
+          createdAt: now,
+          updatedAt: now,
+        };
+        return [...prev, copy];
+      });
+      return newId;
     },
-    remove(id: string) { save(characters.filter((c) => c.id !== id)); },
-    get(id: string) { return characters.find((c) => c.id === id); },
-  };
+    [mutate],
+  );
+
+  const get = useCallback((id: string) => characters.find((c) => c.id === id), [characters]);
+
+  return { characters, add, update, remove, duplicate, get };
 }

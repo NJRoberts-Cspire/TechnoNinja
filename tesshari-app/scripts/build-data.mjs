@@ -86,6 +86,50 @@ const SUBCLASS_BY_CLASS = {
   'Fracture Knight':  ['the_claimed', 'haunted_legion', 'the_anchor'],
   'The Unnamed':      ['convergent', 'divergent'],
 };
+// ─── Rules-accurate metadata (from system/00_core_rules.md & INDEX.md) ────
+
+/** HP tier: FRAME*8 + base. Determines base HP and leveling curve flavor. */
+const CLASS_HP_TIER = {
+  'Ironclad Samurai': 'Martial', 'Ronin': 'Martial', 'Iron Herald': 'Martial', 'Blood Smith': 'Martial',
+  'Iron Monk': 'Heavy', 'Fracture Knight': 'Heavy',
+  'Ashfoot': 'Balanced', 'Veilblade': 'Balanced', 'Oni Hunter': 'Balanced',
+  'Shell Dancer': 'Balanced', 'Curse Eater': 'Balanced', 'The Hollow': 'Balanced', 'Forge Tender': 'Balanced',
+  'Wireweave': 'Technical', 'Chrome Shaper': 'Technical', 'Pulse Caller': 'Technical',
+  'Sutensai': 'Technical', 'Echo Speaker': 'Technical', 'Void Walker': 'Technical', 'Flesh Shaper': 'Technical',
+  'Shadow Daimyo': 'Social', 'Voice of Debt': 'Social', 'Merchant Knife': 'Social', 'Puppet Binder': 'Social',
+  'The Unnamed': 'Unique',
+};
+
+/** HP base by tier (added to FRAME*8). Unique is handled specially at runtime. */
+const HP_TIER_BASE = { Heavy: 20, Martial: 14, Balanced: 10, Technical: 6, Social: 6, Unique: 0 };
+
+/** Class base hand size (rules: 5/6/7/8, max 12 with modifiers). */
+const CLASS_HAND_BASE = {
+  'Iron Monk': 5, 'Fracture Knight': 5, 'The Unnamed': 5,
+  'Ironclad Samurai': 6, 'Ronin': 6, 'Blood Smith': 6, 'The Hollow': 6, 'Oni Hunter': 6, 'Iron Herald': 6,
+  'Ashfoot': 7, 'Veilblade': 7, 'Shell Dancer': 7, 'Curse Eater': 7, 'Wireweave': 7, 'Chrome Shaper': 7,
+  'Flesh Shaper': 7, 'Pulse Caller': 7, 'Sutensai': 7, 'Echo Speaker': 7, 'Void Walker': 7, 'Forge Tender': 7,
+  'Shadow Daimyo': 8, 'Voice of Debt': 8, 'Merchant Knife': 8, 'Puppet Binder': 8,
+};
+
+/** Race stat bonuses (from races/*.md). "any" means player-chosen at creation. */
+const RACE_STAT_BONUSES = {
+  'Forged':        [{ stat: 'IRON', value: 1 }, { stat: 'any', value: 1 }],
+  'Tethered':      [{ stat: 'RESONANCE', value: 1 }, { stat: 'FRAME', value: 1 }],
+  'Echoed':        [{ stat: 'RESONANCE', value: 1 }, { stat: 'any', value: 1 }],
+  'Wireborn':      [{ stat: 'SIGNAL', value: 1 }, { stat: 'EDGE', value: 1 }],
+  'Stitched':      [{ stat: 'FRAME', value: 1 }, { stat: 'IRON', value: 1 }],
+  'Shellbroken':   [{ stat: 'VEIL', value: 1 }, { stat: 'SIGNAL', value: 1 }],
+  'Iron Blessed':  [{ stat: 'RESONANCE', value: 2 }],
+  'Diminished':    [{ stat: 'VEIL', value: 1 }, { stat: 'EDGE', value: 1 }],
+};
+
+/** Race hand-size modifier. */
+const RACE_HAND_MOD = {
+  'Forged': 0, 'Tethered': 1, 'Echoed': 1, 'Wireborn': 1, 'Stitched': 0,
+  'Shellbroken': 0, 'Iron Blessed': 0, 'Diminished': 2,
+};
+
 const CLASS_TO_PREFIX = {
   'Ironclad Samurai': 'ironclad', 'Ronin': 'ronin', 'Iron Monk': 'iron_monk',
   'Fracture Knight': 'fracture_knight', 'Ashfoot': 'ashfoot', 'Veilblade': 'veilblade',
@@ -127,8 +171,20 @@ function categoryColor(cat) {
 
 // ─── Load raw TSVs ─────────────────────────────────────────────────────
 const attrRows = parseTsv(path.join(SRC_TSV, 'attributes_READY.tsv'));
-const actionRows = parseTsv(path.join(SRC_TSV, 'actions_READY.tsv'));
+let actionRows = parseTsv(path.join(SRC_TSV, 'actions_READY.tsv'));
 const itemRows = parseTsv(path.join(SRC_TSV, 'items_READY.tsv'));
+
+// Overlay actions_STATTED.tsv (generated from class/race markdown). For any row
+// with the same id, the statted version replaces the base row. New statted rows
+// are appended.
+const statPath = path.join(SRC_TSV, 'actions_STATTED.tsv');
+if (fs.existsSync(statPath)) {
+  const statted = parseTsv(statPath);
+  const byId = new Map(actionRows.map((r) => [r.id, r]));
+  for (const s of statted) byId.set(s.id, s);
+  actionRows = Array.from(byId.values());
+  console.log(`  overlaid ${statted.length} statted cards`);
+}
 
 // ─── Attributes ────────────────────────────────────────────────────────
 const attributes = attrRows.map((r) => ({
@@ -168,20 +224,43 @@ for (const a of attributes) {
 }
 
 // ─── Actions (cards) ───────────────────────────────────────────────────
+function parseKeywordList(raw) {
+  if (!raw) return [];
+  return String(raw)
+    .split('|')
+    .map((part) => part.trim())
+    .filter(Boolean)
+    .map((part) => {
+      const m = part.match(/^([A-Z][A-Za-z]+)(?:\s+(\d+))?$/);
+      if (!m) return null;
+      return { name: m[1], value: m[2] ? Number(m[2]) : null };
+    })
+    .filter(Boolean);
+}
+
 const actions = actionRows.map((r) => {
   let customProps = {};
   try { customProps = r.customProperties ? JSON.parse(r.customProperties) : {}; } catch { customProps = {}; }
+  const statUnlock = customProps.unlockLevel ? Number(customProps.unlockLevel) : null;
+  const level = statUnlock !== null ? statUnlock : unlockLevel(r.category);
   return {
     id: r.id,
     title: r.title || r.id,
     description: r.description || '',
     category: r.category || '',
-    level: unlockLevel(r.category),
+    level,
     colorKey: categoryColor(r.category),
     apCost: Number(customProps.apCost ?? 0),
     isCard: customProps.isCard === 'true' || customProps.isCard === true,
     isBasicAttack: customProps.isBasicAttack === 'true' || customProps.isBasicAttack === true,
     playLimitPerTurn: customProps.playLimitPerTurn ? Number(customProps.playLimitPerTurn) : null,
+    tier: customProps.tier !== undefined && customProps.tier !== '' ? Number(customProps.tier) : null,
+    cardType: customProps.cardType || '',
+    baseDamage: customProps.baseDamage !== undefined && customProps.baseDamage !== '' ? Number(customProps.baseDamage) : null,
+    damageStat: customProps.damageStat || '',
+    keywords: parseKeywordList(customProps.keywords),
+    unlockLevel: statUnlock,
+    startingHand: customProps.startingHand === 'true' || customProps.startingHand === true,
   };
 });
 
@@ -409,6 +488,14 @@ out.push(`export const SPECIES_FLAVOR: Record<string, string> = ${JSON.stringify
 out.push(`export const CLASS_FLAVOR: Record<string, string> = ${JSON.stringify(CLASS_FLAVOR, null, 2)};`);
 out.push(`export const CLASS_PRIMARY_STATS: Record<string, string[]> = ${JSON.stringify(CLASS_PRIMARY_STATS, null, 2)};`);
 out.push(`export const SUBCLASS_FLAVOR: Record<string, string> = ${JSON.stringify(SUBCLASS_FLAVOR, null, 2)};`);
+out.push(`export type HpTier = 'Heavy' | 'Martial' | 'Balanced' | 'Technical' | 'Social' | 'Unique';`);
+out.push(`export const CLASS_HP_TIER: Record<string, HpTier> = ${JSON.stringify(CLASS_HP_TIER, null, 2)};`);
+out.push(`export const HP_TIER_BASE: Record<HpTier, number> = ${JSON.stringify(HP_TIER_BASE, null, 2)};`);
+out.push(`export const CLASS_HAND_BASE: Record<string, number> = ${JSON.stringify(CLASS_HAND_BASE, null, 2)};`);
+out.push(`export interface RaceStatBonus { stat: 'IRON' | 'EDGE' | 'FRAME' | 'SIGNAL' | 'RESONANCE' | 'VEIL' | 'any'; value: number; }`);
+out.push(`export const RACE_STAT_BONUSES: Record<string, RaceStatBonus[]> = ${JSON.stringify(RACE_STAT_BONUSES, null, 2)};`);
+out.push(`export const RACE_HAND_MOD: Record<string, number> = ${JSON.stringify(RACE_HAND_MOD, null, 2)};`);
+out.push(`export const MAX_HAND_SIZE = 12;`);
 out.push('');
 out.push(`export interface Attribute {
   id: string;
@@ -423,6 +510,10 @@ out.push(`export interface Attribute {
 }`);
 out.push(`export const ATTRIBUTES: Attribute[] = ${JSON.stringify(attributes, null, 2)};`);
 out.push('');
+out.push(`export interface CardKeyword {
+  name: string;
+  value: number | null;
+}`);
 out.push(`export interface Action {
   id: string;
   title: string;
@@ -434,6 +525,13 @@ out.push(`export interface Action {
   isCard: boolean;
   isBasicAttack: boolean;
   playLimitPerTurn: number | null;
+  tier: number | null;
+  cardType: string;
+  baseDamage: number | null;
+  damageStat: string;
+  keywords: CardKeyword[];
+  unlockLevel: number | null;
+  startingHand: boolean;
 }`);
 out.push(`export const ACTIONS: Action[] = ${JSON.stringify(actions, null, 2)};`);
 out.push(`export const ACTIONS_BY_CLASS: Record<string, string[]> = ${JSON.stringify(actionsByClass, null, 2)};`);

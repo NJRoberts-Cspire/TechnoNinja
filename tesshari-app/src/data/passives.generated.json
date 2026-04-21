@@ -1,0 +1,151 @@
+{
+  "race": {
+    "Forged": [
+      {
+        "name": "Integrated Chassis",
+        "description": "Your body includes meaningful mechanical augmentation. You are immune to status effects that specifically target organic tissue — disease, biological toxins, and flesh-degradation effects do not apply to your augmented systems. Purely chemical or mechanical damage still affects you normally."
+      },
+      {
+        "name": "Maintenance Dependent",
+        "description": "Your chassis requires regular upkeep. If you complete a full rest without access to basic maintenance tools or a willing chassis-wright, you begin the next combat with Overheat 1 already applied and cannot remove it until proper maintenance is performed. This cannot be suppressed by cards or enhancements — it is structural."
+      },
+      {
+        "name": "Chassis Memory",
+        "description": "Your mechanical sensors record sensory data with fidelity that organic memory cannot match. Once per scene, you may recall precise sensory details — measurements, voices, visual specifics — from any event you witnessed within the last 24 hours. This is a factual recall of recorded data, not emotional memory. It does not extend to interpretation or feeling."
+      },
+      {
+        "name": "Forged Resilience",
+        "description": "When you would be reduced to 0 HP by a single hit, you may immediately apply Guard 4 against that specific hit only. This does not stack with existing Guard. Once used, this passive is suppressed until the start of your next turn."
+      }
+    ],
+    "Tethered": [
+      {
+        "name": "Echomind Undivided",
+        "description": "Your soul is concentrated entirely in flesh, undivided by any chassis resonance. You cannot be affected by status effects that specifically target augmentations or mechanical systems (Overheat, enhancement-disabling effects, chassis-targeting Signal attacks). You have none. These effects simply do not apply to you."
+      },
+      {
+        "name": "Biological Acuity",
+        "description": "Your senses operate without technological filtering. You have a permanent +2 bonus to RESONANCE checks made to read people, places, or the residue of recent events — this stacks with your stat. Additionally, you cannot be surprised by living creatures whose physiological state (heartbeat, breath, movement) you can perceive."
+      },
+      {
+        "name": "Old Flesh Memory",
+        "description": "Your body stores and compensates for damage in ways that augmented tissue cannot fully replicate. At the start of each combat, you begin with Regen 1 already active. This Regen cannot be dispelled by effects that specifically strip augmentation-based buffs."
+      },
+      {
+        "name": "Unclocked",
+        "description": "You do not register on most scanning and identification systems in Tesshari, which are calibrated to read augmentation signatures. In non-combat scenes, any attempt to locate, identify, or track you through technological means automatically fails unless the operator has specific knowledge that you are Tethered and adjusts their search accordingly."
+      }
+    ],
+    "Echoed": [
+      {
+        "name": "Already Died",
+        "description": "The first time per combat the Echoed is reduced to 0 HP, they instead drop to 1 HP. Their Echomind has navigated the threshold before and does not fully cross it. This triggers automatically and requires no action. After it triggers, subsequent hits that reduce them to 0 HP resolve normally."
+      },
+      {
+        "name": "Iron Afterlife Awareness",
+        "description": "The Echoed can sense the presence of recently dead Echoминds within 30 feet — a faint resonance impression, not visual, that indicates how many Echominds have passed through a location within the last 24 hours and approximately when. This does not identify individuals, only presence and timing."
+      },
+      {
+        "name": "No Fear of the Crossing",
+        "description": "Fear effects, morale-break effects, and abilities that inflict the Frightened status have no mechanical power over the Echoed. These effects simply do not take hold. Narrative fear — dread, horror, emotional weight — remains; the Echoed are not numb. Only effects with a mechanical Frightened or morale-reduction keyword are blocked."
+      }
+    ],
+    "Wireborn": [
+      {
+        "name": "Ambient Wire Sense",
+        "description": "The Wireborn is always aware of active Wire Craft systems within 60 feet — their presence, general direction, and approximate power level. This awareness is constant and requires no action. Hidden or concealed systems are not exempt; the Wireborn's subdermal circuitry reads operational data signatures regardless of physical concealment. This does not grant access to those systems, only awareness of their existence."
+      },
+      {
+        "name": "Signal Vulnerability",
+        "description": "Silence effects last 1 additional turn on the Wireborn. Their deeper integration with Wire Craft infrastructure means disruption resonates further through their neurology than it would for other races. This is a structural weakness that cannot be suppressed by cards or enhancements."
+      },
+      {
+        "name": "Digital Navigation",
+        "description": "In any environment with active Wire Craft infrastructure, the Wireborn navigates data architecture as fluently as physical space. They always know the layout of accessible network systems they are connected to, cannot become disoriented within digital environments, and can retrace any data path they have previously traveled with perfect fidelity."
+      }
+    ],
+    "Stitched": [
+      {
+        "name": "Modular Construction",
+        "description": "Replacing or repairing the Stitched's enhancements costs half the standard time and resources. A repair that would take a full rest for another race takes a short rest for the Stitched. A modification that would require a chassis-wright's full session can be performed in a single scene. This reflects the Stitched's body being built for replacement rather than permanence."
+      },
+      {
+        "name": "Inconsistent Resonance Signature",
+        "description": "Abilities and effects that target a specific Echomind — tracking effects, identity-lock status, and abilities that require reading a target's personal resonance — have a 50% chance to misfire against the Stitched. When such an ability targets the Stitched, the GM rolls a die before applying its effect; on an odd result, the ability fails to lock on and is wasted. Standard damage and non-targeting effects are unaffected."
+      },
+      {
+        "name": "Stagger Resistance",
+        "description": "The first source of Stagger per combat that would be applied to the Stitched is negated. Their distributed pain response and redundant systems absorb the first disruption before it can cascade. Subsequent Stagger from different sources in the same combat applies normally."
+      }
+    ],
+    "Shellbroken": [
+      {
+        "name": "Void-Touched Mind",
+        "description": "Psychic effects, mental intrusion, fear, and morale-based effects have no mechanical power over the Shellbroken. The Hollow Author's occupation has left the Shellbroken's inner territory already-claimed by their own rebuilt will — there is no purchase for outside influence where a self has been deliberately reconstructed. Effects with Frightened, Charmed, or Taunt keywords do not apply to the Shellbroken. Damage from psychic or resonance sources still applies normally."
+      },
+      {
+        "name": "Shell-State Awareness",
+        "description": "The Shellbroken can sense the presence of beings currently under the Hollow Author's control within 60 feet. This manifests as a physical sensation at the base of the skull — the same architecture used to puppet them now registers in reverse. The Shellbroken does not know which specific creature is controlled, only that a puppeted presence exists nearby."
+      },
+      {
+        "name": "Survivor's Clarity",
+        "description": "Once per combat, when the Shellbroken is reduced below half their maximum HP, they immediately gain Guard 4 as a free reaction. This triggers automatically and requires no card or action. It can only trigger once per combat regardless of how many times the Shellbroken crosses the threshold."
+      }
+    ],
+    "Iron Blessed": [
+      {
+        "name": "Resonant Attunement",
+        "description": "The Iron Blessed attunes to resonant items and locations faster than any other race — what takes others a full scene takes the Iron Blessed a single moment of contact. Resonant items in their presence occasionally activate unpredictably: once per session, the GM may trigger a minor spontaneous effect from a nearby resonant item or location. This is not always beneficial. It is always significant."
+      },
+      {
+        "name": "Sutensai Attention",
+        "description": "The Iron Blessed is monitored by the Iron Sutra priesthood. This is a narrative passive with real social weight: the Orthodoxy knows where the Iron Blessed has been, who they have spoken to, and what public actions they have taken. This creates both leverage (the Orthodoxy's protection is real) and constraint (the Orthodoxy's disapproval is costly). How the character navigates this attention is a persistent feature of play."
+      },
+      {
+        "name": "Unexpected Enhancement Integration",
+        "description": "The Iron Blessed's cybernetic enhancements occasionally develop minor resonant properties beyond their designed function — a targeting system that also reads emotional states, a structural brace that hums at a frequency that calms nearby animals, a comm implant that sometimes receives transmissions from sources that shouldn't be able to reach it. The player and GM define one such emergent property at character creation, and additional properties may develop through play."
+      }
+    ],
+    "Diminished": [
+      {
+        "name": "Social Invisibility",
+        "description": "In contexts where the Diminished presents as low-caste or maintenance-class — which is most contexts — many institutional systems and high-status individuals simply do not register them as a meaningful presence. Security systems calibrated for threat-profiling, administrative gatekeepers, and social-hierarchy-aware NPCs require a DC 14 VEIL check to notice or engage with the Diminished as a person of consequence unless the Diminished has done something to specifically draw attention. This does not function in combat or after the Diminished has been identified as a threat."
+      },
+      {
+        "name": "Environmental Awareness",
+        "description": "The Diminished cannot be surprised by environmental threats — collapsing structures, failing systems, gas leaks, automated defenses, unstable terrain. Their lifetime of working inside infrastructure that can kill without warning has built a constant low-level threat-read into their perception. They can still be surprised by direct combat ambush from living opponents, but the environment itself never catches them off guard."
+      },
+      {
+        "name": "Lean Target",
+        "description": "Enhancement-targeting abilities — effects that specifically attack, disable, or exploit cybernetic augmentations — deal half effect against the Diminished. They have less to target. Abilities that suppress or destroy specific systems find fewer systems to suppress. This applies to Overheat, Silence effects delivered through enhancement disruption, and any ability whose text specifies it targets augmented or cybernetic components."
+      }
+    ]
+  },
+  "class": {
+    "Ironclad Samurai": [],
+    "Ronin": [],
+    "Ashfoot": [],
+    "Veilblade": [],
+    "Oni Hunter": [],
+    "Forge Tender": [],
+    "Wireweave": [],
+    "Chrome Shaper": [],
+    "Pulse Caller": [],
+    "Iron Monk": [],
+    "Echo Speaker": [],
+    "Void Walker": [],
+    "Sutensai": [],
+    "Flesh Shaper": [],
+    "Puppet Binder": [],
+    "Blood Smith": [],
+    "The Hollow": [],
+    "Shadow Daimyo": [],
+    "Voice of Debt": [],
+    "Merchant Knife": [],
+    "Iron Herald": [],
+    "Curse Eater": [],
+    "Shell Dancer": [],
+    "Fracture Knight": [],
+    "The Unnamed": []
+  }
+}

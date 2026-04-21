@@ -14,11 +14,24 @@ type RefTab = 'overview' | 'tree' | 'details';
 export function ClassReference({ initialClass }: Props) {
   const [selected, setSelected] = useState<string>(initialClass || CLASSES[0] || 'Tesshari Overview');
   const [tab, setTab] = useState<RefTab>('overview');
+  const [query, setQuery] = useState('');
+
   const keys = useMemo(() => {
     const list = [...CLASSES as readonly string[]];
     if (CLASS_DOCS['Tesshari Overview']) list.unshift('Tesshari Overview');
     return list;
   }, []);
+
+  const filteredKeys = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return keys;
+    return keys.filter((k) => {
+      if (k.toLowerCase().includes(q)) return true;
+      const flavor = CLASS_FLAVOR[k] || '';
+      return flavor.toLowerCase().includes(q);
+    });
+  }, [keys, query]);
+
   const doc = CLASS_DOCS[selected];
   const isClass = CLASSES.includes(selected as (typeof CLASSES)[number]);
 
@@ -29,22 +42,34 @@ export function ClassReference({ initialClass }: Props) {
           <div className="bg-ink-600 px-3 py-2 font-display text-accent-gold text-xs uppercase tracking-wider">
             Index
           </div>
+          <div className="p-2 border-b border-ink-700">
+            <input
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Filter…"
+              className="w-full bg-ink-800 border border-ink-700 focus:border-accent-gold outline-none rounded px-2 py-1.5 text-xs text-slate-100"
+            />
+          </div>
           <div className="max-h-[70vh] overflow-y-auto scrollbar-thin">
-            {keys.map((k) => (
-              <button
-                type="button"
-                key={k}
-                onClick={() => setSelected(k)}
-                className={cn(
-                  'w-full text-left px-3 py-2 text-sm border-l-2 transition',
-                  selected === k
-                    ? 'bg-ink-700 border-accent-gold text-accent-gold'
-                    : 'border-transparent text-slate-300 hover:bg-ink-800 hover:text-slate-100',
-                )}
-              >
-                {k}
-              </button>
-            ))}
+            {filteredKeys.length === 0 ? (
+              <div className="px-3 py-4 text-xs text-slate-500 italic">No matches for “{query}”.</div>
+            ) : (
+              filteredKeys.map((k) => (
+                <button
+                  type="button"
+                  key={k}
+                  onClick={() => setSelected(k)}
+                  className={cn(
+                    'w-full text-left px-3 py-2 text-sm border-l-2 transition',
+                    selected === k
+                      ? 'bg-ink-700 border-accent-gold text-accent-gold'
+                      : 'border-transparent text-slate-300 hover:bg-ink-800 hover:text-slate-100',
+                  )}
+                >
+                  {k}
+                </button>
+              ))
+            )}
           </div>
         </div>
       </aside>
@@ -59,11 +84,17 @@ export function ClassReference({ initialClass }: Props) {
             )}
           </div>
           {isClass && (
-            <div className="inline-flex bg-ink-800 border border-ink-700 rounded overflow-hidden shrink-0">
+            <div
+              role="tablist"
+              aria-label="Reference view"
+              className="inline-flex bg-ink-800 border border-ink-700 rounded overflow-hidden shrink-0"
+            >
               {(['overview', 'tree', 'details'] as RefTab[]).map((t) => (
                 <button
                   type="button"
                   key={t}
+                  role="tab"
+                  aria-selected={tab === t ? 'true' : 'false'}
                   onClick={() => setTab(t)}
                   className={cn(
                     'px-3 py-1.5 text-xs font-display uppercase tracking-wider transition',
