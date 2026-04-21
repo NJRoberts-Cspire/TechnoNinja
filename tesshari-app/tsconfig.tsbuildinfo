@@ -1,1 +1,0 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/components/characterlist.tsx","./src/components/charactersheet.tsx","./src/components/classdetail.tsx","./src/components/classreference.tsx","./src/components/creationwizard.tsx","./src/components/skilltree.tsx","./src/data/generated.ts","./src/data/types.ts","./src/lib/utils.ts","./src/store/characters.ts"],"version":"5.9.3"}
