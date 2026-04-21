@@ -103,8 +103,8 @@ const CHAR_ID    = uuid();
 const INV_ID     = uuid();
 
 const PAGES = {
-  main:     { id: uuid(), label: 'Character' },
-  combat:   { id: uuid(), label: 'Combat' },
+  main:   { id: uuid(), label: 'Character' },
+  combat: { id: uuid(), label: 'Combat' },
 };
 
 const WIN = {
@@ -185,6 +185,19 @@ for (const [cls, { raw }] of Object.entries(SUBCLASS_BY_CLASS)) {
   for (const r of raw) COMBINED_SUBCLASS_OPTIONS.push(`${cls} — ${humanize(r)}`);
 }
 
+// ─── Class → action slug prefix (for grouping actions into class rosters) ─
+const CLASS_TO_PREFIX = {
+  'Ironclad Samurai':'ironclad', 'Ronin':'ronin', 'Iron Monk':'iron_monk',
+  'Fracture Knight':'fracture_knight', 'Ashfoot':'ashfoot', 'Veilblade':'veilblade',
+  'Oni Hunter':'oni_hunter', 'Shell Dancer':'shell_dancer', 'Curse Eater':'curse_eater',
+  'The Hollow':'hollow', 'Forge Tender':'forge_tender', 'Wireweave':'wireweave',
+  'Chrome Shaper':'chrome_shaper', 'Pulse Caller':'pulse_caller', 'Sutensai':'sutensai',
+  'Flesh Shaper':'flesh_shaper', 'Echo Speaker':'echo_speaker', 'Void Walker':'void_walker',
+  'Blood Smith':'blood_smith', 'Iron Herald':'iron_herald', 'Shadow Daimyo':'shadow_daimyo',
+  'Voice of Debt':'voice_of_debt', 'Merchant Knife':'merchant_knife', 'Puppet Binder':'puppet_binder',
+  'The Unnamed':'unnamed',
+};
+
 const attributes = srcAttrs.map(r => {
   const newId = mapId(r.id);
   let optsArr = parseOptions(r.options);
@@ -222,24 +235,6 @@ const attributes = srcAttrs.map(r => {
     inventoryWidth: invW, inventoryHeight: invH,
     image: r.image || '', customProperties: r.customProperties || '',
   };
-});
-
-// Append the synthetic combined Subclass Selection attribute (76 options,
-// each prefixed by class name so the user can scan to their class).
-attributes.push({
-  slug: 'attr_subclass_selection',
-  id: mapId('attr_subclass_selection'),
-  title: 'Subclass Selection',
-  description: 'Pick the subclass path matching your selected Class. The character loader applies the mechanical effects.',
-  category: 'subclass',
-  type: 'list',
-  optionsArr: COMBINED_SUBCLASS_OPTIONS,
-  options: optionsToTsv(COMBINED_SUBCLASS_OPTIONS),
-  defaultValue: '',
-  optionsChartRef: '', optionsChartColumnHeader: '',
-  min: '', max: '',
-  inventoryWidth: '', inventoryHeight: '',
-  image: '', customProperties: '',
 });
 
 // Helper to find attribute UUID by TITLE (for sheet building)
@@ -287,6 +282,159 @@ const actions = srcActions.map(r => ({
   inventoryHeight: r.inventoryHeight || '1', inventoryWidth: r.inventoryWidth || '1',
   image: r.image || '', customProperties: r.customProperties || '',
 }));
+
+// ─── Group actions by class prefix → used for abilities text + documents ─
+// Actions are keyed by `act_<prefix>_` OR `card_<prefix>_` depending on era.
+const classActions = {}; // { className: [ {title, description, category} ] }
+for (const [cls, prefix] of Object.entries(CLASS_TO_PREFIX)) {
+  const a1 = `act_${prefix}_`, a2 = `card_${prefix}_`;
+  classActions[cls] = actions.filter(a => a.slug.startsWith(a1) || a.slug.startsWith(a2))
+    .map(a => ({ title: a.title, description: a.description, category: a.category, slug: a.slug }));
+}
+// Subclass actions: match actions whose slug contains the humanized path
+// slug. Many subclass cards are prefixed `card_<path_slug>_*` or have the
+// path slug in the middle; we scan broadly.
+const subclassActions = {}; // { 'Class — Path': [actions] }
+for (const [cls, info] of Object.entries(SUBCLASS_BY_CLASS)) {
+  for (const pathSlug of info.raw) {
+    const combo = `${cls} — ${humanize(pathSlug)}`;
+    // Common match patterns: card_<pathSlug>_*, act_<pathSlug>_*, anything containing _<pathSlug>
+    const needle = pathSlug;
+    subclassActions[combo] = actions
+      .filter(a => a.slug.startsWith(`card_${needle}_`) ||
+                   a.slug.startsWith(`act_${needle}_`) ||
+                   a.slug.includes(`_${needle}_`))
+      .map(a => ({ title: a.title, description: a.description, category: a.category, slug: a.slug }));
+  }
+}
+
+// Subclass flavor text — brief description per option. Falls back to the
+// path name if no ability actions are tagged.
+const SUBCLASS_FLAVOR = {
+  'Ironclad Samurai — Oath Iron Lord':       'The steel-hearted general. Command presence, armor mastery, forged dominion.',
+  'Ironclad Samurai — Oath Sutensai Blade':  'The void-touched blade. Resonant cuts that sever memory and selfhood.',
+  'Ironclad Samurai — Oath Undying Debt':    'The debt-bound. Strength drawn from unfinished obligations.',
+  'Ironclad Samurai — Oath Flesh Temple':    'The living shrine. Scarred body as sacred geometry.',
+  'Ronin — Ascendant Blade':                 'Discipline reforged outside any school. Precision through refusal.',
+  'Ronin — Iron Contract':                   'Hired steel. Contract-bound violence with its own ethics.',
+  'Ronin — Returning Blade':                 'The wanderer who returns. Blades that come back, debts that follow.',
+  'Ashfoot — Skirmish Specialist':           'Hit-and-fade ashlands tactics. Mobility as a weapon.',
+  'Ashfoot — Formation Anchor':              'Ashfoot rearguard. Holds ground when others break.',
+  'Ashfoot — Salvage Innovator':             'Scavenger-engineer. Turns enemy wreckage into ally tools.',
+  'Veilblade — Shadow Operative':            'The unseen knife. Works inside enemy ranks undetected.',
+  'Veilblade — Signal Cutter':               'Severs comms. Isolates targets from their wire-support.',
+  'Veilblade — Ghost Archive':               'The memory-thief. Steals and replays enemy intent.',
+  'Oni Hunter — Dissolution Specialist':     'Unmakes unnatural things. Final-ender for the undying.',
+  'Oni Hunter — Afterlife Anchor':           'Keeps the dead in place. Prevents re-manifestation.',
+  'Oni Hunter — Resonance Collector':        'Harvests oni-essence as power reserves.',
+  'Forge Tender — Resonance Keeper':         'Keeper of living forges. Heats metal with intent, not flame.',
+  'Forge Tender — Black Smith':              'The smith of cursed things. Works metal that should not be worked.',
+  'Forge Tender — Echomind Anchor':          'Binds forged items to a mind-imprint; they remember their maker.',
+  'Wireweave — Combat Weave':                'Battle-grid weaver. Threads of iron signal in the air around you.',
+  'Wireweave — Wire Broker':                 'Mercenary of the wire-markets. Buys and sells signal access.',
+  'Wireweave — Iron Afterlife Weave':        'Wire-dialog with the resonant dead.',
+  'Wireweave — Loom Maker':                  'Architect of mega-wire structures. Weaves entire zones.',
+  'Chrome Shaper — War Shaper':              'Reshapes the body mid-combat. Living armor that adapts.',
+  'Chrome Shaper — Edge Builder':            'Specialist in growing blade-extensions from flesh.',
+  'Chrome Shaper — Resonance Sculptor':      'Carves resonant symbols directly into meat.',
+  'Pulse Caller — Single Point':             'Focuses resonant energy to a killing pin-strike.',
+  'Pulse Caller — Iron Suppressor':          'Damps enemy resonance. Turns off their augments.',
+  'Pulse Caller — Resonant Shot':            'Fires pure resonance as a projectile.',
+  'Iron Monk — Orthodoxy':                   'Strict Iron Temple discipline. Traditional form-work.',
+  'Iron Monk — Resonants':                   'Heterodox monks. Resonance over ritual.',
+  'Iron Monk — Flesh Circle':                'Body-integrated monks. Augmentation as devotion.',
+  'Iron Monk — Path Of The Between':         'Walkers in the space between stances. Transitional mastery.',
+  'Echo Speaker — Sutensai Aligned':         'Speaks for the void. Channels sutensai-origin voices.',
+  'Echo Speaker — Deep Listener':            'Hears the iron-afterlife. Translates for the dead.',
+  'Echo Speaker — Herald':                   'Mouthpiece of power. Speaks things into being.',
+  'Void Walker — Ghost Operative':           'Moves through voids. Crosses impossible gaps.',
+  'Void Walker — Threshold Puller':          'Drags enemies into the in-between.',
+  'Void Walker — Anchor Keeper':             'Stabilizes void-exposed allies.',
+  'Sutensai — Inquisitor':                   'Hunts apostates. Void-blessed interrogator.',
+  'Sutensai — Archive Master':               'Keeper of forbidden sutensai knowledge.',
+  'Sutensai — Priors Voice':                 'Channels the first sutensai. Historic authority.',
+  'Flesh Shaper — The Mender':               'Heals what should not be healed. Seals the un-seal-able.',
+  'Flesh Shaper — The Corruptor':            'Twists flesh against itself. Terror as a medium.',
+  'Flesh Shaper — The Self Shaper':          'Rewrites their own body. Ever-changing.',
+  'Puppet Binder — The Architect':           'Designs puppet networks. Grand tactical control.',
+  'Puppet Binder — The Possessor':           'Inhabits other bodies. Direct control.',
+  'Puppet Binder — The Network':             'Many-mind collective. Puppet strings run both ways.',
+  'Blood Smith — The Weaponsmith':           'Forges living weapons from blood and bone.',
+  'Blood Smith — The Armorer':               'Grows armor from their own sacrificed flesh.',
+  'Blood Smith — The Sculptor':              'Shapes blood into constructs and servants.',
+  'The Hollow — The Empty':                  'Pure absence. A void that walks.',
+  'The Hollow — The Shell':                  'Living shell with nothing inside. Mechanical autonomy.',
+  'Shadow Daimyo — Spymaster':               'Runs the whisper network. Information as currency.',
+  'Shadow Daimyo — Court Blade':             'Court-assassin and duelist. Etiquette-bound violence.',
+  'Shadow Daimyo — Broker':                  'Trade-power broker. Wields economic leverage.',
+  'Voice of Debt — Oath Keeper':             'Enforces the debt-codes. Collects by any means.',
+  'Voice of Debt — Debt Collector':          'Hunts debtors. Specialist in tracking and extraction.',
+  'Voice of Debt — The Breaker':             'Breaks oaths weaponizing the fracture.',
+  'Merchant Knife — Supply Cutter':          'Severs enemy logistics. Trade-war specialist.',
+  'Merchant Knife — Gilded Blade':           'Wealthy-class assassin. Fashion meets violence.',
+  'Merchant Knife — Kingmaker':              'Puts rulers on thrones for debts owed.',
+  'Iron Herald — Warbanner':                 'Battlefield rally-point. Makes allies braver.',
+  'Iron Herald — Neutral Tongue':            'Diplomat-warrior. Ends wars through voice.',
+  'Iron Herald — The Signal':                'Command-and-control. Orchestrates ally actions.',
+  'Curse Eater — Purifier':                  'Lifts curses cleanly. Saintly reputation.',
+  'Curse Eater — Conduit':                   'Channels curses through themselves as attacks.',
+  'Curse Eater — The Consumed':              'Addicted to curses. Power at cost of self.',
+  'Shell Dancer — The Breaker':              'Shatters enemy guard. Armor-cracker specialist.',
+  'Shell Dancer — The Survivor':             'Endures where others break. Damage absorber.',
+  'Shell Dancer — The Scavenger':            'Collects broken shells. Makes tools from failure.',
+  'Fracture Knight — The Claimed':           'Resonance-fracture reclaimed; turned into strength.',
+  'Fracture Knight — Haunted Legion':        'Carries the voices of fallen knights.',
+  'Fracture Knight — The Anchor':            'Holds fracture open as a weapon.',
+  'The Unnamed — Convergent':                'Traits that gather. Power growing toward one point.',
+  'The Unnamed — Divergent':                 'Traits that scatter. Multiplicity as strength.',
+};
+
+// Helper: escape a single-line string for safe embedding in QBScript single
+// quotes. Replaces backslash, newlines, and apostrophes.
+function qbEscape(s) {
+  return String(s).replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/\r?\n/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+// Category → unlock level. Simple heuristic; tune per-class later if needed.
+function unlockLevel(cat) {
+  const c = (cat || '').toLowerCase();
+  if (c.includes('capstone')) return 20;
+  if (c.includes('subclass_power')) return 9;
+  if (c.includes('subclass')) return 3;
+  if (c.includes('power')) return 5;
+  if (c.includes('level_up')) return 2;
+  // Everything else (combat/defense/utility/passive/reaction/mobility/control
+  // /core/card) unlocks at level 1.
+  return 1;
+}
+
+// Build per-class abilities summary string (one line per action).
+function classAbilitiesText(cls) {
+  const rows = classActions[cls] || [];
+  if (rows.length === 0) return `${cls}: (no actions defined yet)`;
+  const lines = [`${cls} — ${rows.length} abilities:`];
+  for (const a of rows) {
+    const desc = a.description ? ` — ${a.description}` : '';
+    lines.push(`• ${a.title}${desc}`);
+  }
+  return lines.join('\n');
+}
+
+function subclassAbilitiesText(combo) {
+  const rows = subclassActions[combo] || [];
+  const flavor = SUBCLASS_FLAVOR[combo] || '';
+  const pieces = [];
+  if (flavor) pieces.push(flavor);
+  if (rows.length > 0) {
+    pieces.push(`Subclass-tagged abilities (${rows.length}):`);
+    for (const a of rows) {
+      pieces.push(`${a.title}${a.description ? ': ' + a.description : ''}`);
+    }
+  } else {
+    pieces.push('Subclass shares its class ability roster. See the Class Abilities panel for the full list; see the class document for full subclass mechanics.');
+  }
+  return pieces.join(' · ');
+}
 
 // ═══════════════════════════════════════════════════════════════════════
 // ITEMS
@@ -450,13 +598,14 @@ const scriptMeta = [];
 // 4-space indent required by QBScript (2-space will fail: "expected multiple of 4 spaces")
 const globalSrc = [
   '// Tesshari global helpers — minimal set required by the character loader.',
+  '// QBScript has no `null` literal; use `!var` truthy checks.',
   '',
   'getAttrText(name, fallback):',
   '    a = Owner.Attribute(name)',
   '    if !a:',
   '        return fallback',
   '    v = a.value',
-  '    if v == null:',
+  '    if !v:',
   '        return fallback',
   '    return text(v)',
   '',
@@ -465,7 +614,7 @@ const globalSrc = [
   '    if !a:',
   '        return fallback',
   '    v = a.value',
-  '    if v == null:',
+  '    if !v:',
   '        return fallback',
   '    return number(v)',
   '',
@@ -538,92 +687,26 @@ function fallbackSubclass(attrTitle, option) {
   return `    setAttr('${attrTitle}', '${option}')\n    announce('${attrTitle}: ${option} applied.')\n    return`;
 }
 
-const loaderLines = [];
-loaderLines.push('// Tesshari character loader — runs on character load/sheet-open.');
-loaderLines.push('// Dispatches race/class/subclass logic by reading attribute values.');
-loaderLines.push('// Requires: tesshari_card_core global helpers (setAttr, announce, etc.)');
-loaderLines.push('');
-
-// Race init functions
-loaderLines.push('// ══ RACE INITS ══');
-for (const [name, fnName] of Object.entries(RACE_DISPATCH)) {
-  const id = ident(name);
-  const src = allFns[fnName];
-  const body = src ? stripHeader(src) : fallbackRace(name);
-  loaderLines.push(makeInitFn(`race_${id}`, body));
-  loaderLines.push('');
-}
-// Forged (no source function)
-loaderLines.push(makeInitFn('race_forged',
-  `  setAttr('Species', 'Forged')\n  Owner.setProperty('race_tag', 'forged')\n  announce('Forged race initialized.')\n  return`));
-loaderLines.push('');
-
-// Class init functions
-loaderLines.push('// ══ CLASS INITS ══');
-for (const [name, fnName] of Object.entries(CLASS_DISPATCH)) {
-  const id = ident(name);
-  const src = allFns[fnName];
-  const body = src ? stripHeader(src) : fallbackClass(name);
-  loaderLines.push(makeInitFn(`class_${id}`, body));
-  loaderLines.push('');
-}
-// Ironclad Samurai (no source function)
-loaderLines.push(makeInitFn('class_ironclad_samurai',
-  `  Owner.Attribute('Class').set('Ironclad Samurai')\n  setAttr('Class Fantasy', 'philosopher_warrior_bound_code')\n  announce('Ironclad Samurai initialized.')\n  return`));
-loaderLines.push('');
-
-// Subclass init functions — one per combined "Class — Path" option. The
-// loader writes the matching per-class Path attribute and announces.
-loaderLines.push('// ══ SUBCLASS INITS ══');
-const combinedSubclassSuffixByOption = {}; // { combinedOption: fnNameSuffix }
-for (const [cls, { attr: pathAttr, raw }] of Object.entries(SUBCLASS_BY_CLASS)) {
-  for (const r of raw) {
-    const pretty = humanize(r);
-    const combinedOption = `${cls} — ${pretty}`;
-    const suffix = `sub_${ident(cls)}_${ident(r)}`;
-    combinedSubclassSuffixByOption[combinedOption] = suffix;
-    const body = [
-      `    setAttr('${pathAttr}', '${pretty.replace(/'/g, "\\'")}')`,
-      `    Owner.setProperty('subclass_tag', '${ident(cls)}_${ident(r)}')`,
-      `    announce('${cls} — ${pretty} path applied.')`,
-      `    return`,
-    ].join('\n');
-    loaderLines.push(`init_${suffix}():\n${body}`);
-    loaderLines.push('');
-  }
-}
-
-// Dispatch block — all if-bodies use 4-space indent (QBScript requirement)
-loaderLines.push('// ══════════════════ DISPATCH ══════════════════');
-loaderLines.push('species = text(Owner.Attribute(\'Species\').value)');
-loaderLines.push('');
-loaderLines.push(`if species == 'Forged':`);
-loaderLines.push('    init_race_forged()');
-for (const name of Object.keys(RACE_DISPATCH)) {
-  loaderLines.push(`if species == '${name.replace(/'/g, "\\'")}':`);
-  loaderLines.push(`    init_race_${ident(name)}()`);
-}
-loaderLines.push('');
-
-loaderLines.push('className = text(Owner.Attribute(\'Class\').value)');
-loaderLines.push('');
-loaderLines.push(`if className == 'Ironclad Samurai':`);
-loaderLines.push('    init_class_ironclad_samurai()');
-for (const name of Object.keys(CLASS_DISPATCH)) {
-  loaderLines.push(`if className == '${name.replace(/'/g, "\\'")}':`);
-  loaderLines.push(`    init_class_${ident(name)}()`);
-}
-loaderLines.push('');
-
-// Combined subclass dispatch — reads the single 'Subclass Selection'
-// attribute value ("Class — Path") and fires the matching init.
-loaderLines.push("// Combined subclass dispatch — 'Class — Path' value");
-loaderLines.push("subclassSelection = text(Owner.Attribute('Subclass Selection').value)");
-for (const [opt, suffix] of Object.entries(combinedSubclassSuffixByOption)) {
-  loaderLines.push(`if subclassSelection == '${opt.replace(/'/g, "\\'")}':`);
-  loaderLines.push(`    init_${suffix}()`);
-}
-loaderLines.push('');
+// Minimal character loader — matches the 5e pattern. The loader does NOT
+// dispatch per-class logic. Class features exist as attributes on every
+// character; players toggle them as they level up. The loader just
+// stamps the archetype's name into 'Class' as a fallback so new
+// characters have a starting class value (and imports Monster variants).
+const loaderLines = [
+  '// Tesshari character loader — runs on character load / sheet-open.',
+  '// Follows the 5e pattern: no per-class init, no level-gating.',
+  '// Players manage class features (attributes) themselves.',
+  '',
+  'init_monster(character):',
+  '    variant = character.variant',
+  '    if !variant:',
+  '        return',
+  "    announce('Monster variant: ' + variant)",
+  '',
+  "if Owner.hasArchetype('Monster'):",
+  '    init_monster(Owner)',
+  '',
+];
 
 const loaderPath = path.join(loaderDir, 'tesshari_loader.qbs');
 fs.writeFileSync(loaderPath, loaderLines.join('\n'), 'utf8');
@@ -640,8 +723,7 @@ scriptMeta.push({
   category: 'Character',
 });
 
-const subclassCount = Object.keys(combinedSubclassSuffixByOption).length;
-console.log(`Character loader: ${Object.keys(RACE_DISPATCH).length + 1} races, ${Object.keys(CLASS_DISPATCH).length + 1} classes, ${subclassCount} subclass options`);
+console.log(`Character loader: minimal 5e-style (no per-class dispatch).`);
 console.log(`Script metadata entries: ${scriptMeta.length} (global + characterLoader)`);
 
 // ═══════════════════════════════════════════════════════════════════════
@@ -901,38 +983,44 @@ function a(title) {
 }
 
 // ───────────────────────────────────────────────────────────────────────
-// WINDOW: SUBCLASS PATH — single combined dropdown. QB doesn't support
-// dynamic option filtering by another attribute, and conditional rendering
-// doesn't natively hide text/comp-input. The cleanest design is one
-// dropdown whose options are prefixed by class name so the user scans to
-// their class. A prominent "Class:" echo above makes the filter obvious.
+// WINDOW: SUBCLASS PATHS — 5e pattern: all class path attributes exist as
+// dropdowns on every character; player uses the one matching their Class.
 // ───────────────────────────────────────────────────────────────────────
 {
   const W = WIN.subclass.id;
-  const winW = 440, winH = 180;
   const classAttrId = attrByTitle['Class'];
-  const subAttrId = attrByTitle['Subclass Selection'];
+  const CLS_ROWS = [
+    'Ironclad Samurai','Ronin','Ashfoot','Veilblade','Oni Hunter',
+    'Forge Tender','Wireweave','Chrome Shaper','Pulse Caller','Iron Monk',
+    'Echo Speaker','Void Walker','Sutensai','Flesh Shaper','Puppet Binder',
+    'Blood Smith','The Hollow','Shadow Daimyo','Voice of Debt','Merchant Knife',
+    'Iron Herald','Curse Eater','Shell Dancer','Fracture Knight','The Unnamed',
+  ];
+  const rowH = 34;
+  const winW = 460;
+  const winH = 48 + CLS_ROWS.length * rowH + 16;
 
   components.push(shape(W, 0, 0, winW, winH, '#0d0d22'));
-  addHeader(W, 0, 0, winW, 'SUBCLASS PATH');
+  addHeader(W, 0, 0, winW, 'SUBCLASS PATHS');
 
-  // Current-Class echo — text bound via viewAttributeId (the working 5e
-  // pattern) shows the live Class value. The visible label sits to the
-  // left of it.
-  components.push(shape(W, 10, 46, winW - 20, 42, '#16163a', 6));
-  components.push(txt(W, 20, 46, 100, 42, 'CLASS', sText(13, '#a0a0c0', 'start')));
-  components.push(comp(W, 'text', 120, 46, winW - 140, 42,
-    { value: '{{Class}}', viewAttributeId: classAttrId },
-    sText(18, '#ffe08a', 'start', 'bold')));
+  CLS_ROWS.forEach((cls, i) => {
+    const info = SUBCLASS_BY_CLASS[cls];
+    if (!info) return;
+    const aid = attrByTitle[info.attr];
+    if (!aid) return;
+    const y = 48 + i * rowH;
 
-  // Instructional hint
-  components.push(txt(W, 10, 98, winW - 20, 22,
-    'Pick the option prefixed with your Class name below.',
-    sText(12, '#b0b0d0', 'start')));
+    // Highlight the matching row (shape conditional render = works natively)
+    components.push(comp(W, 'shape', 4, y - 2, winW - 8, rowH,
+      { sides: 4, conditionalRenderAttributeId: classAttrId,
+        conditionalRenderLogic: { operator: 'equals', value: cls } },
+      sShape('#2a2a55', 4),
+      { z: 0 }));
 
-  // Single dropdown: all 76 options, class-prefixed
-  components.push(txt(W, 10, 126, 90, 36, 'Subclass', sText(13, '#a0a0c0', 'start')));
-  components.push(input(W, 100, 126, winW - 110, 36, subAttrId, 'text', 'Choose subclass path'));
+    components.push(txt(W, 10, y, 160, rowH - 4, cls,
+      sText(13, '#a0a0c0', 'start')));
+    components.push(input(W, 175, y, winW - 185, rowH - 4, aid, 'text', 'Choose path'));
+  });
 }
 
 // ───────────────────────────────────────────────────────────────────────
@@ -965,6 +1053,7 @@ function a(title) {
   });
 }
 
+
 // ═══════════════════════════════════════════════════════════════════════
 // PAGES
 // ═══════════════════════════════════════════════════════════════════════
@@ -978,12 +1067,12 @@ const pages = Object.entries(PAGES).map(([k, p]) => ({
 // RULESET WINDOWS — place windows on pages
 // ═══════════════════════════════════════════════════════════════════════
 const rulesetWindows = [
-  // MAIN page: basics + stats + subclass + identity + background
+  // CHARACTER page: basics + stats + subclass + identity + background
   { winKey: 'basics',     pageKey: 'main', x: 20,  y: 20 },
   { winKey: 'stats',      pageKey: 'main', x: 20,  y: 260 },
   { winKey: 'subclass',   pageKey: 'main', x: 360, y: 260 },
-  { winKey: 'identity',   pageKey: 'main', x: 820, y: 260 },
-  { winKey: 'background', pageKey: 'main', x: 20,  y: 560 },
+  { winKey: 'identity',   pageKey: 'main', x: 840, y: 260 },
+  { winKey: 'background', pageKey: 'main', x: 20,  y: 1220 },
   // COMBAT page: combat + class resources
   { winKey: 'combat',     pageKey: 'combat', x: 20,  y: 20 },
   { winKey: 'resources',  pageKey: 'combat', x: 360, y: 20 },
@@ -1046,6 +1135,104 @@ const inventories = [{
 }];
 
 // ═══════════════════════════════════════════════════════════════════════
+// DOCUMENTS — one markdown doc per class + overview index.
+// ═══════════════════════════════════════════════════════════════════════
+const documents = [];
+{
+  const docsDir = path.join(BASE, 'documents');
+  fs.mkdirSync(docsDir, { recursive: true });
+
+  const docFileSlug = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
+
+  for (const cls of CLASS_OPTIONS) {
+    const docId = uuid();
+    const slug = docFileSlug(cls);
+    const filename = `${slug}_${docId}.md`;
+    const rows = classActions[cls] || [];
+    const info = SUBCLASS_BY_CLASS[cls] || { raw: [] };
+
+    const lines = [];
+    lines.push(`# ${cls}`);
+    lines.push('');
+    lines.push(`*Tesshari class reference.*`);
+    lines.push('');
+    lines.push(`## Overview`);
+    lines.push('');
+    lines.push(`The ${cls} is one of 25 core classes in Tesshari. Each class has a roster of cards (abilities) played during combat using the AP economy. Subclass paths unlock class-specific specializations.`);
+    lines.push('');
+    lines.push(`## Subclass Paths`);
+    lines.push('');
+    if (info.raw.length === 0) {
+      lines.push('- *(no paths defined yet)*');
+    } else {
+      for (const r of info.raw) lines.push(`- **${humanize(r)}**`);
+    }
+    lines.push('');
+    lines.push(`## Abilities (${rows.length})`);
+    lines.push('');
+    if (rows.length === 0) {
+      lines.push('*(ability list pending — see master actions reference)*');
+    } else {
+      const byCat = {};
+      for (const a of rows) {
+        const c = a.category || 'misc';
+        (byCat[c] ||= []).push(a);
+      }
+      for (const [cat, group] of Object.entries(byCat)) {
+        lines.push(`### ${cat}`);
+        lines.push('');
+        for (const a of group) {
+          lines.push(`- **${a.title}** — ${a.description || '(no description)'}`);
+        }
+        lines.push('');
+      }
+    }
+    lines.push(`---`);
+    lines.push(`Generated ${TS} for Tesshari ruleset.`);
+
+    fs.writeFileSync(path.join(docsDir, filename), lines.join('\n'), 'utf8');
+    documents.push({
+      title: cls, id: docId, rulesetId: RULESET_ID,
+      assetId: null, pdfAssetId: null, filename,
+      createdAt: TS, updatedAt: TS,
+    });
+  }
+
+  // Overview index document
+  const docId = uuid();
+  const filename = `tesshari_overview_${docId}.md`;
+  const overviewLines = [
+    '# Tesshari — Ruleset Overview',
+    '',
+    '*A card-based TTRPG of Iron, Resonance, and Debt.*',
+    '',
+    '## Core Loop',
+    '',
+    '- Every turn you spend **AP** (Action Points) to play ability cards.',
+    '- Basic Attack is free (no AP) once per turn.',
+    '- Most cards cost 1–3 AP.',
+    '- Subclass and capstone cards unlock at higher levels.',
+    '',
+    '## Species',
+    '',
+    ...SPECIES_OPTIONS.map(s => `- **${s}**`),
+    '',
+    '## Classes',
+    '',
+    ...CLASS_OPTIONS.map(c => `- **${c}** — ${(classActions[c] || []).length} abilities`),
+    '',
+    '---',
+    `Generated ${TS} for Tesshari ruleset.`,
+  ];
+  fs.writeFileSync(path.join(docsDir, filename), overviewLines.join('\n'), 'utf8');
+  documents.push({
+    title: 'Tesshari Overview', id: docId, rulesetId: RULESET_ID,
+    assetId: null, pdfAssetId: null, filename,
+    createdAt: TS, updatedAt: TS,
+  });
+}
+
+// ═══════════════════════════════════════════════════════════════════════
 // METADATA
 // ═══════════════════════════════════════════════════════════════════════
 const metadata = {
@@ -1069,7 +1256,7 @@ const metadata = {
   counts: {
     attributes: attributes.length, actions: actions.length, items: items.length,
     charts: 0, windows: windows.length, components: components.length,
-    composites: 0, compositeVariants: 0, assets: 0, fonts: 0, documents: 0,
+    composites: 0, compositeVariants: 0, assets: 0, fonts: 0, documents: documents.length,
     archetypes: archetypes.length,
     customProperties: 0, archetypeCustomProperties: 0, itemCustomProperties: 0,
     characterAttributes: characterAttributes.length,
@@ -1115,7 +1302,7 @@ writeJson('rulesetWindows.json', rulesetWindows);
 writeJson('characterPages.json', characterPages);
 writeJson('characterWindows.json', characterWindows);
 writeJson('charts.json', []);
-writeJson('documents.json', []);
+writeJson('documents.json', documents);
 writeJson('assets.json', []);
 
 // README

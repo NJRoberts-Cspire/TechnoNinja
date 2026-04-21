@@ -1,13 +1,13 @@
 [
   {
     "slug": "arc_player_character",
-    "id": "da183e04-5784-4268-a281-c86e7ab6bf47",
+    "id": "e31be14b-8cde-43f1-8aa3-7735558c668d",
     "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
     "name": "Player Character",
     "description": "A Tesshari player character. Choose Race, Class, and Subclass on the sheet — the loader applies all mechanical effects automatically.",
     "assetId": null,
     "image": null,
-    "testCharacterId": "7c26a059-4c05-44e5-bc7a-a09a7197fa35",
+    "testCharacterId": "59ac95e3-11db-4585-a38f-25002713f32c",
     "isDefault": false,
     "loadOrder": 1,
     "mapHeight": 1,
@@ -17,7 +17,7 @@
   },
   {
     "slug": "arc_monster",
-    "id": "631243f8-fc23-4cb7-aafa-725aca07816c",
+    "id": "caa02daa-f3ee-491d-84eb-6aa9750d1bbc",
     "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
     "name": "Monster",
     "description": "An NPC opponent. Pick a variant for the tier/role profile.",

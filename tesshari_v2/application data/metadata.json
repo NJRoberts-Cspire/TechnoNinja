@@ -25,22 +25,22 @@
     "version": "2.0.0"
   },
   "counts": {
-    "attributes": 292,
+    "attributes": 291,
     "actions": 395,
     "items": 606,
     "charts": 0,
     "windows": 7,
-    "components": 127,
+    "components": 196,
     "composites": 0,
     "compositeVariants": 0,
     "assets": 0,
     "fonts": 0,
-    "documents": 0,
+    "documents": 26,
     "archetypes": 2,
     "customProperties": 0,
     "archetypeCustomProperties": 0,
     "itemCustomProperties": 0,
-    "characterAttributes": 292,
+    "characterAttributes": 291,
     "inventories": 1,
     "characterWindows": 7,
     "characterPages": 2,
@@ -56,7 +56,7 @@
   },
   "scripts": [
     {
-      "id": "5128b1b2-24e4-4bbb-8911-3f52dfaa3816",
+      "id": "cf517fef-5dc0-46d1-a827-e29e34cfb2ac",
       "name": "tesshari_card_core",
       "file": "scripts/global/tesshari_card_core.qbs",
       "entityType": "global",
@@ -67,7 +67,7 @@
       "category": "Global"
     },
     {
-      "id": "9e920d9a-813d-4215-9dd4-ed470553cdb3",
+      "id": "7fe33ed8-ef4e-4bce-875e-9d379df6ce0e",
       "name": "tesshari_loader",
       "file": "scripts/character_loaders/tesshari_loader.qbs",
       "entityType": "characterLoader",

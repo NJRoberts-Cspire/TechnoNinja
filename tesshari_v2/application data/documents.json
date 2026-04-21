@@ -1,1 +1,262 @@
-[]
+[
+  {
+    "title": "Ironclad Samurai",
+    "id": "6203c601-9e58-42c2-83f9-97d30f242a7f",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "ironclad_samurai_6203c601-9e58-42c2-83f9-97d30f242a7f.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Ronin",
+    "id": "06c832c5-cf74-4f64-aef3-94bf72448e3b",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "ronin_06c832c5-cf74-4f64-aef3-94bf72448e3b.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Iron Monk",
+    "id": "01b0eed5-696e-4d00-8b1f-7bff98d3fdf7",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "iron_monk_01b0eed5-696e-4d00-8b1f-7bff98d3fdf7.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Fracture Knight",
+    "id": "6fe35f9b-8ba0-445e-9cf3-674ccac0e607",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "fracture_knight_6fe35f9b-8ba0-445e-9cf3-674ccac0e607.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Ashfoot",
+    "id": "cfbe6f27-01a7-4b00-b886-b73dfe159513",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "ashfoot_cfbe6f27-01a7-4b00-b886-b73dfe159513.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Veilblade",
+    "id": "e330b262-bb35-44c7-a449-abacd9cf4fec",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "veilblade_e330b262-bb35-44c7-a449-abacd9cf4fec.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Oni Hunter",
+    "id": "722c2104-fb4f-4c9f-a816-f8ff03014f3c",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "oni_hunter_722c2104-fb4f-4c9f-a816-f8ff03014f3c.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Shell Dancer",
+    "id": "83d410b2-a8ef-4c7d-95ab-262061509dd1",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "shell_dancer_83d410b2-a8ef-4c7d-95ab-262061509dd1.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Curse Eater",
+    "id": "90510bf7-72d0-4e00-b148-6545d2f58b03",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "curse_eater_90510bf7-72d0-4e00-b148-6545d2f58b03.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "The Hollow",
+    "id": "be934b45-0475-45cd-b163-d98b0c43a2e1",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "the_hollow_be934b45-0475-45cd-b163-d98b0c43a2e1.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Forge Tender",
+    "id": "fc511a8c-1a02-498d-80b9-3e0492e34f43",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "forge_tender_fc511a8c-1a02-498d-80b9-3e0492e34f43.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Wireweave",
+    "id": "f403232a-594d-4e0e-9430-ade626e5c24c",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "wireweave_f403232a-594d-4e0e-9430-ade626e5c24c.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Chrome Shaper",
+    "id": "78d2f901-7436-462f-a895-26fd084f435b",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "chrome_shaper_78d2f901-7436-462f-a895-26fd084f435b.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Pulse Caller",
+    "id": "b12422b8-671e-4762-86db-8691fa0fb7d9",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "pulse_caller_b12422b8-671e-4762-86db-8691fa0fb7d9.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Sutensai",
+    "id": "b8ba3316-d159-4e4e-8199-d32d1a6e37d7",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "sutensai_b8ba3316-d159-4e4e-8199-d32d1a6e37d7.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Flesh Shaper",
+    "id": "a3980cfc-52fb-49a3-96f7-bb833e7fbb0e",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "flesh_shaper_a3980cfc-52fb-49a3-96f7-bb833e7fbb0e.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Echo Speaker",
+    "id": "c3e8a3b0-5fc9-4666-ae07-631a93904f5c",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "echo_speaker_c3e8a3b0-5fc9-4666-ae07-631a93904f5c.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Void Walker",
+    "id": "bfb603c3-93b5-447e-a699-3b8e9bc6f9e4",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "void_walker_bfb603c3-93b5-447e-a699-3b8e9bc6f9e4.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Blood Smith",
+    "id": "f13b5e67-4fe1-4dbc-bfa1-6ef39e3fd6bf",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "blood_smith_f13b5e67-4fe1-4dbc-bfa1-6ef39e3fd6bf.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Iron Herald",
+    "id": "35b03c30-9a65-4301-869e-401ad568bef3",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "iron_herald_35b03c30-9a65-4301-869e-401ad568bef3.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Shadow Daimyo",
+    "id": "0c3564c9-b646-4619-b2f1-e3831dd21764",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "shadow_daimyo_0c3564c9-b646-4619-b2f1-e3831dd21764.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Voice of Debt",
+    "id": "6a2132a8-b7ac-4bd0-b780-23a24f902425",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "voice_of_debt_6a2132a8-b7ac-4bd0-b780-23a24f902425.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Merchant Knife",
+    "id": "1faf3d34-a075-47cc-b0fe-dd69a37fbb38",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "merchant_knife_1faf3d34-a075-47cc-b0fe-dd69a37fbb38.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Puppet Binder",
+    "id": "19d27cf3-87fb-4282-85ec-087b4521c667",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "puppet_binder_19d27cf3-87fb-4282-85ec-087b4521c667.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "The Unnamed",
+    "id": "e8c60e7c-c3a0-4396-a70e-25ae71dc1d21",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "the_unnamed_e8c60e7c-c3a0-4396-a70e-25ae71dc1d21.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  },
+  {
+    "title": "Tesshari Overview",
+    "id": "758dde35-2106-4b6c-8e67-bd71a3aad7e8",
+    "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
+    "assetId": null,
+    "pdfAssetId": null,
+    "filename": "tesshari_overview_758dde35-2106-4b6c-8e67-bd71a3aad7e8.md",
+    "createdAt": "2026-04-17T12:00:00.000Z",
+    "updatedAt": "2026-04-17T12:00:00.000Z"
+  }
+]

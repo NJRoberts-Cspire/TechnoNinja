@@ -3,7 +3,7 @@
     "label": "Character",
     "hideFromPlayerView": false,
     "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
-    "id": "16ecd56b-989c-49d6-bbc3-a69db6c60bb6",
+    "id": "2a21fb75-cc18-4f92-b9ec-a106921f6dc5",
     "createdAt": "2026-04-17T12:00:00.000Z",
     "updatedAt": "2026-04-17T12:00:00.000Z"
   },
@@ -11,7 +11,7 @@
     "label": "Combat",
     "hideFromPlayerView": false,
     "rulesetId": "4244b851-579a-4e85-b8e5-2932326df9ed",
-    "id": "784cf195-a28e-49d5-a8a0-719cead31d3b",
+    "id": "3bf2b8f1-d89a-4f41-8fda-76c2bbf8991d",
     "createdAt": "2026-04-17T12:00:00.000Z",
     "updatedAt": "2026-04-17T12:00:00.000Z"
   }
