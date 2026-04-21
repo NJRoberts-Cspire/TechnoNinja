@@ -1,0 +1,44 @@
+# Ashfoot staging cards — hit-and-fade mobility + salvage flavor
+# Columns: id	title	description	category	inventoryHeight	inventoryWidth	image	customProperties
+
+# === L2 Level-Up (2) ===
+card_ashfoot_ash_walker	Ash Walker	Years breathing cinder taught your lungs to laugh at it. Ignore difficult terrain from ash, smoke, or rubble; gain a FRAME save against airborne debuffs.	level_up	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_ashfoot_scavengers_eye	Scavenger's Eye	A glance at a downed foe tells you which plate pops loose first. After any enemy falls, mark one piece of their gear as salvageable on an EDGE check.	level_up	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L3 Skirmish Specialist (4) — mobility as a weapon ===
+card_ashfoot_skirmish_specialist_kicked_dust	Kicked Dust	Boot-heel grinds a plume of ashlands grit into an enemy's faceplate. EDGE strike; the target loses sightlines until their next turn.	subclass_skirmish_specialist	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_ashfoot_skirmish_specialist_ghost_trail	Ghost Trail	Move full speed without leaving tracks or triggering overwatch. Enemies that prepared an attack against you lose it.	subclass_skirmish_specialist	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_ashfoot_skirmish_specialist_hook_and_run	Hook and Run	Snag an enemy's belt, armor lip, or weapon strap as you pass. Shift them one step as you continue your move; they spend AP to chase or let it go.	subclass_skirmish_specialist	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_ashfoot_skirmish_specialist_wind_between_blades	Wind Between Blades	Thread the gap two enemies leave between them. Move through a contested space without provoking reactions and make a free Basic Attack against one on exit.	subclass_skirmish_specialist	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L3 Formation Anchor (4) — holds ground when others break ===
+card_ashfoot_formation_anchor_planted_boots	Planted Boots	Drive your heels into the ash and refuse to move. Until your next turn, forced movement against you fails and allies behind you gain cover.	subclass_formation_anchor	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_ashfoot_formation_anchor_shoulder_the_line	Shoulder the Line	Step into the space an ally is about to vacate. Swap positions with an adjacent ally and intercept the next attack aimed at them.	subclass_formation_anchor	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_ashfoot_formation_anchor_hold_the_gap	Hold the Gap	Stand in a chokepoint and dare them through. Any enemy that enters your zone this round suffers a FRAME-contested stagger.	subclass_formation_anchor	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_ashfoot_formation_anchor_rearguard_shout	Rearguard Shout	A bark in the old ashlands cadence. Allies within earshot clear one fear or rout effect and gain a reaction this round.	subclass_formation_anchor	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L3 Salvage Innovator (4) — turns wreckage into tools ===
+card_ashfoot_salvage_innovator_field_rig	Field Rig	Kneel over debris and lash it into something that works. Spend a turn crafting a single-use tool (shield, grapnel, smoke cannister) from a nearby wreck.	subclass_salvage_innovator	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_ashfoot_salvage_innovator_shared_scrap	Shared Scrap	Toss a jerry-rigged charge to an ally mid-fight. Pass one salvage token or improvised item to any ally in line of sight.	subclass_salvage_innovator	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_ashfoot_salvage_innovator_pry_the_plate	Pry the Plate	Wrench armor off a stunned or downed foe and strap it on the nearest ally. Target ally gains temporary armor until next round.	subclass_salvage_innovator	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_ashfoot_salvage_innovator_ghost_circuit	Ghost Circuit	You remember where their power lines run. Target one mechanized enemy; their next augmentation or device-based action misfires.	subclass_salvage_innovator	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L5 Power (3) ===
+card_ashfoot_cinder_dance	Cinder Dance	Your feet find the fight's rhythm; dust rises with you. For the round, every attack you land grants a free 1-square reposition.	power_card	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_ashfoot_junkyard_arsenal	Junkyard Arsenal	You kicked through three wrecks on the way in. Draw two improvised items from ambient salvage and arm yourself or an adjacent ally.	power_card	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_ashfoot_low_caste_high_ground	Low-Caste, High Ground	Choose the terrain they underestimated. Reshape one zone into advantageous ashlands terrain; allies gain cover, enemies lose reactions while inside.	power_card	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L9 Skirmish Specialist Power (2) ===
+card_ashfoot_subclass_power_skirmish_specialist_seven_steps_no_scar	Seven Steps, No Scar	Seven strikes across seven footprints, none of them holding still. Make up to three Basic Attacks against different targets, moving between each; enemies cannot react.	subclass_power_skirmish_specialist	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_ashfoot_subclass_power_skirmish_specialist_already_gone	Already Gone	When targeted by any attack, declare you were already leaving. Cancel the attack, move your full speed, and leave behind a dust cloud that blocks pursuit.	subclass_power_skirmish_specialist	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L9 Formation Anchor Power (2) ===
+card_ashfoot_subclass_power_formation_anchor_the_wall_is_us	The Wall Is Us	Lock shields and memory with every ally in sight. Until your next turn, damage dealt to any anchored ally is split evenly across the formation.	subclass_power_formation_anchor	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_ashfoot_subclass_power_formation_anchor_last_to_leave	Last to Leave	Bark a withdrawal order that lets everyone else disengage. All allies in range move freely without provoking; you become the only valid target but gain a massive FRAME bonus.	subclass_power_formation_anchor	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L9 Salvage Innovator Power (2) ===
+card_ashfoot_subclass_power_salvage_innovator_battlefield_forge	Battlefield Forge	Drag three wrecks together and weld them working in sixty seconds of held breath. Create a battlefield emplacement (turret, barricade, or charging station) your allies can operate.	subclass_power_salvage_innovator	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_ashfoot_subclass_power_salvage_innovator_their_own_weapons	Their Own Weapons	Rip the armaments off a fallen foe and turn them loose at their friends. Reload one allied ranged weapon and grant it the elite attack profile of the last enemy to drop.	subclass_power_salvage_innovator	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L20 Capstone (1) ===
+card_ashfoot_the_ash_remembers	The Ash Remembers	Every low-caste who fell before you rises in the dust at your back. Choose: become untargetable for one round as you fade through the ashlands, or summon the memory of fallen Ashfoot kin as shadow-allies who fight one full round beside you.	capstone_card	1	1		"{""apCost"":""5"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"

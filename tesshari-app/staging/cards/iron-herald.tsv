@@ -1,0 +1,52 @@
+# Iron Herald - new card roster
+# Class identity: battlefield rally-point and diplomat; makes allies braver; ends wars through voice
+# Primary stats: VEIL + RESONANCE
+# Existing cards: 2 combat, 2 utility, 2 control, 1 power, 1 capstone = 8 total
+# Gaps: L1 core (4 more to reach 12), L2 (2), L3 per path (4 each x 3 = 12), L5 (2 more to reach 3), L9 per path (2 each x 3 = 6). Capstone complete.
+
+# ===== L1 CORE (4 new to reach 12) =====
+card_iron_herald_hold_the_line	Hold the Line	Plant your banner and call the formation; until your next turn, allies within Command Zone cannot be pushed, pulled, or frightened.	defense_card	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_herald_parley	Parley	Raise an open hand and speak the old battlefield word; one enemy who can hear and understand you must choose to disengage or accept your VEIL check before attacking.	reaction_card	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_herald_advance	Advance	Signal forward with voice and hand; one willing ally within Command Zone may move up to their speed as a reaction, ignoring opportunity attacks.	mobility_card	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_herald_the_heralds_word	The Herald's Word	Your voice carries the authority of the banner; when an ally within earshot fails a RESONANCE or morale check, you may spend this card to let them reroll.	reaction_card	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L2 LEVEL-UP (2 new) =====
+card_iron_herald_banner_raised	Banner Raised	Plant your standard; while it stands, your Command Zone's radius increases and allies inside cannot be flanked.	level_up	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_herald_speak_plainly	Speak Plainly	You have learned the cadence that cuts through fear; once per combat, end one charmed, frightened, or compelled effect on yourself or an ally within earshot.	level_up	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L3 SUBCLASS: WARBANNER (4) =====
+# Battlefield rally-point. The banner stands, and so does the line.
+card_iron_herald_warbanner_no_step_back	No Step Back	Shout the oldest oath of the banner; allies in Command Zone reduce incoming damage while you can see them and while you remain standing.	subclass_warbanner	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_herald_warbanner_rally_strike	Rally Strike	Strike and call a charge in the same motion; after your attack hits, each ally in Command Zone may shift one tile toward an enemy as a reaction.	subclass_warbanner	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_herald_warbanner_standard_bearer	Standard Bearer	So long as you hold the banner aloft, allies in sight of it add your VEIL bonus to their saves against fear and despair.	subclass_warbanner	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_herald_warbanner_iron_hymn	Iron Hymn	Begin the marching hymn of the old cohorts; each round it continues, allies who attack on their turn gain bravery, and enemies who hear it lose one die on morale checks.	subclass_warbanner	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L3 SUBCLASS: NEUTRAL TONGUE (4) =====
+# Diplomat-warriors who end wars through voice. The tongue speaks all sides.
+card_iron_herald_neutral_tongue_cease_fire	Cease Fire	Raise the neutral sign and name the terms; choose two enemies within earshot, they cannot attack each other or you until one of them is attacked again.	subclass_neutral_tongue	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_herald_neutral_tongue_name_the_grievance	Name the Grievance	Speak aloud what the enemy truly wants; one humanoid enemy in earshot must make a RESONANCE check or lose their next attack action to argue with you.	subclass_neutral_tongue	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_herald_neutral_tongue_white_flag	White Flag	Walk the line between the armies; until the start of your next turn, you cannot be the first target attacked by any enemy who has not already struck you this combat.	subclass_neutral_tongue	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_herald_neutral_tongue_terms_of_surrender	Terms of Surrender	Offer quarter to a wounded foe; if a humanoid enemy is below half health and within earshot, they must choose to surrender, flee, or fight on with a penalty to their next attack.	subclass_neutral_tongue	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L3 SUBCLASS: THE SIGNAL (4) =====
+# Command-and-control. Orchestrates ally actions like a conductor.
+card_iron_herald_the_signal_relay_order	Relay Order	Flick a battlefield sign; one ally in Command Zone may immediately play a card from their hand at cost, using your initiative slot.	subclass_the_signal	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_herald_the_signal_read_the_field	Read the Field	You see the engagement one beat ahead; until your next turn, the first attack each ally makes against your Priority Mark hits with advantage.	subclass_the_signal	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_herald_the_signal_flare	Flare	Fire the coded flare; every ally in sight learns the positions and health of every enemy you can see until the end of the round.	subclass_the_signal	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_herald_the_signal_reposition	Reposition	Call the rotation; two allies in Command Zone swap places, and each may make a free attack against a single enemy threatening either of their former positions.	subclass_the_signal	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L5 POWER (2 new to reach 3) =====
+card_iron_herald_the_long_address	The Long Address	Step onto high ground and speak as heralds spoke before the wars; until the start of your next turn, allies in earshot ignore fear and exhaustion and their next attack gains your VEIL bonus.	power_card	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_herald_oath_of_the_crossed_hands	Oath of the Crossed Hands	Invoke the oldest herald's oath between two hostile parties; for one round, no creature in Command Zone may make the first attack, and any who break the oath take resonance damage from the breaking.	power_card	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L9 SUBCLASS POWER: WARBANNER (2) =====
+card_iron_herald_warbanner_unbroken_line	Unbroken Line	So long as the banner stands and you can speak, allies in Command Zone who would drop to zero health instead remain at one until the end of the round.	subclass_power_warbanner	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_herald_warbanner_charge_of_the_third_cohort	Charge of the Third Cohort	Call the name of a cohort long dead; every ally in Command Zone moves up to their speed toward an enemy and makes a free attack, and the banner flies without a bearer for one round.	subclass_power_warbanner	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L9 SUBCLASS POWER: NEUTRAL TONGUE (2) =====
+card_iron_herald_neutral_tongue_the_word_that_ends_wars	The Word That Ends Wars	Speak the single syllable heralds are forbidden to teach; every humanoid enemy within earshot must make a RESONANCE save or drop their weapons and spend their next turn not attacking.	subclass_power_neutral_tongue	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_herald_neutral_tongue_both_sides_of_the_table	Both Sides of the Table	For one round, you speak in two voices at once; you may take a second reaction each round, and the first time an ally would be attacked by a humanoid enemy, you may redirect the attacker's action into a RESONANCE contest instead.	subclass_power_neutral_tongue	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L9 SUBCLASS POWER: THE SIGNAL (2) =====
+card_iron_herald_the_signal_orchestrated_volley	Orchestrated Volley	Conduct the firing line; every ally in Command Zone with a ranged attack fires at a single enemy as a reaction, and the Priority Mark on that enemy becomes permanent until they die or leave the field.	subclass_power_the_signal	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_herald_the_signal_perfect_column	Perfect Column	Until the end of your next turn, your allies act in the order you call; you set the initiative of every willing ally in Command Zone and they may interrupt each other's turns with reactions.	subclass_power_the_signal	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"

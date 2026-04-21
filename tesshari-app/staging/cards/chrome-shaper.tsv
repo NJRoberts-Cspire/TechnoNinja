@@ -1,0 +1,43 @@
+# Chrome Shaper — Tesshari card roster additions
+# Class fantasy: reshapes flesh as armor or blade in real time; living biomods; the body as medium.
+# Primary stats: FRAME + IRON. Paths: War Shaper, Edge Builder, Resonance Sculptor.
+
+# === L1 CORE (fill gaps: reaction, passive, mobility/utility flavor) ===
+card_chrome_shaper_graft_parry	Graft Parry	A hand sprouts cartilage plates just in time to catch a blow. React to an incoming melee hit; reduce its damage.	reaction_card	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_chrome_shaper_bone_spur_riposte	Bone-Spur Riposte	When struck, a spine of bone erupts from the wound and gores the attacker. React to a melee hit to deal damage back.	reaction_card	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_chrome_shaper_living_chassis	Living Chassis	Your body perpetually rewrites itself. While any configuration is active, you regenerate minor wounds each round.	passive	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_chrome_shaper_second_skin	Second Skin	Peel a layer of dead chrome-flesh and harden what remains. Shed a condition or debuff; suffer a minor wound in exchange.	utility_card	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L2 LEVEL-UP ===
+card_chrome_shaper_dual_configuration	Dual Configuration	Your chassis learns to hold two shapes at once. Maintain two Configurations simultaneously instead of one.	level_up	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_chrome_shaper_rapid_reshape	Rapid Reshape	Muscle memory overtakes bone memory. Reconfigure as a reaction once per combat instead of an action.	level_up	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L3 SUBCLASS — WAR SHAPER (living armor that adapts mid-combat) ===
+card_chrome_shaper_war_shaper_adaptive_plating	Adaptive Plating	The plates on your skin shift with each incoming blow, matching the strike type. Gain resistance to the last damage type that hit you.	subclass_war_shaper	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_chrome_shaper_war_shaper_gut_bastion	Gut Bastion	Abdominal muscle thickens into a wall of meat. Gain temporary hit points; allies adjacent to you share a fraction.	subclass_war_shaper	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_chrome_shaper_war_shaper_reflex_carapace	Reflex Carapace	Your skin reads the battlefield before your mind does. Once per round, the first attack against you this round misses outright.	subclass_war_shaper	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_chrome_shaper_war_shaper_wound_seal	Wound-Seal	Flesh closes over the gash before blood can leave it. When you would drop below half health, stabilize and shed a wound condition.	subclass_war_shaper	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L3 SUBCLASS — EDGE BUILDER (grows blade-extensions from flesh) ===
+card_chrome_shaper_edge_builder_bone_blade	Bone Blade	A femur splits and extrudes from your forearm, dripping marrow. Grow a melee weapon from your body for the encounter.	subclass_edge_builder	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_chrome_shaper_edge_builder_serrated_lash	Serrated Lash	A tendon whips free of its sheath, tipped with fang-shards. Make a melee attack with extended reach; on hit, pull the target one step.	subclass_edge_builder	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_chrome_shaper_edge_builder_splinter_burst	Splinter Burst	Cartilage shards tear loose of your skin in a cone. Damage all enemies in a short cone in front of you; you take a minor wound.	subclass_edge_builder	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_chrome_shaper_edge_builder_hooked_limb	Hooked Limb	Fingers fuse into a barbed claw meant for catching meat. Next attack this turn pierces armor and leaves a bleeding barb that deals damage next round.	subclass_edge_builder	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L3 SUBCLASS — RESONANCE SCULPTOR (carves resonant symbols into meat) ===
+card_chrome_shaper_resonance_sculptor_sigil_of_binding	Sigil of Binding	You drag a bloody glyph down your forearm; the target's chrome answers it. One enemy cannot Configure or activate augments next round.	subclass_resonance_sculptor	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_chrome_shaper_resonance_sculptor_shared_resonance	Shared Resonance	Carve a twin rune — one on you, one on an ally. You split incoming damage between you until either of you falls.	subclass_resonance_sculptor	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_chrome_shaper_resonance_sculptor_hum_of_the_forge	Hum of the Forge	A low resonant note emanates from the sigils in your skin. Allies within short range gain a small bonus to their next FRAME or IRON check.	subclass_resonance_sculptor	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_chrome_shaper_resonance_sculptor_dissonant_mark	Dissonant Mark	A contradictory glyph, cut deliberately wrong. The marked enemy takes extra damage from the next attack made against them.	subclass_resonance_sculptor	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L9 SUBCLASS POWER — WAR SHAPER ===
+card_chrome_shaper_war_shaper_fortress_form	Fortress Form	Bone and plate fuse across your torso into an impenetrable shell. For several rounds, halve all damage you take; you cannot move more than one step per turn.	subclass_power_war_shaper	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_chrome_shaper_war_shaper_the_hundred_hides	The Hundred Hides	Every wound you have taken this fight pushes to the surface, hardening. Gain temporary hit points equal to damage already sustained this combat.	subclass_power_war_shaper	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L9 SUBCLASS POWER — EDGE BUILDER ===
+card_chrome_shaper_edge_builder_spine_tree	Spine Tree	Dozens of bone-blades erupt from your back, your arms, your jaw. All melee attacks this round hit every adjacent enemy; you take a minor wound at end of round.	subclass_power_edge_builder	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_chrome_shaper_edge_builder_the_shedding	The Shedding	Cast off a limb that has fully bladed over and hurl it. Ranged attack that ignores cover and regrows the limb next round.	subclass_power_edge_builder	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L9 SUBCLASS POWER — RESONANCE SCULPTOR ===
+card_chrome_shaper_resonance_sculptor_chorus_of_marks	Chorus of Marks	Every glyph you have cut this fight sings at once. All sigils you have placed on allies and enemies trigger their effect a second time.	subclass_power_resonance_sculptor	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_chrome_shaper_resonance_sculptor_unmaking_rune	Unmaking Rune	You carve a shape no body should hold. One target's augmentations, implants, and glyphs go silent for the rest of combat.	subclass_power_resonance_sculptor	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"

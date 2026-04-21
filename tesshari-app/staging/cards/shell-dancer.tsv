@@ -1,0 +1,49 @@
+# Shell Dancer - new cards to reach full tier targets
+# Existing: 6 L1 core, 1 L5 power, 1 L20 capstone (8 total)
+# Adding: 6 L1 core, 2 L2, 12 L3 subclass (4 per path), 2 L5 power, 6 L9 subclass power (2 per path) = 28 new
+
+# === L1 CORE (6 new, bringing total to 12) ===
+card_shell_dancer_armor_pry	Armor Pry	Hook a plate and wrench. The target's armor peels back, exposing a seam for the next striker.	combat_card	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_shell_dancer_hairline_fracture	Hairline Fracture	Tap the weakest rivet. A fault spreads through the target's guard, promising a louder break later.	combat_card	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_shell_dancer_scavenger_sense	Scavenger's Sense	Passive. You read damaged plating like a map. Gain a bonus on FRAME checks to spot weak points, hidden caches, and salvageable wreckage.	passive	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_shell_dancer_dancers_pivot	Dancer's Pivot	Reaction. When struck, spend the momentum to slip sideways. Halve the hit and end adjacent to a different foe.	reaction_card	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_shell_dancer_scrap_caltrops	Scrap Caltrops	Scatter broken shell fragments at your feet. The square becomes hazardous to anyone who wants to close with you.	control_card	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_shell_dancer_broken_weave	Broken Weave	Slip between failures in the target's stance. Move through their square without triggering attacks.	mobility_card	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L2 LEVEL-UP (2 new) ===
+card_shell_dancer_second_skin	Second Skin	Level-up. You've learned to wear scavenged plates like they were grown on. Gain a small permanent bonus to IRON saves while any armor you're wearing is damaged.	level_up	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_shell_dancer_rhythm_of_the_break	Rhythm of the Break	Level-up. Your Cascade no longer drains fully between fights; retain one point at the start of each combat.	level_up	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L3 SUBCLASS: THE BREAKER (4) ===
+card_shell_dancer_the_breaker_oathsplitter	Oathsplitter	Target a foe who swore to protect another. Your strike bypasses guards and shields; the oath itself is the weakness.	subclass_the_breaker	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_shell_dancer_the_breaker_fracture_echo	Fracture Echo	When an enemy's armor breaks, the sound travels. Nearby foes with similar gear lose a small amount of IRON until end of round.	subclass_the_breaker	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_shell_dancer_the_breaker_promise_to_break	Promise to Break	Mark a target. Your next strike against them ignores armor entirely but costs you one Cascade.	subclass_the_breaker	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_shell_dancer_the_breaker_recursive_strike	Recursive Strike	Reaction. When you crack a foe's armor, immediately make a free strike against them before the plates finish falling.	subclass_the_breaker	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L3 SUBCLASS: THE SURVIVOR (4) ===
+card_shell_dancer_the_survivor_bruise_bank	Bruise Bank	Passive. Damage you absorb this turn becomes Cascade on the next. You pay yourself back in fractures.	subclass_the_survivor	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_shell_dancer_the_survivor_last_breath_dance	Last Breath Dance	Reaction. When a hit would drop you, enter Shell Step for free and remain at 1 HP until the end of the next enemy turn.	subclass_the_survivor	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_shell_dancer_the_survivor_scar_tissue	Scar Tissue	Each scar is a lesson the body remembers. Gain a stacking IRON bonus for each wound you've already taken this combat.	subclass_the_survivor	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_shell_dancer_the_survivor_unbroken_stance	Unbroken Stance	Root yourself in what refuses to fall. Until your next turn, you cannot be moved or knocked prone, and all incoming damage is reduced.	subclass_the_survivor	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L3 SUBCLASS: THE SCAVENGER (4) ===
+card_shell_dancer_the_scavenger_shell_harvest	Shell Harvest	When a foe's armor breaks, pocket a shard. Hold up to three; each can be spent for a rider on any strike.	subclass_the_scavenger	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_shell_dancer_the_scavenger_junk_ward	Junk Ward	Lash scrap to your arm. Gain a temporary shield that absorbs one hit, then bursts into fragments hostile to the attacker.	subclass_the_scavenger	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_shell_dancer_the_scavenger_discard_pile	Discard Pile	Study what others threw away. Once per encounter, name one item or weapon type; you treat a nearby piece of broken gear as that object for one turn.	subclass_the_scavenger	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_shell_dancer_the_scavenger_rivet_toss	Rivet Toss	Hurl a fistful of scavenged rivets and shell-chips. Small ranged damage; each target hit loses a point of armor integrity.	subclass_the_scavenger	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L5 POWER (2 new, bringing total to 3) ===
+card_shell_dancer_shatter_cascade	Shatter Cascade	Spend half your Cascade to crack every armored foe in melee. Their next incoming damage is amplified across the board.	power_card	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_shell_dancer_hollow_armory	Hollow Armory	You've carried so many broken shells they start to carry you. For one round, each Cascade point grants a temporary plate of scavenged armor, stacking.	power_card	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L9 SUBCLASS POWER: THE BREAKER (2) ===
+card_shell_dancer_the_breaker_worldcrack	Worldcrack	Name an oath, a promise, a bond in the battlefield. Everyone tied to it takes fracture damage; if you destroy the bond, you gain Cascade equal to those harmed.	subclass_power_the_breaker	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_shell_dancer_the_breaker_final_vow	Final Vow	Swear aloud to end one target this round. Your strikes against them ignore all defenses. If they survive, you cannot play Breaker cards next round.	subclass_power_the_breaker	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L9 SUBCLASS POWER: THE SURVIVOR (2) ===
+card_shell_dancer_the_survivor_walking_wound	Walking Wound	For three rounds, you cannot fall below 1 HP. When the effect ends, all stored damage lands at once on the nearest enemy instead of you.	subclass_power_the_survivor	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_shell_dancer_the_survivor_bedrock	Bedrock	You become the thing that does not move. Until your next turn, all allies adjacent to you share your IRON save, and attacks that would knock them down strike you instead.	subclass_power_the_survivor	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L9 SUBCLASS POWER: THE SCAVENGER (2) ===
+card_shell_dancer_the_scavenger_salvagewright	Salvagewright	Reach into the wreckage of the battle so far. Reclaim one used card of AP 2 or less from your discard pile and play it immediately at reduced cost.	subclass_power_the_scavenger	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_shell_dancer_the_scavenger_ghost_plating	Ghost Plating	Weave every shell shard you've collected this combat into a suit. Gain temporary armor equal to the number of foes you've cracked; lasts until shattered.	subclass_power_the_scavenger	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"

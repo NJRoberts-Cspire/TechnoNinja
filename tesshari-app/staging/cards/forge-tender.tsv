@@ -1,0 +1,46 @@
+# Forge Tender staging cards — generated 2026-04-21
+# Existing L1 pool already has 11 cards (combat/utility/defense/control/reaction).
+# Capstone already exists: card_forge_tender_the_body_is_the_temple.
+# This file adds the missing tiers.
+
+# ===== L1 Core (1 new; fills gap to 12) =====
+card_forge_tender_listen_to_the_anvil	Listen to the Anvil	Passive: once per encounter, the first time an ally's weapon or augment would break, the Forge Tender hears it cry and the break is held off one round.	passive	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L2 Level-Up (2 cards) =====
+card_forge_tender_bellows_breath	Bellows Breath	Draw a slow breath and exhale onto an ally's gear; their next SIGNAL or RESONANCE check this round burns cleaner and hotter.	level_up	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_forge_tender_name_the_metal	Name the Metal	Whisper the true name of a foe's weapon or armor; while you hold the name, your strikes against that piece bite deeper and it resists its wielder.	level_up	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L3 Subclass: Resonance Keeper (4 cards) — living forges, intent over flame =====
+card_forge_tender_resonance_keeper_heat_without_fire	Heat Without Fire	Place a hand on a blade and pour RESONANCE into it; the metal glows without flame and the next ally attack with it lands as searing.	subclass_resonance_keeper	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_forge_tender_resonance_keeper_tuning_strike	Tuning Strike	Tap a foe's armor at its resonant note; the plate rings like a struck bell and nearby allies hear where it is weakest.	subclass_resonance_keeper	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_forge_tender_resonance_keeper_living_forge	The Living Forge	Plant your forge-stake on the ground; while it stands, allies within reach repair passively at the start of each round.	subclass_resonance_keeper	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_forge_tender_resonance_keeper_temper_the_hand	Temper the Hand	Run your palm along an ally's weapon; it sheds fatigue and sings. Their next attack this turn cannot be parried.	subclass_resonance_keeper	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L3 Subclass: Black Smith (4 cards) — cursed metalwork =====
+card_forge_tender_black_smith_hungry_edge	Hungry Edge	Feed a drop of your own blood to an ally's blade; it hungers for one round and each hit it lands draws a little back for you.	subclass_black_smith	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_forge_tender_black_smith_rust_touch	Rust Touch	Lay a finger on a foe's weapon; it browns and flakes under your nail. Their next attack does less and may break on impact.	subclass_black_smith	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_forge_tender_black_smith_work_the_wrong_metal	Work the Wrong Metal	Forge a shard from something that should not be worked — bone, void-iron, a memory. Hand it to an ally as a one-use cursed weapon that hits harder but frays its wielder.	subclass_black_smith	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_forge_tender_black_smith_nails_for_the_dead	Nails for the Dead	Drive a black nail into the ground at a fallen creature; if it tries to rise, stand, or reanimate before the round ends, it is pinned in place.	subclass_black_smith	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L3 Subclass: Echomind Anchor (4 cards) — mind-imprint bindings =====
+card_forge_tender_echomind_anchor_imprint_the_grip	Imprint the Grip	Press an ally's palm to a fresh-forged hilt; the weapon learns their hand, and for the rest of the scene cannot be disarmed from them.	subclass_echomind_anchor	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_forge_tender_echomind_anchor_call_it_home	Call It Home	Speak the maker's name over an ally's dropped or thrown weapon; it returns to their hand as if remembering the way.	subclass_echomind_anchor	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_forge_tender_echomind_anchor_twin_blades	Twin Blades	Bind two weapons to a single intent; when one ally strikes, a bound second weapon in another ally's hand echoes the swing at a nearby target.	subclass_echomind_anchor	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_forge_tender_echomind_anchor_the_weapon_remembers	The Weapon Remembers	Touch a foe's weapon and show it a truer maker; for one round it refuses to harm its wielder's allies and flinches from its own wielder.	subclass_echomind_anchor	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L5 Power (3 cards) =====
+card_forge_tender_seventh_vein	The Seventh Vein	Open the seventh ore-vein inside yourself; for one round your touch mends armor, sharpens edges, and closes wounds as a single gesture across all adjacent allies.	power_card	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_forge_tender_quench	Quench	Plunge a burning weapon into cold resonance; a chosen ally's weapon ignores armor for their next attack, then smokes and goes quiet for the rest of the scene.	power_card	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_forge_tender_unmake	Unmake	Lay both hands on a crafted object — weapon, door, chain, idol — and unmake it back to ore. Works on anything forged, no matter how sacred or cursed, once per rest.	power_card	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L9 Subclass Power: Resonance Keeper (2 cards) =====
+card_forge_tender_resonance_keeper_chorus_of_anvils	Chorus of Anvils	Strike the ground and wake every piece of forged metal in the field; for one round, every ally weapon rings in unison and lands with the voice of them all.	subclass_power_resonance_keeper	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_forge_tender_resonance_keeper_forge_heart	Forge-Heart	Set your own heartbeat as the rhythm of the forge; while it beats, one chosen ally weapon cannot cool, cannot dull, and cannot be dropped.	subclass_power_resonance_keeper	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L9 Subclass Power: Black Smith (2 cards) =====
+card_forge_tender_black_smith_cursed_panoply	Cursed Panoply	Pull a suit of armor out of the earth where no armor was buried; any ally who dons it gains frightful defense for the scene but leaves a piece of themselves behind when they take it off.	subclass_power_black_smith	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_forge_tender_black_smith_oath_breaker_nail	Oath-Breaker Nail	Drive the black nail through a foe's weapon into the ground; the weapon is pinned, the wielder cannot pick it up, and any oath or binding the weapon carried is broken.	subclass_power_black_smith	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L9 Subclass Power: Echomind Anchor (2 cards) =====
+card_forge_tender_echomind_anchor_ghost_in_the_grip	Ghost in the Grip	Call the imprinted mind of a dead maker into an ally's weapon; for one round the weapon fights alongside the wielder as a second set of hands.	subclass_power_echomind_anchor	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_forge_tender_echomind_anchor_unbind_the_maker	Unbind the Maker	Sever a foe's bond to their signature weapon or augment; for the rest of the scene the gear treats them as a stranger, failing, jamming, or refusing them outright.	subclass_power_echomind_anchor	1	1		"{""apCost"":""5"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"

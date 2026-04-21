@@ -1,0 +1,56 @@
+# Wireweave new cards — staging
+# L1 Core fillers (defense / utility / reaction / passive / mobility to round out the roster)
+card_wireweave_counterweave	Counterweave	Reaction: when a signal or enhancement ability targets you, re-route the incoming thread back into its source's feed.	reaction_card	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_faraday_shroud	Faraday Shroud	Wrap yourself in a dampening lattice; hostile signal pings slide off you until your next turn.	defense_card	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_packet_sniff	Packet Sniff	Skim the ambient wire-chatter around a target; reveal one augmentation, tag, or hidden status they carry.	utility_card	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_ghost_in_the_cable	Ghost in the Cable	Passive: while you stand adjacent to Wire Craft infrastructure, enemies take a penalty to locate or target you.	passive	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_thread_the_needle	Thread the Needle	Slip along a stretched wire-filament between two points you can see; ignores difficult terrain and small obstructions.	mobility_card	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_static_feedback	Static Feedback	Reaction: when an ally within your weave is hit, bleed the strike's feedback into the attacker as static burn.	reaction_card	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# L2 Level-Up
+card_wireweave_second_harmonic	Second Harmonic	Level-Up: you now hum on two frequencies; once per round, a SIGNAL check may be retried at a different harmonic.	level_up	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_stitched_aura	Stitched Aura	Level-Up: passive weave extends one pace around you; allies inside the weave gain a small VEIL benefit.	level_up	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# L3 Subclass — Combat Weave (battle-grid weaver; iron-signal threads around you)
+card_wireweave_combat_weave_bladeline	Bladeline	Draw a humming wire-line between two points; any hostile crossing it this round is slashed by taut signal.	subclass_combat_weave	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_combat_weave_snare_lattice	Snare Lattice	Fling a crosshatch of iron thread onto a tile; the first enemy to enter is rooted as the lattice cinches tight.	subclass_combat_weave	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_combat_weave_parry_filament	Parry Filament	Reaction: a filament snaps taut across an incoming melee arc, shearing part of the blow before it lands.	subclass_combat_weave	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_combat_weave_tightening_ring	Tightening Ring	Weave an iron ring around a target; each turn the target remains, the ring cinches closer and applies increasing pressure.	subclass_combat_weave	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# L3 Subclass — Wire Broker (mercenary of wire-markets; buys and sells signal access)
+card_wireweave_wire_broker_sell_a_shadow	Sell a Shadow	Trade a second of your VEIL to an ally; they gain concealment for their next action, you are briefly more visible.	subclass_wire_broker	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_wire_broker_lien_on_the_wire	Lien on the Wire	Place a lien on a target's signal feed; you may call in the debt later for a free SIGNAL check against them.	subclass_wire_broker	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_wire_broker_market_price	Market Price	Quote the going rate to an enemy: they pay AP to act normally next turn, or suffer a penalty.	subclass_wire_broker	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_wire_broker_contract_clause	Contract Clause	Bind an ally and an enemy with a brokered signal-contract; damage taken by one is split with the other until the clause breaks.	subclass_wire_broker	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# L3 Subclass — Iron Afterlife Weave (wire-dialog with the resonant dead)
+card_wireweave_iron_afterlife_weave_dead_channel	Dead Channel	Open a whisper-thin line to the resonant dead in the area; gain a single piece of insight the living cannot provide.	subclass_iron_afterlife_weave	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_iron_afterlife_weave_borrow_a_grudge	Borrow a Grudge	Pull a dead soldier's grudge through the wire; your next strike against a marked foe lands with their hatred behind it.	subclass_iron_afterlife_weave	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_iron_afterlife_weave_chorus_of_rust	Chorus of Rust	Let the dead speak in chorus through your weave; enemies in range hear the names of their own dead and are shaken.	subclass_iron_afterlife_weave	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_iron_afterlife_weave_seance_knot	Seance Knot	Tie a knot of mourning-wire over a fallen body; for a short time, the dead can act once more through the weave.	subclass_iron_afterlife_weave	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# L3 Subclass — Loom Maker (architect of mega-wire structures; weaves entire zones)
+card_wireweave_loom_maker_anchor_post	Anchor Post	Set a wire anchor at your current position; your future weaves originate from or pass through this anchor.	subclass_loom_maker	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_loom_maker_warp_field	Warp Field	Weave a broad warp across a zone; allies inside move faster along its grain, enemies move slower against it.	subclass_loom_maker	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_loom_maker_loomwall	Loomwall	Raise a tall wall of interlaced wire between two anchors; blocks line of sight and bleeds signal that touches it.	subclass_loom_maker	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_loom_maker_zone_pattern	Zone Pattern	Commit a named pattern into the zone (bless, curse, or mark); anyone stepping on it triggers its effect once.	subclass_loom_maker	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# L5 Power cards
+card_wireweave_signal_crown	Signal Crown	Power: wear the wire as a crown; for the next rounds, every SIGNAL check you make pulls a minor secondary effect along with it.	power_card	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_unbroken_thread	Unbroken Thread	Power: name one ally; until the thread breaks, you and they share a channel — you can pass an action, a veil, or a wound between you.	power_card	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# L9 Subclass Power — Combat Weave
+card_wireweave_combat_weave_power_killing_lattice	Killing Lattice	Subclass Power: in a zone you designate, every wire becomes an edge; hostiles crossing it take shearing damage and slow.	subclass_power_combat_weave	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_combat_weave_power_iron_aegis	Iron Aegis	Subclass Power: draw every filament you have into a shining aegis around an ally; they cannot be hit by the next incoming attack.	subclass_power_combat_weave	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# L9 Subclass Power — Wire Broker
+card_wireweave_wire_broker_power_hostile_takeover	Hostile Takeover	Subclass Power: call in every outstanding lien at once; all marked enemies suffer feedback and lose their next action as the debts are collected.	subclass_power_wire_broker	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_wire_broker_power_open_the_market	Open the Market	Subclass Power: declare an auction on the battlefield; allies may spend AP to buy each other's cards or effects for one round.	subclass_power_wire_broker	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# L9 Subclass Power — Iron Afterlife Weave
+card_wireweave_iron_afterlife_weave_power_iron_pallbearers	Iron Pallbearers	Subclass Power: summon a cohort of wire-sheathed dead who carry an ally across the battlefield, shielding them along the route.	subclass_power_iron_afterlife_weave	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_iron_afterlife_weave_power_the_long_dial_tone	The Long Dial Tone	Subclass Power: hold open a channel with the dead across an entire fight; once per round, ask one question and the dead answer truthfully.	subclass_power_iron_afterlife_weave	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# L9 Subclass Power — Loom Maker
+card_wireweave_loom_maker_power_cathedral_loom	Cathedral Loom	Subclass Power: raise a vaulted loom over the battlefield; the zone gains a single rule of your choosing while the loom stands.	subclass_power_loom_maker	1	1		"{""apCost"":""5"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_wireweave_loom_maker_power_fold_the_zone	Fold the Zone	Subclass Power: fold two anchors together; for a moment, the space between them collapses and any unit may step from one to the other.	subclass_power_loom_maker	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"

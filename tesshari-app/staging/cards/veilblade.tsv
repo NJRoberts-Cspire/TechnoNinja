@@ -1,0 +1,45 @@
+# Veilblade staging cards — gap-fill pass
+# Existing: 13 L1 core cards + The Unwitnessed (L20). No L2/L3/L5/L9 prior to this pass.
+# Adds: 2 L2, 12 L3 (4 per path x 3), 3 L5, 6 L9 (2 per path x 3), 1 additional L20 = 24 rows.
+
+# === L2 Level-Up (2) ===
+card_veilblade_silent_cadence	Silent Cadence	Your footfalls stop returning to sensors; movement this turn leaves no record and your next strike gains edge.	level_up	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_veilblade_veilstep	Veilstep	Slip between packets. Reposition once without breaking a Veil state you currently hold.	level_up	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L3 Shadow Operative (4) ===
+card_veilblade_shadow_operative_walk_the_line	Walk the Line	Move into an enemy-occupied space as if you belong there; the squad's threat register skips you until you act.	subclass_shadow_operative	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_veilblade_shadow_operative_wear_their_face	Wear Their Face	Borrow a target's biometric handshake. You register as an ally to their faction's sensors until you deal damage.	subclass_shadow_operative	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_veilblade_shadow_operative_inside_blade	Inside Blade	Strike from the same formation as your target; the wound reads as friendly fire in their after-action logs.	subclass_shadow_operative	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_veilblade_shadow_operative_no_one_here	No One Here	When the alarm sounds, you were already gone. Negate the first Detect or Reveal effect made against you each round.	subclass_shadow_operative	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L3 Signal Cutter (4) ===
+card_veilblade_signal_cutter_deadline	Deadline	Sever a target's uplink. Until your next turn they cannot call for reinforcements or receive buffs from allies.	subclass_signal_cutter	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_veilblade_signal_cutter_static_cage	Static Cage	Flood a zone with masking noise; enemies inside cannot coordinate actions with allies outside the zone.	subclass_signal_cutter	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_veilblade_signal_cutter_last_word	Last Word	Intercept an enemy's final transmission. Cancel one reaction or called response they attempt this turn.	subclass_signal_cutter	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_veilblade_signal_cutter_frayed_line	Frayed Line	The target's augment feedback turns on them; their next attack roll suffers interference.	subclass_signal_cutter	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L3 Ghost Archive (4) ===
+card_veilblade_ghost_archive_borrowed_intent	Borrowed Intent	Pluck a fragment of your target's plan. Learn their next declared action; they cannot change it without spending AP.	subclass_ghost_archive	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_veilblade_ghost_archive_replay_the_strike	Replay the Strike	Cast a stolen memory back at its owner; repeat the last attack an enemy made, against them.	subclass_ghost_archive	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_veilblade_ghost_archive_cold_reading	Cold Reading	Skim the target's recent memory. Reveal one hidden stat, cooldown, or intent and mark it as known to your allies.	subclass_ghost_archive	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_veilblade_ghost_archive_redacted_self	Redacted Self	Erase yourself from a target's recollection. They cannot target you on their next turn unless an ally reminds them.	subclass_ghost_archive	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L5 Power (3) ===
+card_veilblade_blackroom	Blackroom	Drop a pocket of total sensor silence over the field. For one round, no one inside sees outside; no one outside sees in.	power_card	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_veilblade_seventh_cut	Seventh Cut	Strike a target six times in the seams of their armor, then once more in the gap between heartbeats; compounds per previous strike this encounter.	power_card	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_veilblade_null_accord	Null Accord	Declare yourself unseen for the rest of the round; actions taken cannot be reacted to, but any witness left alive marks you forever.	power_card	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L9 Shadow Operative (2) ===
+card_veilblade_shadow_operative_the_quiet_hour	The Quiet Hour	For one round you do not exist on the battlefield's records; you act normally but no opponent may designate you as a target.	subclass_power_shadow_operative	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_veilblade_shadow_operative_empty_uniform	Empty Uniform	Leave a perfect double behind; the enemy squad treats it as you for a round while you act from anywhere in their formation.	subclass_power_shadow_operative	1	1		"{""apCost"":""5"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L9 Signal Cutter (2) ===
+card_veilblade_signal_cutter_dead_channel	Dead Channel	Cut every wire in a wide zone. For one round no augment, summon, or remote asset in the area can receive input.	subclass_power_signal_cutter	1	1		"{""apCost"":""5"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_veilblade_signal_cutter_severance	Severance	Choose a single enemy; their augmentations, network buffs, and allied links cut out for the rest of the encounter.	subclass_power_signal_cutter	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L9 Ghost Archive (2) ===
+card_veilblade_ghost_archive_steal_the_commander	Steal the Commander	Pull a memory of command from the enemy leader; issue one of their orders back to their squad against them.	subclass_power_ghost_archive	1	1		"{""apCost"":""5"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_veilblade_ghost_archive_archive_of_knives	Archive of Knives	Replay every attack you have witnessed this encounter as a single sequenced strike against one target.	subclass_power_ghost_archive	1	1		"{""apCost"":""5"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# === L20 Capstone (1 additional; The Unwitnessed already exists) ===
+card_veilblade_nameless_edict	Nameless Edict	Capstone: declare a target's name stricken from every record in reach; allies forget them, augments ignore them, and your next strike writes the new ending.	capstone_card	1	1		"{""apCost"":""5"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"

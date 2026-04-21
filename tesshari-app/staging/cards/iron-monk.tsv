@@ -1,0 +1,59 @@
+# Iron Monk - new card roster
+# Class identity: living temple; body and resonance as one; between-stance mastery; meditation-forged strikes
+# Primary stats: IRON + RESONANCE
+# Existing cards: 10 L1, 0 L2, 0 L3, 2 L5, 0 L9, 1 L20 capstone
+
+# ===== L1 CORE (2 new to reach 12) =====
+card_iron_monk_standing_stone	Standing Stone	Root into a chosen tile; while you do not move, incoming shove and displacement are refused and your IRON checks take advantage.	passive	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_monk_hum_of_the_bell	Hum of the Bell	Strike the air; a low resonant tone rolls out and one enemy within earshot loses their reaction until the start of their next turn.	control_card	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L2 LEVEL-UP (2 new) =====
+card_iron_monk_second_breath	Second Breath	Once per combat, inhale the stillness you have gathered and refresh one spent defense or reaction card.	level_up	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_monk_temple_stance	Temple Stance	Adopt the first form taught at the temple; gain a standing bonus to RESONANCE checks and your unarmed strikes count as blessed until you move more than one tile.	level_up	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L3 SUBCLASS: ORTHODOXY (4) =====
+# Strict Iron Temple discipline. Traditional form-work. Ritual, repetition, doctrine.
+card_iron_monk_orthodoxy_seven_thousand_forms	Seven Thousand Forms	Cycle through the canonical forms; if you played an attack last turn, the next attack this turn reads as a different damage type of your choice.	subclass_orthodoxy	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_monk_orthodoxy_canonical_strike	Canonical Strike	A textbook-perfect blow delivered exactly as the founders wrote it; on a hit, the target cannot play reaction cards against you until end of round.	subclass_orthodoxy	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_monk_orthodoxy_vow_of_silence	Vow of Silence	Take the vow for one round; you may not speak or cast, but you cannot be mentally influenced and your IRON defense hardens.	subclass_orthodoxy	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_monk_orthodoxy_hand_of_the_abbot	Hand of the Abbot	Invoke temple authority; one ally within sight who can see you gains your IRON stance bonus until your next turn.	subclass_orthodoxy	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L3 SUBCLASS: RESONANTS (4) =====
+# Heterodox monks. Resonance over ritual. Feel the tone, break the form.
+card_iron_monk_resonants_shatter_tone	Shatter Tone	Strike a note no scripture allows; one object, shield, or brittle construct within sight cracks along a resonant seam.	subclass_resonants	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_monk_resonants_unwritten_form	Unwritten Form	Invent a form on the spot; this turn your movement does not provoke and your unarmed strikes gain advantage on the first hit.	subclass_resonants	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_monk_resonants_sympathy	Sympathy	Attune to another body in the fight; until your next turn, when that creature takes damage you may hear its position through walls and gain a free mark on it.	subclass_resonants	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_monk_resonants_heretic_chord	Heretic Chord	Sing the forbidden triad; enemies within earshot that rely on spoken incantations lose one card from their next turn's pool.	subclass_resonants	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L3 SUBCLASS: FLESH CIRCLE (4) =====
+# Body-integrated monks. Augmentation as devotion. The temple is the flesh.
+card_iron_monk_flesh_circle_graft_fist	Graft Fist	Press a living augment into your knuckle before the strike; your next unarmed attack deals augment damage and ignores one point of armor.	subclass_flesh_circle	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_monk_flesh_circle_devotional_scar	Devotional Scar	Open an old mark and close it with a prayer; spend a hit die and gain temporary protection equal to the roll until end of combat.	subclass_flesh_circle	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_monk_flesh_circle_marrow_brace	Marrow Brace	Lock your skeleton into prayer posture; until your next turn, the first attack that would knock you prone or stagger you is refused.	subclass_flesh_circle	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_monk_flesh_circle_living_reliquary	Living Reliquary	Your body stores a relic's hum; once per combat, discharge it to end one ongoing effect on yourself or an adjacent ally.	subclass_flesh_circle	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L3 SUBCLASS: PATH OF THE BETWEEN (4) =====
+# Walkers in the space between stances. Transitional mastery. Exist in the gap.
+card_iron_monk_path_of_the_between_slip_stance	Slip Stance	Between one breath and the next, change your footing; after any enemy's movement ends adjacent to you, shift one tile before they act.	subclass_path_of_the_between	1	1		"{""apCost"":""0"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_monk_path_of_the_between_hollow_step	Hollow Step	Walk the gap; become untargetable until the start of your next turn, but you cannot act while hollow.	subclass_path_of_the_between	1	1		"{""apCost"":""2"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_monk_path_of_the_between_mirror_cut	Mirror Cut	Strike from the stance you have not yet taken; your next attack this turn hits as though you had moved, whether or not you did.	subclass_path_of_the_between	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_monk_path_of_the_between_two_rooms	Two Rooms	For a breath, you exist in two places; until end of turn, you may count as standing in your current tile or any tile adjacent to it for line-of-sight and cover.	subclass_path_of_the_between	1	1		"{""apCost"":""1"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L5 POWER (1 new to reach 3) =====
+card_iron_monk_thousand_bell_cascade	Thousand Bell Cascade	Release a cascade of resonant tones across the battlefield; every enemy within a wide radius takes resonant damage and their next concentration check is made at disadvantage.	power_card	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L9 SUBCLASS POWER: ORTHODOXY (2) =====
+card_iron_monk_orthodoxy_recitation_of_the_founders	Recitation of the Founders	Speak aloud the unbroken lineage; for one round, you and allies within earshot cannot be charmed, frightened, or compelled, and your first attack each turn is blessed.	subclass_power_orthodoxy	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_monk_orthodoxy_sealed_form	Sealed Form	Execute the technique forbidden outside the high temple; one perfect strike that cannot be dodged, parried, or reacted to, but you may not attack again this combat.	subclass_power_orthodoxy	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L9 SUBCLASS POWER: RESONANTS (2) =====
+card_iron_monk_resonants_the_seventh_vein	The Seventh Vein	Find the hidden resonant channel in a living target; the next attack against them this round is maximized, and you hear their heartbeat for the rest of combat.	subclass_power_resonants	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_monk_resonants_dissonant_chorus	Dissonant Chorus	Loose every tone you have swallowed; all enemies within sight take resonant damage and must drop one held card or spent item.	subclass_power_resonants	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L9 SUBCLASS POWER: FLESH CIRCLE (2) =====
+card_iron_monk_flesh_circle_the_body_as_altar	The Body As Altar	Offer your flesh as a relic; until end of combat, every time you take damage, an ally within sight heals for the same amount.	subclass_power_flesh_circle	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_monk_flesh_circle_communion_of_iron	Communion of Iron	Fuse briefly with an adjacent ally's augments; until end of your next turn, you share defense values and each of you may use one of the other's cards once.	subclass_power_flesh_circle	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+
+# ===== L9 SUBCLASS POWER: PATH OF THE BETWEEN (2) =====
+card_iron_monk_path_of_the_between_the_unfinished_step	The Unfinished Step	Begin a step you never complete; choose a tile within sight, and until the start of your next turn you are considered to be in both your current tile and that tile for all purposes.	subclass_power_path_of_the_between	1	1		"{""apCost"":""3"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
+card_iron_monk_path_of_the_between_interval_strike	Interval Strike	Strike in the instant between two heartbeats; resolve an attack against any target in sight before any other action this round, ignoring turn order.	subclass_power_path_of_the_between	1	1		"{""apCost"":""4"",""playLimitPerTurn"":""1"",""isCard"":""true"",""isBasicAttack"":""false"",""aiTag"":""""}"
