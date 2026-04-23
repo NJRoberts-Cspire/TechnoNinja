@@ -1,5 +1,6 @@
 {
   "_id": "7871a86dc7c9ad62",
+  "_key": "!items!7871a86dc7c9ad62",
   "name": "Spirit Speech",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_spirit_speech"
+      "sourceId": "card_echo_speaker_spirit_speech",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

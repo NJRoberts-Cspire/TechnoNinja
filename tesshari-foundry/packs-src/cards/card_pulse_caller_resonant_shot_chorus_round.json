@@ -1,5 +1,6 @@
 {
   "_id": "432099a944b2c89f",
+  "_key": "!items!432099a944b2c89f",
   "name": "Chorus Round",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_resonant_shot_chorus_round"
+      "sourceId": "card_pulse_caller_resonant_shot_chorus_round",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

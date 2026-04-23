@@ -1,5 +1,6 @@
 {
   "_id": "b0195f725e2059d3",
+  "_key": "!items!b0195f725e2059d3",
   "name": "Deep Immersion",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_deep_immersion"
+      "sourceId": "card_wireweave_deep_immersion",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

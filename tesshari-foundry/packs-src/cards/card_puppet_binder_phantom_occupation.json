@@ -1,5 +1,6 @@
 {
   "_id": "8dcf6ef23263afdd",
+  "_key": "!items!8dcf6ef23263afdd",
   "name": "Phantom Occupation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -29,7 +30,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_phantom_occupation"
+      "sourceId": "card_puppet_binder_phantom_occupation",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

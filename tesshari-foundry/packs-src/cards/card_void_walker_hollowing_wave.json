@@ -1,5 +1,6 @@
 {
   "_id": "c8a6341fb31c2682",
+  "_key": "!items!c8a6341fb31c2682",
   "name": "Hollowing Wave",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_hollowing_wave"
+      "sourceId": "card_void_walker_hollowing_wave",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "d72fd06f4ee9ee06",
+  "_key": "!items!d72fd06f4ee9ee06",
   "name": "Perfect Hunt",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_perfect_hunt"
+      "sourceId": "card_oni_hunter_perfect_hunt",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

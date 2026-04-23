@@ -1,5 +1,6 @@
 {
   "_id": "6a9e5842f82fad08",
+  "_key": "!items!6a9e5842f82fad08",
   "name": "Coin for Silence",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_coin_for_silence"
+      "sourceId": "card_merchant_knife_coin_for_silence",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

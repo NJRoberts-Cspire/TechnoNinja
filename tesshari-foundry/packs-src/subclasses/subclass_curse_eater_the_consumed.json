@@ -1,0 +1,41 @@
+{
+  "_id": "56791e4c0ea7872b",
+  "_key": "!items!56791e4c0ea7872b",
+  "name": "The Consumed",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Curse Eater",
+    "pathKey": "the_consumed",
+    "features": {
+      "3": {
+        "name": "The Blur",
+        "html": "<p>Your Corruption Sense extends to 120 feet. Corrupted creatures within this range can sense you in return — they feel a pull toward you, a recognition that you carry what they carry. This is not control; it is resonance. You can use this resonance to communicate simple emotional states with corrupted creatures within range as a free action.</p>"
+      },
+      "6": {
+        "name": "Integration",
+        "html": "<p>Your absorbed corruptions have begun to integrate rather than simply accumulate. Your body is adapting. Choose one additional Corruption Feature beyond the normal threshold progression. This feature is fully integrated and stable — it provides its benefit without any instability. The Consumed integrates rather than merely containing.</p>"
+      },
+      "10": {
+        "name": "Transformation Accelerated",
+        "html": "<p>The changes in you are now visible and functional. You have developed a physical characteristic from your absorbed corruption that is genuinely supernatural: the DM and you together determine what this is, based on what you have absorbed and the campaign's context. Examples: you can absorb damage as Corruption Points rather than hit points (once per round, reaction, absorbs up to your Constitution modifier), you can sense the Echomind of all creatures within 60 feet as a passive ability, or your strikes carry Drift energy that can be transmitted to targets (they gain 1 Corruption Point on hit, taking 1d6 necrotic damage at the start of each turn until they succeed on a DC 14 Constitution save). This feature is not chosen from a list — it is developed collaboratively and reflects the specific accumulation your character carries.</p>"
+      },
+      "14": {
+        "name": "The New Thing",
+        "html": "<p>You have absorbed enough, transformed enough, that you are now something the existing categories do not fully describe. Once per long rest, for 10 minutes, you can release the full weight of your accumulation in a controlled form: you shed your current appearance and manifest as the Consumed form — a visible representation of everything you carry. In this form: you are immune to all forms of spiritual contamination (you absorb rather than being affected), all hostile contamination-based attacks against you add to your Corruption Points rather than harming you, your unarmed strikes deal 3d10 necrotic damage, and creatures within 30 feet that you have not designated as protected must succeed on a RESONANCE resistance check (DC = your Curse Eater save DC) or become frightened of you. When you return to your normal form, you regain your normal appearance. What you look like in the Consumed form is between you and your DM and probably your table.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Consumed has taken in so much, for so long, that the boundary is blurring. They are not the person who began this practice. They are not a single thing's corruption, either. They are something new — the original practitioner plus everything they have absorbed, integrated into a form that does not have a clean description. This is not loss of self in the way a puppet loses self. It is transformation — unwanted, unasked-for, profound, and ongoing. The Consumed does not know what they are becoming. They know they are becoming it. They have decided to make the becoming intentional rather than passive, which is either wisdom or surrender, and they are not sure which.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Curse Eater::the_consumed"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

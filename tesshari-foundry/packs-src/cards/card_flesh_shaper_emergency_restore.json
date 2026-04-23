@@ -1,5 +1,6 @@
 {
   "_id": "97395db32790dfbb",
+  "_key": "!items!97395db32790dfbb",
   "name": "Emergency Restore",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_emergency_restore"
+      "sourceId": "card_flesh_shaper_emergency_restore",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

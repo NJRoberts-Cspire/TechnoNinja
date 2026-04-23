@@ -1,5 +1,6 @@
 {
   "_id": "bf5844b738ce556d",
+  "_key": "!items!bf5844b738ce556d",
   "name": "Sell a Shadow",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_wire_broker_sell_a_shadow"
+      "sourceId": "card_wireweave_wire_broker_sell_a_shadow",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

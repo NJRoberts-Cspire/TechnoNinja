@@ -1,5 +1,6 @@
 {
   "_id": "fb30900df15f7955",
+  "_key": "!items!fb30900df15f7955",
   "name": "Sever the Strings",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_sever_the_strings"
+      "sourceId": "card_puppet_binder_sever_the_strings",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "47c1513818e04123",
+  "_key": "!items!47c1513818e04123",
   "name": "Seventh Resonance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_seventh_resonance"
+      "sourceId": "card_ironclad_seventh_resonance",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

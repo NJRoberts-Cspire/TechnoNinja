@@ -1,5 +1,6 @@
 {
   "_id": "36c47b05d825ddb2",
+  "_key": "!items!36c47b05d825ddb2",
   "name": "Fractured Presence",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_fractured_presence"
+      "sourceId": "card_fracture_knight_fractured_presence",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

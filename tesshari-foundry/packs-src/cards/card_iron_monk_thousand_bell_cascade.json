@@ -1,5 +1,6 @@
 {
   "_id": "d535aa7fd7420604",
+  "_key": "!items!d535aa7fd7420604",
   "name": "Thousand Bell Cascade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_thousand_bell_cascade"
+      "sourceId": "card_iron_monk_thousand_bell_cascade",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "c282d8bf3a8b8266",
+  "_key": "!items!c282d8bf3a8b8266",
   "name": "Clean Dissolution",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_clean_dissolution"
+      "sourceId": "card_oni_hunter_clean_dissolution",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "6ca74433175e93bd",
+  "_key": "!items!6ca74433175e93bd",
   "name": "Observed Weakness",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_observed_weakness"
+      "sourceId": "card_merchant_knife_observed_weakness",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

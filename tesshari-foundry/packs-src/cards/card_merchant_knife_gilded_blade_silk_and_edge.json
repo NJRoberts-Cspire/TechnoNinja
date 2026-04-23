@@ -1,5 +1,6 @@
 {
   "_id": "92469d6d9486ac40",
+  "_key": "!items!92469d6d9486ac40",
   "name": "Silk and Edge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_gilded_blade_silk_and_edge"
+      "sourceId": "card_merchant_knife_gilded_blade_silk_and_edge",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "2d0dda5e1f386d6f",
+  "_key": "!items!2d0dda5e1f386d6f",
   "name": "Fracture Form: Entry",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_fracture_form_entry"
+      "sourceId": "card_fracture_knight_fracture_form_entry",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

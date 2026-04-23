@@ -1,5 +1,6 @@
 {
   "_id": "2d9ba0bf32318ab3",
+  "_key": "!items!2d9ba0bf32318ab3",
   "name": "Vessel Overload",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_vessel_overload"
+      "sourceId": "card_puppet_binder_vessel_overload",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

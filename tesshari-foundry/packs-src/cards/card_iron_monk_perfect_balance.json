@@ -1,5 +1,6 @@
 {
   "_id": "dea69319b1307b50",
+  "_key": "!items!dea69319b1307b50",
   "name": "Perfect Balance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_perfect_balance"
+      "sourceId": "card_iron_monk_perfect_balance",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

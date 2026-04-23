@@ -1,5 +1,6 @@
 {
   "_id": "d71dc2bb0db81ffd",
+  "_key": "!items!d71dc2bb0db81ffd",
   "name": "Oath Cascade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_oath_cascade"
+      "sourceId": "card_ironclad_oath_cascade",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

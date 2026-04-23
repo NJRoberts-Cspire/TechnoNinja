@@ -1,5 +1,6 @@
 {
   "_id": "837599cf4ba9ef0a",
+  "_key": "!items!837599cf4ba9ef0a",
   "name": "Living Node",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_living_node"
+      "sourceId": "card_wireweave_living_node",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

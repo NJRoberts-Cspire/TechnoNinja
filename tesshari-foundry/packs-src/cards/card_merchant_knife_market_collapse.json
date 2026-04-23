@@ -1,5 +1,6 @@
 {
   "_id": "cbfe4195344cb48c",
+  "_key": "!items!cbfe4195344cb48c",
   "name": "Market Collapse",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_market_collapse"
+      "sourceId": "card_merchant_knife_market_collapse",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

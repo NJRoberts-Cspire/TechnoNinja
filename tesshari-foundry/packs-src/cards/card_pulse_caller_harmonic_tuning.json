@@ -1,5 +1,6 @@
 {
   "_id": "8d42725ee298b9ae",
+  "_key": "!items!8d42725ee298b9ae",
   "name": "Harmonic Tuning",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_harmonic_tuning"
+      "sourceId": "card_pulse_caller_harmonic_tuning",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

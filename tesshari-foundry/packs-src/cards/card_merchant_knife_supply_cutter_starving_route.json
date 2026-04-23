@@ -1,5 +1,6 @@
 {
   "_id": "fddf92369957e5e2",
+  "_key": "!items!fddf92369957e5e2",
   "name": "Starving Route",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_supply_cutter_starving_route"
+      "sourceId": "card_merchant_knife_supply_cutter_starving_route",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

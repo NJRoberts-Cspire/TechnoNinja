@@ -1,5 +1,6 @@
 {
   "_id": "cd0d48c39692ddc6",
+  "_key": "!items!cd0d48c39692ddc6",
   "name": "Last Round Standing",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -29,7 +30,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_last_round_standing"
+      "sourceId": "card_ashfoot_last_round_standing",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

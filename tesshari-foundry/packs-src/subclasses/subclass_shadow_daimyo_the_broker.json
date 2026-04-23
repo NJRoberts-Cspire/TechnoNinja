@@ -1,0 +1,41 @@
+{
+  "_id": "c3f39f250d068047",
+  "_key": "!items!c3f39f250d068047",
+  "name": "The Broker",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Shadow Daimyo",
+    "pathKey": "the_broker",
+    "features": {
+      "3": {
+        "name": "Safe Passage",
+        "html": "<p>You carry the informal protection of the Broker tradition. Creatures and organizations that recognize your role as a neutral Broker cannot attack you without losing significant social standing and intelligence access. You gain +3 to resistance checks against attacks from creatures who know your role. Once per long rest, in any hostile situation, you can declare neutrality: all parties must make a RESONANCE resistance check (DC = your Shadow Daimyo save DC) or be unable to act against you for 1 minute while they calculate the cost of violating broker immunity.</p>"
+      },
+      "6": {
+        "name": "The Middle Market",
+        "html": "<p>You have turned the Broker role into a business. Once per long rest, you can broker a deal between two parties who need something from each other but cannot communicate directly. The deal requires both parties to send representatives to you. You identify what each party needs and wants, what each party can offer, and construct a mutually beneficial exchange. If both parties agree, the deal is sealed under the Broker's word — and your word carries spiritual weight equivalent to a Sutensai oath under Tesshari custom. Violating a Broker's sealed deal has social and spiritual consequences that the table should play seriously.</p>"
+      },
+      "10": {
+        "name": "Perfect Neutrality",
+        "html": "<p>Your neutrality is now so established that you can enter active conflict zones under Broker protection. You can move freely through areas controlled by any faction that recognizes the Broker tradition (this includes most major powers, though fringe groups may not). Within these areas, you cannot be detained without a formal process that will alert every party you serve — effective deterrence.</p>"
+      },
+      "14": {
+        "name": "The Final Channel",
+        "html": "<p>Once per long rest, you can open a communication channel between parties who are actively at war and have no other communication pathway. The channel is temporary (1 hour) but absolute — during this period, both parties communicate freely and cannot move against each other without breaking the channel, which would signal a violation of the Broker's arrangement to every party in the Broker's network simultaneously. This ability has, in Tesshari's history, prevented wars from starting and stopped wars from ending. The Broker understands that it can do both, and chooses when to use it accordingly.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Broker has built their operation on the premise that neutrality, genuinely maintained, is the most valuable commodity in a war. Everyone wants to talk to someone the other side also talks to. Everyone wants a channel they can trust not to leak. The Broker provides this service and has built a network that is genuinely useful to all parties — which means that all parties have reason to want the Broker alive and informed, and no party fully trusts them, and the Broker has learned that this is the most stable professional relationship available in Tesshari.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Shadow Daimyo::the_broker"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,5 +1,6 @@
 {
   "_id": "dcbc3f3db6965780",
+  "_key": "!items!dcbc3f3db6965780",
   "name": "Echo Storm",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_echo_storm"
+      "sourceId": "card_echo_speaker_echo_storm",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "5460cec507efc845",
+  "_key": "!items!5460cec507efc845",
   "name": "Signal Blackout",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_signal_blackout"
+      "sourceId": "card_iron_herald_signal_blackout",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

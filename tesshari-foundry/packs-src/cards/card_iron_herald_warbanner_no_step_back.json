@@ -1,5 +1,6 @@
 {
   "_id": "50717313fa3429a2",
+  "_key": "!items!50717313fa3429a2",
   "name": "No Step Back",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_warbanner_no_step_back"
+      "sourceId": "card_iron_herald_warbanner_no_step_back",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

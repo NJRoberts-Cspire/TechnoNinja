@@ -1,5 +1,6 @@
 {
   "_id": "975b38385d9d085d",
+  "_key": "!items!975b38385d9d085d",
   "name": "Leave Nothing",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_leave_nothing"
+      "sourceId": "card_veilblade_leave_nothing",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

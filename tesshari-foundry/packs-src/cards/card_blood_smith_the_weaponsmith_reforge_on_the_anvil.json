@@ -1,5 +1,6 @@
 {
   "_id": "3c9a719512e750ae",
+  "_key": "!items!3c9a719512e750ae",
   "name": "Reforge on the Anvil",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_blood_smith_the_weaponsmith_reforge_on_the_anvil"
+      "sourceId": "card_blood_smith_the_weaponsmith_reforge_on_the_anvil",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

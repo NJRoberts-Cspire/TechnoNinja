@@ -1,5 +1,6 @@
 {
   "_id": "724c99cf9ea946b2",
+  "_key": "!items!724c99cf9ea946b2",
   "name": "Total Reconfiguration",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_total_reconfiguration"
+      "sourceId": "card_chrome_shaper_total_reconfiguration",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "f2863d967dc4d192",
+  "_key": "!items!f2863d967dc4d192",
   "name": "Heat Without Fire",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_resonance_keeper_heat_without_fire"
+      "sourceId": "card_forge_tender_resonance_keeper_heat_without_fire",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

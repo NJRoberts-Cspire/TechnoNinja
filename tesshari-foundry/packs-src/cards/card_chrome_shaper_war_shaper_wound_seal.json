@@ -1,5 +1,6 @@
 {
   "_id": "8f61b83ce906da1b",
+  "_key": "!items!8f61b83ce906da1b",
   "name": "Wound-Seal",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_war_shaper_wound_seal"
+      "sourceId": "card_chrome_shaper_war_shaper_wound_seal",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

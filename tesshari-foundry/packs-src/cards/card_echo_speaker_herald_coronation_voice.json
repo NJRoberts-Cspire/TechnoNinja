@@ -1,5 +1,6 @@
 {
   "_id": "79474198c653d0ed",
+  "_key": "!items!79474198c653d0ed",
   "name": "Coronation Voice",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_herald_coronation_voice"
+      "sourceId": "card_echo_speaker_herald_coronation_voice",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

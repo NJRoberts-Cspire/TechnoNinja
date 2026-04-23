@@ -1,5 +1,6 @@
 {
   "_id": "d1638845d8cfb2ae",
+  "_key": "!items!d1638845d8cfb2ae",
   "name": "Network Bind",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_network_bind"
+      "sourceId": "card_puppet_binder_network_bind",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

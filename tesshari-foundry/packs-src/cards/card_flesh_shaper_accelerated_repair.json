@@ -1,5 +1,6 @@
 {
   "_id": "cfc0e179b644f918",
+  "_key": "!items!cfc0e179b644f918",
   "name": "Accelerated Repair",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_accelerated_repair"
+      "sourceId": "card_flesh_shaper_accelerated_repair",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

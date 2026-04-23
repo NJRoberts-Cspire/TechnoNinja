@@ -1,5 +1,6 @@
 {
   "_id": "3277cc97bcc2d4a2",
+  "_key": "!items!3277cc97bcc2d4a2",
   "name": "Spectral Strike: Deep",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_spectral_strike_deep"
+      "sourceId": "card_fracture_knight_spectral_strike_deep",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

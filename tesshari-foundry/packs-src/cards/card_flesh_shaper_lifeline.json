@@ -1,5 +1,6 @@
 {
   "_id": "31d016117f2449f9",
+  "_key": "!items!31d016117f2449f9",
   "name": "Lifeline",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_lifeline"
+      "sourceId": "card_flesh_shaper_lifeline",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "ab965ee11924a1f4",
+  "_key": "!items!ab965ee11924a1f4",
   "name": "Nameless Edict",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_nameless_edict"
+      "sourceId": "card_veilblade_nameless_edict",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

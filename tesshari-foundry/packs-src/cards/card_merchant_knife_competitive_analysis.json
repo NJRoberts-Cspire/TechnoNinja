@@ -1,5 +1,6 @@
 {
   "_id": "5fa83d6debec61f9",
+  "_key": "!items!5fa83d6debec61f9",
   "name": "Competitive Analysis",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_competitive_analysis"
+      "sourceId": "card_merchant_knife_competitive_analysis",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

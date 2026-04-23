@@ -1,22 +1,18 @@
 {
   "_id": "f6dad5dd581b3e5b",
+  "_key": "!items!f6dad5dd581b3e5b",
   "name": "The Dead Remember",
   "type": "card",
   "img": "icons/svg/combat.svg",
   "system": {
-    "tier": 3,
-    "apCost": 3,
+    "tier": 2,
+    "apCost": 2,
     "baseDamage": 0,
     "pierce": 0,
     "category": "utility",
     "primaryStat": "",
-    "keywords": [
-      "Area",
-      "Fracture 2",
-      "Vulnerable 2",
-      "Frightened"
-    ],
-    "unlockLevel": 13,
+    "keywords": [],
+    "unlockLevel": 5,
     "className": "Fracture Knight",
     "subclass": "",
     "isRaceCard": false,
@@ -24,16 +20,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Spend 4 Phantom Charges. The dead surge outward in a 30-meter radius. All enemies in the area take 16 + RESONANCE damage. Apply Fracture 2 and Vulnerable 2 to all enemies hit. All enemies in the area are Frightened for 1 round. Allies in the area gain Shield equal to your RESONANCE × 2.</p>"
+    "description": "<p>Access the Iron Afterlife's collective memory of this location. In combat: learn one fact about each enemy — their current HP total, one card they have not yet played, or one status immunity. Out of combat: ask the Afterlife one question about any event that occurred in the past year within 1 mile.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_the_dead_remember"
+      "sourceId": "card_fracture_knight_the_dead_remember",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 3013,
+  "sort": 2005,
   "ownership": {
     "default": 0
   }

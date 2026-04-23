@@ -1,5 +1,6 @@
 {
   "_id": "33aba2261d194a72",
+  "_key": "!items!33aba2261d194a72",
   "name": "Ghost Walk",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -10,10 +11,8 @@
     "pierce": 0,
     "category": "mobility",
     "primaryStat": "",
-    "keywords": [
-      "Phase"
-    ],
-    "unlockLevel": 3,
+    "keywords": [],
+    "unlockLevel": 2,
     "className": "Fracture Knight",
     "subclass": "",
     "isRaceCard": false,
@@ -21,16 +20,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Phase into the Iron Afterlife momentarily. Until the start of your next turn, the first Attack card targeting you has no effect — you were partially elsewhere. Reposition up to 15 meters (phase movement). Gain 1 Phantom Charge.</p>"
+    "description": "<p>Your movement has been modified at the kinematic level — footfall pattern, heat signature, air displacement. Move up to your full speed. During this movement, all mechanical sensors and automated detection systems cannot register your presence. You may end this movement in a hidden position if cover exists.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_ghost_walk"
+      "sourceId": "card_fracture_knight_ghost_walk",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 1003,
+  "sort": 1002,
   "ownership": {
     "default": 0
   }

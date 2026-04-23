@@ -1,5 +1,6 @@
 {
   "_id": "1fd3c479c96ff4ca",
+  "_key": "!items!1fd3c479c96ff4ca",
   "name": "Salvage Master",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -10,11 +11,7 @@
     "pierce": 0,
     "category": "passive",
     "primaryStat": "",
-    "keywords": [
-      "Bleed 1",
-      "Expose 1",
-      "Stagger"
-    ],
+    "keywords": [],
     "unlockLevel": 8,
     "className": "Ashfoot",
     "subclass": "",
@@ -28,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_salvage_master"
+      "sourceId": "card_ashfoot_salvage_master",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

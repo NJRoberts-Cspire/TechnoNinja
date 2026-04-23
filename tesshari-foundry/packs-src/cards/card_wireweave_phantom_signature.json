@@ -1,5 +1,6 @@
 {
   "_id": "782d13f8f802692d",
+  "_key": "!items!782d13f8f802692d",
   "name": "Phantom Signature",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_phantom_signature"
+      "sourceId": "card_wireweave_phantom_signature",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

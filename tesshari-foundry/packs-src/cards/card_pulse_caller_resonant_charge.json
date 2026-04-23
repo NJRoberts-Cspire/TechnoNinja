@@ -1,5 +1,6 @@
 {
   "_id": "ff83c002bd85fddd",
+  "_key": "!items!ff83c002bd85fddd",
   "name": "Resonant Charge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_resonant_charge"
+      "sourceId": "card_pulse_caller_resonant_charge",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

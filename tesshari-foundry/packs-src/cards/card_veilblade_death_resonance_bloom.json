@@ -1,5 +1,6 @@
 {
   "_id": "67c3bdad62dd0fce",
+  "_key": "!items!67c3bdad62dd0fce",
   "name": "Death-Resonance Bloom",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_death_resonance_bloom"
+      "sourceId": "card_veilblade_death_resonance_bloom",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

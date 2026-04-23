@@ -1,5 +1,6 @@
 {
   "_id": "e64c995a828f54bd",
+  "_key": "!items!e64c995a828f54bd",
   "name": "Resonance Reading",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_resonance_reading"
+      "sourceId": "card_forge_tender_resonance_reading",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

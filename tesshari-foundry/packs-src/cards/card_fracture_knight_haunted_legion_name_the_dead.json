@@ -1,5 +1,6 @@
 {
   "_id": "c48ab763ecb32f12",
+  "_key": "!items!c48ab763ecb32f12",
   "name": "Name the Dead",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_haunted_legion_name_the_dead"
+      "sourceId": "card_fracture_knight_haunted_legion_name_the_dead",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

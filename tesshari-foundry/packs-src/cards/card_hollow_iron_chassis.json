@@ -1,5 +1,6 @@
 {
   "_id": "18ec5fe45287badf",
+  "_key": "!items!18ec5fe45287badf",
   "name": "Iron Chassis",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_iron_chassis"
+      "sourceId": "card_hollow_iron_chassis",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

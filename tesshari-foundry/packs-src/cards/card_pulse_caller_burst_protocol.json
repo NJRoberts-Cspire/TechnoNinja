@@ -1,5 +1,6 @@
 {
   "_id": "c97d941da8509a39",
+  "_key": "!items!c97d941da8509a39",
   "name": "Burst Protocol",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_burst_protocol"
+      "sourceId": "card_pulse_caller_burst_protocol",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

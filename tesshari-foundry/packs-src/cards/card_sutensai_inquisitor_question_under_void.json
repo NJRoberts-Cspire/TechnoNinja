@@ -1,5 +1,6 @@
 {
   "_id": "92109d5a055e1f5c",
+  "_key": "!items!92109d5a055e1f5c",
   "name": "Question Under Void",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_inquisitor_question_under_void"
+      "sourceId": "card_sutensai_inquisitor_question_under_void",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

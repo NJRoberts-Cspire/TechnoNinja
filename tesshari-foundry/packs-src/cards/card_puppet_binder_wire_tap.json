@@ -1,5 +1,6 @@
 {
   "_id": "7ece4ac8bc473e54",
+  "_key": "!items!7ece4ac8bc473e54",
   "name": "Wire Tap",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_wire_tap"
+      "sourceId": "card_puppet_binder_wire_tap",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

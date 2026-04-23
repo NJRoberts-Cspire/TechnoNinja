@@ -1,34 +1,36 @@
 {
   "_id": "962d03b50240758d",
+  "_key": "!items!962d03b50240758d",
   "name": "Resonant Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
   "system": {
     "tier": 1,
     "apCost": 1,
-    "baseDamage": 0,
+    "baseDamage": 6,
     "pierce": 0,
     "category": "attack",
-    "primaryStat": "",
+    "primaryStat": "iron",
     "keywords": [],
     "unlockLevel": 1,
     "className": "Ironclad Samurai",
     "subclass": "",
     "isRaceCard": false,
     "race": "",
-    "isStartingHand": false,
+    "isStartingHand": true,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Damage boost card tied to Wisdom scaling.</p>"
+    "description": "<p>A Between-channeled strike. Deal 6 + IRON damage. This attack counts as resonant — it affects incorporeal and Iron Afterlife entities at full damage. **Below half HP:** Deal 10 + IRON damage instead.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_resonant_strike"
+      "sourceId": "card_ironclad_resonant_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "fa542ff539c4d1fb",
+  "_key": "!items!fa542ff539c4d1fb",
   "name": "Social Architecture",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_social_architecture"
+      "sourceId": "card_veilblade_social_architecture",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

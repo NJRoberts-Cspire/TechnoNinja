@@ -1,5 +1,6 @@
 {
   "_id": "2dcaea8f331aa8ca",
+  "_key": "!items!2dcaea8f331aa8ca",
   "name": "Courier's Step",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_courier_step"
+      "sourceId": "card_merchant_knife_courier_step",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "0c8efff2e7166d32",
+  "_key": "!items!0c8efff2e7166d32",
   "name": "Second Breath",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_second_breath"
+      "sourceId": "card_iron_monk_second_breath",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

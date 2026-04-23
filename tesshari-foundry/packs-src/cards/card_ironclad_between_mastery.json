@@ -1,5 +1,6 @@
 {
   "_id": "048fa0d599072ac5",
+  "_key": "!items!048fa0d599072ac5",
   "name": "Between Mastery",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -8,13 +9,10 @@
     "apCost": 3,
     "baseDamage": 0,
     "pierce": 0,
-    "category": "signature",
+    "category": "utility",
     "primaryStat": "",
-    "keywords": [
-      "Guard",
-      "Stagger"
-    ],
-    "unlockLevel": 10,
+    "keywords": [],
+    "unlockLevel": 13,
     "className": "Ironclad Samurai",
     "subclass": "",
     "isRaceCard": false,
@@ -22,16 +20,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Enter absolute combat clarity for this turn. All attacks you make deal + IRON + RESONANCE damage. Apply Guard equal to your RESONANCE to yourself. Any enemy who targets you this round suffers Stagger.</p>"
+    "description": "<p>The Between is no longer a resource — it is your state. For the rest of the scene: your Resonant Strike and Perfect Strike cards deal +4 damage. Your Guard cards provide +4 additional Guard. Your mobility cards cannot be countered by Root or Stagger.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_between_mastery"
+      "sourceId": "card_ironclad_between_mastery",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 3010,
+  "sort": 3013,
   "ownership": {
     "default": 0
   }

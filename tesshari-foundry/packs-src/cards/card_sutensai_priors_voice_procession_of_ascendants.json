@@ -1,5 +1,6 @@
 {
   "_id": "7f15e22612cc8a3a",
+  "_key": "!items!7f15e22612cc8a3a",
   "name": "Procession of the Ascendants",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_priors_voice_procession_of_ascendants"
+      "sourceId": "card_sutensai_priors_voice_procession_of_ascendants",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

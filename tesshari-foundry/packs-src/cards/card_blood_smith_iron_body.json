@@ -1,5 +1,6 @@
 {
   "_id": "d8989ccb73600fb4",
+  "_key": "!items!d8989ccb73600fb4",
   "name": "Iron Body",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -8,12 +9,13 @@
     "apCost": 2,
     "baseDamage": 0,
     "pierce": 0,
-    "category": "passive",
+    "category": "defense",
     "primaryStat": "",
     "keywords": [
-      "Stagger"
+      "Guard 7",
+      "Regen 3"
     ],
-    "unlockLevel": 14,
+    "unlockLevel": 8,
     "className": "Blood Smith",
     "subclass": "",
     "isRaceCard": false,
@@ -21,16 +23,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>While in hand, passive. You are immune to Stagger. At the start of each of your turns, restore 3 HP if you paid HP as a card cost last turn. Death Saves succeed on 7 or higher.</p>"
+    "description": "<p>Your Between-hardened body shrugs off what would stop others. Gain Guard 7 and immunity to Stagger for 1 round. **Below half HP:** Also gain Regen 3 and immunity to Silence for 1 round.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_blood_smith_iron_body"
+      "sourceId": "card_blood_smith_iron_body",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 2014,
+  "sort": 2008,
   "ownership": {
     "default": 0
   }

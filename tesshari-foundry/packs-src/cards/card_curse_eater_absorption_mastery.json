@@ -1,5 +1,6 @@
 {
   "_id": "6f0235f9832212d0",
+  "_key": "!items!6f0235f9832212d0",
   "name": "Absorption Mastery",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_absorption_mastery"
+      "sourceId": "card_curse_eater_absorption_mastery",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

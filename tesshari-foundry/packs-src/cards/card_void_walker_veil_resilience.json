@@ -1,5 +1,6 @@
 {
   "_id": "c66b9d0d802aa74d",
+  "_key": "!items!c66b9d0d802aa74d",
   "name": "Veil Resilience",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_veil_resilience"
+      "sourceId": "card_void_walker_veil_resilience",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

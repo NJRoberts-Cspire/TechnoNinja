@@ -1,5 +1,6 @@
 {
   "_id": "c6a164f818e6d42e",
+  "_key": "!items!c6a164f818e6d42e",
   "name": "Standing Wave",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_standing_wave"
+      "sourceId": "card_pulse_caller_standing_wave",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

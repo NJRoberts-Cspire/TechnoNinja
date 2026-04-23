@@ -1,5 +1,6 @@
 {
   "_id": "74b41916b3c874cf",
+  "_key": "!items!74b41916b3c874cf",
   "name": "The Clean Exit",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_the_clean_exit"
+      "sourceId": "card_merchant_knife_the_clean_exit",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

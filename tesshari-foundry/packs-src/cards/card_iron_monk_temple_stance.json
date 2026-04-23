@@ -1,5 +1,6 @@
 {
   "_id": "cfaeb330e08976e6",
+  "_key": "!items!cfaeb330e08976e6",
   "name": "Temple Stance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_temple_stance"
+      "sourceId": "card_iron_monk_temple_stance",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "fa2f3f6d1f5261fb",
+  "_key": "!items!fa2f3f6d1f5261fb",
   "name": "Anchor Post",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_loom_maker_anchor_post"
+      "sourceId": "card_wireweave_loom_maker_anchor_post",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

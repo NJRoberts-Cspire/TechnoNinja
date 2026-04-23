@@ -1,5 +1,6 @@
 {
   "_id": "561ddc9c87cad518",
+  "_key": "!items!561ddc9c87cad518",
   "name": "Cut the Caravan",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_supply_cutter_cut_the_caravan"
+      "sourceId": "card_merchant_knife_supply_cutter_cut_the_caravan",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

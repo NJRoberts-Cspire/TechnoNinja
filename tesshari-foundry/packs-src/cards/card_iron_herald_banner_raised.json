@@ -1,5 +1,6 @@
 {
   "_id": "d96ec80f40a3d2b7",
+  "_key": "!items!d96ec80f40a3d2b7",
   "name": "Banner Raised",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_banner_raised"
+      "sourceId": "card_iron_herald_banner_raised",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

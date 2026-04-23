@@ -1,5 +1,6 @@
 {
   "_id": "e6bd4140af8dd49a",
+  "_key": "!items!e6bd4140af8dd49a",
   "name": "Receiving Line",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_gilded_blade_receiving_line"
+      "sourceId": "card_merchant_knife_gilded_blade_receiving_line",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

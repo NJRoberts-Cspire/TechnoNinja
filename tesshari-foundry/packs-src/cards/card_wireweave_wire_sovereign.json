@@ -1,5 +1,6 @@
 {
   "_id": "777a64d79a23db19",
+  "_key": "!items!777a64d79a23db19",
   "name": "Wire Sovereign",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_wire_sovereign"
+      "sourceId": "card_wireweave_wire_sovereign",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

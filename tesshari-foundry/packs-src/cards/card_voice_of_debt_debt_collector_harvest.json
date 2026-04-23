@@ -1,5 +1,6 @@
 {
   "_id": "465a49c189d78dc3",
+  "_key": "!items!465a49c189d78dc3",
   "name": "Harvest",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_debt_collector_harvest"
+      "sourceId": "card_voice_of_debt_debt_collector_harvest",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

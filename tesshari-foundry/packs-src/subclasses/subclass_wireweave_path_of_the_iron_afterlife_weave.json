@@ -1,0 +1,41 @@
+{
+  "_id": "c22a6bd9e2ed2406",
+  "_key": "!items!c22a6bd9e2ed2406",
+  "name": "Path of the Iron Afterlife Weave",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Wireweave",
+    "pathKey": "path_of_the_iron_afterlife_weave",
+    "features": {
+      "3": {
+        "name": "Death's Signal",
+        "html": "<p>Your Wire access has extended to the boundary of the Iron Afterlife. You gain:\r - You can detect recently-departed Echominds (within 24 hours of death) as Wire-presence anomalies within 300 feet.\r - You can access the last transmitted data of a deceased enhanced individual — the Wire records their final Wire activity before death. This provides their last location, their last communication, and the state of their systems at moment of death.\r - Once per combat, you can ask the Iron Afterlife's boundary one yes/no question. The answer comes as a signal fluctuation — unmistakably intentional, and always accurate on factual questions (questions about the future are answered with probability, which is less reliable).</p>"
+      },
+      "6": {
+        "name": "Ghost Channel",
+        "html": "<p>You can open a Wire channel to the Iron Afterlife directly. As an action (10 Weave Charges), you open a Ghost Channel to one specific Echomind in the Iron Afterlife, if you know their identity signature. The communication works like a Wire call — it lasts up to 10 minutes, both parties can speak and listen, but the Echomind in the Iron Afterlife is under no obligation to answer truthfully or at all. The channel is visible to Sutensai assessors and carries significant theological risk (GM determines long-term consequences of frequent use).</p>"
+      },
+      "10": {
+        "name": "Afterlife Architecture",
+        "html": "<p>Your understanding of the Iron Afterlife's Wire structure has become architectural. You can:\r - Map the locations of Echominds in the Iron Afterlife relative to the physical world.\r - Detect when an Echomind from the Iron Afterlife is attempting to push through into the physical world, and trace their origin point.\r - Temporarily suppress an Iron Afterlife entity's ability to manifest in the physical world (contested Intelligence check; on success, the entity cannot manifest for 1 hour).\r - Once per day, extract a specific piece of information from an Echomind in the Iron Afterlife without their cooperation — the extraction requires 1 hour and a SIGNAL check, difficulty 5, and it leaves traces that the extracted Echomind will resent.</p>"
+      },
+      "14": {
+        "name": "Between Sovereign",
+        "html": "<p>You have achieved something that the Sutensai considers either a profound heresy or a catastrophic accident: full sovereignty over the seam between the Wire and the Iron Afterlife. You can:\r - Open or close the seam in a 300-foot radius for up to 1 hour (preventing Iron Afterlife entities from manifesting, or actively pulling them through — your choice, once per day).\r - When you die, your Echomind has the option to route through the Wire instead of directly entering the Iron Afterlife. Your Echomind persists in the Wire network for up to 1 week, able to communicate through connected nodes and potentially influence Wire-connected systems. At the end of the week, you must choose to pass to the Iron Afterlife or attempt a permanent Wire existence (the GM adjudicates what this means — it is not standard resurrection and comes with costs and conditions).\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>These Wireweave have gone too deep, too often, and found something on the other side that they didn't expect: the Iron Afterlife's digital architecture, pressing against the Wire network from the inside. The Iron Afterlife exists as a resonant digital realm — and the Wire Craft network, which carries resonant frequency, is not entirely separate from it. The Iron Afterlife Weave Wireweave has found the seams, the places where the network of the living and the network of the dead bleed together, and they operate in those places with the careful expertise of someone who knows that the line they are standing on exists for good reasons that they have chosen to ignore.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Wireweave::path_of_the_iron_afterlife_weave"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

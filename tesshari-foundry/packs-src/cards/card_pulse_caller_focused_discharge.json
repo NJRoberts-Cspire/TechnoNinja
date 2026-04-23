@@ -1,5 +1,6 @@
 {
   "_id": "aac5b3c114ad77de",
+  "_key": "!items!aac5b3c114ad77de",
   "name": "Focused Discharge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_focused_discharge"
+      "sourceId": "card_pulse_caller_focused_discharge",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

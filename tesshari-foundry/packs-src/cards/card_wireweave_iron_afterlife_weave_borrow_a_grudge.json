@@ -1,5 +1,6 @@
 {
   "_id": "689fe8bcca18fded",
+  "_key": "!items!689fe8bcca18fded",
   "name": "Borrow a Grudge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_iron_afterlife_weave_borrow_a_grudge"
+      "sourceId": "card_wireweave_iron_afterlife_weave_borrow_a_grudge",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

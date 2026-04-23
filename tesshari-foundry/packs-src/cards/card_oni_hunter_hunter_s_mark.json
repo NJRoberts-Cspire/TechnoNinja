@@ -1,5 +1,6 @@
 {
   "_id": "f9f7bc99dd2bd834",
+  "_key": "!items!f9f7bc99dd2bd834",
   "name": "Hunter's Mark",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -10,9 +11,7 @@
     "pierce": 0,
     "category": "passive",
     "primaryStat": "",
-    "keywords": [
-      "Mark"
-    ],
+    "keywords": [],
     "unlockLevel": 1,
     "className": "Oni Hunter",
     "subclass": "",
@@ -26,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_hunter_s_mark"
+      "sourceId": "card_oni_hunter_hunter_s_mark",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

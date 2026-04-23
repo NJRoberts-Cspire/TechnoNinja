@@ -1,17 +1,21 @@
 {
   "_id": "da919e1209933c81",
+  "_key": "!items!da919e1209933c81",
   "name": "Scar Tissue",
   "type": "card",
   "img": "icons/svg/combat.svg",
   "system": {
-    "tier": 0,
-    "apCost": 0,
+    "tier": 1,
+    "apCost": 1,
     "baseDamage": 0,
     "pierce": 0,
-    "category": "utility",
+    "category": "defense",
     "primaryStat": "",
-    "keywords": [],
-    "unlockLevel": 1,
+    "keywords": [
+      "Shield 6",
+      "Regen 1"
+    ],
+    "unlockLevel": 3,
     "className": "Shell Dancer",
     "subclass": "Shell Dancer — The Survivor",
     "isRaceCard": false,
@@ -19,16 +23,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Each scar is a lesson the body remembers. Gain a stacking IRON bonus for each wound you've already taken this combat.</p>"
+    "description": "<p>Your body has been repaired by your own hands more times than you can count. Gain Shield 6. When this shield absorbs damage, you also gain Regen 1 for 1 turn — the scar tissue distributes impact and recovers faster than clean enhancements would.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_the_survivor_scar_tissue"
+      "sourceId": "card_shell_dancer_the_survivor_scar_tissue",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1003,
   "ownership": {
     "default": 0
   }

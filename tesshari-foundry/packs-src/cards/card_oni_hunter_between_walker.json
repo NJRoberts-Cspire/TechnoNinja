@@ -1,5 +1,6 @@
 {
   "_id": "ca57d5a41c80a610",
+  "_key": "!items!ca57d5a41c80a610",
   "name": "Between Walker",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_between_walker"
+      "sourceId": "card_oni_hunter_between_walker",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

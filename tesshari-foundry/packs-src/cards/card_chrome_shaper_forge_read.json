@@ -1,5 +1,6 @@
 {
   "_id": "842fae2444b0a5ed",
+  "_key": "!items!842fae2444b0a5ed",
   "name": "Forge Read",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_forge_read"
+      "sourceId": "card_chrome_shaper_forge_read",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

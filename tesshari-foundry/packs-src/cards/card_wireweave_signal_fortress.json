@@ -1,5 +1,6 @@
 {
   "_id": "18713106f5537378",
+  "_key": "!items!18713106f5537378",
   "name": "Signal Fortress",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_signal_fortress"
+      "sourceId": "card_wireweave_signal_fortress",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

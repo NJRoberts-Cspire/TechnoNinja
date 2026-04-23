@@ -1,5 +1,6 @@
 {
   "_id": "90c9fea0f58a877d",
+  "_key": "!items!90c9fea0f58a877d",
   "name": "Favorable Terms",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_favorable_terms"
+      "sourceId": "card_merchant_knife_favorable_terms",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "6d059942aebc0911",
+  "_key": "!items!6d059942aebc0911",
   "name": "Apex Blade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_blood_smith_apex_blade"
+      "sourceId": "card_blood_smith_apex_blade",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

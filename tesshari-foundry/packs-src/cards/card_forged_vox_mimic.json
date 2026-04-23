@@ -1,5 +1,6 @@
 {
   "_id": "5a1f2d3514a07bed",
+  "_key": "!items!5a1f2d3514a07bed",
   "name": "Vox Mimic Voice",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forged_vox_mimic"
+      "sourceId": "card_forged_vox_mimic",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

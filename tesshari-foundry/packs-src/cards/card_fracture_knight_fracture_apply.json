@@ -1,5 +1,6 @@
 {
   "_id": "9d5b2198146a6285",
+  "_key": "!items!9d5b2198146a6285",
   "name": "Apply Fracture",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_fracture_apply"
+      "sourceId": "card_fracture_knight_fracture_apply",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

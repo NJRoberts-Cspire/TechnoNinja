@@ -1,0 +1,41 @@
+{
+  "_id": "66680f2223459d71",
+  "_key": "!items!66680f2223459d71",
+  "name": "The Self-Shaper",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Flesh Shaper",
+    "pathKey": "the_self_shaper",
+    "features": {
+      "3": {
+        "name": "Adaptive Biology",
+        "html": "<p>Your body responds to damage by adapting rather than simply recovering. When you take more than 10 damage from a single source, roll 1d6. On a 4-6, you gain resistance to that damage type until the end of your next long rest, as your tissue rebuilds with enhanced resistance. You cannot gain resistance to the same damage type twice from this feature at the same time.</p>"
+      },
+      "6": {
+        "name": "Reshaping",
+        "html": "<p>As a bonus action, spend 2 Shaping Points to make an immediate physical modification to yourself: extend a limb temporarily to double reach, harden your skin (gaining +2 AC for 1 minute), accelerate your reflexes (+3 to your next EDGE resistance check before the end of your next turn), or suppress your pain response (ignore one failed resistance check result against death per short rest). Each of these modifications lasts 1 minute unless specified otherwise.</p>"
+      },
+      "10": {
+        "name": "The New Form",
+        "html": "<p>Choose two permanent modifications you have applied to yourself. These become baseline features of your body — they function even when your Shaping Points are empty and require no activation. Each permanent modification must be a Tissue Mastery effect or a Reshaping effect. Describe what these modifications look like physically; Self-Shapers are visibly different from standard individuals by this level.</p>"
+      },
+      "14": {
+        "name": "Beyond Template",
+        "html": "<p>You have moved so far from standard biological configuration that you no longer resemble it. You are immune to Flesh Shaping performed by other practitioners — your tissue does not respond to external Shaping the way standard organic material does; it requires knowing your specific biological architecture to affect you. Additionally, once per long rest, you can perform an emergency total reshaping of yourself: change your physical size category (one step), gain a new movement mode (fly speed 30, swim speed 30, or burrow speed 20) for 24 hours, or become unrecognizable for 24 hours (you are biologically unidentifiable; even recognition-based magic describes you differently). The emergency reshapin costs 8 Shaping Points and 1 level of exhaustion.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Self-Shaper has turned the practice entirely inward. They do not, as a rule, shape others — their art is the exhaustive, intimate, ongoing project of remaking themselves. They have been at it long enough that they are no longer recognizably standard — their physical form has been altered in ways that serve function, survival, and increasingly, an aesthetic that has moved away from what anyone would call human. They are neither comfortable nor uncomfortable with this. They have simply accepted that the project requires a practitioner who is also the material, and they are committed to both roles.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Flesh Shaper::the_self_shaper"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

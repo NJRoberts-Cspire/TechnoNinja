@@ -1,5 +1,6 @@
 {
   "_id": "8a2442fb166a9642",
+  "_key": "!items!8a2442fb166a9642",
   "name": "Gallop of Ghosts",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_gallop_of_ghosts"
+      "sourceId": "card_fracture_knight_gallop_of_ghosts",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

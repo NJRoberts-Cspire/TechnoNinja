@@ -1,5 +1,6 @@
 {
   "_id": "84133aa52a846594",
+  "_key": "!items!84133aa52a846594",
   "name": "Purification Touch",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_purification_touch"
+      "sourceId": "card_curse_eater_purification_touch",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

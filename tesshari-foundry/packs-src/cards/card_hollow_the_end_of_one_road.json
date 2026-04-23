@@ -1,5 +1,6 @@
 {
   "_id": "31820c86a31a735b",
+  "_key": "!items!31820c86a31a735b",
   "name": "The End of One Road",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_the_end_of_one_road"
+      "sourceId": "card_hollow_the_end_of_one_road",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

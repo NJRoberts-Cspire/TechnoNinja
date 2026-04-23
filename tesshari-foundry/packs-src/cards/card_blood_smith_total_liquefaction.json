@@ -1,5 +1,6 @@
 {
   "_id": "f8de5e3687df482c",
+  "_key": "!items!f8de5e3687df482c",
   "name": "Total Liquefaction",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_blood_smith_total_liquefaction"
+      "sourceId": "card_blood_smith_total_liquefaction",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

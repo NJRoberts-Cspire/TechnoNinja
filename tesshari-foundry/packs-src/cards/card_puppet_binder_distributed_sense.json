@@ -1,5 +1,6 @@
 {
   "_id": "5444a41b0481fd18",
+  "_key": "!items!5444a41b0481fd18",
   "name": "Distributed Sense",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_distributed_sense"
+      "sourceId": "card_puppet_binder_distributed_sense",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

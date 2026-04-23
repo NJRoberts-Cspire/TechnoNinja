@@ -1,5 +1,6 @@
 {
   "_id": "2be8e50739b2972e",
+  "_key": "!items!2be8e50739b2972e",
   "name": "Keeper's Bond",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_keeper_s_bond"
+      "sourceId": "card_forge_tender_keeper_s_bond",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

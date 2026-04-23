@@ -1,5 +1,6 @@
 {
   "_id": "768e166922fef019",
+  "_key": "!items!768e166922fef019",
   "name": "Broken Code Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_broken_code_strike"
+      "sourceId": "card_ronin_broken_code_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

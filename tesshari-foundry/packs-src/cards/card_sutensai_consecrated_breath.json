@@ -1,5 +1,6 @@
 {
   "_id": "0d1db87fa39b3fd8",
+  "_key": "!items!0d1db87fa39b3fd8",
   "name": "Consecrated Breath",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_consecrated_breath"
+      "sourceId": "card_sutensai_consecrated_breath",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

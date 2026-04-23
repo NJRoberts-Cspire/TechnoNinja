@@ -1,5 +1,6 @@
 {
   "_id": "154b551adb2e1f86",
+  "_key": "!items!154b551adb2e1f86",
   "name": "Strength Config",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_strength_config"
+      "sourceId": "card_chrome_shaper_strength_config",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

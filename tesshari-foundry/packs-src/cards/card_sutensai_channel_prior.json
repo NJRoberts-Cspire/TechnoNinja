@@ -1,5 +1,6 @@
 {
   "_id": "0a853c88d80be94c",
+  "_key": "!items!0a853c88d80be94c",
   "name": "Channel Prior",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_channel_prior"
+      "sourceId": "card_sutensai_channel_prior",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

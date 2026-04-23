@@ -1,5 +1,6 @@
 {
   "_id": "cd7afef72f1b8750",
+  "_key": "!items!cd7afef72f1b8750",
   "name": "Grief Blade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_grief_blade"
+      "sourceId": "card_echo_speaker_grief_blade",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

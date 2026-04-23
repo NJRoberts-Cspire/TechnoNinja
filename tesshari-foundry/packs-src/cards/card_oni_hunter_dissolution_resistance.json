@@ -1,5 +1,6 @@
 {
   "_id": "417e5f963b41fa30",
+  "_key": "!items!417e5f963b41fa30",
   "name": "Dissolution Resistance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -10,9 +11,7 @@
     "pierce": 0,
     "category": "passive",
     "primaryStat": "",
-    "keywords": [
-      "Silence"
-    ],
+    "keywords": [],
     "unlockLevel": 9,
     "className": "Oni Hunter",
     "subclass": "",
@@ -26,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_dissolution_resistance"
+      "sourceId": "card_oni_hunter_dissolution_resistance",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

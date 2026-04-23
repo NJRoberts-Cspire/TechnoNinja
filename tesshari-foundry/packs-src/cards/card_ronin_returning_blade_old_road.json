@@ -1,5 +1,6 @@
 {
   "_id": "e139b29198d54350",
+  "_key": "!items!e139b29198d54350",
   "name": "Old Road",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_returning_blade_old_road"
+      "sourceId": "card_ronin_returning_blade_old_road",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

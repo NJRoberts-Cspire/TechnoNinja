@@ -1,5 +1,6 @@
 {
   "_id": "10ab0466e207ed50",
+  "_key": "!items!10ab0466e207ed50",
   "name": "Cascade Sense",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_cascade_sense"
+      "sourceId": "card_shell_dancer_cascade_sense",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

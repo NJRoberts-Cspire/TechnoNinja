@@ -1,0 +1,41 @@
+{
+  "_id": "c1516e90ff2eb1b7",
+  "_key": "!items!c1516e90ff2eb1b7",
+  "name": "The Threshold Puller",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Void Walker",
+    "pathKey": "the_threshold_puller",
+    "features": {
+      "3": {
+        "name": "Echo Object",
+        "html": "<p>Once per short rest, by handling an object that was owned by someone now dead, you can pull a partial impression of that person through the Veil as a free action. The impression is not the person — it is an after-image, limited to information the person would have had about that specific object. It lasts 1 minute and answers questions but cannot act.</p>"
+      },
+      "6": {
+        "name": "Manifest Fragment",
+        "html": "<p>As an action, spend 3 Void Charges to pull a substantial fragment of a dead individual's Echomind into the physical world. The fragment manifests as a partially-substantial spectral form with statistics equivalent to a specter but retaining the dead person's knowledge. It can act independently, remains for 10 minutes, and then returns to the Afterlife. Pulling a fragment is mildly harmful to the Echomind — the individual requires 1d4 days to fully reconstitute.</p>"
+      },
+      "10": {
+        "name": "Afterlife Arsenal",
+        "html": "<p>You have learned to pull Afterlife constructs through the Veil as weapons. As a bonus action, spend 2 Void Charges to manifest an Afterlife weapon: a translucent construct that functions as any resonant weapon you choose, dealing necrotic damage instead of its normal type. The weapon lasts for 1 minute, can be dropped and recalled as a free action, and attacks with it use your Wisdom modifier instead of Strength or Dexterity.</p>"
+      },
+      "14": {
+        "name": "Full Crossing",
+        "html": "<p>Once per long rest, you can pull a complete Echomind — a dead individual — temporarily through the Veil into full physical manifestation. The individual appears as they were at death, has their original statistics (DM determines specifics based on who they were), and can act fully. They remain for 10 minutes. When they return, the cost to their Echomind is significant — they require 1d6 weeks to reconstitute, and they know what has been asked of them. They may not be happy about it. They may refuse requests. The dead have perspectives that the living sometimes forget to account for.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Threshold Puller works the other direction. Where most Void Walkers use the Iron Afterlife as a transit space, the Threshold Puller reaches into it and pulls things out. Echomind energy. Spiritual impressions. In extreme cases, dead individuals in semi-substantial form. They have learned that the boundary between the worlds goes both ways and that the Afterlife has resources that the physical world can use, at a cost that the Puller pays personally and accumulates until they either stop or cannot stop.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Void Walker::the_threshold_puller"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

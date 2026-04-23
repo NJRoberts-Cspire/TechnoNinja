@@ -1,0 +1,41 @@
+{
+  "_id": "48181c6618cfa7dc",
+  "_key": "!items!48181c6618cfa7dc",
+  "name": "The Gilded Blade",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Merchant Knife",
+    "pathKey": "the_gilded_blade",
+    "features": {
+      "3": {
+        "name": "Execution Precision",
+        "html": "<p>When you attack a target you have spent at least 24 hours researching (Economic Analysis or better), you deal maximum damage on the first attack of each combat. This represents the completeness of your preparation — you know where to strike and have practiced the exact angles.</p>"
+      },
+      "6": {
+        "name": "The Contingency Fee",
+        "html": "<p>You always have an escape option. When you complete a successful elimination (reduce a target to 0 hit points), you can immediately take the Disengage action as a free action and move your full speed. Additionally, you gain +3 to checks to disappear into a crowd or environment immediately following an operation.</p>"
+      },
+      "10": {
+        "name": "Closed Account",
+        "html": "<p>When you reduce a target to 0 hit points, their financial and operational records become accessible to you: you immediately know the contents of their most recent significant business transaction, their most significant current obligation, and the name of whoever will most want to know about this. This information arrives in a brief flash of insight — the economic network registers the vacancy and informs you. This is not magical; it is the residue of complete pre-operational research.</p>"
+      },
+      "14": {
+        "name": "The Perfect Contract",
+        "html": "<p>Once per long rest, you can execute a Perfect Contract — an action you have prepared so completely that failure is not a planned outcome. Select one target and one action (an attack, a deception, a theft, etc.). You automatically succeed on the initial execution check — no roll required. The target has -3 to any resistance check against the initial effect. You gain +3 to all checks related to the operation for 1 hour after initiation. This requires 1 week of preparation work and complete pre-operational analysis.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Gilded Blade takes contracts. They are not assassins — they are contract fulfillers whose contracts occasionally specify physical elimination. The distinction matters enormously to them and not at all to their targets. They conduct due diligence before accepting any contract: the client's identity, the target's actual offense (not just the stated one), the downstream consequences of the elimination, and whether there is a more efficient solution that doesn't involve the Gilded Blade's direct involvement. A significant percentage of contracts that come to a Gilded Blade are redirected to other solutions. The ones that proceed to physical execution are ones that the Blade has determined are, in the complete analysis, the correct resolution.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Merchant Knife::the_gilded_blade"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,5 +1,6 @@
 {
   "_id": "fbc7f772910fe01f",
+  "_key": "!items!fbc7f772910fe01f",
   "name": "Precision Cut",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_precision_cut"
+      "sourceId": "card_merchant_knife_precision_cut",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

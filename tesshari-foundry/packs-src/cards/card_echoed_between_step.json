@@ -1,36 +1,36 @@
 {
   "_id": "bb207f83ff7e8d7a",
+  "_key": "!items!bb207f83ff7e8d7a",
   "name": "Between-Step",
   "type": "card",
   "img": "icons/svg/combat.svg",
   "system": {
-    "tier": 2,
-    "apCost": 2,
+    "tier": 1,
+    "apCost": 1,
     "baseDamage": 0,
     "pierce": 0,
     "category": "mobility",
     "primaryStat": "",
-    "keywords": [
-      "Guard"
-    ],
+    "keywords": [],
     "unlockLevel": 1,
     "className": "",
     "subclass": "",
     "isRaceCard": true,
     "race": "Echoed",
-    "isStartingHand": false,
+    "isStartingHand": true,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>The Echoed slips partially into the Between for one turn. They may move through solid objects and occupied spaces this turn. All incoming damage this turn is reduced by 4 + RESONANCE. At the end of the turn, the Echoed returns fully to the physical world and must end their movement in an unoccupied space. Any status effects timed to expire this turn are instead suspended and expire at the start of the next turn.</p>"
+    "description": "<p>Move up to 30 feet. This movement does not trigger reactions. You may pass through enemy-occupied spaces.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echoed_between_step"
+      "sourceId": "card_echoed_between_step",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

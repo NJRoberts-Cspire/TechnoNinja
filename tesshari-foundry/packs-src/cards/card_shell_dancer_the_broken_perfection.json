@@ -1,5 +1,6 @@
 {
   "_id": "0ca5cfb1e39c4fc8",
+  "_key": "!items!0ca5cfb1e39c4fc8",
   "name": "The Broken Perfection",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_the_broken_perfection"
+      "sourceId": "card_shell_dancer_the_broken_perfection",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

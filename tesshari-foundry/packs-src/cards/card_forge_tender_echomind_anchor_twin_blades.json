@@ -1,5 +1,6 @@
 {
   "_id": "6609c24a745d8fe6",
+  "_key": "!items!6609c24a745d8fe6",
   "name": "Twin Blades",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_echomind_anchor_twin_blades"
+      "sourceId": "card_forge_tender_echomind_anchor_twin_blades",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "143dfb8771dc09ab",
+  "_key": "!items!143dfb8771dc09ab",
   "name": "The Weapon Remembers",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_echomind_anchor_the_weapon_remembers"
+      "sourceId": "card_forge_tender_echomind_anchor_the_weapon_remembers",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

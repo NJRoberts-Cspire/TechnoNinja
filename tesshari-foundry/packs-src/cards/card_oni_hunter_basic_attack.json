@@ -1,5 +1,6 @@
 {
   "_id": "68bebf4972050d94",
+  "_key": "!items!68bebf4972050d94",
   "name": "Basic Attack (Oni Hunter)",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_basic_attack"
+      "sourceId": "card_oni_hunter_basic_attack",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

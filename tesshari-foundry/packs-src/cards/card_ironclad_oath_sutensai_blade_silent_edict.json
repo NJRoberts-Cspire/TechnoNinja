@@ -1,5 +1,6 @@
 {
   "_id": "35b0ef7ab8cdc4b5",
+  "_key": "!items!35b0ef7ab8cdc4b5",
   "name": "Silent Edict",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_oath_sutensai_blade_silent_edict"
+      "sourceId": "card_ironclad_oath_sutensai_blade_silent_edict",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

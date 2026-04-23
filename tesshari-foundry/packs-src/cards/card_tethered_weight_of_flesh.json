@@ -1,5 +1,6 @@
 {
   "_id": "b65125380b210ad1",
+  "_key": "!items!b65125380b210ad1",
   "name": "Weight of Flesh",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,11 +28,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_tethered_weight_of_flesh"
+      "sourceId": "card_tethered_weight_of_flesh",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

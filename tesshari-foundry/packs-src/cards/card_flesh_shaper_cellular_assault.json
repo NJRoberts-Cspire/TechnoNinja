@@ -1,5 +1,6 @@
 {
   "_id": "bdc732efeb7c9313",
+  "_key": "!items!bdc732efeb7c9313",
   "name": "Cellular Assault",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_cellular_assault"
+      "sourceId": "card_flesh_shaper_cellular_assault",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

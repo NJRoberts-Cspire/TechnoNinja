@@ -1,5 +1,6 @@
 {
   "_id": "2a41ff7bf7b3cb57",
+  "_key": "!items!2a41ff7bf7b3cb57",
   "name": "Resonance Trace",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_resonance_trace"
+      "sourceId": "card_oni_hunter_resonance_trace",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

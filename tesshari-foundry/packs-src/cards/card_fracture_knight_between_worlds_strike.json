@@ -1,5 +1,6 @@
 {
   "_id": "b6f44b1dea9c3346",
+  "_key": "!items!b6f44b1dea9c3346",
   "name": "Between Worlds: Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_between_worlds_strike"
+      "sourceId": "card_fracture_knight_between_worlds_strike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

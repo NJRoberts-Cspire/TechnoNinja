@@ -1,5 +1,6 @@
 {
   "_id": "a8b274501ad8c6da",
+  "_key": "!items!a8b274501ad8c6da",
   "name": "Proclaim the Victor",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_herald_proclaim_the_victor"
+      "sourceId": "card_echo_speaker_herald_proclaim_the_victor",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

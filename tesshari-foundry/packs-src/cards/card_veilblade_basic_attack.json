@@ -1,5 +1,6 @@
 {
   "_id": "b1ec293063aa2ed3",
+  "_key": "!items!b1ec293063aa2ed3",
   "name": "Basic Attack (Veilblade)",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_basic_attack"
+      "sourceId": "card_veilblade_basic_attack",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

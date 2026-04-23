@@ -1,5 +1,6 @@
 {
   "_id": "d3911c5f236831d2",
+  "_key": "!items!d3911c5f236831d2",
   "name": "Owe Me One",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_kingmaker_owe_me_one"
+      "sourceId": "card_merchant_knife_kingmaker_owe_me_one",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

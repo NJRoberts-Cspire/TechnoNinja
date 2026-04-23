@@ -1,5 +1,6 @@
 {
   "_id": "90b0c1171dd163f6",
+  "_key": "!items!90b0c1171dd163f6",
   "name": "Prove the Count Wrong",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_prove_the_count_wrong"
+      "sourceId": "card_ashfoot_prove_the_count_wrong",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

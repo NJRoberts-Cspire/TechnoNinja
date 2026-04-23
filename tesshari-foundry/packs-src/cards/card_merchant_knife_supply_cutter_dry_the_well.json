@@ -1,5 +1,6 @@
 {
   "_id": "b16d3646e956d10f",
+  "_key": "!items!b16d3646e956d10f",
   "name": "Dry the Well",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_supply_cutter_dry_the_well"
+      "sourceId": "card_merchant_knife_supply_cutter_dry_the_well",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

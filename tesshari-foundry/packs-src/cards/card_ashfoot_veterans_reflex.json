@@ -1,5 +1,6 @@
 {
   "_id": "1d4d29dbd5b0cfac",
+  "_key": "!items!1d4d29dbd5b0cfac",
   "name": "Veteran's Reflex",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -10,8 +11,10 @@
     "pierce": 0,
     "category": "reaction",
     "primaryStat": "",
-    "keywords": [],
-    "unlockLevel": 1,
+    "keywords": [
+      "Guard 2"
+    ],
+    "unlockLevel": 4,
     "className": "Ashfoot",
     "subclass": "",
     "isRaceCard": false,
@@ -19,16 +22,17 @@
     "isStartingHand": false,
     "isReaction": true,
     "usesPerCombat": null,
-    "description": "<p>Combat-hardened instinctive reaction to incoming threat.</p>"
+    "description": "<p>*Triggered when you fail to mitigate a hit.* You have survived enough ambushes to have reflexes that work independently of your planning. Reduce the triggering damage by your EDGE + FRAME. Gain Guard 2 immediately after.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_veterans_reflex"
+      "sourceId": "card_ashfoot_veterans_reflex",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1004,
   "ownership": {
     "default": 0
   }

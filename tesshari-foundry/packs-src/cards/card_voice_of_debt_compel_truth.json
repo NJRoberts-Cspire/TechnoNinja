@@ -1,5 +1,6 @@
 {
   "_id": "bd8636df5018c89a",
+  "_key": "!items!bd8636df5018c89a",
   "name": "Compel Truth",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_compel_truth"
+      "sourceId": "card_voice_of_debt_compel_truth",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

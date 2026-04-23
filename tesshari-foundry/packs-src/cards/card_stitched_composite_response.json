@@ -1,5 +1,6 @@
 {
   "_id": "196359b97f6d95f8",
+  "_key": "!items!196359b97f6d95f8",
   "name": "Composite Response",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_stitched_composite_response"
+      "sourceId": "card_stitched_composite_response",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

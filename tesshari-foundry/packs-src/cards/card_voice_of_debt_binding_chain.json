@@ -1,5 +1,6 @@
 {
   "_id": "d034063f9ecce5bf",
+  "_key": "!items!d034063f9ecce5bf",
   "name": "Binding Chain",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_binding_chain"
+      "sourceId": "card_voice_of_debt_binding_chain",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

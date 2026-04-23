@@ -1,5 +1,6 @@
 {
   "_id": "fa1892e0122d87a8",
+  "_key": "!items!fa1892e0122d87a8",
   "name": "The Account",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_the_account"
+      "sourceId": "card_voice_of_debt_the_account",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

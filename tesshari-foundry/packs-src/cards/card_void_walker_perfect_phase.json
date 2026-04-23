@@ -1,5 +1,6 @@
 {
   "_id": "fd134277ade351f7",
+  "_key": "!items!fd134277ade351f7",
   "name": "Perfect Phase",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_perfect_phase"
+      "sourceId": "card_void_walker_perfect_phase",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

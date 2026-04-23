@@ -1,5 +1,6 @@
 {
   "_id": "aa2ae3b7c233ce2e",
+  "_key": "!items!aa2ae3b7c233ce2e",
   "name": "Static Cage",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_signal_cutter_static_cage"
+      "sourceId": "card_veilblade_signal_cutter_static_cage",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

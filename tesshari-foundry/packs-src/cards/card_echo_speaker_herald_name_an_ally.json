@@ -1,5 +1,6 @@
 {
   "_id": "98b0b601adacee77",
+  "_key": "!items!98b0b601adacee77",
   "name": "Name an Ally",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_herald_name_an_ally"
+      "sourceId": "card_echo_speaker_herald_name_an_ally",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

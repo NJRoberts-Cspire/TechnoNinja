@@ -1,5 +1,6 @@
 {
   "_id": "609b87d17e623415",
+  "_key": "!items!609b87d17e623415",
   "name": "Overhaul",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_overhaul"
+      "sourceId": "card_forge_tender_overhaul",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

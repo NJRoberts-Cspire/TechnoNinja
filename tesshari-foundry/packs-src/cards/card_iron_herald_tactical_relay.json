@@ -1,5 +1,6 @@
 {
   "_id": "9b16551785e6f029",
+  "_key": "!items!9b16551785e6f029",
   "name": "Tactical Relay",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_tactical_relay"
+      "sourceId": "card_iron_herald_tactical_relay",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

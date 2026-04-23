@@ -1,5 +1,6 @@
 {
   "_id": "d3d153a45a903c57",
+  "_key": "!items!d3d153a45a903c57",
   "name": "Apex Detonation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_apex_detonation"
+      "sourceId": "card_voice_of_debt_apex_detonation",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

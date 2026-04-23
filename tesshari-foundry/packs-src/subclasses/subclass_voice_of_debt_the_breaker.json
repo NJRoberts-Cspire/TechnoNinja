@@ -1,0 +1,41 @@
+{
+  "_id": "4470053d62585749",
+  "_key": "!items!4470053d62585749",
+  "name": "The Breaker",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Voice of Debt",
+    "pathKey": "the_breaker",
+    "features": {
+      "3": {
+        "name": "Dissolution",
+        "html": "<p>As an action, spend 2 Debt Charges to formally dissolve an oath that you have identified as coerced, false, or unjust. The dissolution releases both parties from the spiritual weight of the obligation. The dissolved party knows the moment it happens — they feel the weight lift. For the rest of the day, they may feel a strange lightness that they don't fully understand.</p>"
+      },
+      "6": {
+        "name": "Counter-Binding",
+        "html": "<p>When you encounter an oath or obligation being invoked against a party, you can use your reaction to contest it. Spend 2 Debt Charges: make a contested Wisdom check against the invoking practitioner (or DC 15 if the invocation is from the Iron Afterlife directly). On success, the invocation fails for this instance. The obligation still exists — you have not dissolved it — but its power to compel action is blocked for this moment.</p>"
+      },
+      "10": {
+        "name": "Deep Reading",
+        "html": "<p>Your ability to read oaths is now comprehensive. When you examine any creature with your Oath Sense using the targeted reading action, you learn the complete history of their oaths — every significant promise they have ever made, whether it was genuine, whether it was kept, and whether any are currently outstanding. This is not information they expected you to have. How you use it is the question that defines your practice.</p>"
+      },
+      "14": {
+        "name": "Final Freedom",
+        "html": "<p>Once per long rest, you can perform a complete dissolution of all binding obligations on one creature. Every oath, every debt, every spiritual obligation they carry — you review them all and dissolve the ones that should not hold. The creature is spiritually reset. They retain their memories and their genuine commitments; they are freed from those that were not genuinely theirs to carry. This ability is the most powerful positive tool in the Voice of Debt tradition and the most deeply suspected. An Oath Keeper who witnesses you use it will want to know exactly what you dissolved and why. They are entitled to ask. Whether you answer is a matter of your personal ethics and your relationship to the tradition.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Breaker occupies the most contested ethical ground in the Voice of Debt tradition. Their essential skill is undoing what the tradition exists to uphold. They dissolve oaths. They can identify false oaths — promises made without genuine intent, coerced oaths, oaths made by parties who were deceived about what they were agreeing to. They can, at sufficient capability, dissolve even genuine oaths when fulfillment has become unjust or impossible. This is necessary work. It is also inherently destabilizing to the social fabric that the Oath Keepers maintain, and the tension between the two subclasses is one of the tradition's defining internal arguments.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Voice of Debt::the_breaker"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

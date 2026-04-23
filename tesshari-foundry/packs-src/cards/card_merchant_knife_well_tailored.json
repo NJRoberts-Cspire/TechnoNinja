@@ -1,5 +1,6 @@
 {
   "_id": "3c8a1727e645d913",
+  "_key": "!items!3c8a1727e645d913",
   "name": "Well-Tailored",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_well_tailored"
+      "sourceId": "card_merchant_knife_well_tailored",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

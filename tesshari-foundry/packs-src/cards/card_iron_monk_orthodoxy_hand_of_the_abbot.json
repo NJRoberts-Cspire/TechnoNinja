@@ -1,5 +1,6 @@
 {
   "_id": "c172a472460ac3c3",
+  "_key": "!items!c172a472460ac3c3",
   "name": "Hand of the Abbot",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_orthodoxy_hand_of_the_abbot"
+      "sourceId": "card_iron_monk_orthodoxy_hand_of_the_abbot",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

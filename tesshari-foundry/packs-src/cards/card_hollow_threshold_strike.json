@@ -1,5 +1,6 @@
 {
   "_id": "68239ba50aa7849e",
+  "_key": "!items!68239ba50aa7849e",
   "name": "Threshold Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_threshold_strike"
+      "sourceId": "card_hollow_threshold_strike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

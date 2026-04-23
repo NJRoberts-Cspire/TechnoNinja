@@ -1,5 +1,6 @@
 {
   "_id": "b2d1cc323750f198",
+  "_key": "!items!b2d1cc323750f198",
   "name": "Iron Vanguard",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_iron_vanguard"
+      "sourceId": "card_ironclad_iron_vanguard",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

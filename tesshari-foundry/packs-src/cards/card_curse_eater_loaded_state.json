@@ -1,5 +1,6 @@
 {
   "_id": "02b14a4c3e17e8bb",
+  "_key": "!items!02b14a4c3e17e8bb",
   "name": "Loaded State",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_loaded_state"
+      "sourceId": "card_curse_eater_loaded_state",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

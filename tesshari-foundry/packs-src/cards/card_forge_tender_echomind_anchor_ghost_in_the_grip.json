@@ -1,5 +1,6 @@
 {
   "_id": "b9739a8e1516f87d",
+  "_key": "!items!b9739a8e1516f87d",
   "name": "Ghost in the Grip",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_echomind_anchor_ghost_in_the_grip"
+      "sourceId": "card_forge_tender_echomind_anchor_ghost_in_the_grip",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

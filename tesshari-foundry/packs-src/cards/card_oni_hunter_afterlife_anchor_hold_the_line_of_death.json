@@ -1,5 +1,6 @@
 {
   "_id": "0f92c57cb730619c",
+  "_key": "!items!0f92c57cb730619c",
   "name": "Hold the Line of Death",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_afterlife_anchor_hold_the_line_of_death"
+      "sourceId": "card_oni_hunter_afterlife_anchor_hold_the_line_of_death",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

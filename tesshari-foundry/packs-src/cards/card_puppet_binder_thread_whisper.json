@@ -1,5 +1,6 @@
 {
   "_id": "ac5164f15b5628d1",
+  "_key": "!items!ac5164f15b5628d1",
   "name": "Thread Whisper",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_thread_whisper"
+      "sourceId": "card_puppet_binder_thread_whisper",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

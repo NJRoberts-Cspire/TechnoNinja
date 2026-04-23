@@ -1,5 +1,6 @@
 {
   "_id": "b1cbeed95508f88f",
+  "_key": "!items!b1cbeed95508f88f",
   "name": "Rearguard Shout",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_formation_anchor_rearguard_shout"
+      "sourceId": "card_ashfoot_formation_anchor_rearguard_shout",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

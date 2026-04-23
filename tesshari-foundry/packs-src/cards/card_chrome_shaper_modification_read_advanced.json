@@ -1,5 +1,6 @@
 {
   "_id": "0997f6d85048fb45",
+  "_key": "!items!0997f6d85048fb45",
   "name": "Modification Read (Advanced)",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_modification_read_advanced"
+      "sourceId": "card_chrome_shaper_modification_read_advanced",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

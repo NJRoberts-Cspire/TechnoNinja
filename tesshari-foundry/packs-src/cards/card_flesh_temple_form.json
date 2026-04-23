@@ -1,17 +1,20 @@
 {
   "_id": "3b0e2c5977ffaa75",
+  "_key": "!items!3b0e2c5977ffaa75",
   "name": "Temple Form",
   "type": "card",
   "img": "icons/svg/combat.svg",
   "system": {
-    "tier": 1,
-    "apCost": 1,
+    "tier": 2,
+    "apCost": 2,
     "baseDamage": 0,
     "pierce": 0,
-    "category": "utility",
+    "category": "power",
     "primaryStat": "",
-    "keywords": [],
-    "unlockLevel": 1,
+    "keywords": [
+      "Variable by form"
+    ],
+    "unlockLevel": 13,
     "className": "",
     "subclass": "",
     "isRaceCard": false,
@@ -19,16 +22,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Form selection or switch card.</p>"
+    "description": "<p>You enter a combat state where every act is worship. Choose one form this turn: **Water** (gain Mobility — your movement does not trigger reactions), **Fire** (after dealing damage, target loses their Reaction), or **Iron** (when you take damage this turn, gain Shield equal to half the damage received).</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_temple_form"
+      "sourceId": "card_flesh_temple_form",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 2013,
   "ownership": {
     "default": 0
   }

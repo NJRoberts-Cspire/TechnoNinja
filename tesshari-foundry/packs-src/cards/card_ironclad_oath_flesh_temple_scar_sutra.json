@@ -1,5 +1,6 @@
 {
   "_id": "56bf84c3f01ba193",
+  "_key": "!items!56bf84c3f01ba193",
   "name": "Scar Sutra",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_oath_flesh_temple_scar_sutra"
+      "sourceId": "card_ironclad_oath_flesh_temple_scar_sutra",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

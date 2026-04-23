@@ -1,5 +1,6 @@
 {
   "_id": "6cc93618e3e57cf4",
+  "_key": "!items!6cc93618e3e57cf4",
   "name": "Echo Armor",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_echo_armor"
+      "sourceId": "card_echo_speaker_echo_armor",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "13831f6124be40f3",
+  "_key": "!items!13831f6124be40f3",
   "name": "Vessel Sacrifice",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_vessel_sacrifice"
+      "sourceId": "card_puppet_binder_vessel_sacrifice",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "55f946d45256997a",
+  "_key": "!items!55f946d45256997a",
   "name": "Ledger's Shield",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_ledgers_shield"
+      "sourceId": "card_voice_of_debt_ledgers_shield",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

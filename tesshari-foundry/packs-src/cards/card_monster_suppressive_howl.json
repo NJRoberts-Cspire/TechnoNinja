@@ -1,5 +1,6 @@
 {
   "_id": "8adc8f2ff5662a01",
+  "_key": "!items!8adc8f2ff5662a01",
   "name": "Suppressive Howl",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_monster_suppressive_howl"
+      "sourceId": "card_monster_suppressive_howl",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

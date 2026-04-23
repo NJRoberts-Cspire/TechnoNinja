@@ -1,5 +1,6 @@
 {
   "_id": "215da2bda265c070",
+  "_key": "!items!215da2bda265c070",
   "name": "Running Tally",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_running_tally"
+      "sourceId": "card_merchant_knife_running_tally",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

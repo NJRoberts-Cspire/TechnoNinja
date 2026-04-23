@@ -1,5 +1,6 @@
 {
   "_id": "415dd96463506f1d",
+  "_key": "!items!415dd96463506f1d",
   "name": "Unmanned Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_the_shell_unmanned_strike"
+      "sourceId": "card_hollow_the_shell_unmanned_strike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

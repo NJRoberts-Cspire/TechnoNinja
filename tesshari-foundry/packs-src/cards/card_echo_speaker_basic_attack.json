@@ -1,5 +1,6 @@
 {
   "_id": "edb570a54016dc16",
+  "_key": "!items!edb570a54016dc16",
   "name": "Basic Attack (Echo Speaker)",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_basic_attack"
+      "sourceId": "card_echo_speaker_basic_attack",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

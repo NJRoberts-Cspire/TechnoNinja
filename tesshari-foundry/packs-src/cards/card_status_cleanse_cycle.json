@@ -1,5 +1,6 @@
 {
   "_id": "c03a779a3a0aef68",
+  "_key": "!items!c03a779a3a0aef68",
   "name": "Cleanse Cycle",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_status_cleanse_cycle"
+      "sourceId": "card_status_cleanse_cycle",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

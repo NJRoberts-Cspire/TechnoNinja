@@ -1,5 +1,6 @@
 {
   "_id": "3383e1574a70b7c6",
+  "_key": "!items!3383e1574a70b7c6",
   "name": "Strike and Fade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_strike_and_fade"
+      "sourceId": "card_ashfoot_strike_and_fade",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

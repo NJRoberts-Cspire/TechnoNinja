@@ -1,5 +1,6 @@
 {
   "_id": "1b1dbba06dc9b38f",
+  "_key": "!items!1b1dbba06dc9b38f",
   "name": "Signal Disruption",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_signal_disruption"
+      "sourceId": "card_forge_tender_signal_disruption",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

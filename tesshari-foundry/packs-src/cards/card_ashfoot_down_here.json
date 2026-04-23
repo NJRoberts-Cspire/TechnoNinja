@@ -1,5 +1,6 @@
 {
   "_id": "5c6ff5c537e3a5cc",
+  "_key": "!items!5c6ff5c537e3a5cc",
   "name": "Down Here",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_down_here"
+      "sourceId": "card_ashfoot_down_here",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "fbb56a8286dfe7c9",
+  "_key": "!items!fbb56a8286dfe7c9",
   "name": "First Detonation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_first_detonation"
+      "sourceId": "card_voice_of_debt_first_detonation",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

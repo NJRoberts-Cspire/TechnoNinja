@@ -1,5 +1,6 @@
 {
   "_id": "177ee2132df5eb7e",
+  "_key": "!items!177ee2132df5eb7e",
   "name": "Iron Endurance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_iron_endurance"
+      "sourceId": "card_iron_monk_iron_endurance",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

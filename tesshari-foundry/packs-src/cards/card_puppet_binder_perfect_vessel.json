@@ -1,5 +1,6 @@
 {
   "_id": "77660c854354180f",
+  "_key": "!items!77660c854354180f",
   "name": "Perfect Vessel",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_perfect_vessel"
+      "sourceId": "card_puppet_binder_perfect_vessel",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

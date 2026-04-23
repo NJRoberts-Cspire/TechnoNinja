@@ -1,5 +1,6 @@
 {
   "_id": "4bc0b5e0c7275fde",
+  "_key": "!items!4bc0b5e0c7275fde",
   "name": "Corrupted Clarity",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_corrupted_clarity"
+      "sourceId": "card_ronin_corrupted_clarity",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

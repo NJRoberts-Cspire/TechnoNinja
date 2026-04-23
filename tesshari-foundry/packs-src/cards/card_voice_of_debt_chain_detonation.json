@@ -1,5 +1,6 @@
 {
   "_id": "d01992e1d1ecec11",
+  "_key": "!items!d01992e1d1ecec11",
   "name": "Chain Detonation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_chain_detonation"
+      "sourceId": "card_voice_of_debt_chain_detonation",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

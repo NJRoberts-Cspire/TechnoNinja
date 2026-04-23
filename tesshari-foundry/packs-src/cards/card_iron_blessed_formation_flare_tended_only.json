@@ -1,5 +1,6 @@
 {
   "_id": "94c7157b0547f614",
+  "_key": "!items!94c7157b0547f614",
   "name": "Formation Flare (Tended only)",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,11 +27,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_blessed_formation_flare_tended_only"
+      "sourceId": "card_iron_blessed_formation_flare_tended_only",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "ffc4d5f1f2af2257",
+  "_key": "!items!ffc4d5f1f2af2257",
   "name": "Wind Between Blades",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_skirmish_specialist_wind_between_blades"
+      "sourceId": "card_ashfoot_skirmish_specialist_wind_between_blades",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

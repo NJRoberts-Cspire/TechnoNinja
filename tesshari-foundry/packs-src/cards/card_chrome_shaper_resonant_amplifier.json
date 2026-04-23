@@ -1,5 +1,6 @@
 {
   "_id": "ce6b933101e47837",
+  "_key": "!items!ce6b933101e47837",
   "name": "Resonant Amplifier",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_resonant_amplifier"
+      "sourceId": "card_chrome_shaper_resonant_amplifier",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

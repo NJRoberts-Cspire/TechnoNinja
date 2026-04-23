@@ -1,5 +1,6 @@
 {
   "_id": "1898df01a8441507",
+  "_key": "!items!1898df01a8441507",
   "name": "Inhabit Briefly",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_the_possessor_inhabit_briefly"
+      "sourceId": "card_puppet_binder_the_possessor_inhabit_briefly",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

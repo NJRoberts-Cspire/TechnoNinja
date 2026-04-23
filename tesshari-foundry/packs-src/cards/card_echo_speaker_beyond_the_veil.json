@@ -1,5 +1,6 @@
 {
   "_id": "325be3988bcdb7ea",
+  "_key": "!items!325be3988bcdb7ea",
   "name": "Beyond the Veil",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_beyond_the_veil"
+      "sourceId": "card_echo_speaker_beyond_the_veil",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

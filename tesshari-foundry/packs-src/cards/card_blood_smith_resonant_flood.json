@@ -1,5 +1,6 @@
 {
   "_id": "7a58279581a0409f",
+  "_key": "!items!7a58279581a0409f",
   "name": "Resonant Flood",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_blood_smith_resonant_flood"
+      "sourceId": "card_blood_smith_resonant_flood",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

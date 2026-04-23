@@ -1,5 +1,6 @@
 {
   "_id": "1d8e23e3389bbb08",
+  "_key": "!items!1d8e23e3389bbb08",
   "name": "Rhythm of the Break",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_rhythm_of_the_break"
+      "sourceId": "card_shell_dancer_rhythm_of_the_break",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

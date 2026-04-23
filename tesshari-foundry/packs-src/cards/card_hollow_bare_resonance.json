@@ -1,5 +1,6 @@
 {
   "_id": "702532075faacf81",
+  "_key": "!items!702532075faacf81",
   "name": "Bare Resonance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_bare_resonance"
+      "sourceId": "card_hollow_bare_resonance",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

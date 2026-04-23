@@ -1,5 +1,6 @@
 {
   "_id": "99e58d75f95039d2",
+  "_key": "!items!99e58d75f95039d2",
   "name": "The Bleeding Edge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_blood_smith_the_bleeding_edge"
+      "sourceId": "card_blood_smith_the_bleeding_edge",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

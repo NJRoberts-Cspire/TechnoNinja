@@ -1,5 +1,6 @@
 {
   "_id": "99ba3af468226739",
+  "_key": "!items!99ba3af468226739",
   "name": "Void Sovereign",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_void_sovereign"
+      "sourceId": "card_void_walker_void_sovereign",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

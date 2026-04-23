@@ -1,5 +1,6 @@
 {
   "_id": "9a15acd024afeddf",
+  "_key": "!items!9a15acd024afeddf",
   "name": "Corruption Sense",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_corruption_sense"
+      "sourceId": "card_curse_eater_corruption_sense",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "2180dbb085d5bbcb",
+  "_key": "!items!2180dbb085d5bbcb",
   "name": "Synchronized Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_synchronized_strike"
+      "sourceId": "card_iron_herald_synchronized_strike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

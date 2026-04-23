@@ -1,5 +1,6 @@
 {
   "_id": "428f988be12bb1a5",
+  "_key": "!items!428f988be12bb1a5",
   "name": "The Between Made Flesh",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_the_between_made_flesh"
+      "sourceId": "card_iron_monk_the_between_made_flesh",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

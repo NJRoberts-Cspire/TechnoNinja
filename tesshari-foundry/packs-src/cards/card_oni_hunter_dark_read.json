@@ -1,5 +1,6 @@
 {
   "_id": "ba0cdb81d08a65ba",
+  "_key": "!items!ba0cdb81d08a65ba",
   "name": "Dark Read",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_dark_read"
+      "sourceId": "card_oni_hunter_dark_read",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

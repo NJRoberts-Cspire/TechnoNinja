@@ -1,5 +1,6 @@
 {
   "_id": "d6de2b7819bc7cf0",
+  "_key": "!items!d6de2b7819bc7cf0",
   "name": "Dead Channel",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_signal_cutter_dead_channel"
+      "sourceId": "card_veilblade_signal_cutter_dead_channel",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

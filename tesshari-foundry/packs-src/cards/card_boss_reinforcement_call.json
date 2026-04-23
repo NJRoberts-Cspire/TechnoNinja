@@ -1,5 +1,6 @@
 {
   "_id": "d23951ce087a0ad5",
+  "_key": "!items!d23951ce087a0ad5",
   "name": "Reinforcement Call",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_boss_reinforcement_call"
+      "sourceId": "card_boss_reinforcement_call",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

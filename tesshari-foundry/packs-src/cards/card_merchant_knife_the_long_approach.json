@@ -1,5 +1,6 @@
 {
   "_id": "cc8d6d20ce98c757",
+  "_key": "!items!cc8d6d20ce98c757",
   "name": "The Long Approach",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_the_long_approach"
+      "sourceId": "card_merchant_knife_the_long_approach",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

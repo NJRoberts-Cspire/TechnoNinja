@@ -1,5 +1,6 @@
 {
   "_id": "c1c6f8509320ad44",
+  "_key": "!items!c1c6f8509320ad44",
   "name": "Echo Barrage",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_echo_barrage"
+      "sourceId": "card_echo_speaker_echo_barrage",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

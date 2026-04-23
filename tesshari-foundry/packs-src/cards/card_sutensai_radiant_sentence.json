@@ -1,5 +1,6 @@
 {
   "_id": "664680023ee0ec9a",
+  "_key": "!items!664680023ee0ec9a",
   "name": "Radiant Sentence",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_radiant_sentence"
+      "sourceId": "card_sutensai_radiant_sentence",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

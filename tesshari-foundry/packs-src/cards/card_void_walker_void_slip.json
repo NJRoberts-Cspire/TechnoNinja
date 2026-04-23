@@ -1,5 +1,6 @@
 {
   "_id": "f62b636e1f4274c9",
+  "_key": "!items!f62b636e1f4274c9",
   "name": "Void Slip",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_void_slip"
+      "sourceId": "card_void_walker_void_slip",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

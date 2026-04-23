@@ -1,5 +1,6 @@
 {
   "_id": "9f6988cba52db80e",
+  "_key": "!items!9f6988cba52db80e",
   "name": "The Hundred Hides",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_war_shaper_the_hundred_hides"
+      "sourceId": "card_chrome_shaper_war_shaper_the_hundred_hides",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

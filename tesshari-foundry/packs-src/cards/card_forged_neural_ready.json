@@ -1,5 +1,6 @@
 {
   "_id": "4394ca8646b4a0aa",
+  "_key": "!items!4394ca8646b4a0aa",
   "name": "Neural Accelerator Ready",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forged_neural_ready"
+      "sourceId": "card_forged_neural_ready",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

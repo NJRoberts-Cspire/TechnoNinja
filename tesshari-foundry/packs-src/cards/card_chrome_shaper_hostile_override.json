@@ -1,5 +1,6 @@
 {
   "_id": "aa36518d6e336a9b",
+  "_key": "!items!aa36518d6e336a9b",
   "name": "Hostile Override",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_hostile_override"
+      "sourceId": "card_chrome_shaper_hostile_override",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "c33bb8712d43361f",
+  "_key": "!items!c33bb8712d43361f",
   "name": "Hunter's Apotheosis",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_hunter_s_apotheosis"
+      "sourceId": "card_oni_hunter_hunter_s_apotheosis",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

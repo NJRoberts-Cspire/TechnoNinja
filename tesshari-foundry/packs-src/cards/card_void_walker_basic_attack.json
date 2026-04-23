@@ -1,5 +1,6 @@
 {
   "_id": "fc5326216e188d40",
+  "_key": "!items!fc5326216e188d40",
   "name": "Basic Attack (Void Walker)",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_basic_attack"
+      "sourceId": "card_void_walker_basic_attack",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

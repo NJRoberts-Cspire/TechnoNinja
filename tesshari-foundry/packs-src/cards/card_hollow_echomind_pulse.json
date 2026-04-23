@@ -1,5 +1,6 @@
 {
   "_id": "853b51b6c2a8574c",
+  "_key": "!items!853b51b6c2a8574c",
   "name": "Echomind Pulse",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_echomind_pulse"
+      "sourceId": "card_hollow_echomind_pulse",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

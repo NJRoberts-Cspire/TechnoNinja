@@ -1,5 +1,6 @@
 {
   "_id": "c3beff03269c0728",
+  "_key": "!items!c3beff03269c0728",
   "name": "Binding Thread",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_binding_thread"
+      "sourceId": "card_puppet_binder_binding_thread",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

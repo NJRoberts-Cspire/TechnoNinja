@@ -1,5 +1,6 @@
 {
   "_id": "3858dc11a25bbb7a",
+  "_key": "!items!3858dc11a25bbb7a",
   "name": "Guard Protocol",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_status_guard_protocol"
+      "sourceId": "card_status_guard_protocol",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

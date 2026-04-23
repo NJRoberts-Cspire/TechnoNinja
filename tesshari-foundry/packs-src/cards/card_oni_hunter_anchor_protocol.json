@@ -1,5 +1,6 @@
 {
   "_id": "4b12681f6ba1cd89",
+  "_key": "!items!4b12681f6ba1cd89",
   "name": "Anchor Protocol",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_anchor_protocol"
+      "sourceId": "card_oni_hunter_anchor_protocol",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

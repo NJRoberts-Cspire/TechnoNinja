@@ -1,5 +1,6 @@
 {
   "_id": "975dd70e219fcb6d",
+  "_key": "!items!975dd70e219fcb6d",
   "name": "Read the Field",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_the_signal_read_the_field"
+      "sourceId": "card_iron_herald_the_signal_read_the_field",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

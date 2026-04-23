@@ -1,5 +1,6 @@
 {
   "_id": "e597d6dcf08f7036",
+  "_key": "!items!e597d6dcf08f7036",
   "name": "Afterlife Attunement",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -10,9 +11,7 @@
     "pierce": 0,
     "category": "utility",
     "primaryStat": "",
-    "keywords": [
-      "Veil"
-    ],
+    "keywords": [],
     "unlockLevel": 1,
     "className": "Echo Speaker",
     "subclass": "",
@@ -26,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_afterlife_attunement"
+      "sourceId": "card_echo_speaker_afterlife_attunement",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

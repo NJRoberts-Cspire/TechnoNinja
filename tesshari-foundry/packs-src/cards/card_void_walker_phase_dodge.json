@@ -1,5 +1,6 @@
 {
   "_id": "52f9a17abec94827",
+  "_key": "!items!52f9a17abec94827",
   "name": "Phase Dodge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_phase_dodge"
+      "sourceId": "card_void_walker_phase_dodge",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

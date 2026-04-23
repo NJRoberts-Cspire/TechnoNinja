@@ -1,5 +1,6 @@
 {
   "_id": "428cce790d503797",
+  "_key": "!items!428cce790d503797",
   "name": "Living Machine",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_living_machine"
+      "sourceId": "card_hollow_living_machine",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

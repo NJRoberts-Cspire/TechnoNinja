@@ -1,5 +1,6 @@
 {
   "_id": "938f05837d7716bc",
+  "_key": "!items!938f05837d7716bc",
   "name": "Rally Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_warbanner_rally_strike"
+      "sourceId": "card_iron_herald_warbanner_rally_strike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

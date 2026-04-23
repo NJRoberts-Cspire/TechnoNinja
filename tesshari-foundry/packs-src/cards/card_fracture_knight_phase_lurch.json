@@ -1,5 +1,6 @@
 {
   "_id": "55827c26e9ce0dc3",
+  "_key": "!items!55827c26e9ce0dc3",
   "name": "Phase Lurch",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_phase_lurch"
+      "sourceId": "card_fracture_knight_phase_lurch",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

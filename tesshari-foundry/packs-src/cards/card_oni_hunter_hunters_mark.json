@@ -1,14 +1,15 @@
 {
   "_id": "425ef604e921d9e5",
+  "_key": "!items!425ef604e921d9e5",
   "name": "Hunter's Mark",
   "type": "card",
   "img": "icons/svg/combat.svg",
   "system": {
-    "tier": 1,
-    "apCost": 1,
+    "tier": 0,
+    "apCost": 0,
     "baseDamage": 0,
     "pierce": 0,
-    "category": "utility",
+    "category": "passive",
     "primaryStat": "",
     "keywords": [],
     "unlockLevel": 1,
@@ -16,19 +17,20 @@
     "subclass": "",
     "isRaceCard": false,
     "race": "",
-    "isStartingHand": false,
+    "isStartingHand": true,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Designate quarry and gain all mark-conditional bonuses against them.</p>"
+    "description": "<p>You may designate one creature as your Marked quarry (free action, once per turn). While Marked: your attacks against that target deal + RESONANCE additional damage, you always know their position within 90 feet even if hidden, and your Perception checks regarding them automatically succeed. If your Marked target reaches 0 HP, you may immediately transfer the Mark to a new target as a free action.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_hunters_mark"
+      "sourceId": "card_oni_hunter_hunters_mark",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

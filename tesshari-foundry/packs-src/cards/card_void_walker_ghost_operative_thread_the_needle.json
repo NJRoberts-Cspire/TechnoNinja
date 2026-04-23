@@ -1,5 +1,6 @@
 {
   "_id": "e6dfdebf66195a9b",
+  "_key": "!items!e6dfdebf66195a9b",
   "name": "Thread the Needle",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_ghost_operative_thread_the_needle"
+      "sourceId": "card_void_walker_ghost_operative_thread_the_needle",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

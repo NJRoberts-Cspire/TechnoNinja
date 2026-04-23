@@ -1,5 +1,6 @@
 {
   "_id": "6ff0ed9812961fbd",
+  "_key": "!items!6ff0ed9812961fbd",
   "name": "Unwitnessed Violence",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_unwitnessed_violence"
+      "sourceId": "card_ronin_unwitnessed_violence",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

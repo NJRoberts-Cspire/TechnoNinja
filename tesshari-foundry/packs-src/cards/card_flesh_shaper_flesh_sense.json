@@ -1,5 +1,6 @@
 {
   "_id": "858d07c4079d5069",
+  "_key": "!items!858d07c4079d5069",
   "name": "Flesh Sense",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -16,7 +17,7 @@
     "subclass": "",
     "isRaceCard": false,
     "race": "",
-    "isStartingHand": true,
+    "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
     "description": "<p>Passive component: you always know the HP tier (full / wounded / critical) of all living creatures within 30 feet. Active component: target one creature within 30 feet. Learn their exact current HP and any active debuffs or structural damage they carry.</p>"
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_flesh_sense"
+      "sourceId": "card_flesh_shaper_flesh_sense",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

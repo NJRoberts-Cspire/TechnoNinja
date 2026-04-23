@@ -1,5 +1,6 @@
 {
   "_id": "cf63e3a4b96ced3b",
+  "_key": "!items!cf63e3a4b96ced3b",
   "name": "Spine Tree",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_edge_builder_spine_tree"
+      "sourceId": "card_chrome_shaper_edge_builder_spine_tree",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

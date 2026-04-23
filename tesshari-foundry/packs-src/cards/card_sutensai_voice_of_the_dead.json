@@ -1,5 +1,6 @@
 {
   "_id": "ea2fe98a25357c02",
+  "_key": "!items!ea2fe98a25357c02",
   "name": "Voice of the Dead",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_voice_of_the_dead"
+      "sourceId": "card_sutensai_voice_of_the_dead",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

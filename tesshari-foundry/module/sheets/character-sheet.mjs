@@ -18,6 +18,14 @@ const { ActorSheetV2 } = foundry.applications.sheets;
 /** Non-card, non-marker items that show in the inventory panel. */
 const INVENTORY_TYPES = new Set(["weapon", "armor", "cybernetic", "consumable"]);
 
+/** Identity items replace the actor's species/class/subclass. */
+const IDENTITY_TYPES = new Set(["race", "class", "subclass"]);
+
+/** HP base values by class HP tier. Matches system/00_core_rules.md. */
+const HP_TIER_BASE = {
+  heavy: 20, martial: 14, balanced: 10, technical: 6, social: 6, unique: 0,
+};
+
 export class TesshariCharacterSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
 
   static DEFAULT_OPTIONS = {
@@ -38,6 +46,8 @@ export class TesshariCharacterSheet extends HandlebarsApplicationMixin(ActorShee
       deleteItem:    TesshariCharacterSheet.#onDeleteItem,
       resetAP:       TesshariCharacterSheet.#onResetAP,
       removeEffect:  TesshariCharacterSheet.#onRemoveEffect,
+      clearIdentity: TesshariCharacterSheet.#onClearIdentity,
+      openItem:      TesshariCharacterSheet.#onOpenItem,
     },
   };
 
@@ -106,6 +116,19 @@ export class TesshariCharacterSheet extends HandlebarsApplicationMixin(ActorShee
         summary: fx.flags?.tesshari?.summary ?? "",
       }));
 
+      // Identity items (singular each) — for the identity panels
+      const itemList = a?.items?.contents ?? [];
+      context.raceItem     = itemList.find(i => i.type === "race")     ?? null;
+      context.classItem    = itemList.find(i => i.type === "class")    ?? null;
+      context.subclassItem = itemList.find(i => i.type === "subclass") ?? null;
+
+      // Subclass features as [{level, name, html}, ...] sorted by level
+      context.subclassFeatures = context.subclassItem
+        ? Object.entries(context.subclassItem.system?.features ?? {})
+            .map(([level, feat]) => ({ level: Number(level), name: feat?.name ?? "", html: feat?.html ?? "" }))
+            .sort((a, b) => a.level - b.level)
+        : [];
+
       // Derived UI bits
       context.handCount = context.cards.length;
       context.handOver  = context.cards.length > (s.handSize ?? 0);
@@ -137,6 +160,14 @@ export class TesshariCharacterSheet extends HandlebarsApplicationMixin(ActorShee
       const item = await Item.implementation.fromDropData(data);
       if (!item) return;
       if (item.parent === this.actor) return;
+
+      // race / class / subclass drops replace any existing one of that type
+      // and sync the actor's system fields (species, className, etc.)
+      if (IDENTITY_TYPES.has(item.type)) {
+        return this.#applyIdentityItem(item);
+      }
+
+      // Default: embed a copy as an owned item
       const copy = item.toObject();
       delete copy._id;
       await this.actor.createEmbeddedDocuments("Item", [copy]);
@@ -146,6 +177,51 @@ export class TesshariCharacterSheet extends HandlebarsApplicationMixin(ActorShee
       ui.notifications?.error(`Drop failed: ${err.message}`);
     }
   };
+
+  async #applyIdentityItem(item) {
+    const actor = this.actor;
+
+    // Remove any existing items of the same identity type
+    const existing = actor.items.filter(i => i.type === item.type);
+    if (existing.length > 0) {
+      await actor.deleteEmbeddedDocuments("Item", existing.map(i => i.id));
+    }
+
+    // Embed the new identity item (without its world _id)
+    const copy = item.toObject();
+    delete copy._id;
+    await actor.createEmbeddedDocuments("Item", [copy]);
+
+    const updates = {};
+    if (item.type === "race") {
+      updates["system.species"] = item.name;
+      // Recompute hand size: class base + race hand mod
+      const classItem = actor.items.find(i => i.type === "class");
+      const classBase = classItem?.system?.handBase ?? actor.system?.handSize ?? 6;
+      const handMod = item.system?.handMod ?? 0;
+      updates["system.handSize"] = Math.min(12, Math.max(1, classBase + handMod));
+    } else if (item.type === "class") {
+      updates["system.className"] = item.name;
+      const handBase = item.system?.handBase ?? 6;
+      const raceItem = actor.items.find(i => i.type === "race");
+      const handMod = raceItem?.system?.handMod ?? 0;
+      updates["system.handSize"] = Math.min(12, Math.max(1, handBase + handMod));
+
+      // Recompute HP max at level 1: (FRAME × 8) + class tier base
+      const tier = String(item.system?.hpTier ?? "balanced").toLowerCase();
+      const base = HP_TIER_BASE[tier] ?? 10;
+      const frame = actor.system?.stats?.frame ?? 1;
+      const level = actor.system?.level ?? 1;
+      const maxHP = (frame * 8) + base + (frame * (level - 1));  // +FRAME per level after L1
+      updates["system.hp.max"] = maxHP;
+      updates["system.hp.value"] = maxHP;
+    } else if (item.type === "subclass") {
+      updates["system.subclass"] = item.name;
+    }
+
+    if (Object.keys(updates).length) await actor.update(updates);
+    ui.notifications?.info(`${this.actor.name}: ${item.type} set to ${item.name}.`);
+  }
 
   /** @override — wire drag-drop each render; removeEventListener first to avoid stacking. */
   _onRender(context, options) {
@@ -233,5 +309,28 @@ export class TesshariCharacterSheet extends HandlebarsApplicationMixin(ActorShee
     const effectId = target.dataset.effectId;
     const effect = this.actor.effects.get(effectId);
     if (effect) await effect.delete();
+  }
+
+  /** Remove a race/class/subclass item and clear the corresponding actor field. */
+  static async #onClearIdentity(event, target) {
+    const identityType = target.dataset.identityType;
+    if (!IDENTITY_TYPES.has(identityType)) return;
+    const actor = this.actor;
+    const items = actor.items.filter(i => i.type === identityType);
+    if (items.length) {
+      await actor.deleteEmbeddedDocuments("Item", items.map(i => i.id));
+    }
+    const field =
+      identityType === "race"     ? "species"   :
+      identityType === "class"    ? "className" :
+      identityType === "subclass" ? "subclass"  : null;
+    if (field) await actor.update({ [`system.${field}`]: "" });
+  }
+
+  /** Open the sheet for an owned item (race/class/subclass tile click). */
+  static async #onOpenItem(event, target) {
+    const itemId = target.dataset.itemId;
+    const item = this.actor.items.get(itemId);
+    item?.sheet?.render(true);
   }
 }

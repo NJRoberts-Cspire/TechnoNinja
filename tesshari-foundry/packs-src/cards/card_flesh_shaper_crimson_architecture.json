@@ -1,5 +1,6 @@
 {
   "_id": "b69678d29d3509be",
+  "_key": "!items!b69678d29d3509be",
   "name": "Crimson Architecture",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_crimson_architecture"
+      "sourceId": "card_flesh_shaper_crimson_architecture",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "5f2705135a7971bd",
+  "_key": "!items!5f2705135a7971bd",
   "name": "Between the Shots",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_between_the_shots"
+      "sourceId": "card_pulse_caller_between_the_shots",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

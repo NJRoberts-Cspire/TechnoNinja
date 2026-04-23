@@ -1,5 +1,6 @@
 {
   "_id": "34f85ccedb85029a",
+  "_key": "!items!34f85ccedb85029a",
   "name": "Saboteur's Eye",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_saboteur_s_eye"
+      "sourceId": "card_ashfoot_saboteur_s_eye",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

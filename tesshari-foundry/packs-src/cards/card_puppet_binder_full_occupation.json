@@ -1,5 +1,6 @@
 {
   "_id": "aa0167863ba312dd",
+  "_key": "!items!aa0167863ba312dd",
   "name": "Full Occupation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_full_occupation"
+      "sourceId": "card_puppet_binder_full_occupation",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

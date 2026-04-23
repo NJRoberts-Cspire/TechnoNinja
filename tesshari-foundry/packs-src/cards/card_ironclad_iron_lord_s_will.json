@@ -1,5 +1,6 @@
 {
   "_id": "d5ba7a3214c33d89",
+  "_key": "!items!d5ba7a3214c33d89",
   "name": "Iron Lord's Will",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_iron_lord_s_will"
+      "sourceId": "card_ironclad_iron_lord_s_will",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "274cfacfe6cdfa4c",
+  "_key": "!items!274cfacfe6cdfa4c",
   "name": "Afterlife Interface",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_afterlife_interface"
+      "sourceId": "card_veilblade_afterlife_interface",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

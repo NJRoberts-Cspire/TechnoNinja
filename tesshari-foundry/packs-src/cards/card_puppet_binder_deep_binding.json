@@ -1,5 +1,6 @@
 {
   "_id": "8bc8bb65163c96da",
+  "_key": "!items!8bc8bb65163c96da",
   "name": "Deep Binding",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_deep_binding"
+      "sourceId": "card_puppet_binder_deep_binding",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

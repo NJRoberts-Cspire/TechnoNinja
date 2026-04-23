@@ -1,5 +1,6 @@
 {
   "_id": "2b10033dad863e7b",
+  "_key": "!items!2b10033dad863e7b",
   "name": "Dampening Shot",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_iron_suppressor_dampening_shot"
+      "sourceId": "card_pulse_caller_iron_suppressor_dampening_shot",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

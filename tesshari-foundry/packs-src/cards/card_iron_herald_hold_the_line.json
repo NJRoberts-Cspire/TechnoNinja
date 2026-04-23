@@ -1,5 +1,6 @@
 {
   "_id": "93730181dcb6103c",
+  "_key": "!items!93730181dcb6103c",
   "name": "Hold the Line",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_hold_the_line"
+      "sourceId": "card_iron_herald_hold_the_line",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

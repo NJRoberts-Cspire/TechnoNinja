@@ -1,5 +1,6 @@
 {
   "_id": "b89ee3a7788a2e21",
+  "_key": "!items!b89ee3a7788a2e21",
   "name": "Archive Pull",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -30,7 +31,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_archive_pull"
+      "sourceId": "card_sutensai_archive_pull",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "b3c7cda67f2864bd",
+  "_key": "!items!b3c7cda67f2864bd",
   "name": "Severance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_signal_cutter_severance"
+      "sourceId": "card_veilblade_signal_cutter_severance",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

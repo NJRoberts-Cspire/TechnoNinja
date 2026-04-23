@@ -1,5 +1,6 @@
 {
   "_id": "924ad15f74a46b57",
+  "_key": "!items!924ad15f74a46b57",
   "name": "Name the Metal",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_name_the_metal"
+      "sourceId": "card_forge_tender_name_the_metal",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

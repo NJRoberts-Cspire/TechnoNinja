@@ -1,5 +1,6 @@
 {
   "_id": "6527465835da4a6e",
+  "_key": "!items!6527465835da4a6e",
   "name": "Vein Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_vein_strike"
+      "sourceId": "card_ironclad_vein_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

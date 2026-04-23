@@ -1,5 +1,6 @@
 {
   "_id": "3087a9bf89c7c8a3",
+  "_key": "!items!3087a9bf89c7c8a3",
   "name": "Transit Network",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_transit_network"
+      "sourceId": "card_void_walker_transit_network",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

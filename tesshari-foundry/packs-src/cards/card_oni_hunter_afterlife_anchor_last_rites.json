@@ -1,5 +1,6 @@
 {
   "_id": "e1d9e5f9fbba951c",
+  "_key": "!items!e1d9e5f9fbba951c",
   "name": "Last Rites",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_afterlife_anchor_last_rites"
+      "sourceId": "card_oni_hunter_afterlife_anchor_last_rites",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

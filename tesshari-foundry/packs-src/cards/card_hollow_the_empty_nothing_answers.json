@@ -1,5 +1,6 @@
 {
   "_id": "c8419fb7ac6bda1e",
+  "_key": "!items!c8419fb7ac6bda1e",
   "name": "Nothing Answers",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_the_empty_nothing_answers"
+      "sourceId": "card_hollow_the_empty_nothing_answers",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

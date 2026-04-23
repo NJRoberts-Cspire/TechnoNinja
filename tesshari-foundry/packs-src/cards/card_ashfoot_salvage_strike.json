@@ -1,5 +1,6 @@
 {
   "_id": "727de79e17febb8b",
+  "_key": "!items!727de79e17febb8b",
   "name": "Salvage Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_salvage_strike"
+      "sourceId": "card_ashfoot_salvage_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

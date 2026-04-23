@@ -1,5 +1,6 @@
 {
   "_id": "c6ba2be8cb13a033",
+  "_key": "!items!c6ba2be8cb13a033",
   "name": "The Fallen Speak",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -29,7 +30,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_the_fallen_speak"
+      "sourceId": "card_echo_speaker_the_fallen_speak",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

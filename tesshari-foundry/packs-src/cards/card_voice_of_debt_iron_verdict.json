@@ -1,5 +1,6 @@
 {
   "_id": "04d4b0c59ea9d933",
+  "_key": "!items!04d4b0c59ea9d933",
   "name": "Iron Verdict",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -29,7 +30,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_iron_verdict"
+      "sourceId": "card_voice_of_debt_iron_verdict",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

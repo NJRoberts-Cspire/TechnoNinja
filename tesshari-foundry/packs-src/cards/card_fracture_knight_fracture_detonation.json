@@ -1,5 +1,6 @@
 {
   "_id": "f66a39d1a28959c9",
+  "_key": "!items!f66a39d1a28959c9",
   "name": "Fracture Detonation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_fracture_detonation"
+      "sourceId": "card_fracture_knight_fracture_detonation",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

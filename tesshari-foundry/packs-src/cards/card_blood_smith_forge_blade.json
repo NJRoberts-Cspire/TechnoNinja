@@ -1,5 +1,6 @@
 {
   "_id": "c7d124fa3b354249",
+  "_key": "!items!c7d124fa3b354249",
   "name": "Forge Blade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_blood_smith_forge_blade"
+      "sourceId": "card_blood_smith_forge_blade",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

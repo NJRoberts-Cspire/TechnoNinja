@@ -1,5 +1,6 @@
 {
   "_id": "65416d120d02b865",
+  "_key": "!items!65416d120d02b865",
   "name": "Signal Intrusion",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_signal_intrusion"
+      "sourceId": "card_puppet_binder_signal_intrusion",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

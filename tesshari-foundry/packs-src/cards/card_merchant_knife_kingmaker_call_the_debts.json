@@ -1,5 +1,6 @@
 {
   "_id": "2a88ef01ea590175",
+  "_key": "!items!2a88ef01ea590175",
   "name": "Call the Debts",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_kingmaker_call_the_debts"
+      "sourceId": "card_merchant_knife_kingmaker_call_the_debts",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

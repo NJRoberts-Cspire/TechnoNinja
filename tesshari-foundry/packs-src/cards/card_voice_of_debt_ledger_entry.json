@@ -1,5 +1,6 @@
 {
   "_id": "8356c858f307d7dc",
+  "_key": "!items!8356c858f307d7dc",
   "name": "Ledger Entry",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_ledger_entry"
+      "sourceId": "card_voice_of_debt_ledger_entry",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

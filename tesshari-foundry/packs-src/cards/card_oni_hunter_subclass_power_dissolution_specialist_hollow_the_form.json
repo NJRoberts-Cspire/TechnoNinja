@@ -1,5 +1,6 @@
 {
   "_id": "cd6e534a6552d655",
+  "_key": "!items!cd6e534a6552d655",
   "name": "Hollow the Form",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_subclass_power_dissolution_specialist_hollow_the_form"
+      "sourceId": "card_oni_hunter_subclass_power_dissolution_specialist_hollow_the_form",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

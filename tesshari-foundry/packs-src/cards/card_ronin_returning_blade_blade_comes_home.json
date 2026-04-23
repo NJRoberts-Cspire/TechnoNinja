@@ -1,5 +1,6 @@
 {
   "_id": "5f53452dfee4ef21",
+  "_key": "!items!5f53452dfee4ef21",
   "name": "The Blade Comes Home",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_returning_blade_blade_comes_home"
+      "sourceId": "card_ronin_returning_blade_blade_comes_home",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

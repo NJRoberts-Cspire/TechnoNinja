@@ -1,5 +1,6 @@
 {
   "_id": "03fd37c74d1ea4a4",
+  "_key": "!items!03fd37c74d1ea4a4",
   "name": "Dissonant Mark",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_resonance_sculptor_dissonant_mark"
+      "sourceId": "card_chrome_shaper_resonance_sculptor_dissonant_mark",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

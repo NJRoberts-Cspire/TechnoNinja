@@ -1,5 +1,6 @@
 {
   "_id": "c405470006704926",
+  "_key": "!items!c405470006704926",
   "name": "Weaponized Corruption",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_weaponized_corruption"
+      "sourceId": "card_curse_eater_weaponized_corruption",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

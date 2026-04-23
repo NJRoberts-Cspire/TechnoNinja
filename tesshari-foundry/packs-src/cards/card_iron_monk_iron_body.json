@@ -1,5 +1,6 @@
 {
   "_id": "83ce2e36aea09aa8",
+  "_key": "!items!83ce2e36aea09aa8",
   "name": "Iron Body",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_iron_body"
+      "sourceId": "card_iron_monk_iron_body",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

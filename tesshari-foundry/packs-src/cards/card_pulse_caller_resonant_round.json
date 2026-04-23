@@ -1,5 +1,6 @@
 {
   "_id": "08666ddee2741fdc",
+  "_key": "!items!08666ddee2741fdc",
   "name": "Resonant Round",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_resonant_round"
+      "sourceId": "card_pulse_caller_resonant_round",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

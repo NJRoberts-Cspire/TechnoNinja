@@ -1,5 +1,6 @@
 {
   "_id": "3c137892104999b1",
+  "_key": "!items!3c137892104999b1",
   "name": "Ward of Salt and Iron",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_ward_of_salt_and_iron"
+      "sourceId": "card_oni_hunter_ward_of_salt_and_iron",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

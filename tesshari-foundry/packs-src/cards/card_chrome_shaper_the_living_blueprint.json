@@ -1,5 +1,6 @@
 {
   "_id": "939d6e528bc96018",
+  "_key": "!items!939d6e528bc96018",
   "name": "The Living Blueprint",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_the_living_blueprint"
+      "sourceId": "card_chrome_shaper_the_living_blueprint",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

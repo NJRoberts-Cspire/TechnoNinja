@@ -1,5 +1,6 @@
 {
   "_id": "0c70519db2037fec",
+  "_key": "!items!0c70519db2037fec",
   "name": "Disruption Round",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_disruption_round"
+      "sourceId": "card_pulse_caller_disruption_round",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

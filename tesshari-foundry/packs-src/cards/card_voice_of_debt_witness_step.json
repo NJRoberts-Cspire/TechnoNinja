@@ -1,5 +1,6 @@
 {
   "_id": "03e35accf0991e01",
+  "_key": "!items!03e35accf0991e01",
   "name": "Witness Step",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_witness_step"
+      "sourceId": "card_voice_of_debt_witness_step",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

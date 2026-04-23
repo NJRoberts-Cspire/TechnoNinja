@@ -1,0 +1,34 @@
+{
+  "_id": "92673fdd495fce48",
+  "_key": "!items!92673fdd495fce48",
+  "name": "Merchant Knife",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hpTier": "social",
+    "handBase": 8,
+    "primaryStats": [
+      "veil",
+      "edge"
+    ],
+    "startingHandSlugs": [],
+    "unlockList": {},
+    "subclassSlugs": [
+      "Supply Cutter",
+      "Gilded Blade",
+      "Kingmaker"
+    ],
+    "description": "<p>In the Wire Market, they say that the most expensive thing you can do is make an enemy of a Merchant Knife. Not because they are necessarily the most dangerous fighter, or the most powerful practitioner. Because when a Merchant Knife decides that someone represents an unacceptable liability, they approach the problem the way they approach all problems: with calculation, patience, and the specific kind of thoroughness that comes from a tradition that has had centuries to develop methods. They know your supply lines. They know your financiers. They know what you owe and who you owe it to. They know which of your allies became your allies because of an investment that can be redirected. And they know that a problem approached with sufficient systematic rigor is not a problem — it is a project, with a timeline and a completion date.\r</p>\n<p>The Merchant Knife emerged from the Wire Market's practical necessity. Commerce in Tesshari is not conducted in a vacuum — it is conducted in territories controlled by warlords who tax, and Sutensai who regulate, and criminal networks who extract, and competing merchants who will, if given the opportunity, undermine your position through any means available. The Wire Market developed its own class of practitioners who combined commercial expertise with a range of other capabilities: economic intelligence, strategic sabotage, targeted violence when the cost-benefit analysis supported it, and the particular kind of patience required to dismantle a competitor over years rather than hours. This is commerce as warfare, and the Merchant Knife is its practitioner.\r</p>\n<p>What distinguishes the Merchant Knife from an ordinary criminal is the framework. The Merchant Knife does not steal. They redirect supply. They do not threaten. They create conditions. They do not assassinate from passion. They terminate a contract with extreme prejudice after conducting due diligence that would satisfy a court. Their methods are extreme; their paperwork is immaculate. The Sutensai has found, repeatedly, that the activities of Merchant Knives are legal by the letter of every existing code, because the existing codes were not designed by people who imagined that economic analysis would be used as a primary weapon. In several territories, the codes have been updated. In those territories, the Merchant Knives have reviewed the updates and adjusted their methods.\r</p>\n<p>The Gilded Blade who takes contracts is perhaps the most misunderstood archetype: they are not assassins who happen to be good with money. They are economic analysts who have determined that their target's most efficient removal is physical, and who execute that removal with the precision of someone who has built cost-benefit models around every step of the approach. They turn down contracts regularly — not from squeamishness but from analysis. The contract is not worth the risk, or the target is not worth the cost, or there are downstream consequences that make the elimination unprofitable. The ones they accept are executed with an excellence that the intelligence services of Tesshari find genuinely alarming.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Merchant Knife"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

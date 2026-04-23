@@ -1,5 +1,6 @@
 {
   "_id": "cf4d523cef9ead2b",
+  "_key": "!items!cf4d523cef9ead2b",
   "name": "Signed in Blood",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_iron_contract_signed_in_blood"
+      "sourceId": "card_ronin_iron_contract_signed_in_blood",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

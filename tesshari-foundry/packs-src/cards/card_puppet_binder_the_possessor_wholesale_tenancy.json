@@ -1,5 +1,6 @@
 {
   "_id": "41c9adc0ada01325",
+  "_key": "!items!41c9adc0ada01325",
   "name": "Wholesale Tenancy",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_the_possessor_wholesale_tenancy"
+      "sourceId": "card_puppet_binder_the_possessor_wholesale_tenancy",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

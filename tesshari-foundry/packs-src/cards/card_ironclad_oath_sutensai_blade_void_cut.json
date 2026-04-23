@@ -1,5 +1,6 @@
 {
   "_id": "f208522831da5162",
+  "_key": "!items!f208522831da5162",
   "name": "Void Cut",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_oath_sutensai_blade_void_cut"
+      "sourceId": "card_ironclad_oath_sutensai_blade_void_cut",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

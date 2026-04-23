@@ -1,5 +1,6 @@
 {
   "_id": "129fbd4edb01456f",
+  "_key": "!items!129fbd4edb01456f",
   "name": "War Room Command",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_war_room_command"
+      "sourceId": "card_iron_herald_war_room_command",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

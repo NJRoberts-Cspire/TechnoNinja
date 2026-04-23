@@ -1,5 +1,6 @@
 {
   "_id": "8d077e4e154e1758",
+  "_key": "!items!8d077e4e154e1758",
   "name": "Network Domination",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_network_domination"
+      "sourceId": "card_wireweave_network_domination",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

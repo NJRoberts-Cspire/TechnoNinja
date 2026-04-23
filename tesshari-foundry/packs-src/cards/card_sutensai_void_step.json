@@ -1,5 +1,6 @@
 {
   "_id": "8cec050772b03037",
+  "_key": "!items!8cec050772b03037",
   "name": "Void Step",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -19,16 +20,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Step between the pages of what is and what was. Short RESONANCE-guided teleport; you briefly cease to be witnessed, breaking line of effect on enemies you pass.</p>"
+    "description": "<p>Phase and reappear. When you return from Phase Step (incorporeal state), choose to reappear at any unoccupied space within 25 feet of where you phased, as long as you have line of sight or have previously been there.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_void_step"
+      "sourceId": "card_sutensai_void_step",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "5ab91167da2638be",
+  "_key": "!items!5ab91167da2638be",
   "name": "Corruption Channeled",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_corruption_channeled"
+      "sourceId": "card_curse_eater_corruption_channeled",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

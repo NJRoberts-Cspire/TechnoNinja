@@ -1,5 +1,6 @@
 {
   "_id": "c6c63c0b9ae30ed0",
+  "_key": "!items!c6c63c0b9ae30ed0",
   "name": "Unwitnessed Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_unwitnessed_strike"
+      "sourceId": "card_veilblade_unwitnessed_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

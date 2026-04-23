@@ -1,5 +1,6 @@
 {
   "_id": "1716cd9e400df318",
+  "_key": "!items!1716cd9e400df318",
   "name": "Sovereignty Declared",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_sovereignty_declared"
+      "sourceId": "card_void_walker_sovereignty_declared",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

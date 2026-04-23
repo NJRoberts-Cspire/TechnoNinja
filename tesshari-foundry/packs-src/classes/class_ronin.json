@@ -1,0 +1,38 @@
+{
+  "_id": "da110841c32cc14c",
+  "_key": "!items!da110841c32cc14c",
+  "name": "Ronin",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hpTier": "martial",
+    "handBase": 6,
+    "primaryStats": [
+      "edge",
+      "iron"
+    ],
+    "startingHandSlugs": [
+      "Masterless Edge",
+      "Broken Resonance",
+      "Combat Pragmatism"
+    ],
+    "unlockList": {},
+    "subclassSlugs": [
+      "Ascendant Blade",
+      "Iron Contract",
+      "Returning Blade"
+    ],
+    "description": "<p>The Ronin are the masterless. They were Ironclad Samurai once — trained, oath-sworn, resonance-tuned to a lord's frequency — and then something happened. The lord died without an heir. The lord was dishonored and stripped of title. The Ronin committed an act that put them outside the Vein of Iron's protection, or the lord committed an act that put the Vein outside their ability to obey. The mechanism varies. The result is the same: an extraordinarily dangerous person, built to serve, with no one to serve, walking through a world that simultaneously fears their skills and regards their existence as a kind of spiritual contamination.\r</p>\n<p>The Ronin's enhancements are the central problem of their existence. When a samurai's oath breaks, the lord's resonant signature embedded in their modifications begins to degrade. It does not disappear — it corrupts. The Ronin's enhancements still function, sometimes better than before, because they are no longer tuned for a lord's preferences but purely for survival. But the corrupted signature registers to other samurai, to Sutensai assessors, to the Caste hierarchy's enhancement-reading systems as wrongness. A Ronin's modifications broadcast their shame to any qualified observer, as clearly as a brand on skin. They cannot hide what they are. They can only decide what to do with it.\r</p>\n<p>Most Ronin fall into one of three trajectories in their first years of masterlessness. Some go to pieces — spending trade-metal on modifications that don't integrate properly, taking contracts without care, dying badly in situations an Ironclad would have survived through discipline. Some harden — stripping away everything in their conduct that belonged to the lord, keeping only the techniques, becoming something more efficient and less human than the samurai they were. And some — the ones who are most interesting and most dangerous — begin to search. They are looking for something worth serving again, though they rarely describe it in those terms. They describe it as looking for work, or for a particular person, or for the answer to a specific question. But the shape of what they're actually searching for is unmistakable: a new oath, a new center of gravity, something that can make the resonant corruption in their enhancements into something other than a mark of failure.\r</p>\n<p>The world of Tesshari has no good place for a Ronin. The Caste hierarchy regards them as a corrupted element — dangerous, necessary to tolerate occasionally, but not to be trusted with anything that matters. The Iron Sutra's official position is that a Ronin's Echomind is in a state of spiritual drift, and that they should either find a new lord or enter a monastery for resonant rehabilitation. In practice, most factions hire Ronin for exactly the work they cannot ask their Ironclad to perform: the work that is necessary but not clean, that requires skill but cannot be acknowledged, that must be done by someone who has already lost what they had to lose.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Ronin"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

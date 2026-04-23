@@ -1,5 +1,6 @@
 {
   "_id": "33522d590c587632",
+  "_key": "!items!33522d590c587632",
   "name": "Iron Pallbearers",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_iron_afterlife_weave_power_iron_pallbearers"
+      "sourceId": "card_wireweave_iron_afterlife_weave_power_iron_pallbearers",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

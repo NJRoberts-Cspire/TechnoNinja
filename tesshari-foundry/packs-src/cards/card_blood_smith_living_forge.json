@@ -1,5 +1,6 @@
 {
   "_id": "30ed1cde2380712f",
+  "_key": "!items!30ed1cde2380712f",
   "name": "Living Forge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_blood_smith_living_forge"
+      "sourceId": "card_blood_smith_living_forge",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

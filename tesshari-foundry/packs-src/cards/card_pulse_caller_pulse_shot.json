@@ -1,5 +1,6 @@
 {
   "_id": "6950e085a57f1047",
+  "_key": "!items!6950e085a57f1047",
   "name": "Pulse Shot",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_pulse_shot"
+      "sourceId": "card_pulse_caller_pulse_shot",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

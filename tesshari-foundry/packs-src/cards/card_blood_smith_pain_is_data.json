@@ -1,5 +1,6 @@
 {
   "_id": "3e6d036003df0704",
+  "_key": "!items!3e6d036003df0704",
   "name": "Pain is Data",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_blood_smith_pain_is_data"
+      "sourceId": "card_blood_smith_pain_is_data",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

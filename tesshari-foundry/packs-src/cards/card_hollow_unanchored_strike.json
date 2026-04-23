@@ -1,5 +1,6 @@
 {
   "_id": "f2945353e81be0f8",
+  "_key": "!items!f2945353e81be0f8",
   "name": "Unanchored Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_unanchored_strike"
+      "sourceId": "card_hollow_unanchored_strike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

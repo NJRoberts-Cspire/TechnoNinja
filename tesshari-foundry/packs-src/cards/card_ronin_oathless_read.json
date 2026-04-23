@@ -1,5 +1,6 @@
 {
   "_id": "b2a5a488e8907f53",
+  "_key": "!items!b2a5a488e8907f53",
   "name": "Oathless Read",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_oathless_read"
+      "sourceId": "card_ronin_oathless_read",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

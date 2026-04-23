@@ -1,5 +1,6 @@
 {
   "_id": "718c943bf0b810c7",
+  "_key": "!items!718c943bf0b810c7",
   "name": "Prior's Echo",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_prior_s_echo"
+      "sourceId": "card_sutensai_prior_s_echo",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

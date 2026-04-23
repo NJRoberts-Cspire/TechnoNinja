@@ -1,5 +1,6 @@
 {
   "_id": "2bb01aa69e08ee9d",
+  "_key": "!items!2bb01aa69e08ee9d",
   "name": "Veil Sense",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_veil_sense"
+      "sourceId": "card_echo_speaker_veil_sense",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

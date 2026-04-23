@@ -1,5 +1,6 @@
 {
   "_id": "f4fe6180de581aaa",
+  "_key": "!items!f4fe6180de581aaa",
   "name": "The Work Itself",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -9,7 +10,7 @@
     "baseDamage": 22,
     "pierce": 0,
     "category": "signature",
-    "primaryStat": "iron+edge",
+    "primaryStat": "iron",
     "keywords": [
       "Expose 4",
       "Shield"
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_the_work_itself"
+      "sourceId": "card_ronin_the_work_itself",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

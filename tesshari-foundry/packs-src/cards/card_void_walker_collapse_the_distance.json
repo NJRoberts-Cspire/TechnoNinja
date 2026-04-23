@@ -1,5 +1,6 @@
 {
   "_id": "b6bbae7d61e22b09",
+  "_key": "!items!b6bbae7d61e22b09",
   "name": "Collapse the Distance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_collapse_the_distance"
+      "sourceId": "card_void_walker_collapse_the_distance",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

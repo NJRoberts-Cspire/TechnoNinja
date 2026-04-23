@@ -1,5 +1,6 @@
 {
   "_id": "34cd08830737b7cd",
+  "_key": "!items!34cd08830737b7cd",
   "name": "Sutra Condemnation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -18,7 +19,7 @@
     "subclass": "",
     "isRaceCard": false,
     "race": "",
-    "isStartingHand": true,
+    "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
     "description": "<p>Deal 5 + RESONANCE resonant damage to one target within 40 feet. If the target has a spiritual violation active, apply Expose 2.</p>"
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_sutra_condemnation"
+      "sourceId": "card_sutensai_sutra_condemnation",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

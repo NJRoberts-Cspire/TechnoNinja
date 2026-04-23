@@ -1,5 +1,6 @@
 {
   "_id": "2f0ac84dceb09e6d",
+  "_key": "!items!2f0ac84dceb09e6d",
   "name": "The Hollow Practice",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_the_hollow_practice"
+      "sourceId": "card_puppet_binder_the_hollow_practice",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

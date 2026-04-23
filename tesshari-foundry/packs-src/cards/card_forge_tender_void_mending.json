@@ -1,5 +1,6 @@
 {
   "_id": "97694b5b47f94bfa",
+  "_key": "!items!97694b5b47f94bfa",
   "name": "Void Mending",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -11,8 +12,8 @@
     "category": "utility",
     "primaryStat": "",
     "keywords": [
-      "Overheat",
-      "Silence"
+      "Cleanse (Overheat or Silence",
+      "ally)"
     ],
     "unlockLevel": 13,
     "className": "Forge Tender",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_void_mending"
+      "sourceId": "card_forge_tender_void_mending",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

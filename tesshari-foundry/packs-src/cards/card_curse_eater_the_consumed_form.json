@@ -1,5 +1,6 @@
 {
   "_id": "b3383cea42315e5a",
+  "_key": "!items!b3383cea42315e5a",
   "name": "The Consumed Form",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_the_consumed_form"
+      "sourceId": "card_curse_eater_the_consumed_form",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

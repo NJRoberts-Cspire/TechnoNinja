@@ -1,5 +1,6 @@
 {
   "_id": "fd3ec98c8d7b246a",
+  "_key": "!items!fd3ec98c8d7b246a",
   "name": "Call It Home",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_echomind_anchor_call_it_home"
+      "sourceId": "card_forge_tender_echomind_anchor_call_it_home",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

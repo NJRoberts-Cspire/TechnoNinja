@@ -1,5 +1,6 @@
 {
   "_id": "87ae72ed7787aa1b",
+  "_key": "!items!87ae72ed7787aa1b",
   "name": "Grief Cascade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_grief_cascade"
+      "sourceId": "card_echo_speaker_grief_cascade",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

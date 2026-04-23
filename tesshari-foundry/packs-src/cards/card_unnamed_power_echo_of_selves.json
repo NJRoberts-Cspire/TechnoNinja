@@ -1,5 +1,6 @@
 {
   "_id": "6075fd5d2708de4c",
+  "_key": "!items!6075fd5d2708de4c",
   "name": "Echo of Selves",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_unnamed_power_echo_of_selves"
+      "sourceId": "card_unnamed_power_echo_of_selves",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

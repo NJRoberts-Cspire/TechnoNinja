@@ -1,5 +1,6 @@
 {
   "_id": "8e6d19363361fed2",
+  "_key": "!items!8e6d19363361fed2",
   "name": "House Command",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_oath_iron_lord_house_command"
+      "sourceId": "card_ironclad_oath_iron_lord_house_command",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

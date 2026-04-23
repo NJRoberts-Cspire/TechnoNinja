@@ -1,5 +1,6 @@
 {
   "_id": "e89f07a81a5cad78",
+  "_key": "!items!e89f07a81a5cad78",
   "name": "Second Skin",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_second_skin"
+      "sourceId": "card_shell_dancer_second_skin",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

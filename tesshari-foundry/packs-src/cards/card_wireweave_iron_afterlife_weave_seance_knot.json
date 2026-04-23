@@ -1,5 +1,6 @@
 {
   "_id": "29a4aece6fc2682c",
+  "_key": "!items!29a4aece6fc2682c",
   "name": "Seance Knot",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_iron_afterlife_weave_seance_knot"
+      "sourceId": "card_wireweave_iron_afterlife_weave_seance_knot",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

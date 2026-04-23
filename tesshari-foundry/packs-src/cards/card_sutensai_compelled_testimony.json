@@ -1,5 +1,6 @@
 {
   "_id": "0418346eb6fc70b3",
+  "_key": "!items!0418346eb6fc70b3",
   "name": "Compelled Testimony",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_compelled_testimony"
+      "sourceId": "card_sutensai_compelled_testimony",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,20 +1,21 @@
 {
   "_id": "879027a03cf6567a",
+  "_key": "!items!879027a03cf6567a",
   "name": "Override Protocol",
   "type": "card",
   "img": "icons/svg/combat.svg",
   "system": {
-    "tier": 1,
-    "apCost": 1,
+    "tier": 2,
+    "apCost": 2,
     "baseDamage": 0,
     "pierce": 0,
-    "category": "utility",
+    "category": "control",
     "primaryStat": "",
     "keywords": [
-      "Guard 4",
       "Stagger",
-      "Root",
-      "Silence"
+      "Expose",
+      "Overheat",
+      "Dispel"
     ],
     "unlockLevel": 6,
     "className": "The Hollow",
@@ -24,16 +25,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Remove one status effect (Stagger, Root, Silence, or Stun) from yourself. Apply Guard 4 + FRAME. Your mechanical redundancy suppresses what organic bodies cannot.</p>"
+    "description": "<p>Target one creature within melee range that has cybernetic augmentations. Apply Stagger and Expose 2 to that target. If the target is another Forged or a mechanically augmented monster, also apply Overheat 1. You may instead use this card on yourself to immediately remove Overheat (all stacks) and gain +2 to your next card's base damage.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_override_protocol"
+      "sourceId": "card_hollow_override_protocol",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 1006,
+  "sort": 2006,
   "ownership": {
     "default": 0
   }

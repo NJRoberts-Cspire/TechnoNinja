@@ -1,5 +1,6 @@
 {
   "_id": "67b994a68cb87537",
+  "_key": "!items!67b994a68cb87537",
   "name": "Mass Reconstruction",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_mass_reconstruction"
+      "sourceId": "card_flesh_shaper_mass_reconstruction",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

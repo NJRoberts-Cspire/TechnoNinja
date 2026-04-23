@@ -1,5 +1,6 @@
 {
   "_id": "056e231b23bf1b23",
+  "_key": "!items!056e231b23bf1b23",
   "name": "Static Feedback",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_static_feedback"
+      "sourceId": "card_wireweave_static_feedback",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "227ec176bf063278",
+  "_key": "!items!227ec176bf063278",
   "name": "Nails for the Dead",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_black_smith_nails_for_the_dead"
+      "sourceId": "card_forge_tender_black_smith_nails_for_the_dead",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "f7f7f3229f1f4fb8",
+  "_key": "!items!f7f7f3229f1f4fb8",
   "name": "Convergence Line",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_convergence_line"
+      "sourceId": "card_pulse_caller_convergence_line",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

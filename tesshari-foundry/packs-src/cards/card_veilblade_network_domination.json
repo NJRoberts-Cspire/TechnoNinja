@@ -1,21 +1,18 @@
 {
   "_id": "c5dc7659f6ea4538",
+  "_key": "!items!c5dc7659f6ea4538",
   "name": "Network Domination",
   "type": "card",
   "img": "icons/svg/combat.svg",
   "system": {
-    "tier": 2,
-    "apCost": 2,
+    "tier": 3,
+    "apCost": 3,
     "baseDamage": 0,
     "pierce": 0,
     "category": "control",
     "primaryStat": "",
-    "keywords": [
-      "Overheat 2",
-      "Stagger",
-      "Silence"
-    ],
-    "unlockLevel": 10,
+    "keywords": [],
+    "unlockLevel": 12,
     "className": "Veilblade",
     "subclass": "",
     "isRaceCard": false,
@@ -23,16 +20,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>While connected to a Wire network in this encounter, you exercise control authority. Apply one effect (your choice): Silence all enhanced creatures within 60 feet for 1 turn; apply Overheat 2 and Stagger to one target as you flood their enhancement with sensory overload; or issue a command to all automated systems in the encounter that they treat as legitimate (GM adjudicates scope).</p>"
+    "description": "<p>Take administrative control of all Wire systems within 200 feet for the scene. Controlled systems obey your mental commands as a free action. Enemy Wire Craft cards used within the area must first overcome your SIGNAL — if your SIGNAL exceeds theirs, those cards are suppressed instead.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_network_domination"
+      "sourceId": "card_veilblade_network_domination",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 2010,
+  "sort": 3012,
   "ownership": {
     "default": 0
   }

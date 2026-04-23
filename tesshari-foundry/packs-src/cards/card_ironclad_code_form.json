@@ -1,5 +1,6 @@
 {
   "_id": "bc9c526f1f304093",
+  "_key": "!items!bc9c526f1f304093",
   "name": "Code Form",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_code_form"
+      "sourceId": "card_ironclad_code_form",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

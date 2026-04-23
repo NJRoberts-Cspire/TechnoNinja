@@ -1,5 +1,6 @@
 {
   "_id": "aecfb8efb9fe04b2",
+  "_key": "!items!aecfb8efb9fe04b2",
   "name": "Kicked Dust",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_skirmish_specialist_kicked_dust"
+      "sourceId": "card_ashfoot_skirmish_specialist_kicked_dust",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

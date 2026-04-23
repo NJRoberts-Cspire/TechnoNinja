@@ -1,5 +1,6 @@
 {
   "_id": "c57b934c2349785c",
+  "_key": "!items!c57b934c2349785c",
   "name": "Sutensai's Truth",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_sutensai_s_truth"
+      "sourceId": "card_sutensai_sutensai_s_truth",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

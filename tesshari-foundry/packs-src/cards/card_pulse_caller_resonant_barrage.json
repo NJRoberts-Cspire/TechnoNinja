@@ -1,5 +1,6 @@
 {
   "_id": "7f774de21a34e399",
+  "_key": "!items!7f774de21a34e399",
   "name": "Resonant Barrage",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_resonant_barrage"
+      "sourceId": "card_pulse_caller_resonant_barrage",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

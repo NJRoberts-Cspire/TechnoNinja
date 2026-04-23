@@ -1,5 +1,6 @@
 {
   "_id": "4324eea14affc7f0",
+  "_key": "!items!4324eea14affc7f0",
   "name": "Echo Shield",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_echo_shield"
+      "sourceId": "card_echo_speaker_echo_shield",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

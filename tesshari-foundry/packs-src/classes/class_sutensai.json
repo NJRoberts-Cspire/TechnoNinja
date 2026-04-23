@@ -1,0 +1,34 @@
+{
+  "_id": "4228ccb632ccee02",
+  "_key": "!items!4228ccb632ccee02",
+  "name": "Sutensai",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hpTier": "technical",
+    "handBase": 7,
+    "primaryStats": [
+      "resonance",
+      "veil"
+    ],
+    "startingHandSlugs": [],
+    "unlockList": {},
+    "subclassSlugs": [
+      "Inquisitor",
+      "Archive Master",
+      "Priors Voice"
+    ],
+    "description": "<p>The Sutensai do not call themselves priests. The word exists, and laypeople use it, but within the institution itself the preferred term is Reader — because the central act of Sutensai practice is the Reading: the formal examination of a person's Echomind to determine the alignment, integrity, and spiritual status of their resonance. This is not metaphorical. The Sutensai have developed, over centuries, the ability to examine the precise resonant signature of a person's Echomind, interpret its patterns, and issue a formal judgment about that person's spiritual standing. These judgments have material consequences — Caste of Steel classifications, legal standing, inheritance rights, the right to certain kinds of enhancement. The Sutensai are the gate through which every significant life transition passes, and they know it.\r</p>\n<p>What makes the Sutensai extraordinary beyond their administrative function is that the act of Reading, done deeply enough and with sufficient attunement, grants genuine access to the Iron Afterlife. The most advanced Sutensai can commune with the dead as part of formal procedure, can sense the resonant imprint of history in locations and objects, and in rare cases can channel the authority of the Six Prior Ascended into their voice and actions. The institution has spent considerable effort ensuring that these abilities remain bound by institutional procedure — that a Sutensai's spiritual power is expressed through official channels, recorded in official records, and never used for purposes that are not formally sanctioned. The effort is only partially successful.\r</p>\n<p>The Sutensai is also an intelligence organization, a caste enforcement agency, a court system, and a military organization, depending on what the situation requires. Their priests carry weapons. Their Reading rituals produce detailed records of private spiritual states. Their administrative role gives them access to more personal information about every family in Tesshari than any intelligence service has managed to collect. They know about old crimes, hidden alliances, secret enhancements, and spiritual deviations. They have held this information for centuries and have used it — for stability, for leverage, for the preservation of an institution that, whatever its flaws, has been the closest thing Tesshari has to a unifying authority across the Broken Reaches. Whether that justification holds any longer is a question that increasingly divides the Sutensai from within.\r</p>\n<p>The class of the Sutensai is the class of people who have been trained in this tradition and are actively practicing it. Not all of them are true believers. Not all of them are cynics. Most of them are somewhere in the complicated middle — people who entered an institution because it was meaningful, discovered that the institution is deeply compromised, and are now navigating the gap between what they were taught the Sutensai is and what they have discovered it does. The ones who have found no gap are dangerous in the way certainty is dangerous. The ones who have found too large a gap are dangerous in the way that disillusionment without purpose is dangerous. The ones who are still navigating are dangerous because they are trying to figure out if something real exists under the institution, and that search tends to lead places no one intended.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Sutensai"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,5 +1,6 @@
 {
   "_id": "7c3c55c3fc405468",
+  "_key": "!items!7c3c55c3fc405468",
   "name": "One True Cut",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_ascendant_blade_one_true_cut"
+      "sourceId": "card_ronin_ascendant_blade_one_true_cut",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

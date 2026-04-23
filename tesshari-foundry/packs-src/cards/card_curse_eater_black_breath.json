@@ -1,5 +1,6 @@
 {
   "_id": "24b81bd741ef9b61",
+  "_key": "!items!24b81bd741ef9b61",
   "name": "Black Breath",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_black_breath"
+      "sourceId": "card_curse_eater_black_breath",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

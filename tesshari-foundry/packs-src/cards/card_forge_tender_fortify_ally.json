@@ -1,5 +1,6 @@
 {
   "_id": "c7e816423846eecf",
+  "_key": "!items!c7e816423846eecf",
   "name": "Fortify Ally",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_fortify_ally"
+      "sourceId": "card_forge_tender_fortify_ally",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

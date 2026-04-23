@@ -1,5 +1,6 @@
 {
   "_id": "ef5971c06ef74b89",
+  "_key": "!items!ef5971c06ef74b89",
   "name": "Grief-Fluent",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_grief_fluent"
+      "sourceId": "card_echo_speaker_grief_fluent",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

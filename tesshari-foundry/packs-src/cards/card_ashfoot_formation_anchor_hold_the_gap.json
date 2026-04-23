@@ -1,5 +1,6 @@
 {
   "_id": "f73a5a7a16d9cf10",
+  "_key": "!items!f73a5a7a16d9cf10",
   "name": "Hold the Gap",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_formation_anchor_hold_the_gap"
+      "sourceId": "card_ashfoot_formation_anchor_hold_the_gap",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

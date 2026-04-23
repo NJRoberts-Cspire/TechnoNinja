@@ -1,5 +1,6 @@
 {
   "_id": "20af17a8b430e693",
+  "_key": "!items!20af17a8b430e693",
   "name": "Black Forge Resurrection",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_black_forge_resurrection"
+      "sourceId": "card_forge_tender_black_forge_resurrection",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

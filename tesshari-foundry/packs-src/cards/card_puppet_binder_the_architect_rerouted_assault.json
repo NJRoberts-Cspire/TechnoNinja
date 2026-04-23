@@ -1,5 +1,6 @@
 {
   "_id": "3c92fa7e944f404d",
+  "_key": "!items!3c92fa7e944f404d",
   "name": "Rerouted Assault",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_the_architect_rerouted_assault"
+      "sourceId": "card_puppet_binder_the_architect_rerouted_assault",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

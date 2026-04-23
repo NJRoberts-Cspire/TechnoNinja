@@ -1,5 +1,6 @@
 {
   "_id": "6de331265b7aa4c7",
+  "_key": "!items!6de331265b7aa4c7",
   "name": "Iron Gut: Perfected",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_iron_gut_perfected"
+      "sourceId": "card_curse_eater_iron_gut_perfected",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

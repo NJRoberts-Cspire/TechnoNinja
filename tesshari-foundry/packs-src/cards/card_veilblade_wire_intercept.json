@@ -1,5 +1,6 @@
 {
   "_id": "70d9a98bdb29fe7a",
+  "_key": "!items!70d9a98bdb29fe7a",
   "name": "Wire Intercept",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_wire_intercept"
+      "sourceId": "card_veilblade_wire_intercept",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

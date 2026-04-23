@@ -1,5 +1,6 @@
 {
   "_id": "862aafff3d46dc35",
+  "_key": "!items!862aafff3d46dc35",
   "name": "Terror Sculpt",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_the_corruptor_terror_sculpt"
+      "sourceId": "card_flesh_shaper_the_corruptor_terror_sculpt",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

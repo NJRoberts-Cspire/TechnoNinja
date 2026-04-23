@@ -1,5 +1,6 @@
 {
   "_id": "eb34e32b79570538",
+  "_key": "!items!eb34e32b79570538",
   "name": "Great Absorption",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_great_absorption"
+      "sourceId": "card_curse_eater_great_absorption",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

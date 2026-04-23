@@ -1,5 +1,6 @@
 {
   "_id": "d4c60fc58e4653cc",
+  "_key": "!items!d4c60fc58e4653cc",
   "name": "Command: Absolute",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_command_absolute"
+      "sourceId": "card_iron_herald_command_absolute",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

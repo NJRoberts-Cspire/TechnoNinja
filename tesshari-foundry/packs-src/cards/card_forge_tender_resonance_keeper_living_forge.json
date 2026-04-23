@@ -1,5 +1,6 @@
 {
   "_id": "9303bdcd955ae67e",
+  "_key": "!items!9303bdcd955ae67e",
   "name": "The Living Forge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -8,10 +9,10 @@
     "apCost": 2,
     "baseDamage": 0,
     "pierce": 0,
-    "category": "utility",
+    "category": "passive",
     "primaryStat": "",
     "keywords": [],
-    "unlockLevel": 1,
+    "unlockLevel": 11,
     "className": "Forge Tender",
     "subclass": "Forge Tender — Resonance Keeper",
     "isRaceCard": false,
@@ -19,16 +20,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Plant your forge-stake on the ground; while it stands, allies within reach repair passively at the start of each round.</p>"
+    "description": "<p>Your presence stabilizes enhancement networks in proximity. All allies within 30 feet who have received Forge Mending from you gain advantage on death-equivalent saves (GM ruling). Enhancement disruption effects on allies within 30 feet last 1 turn less than normal. When you use Forge Mending, the resonance radiates — all allies within 5 feet of the target recover RESONANCE HP as secondary healing.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_resonance_keeper_living_forge"
+      "sourceId": "card_forge_tender_resonance_keeper_living_forge",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2011,
   "ownership": {
     "default": 0
   }

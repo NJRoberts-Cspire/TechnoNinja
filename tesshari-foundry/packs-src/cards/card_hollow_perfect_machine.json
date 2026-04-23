@@ -1,5 +1,6 @@
 {
   "_id": "1f8dd2a5f8320535",
+  "_key": "!items!1f8dd2a5f8320535",
   "name": "Perfect Machine",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_perfect_machine"
+      "sourceId": "card_hollow_perfect_machine",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

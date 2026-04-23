@@ -1,5 +1,6 @@
 {
   "_id": "c1677de2c29fdcf8",
+  "_key": "!items!c1677de2c29fdcf8",
   "name": "The Weight of All Things",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_the_weight_of_all_things"
+      "sourceId": "card_voice_of_debt_the_weight_of_all_things",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "84311ccd888056be",
+  "_key": "!items!84311ccd888056be",
   "name": "Debt to No One",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_debt_to_no_one"
+      "sourceId": "card_ronin_debt_to_no_one",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

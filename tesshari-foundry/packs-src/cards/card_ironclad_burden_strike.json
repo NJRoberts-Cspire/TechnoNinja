@@ -1,5 +1,6 @@
 {
   "_id": "64bb152be94ee9b9",
+  "_key": "!items!64bb152be94ee9b9",
   "name": "Burden Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_burden_strike"
+      "sourceId": "card_ironclad_burden_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

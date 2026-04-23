@@ -1,5 +1,6 @@
 {
   "_id": "f457b14695209dce",
+  "_key": "!items!f457b14695209dce",
   "name": "The Last Charge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_haunted_legion_the_last_charge"
+      "sourceId": "card_fracture_knight_haunted_legion_the_last_charge",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

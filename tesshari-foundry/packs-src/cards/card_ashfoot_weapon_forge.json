@@ -1,5 +1,6 @@
 {
   "_id": "233451fc7e9d8c00",
+  "_key": "!items!233451fc7e9d8c00",
   "name": "Weapon Forge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_weapon_forge"
+      "sourceId": "card_ashfoot_weapon_forge",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

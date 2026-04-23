@@ -1,5 +1,6 @@
 {
   "_id": "db72bcb1ed1add50",
+  "_key": "!items!db72bcb1ed1add50",
   "name": "Edge of the Masterless",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -9,7 +10,7 @@
     "baseDamage": 24,
     "pierce": 0,
     "category": "signature",
-    "primaryStat": "iron+edge",
+    "primaryStat": "iron",
     "keywords": [
       "Bleed 3",
       "Expose 3"
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_edge_of_the_masterless"
+      "sourceId": "card_ronin_edge_of_the_masterless",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

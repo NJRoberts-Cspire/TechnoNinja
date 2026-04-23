@@ -1,5 +1,6 @@
 {
   "_id": "dc6005b7c207b19b",
+  "_key": "!items!dc6005b7c207b19b",
   "name": "Cast Off Skin",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_the_self_shaper_cast_off_skin"
+      "sourceId": "card_flesh_shaper_the_self_shaper_cast_off_skin",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

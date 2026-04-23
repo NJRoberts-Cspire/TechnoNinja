@@ -1,5 +1,6 @@
 {
   "_id": "ad1e641be35dfac8",
+  "_key": "!items!ad1e641be35dfac8",
   "name": "Step Between",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_step_between"
+      "sourceId": "card_echo_speaker_step_between",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

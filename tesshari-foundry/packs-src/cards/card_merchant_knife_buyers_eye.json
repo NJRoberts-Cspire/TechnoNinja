@@ -1,5 +1,6 @@
 {
   "_id": "1153a9c3c9e0e9d7",
+  "_key": "!items!1153a9c3c9e0e9d7",
   "name": "Buyer's Eye",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_buyers_eye"
+      "sourceId": "card_merchant_knife_buyers_eye",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "598a9c86b1037fc0",
+  "_key": "!items!598a9c86b1037fc0",
   "name": "Signal Supreme",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -29,7 +30,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_signal_supreme"
+      "sourceId": "card_iron_herald_signal_supreme",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

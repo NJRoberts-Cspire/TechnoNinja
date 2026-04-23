@@ -1,5 +1,6 @@
 {
   "_id": "9166f1691f531529",
+  "_key": "!items!9166f1691f531529",
   "name": "Between Flicker",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_between_flicker"
+      "sourceId": "card_iron_monk_between_flicker",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

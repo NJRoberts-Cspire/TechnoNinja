@@ -1,5 +1,6 @@
 {
   "_id": "50deb6cbdd873b8a",
+  "_key": "!items!50deb6cbdd873b8a",
   "name": "Slip Stance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_path_of_the_between_slip_stance"
+      "sourceId": "card_iron_monk_path_of_the_between_slip_stance",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

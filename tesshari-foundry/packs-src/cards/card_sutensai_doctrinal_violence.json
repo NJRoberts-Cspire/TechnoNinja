@@ -1,5 +1,6 @@
 {
   "_id": "e94eb314343792b3",
+  "_key": "!items!e94eb314343792b3",
   "name": "Doctrinal Violence",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_doctrinal_violence"
+      "sourceId": "card_sutensai_doctrinal_violence",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

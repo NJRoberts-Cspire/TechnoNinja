@@ -1,5 +1,6 @@
 {
   "_id": "703b4e25d9cfbb80",
+  "_key": "!items!703b4e25d9cfbb80",
   "name": "Controlled Retreat",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_controlled_retreat"
+      "sourceId": "card_ronin_controlled_retreat",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

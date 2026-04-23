@@ -1,5 +1,6 @@
 {
   "_id": "48a3ca30283943fe",
+  "_key": "!items!48a3ca30283943fe",
   "name": "The First Tongue",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_priors_voice_first_tongue"
+      "sourceId": "card_sutensai_priors_voice_first_tongue",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

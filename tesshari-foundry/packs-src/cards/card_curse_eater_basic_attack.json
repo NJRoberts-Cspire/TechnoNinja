@@ -1,5 +1,6 @@
 {
   "_id": "c55d91f5a315458a",
+  "_key": "!items!c55d91f5a315458a",
   "name": "Basic Attack (Curse Eater)",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_basic_attack"
+      "sourceId": "card_curse_eater_basic_attack",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

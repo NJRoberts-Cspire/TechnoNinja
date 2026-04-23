@@ -1,5 +1,6 @@
 {
   "_id": "bada4712878eba60",
+  "_key": "!items!bada4712878eba60",
   "name": "Vein Discipline",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_vein_discipline"
+      "sourceId": "card_ironclad_vein_discipline",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

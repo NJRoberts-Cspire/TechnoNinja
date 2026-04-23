@@ -1,5 +1,6 @@
 {
   "_id": "7a0b46f3cc37fa07",
+  "_key": "!items!7a0b46f3cc37fa07",
   "name": "The Body As Altar",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_flesh_circle_the_body_as_altar"
+      "sourceId": "card_iron_monk_flesh_circle_the_body_as_altar",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

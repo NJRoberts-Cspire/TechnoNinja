@@ -1,5 +1,6 @@
 {
   "_id": "7326fe198dbe01b7",
+  "_key": "!items!7326fe198dbe01b7",
   "name": "The Final Notice",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -29,7 +30,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_the_final_notice"
+      "sourceId": "card_voice_of_debt_the_final_notice",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

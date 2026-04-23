@@ -1,5 +1,6 @@
 {
   "_id": "8592acad81e7a42e",
+  "_key": "!items!8592acad81e7a42e",
   "name": "Quarry's Weakness",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -10,7 +11,10 @@
     "pierce": 0,
     "category": "utility",
     "primaryStat": "",
-    "keywords": [],
+    "keywords": [
+      "Expose 1 (on-hit",
+      "vs chosen type)"
+    ],
     "unlockLevel": 1,
     "className": "Oni Hunter",
     "subclass": "",
@@ -19,16 +23,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Identify and exploit identified quarry's specific vulnerability.</p>"
+    "description": "<p>You have studied the failure points of your common targets. Choose a type: Shell-states, Iron Afterlife entities, or heavily-enhanced humanoids. Against the chosen type, your attacks this combat apply Expose 1 on every hit. Additionally, once per combat, identify one target of the chosen type and gain one specific vulnerability about them (GM provides).</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_quarrys_weakness"
+      "sourceId": "card_oni_hunter_quarrys_weakness",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

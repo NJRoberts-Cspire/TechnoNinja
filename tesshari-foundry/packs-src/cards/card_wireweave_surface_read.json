@@ -1,5 +1,6 @@
 {
   "_id": "a791a473561ce1fa",
+  "_key": "!items!a791a473561ce1fa",
   "name": "Surface Read",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_surface_read"
+      "sourceId": "card_wireweave_surface_read",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

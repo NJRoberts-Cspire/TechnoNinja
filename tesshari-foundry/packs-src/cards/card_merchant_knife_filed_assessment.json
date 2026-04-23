@@ -1,5 +1,6 @@
 {
   "_id": "f3a901d44671fef5",
+  "_key": "!items!f3a901d44671fef5",
   "name": "Filed Assessment",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_filed_assessment"
+      "sourceId": "card_merchant_knife_filed_assessment",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

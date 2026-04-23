@@ -1,5 +1,6 @@
 {
   "_id": "0833558c3c66a17a",
+  "_key": "!items!0833558c3c66a17a",
   "name": "Graft Fist",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_flesh_circle_graft_fist"
+      "sourceId": "card_iron_monk_flesh_circle_graft_fist",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

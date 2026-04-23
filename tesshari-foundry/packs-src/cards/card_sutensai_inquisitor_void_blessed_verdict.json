@@ -1,5 +1,6 @@
 {
   "_id": "28959d17a003d5be",
+  "_key": "!items!28959d17a003d5be",
   "name": "Void-Blessed Verdict",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_inquisitor_void_blessed_verdict"
+      "sourceId": "card_sutensai_inquisitor_void_blessed_verdict",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

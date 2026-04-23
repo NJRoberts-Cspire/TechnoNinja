@@ -1,5 +1,6 @@
 {
   "_id": "85f0f2b1a335a06c",
+  "_key": "!items!85f0f2b1a335a06c",
   "name": "Grief Engine",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -10,10 +11,7 @@
     "pierce": 0,
     "category": "utility",
     "primaryStat": "",
-    "keywords": [
-      "Expose 2",
-      "Stagger"
-    ],
+    "keywords": [],
     "unlockLevel": 16,
     "className": "Echo Speaker",
     "subclass": "",
@@ -27,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_grief_engine"
+      "sourceId": "card_echo_speaker_grief_engine",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

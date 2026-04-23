@@ -1,5 +1,6 @@
 {
   "_id": "707f488a96c07fe1",
+  "_key": "!items!707f488a96c07fe1",
   "name": "Vessel Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -16,7 +17,7 @@
     "subclass": "",
     "isRaceCard": false,
     "race": "",
-    "isStartingHand": true,
+    "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
     "description": "<p>Deal 5 + SIGNAL signal damage to one target within 40 feet. If you have an active vessel adjacent to the target, deal +SIGNAL bonus damage.</p>"
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_vessel_strike"
+      "sourceId": "card_puppet_binder_vessel_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

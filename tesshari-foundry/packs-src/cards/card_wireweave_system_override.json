@@ -1,5 +1,6 @@
 {
   "_id": "4b55c631f8ed8382",
+  "_key": "!items!4b55c631f8ed8382",
   "name": "System Override",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_system_override"
+      "sourceId": "card_wireweave_system_override",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

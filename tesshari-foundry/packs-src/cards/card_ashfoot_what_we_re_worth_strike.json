@@ -1,5 +1,6 @@
 {
   "_id": "ba0a313d0acf879b",
+  "_key": "!items!ba0a313d0acf879b",
   "name": "What We're Worth Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -29,7 +30,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_what_we_re_worth_strike"
+      "sourceId": "card_ashfoot_what_we_re_worth_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

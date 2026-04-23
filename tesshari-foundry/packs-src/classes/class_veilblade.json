@@ -1,0 +1,38 @@
+{
+  "_id": "69a3e26c3f1237a0",
+  "_key": "!items!69a3e26c3f1237a0",
+  "name": "Veilblade",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hpTier": "balanced",
+    "handBase": 7,
+    "primaryStats": [
+      "veil",
+      "edge"
+    ],
+    "startingHandSlugs": [
+      "Signature Null",
+      "Precision Strike",
+      "Shadow Discipline"
+    ],
+    "unlockList": {},
+    "subclassSlugs": [
+      "Shadow Operative",
+      "Signal Cutter",
+      "Ghost Archive"
+    ],
+    "description": "<p>The Veilblade are what emerges when the ancient tradition of the shadow operative is fed into a cyberpunk world and forced through the Wire Market's enhancement design philosophy. They are assassins, spies, infiltrators, and counter-intelligence operatives — but none of those words fully capture what the Wire Craft enhancement network has made possible. A Veilblade does not merely move in shadows; they move in the gaps between digital signals, the blind spots in enhancement-reading systems, the brief pauses between Wire network pulses. They have been modified at a neurological level for the specific work of being unseen, unregistered, and unaccountable.\r</p>\n<p>The training process for a Veilblade is unlike any other martial tradition in Tesshari. There is no formal school, no declared code, no order of honor. Veilblades are made by other Veilblades, in secrecy, through a process of assessment-by-employment — a prospective student is observed through several real operations before being approached. This means that by the time a Veilblade receives their first formal instruction, they have already demonstrated three things: capability, judgment, and the specific type of moral architecture that makes someone useful in covert work. Not ruthlessness — ruthlessness is available in quantity and of limited utility. What Veilblade trainers are selecting for is discretion: the ability to determine when an act is necessary and to perform it without either hesitation or enthusiasm.\r</p>\n<p>The Wire Craft enhancement package that distinguishes a Veilblade from a simple assassin is installed in layers, over years, beginning with the neurological integration — rewiring the reflexes for precision and silence — and extending to the exotic modifications that allow digital-space entry, enhancement-signature suppression, and Wire network traversal. These later modifications are expensive, dangerous, and deeply unusual. Standard enhancement designers refuse to build them. Veilblade get their modifications from specialists who exist outside the Wire Market's official structure — which creates a web of obligation, debt, and mutual knowledge that binds the Veilblade community together as tightly as any formal order. They cannot betray each other entirely, because the person who installed your wire-entry kit knows exactly how it works and can, in theory, disable it.\r</p>\n<p>The spiritual dimension of the Veilblade's existence is rarely discussed in the Iron Sutra's public theology, but it is present in its margins: the Between, in its resonant definition, is the space between signal and receiver. The Veilblade who learns to move through the Wire network is moving through the Between in a literal sense — threading through the resonant space that connects all enhancement users. Some Veilblade find this theologically profound. Some find it professionally useful. Most find it deeply uncomfortable and prefer not to think about it.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Veilblade"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

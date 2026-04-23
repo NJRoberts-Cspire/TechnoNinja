@@ -1,5 +1,6 @@
 {
   "_id": "17560b3b97a3a425",
+  "_key": "!items!17560b3b97a3a425",
   "name": "Rapid Reconstruction",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_rapid_reconstruction"
+      "sourceId": "card_flesh_shaper_rapid_reconstruction",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

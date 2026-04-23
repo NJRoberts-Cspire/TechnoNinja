@@ -1,5 +1,6 @@
 {
   "_id": "59967c2d82b5fa5c",
+  "_key": "!items!59967c2d82b5fa5c",
   "name": "Wire-Tap Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_wire_tap_strike"
+      "sourceId": "card_merchant_knife_wire_tap_strike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

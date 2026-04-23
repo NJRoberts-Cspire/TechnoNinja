@@ -1,5 +1,6 @@
 {
   "_id": "22810d85b2808854",
+  "_key": "!items!22810d85b2808854",
   "name": "Hollow Memory Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_hollow_memory_strike"
+      "sourceId": "card_ironclad_hollow_memory_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

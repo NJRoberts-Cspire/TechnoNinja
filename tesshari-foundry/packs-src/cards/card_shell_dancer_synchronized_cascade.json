@@ -1,5 +1,6 @@
 {
   "_id": "fe3a571b2c22a63b",
+  "_key": "!items!fe3a571b2c22a63b",
   "name": "Synchronized Cascade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_synchronized_cascade"
+      "sourceId": "card_shell_dancer_synchronized_cascade",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

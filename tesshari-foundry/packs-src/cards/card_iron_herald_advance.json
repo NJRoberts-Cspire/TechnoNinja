@@ -1,5 +1,6 @@
 {
   "_id": "7af0537b9b72dd22",
+  "_key": "!items!7af0537b9b72dd22",
   "name": "Advance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_advance"
+      "sourceId": "card_iron_herald_advance",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

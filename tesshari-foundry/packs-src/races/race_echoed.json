@@ -1,0 +1,29 @@
+{
+  "_id": "1e084d5a5397d92a",
+  "_key": "!items!1e084d5a5397d92a",
+  "name": "Echoed",
+  "type": "race",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "statBonuses": {
+      "resonance": 1,
+      "any": 1
+    },
+    "handMod": 1,
+    "heritageBranches": [],
+    "raceCardSlugs": [],
+    "passives": "<p><strong>Already Died.</strong> The first time per combat the Echoed is reduced to 0 HP, they instead drop to 1 HP. Their Echomind has navigated the threshold before and does not fully cross it. This triggers automatically and requires no action. After it triggers, subsequent hits that reduce them to 0 HP resolve normally.\r</p>\n<p><strong>Iron Afterlife Awareness.</strong> The Echoed can sense the presence of recently dead Echoминds within 30 feet — a faint resonance impression, not visual, that indicates how many Echominds have passed through a location within the last 24 hours and approximately when. This does not identify individuals, only presence and timing.\r</p>\n<p><strong>No Fear of the Crossing.</strong> Fear effects, morale-break effects, and abilities that inflict the Frightened status have no mechanical power over the Echoed. These effects simply do not take hold. Narrative fear — dread, horror, emotional weight — remains; the Echoed are not numb. Only effects with a mechanical Frightened or morale-reduction keyword are blocked.</p>",
+    "description": "<p>Death, in Tesshari, is not the wall it once was — not since the Echo Coast's technomancers developed the process they call Resonant Extraction. When a sufficiently prepared individual dies, their Echomind — their soul, their self, the resonance pattern that the Iron Sutra teaches is the real substance of a person — can be captured before it fully dissipates into the Iron Afterlife. That captured resonance pattern can then be installed into a new body, grown or constructed for the purpose. The person, technically, continues. What walks out of the resurrection chambers of the Echo Coast is, technically, the same person who walked in to be killed.\r</p>\n<p>The Echoed know that \"technically\" is doing a great deal of work in that sentence.\r</p>\n<p>The process is not clean. The Echomind that returns from the Iron Afterlife is the same pattern, but it carries things it did not carry before: traces of the digital realm it passed through, resonance-impressions from the souls it drifted alongside during the gap, a kind of spatial and temporal disorientation that never fully resolves. The Echoed are people who exist in two layers simultaneously — the living world and the digital spirit realm — and unlike the Wireborn, who exist in that split by nature, the Echoed did not choose it. They are haunted by the crossing in ways they cannot always articulate and cannot ever fully escape.\r</p>\n<p>The Iron Sutra's response to the Echoed has never been comfortable. Officially, the Orthodoxy acknowledges Resonant Extraction as a valid (if unusual) spiritual path — the Echomind is preserved, the resonance continues, the person persists. Unofficially, the clergy is divided. Some priests argue that the Echoed have been returned with part of the Iron Afterlife still clinging to them, and that this makes them spiritually dangerous — contaminated by a realm that the living are not meant to access and return from. Others argue the reverse: that the Echoed have glimpsed what awaits beyond the body's end and carry that knowledge as a sacred burden. Neither faction has managed to convert the other. The Echoed themselves are largely tired of being the subject of the debate.\r</p>\n<p>Socially, the Echoed exist in the uncomfortable space that any survivor of an impossible experience occupies: people want to know what it was like, and they do not want to hear the honest answer. The honest answer is that the Iron Afterlife is not the glorious resonant peace the Sutra promises. It is vast. It is patient. It is full of the compressed impressions of every consciousness that ever passed through it, and those impressions do not stay neatly separated. The Echoed came back carrying things that weren't theirs. They are not always sure where they end and those carried things begin. They do not say this to people who haven't died, because people who haven't died always try to fix it, and it cannot be fixed. It can only be lived with.\r</p>\n<p>---</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Echoed"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

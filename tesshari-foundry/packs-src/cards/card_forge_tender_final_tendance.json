@@ -1,5 +1,6 @@
 {
   "_id": "2aca95a1fadc12f4",
+  "_key": "!items!2aca95a1fadc12f4",
   "name": "Final Tendance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_final_tendance"
+      "sourceId": "card_forge_tender_final_tendance",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

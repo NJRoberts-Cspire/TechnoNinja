@@ -1,5 +1,6 @@
 {
   "_id": "fcffc978e4934268",
+  "_key": "!items!fcffc978e4934268",
   "name": "Borrowed Intent",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_ghost_archive_borrowed_intent"
+      "sourceId": "card_veilblade_ghost_archive_borrowed_intent",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

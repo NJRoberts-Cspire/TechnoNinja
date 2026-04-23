@@ -1,5 +1,6 @@
 {
   "_id": "35ea0904853a9786",
+  "_key": "!items!35ea0904853a9786",
   "name": "Banner Cut",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_oath_iron_lord_banner_cut"
+      "sourceId": "card_ironclad_oath_iron_lord_banner_cut",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

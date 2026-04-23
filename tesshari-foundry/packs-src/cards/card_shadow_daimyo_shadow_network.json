@@ -1,5 +1,6 @@
 {
   "_id": "72b0960121dbcbe8",
+  "_key": "!items!72b0960121dbcbe8",
   "name": "Shadow Network",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shadow_daimyo_shadow_network"
+      "sourceId": "card_shadow_daimyo_shadow_network",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

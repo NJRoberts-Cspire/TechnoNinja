@@ -1,5 +1,6 @@
 {
   "_id": "44bdb6e9e5801f33",
+  "_key": "!items!44bdb6e9e5801f33",
   "name": "Planted Boots",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_formation_anchor_planted_boots"
+      "sourceId": "card_ashfoot_formation_anchor_planted_boots",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

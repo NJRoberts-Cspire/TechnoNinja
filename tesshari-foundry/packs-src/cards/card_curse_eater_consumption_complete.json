@@ -1,5 +1,6 @@
 {
   "_id": "ac8fe5266594ba94",
+  "_key": "!items!ac8fe5266594ba94",
   "name": "Consumption: Complete",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_consumption_complete"
+      "sourceId": "card_curse_eater_consumption_complete",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

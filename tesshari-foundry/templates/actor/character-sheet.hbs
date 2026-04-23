@@ -145,6 +145,78 @@
 
   </div>
 
+  <details class="identity-section" open>
+    <summary>Identity</summary>
+    <div class="identity-row">
+
+      <div class="identity-slot race">
+        <header>
+          <span class="slot-label">Race</span>
+          {{#if raceItem}}
+            <button type="button" class="icon-btn" data-action="openItem" data-item-id="{{raceItem.id}}" title="Open race sheet">⚙</button>
+            <button type="button" class="icon-btn" data-action="clearIdentity" data-identity-type="race" title="Clear race">✕</button>
+          {{/if}}
+        </header>
+        {{#if raceItem}}
+          <div class="slot-name">{{raceItem.name}}</div>
+          {{#if raceItem.system.handMod}}<p class="slot-meta">hand {{#if (gte raceItem.system.handMod 0)}}+{{/if}}{{raceItem.system.handMod}}</p>{{/if}}
+          <div class="slot-body">{{{raceItem.system.passives}}}</div>
+        {{else}}
+          <p class="hint">Drag a race from the Tesshari — Races compendium.</p>
+        {{/if}}
+      </div>
+
+      <div class="identity-slot class">
+        <header>
+          <span class="slot-label">Class</span>
+          {{#if classItem}}
+            <button type="button" class="icon-btn" data-action="openItem" data-item-id="{{classItem.id}}" title="Open class sheet">⚙</button>
+            <button type="button" class="icon-btn" data-action="clearIdentity" data-identity-type="class" title="Clear class">✕</button>
+          {{/if}}
+        </header>
+        {{#if classItem}}
+          <div class="slot-name">{{classItem.name}}</div>
+          <p class="slot-meta">
+            {{classItem.system.hpTier}} · hand {{classItem.system.handBase}}
+            {{#if classItem.system.primaryStats.length}}
+              · {{#each classItem.system.primaryStats as |s|}}{{s}}{{#unless @last}}/{{/unless}}{{/each}}
+            {{/if}}
+          </p>
+          {{#if classItem.system.startingHandSlugs.length}}
+            <p class="slot-meta">
+              <strong>Starting hand:</strong>
+              {{#each classItem.system.startingHandSlugs as |card|}}{{card}}{{#unless @last}}, {{/unless}}{{/each}}
+            </p>
+          {{/if}}
+        {{else}}
+          <p class="hint">Drag a class from the Tesshari — Classes compendium.</p>
+        {{/if}}
+      </div>
+
+      <div class="identity-slot subclass">
+        <header>
+          <span class="slot-label">Subclass</span>
+          {{#if subclassItem}}
+            <button type="button" class="icon-btn" data-action="openItem" data-item-id="{{subclassItem.id}}" title="Open subclass sheet">⚙</button>
+            <button type="button" class="icon-btn" data-action="clearIdentity" data-identity-type="subclass" title="Clear subclass">✕</button>
+          {{/if}}
+        </header>
+        {{#if subclassItem}}
+          <div class="slot-name">{{subclassItem.name}}</div>
+          {{#each subclassFeatures as |feat|}}
+            <details class="feature-block">
+              <summary>Level {{feat.level}}: {{feat.name}}</summary>
+              <div class="feature-body">{{{feat.html}}}</div>
+            </details>
+          {{/each}}
+        {{else}}
+          <p class="hint">Drag a subclass from the Tesshari — Subclasses compendium.</p>
+        {{/if}}
+      </div>
+
+    </div>
+  </details>
+
   <details class="background-section">
     <summary>Background</summary>
     <div class="form-grid-2">

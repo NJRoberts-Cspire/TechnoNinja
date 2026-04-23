@@ -1,5 +1,6 @@
 {
   "_id": "fe14d501d4119aef",
+  "_key": "!items!fe14d501d4119aef",
   "name": "Echo Mark",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_resonant_shot_echo_mark"
+      "sourceId": "card_pulse_caller_resonant_shot_echo_mark",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

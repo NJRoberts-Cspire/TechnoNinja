@@ -1,5 +1,6 @@
 {
   "_id": "7e51f5627a699a25",
+  "_key": "!items!7e51f5627a699a25",
   "name": "Void Edge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_void_edge"
+      "sourceId": "card_iron_monk_void_edge",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

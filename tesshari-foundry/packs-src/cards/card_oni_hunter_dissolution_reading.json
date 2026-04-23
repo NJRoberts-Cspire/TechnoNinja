@@ -1,5 +1,6 @@
 {
   "_id": "2c027aaad82d0742",
+  "_key": "!items!2c027aaad82d0742",
   "name": "Dissolution Reading",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_dissolution_reading"
+      "sourceId": "card_oni_hunter_dissolution_reading",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

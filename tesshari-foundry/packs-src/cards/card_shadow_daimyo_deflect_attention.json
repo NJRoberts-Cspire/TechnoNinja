@@ -1,5 +1,6 @@
 {
   "_id": "17568f889411c74f",
+  "_key": "!items!17568f889411c74f",
   "name": "Deflect Attention",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shadow_daimyo_deflect_attention"
+      "sourceId": "card_shadow_daimyo_deflect_attention",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

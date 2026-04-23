@@ -1,5 +1,6 @@
 {
   "_id": "11433e5bdf924a3c",
+  "_key": "!items!11433e5bdf924a3c",
   "name": "Redacted Self",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_ghost_archive_redacted_self"
+      "sourceId": "card_veilblade_ghost_archive_redacted_self",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

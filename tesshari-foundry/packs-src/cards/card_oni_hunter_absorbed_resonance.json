@@ -1,5 +1,6 @@
 {
   "_id": "a813fd6333ead1e7",
+  "_key": "!items!a813fd6333ead1e7",
   "name": "Absorbed Resonance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_absorbed_resonance"
+      "sourceId": "card_oni_hunter_absorbed_resonance",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

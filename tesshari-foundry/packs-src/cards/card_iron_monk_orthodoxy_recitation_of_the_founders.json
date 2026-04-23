@@ -1,5 +1,6 @@
 {
   "_id": "f4486a0d31f5999e",
+  "_key": "!items!f4486a0d31f5999e",
   "name": "Recitation of the Founders",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_orthodoxy_recitation_of_the_founders"
+      "sourceId": "card_iron_monk_orthodoxy_recitation_of_the_founders",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

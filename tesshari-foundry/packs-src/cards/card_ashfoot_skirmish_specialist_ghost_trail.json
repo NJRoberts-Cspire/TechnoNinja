@@ -1,5 +1,6 @@
 {
   "_id": "0d95630694a1918f",
+  "_key": "!items!0d95630694a1918f",
   "name": "Ghost Trail",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_skirmish_specialist_ghost_trail"
+      "sourceId": "card_ashfoot_skirmish_specialist_ghost_trail",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

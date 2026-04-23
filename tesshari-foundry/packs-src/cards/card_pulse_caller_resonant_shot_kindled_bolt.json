@@ -1,5 +1,6 @@
 {
   "_id": "0348c28d5ff9d582",
+  "_key": "!items!0348c28d5ff9d582",
   "name": "Kindled Bolt",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_resonant_shot_kindled_bolt"
+      "sourceId": "card_pulse_caller_resonant_shot_kindled_bolt",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

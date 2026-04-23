@@ -1,5 +1,6 @@
 {
   "_id": "29d5f0b9ad1f1b83",
+  "_key": "!items!29d5f0b9ad1f1b83",
   "name": "What We're Worth",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -8,8 +9,8 @@
     "apCost": 3,
     "baseDamage": 26,
     "pierce": 0,
-    "category": "attack",
-    "primaryStat": "iron+edge",
+    "category": "signature",
+    "primaryStat": "iron",
     "keywords": [
       "Bleed 4",
       "Expose 4",
@@ -30,7 +31,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_what_we_re_worth"
+      "sourceId": "card_ashfoot_what_we_re_worth",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

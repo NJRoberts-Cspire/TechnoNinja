@@ -8,7 +8,10 @@
     "build-packs": "node tools/build-packs.mjs",
     "pack:cards": "fvtt package pack cards --id tesshari --type System --in packs-src/cards --out packs",
     "pack:items": "fvtt package pack items --id tesshari --type System --in packs-src/items --out packs",
-    "pack:all": "npm run pack:cards && npm run pack:items",
+    "pack:races": "fvtt package pack races --id tesshari --type System --in packs-src/races --out packs",
+    "pack:classes": "fvtt package pack classes --id tesshari --type System --in packs-src/classes --out packs",
+    "pack:subclasses": "fvtt package pack subclasses --id tesshari --type System --in packs-src/subclasses --out packs",
+    "pack:all": "npm run pack:cards && npm run pack:items && npm run pack:races && npm run pack:classes && npm run pack:subclasses",
     "all": "npm run build-packs && npm run pack:all",
     "sync": "node tools/sync-to-foundry.mjs"
   },

@@ -1,5 +1,6 @@
 {
   "_id": "13e6ea3616260d73",
+  "_key": "!items!13e6ea3616260d73",
   "name": "Iron Communion",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_iron_communion"
+      "sourceId": "card_iron_monk_iron_communion",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

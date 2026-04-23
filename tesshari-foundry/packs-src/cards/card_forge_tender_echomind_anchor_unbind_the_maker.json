@@ -1,5 +1,6 @@
 {
   "_id": "14025ede8fb97d93",
+  "_key": "!items!14025ede8fb97d93",
   "name": "Unbind the Maker",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_echomind_anchor_unbind_the_maker"
+      "sourceId": "card_forge_tender_echomind_anchor_unbind_the_maker",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

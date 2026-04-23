@@ -1,5 +1,6 @@
 {
   "_id": "51da59aacff44de0",
+  "_key": "!items!51da59aacff44de0",
   "name": "Iron Aegis",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_combat_weave_power_iron_aegis"
+      "sourceId": "card_wireweave_combat_weave_power_iron_aegis",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

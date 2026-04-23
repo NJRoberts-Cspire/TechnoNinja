@@ -1,5 +1,6 @@
 {
   "_id": "4528d1939f2dd573",
+  "_key": "!items!4528d1939f2dd573",
   "name": "Echomind Intercept",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_echomind_intercept"
+      "sourceId": "card_wireweave_echomind_intercept",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

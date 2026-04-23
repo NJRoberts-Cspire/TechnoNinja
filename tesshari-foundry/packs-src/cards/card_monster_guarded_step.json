@@ -1,5 +1,6 @@
 {
   "_id": "2482750f227966d1",
+  "_key": "!items!2482750f227966d1",
   "name": "Guarded Step",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_monster_guarded_step"
+      "sourceId": "card_monster_guarded_step",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

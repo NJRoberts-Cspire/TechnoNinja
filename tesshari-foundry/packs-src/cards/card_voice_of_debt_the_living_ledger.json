@@ -1,5 +1,6 @@
 {
   "_id": "734690d536808b1a",
+  "_key": "!items!734690d536808b1a",
   "name": "The Living Ledger",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_the_living_ledger"
+      "sourceId": "card_voice_of_debt_the_living_ledger",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

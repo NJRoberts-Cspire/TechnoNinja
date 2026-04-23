@@ -1,5 +1,6 @@
 {
   "_id": "71765ae12faaa404",
+  "_key": "!items!71765ae12faaa404",
   "name": "The Between Speaks",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -29,7 +30,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_the_between_speaks"
+      "sourceId": "card_iron_monk_the_between_speaks",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

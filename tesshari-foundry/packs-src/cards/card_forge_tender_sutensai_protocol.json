@@ -1,5 +1,6 @@
 {
   "_id": "15519a5931a5512a",
+  "_key": "!items!15519a5931a5512a",
   "name": "Sutensai Protocol",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_sutensai_protocol"
+      "sourceId": "card_forge_tender_sutensai_protocol",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

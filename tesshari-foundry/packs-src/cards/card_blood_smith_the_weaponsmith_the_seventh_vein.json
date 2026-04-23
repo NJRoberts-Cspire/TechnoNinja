@@ -1,17 +1,24 @@
 {
   "_id": "e0824700adc0e60f",
+  "_key": "!items!e0824700adc0e60f",
   "name": "The Seventh Vein",
   "type": "card",
   "img": "icons/svg/combat.svg",
   "system": {
     "tier": 3,
-    "apCost": 4,
+    "apCost": 3,
     "baseDamage": 0,
     "pierce": 0,
-    "category": "utility",
+    "category": "signature",
     "primaryStat": "",
-    "keywords": [],
-    "unlockLevel": 1,
+    "keywords": [
+      "Regen 4",
+      "Cleanse",
+      "Expose 4",
+      "Bleed 3",
+      "Guard 8"
+    ],
+    "unlockLevel": 20,
     "className": "Blood Smith",
     "subclass": "Blood Smith — The Weaponsmith",
     "isRaceCard": false,
@@ -19,16 +26,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Open the last, deepest artery and forge the blade only you can wield. Pay 16 HP; deal 24 + IRON damage to one target; if they survive, apply Bleed 5 and Expose 5 and the blade strikes again for 12 + IRON at end of your next turn.</p>"
+    "description": "<p>The unwritten principle made manifest. Deal 26 + IRON + RESONANCE resonant damage to one target. Gain Regen 4 for 3 turns. Cleanse all debuffs from yourself. Apply Expose 4 and Bleed 3 to the target. All allies in the encounter gain Guard 8. Once per combat — this is the deepest expression of everything the code has made you.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_blood_smith_the_weaponsmith_the_seventh_vein"
+      "sourceId": "card_blood_smith_the_weaponsmith_the_seventh_vein",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3020,
   "ownership": {
     "default": 0
   }

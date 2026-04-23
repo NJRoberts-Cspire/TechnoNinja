@@ -1,5 +1,6 @@
 {
   "_id": "1bed7dfb4c37d0e4",
+  "_key": "!items!1bed7dfb4c37d0e4",
   "name": "Resonant Surge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_resonant_surge"
+      "sourceId": "card_ironclad_resonant_surge",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

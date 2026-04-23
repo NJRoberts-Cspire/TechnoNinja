@@ -1,5 +1,6 @@
 {
   "_id": "c9f779fa6a2ac1a4",
+  "_key": "!items!c9f779fa6a2ac1a4",
   "name": "Threaded Hex",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_conduit_threaded_hex"
+      "sourceId": "card_curse_eater_conduit_threaded_hex",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

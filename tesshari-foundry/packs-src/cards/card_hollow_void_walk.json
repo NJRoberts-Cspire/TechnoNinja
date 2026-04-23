@@ -1,5 +1,6 @@
 {
   "_id": "f17c20d6079c2c42",
+  "_key": "!items!f17c20d6079c2c42",
   "name": "Void Walk",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_void_walk"
+      "sourceId": "card_hollow_void_walk",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

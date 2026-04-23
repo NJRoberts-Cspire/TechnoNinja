@@ -1,5 +1,6 @@
 {
   "_id": "61bd5e5e307f6320",
+  "_key": "!items!61bd5e5e307f6320",
   "name": "Wire Blade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_wire_blade"
+      "sourceId": "card_veilblade_wire_blade",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

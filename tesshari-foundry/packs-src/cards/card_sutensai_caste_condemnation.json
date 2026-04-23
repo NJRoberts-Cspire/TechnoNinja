@@ -1,5 +1,6 @@
 {
   "_id": "b2a600061e4606f4",
+  "_key": "!items!b2a600061e4606f4",
   "name": "Caste Condemnation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_caste_condemnation"
+      "sourceId": "card_sutensai_caste_condemnation",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

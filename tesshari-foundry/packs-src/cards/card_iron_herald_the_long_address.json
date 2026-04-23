@@ -1,5 +1,6 @@
 {
   "_id": "437d8d90a4faa23b",
+  "_key": "!items!437d8d90a4faa23b",
   "name": "The Long Address",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_the_long_address"
+      "sourceId": "card_iron_herald_the_long_address",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

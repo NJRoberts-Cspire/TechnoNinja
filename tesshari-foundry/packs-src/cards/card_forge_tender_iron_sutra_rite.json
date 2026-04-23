@@ -1,5 +1,6 @@
 {
   "_id": "3d94a3c6d556dc81",
+  "_key": "!items!3d94a3c6d556dc81",
   "name": "Iron Sutra Rite",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_iron_sutra_rite"
+      "sourceId": "card_forge_tender_iron_sutra_rite",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

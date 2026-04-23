@@ -1,5 +1,6 @@
 {
   "_id": "bac9cc3ef4e544fb",
+  "_key": "!items!bac9cc3ef4e544fb",
   "name": "Unfinished Business",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_debt_unfinished_business"
+      "sourceId": "card_debt_unfinished_business",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

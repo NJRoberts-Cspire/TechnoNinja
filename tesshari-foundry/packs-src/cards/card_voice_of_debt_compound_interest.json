@@ -1,5 +1,6 @@
 {
   "_id": "cd71d5e4f5bdd1b1",
+  "_key": "!items!cd71d5e4f5bdd1b1",
   "name": "Compound Interest",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_compound_interest"
+      "sourceId": "card_voice_of_debt_compound_interest",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

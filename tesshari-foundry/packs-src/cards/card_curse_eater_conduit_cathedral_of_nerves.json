@@ -1,5 +1,6 @@
 {
   "_id": "b44256a19823b2b7",
+  "_key": "!items!b44256a19823b2b7",
   "name": "Cathedral of Nerves",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_conduit_cathedral_of_nerves"
+      "sourceId": "card_curse_eater_conduit_cathedral_of_nerves",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

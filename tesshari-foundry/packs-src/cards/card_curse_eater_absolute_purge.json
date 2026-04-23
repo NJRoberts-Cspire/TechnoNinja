@@ -1,5 +1,6 @@
 {
   "_id": "15033939ba98d2fc",
+  "_key": "!items!15033939ba98d2fc",
   "name": "Absolute Purge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_absolute_purge"
+      "sourceId": "card_curse_eater_absolute_purge",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

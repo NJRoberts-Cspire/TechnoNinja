@@ -1,5 +1,6 @@
 {
   "_id": "4893e079b5544c06",
+  "_key": "!items!4893e079b5544c06",
   "name": "Inevitable",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_inevitable"
+      "sourceId": "card_veilblade_inevitable",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

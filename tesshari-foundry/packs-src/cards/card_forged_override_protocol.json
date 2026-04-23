@@ -1,5 +1,6 @@
 {
   "_id": "9ad214939c27a889",
+  "_key": "!items!9ad214939c27a889",
   "name": "Override Protocol",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -29,11 +30,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forged_override_protocol"
+      "sourceId": "card_forged_override_protocol",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

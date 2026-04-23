@@ -1,5 +1,6 @@
 {
   "_id": "5ac2f91f266589ff",
+  "_key": "!items!5ac2f91f266589ff",
   "name": "Perfect Frame",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_perfect_frame"
+      "sourceId": "card_chrome_shaper_perfect_frame",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

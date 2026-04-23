@@ -1,5 +1,6 @@
 {
   "_id": "bb602e1f72358dda",
+  "_key": "!items!bb602e1f72358dda",
   "name": "Skinwalker's Choir",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_the_possessor_skinwalkers_choir"
+      "sourceId": "card_puppet_binder_the_possessor_skinwalkers_choir",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

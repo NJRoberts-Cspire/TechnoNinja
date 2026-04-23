@@ -1,5 +1,6 @@
 {
   "_id": "5ec387c466caeebf",
+  "_key": "!items!5ec387c466caeebf",
   "name": "Splintercast",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_blood_smith_the_weaponsmith_splintercast"
+      "sourceId": "card_blood_smith_the_weaponsmith_splintercast",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "d90e86c2fd4a03ad",
+  "_key": "!items!d90e86c2fd4a03ad",
   "name": "Ghost Ground",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -11,7 +12,8 @@
     "category": "mobility",
     "primaryStat": "",
     "keywords": [
-      "Guard"
+      "Guard (EDGE added",
+      "conditional)"
     ],
     "unlockLevel": 10,
     "className": "Ashfoot",
@@ -26,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_ghost_ground"
+      "sourceId": "card_ashfoot_ghost_ground",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "7dc16c8d7072396d",
+  "_key": "!items!7dc16c8d7072396d",
   "name": "Void Deepens (Apex)",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_void_deepens_apex"
+      "sourceId": "card_hollow_void_deepens_apex",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

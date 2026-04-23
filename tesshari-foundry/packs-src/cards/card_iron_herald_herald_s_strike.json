@@ -1,5 +1,6 @@
 {
   "_id": "a47f425ede891b8c",
+  "_key": "!items!a47f425ede891b8c",
   "name": "Herald's Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_herald_s_strike"
+      "sourceId": "card_iron_herald_herald_s_strike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

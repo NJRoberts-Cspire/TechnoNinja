@@ -1,5 +1,6 @@
 {
   "_id": "d4813439def2abcd",
+  "_key": "!items!d4813439def2abcd",
   "name": "Between Army",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_between_army"
+      "sourceId": "card_fracture_knight_between_army",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "8223103c2031078e",
+  "_key": "!items!8223103c2031078e",
   "name": "Interference Pulse",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_interference_pulse"
+      "sourceId": "card_wireweave_interference_pulse",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

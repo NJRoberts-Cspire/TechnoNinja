@@ -1,5 +1,6 @@
 {
   "_id": "c677d51f01d9b206",
+  "_key": "!items!c677d51f01d9b206",
   "name": "Biologic Devastation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_biologic_devastation"
+      "sourceId": "card_flesh_shaper_biologic_devastation",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

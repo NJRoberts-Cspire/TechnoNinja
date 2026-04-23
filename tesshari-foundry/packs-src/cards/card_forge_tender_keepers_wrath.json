@@ -1,17 +1,21 @@
 {
   "_id": "2d16fee99df83fb8",
+  "_key": "!items!2d16fee99df83fb8",
   "name": "Keeper's Wrath",
   "type": "card",
   "img": "icons/svg/combat.svg",
   "system": {
-    "tier": 3,
-    "apCost": 3,
+    "tier": 2,
+    "apCost": 2,
     "baseDamage": 0,
     "pierce": 0,
     "category": "attack",
     "primaryStat": "",
-    "keywords": [],
-    "unlockLevel": 1,
+    "keywords": [
+      "Stagger",
+      "Expose 2"
+    ],
+    "unlockLevel": 17,
     "className": "Forge Tender",
     "subclass": "",
     "isRaceCard": false,
@@ -19,16 +23,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Channel Resonance Keeper authority as damaging spiritual attack.</p>"
+    "description": "<p>When an enemy harms someone you are responsible for, your response is precise and technical. Deal 12 + SIGNAL signal damage to one target. Apply Stagger and Expose 2. This card costs 0 AP if played in the same turn that one of your maintained allies was reduced to half HP or below.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_keepers_wrath"
+      "sourceId": "card_forge_tender_keepers_wrath",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 2017,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "73e1546822aeee7c",
+  "_key": "!items!73e1546822aeee7c",
   "name": "Heat Purge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_status_heat_purge"
+      "sourceId": "card_status_heat_purge",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

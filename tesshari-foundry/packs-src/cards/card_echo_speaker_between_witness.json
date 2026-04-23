@@ -1,5 +1,6 @@
 {
   "_id": "f1c47201088a5a1b",
+  "_key": "!items!f1c47201088a5a1b",
   "name": "Between Witness",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_between_witness"
+      "sourceId": "card_echo_speaker_between_witness",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

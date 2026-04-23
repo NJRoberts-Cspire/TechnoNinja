@@ -1,5 +1,6 @@
 {
   "_id": "e61f7ffc8a10defb",
+  "_key": "!items!e61f7ffc8a10defb",
   "name": "Undertow",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_threshold_puller_undertow"
+      "sourceId": "card_void_walker_threshold_puller_undertow",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

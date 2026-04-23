@@ -1,5 +1,6 @@
 {
   "_id": "e9d87708a7fbad3f",
+  "_key": "!items!e9d87708a7fbad3f",
   "name": "Configuration Mastery",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_configuration_mastery"
+      "sourceId": "card_chrome_shaper_configuration_mastery",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

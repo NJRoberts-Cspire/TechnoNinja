@@ -1,5 +1,6 @@
 {
   "_id": "9e4ec86c6a21aa93",
+  "_key": "!items!9e4ec86c6a21aa93",
   "name": "The Clean Account",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_the_clean_account"
+      "sourceId": "card_merchant_knife_the_clean_account",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

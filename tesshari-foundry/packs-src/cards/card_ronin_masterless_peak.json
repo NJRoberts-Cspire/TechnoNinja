@@ -1,5 +1,6 @@
 {
   "_id": "a37f88ea9fcdc290",
+  "_key": "!items!a37f88ea9fcdc290",
   "name": "Masterless Peak",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -10,7 +11,9 @@
     "pierce": 0,
     "category": "signature",
     "primaryStat": "iron",
-    "keywords": [],
+    "keywords": [
+      "Pierce"
+    ],
     "unlockLevel": 16,
     "className": "Ronin",
     "subclass": "",
@@ -24,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_masterless_peak"
+      "sourceId": "card_ronin_masterless_peak",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

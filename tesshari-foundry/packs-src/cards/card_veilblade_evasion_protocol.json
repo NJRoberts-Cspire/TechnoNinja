@@ -1,5 +1,6 @@
 {
   "_id": "3c6e2d1847112d67",
+  "_key": "!items!3c6e2d1847112d67",
   "name": "Evasion Protocol",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_evasion_protocol"
+      "sourceId": "card_veilblade_evasion_protocol",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

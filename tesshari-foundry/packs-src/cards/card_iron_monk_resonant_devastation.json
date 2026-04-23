@@ -1,5 +1,6 @@
 {
   "_id": "0eda717a0c4b4e41",
+  "_key": "!items!0eda717a0c4b4e41",
   "name": "Resonant Devastation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_resonant_devastation"
+      "sourceId": "card_iron_monk_resonant_devastation",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

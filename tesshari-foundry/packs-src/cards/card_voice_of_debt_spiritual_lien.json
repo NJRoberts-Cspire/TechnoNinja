@@ -1,5 +1,6 @@
 {
   "_id": "1958aa2b2d388586",
+  "_key": "!items!1958aa2b2d388586",
   "name": "Spiritual Lien",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_spiritual_lien"
+      "sourceId": "card_voice_of_debt_spiritual_lien",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "df4aa54a70aca925",
+  "_key": "!items!df4aa54a70aca925",
   "name": "Worldcrack",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_the_breaker_worldcrack"
+      "sourceId": "card_shell_dancer_the_breaker_worldcrack",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

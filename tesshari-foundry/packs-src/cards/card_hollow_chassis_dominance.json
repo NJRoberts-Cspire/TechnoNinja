@@ -1,5 +1,6 @@
 {
   "_id": "00f80266990207d6",
+  "_key": "!items!00f80266990207d6",
   "name": "Chassis Dominance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_chassis_dominance"
+      "sourceId": "card_hollow_chassis_dominance",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

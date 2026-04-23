@@ -1,5 +1,6 @@
 {
   "_id": "5405aef207f9076c",
+  "_key": "!items!5405aef207f9076c",
   "name": "The Network Speaks",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_the_network_speaks"
+      "sourceId": "card_puppet_binder_the_network_speaks",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

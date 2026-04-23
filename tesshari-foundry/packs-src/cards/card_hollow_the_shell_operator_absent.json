@@ -1,5 +1,6 @@
 {
   "_id": "ca2edc6a6f5367dd",
+  "_key": "!items!ca2edc6a6f5367dd",
   "name": "Operator Absent",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_the_shell_operator_absent"
+      "sourceId": "card_hollow_the_shell_operator_absent",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "5b8fb43ba2c92fd6",
+  "_key": "!items!5b8fb43ba2c92fd6",
   "name": "Iron Apotheosis",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_iron_apotheosis"
+      "sourceId": "card_iron_monk_iron_apotheosis",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

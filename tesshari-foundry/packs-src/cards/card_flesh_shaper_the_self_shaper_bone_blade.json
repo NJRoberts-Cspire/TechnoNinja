@@ -1,5 +1,6 @@
 {
   "_id": "540be9d7094769ff",
+  "_key": "!items!540be9d7094769ff",
   "name": "Bone Blade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_the_self_shaper_bone_blade"
+      "sourceId": "card_flesh_shaper_the_self_shaper_bone_blade",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

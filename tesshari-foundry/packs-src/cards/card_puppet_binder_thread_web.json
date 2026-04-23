@@ -1,5 +1,6 @@
 {
   "_id": "5076883f03233a12",
+  "_key": "!items!5076883f03233a12",
   "name": "Thread Web",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_thread_web"
+      "sourceId": "card_puppet_binder_thread_web",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

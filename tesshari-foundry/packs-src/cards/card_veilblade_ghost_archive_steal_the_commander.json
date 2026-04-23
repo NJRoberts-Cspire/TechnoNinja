@@ -1,5 +1,6 @@
 {
   "_id": "45f0379a62011129",
+  "_key": "!items!45f0379a62011129",
   "name": "Steal the Commander",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_ghost_archive_steal_the_commander"
+      "sourceId": "card_veilblade_ghost_archive_steal_the_commander",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

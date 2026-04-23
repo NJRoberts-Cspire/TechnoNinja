@@ -1,5 +1,6 @@
 {
   "_id": "a2efad5bd7cf2a58",
+  "_key": "!items!a2efad5bd7cf2a58",
   "name": "Gut Check",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_gut_check"
+      "sourceId": "card_ashfoot_gut_check",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

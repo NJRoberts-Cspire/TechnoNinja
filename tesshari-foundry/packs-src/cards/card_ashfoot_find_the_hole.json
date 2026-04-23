@@ -1,5 +1,6 @@
 {
   "_id": "2df928f62542b20d",
+  "_key": "!items!2df928f62542b20d",
   "name": "Find the Hole",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -10,9 +11,7 @@
     "pierce": 0,
     "category": "passive",
     "primaryStat": "",
-    "keywords": [
-      "Guard"
-    ],
+    "keywords": [],
     "unlockLevel": 2,
     "className": "Ashfoot",
     "subclass": "",
@@ -26,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_find_the_hole"
+      "sourceId": "card_ashfoot_find_the_hole",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

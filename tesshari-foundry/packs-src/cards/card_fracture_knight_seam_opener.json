@@ -1,5 +1,6 @@
 {
   "_id": "2d702cd6476bbb8a",
+  "_key": "!items!2d702cd6476bbb8a",
   "name": "Seam Opener",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_seam_opener"
+      "sourceId": "card_fracture_knight_seam_opener",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

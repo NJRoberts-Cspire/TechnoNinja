@@ -1,5 +1,6 @@
 {
   "_id": "0ad72702c78785ed",
+  "_key": "!items!0ad72702c78785ed",
   "name": "Supply Cut",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_supply_cut"
+      "sourceId": "card_merchant_knife_supply_cut",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

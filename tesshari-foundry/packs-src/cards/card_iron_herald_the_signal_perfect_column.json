@@ -1,5 +1,6 @@
 {
   "_id": "11700ab7a7a72dc8",
+  "_key": "!items!11700ab7a7a72dc8",
   "name": "Perfect Column",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_the_signal_perfect_column"
+      "sourceId": "card_iron_herald_the_signal_perfect_column",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

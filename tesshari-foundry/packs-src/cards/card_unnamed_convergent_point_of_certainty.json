@@ -1,5 +1,6 @@
 {
   "_id": "de911f4dba247276",
+  "_key": "!items!de911f4dba247276",
   "name": "Point of Certainty",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_unnamed_convergent_point_of_certainty"
+      "sourceId": "card_unnamed_convergent_point_of_certainty",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

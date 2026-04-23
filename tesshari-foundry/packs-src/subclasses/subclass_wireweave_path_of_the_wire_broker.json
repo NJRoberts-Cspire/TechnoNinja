@@ -1,0 +1,41 @@
+{
+  "_id": "2dfd2f077d6732e9",
+  "_key": "!items!2dfd2f077d6732e9",
+  "name": "Path of the Wire Broker",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Wireweave",
+    "pathKey": "path_of_the_wire_broker",
+    "features": {
+      "3": {
+        "name": "Archive",
+        "html": "<p>You maintain a personal digital Archive in your enhancement network — a secure data repository that cannot be accessed by any external system. Your Archive grows with your operation:\r - After any significant interaction (encounter, meeting, infiltration), you can store a full record in your Archive.\r - You have instant access to any stored record (no check required).\r - The Archive is immune to Wire Crash or any attempt to delete or access it externally.\r - Once per combat, you can consult the Archive on a specific topic, gaining +3 to one SIGNAL check related to that topic (because you have, somewhere, a record that's relevant).</p>"
+      },
+      "6": {
+        "name": "Signal Network",
+        "html": "<p>You have established a network of Wire contacts across the Broken Reaches — informants, other Wireweave, sympathetic Wire operators, and passive monitoring nodes you have installed over time. Once per session:\r - You can query your Signal Network about any topic. The GM provides information equivalent to 1 hour of dedicated Wire research.\r - You can pass information through your network to any recipient you know, regardless of Wire infrastructure between you.\r - You receive unsolicited alerts when significant events occur that your network has been monitoring.</p>"
+      },
+      "10": {
+        "name": "Leverage",
+        "html": "<p>Your information holdings have reached the point where they constitute leverage — the kind that changes behavior. Once per day, you can deploy Leverage against one creature who has secrets that you have discovered. The target must make a RESONANCE resistance check (Weave DC). On a failure, they will not take hostile action against you or your companions for 24 hours, and they will provide one significant favor (access, information, or direct assistance) within that time. This is not mind control — it is the persuasion of someone who understands the consequences of refusal. Creatures with nothing to lose are immune.</p>"
+      },
+      "14": {
+        "name": "The Full Picture",
+        "html": "<p>Your information about the current conflict has reached a comprehensiveness that is almost paralyzing in its specificity. Once per arc, you can spend 1 hour in Wire consultation to construct a Full Picture — a comprehensive analysis of the current state of any organization, conflict, or situation you have been observing. The Full Picture includes:\r - All major actors' true motivations (as opposed to stated ones), as far as your intelligence can determine.\r - The most likely next major development.\r - One hidden fact that no one in the situation wants widely known.\r The GM provides these answers based on the actual campaign state — this feature should deliver meaningful intelligence, not vague impressions.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Wire Broker is the intelligence specialist — the Wireweave who has recognized that the real value of Wire access is not tactical but informational. They collect knowledge. They trade in secrets. They build networks of information that run parallel to and often more deeply than the formal intelligence operations of any lord or faction. They are not spies in the conventional sense — they are more comprehensive than that, and less accountable. A Wire Broker who has been operating for a decade in the Broken Reaches knows things that no single faction fully understands, and they are navigating the Ascension War with a map that is more complete than anyone else's.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Wireweave::path_of_the_wire_broker"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

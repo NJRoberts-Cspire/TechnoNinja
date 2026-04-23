@@ -1,5 +1,6 @@
 {
   "_id": "0461a3ad1e0222df",
+  "_key": "!items!0461a3ad1e0222df",
   "name": "Oath Read",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -18,7 +19,7 @@
     "subclass": "",
     "isRaceCard": false,
     "race": "",
-    "isStartingHand": true,
+    "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
     "description": "<p>Passive component: you always know whether any creature within 30 feet carries active obligations or broken promises (GM discretion on depth). Active component: target one creature within 40 feet. Apply Debt 2 to them. Learn their current HP tier and whether they have any status effects active.</p>"
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_oath_read"
+      "sourceId": "card_voice_of_debt_oath_read",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "508e3a64557df676",
+  "_key": "!items!508e3a64557df676",
   "name": "Signal Flood",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_signal_flood"
+      "sourceId": "card_pulse_caller_signal_flood",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

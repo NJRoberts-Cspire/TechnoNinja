@@ -1,5 +1,6 @@
 {
   "_id": "9ba19a41f7d2bf98",
+  "_key": "!items!9ba19a41f7d2bf98",
   "name": "Hostile Takeover",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_wire_broker_power_hostile_takeover"
+      "sourceId": "card_wireweave_wire_broker_power_hostile_takeover",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "d4cdb435d0bfa68f",
+  "_key": "!items!d4cdb435d0bfa68f",
   "name": "Collateral Efficiency",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_collateral_efficiency"
+      "sourceId": "card_merchant_knife_collateral_efficiency",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

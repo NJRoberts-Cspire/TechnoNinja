@@ -1,5 +1,6 @@
 {
   "_id": "50820a7b30403ae6",
+  "_key": "!items!50820a7b30403ae6",
   "name": "Deep Keeper Bond",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_deep_keeper_bond"
+      "sourceId": "card_forge_tender_deep_keeper_bond",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

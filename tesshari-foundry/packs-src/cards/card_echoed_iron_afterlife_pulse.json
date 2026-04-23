@@ -1,5 +1,6 @@
 {
   "_id": "d38d8410cc6c4813",
+  "_key": "!items!d38d8410cc6c4813",
   "name": "Iron Afterlife Pulse",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,11 +27,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echoed_iron_afterlife_pulse"
+      "sourceId": "card_echoed_iron_afterlife_pulse",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

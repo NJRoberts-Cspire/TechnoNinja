@@ -1,5 +1,6 @@
 {
   "_id": "bd37f1c8bb088e79",
+  "_key": "!items!bd37f1c8bb088e79",
   "name": "Herald's Sanctum",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_herald_s_sanctum"
+      "sourceId": "card_iron_herald_herald_s_sanctum",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,17 +1,20 @@
 {
   "_id": "329bc770ae72a30f",
+  "_key": "!items!329bc770ae72a30f",
   "name": "Sutra's Edge",
   "type": "card",
   "img": "icons/svg/combat.svg",
   "system": {
-    "tier": 1,
-    "apCost": 1,
-    "baseDamage": 0,
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 14,
     "pierce": 0,
-    "category": "utility",
-    "primaryStat": "",
-    "keywords": [],
-    "unlockLevel": 1,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Expose 2"
+    ],
+    "unlockLevel": 12,
     "className": "Sutensai",
     "subclass": "",
     "isRaceCard": false,
@@ -19,16 +22,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Rite anti-reanimation strike card.</p>"
+    "description": "<p>Your strike carries theological intention. Deal 14 + IRON damage. If the target is a Shell-state, Resonance-Broken entity, or Iron Afterlife entity, add RESONANCE to the damage and apply Expose 2. Enemies killed by this card cannot be immediately re-raised.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_sutras_edge"
+      "sourceId": "card_sutensai_sutras_edge",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 2012,
   "ownership": {
     "default": 0
   }

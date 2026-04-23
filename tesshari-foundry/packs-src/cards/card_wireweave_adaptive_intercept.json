@@ -1,5 +1,6 @@
 {
   "_id": "ec0d04a57635e80e",
+  "_key": "!items!ec0d04a57635e80e",
   "name": "Adaptive Intercept",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_adaptive_intercept"
+      "sourceId": "card_wireweave_adaptive_intercept",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

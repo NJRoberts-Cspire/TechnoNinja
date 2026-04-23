@@ -1,5 +1,6 @@
 {
   "_id": "fdb4de507f87d8d8",
+  "_key": "!items!fdb4de507f87d8d8",
   "name": "The Final Mark",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -8,7 +9,7 @@
     "apCost": 3,
     "baseDamage": 0,
     "pierce": 0,
-    "category": "utility",
+    "category": "signature",
     "primaryStat": "",
     "keywords": [
       "Mark",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_the_final_mark"
+      "sourceId": "card_oni_hunter_the_final_mark",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

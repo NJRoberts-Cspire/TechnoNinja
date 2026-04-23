@@ -1,5 +1,6 @@
 {
   "_id": "029dfe40faf88edb",
+  "_key": "!items!029dfe40faf88edb",
   "name": "Basic Attack (Fracture Knight)",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_basic_attack"
+      "sourceId": "card_fracture_knight_basic_attack",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

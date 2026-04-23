@@ -1,5 +1,6 @@
 {
   "_id": "d576102ca44b3d64",
+  "_key": "!items!d576102ca44b3d64",
   "name": "No One Here",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_shadow_operative_no_one_here"
+      "sourceId": "card_veilblade_shadow_operative_no_one_here",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

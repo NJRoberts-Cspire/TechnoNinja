@@ -1,5 +1,6 @@
 {
   "_id": "39d44a03dde4a146",
+  "_key": "!items!39d44a03dde4a146",
   "name": "Resonance Patch",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_resonance_patch"
+      "sourceId": "card_chrome_shaper_resonance_patch",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

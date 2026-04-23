@@ -1,5 +1,6 @@
 {
   "_id": "2994de1060b1e3ab",
+  "_key": "!items!2994de1060b1e3ab",
   "name": "Dead Voice",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_dead_voice"
+      "sourceId": "card_echo_speaker_dead_voice",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

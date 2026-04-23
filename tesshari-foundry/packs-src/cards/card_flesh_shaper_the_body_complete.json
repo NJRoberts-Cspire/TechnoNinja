@@ -1,5 +1,6 @@
 {
   "_id": "46e347e830730423",
+  "_key": "!items!46e347e830730423",
   "name": "The Body Complete",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -32,7 +33,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_the_body_complete"
+      "sourceId": "card_flesh_shaper_the_body_complete",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

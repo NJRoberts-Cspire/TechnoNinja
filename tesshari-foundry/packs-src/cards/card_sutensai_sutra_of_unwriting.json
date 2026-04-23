@@ -1,5 +1,6 @@
 {
   "_id": "9d1b34a8349373e4",
+  "_key": "!items!9d1b34a8349373e4",
   "name": "Sutra of Unwriting",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_sutra_of_unwriting"
+      "sourceId": "card_sutensai_sutra_of_unwriting",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

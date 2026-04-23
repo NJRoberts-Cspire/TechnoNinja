@@ -1,5 +1,6 @@
 {
   "_id": "e29d2fb354871a4a",
+  "_key": "!items!e29d2fb354871a4a",
   "name": "Echomind Reading",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -16,7 +17,7 @@
     "subclass": "",
     "isRaceCard": false,
     "race": "",
-    "isStartingHand": true,
+    "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
     "description": "<p>Target one creature within 30 feet. Learn their current HP tier (full / wounded / critical), whether they carry active spiritual violations, and their general resonant alignment. Until the end of combat, your VEIL cards against this target deal +2 damage.</p>"
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_echomind_reading"
+      "sourceId": "card_sutensai_echomind_reading",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "4d0a82a5ad126ede",
+  "_key": "!items!4d0a82a5ad126ede",
   "name": "Speak It Into Being",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_herald_speak_it_into_being"
+      "sourceId": "card_echo_speaker_herald_speak_it_into_being",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

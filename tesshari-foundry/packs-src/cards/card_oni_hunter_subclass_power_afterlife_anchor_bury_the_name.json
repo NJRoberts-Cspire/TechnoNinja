@@ -1,5 +1,6 @@
 {
   "_id": "1d3acb9e0513463a",
+  "_key": "!items!1d3acb9e0513463a",
   "name": "Bury the Name",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_subclass_power_afterlife_anchor_bury_the_name"
+      "sourceId": "card_oni_hunter_subclass_power_afterlife_anchor_bury_the_name",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

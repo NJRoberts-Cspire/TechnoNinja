@@ -1,5 +1,6 @@
 {
   "_id": "b54048477873af99",
+  "_key": "!items!b54048477873af99",
   "name": "Zone Anchor",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_zone_anchor"
+      "sourceId": "card_iron_herald_zone_anchor",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

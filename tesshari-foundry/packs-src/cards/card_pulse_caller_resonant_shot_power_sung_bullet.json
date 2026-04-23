@@ -1,5 +1,6 @@
 {
   "_id": "3c228e5176cd0b10",
+  "_key": "!items!3c228e5176cd0b10",
   "name": "Sung Bullet",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_resonant_shot_power_sung_bullet"
+      "sourceId": "card_pulse_caller_resonant_shot_power_sung_bullet",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

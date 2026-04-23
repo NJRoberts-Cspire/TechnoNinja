@@ -1,5 +1,6 @@
 {
   "_id": "ef4c74f359ccc99d",
+  "_key": "!items!ef4c74f359ccc99d",
   "name": "The Weave Speaks",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_the_weave_speaks"
+      "sourceId": "card_wireweave_the_weave_speaks",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

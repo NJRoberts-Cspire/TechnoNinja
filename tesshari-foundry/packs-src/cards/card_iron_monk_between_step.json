@@ -1,5 +1,6 @@
 {
   "_id": "5fda5cff1e20584e",
+  "_key": "!items!5fda5cff1e20584e",
   "name": "Between Step",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_between_step"
+      "sourceId": "card_iron_monk_between_step",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

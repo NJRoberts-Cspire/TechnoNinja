@@ -1,5 +1,6 @@
 {
   "_id": "b9082ab94947a9ca",
+  "_key": "!items!b9082ab94947a9ca",
   "name": "Living Archive",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_living_archive"
+      "sourceId": "card_sutensai_living_archive",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

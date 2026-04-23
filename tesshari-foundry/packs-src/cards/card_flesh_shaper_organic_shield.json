@@ -1,5 +1,6 @@
 {
   "_id": "d282a843a1324a7b",
+  "_key": "!items!d282a843a1324a7b",
   "name": "Organic Shield",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_organic_shield"
+      "sourceId": "card_flesh_shaper_organic_shield",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

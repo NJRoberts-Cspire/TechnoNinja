@@ -1,5 +1,6 @@
 {
   "_id": "9189224fcff016ac",
+  "_key": "!items!9189224fcff016ac",
   "name": "Puppet-Skin",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_the_possessor_puppet_skin"
+      "sourceId": "card_puppet_binder_the_possessor_puppet_skin",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

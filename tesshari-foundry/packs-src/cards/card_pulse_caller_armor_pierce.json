@@ -1,5 +1,6 @@
 {
   "_id": "7439640b64db3f8d",
+  "_key": "!items!7439640b64db3f8d",
   "name": "Armor Pierce",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_armor_pierce"
+      "sourceId": "card_pulse_caller_armor_pierce",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

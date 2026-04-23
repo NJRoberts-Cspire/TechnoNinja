@@ -1,5 +1,6 @@
 {
   "_id": "612a94415ca836b9",
+  "_key": "!items!612a94415ca836b9",
   "name": "Between the Worlds",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -10,8 +11,11 @@
     "pierce": 0,
     "category": "signature",
     "primaryStat": "",
-    "keywords": [],
-    "unlockLevel": 14,
+    "keywords": [
+      "Root",
+      "Overheat 2"
+    ],
+    "unlockLevel": 20,
     "className": "Veilblade",
     "subclass": "",
     "isRaceCard": false,
@@ -19,16 +23,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>*Triggered when an attack would reduce you to 0 HP.* You phase between living and dead. The triggering attack deals 0 damage. For the next 2 turns you exist in a liminal state: you cannot be targeted by attacks, you can take one action per turn, and you take no HP damage. When this state ends, you return at 1 HP. Once per combat.</p>"
+    "description": "<p>Declare Void Sovereignty over a 100-foot radius for 1 round. You control all phase-related phenomena in the area. Every ally within range can use Mobility cards at 0 AP cost this round. Every enemy within range cannot use Mobility cards or Phase cards — the space between worlds belongs to you. Any enemy who dies this round has their Echomind held — they cannot pass to the Afterlife until you release them. After this card resolves, gain Overheat 2 and lose 10 HP.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_between_the_worlds"
+      "sourceId": "card_veilblade_between_the_worlds",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 3014,
+  "sort": 3020,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "29f5ac0b89289cad",
+  "_key": "!items!29f5ac0b89289cad",
   "name": "Resonant Pulse",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -11,7 +12,7 @@
     "category": "attack",
     "primaryStat": "resonance",
     "keywords": [
-      "Silence"
+      "Stagger"
     ],
     "unlockLevel": 3,
     "className": "Ironclad Samurai",
@@ -21,12 +22,13 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Your Echomind discharges through your resonant blade — a pulse of spiritual force wrapped in physical steel. Deal 12 + RESONANCE resonant damage. Apply Silence to the target for 1 turn.</p>"
+    "description": "<p>Release a pulse of Between energy from your body. All enemies within 15 feet take 10 + RESONANCE damage and are pushed 10 feet away. **Below half HP:** Damage increases to 16 + RESONANCE and all affected enemies gain Stagger.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_resonant_pulse"
+      "sourceId": "card_ironclad_resonant_pulse",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

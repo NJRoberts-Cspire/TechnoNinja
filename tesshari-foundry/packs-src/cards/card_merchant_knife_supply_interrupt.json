@@ -1,5 +1,6 @@
 {
   "_id": "f40484ccdf2354ee",
+  "_key": "!items!f40484ccdf2354ee",
   "name": "Supply Interrupt",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_supply_interrupt"
+      "sourceId": "card_merchant_knife_supply_interrupt",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

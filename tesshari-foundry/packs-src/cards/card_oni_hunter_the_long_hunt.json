@@ -1,5 +1,6 @@
 {
   "_id": "e856388e9a2da261",
+  "_key": "!items!e856388e9a2da261",
   "name": "The Long Hunt",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_the_long_hunt"
+      "sourceId": "card_oni_hunter_the_long_hunt",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

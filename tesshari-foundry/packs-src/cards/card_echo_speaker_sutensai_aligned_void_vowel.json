@@ -1,5 +1,6 @@
 {
   "_id": "070387d5986609f6",
+  "_key": "!items!070387d5986609f6",
   "name": "Void Vowel",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_sutensai_aligned_void_vowel"
+      "sourceId": "card_echo_speaker_sutensai_aligned_void_vowel",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

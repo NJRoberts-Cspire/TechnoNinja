@@ -1,5 +1,6 @@
 {
   "_id": "e3918d56c6b5df9f",
+  "_key": "!items!e3918d56c6b5df9f",
   "name": "Economic Execution",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_economic_execution"
+      "sourceId": "card_merchant_knife_economic_execution",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

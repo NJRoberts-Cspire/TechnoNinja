@@ -1,5 +1,6 @@
 {
   "_id": "b30bce2e0cb7fb0d",
+  "_key": "!items!b30bce2e0cb7fb0d",
   "name": "Fortress Form",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_war_shaper_fortress_form"
+      "sourceId": "card_chrome_shaper_war_shaper_fortress_form",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

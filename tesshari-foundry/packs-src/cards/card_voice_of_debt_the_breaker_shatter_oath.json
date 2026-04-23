@@ -1,5 +1,6 @@
 {
   "_id": "caae9d3bb1de2190",
+  "_key": "!items!caae9d3bb1de2190",
   "name": "Shatter Oath",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_the_breaker_shatter_oath"
+      "sourceId": "card_voice_of_debt_the_breaker_shatter_oath",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "984dfaa45bc81ff3",
+  "_key": "!items!984dfaa45bc81ff3",
   "name": "Oath-Shatter",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_oath_shatter"
+      "sourceId": "card_ironclad_oath_shatter",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "4b49fe63e3ec8f89",
+  "_key": "!items!4b49fe63e3ec8f89",
   "name": "Cellular Fortify",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_cellular_fortify"
+      "sourceId": "card_flesh_shaper_cellular_fortify",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

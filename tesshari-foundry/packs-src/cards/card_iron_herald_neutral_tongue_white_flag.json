@@ -1,5 +1,6 @@
 {
   "_id": "7b008005248b05e9",
+  "_key": "!items!7b008005248b05e9",
   "name": "White Flag",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_neutral_tongue_white_flag"
+      "sourceId": "card_iron_herald_neutral_tongue_white_flag",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "d113be80cbc7c998",
+  "_key": "!items!d113be80cbc7c998",
   "name": "Void Pull",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_void_pull"
+      "sourceId": "card_void_walker_void_pull",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "f5ea072fe2bab1b0",
+  "_key": "!items!f5ea072fe2bab1b0",
   "name": "Cascade Fracture",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_the_breaker_cascade_fracture"
+      "sourceId": "card_voice_of_debt_the_breaker_cascade_fracture",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

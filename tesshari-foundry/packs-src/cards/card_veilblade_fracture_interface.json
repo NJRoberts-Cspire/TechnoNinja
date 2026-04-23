@@ -1,5 +1,6 @@
 {
   "_id": "07f257959d309ba9",
+  "_key": "!items!07f257959d309ba9",
   "name": "Fracture Interface",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_fracture_interface"
+      "sourceId": "card_veilblade_fracture_interface",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

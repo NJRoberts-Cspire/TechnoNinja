@@ -1,5 +1,6 @@
 {
   "_id": "d23bdb8b02c963af",
+  "_key": "!items!d23bdb8b02c963af",
   "name": "Resonant Pulse",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_resonant_pulse"
+      "sourceId": "card_iron_monk_resonant_pulse",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

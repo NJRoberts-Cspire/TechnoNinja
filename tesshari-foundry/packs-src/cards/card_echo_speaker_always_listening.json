@@ -1,5 +1,6 @@
 {
   "_id": "60fc751403c3faa6",
+  "_key": "!items!60fc751403c3faa6",
   "name": "Always Listening",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_always_listening"
+      "sourceId": "card_echo_speaker_always_listening",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

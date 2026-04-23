@@ -1,5 +1,6 @@
 {
   "_id": "aa942fcd3570706c",
+  "_key": "!items!aa942fcd3570706c",
   "name": "Phase Cascade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_phase_cascade"
+      "sourceId": "card_void_walker_phase_cascade",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

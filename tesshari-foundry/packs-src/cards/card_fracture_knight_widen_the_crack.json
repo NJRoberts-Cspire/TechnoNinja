@@ -1,5 +1,6 @@
 {
   "_id": "c179829f1849a16a",
+  "_key": "!items!c179829f1849a16a",
   "name": "Widen the Crack",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_widen_the_crack"
+      "sourceId": "card_fracture_knight_widen_the_crack",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

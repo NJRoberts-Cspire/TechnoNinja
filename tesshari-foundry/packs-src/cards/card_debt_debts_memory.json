@@ -1,5 +1,6 @@
 {
   "_id": "c3458cbdf18913f6",
+  "_key": "!items!c3458cbdf18913f6",
   "name": "Debt's Memory",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_debt_debts_memory"
+      "sourceId": "card_debt_debts_memory",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

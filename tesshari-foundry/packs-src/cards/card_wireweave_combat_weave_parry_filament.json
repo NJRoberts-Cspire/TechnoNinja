@@ -1,5 +1,6 @@
 {
   "_id": "58542d7d79f2e2ba",
+  "_key": "!items!58542d7d79f2e2ba",
   "name": "Parry Filament",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_combat_weave_parry_filament"
+      "sourceId": "card_wireweave_combat_weave_parry_filament",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

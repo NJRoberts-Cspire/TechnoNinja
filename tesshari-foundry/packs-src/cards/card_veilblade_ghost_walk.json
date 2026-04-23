@@ -1,5 +1,6 @@
 {
   "_id": "1f23cf10f95db1e7",
+  "_key": "!items!1f23cf10f95db1e7",
   "name": "Ghost Walk",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_ghost_walk"
+      "sourceId": "card_veilblade_ghost_walk",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

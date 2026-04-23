@@ -1,5 +1,6 @@
 {
   "_id": "a6336f019e3052a3",
+  "_key": "!items!a6336f019e3052a3",
   "name": "Name the Grievance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_neutral_tongue_name_the_grievance"
+      "sourceId": "card_iron_herald_neutral_tongue_name_the_grievance",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

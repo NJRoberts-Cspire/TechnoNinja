@@ -1,5 +1,6 @@
 {
   "_id": "c674b8f76e09a065",
+  "_key": "!items!c674b8f76e09a065",
   "name": "Offering Wound",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_oath_flesh_temple_offering_wound"
+      "sourceId": "card_ironclad_oath_flesh_temple_offering_wound",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "78ba03197c999808",
+  "_key": "!items!78ba03197c999808",
   "name": "Hostile Reconfiguration",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_hostile_reconfiguration"
+      "sourceId": "card_chrome_shaper_hostile_reconfiguration",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

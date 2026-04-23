@@ -1,5 +1,6 @@
 {
   "_id": "184ecf7126fc2373",
+  "_key": "!items!184ecf7126fc2373",
   "name": "Leverage Point",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_leverage_point"
+      "sourceId": "card_merchant_knife_leverage_point",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

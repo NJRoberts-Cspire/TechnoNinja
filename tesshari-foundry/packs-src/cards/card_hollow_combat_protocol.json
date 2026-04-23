@@ -1,5 +1,6 @@
 {
   "_id": "e47318765ea5c111",
+  "_key": "!items!e47318765ea5c111",
   "name": "Combat Protocol",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_combat_protocol"
+      "sourceId": "card_hollow_combat_protocol",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

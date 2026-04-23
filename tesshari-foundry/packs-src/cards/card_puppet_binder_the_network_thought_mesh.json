@@ -1,5 +1,6 @@
 {
   "_id": "ba1a2253019f67fb",
+  "_key": "!items!ba1a2253019f67fb",
   "name": "Thought-Mesh",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_the_network_thought_mesh"
+      "sourceId": "card_puppet_binder_the_network_thought_mesh",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

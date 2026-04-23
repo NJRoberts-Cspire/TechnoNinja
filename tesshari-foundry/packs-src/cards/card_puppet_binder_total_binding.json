@@ -1,5 +1,6 @@
 {
   "_id": "7618ee427bbb235c",
+  "_key": "!items!7618ee427bbb235c",
   "name": "Total Binding",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -30,7 +31,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_total_binding"
+      "sourceId": "card_puppet_binder_total_binding",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

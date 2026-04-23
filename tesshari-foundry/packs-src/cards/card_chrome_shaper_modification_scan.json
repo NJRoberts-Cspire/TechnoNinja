@@ -1,5 +1,6 @@
 {
   "_id": "3e9960a6386dbf7a",
+  "_key": "!items!3e9960a6386dbf7a",
   "name": "Modification Scan",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_modification_scan"
+      "sourceId": "card_chrome_shaper_modification_scan",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "37c9771a7fe26f30",
+  "_key": "!items!37c9771a7fe26f30",
   "name": "Unforge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_iron_suppressor_power_unforge"
+      "sourceId": "card_pulse_caller_iron_suppressor_power_unforge",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

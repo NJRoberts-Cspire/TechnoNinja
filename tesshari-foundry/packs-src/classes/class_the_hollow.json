@@ -1,0 +1,33 @@
+{
+  "_id": "5b379813cb5f75fe",
+  "_key": "!items!5b379813cb5f75fe",
+  "name": "The Hollow",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hpTier": "balanced",
+    "handBase": 6,
+    "primaryStats": [
+      "frame",
+      "veil"
+    ],
+    "startingHandSlugs": [],
+    "unlockList": {},
+    "subclassSlugs": [
+      "The Empty",
+      "The Shell"
+    ],
+    "description": "<p>The Iron Sutra is explicit: the Echomind requires both. It is the resonance between flesh and steel. It cannot exist in either alone. The Prior Ascended who developed this theology had reasons — theological, philosophical, and almost certainly political — for drawing the line exactly where they drew it. For centuries, the line held. What has emerged in the era of the Ascension War — as the stakes of every choice have become absolute, as the factions have each pushed toward their extremes — are people who have crossed it.\r</p>\n<p>They went to the edge of one extreme and stepped off. Either they stripped away every enhancement, returning themselves to a state that Tesshari society has not seen in generations, a state it no longer has language for, a state the Caste of Steel classifies as Caste Zero and treats as evidence of either profound spiritual attainment or complete social failure depending on the sect speaking. Or they went the other direction: they removed organic tissue, replaced it, and continued replacing it, pursuing the absolute perfection of the mechanical until what remains of the original biological self is a fraction, a trace, a memory of something that was once the primary substance of their being.\r</p>\n<p>The Hollow class is the class of those who have committed to one of these extremes. It is not a class about balance, despite what some philosophers say. Balance is the Iron Monk's domain. The Hollow is about commitment: the choice to go to one end of the spectrum and follow it wherever it leads, regardless of what the doctrine says, regardless of what the Sutensai declares, regardless of the social cost and the theological consequences. This is not the class for those who are still deciding. The Hollow have decided. They are living with the decision in every subsequent moment of their lives, finding in that living either a kind of terrible clarity or a kind of slow-motion loss that they are either too committed or too far gone to stop.\r</p>\n<p>The Iron Sutra says both extremes are condemned. The Sutensai says both are spiritually dangerous. The evidence, in the form of what the Hollow actually can do, is that both extremes produce something genuine — something that is neither the standard Tesshari enhancement-user nor the standard practitioner of any established tradition. Something new. Whether new is good, in Tesshari, in the era of the Ascension War, is a question each Hollow answers for themselves, mostly in the dark, mostly alone.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "The Hollow"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

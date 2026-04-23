@@ -1,5 +1,6 @@
 {
   "_id": "2f4ecfcda06363f2",
+  "_key": "!items!2f4ecfcda06363f2",
   "name": "Spectral Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_spectral_strike"
+      "sourceId": "card_fracture_knight_spectral_strike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

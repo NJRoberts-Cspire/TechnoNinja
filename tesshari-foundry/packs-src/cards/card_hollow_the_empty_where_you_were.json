@@ -1,5 +1,6 @@
 {
   "_id": "308936e4dd0893cd",
+  "_key": "!items!308936e4dd0893cd",
   "name": "Where You Were",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_the_empty_where_you_were"
+      "sourceId": "card_hollow_the_empty_where_you_were",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "ce9d0857ebfc893e",
+  "_key": "!items!ce9d0857ebfc893e",
   "name": "Temple Form",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -11,7 +12,7 @@
     "category": "power",
     "primaryStat": "",
     "keywords": [
-      "Shield"
+      "Variable by form"
     ],
     "unlockLevel": 13,
     "className": "Ironclad Samurai",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_temple_form"
+      "sourceId": "card_ironclad_temple_form",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

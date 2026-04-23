@@ -1,5 +1,6 @@
 {
   "_id": "a0032bdee7e1b530",
+  "_key": "!items!a0032bdee7e1b530",
   "name": "Tuning Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_resonance_keeper_tuning_strike"
+      "sourceId": "card_forge_tender_resonance_keeper_tuning_strike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

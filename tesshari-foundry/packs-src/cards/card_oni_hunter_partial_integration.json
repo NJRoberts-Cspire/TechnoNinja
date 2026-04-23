@@ -1,5 +1,6 @@
 {
   "_id": "d9455e2d7cad678e",
+  "_key": "!items!d9455e2d7cad678e",
   "name": "Partial Integration",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_partial_integration"
+      "sourceId": "card_oni_hunter_partial_integration",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

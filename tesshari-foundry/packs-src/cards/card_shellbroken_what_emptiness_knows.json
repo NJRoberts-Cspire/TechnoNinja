@@ -1,5 +1,6 @@
 {
   "_id": "76b509af5afca51c",
+  "_key": "!items!76b509af5afca51c",
   "name": "What Emptiness Knows",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,11 +27,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shellbroken_what_emptiness_knows"
+      "sourceId": "card_shellbroken_what_emptiness_knows",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

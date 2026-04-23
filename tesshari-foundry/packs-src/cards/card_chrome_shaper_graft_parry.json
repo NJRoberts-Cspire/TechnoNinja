@@ -1,5 +1,6 @@
 {
   "_id": "f407b9d721ccf2cf",
+  "_key": "!items!f407b9d721ccf2cf",
   "name": "Graft Parry",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_graft_parry"
+      "sourceId": "card_chrome_shaper_graft_parry",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

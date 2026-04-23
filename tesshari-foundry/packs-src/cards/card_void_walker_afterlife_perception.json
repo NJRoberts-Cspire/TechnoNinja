@@ -1,5 +1,6 @@
 {
   "_id": "19bc803b8f35df40",
+  "_key": "!items!19bc803b8f35df40",
   "name": "Afterlife Perception",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_afterlife_perception"
+      "sourceId": "card_void_walker_afterlife_perception",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

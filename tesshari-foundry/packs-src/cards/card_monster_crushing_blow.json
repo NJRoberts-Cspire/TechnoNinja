@@ -1,5 +1,6 @@
 {
   "_id": "6264116d744dd39c",
+  "_key": "!items!6264116d744dd39c",
   "name": "Crushing Blow",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_monster_crushing_blow"
+      "sourceId": "card_monster_crushing_blow",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

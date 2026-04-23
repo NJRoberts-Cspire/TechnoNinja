@@ -1,5 +1,6 @@
 {
   "_id": "f82e6b963e8b323e",
+  "_key": "!items!f82e6b963e8b323e",
   "name": "Market Read",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_market_read"
+      "sourceId": "card_merchant_knife_market_read",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "fefcb653da34fd9f",
+  "_key": "!items!fefcb653da34fd9f",
   "name": "Emergency Protocols",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_emergency_protocols"
+      "sourceId": "card_shell_dancer_emergency_protocols",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

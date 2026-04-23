@@ -1,5 +1,6 @@
 {
   "_id": "023fb354e1808c0e",
+  "_key": "!items!023fb354e1808c0e",
   "name": "Pry the Plate",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_salvage_innovator_pry_the_plate"
+      "sourceId": "card_ashfoot_salvage_innovator_pry_the_plate",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "aac983da07fe8a7e",
+  "_key": "!items!aac983da07fe8a7e",
   "name": "Last Breath Dance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_the_survivor_last_breath_dance"
+      "sourceId": "card_shell_dancer_the_survivor_last_breath_dance",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

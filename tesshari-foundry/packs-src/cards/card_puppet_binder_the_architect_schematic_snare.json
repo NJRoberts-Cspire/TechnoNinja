@@ -1,5 +1,6 @@
 {
   "_id": "73d57c739965f1a1",
+  "_key": "!items!73d57c739965f1a1",
   "name": "Schematic Snare",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_the_architect_schematic_snare"
+      "sourceId": "card_puppet_binder_the_architect_schematic_snare",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

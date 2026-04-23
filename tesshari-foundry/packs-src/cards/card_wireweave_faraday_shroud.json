@@ -1,5 +1,6 @@
 {
   "_id": "e02cbc32508cede6",
+  "_key": "!items!e02cbc32508cede6",
   "name": "Faraday Shroud",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_faraday_shroud"
+      "sourceId": "card_wireweave_faraday_shroud",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

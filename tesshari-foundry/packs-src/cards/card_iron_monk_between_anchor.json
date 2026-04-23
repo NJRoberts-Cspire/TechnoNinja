@@ -1,5 +1,6 @@
 {
   "_id": "254b1704089563fe",
+  "_key": "!items!254b1704089563fe",
   "name": "Between Anchor",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_between_anchor"
+      "sourceId": "card_iron_monk_between_anchor",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

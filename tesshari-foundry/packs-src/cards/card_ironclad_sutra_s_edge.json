@@ -1,5 +1,6 @@
 {
   "_id": "221a7b7376b39cc9",
+  "_key": "!items!221a7b7376b39cc9",
   "name": "Sutra's Edge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_sutra_s_edge"
+      "sourceId": "card_ironclad_sutra_s_edge",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

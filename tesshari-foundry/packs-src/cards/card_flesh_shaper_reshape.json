@@ -1,5 +1,6 @@
 {
   "_id": "67c12e35ae870c83",
+  "_key": "!items!67c12e35ae870c83",
   "name": "Reshape",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_reshape"
+      "sourceId": "card_flesh_shaper_reshape",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

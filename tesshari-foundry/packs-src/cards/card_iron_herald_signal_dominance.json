@@ -1,5 +1,6 @@
 {
   "_id": "16fab8cabea954dd",
+  "_key": "!items!16fab8cabea954dd",
   "name": "Signal Dominance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_signal_dominance"
+      "sourceId": "card_iron_herald_signal_dominance",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

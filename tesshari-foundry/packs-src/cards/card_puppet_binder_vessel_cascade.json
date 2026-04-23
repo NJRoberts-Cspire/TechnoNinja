@@ -1,5 +1,6 @@
 {
   "_id": "0dc9d7cedddacf32",
+  "_key": "!items!0dc9d7cedddacf32",
   "name": "Vessel Cascade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_vessel_cascade"
+      "sourceId": "card_puppet_binder_vessel_cascade",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

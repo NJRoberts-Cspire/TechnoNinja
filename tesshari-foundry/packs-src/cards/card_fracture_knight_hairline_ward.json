@@ -1,5 +1,6 @@
 {
   "_id": "182c05c0b5a48c32",
+  "_key": "!items!182c05c0b5a48c32",
   "name": "Hairline Ward",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_hairline_ward"
+      "sourceId": "card_fracture_knight_hairline_ward",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

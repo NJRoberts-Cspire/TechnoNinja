@@ -1,5 +1,6 @@
 {
   "_id": "6b0a3517e2e769bd",
+  "_key": "!items!6b0a3517e2e769bd",
   "name": "Name the Price",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_iron_contract_name_the_price"
+      "sourceId": "card_ronin_iron_contract_name_the_price",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

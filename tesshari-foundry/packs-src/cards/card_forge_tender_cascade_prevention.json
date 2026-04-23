@@ -1,5 +1,6 @@
 {
   "_id": "b0f0294d3d4db6c5",
+  "_key": "!items!b0f0294d3d4db6c5",
   "name": "Cascade Prevention",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_cascade_prevention"
+      "sourceId": "card_forge_tender_cascade_prevention",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

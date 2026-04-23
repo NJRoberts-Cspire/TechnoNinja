@@ -1,5 +1,6 @@
 {
   "_id": "dc1e1583c783a52c",
+  "_key": "!items!dc1e1583c783a52c",
   "name": "Enhancement Read",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_enhancement_read"
+      "sourceId": "card_forge_tender_enhancement_read",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

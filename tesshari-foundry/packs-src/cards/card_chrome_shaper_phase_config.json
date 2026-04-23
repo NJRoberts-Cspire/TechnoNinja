@@ -1,5 +1,6 @@
 {
   "_id": "06d413ba1e30995d",
+  "_key": "!items!06d413ba1e30995d",
   "name": "Phase Config",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_phase_config"
+      "sourceId": "card_chrome_shaper_phase_config",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

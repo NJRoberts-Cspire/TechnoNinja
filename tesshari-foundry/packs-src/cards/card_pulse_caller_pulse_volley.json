@@ -1,5 +1,6 @@
 {
   "_id": "d9eaa6318ce7195d",
+  "_key": "!items!d9eaa6318ce7195d",
   "name": "Pulse Volley",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_pulse_volley"
+      "sourceId": "card_pulse_caller_pulse_volley",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

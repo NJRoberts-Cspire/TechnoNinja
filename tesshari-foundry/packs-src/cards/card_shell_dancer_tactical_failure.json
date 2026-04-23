@@ -1,5 +1,6 @@
 {
   "_id": "2bf754e03f3f0b60",
+  "_key": "!items!2bf754e03f3f0b60",
   "name": "Tactical Failure",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_tactical_failure"
+      "sourceId": "card_shell_dancer_tactical_failure",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "6c0df3134800b3d1",
+  "_key": "!items!6c0df3134800b3d1",
   "name": "Sustained Between",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_sustained_between"
+      "sourceId": "card_iron_monk_sustained_between",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

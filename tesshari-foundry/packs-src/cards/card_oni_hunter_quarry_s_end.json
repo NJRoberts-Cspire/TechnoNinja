@@ -1,5 +1,6 @@
 {
   "_id": "a52c243047bdae63",
+  "_key": "!items!a52c243047bdae63",
   "name": "Quarry's End",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -11,7 +12,9 @@
     "category": "control",
     "primaryStat": "",
     "keywords": [
-      "Root"
+      "Root",
+      "or Stagger",
+      "or Expose 3"
     ],
     "unlockLevel": 7,
     "className": "Oni Hunter",
@@ -26,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_quarry_s_end"
+      "sourceId": "card_oni_hunter_quarry_s_end",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

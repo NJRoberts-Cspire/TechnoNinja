@@ -1,5 +1,6 @@
 {
   "_id": "20f21953cdf5a970",
+  "_key": "!items!20f21953cdf5a970",
   "name": "Enhancement Crash",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_enhancement_crash"
+      "sourceId": "card_chrome_shaper_enhancement_crash",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

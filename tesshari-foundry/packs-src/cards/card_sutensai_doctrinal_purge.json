@@ -1,5 +1,6 @@
 {
   "_id": "892a6e6f7750c8c0",
+  "_key": "!items!892a6e6f7750c8c0",
   "name": "Doctrinal Purge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_doctrinal_purge"
+      "sourceId": "card_sutensai_doctrinal_purge",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

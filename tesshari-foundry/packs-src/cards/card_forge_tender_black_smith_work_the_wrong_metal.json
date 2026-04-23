@@ -1,5 +1,6 @@
 {
   "_id": "6699c27ec0282a59",
+  "_key": "!items!6699c27ec0282a59",
   "name": "Work the Wrong Metal",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_black_smith_work_the_wrong_metal"
+      "sourceId": "card_forge_tender_black_smith_work_the_wrong_metal",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

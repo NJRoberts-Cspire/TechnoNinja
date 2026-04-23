@@ -1,5 +1,6 @@
 {
   "_id": "ffeda1079fa99e84",
+  "_key": "!items!ffeda1079fa99e84",
   "name": "Masterless Momentum",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_masterless_momentum"
+      "sourceId": "card_ronin_masterless_momentum",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

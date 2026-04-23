@@ -1,5 +1,6 @@
 {
   "_id": "858b74e3401389c7",
+  "_key": "!items!858b74e3401389c7",
   "name": "Hollow Resonance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_hollow_resonance"
+      "sourceId": "card_hollow_hollow_resonance",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

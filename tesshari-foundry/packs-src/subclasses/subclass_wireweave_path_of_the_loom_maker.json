@@ -1,0 +1,41 @@
+{
+  "_id": "e839140f6425e035",
+  "_key": "!items!e839140f6425e035",
+  "name": "Path of the Loom-Maker",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Wireweave",
+    "pathKey": "path_of_the_loom_maker",
+    "features": {
+      "3": {
+        "name": "Construct Node",
+        "html": "<p>As part of a short rest, you can construct one of the following Wire nodes using materials worth 5 trade-metal:\r - <strong>Relay Node:</strong> Extends Wire coverage in an area (60-foot radius) and amplifies signal quality. Your Wire abilities used within a relay's range cost 1 fewer Charge.\r - <strong>Sensor Node:</strong> Monitors a 60-foot area, transmitting to your interface kit. You receive notifications of any Wire activity, physical movement, or enhancement use within the area.\r - <strong>Encryption Node:</strong> Creates an encrypted Wire channel within 60 feet that cannot be intercepted except by a SIGNAL check, difficulty 5.\r</p>\n<p>Nodes last for 24 hours unless physically destroyed. You can maintain a number of nodes equal to your Intelligence modifier.</p>"
+      },
+      "6": {
+        "name": "Field Upgrade",
+        "html": "<p>You can perform Wire enhancement upgrades on willing creatures during a short rest. Choose one enhancement upgrade per creature:\r - <strong>Signal Boost:</strong> The creature's Wire-based abilities (class features that use Wire or digital systems) have their range doubled for 24 hours.\r - <strong>Armor Protocol:</strong> Add an additional 2 to the creature's AC until the next long rest (the upgrade integrates a deflection subroutine).\r - <strong>Combat Enhancement:</strong> One specific weapon attack of the creature's deals an additional 5 lightning-analog damage (fixed) for 24 hours.</p>"
+      },
+      "10": {
+        "name": "Network Architecture",
+        "html": "<p>Your ability to construct Wire infrastructure has reached a large-scale expression. During a long rest, you can construct:\r - A full Wire network covering a 1-mile radius, with full monitoring and communication capacity, in 8 hours of work.\r - An autonomous Wire defense system that attacks unauthorized enhanced intruders (deals 14 lightning-analog damage per round (fixed) to unauthorized individuals within the network, FRAME resistance check (Weave DC) for half).\r - A secure digital vault within the Wire — a protected data space that cannot be accessed without your authorization.</p>"
+      },
+      "14": {
+        "name": "The Impossible Build",
+        "html": "<p>Once per arc, you can spend 1 week constructing a Wire Craft installation of extraordinary capability. Work with your GM — the installation should be something meaningful to the campaign (a communication network for a resistance, a Wire bridge between two previously-separated territories, a system that affects the Iron Afterlife's accessibility in a region). The installation requires rare materials (worth 1,000+ trade-metal) and time, but the result is permanent and can change the strategic landscape of the campaign.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Loom-Maker is the engineer-specialist: the Wireweave who has turned their Wire access toward construction rather than intrusion. They build Wire infrastructure — nodes, networks, encrypted communication channels, autonomous security systems, and custom enhancement installations — and their built systems are of extraordinary quality, reflecting their deep personal understanding of how Wire architecture works at its lowest level. They are the people who upgrade the Wire Market's infrastructure, build the communication networks that factions depend on, and occasionally create things that the Wire Market would prefer not to exist in the hands of people outside their control.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Wireweave::path_of_the_loom_maker"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

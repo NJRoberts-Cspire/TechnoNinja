@@ -1,5 +1,6 @@
 {
   "_id": "791056fc0ed43c60",
+  "_key": "!items!791056fc0ed43c60",
   "name": "Echo Absolute",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_echo_absolute"
+      "sourceId": "card_echo_speaker_echo_absolute",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

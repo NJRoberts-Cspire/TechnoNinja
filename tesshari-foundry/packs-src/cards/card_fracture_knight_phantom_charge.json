@@ -1,5 +1,6 @@
 {
   "_id": "89f2a1254c1ff9e3",
+  "_key": "!items!89f2a1254c1ff9e3",
   "name": "Phantom Charge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_phantom_charge"
+      "sourceId": "card_fracture_knight_phantom_charge",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

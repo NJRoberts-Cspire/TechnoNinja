@@ -1,5 +1,6 @@
 {
   "_id": "e6daf020608d4914",
+  "_key": "!items!e6daf020608d4914",
   "name": "Maximum Output",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -8,13 +9,12 @@
     "apCost": 3,
     "baseDamage": 20,
     "pierce": 0,
-    "category": "signature",
+    "category": "power",
     "primaryStat": "iron",
     "keywords": [
-      "Bleed 4",
-      "Expose 4"
+      "Overheat 2"
     ],
-    "unlockLevel": 14,
+    "unlockLevel": 17,
     "className": "The Hollow",
     "subclass": "",
     "isRaceCard": false,
@@ -22,16 +22,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Deal 20 + IRON melee damage to one adjacent target. Apply Bleed 4 and Expose 4. Until your next turn, all your melee Attack cards deal +IRON bonus damage. Your mechanical output is at maximum — the question of who is doing this can wait.</p>"
+    "description": "<p>Push one ally's enhancements to absolute maximum output. Target gains +4 IRON, +4 EDGE, and deals +12 damage on all Attack cards for 1 round. After the round, target gains Overheat 2.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_maximum_output"
+      "sourceId": "card_hollow_maximum_output",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 3014,
+  "sort": 3017,
   "ownership": {
     "default": 0
   }

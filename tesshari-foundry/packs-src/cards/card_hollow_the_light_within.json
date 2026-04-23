@@ -1,5 +1,6 @@
 {
   "_id": "b8aad97b82f0ce65",
+  "_key": "!items!b8aad97b82f0ce65",
   "name": "The Light Within",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_the_light_within"
+      "sourceId": "card_hollow_the_light_within",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "67aa0bfdfdb75f30",
+  "_key": "!items!67aa0bfdfdb75f30",
   "name": "Complete Control",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_complete_control"
+      "sourceId": "card_puppet_binder_complete_control",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

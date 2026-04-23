@@ -1,5 +1,6 @@
 {
   "_id": "0da0bec62a5933b1",
+  "_key": "!items!0da0bec62a5933b1",
   "name": "Speak for the Fallen",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_speak_for_the_fallen"
+      "sourceId": "card_echo_speaker_speak_for_the_fallen",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

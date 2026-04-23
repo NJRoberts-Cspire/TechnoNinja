@@ -1,5 +1,6 @@
 {
   "_id": "52a4c742a1e59378",
+  "_key": "!items!52a4c742a1e59378",
   "name": "Mass Ledger",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_mass_ledger"
+      "sourceId": "card_voice_of_debt_mass_ledger",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

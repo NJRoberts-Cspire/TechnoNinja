@@ -1,5 +1,6 @@
 {
   "_id": "1bb842e9087b577e",
+  "_key": "!items!1bb842e9087b577e",
   "name": "Overcharge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_overcharge"
+      "sourceId": "card_pulse_caller_overcharge",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

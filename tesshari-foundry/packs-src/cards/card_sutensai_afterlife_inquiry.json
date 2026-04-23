@@ -1,5 +1,6 @@
 {
   "_id": "2200317da630d81c",
+  "_key": "!items!2200317da630d81c",
   "name": "Afterlife Inquiry",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_afterlife_inquiry"
+      "sourceId": "card_sutensai_afterlife_inquiry",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

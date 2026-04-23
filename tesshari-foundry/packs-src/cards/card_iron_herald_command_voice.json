@@ -1,5 +1,6 @@
 {
   "_id": "e0627c60dee33f2d",
+  "_key": "!items!e0627c60dee33f2d",
   "name": "Command Voice",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_command_voice"
+      "sourceId": "card_iron_herald_command_voice",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

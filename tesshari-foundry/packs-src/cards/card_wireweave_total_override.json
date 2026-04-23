@@ -1,5 +1,6 @@
 {
   "_id": "06c35844c849b301",
+  "_key": "!items!06c35844c849b301",
   "name": "Total Override",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_total_override"
+      "sourceId": "card_wireweave_total_override",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

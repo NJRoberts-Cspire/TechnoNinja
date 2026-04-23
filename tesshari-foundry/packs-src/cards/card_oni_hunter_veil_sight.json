@@ -1,5 +1,6 @@
 {
   "_id": "d008b3ac68b4b6c6",
+  "_key": "!items!d008b3ac68b4b6c6",
   "name": "Veil Sight",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_veil_sight"
+      "sourceId": "card_oni_hunter_veil_sight",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

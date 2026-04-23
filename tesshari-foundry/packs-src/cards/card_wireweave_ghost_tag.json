@@ -1,5 +1,6 @@
 {
   "_id": "6fe754c05f0f3757",
+  "_key": "!items!6fe754c05f0f3757",
   "name": "Ghost Tag",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_ghost_tag"
+      "sourceId": "card_wireweave_ghost_tag",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

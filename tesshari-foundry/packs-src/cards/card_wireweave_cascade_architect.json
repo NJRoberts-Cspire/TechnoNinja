@@ -1,5 +1,6 @@
 {
   "_id": "9f7994f2980f2281",
+  "_key": "!items!9f7994f2980f2281",
   "name": "Cascade Architect",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_cascade_architect"
+      "sourceId": "card_wireweave_cascade_architect",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

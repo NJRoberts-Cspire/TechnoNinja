@@ -1,5 +1,6 @@
 {
   "_id": "25eb00b38d8bb66d",
+  "_key": "!items!25eb00b38d8bb66d",
   "name": "Deliberate Breath",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_deliberate_breath"
+      "sourceId": "card_iron_monk_deliberate_breath",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

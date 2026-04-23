@@ -1,5 +1,6 @@
 {
   "_id": "1b78313b5630d414",
+  "_key": "!items!1b78313b5630d414",
   "name": "Spirit Ward",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_spirit_ward"
+      "sourceId": "card_echo_speaker_spirit_ward",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

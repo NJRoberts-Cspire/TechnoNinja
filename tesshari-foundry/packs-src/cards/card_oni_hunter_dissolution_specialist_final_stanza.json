@@ -1,5 +1,6 @@
 {
   "_id": "fb8967b14c3939ba",
+  "_key": "!items!fb8967b14c3939ba",
   "name": "Final Stanza",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_dissolution_specialist_final_stanza"
+      "sourceId": "card_oni_hunter_dissolution_specialist_final_stanza",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

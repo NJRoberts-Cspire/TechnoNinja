@@ -1,5 +1,6 @@
 {
   "_id": "c11f309716085701",
+  "_key": "!items!c11f309716085701",
   "name": "Chorus Shield",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_chorus_shield"
+      "sourceId": "card_ashfoot_chorus_shield",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

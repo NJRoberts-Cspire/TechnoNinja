@@ -1,5 +1,6 @@
 {
   "_id": "feb3e78c1e1002b7",
+  "_key": "!items!feb3e78c1e1002b7",
   "name": "Iron Gut",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_iron_gut"
+      "sourceId": "card_curse_eater_iron_gut",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

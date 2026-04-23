@@ -1,5 +1,6 @@
 {
   "_id": "a04e2fd9ded4816b",
+  "_key": "!items!a04e2fd9ded4816b",
   "name": "Basic Attack (Voice of Debt)",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_basic_attack"
+      "sourceId": "card_voice_of_debt_basic_attack",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

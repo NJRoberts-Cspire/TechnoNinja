@@ -1,5 +1,6 @@
 {
   "_id": "a1cf2997b09b5142",
+  "_key": "!items!a1cf2997b09b5142",
   "name": "Second Suture",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_second_suture"
+      "sourceId": "card_flesh_shaper_second_suture",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

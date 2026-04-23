@@ -1,5 +1,6 @@
 {
   "_id": "194ddd5aafcb682c",
+  "_key": "!items!194ddd5aafcb682c",
   "name": "The First Account",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_the_first_account"
+      "sourceId": "card_merchant_knife_the_first_account",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

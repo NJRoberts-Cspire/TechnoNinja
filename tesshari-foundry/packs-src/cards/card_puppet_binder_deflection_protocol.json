@@ -1,5 +1,6 @@
 {
   "_id": "48dddd144cffd236",
+  "_key": "!items!48dddd144cffd236",
   "name": "Deflection Protocol",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_deflection_protocol"
+      "sourceId": "card_puppet_binder_deflection_protocol",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

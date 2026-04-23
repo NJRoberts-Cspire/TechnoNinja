@@ -1,5 +1,6 @@
 {
   "_id": "63832c02dc40f8b9",
+  "_key": "!items!63832c02dc40f8b9",
   "name": "The Absorbed Become the Weapon",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_the_absorbed_become_the_weapon"
+      "sourceId": "card_curse_eater_the_absorbed_become_the_weapon",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

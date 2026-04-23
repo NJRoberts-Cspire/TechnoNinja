@@ -1,5 +1,6 @@
 {
   "_id": "b4af61c14468dcf4",
+  "_key": "!items!b4af61c14468dcf4",
   "name": "Touch Mend",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -18,7 +19,7 @@
     "subclass": "",
     "isRaceCard": false,
     "race": "",
-    "isStartingHand": true,
+    "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
     "description": "<p>Restore 6 + SIGNAL HP to one ally you are adjacent to or yourself. Remove one Bleed stack from the target.</p>"
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_touch_mend"
+      "sourceId": "card_flesh_shaper_touch_mend",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

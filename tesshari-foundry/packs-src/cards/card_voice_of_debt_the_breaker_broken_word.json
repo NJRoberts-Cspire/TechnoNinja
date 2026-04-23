@@ -1,5 +1,6 @@
 {
   "_id": "500765f0437e0b2e",
+  "_key": "!items!500765f0437e0b2e",
   "name": "Broken Word",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_the_breaker_broken_word"
+      "sourceId": "card_voice_of_debt_the_breaker_broken_word",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

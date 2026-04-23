@@ -1,5 +1,6 @@
 {
   "_id": "feffd37113b2ddce",
+  "_key": "!items!feffd37113b2ddce",
   "name": "Debt Spiral",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_debt_spiral"
+      "sourceId": "card_merchant_knife_debt_spiral",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

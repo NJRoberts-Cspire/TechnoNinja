@@ -1,5 +1,6 @@
 {
   "_id": "0589a473758f855d",
+  "_key": "!items!0589a473758f855d",
   "name": "Between Awareness",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_between_awareness"
+      "sourceId": "card_ironclad_between_awareness",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

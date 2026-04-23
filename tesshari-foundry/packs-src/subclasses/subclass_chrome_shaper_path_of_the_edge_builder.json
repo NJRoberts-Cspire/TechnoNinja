@@ -1,0 +1,41 @@
+{
+  "_id": "6f3962cb2eab524f",
+  "_key": "!items!6f3962cb2eab524f",
+  "name": "Path of the Edge Builder",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Chrome Shaper",
+    "pathKey": "path_of_the_edge_builder",
+    "features": {
+      "3": {
+        "name": "Prototype Work",
+        "html": "<p>Your Experimental Frames are more ambitious than standard. When you design an Experimental Frame:\r - The effect can be up to one level more powerful than the standard guideline (GM adjudicates).\r - The resistance check difficulty is 1 lower than it would be for a standard Frame of equivalent power.\r - When an Experimental Frame fails (the resistance check is failed), you can make a SIGNAL check (difficulty = the Frame's complexity + 2) to learn exactly why it failed. On a success, you permanently redesign the Frame — future versions of that same Frame have their difficulty reduced by 2.</p>"
+      },
+      "6": {
+        "name": "Failure Analysis",
+        "html": "<p>Your comprehensive documentation of failure modes has built an enormous knowledge base. You gain:\r - Advantage on all checks related to identifying the cause of enhancement malfunction.\r - Once per long rest, when an Experimental Frame fails catastrophically, you can attempt an emergency catch — rolling Intelligence vs. DC 15 — to reduce the failure effect to half (1 level of exhaustion instead of 2, half damage, etc.).\r - When observing any enhancement failure (ally or enemy), you can identify the specific design flaw causing it as a reaction.</p>"
+      },
+      "10": {
+        "name": "Theoretical Limit",
+        "html": "<p>Your design practice has reached the boundary of what the Wire Market's orthodoxy believes is possible. You can attempt modifications that other practitioners would decline to attempt:\r - Install modifications that the Wire Market considers \"impossible configurations\" (DM works with you on what these mean in campaign context — they should be genuinely powerful and genuinely risky).\r - Treat any Experimental Frame as if the subject has been profiled (Adaptive Design level 8), even if they haven't, because your theoretical models are now comprehensive enough to account for unknown variables.</p>"
+      },
+      "14": {
+        "name": "Living Proof",
+        "html": "<p>You have demonstrated, repeatedly and specifically, that the Wire Market's limitations are institutional rather than physical. Once per arc, you can design and build a completely new type of modification that has never existed before. Work with your DM to define what this is — it should be significant enough to matter to the campaign, powerful enough to be worth the effort, and have a design constraint (something it does not do, something it requires, or something it risks) that reflects the reality that even the Edge Builder cannot make something for nothing.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Edge Builder is the research-and-development specialist: the Chrome Shaper who is primarily interested in what has never been done before. They push the boundaries of modification design into territory where the Wire Market has no catalog entries, where the Sutensai has no theological framework, and where the only data comes from iteration and consequence. They are responsible for some of the most significant enhancement innovations in recent Tesshari history. They are also responsible for the highest number of experimental casualties, though they track these numbers carefully and take them seriously.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Chrome Shaper::path_of_the_edge_builder"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

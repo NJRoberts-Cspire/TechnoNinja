@@ -1,5 +1,6 @@
 {
   "_id": "b03de30d8321a00f",
+  "_key": "!items!b03de30d8321a00f",
   "name": "Ricochet Shot",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_ricochet_shot"
+      "sourceId": "card_pulse_caller_ricochet_shot",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

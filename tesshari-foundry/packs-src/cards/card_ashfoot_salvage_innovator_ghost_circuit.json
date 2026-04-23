@@ -1,5 +1,6 @@
 {
   "_id": "bb6795be3b86ce08",
+  "_key": "!items!bb6795be3b86ce08",
   "name": "Ghost Circuit",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_salvage_innovator_ghost_circuit"
+      "sourceId": "card_ashfoot_salvage_innovator_ghost_circuit",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "9f9f72f5f091e4d0",
+  "_key": "!items!9f9f72f5f091e4d0",
   "name": "Anchor Point",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_anchor_point"
+      "sourceId": "card_ashfoot_anchor_point",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

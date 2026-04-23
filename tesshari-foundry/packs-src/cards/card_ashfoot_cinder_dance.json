@@ -1,5 +1,6 @@
 {
   "_id": "5db9f086c251b490",
+  "_key": "!items!5db9f086c251b490",
   "name": "Cinder Dance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_cinder_dance"
+      "sourceId": "card_ashfoot_cinder_dance",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

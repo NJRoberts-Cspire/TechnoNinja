@@ -1,5 +1,6 @@
 {
   "_id": "f112aa504322dd4c",
+  "_key": "!items!f112aa504322dd4c",
   "name": "Cease Fire",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_neutral_tongue_cease_fire"
+      "sourceId": "card_iron_herald_neutral_tongue_cease_fire",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

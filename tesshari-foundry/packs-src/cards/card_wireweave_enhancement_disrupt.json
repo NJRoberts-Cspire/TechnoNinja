@@ -1,5 +1,6 @@
 {
   "_id": "d8f7c4bcb665ac31",
+  "_key": "!items!d8f7c4bcb665ac31",
   "name": "Enhancement Disrupt",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_enhancement_disrupt"
+      "sourceId": "card_wireweave_enhancement_disrupt",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

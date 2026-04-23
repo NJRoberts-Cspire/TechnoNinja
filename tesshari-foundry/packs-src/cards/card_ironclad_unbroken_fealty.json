@@ -1,5 +1,6 @@
 {
   "_id": "cfc155f0bf319143",
+  "_key": "!items!cfc155f0bf319143",
   "name": "Unbroken Fealty",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_unbroken_fealty"
+      "sourceId": "card_ironclad_unbroken_fealty",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

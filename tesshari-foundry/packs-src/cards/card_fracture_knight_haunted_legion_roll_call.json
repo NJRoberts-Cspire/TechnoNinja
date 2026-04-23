@@ -1,5 +1,6 @@
 {
   "_id": "63f1512fa1479494",
+  "_key": "!items!63f1512fa1479494",
   "name": "Roll Call",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_haunted_legion_roll_call"
+      "sourceId": "card_fracture_knight_haunted_legion_roll_call",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

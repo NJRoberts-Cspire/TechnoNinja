@@ -1,5 +1,6 @@
 {
   "_id": "878303e94b9bf798",
+  "_key": "!items!878303e94b9bf798",
   "name": "Offered Sleeve",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shadow_daimyo_court_blade_offered_sleeve"
+      "sourceId": "card_shadow_daimyo_court_blade_offered_sleeve",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "3ecbffff1dd22524",
+  "_key": "!items!3ecbffff1dd22524",
   "name": "Resonant Dominance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_resonant_dominance"
+      "sourceId": "card_ironclad_resonant_dominance",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

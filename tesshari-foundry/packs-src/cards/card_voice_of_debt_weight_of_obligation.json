@@ -1,5 +1,6 @@
 {
   "_id": "51806a7dfa279dfb",
+  "_key": "!items!51806a7dfa279dfb",
   "name": "Weight of Obligation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -8,7 +9,7 @@
     "apCost": 1,
     "baseDamage": 5,
     "pierce": 0,
-    "category": "attack",
+    "category": "control",
     "primaryStat": "veil",
     "keywords": [
       "Debt 2"
@@ -18,7 +19,7 @@
     "subclass": "",
     "isRaceCard": false,
     "race": "",
-    "isStartingHand": true,
+    "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
     "description": "<p>Deal 5 + VEIL social damage to one target within 40 feet. Apply Debt 2. If the target already carries Debt stacks, deal +VEIL bonus damage.</p>"
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_weight_of_obligation"
+      "sourceId": "card_voice_of_debt_weight_of_obligation",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "f04ca700a72d1dfb",
+  "_key": "!items!f04ca700a72d1dfb",
   "name": "Compulsion Mastery",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_compulsion_mastery"
+      "sourceId": "card_voice_of_debt_compulsion_mastery",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

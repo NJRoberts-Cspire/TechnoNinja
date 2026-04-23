@@ -1,5 +1,6 @@
 {
   "_id": "6977ff630cec9064",
+  "_key": "!items!6977ff630cec9064",
   "name": "Establish Command Zone",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_command_zone_establish"
+      "sourceId": "card_iron_herald_command_zone_establish",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

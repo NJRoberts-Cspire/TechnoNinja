@@ -1,5 +1,6 @@
 {
   "_id": "59558b254b8be927",
+  "_key": "!items!59558b254b8be927",
   "name": "Between Mastery",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -10,11 +11,7 @@
     "pierce": 0,
     "category": "utility",
     "primaryStat": "",
-    "keywords": [
-      "Guard",
-      "Stagger",
-      "Root"
-    ],
+    "keywords": [],
     "unlockLevel": 13,
     "className": "Iron Monk",
     "subclass": "",
@@ -28,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_between_mastery"
+      "sourceId": "card_iron_monk_between_mastery",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

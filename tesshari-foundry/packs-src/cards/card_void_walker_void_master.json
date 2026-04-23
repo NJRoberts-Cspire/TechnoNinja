@@ -1,5 +1,6 @@
 {
   "_id": "ccbf94c47edd70ff",
+  "_key": "!items!ccbf94c47edd70ff",
   "name": "Void Master",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_void_master"
+      "sourceId": "card_void_walker_void_master",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

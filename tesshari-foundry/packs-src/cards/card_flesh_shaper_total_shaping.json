@@ -1,5 +1,6 @@
 {
   "_id": "7c45194031f95991",
+  "_key": "!items!7c45194031f95991",
   "name": "Total Shaping",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -30,7 +31,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_total_shaping"
+      "sourceId": "card_flesh_shaper_total_shaping",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

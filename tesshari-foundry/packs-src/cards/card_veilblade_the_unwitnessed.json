@@ -1,5 +1,6 @@
 {
   "_id": "5ef46ad292ef4811",
+  "_key": "!items!5ef46ad292ef4811",
   "name": "The Unwitnessed",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -8,8 +9,8 @@
     "apCost": 3,
     "baseDamage": 26,
     "pierce": 0,
-    "category": "attack",
-    "primaryStat": "edge+signal",
+    "category": "signature",
+    "primaryStat": "edge",
     "keywords": [
       "Bleed 4",
       "Expose 4",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_the_unwitnessed"
+      "sourceId": "card_veilblade_the_unwitnessed",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

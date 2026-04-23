@@ -1,5 +1,6 @@
 {
   "_id": "a3c882874b1f440d",
+  "_key": "!items!a3c882874b1f440d",
   "name": "Wire Lock",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_wire_lock"
+      "sourceId": "card_wireweave_wire_lock",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

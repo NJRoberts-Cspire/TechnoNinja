@@ -1,5 +1,6 @@
 {
   "_id": "c151e2a862a7d3df",
+  "_key": "!items!c151e2a862a7d3df",
   "name": "Balanced Books",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_balanced_books"
+      "sourceId": "card_merchant_knife_balanced_books",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

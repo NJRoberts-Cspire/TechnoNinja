@@ -1,5 +1,6 @@
 {
   "_id": "71f86c2c8ef59eef",
+  "_key": "!items!71f86c2c8ef59eef",
   "name": "Wire Flood",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_wire_flood"
+      "sourceId": "card_wireweave_wire_flood",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

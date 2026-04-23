@@ -1,5 +1,6 @@
 {
   "_id": "1488e55c537e980d",
+  "_key": "!items!1488e55c537e980d",
   "name": "Hard March",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_hard_march"
+      "sourceId": "card_ashfoot_hard_march",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

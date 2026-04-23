@@ -1,5 +1,6 @@
 {
   "_id": "b44698dc25d9f4ea",
+  "_key": "!items!b44698dc25d9f4ea",
   "name": "Between Consecration",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_between_consecration"
+      "sourceId": "card_sutensai_between_consecration",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

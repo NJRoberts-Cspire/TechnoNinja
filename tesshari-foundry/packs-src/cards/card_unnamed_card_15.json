@@ -1,5 +1,6 @@
 {
   "_id": "fa59058222c5dc2a",
+  "_key": "!items!fa59058222c5dc2a",
   "name": "Card 15 - Capstone (Unnamed)",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_unnamed_card_15"
+      "sourceId": "card_unnamed_card_15",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

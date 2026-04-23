@@ -1,5 +1,6 @@
 {
   "_id": "413126bd13368f6b",
+  "_key": "!items!413126bd13368f6b",
   "name": "The Living Weapon",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_the_living_weapon"
+      "sourceId": "card_pulse_caller_the_living_weapon",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

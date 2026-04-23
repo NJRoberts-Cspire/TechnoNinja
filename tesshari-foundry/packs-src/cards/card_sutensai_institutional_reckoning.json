@@ -1,5 +1,6 @@
 {
   "_id": "a345a50a591521cf",
+  "_key": "!items!a345a50a591521cf",
   "name": "Institutional Reckoning",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_institutional_reckoning"
+      "sourceId": "card_sutensai_institutional_reckoning",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

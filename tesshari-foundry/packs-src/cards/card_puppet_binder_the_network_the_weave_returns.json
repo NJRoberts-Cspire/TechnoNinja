@@ -1,5 +1,6 @@
 {
   "_id": "0e41bc4d7894934b",
+  "_key": "!items!0e41bc4d7894934b",
   "name": "The Weave Returns",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_the_network_the_weave_returns"
+      "sourceId": "card_puppet_binder_the_network_the_weave_returns",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

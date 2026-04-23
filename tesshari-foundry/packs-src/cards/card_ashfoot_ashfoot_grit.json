@@ -1,5 +1,6 @@
 {
   "_id": "a4df394a29fc0612",
+  "_key": "!items!a4df394a29fc0612",
   "name": "Ashfoot Grit",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_ashfoot_grit"
+      "sourceId": "card_ashfoot_ashfoot_grit",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

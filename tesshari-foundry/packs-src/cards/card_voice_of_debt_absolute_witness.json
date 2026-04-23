@@ -1,5 +1,6 @@
 {
   "_id": "6d911f9cc4ecfd9b",
+  "_key": "!items!6d911f9cc4ecfd9b",
   "name": "Absolute Witness",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_absolute_witness"
+      "sourceId": "card_voice_of_debt_absolute_witness",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

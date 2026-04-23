@@ -1,5 +1,6 @@
 {
   "_id": "6d7f5372ec425ea1",
+  "_key": "!items!6d7f5372ec425ea1",
   "name": "Burning Sanctum",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_oath_flesh_temple_burning_sanctum"
+      "sourceId": "card_ironclad_oath_flesh_temple_burning_sanctum",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

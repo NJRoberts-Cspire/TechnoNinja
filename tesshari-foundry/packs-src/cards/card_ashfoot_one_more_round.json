@@ -1,5 +1,6 @@
 {
   "_id": "e49de4b9dfa1f253",
+  "_key": "!items!e49de4b9dfa1f253",
   "name": "One More Round",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_one_more_round"
+      "sourceId": "card_ashfoot_one_more_round",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "ac62620da52f0248",
+  "_key": "!items!ac62620da52f0248",
   "name": "Read the Margin",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_read_the_margin"
+      "sourceId": "card_sutensai_read_the_margin",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

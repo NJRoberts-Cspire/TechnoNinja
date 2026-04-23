@@ -1,5 +1,6 @@
 {
   "_id": "c82d5ce3db421222",
+  "_key": "!items!c82d5ce3db421222",
   "name": "Collector's Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_oath_undying_debt_collector_strike"
+      "sourceId": "card_ironclad_oath_undying_debt_collector_strike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "43d1456bc0bbcf91",
+  "_key": "!items!43d1456bc0bbcf91",
   "name": "Debt's Reach",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_debt_s_reach"
+      "sourceId": "card_voice_of_debt_debt_s_reach",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

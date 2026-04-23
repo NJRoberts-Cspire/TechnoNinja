@@ -1,5 +1,6 @@
 {
   "_id": "f1825329a755ab2e",
+  "_key": "!items!f1825329a755ab2e",
   "name": "Pain Dividend",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_blood_smith_pain_dividend"
+      "sourceId": "card_blood_smith_pain_dividend",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

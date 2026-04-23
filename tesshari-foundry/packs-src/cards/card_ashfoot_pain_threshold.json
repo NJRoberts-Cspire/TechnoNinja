@@ -1,5 +1,6 @@
 {
   "_id": "ea21159d8234517c",
+  "_key": "!items!ea21159d8234517c",
   "name": "Pain Threshold",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_pain_threshold"
+      "sourceId": "card_ashfoot_pain_threshold",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

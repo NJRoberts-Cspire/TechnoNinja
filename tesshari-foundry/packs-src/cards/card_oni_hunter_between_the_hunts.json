@@ -1,5 +1,6 @@
 {
   "_id": "ba5059a30f93ca00",
+  "_key": "!items!ba5059a30f93ca00",
   "name": "Between the Hunts",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_between_the_hunts"
+      "sourceId": "card_oni_hunter_between_the_hunts",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

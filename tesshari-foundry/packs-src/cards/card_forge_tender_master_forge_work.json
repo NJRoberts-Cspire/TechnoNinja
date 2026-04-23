@@ -1,5 +1,6 @@
 {
   "_id": "2415e00a175c4d4b",
+  "_key": "!items!2415e00a175c4d4b",
   "name": "Master Forge Work",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_master_forge_work"
+      "sourceId": "card_forge_tender_master_forge_work",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

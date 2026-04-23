@@ -1,5 +1,6 @@
 {
   "_id": "f840e466544c398f",
+  "_key": "!items!f840e466544c398f",
   "name": "The Debt of All Things",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_the_debt_of_all_things"
+      "sourceId": "card_voice_of_debt_the_debt_of_all_things",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

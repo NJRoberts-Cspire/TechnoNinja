@@ -1,5 +1,6 @@
 {
   "_id": "c56be2373c4a9de0",
+  "_key": "!items!c56be2373c4a9de0",
   "name": "Flare",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_the_signal_flare"
+      "sourceId": "card_iron_herald_the_signal_flare",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

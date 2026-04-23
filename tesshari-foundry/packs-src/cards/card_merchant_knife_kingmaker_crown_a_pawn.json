@@ -1,5 +1,6 @@
 {
   "_id": "04649506787fb8f0",
+  "_key": "!items!04649506787fb8f0",
   "name": "Crown a Pawn",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_kingmaker_crown_a_pawn"
+      "sourceId": "card_merchant_knife_kingmaker_crown_a_pawn",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

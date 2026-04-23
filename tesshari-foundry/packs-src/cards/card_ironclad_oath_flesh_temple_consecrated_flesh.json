@@ -1,5 +1,6 @@
 {
   "_id": "7f22a40e175e01f6",
+  "_key": "!items!7f22a40e175e01f6",
   "name": "Consecrated Flesh",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_oath_flesh_temple_consecrated_flesh"
+      "sourceId": "card_ironclad_oath_flesh_temple_consecrated_flesh",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

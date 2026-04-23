@@ -1,5 +1,6 @@
 {
   "_id": "bb115ee2ce3d8782",
+  "_key": "!items!bb115ee2ce3d8782",
   "name": "Into the Grinder",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_into_the_grinder"
+      "sourceId": "card_ashfoot_into_the_grinder",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

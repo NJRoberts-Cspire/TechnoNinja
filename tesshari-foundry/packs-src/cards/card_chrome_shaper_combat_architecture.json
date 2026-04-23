@@ -1,5 +1,6 @@
 {
   "_id": "5e261bc25d54d684",
+  "_key": "!items!5e261bc25d54d684",
   "name": "Combat Architecture",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_combat_architecture"
+      "sourceId": "card_chrome_shaper_combat_architecture",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

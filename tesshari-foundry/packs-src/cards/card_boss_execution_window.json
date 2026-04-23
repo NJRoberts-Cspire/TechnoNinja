@@ -1,5 +1,6 @@
 {
   "_id": "d0369adf48ca1ff5",
+  "_key": "!items!d0369adf48ca1ff5",
   "name": "Execution Window",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_boss_execution_window"
+      "sourceId": "card_boss_execution_window",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

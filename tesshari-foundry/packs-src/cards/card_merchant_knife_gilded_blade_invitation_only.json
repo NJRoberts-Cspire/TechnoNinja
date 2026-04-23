@@ -1,5 +1,6 @@
 {
   "_id": "e8c32bff2159d689",
+  "_key": "!items!e8c32bff2159d689",
   "name": "Invitation Only",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_gilded_blade_invitation_only"
+      "sourceId": "card_merchant_knife_gilded_blade_invitation_only",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "deed305eae880e5b",
+  "_key": "!items!deed305eae880e5b",
   "name": "Network of Obligation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_network_of_obligation"
+      "sourceId": "card_voice_of_debt_network_of_obligation",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

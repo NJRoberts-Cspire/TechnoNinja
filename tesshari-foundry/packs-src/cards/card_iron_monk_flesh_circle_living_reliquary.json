@@ -1,5 +1,6 @@
 {
   "_id": "f455682212fc63ca",
+  "_key": "!items!f455682212fc63ca",
   "name": "Living Reliquary",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_flesh_circle_living_reliquary"
+      "sourceId": "card_iron_monk_flesh_circle_living_reliquary",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

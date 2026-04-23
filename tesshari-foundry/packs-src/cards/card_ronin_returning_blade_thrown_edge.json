@@ -1,5 +1,6 @@
 {
   "_id": "c7577829ce3da30f",
+  "_key": "!items!c7577829ce3da30f",
   "name": "Thrown Edge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_returning_blade_thrown_edge"
+      "sourceId": "card_ronin_returning_blade_thrown_edge",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

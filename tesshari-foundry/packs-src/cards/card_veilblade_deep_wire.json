@@ -1,5 +1,6 @@
 {
   "_id": "8417dcc889af6843",
+  "_key": "!items!8417dcc889af6843",
   "name": "Deep Wire",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_deep_wire"
+      "sourceId": "card_veilblade_deep_wire",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

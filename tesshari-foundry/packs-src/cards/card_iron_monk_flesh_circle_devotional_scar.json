@@ -1,5 +1,6 @@
 {
   "_id": "f7787181794db2e4",
+  "_key": "!items!f7787181794db2e4",
   "name": "Devotional Scar",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_flesh_circle_devotional_scar"
+      "sourceId": "card_iron_monk_flesh_circle_devotional_scar",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

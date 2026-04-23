@@ -1,0 +1,41 @@
+{
+  "_id": "ef3f42070f667ed4",
+  "_key": "!items!ef3f42070f667ed4",
+  "name": "The Armorer",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Blood Smith",
+    "pathKey": "the_armorer",
+    "features": {
+      "3": {
+        "name": "Iron Endurance",
+        "html": "<p>You gain +3 to FRAME resistance checks made to resist forced movement, knockdown, or environmental hazards. Additionally, when you use your Deliberate Bleed feature, you can choose to gain the Forge Charges without taking any damage — instead, you accept one level of a minor physical impairment (reduced speed by 5 feet, -3 to EDGE-based cards for 1 round, etc.) of your choice. Your tolerance for reconfiguration has exceeded your tolerance for pain.</p>"
+      },
+      "6": {
+        "name": "Standing Ground",
+        "html": "<p>When you would be moved against your will (pushed, pulled, teleported), you can spend 2 Forge Charges to plant your feet. You are not moved. Additionally, you cannot be knocked prone while you have at least 1 Forge Charge.</p>"
+      },
+      "10": {
+        "name": "Living Fortress",
+        "html": "<p>While you have 3 or more Forge Charges, you have resistance to bludgeoning, piercing, and slashing damage. While you have 5 or more Forge Charges, the resistance extends to all physical damage types. This does not stack with the Scar Tissue Resistance feature — it supersedes it for physical damage.</p>"
+      },
+      "14": {
+        "name": "The Unbroken Form",
+        "html": "<p>Once per long rest, when you would drop to 0 hit points, your lattice fully liquefies and re-solidifies in a combat configuration. You remain at 1 hit point, immediately gain your Forge Charge maximum in Forge Charges, and for 1 minute: you have resistance to all damage, attacks against you that deal less than 5 damage deal 0 damage after resistance is applied, and at the start of each of your turns you regain hit points equal to your Constitution modifier. When this minute ends, you fall prone and must succeed on a DC 18 FRAME resistance check or gain three levels of exhaustion. The body has limits. The Armorer has learned where they are, and how far past them they can go.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Armorer is built to receive damage and continue. Their Blood Smithing practice is oriented entirely toward defensive application: the liquefied metal of their enhancement lattice is used to build reactive armor, to reinforce failing tissue, to redistribute impact. They are the most purely survivable Blood Smith path and the one with the most methodical relationship to pain. They have learned that endurance is a practice as much as a physical attribute — that the discipline of continuing to act under damage is something that can be developed, and they have developed it to a degree that is genuinely remarkable.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Blood Smith::the_armorer"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

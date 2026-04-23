@@ -1,5 +1,6 @@
 {
   "_id": "e8310e669f60c916",
+  "_key": "!items!e8310e669f60c916",
   "name": "Dead Reckoning",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_dead_reckoning"
+      "sourceId": "card_echo_speaker_dead_reckoning",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

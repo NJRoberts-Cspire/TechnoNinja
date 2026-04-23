@@ -1,5 +1,6 @@
 {
   "_id": "ad5460b5be0fd1b9",
+  "_key": "!items!ad5460b5be0fd1b9",
   "name": "Imprint the Grip",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_echomind_anchor_imprint_the_grip"
+      "sourceId": "card_forge_tender_echomind_anchor_imprint_the_grip",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

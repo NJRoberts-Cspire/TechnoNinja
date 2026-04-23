@@ -1,5 +1,6 @@
 {
   "_id": "f8793314321280c5",
+  "_key": "!items!f8793314321280c5",
   "name": "Iron Judgment",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_iron_judgment"
+      "sourceId": "card_ironclad_iron_judgment",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

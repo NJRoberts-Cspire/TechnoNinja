@@ -1,5 +1,6 @@
 {
   "_id": "a1f2e0811533a79a",
+  "_key": "!items!a1f2e0811533a79a",
   "name": "Card 15 — The Named",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_unnamed_card_15_the_named"
+      "sourceId": "card_unnamed_card_15_the_named",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

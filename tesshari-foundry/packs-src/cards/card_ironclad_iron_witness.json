@@ -1,5 +1,6 @@
 {
   "_id": "3fc56d6c24d8f45a",
+  "_key": "!items!3fc56d6c24d8f45a",
   "name": "Iron Witness",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -10,9 +11,7 @@
     "pierce": 0,
     "category": "passive",
     "primaryStat": "",
-    "keywords": [
-      "Shield 4"
-    ],
+    "keywords": [],
     "unlockLevel": 2,
     "className": "Ironclad Samurai",
     "subclass": "",
@@ -26,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_iron_witness"
+      "sourceId": "card_ironclad_iron_witness",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

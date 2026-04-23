@@ -1,5 +1,6 @@
 {
   "_id": "1af5f647921ab6f2",
+  "_key": "!items!1af5f647921ab6f2",
   "name": "Standing Stone",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_standing_stone"
+      "sourceId": "card_iron_monk_standing_stone",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "129e23e0322719e3",
+  "_key": "!items!129e23e0322719e3",
   "name": "Hairline Fracture",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_hairline_fracture"
+      "sourceId": "card_shell_dancer_hairline_fracture",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

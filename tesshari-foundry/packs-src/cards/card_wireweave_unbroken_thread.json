@@ -1,5 +1,6 @@
 {
   "_id": "5a7f23200f921a00",
+  "_key": "!items!5a7f23200f921a00",
   "name": "Unbroken Thread",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_unbroken_thread"
+      "sourceId": "card_wireweave_unbroken_thread",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

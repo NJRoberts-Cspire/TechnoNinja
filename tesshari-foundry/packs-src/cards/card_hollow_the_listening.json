@@ -1,5 +1,6 @@
 {
   "_id": "1433a3b5d51b3744",
+  "_key": "!items!1433a3b5d51b3744",
   "name": "The Listening",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_the_listening"
+      "sourceId": "card_hollow_the_listening",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

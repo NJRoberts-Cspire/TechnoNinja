@@ -1,5 +1,6 @@
 {
   "_id": "239e1cb69caa88e0",
+  "_key": "!items!239e1cb69caa88e0",
   "name": "Dissolution Nova",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_dissolution_nova"
+      "sourceId": "card_oni_hunter_dissolution_nova",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

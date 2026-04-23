@@ -1,5 +1,6 @@
 {
   "_id": "010379eaa480cc1a",
+  "_key": "!items!010379eaa480cc1a",
   "name": "Card 10",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_unnamed_card_10"
+      "sourceId": "card_unnamed_card_10",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

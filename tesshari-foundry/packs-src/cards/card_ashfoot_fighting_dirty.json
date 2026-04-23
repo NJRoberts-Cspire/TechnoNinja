@@ -1,5 +1,6 @@
 {
   "_id": "125213c4e63cbeac",
+  "_key": "!items!125213c4e63cbeac",
   "name": "Fighting Dirty",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -11,7 +12,9 @@
     "category": "attack",
     "primaryStat": "iron",
     "keywords": [
-      "Stagger"
+      "Variable — Bleed 1",
+      "Stagger",
+      "or Expose 1"
     ],
     "unlockLevel": 1,
     "className": "Ashfoot",
@@ -26,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_fighting_dirty"
+      "sourceId": "card_ashfoot_fighting_dirty",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

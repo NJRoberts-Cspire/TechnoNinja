@@ -1,5 +1,6 @@
 {
   "_id": "1673a9556f81ac1e",
+  "_key": "!items!1673a9556f81ac1e",
   "name": "Bitter Gift",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_bitter_gift"
+      "sourceId": "card_curse_eater_bitter_gift",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

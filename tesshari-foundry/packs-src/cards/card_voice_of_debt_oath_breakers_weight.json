@@ -1,5 +1,6 @@
 {
   "_id": "44b60bda33c9ee37",
+  "_key": "!items!44b60bda33c9ee37",
   "name": "Oath-Breaker's Weight",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_oath_breakers_weight"
+      "sourceId": "card_voice_of_debt_oath_breakers_weight",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "840598e2537dee97",
+  "_key": "!items!840598e2537dee97",
   "name": "Resonance Architect",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_resonance_architect"
+      "sourceId": "card_chrome_shaper_resonance_architect",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

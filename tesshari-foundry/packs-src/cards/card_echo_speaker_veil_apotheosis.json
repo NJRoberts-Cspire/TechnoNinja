@@ -1,5 +1,6 @@
 {
   "_id": "0548cca18fd9f31f",
+  "_key": "!items!0548cca18fd9f31f",
   "name": "Veil Apotheosis",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -10,10 +11,7 @@
     "pierce": 0,
     "category": "utility",
     "primaryStat": "",
-    "keywords": [
-      "Fortify",
-      "Veil"
-    ],
+    "keywords": [],
     "unlockLevel": 19,
     "className": "Echo Speaker",
     "subclass": "",
@@ -27,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_veil_apotheosis"
+      "sourceId": "card_echo_speaker_veil_apotheosis",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

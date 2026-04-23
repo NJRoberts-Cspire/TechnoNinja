@@ -1,5 +1,6 @@
 {
   "_id": "4726a87f2b8343e7",
+  "_key": "!items!4726a87f2b8343e7",
   "name": "Soul Shot",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_soul_shot"
+      "sourceId": "card_pulse_caller_soul_shot",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

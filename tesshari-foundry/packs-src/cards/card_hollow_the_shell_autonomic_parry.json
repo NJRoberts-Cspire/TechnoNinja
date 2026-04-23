@@ -1,5 +1,6 @@
 {
   "_id": "746651f8f1babc3d",
+  "_key": "!items!746651f8f1babc3d",
   "name": "Autonomic Parry",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_the_shell_autonomic_parry"
+      "sourceId": "card_hollow_the_shell_autonomic_parry",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

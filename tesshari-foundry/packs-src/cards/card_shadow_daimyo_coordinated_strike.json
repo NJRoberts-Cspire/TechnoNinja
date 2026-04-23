@@ -1,20 +1,21 @@
 {
   "_id": "99d3f717f83a8372",
+  "_key": "!items!99d3f717f83a8372",
   "name": "Coordinated Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
   "system": {
     "tier": 2,
     "apCost": 2,
-    "baseDamage": 11,
+    "baseDamage": 12,
     "pierce": 0,
     "category": "attack",
     "primaryStat": "iron",
     "keywords": [
-      "Bleed 2",
-      "Expose 2"
+      "Expose 2",
+      "Root"
     ],
-    "unlockLevel": 6,
+    "unlockLevel": 12,
     "className": "Shadow Daimyo",
     "subclass": "",
     "isRaceCard": false,
@@ -22,16 +23,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Deal 11 + IRON melee damage to one adjacent target. Apply Bleed 2 and Expose 2. The next ally to act may immediately make a free Basic Attack against the same target.</p>"
+    "description": "<p>You and an ally attack the same target simultaneously. Deal 12 + IRON damage. If an ally also attacks this target this round, add EDGE to the damage and apply Expose 2. The target must save or be knocked prone (unable to use Mobility cards next turn).</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shadow_daimyo_coordinated_strike"
+      "sourceId": "card_shadow_daimyo_coordinated_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 2006,
+  "sort": 2012,
   "ownership": {
     "default": 0
   }

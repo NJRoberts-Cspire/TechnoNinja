@@ -1,5 +1,6 @@
 {
   "_id": "b643f9a2122a342c",
+  "_key": "!items!b643f9a2122a342c",
   "name": "Scattered Pattern",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_unnamed_divergent_scattered_pattern"
+      "sourceId": "card_unnamed_divergent_scattered_pattern",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "7e4d55598bd10194",
+  "_key": "!items!7e4d55598bd10194",
   "name": "Parley",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_parley"
+      "sourceId": "card_iron_herald_parley",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

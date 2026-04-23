@@ -1,5 +1,6 @@
 {
   "_id": "b898b0c3c8ca944d",
+  "_key": "!items!b898b0c3c8ca944d",
   "name": "Sigil of Binding",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_resonance_sculptor_sigil_of_binding"
+      "sourceId": "card_chrome_shaper_resonance_sculptor_sigil_of_binding",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

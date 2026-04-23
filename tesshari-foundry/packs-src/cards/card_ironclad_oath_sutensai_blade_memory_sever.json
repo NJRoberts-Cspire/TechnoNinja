@@ -1,5 +1,6 @@
 {
   "_id": "d6a95ddcc2a9c930",
+  "_key": "!items!d6a95ddcc2a9c930",
   "name": "Memory Sever",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_oath_sutensai_blade_memory_sever"
+      "sourceId": "card_ironclad_oath_sutensai_blade_memory_sever",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

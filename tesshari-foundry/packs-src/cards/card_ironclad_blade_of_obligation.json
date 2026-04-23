@@ -1,5 +1,6 @@
 {
   "_id": "c69d5619a591cc16",
+  "_key": "!items!c69d5619a591cc16",
   "name": "Blade of Obligation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_blade_of_obligation"
+      "sourceId": "card_ironclad_blade_of_obligation",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

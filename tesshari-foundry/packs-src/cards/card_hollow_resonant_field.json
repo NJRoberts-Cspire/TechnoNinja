@@ -1,5 +1,6 @@
 {
   "_id": "c9499e1d46bd496f",
+  "_key": "!items!c9499e1d46bd496f",
   "name": "Resonant Field",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_resonant_field"
+      "sourceId": "card_hollow_resonant_field",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

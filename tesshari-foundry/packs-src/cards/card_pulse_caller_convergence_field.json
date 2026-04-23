@@ -1,5 +1,6 @@
 {
   "_id": "e8a840e63e6edb25",
+  "_key": "!items!e8a840e63e6edb25",
   "name": "Convergence Field",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_convergence_field"
+      "sourceId": "card_pulse_caller_convergence_field",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

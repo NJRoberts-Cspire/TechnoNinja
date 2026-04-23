@@ -1,5 +1,6 @@
 {
   "_id": "2598ee40f23b198c",
+  "_key": "!items!2598ee40f23b198c",
   "name": "Pursuit Cadence",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_debt_collector_pursuit_cadence"
+      "sourceId": "card_voice_of_debt_debt_collector_pursuit_cadence",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

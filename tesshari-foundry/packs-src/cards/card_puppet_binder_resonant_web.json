@@ -1,5 +1,6 @@
 {
   "_id": "46bb46653755f11d",
+  "_key": "!items!46bb46653755f11d",
   "name": "Resonant Web",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_resonant_web"
+      "sourceId": "card_puppet_binder_resonant_web",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

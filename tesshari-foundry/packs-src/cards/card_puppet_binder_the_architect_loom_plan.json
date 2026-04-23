@@ -1,5 +1,6 @@
 {
   "_id": "d925c1e5bc614139",
+  "_key": "!items!d925c1e5bc614139",
   "name": "The Loom-Plan",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_the_architect_loom_plan"
+      "sourceId": "card_puppet_binder_the_architect_loom_plan",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

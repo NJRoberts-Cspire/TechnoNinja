@@ -1,5 +1,6 @@
 {
   "_id": "57fc8b281c460e14",
+  "_key": "!items!57fc8b281c460e14",
   "name": "Puppet Shield",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_puppet_shield"
+      "sourceId": "card_puppet_binder_puppet_shield",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

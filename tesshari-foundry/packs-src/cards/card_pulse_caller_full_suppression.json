@@ -1,5 +1,6 @@
 {
   "_id": "49499fe1a0f691b0",
+  "_key": "!items!49499fe1a0f691b0",
   "name": "Full Suppression",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_full_suppression"
+      "sourceId": "card_pulse_caller_full_suppression",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

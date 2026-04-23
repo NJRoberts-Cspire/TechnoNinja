@@ -1,5 +1,6 @@
 {
   "_id": "57619cfc46a7b732",
+  "_key": "!items!57619cfc46a7b732",
   "name": "Deep Listener",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_deep_listener"
+      "sourceId": "card_veilblade_deep_listener",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

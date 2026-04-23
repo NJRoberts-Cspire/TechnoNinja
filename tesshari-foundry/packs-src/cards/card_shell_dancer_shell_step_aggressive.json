@@ -1,5 +1,6 @@
 {
   "_id": "bd8cdf837c9b1401",
+  "_key": "!items!bd8cdf837c9b1401",
   "name": "Shell Step: Aggressive",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_shell_step_aggressive"
+      "sourceId": "card_shell_dancer_shell_step_aggressive",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

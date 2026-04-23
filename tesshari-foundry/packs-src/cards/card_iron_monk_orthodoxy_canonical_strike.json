@@ -1,5 +1,6 @@
 {
   "_id": "007fb1e800a81201",
+  "_key": "!items!007fb1e800a81201",
   "name": "Canonical Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_orthodoxy_canonical_strike"
+      "sourceId": "card_iron_monk_orthodoxy_canonical_strike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

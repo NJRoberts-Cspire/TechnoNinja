@@ -1,5 +1,6 @@
 {
   "_id": "fad7448ac016e228",
+  "_key": "!items!fad7448ac016e228",
   "name": "Puppet Pull",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_puppet_pull"
+      "sourceId": "card_puppet_binder_puppet_pull",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

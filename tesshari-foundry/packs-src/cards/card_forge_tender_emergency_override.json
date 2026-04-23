@@ -1,5 +1,6 @@
 {
   "_id": "c4221babe014f8d7",
+  "_key": "!items!c4221babe014f8d7",
   "name": "Emergency Override",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_emergency_override"
+      "sourceId": "card_forge_tender_emergency_override",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

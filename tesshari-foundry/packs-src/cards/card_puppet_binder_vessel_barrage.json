@@ -1,5 +1,6 @@
 {
   "_id": "5eddd7d9c891c119",
+  "_key": "!items!5eddd7d9c891c119",
   "name": "Vessel Barrage",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_vessel_barrage"
+      "sourceId": "card_puppet_binder_vessel_barrage",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

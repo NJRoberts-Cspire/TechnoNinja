@@ -1,0 +1,41 @@
+{
+  "_id": "2936cc50c948cad5",
+  "_key": "!items!2936cc50c948cad5",
+  "name": "The Anchor",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Fracture Knight",
+    "pathKey": "the_anchor",
+    "features": {
+      "3": {
+        "name": "Anchor's Toll",
+        "html": "<p>The weight of being the wall is real. While your Ward the Veil is active, you take 1d4 psychic damage at the start of each of your turns. This damage cannot be prevented. It is the cost of the barrier.</p>"
+      },
+      "6": {
+        "name": "Expanded Ward",
+        "html": "<p>Your Ward the Veil radius extends to 60 feet. The duration extends to 1 hour. Additionally, when an Afterlife entity attempts to cross the Veil within your ward, you are aware of the attempt and its approximate location immediately.</p>"
+      },
+      "10": {
+        "name": "The Wall Fights Back",
+        "html": "<p>When an Afterlife entity or any creature using Iron Afterlife energy (puppet technology, void walking, etc.) attempts to operate within your Ward the Veil, they take 3d8 radiant damage (Constitution save for half) as the ward resists them. This damage applies once per attempt (not per round of sustained use).</p>"
+      },
+      "14": {
+        "name": "The Final Holding",
+        "html": "<p>Once per long rest, you can establish an absolute Veil closure in a 100-foot radius for 10 minutes. Within this area: no Iron Afterlife energy of any kind can function — no Void Walker abilities, no Echo Speaker contacts, no Flesh Shaper Puppet Threads, no direct Afterlife communication. The dead remain where they are. The living remain where they are. The Author's puppets within the area are severed from their operator for the duration (they stand inert). The ward costs 5 Phantom Charges to establish and 1 Phantom Charge per round to maintain. When it ends, you gain two levels of exhaustion and the dead in you are louder than normal for 24 hours, pressing against the Veil you just reinforced. The Anchor holds the line. What it costs them to hold it is the final question the class poses.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Anchor has made a specific choice about what the Fracture Knight's relationship to the dead means: not to carry them as companions or as a burden but to serve as the line between them and the world. The Anchor holds the Veil in place. When the dead press toward the physical world — when resonant conditions or the Hollow Author's interference creates pressure for unauthorized crossings — the Anchor is the resistance. They prevent the dead from coming through. They prevent the living from being pulled through. They stand between. They pay for this in the constant sensation of being the wall between forces that are always pressing.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Fracture Knight::the_anchor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

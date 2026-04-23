@@ -1,5 +1,6 @@
 {
   "_id": "49abc9e615c90e25",
+  "_key": "!items!49abc9e615c90e25",
   "name": "Armor Config",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_armor_config"
+      "sourceId": "card_chrome_shaper_armor_config",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

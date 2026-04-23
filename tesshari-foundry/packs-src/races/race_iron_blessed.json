@@ -1,0 +1,28 @@
+{
+  "_id": "167814db876fb1eb",
+  "_key": "!items!167814db876fb1eb",
+  "name": "Iron Blessed",
+  "type": "race",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "statBonuses": {
+      "resonance": 2
+    },
+    "handMod": 0,
+    "heritageBranches": [],
+    "raceCardSlugs": [],
+    "passives": "<p><strong>Resonant Attunement.</strong> The Iron Blessed attunes to resonant items and locations faster than any other race — what takes others a full scene takes the Iron Blessed a single moment of contact. Resonant items in their presence occasionally activate unpredictably: once per session, the GM may trigger a minor spontaneous effect from a nearby resonant item or location. This is not always beneficial. It is always significant.\r</p>\n<p><strong>Sutensai Attention.</strong> The Iron Blessed is monitored by the Iron Sutra priesthood. This is a narrative passive with real social weight: the Orthodoxy knows where the Iron Blessed has been, who they have spoken to, and what public actions they have taken. This creates both leverage (the Orthodoxy's protection is real) and constraint (the Orthodoxy's disapproval is costly). How the character navigates this attention is a persistent feature of play.\r</p>\n<p><strong>Unexpected Enhancement Integration.</strong> The Iron Blessed's cybernetic enhancements occasionally develop minor resonant properties beyond their designed function — a targeting system that also reads emotional states, a structural brace that hums at a frequency that calms nearby animals, a comm implant that sometimes receives transmissions from sources that shouldn't be able to reach it. The player and GM define one such emergent property at character creation, and additional properties may develop through play.</p>",
+    "description": "<p>The Iron Blessed did not choose their condition, and they cannot undo it. The resonant metal formations that grow from their bodies — spines, plates, crystal-like structures of a mineral that chassis-wrights have spent decades trying to classify and failed — begin in most cases in childhood, breaking through skin at the shoulders, spine, forearms, and jaw in formations that vary between individuals but are always, unmistakably, metal. Not a chassis component. Not an augmentation. Something that grew from inside, that the body produced as naturally as bone, that cannot be surgically removed without causing death. The Iron Blessed are not augmented. They were born this way.\r</p>\n<p>The Iron Sutra's response is the most powerful social force shaping the Iron Blessed's existence. The Orthodoxy's reading of the metal formations is unambiguous and ancient — the texts describing the \"resonant growth\" predate the current conflict by centuries, and they are clear. The Iron Blessed are signs. Their bodies have achieved a form of resonance so intense that the Echomind has begun to express itself physically, the soul's connection to steel made literal in the material of the body itself. They are not humans with a condition. They are evidence. Evidence that the Sutra is true, that Ascension is real, that the soul's relationship with steel is not merely a metaphor but a physical fact with physical consequences.\r</p>\n<p>The Orthodoxy protects the Iron Blessed, publicly and loudly. It also controls them. Being a living theological argument means being managed: how you dress, where you go, who you speak to, what you say about your own experience are all subject to the Orthodoxy's strong interest in ensuring that the argument you embody remains legible in the way they need it to be legible. Iron Blessed who describe their formations as painful — which they are, constantly — are gently redirected toward language that emphasizes transcendence over suffering. Iron Blessed who express ambivalence about their condition, or who develop spiritual views that diverge from Orthodoxy, find the protection notably less enthusiastic. And Iron Blessed who actively contradict the Orthodoxy's narrative about what they are discover that being a theological argument means the Orthodoxy has a significant investment in editing you.\r</p>\n<p>Most people fear the Iron Blessed, in a quiet way that coexists with the public reverence. This is not contradiction — it is the standard human response to something that signifies too much. Holy things are dangerous. Divine favor is not distributed randomly, which means something was chosen about the Iron Blessed, something that makes them different from everyone else, and that difference is uncomfortable to stand next to regardless of what you intellectually believe about it. Iron Blessed in non-Sutra regions — the Wire Market, parts of the Ashlands — encounter the fear without the reverence, which is simply more honest, and in some ways easier to work with.\r</p>\n<p>The pain is not metaphorical and not minor. The formations grow at irregular intervals throughout an Iron Blessed's life, and each new growth or extension is acutely painful in the weeks surrounding it. The existing formations carry a constant low-level ache that most Iron Blessed have learned to function through, the way one learns to function through chronic illness — not without cost, but with a kind of grim accommodation. The spiritual properties of the formations — their responsiveness to resonance, their unusual interaction with the Iron Afterlife's energies — are real and extraordinary. This does not make the pain less real. Being extraordinary and being in pain are not mutually exclusive, though most people seem to expect them to be.\r</p>\n<p>---</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Iron Blessed"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

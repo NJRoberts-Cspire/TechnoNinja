@@ -1,5 +1,6 @@
 {
   "_id": "2fc820e807b55303",
+  "_key": "!items!2fc820e807b55303",
   "name": "Shell Sight",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_shell_sight"
+      "sourceId": "card_oni_hunter_shell_sight",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

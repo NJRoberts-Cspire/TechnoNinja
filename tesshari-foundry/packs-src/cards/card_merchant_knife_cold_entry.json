@@ -1,5 +1,6 @@
 {
   "_id": "dfcb22becbf1336e",
+  "_key": "!items!dfcb22becbf1336e",
   "name": "Cold Entry",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_cold_entry"
+      "sourceId": "card_merchant_knife_cold_entry",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "3b93c1c983afe0ec",
+  "_key": "!items!3b93c1c983afe0ec",
   "name": "Living Chassis",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_living_chassis"
+      "sourceId": "card_chrome_shaper_living_chassis",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

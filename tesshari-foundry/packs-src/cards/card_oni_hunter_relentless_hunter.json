@@ -1,5 +1,6 @@
 {
   "_id": "2d9db4c7dd70d645",
+  "_key": "!items!2d9db4c7dd70d645",
   "name": "Relentless Hunter",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -10,9 +11,7 @@
     "pierce": 0,
     "category": "passive",
     "primaryStat": "",
-    "keywords": [
-      "Mark"
-    ],
+    "keywords": [],
     "unlockLevel": 5,
     "className": "Oni Hunter",
     "subclass": "",
@@ -26,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_relentless_hunter"
+      "sourceId": "card_oni_hunter_relentless_hunter",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

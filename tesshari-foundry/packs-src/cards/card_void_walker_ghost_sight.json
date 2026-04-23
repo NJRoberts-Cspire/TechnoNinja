@@ -1,5 +1,6 @@
 {
   "_id": "bfc0640e568137a3",
+  "_key": "!items!bfc0640e568137a3",
   "name": "Ghost Sight",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_ghost_sight"
+      "sourceId": "card_void_walker_ghost_sight",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

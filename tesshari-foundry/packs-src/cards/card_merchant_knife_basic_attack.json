@@ -1,5 +1,6 @@
 {
   "_id": "51c0e1ed4402ef77",
+  "_key": "!items!51c0e1ed4402ef77",
   "name": "Basic Attack (Merchant Knife)",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_basic_attack"
+      "sourceId": "card_merchant_knife_basic_attack",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

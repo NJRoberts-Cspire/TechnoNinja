@@ -1,5 +1,6 @@
 {
   "_id": "bdad691a40257811",
+  "_key": "!items!bdad691a40257811",
   "name": "Between Ward",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_between_ward"
+      "sourceId": "card_iron_monk_between_ward",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "566f96bfb3915c90",
+  "_key": "!items!566f96bfb3915c90",
   "name": "Suppression Line",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_suppression_line"
+      "sourceId": "card_pulse_caller_suppression_line",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

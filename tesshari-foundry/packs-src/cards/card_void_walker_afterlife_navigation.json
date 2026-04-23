@@ -1,5 +1,6 @@
 {
   "_id": "001c736a5ebd738b",
+  "_key": "!items!001c736a5ebd738b",
   "name": "Afterlife Navigation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_afterlife_navigation"
+      "sourceId": "card_void_walker_afterlife_navigation",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

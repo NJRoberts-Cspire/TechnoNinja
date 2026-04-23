@@ -1,5 +1,6 @@
 {
   "_id": "0b3c0c82300da6d6",
+  "_key": "!items!0b3c0c82300da6d6",
   "name": "Bite Deeper",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_the_consumed_bite_deeper"
+      "sourceId": "card_curse_eater_the_consumed_bite_deeper",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

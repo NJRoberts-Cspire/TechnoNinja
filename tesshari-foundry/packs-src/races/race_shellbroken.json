@@ -1,0 +1,29 @@
+{
+  "_id": "0fc0d361d19c98fc",
+  "_key": "!items!0fc0d361d19c98fc",
+  "name": "Shellbroken",
+  "type": "race",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "statBonuses": {
+      "veil": 1,
+      "signal": 1
+    },
+    "handMod": 0,
+    "heritageBranches": [],
+    "raceCardSlugs": [],
+    "passives": "<p><strong>Void-Touched Mind.</strong> Psychic effects, mental intrusion, fear, and morale-based effects have no mechanical power over the Shellbroken. The Hollow Author's occupation has left the Shellbroken's inner territory already-claimed by their own rebuilt will — there is no purchase for outside influence where a self has been deliberately reconstructed. Effects with Frightened, Charmed, or Taunt keywords do not apply to the Shellbroken. Damage from psychic or resonance sources still applies normally.\r</p>\n<p><strong>Shell-State Awareness.</strong> The Shellbroken can sense the presence of beings currently under the Hollow Author's control within 60 feet. This manifests as a physical sensation at the base of the skull — the same architecture used to puppet them now registers in reverse. The Shellbroken does not know which specific creature is controlled, only that a puppeted presence exists nearby.\r</p>\n<p><strong>Survivor's Clarity.</strong> Once per combat, when the Shellbroken is reduced below half their maximum HP, they immediately gain Guard 4 as a free reaction. This triggers automatically and requires no card or action. It can only trigger once per combat regardless of how many times the Shellbroken crosses the threshold.</p>",
+    "description": "<p>No one chooses to become a Shellbroken. Choice is precisely what is taken from them — first by whatever mechanism the entity called the Hollow Author uses to establish control over a host body, and then, in a different and more permanent way, by the liberation that follows. When the Hollow Author's control is severed — by outside intervention, by the rare cases of internal resistance that succeed, by whatever accident or damage disrupts the connection — the puppet body is returned to its previous inhabitant. But the previous inhabitant is not there. The time under the Author's control is a gap: a blank, a silence, an absence in the personal record that no amount of investigation fully fills. The Shellbroken wake up as themselves, with no continuity to what came before.\r</p>\n<p>The Hollow Author is not a name the general population of Tesshari knows. Most people do not know they have ever met someone operating under the Author's influence, which is precisely how it works. The Shellbroken who are freed often cannot explain what happened to them in terms that are legible to the institutions around them. They were somewhere, doing something, living a life that by external evidence was theirs — and now they're here, in this body, with this face that they recognize because mirrors confirm it, and no felt connection to the history that face implies. The Forged identity system, which relies heavily on chassis serial records and maintenance histories, provides some forensic information. It does not provide continuity. It does not provide self.\r</p>\n<p>The Iron Sutra's theology offers both comfort and horror to the Shellbroken. The comfort: the Echomind is, the Sutra teaches, the resonant self — the soul — and the Shellbroken's Echomind was never destroyed, only displaced, suppressed by the Author's intrusion. The self that wakes up when the shell breaks is real. The horror: the body did things during the gap. It went places, spoke words, killed or did not kill according to instructions the Echomind never issued. The Sutra has no clean answer for the moral weight of actions taken by a body whose soul was not driving it. The clergy tend to treat the Shellbroken with a cautious, arm's-length sympathy that most Shellbroken find insufficient.\r</p>\n<p>What makes the Shellbroken truly unusual — and truly dangerous, depending on who is assessing them — is that liberation does not completely sever the connection to the Hollow Author's network. It cannot. The architecture by which the Author controls hosts is woven into the body's systems too deeply for complete removal, and the Author's network is vast and distributed rather than residing in any single location that could be destroyed. The freed host retains vestigial connectivity: not control, not influence, but a residual channel that the Shellbroken can, with effort and at risk, use in reverse. They can feel the edges of the network. They can sometimes receive fragmented transmissions. They can, very occasionally, push back through the channel and disrupt other nodes. None of them are entirely certain this is safe. None of them are entirely certain the Author isn't still watching.\r</p>\n<p>---</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Shellbroken"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

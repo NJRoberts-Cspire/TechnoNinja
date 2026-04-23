@@ -1,5 +1,6 @@
 {
   "_id": "bc2c71bef55f8753",
+  "_key": "!items!bc2c71bef55f8753",
   "name": "Hunger Unchained",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_hunger_unchained"
+      "sourceId": "card_curse_eater_hunger_unchained",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

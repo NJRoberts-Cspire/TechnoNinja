@@ -1,5 +1,6 @@
 {
   "_id": "c7e3bb9084b61f18",
+  "_key": "!items!c7e3bb9084b61f18",
   "name": "Stitched World",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_anchor_keeper_stitched_world"
+      "sourceId": "card_void_walker_anchor_keeper_stitched_world",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "95d9d37a876173c8",
+  "_key": "!items!95d9d37a876173c8",
   "name": "Cascade Shutdown",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_cascade_shutdown"
+      "sourceId": "card_wireweave_cascade_shutdown",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

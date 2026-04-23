@@ -1,5 +1,6 @@
 {
   "_id": "7e25b6761b214c61",
+  "_key": "!items!7e25b6761b214c61",
   "name": "Resonance Flood",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -11,7 +12,9 @@
     "category": "signature",
     "primaryStat": "",
     "keywords": [
-      "Regen 2"
+      "Regen 2",
+      "Cleanse (one debuff",
+      "all allies)"
     ],
     "unlockLevel": 16,
     "className": "Forge Tender",
@@ -26,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_resonance_flood"
+      "sourceId": "card_forge_tender_resonance_flood",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

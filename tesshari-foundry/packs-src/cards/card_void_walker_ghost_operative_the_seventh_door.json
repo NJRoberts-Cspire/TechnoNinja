@@ -1,5 +1,6 @@
 {
   "_id": "6ba60d5bef178018",
+  "_key": "!items!6ba60d5bef178018",
   "name": "The Seventh Door",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_ghost_operative_the_seventh_door"
+      "sourceId": "card_void_walker_ghost_operative_the_seventh_door",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

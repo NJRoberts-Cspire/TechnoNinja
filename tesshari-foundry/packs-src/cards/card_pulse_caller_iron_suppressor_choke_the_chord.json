@@ -1,5 +1,6 @@
 {
   "_id": "90daac144151898b",
+  "_key": "!items!90daac144151898b",
   "name": "Choke the Chord",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_iron_suppressor_choke_the_chord"
+      "sourceId": "card_pulse_caller_iron_suppressor_choke_the_chord",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

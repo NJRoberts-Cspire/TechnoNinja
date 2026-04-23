@@ -1,5 +1,6 @@
 {
   "_id": "aaff748e98cc08b7",
+  "_key": "!items!aaff748e98cc08b7",
   "name": "Wire Network",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -10,9 +11,7 @@
     "pierce": 0,
     "category": "passive",
     "primaryStat": "",
-    "keywords": [
-      "Expose 1"
-    ],
+    "keywords": [],
     "unlockLevel": 4,
     "className": "Veilblade",
     "subclass": "",
@@ -26,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_wire_network"
+      "sourceId": "card_veilblade_wire_network",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

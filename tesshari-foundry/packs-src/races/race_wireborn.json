@@ -1,0 +1,29 @@
+{
+  "_id": "d8f4765cdac69100",
+  "_key": "!items!d8f4765cdac69100",
+  "name": "Wireborn",
+  "type": "race",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "statBonuses": {
+      "signal": 1,
+      "edge": 1
+    },
+    "handMod": 1,
+    "heritageBranches": [],
+    "raceCardSlugs": [],
+    "passives": "<p><strong>Ambient Wire Sense.</strong> The Wireborn is always aware of active Wire Craft systems within 60 feet — their presence, general direction, and approximate power level. This awareness is constant and requires no action. Hidden or concealed systems are not exempt; the Wireborn's subdermal circuitry reads operational data signatures regardless of physical concealment. This does not grant access to those systems, only awareness of their existence.\r</p>\n<p><strong>Signal Vulnerability.</strong> Silence effects last 1 additional turn on the Wireborn. Their deeper integration with Wire Craft infrastructure means disruption resonates further through their neurology than it would for other races. This is a structural weakness that cannot be suppressed by cards or enhancements.\r</p>\n<p><strong>Digital Navigation.</strong> In any environment with active Wire Craft infrastructure, the Wireborn navigates data architecture as fluently as physical space. They always know the layout of accessible network systems they are connected to, cannot become disoriented within digital environments, and can retrace any data path they have previously traveled with perfect fidelity.</p>",
+    "description": "<p>The Wireborn did not begin as a theoretical possibility. They began as accidents — people found in the deep infrastructure of the Wire Market's oldest machine-networks, small and strange and impossibly calm in environments that would kill a normal person, with circuit-trace patterns beneath their skin and an ability to understand the language of machines that no one had taught them. The first documented cases were dismissed as anomalies, isolated curiosities. Then there were more. Then there were enough that dismissal became untenable and the question of what they were became urgent.\r</p>\n<p>What they are, the Wire Market's scholars eventually concluded, is a product of the networks themselves. In the densest nodes of Tesshari's digital infrastructure — where data density reaches critical thresholds, where the machine-network runs hot enough that the boundary between the physical and the digital becomes genuinely unstable — consciousness can spontaneously generate. Not from nothing: typically, a biological precursor is involved, a fetus or child or sometimes a fully grown adult whose biology happens to interface with the network at a moment of maximum density. The network doesn't so much invade the body as recognize in it a compatible architecture and complete a circuit that was previously open. The result is the Wireborn: a being that is partially organic, partially data, and entirely neither.\r</p>\n<p>The Iron Sutra's response to the Wireborn is philosophically strained. The Echomind, the Sutra teaches, emerges from the resonance between flesh and steel. The Wireborn's resonance runs not between flesh and mechanical augmentation but between flesh and pure information — a kind of soul-architecture the Sutra's founders did not anticipate. The more progressive clergy have expanded the doctrine to encompass this (the Echomind can resonate with any form of structured complexity, not merely physical steel), but the Orthodoxy's conservative wing regards the Wireborn with open suspicion. A soul that lives partly in data is a soul that could be copied, modified, deleted. The implications are uncomfortable.\r</p>\n<p>The Wireborn themselves relate to spirituality primarily through direct experience rather than doctrine. They are aware of the data-layer of existence in the same way a sighted person is aware of color — not as an abstract principle but as a constant, immediate sensory reality. The resonance they feel is not between their flesh and a chassis but between their flesh and the vast, humming archive of everything that has ever been recorded. They move through the world carrying the weight of that archive lightly, mostly, the way you carry the weight of a language you've spoken since birth. Sometimes, in very old network nodes or in places where significant data has accumulated for decades, they stop and stand still for a moment longer than the situation requires. They are listening to something no one else can hear.\r</p>\n<p>---</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Wireborn"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

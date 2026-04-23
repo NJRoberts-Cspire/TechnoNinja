@@ -1,5 +1,6 @@
 {
   "_id": "522a6712547dcb67",
+  "_key": "!items!522a6712547dcb67",
   "name": "Forge Crash",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_forge_crash"
+      "sourceId": "card_chrome_shaper_forge_crash",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

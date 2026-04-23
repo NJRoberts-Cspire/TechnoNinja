@@ -1,5 +1,6 @@
 {
   "_id": "6969b22a2ff1b049",
+  "_key": "!items!6969b22a2ff1b049",
   "name": "Phase Field",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_phase_field"
+      "sourceId": "card_void_walker_phase_field",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

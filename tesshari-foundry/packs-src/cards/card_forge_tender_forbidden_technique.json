@@ -1,5 +1,6 @@
 {
   "_id": "f1748bef53f84a20",
+  "_key": "!items!f1748bef53f84a20",
   "name": "Forbidden Technique",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_forbidden_technique"
+      "sourceId": "card_forge_tender_forbidden_technique",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

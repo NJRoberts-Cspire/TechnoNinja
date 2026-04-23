@@ -1,5 +1,6 @@
 {
   "_id": "0bf822732c6c0e99",
+  "_key": "!items!0bf822732c6c0e99",
   "name": "Oath Pressure",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_oath_pressure"
+      "sourceId": "card_ironclad_oath_pressure",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

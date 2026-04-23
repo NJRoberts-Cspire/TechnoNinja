@@ -1,5 +1,6 @@
 {
   "_id": "cf61d9d3640b92a0",
+  "_key": "!items!cf61d9d3640b92a0",
   "name": "The Keeper's Knowledge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_the_keeper_s_knowledge"
+      "sourceId": "card_forge_tender_the_keeper_s_knowledge",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

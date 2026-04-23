@@ -1,5 +1,6 @@
 {
   "_id": "d2ee162cd68ee038",
+  "_key": "!items!d2ee162cd68ee038",
   "name": "The Correct Calculation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_the_correct_calculation"
+      "sourceId": "card_merchant_knife_the_correct_calculation",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

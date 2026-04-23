@@ -1,5 +1,6 @@
 {
   "_id": "9487cbe66b545275",
+  "_key": "!items!9487cbe66b545275",
   "name": "Refuse",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_refuse"
+      "sourceId": "card_ashfoot_refuse",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

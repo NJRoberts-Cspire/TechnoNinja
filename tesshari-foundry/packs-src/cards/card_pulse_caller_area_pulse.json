@@ -1,5 +1,6 @@
 {
   "_id": "5c1ca0131302b7cf",
+  "_key": "!items!5c1ca0131302b7cf",
   "name": "Area Pulse",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_area_pulse"
+      "sourceId": "card_pulse_caller_area_pulse",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

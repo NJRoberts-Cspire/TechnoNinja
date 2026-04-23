@@ -1,5 +1,6 @@
 {
   "_id": "bd99fa7b9e65bf13",
+  "_key": "!items!bd99fa7b9e65bf13",
   "name": "Cold Reading",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_ghost_archive_cold_reading"
+      "sourceId": "card_veilblade_ghost_archive_cold_reading",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,36 +1,36 @@
 {
   "_id": "5790bee5076acd5d",
+  "_key": "!items!5790bee5076acd5d",
   "name": "Between-Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
   "system": {
-    "tier": 1,
-    "apCost": 1,
-    "baseDamage": 6,
-    "pierce": 0,
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 14,
+    "pierce": 8,
     "category": "attack",
-    "primaryStat": "iron",
-    "keywords": [
-      "Fracture 1"
-    ],
-    "unlockLevel": 1,
+    "primaryStat": "edge",
+    "keywords": [],
+    "unlockLevel": 13,
     "className": "Fracture Knight",
     "subclass": "",
     "isRaceCard": false,
     "race": "",
-    "isStartingHand": true,
+    "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Deal 6 + IRON damage. Apply Fracture 1 to the target. Gain 1 Phantom Charge.</p>"
+    "description": "<p>Strike from between worlds — your weapon phases through defenses before solidifying at impact. Deal 14 + EDGE damage. Pierce 8. If you are currently in incorporeal state (via Phase Step), this card deals +6 additional damage.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_between_strike"
+      "sourceId": "card_fracture_knight_between_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 1001,
+  "sort": 2013,
   "ownership": {
     "default": 0
   }

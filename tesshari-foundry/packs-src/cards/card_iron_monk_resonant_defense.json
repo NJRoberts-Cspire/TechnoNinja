@@ -1,5 +1,6 @@
 {
   "_id": "d0280234bc7f73d7",
+  "_key": "!items!d0280234bc7f73d7",
   "name": "Resonant Defense",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_resonant_defense"
+      "sourceId": "card_iron_monk_resonant_defense",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "354c972b8581af87",
+  "_key": "!items!354c972b8581af87",
   "name": "Snare Lattice",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_combat_weave_snare_lattice"
+      "sourceId": "card_wireweave_combat_weave_snare_lattice",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

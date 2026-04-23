@@ -1,5 +1,6 @@
 {
   "_id": "55d54e959d2652b9",
+  "_key": "!items!55d54e959d2652b9",
   "name": "The Body Endures",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_the_body_endures"
+      "sourceId": "card_forge_tender_the_body_endures",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "96adca507d275c58",
+  "_key": "!items!96adca507d275c58",
   "name": "Nothing Said Twice",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shadow_daimyo_nothing_said_twice"
+      "sourceId": "card_shadow_daimyo_nothing_said_twice",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

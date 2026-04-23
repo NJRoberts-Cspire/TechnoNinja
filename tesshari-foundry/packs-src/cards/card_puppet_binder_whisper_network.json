@@ -1,5 +1,6 @@
 {
   "_id": "bdf92cb3bf147ad6",
+  "_key": "!items!bdf92cb3bf147ad6",
   "name": "Whisper Network",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_whisper_network"
+      "sourceId": "card_puppet_binder_whisper_network",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

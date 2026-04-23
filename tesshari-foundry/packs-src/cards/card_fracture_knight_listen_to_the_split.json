@@ -1,5 +1,6 @@
 {
   "_id": "901a20d13d25f6fb",
+  "_key": "!items!901a20d13d25f6fb",
   "name": "Listen to the Split",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_listen_to_the_split"
+      "sourceId": "card_fracture_knight_listen_to_the_split",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

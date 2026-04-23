@@ -1,5 +1,6 @@
 {
   "_id": "a3e3404e7e1bf102",
+  "_key": "!items!a3e3404e7e1bf102",
   "name": "Veil Disruption",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_veil_disruption"
+      "sourceId": "card_echo_speaker_veil_disruption",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "0b71c4cba5341a25",
+  "_key": "!items!0b71c4cba5341a25",
   "name": "Network Weapon",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_network_weapon"
+      "sourceId": "card_veilblade_network_weapon",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

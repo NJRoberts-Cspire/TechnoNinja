@@ -1,5 +1,6 @@
 {
   "_id": "9252e184cde76905",
+  "_key": "!items!9252e184cde76905",
   "name": "Walk the Line",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_shadow_operative_walk_the_line"
+      "sourceId": "card_veilblade_shadow_operative_walk_the_line",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "67e4a0f01089f387",
+  "_key": "!items!67e4a0f01089f387",
   "name": "Litany of the Unmade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_purifier_litany"
+      "sourceId": "card_curse_eater_purifier_litany",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "1409f834ae3c7565",
+  "_key": "!items!1409f834ae3c7565",
   "name": "Signal Erasure",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_signal_erasure"
+      "sourceId": "card_veilblade_signal_erasure",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

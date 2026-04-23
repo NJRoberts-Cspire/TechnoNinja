@@ -1,5 +1,6 @@
 {
   "_id": "c45281a43a0ff69f",
+  "_key": "!items!c45281a43a0ff69f",
   "name": "Hollow Throat",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_sutensai_aligned_hollow_throat"
+      "sourceId": "card_echo_speaker_sutensai_aligned_hollow_throat",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

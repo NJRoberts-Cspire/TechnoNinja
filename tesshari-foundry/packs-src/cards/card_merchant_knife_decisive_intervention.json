@@ -1,5 +1,6 @@
 {
   "_id": "af967cbd2752bd40",
+  "_key": "!items!af967cbd2752bd40",
   "name": "Decisive Intervention",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_decisive_intervention"
+      "sourceId": "card_merchant_knife_decisive_intervention",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

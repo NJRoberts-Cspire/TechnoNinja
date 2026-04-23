@@ -1,5 +1,6 @@
 {
   "_id": "12902088633c7ba8",
+  "_key": "!items!12902088633c7ba8",
   "name": "Thread Detonation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_thread_detonation"
+      "sourceId": "card_puppet_binder_thread_detonation",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "69eb19c0bfa247b2",
+  "_key": "!items!69eb19c0bfa247b2",
   "name": "Field Suppression",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_field_suppression"
+      "sourceId": "card_iron_herald_field_suppression",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

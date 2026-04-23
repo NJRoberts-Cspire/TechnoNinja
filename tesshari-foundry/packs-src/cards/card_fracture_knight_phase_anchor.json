@@ -1,5 +1,6 @@
 {
   "_id": "16407d1fb341658d",
+  "_key": "!items!16407d1fb341658d",
   "name": "Phase Anchor",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_phase_anchor"
+      "sourceId": "card_fracture_knight_phase_anchor",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

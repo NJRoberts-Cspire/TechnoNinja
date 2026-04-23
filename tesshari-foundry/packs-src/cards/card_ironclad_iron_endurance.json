@@ -1,5 +1,6 @@
 {
   "_id": "e23c889d28c16cbc",
+  "_key": "!items!e23c889d28c16cbc",
   "name": "Iron Endurance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -8,29 +9,30 @@
     "apCost": 1,
     "baseDamage": 0,
     "pierce": 0,
-    "category": "reaction",
+    "category": "defense",
     "primaryStat": "",
     "keywords": [
-      "Regen 2"
+      "Guard 8"
     ],
-    "unlockLevel": 6,
+    "unlockLevel": 2,
     "className": "Ironclad Samurai",
     "subclass": "",
     "isRaceCard": false,
     "race": "",
     "isStartingHand": false,
-    "isReaction": true,
+    "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>*Triggered when you take damage that would reduce you below half HP.* Activate your enhancement network's endurance subroutine. Reduce incoming damage by 6 + FRAME. If this prevents the damage that would have dropped you below half, gain Regen 2 for 2 turns.</p>"
+    "description": "<p>Absorb an incoming hit through the Between. Gain Guard 8. If you are hit by an attack this turn despite your Guard, recover 4 HP (the Between recycles the impact). **Below half HP:** Guard increases to 12.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_iron_endurance"
+      "sourceId": "card_ironclad_iron_endurance",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 1006,
+  "sort": 1002,
   "ownership": {
     "default": 0
   }

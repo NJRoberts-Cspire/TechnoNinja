@@ -1,0 +1,34 @@
+{
+  "_id": "f14aac51390e7b74",
+  "_key": "!items!f14aac51390e7b74",
+  "name": "Iron Herald",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hpTier": "martial",
+    "handBase": 6,
+    "primaryStats": [
+      "veil",
+      "resonance"
+    ],
+    "startingHandSlugs": [],
+    "unlockList": {},
+    "subclassSlugs": [
+      "Warbanner",
+      "Neutral Tongue",
+      "The Signal"
+    ],
+    "description": "<p>The Broken Reaches would be entirely disconnected without the Iron Heralds. In a world fractured into warring territories, where Wire Craft is monitored, where messengers are intercepted, where the intelligence value of communications is high enough that standing orders in most military commands include provisions for killing anyone trying to cross the front — the Heralds move. They move because they have built, over centuries, a tradition that every major power in Tesshari has decided is more valuable intact than violated. The Herald passes, because the alternative — a world where no information crosses hostile lines, where peace negotiations are impossible, where armies cannot know what the enemy is prepared to accept before a battle that will kill thousands — is worse for every party, including the ones currently fighting.\r</p>\n<p>This protection is not guaranteed. It is a social technology, maintained by reputation and by the Heralds' own credibility, and like all social technologies it is vulnerable to people who decide the short-term value of violating it exceeds the long-term cost. There have been Heralds killed in the line of duty, and the killing was noted, and there were consequences, and the cycle of deterrence reasserted itself. But the moments between the violation and the consequence are real, and every Herald working in hostile territory is doing a risk calculation about whether the tradition will hold today, for them, in this specific location, with these specific parties. Most of the time the calculation comes out correctly. The ones who made an incorrect calculation are no longer calculating.\r</p>\n<p>The Iron Herald's cybernetic enhancements are built for communication in a way that no other class fully matches. They carry long-range Wire Craft arrays in their neural architecture that allow them to send and receive encoded signals across distances that would require a dedicated installation for anyone else. They can broadcast to allies. They can, at advanced levels, jam enemy communications in an area while keeping their own secure. They can coordinate a battle in real time by transmitting tactical information to every allied enhancement within range, effectively serving as a living command-and-control node. This makes them indispensable in military operations and one of the highest-value targets on any battlefield, which is the specific irony that every Warbanner has made their peace with.\r</p>\n<p>The Neutral Tongue Herald is the most purely protected of the three paths — their value to all parties is sustained by the cultural architecture of the herald tradition, and they weaponize that protection in ways that look like neutrality from the outside but are, in practice, a sophisticated operational tool. A Neutral Tongue who has entered a warlord's court under herald protection has full social immunity, full freedom to communicate what they observe, and the structural guarantee that every message they carry will be treated as authentic by its recipient. This is, when used correctly, a more powerful intelligence instrument than any Shadow Daimyo network — because the Neutral Tongue's intelligence is trusted by virtue of their role.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Iron Herald"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

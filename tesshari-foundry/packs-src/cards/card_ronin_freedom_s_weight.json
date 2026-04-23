@@ -1,5 +1,6 @@
 {
   "_id": "dc4576fdcbffd6f0",
+  "_key": "!items!dc4576fdcbffd6f0",
   "name": "Freedom's Weight",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -30,7 +31,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_freedom_s_weight"
+      "sourceId": "card_ronin_freedom_s_weight",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

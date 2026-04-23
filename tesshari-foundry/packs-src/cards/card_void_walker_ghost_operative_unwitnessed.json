@@ -1,5 +1,6 @@
 {
   "_id": "c685b9d5fdc88be4",
+  "_key": "!items!c685b9d5fdc88be4",
   "name": "Unwitnessed",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_ghost_operative_unwitnessed"
+      "sourceId": "card_void_walker_ghost_operative_unwitnessed",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

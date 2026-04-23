@@ -1,5 +1,6 @@
 {
   "_id": "dcf6809f7dc1a0c3",
+  "_key": "!items!dcf6809f7dc1a0c3",
   "name": "Combat Triage",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_combat_triage"
+      "sourceId": "card_forge_tender_combat_triage",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

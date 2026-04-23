@@ -1,5 +1,6 @@
 {
   "_id": "0754f9f40c8e370f",
+  "_key": "!items!0754f9f40c8e370f",
   "name": "The Hand That Takes",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_hand_that_takes"
+      "sourceId": "card_curse_eater_hand_that_takes",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

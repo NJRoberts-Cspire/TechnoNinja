@@ -1,5 +1,6 @@
 {
   "_id": "1bc055e258b9edee",
+  "_key": "!items!1bc055e258b9edee",
   "name": "Basic Attack (Ironclad)",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_basic_attack"
+      "sourceId": "card_ironclad_basic_attack",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

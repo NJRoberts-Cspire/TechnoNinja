@@ -1,5 +1,6 @@
 {
   "_id": "515d46ec0ecfb180",
+  "_key": "!items!515d46ec0ecfb180",
   "name": "Mechanical Surge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_mechanical_surge"
+      "sourceId": "card_hollow_mechanical_surge",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

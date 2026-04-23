@@ -1,5 +1,6 @@
 {
   "_id": "4eebb65286daa410",
+  "_key": "!items!4eebb65286daa410",
   "name": "Iron Afterlife Call",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_iron_afterlife_call"
+      "sourceId": "card_echo_speaker_iron_afterlife_call",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

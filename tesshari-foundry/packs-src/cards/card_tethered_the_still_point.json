@@ -1,5 +1,6 @@
 {
   "_id": "4c667b34e8ab49ab",
+  "_key": "!items!4c667b34e8ab49ab",
   "name": "The Still Point",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,11 +29,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_tethered_the_still_point"
+      "sourceId": "card_tethered_the_still_point",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "e340c42c2e284b8a",
+  "_key": "!items!e340c42c2e284b8a",
   "name": "Wear the Oni",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_subclass_power_resonance_collector_wear_the_oni"
+      "sourceId": "card_oni_hunter_subclass_power_resonance_collector_wear_the_oni",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "08006b5b3d2a49b2",
+  "_key": "!items!08006b5b3d2a49b2",
   "name": "Distributed Presence",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_distributed_presence"
+      "sourceId": "card_veilblade_distributed_presence",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

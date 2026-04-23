@@ -1,5 +1,6 @@
 {
   "_id": "6ae29c6590c04276",
+  "_key": "!items!6ae29c6590c04276",
   "name": "System Synchrony",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_system_synchrony"
+      "sourceId": "card_pulse_caller_system_synchrony",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

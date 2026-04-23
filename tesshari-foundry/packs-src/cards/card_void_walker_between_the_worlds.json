@@ -1,5 +1,6 @@
 {
   "_id": "8da33c2addf981e8",
+  "_key": "!items!8da33c2addf981e8",
   "name": "Between the Worlds",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_between_the_worlds"
+      "sourceId": "card_void_walker_between_the_worlds",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

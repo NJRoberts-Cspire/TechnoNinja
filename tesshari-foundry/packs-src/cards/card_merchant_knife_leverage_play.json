@@ -1,5 +1,6 @@
 {
   "_id": "2607b4526ce1bbae",
+  "_key": "!items!2607b4526ce1bbae",
   "name": "Leverage Play",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_leverage_play"
+      "sourceId": "card_merchant_knife_leverage_play",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

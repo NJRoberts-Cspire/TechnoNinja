@@ -1,5 +1,6 @@
 {
   "_id": "e69da2b06f1f5060",
+  "_key": "!items!e69da2b06f1f5060",
   "name": "Refined Assessment",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_refined_assessment"
+      "sourceId": "card_oni_hunter_refined_assessment",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

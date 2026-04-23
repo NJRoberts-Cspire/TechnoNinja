@@ -1,5 +1,6 @@
 {
   "_id": "5cd8e398c0519582",
+  "_key": "!items!5cd8e398c0519582",
   "name": "Iron Discipline",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_iron_discipline"
+      "sourceId": "card_iron_monk_iron_discipline",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

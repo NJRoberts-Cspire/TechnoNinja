@@ -1,5 +1,6 @@
 {
   "_id": "52b9aea69c44160e",
+  "_key": "!items!52b9aea69c44160e",
   "name": "Void Eruption",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_void_eruption"
+      "sourceId": "card_void_walker_void_eruption",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

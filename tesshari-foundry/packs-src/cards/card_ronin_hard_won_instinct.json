@@ -1,5 +1,6 @@
 {
   "_id": "56eb54d842b00bc4",
+  "_key": "!items!56eb54d842b00bc4",
   "name": "Hard-Won Instinct",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_hard_won_instinct"
+      "sourceId": "card_ronin_hard_won_instinct",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

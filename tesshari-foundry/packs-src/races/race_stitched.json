@@ -1,0 +1,29 @@
+{
+  "_id": "c6d323376fc6a792",
+  "_key": "!items!c6d323376fc6a792",
+  "name": "Stitched",
+  "type": "race",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "statBonuses": {
+      "frame": 1,
+      "iron": 1
+    },
+    "handMod": 0,
+    "heritageBranches": [],
+    "raceCardSlugs": [],
+    "passives": "<p><strong>Modular Construction.</strong> Replacing or repairing the Stitched's enhancements costs half the standard time and resources. A repair that would take a full rest for another race takes a short rest for the Stitched. A modification that would require a chassis-wright's full session can be performed in a single scene. This reflects the Stitched's body being built for replacement rather than permanence.\r</p>\n<p><strong>Inconsistent Resonance Signature.</strong> Abilities and effects that target a specific Echomind — tracking effects, identity-lock status, and abilities that require reading a target's personal resonance — have a 50% chance to misfire against the Stitched. When such an ability targets the Stitched, the GM rolls a die before applying its effect; on an odd result, the ability fails to lock on and is wasted. Standard damage and non-targeting effects are unaffected.\r</p>\n<p><strong>Stagger Resistance.</strong> The first source of Stagger per combat that would be applied to the Stitched is negated. Their distributed pain response and redundant systems absorb the first disruption before it can cascade. Subsequent Stagger from different sources in the same combat applies normally.</p>",
+    "description": "<p>There are several paths to becoming Stitched, and none of them are chosen lightly. Some are survivors: people whose bodies were so catastrophically destroyed — by war, by industrial accident, by the particular brutality of the Ashlands' collapsed infrastructure — that conventional medicine and chassis-work could not rebuild them from their own parts alone. The solution, pioneered by necessity in the Ashlands and then systematized by the Echo Coast's more experimental medical wings, was assembly: reconstruct the damaged person using compatible biological and mechanical components sourced from whatever was available. If the right arm was unsalvageable, find one that fits. If the original heart was destroyed, install another. If enough components needed replacement that the body became, functionally, a patchwork of different sources — well. The person is still alive.\r</p>\n<p>Others became Stitched deliberately. The experimental surgery schools of certain Ashlands communities, and the darker research programs that some of Tesshari's less reputable factions fund in secret, have produced individuals whose bodies were intentionally assembled or restructured from multiple sources. The reasons vary: radical enhancement procedures that exceeded what could be done with a single unmodified frame, punishment and torture reshaped into something a patient might survive, ideological commitment to the idea that the body is entirely malleable and that selfhood has nothing to do with the specific components housing it. The results are consistently disturbing and consistently alive.\r</p>\n<p>The Iron Sutra regards the Stitched with a complicated discomfort it has never fully resolved. The Echomind, the Sutra teaches, resonates between flesh and steel — but the Stitched's flesh is not a continuous original tissue. Multiple component sources mean multiple potential resonance origins, and what that does to the soul is a question that Sutra theology has not managed to answer without internal contradiction. Some clergy believe the Stitched have a fractured Echomind — a soul that cannot achieve full resonance because its vessel is too divided. Others argue that the Echomind is more resilient than that, that it asserts itself over whatever vessel it inhabits. The Stitched themselves provide little testimony on the matter. They tend to have opinions about theology the way they have opinions about everything else that is said about them: blunt, unsparing, and based on direct experience rather than doctrine.\r</p>\n<p>What the Stitched are, functionally, is nearly unkillable. Not immortal — they die. But what kills a normal being — the catastrophic failure of a critical system — often just removes a component that can be replaced. Stitched survivors of injuries that should have been fatal are common enough that in some parts of the Ashlands, being Stitched is considered a kind of endurance certification. Their bodies also change, over time, in ways they do not fully control — components drift, biological tissue interfaces with mechanical parts in unpredictable ways, and occasionally something new develops: a secondary biological structure growing where previously there was none, a mechanical component developing organic-adjacent behavior, a synthesis of the two that doesn't map to any prior category. The Stitched call this process the Drift. It is rarely comfortable. It is also, sometimes, extraordinary.\r</p>\n<p>---</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Stitched"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

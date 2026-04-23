@@ -1,5 +1,6 @@
 {
   "_id": "177c1ce209cbf9d6",
+  "_key": "!items!177c1ce209cbf9d6",
   "name": "Evasion Cut",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_evasion_cut"
+      "sourceId": "card_shell_dancer_evasion_cut",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

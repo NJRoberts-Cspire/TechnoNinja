@@ -1,5 +1,6 @@
 {
   "_id": "69a16aae6844571b",
+  "_key": "!items!69a16aae6844571b",
   "name": "Iron Stomach",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_iron_stomach"
+      "sourceId": "card_curse_eater_iron_stomach",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

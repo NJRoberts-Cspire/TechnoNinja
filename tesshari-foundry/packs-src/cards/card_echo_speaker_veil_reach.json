@@ -1,5 +1,6 @@
 {
   "_id": "3d8ec7fe17d89498",
+  "_key": "!items!3d8ec7fe17d89498",
   "name": "Veil Reach",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_veil_reach"
+      "sourceId": "card_echo_speaker_veil_reach",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

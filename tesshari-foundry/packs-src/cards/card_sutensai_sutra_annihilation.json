@@ -1,5 +1,6 @@
 {
   "_id": "0af0f11544bcee4f",
+  "_key": "!items!0af0f11544bcee4f",
   "name": "Sutra Annihilation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_sutra_annihilation"
+      "sourceId": "card_sutensai_sutra_annihilation",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

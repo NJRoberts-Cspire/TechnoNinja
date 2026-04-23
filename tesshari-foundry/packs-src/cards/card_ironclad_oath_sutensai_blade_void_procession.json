@@ -1,5 +1,6 @@
 {
   "_id": "d9185b0d406459c7",
+  "_key": "!items!d9185b0d406459c7",
   "name": "Void Procession",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_oath_sutensai_blade_void_procession"
+      "sourceId": "card_ironclad_oath_sutensai_blade_void_procession",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

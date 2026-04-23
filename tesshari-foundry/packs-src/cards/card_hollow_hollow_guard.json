@@ -1,5 +1,6 @@
 {
   "_id": "e5fe637de273496b",
+  "_key": "!items!e5fe637de273496b",
   "name": "Hollow Guard",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -11,14 +12,14 @@
     "category": "defense",
     "primaryStat": "",
     "keywords": [
-      "Guard 5"
+      "Guard 5 + FRAME"
     ],
     "unlockLevel": 1,
     "className": "The Hollow",
     "subclass": "",
     "isRaceCard": false,
     "race": "",
-    "isStartingHand": true,
+    "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
     "description": "<p>Apply Guard 5 + FRAME to yourself. If you are below half HP, apply Guard 5 + FRAME + RESONANCE instead.</p>"
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_hollow_guard"
+      "sourceId": "card_hollow_hollow_guard",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

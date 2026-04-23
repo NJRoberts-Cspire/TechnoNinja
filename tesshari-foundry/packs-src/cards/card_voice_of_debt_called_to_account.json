@@ -1,5 +1,6 @@
 {
   "_id": "6fd62a598e44297f",
+  "_key": "!items!6fd62a598e44297f",
   "name": "Called to Account",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_called_to_account"
+      "sourceId": "card_voice_of_debt_called_to_account",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

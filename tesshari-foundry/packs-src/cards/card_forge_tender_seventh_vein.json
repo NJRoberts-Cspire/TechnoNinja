@@ -1,17 +1,24 @@
 {
   "_id": "380f29e364a664b7",
+  "_key": "!items!380f29e364a664b7",
   "name": "The Seventh Vein",
   "type": "card",
   "img": "icons/svg/combat.svg",
   "system": {
     "tier": 3,
-    "apCost": 4,
+    "apCost": 3,
     "baseDamage": 0,
     "pierce": 0,
-    "category": "power",
+    "category": "signature",
     "primaryStat": "",
-    "keywords": [],
-    "unlockLevel": 1,
+    "keywords": [
+      "Regen 4",
+      "Cleanse",
+      "Expose 4",
+      "Bleed 3",
+      "Guard 8"
+    ],
+    "unlockLevel": 20,
     "className": "Forge Tender",
     "subclass": "",
     "isRaceCard": false,
@@ -19,16 +26,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Open the seventh ore-vein inside yourself; for one round your touch mends armor, sharpens edges, and closes wounds as a single gesture across all adjacent allies.</p>"
+    "description": "<p>The unwritten principle made manifest. Deal 26 + IRON + RESONANCE resonant damage to one target. Gain Regen 4 for 3 turns. Cleanse all debuffs from yourself. Apply Expose 4 and Bleed 3 to the target. All allies in the encounter gain Guard 8. Once per combat — this is the deepest expression of everything the code has made you.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_seventh_vein"
+      "sourceId": "card_forge_tender_seventh_vein",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3020,
   "ownership": {
     "default": 0
   }

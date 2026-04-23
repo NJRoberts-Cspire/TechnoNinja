@@ -1,5 +1,6 @@
 {
   "_id": "a600ca44daab6ddf",
+  "_key": "!items!a600ca44daab6ddf",
   "name": "Crisis Mend",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_crisis_mend"
+      "sourceId": "card_flesh_shaper_crisis_mend",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

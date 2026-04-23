@@ -1,5 +1,6 @@
 {
   "_id": "21a4d4a7a786539c",
+  "_key": "!items!21a4d4a7a786539c",
   "name": "Corruption Bloom",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_corruption_bloom"
+      "sourceId": "card_ronin_corruption_bloom",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

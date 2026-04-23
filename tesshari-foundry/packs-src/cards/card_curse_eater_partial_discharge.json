@@ -1,5 +1,6 @@
 {
   "_id": "799d1511183d077f",
+  "_key": "!items!799d1511183d077f",
   "name": "Partial Discharge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_partial_discharge"
+      "sourceId": "card_curse_eater_partial_discharge",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

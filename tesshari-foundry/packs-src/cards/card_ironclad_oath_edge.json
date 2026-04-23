@@ -1,5 +1,6 @@
 {
   "_id": "27826841af3a00b5",
+  "_key": "!items!27826841af3a00b5",
   "name": "Oath Edge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_oath_edge"
+      "sourceId": "card_ironclad_oath_edge",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

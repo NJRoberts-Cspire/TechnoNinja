@@ -1,5 +1,6 @@
 {
   "_id": "b2fa7c948e8b86ad",
+  "_key": "!items!b2fa7c948e8b86ad",
   "name": "Fracture Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_fracture_strike"
+      "sourceId": "card_ronin_fracture_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

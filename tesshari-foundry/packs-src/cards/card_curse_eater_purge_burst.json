@@ -1,5 +1,6 @@
 {
   "_id": "e3a084f0a83b202e",
+  "_key": "!items!e3a084f0a83b202e",
   "name": "Purge Burst",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_purge_burst"
+      "sourceId": "card_curse_eater_purge_burst",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

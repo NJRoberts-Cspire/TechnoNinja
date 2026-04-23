@@ -1,5 +1,6 @@
 {
   "_id": "63c9f49953cda022",
+  "_key": "!items!63c9f49953cda022",
   "name": "One Becomes All",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_unnamed_convergent_one_becomes_all"
+      "sourceId": "card_unnamed_convergent_one_becomes_all",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

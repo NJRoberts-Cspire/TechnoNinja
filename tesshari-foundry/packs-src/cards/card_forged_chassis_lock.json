@@ -1,5 +1,6 @@
 {
   "_id": "1c9b58244125a440",
+  "_key": "!items!1c9b58244125a440",
   "name": "Chassis Lock",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,11 +28,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forged_chassis_lock"
+      "sourceId": "card_forged_chassis_lock",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

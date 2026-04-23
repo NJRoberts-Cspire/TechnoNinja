@@ -1,5 +1,6 @@
 {
   "_id": "bcb8ecc92bceacf4",
+  "_key": "!items!bcb8ecc92bceacf4",
   "name": "Void Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -9,8 +10,10 @@
     "baseDamage": 6,
     "pierce": 0,
     "category": "attack",
-    "primaryStat": "iron",
-    "keywords": [],
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 1"
+    ],
     "unlockLevel": 1,
     "className": "Oni Hunter",
     "subclass": "",
@@ -19,12 +22,13 @@
     "isStartingHand": true,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>A disruption strike tuned for the specific resonant frequencies of enhancement failure and spiritual dissolution. Deal 6 + IRON damage. Against Shell-states, Resonance-Broken individuals, and Iron Afterlife entities, add RESONANCE to the damage — the void-edge quality of your weapon finds exactly what it was built to find.</p>"
+    "description": "<p>A strike channeled through the between-space. Deal 6 + RESONANCE damage to one target within melee range. If you are incorporeal when you play this card, deal 10 + RESONANCE damage instead and apply Expose 1.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_void_strike"
+      "sourceId": "card_oni_hunter_void_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

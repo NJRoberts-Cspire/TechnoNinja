@@ -1,5 +1,6 @@
 {
   "_id": "9b03cbbc90db546c",
+  "_key": "!items!9b03cbbc90db546c",
   "name": "Strike True",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_strike_true"
+      "sourceId": "card_ashfoot_strike_true",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

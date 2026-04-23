@@ -1,5 +1,6 @@
 {
   "_id": "99b0113dbec5b6d3",
+  "_key": "!items!99b0113dbec5b6d3",
   "name": "First Mark",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_first_mark"
+      "sourceId": "card_voice_of_debt_first_mark",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "aa091a2aaee11f00",
+  "_key": "!items!aa091a2aaee11f00",
   "name": "Bellows Breath",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_bellows_breath"
+      "sourceId": "card_forge_tender_bellows_breath",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

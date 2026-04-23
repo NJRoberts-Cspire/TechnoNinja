@@ -1,5 +1,6 @@
 {
   "_id": "57e0d1b0f1dfc8ab",
+  "_key": "!items!57e0d1b0f1dfc8ab",
   "name": "The Hollow's Edge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_the_hollow_s_edge"
+      "sourceId": "card_hollow_the_hollow_s_edge",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

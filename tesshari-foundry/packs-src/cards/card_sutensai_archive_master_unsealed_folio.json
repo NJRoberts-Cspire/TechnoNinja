@@ -1,5 +1,6 @@
 {
   "_id": "93a24609ad2f8f87",
+  "_key": "!items!93a24609ad2f8f87",
   "name": "The Unsealed Folio",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_archive_master_unsealed_folio"
+      "sourceId": "card_sutensai_archive_master_unsealed_folio",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

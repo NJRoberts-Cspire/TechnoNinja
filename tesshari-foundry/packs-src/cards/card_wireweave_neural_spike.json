@@ -1,5 +1,6 @@
 {
   "_id": "0d51bf27cf0b574d",
+  "_key": "!items!0d51bf27cf0b574d",
   "name": "Neural Spike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_neural_spike"
+      "sourceId": "card_wireweave_neural_spike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

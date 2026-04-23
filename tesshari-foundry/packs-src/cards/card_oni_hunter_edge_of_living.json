@@ -1,5 +1,6 @@
 {
   "_id": "70fc0aed8ebad084",
+  "_key": "!items!70fc0aed8ebad084",
   "name": "Edge of Living",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_edge_of_living"
+      "sourceId": "card_oni_hunter_edge_of_living",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

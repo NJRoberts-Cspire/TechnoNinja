@@ -1,0 +1,41 @@
+{
+  "_id": "f317f17b7bcc5e9a",
+  "_key": "!items!f317f17b7bcc5e9a",
+  "name": "Path of the Resonants",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Iron Monk",
+    "pathKey": "path_of_the_resonants",
+    "features": {
+      "3": {
+        "name": "Enhancement Surge",
+        "html": "<p>Once per short rest, as a bonus action, overclock your enhancements. For 1 minute, your speed increases by 10 feet, your attacks deal an extra 1d4 resonant damage, and you gain +3 to IRON-based cards. When the surge ends, roll a d6: on a 1-2, one of your enhancements malfunctions until repaired (imposes -3 to IRON or EDGE-based cards, DM's choice).</p>"
+      },
+      "6": {
+        "name": "Resonant Cascade",
+        "html": "<p>When you are hit by a melee attack, you can use your reaction and spend 2 Between Points to discharge a resonant cascade. The attacker takes resonant damage equal to your Wisdom modifier, and if they have cybernetic enhancements, they must make a FRAME resistance check or have -3 to Attack cards on their next attack as their systems briefly stagger.</p>"
+      },
+      "10": {
+        "name": "Signal Integration",
+        "html": "<p>Your enhancement integration is now deep enough that you can broadcast resonant energy deliberately. You gain a bonus action Wire Craft effect: you can send mental messages to willing creatures within 60 feet who have any cybernetic enhancements, and you can detect the rough emotional state of creatures with enhancements within 30 feet even if they are behind cover.</p>"
+      },
+      "14": {
+        "name": "Maximum Output",
+        "html": "<p>Once per long rest, you can push your enhancements to absolute maximum. For 1 minute: your attacks deal an extra 3d6 resonant damage, you have resistance to all damage, and any creature that hits you with a melee attack takes 2d8 resonant damage. When this ends, you gain two levels of exhaustion and one of your enhancements malfunctions catastrophically — out of combat you can repair it in one hour; in combat it remains broken until the scene ends. The Resonants say this is worth it. The repair logs suggest they believe this.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Resonants say that the Between is not a spiritual state — it is an emergent property of sufficiently integrated biological and mechanical systems, and that if one optimizes the integration aggressively enough, the Between expands without limit. Resonant Iron Monks push their enhancements harder than any other path, operating at output levels that would permanently damage a less attuned practitioner. They burn brighter. They break more often. They have discovered things about the Between that the orthodox tradition does not want to hear.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Iron Monk::path_of_the_resonants"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

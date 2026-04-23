@@ -1,5 +1,6 @@
 {
   "_id": "fc22352483c3ef39",
+  "_key": "!items!fc22352483c3ef39",
   "name": "Signal Suppress",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_signal_suppress"
+      "sourceId": "card_wireweave_signal_suppress",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

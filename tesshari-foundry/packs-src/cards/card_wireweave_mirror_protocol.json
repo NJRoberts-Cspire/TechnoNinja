@@ -1,5 +1,6 @@
 {
   "_id": "140dcb2b163df03b",
+  "_key": "!items!140dcb2b163df03b",
   "name": "Mirror Protocol",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_mirror_protocol"
+      "sourceId": "card_wireweave_mirror_protocol",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "f4f7edee5cec680b",
+  "_key": "!items!f4f7edee5cec680b",
   "name": "Disruption Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_disruption_strike"
+      "sourceId": "card_oni_hunter_disruption_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

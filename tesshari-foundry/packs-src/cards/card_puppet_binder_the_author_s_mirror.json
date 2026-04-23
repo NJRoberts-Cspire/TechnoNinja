@@ -1,5 +1,6 @@
 {
   "_id": "48c60187dff00090",
+  "_key": "!items!48c60187dff00090",
   "name": "The Author's Mirror",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -30,7 +31,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_the_author_s_mirror"
+      "sourceId": "card_puppet_binder_the_author_s_mirror",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

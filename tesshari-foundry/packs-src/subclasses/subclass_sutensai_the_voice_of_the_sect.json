@@ -1,0 +1,41 @@
+{
+  "_id": "9755e1f6c3287db9",
+  "_key": "!items!9755e1f6c3287db9",
+  "name": "The Voice of the Sect",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Sutensai",
+    "pathKey": "the_voice_of_the_sect",
+    "features": {
+      "3": {
+        "name": "Sectarian Power",
+        "html": "<p>Your subclass features depend on your chosen sect:\r - Orthodoxy: Sutra Command — once per short rest, you can speak a passage of the Iron Sutra as a formal command. One creature within 60 feet must make a RESONANCE resistance check (DC = your Faith Save DC) or follow the spirit of the passage's instruction for 1 minute. The instruction must be expressible in terms the Sutra actually contains; this is not unlimited mind control.\r - Resonants: Enhancement Blessing — you can perform a 1-minute ritual to boost a creature's cybernetic enhancements for 1 hour, granting them a +2 bonus to attack rolls made using enhancement-based abilities and resistance to resonant damage.\r - Flesh Circle: Flesh Sanction — you can perform the Sutensai's formal blessing of flesh-reduction, granting a creature that has voluntarily removed an enhancement +3 to FRAME resistance checks and resistance to necrotic damage for 24 hours. In Flesh Circle theology, this is the highest ritual honor.</p>"
+      },
+      "6": {
+        "name": "The Sect's Defense",
+        "html": "<ul><li>Orthodoxy: Iron Scripture Ward — when you are targeted by an effect from a creature that violates Sutensai orthodoxy (undead, spiritual corruption, heretical practice), you have resistance to the damage of that effect.</li><li>Resonants: Circuit Sermon — as a bonus action, you can broadcast a Resonant amplification to all allied creatures within 30 feet who have cybernetic enhancements, granting them a +2 bonus to AC until the start of your next turn.</li><li>Flesh Circle: Purity Shield — you gain +3 to resistance checks against effects that target cybernetic enhancements. Any effect that specifically targets enhancements deals only half damage to you.</li></ul>"
+      },
+      "10": {
+        "name": "The Sect's Truth",
+        "html": "<ul><li>Orthodoxy: Sutra of the Ancestors — once per long rest, invoke the voices of all the dead who have practiced your sect. All allies within 60 feet gain +3 to resistance checks and cannot be frightened for 10 minutes.</li><li>Resonants: Overclock Sermon — once per long rest, all allied creatures within 30 feet with cybernetic enhancements add 1d6 resonant damage to their attacks for 1 minute. You take 2d6 resonant damage as your own enhancements strain from the output.</li><li>Flesh Circle: The Empty Sermon — once per long rest, speak the Flesh Circle's meditation of release. All creatures within 30 feet who are under the influence of a hostile cybernetic effect (Flesh Shaper alterations, puppet influence, resonant contamination) may make an immediate resistance check against those effects with +3.</li></ul>"
+      },
+      "14": {
+        "name": "The Sect's Absolute",
+        "html": "<ul><li>Orthodoxy: The Final Word — once per long rest, speak a passage of the Iron Sutra with such authority that all creatures within 60 feet who have Echominds must make RESONANCE resistance checks (DC = your Faith Save DC) or be paralyzed for 1 minute as the Sutra's truth overwhelms their spiritual resistance. On a success, they are stunned until the end of their next turn.</li><li>Resonants: Maximum Integration — once per long rest, push all allied creatures' cybernetic enhancements to absolute output for 1 minute. They deal double damage with enhancement-based abilities, but each must make a FRAME resistance check at the end of the effect (DC 15) or have one enhancement malfunction until repaired.</li><li>Flesh Circle: Return to Silence — once per long rest, perform the Flesh Circle's supreme rite over a 30-foot area. All cybernetic enhancement-based abilities (hostile and friendly) are suppressed in the area for 1 minute. Creatures whose identity is primarily enhancement-based must succeed on a FRAME resistance check (DC = your Faith Save DC) or be incapacitated for the duration. Flesh Circle extremists consider this ability sacred. Everyone else considers it terrifying.</li></ul>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Voice of the Sect is the subclass for a Sutensai whose practice has been deeply shaped by one of the three major sects. They are not merely practitioners of the faith — they are advocates, interpreters, and occasionally the living argument for their sect's theology. Their abilities reflect the specific theological priorities of their sect. Choose one sect at level 3; this choice shapes all of your subclass features.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Sutensai::the_voice_of_the_sect"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

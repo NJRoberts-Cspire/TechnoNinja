@@ -1,5 +1,6 @@
 {
   "_id": "b7ccc394001d8c58",
+  "_key": "!items!b7ccc394001d8c58",
   "name": "Filed and Forgotten",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_filed_and_forgotten"
+      "sourceId": "card_merchant_knife_filed_and_forgotten",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

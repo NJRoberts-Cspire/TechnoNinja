@@ -1,5 +1,6 @@
 {
   "_id": "9218a9c752978a24",
+  "_key": "!items!9218a9c752978a24",
   "name": "Quarry's End",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -8,10 +9,14 @@
     "apCost": 2,
     "baseDamage": 0,
     "pierce": 0,
-    "category": "attack",
+    "category": "control",
     "primaryStat": "",
-    "keywords": [],
-    "unlockLevel": 1,
+    "keywords": [
+      "Root",
+      "or Stagger",
+      "or Expose 3"
+    ],
+    "unlockLevel": 7,
     "className": "Oni Hunter",
     "subclass": "",
     "isRaceCard": false,
@@ -19,16 +24,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>High-damage finishing strike against designated quarry.</p>"
+    "description": "<p>After landing a hit against your Marked target, press the disruption. Apply one of (your choice): **Grounded** — their movement speed becomes 0 until their next turn (Root); **Disrupted** — they cannot use Tier 2 or 3 cards until their next turn (Stagger); **Exposed** — apply Expose 3 until the start of your next turn.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_quarrys_end"
+      "sourceId": "card_oni_hunter_quarrys_end",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2007,
   "ownership": {
     "default": 0
   }

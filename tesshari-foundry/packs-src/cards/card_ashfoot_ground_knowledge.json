@@ -1,5 +1,6 @@
 {
   "_id": "04dc96f67e0d1cbc",
+  "_key": "!items!04dc96f67e0d1cbc",
   "name": "Ground Knowledge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_ground_knowledge"
+      "sourceId": "card_ashfoot_ground_knowledge",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

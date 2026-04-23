@@ -1,5 +1,6 @@
 {
   "_id": "817c49bbf6b3c518",
+  "_key": "!items!817c49bbf6b3c518",
   "name": "Paid in Kind",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_debt_collector_paid_in_kind"
+      "sourceId": "card_voice_of_debt_debt_collector_paid_in_kind",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

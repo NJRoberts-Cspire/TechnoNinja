@@ -1,5 +1,6 @@
 {
   "_id": "2991223f48dd230e",
+  "_key": "!items!2991223f48dd230e",
   "name": "Living Weapon Protocol",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_living_weapon_protocol"
+      "sourceId": "card_pulse_caller_living_weapon_protocol",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

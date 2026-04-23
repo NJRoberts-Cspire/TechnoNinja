@@ -1,5 +1,6 @@
 {
   "_id": "30af2155a6245a72",
+  "_key": "!items!30af2155a6245a72",
   "name": "Environment as Arsenal",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_environment_as_arsenal"
+      "sourceId": "card_ashfoot_environment_as_arsenal",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

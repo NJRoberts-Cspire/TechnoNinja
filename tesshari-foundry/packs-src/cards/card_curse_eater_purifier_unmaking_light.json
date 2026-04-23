@@ -1,5 +1,6 @@
 {
   "_id": "642d20b9ca5a9ae0",
+  "_key": "!items!642d20b9ca5a9ae0",
   "name": "Unmaking Light",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_purifier_unmaking_light"
+      "sourceId": "card_curse_eater_purifier_unmaking_light",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

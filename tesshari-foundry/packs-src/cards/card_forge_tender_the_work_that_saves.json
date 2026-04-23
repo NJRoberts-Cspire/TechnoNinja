@@ -1,5 +1,6 @@
 {
   "_id": "f1088c2480151b8a",
+  "_key": "!items!f1088c2480151b8a",
   "name": "The Work That Saves",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_the_work_that_saves"
+      "sourceId": "card_forge_tender_the_work_that_saves",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

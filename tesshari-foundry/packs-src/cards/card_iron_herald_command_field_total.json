@@ -1,5 +1,6 @@
 {
   "_id": "43afc0d6c9a3b71b",
+  "_key": "!items!43afc0d6c9a3b71b",
   "name": "Command Field: Total",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_command_field_total"
+      "sourceId": "card_iron_herald_command_field_total",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

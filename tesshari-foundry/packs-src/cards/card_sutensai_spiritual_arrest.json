@@ -1,5 +1,6 @@
 {
   "_id": "288e9c6b0400534b",
+  "_key": "!items!288e9c6b0400534b",
   "name": "Spiritual Arrest",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_spiritual_arrest"
+      "sourceId": "card_sutensai_spiritual_arrest",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

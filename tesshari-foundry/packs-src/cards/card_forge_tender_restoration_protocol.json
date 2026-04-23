@@ -1,5 +1,6 @@
 {
   "_id": "a1ed2630d3551022",
+  "_key": "!items!a1ed2630d3551022",
   "name": "Restoration Protocol",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_restoration_protocol"
+      "sourceId": "card_forge_tender_restoration_protocol",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

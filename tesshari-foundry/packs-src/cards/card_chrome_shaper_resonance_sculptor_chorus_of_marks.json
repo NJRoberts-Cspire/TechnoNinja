@@ -1,5 +1,6 @@
 {
   "_id": "a2099ef4381fba6c",
+  "_key": "!items!a2099ef4381fba6c",
   "name": "Chorus of Marks",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_resonance_sculptor_chorus_of_marks"
+      "sourceId": "card_chrome_shaper_resonance_sculptor_chorus_of_marks",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "cc137ea3046d48ed",
+  "_key": "!items!cc137ea3046d48ed",
   "name": "Soul Engineering",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -10,9 +11,7 @@
     "pierce": 0,
     "category": "utility",
     "primaryStat": "",
-    "keywords": [
-      "Regen 2"
-    ],
+    "keywords": [],
     "unlockLevel": 15,
     "className": "Chrome Shaper",
     "subclass": "",
@@ -26,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_soul_engineering"
+      "sourceId": "card_chrome_shaper_soul_engineering",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

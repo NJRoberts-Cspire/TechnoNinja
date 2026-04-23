@@ -1,5 +1,6 @@
 {
   "_id": "531554d03ec8662a",
+  "_key": "!items!531554d03ec8662a",
   "name": "Overclock Protocol",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_overclock_protocol"
+      "sourceId": "card_chrome_shaper_overclock_protocol",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

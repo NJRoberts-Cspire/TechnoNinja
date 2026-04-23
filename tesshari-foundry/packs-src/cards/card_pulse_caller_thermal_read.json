@@ -1,5 +1,6 @@
 {
   "_id": "33f3f53bba07d335",
+  "_key": "!items!33f3f53bba07d335",
   "name": "Thermal Read",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_thermal_read"
+      "sourceId": "card_pulse_caller_thermal_read",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

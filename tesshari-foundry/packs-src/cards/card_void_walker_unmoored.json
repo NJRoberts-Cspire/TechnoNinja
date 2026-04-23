@@ -1,5 +1,6 @@
 {
   "_id": "be37cab6f1952be8",
+  "_key": "!items!be37cab6f1952be8",
   "name": "Unmoored",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_unmoored"
+      "sourceId": "card_void_walker_unmoored",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

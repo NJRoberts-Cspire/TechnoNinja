@@ -1,5 +1,6 @@
 {
   "_id": "421d262a8103a33a",
+  "_key": "!items!421d262a8103a33a",
   "name": "The Mirror Breaks",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_the_mirror_breaks"
+      "sourceId": "card_oni_hunter_the_mirror_breaks",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

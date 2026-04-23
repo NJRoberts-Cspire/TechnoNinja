@@ -85,7 +85,8 @@ Hooks.once("init", () => {
   });
 
   // Handlebars helpers used by our templates
-  Handlebars.registerHelper("eq", (a, b) => a === b);
+  Handlebars.registerHelper("eq",      (a, b) => a === b);
+  Handlebars.registerHelper("gte",     (a, b) => Number(a) >= Number(b));
   Handlebars.registerHelper("checked", (v) => v ? "checked" : "");
 
   // ─── runtime namespace ────────────────────────────────────────────────

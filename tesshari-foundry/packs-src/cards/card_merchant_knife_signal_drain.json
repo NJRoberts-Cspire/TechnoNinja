@@ -1,5 +1,6 @@
 {
   "_id": "f293904e8bedd0de",
+  "_key": "!items!f293904e8bedd0de",
   "name": "Signal Drain",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_signal_drain"
+      "sourceId": "card_merchant_knife_signal_drain",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

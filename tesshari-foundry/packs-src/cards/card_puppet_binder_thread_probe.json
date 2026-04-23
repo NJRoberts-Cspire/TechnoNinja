@@ -1,5 +1,6 @@
 {
   "_id": "102193f0449f40fa",
+  "_key": "!items!102193f0449f40fa",
   "name": "Thread Probe",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -18,7 +19,7 @@
     "subclass": "",
     "isRaceCard": false,
     "race": "",
-    "isStartingHand": true,
+    "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
     "description": "<p>Extend a surface Echomind contact to one target within 40 feet. Deal 4 + VEIL social damage. Learn their current HP tier and one active card in their hand (GM's choice). Apply Expose 1.</p>"
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_thread_probe"
+      "sourceId": "card_puppet_binder_thread_probe",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

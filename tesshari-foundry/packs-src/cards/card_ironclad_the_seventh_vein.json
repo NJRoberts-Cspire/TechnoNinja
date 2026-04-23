@@ -1,5 +1,6 @@
 {
   "_id": "dccd7fd1fb5db262",
+  "_key": "!items!dccd7fd1fb5db262",
   "name": "The Seventh Vein",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -8,7 +9,7 @@
     "apCost": 3,
     "baseDamage": 26,
     "pierce": 0,
-    "category": "attack",
+    "category": "signature",
     "primaryStat": "iron+resonance",
     "keywords": [
       "Regen 4",
@@ -30,7 +31,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_the_seventh_vein"
+      "sourceId": "card_ironclad_the_seventh_vein",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

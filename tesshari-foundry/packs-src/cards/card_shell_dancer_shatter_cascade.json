@@ -1,5 +1,6 @@
 {
   "_id": "bdc58ad361f09ef8",
+  "_key": "!items!bdc58ad361f09ef8",
   "name": "Shatter Cascade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_shatter_cascade"
+      "sourceId": "card_shell_dancer_shatter_cascade",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

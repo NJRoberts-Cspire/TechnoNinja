@@ -1,5 +1,6 @@
 {
   "_id": "ec655c1af7f41fb1",
+  "_key": "!items!ec655c1af7f41fb1",
   "name": "Mirror Cut",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_path_of_the_between_mirror_cut"
+      "sourceId": "card_iron_monk_path_of_the_between_mirror_cut",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

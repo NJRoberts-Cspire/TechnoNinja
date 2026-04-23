@@ -1,5 +1,6 @@
 {
   "_id": "63e6d910e41a2ac1",
+  "_key": "!items!63e6d910e41a2ac1",
   "name": "Between: Absolute Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_between_absolute_strike"
+      "sourceId": "card_fracture_knight_between_absolute_strike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "1d897f15817417a5",
+  "_key": "!items!1d897f15817417a5",
   "name": "Weight of the Owed",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_oath_undying_debt_weight_of_the_owed"
+      "sourceId": "card_ironclad_oath_undying_debt_weight_of_the_owed",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

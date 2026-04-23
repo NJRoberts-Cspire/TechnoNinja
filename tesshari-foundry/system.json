@@ -34,8 +34,11 @@
     }
   },
   "packs": [
-    { "name": "cards", "label": "Tesshari — Cards", "type": "Item", "path": "packs/cards", "system": "tesshari" },
-    { "name": "items", "label": "Tesshari — Items", "type": "Item", "path": "packs/items", "system": "tesshari" }
+    { "name": "cards",      "label": "Tesshari — Cards",      "type": "Item", "path": "packs/cards",      "system": "tesshari" },
+    { "name": "items",      "label": "Tesshari — Items",      "type": "Item", "path": "packs/items",      "system": "tesshari" },
+    { "name": "races",      "label": "Tesshari — Races",      "type": "Item", "path": "packs/races",      "system": "tesshari" },
+    { "name": "classes",    "label": "Tesshari — Classes",    "type": "Item", "path": "packs/classes",    "system": "tesshari" },
+    { "name": "subclasses", "label": "Tesshari — Subclasses", "type": "Item", "path": "packs/subclasses", "system": "tesshari" }
   ],
   "primaryTokenAttribute": "hp",
   "secondaryTokenAttribute": "ap",

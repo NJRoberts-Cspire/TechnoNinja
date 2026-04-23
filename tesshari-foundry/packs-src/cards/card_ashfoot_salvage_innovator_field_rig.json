@@ -1,5 +1,6 @@
 {
   "_id": "4af00aca3b37073a",
+  "_key": "!items!4af00aca3b37073a",
   "name": "Field Rig",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_salvage_innovator_field_rig"
+      "sourceId": "card_ashfoot_salvage_innovator_field_rig",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

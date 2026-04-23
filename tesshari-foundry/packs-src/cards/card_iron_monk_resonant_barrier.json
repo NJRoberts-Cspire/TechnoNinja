@@ -1,5 +1,6 @@
 {
   "_id": "7d3e094705288dd2",
+  "_key": "!items!7d3e094705288dd2",
   "name": "Resonant Barrier",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_resonant_barrier"
+      "sourceId": "card_iron_monk_resonant_barrier",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

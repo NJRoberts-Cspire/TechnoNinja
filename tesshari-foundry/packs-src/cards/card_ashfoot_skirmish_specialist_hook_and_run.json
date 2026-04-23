@@ -1,5 +1,6 @@
 {
   "_id": "03a14d8a3d656262",
+  "_key": "!items!03a14d8a3d656262",
   "name": "Hook and Run",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_skirmish_specialist_hook_and_run"
+      "sourceId": "card_ashfoot_skirmish_specialist_hook_and_run",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "b56e669071ea9ecf",
+  "_key": "!items!b56e669071ea9ecf",
   "name": "The Living Sutra",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_the_living_sutra"
+      "sourceId": "card_iron_monk_the_living_sutra",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

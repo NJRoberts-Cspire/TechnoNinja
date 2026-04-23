@@ -1,5 +1,6 @@
 {
   "_id": "58b4d5a011ac27c4",
+  "_key": "!items!58b4d5a011ac27c4",
   "name": "Conversion Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_conversion_strike"
+      "sourceId": "card_curse_eater_conversion_strike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

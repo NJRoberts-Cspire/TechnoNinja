@@ -1,5 +1,6 @@
 {
   "_id": "b9ee2910cfce38bc",
+  "_key": "!items!b9ee2910cfce38bc",
   "name": "Tempered Breath",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_tempered_breath"
+      "sourceId": "card_ironclad_tempered_breath",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

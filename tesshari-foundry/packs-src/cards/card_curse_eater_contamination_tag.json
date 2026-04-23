@@ -1,5 +1,6 @@
 {
   "_id": "501572f2f1ba1163",
+  "_key": "!items!501572f2f1ba1163",
   "name": "Contamination Tag",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_contamination_tag"
+      "sourceId": "card_curse_eater_contamination_tag",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

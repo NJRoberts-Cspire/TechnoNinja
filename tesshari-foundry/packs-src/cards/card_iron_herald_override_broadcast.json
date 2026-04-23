@@ -1,5 +1,6 @@
 {
   "_id": "42c95d4664dd918a",
+  "_key": "!items!42c95d4664dd918a",
   "name": "Override Broadcast",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_override_broadcast"
+      "sourceId": "card_iron_herald_override_broadcast",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

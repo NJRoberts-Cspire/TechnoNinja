@@ -1,5 +1,6 @@
 {
   "_id": "d3ec836b24294a9a",
+  "_key": "!items!d3ec836b24294a9a",
   "name": "Weight of Law",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_weight_of_law"
+      "sourceId": "card_sutensai_weight_of_law",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

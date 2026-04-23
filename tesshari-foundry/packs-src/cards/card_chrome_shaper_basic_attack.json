@@ -1,5 +1,6 @@
 {
   "_id": "b2b2bba952eac4fe",
+  "_key": "!items!b2b2bba952eac4fe",
   "name": "Basic Attack (Chrome Shaper)",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_basic_attack"
+      "sourceId": "card_chrome_shaper_basic_attack",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

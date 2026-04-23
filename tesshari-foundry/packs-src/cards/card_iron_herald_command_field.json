@@ -1,5 +1,6 @@
 {
   "_id": "e84b47ecab70af02",
+  "_key": "!items!e84b47ecab70af02",
   "name": "Command Field",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_command_field"
+      "sourceId": "card_iron_herald_command_field",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

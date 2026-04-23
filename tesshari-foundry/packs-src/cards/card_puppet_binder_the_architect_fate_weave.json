@@ -1,5 +1,6 @@
 {
   "_id": "9c12f4235ebe9c3c",
+  "_key": "!items!9c12f4235ebe9c3c",
   "name": "Fate-Weave",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_the_architect_fate_weave"
+      "sourceId": "card_puppet_binder_the_architect_fate_weave",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

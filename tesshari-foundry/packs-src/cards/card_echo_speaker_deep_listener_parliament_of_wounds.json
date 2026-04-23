@@ -1,5 +1,6 @@
 {
   "_id": "791a737fa149b3de",
+  "_key": "!items!791a737fa149b3de",
   "name": "Parliament of Wounds",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_deep_listener_parliament_of_wounds"
+      "sourceId": "card_echo_speaker_deep_listener_parliament_of_wounds",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

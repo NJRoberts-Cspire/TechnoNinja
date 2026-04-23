@@ -1,5 +1,6 @@
 {
   "_id": "ed1e7bd72e5c133d",
+  "_key": "!items!ed1e7bd72e5c133d",
   "name": "Spiritual Stricture",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_spiritual_stricture"
+      "sourceId": "card_sutensai_spiritual_stricture",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

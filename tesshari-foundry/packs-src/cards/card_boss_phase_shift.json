@@ -1,5 +1,6 @@
 {
   "_id": "bb7a713aff4c4f2d",
+  "_key": "!items!bb7a713aff4c4f2d",
   "name": "Phase Shift",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_boss_phase_shift"
+      "sourceId": "card_boss_phase_shift",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "f654d8eae12a58e9",
+  "_key": "!items!f654d8eae12a58e9",
   "name": "Rite of Passage",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_rite_of_passage"
+      "sourceId": "card_sutensai_rite_of_passage",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

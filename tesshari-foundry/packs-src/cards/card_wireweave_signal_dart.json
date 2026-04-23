@@ -1,5 +1,6 @@
 {
   "_id": "a514bb4d121ebab2",
+  "_key": "!items!a514bb4d121ebab2",
   "name": "Signal Dart",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_signal_dart"
+      "sourceId": "card_wireweave_signal_dart",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

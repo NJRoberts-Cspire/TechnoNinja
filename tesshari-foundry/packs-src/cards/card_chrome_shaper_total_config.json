@@ -1,5 +1,6 @@
 {
   "_id": "9dbb1fb006226e21",
+  "_key": "!items!9dbb1fb006226e21",
   "name": "Total Config",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_total_config"
+      "sourceId": "card_chrome_shaper_total_config",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

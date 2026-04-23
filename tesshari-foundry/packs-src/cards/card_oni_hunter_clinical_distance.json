@@ -1,5 +1,6 @@
 {
   "_id": "ff83fd08368e922a",
+  "_key": "!items!ff83fd08368e922a",
   "name": "Clinical Distance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_clinical_distance"
+      "sourceId": "card_oni_hunter_clinical_distance",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

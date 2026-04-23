@@ -1,5 +1,6 @@
 {
   "_id": "a0eee9e06de0314e",
+  "_key": "!items!a0eee9e06de0314e",
   "name": "Void Culmination",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_void_culmination"
+      "sourceId": "card_iron_monk_void_culmination",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

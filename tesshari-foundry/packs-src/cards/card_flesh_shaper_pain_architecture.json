@@ -1,5 +1,6 @@
 {
   "_id": "bdfcf698fac0ec8d",
+  "_key": "!items!bdfcf698fac0ec8d",
   "name": "Pain Architecture",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_pain_architecture"
+      "sourceId": "card_flesh_shaper_pain_architecture",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

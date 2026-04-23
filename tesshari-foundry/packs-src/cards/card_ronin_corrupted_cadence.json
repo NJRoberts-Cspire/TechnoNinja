@@ -1,5 +1,6 @@
 {
   "_id": "0d260cf8ca456c0f",
+  "_key": "!items!0d260cf8ca456c0f",
   "name": "Corrupted Cadence",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_corrupted_cadence"
+      "sourceId": "card_ronin_corrupted_cadence",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

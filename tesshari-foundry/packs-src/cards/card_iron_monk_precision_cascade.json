@@ -1,5 +1,6 @@
 {
   "_id": "e96dff506726d8f5",
+  "_key": "!items!e96dff506726d8f5",
   "name": "Precision Cascade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_precision_cascade"
+      "sourceId": "card_iron_monk_precision_cascade",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

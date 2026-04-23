@@ -1,5 +1,6 @@
 {
   "_id": "f673f6696c625940",
+  "_key": "!items!f673f6696c625940",
   "name": "Signature Null",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_signature_null"
+      "sourceId": "card_veilblade_signature_null",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

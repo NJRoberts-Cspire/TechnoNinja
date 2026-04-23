@@ -1,5 +1,6 @@
 {
   "_id": "70c2ffd207748b08",
+  "_key": "!items!70c2ffd207748b08",
   "name": "Shaper's Harvest",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_shaper_s_harvest"
+      "sourceId": "card_flesh_shaper_shaper_s_harvest",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "0938dedec2f726d6",
+  "_key": "!items!0938dedec2f726d6",
   "name": "The Last Reading",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -30,7 +31,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_the_last_reading"
+      "sourceId": "card_sutensai_the_last_reading",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

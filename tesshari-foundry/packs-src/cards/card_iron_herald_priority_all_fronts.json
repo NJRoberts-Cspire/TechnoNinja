@@ -1,5 +1,6 @@
 {
   "_id": "f7583d23a5fe2b2e",
+  "_key": "!items!f7583d23a5fe2b2e",
   "name": "Priority: All Fronts",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_priority_all_fronts"
+      "sourceId": "card_iron_herald_priority_all_fronts",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

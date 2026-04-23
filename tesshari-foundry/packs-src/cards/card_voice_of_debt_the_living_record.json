@@ -1,5 +1,6 @@
 {
   "_id": "de9d53ca5b651aa6",
+  "_key": "!items!de9d53ca5b651aa6",
   "name": "The Living Record",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_the_living_record"
+      "sourceId": "card_voice_of_debt_the_living_record",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

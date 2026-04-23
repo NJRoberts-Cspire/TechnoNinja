@@ -1,17 +1,22 @@
 {
   "_id": "64fd726aa85185b2",
+  "_key": "!items!64fd726aa85185b2",
   "name": "The Final Sutra",
   "type": "card",
   "img": "icons/svg/combat.svg",
   "system": {
     "tier": 3,
     "apCost": 3,
-    "baseDamage": 0,
+    "baseDamage": 20,
     "pierce": 0,
-    "category": "utility",
-    "primaryStat": "",
-    "keywords": [],
-    "unlockLevel": 1,
+    "category": "signature",
+    "primaryStat": "iron",
+    "keywords": [
+      "Silence",
+      "Stagger",
+      "Expose 3"
+    ],
+    "unlockLevel": 16,
     "className": "Sutensai",
     "subclass": "",
     "isRaceCard": false,
@@ -19,16 +24,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Soul-bind finishing card.</p>"
+    "description": "<p>You perform the Iron Rite on a target you have just struck. Deal 20 + IRON + RESONANCE damage. The target's Echomind is disrupted — apply Silence, Stagger, and Expose 3. If this reduces the target to 0 HP, their body cannot be reanimated during this encounter.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_final_sutra"
+      "sourceId": "card_sutensai_final_sutra",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3016,
   "ownership": {
     "default": 0
   }

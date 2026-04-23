@@ -1,5 +1,6 @@
 {
   "_id": "61c4a6f6caa68bd5",
+  "_key": "!items!61c4a6f6caa68bd5",
   "name": "Decree of Stillness",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_herald_decree_of_stillness"
+      "sourceId": "card_echo_speaker_herald_decree_of_stillness",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

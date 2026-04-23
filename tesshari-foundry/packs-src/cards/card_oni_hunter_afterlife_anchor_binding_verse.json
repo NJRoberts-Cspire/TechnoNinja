@@ -1,5 +1,6 @@
 {
   "_id": "f38e1438fa5a2e84",
+  "_key": "!items!f38e1438fa5a2e84",
   "name": "Binding Verse",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_afterlife_anchor_binding_verse"
+      "sourceId": "card_oni_hunter_afterlife_anchor_binding_verse",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "ef3d131e6ca77962",
+  "_key": "!items!ef3d131e6ca77962",
   "name": "Low-Caste, High Ground",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_low_caste_high_ground"
+      "sourceId": "card_ashfoot_low_caste_high_ground",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

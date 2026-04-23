@@ -1,5 +1,6 @@
 {
   "_id": "cc92bda38a563668",
+  "_key": "!items!cc92bda38a563668",
   "name": "Forbidden Citation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_archive_master_forbidden_citation"
+      "sourceId": "card_sutensai_archive_master_forbidden_citation",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

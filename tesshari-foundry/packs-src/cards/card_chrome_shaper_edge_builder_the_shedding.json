@@ -1,5 +1,6 @@
 {
   "_id": "fa1650b6348c2cb7",
+  "_key": "!items!fa1650b6348c2cb7",
   "name": "The Shedding",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_edge_builder_the_shedding"
+      "sourceId": "card_chrome_shaper_edge_builder_the_shedding",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

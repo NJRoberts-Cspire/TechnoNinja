@@ -1,5 +1,6 @@
 {
   "_id": "a7aecacf4e4ebaa1",
+  "_key": "!items!a7aecacf4e4ebaa1",
   "name": "Lord's Resonance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_lord_lords_resonance"
+      "sourceId": "card_iron_lord_lords_resonance",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

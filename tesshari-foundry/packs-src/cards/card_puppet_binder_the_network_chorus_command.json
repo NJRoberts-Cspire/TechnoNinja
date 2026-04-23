@@ -1,5 +1,6 @@
 {
   "_id": "1fe1b1ea05812306",
+  "_key": "!items!1fe1b1ea05812306",
   "name": "Chorus Command",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_the_network_chorus_command"
+      "sourceId": "card_puppet_binder_the_network_chorus_command",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

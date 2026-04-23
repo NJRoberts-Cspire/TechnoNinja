@@ -1,5 +1,6 @@
 {
   "_id": "8d97f0366f480b82",
+  "_key": "!items!8d97f0366f480b82",
   "name": "Iron Bleed",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_iron_bleed"
+      "sourceId": "card_veilblade_iron_bleed",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

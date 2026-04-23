@@ -1,5 +1,6 @@
 {
   "_id": "85dd2b17033a4155",
+  "_key": "!items!85dd2b17033a4155",
   "name": "Null Accord",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_null_accord"
+      "sourceId": "card_veilblade_null_accord",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

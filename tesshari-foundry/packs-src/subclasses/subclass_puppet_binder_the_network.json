@@ -1,0 +1,41 @@
+{
+  "_id": "ec639c515a31a15c",
+  "_key": "!items!ec639c515a31a15c",
+  "name": "The Network",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Puppet Binder",
+    "pathKey": "the_network",
+    "features": {
+      "3": {
+        "name": "Distributed Awareness",
+        "html": "<p>You can maintain split awareness with up to two vessels simultaneously without the penalty (reduced speed, disadvantage on Wisdom checks) that normally applies. The third split costs the normal penalty.</p>"
+      },
+      "6": {
+        "name": "Rapid Deployment",
+        "html": "<p>You can enter and exit vessels as a bonus action instead of an action. Additionally, when you switch between vessels (exit one, enter another), you can do so in a single bonus action rather than two separate actions.</p>"
+      },
+      "10": {
+        "name": "The Chorus",
+        "html": "<p>Your Network now operates as a coherent tactical unit. While maintaining split awareness with multiple vessels, you can use your bonus action to give all active vessels a simultaneous command (move here, take cover, attack this target). Each vessel executes the command on its next turn. You can coordinate their actions with tactical precision — flanking maneuvers, synchronized distractions, simultaneous presence at different locations.</p>"
+      },
+      "14": {
+        "name": "Maximum Deployment",
+        "html": "<p>Your vessel maximum doubles. Your Thread maximum increases by 4. Once per long rest, for 1 hour, your Network operates at full efficiency: all vessels are fully occupied simultaneously (not split awareness — full occupation, multiple instances of you), each taking independent actions, each fully capable. Coordinating this many instances requires a DC 15 Intelligence check at the start of each round; on a failure, one vessel of your choice loses its action for that round due to coordination breakdown. When this effect ends, you gain two levels of exhaustion as your Echomind reconsolidates.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Network Puppet Binder maintains multiple vessels simultaneously, each specialized, each deployed differently, each operating as a distinct presence in the world while the original body sits quietly somewhere and manages the connections. It is, in the language of the Wire Market, a distributed operation. It is, in the language of the Iron Sutra, a spiritual fragmentation that the text did not anticipate. It is, in practical terms, the most logistically powerful version of the practice — the ability to be in three districts, four conversations, and one battlefield at the same time.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Puppet Binder::the_network"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

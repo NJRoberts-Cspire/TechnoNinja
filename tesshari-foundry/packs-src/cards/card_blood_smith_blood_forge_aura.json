@@ -1,5 +1,6 @@
 {
   "_id": "d5c2993076046c05",
+  "_key": "!items!d5c2993076046c05",
   "name": "Blood Forge Aura",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_blood_smith_blood_forge_aura"
+      "sourceId": "card_blood_smith_blood_forge_aura",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

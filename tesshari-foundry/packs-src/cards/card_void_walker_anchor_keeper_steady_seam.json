@@ -1,5 +1,6 @@
 {
   "_id": "e756a190e4dcb538",
+  "_key": "!items!e756a190e4dcb538",
   "name": "Steady Seam",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_anchor_keeper_steady_seam"
+      "sourceId": "card_void_walker_anchor_keeper_steady_seam",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

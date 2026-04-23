@@ -1,5 +1,6 @@
 {
   "_id": "f3c459134db7b1ef",
+  "_key": "!items!f3c459134db7b1ef",
   "name": "Vial Shatter",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_resonance_collector_vial_shatter"
+      "sourceId": "card_oni_hunter_resonance_collector_vial_shatter",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

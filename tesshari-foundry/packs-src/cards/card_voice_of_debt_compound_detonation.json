@@ -1,5 +1,6 @@
 {
   "_id": "a06a5e3a8239fcbf",
+  "_key": "!items!a06a5e3a8239fcbf",
   "name": "Compound Detonation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_compound_detonation"
+      "sourceId": "card_voice_of_debt_compound_detonation",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

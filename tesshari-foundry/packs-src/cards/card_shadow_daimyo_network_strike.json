@@ -1,5 +1,6 @@
 {
   "_id": "4c7f2df736f31605",
+  "_key": "!items!4c7f2df736f31605",
   "name": "Network Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shadow_daimyo_network_strike"
+      "sourceId": "card_shadow_daimyo_network_strike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

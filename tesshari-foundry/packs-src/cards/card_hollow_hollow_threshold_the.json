@@ -1,5 +1,6 @@
 {
   "_id": "ddd3c043d4ffc7a6",
+  "_key": "!items!ddd3c043d4ffc7a6",
   "name": "Hollow Threshold, The",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_hollow_threshold_the"
+      "sourceId": "card_hollow_hollow_threshold_the",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

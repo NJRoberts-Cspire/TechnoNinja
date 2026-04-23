@@ -1,5 +1,6 @@
 {
   "_id": "b50b7dd893614f0a",
+  "_key": "!items!b50b7dd893614f0a",
   "name": "Swallow the Hex",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_swallow_the_hex"
+      "sourceId": "card_curse_eater_swallow_the_hex",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

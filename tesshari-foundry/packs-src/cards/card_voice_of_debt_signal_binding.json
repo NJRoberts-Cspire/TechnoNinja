@@ -1,5 +1,6 @@
 {
   "_id": "4e1e3da56515187a",
+  "_key": "!items!4e1e3da56515187a",
   "name": "Signal Binding",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -19,7 +20,7 @@
     "subclass": "",
     "isRaceCard": false,
     "race": "",
-    "isStartingHand": true,
+    "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
     "description": "<p>Deal 5 + SIGNAL signal damage to one target within 40 feet. Apply Debt 1 and Expose 1.</p>"
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_signal_binding"
+      "sourceId": "card_voice_of_debt_signal_binding",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

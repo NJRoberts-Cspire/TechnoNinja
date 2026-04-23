@@ -1,5 +1,6 @@
 {
   "_id": "b6b60fae62bdfd8e",
+  "_key": "!items!b6b60fae62bdfd8e",
   "name": "Ghost Sovereign",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_ghost_sovereign"
+      "sourceId": "card_void_walker_ghost_sovereign",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

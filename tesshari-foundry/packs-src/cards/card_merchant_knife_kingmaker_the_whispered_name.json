@@ -1,5 +1,6 @@
 {
   "_id": "7b4f4ec795c42894",
+  "_key": "!items!7b4f4ec795c42894",
   "name": "The Whispered Name",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_kingmaker_the_whispered_name"
+      "sourceId": "card_merchant_knife_kingmaker_the_whispered_name",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

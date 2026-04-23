@@ -18,10 +18,15 @@ import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
 
 import { loadGenerated } from "./load-generated.mjs";
+import {
+  loadAllMarkdownCards, normalizeName,
+  loadRaceSections, loadClassSections,
+} from "./parse-markdown-cards.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const TS_FILE = path.resolve(ROOT, "../tesshari-app/src/data/generated.ts");
+const REPO_ROOT = path.resolve(ROOT, "..");
+const TS_FILE = path.resolve(REPO_ROOT, "tesshari-app/src/data/generated.ts");
 const PACKS_SRC = path.resolve(ROOT, "packs-src");
 
 /** Foundry document IDs are 16 alphanumeric chars; sha1-truncate for determinism. */
@@ -117,7 +122,7 @@ function detectRace(id) {
  * Builders
  * ──────────────────────────────────────────────────────────────────────── */
 
-function buildCardsPack(data, outDir) {
+function buildCardsPack(data, mdCards, outDir) {
   const { ACTIONS, ACTIONS_BY_CLASS, ACTIONS_BY_SUBCLASS } = data;
 
   // Reverse maps: action id → class / subclass
@@ -132,6 +137,7 @@ function buildCardsPack(data, outDir) {
 
   ensureCleanDir(outDir);
   let count = 0;
+  let enriched = 0;
 
   for (const action of ACTIONS ?? []) {
     if (!action.isCard) continue;
@@ -141,40 +147,56 @@ function buildCardsPack(data, outDir) {
     const className = isRaceCard ? "" : (classByAction[action.id] ?? "");
     const subclass  = subclassByAction[action.id] ?? "";
 
-    const tier = resolveTier(action);
-    const apCost = action.apCost ?? tier ?? 0;
-    const category = resolveCategory(action);
-    const primaryStat = (action.damageStat ?? "").toLowerCase();
-    const pierce = extractPierce(action.keywords);
-    const keywords = formatKeywords(action.keywords);
+    // Lookup richer card data from the class/race markdown
+    const md = mdCards[normalizeName(action.title)] ?? null;
+    if (md) enriched++;
+
+    const tier        = md?.tier        ?? resolveTier(action);
+    const apCost      = md?.apCost      ?? action.apCost ?? tier ?? 0;
+    const category    = md?.category    ?? resolveCategory(action);
+    const baseDamage  = md?.baseDamage  ?? action.baseDamage ?? 0;
+    const primaryStat = md?.primaryStat ?? (action.damageStat ?? "").toLowerCase();
+    const pierceFromMd = (md?.keywords ?? []).find(k => /^pierce\s/i.test(k));
+    const pierce = pierceFromMd
+      ? parseInt(pierceFromMd.match(/\d+/)?.[0] ?? "0", 10)
+      : extractPierce(action.keywords);
+    const keywords = md?.keywords
+      ? md.keywords.filter(k => !/^pierce\s/i.test(k))
+      : formatKeywords(action.keywords);
+    const unlockLevel = md?.unlockLevel ?? action.unlockLevel ?? 1;
+    const startingHand = md?.startingHand ?? !!action.startingHand;
+    const description = md?.effect
+      ? `<p>${escapeHtml(md.effect)}</p>`
+      : `<p>${escapeHtml(action.description ?? "")}</p>`;
 
     const doc = {
       _id: deterministicId(action.id),
+      _key: `!items!${deterministicId(action.id)}`,
       name: action.title || action.id,
       type: "card",
       img: "icons/svg/combat.svg",
       system: {
         tier,
         apCost,
-        baseDamage: action.baseDamage ?? 0,
+        baseDamage,
         pierce,
         category,
         primaryStat,
         keywords,
-        unlockLevel: action.unlockLevel ?? 1,
+        unlockLevel,
         className,
         subclass,
         isRaceCard,
         race: isRaceCard ? (RACE_DISPLAY[raceSlug] ?? "") : "",
-        isStartingHand: !!action.startingHand,
+        isStartingHand: startingHand,
         isReaction: category === "reaction",
         usesPerCombat: null,
-        description: `<p>${escapeHtml(action.description ?? "")}</p>`,
+        description,
       },
       effects: [],
-      flags: { tesshari: { sourceId: action.id } },
+      flags: { tesshari: { sourceId: action.id, enrichedFromMarkdown: !!md } },
       folder: null,
-      sort: (tier * 1000) + (action.unlockLevel ?? 0),
+      sort: (tier * 1000) + (unlockLevel ?? 0),
       ownership: { default: 0 },
     };
 
@@ -182,7 +204,7 @@ function buildCardsPack(data, outDir) {
     count++;
   }
 
-  return count;
+  return { count, enriched };
 }
 
 function buildItemsPack(data, outDir) {
@@ -226,8 +248,10 @@ function buildItemsPack(data, outDir) {
       systemPayload.cardMods = [];
     }
 
+    const itemDocId = deterministicId(item.id);
     const doc = {
-      _id: deterministicId(item.id),
+      _id: itemDocId,
+      _key: `!items!${itemDocId}`,
       name: item.title || item.id,
       type,
       img: "icons/svg/item-bag.svg",
@@ -251,6 +275,135 @@ function escapeHtml(str) {
 }
 
 /* ────────────────────────────────────────────────────────────────────────
+ * Race / class / subclass item builders
+ * ──────────────────────────────────────────────────────────────────────── */
+
+function buildRacePack(data, repoRoot, outDir) {
+  const { SPECIES, RACE_STAT_BONUSES, RACE_HAND_MOD, SPECIES_FLAVOR } = data;
+  const mdSections = loadRaceSections(repoRoot);
+
+  ensureCleanDir(outDir);
+  let count = 0;
+
+  for (const raceName of SPECIES ?? []) {
+    const bonuses = RACE_STAT_BONUSES[raceName] ?? [];
+    // Convert [{stat:"IRON", value:1}, {stat:"any", value:1}] → {iron:1, any:1}
+    const statBonuses = {};
+    for (const b of bonuses) statBonuses[String(b.stat).toLowerCase()] = b.value;
+
+    const sectionKey = raceName;  // "Forged" etc.
+    const sec = mdSections[sectionKey];
+
+    const raceDocId = deterministicId(`race_${raceName}`);
+    const doc = {
+      _id: raceDocId,
+      _key: `!items!${raceDocId}`,
+      name: raceName,
+      type: "race",
+      img: "icons/svg/mystery-man.svg",
+      system: {
+        statBonuses,
+        handMod: RACE_HAND_MOD[raceName] ?? 0,
+        heritageBranches: sec?.heritageBranches ?? [],
+        raceCardSlugs: [],
+        passives: sec?.passivesHtml ?? "",
+        description: sec?.descriptionHtml ?? `<p>${escapeHtml(SPECIES_FLAVOR?.[raceName] ?? "")}</p>`,
+      },
+      effects: [],
+      flags: { tesshari: { sourceKey: raceName } },
+      folder: null,
+      sort: 0,
+      ownership: { default: 0 },
+    };
+
+    writeDoc(outDir, `race_${raceName}`.toLowerCase().replace(/\s+/g, "_"), doc);
+    count++;
+  }
+
+  return count;
+}
+
+function buildClassPack(data, repoRoot, outDir) {
+  const {
+    CLASSES, CLASS_HP_TIER, CLASS_HAND_BASE, CLASS_PRIMARY_STATS,
+    SUBCLASS_BY_CLASS, CLASS_FLAVOR,
+  } = data;
+  const { classes: mdClasses } = loadClassSections(repoRoot);
+
+  ensureCleanDir(outDir);
+  let count = 0;
+
+  for (const className of CLASSES ?? []) {
+    const sec = mdClasses[className];
+    const hpTier = String(CLASS_HP_TIER?.[className] ?? "Balanced").toLowerCase();
+
+    const classDocId = deterministicId(`class_${className}`);
+    const doc = {
+      _id: classDocId,
+      _key: `!items!${classDocId}`,
+      name: className,
+      type: "class",
+      img: "icons/svg/mystery-man.svg",
+      system: {
+        hpTier,
+        handBase: CLASS_HAND_BASE?.[className] ?? 6,
+        primaryStats: (CLASS_PRIMARY_STATS?.[className] ?? []).map(s => String(s).toLowerCase()),
+        startingHandSlugs: sec?.startingHand ?? [],
+        unlockList: {},
+        subclassSlugs: SUBCLASS_BY_CLASS?.[className] ?? [],
+        description: sec?.descriptionHtml ?? `<p>${escapeHtml(CLASS_FLAVOR?.[className] ?? "")}</p>`,
+      },
+      effects: [],
+      flags: { tesshari: { sourceKey: className } },
+      folder: null,
+      sort: 0,
+      ownership: { default: 0 },
+    };
+
+    writeDoc(outDir, `class_${className}`.toLowerCase().replace(/\s+/g, "_"), doc);
+    count++;
+  }
+
+  return count;
+}
+
+function buildSubclassPack(data, repoRoot, outDir) {
+  const { SUBCLASS_FLAVOR } = data;
+  const { subclasses: mdSubs } = loadClassSections(repoRoot);
+
+  ensureCleanDir(outDir);
+  let count = 0;
+
+  for (const entry of Object.values(mdSubs)) {
+    const subclassDocId = deterministicId(`subclass_${entry.className}_${entry.pathKey}`);
+    const doc = {
+      _id: subclassDocId,
+      _key: `!items!${subclassDocId}`,
+      name: entry.displayName,
+      type: "subclass",
+      img: "icons/svg/mystery-man.svg",
+      system: {
+        className: entry.className,
+        pathKey: entry.pathKey,
+        features: entry.features ?? {},
+        description: entry.descriptionHtml
+          ?? `<p>${escapeHtml(SUBCLASS_FLAVOR?.[entry.pathKey] ?? "")}</p>`,
+      },
+      effects: [],
+      flags: { tesshari: { sourceKey: `${entry.className}::${entry.pathKey}` } },
+      folder: null,
+      sort: 0,
+      ownership: { default: 0 },
+    };
+
+    writeDoc(outDir, `subclass_${entry.className}_${entry.pathKey}`.toLowerCase().replace(/[^a-z0-9]+/g, "_"), doc);
+    count++;
+  }
+
+  return count;
+}
+
+/* ────────────────────────────────────────────────────────────────────────
  * Main
  * ──────────────────────────────────────────────────────────────────────── */
 
@@ -261,16 +414,34 @@ function main() {
   console.log(`  ITEMS:   ${data.ITEMS?.length ?? 0}`);
   console.log(`  CLASSES: ${data.CLASSES?.length ?? 0}`);
 
-  const cardsDir = path.join(PACKS_SRC, "cards");
-  const itemsDir = path.join(PACKS_SRC, "items");
+  console.log(`\nParsing class + race markdown from ${REPO_ROOT}/classes and /races ...`);
+  const { cards: mdCards, counts } = loadAllMarkdownCards(REPO_ROOT);
+  console.log(`  class cards:  ${counts.classes}`);
+  console.log(`  race cards:   ${counts.races}`);
+  console.log(`  unique keys:  ${counts.total}`);
 
-  const cardsCount = buildCardsPack(data, cardsDir);
-  console.log(`Wrote ${cardsCount} card documents to ${path.relative(ROOT, cardsDir)}`);
+  const cardsDir     = path.join(PACKS_SRC, "cards");
+  const itemsDir     = path.join(PACKS_SRC, "items");
+  const racesDir     = path.join(PACKS_SRC, "races");
+  const classesDir   = path.join(PACKS_SRC, "classes");
+  const subclassesDir = path.join(PACKS_SRC, "subclasses");
+
+  const cardsResult = buildCardsPack(data, mdCards, cardsDir);
+  console.log(`\nWrote ${cardsResult.count} card documents (${cardsResult.enriched} enriched from markdown) → ${path.relative(ROOT, cardsDir)}`);
 
   const itemsCount = buildItemsPack(data, itemsDir);
-  console.log(`Wrote ${itemsCount} item documents to ${path.relative(ROOT, itemsDir)}`);
+  console.log(`Wrote ${itemsCount} item documents → ${path.relative(ROOT, itemsDir)}`);
 
-  console.log("\nNext: run `fvtt package pack cards` and `fvtt package pack items` to compile to LevelDB.");
+  const raceCount = buildRacePack(data, REPO_ROOT, racesDir);
+  console.log(`Wrote ${raceCount} race documents → ${path.relative(ROOT, racesDir)}`);
+
+  const classCount = buildClassPack(data, REPO_ROOT, classesDir);
+  console.log(`Wrote ${classCount} class documents → ${path.relative(ROOT, classesDir)}`);
+
+  const subclassCount = buildSubclassPack(data, REPO_ROOT, subclassesDir);
+  console.log(`Wrote ${subclassCount} subclass documents → ${path.relative(ROOT, subclassesDir)}`);
+
+  console.log("\nNext: run `npm run pack:all` to compile JSON → LevelDB.");
 }
 
 main();

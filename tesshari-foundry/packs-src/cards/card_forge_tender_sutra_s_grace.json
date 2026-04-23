@@ -1,5 +1,6 @@
 {
   "_id": "ad206a0ad7ba360d",
+  "_key": "!items!ad206a0ad7ba360d",
   "name": "Sutra's Grace",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_sutra_s_grace"
+      "sourceId": "card_forge_tender_sutra_s_grace",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

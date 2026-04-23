@@ -1,5 +1,6 @@
 {
   "_id": "1fbbacd24f69abc1",
+  "_key": "!items!1fbbacd24f69abc1",
   "name": "Void-Edge Attunement",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_void_edge_attunement"
+      "sourceId": "card_oni_hunter_void_edge_attunement",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

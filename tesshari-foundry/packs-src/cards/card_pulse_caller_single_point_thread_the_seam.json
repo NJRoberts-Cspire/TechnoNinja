@@ -1,5 +1,6 @@
 {
   "_id": "d02929c2f7453327",
+  "_key": "!items!d02929c2f7453327",
   "name": "Thread the Seam",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_single_point_thread_the_seam"
+      "sourceId": "card_pulse_caller_single_point_thread_the_seam",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

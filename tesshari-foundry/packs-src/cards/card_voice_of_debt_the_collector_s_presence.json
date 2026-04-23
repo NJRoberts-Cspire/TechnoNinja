@@ -1,5 +1,6 @@
 {
   "_id": "3ce567369346b606",
+  "_key": "!items!3ce567369346b606",
   "name": "The Collector's Presence",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_the_collector_s_presence"
+      "sourceId": "card_voice_of_debt_the_collector_s_presence",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

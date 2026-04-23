@@ -1,5 +1,6 @@
 {
   "_id": "11ed0726ef6c5aa5",
+  "_key": "!items!11ed0726ef6c5aa5",
   "name": "Exile's Cut",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_exile_s_cut"
+      "sourceId": "card_ronin_exile_s_cut",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

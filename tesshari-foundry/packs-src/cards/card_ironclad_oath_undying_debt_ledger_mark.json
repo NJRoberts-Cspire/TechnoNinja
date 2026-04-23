@@ -1,5 +1,6 @@
 {
   "_id": "49b624a0f965a562",
+  "_key": "!items!49b624a0f965a562",
   "name": "Ledger Mark",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_oath_undying_debt_ledger_mark"
+      "sourceId": "card_ironclad_oath_undying_debt_ledger_mark",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "6f05cf3b48e90ac9",
+  "_key": "!items!6f05cf3b48e90ac9",
   "name": "Unmaking Cut",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_dissolution_specialist_unmaking_cut"
+      "sourceId": "card_oni_hunter_dissolution_specialist_unmaking_cut",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

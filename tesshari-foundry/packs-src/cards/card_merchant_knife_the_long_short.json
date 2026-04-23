@@ -1,5 +1,6 @@
 {
   "_id": "1f7aac3c77c683c2",
+  "_key": "!items!1f7aac3c77c683c2",
   "name": "The Long Short",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_the_long_short"
+      "sourceId": "card_merchant_knife_the_long_short",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

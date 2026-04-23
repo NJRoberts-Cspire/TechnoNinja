@@ -1,5 +1,6 @@
 {
   "_id": "68eb3afd9cfa3985",
+  "_key": "!items!68eb3afd9cfa3985",
   "name": "Precision Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_precision_strike"
+      "sourceId": "card_veilblade_precision_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

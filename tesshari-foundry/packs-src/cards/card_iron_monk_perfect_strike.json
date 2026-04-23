@@ -1,5 +1,6 @@
 {
   "_id": "bf70c4ba2e42814e",
+  "_key": "!items!bf70c4ba2e42814e",
   "name": "Perfect Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_perfect_strike"
+      "sourceId": "card_iron_monk_perfect_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

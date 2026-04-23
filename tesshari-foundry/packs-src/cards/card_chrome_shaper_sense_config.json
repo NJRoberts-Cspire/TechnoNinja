@@ -1,5 +1,6 @@
 {
   "_id": "09eaafb6ddbd4749",
+  "_key": "!items!09eaafb6ddbd4749",
   "name": "Sense Config",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_sense_config"
+      "sourceId": "card_chrome_shaper_sense_config",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "a66440c72c1c86b3",
+  "_key": "!items!a66440c72c1c86b3",
   "name": "Stress Override",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_stress_override"
+      "sourceId": "card_chrome_shaper_stress_override",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

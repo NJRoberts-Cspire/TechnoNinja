@@ -1,5 +1,6 @@
 {
   "_id": "7c189f779c14d117",
+  "_key": "!items!7c189f779c14d117",
   "name": "Resonant Cascade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_resonant_cascade"
+      "sourceId": "card_pulse_caller_resonant_cascade",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

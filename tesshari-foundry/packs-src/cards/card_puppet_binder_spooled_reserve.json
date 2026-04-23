@@ -1,5 +1,6 @@
 {
   "_id": "04ded8cd87fb5bcb",
+  "_key": "!items!04ded8cd87fb5bcb",
   "name": "Spooled Reserve",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_spooled_reserve"
+      "sourceId": "card_puppet_binder_spooled_reserve",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

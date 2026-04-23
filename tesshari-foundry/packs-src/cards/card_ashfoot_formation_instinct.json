@@ -1,5 +1,6 @@
 {
   "_id": "da328e44963d7135",
+  "_key": "!items!da328e44963d7135",
   "name": "Formation Instinct",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_formation_instinct"
+      "sourceId": "card_ashfoot_formation_instinct",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

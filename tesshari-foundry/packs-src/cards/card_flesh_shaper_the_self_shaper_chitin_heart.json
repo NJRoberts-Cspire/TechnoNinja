@@ -1,5 +1,6 @@
 {
   "_id": "5a968fa213cd4772",
+  "_key": "!items!5a968fa213cd4772",
   "name": "Chitin Heart",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_the_self_shaper_chitin_heart"
+      "sourceId": "card_flesh_shaper_the_self_shaper_chitin_heart",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

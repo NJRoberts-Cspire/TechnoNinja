@@ -1,5 +1,6 @@
 {
   "_id": "b392edb6cb53f877",
+  "_key": "!items!b392edb6cb53f877",
   "name": "Veil Walking",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_veil_walking"
+      "sourceId": "card_echo_speaker_veil_walking",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,0 +1,41 @@
+{
+  "_id": "40fecad64ba98554",
+  "_key": "!items!40fecad64ba98554",
+  "name": "The Neutral Tongue",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Iron Herald",
+    "pathKey": "the_neutral_tongue",
+    "features": {
+      "3": {
+        "name": "Diplomatic Observation",
+        "html": "<p>While under Herald's Passage, you can observe and record everything you witness without restriction. You have perfect recall of everything you observe while in an official herald capacity. The parties you move through know this and cannot legally prevent it — though they may arrange to not show you things they would prefer you not see.</p>"
+      },
+      "6": {
+        "name": "The Tongue's Weapon",
+        "html": "<p>You can, while under Herald's Passage, ask one question that the receiving party must answer honestly by the terms of the herald tradition. The question must be relevant to the message or negotiation you are conducting. Refusing to answer is a violation of the tradition. Answering dishonestly is also a violation, which you detect immediately.</p>"
+      },
+      "10": {
+        "name": "Unassailable",
+        "html": "<p>While you are formally acting as a neutral herald (which you may always choose to be), you are immune to mind-affecting abilities and to effects that would compel you to act against your neutrality. Your protection from herald tradition extends to any genuine harm — creatures who attack you while you are in official capacity take 3d10 psychic damage from the spiritual weight of the violation.</p>"
+      },
+      "14": {
+        "name": "Peace in This Place",
+        "html": "<p>Once per long rest, you can formally declare a Neutral Zone in your immediate vicinity. All parties within 60 feet who recognize the herald tradition are bound by it: no hostile action can be taken by any party against any other party within the zone for 10 minutes. Violating this zone is a formal violation of the herald tradition, immediately known to every Herald in the territory. The violating party faces the full diplomatic consequences of that violation — which, in Tesshari, are severe and long-lasting.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Neutral Tongue has built an identity around the protection of the herald tradition and has learned to weaponize that protection with the precision of a practitioner who understands that immunity only exists as long as it is respected — and that the best way to ensure it is respected is to make violating it unambiguously costly. They negotiate between powers that want to kill each other, carry messages that both sides know will be authentic, and move through the most hostile political environments in Tesshari with the particular confidence of someone who has worked out, precisely, why no one will stop them.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Iron Herald::the_neutral_tongue"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

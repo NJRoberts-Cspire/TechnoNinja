@@ -1,5 +1,6 @@
 {
   "_id": "aec62e6dfd562004",
+  "_key": "!items!aec62e6dfd562004",
   "name": "Drift Integration",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_drift_integration"
+      "sourceId": "card_curse_eater_drift_integration",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

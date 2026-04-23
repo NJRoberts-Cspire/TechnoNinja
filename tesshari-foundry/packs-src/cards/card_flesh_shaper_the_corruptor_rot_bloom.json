@@ -1,5 +1,6 @@
 {
   "_id": "084944cdadccdc7d",
+  "_key": "!items!084944cdadccdc7d",
   "name": "Rot Bloom",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_the_corruptor_rot_bloom"
+      "sourceId": "card_flesh_shaper_the_corruptor_rot_bloom",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

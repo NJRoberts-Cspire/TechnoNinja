@@ -1,5 +1,6 @@
 {
   "_id": "dac4df5f93043d47",
+  "_key": "!items!dac4df5f93043d47",
   "name": "Dead Eye",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_dead_eye"
+      "sourceId": "card_pulse_caller_dead_eye",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "d9abff30a4d0691b",
+  "_key": "!items!d9abff30a4d0691b",
   "name": "Doorway Grave",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_threshold_puller_doorway_grave"
+      "sourceId": "card_void_walker_threshold_puller_doorway_grave",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

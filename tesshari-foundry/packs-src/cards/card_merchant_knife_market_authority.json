@@ -1,5 +1,6 @@
 {
   "_id": "fb974a6afb772aa8",
+  "_key": "!items!fb974a6afb772aa8",
   "name": "Market Authority",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_market_authority"
+      "sourceId": "card_merchant_knife_market_authority",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,0 +1,41 @@
+{
+  "_id": "506377fc30ae30e0",
+  "_key": "!items!506377fc30ae30e0",
+  "name": "The Court Blade",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Shadow Daimyo",
+    "pathKey": "the_court_blade",
+    "features": {
+      "3": {
+        "name": "Blade Work",
+        "html": "<p>You have trained for the specific violence required by your role. You can use your Intelligence modifier instead of Strength or Dexterity for attack and damage rolls when using resonant blades and pulse arms. When you attack a target you have a dossier on, you deal an additional 1d6 damage as you exploit their physical patterns and habitual defenses.</p>"
+      },
+      "6": {
+        "name": "Preemptive Intelligence",
+        "html": "<p>You know who the threats to your principal are before they act. Once per long rest, after 1 hour of analysis, you can identify the most likely imminent threat to a person or operation you are protecting and describe a specific countermeasure that, if implemented, will prevent it with high probability. The DM confirms whether the countermeasure is correct given the actual threat.</p>"
+      },
+      "10": {
+        "name": "Court Execution",
+        "html": "<p>When you take a target by surprise (having initiated a combat where your target was unaware), your first attack automatically critically hits. Additionally, targets with lower Intelligence than yours (which you know from your dossier) have -3 to resistance checks against your abilities in the first round of combat.</p>"
+      },
+      "14": {
+        "name": "Absolute Loyalty, Absolute Access",
+        "html": "<p>Your relationship with your principal has matured to the point of genuine mutual dependency. You have access to their most sensitive intelligence — you know everything they know. Additionally, once per long rest, you can invoke their absolute authority: deliver a command in their name that creatures of CR 10 or lower who recognize the principal's authority must succeed on a RESONANCE resistance check (DC = your Shadow Daimyo save DC) or follow as if it came from the principal directly.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Court Blade is what happens when a Spymaster develops a combat specialization and decides that some problems require a personal touch. They are attached to a lord or commander as a combination of intelligence adviser, enforcer, and the person who carries out the operations that cannot be delegated to subordinates who might talk. They are the most immediately dangerous Shadow Daimyo path and the most personally complicated: their power depends entirely on their principal's continued trust and their principal's continued usefulness, and both of those conditions are perpetually in question.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Shadow Daimyo::the_court_blade"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

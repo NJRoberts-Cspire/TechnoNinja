@@ -1,5 +1,6 @@
 {
   "_id": "0c5ee1d8b70c2f31",
+  "_key": "!items!0c5ee1d8b70c2f31",
   "name": "Bloody-Minded",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_bloody_minded"
+      "sourceId": "card_ashfoot_bloody_minded",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

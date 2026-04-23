@@ -1,5 +1,6 @@
 {
   "_id": "57d06ee5b549cbf0",
+  "_key": "!items!57d06ee5b549cbf0",
   "name": "Recover Cycle",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_monster_recover_cycle"
+      "sourceId": "card_monster_recover_cycle",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

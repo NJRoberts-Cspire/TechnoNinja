@@ -1,5 +1,6 @@
 {
   "_id": "dd7730accc5d72a2",
+  "_key": "!items!dd7730accc5d72a2",
   "name": "Full Cascade: Detonation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_full_cascade_detonation"
+      "sourceId": "card_shell_dancer_full_cascade_detonation",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

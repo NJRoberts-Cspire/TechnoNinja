@@ -1,0 +1,41 @@
+{
+  "_id": "9aacdc646128f30a",
+  "_key": "!items!9aacdc646128f30a",
+  "name": "The Corruptor",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Flesh Shaper",
+    "pathKey": "the_corruptor",
+    "features": {
+      "3": {
+        "name": "Pain Architecture",
+        "html": "<p>As an action, spend 2 Shaping Points to establish a pain architecture in one creature within reach. The creature takes 2d6 necrotic damage and must make a FRAME resistance check (DC = your Flesh Shaper save DC) or have -3 to Attack cards and resistance checks until they receive healing greater than the damage dealt, or until 1 hour passes. This is not spectacular. It is invisible and precise. Nobody watching can tell what you did. The creature knows, and that knowing is part of it.</p>"
+      },
+      "6": {
+        "name": "Flesh Craft",
+        "html": "<p>You can create biological constructs from available organic material. As a 1-hour ritual, spend 5 Shaping Points to create a flesh construct from the organic components of one or more recently deceased creatures. The construct has statistics determined by the DM based on the material used (approximately equivalent to a CR 1 construct for basic material, up to CR 4 for significant material). It obeys your commands. It lasts 24 hours before degrading, or indefinitely if you spend 1 Shaping Point per day to maintain it. The constructs look wrong. Anyone who sees them knows immediately what they are. This is one of the things the Sutensai files document.</p>"
+      },
+      "10": {
+        "name": "Puppet Thread",
+        "html": "<p>You have developed the first mechanism of the Hollow Art. As an action, spend 6 Shaping Points to establish a Puppet Thread in an unconscious or willing creature. The thread creates a biological control pathway — you can spend your bonus action to compel the threaded creature to perform one simple action (move to a location, drop an item, speak a word). The creature may make a RESONANCE resistance check (DC = your Flesh Shaper save DC) each time you compel an action; on a success, the thread is severed. The thread can affect one creature at a time. This feature occupies the same ethical space as the Hollow Author's primary technique. The class text states this without judgment. The table must bring judgment to it.</p>"
+      },
+      "14": {
+        "name": "Full Shaping",
+        "html": "<p>Your ability to reshape unwilling flesh is now comprehensive. Once per long rest, over 10 minutes of contact with a restrained or unconscious creature, you can perform a complete Flesh Shaping: alter their physical appearance permanently, suppress or alter specific enhancement integrations, install or remove a Puppet Thread automatically (no save), or create a biological modification that imposes one of the following conditions permanently (RESONANCE resistance check to resist — DC = your Flesh Shaper save DC, +3 to the check if the creature is conscious and aware): -3 to a specific stat's checks and resistance checks; vulnerability to one damage type; inability to use one class feature or ability. A permanent modification from this feature can only be removed by a Mender of equal or higher level, or by the Corruptor who created it. It can also be removed by a Sutensai Veil Master performing a deep spiritual cleansing, but not by conventional medicine or enhancement repair.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>This section is written plainly because the class text demands it: the Corruptor is the worst thing a Flesh Shaper can become, and also one of the most powerful. They have followed the practice all the way down into what the Iron Sutra calls the Hollow Art — the shaping of unwilling flesh, the architecture of pain, the construction of what the Hollow Author mass-produces. They are not the Hollow Author. They are individuals, and individuality means there is still the possibility that they have reasons, have limits, have something that functions as conscience even at this depth. But those reasons, limits, and consciences are being tested by what they've done and what they've found they can do, and the Sutensai has a detailed file on them, and the file is not good reading.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Flesh Shaper::the_corruptor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,5 +1,6 @@
 {
   "_id": "8760f1a047e32493",
+  "_key": "!items!8760f1a047e32493",
   "name": "Zone Dominance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_zone_dominance"
+      "sourceId": "card_iron_herald_zone_dominance",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

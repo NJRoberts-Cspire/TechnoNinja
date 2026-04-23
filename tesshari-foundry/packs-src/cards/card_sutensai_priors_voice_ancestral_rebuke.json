@@ -1,5 +1,6 @@
 {
   "_id": "87a54c3f7842c2c6",
+  "_key": "!items!87a54c3f7842c2c6",
   "name": "Ancestral Rebuke",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_priors_voice_ancestral_rebuke"
+      "sourceId": "card_sutensai_priors_voice_ancestral_rebuke",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

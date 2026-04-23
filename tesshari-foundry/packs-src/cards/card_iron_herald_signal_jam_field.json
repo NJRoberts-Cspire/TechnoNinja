@@ -1,5 +1,6 @@
 {
   "_id": "1a60a0f02897d0e8",
+  "_key": "!items!1a60a0f02897d0e8",
   "name": "Signal Jam Field",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_signal_jam_field"
+      "sourceId": "card_iron_herald_signal_jam_field",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

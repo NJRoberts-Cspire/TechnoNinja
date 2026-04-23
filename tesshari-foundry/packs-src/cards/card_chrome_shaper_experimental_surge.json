@@ -1,5 +1,6 @@
 {
   "_id": "8d2839d33bb6faf2",
+  "_key": "!items!8d2839d33bb6faf2",
   "name": "Experimental Surge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_experimental_surge"
+      "sourceId": "card_chrome_shaper_experimental_surge",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

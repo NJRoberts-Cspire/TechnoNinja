@@ -1,5 +1,6 @@
 {
   "_id": "ec9284776d4b6ed1",
+  "_key": "!items!ec9284776d4b6ed1",
   "name": "Ledger of Witnesses",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_oath_keeper_ledger_of_witnesses"
+      "sourceId": "card_voice_of_debt_oath_keeper_ledger_of_witnesses",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

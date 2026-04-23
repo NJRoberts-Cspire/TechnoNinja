@@ -1,5 +1,6 @@
 {
   "_id": "64524d968fc2b395",
+  "_key": "!items!64524d968fc2b395",
   "name": "Between Absolute",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_between_absolute"
+      "sourceId": "card_iron_monk_between_absolute",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

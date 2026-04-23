@@ -1,5 +1,6 @@
 {
   "_id": "e0c1fa37df17f649",
+  "_key": "!items!e0c1fa37df17f649",
   "name": "Ash Walker",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_ash_walker"
+      "sourceId": "card_ashfoot_ash_walker",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "b0c3ed17ccd83dda",
+  "_key": "!items!b0c3ed17ccd83dda",
   "name": "Minor Bind",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_minor_bind"
+      "sourceId": "card_puppet_binder_minor_bind",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "98474df4dece70d9",
+  "_key": "!items!98474df4dece70d9",
   "name": "The Accuser",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_the_accuser"
+      "sourceId": "card_echo_speaker_the_accuser",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

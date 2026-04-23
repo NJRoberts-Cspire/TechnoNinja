@@ -1,5 +1,6 @@
 {
   "_id": "1e9c5b564c6df57a",
+  "_key": "!items!1e9c5b564c6df57a",
   "name": "Hollow Step",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_path_of_the_between_hollow_step"
+      "sourceId": "card_iron_monk_path_of_the_between_hollow_step",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

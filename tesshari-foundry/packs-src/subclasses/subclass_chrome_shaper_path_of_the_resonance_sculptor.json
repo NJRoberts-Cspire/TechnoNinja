@@ -1,0 +1,41 @@
+{
+  "_id": "ee6ed8bd8fc5f58f",
+  "_key": "!items!ee6ed8bd8fc5f58f",
+  "name": "Path of the Resonance Sculptor",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Chrome Shaper",
+    "pathKey": "path_of_the_resonance_sculptor",
+    "features": {
+      "3": {
+        "name": "Resonance Touch",
+        "html": "<p>Your Modification Read has become a resonance read. When you analyze a creature's enhancements:\r - You perceive the resonant relationship between their Echomind and each modification — not just the technical state but the spiritual state.\r - You know what the person values, fears, and desires as reflected in their resonance calibration (not their private thoughts — their embodied relationship with their own enhancements, which is different and often more honest).\r - You can suggest one resonance improvement that will strengthen a specific aspect of their character along the lines of their own values (DM determines mechanical benefit based on specifics).</p>"
+      },
+      "6": {
+        "name": "Resonant Enhancement",
+        "html": "<p>When you install an Experimental Frame using resonance techniques:\r - The Frame integrates with the subject's Echomind rather than just their hardware, making it feel natural rather than foreign.\r - The Frame's Constitution save DC is reduced by 2 (the Echomind's acceptance smooths the integration).\r - The Frame's effect is subtly personalized — it amplifies something specific to this person's resonance (DM determines a small additional bonus reflecting their character).</p>"
+      },
+      "10": {
+        "name": "Soul Engineering",
+        "html": "<p>You can directly improve the resonant relationship between a person's Echomind and their modifications. During a long rest, you can perform Soul Engineering on a willing creature. Choose one effect:\r - <strong>Resonance Deepening:</strong> The creature's class features that involve resonant or spiritual components are enhanced — their damage, duration, or range improves by 25% permanently.\r - <strong>Echomind Clarity:</strong> The creature becomes immune to effects that would cloud, alter, or read their Echomind without their consent.\r - <strong>Resonant Armor:</strong> The creature's Echomind-enhancement resonance provides passive protection — they gain a permanent +1 to all resistance checks.</p>"
+      },
+      "14": {
+        "name": "The Perfect Resonance",
+        "html": "<p>You have achieved what the Sutensai calls the highest engineering aspiration: the perfectly resonant configuration, where a person's modifications express their Echomind with no friction, no loss, and no gap between who they are and what they can do. Once per arc, you can perform the Perfect Resonance procedure on one willing creature (including yourself). This 8-hour process:\r - Permanently improves their primary stat by 2 (maximum 24 — the Resonance Sculptor can exceed the normal 20 cap through this specific procedure, because the improvement comes from within the person rather than being externally imposed).\r - Removes all enhancement misalignments and degradations permanently.\r - Grants them resistance to dissolution effects and immunity to Shell-state progression — their resonance is too perfectly aligned to be disrupted by external forces.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Resonance Sculptor has followed the most spiritually demanding path available to a Chrome Shaper: the one that takes the Iron Sutra's claim that Echomind and enhancement are a unity seriously enough to work with them as a unity. Where other Chrome Shapers modify the enhancement hardware and accept that the resonance will adapt, the Resonance Sculptor modifies the resonance directly, shaping the interaction between a person's soul and their metal at a level that neither pure engineering nor pure Sutensai practice can reach independently. The results are extraordinary. The Sutensai considers this practice both magnificent and presumptuous, which is an accurate characterization.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Chrome Shaper::path_of_the_resonance_sculptor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

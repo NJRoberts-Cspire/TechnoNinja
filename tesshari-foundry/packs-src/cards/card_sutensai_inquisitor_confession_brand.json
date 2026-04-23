@@ -1,5 +1,6 @@
 {
   "_id": "275af80be8f9533d",
+  "_key": "!items!275af80be8f9533d",
   "name": "Confession Brand",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_inquisitor_confession_brand"
+      "sourceId": "card_sutensai_inquisitor_confession_brand",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

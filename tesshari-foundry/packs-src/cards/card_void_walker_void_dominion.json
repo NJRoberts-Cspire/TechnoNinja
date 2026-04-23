@@ -1,5 +1,6 @@
 {
   "_id": "66f981fc029d7ec8",
+  "_key": "!items!66f981fc029d7ec8",
   "name": "Void Dominion",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_void_dominion"
+      "sourceId": "card_void_walker_void_dominion",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

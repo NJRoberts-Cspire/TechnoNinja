@@ -1,5 +1,6 @@
 {
   "_id": "4506a18a660c33eb",
+  "_key": "!items!4506a18a660c33eb",
   "name": "Wear the Break",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_the_claimed_wear_the_break"
+      "sourceId": "card_fracture_knight_the_claimed_wear_the_break",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

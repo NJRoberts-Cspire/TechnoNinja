@@ -1,5 +1,6 @@
 {
   "_id": "a8c99150e2be583f",
+  "_key": "!items!a8c99150e2be583f",
   "name": "Echomind Fracture",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_echomind_fracture"
+      "sourceId": "card_echo_speaker_echomind_fracture",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "25641e4b396e4022",
+  "_key": "!items!25641e4b396e4022",
   "name": "Iron Ascendancy",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_iron_ascendancy"
+      "sourceId": "card_iron_monk_iron_ascendancy",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

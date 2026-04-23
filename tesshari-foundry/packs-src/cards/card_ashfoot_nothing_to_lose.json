@@ -1,5 +1,6 @@
 {
   "_id": "285bc1e6a71f7b17",
+  "_key": "!items!285bc1e6a71f7b17",
   "name": "Nothing to Lose",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_nothing_to_lose"
+      "sourceId": "card_ashfoot_nothing_to_lose",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

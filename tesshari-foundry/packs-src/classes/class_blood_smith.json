@@ -1,0 +1,34 @@
+{
+  "_id": "ac69f04e727e9dcd",
+  "_key": "!items!ac69f04e727e9dcd",
+  "name": "Blood Smith",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hpTier": "martial",
+    "handBase": 6,
+    "primaryStats": [
+      "resonance",
+      "iron"
+    ],
+    "startingHandSlugs": [],
+    "unlockList": {},
+    "subclassSlugs": [
+      "The Weaponsmith",
+      "The Armorer",
+      "The Sculptor"
+    ],
+    "description": "<p>The resonant metal in a cybernetic enhancement is supposed to be fixed. That is the point of it. The bonding process that integrates enhancement metal with organic tissue at the cellular level is designed to produce a permanent, stable connection — a system that does not shift, does not liquefy, does not renegotiate its configuration under duress. Blood Smiths have discovered that this is not actually permanent. It is merely very stable. With sufficient will, sufficient pain tolerance, and sufficient willingness to spend the next several days recovering from what that kind of effort costs a body, the resonant metal can be persuaded to move.\r</p>\n<p>They discovered this, most of them, by accident. A moment of extreme stress — combat, grief, the kind of extremity that strips away everything that is not pure survival — and something in their enhancement lattice shifted. Something that should have been fixed became briefly fluid. For most people who experience this, it is a medical emergency. The tissue tears where the metal moves. The pain is reported as extraordinary. For a handful of people, in that moment, the fluid metal does something useful. It becomes, briefly, a weapon. A shield. A tool that the practitioner did not have before and will not have again until they force the same state deliberately. Those people are the first Blood Smiths, and they found each other because catastrophic enhancement accidents have a particular medical profile and word spreads.\r</p>\n<p>The practice that has developed around this discovery is austere in the way that practices built around deliberate self-damage tend to be. There is no spiritual framework for it — the Iron Sutra does not discuss Blood Smithing, because the Sutensai theologians who noticed it happening did not want to give it a theological dimension that might make it feel sanctioned. There is no Wire Market product line. There are no major military programs. There is a dispersed tradition, most densely concentrated in the Ashlands where enhancement quality is poor and practitioners have more experience with improvised modification than anywhere else in Tesshari, built around practitioners who have found each other, compared notes, developed techniques, and paid for those techniques in personal biological cost that accumulates and does not fully disappear.\r</p>\n<p>The median lifespan of a Blood Smith is shorter than the Tesshari average. The tissue stress of repeated liquefaction and re-solidification creates scarring that is unlike any other kind of scarring — internal, at the cellular interface between organic and metal, not visible from the outside but accumulating in ways that show up in diagnostics as a distinctive profile. Experienced physicians in the Ashlands can identify a Blood Smith's enhancement scan on sight. They do not always say so. Some of them have opinions about it. Some of them have learned that Blood Smiths do not generally want opinions — they want practical medicine for what they've done to themselves today, and they are going to do it again.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Blood Smith"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

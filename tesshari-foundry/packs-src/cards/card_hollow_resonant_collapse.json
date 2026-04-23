@@ -1,5 +1,6 @@
 {
   "_id": "be7636612dd56142",
+  "_key": "!items!be7636612dd56142",
   "name": "Resonant Collapse",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_resonant_collapse"
+      "sourceId": "card_hollow_resonant_collapse",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

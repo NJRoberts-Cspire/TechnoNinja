@@ -1,5 +1,6 @@
 {
   "_id": "644f1394c8b4012d",
+  "_key": "!items!644f1394c8b4012d",
   "name": "Field Denial",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_field_denial"
+      "sourceId": "card_pulse_caller_field_denial",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

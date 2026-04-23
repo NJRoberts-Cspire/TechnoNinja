@@ -1,5 +1,6 @@
 {
   "_id": "bf933d9df7cac55c",
+  "_key": "!items!bf933d9df7cac55c",
   "name": "Void Rend",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_void_rend"
+      "sourceId": "card_void_walker_void_rend",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

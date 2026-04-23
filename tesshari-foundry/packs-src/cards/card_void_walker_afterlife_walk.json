@@ -1,5 +1,6 @@
 {
   "_id": "4a8b5bb34b748f89",
+  "_key": "!items!4a8b5bb34b748f89",
   "name": "Afterlife Walk",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_afterlife_walk"
+      "sourceId": "card_void_walker_afterlife_walk",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "3c2eea2551d47181",
+  "_key": "!items!3c2eea2551d47181",
   "name": "Dead Hands",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_dead_hands"
+      "sourceId": "card_fracture_knight_dead_hands",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

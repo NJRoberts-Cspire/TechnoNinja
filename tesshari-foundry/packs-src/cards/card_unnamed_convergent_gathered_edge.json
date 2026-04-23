@@ -1,5 +1,6 @@
 {
   "_id": "d2f219e860baecc7",
+  "_key": "!items!d2f219e860baecc7",
   "name": "Gathered Edge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_unnamed_convergent_gathered_edge"
+      "sourceId": "card_unnamed_convergent_gathered_edge",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "3d7658a0176937dd",
+  "_key": "!items!3d7658a0176937dd",
   "name": "The Long Dial Tone",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_iron_afterlife_weave_power_the_long_dial_tone"
+      "sourceId": "card_wireweave_iron_afterlife_weave_power_the_long_dial_tone",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

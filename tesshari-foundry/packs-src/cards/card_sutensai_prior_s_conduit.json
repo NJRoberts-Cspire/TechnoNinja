@@ -1,5 +1,6 @@
 {
   "_id": "a1c1b255177020ce",
+  "_key": "!items!a1c1b255177020ce",
   "name": "Prior's Conduit",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_prior_s_conduit"
+      "sourceId": "card_sutensai_prior_s_conduit",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "3af03a8dd2155021",
+  "_key": "!items!3af03a8dd2155021",
   "name": "The Final Sutra",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -9,7 +10,7 @@
     "baseDamage": 20,
     "pierce": 0,
     "category": "signature",
-    "primaryStat": "iron+resonance",
+    "primaryStat": "iron",
     "keywords": [
       "Silence",
       "Stagger",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_the_final_sutra"
+      "sourceId": "card_ironclad_the_final_sutra",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

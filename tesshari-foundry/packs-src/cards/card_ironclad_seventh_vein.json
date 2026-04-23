@@ -1,17 +1,24 @@
 {
   "_id": "f46091f4f324bece",
+  "_key": "!items!f46091f4f324bece",
   "name": "The Seventh Vein",
   "type": "card",
   "img": "icons/svg/combat.svg",
   "system": {
-    "tier": 0,
-    "apCost": 0,
+    "tier": 3,
+    "apCost": 3,
     "baseDamage": 0,
     "pierce": 0,
-    "category": "utility",
+    "category": "signature",
     "primaryStat": "",
-    "keywords": [],
-    "unlockLevel": 1,
+    "keywords": [
+      "Regen 4",
+      "Cleanse",
+      "Expose 4",
+      "Bleed 3",
+      "Guard 8"
+    ],
+    "unlockLevel": 20,
     "className": "Ironclad Samurai",
     "subclass": "",
     "isRaceCard": false,
@@ -19,16 +26,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Capstone card package enabling final-action logic and surge scaling.</p>"
+    "description": "<p>The unwritten principle made manifest. Deal 26 + IRON + RESONANCE resonant damage to one target. Gain Regen 4 for 3 turns. Cleanse all debuffs from yourself. Apply Expose 4 and Bleed 3 to the target. All allies in the encounter gain Guard 8. Once per combat — this is the deepest expression of everything the code has made you.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_seventh_vein"
+      "sourceId": "card_ironclad_seventh_vein",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 3020,
   "ownership": {
     "default": 0
   }

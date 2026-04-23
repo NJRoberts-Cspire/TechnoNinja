@@ -1,5 +1,6 @@
 {
   "_id": "1920428b1af6d059",
+  "_key": "!items!1920428b1af6d059",
   "name": "System Feedback",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_system_feedback"
+      "sourceId": "card_pulse_caller_system_feedback",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

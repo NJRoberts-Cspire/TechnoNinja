@@ -1,5 +1,6 @@
 {
   "_id": "5cc4e96297b86ab3",
+  "_key": "!items!5cc4e96297b86ab3",
   "name": "Resonant Grief",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_resonant_grief"
+      "sourceId": "card_echo_speaker_resonant_grief",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

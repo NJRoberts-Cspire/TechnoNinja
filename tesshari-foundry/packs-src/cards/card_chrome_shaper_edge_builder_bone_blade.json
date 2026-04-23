@@ -1,5 +1,6 @@
 {
   "_id": "72953cee1e849541",
+  "_key": "!items!72953cee1e849541",
   "name": "Bone Blade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_edge_builder_bone_blade"
+      "sourceId": "card_chrome_shaper_edge_builder_bone_blade",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

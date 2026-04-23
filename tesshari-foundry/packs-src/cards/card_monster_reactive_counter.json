@@ -1,5 +1,6 @@
 {
   "_id": "f24044bcfae52054",
+  "_key": "!items!f24044bcfae52054",
   "name": "Reactive Counter",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_monster_reactive_counter"
+      "sourceId": "card_monster_reactive_counter",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

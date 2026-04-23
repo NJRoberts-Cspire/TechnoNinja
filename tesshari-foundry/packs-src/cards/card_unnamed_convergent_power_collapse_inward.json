@@ -1,5 +1,6 @@
 {
   "_id": "a562166be6d748e5",
+  "_key": "!items!a562166be6d748e5",
   "name": "Collapse Inward",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_unnamed_convergent_power_collapse_inward"
+      "sourceId": "card_unnamed_convergent_power_collapse_inward",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

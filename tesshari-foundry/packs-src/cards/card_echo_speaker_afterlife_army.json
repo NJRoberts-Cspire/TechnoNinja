@@ -1,5 +1,6 @@
 {
   "_id": "b1f3f697f3705c34",
+  "_key": "!items!b1f3f697f3705c34",
   "name": "Afterlife Army",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_afterlife_army"
+      "sourceId": "card_echo_speaker_afterlife_army",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "6b416440d759868d",
+  "_key": "!items!6b416440d759868d",
   "name": "Gut Bastion",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_war_shaper_gut_bastion"
+      "sourceId": "card_chrome_shaper_war_shaper_gut_bastion",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

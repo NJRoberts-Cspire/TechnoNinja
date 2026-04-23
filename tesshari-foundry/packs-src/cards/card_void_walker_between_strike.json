@@ -1,5 +1,6 @@
 {
   "_id": "3f2313caca561892",
+  "_key": "!items!3f2313caca561892",
   "name": "Between Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_between_strike"
+      "sourceId": "card_void_walker_between_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "51dd9567b00ee61c",
+  "_key": "!items!51dd9567b00ee61c",
   "name": "Dead Chorus",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_dead_chorus"
+      "sourceId": "card_echo_speaker_dead_chorus",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "36ac00a68aca7c67",
+  "_key": "!items!36ac00a68aca7c67",
   "name": "Ghost Protocol",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_ghost_protocol"
+      "sourceId": "card_puppet_binder_ghost_protocol",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

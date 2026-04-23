@@ -1,5 +1,6 @@
 {
   "_id": "79edacf3fc957223",
+  "_key": "!items!79edacf3fc957223",
   "name": "Veil Tear",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_veil_tear"
+      "sourceId": "card_echo_speaker_veil_tear",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

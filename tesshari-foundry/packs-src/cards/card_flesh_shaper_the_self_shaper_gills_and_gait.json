@@ -1,5 +1,6 @@
 {
   "_id": "ba760a1207e60909",
+  "_key": "!items!ba760a1207e60909",
   "name": "Gills and Gait",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_the_self_shaper_gills_and_gait"
+      "sourceId": "card_flesh_shaper_the_self_shaper_gills_and_gait",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

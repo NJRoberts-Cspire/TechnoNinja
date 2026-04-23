@@ -1,5 +1,6 @@
 {
   "_id": "d4af7ce40a8087b2",
+  "_key": "!items!d4af7ce40a8087b2",
   "name": "Iron Tongue",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_iron_tongue"
+      "sourceId": "card_oni_hunter_iron_tongue",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "8fcbba045935f705",
+  "_key": "!items!8fcbba045935f705",
   "name": "Blade-Sworn Bond",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_blade_sworn_bond"
+      "sourceId": "card_ironclad_blade_sworn_bond",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

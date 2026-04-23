@@ -1,5 +1,6 @@
 {
   "_id": "0df20c12ae0ba6c0",
+  "_key": "!items!0df20c12ae0ba6c0",
   "name": "Absence Ward",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_absence_ward"
+      "sourceId": "card_hollow_absence_ward",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

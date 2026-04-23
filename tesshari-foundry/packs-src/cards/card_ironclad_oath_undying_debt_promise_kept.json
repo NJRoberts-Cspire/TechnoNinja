@@ -1,5 +1,6 @@
 {
   "_id": "cb0ae9f7bff8b442",
+  "_key": "!items!cb0ae9f7bff8b442",
   "name": "Promise Kept",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_oath_undying_debt_promise_kept"
+      "sourceId": "card_ironclad_oath_undying_debt_promise_kept",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

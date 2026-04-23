@@ -1,5 +1,6 @@
 {
   "_id": "b43d18d2cee694b7",
+  "_key": "!items!b43d18d2cee694b7",
   "name": "Killing Lattice",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_combat_weave_power_killing_lattice"
+      "sourceId": "card_wireweave_combat_weave_power_killing_lattice",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

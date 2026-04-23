@@ -1,5 +1,6 @@
 {
   "_id": "ae318a9e8f76d76d",
+  "_key": "!items!ae318a9e8f76d76d",
   "name": "Shell Step: Terminal",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_shell_step_terminal"
+      "sourceId": "card_shell_dancer_shell_step_terminal",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

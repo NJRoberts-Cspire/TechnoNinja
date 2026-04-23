@@ -1,5 +1,6 @@
 {
   "_id": "11d3fb4f96f381d9",
+  "_key": "!items!11d3fb4f96f381d9",
   "name": "Dead Zone",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_dead_zone"
+      "sourceId": "card_pulse_caller_dead_zone",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

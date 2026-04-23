@@ -1,5 +1,6 @@
 {
   "_id": "d5c0f5cfc52049df",
+  "_key": "!items!d5c0f5cfc52049df",
   "name": "Two Rooms",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_path_of_the_between_two_rooms"
+      "sourceId": "card_iron_monk_path_of_the_between_two_rooms",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

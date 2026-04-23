@@ -1,5 +1,6 @@
 {
   "_id": "73fdc34fbf50ad2e",
+  "_key": "!items!73fdc34fbf50ad2e",
   "name": "Shoulder the Line",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_formation_anchor_shoulder_the_line"
+      "sourceId": "card_ashfoot_formation_anchor_shoulder_the_line",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

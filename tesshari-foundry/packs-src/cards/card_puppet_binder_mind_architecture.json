@@ -1,5 +1,6 @@
 {
   "_id": "da622278b49928ee",
+  "_key": "!items!da622278b49928ee",
   "name": "Mind Architecture",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_mind_architecture"
+      "sourceId": "card_puppet_binder_mind_architecture",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

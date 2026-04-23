@@ -1,5 +1,6 @@
 {
   "_id": "0f353b5ed74df79d",
+  "_key": "!items!0f353b5ed74df79d",
   "name": "Rite of Peace",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_rite_of_peace"
+      "sourceId": "card_sutensai_rite_of_peace",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

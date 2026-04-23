@@ -1,5 +1,6 @@
 {
   "_id": "a56bdab4652b0999",
+  "_key": "!items!a56bdab4652b0999",
   "name": "Iron Afterlife Touch",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_iron_afterlife_touch"
+      "sourceId": "card_wireweave_iron_afterlife_touch",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

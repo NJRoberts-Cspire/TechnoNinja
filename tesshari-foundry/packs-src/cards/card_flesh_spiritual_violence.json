@@ -1,5 +1,6 @@
 {
   "_id": "938dae06c475d11d",
+  "_key": "!items!938dae06c475d11d",
   "name": "Spiritual Violence",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_spiritual_violence"
+      "sourceId": "card_flesh_spiritual_violence",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

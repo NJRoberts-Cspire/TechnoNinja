@@ -1,5 +1,6 @@
 {
   "_id": "8f20d7eba4009b62",
+  "_key": "!items!8f20d7eba4009b62",
   "name": "Wanderer's Angle",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_returning_blade_wanderers_angle"
+      "sourceId": "card_ronin_returning_blade_wanderers_angle",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

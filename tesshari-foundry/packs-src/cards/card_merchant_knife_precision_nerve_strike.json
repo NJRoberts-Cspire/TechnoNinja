@@ -1,5 +1,6 @@
 {
   "_id": "fced419e12ef20a4",
+  "_key": "!items!fced419e12ef20a4",
   "name": "Precision Nerve Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_precision_nerve_strike"
+      "sourceId": "card_merchant_knife_precision_nerve_strike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

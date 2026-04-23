@@ -1,5 +1,6 @@
 {
   "_id": "d1fed8bc1ecb5be4",
+  "_key": "!items!d1fed8bc1ecb5be4",
   "name": "Forward Command",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_forward_command"
+      "sourceId": "card_iron_herald_forward_command",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "a837b76e07ebe7a3",
+  "_key": "!items!a837b76e07ebe7a3",
   "name": "Open the Stacks",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_archive_master_open_the_stacks"
+      "sourceId": "card_sutensai_archive_master_open_the_stacks",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

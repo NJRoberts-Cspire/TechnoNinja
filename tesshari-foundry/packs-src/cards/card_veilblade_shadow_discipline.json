@@ -1,5 +1,6 @@
 {
   "_id": "08907d828896daad",
+  "_key": "!items!08907d828896daad",
   "name": "Shadow Discipline",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_shadow_discipline"
+      "sourceId": "card_veilblade_shadow_discipline",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

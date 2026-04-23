@@ -1,5 +1,6 @@
 {
   "_id": "716d30537eeb78ba",
+  "_key": "!items!716d30537eeb78ba",
   "name": "Intelligence Read",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -18,7 +19,7 @@
     "subclass": "",
     "isRaceCard": false,
     "race": "",
-    "isStartingHand": true,
+    "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
     "description": "<p>Target one creature within 40 feet. Learn their current HP tier, one card in their hand (GM's choice), and whether they intend to attack this round. Apply Expose 1 to them. The next ally to act gains advantage on their first card against this target.</p>"
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shadow_daimyo_intelligence_read"
+      "sourceId": "card_shadow_daimyo_intelligence_read",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

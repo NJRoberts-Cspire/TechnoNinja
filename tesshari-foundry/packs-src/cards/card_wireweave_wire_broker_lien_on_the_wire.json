@@ -1,5 +1,6 @@
 {
   "_id": "726944b25bb751e4",
+  "_key": "!items!726944b25bb751e4",
   "name": "Lien on the Wire",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_wire_broker_lien_on_the_wire"
+      "sourceId": "card_wireweave_wire_broker_lien_on_the_wire",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

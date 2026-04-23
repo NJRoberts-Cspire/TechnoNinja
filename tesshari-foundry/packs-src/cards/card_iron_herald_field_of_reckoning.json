@@ -1,5 +1,6 @@
 {
   "_id": "a41675edcd5cf8e3",
+  "_key": "!items!a41675edcd5cf8e3",
   "name": "Field of Reckoning",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_field_of_reckoning"
+      "sourceId": "card_iron_herald_field_of_reckoning",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

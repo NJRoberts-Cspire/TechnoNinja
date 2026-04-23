@@ -1,5 +1,6 @@
 {
   "_id": "2acaebc239e4a2b8",
+  "_key": "!items!2acaebc239e4a2b8",
   "name": "The Unbroken Line",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_the_unbroken_line"
+      "sourceId": "card_iron_herald_the_unbroken_line",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

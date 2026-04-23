@@ -1,5 +1,6 @@
 {
   "_id": "9506cbe3f3f74176",
+  "_key": "!items!9506cbe3f3f74176",
   "name": "Tissue Graft",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_tissue_graft"
+      "sourceId": "card_flesh_shaper_tissue_graft",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

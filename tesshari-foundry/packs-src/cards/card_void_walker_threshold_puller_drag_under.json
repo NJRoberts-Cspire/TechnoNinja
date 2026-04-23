@@ -1,5 +1,6 @@
 {
   "_id": "5d49b6839cfd9083",
+  "_key": "!items!5d49b6839cfd9083",
   "name": "Drag Under",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_threshold_puller_drag_under"
+      "sourceId": "card_void_walker_threshold_puller_drag_under",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

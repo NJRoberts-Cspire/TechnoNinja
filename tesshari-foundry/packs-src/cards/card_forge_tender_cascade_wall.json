@@ -1,5 +1,6 @@
 {
   "_id": "853279c4a7450e72",
+  "_key": "!items!853279c4a7450e72",
   "name": "Cascade Wall",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_cascade_wall"
+      "sourceId": "card_forge_tender_cascade_wall",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

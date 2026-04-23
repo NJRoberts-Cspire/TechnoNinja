@@ -1,5 +1,6 @@
 {
   "_id": "5b5a5db706299249",
+  "_key": "!items!5b5a5db706299249",
   "name": "Living Resonance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_living_resonance"
+      "sourceId": "card_forge_tender_living_resonance",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

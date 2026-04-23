@@ -1,5 +1,6 @@
 {
   "_id": "da1b960ddabd5b33",
+  "_key": "!items!da1b960ddabd5b33",
   "name": "Card 12",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_unnamed_card_12"
+      "sourceId": "card_unnamed_card_12",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

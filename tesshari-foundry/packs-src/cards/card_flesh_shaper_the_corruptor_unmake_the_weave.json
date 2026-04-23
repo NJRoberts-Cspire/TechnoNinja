@@ -1,5 +1,6 @@
 {
   "_id": "b1027e95b5a11b43",
+  "_key": "!items!b1027e95b5a11b43",
   "name": "Unmake the Weave",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_the_corruptor_unmake_the_weave"
+      "sourceId": "card_flesh_shaper_the_corruptor_unmake_the_weave",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

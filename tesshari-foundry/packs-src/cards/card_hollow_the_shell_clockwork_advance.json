@@ -1,5 +1,6 @@
 {
   "_id": "f04a93e848ce3e68",
+  "_key": "!items!f04a93e848ce3e68",
   "name": "Clockwork Advance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_the_shell_clockwork_advance"
+      "sourceId": "card_hollow_the_shell_clockwork_advance",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

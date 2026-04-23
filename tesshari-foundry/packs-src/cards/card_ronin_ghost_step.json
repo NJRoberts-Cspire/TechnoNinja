@@ -1,5 +1,6 @@
 {
   "_id": "37e7e656e97111ca",
+  "_key": "!items!37e7e656e97111ca",
   "name": "Ghost Step",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -11,24 +12,25 @@
     "category": "mobility",
     "primaryStat": "",
     "keywords": [],
-    "unlockLevel": 8,
+    "unlockLevel": 1,
     "className": "Ronin",
     "subclass": "",
     "isRaceCard": false,
     "race": "",
-    "isStartingHand": false,
+    "isStartingHand": true,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>You have spent years moving through the margins of every territory. Move up to your full speed. This movement does not trigger reactions. Enhancement signature scanners do not register your movement during this card's activation.</p>"
+    "description": "<p>Move up to 30 feet without triggering reactions. You leave no Wire trace — sensor systems do not register this movement.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_ghost_step"
+      "sourceId": "card_ronin_ghost_step",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 1008,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

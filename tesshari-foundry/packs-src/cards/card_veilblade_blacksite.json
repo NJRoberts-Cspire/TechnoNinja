@@ -1,5 +1,6 @@
 {
   "_id": "3ceef81958bc5e62",
+  "_key": "!items!3ceef81958bc5e62",
   "name": "Blacksite",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_blacksite"
+      "sourceId": "card_veilblade_blacksite",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

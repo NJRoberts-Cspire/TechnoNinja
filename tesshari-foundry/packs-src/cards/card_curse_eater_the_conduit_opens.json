@@ -1,5 +1,6 @@
 {
   "_id": "90d910085fd9cb2b",
+  "_key": "!items!90d910085fd9cb2b",
   "name": "The Conduit Opens",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_the_conduit_opens"
+      "sourceId": "card_curse_eater_the_conduit_opens",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

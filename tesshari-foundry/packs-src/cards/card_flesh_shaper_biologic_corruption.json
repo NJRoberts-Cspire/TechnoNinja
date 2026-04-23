@@ -1,5 +1,6 @@
 {
   "_id": "3a2e425050b94f5f",
+  "_key": "!items!3a2e425050b94f5f",
   "name": "Biologic Corruption",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_biologic_corruption"
+      "sourceId": "card_flesh_shaper_biologic_corruption",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

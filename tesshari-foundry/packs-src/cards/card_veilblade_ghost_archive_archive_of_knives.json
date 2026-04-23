@@ -1,5 +1,6 @@
 {
   "_id": "8fa536c9fd0119e5",
+  "_key": "!items!8fa536c9fd0119e5",
   "name": "Archive of Knives",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_ghost_archive_archive_of_knives"
+      "sourceId": "card_veilblade_ghost_archive_archive_of_knives",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

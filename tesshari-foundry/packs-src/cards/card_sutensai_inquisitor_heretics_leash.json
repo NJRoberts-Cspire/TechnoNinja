@@ -1,5 +1,6 @@
 {
   "_id": "3baffc2bffe1b7df",
+  "_key": "!items!3baffc2bffe1b7df",
   "name": "Heretic's Leash",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_inquisitor_heretics_leash"
+      "sourceId": "card_sutensai_inquisitor_heretics_leash",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

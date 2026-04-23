@@ -1,5 +1,6 @@
 {
   "_id": "8edf8c61e298373d",
+  "_key": "!items!8edf8c61e298373d",
   "name": "Remote Hands",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_remote_hands"
+      "sourceId": "card_puppet_binder_remote_hands",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

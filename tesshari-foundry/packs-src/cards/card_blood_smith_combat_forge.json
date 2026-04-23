@@ -1,5 +1,6 @@
 {
   "_id": "9d608a73d116ff32",
+  "_key": "!items!9d608a73d116ff32",
   "name": "Combat Forge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_blood_smith_combat_forge"
+      "sourceId": "card_blood_smith_combat_forge",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

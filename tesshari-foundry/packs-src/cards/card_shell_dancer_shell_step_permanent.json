@@ -1,5 +1,6 @@
 {
   "_id": "6b8982bf121de23c",
+  "_key": "!items!6b8982bf121de23c",
   "name": "Shell Step: Permanent",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_shell_step_permanent"
+      "sourceId": "card_shell_dancer_shell_step_permanent",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "6c8dc0034a82eab1",
+  "_key": "!items!6c8dc0034a82eab1",
   "name": "Apex Mend",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_apex_mend"
+      "sourceId": "card_flesh_shaper_apex_mend",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

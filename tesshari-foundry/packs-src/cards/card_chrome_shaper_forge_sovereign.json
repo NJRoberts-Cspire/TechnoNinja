@@ -1,5 +1,6 @@
 {
   "_id": "343bf41b81c07806",
+  "_key": "!items!343bf41b81c07806",
   "name": "Forge Sovereign",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_forge_sovereign"
+      "sourceId": "card_chrome_shaper_forge_sovereign",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

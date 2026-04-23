@@ -1,5 +1,6 @@
 {
   "_id": "3aa88050ce6ec79a",
+  "_key": "!items!3aa88050ce6ec79a",
   "name": "Fieldwork",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_fieldwork"
+      "sourceId": "card_oni_hunter_fieldwork",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

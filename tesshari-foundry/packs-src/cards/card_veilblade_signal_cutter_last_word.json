@@ -1,5 +1,6 @@
 {
   "_id": "aaaa83c5848f47a2",
+  "_key": "!items!aaaa83c5848f47a2",
   "name": "Last Word",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_signal_cutter_last_word"
+      "sourceId": "card_veilblade_signal_cutter_last_word",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

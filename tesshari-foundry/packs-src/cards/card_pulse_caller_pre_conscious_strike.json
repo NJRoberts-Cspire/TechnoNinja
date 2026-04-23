@@ -1,5 +1,6 @@
 {
   "_id": "a27addcd122af62b",
+  "_key": "!items!a27addcd122af62b",
   "name": "Pre-Conscious Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_pre_conscious_strike"
+      "sourceId": "card_pulse_caller_pre_conscious_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

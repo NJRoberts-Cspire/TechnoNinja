@@ -1,5 +1,6 @@
 {
   "_id": "ec71ba03471ae0a5",
+  "_key": "!items!ec71ba03471ae0a5",
   "name": "Mark Target",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_status_mark_target"
+      "sourceId": "card_status_mark_target",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "4173ba184befbe75",
+  "_key": "!items!4173ba184befbe75",
   "name": "Pulse Dominance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_pulse_dominance"
+      "sourceId": "card_pulse_caller_pulse_dominance",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

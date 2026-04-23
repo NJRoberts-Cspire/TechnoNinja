@@ -1,5 +1,6 @@
 {
   "_id": "becee0d79f83c493",
+  "_key": "!items!becee0d79f83c493",
   "name": "Scarline Parry",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_the_claimed_scarline_parry"
+      "sourceId": "card_fracture_knight_the_claimed_scarline_parry",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

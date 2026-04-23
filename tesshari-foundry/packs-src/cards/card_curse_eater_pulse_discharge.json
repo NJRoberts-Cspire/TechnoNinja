@@ -1,5 +1,6 @@
 {
   "_id": "6087bb5eaae156b0",
+  "_key": "!items!6087bb5eaae156b0",
   "name": "Pulse Discharge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_pulse_discharge"
+      "sourceId": "card_curse_eater_pulse_discharge",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

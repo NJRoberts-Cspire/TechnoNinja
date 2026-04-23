@@ -1,5 +1,6 @@
 {
   "_id": "4c8c722ec451e28d",
+  "_key": "!items!4c8c722ec451e28d",
   "name": "Feedback Loop",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_feedback_loop"
+      "sourceId": "card_shell_dancer_feedback_loop",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

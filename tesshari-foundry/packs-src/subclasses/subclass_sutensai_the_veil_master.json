@@ -1,0 +1,41 @@
+{
+  "_id": "9719c0116c0bca49",
+  "_key": "!items!9719c0116c0bca49",
+  "name": "The Veil Master",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Sutensai",
+    "pathKey": "the_veil_master",
+    "features": {
+      "3": {
+        "name": "Veil Navigation",
+        "html": "<p>You can move into and through the Iron Afterlife more freely than most. Once per short rest, you can enter the Iron Afterlife as a projection (your body remains in place) for up to 10 minutes. While projected, you can observe the Afterlife layer of any location within 1 mile, communicate with Afterlife entities without a check, and follow spiritual trails left by Void Walkers or others who have traversed the Afterlife recently.</p>"
+      },
+      "6": {
+        "name": "Afterlife Cartography",
+        "html": "<p>You have formally mapped significant portions of the Iron Afterlife accessible from your current region. When you enter the Iron Afterlife (as a projection or physically), you are never lost. You know the fastest routes, the dangerous areas, and the locations of significant Afterlife entities or architectural features (the Sutensai has a word for the spiritual equivalents of landmarks; they are called echo-anchors). Once per long rest, you can navigate another creature to a specific Afterlife location by giving them instructions that they can follow even without your presence.</p>"
+      },
+      "10": {
+        "name": "Entity Command",
+        "html": "<p>The Sutensai's institutional authority extends into the Iron Afterlife when wielded by a Veil Master. Afterlife entities you encounter must succeed on a RESONANCE resistance check (DC = your Faith Save DC) or comply with reasonable requests (not commands that violate their nature). On a failed save, they treat you as a recognized Sutensai official and respond accordingly. This does not grant control — it grants institutional standing, which is a different thing.</p>"
+      },
+      "14": {
+        "name": "The Final Map",
+        "html": "<p>You have mapped the region of the Iron Afterlife most relevant to your current territory completely. Once per long rest, you can access the full Afterlife geography of a 20-mile radius around your current position: you know the location of every significant Afterlife entity, every recently-arrived Echomind, every location where the Veil is thin, and every place where someone has been using the Afterlife as a transit or intelligence resource. This is a substantial intelligence capability. The Sutensai has always maintained it. You are now the person who embodies it, and you are beginning to understand what that has meant for the institution.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Veil Master has gone deep into the Iron Afterlife within the framework of Sutensai practice — not as a rebel or an independent practitioner, but as an institutionally sanctioned specialist in the spiritual geography beyond death. They are the Sutensai's experts on the dead, the mapping team, the troubleshooters when something from the other side of the Veil is causing problems in the physical world. They know more about the Iron Afterlife than almost any living person, and they carry that knowledge with the particular weight of someone who has made it their life's work.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Sutensai::the_veil_master"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,5 +1,6 @@
 {
   "_id": "465551685a1cdf3b",
+  "_key": "!items!465551685a1cdf3b",
   "name": "Deep Dissolution",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -13,7 +14,8 @@
     "keywords": [
       "Stagger",
       "Silence",
-      "Overheat 3"
+      "Overheat 3",
+      "Pierce"
     ],
     "unlockLevel": 15,
     "className": "Oni Hunter",
@@ -28,7 +30,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_deep_dissolution"
+      "sourceId": "card_oni_hunter_deep_dissolution",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

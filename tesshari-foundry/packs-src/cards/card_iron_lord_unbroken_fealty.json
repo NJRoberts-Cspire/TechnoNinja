@@ -1,5 +1,6 @@
 {
   "_id": "037c5e0e5eb4bc58",
+  "_key": "!items!037c5e0e5eb4bc58",
   "name": "Unbroken Fealty",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -10,8 +11,10 @@
     "pierce": 0,
     "category": "utility",
     "primaryStat": "",
-    "keywords": [],
-    "unlockLevel": 1,
+    "keywords": [
+      "Guard 4"
+    ],
+    "unlockLevel": 15,
     "className": "",
     "subclass": "",
     "isRaceCard": false,
@@ -19,16 +22,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Emergency ward sustain card.</p>"
+    "description": "<p>Your oath is a physical thing. Target one adjacent ally who is below half HP. Transfer up to 12 HP from yourself to them. This card cannot reduce you below 1 HP. The ally also gains Guard 4 from your resonant protection.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_lord_unbroken_fealty"
+      "sourceId": "card_iron_lord_unbroken_fealty",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2015,
   "ownership": {
     "default": 0
   }

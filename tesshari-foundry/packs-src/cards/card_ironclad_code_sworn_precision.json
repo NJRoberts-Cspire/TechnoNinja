@@ -1,5 +1,6 @@
 {
   "_id": "57bc6c4a8ec2253b",
+  "_key": "!items!57bc6c4a8ec2253b",
   "name": "Code-Sworn Precision",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_code_sworn_precision"
+      "sourceId": "card_ironclad_code_sworn_precision",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

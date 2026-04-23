@@ -1,5 +1,6 @@
 {
   "_id": "e48b492bacb76f52",
+  "_key": "!items!e48b492bacb76f52",
   "name": "Void Presence",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -16,7 +17,7 @@
     "subclass": "",
     "isRaceCard": false,
     "race": "",
-    "isStartingHand": true,
+    "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
     "description": "<p>Deal 5 + RESONANCE resonant damage to one target within 30 feet. This card deals +RESONANCE bonus damage for each 10 HP you are missing (calculated at time of play).</p>"
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_void_presence"
+      "sourceId": "card_hollow_void_presence",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

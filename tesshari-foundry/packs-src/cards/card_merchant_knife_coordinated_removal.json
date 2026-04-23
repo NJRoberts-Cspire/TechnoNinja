@@ -1,5 +1,6 @@
 {
   "_id": "5a26c3ab284d0c63",
+  "_key": "!items!5a26c3ab284d0c63",
   "name": "Coordinated Removal",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_coordinated_removal"
+      "sourceId": "card_merchant_knife_coordinated_removal",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

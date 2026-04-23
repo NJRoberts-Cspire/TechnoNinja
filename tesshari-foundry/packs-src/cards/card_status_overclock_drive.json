@@ -1,5 +1,6 @@
 {
   "_id": "31a81621fe63b403",
+  "_key": "!items!31a81621fe63b403",
   "name": "Overclock Drive",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_status_overclock_drive"
+      "sourceId": "card_status_overclock_drive",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "e90a7151602db905",
+  "_key": "!items!e90a7151602db905",
   "name": "Promise to Break",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_the_breaker_promise_to_break"
+      "sourceId": "card_shell_dancer_the_breaker_promise_to_break",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

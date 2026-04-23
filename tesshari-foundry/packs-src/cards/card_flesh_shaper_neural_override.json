@@ -1,5 +1,6 @@
 {
   "_id": "2724af1732c63bd0",
+  "_key": "!items!2724af1732c63bd0",
   "name": "Neural Override",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_neural_override"
+      "sourceId": "card_flesh_shaper_neural_override",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

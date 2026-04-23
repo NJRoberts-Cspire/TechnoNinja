@@ -1,5 +1,6 @@
 {
   "_id": "f446fb43de446a4b",
+  "_key": "!items!f446fb43de446a4b",
   "name": "Resonant Rebuke",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_resonant_rebuke"
+      "sourceId": "card_iron_monk_resonant_rebuke",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

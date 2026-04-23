@@ -1,5 +1,6 @@
 {
   "_id": "75cdd63a836bb8ea",
+  "_key": "!items!75cdd63a836bb8ea",
   "name": "Bone-Spur Riposte",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_bone_spur_riposte"
+      "sourceId": "card_chrome_shaper_bone_spur_riposte",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

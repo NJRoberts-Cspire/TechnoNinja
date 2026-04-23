@@ -1,5 +1,6 @@
 {
   "_id": "c90d94f50f842e21",
+  "_key": "!items!c90d94f50f842e21",
   "name": "Infrastructure Advantage",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,11 +28,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_diminished_infrastructure_advantage"
+      "sourceId": "card_diminished_infrastructure_advantage",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

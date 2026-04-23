@@ -1,5 +1,6 @@
 {
   "_id": "d62ff00d9594f9c4",
+  "_key": "!items!d62ff00d9594f9c4",
   "name": "Deadline",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_signal_cutter_deadline"
+      "sourceId": "card_veilblade_signal_cutter_deadline",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

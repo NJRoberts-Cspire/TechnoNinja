@@ -1,5 +1,6 @@
 {
   "_id": "4d59b08e02a5be15",
+  "_key": "!items!4d59b08e02a5be15",
   "name": "Approach Protocol",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -11,7 +12,8 @@
     "category": "utility",
     "primaryStat": "",
     "keywords": [
-      "Guard"
+      "Expose 3 (applied to target",
+      "persists until your next attack)"
     ],
     "unlockLevel": 10,
     "className": "Veilblade",
@@ -26,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_approach_protocol"
+      "sourceId": "card_veilblade_approach_protocol",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

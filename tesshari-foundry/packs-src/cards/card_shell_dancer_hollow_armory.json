@@ -1,5 +1,6 @@
 {
   "_id": "12abb0b88ce33b70",
+  "_key": "!items!12abb0b88ce33b70",
   "name": "Hollow Armory",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_hollow_armory"
+      "sourceId": "card_shell_dancer_hollow_armory",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

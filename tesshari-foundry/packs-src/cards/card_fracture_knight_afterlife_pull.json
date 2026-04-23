@@ -1,5 +1,6 @@
 {
   "_id": "1f30279b0c739a54",
+  "_key": "!items!1f30279b0c739a54",
   "name": "Afterlife Pull",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_afterlife_pull"
+      "sourceId": "card_fracture_knight_afterlife_pull",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

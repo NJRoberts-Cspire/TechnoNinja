@@ -1,5 +1,6 @@
 {
   "_id": "f4828b1542e56caa",
+  "_key": "!items!f4828b1542e56caa",
   "name": "Hold the Line",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_the_anchor_hold_the_line"
+      "sourceId": "card_fracture_knight_the_anchor_hold_the_line",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

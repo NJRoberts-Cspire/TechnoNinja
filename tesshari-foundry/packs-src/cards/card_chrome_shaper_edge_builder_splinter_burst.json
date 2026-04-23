@@ -1,5 +1,6 @@
 {
   "_id": "47ca97e19881f7c8",
+  "_key": "!items!47ca97e19881f7c8",
   "name": "Splinter Burst",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_edge_builder_splinter_burst"
+      "sourceId": "card_chrome_shaper_edge_builder_splinter_burst",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

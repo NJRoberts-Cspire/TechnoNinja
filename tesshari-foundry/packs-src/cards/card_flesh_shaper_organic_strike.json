@@ -1,5 +1,6 @@
 {
   "_id": "40c6e22e9fe83db4",
+  "_key": "!items!40c6e22e9fe83db4",
   "name": "Organic Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -18,7 +19,7 @@
     "subclass": "",
     "isRaceCard": false,
     "race": "",
-    "isStartingHand": true,
+    "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
     "description": "<p>Deal 5 + IRON melee damage to one adjacent target. If the target has organic components, apply Bleed 2.</p>"
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_organic_strike"
+      "sourceId": "card_flesh_shaper_organic_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

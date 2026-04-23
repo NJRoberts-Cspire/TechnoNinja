@@ -1,5 +1,6 @@
 {
   "_id": "38d4b509035e82b5",
+  "_key": "!items!38d4b509035e82b5",
   "name": "Expose Weakpoint",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_status_expose_weakpoint"
+      "sourceId": "card_status_expose_weakpoint",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

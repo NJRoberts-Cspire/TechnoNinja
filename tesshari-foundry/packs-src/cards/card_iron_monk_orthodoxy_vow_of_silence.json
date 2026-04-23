@@ -1,5 +1,6 @@
 {
   "_id": "5a21bcaf58cb12b3",
+  "_key": "!items!5a21bcaf58cb12b3",
   "name": "Vow of Silence",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_orthodoxy_vow_of_silence"
+      "sourceId": "card_iron_monk_orthodoxy_vow_of_silence",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

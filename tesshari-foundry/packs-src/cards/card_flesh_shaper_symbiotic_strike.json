@@ -1,5 +1,6 @@
 {
   "_id": "9645d63c2f35a259",
+  "_key": "!items!9645d63c2f35a259",
   "name": "Symbiotic Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_symbiotic_strike"
+      "sourceId": "card_flesh_shaper_symbiotic_strike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

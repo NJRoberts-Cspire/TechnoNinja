@@ -1,5 +1,6 @@
 {
   "_id": "bdb4624534ddac37",
+  "_key": "!items!bdb4624534ddac37",
   "name": "Discharge Mastery",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_discharge_mastery"
+      "sourceId": "card_pulse_caller_discharge_mastery",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

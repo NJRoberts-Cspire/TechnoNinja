@@ -1,5 +1,6 @@
 {
   "_id": "d6c4fb7dc14d50ec",
+  "_key": "!items!d6c4fb7dc14d50ec",
   "name": "Rally Call",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_rally_call"
+      "sourceId": "card_iron_herald_rally_call",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

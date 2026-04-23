@@ -1,5 +1,6 @@
 {
   "_id": "1f4c5c158b75076f",
+  "_key": "!items!1f4c5c158b75076f",
   "name": "Infrastructure Broadcast",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,11 +27,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireborn_infrastructure_broadcast"
+      "sourceId": "card_wireborn_infrastructure_broadcast",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

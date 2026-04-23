@@ -1,5 +1,6 @@
 {
   "_id": "b84e559225f2725d",
+  "_key": "!items!b84e559225f2725d",
   "name": "Translate the Wound",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_deep_listener_translate_the_wound"
+      "sourceId": "card_echo_speaker_deep_listener_translate_the_wound",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

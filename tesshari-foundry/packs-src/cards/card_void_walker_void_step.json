@@ -1,5 +1,6 @@
 {
   "_id": "af5cff3659dfdaab",
+  "_key": "!items!af5cff3659dfdaab",
   "name": "Void Step",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_void_step"
+      "sourceId": "card_void_walker_void_step",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

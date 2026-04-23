@@ -1,5 +1,6 @@
 {
   "_id": "2a101c1965c1994d",
+  "_key": "!items!2a101c1965c1994d",
   "name": "Dead Weight",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_dead_weight"
+      "sourceId": "card_echo_speaker_dead_weight",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

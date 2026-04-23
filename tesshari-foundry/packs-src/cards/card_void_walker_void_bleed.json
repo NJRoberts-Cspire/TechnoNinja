@@ -1,5 +1,6 @@
 {
   "_id": "1a8ad67b9005dc7e",
+  "_key": "!items!1a8ad67b9005dc7e",
   "name": "Void Bleed",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_void_bleed"
+      "sourceId": "card_void_walker_void_bleed",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

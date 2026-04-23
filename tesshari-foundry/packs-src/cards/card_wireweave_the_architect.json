@@ -1,5 +1,6 @@
 {
   "_id": "0e0d6bc459be77b0",
+  "_key": "!items!0e0d6bc459be77b0",
   "name": "The Architect",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_the_architect"
+      "sourceId": "card_wireweave_the_architect",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

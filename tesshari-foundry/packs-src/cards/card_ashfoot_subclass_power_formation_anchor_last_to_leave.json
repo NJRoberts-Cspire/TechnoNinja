@@ -1,5 +1,6 @@
 {
   "_id": "ff9029ff818c3bbd",
+  "_key": "!items!ff9029ff818c3bbd",
   "name": "Last to Leave",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_subclass_power_formation_anchor_last_to_leave"
+      "sourceId": "card_ashfoot_subclass_power_formation_anchor_last_to_leave",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

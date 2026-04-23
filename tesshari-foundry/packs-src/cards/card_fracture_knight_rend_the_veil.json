@@ -1,5 +1,6 @@
 {
   "_id": "dc567ae80edc4ddf",
+  "_key": "!items!dc567ae80edc4ddf",
   "name": "Rend the Veil",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_rend_the_veil"
+      "sourceId": "card_fracture_knight_rend_the_veil",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

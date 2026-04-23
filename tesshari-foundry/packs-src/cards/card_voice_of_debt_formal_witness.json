@@ -1,5 +1,6 @@
 {
   "_id": "31d9258645de0372",
+  "_key": "!items!31d9258645de0372",
   "name": "Formal Witness",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_formal_witness"
+      "sourceId": "card_voice_of_debt_formal_witness",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

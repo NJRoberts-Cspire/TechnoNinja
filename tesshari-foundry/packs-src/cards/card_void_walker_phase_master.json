@@ -1,5 +1,6 @@
 {
   "_id": "c9ea2e911a3c83ff",
+  "_key": "!items!c9ea2e911a3c83ff",
   "name": "Phase Master",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_phase_master"
+      "sourceId": "card_void_walker_phase_master",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

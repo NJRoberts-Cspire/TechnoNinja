@@ -1,5 +1,6 @@
 {
   "_id": "bdc7bafa87d00b9d",
+  "_key": "!items!bdc7bafa87d00b9d",
   "name": "Relay Order",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_the_signal_relay_order"
+      "sourceId": "card_iron_herald_the_signal_relay_order",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

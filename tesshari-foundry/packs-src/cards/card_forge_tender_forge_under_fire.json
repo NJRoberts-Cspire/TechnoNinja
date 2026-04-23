@@ -1,5 +1,6 @@
 {
   "_id": "b1ca23766b71a186",
+  "_key": "!items!b1ca23766b71a186",
   "name": "Forge Under Fire",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_forge_under_fire"
+      "sourceId": "card_forge_tender_forge_under_fire",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

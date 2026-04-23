@@ -1,5 +1,6 @@
 {
   "_id": "de576f82c1d2ac27",
+  "_key": "!items!de576f82c1d2ac27",
   "name": "Serrated Lash",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_edge_builder_serrated_lash"
+      "sourceId": "card_chrome_shaper_edge_builder_serrated_lash",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

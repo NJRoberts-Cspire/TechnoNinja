@@ -1,5 +1,6 @@
 {
   "_id": "c14c4460ccb96bfb",
+  "_key": "!items!c14c4460ccb96bfb",
   "name": "Interest Accrues",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_interest_accrues"
+      "sourceId": "card_voice_of_debt_interest_accrues",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

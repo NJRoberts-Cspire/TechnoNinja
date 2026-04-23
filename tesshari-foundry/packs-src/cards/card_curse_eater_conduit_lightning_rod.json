@@ -1,5 +1,6 @@
 {
   "_id": "8d76a86303414f09",
+  "_key": "!items!8d76a86303414f09",
   "name": "Lightning Rod",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_conduit_lightning_rod"
+      "sourceId": "card_curse_eater_conduit_lightning_rod",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

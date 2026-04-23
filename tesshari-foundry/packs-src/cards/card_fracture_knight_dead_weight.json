@@ -1,20 +1,21 @@
 {
   "_id": "3e6d6577a89f0791",
+  "_key": "!items!3e6d6577a89f0791",
   "name": "Dead Weight",
   "type": "card",
   "img": "icons/svg/combat.svg",
   "system": {
     "tier": 2,
     "apCost": 2,
-    "baseDamage": 13,
+    "baseDamage": 10,
     "pierce": 0,
-    "category": "attack",
-    "primaryStat": "iron",
+    "category": "control",
+    "primaryStat": "resonance",
     "keywords": [
-      "Fracture 2",
-      "Vulnerable"
+      "Root",
+      "Stagger"
     ],
-    "unlockLevel": 9,
+    "unlockLevel": 13,
     "className": "Fracture Knight",
     "subclass": "",
     "isRaceCard": false,
@@ -22,16 +23,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Deal 13 + IRON damage. Apply Fracture 2 and Vulnerable 1 to the target. If the target already had Fracture before this card, apply Vulnerable 2 instead.</p>"
+    "description": "<p>Channel the weight of the dead onto one enemy within 30 feet. Deal 10 + RESONANCE damage. Apply Root and Stagger. The target feels the accumulated grief of those they have harmed — they cannot use Veil cards next turn.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_dead_weight"
+      "sourceId": "card_fracture_knight_dead_weight",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 2009,
+  "sort": 2013,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "b875bc9f949f869f",
+  "_key": "!items!b875bc9f949f869f",
   "name": "Second Mouth",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_the_consumed_second_mouth"
+      "sourceId": "card_curse_eater_the_consumed_second_mouth",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

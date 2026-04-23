@@ -1,5 +1,6 @@
 {
   "_id": "b661da6722ee76e1",
+  "_key": "!items!b661da6722ee76e1",
   "name": "Network Collapse",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_network_collapse"
+      "sourceId": "card_wireweave_network_collapse",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

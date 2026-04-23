@@ -1,5 +1,6 @@
 {
   "_id": "2c9e73d3f66574fb",
+  "_key": "!items!2c9e73d3f66574fb",
   "name": "Perfect Kata",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -9,7 +10,7 @@
     "baseDamage": 22,
     "pierce": 20,
     "category": "signature",
-    "primaryStat": "iron+resonance",
+    "primaryStat": "iron",
     "keywords": [],
     "unlockLevel": 9,
     "className": "Ironclad Samurai",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_perfect_kata"
+      "sourceId": "card_ironclad_perfect_kata",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "cda634d4dce5c965",
+  "_key": "!items!cda634d4dce5c965",
   "name": "Ironfield Meditation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_ironfield_meditation"
+      "sourceId": "card_ironclad_ironfield_meditation",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "85ced0e1197c920a",
+  "_key": "!items!85ced0e1197c920a",
   "name": "The Inventory",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_unnamed_power_the_inventory"
+      "sourceId": "card_unnamed_power_the_inventory",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

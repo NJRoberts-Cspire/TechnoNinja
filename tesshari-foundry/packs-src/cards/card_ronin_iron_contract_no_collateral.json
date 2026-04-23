@@ -1,5 +1,6 @@
 {
   "_id": "7cec1a63d386052b",
+  "_key": "!items!7cec1a63d386052b",
   "name": "No Collateral",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_iron_contract_no_collateral"
+      "sourceId": "card_ronin_iron_contract_no_collateral",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

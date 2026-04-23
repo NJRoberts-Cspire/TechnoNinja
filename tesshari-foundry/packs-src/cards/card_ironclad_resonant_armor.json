@@ -1,5 +1,6 @@
 {
   "_id": "33699e73ba96d142",
+  "_key": "!items!33699e73ba96d142",
   "name": "Resonant Armor",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_resonant_armor"
+      "sourceId": "card_ironclad_resonant_armor",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

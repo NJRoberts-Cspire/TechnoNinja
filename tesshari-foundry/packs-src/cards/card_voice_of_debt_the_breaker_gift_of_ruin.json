@@ -1,5 +1,6 @@
 {
   "_id": "df877ef60e714805",
+  "_key": "!items!df877ef60e714805",
   "name": "Gift of Ruin",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_the_breaker_gift_of_ruin"
+      "sourceId": "card_voice_of_debt_the_breaker_gift_of_ruin",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

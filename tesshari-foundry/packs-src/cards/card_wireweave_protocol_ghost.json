@@ -1,5 +1,6 @@
 {
   "_id": "b7b3f27a1b5a6ebb",
+  "_key": "!items!b7b3f27a1b5a6ebb",
   "name": "Protocol Ghost",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_protocol_ghost"
+      "sourceId": "card_wireweave_protocol_ghost",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

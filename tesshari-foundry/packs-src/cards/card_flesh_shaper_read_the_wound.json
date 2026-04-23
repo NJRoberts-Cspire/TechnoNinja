@@ -1,5 +1,6 @@
 {
   "_id": "974a96cb3b1ee437",
+  "_key": "!items!974a96cb3b1ee437",
   "name": "Read the Wound",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_read_the_wound"
+      "sourceId": "card_flesh_shaper_read_the_wound",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

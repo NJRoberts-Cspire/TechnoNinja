@@ -1,5 +1,6 @@
 {
   "_id": "1acfd4ffaf479723",
+  "_key": "!items!1acfd4ffaf479723",
   "name": "Signal Skim",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_signal_skim"
+      "sourceId": "card_wireweave_signal_skim",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

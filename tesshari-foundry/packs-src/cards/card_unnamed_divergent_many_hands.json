@@ -1,5 +1,6 @@
 {
   "_id": "63387ac6cb5c238e",
+  "_key": "!items!63387ac6cb5c238e",
   "name": "Many Hands",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_unnamed_divergent_many_hands"
+      "sourceId": "card_unnamed_divergent_many_hands",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

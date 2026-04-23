@@ -1,5 +1,6 @@
 {
   "_id": "9a01a0fe4e6273dd",
+  "_key": "!items!9a01a0fe4e6273dd",
   "name": "Borrowed Authority",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_priors_voice_borrowed_authority"
+      "sourceId": "card_sutensai_priors_voice_borrowed_authority",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

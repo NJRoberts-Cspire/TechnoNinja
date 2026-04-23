@@ -1,5 +1,6 @@
 {
   "_id": "cf74bde906d6a572",
+  "_key": "!items!cf74bde906d6a572",
   "name": "The Listening Wire",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_the_listening_wire"
+      "sourceId": "card_veilblade_the_listening_wire",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

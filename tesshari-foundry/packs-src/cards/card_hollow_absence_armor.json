@@ -1,5 +1,6 @@
 {
   "_id": "57df6dcb88d319f1",
+  "_key": "!items!57df6dcb88d319f1",
   "name": "Absence Armor",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_absence_armor"
+      "sourceId": "card_hollow_absence_armor",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

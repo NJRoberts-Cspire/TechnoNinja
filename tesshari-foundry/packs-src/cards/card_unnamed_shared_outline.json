@@ -1,5 +1,6 @@
 {
   "_id": "de22e9fd80862fdd",
+  "_key": "!items!de22e9fd80862fdd",
   "name": "Shared Outline",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_unnamed_shared_outline"
+      "sourceId": "card_unnamed_shared_outline",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "75f35c3bc2a9515d",
+  "_key": "!items!75f35c3bc2a9515d",
   "name": "Command Network",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shadow_daimyo_command_network"
+      "sourceId": "card_shadow_daimyo_command_network",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

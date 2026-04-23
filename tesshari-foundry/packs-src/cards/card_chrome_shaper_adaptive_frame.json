@@ -1,5 +1,6 @@
 {
   "_id": "ba2636603b63566f",
+  "_key": "!items!ba2636603b63566f",
   "name": "Adaptive Frame",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_adaptive_frame"
+      "sourceId": "card_chrome_shaper_adaptive_frame",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

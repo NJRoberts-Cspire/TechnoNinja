@@ -1,5 +1,6 @@
 {
   "_id": "e5cd3c480029240b",
+  "_key": "!items!e5cd3c480029240b",
   "name": "Breach Signal",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_breach_signal"
+      "sourceId": "card_iron_herald_breach_signal",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

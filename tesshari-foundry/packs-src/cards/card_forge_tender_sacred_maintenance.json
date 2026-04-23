@@ -1,5 +1,6 @@
 {
   "_id": "a17742ea710362e0",
+  "_key": "!items!a17742ea710362e0",
   "name": "Sacred Maintenance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_sacred_maintenance"
+      "sourceId": "card_forge_tender_sacred_maintenance",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

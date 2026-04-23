@@ -1,5 +1,6 @@
 {
   "_id": "8ff77c672835c622",
+  "_key": "!items!8ff77c672835c622",
   "name": "Reclaimed Edge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_the_claimed_reclaimed_edge"
+      "sourceId": "card_fracture_knight_the_claimed_reclaimed_edge",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

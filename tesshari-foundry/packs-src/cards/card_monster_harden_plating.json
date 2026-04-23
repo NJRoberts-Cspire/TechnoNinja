@@ -1,5 +1,6 @@
 {
   "_id": "d608cb7a43e7bb87",
+  "_key": "!items!d608cb7a43e7bb87",
   "name": "Harden Plating",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_monster_harden_plating"
+      "sourceId": "card_monster_harden_plating",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

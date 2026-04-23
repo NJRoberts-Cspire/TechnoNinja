@@ -1,5 +1,6 @@
 {
   "_id": "0080ac5348cc0e0d",
+  "_key": "!items!0080ac5348cc0e0d",
   "name": "Fallen Honor Guard",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_haunted_legion_fallen_honor_guard"
+      "sourceId": "card_fracture_knight_haunted_legion_fallen_honor_guard",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

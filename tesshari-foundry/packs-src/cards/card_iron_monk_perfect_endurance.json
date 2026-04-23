@@ -1,5 +1,6 @@
 {
   "_id": "3ff2c0024c263645",
+  "_key": "!items!3ff2c0024c263645",
   "name": "Perfect Endurance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_perfect_endurance"
+      "sourceId": "card_iron_monk_perfect_endurance",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

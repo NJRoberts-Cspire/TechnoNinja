@@ -1,5 +1,6 @@
 {
   "_id": "90433a08f6440af5",
+  "_key": "!items!90433a08f6440af5",
   "name": "Double Vein",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_double_vein"
+      "sourceId": "card_ironclad_double_vein",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

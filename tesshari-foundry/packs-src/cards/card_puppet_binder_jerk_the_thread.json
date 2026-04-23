@@ -1,5 +1,6 @@
 {
   "_id": "a6453a4aca624859",
+  "_key": "!items!a6453a4aca624859",
   "name": "Jerk the Thread",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_jerk_the_thread"
+      "sourceId": "card_puppet_binder_jerk_the_thread",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

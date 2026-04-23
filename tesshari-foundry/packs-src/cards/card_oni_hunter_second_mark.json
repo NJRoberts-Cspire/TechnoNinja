@@ -1,5 +1,6 @@
 {
   "_id": "828d16ecd361ef50",
+  "_key": "!items!828d16ecd361ef50",
   "name": "Second Mark",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_second_mark"
+      "sourceId": "card_oni_hunter_second_mark",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

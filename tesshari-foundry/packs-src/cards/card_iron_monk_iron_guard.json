@@ -1,5 +1,6 @@
 {
   "_id": "f64997ed7622c6bf",
+  "_key": "!items!f64997ed7622c6bf",
   "name": "Iron Guard",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_iron_guard"
+      "sourceId": "card_iron_monk_iron_guard",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

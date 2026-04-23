@@ -1,5 +1,6 @@
 {
   "_id": "50cebb94656998a8",
+  "_key": "!items!50cebb94656998a8",
   "name": "Priority Mark",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_priority_mark"
+      "sourceId": "card_iron_herald_priority_mark",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

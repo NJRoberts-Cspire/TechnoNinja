@@ -1,5 +1,6 @@
 {
   "_id": "4f29aaff4ac85908",
+  "_key": "!items!4f29aaff4ac85908",
   "name": "Empty the Ledger",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_supply_cutter_empty_the_ledger"
+      "sourceId": "card_merchant_knife_supply_cutter_empty_the_ledger",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "624ac1a938658cff",
+  "_key": "!items!624ac1a938658cff",
   "name": "Sealed Retinue",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_oath_iron_lord_sealed_retinue"
+      "sourceId": "card_ironclad_oath_iron_lord_sealed_retinue",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

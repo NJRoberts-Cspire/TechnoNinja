@@ -1,5 +1,6 @@
 {
   "_id": "79f35ad45eeb4c46",
+  "_key": "!items!79f35ad45eeb4c46",
   "name": "Shell-State Flicker",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_shell_state_flicker"
+      "sourceId": "card_hollow_shell_state_flicker",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

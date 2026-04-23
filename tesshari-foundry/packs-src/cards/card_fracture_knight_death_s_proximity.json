@@ -1,5 +1,6 @@
 {
   "_id": "8879d9abb722550d",
+  "_key": "!items!8879d9abb722550d",
   "name": "Death's Proximity",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_death_s_proximity"
+      "sourceId": "card_fracture_knight_death_s_proximity",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "e3d94ed00924290a",
+  "_key": "!items!e3d94ed00924290a",
   "name": "Intention Made Real",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_intention_made_real"
+      "sourceId": "card_pulse_caller_intention_made_real",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

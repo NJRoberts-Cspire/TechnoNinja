@@ -1,5 +1,6 @@
 {
   "_id": "669fd00fb25ace1c",
+  "_key": "!items!669fd00fb25ace1c",
   "name": "Shell Harvest",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_the_scavenger_shell_harvest"
+      "sourceId": "card_shell_dancer_the_scavenger_shell_harvest",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

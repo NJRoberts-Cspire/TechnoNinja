@@ -1,0 +1,41 @@
+{
+  "_id": "8b3e3d4573f2808f",
+  "_key": "!items!8b3e3d4573f2808f",
+  "name": "The Deep Listener",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Echo Speaker",
+    "pathKey": "the_deep_listener",
+    "features": {
+      "3": {
+        "name": "Deep Call",
+        "html": "<p>Your contact attempts reach deeper into the Afterlife than normal. You can contact the dead without knowing their name or enhancement-signature — you can reach \"the person who died here most recently,\" \"the person whose death is most relevant to this object,\" or similar spiritual descriptions. Additionally, your contacts are clearer and more detailed than standard communion — the dead speak in full sentences and can hold complex conversations.</p>"
+      },
+      "6": {
+        "name": "Afterlife Sight",
+        "html": "<p>You permanently see the Iron Afterlife overlay over physical reality. You can see invisible creatures that have Echomind signatures. You can see residual spiritual imprints on objects touched by the dead. You can distinguish between violent and peaceful deaths by looking at the location where they occurred. You cannot turn this off. It is occasionally distressing.</p>"
+      },
+      "10": {
+        "name": "Dweller at the Gate",
+        "html": "<p>Your partial presence in the Afterlife gives you leverage there. Afterlife entities regard you as a resident rather than an intruder. They will not attack you without provocation. You can negotiate with Afterlife entities as if in a diplomatic context (they have desires, grievances, and information). Once per long rest, you can call one Afterlife entity to the physical world for up to 10 minutes — it has the statistics of a wraith but is not hostile unless threatened.</p>"
+      },
+      "14": {
+        "name": "Gone Halfway",
+        "html": "<p>You have gone so deep into the Iron Afterlife that you have begun to change at a cellular level. You are permanently partially incorporeal: attacks against you have a 25% chance of passing through you as if you were not there (roll a d4 at the start of each round you are attacked — on a 1, all attacks this round automatically miss). You have immunity to necrotic damage. You no longer need to eat or drink — your organic tissue is sustained by Afterlife resonance. You no longer quite feel temperature. You cannot be charmed or frightened by the living. The dead, however, can still frighten you, and occasionally do.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Deep Listener went further than their training said to go and found something on the other side. It may have been worth it. They are no longer certain the question has a clean answer. They spend more time in the Iron Afterlife than most living people spend in dreams. They have developed relationships with specific dead individuals that are indistinguishable from friendship, and those relationships have reshaped their priorities in ways that those who knew them before find unsettling. They are more powerful than any Sutensai Echo Speaker. They are also, measurably, less present.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Echo Speaker::the_deep_listener"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

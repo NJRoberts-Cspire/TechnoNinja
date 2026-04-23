@@ -1,5 +1,6 @@
 {
   "_id": "869583c6ba29dd10",
+  "_key": "!items!869583c6ba29dd10",
   "name": "Void Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_void_strike"
+      "sourceId": "card_void_walker_void_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

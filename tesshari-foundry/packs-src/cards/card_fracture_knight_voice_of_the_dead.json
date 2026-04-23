@@ -1,5 +1,6 @@
 {
   "_id": "9ce5bcd418ba6f54",
+  "_key": "!items!9ce5bcd418ba6f54",
   "name": "Voice of the Dead",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_voice_of_the_dead"
+      "sourceId": "card_fracture_knight_voice_of_the_dead",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

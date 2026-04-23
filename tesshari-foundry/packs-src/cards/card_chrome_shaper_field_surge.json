@@ -1,5 +1,6 @@
 {
   "_id": "748c29ce24d2385f",
+  "_key": "!items!748c29ce24d2385f",
   "name": "Field Surge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_field_surge"
+      "sourceId": "card_chrome_shaper_field_surge",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "218c930ecc93eec0",
+  "_key": "!items!218c930ecc93eec0",
   "name": "Puppet Army",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_puppet_army"
+      "sourceId": "card_puppet_binder_puppet_army",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

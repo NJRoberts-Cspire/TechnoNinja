@@ -1,5 +1,6 @@
 {
   "_id": "4485fceb82397731",
+  "_key": "!items!4485fceb82397731",
   "name": "Cascade Architecture",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_cascade_architecture"
+      "sourceId": "card_chrome_shaper_cascade_architecture",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

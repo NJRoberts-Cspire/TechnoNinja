@@ -1,5 +1,6 @@
 {
   "_id": "7bfe2a4edf05f49c",
+  "_key": "!items!7bfe2a4edf05f49c",
   "name": "Borrowed Edge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_resonance_collector_borrowed_edge"
+      "sourceId": "card_oni_hunter_resonance_collector_borrowed_edge",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "dc50fc8764638b27",
+  "_key": "!items!dc50fc8764638b27",
   "name": "One Foot Gone",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_one_foot_gone"
+      "sourceId": "card_echo_speaker_one_foot_gone",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "c5c56f6417a4ddf2",
+  "_key": "!items!c5c56f6417a4ddf2",
   "name": "The Seventh Vein",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -8,10 +9,16 @@
     "apCost": 3,
     "baseDamage": 0,
     "pierce": 0,
-    "category": "utility",
+    "category": "signature",
     "primaryStat": "",
-    "keywords": [],
-    "unlockLevel": 1,
+    "keywords": [
+      "Regen 4",
+      "Cleanse",
+      "Expose 4",
+      "Bleed 3",
+      "Guard 8"
+    ],
+    "unlockLevel": 20,
     "className": "Pulse Caller",
     "subclass": "Pulse Caller — Single Point",
     "isRaceCard": false,
@@ -19,16 +26,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Old Pulse-Caller teaching. Name a foe; your next pulse-strike this turn auto-hits for 4d8 + SIGNAL damage and ignores line of sight and cover. Once per long rest.</p>"
+    "description": "<p>The unwritten principle made manifest. Deal 26 + IRON + RESONANCE resonant damage to one target. Gain Regen 4 for 3 turns. Cleanse all debuffs from yourself. Apply Expose 4 and Bleed 3 to the target. All allies in the encounter gain Guard 8. Once per combat — this is the deepest expression of everything the code has made you.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_single_point_power_the_seventh_vein"
+      "sourceId": "card_pulse_caller_single_point_power_the_seventh_vein",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3020,
   "ownership": {
     "default": 0
   }

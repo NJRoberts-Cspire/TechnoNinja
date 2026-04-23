@@ -1,0 +1,41 @@
+{
+  "_id": "eaf7d69a470dde68",
+  "_key": "!items!eaf7d69a470dde68",
+  "name": "The Possessor",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Puppet Binder",
+    "pathKey": "the_possessor",
+    "features": {
+      "3": {
+        "name": "Weak Vessel",
+        "html": "<p>You can attempt to occupy a living creature in a significantly impaired state: unconscious, incapacitated, or under 25% hit points. Make an Intelligence check contested by the target's RESONANCE resistance check (DC = your Puppet Binder save DC). On success, you occupy the target as if it were a standard vessel for up to 1 minute. The target is aware of the occupation and can attempt to expel you each round (RESONANCE resistance check). When expelled, you cannot attempt to occupy that creature again for 24 hours. This costs 2 Threads.</p>"
+      },
+      "6": {
+        "name": "Extended Grip",
+        "html": "<p>Your occupation of living vessels becomes stronger. When occupying a living vessel (via Weak Vessel or higher features), the target's expulsion resistance check DC increases by 2. Additionally, you can now maintain occupation of a willing living vessel (a creature who has consented) for up to 1 hour without any resistance check by the subject.</p>"
+      },
+      "10": {
+        "name": "Occupation",
+        "html": "<p>You can now attempt to occupy a living creature that is not impaired. Spend 3 Threads and make your Intelligence check against the target's RESONANCE resistance check. On success, you occupy the target for up to 10 minutes. The target is aware they are occupied and can attempt to expel you each round. The target retains their own awareness — they experience everything you do with their body. When this feature is used, the target is not a puppet in the Hollow Author's sense — they are fully conscious and experiencing the violation in real time. This is a significant line. Whether crossing it is ever justified is the question the Possessor lives with.</p>"
+      },
+      "14": {
+        "name": "The Deep Claim",
+        "html": "<p>Once per long rest, spend 6 Threads to make an Occupation attempt against a living creature that, on a failure of their resistance check, lasts for 1 hour with no expulsion checks permitted. The target is fully aware throughout. When this effect ends, they remember everything. They can describe what you did. They know what it felt like. They will not forget. This is, mechanically and narratively, the feature that makes the Possessor what they are. If there is a line between this and the Hollow Author's practice, it is thinner here than it has ever been. The Possessor knows this.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Possessor has followed the practice to where it goes. They began with constructed vessels and deceased forms and have advanced toward what the practice can actually do at its limit: the temporary occupation of living minds. This is not sanitized in the class text. The Possessor is doing what the Hollow Author does, on a smaller scale, with whatever ethical constraints they have built and continue to maintain. Those constraints are being tested at every level. Some Possessors maintain them completely. Some discover that what they told themselves about the constraints was easier to believe before they knew what possession actually felt like.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Puppet Binder::the_possessor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

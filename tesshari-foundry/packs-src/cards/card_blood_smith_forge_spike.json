@@ -1,5 +1,6 @@
 {
   "_id": "d40133873cb8a9a5",
+  "_key": "!items!d40133873cb8a9a5",
   "name": "Forge Spike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_blood_smith_forge_spike"
+      "sourceId": "card_blood_smith_forge_spike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

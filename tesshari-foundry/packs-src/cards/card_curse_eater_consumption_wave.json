@@ -1,5 +1,6 @@
 {
   "_id": "075af673a5466c2d",
+  "_key": "!items!075af673a5466c2d",
   "name": "Consumption Wave",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_consumption_wave"
+      "sourceId": "card_curse_eater_consumption_wave",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,0 +1,29 @@
+{
+  "_id": "ab94d327e003af1c",
+  "_key": "!items!ab94d327e003af1c",
+  "name": "Tethered",
+  "type": "race",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "statBonuses": {
+      "resonance": 1,
+      "frame": 1
+    },
+    "handMod": 1,
+    "heritageBranches": [],
+    "raceCardSlugs": [],
+    "passives": "<p><strong>Echomind Undivided.</strong> Your soul is concentrated entirely in flesh, undivided by any chassis resonance. You cannot be affected by status effects that specifically target augmentations or mechanical systems (Overheat, enhancement-disabling effects, chassis-targeting Signal attacks). You have none. These effects simply do not apply to you.\r</p>\n<p><strong>Biological Acuity.</strong> Your senses operate without technological filtering. You have a permanent +2 bonus to RESONANCE checks made to read people, places, or the residue of recent events — this stacks with your stat. Additionally, you cannot be surprised by living creatures whose physiological state (heartbeat, breath, movement) you can perceive.\r</p>\n<p><strong>Old Flesh Memory.</strong> Your body stores and compensates for damage in ways that augmented tissue cannot fully replicate. At the start of each combat, you begin with Regen 1 already active. This Regen cannot be dispelled by effects that specifically strip augmentation-based buffs.\r</p>\n<p><strong>Unclocked.</strong> You do not register on most scanning and identification systems in Tesshari, which are calibrated to read augmentation signatures. In non-combat scenes, any attempt to locate, identify, or track you through technological means automatically fails unless the operator has specific knowledge that you are Tethered and adjusts their search accordingly.</p>",
+    "description": "<p>The Tethered are what the rest of Tesshari was, once — before the first blade was replaced with steel, before the first lung was supplemented with a filtering coil, before the long trade began. They carry no augmentations. Not from poverty, not from ideology adopted in adulthood, but from an unbroken biological inheritance that stretches back to before the Age of Ruin, to a time when flesh was the only option and so it learned to be extraordinary. In a world where mechanical replacement has become so normalized that some Forged are surprised to learn anyone still bleeds the old way, the Tethered exist as living fossils — and like all fossils, they tell you something true about where everything began.\r</p>\n<p>The Iron Sutra regards the Tethered with a reverence bordering on discomfort. The Orthodoxy's official position is nuanced: the Tethered represent the pre-steel state, the original vessel, and therefore possess an Echomind of unusual purity — one not diluted or redirected by the resonance between flesh and metal, but concentrated in flesh alone. Some sects elevate this into near-worship, seeking out Tethered as spiritual advisors, treating their unmodified bodies as holy relics of a prior age. But the Orthodoxy also teaches that transcendence — Ascension — requires the integration of steel, and so the Tethered, however pure, are spiritually incomplete. They are the blank canvas before the painting. Sacred, and unfinished. This reading infuriates the Tethered who know of it.\r</p>\n<p>The Wire Market has no patience for reverence. To the chrome-polished sensibilities of the Market's elite, the Tethered are simply behind — not holy, not tragic, just obsolete. They are slower, weaker in terms of raw mechanical output, and incapable of interfacing with the technological infrastructure that defines Wire Market life. Some Wire Market scholars study them with the cool curiosity one extends to an interesting artifact. Most citizens of the Market treat them with a condescension so habitual it has become invisible to its practitioners. The Tethered who pass through the Market do not forget how they were looked at.\r</p>\n<p>What no one fully accounts for is what the Tethered themselves have become in the centuries of isolation that their unmodified status has required. A body that never relies on mechanical crutches develops its own solutions. Tethered muscles knit faster and stronger than their Forged counterparts. Their senses, unfiltered by augmented optics, become acute in ways that border on eerie — not supernatural, but pushed to the outer edge of biological possibility. And something in the concentrated Echomind — the soul pooled entirely in flesh rather than distributed through a chassis — makes the Tethered unusually receptive to the spiritual resonance that the Iron Sutra describes but rarely encounters in such undiluted form. The Tethered do not consider this a gift. They consider it the cost of surviving in a world that was not designed for them.\r</p>\n<p>---</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Tethered"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

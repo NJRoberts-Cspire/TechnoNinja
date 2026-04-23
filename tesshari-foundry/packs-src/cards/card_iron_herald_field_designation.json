@@ -1,5 +1,6 @@
 {
   "_id": "df741bbe674291a3",
+  "_key": "!items!df741bbe674291a3",
   "name": "Field Designation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_field_designation"
+      "sourceId": "card_iron_herald_field_designation",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "ba9093301a3952f8",
+  "_key": "!items!ba9093301a3952f8",
   "name": "Temper the Hand",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_resonance_keeper_temper_the_hand"
+      "sourceId": "card_forge_tender_resonance_keeper_temper_the_hand",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

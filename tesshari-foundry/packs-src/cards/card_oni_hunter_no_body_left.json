@@ -1,5 +1,6 @@
 {
   "_id": "6d6c6e6688b08a24",
+  "_key": "!items!6d6c6e6688b08a24",
   "name": "No Body Left",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -12,7 +13,8 @@
     "primaryStat": "iron",
     "keywords": [
       "Bleed 3",
-      "Expose 3"
+      "Expose 3",
+      "Pierce"
     ],
     "unlockLevel": 17,
     "className": "Oni Hunter",
@@ -27,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_no_body_left"
+      "sourceId": "card_oni_hunter_no_body_left",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

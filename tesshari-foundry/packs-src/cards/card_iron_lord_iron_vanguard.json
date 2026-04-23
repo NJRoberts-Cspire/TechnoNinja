@@ -1,17 +1,21 @@
 {
   "_id": "cf9d8573333ee2f8",
+  "_key": "!items!cf9d8573333ee2f8",
   "name": "Iron Vanguard",
   "type": "card",
   "img": "icons/svg/combat.svg",
   "system": {
-    "tier": 1,
-    "apCost": 1,
+    "tier": 2,
+    "apCost": 2,
     "baseDamage": 0,
     "pierce": 0,
-    "category": "utility",
+    "category": "defense",
     "primaryStat": "",
-    "keywords": [],
-    "unlockLevel": 1,
+    "keywords": [
+      "Shield 10",
+      "Taunt"
+    ],
+    "unlockLevel": 11,
     "className": "",
     "subclass": "",
     "isRaceCard": false,
@@ -19,16 +23,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Interpose reaction card.</p>"
+    "description": "<p>You step between your lord, your allies, or your oath-ward and harm. Until your next turn, any attack targeting an adjacent ally may be redirected to you at your choice (no cost, once per round). Gain Shield 10 to absorb the redirected blow.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_lord_iron_vanguard"
+      "sourceId": "card_iron_lord_iron_vanguard",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 2011,
   "ownership": {
     "default": 0
   }

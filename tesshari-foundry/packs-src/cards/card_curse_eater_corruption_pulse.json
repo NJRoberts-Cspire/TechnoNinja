@@ -1,5 +1,6 @@
 {
   "_id": "1b12febf405fa60a",
+  "_key": "!items!1b12febf405fa60a",
   "name": "Corruption Pulse",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_corruption_pulse"
+      "sourceId": "card_curse_eater_corruption_pulse",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "a0605771ea7bd81c",
+  "_key": "!items!a0605771ea7bd81c",
   "name": "Stagger Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_status_stagger_strike"
+      "sourceId": "card_status_stagger_strike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

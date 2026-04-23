@@ -1,5 +1,6 @@
 {
   "_id": "70fd5762ec9969a4",
+  "_key": "!items!70fd5762ec9969a4",
   "name": "Command Pulse",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_command_pulse"
+      "sourceId": "card_iron_herald_command_pulse",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

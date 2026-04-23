@@ -1,5 +1,6 @@
 {
   "_id": "e4314e855696ec30",
+  "_key": "!items!e4314e855696ec30",
   "name": "Network Play",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_network_play"
+      "sourceId": "card_merchant_knife_network_play",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

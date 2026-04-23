@@ -1,5 +1,6 @@
 {
   "_id": "553e105d2c07beb8",
+  "_key": "!items!553e105d2c07beb8",
   "name": "Signal Ledger",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_signal_ledger"
+      "sourceId": "card_voice_of_debt_signal_ledger",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

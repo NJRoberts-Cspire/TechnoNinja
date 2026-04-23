@@ -1,5 +1,6 @@
 {
   "_id": "92d48a28108bfbd8",
+  "_key": "!items!92d48a28108bfbd8",
   "name": "Mass Thread",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_mass_thread"
+      "sourceId": "card_puppet_binder_mass_thread",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

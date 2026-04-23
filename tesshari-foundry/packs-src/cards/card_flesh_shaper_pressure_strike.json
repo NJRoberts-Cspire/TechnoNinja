@@ -1,5 +1,6 @@
 {
   "_id": "bd4bafd51ddcdc08",
+  "_key": "!items!bd4bafd51ddcdc08",
   "name": "Pressure Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_pressure_strike"
+      "sourceId": "card_flesh_shaper_pressure_strike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

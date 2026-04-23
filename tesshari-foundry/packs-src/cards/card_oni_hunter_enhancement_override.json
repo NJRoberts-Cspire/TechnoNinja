@@ -1,5 +1,6 @@
 {
   "_id": "dbcc20d205ea15a2",
+  "_key": "!items!dbcc20d205ea15a2",
   "name": "Enhancement Override",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_enhancement_override"
+      "sourceId": "card_oni_hunter_enhancement_override",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "71d72f9c2909cbd3",
+  "_key": "!items!71d72f9c2909cbd3",
   "name": "Forge Mending",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_forge_mending"
+      "sourceId": "card_forge_tender_forge_mending",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

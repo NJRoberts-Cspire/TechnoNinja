@@ -1,5 +1,6 @@
 {
   "_id": "714514c665645f97",
+  "_key": "!items!714514c665645f97",
   "name": "Anchor of the Living",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_anchor_of_the_living"
+      "sourceId": "card_echo_speaker_anchor_of_the_living",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

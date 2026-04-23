@@ -1,5 +1,6 @@
 {
   "_id": "d63fd2fcb352b65e",
+  "_key": "!items!d63fd2fcb352b65e",
   "name": "Thin Place",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_thin_place"
+      "sourceId": "card_void_walker_thin_place",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

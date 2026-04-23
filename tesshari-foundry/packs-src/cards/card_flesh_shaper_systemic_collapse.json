@@ -1,5 +1,6 @@
 {
   "_id": "98156cabbe823a19",
+  "_key": "!items!98156cabbe823a19",
   "name": "Systemic Collapse",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_systemic_collapse"
+      "sourceId": "card_flesh_shaper_systemic_collapse",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

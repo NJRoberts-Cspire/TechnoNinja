@@ -1,5 +1,6 @@
 {
   "_id": "776ab32c02e0f67b",
+  "_key": "!items!776ab32c02e0f67b",
   "name": "The Disappeared",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_the_disappeared"
+      "sourceId": "card_void_walker_the_disappeared",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "fcef88539b17e34f",
+  "_key": "!items!fcef88539b17e34f",
   "name": "Threshold Defense",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_threshold_defense"
+      "sourceId": "card_hollow_threshold_defense",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

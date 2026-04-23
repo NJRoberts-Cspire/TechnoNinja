@@ -1,5 +1,6 @@
 {
   "_id": "59425f227918ce8a",
+  "_key": "!items!59425f227918ce8a",
   "name": "The Silence That Answers",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_sutensai_aligned_the_silence_that_answers"
+      "sourceId": "card_echo_speaker_sutensai_aligned_the_silence_that_answers",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

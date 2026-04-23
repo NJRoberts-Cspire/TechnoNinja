@@ -1,5 +1,6 @@
 {
   "_id": "009329f7f10f9c46",
+  "_key": "!items!009329f7f10f9c46",
   "name": "Portfolio Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_merchant_knife_portfolio_strike"
+      "sourceId": "card_merchant_knife_portfolio_strike",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

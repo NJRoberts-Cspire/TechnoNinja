@@ -1,5 +1,6 @@
 {
   "_id": "23507263a803847d",
+  "_key": "!items!23507263a803847d",
   "name": "Both Sides of the Table",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_neutral_tongue_both_sides_of_the_table"
+      "sourceId": "card_iron_herald_neutral_tongue_both_sides_of_the_table",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

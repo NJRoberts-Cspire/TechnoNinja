@@ -1,5 +1,6 @@
 {
   "_id": "b3fdd5792ea2bfef",
+  "_key": "!items!b3fdd5792ea2bfef",
   "name": "Prior Ascended Echo",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,11 +27,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_blessed_prior_ascended_echo"
+      "sourceId": "card_iron_blessed_prior_ascended_echo",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

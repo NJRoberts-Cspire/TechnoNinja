@@ -1,5 +1,6 @@
 {
   "_id": "0c0385650a51f39a",
+  "_key": "!items!0c0385650a51f39a",
   "name": "Snapshot",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_snapshot"
+      "sourceId": "card_pulse_caller_snapshot",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

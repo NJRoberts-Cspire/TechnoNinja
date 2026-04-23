@@ -1,5 +1,6 @@
 {
   "_id": "381dd04f7d726b0c",
+  "_key": "!items!381dd04f7d726b0c",
   "name": "Survivor's Clarity",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_survivor_s_clarity"
+      "sourceId": "card_ronin_survivor_s_clarity",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "df566f243e7c5fce",
+  "_key": "!items!df566f243e7c5fce",
   "name": "Relentless Press",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ronin_relentless_press"
+      "sourceId": "card_ronin_relentless_press",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

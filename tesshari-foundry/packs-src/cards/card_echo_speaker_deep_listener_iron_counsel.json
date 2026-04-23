@@ -1,5 +1,6 @@
 {
   "_id": "0800b27c9be37379",
+  "_key": "!items!0800b27c9be37379",
   "name": "Iron Counsel",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_deep_listener_iron_counsel"
+      "sourceId": "card_echo_speaker_deep_listener_iron_counsel",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

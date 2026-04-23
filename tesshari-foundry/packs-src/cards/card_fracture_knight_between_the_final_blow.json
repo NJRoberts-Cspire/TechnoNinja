@@ -1,5 +1,6 @@
 {
   "_id": "86cd04e64fa32974",
+  "_key": "!items!86cd04e64fa32974",
   "name": "Between: The Final Blow",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_between_the_final_blow"
+      "sourceId": "card_fracture_knight_between_the_final_blow",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

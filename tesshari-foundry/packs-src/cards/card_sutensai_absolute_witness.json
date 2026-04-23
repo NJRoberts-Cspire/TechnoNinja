@@ -1,5 +1,6 @@
 {
   "_id": "10071cde87e991ac",
+  "_key": "!items!10071cde87e991ac",
   "name": "Absolute Witness",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_absolute_witness"
+      "sourceId": "card_sutensai_absolute_witness",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

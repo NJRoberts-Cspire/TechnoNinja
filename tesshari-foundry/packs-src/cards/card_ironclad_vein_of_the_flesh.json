@@ -1,5 +1,6 @@
 {
   "_id": "7cdcd1a8534b0bfc",
+  "_key": "!items!7cdcd1a8534b0bfc",
   "name": "Vein of the Flesh",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_vein_of_the_flesh"
+      "sourceId": "card_ironclad_vein_of_the_flesh",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

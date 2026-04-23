@@ -1,5 +1,6 @@
 {
   "_id": "0c8c8694d4707203",
+  "_key": "!items!0c8c8694d4707203",
   "name": "Tissue Mastery",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_tissue_mastery"
+      "sourceId": "card_flesh_shaper_tissue_mastery",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

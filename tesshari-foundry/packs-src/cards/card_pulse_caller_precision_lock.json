@@ -1,5 +1,6 @@
 {
   "_id": "c641814395b8a0df",
+  "_key": "!items!c641814395b8a0df",
   "name": "Precision Lock",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_precision_lock"
+      "sourceId": "card_pulse_caller_precision_lock",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

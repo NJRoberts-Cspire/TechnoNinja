@@ -1,0 +1,41 @@
+{
+  "_id": "f87a9a41e317fdc9",
+  "_key": "!items!f87a9a41e317fdc9",
+  "name": "The Divergent",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "The Unnamed",
+    "pathKey": "the_divergent",
+    "features": {
+      "3": {
+        "name": "Broad Application",
+        "html": "<p>Three times per long rest, you can use a Signature Ability in a situation it was not designed for, by describing a plausible (not necessarily conventional) application. The DM adjudicates whether the application is plausible — if it is, you attempt it with your Development Points at normal cost. If it fails, the Divergent's breadth means the failure produces unexpected information rather than simply nothing: you learn something from the failed application that you can use. The Divergent is never entirely in a dead end.</p>"
+      },
+      "6": {
+        "name": "Cross-Domain Mastery",
+        "html": "<p>When you use a Signature Ability from one domain (combat, spiritual, social, stealth, etc.) and then use a Signature Ability from a different domain in the same round, both abilities apply at advantage or enhanced effect. The combination of different domains in rapid sequence is a Divergent specialty — the practitioner who can apply a social pressure followed immediately by a spiritual effect, or a combat action followed by an information-gathering one, is doing something that specialists cannot replicate.</p>"
+      },
+      "10": {
+        "name": "The Full Range",
+        "html": "<p>Your Signature Abilities no longer have domains — they are all equally accessible in any context you can justify. Additionally, when you encounter a new challenge type (a new class of obstacle, a new type of enemy ability, a new social context), you can spend 1 Development Point to gain temporary proficiency with the most relevant skill check for that challenge type for 24 hours. The Divergent learns constantly and specifically.</p>"
+      },
+      "14": {
+        "name": "Unlimited Expression",
+        "html": "<p>Once per long rest, you can declare a Divergent Expression for 1 minute: for this minute, you can use any Signature Ability from any class in Tesshari (not just the ones you have selected) at your DM's interpretation of a first-level version of that ability, at no Development Point cost. You are drawing on the breadth of the entire tradition of human and cybernetic development, reaching across every domain simultaneously. When this ends, you gain two levels of exhaustion — the breadth has a weight, and the weight is real — and you gain insight: you know the single most cross-domain solution to the most pressing problem you face, as perceived from outside every category. Whether the solution is something you want to implement is, as always, the question the Divergent lives with.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Divergent's Echomind is developing outward — in every direction simultaneously, across every category, refusing to commit to any one path by committing to all paths incompletely. This sounds like weakness. It is not. The Divergent is the person who has more tools than anyone else in every situation, who can do something in any context, who can adapt to conditions that would strand a specialist. They are also the person who is never at their absolute best at any one thing — the trade is genuine. The Divergent is at their maximum capability when the situation has no precedent, because their versatility is exactly what no-precedent requires, and at their minimum comparative capability when the situation requires specialist excellence.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "The Unnamed::the_divergent"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

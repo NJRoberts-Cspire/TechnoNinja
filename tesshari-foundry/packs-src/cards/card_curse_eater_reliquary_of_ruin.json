@@ -1,5 +1,6 @@
 {
   "_id": "38ce2335eccc7f41",
+  "_key": "!items!38ce2335eccc7f41",
   "name": "Reliquary of Ruin",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_reliquary_of_ruin"
+      "sourceId": "card_curse_eater_reliquary_of_ruin",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

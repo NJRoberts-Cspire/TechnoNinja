@@ -1,5 +1,6 @@
 {
   "_id": "febedc8763794df8",
+  "_key": "!items!febedc8763794df8",
   "name": "Borrowed Hand",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_the_possessor_borrowed_hand"
+      "sourceId": "card_puppet_binder_the_possessor_borrowed_hand",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

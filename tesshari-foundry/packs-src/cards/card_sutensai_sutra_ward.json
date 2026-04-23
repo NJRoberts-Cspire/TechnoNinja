@@ -1,5 +1,6 @@
 {
   "_id": "26f9e1d9deea4bfe",
+  "_key": "!items!26f9e1d9deea4bfe",
   "name": "Sutra Ward",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_sutra_ward"
+      "sourceId": "card_sutensai_sutra_ward",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

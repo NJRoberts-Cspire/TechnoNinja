@@ -1,5 +1,6 @@
 {
   "_id": "5e3b6ede20ed8f9c",
+  "_key": "!items!5e3b6ede20ed8f9c",
   "name": "Recovery Config",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_recovery_config"
+      "sourceId": "card_chrome_shaper_recovery_config",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

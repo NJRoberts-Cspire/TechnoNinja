@@ -1,5 +1,6 @@
 {
   "_id": "9222e8b0c95d82cc",
+  "_key": "!items!9222e8b0c95d82cc",
   "name": "Combat Shaping",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_combat_shaping"
+      "sourceId": "card_flesh_shaper_combat_shaping",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

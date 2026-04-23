@@ -1,5 +1,6 @@
 {
   "_id": "cb879fd0ae969c1c",
+  "_key": "!items!cb879fd0ae969c1c",
   "name": "Deep Cover",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_deep_cover"
+      "sourceId": "card_ashfoot_deep_cover",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

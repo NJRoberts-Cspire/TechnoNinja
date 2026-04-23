@@ -1,5 +1,6 @@
 {
   "_id": "7058e1390e4e19c7",
+  "_key": "!items!7058e1390e4e19c7",
   "name": "Between Sight",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_between_sight"
+      "sourceId": "card_void_walker_between_sight",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "b5ba9b2a21f5e3b0",
+  "_key": "!items!b5ba9b2a21f5e3b0",
   "name": "Biologic Wrecking",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_biologic_wrecking"
+      "sourceId": "card_flesh_shaper_biologic_wrecking",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "fc0ca539e3a5cf3a",
+  "_key": "!items!fc0ca539e3a5cf3a",
   "name": "Second Skin",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_second_skin"
+      "sourceId": "card_chrome_shaper_second_skin",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

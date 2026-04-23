@@ -1,5 +1,6 @@
 {
   "_id": "d5c30de5ac641eca",
+  "_key": "!items!d5c30de5ac641eca",
   "name": "Ghost Sovereign",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -13,7 +14,7 @@
     "keywords": [
       "Veil"
     ],
-    "unlockLevel": 18,
+    "unlockLevel": 17,
     "className": "Wireweave",
     "subclass": "",
     "isRaceCard": false,
@@ -21,16 +22,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Become completely invisible to all Wire systems, sensors, and enhancement-detection for the scene. While active, enemy Signal and Control cards cannot target you unless the attacker has direct physical line of sight. Apply Veil to yourself each round.</p>"
+    "description": "<p>Become completely undetectable for 1 round. You are invisible to all senses — physical, resonant, Wire Craft, and Afterlife. During this round, your Attack cards deal +RESONANCE damage and you cannot be targeted by any card. After the round ends, you reappear at a location of your choice within 30 feet.</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_ghost_sovereign"
+      "sourceId": "card_wireweave_ghost_sovereign",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 3018,
+  "sort": 3017,
   "ownership": {
     "default": 0
   }

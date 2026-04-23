@@ -1,5 +1,6 @@
 {
   "_id": "1fc7911834ea50f7",
+  "_key": "!items!1fc7911834ea50f7",
   "name": "Field of Authority",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_field_of_authority"
+      "sourceId": "card_iron_herald_field_of_authority",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "37ecd3e860514165",
+  "_key": "!items!37ecd3e860514165",
   "name": "Relay",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_relay"
+      "sourceId": "card_echo_speaker_relay",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

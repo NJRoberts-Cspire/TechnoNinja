@@ -1,5 +1,6 @@
 {
   "_id": "90f879a3354913a1",
+  "_key": "!items!90f879a3354913a1",
   "name": "Iron Hymn",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_warbanner_iron_hymn"
+      "sourceId": "card_iron_herald_warbanner_iron_hymn",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

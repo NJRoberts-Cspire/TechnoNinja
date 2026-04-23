@@ -1,5 +1,6 @@
 {
   "_id": "ef52d5ef33982f83",
+  "_key": "!items!ef52d5ef33982f83",
   "name": "Unwritten Form",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_resonants_unwritten_form"
+      "sourceId": "card_iron_monk_resonants_unwritten_form",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

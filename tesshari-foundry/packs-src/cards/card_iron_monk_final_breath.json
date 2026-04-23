@@ -1,5 +1,6 @@
 {
   "_id": "5bb389c1bf92d4fb",
+  "_key": "!items!5bb389c1bf92d4fb",
   "name": "Final Breath",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_final_breath"
+      "sourceId": "card_iron_monk_final_breath",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

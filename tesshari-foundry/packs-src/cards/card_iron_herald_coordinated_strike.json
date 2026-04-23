@@ -1,17 +1,21 @@
 {
   "_id": "e92cc98ad8854cf6",
+  "_key": "!items!e92cc98ad8854cf6",
   "name": "Coordinated Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
   "system": {
     "tier": 2,
     "apCost": 2,
-    "baseDamage": 0,
+    "baseDamage": 12,
     "pierce": 0,
     "category": "attack",
-    "primaryStat": "",
-    "keywords": [],
-    "unlockLevel": 1,
+    "primaryStat": "iron",
+    "keywords": [
+      "Expose 2",
+      "Root"
+    ],
+    "unlockLevel": 12,
     "className": "Iron Herald",
     "subclass": "Echo Speaker — Herald",
     "isRaceCard": false,
@@ -19,16 +23,17 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Strike in conjunction with ally; damage amplified by coordination.</p>"
+    "description": "<p>You and an ally attack the same target simultaneously. Deal 12 + IRON damage. If an ally also attacks this target this round, add EDGE to the damage and apply Expose 2. The target must save or be knocked prone (unable to use Mobility cards next turn).</p>"
   },
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_coordinated_strike"
+      "sourceId": "card_iron_herald_coordinated_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2012,
   "ownership": {
     "default": 0
   }

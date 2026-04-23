@@ -1,5 +1,6 @@
 {
   "_id": "0a0ebea28fa26145",
+  "_key": "!items!0a0ebea28fa26145",
   "name": "Harmonized Step",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_harmonized_step"
+      "sourceId": "card_iron_monk_harmonized_step",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

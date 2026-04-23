@@ -1,5 +1,6 @@
 {
   "_id": "f461338b9f7a44a9",
+  "_key": "!items!f461338b9f7a44a9",
   "name": "Debt Becomes the Blade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -9,7 +10,7 @@
     "baseDamage": 24,
     "pierce": 0,
     "category": "signature",
-    "primaryStat": "iron+resonance",
+    "primaryStat": "iron",
     "keywords": [
       "Expose 3",
       "Bleed 2"
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_debt_becomes_the_blade"
+      "sourceId": "card_ironclad_debt_becomes_the_blade",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

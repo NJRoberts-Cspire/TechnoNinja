@@ -1,5 +1,6 @@
 {
   "_id": "fbba3459b9e19af0",
+  "_key": "!items!fbba3459b9e19af0",
   "name": "White Hands",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_purifier_white_hands"
+      "sourceId": "card_curse_eater_purifier_white_hands",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

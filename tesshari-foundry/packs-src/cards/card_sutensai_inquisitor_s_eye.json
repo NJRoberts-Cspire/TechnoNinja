@@ -1,5 +1,6 @@
 {
   "_id": "a4ca01aa821c93f8",
+  "_key": "!items!a4ca01aa821c93f8",
   "name": "Inquisitor's Eye",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_inquisitor_s_eye"
+      "sourceId": "card_sutensai_inquisitor_s_eye",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "c4f1cb580a4379c2",
+  "_key": "!items!c4f1cb580a4379c2",
   "name": "Bladeline",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_combat_weave_bladeline"
+      "sourceId": "card_wireweave_combat_weave_bladeline",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

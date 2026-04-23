@@ -1,5 +1,6 @@
 {
   "_id": "1b244a61f84f1392",
+  "_key": "!items!1b244a61f84f1392",
   "name": "Which One Am I",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_unnamed_divergent_which_one_am_i"
+      "sourceId": "card_unnamed_divergent_which_one_am_i",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

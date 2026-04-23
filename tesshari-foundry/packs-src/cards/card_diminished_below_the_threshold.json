@@ -1,5 +1,6 @@
 {
   "_id": "24c76adbd762eabd",
+  "_key": "!items!24c76adbd762eabd",
   "name": "Below the Threshold",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,11 +28,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_diminished_below_the_threshold"
+      "sourceId": "card_diminished_below_the_threshold",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "6cc96a391a652029",
+  "_key": "!items!6cc96a391a652029",
   "name": "Network Read",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_network_read"
+      "sourceId": "card_oni_hunter_network_read",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

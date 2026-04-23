@@ -1,5 +1,6 @@
 {
   "_id": "38ae3ea296a59f21",
+  "_key": "!items!38ae3ea296a59f21",
   "name": "Diagnostic Touch",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_diagnostic_touch"
+      "sourceId": "card_flesh_shaper_diagnostic_touch",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

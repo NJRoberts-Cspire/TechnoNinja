@@ -1,5 +1,6 @@
 {
   "_id": "3c07659bd07756cc",
+  "_key": "!items!3c07659bd07756cc",
   "name": "Fracture Literacy",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_levelup_fracture_literacy"
+      "sourceId": "card_fracture_knight_levelup_fracture_literacy",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

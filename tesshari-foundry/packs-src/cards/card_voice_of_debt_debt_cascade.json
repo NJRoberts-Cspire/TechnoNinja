@@ -1,5 +1,6 @@
 {
   "_id": "9e869eb857d8fab0",
+  "_key": "!items!9e869eb857d8fab0",
   "name": "Debt Cascade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_debt_cascade"
+      "sourceId": "card_voice_of_debt_debt_cascade",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "bf4378d963659204",
+  "_key": "!items!bf4378d963659204",
   "name": "Veil Sovereign",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_veil_sovereign"
+      "sourceId": "card_echo_speaker_veil_sovereign",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

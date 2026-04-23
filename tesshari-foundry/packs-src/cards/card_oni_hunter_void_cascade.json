@@ -1,5 +1,6 @@
 {
   "_id": "c46632376a2ffa1d",
+  "_key": "!items!c46632376a2ffa1d",
   "name": "Void Cascade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -11,7 +12,8 @@
     "category": "signature",
     "primaryStat": "resonance",
     "keywords": [
-      "Expose 2"
+      "Expose 2",
+      "Pierce"
     ],
     "unlockLevel": 17,
     "className": "Oni Hunter",
@@ -26,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_void_cascade"
+      "sourceId": "card_oni_hunter_void_cascade",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "e08811cc05b86625",
+  "_key": "!items!e08811cc05b86625",
   "name": "Priority Elimination",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_priority_elimination"
+      "sourceId": "card_iron_herald_priority_elimination",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

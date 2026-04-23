@@ -1,5 +1,6 @@
 {
   "_id": "496da35c950d2685",
+  "_key": "!items!496da35c950d2685",
   "name": "Pain Into Power",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shell_dancer_pain_into_power"
+      "sourceId": "card_shell_dancer_pain_into_power",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

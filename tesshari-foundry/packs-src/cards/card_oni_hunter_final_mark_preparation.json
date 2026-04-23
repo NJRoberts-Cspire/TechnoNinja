@@ -1,5 +1,6 @@
 {
   "_id": "616c97e2774a4739",
+  "_key": "!items!616c97e2774a4739",
   "name": "Final Mark Preparation",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_final_mark_preparation"
+      "sourceId": "card_oni_hunter_final_mark_preparation",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

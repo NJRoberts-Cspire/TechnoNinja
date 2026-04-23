@@ -1,5 +1,6 @@
 {
   "_id": "5cff44fd987684cc",
+  "_key": "!items!5cff44fd987684cc",
   "name": "Deep Frame",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_deep_frame"
+      "sourceId": "card_chrome_shaper_deep_frame",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

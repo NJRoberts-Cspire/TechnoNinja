@@ -1,5 +1,6 @@
 {
   "_id": "29802bd775c643c0",
+  "_key": "!items!29802bd775c643c0",
   "name": "Hum of the Bell",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_hum_of_the_bell"
+      "sourceId": "card_iron_monk_hum_of_the_bell",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

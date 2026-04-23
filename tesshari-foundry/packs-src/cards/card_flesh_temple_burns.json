@@ -1,5 +1,6 @@
 {
   "_id": "2289bf75597d79e3",
+  "_key": "!items!2289bf75597d79e3",
   "name": "The Temple Burns",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_temple_burns"
+      "sourceId": "card_flesh_temple_burns",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "b71a54126882181b",
+  "_key": "!items!b71a54126882181b",
   "name": "Apex Lock",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_apex_lock"
+      "sourceId": "card_pulse_caller_apex_lock",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

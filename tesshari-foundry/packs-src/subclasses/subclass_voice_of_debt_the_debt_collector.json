@@ -1,0 +1,41 @@
+{
+  "_id": "5ccaa5bc4a7a2811",
+  "_key": "!items!5ccaa5bc4a7a2811",
+  "name": "The Debt Collector",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Voice of Debt",
+    "pathKey": "the_debt_collector",
+    "features": {
+      "3": {
+        "name": "Escalating Pressure",
+        "html": "<p>Each time you invoke Oath Breaker's Weight against the same creature within a 24-hour period, the save DC increases by 2 (to a maximum increase of +8). The Iron Afterlife's patience is not unlimited and neither is your practice's.</p>"
+      },
+      "6": {
+        "name": "The Collection",
+        "html": "<p>Once per long rest, as an action, you can formally demand collection on one specific violated obligation. The target must succeed on a RESONANCE resistance check (DC = your Debt Save DC + 4) or immediately take a concrete step toward fulfilling the obligation — a step that is within their power and that advances toward completion. On a success, they are compelled for 1 round only. On a failure, they are compelled until the obligation is fulfilled or 1 hour passes, after which normal resistance applies again.</p>"
+      },
+      "10": {
+        "name": "No Hiding",
+        "html": "<p>You can always find creatures who have violated oaths you are collecting on. You know their general direction and distance at all times while they have an outstanding collection against them. You can track them through any concealment except active magical intervention. You cannot be permanently lost from someone you are actively collecting on.</p>"
+      },
+      "14": {
+        "name": "The Final Notice",
+        "html": "<p>Once per long rest, you can issue a Final Notice to a creature who has violated an oath. The creature must make a RESONANCE resistance check (DC = your Debt Save DC + 6) or be immediately paralyzed until the start of their next turn as the full weight of their obligation lands on them simultaneously. For 24 hours after the Final Notice: the creature cannot take the Dash action (moving away from debt slows you down), cannot benefit from effects that reduce or ignore resistance checks (the weight of obligation cannot be filtered), and when they roll a natural 1 on any check or resistance check, they must immediately spend their next action toward fulfilling their obligation in whatever way is immediately available. The Final Notice is not a threat. It is a statement of what is already true.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Debt Collector is the enforcement arm. They are the practitioners who show up when the gentle reminder has not worked, when the spiritual weight has been insufficient, when the party who made a promise has decided that the promise can be ignored. The Debt Collector does not primarily threaten violence — they invoke consequences more profound than violence. They are patient. They have been told \"no\" before. \"No\" is not a final answer when the Iron Afterlife has registered a different one.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Voice of Debt::the_debt_collector"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

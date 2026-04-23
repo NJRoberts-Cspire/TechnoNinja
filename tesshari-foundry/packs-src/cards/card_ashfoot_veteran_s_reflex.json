@@ -1,5 +1,6 @@
 {
   "_id": "8b28aad546de98f3",
+  "_key": "!items!8b28aad546de98f3",
   "name": "Veteran's Reflex",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_veteran_s_reflex"
+      "sourceId": "card_ashfoot_veteran_s_reflex",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

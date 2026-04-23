@@ -1,5 +1,6 @@
 {
   "_id": "1d148d2dfb0f9a41",
+  "_key": "!items!1d148d2dfb0f9a41",
   "name": "Extraction Hold",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_debt_collector_extraction_hold"
+      "sourceId": "card_voice_of_debt_debt_collector_extraction_hold",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

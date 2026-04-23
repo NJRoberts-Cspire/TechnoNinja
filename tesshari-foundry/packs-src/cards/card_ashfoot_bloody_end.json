@@ -1,5 +1,6 @@
 {
   "_id": "a9da50f4023ea732",
+  "_key": "!items!a9da50f4023ea732",
   "name": "Bloody End",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_bloody_end"
+      "sourceId": "card_ashfoot_bloody_end",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

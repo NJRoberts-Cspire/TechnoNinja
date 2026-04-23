@@ -1,0 +1,38 @@
+{
+  "_id": "d627ac4c336f64a6",
+  "_key": "!items!d627ac4c336f64a6",
+  "name": "Pulse Caller",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hpTier": "technical",
+    "handBase": 7,
+    "primaryStats": [
+      "resonance",
+      "edge"
+    ],
+    "startingHandSlugs": [
+      "Pulse Shot",
+      "Precision Lock",
+      "Suppression Line"
+    ],
+    "unlockList": {},
+    "subclassSlugs": [
+      "Single Point",
+      "Iron Suppressor",
+      "Resonant Shot"
+    ],
+    "description": "<p>The Pulse Caller is what happens when a ranged combat specialist stops treating their weapons as equipment and starts treating them as anatomy. Their discharge systems — pulse arms, resonant launchers, charged-coil projectors — are not held in the hand or worn on the back. They are integrated: wired into the nervous system, drawing power from the body's own resonant energy field, calibrated to the exact neurological signature of their operator's firing intention. When a Pulse Caller takes aim, they are not aiming a device. They are extending an intention through metal and resonant energy and making it material in the world at range. The gap between thought and execution is shorter in a Pulse Caller than in any other combat specialist in Tesshari.\r</p>\n<p>The integration that makes this possible is extraordinarily demanding. Standard enhancement installation connects modifications to the user's nervous system at a broad functional level. The Pulse Caller's discharge integration goes deeper — it maps the neurological signature of combat-decision processes, learns to anticipate firing intention before it becomes conscious choice, and routes the discharge sequence through neural pathways that operate at pre-conscious speed. This gives the Pulse Caller their characteristic property: at high levels of development, they fire before they consciously decide to fire. The decision was made at a level below deliberate thought, processed through enhancement at speeds that have no organic equivalent, and by the time the conscious mind registers the intention, the shot is already in flight.\r</p>\n<p>The psychological development that accompanies this integration is not what most people expect. The immediate intuition is that a person who shoots before they think would be dangerous and imprecise — a hair-trigger risk in close quarters. The opposite is typically true. Because the integration operates at pre-conscious levels, Pulse Callers tend to develop an extraordinary calm in combat — there is nothing to decide, so there is no anxiety around deciding. The shot either comes or it doesn't. The conditions are either right or they're not. This calm is sometimes mistaken for detachment or coldness. The Pulse Caller's experience of it is usually more like the state of listening to something very quiet in a very large space: total attention, absolute stillness, and the sense that any movement would break something important.\r</p>\n<p>The spiritual dimension of the Pulse Caller's practice is one that the Iron Sutra has no official position on, because the Sutra was not written with living artillery in mind. But the Sutra's concept of the Between — the resonant space between action and consequence, between intention and expression — is exactly the territory that the Pulse Caller's deepest development explores. Advanced Pulse Callers find that their discharge systems begin to interact with resonant frequencies that have nothing to do with physical ballistics: their shots affect entities that have no physical form, disrupt resonant harmonics in ways that have spiritual rather than mechanical consequences, and occasionally produce effects that the Iron Sutra's theology would call prayers if it were willing to apply that word to projectile violence. Some Pulse Callers find this dimension troubling. Some find it clarifying. A few find it the most honest expression of what they have always done.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Pulse Caller"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

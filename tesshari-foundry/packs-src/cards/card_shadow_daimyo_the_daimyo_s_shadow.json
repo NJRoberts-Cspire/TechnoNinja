@@ -1,5 +1,6 @@
 {
   "_id": "966a9908eb1d8b78",
+  "_key": "!items!966a9908eb1d8b78",
   "name": "The Daimyo's Shadow",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -29,7 +30,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shadow_daimyo_the_daimyo_s_shadow"
+      "sourceId": "card_shadow_daimyo_the_daimyo_s_shadow",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

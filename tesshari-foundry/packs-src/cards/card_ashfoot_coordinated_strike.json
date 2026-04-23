@@ -1,5 +1,6 @@
 {
   "_id": "e89599056a3b4b17",
+  "_key": "!items!e89599056a3b4b17",
   "name": "Coordinated Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_coordinated_strike"
+      "sourceId": "card_ashfoot_coordinated_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

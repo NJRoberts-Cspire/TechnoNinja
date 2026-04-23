@@ -1,5 +1,6 @@
 {
   "_id": "862a534ba2a0b1c1",
+  "_key": "!items!862a534ba2a0b1c1",
   "name": "The Dead Remember",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_echo_speaker_the_dead_remember"
+      "sourceId": "card_echo_speaker_the_dead_remember",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

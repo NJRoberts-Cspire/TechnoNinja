@@ -1,5 +1,6 @@
 {
   "_id": "ad01ec9c2753e5fd",
+  "_key": "!items!ad01ec9c2753e5fd",
   "name": "Binding Word",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_oath_keeper_binding_word"
+      "sourceId": "card_voice_of_debt_oath_keeper_binding_word",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

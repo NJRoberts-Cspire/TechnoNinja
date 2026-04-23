@@ -1,5 +1,6 @@
 {
   "_id": "606d745ce37f36dc",
+  "_key": "!items!606d745ce37f36dc",
   "name": "Half-Step Between",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_half_step_between"
+      "sourceId": "card_fracture_knight_half_step_between",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

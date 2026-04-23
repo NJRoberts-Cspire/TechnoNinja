@@ -1,5 +1,6 @@
 {
   "_id": "84a7281ee4fc25b6",
+  "_key": "!items!84a7281ee4fc25b6",
   "name": "Uncanny Dodge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_uncanny_dodge"
+      "sourceId": "card_veilblade_uncanny_dodge",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

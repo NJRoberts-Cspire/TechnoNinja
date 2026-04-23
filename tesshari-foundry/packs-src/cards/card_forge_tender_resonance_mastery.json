@@ -1,5 +1,6 @@
 {
   "_id": "c255d20d75d69ba5",
+  "_key": "!items!c255d20d75d69ba5",
   "name": "Resonance Mastery",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -11,8 +12,8 @@
     "category": "utility",
     "primaryStat": "",
     "keywords": [
-      "Stagger",
-      "Root"
+      "Cleanse (Stagger or Root",
+      "ally)"
     ],
     "unlockLevel": 6,
     "className": "Forge Tender",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_forge_tender_resonance_mastery"
+      "sourceId": "card_forge_tender_resonance_mastery",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

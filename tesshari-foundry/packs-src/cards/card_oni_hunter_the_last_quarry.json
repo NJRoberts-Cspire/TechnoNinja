@@ -1,5 +1,6 @@
 {
   "_id": "031d107fded2349d",
+  "_key": "!items!031d107fded2349d",
   "name": "The Last Quarry",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -9,7 +10,7 @@
     "baseDamage": 24,
     "pierce": 0,
     "category": "signature",
-    "primaryStat": "iron+resonance",
+    "primaryStat": "iron",
     "keywords": [
       "Expose 4",
       "Bleed 3",
@@ -29,7 +30,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_the_last_quarry"
+      "sourceId": "card_oni_hunter_the_last_quarry",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

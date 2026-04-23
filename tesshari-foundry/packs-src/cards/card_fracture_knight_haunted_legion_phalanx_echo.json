@@ -1,5 +1,6 @@
 {
   "_id": "615023a033e7fd53",
+  "_key": "!items!615023a033e7fd53",
   "name": "Phalanx Echo",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_haunted_legion_phalanx_echo"
+      "sourceId": "card_fracture_knight_haunted_legion_phalanx_echo",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "784b952980c02220",
+  "_key": "!items!784b952980c02220",
   "name": "Footnote of Unbeing",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_archive_master_footnote_of_unbeing"
+      "sourceId": "card_sutensai_archive_master_footnote_of_unbeing",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

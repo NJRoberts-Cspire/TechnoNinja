@@ -1,5 +1,6 @@
 {
   "_id": "a9e062ed7cc13f96",
+  "_key": "!items!a9e062ed7cc13f96",
   "name": "Field Pressure",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_boss_field_pressure"
+      "sourceId": "card_boss_field_pressure",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

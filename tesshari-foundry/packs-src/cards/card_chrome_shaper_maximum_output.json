@@ -1,5 +1,6 @@
 {
   "_id": "7acc299fa1d4239c",
+  "_key": "!items!7acc299fa1d4239c",
   "name": "Maximum Output",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_maximum_output"
+      "sourceId": "card_chrome_shaper_maximum_output",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

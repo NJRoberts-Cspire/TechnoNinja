@@ -1,5 +1,6 @@
 {
   "_id": "a9e100dccfbff306",
+  "_key": "!items!a9e100dccfbff306",
   "name": "Eat the God",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_the_consumed_eat_the_god"
+      "sourceId": "card_curse_eater_the_consumed_eat_the_god",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "8e11e70264db35f1",
+  "_key": "!items!8e11e70264db35f1",
   "name": "Final Collection",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -32,7 +33,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_voice_of_debt_final_collection"
+      "sourceId": "card_voice_of_debt_final_collection",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

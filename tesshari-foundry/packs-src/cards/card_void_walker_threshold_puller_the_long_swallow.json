@@ -1,5 +1,6 @@
 {
   "_id": "5994dd5fafc65225",
+  "_key": "!items!5994dd5fafc65225",
   "name": "The Long Swallow",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_void_walker_threshold_puller_the_long_swallow"
+      "sourceId": "card_void_walker_threshold_puller_the_long_swallow",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "35d169ab0b759568",
+  "_key": "!items!35d169ab0b759568",
   "name": "Final Order",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shadow_daimyo_final_order"
+      "sourceId": "card_shadow_daimyo_final_order",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

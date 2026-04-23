@@ -1,0 +1,29 @@
+{
+  "_id": "057461f65ed8e009",
+  "_key": "!items!057461f65ed8e009",
+  "name": "Forged",
+  "type": "race",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "statBonuses": {
+      "iron": 1,
+      "any": 1
+    },
+    "handMod": 0,
+    "heritageBranches": [],
+    "raceCardSlugs": [],
+    "passives": "<p><strong>Integrated Chassis.</strong> Your body includes meaningful mechanical augmentation. You are immune to status effects that specifically target organic tissue — disease, biological toxins, and flesh-degradation effects do not apply to your augmented systems. Purely chemical or mechanical damage still affects you normally.\r</p>\n<p><strong>Maintenance Dependent.</strong> Your chassis requires regular upkeep. If you complete a full rest without access to basic maintenance tools or a willing chassis-wright, you begin the next combat with Overheat 1 already applied and cannot remove it until proper maintenance is performed. This cannot be suppressed by cards or enhancements — it is structural.\r</p>\n<p><strong>Chassis Memory.</strong> Your mechanical sensors record sensory data with fidelity that organic memory cannot match. Once per scene, you may recall precise sensory details — measurements, voices, visual specifics — from any event you witnessed within the last 24 hours. This is a factual recall of recorded data, not emotional memory. It does not extend to interpretation or feeling.\r</p>\n<p><strong>Forged Resilience.</strong> When you would be reduced to 0 HP by a single hit, you may immediately apply Guard 4 against that specific hit only. This does not stack with existing Guard. Once used, this passive is suppressed until the start of your next turn.</p>",
+    "description": "<p>The Forged are the dominant people of Tesshari — not because they conquered the other races, but because they survived long enough to become the world's definition of normal. Once purely biological, their ancestors began replacing damaged or diseased tissue with mechanical components during the Age of Ruin, when the wars between the old kingdoms left generations of survivors with bodies too broken to carry on without intervention. Limb by limb, organ by organ, the line between medicine and modification blurred until it vanished entirely. By the time the Broken Reaches crystallized into their current forms, being Forged — being a cyborg of some meaningful degree — was simply what it meant to be a person in Tesshari.\r</p>\n<p>But \"the Forged\" encompasses enormous variety, and that breadth is precisely what makes them difficult to pin down. The Forged of Ironhold carry their modifications like war trophies and salvage records: mismatched plates welded over old wounds, replacement limbs that don't quite match in color or make, battlefield upgrades layered atop battlefield upgrades until the body reads like a history of everything that tried and failed to kill its owner. The Forged of the Wire Market are something else entirely — sleek, chromed, calibrated to a precision that makes flesh seem embarrassingly crude. Their modifications are not scars. They are statements. And then there are the Ashlands Forged, who jury-rig their enhancements from whatever can be salvaged from the ruins they call home, whose bodies hum and creak and spark, kept alive through ingenuity rather than craft.\r</p>\n<p>The Iron Sutra teaches that the Echomind — the soul — is not located in flesh alone, nor in steel alone, but in the resonance between them. The Forged, as the race most deliberately balanced between organic tissue and mechanical augmentation, are in many ways the religion's ideal congregants. They are not so organic as to be untouched by steel's clarity, nor so mechanical as to have lost the warmth that feeds spiritual resonance. Most Forged practice the Iron Sutra in some form, though whether that practice is devout or merely cultural varies enormously. Some view their modifications as devotional acts — each new piece of steel a prayer made physical. Others have abandoned spiritual concern entirely, caring only about what their chassis can do in the wars that never quite end.\r</p>\n<p>What unites all Forged, beneath every variation in aesthetic and ideology, is the tacit understanding that the body is not sacred. The body is a tool, and tools are meant to be improved. This is not cynicism — for most Forged, it is simply reality, as natural as breathing. And yet, late at night, in the quiet moments between maintenance cycles and the next campaign, some Forged find themselves wondering what was lost in all those trades. The flesh remembers things the steel cannot. Dreams come in analog. And the original self — the biological self that the augmentations were meant to improve upon — recedes a little further with every upgrade, until sometimes it is hard to say whether anything of that original self remains, or whether what walks and breathes and bleeds is something new entirely.\r</p>\n<p>---</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Forged"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

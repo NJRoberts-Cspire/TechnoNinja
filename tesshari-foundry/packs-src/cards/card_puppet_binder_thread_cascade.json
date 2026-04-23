@@ -1,5 +1,6 @@
 {
   "_id": "5f7594179b12c556",
+  "_key": "!items!5f7594179b12c556",
   "name": "Thread Cascade",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_puppet_binder_thread_cascade"
+      "sourceId": "card_puppet_binder_thread_cascade",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

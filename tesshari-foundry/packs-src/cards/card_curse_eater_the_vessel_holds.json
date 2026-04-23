@@ -1,5 +1,6 @@
 {
   "_id": "622b855ddd64b2c1",
+  "_key": "!items!622b855ddd64b2c1",
   "name": "The Vessel Holds",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_the_vessel_holds"
+      "sourceId": "card_curse_eater_the_vessel_holds",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

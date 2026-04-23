@@ -1,5 +1,6 @@
 {
   "_id": "35ad0e3d595636c1",
+  "_key": "!items!35ad0e3d595636c1",
   "name": "Resonance Transfer",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_resonance_transfer"
+      "sourceId": "card_chrome_shaper_resonance_transfer",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

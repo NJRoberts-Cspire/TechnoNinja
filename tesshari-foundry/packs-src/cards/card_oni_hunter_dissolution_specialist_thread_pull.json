@@ -1,5 +1,6 @@
 {
   "_id": "9d70d72e8b8f444e",
+  "_key": "!items!9d70d72e8b8f444e",
   "name": "Thread Pull",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_oni_hunter_dissolution_specialist_thread_pull"
+      "sourceId": "card_oni_hunter_dissolution_specialist_thread_pull",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "9ee5f7fe3cb5d3dc",
+  "_key": "!items!9ee5f7fe3cb5d3dc",
   "name": "Spectral Resilience",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_fracture_knight_spectral_resilience"
+      "sourceId": "card_fracture_knight_spectral_resilience",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "4d673c8e05f39bc5",
+  "_key": "!items!4d673c8e05f39bc5",
   "name": "Crimson Apprenticeship",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_blood_smith_crimson_apprenticeship"
+      "sourceId": "card_blood_smith_crimson_apprenticeship",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 0,
+  "sort": 1,
   "ownership": {
     "default": 0
   }

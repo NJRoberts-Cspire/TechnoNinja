@@ -1,5 +1,6 @@
 {
   "_id": "ddca6eec198208a0",
+  "_key": "!items!ddca6eec198208a0",
   "name": "Identity Theft",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_wireweave_identity_theft"
+      "sourceId": "card_wireweave_identity_theft",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

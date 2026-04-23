@@ -1,5 +1,6 @@
 {
   "_id": "86f83294b1cfd977",
+  "_key": "!items!86f83294b1cfd977",
   "name": "Iron Formation Wall",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_iron_formation_wall"
+      "sourceId": "card_ashfoot_iron_formation_wall",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

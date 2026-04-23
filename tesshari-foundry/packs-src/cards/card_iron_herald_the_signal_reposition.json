@@ -1,5 +1,6 @@
 {
   "_id": "ffb488ce3d186801",
+  "_key": "!items!ffb488ce3d186801",
   "name": "Reposition",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_herald_the_signal_reposition"
+      "sourceId": "card_iron_herald_the_signal_reposition",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

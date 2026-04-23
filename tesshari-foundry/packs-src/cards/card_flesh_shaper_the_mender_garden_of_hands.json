@@ -1,5 +1,6 @@
 {
   "_id": "b13ca2105ab3a038",
+  "_key": "!items!b13ca2105ab3a038",
   "name": "Garden of Hands",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_flesh_shaper_the_mender_garden_of_hands"
+      "sourceId": "card_flesh_shaper_the_mender_garden_of_hands",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

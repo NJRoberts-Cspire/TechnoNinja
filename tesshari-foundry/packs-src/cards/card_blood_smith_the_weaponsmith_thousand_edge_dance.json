@@ -1,5 +1,6 @@
 {
   "_id": "bc1e4d80965ffff1",
+  "_key": "!items!bc1e4d80965ffff1",
   "name": "Thousand-Edge Dance",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_blood_smith_the_weaponsmith_thousand_edge_dance"
+      "sourceId": "card_blood_smith_the_weaponsmith_thousand_edge_dance",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 3000,
+  "sort": 3001,
   "ownership": {
     "default": 0
   }

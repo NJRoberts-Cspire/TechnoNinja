@@ -1,5 +1,6 @@
 {
   "_id": "58161676502c3436",
+  "_key": "!items!58161676502c3436",
   "name": "Echomind Clarity",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ironclad_echomind_clarity"
+      "sourceId": "card_ironclad_echomind_clarity",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

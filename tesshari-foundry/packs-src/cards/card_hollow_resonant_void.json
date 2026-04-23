@@ -1,5 +1,6 @@
 {
   "_id": "738ee6b12cf284ee",
+  "_key": "!items!738ee6b12cf284ee",
   "name": "Resonant Void",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_hollow_resonant_void"
+      "sourceId": "card_hollow_resonant_void",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

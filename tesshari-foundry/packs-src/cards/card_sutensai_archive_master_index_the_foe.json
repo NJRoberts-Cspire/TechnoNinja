@@ -1,5 +1,6 @@
 {
   "_id": "c20268feb32e0940",
+  "_key": "!items!c20268feb32e0940",
   "name": "Index the Foe",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_sutensai_archive_master_index_the_foe"
+      "sourceId": "card_sutensai_archive_master_index_the_foe",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }

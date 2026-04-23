@@ -1,5 +1,6 @@
 {
   "_id": "64061206b5519fb7",
+  "_key": "!items!64061206b5519fb7",
   "name": "Hooked Limb",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_edge_builder_hooked_limb"
+      "sourceId": "card_chrome_shaper_edge_builder_hooked_limb",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 2000,
+  "sort": 2001,
   "ownership": {
     "default": 0
   }

@@ -1,5 +1,6 @@
 {
   "_id": "7f1b08f21de6132b",
+  "_key": "!items!7f1b08f21de6132b",
   "name": "Hollow Poor's Fury",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -29,7 +30,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_hollow_poor_s_fury"
+      "sourceId": "card_ashfoot_hollow_poor_s_fury",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

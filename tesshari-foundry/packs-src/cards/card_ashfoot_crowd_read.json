@@ -1,5 +1,6 @@
 {
   "_id": "2d06079f4bf6047a",
+  "_key": "!items!2d06079f4bf6047a",
   "name": "Crowd Read",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -26,7 +27,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_ashfoot_crowd_read"
+      "sourceId": "card_ashfoot_crowd_read",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

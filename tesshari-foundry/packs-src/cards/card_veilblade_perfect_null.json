@@ -1,5 +1,6 @@
 {
   "_id": "96d71b31d72753b9",
+  "_key": "!items!96d71b31d72753b9",
   "name": "Perfect Null",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_veilblade_perfect_null"
+      "sourceId": "card_veilblade_perfect_null",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

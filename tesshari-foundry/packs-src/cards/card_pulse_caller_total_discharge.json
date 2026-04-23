@@ -1,5 +1,6 @@
 {
   "_id": "cfefc9d9267458e9",
+  "_key": "!items!cfefc9d9267458e9",
   "name": "Total Discharge",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -28,7 +29,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_pulse_caller_total_discharge"
+      "sourceId": "card_pulse_caller_total_discharge",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

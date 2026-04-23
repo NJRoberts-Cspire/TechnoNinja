@@ -1,5 +1,6 @@
 {
   "_id": "c8742be9b52a8435",
+  "_key": "!items!c8742be9b52a8435",
   "name": "Circuit Spike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_chrome_shaper_circuit_spike"
+      "sourceId": "card_chrome_shaper_circuit_spike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

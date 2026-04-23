@@ -1,5 +1,6 @@
 {
   "_id": "bd5f0a9c0974c066",
+  "_key": "!items!bd5f0a9c0974c066",
   "name": "Willing Vessel",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -27,7 +28,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_curse_eater_willing_vessel"
+      "sourceId": "card_curse_eater_willing_vessel",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

@@ -1,5 +1,6 @@
 {
   "_id": "a3c7df61e5e22ca9",
+  "_key": "!items!a3c7df61e5e22ca9",
   "name": "Resonant Strike",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,7 +25,8 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_iron_monk_resonant_strike"
+      "sourceId": "card_iron_monk_resonant_strike",
+      "enrichedFromMarkdown": true
     }
   },
   "folder": null,

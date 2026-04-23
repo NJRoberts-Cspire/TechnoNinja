@@ -1,5 +1,6 @@
 {
   "_id": "6984a4473e65a665",
+  "_key": "!items!6984a4473e65a665",
   "name": "Ledger Mark",
   "type": "card",
   "img": "icons/svg/combat.svg",
@@ -24,11 +25,12 @@
   "effects": [],
   "flags": {
     "tesshari": {
-      "sourceId": "card_shadow_daimyo_broker_ledger_mark"
+      "sourceId": "card_shadow_daimyo_broker_ledger_mark",
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,
-  "sort": 1000,
+  "sort": 1001,
   "ownership": {
     "default": 0
   }
