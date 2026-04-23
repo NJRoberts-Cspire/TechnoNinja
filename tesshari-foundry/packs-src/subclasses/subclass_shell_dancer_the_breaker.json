@@ -1,0 +1,41 @@
+{
+  "_id": "15ce8fbe3b409163",
+  "_key": "!items!15ce8fbe3b409163",
+  "name": "The Breaker",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Shell Dancer",
+    "pathKey": "the_breaker",
+    "features": {
+      "3": {
+        "name": "Overload Strike",
+        "html": "<p>Once per short rest, declare an Overload Strike before making an attack. If the attack hits, it deals maximum damage. The enhancement used for the overload enters a failure state for 1 hour, removing it from standard function but generating 2 Malfunction Charges.</p>"
+      },
+      "6": {
+        "name": "Critical Cascade",
+        "html": "<p>When you score a critical hit, the critical hit also triggers a Controlled Discharge automatically, targeting the same creature (no cost, no save — the cascade is the critical hit's companion). Both the hit and the discharge damage apply.</p>"
+      },
+      "10": {
+        "name": "Multi-Failure",
+        "html": "<p>When you trigger Tactical Failure, the radius increases to 25 feet. Additionally, you can trigger two different enhancement failures simultaneously with one Tactical Failure action, each producing its own damage type and area. Creatures caught in both areas take both damage types in full.</p>"
+      },
+      "14": {
+        "name": "The Perfect Catastrophe",
+        "html": "<p>Once per long rest, declare a Perfect Catastrophe. All of your enhancements simultaneously enter their most extreme failure state for 1 round. Every creature within 30 feet takes 6d10 damage of your enhancement type (Dexterity save for half). You take 4d10 damage of the same type (cannot be reduced). You gain 10 Malfunction Charges. For the following round, every attack you make with a melee weapon deals an extra 3d10 damage from the cascade energy still running through you. After this round, all your enhancements enter a complete shutdown for 10 minutes (they operate at minimum function — you are standard physical, no enhancement bonuses). When they restart, they restart clean.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Breaker uses enhancement failures not as byproducts of combat but as primary offensive tools. They have weaponized specific malfunction types — the spark discharge of a power regulator failure, the shockwave of a structural enhancement going critical, the blinding flash of a sensory enhancement cascade — and deploy them with the same intentionality that a standard fighter deploys a sword. The difference is that a sword does the same thing every time. The Breaker's tools are never exactly the same twice.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Shell Dancer::the_breaker"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

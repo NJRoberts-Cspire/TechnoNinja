@@ -48,6 +48,7 @@ export class TesshariCharacterSheet extends HandlebarsApplicationMixin(ActorShee
       removeEffect:  TesshariCharacterSheet.#onRemoveEffect,
       clearIdentity: TesshariCharacterSheet.#onClearIdentity,
       openItem:      TesshariCharacterSheet.#onOpenItem,
+      pickIdentity:  TesshariCharacterSheet.#onPickIdentity,
     },
   };
 
@@ -129,6 +130,22 @@ export class TesshariCharacterSheet extends HandlebarsApplicationMixin(ActorShee
             .sort((a, b) => a.level - b.level)
         : [];
 
+      // Compendium-backed pickers for empty identity slots
+      context.availableRaces      = !context.raceItem     ? await this.#loadPickerOptions("tesshari.races") : [];
+      context.availableClasses    = !context.classItem    ? await this.#loadPickerOptions("tesshari.classes") : [];
+      context.availableSubclasses = [];
+      if (!context.subclassItem) {
+        const currentClassName = context.classItem?.name ?? s.className ?? "";
+        if (currentClassName) {
+          const all = await this.#loadPickerOptions("tesshari.subclasses", ["system.className"]);
+          context.availableSubclasses = all
+            .filter(opt => opt.system?.className === currentClassName)
+            .map(opt => ({ uuid: opt.uuid, id: opt.id, name: opt.name }))
+            .sort((a, b) => a.name.localeCompare(b.name));
+        }
+      }
+      context.currentClassName = context.classItem?.name ?? s.className ?? "";
+
       // Derived UI bits
       context.handCount = context.cards.length;
       context.handOver  = context.cards.length > (s.handSize ?? 0);
@@ -164,6 +181,18 @@ export class TesshariCharacterSheet extends HandlebarsApplicationMixin(ActorShee
       // race / class / subclass drops replace any existing one of that type
       // and sync the actor's system fields (species, className, etc.)
       if (IDENTITY_TYPES.has(item.type)) {
+        // Subclass drop: warn if the path doesn't belong to the current class
+        if (item.type === "subclass") {
+          const currentClass = this.actor.items.find(i => i.type === "class")?.name
+            ?? this.actor.system?.className;
+          if (currentClass && item.system?.className && item.system.className !== currentClass) {
+            const ok = await foundry.applications.api.DialogV2.confirm({
+              window: { title: "Subclass mismatch" },
+              content: `<p><strong>${item.name}</strong> belongs to <em>${item.system.className}</em>, but ${this.actor.name} is <em>${currentClass}</em>. Apply anyway?</p>`,
+            });
+            if (!ok) return;
+          }
+        }
         return this.#applyIdentityItem(item);
       }
 
@@ -177,6 +206,36 @@ export class TesshariCharacterSheet extends HandlebarsApplicationMixin(ActorShee
       ui.notifications?.error(`Drop failed: ${err.message}`);
     }
   };
+
+  /**
+   * Read lightweight entries from a compendium pack by id (e.g., "tesshari.races").
+   * Returns [{uuid, id, name, img, system?}, …] — index-only by default, with
+   * any requested fields materialized into the `system` object.
+   */
+  async #loadPickerOptions(packId, indexFields = []) {
+    const pack = game.packs?.get(packId);
+    if (!pack) return [];
+    const index = await pack.getIndex({ fields: indexFields });
+    return index.map(entry => {
+      const opt = { uuid: `Compendium.${packId}.Item.${entry._id}`, id: entry._id, name: entry.name, img: entry.img };
+      if (indexFields.length) {
+        opt.system = {};
+        for (const f of indexFields) {
+          // `entry` carries the fields at their full path under system; rebuild nested access
+          const parts = f.split(".");
+          let src = entry;
+          for (const p of parts) src = src?.[p];
+          let dst = opt;
+          for (let i = 0; i < parts.length - 1; i++) {
+            dst[parts[i]] = dst[parts[i]] ?? {};
+            dst = dst[parts[i]];
+          }
+          dst[parts[parts.length - 1]] = src;
+        }
+      }
+      return opt;
+    });
+  }
 
   async #applyIdentityItem(item) {
     const actor = this.actor;
@@ -332,5 +391,17 @@ export class TesshariCharacterSheet extends HandlebarsApplicationMixin(ActorShee
     const itemId = target.dataset.itemId;
     const item = this.actor.items.get(itemId);
     item?.sheet?.render(true);
+  }
+
+  /** Click a picker tile → apply that race/class/subclass. */
+  static async #onPickIdentity(event, target) {
+    const uuid = target.dataset.uuid;
+    if (!uuid) return;
+    const doc = await fromUuid(uuid);
+    if (!doc) return ui.notifications?.error("Item not found in compendium.");
+    if (!IDENTITY_TYPES.has(doc.type)) {
+      return ui.notifications?.error(`Cannot pick ${doc.type} as an identity.`);
+    }
+    await this.#applyIdentityItem(doc);
   }
 }

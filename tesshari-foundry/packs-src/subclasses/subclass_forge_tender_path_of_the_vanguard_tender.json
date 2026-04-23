@@ -1,0 +1,41 @@
+{
+  "_id": "32b961479785b958",
+  "_key": "!items!32b961479785b958",
+  "name": "Path of the Vanguard Tender",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Forge Tender",
+    "pathKey": "path_of_the_vanguard_tender",
+    "features": {
+      "3": {
+        "name": "Combat Triage",
+        "html": "<p>You can perform forge work in active combat without the concentration loss that would affect a less-experienced Tender. You gain:\r - Forge Mending can be used as a free action at all times (the Level 5 proximity restriction is removed — you can use it at free action range on targets within 30 feet via a brief resonance channel).\r - When you use Forge Mending on a creature at 0 HP, they return to consciousness and can act on their next turn immediately (no round of disorientation).\r - You gain +3 to Concentration checks to maintain healing effects while taking damage.</p>"
+      },
+      "6": {
+        "name": "Fortify",
+        "html": "<p>During combat, you can spend 1 Forge Reserve charge as a free action to fortify one creature within 30 feet. Fortified creatures gain:\r - Temporary HP equal to 8 + your RESONANCE (fixed).\r - Resistance to the next damage type that hits them (only the next hit).\r - +3 to FRAME resistance checks until the start of your next turn.</p>"
+      },
+      "10": {
+        "name": "Emergency Overhaul",
+        "html": "<p>Once per combat, as an action, you perform a rapid Emergency Overhaul on one adjacent creature. This requires them to be unconscious or willing to remain still. The Overhaul:\r - Fully restores them to maximum HP.\r - Removes all conditions and ongoing effects except those from major plot-level curses.\r - Clears one expended class feature that would normally require a long rest to recover.\r For the next hour after an Overhaul, the creature's enhancements are running hot — they deal +2 damage on all attacks but are vulnerable to necrotic damage during this time.</p>"
+      },
+      "14": {
+        "name": "Forge Under Fire",
+        "html": "<p>You have become functionally immune to the chaos of combat as a variable in your work. You gain:\r - You cannot be made to drop what you are holding or interrupted in your Forge actions by anything short of being incapacitated.\r - Your forge work cannot fail due to environmental conditions (noise, movement, damage to your own body mid-work — you continue regardless).\r - Once per day, you can restore a dead creature to life (at 1 HP) if they have been dead for less than 1 minute and their enhancement network is substantially intact. This is not resurrection — it is emergency revival. It requires 1 action and 10 Forge Reserve charges.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Vanguard Tender has taken their practice into combat — not as a fighter who happens to be a Forge Tender but as a Forge Tender who has accepted that their patients are frequently in active combat and that maintenance work done under fire is still maintenance work that must be done. They are the battlefield support specialist: moving through active engagements to keep allies functional, performing triage while taking fire, making enhancement repairs that everyone else said couldn't be done in those conditions. They are not brave in an aggressive sense. They are brave in the sense of being where they are needed regardless of the danger.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Forge Tender::path_of_the_vanguard_tender"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

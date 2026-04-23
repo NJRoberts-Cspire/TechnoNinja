@@ -367,21 +367,40 @@ export function loadClassSections(repoRoot) {
       startingHand,
     };
 
-    // Subclass sections under "## Subclasses"
-    const subBlock = sliceHeading(md, "Subclasses", 2) ?? "";
-    // Split at `### ` subclass heading lines
-    const subChunks = subBlock.split(/\n### /).slice(1);
-    for (const chunk of subChunks) {
-      const headingLine = chunk.split("\n")[0];
+    // Scan every ### block in the file; keep those that look like subclass
+    // sections (2+ `**Level N: Feature**` markers in the body). This tolerates
+    // files with multiple `## Subclasses` headings or subclass blocks placed
+    // under different parent sections.
+    const seenPathKeys = new Set();
+    const h3Chunks = md.split(/\n### /).slice(1);
+    for (const chunk of h3Chunks) {
+      // H3 sections don't cross H2 boundaries; truncate the chunk at the first
+      // `\n## ` we see so we don't accidentally pick up class-wide feature
+      // lists that happen to live after the H3 card-reference block.
+      const h2Idx = chunk.search(/\n## \S/);
+      const bounded = h2Idx >= 0 ? chunk.slice(0, h2Idx) : chunk;
+      const headingLine = bounded.split("\n")[0];
+      const body = bounded.split("\n").slice(1).join("\n");
+
+      // A subclass section has multiple **Level N: Name** feature blocks at
+      // canonical subclass levels (3, 6, 10, 14, 18). Sections with only L1/L2
+      // features are class-wide features or cards — skip them.
+      const featureRe = /\*\*Level\s+(\d+):\s*([^*]+)\*\*\s*\n([\s\S]*?)(?=\n\*\*Level\s+\d+:|\n### |\n## |$)/g;
+      const featureMatches = [...body.matchAll(featureRe)];
+      const subclassLevelMatches = featureMatches.filter(m => parseInt(m[1], 10) >= 3);
+      if (subclassLevelMatches.length < 2) continue;
+
+      // Parse the display name (strip any "— quote" suffix)
       const nameMatch = headingLine.match(/^([^—]+?)(?:\s*—|$)/);
       const displayName = nameMatch ? nameMatch[1].trim() : headingLine.trim();
-      const body = chunk.split("\n").slice(1).join("\n").trim();
 
-      // Parse features at levels 3, 6, 10, 14 (and occasionally 18)
+      // Skip known-non-subclass heading names
+      if (/^(starting hand|level unlock list|full card reference|card reference|passive|subclasses|overview)/i.test(displayName)) continue;
+
+      // Build features keyed by level (all matched levels, not just the
+      // canonical ones — in case some entries hold L1 features too)
       const features = {};
-      const featureRe = /\*\*Level\s+(\d+):\s*([^*]+)\*\*\s*\n([\s\S]*?)(?=\n\*\*Level\s+\d+:|$)/g;
-      let m;
-      while ((m = featureRe.exec(body)) !== null) {
+      for (const m of featureMatches) {
         const level = parseInt(m[1], 10);
         features[String(level)] = {
           name: m[2].trim(),
@@ -389,17 +408,28 @@ export function loadClassSections(repoRoot) {
         };
       }
 
-      // Subclass key — slugified display name (matches SUBCLASS_BY_CLASS shape)
+      // Description = everything before the first **Level marker
+      const descRaw = body.split(/\n\*\*Level/)[0].trim();
+
+      // Slugify display name into a stable path key
       const pathKey = displayName.toLowerCase()
-        .replace(/^oath of the\s+/, "oath_")
+        .replace(/^oath of the\s+/, "oath_of_the_")
+        .replace(/^oath of\s+/, "oath_of_")
+        .replace(/^path of the\s+/, "path_of_the_")
+        .replace(/^path of\s+/, "path_of_")
+        .replace(/^the\s+/, "the_")
         .replace(/[^a-z0-9]+/g, "_")
         .replace(/^_|_$/g, "");
 
-      subclasses[`${className}::${displayName}`] = {
+      // Dedupe — some files may repeat headings under different H2 parents
+      if (seenPathKeys.has(pathKey)) continue;
+      seenPathKeys.add(pathKey);
+
+      subclasses[`${className}::${pathKey}`] = {
         className,
         displayName,
         pathKey,
-        descriptionHtml: mdToHtml(body.split(/\n\*\*Level/)[0]),
+        descriptionHtml: mdToHtml(descRaw),
         features,
       };
     }

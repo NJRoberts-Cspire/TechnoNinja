@@ -1,0 +1,41 @@
+{
+  "_id": "931691817225b727",
+  "_key": "!items!931691817225b727",
+  "name": "Path of the Single Point",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Pulse Caller",
+    "pathKey": "path_of_the_single_point",
+    "features": {
+      "3": {
+        "name": "Focal Point",
+        "html": "<p>You can designate one creature as your Focal Point as a bonus action. Your attacks against the Focal Point deal an additional 1d10 damage. Your Focal Point designation persists until the creature dies, you change it (bonus action), or combat ends. You can have only one Focal Point at a time.</p>"
+      },
+      "6": {
+        "name": "Killing Ground",
+        "html": "<p>When your Focal Point is within your weapon's normal range and no other creature is between you and them:\r - Your attacks against your Focal Point have advantage.\r - Your critical hit range against your Focal Point extends by 1 (cumulative with Dead Eye: 17-20 by level 6).</p>"
+      },
+      "10": {
+        "name": "Center Mass",
+        "html": "<p>Your shots against your Focal Point hit with such precision that the target's defenses are substantially irrelevant. Your attacks against your Focal Point ignore cover bonuses to AC, the effects of the Dodge action, and resistance to your weapon's damage type. Additionally, once per turn, your first hit against your Focal Point deals maximum damage (no roll required for damage — it is always maximum).</p>"
+      },
+      "14": {
+        "name": "The One Shot",
+        "html": "<p>Once per long rest, you can spend your full action to prepare and execute a perfect shot against your Focal Point. This shot:\r - Cannot miss.\r - Deals 10d10 + your Dexterity modifier + your Wisdom modifier damage.\r - If this reduces the target to 0 hit points, they are killed instantly (no resistance checks, no stabilization, no revival of any kind short of true resurrection magic equivalent).\r - If this does not reduce the target to 0 hit points, they are at half their remaining hit points (the shot still did catastrophic damage to the wrong part of their system — round down).\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Single Point Pulse Caller has taken the precision principle and sharpened it to a single, complete philosophy: one target, delivered with absolute certainty. They are not generalists. They are not the combat class that adapts to changing situations. They identify the single most important target in any situation and they eliminate it with absolute efficiency. Their value in any engagement is the elimination of the most threatening or most important presence — the enemy command element, the single powerful defender, the key figure whose death changes the outcome. They do one thing and they do it with a completeness that is almost aesthetically compelling.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Pulse Caller::path_of_the_single_point"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

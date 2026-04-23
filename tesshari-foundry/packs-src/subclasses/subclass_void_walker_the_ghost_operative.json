@@ -1,0 +1,41 @@
+{
+  "_id": "dbc93ed4c98845d8",
+  "_key": "!items!dbc93ed4c98845d8",
+  "name": "The Ghost Operative",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Void Walker",
+    "pathKey": "the_ghost_operative",
+    "features": {
+      "3": {
+        "name": "Operative's Phase",
+        "html": "<p>When you are in incorporeal state, you can carry one willing creature with you for its duration, as long as the creature is touching you. The creature is also incorporeal for the duration. If either of you ends your turn inside a solid object, you both take 1d10 force damage and are expelled to the nearest unoccupied space.</p>"
+      },
+      "6": {
+        "name": "Vanishing Act",
+        "html": "<p>Once per short rest, as a bonus action, you can become completely invisible (not just incorporeal) for up to 1 minute. You can remain invisible while attacking, though each attack you make requires a successful DC 15 Dexterity (Stealth) check or your invisibility ends. This is not the Iron Afterlife — you are simply not there, as far as light is concerned.</p>"
+      },
+      "10": {
+        "name": "Through and Through",
+        "html": "<p>You can now pass through magical barriers and fields by routing through the Iron Afterlife. Force effects, magical walls, and warded barriers do not prevent your movement while in incorporeal state. Additionally, you can pass through creature spaces (not just objects) while incorporeal, and you can interact with physical objects while incorporeal as if you were physical (picking locks, opening doors, etc.) — though the interaction is slow and requires full concentration.</p>"
+      },
+      "14": {
+        "name": "The Perfect Exit",
+        "html": "<p>Once per long rest, when you are captured, restrained, or would be prevented from moving, you can use a free action to activate The Perfect Exit: you phase fully and completely, automatically escape any restraint, and reappear at any previously-visited location within 1 mile. Any tracking on you (resonant, mundane, or magical) is severed. You leave behind only a momentary impression of cold air.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Ghost Operative has taken the Void Walker's natural talents and refined them into a precision instrument for the oldest profession in Tesshari: getting where you are not supposed to be and leaving without being seen. They are not assassins, necessarily — they can be scouts, thieves, witnesses, rescue agents, or any number of roles that require moving through the physical world as if it has rules that do not apply to you. The Ghost Operative knows, practically and philosophically, that the rules do not apply. The Iron Afterlife has given them an exit from every room.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Void Walker::the_ghost_operative"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

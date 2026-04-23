@@ -1,0 +1,41 @@
+{
+  "_id": "f43ac131a7012c6b",
+  "_key": "!items!f43ac131a7012c6b",
+  "name": "The Mender",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Flesh Shaper",
+    "pathKey": "the_mender",
+    "features": {
+      "3": {
+        "name": "Harm Refusal",
+        "html": "<p>Once per long rest, when you would be compelled (by enchantment, torture, or similar) to use Flesh Shaping offensively, you can make a RESONANCE resistance check with +3. On a success, you refuse and the compelling effect is broken. The refusal is absolute — a physical rejection that the compelling creature feels as a clear signal. It may escalate the situation. It will not compromise you.</p>"
+      },
+      "6": {
+        "name": "Area Healing",
+        "html": "<p>Once per short rest, as an action, spend 4 Shaping Points to release a pulse of healing energy in a 20-foot radius. All living creatures of your choice within range regain hit points equal to 2d8 + Wisdom modifier.</p>"
+      },
+      "10": {
+        "name": "Emergency Protocol",
+        "html": "<p>You have internalized emergency medicine at a deep level. When you use Crisis Heal (Level 9 feature), the creature is restored to hit points equal to your full Flesh Shaper level + Wisdom modifier (not just Wisdom modifier). Additionally, they are not stunned or incapacitated — they return to full function immediately.</p>"
+      },
+      "14": {
+        "name": "The Mender's Answer",
+        "html": "<p>Once per long rest, you can spend 10 Shaping Points to perform a comprehensive biological restoration on one creature: restore them to full hit points, remove all diseases and poisons, repair all damaged organic components to full function, and remove any Flesh Shaping that was performed on them without their consent. This takes 10 minutes and requires uninterrupted physical contact. You cannot use this feature on yourself. The cost is personal — after using it, you gain one level of exhaustion.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Mender has decided that the power of Flesh Shaping will be used to heal, full stop. They have not necessarily decided this because they are comfortable with the power — many Menders are deeply uncomfortable with what they feel when they reach into a body, with what they could do, with the thin line between repair and alteration. They have decided it because the decision needed to be made, and this is the decision that lets them sleep. They are not naive. They know the decision is perpetually being tested by circumstances. They make it again every day.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Flesh Shaper::the_mender"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

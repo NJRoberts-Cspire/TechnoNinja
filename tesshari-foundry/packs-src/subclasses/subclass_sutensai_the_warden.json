@@ -1,0 +1,41 @@
+{
+  "_id": "e4f25d5c54b5bb37",
+  "_key": "!items!e4f25d5c54b5bb37",
+  "name": "The Warden",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Sutensai",
+    "pathKey": "the_warden",
+    "features": {
+      "3": {
+        "name": "Judgment Blow",
+        "html": "<p>When you hit a creature with a weapon attack after having performed any Reading on them, you deal an extra 2d8 radiant damage. This extra damage increases to 3d8 at level 11 and 4d8 at level 17.</p>"
+      },
+      "6": {
+        "name": "Enforce the Caste",
+        "html": "<p>Once per long rest, as an action, you can strip a creature of the protections of their Caste tier for 1 hour. A creature so stripped loses any benefits they derive from Caste rank — including social status protections, enhancement-based class features that are Caste-restricted, and the assumption of good faith. They gain no disabilities beyond the loss of these benefits; they are simply treated as Caste Zero for the duration. This is a legally recognized act of the Sutensai. Most recipients would prefer a physical attack.</p>"
+      },
+      "10": {
+        "name": "Inviolable Authority",
+        "html": "<p>While in Tesshari territories that formally recognize Sutensai authority, you are under the institutional protection of the faith. Attacks against you in these territories trigger immediate spiritual consequence — the attacker must succeed on a RESONANCE resistance check (DC = your Faith Save DC) or take 3d8 psychic damage from the Iron Afterlife's response to the violation of a sanctioned priest. This does not protect you in war zones or in territory controlled by those who have formally rejected Sutensai authority (Korrath's forward positions, certain Flesh Circle enclaves, the Hollow Author's operational areas).</p>"
+      },
+      "14": {
+        "name": "The Full Weight",
+        "html": "<p>Once per long rest, you can make a formal declaration of condemnation that carries the Sutensai's full institutional weight. Name a creature you have performed a full Reading on and speak their judgment aloud: all Sutensai-aligned creatures within 5 miles become aware of the condemnation and its reason. The condemned creature has disadvantage on Charisma checks against any creature that has heard the condemnation. Additionally, the condemned creature cannot receive beneficial effects from any Sutensai rite or Feature from any Sutensai practitioner until the condemnation is formally lifted. The condemnation can be lifted only by a Sutensai tribunal of three senior priests, including one of higher level than the condemning Warden.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Warden is the Sutensai's enforcement arm — the priest who does not merely read the Echomind and record the result, but who acts on what they find. They are caste enforcers, spiritual police, and the people who show up when a village's resonant network is compromised or a lord is suspected of Flesh Circle sympathies. They have genuine legal authority across most of Tesshari and the power to make that authority felt physically if necessary. The Wardens are the reason the Sutensai is feared as well as respected, and they are the arm of the institution most directly implicated in its worst abuses of power.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Sutensai::the_warden"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

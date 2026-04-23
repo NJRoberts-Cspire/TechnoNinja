@@ -1,0 +1,41 @@
+{
+  "_id": "fe0eff88b0ffa58c",
+  "_key": "!items!fe0eff88b0ffa58c",
+  "name": "Path of the Ghost Ground",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Ashfoot",
+    "pathKey": "path_of_the_ghost_ground",
+    "features": {
+      "3": {
+        "name": "Ground Knowledge",
+        "html": "<p>You can melt into environments you are familiar with. In terrain you have spent at least 24 hours in (forests, urban areas, ruins, specific buildings), you are considered to have total cover while standing still and gain +3 to all Stealth and Survival checks. Additionally, you can move through difficult terrain in wilderness and urban environments at normal speed.</p>"
+      },
+      "6": {
+        "name": "Strike and Fade",
+        "html": "<p>Your hit-and-move approach has been refined to a discipline. When you take the Attack action, you can move up to half your speed before or after the attack without provoking opportunity attacks. Additionally, after using Strike and Fade, you can make a VEIL check, difficulty 2, as a free action. On a success, you are considered hidden until the start of your next turn or until you attack again.</p>"
+      },
+      "10": {
+        "name": "Saboteur's Eye",
+        "html": "<p>You have developed a talent for identifying and exploiting structural and mechanical weaknesses. You gain:\r - Your attacks against objects, structures, and vehicles deal triple damage.\r - Once per combat, you can make a SIGNAL check, difficulty 2, to identify the critical point of any structure, vehicle, or fortification within 60 feet. On a success, your next attack against that point deals maximum damage and creates a cascade effect (GM determines the structural consequence).\r - You gain +3 to checks to set traps, create diversions, and sabotage equipment.</p>"
+      },
+      "14": {
+        "name": "Deep Cover",
+        "html": "<p>You have learned to disappear not just physically but systematically. You gain:\r - You cannot be tracked by enhancement signature methods.\r - You can spend 1 hour establishing a false enhancement signature in a new area, causing enhancement-reading systems to register you as a different caste and identity until you leave the area or choose to cancel the effect.\r - Once per day, as a free action, you can become effectively invisible to all mechanical detection for 1 minute. Creatures can still see you normally, but no scanner, sensor, or automated detection system can register your presence.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>Guerrilla fighters, resistance members, and deep-territory operatives. The Ghost Ground Ashfoot has learned to fight not by meeting force with force but by making the environment itself an ally. They hit and disappear. They strike at supply lines and command nodes, not at armored samurai. They understand that winning a war does not require defeating the enemy's strongest soldiers — it requires making the enemy too tired, too uncertain, and too spread-thin to use those soldiers effectively. They are rarely celebrated and they are rarely thanked. They are necessary.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Ashfoot::path_of_the_ghost_ground"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

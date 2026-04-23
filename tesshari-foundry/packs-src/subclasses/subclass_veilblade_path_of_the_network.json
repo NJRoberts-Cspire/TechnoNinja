@@ -1,0 +1,41 @@
+{
+  "_id": "6f2471fb7ea3a69e",
+  "_key": "!items!6f2471fb7ea3a69e",
+  "name": "Path of the Network",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Veilblade",
+    "pathKey": "path_of_the_network",
+    "features": {
+      "3": {
+        "name": "Wire Assault",
+        "html": "<p>You can weaponize your Wire connection. As an action, while you are within 120 feet of a Wire network access point, you can direct a Wire surge at one enhanced target within 60 feet of the network. The target makes a FRAME resistance check, difficulty 3. On a failure, their enhancements briefly overload: they take 14 lightning-analog damage (fixed), cannot use enhancement-based class features until the start of their next turn, and are stunned until the end of their current turn.\r</p>\n<p>This damage increases to 17 at level 5, 22 at level 9, 27 at level 13, and 32 at level 17.</p>"
+      },
+      "6": {
+        "name": "Network Domination",
+        "html": "<p>When you control a Wire network (see Level 16 Wire Sovereign, or GM determines control through access), you can extend your control to affect the area. Once per combat:\r - Shut down all enhancement signatures in a 60-foot radius for 30 seconds (one round — this affects allies too).\r - Flood a target's enhancement with sensory overload: they make a FRAME resistance check, difficulty 3, or are blinded and deafened for 1 minute (can repeat the check at the end of each turn).\r - Broadcast a forged command through the network that all automated systems treat as legitimate.</p>"
+      },
+      "10": {
+        "name": "Distributed Presence",
+        "html": "<p>You can fragment your Wire-presence across multiple nodes in a network. While distributed, you gain the following:\r - You gain +3 to all Wire-based checks.\r - Any creature attempting to sever your Wire connection must deal with multiple nodes simultaneously, requiring 3 successful contested Intelligence checks (not just 1) to completely disconnect you.\r - You can take two Wire Entry actions simultaneously, operating in two locations within the same network.</p>"
+      },
+      "14": {
+        "name": "Network Weapon",
+        "html": "<p>The Wire network in your area of operation is, effectively, your weapon. Once per day:\r - You can trigger a network-wide cascade: all enhanced creatures within 300 feet that are connected to the Wire take 44 lightning-analog damage (fixed) (FRAME resistance check, difficulty 3 + your SIGNAL, for half). This cascade takes 1 round to propagate and can be predicted by those who make a SIGNAL check, difficulty 5.\r - For 1 hour following the cascade, you have administrative control of every Wire system in the affected area.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>Network Veilblade are the wire-specialists — the ones who have built their entire combat and operational approach around their control of Wire infrastructure. They are less about personal stealth and more about controlling the information environment: shutting down enemy communications, overloading enhancement systems, and using the Wire as an active weapon rather than a passive tool. They work best when the target is in territory connected to a Wire network, which in Tesshari's enhanced world is almost everywhere.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Veilblade::path_of_the_network"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

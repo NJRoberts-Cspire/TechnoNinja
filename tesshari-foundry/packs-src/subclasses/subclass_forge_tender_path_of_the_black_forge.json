@@ -1,0 +1,41 @@
+{
+  "_id": "fd050ea2ad5c4441",
+  "_key": "!items!fd050ea2ad5c4441",
+  "name": "Path of the Black Forge",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Forge Tender",
+    "pathKey": "path_of_the_black_forge",
+    "features": {
+      "3": {
+        "name": "Underground Knowledge",
+        "html": "<p>Your experience with unofficial modification work has given you knowledge that the formal training system doesn't include. You gain:\r - Proficiency in Deception and Underworld contacts (or double proficiency if already proficient).\r - You can identify any enhancement, modification, or Wire system regardless of its official registration status — including modifications that are theoretically impossible or have been blacklisted.\r - You can install or modify enhancements without leaving a trace in Wire Market records.</p>"
+      },
+      "6": {
+        "name": "Black Market Modification",
+        "html": "<p>Once per day, during a short rest, you can install an experimental modification in a willing creature. These modifications:\r - Provide a powerful but unstable effect of your design (work with GM — the effect should be significant and have a downside that reflects the unofficial, unregulated nature of the work).\r - Last for 24 hours.\r - Require a FRAME resistance check, difficulty 3, at the end of the duration. On a failure, the creature gains one level of exhaustion as the modification is removed.\r The modification can be any effect equivalent to a class feature from another class of equal or lesser level to yours.</p>"
+      },
+      "10": {
+        "name": "Forbidden Technique",
+        "html": "<p>Your knowledge of blacklisted procedures has expanded. Once per day, you can apply a Forbidden Technique to an enhancement modification you are performing. Forbidden Techniques include:\r - <strong>Resonance Weapon:</strong> A creature's enhancement becomes capable of delivering 17 resonant damage (fixed) on an unarmed strike for 1 hour.\r - <strong>Signature Null:</strong> Make a creature undetectable to any technological system for 1 hour (similar to Veilblade Signature Null).\r - <strong>Emergency Enhancement:</strong> Triple the effect of your next Forge Mending.\r - <strong>Pain Redirect:</strong> For 1 hour, a creature takes no penalties from being in the wounded state (their wounds still exist but their system doesn't register them as limiting).</p>"
+      },
+      "14": {
+        "name": "The Work That Saves",
+        "html": "<p>You have performed procedures that the Wire Market would declare impossible and the Sutensai would declare profane, and people are alive because you did. Once per day:\r - You can perform a Black Forge Resurrection: restore a creature to life that has been dead for up to 1 hour, regardless of the state of their remains, as long as their Echomind has not fully integrated into the Iron Afterlife. This requires 1 hour of work, full forge tools, and a SIGNAL check, difficulty 5. On a failure, the creature is not restored but their Echomind is preserved (see Sutensai Path's Echomind Preservation). On a success, they return at 1 HP with a modification scar that marks them as someone who has returned from the Iron Afterlife's edge — visible to any Echomind-reader.\r - The procedures you perform leave no trace in any official or unofficial record — your work is invisible to all documentation systems.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Black Forge Tender works in the underground market of modification technology — the modifications that shouldn't exist, the procedures that violate Wire Market standards, the work that can't be done through official channels and that people are desperate enough to seek through unofficial ones. They are not villains, as a category — many of them are providing essential services to people who cannot access official forge work, doing work that the formal system refuses to do for political or economic reasons. Some of them, certainly, are doing things that are dangerous and wrong. The line between the two is not always clear, and the Black Forge Tender lives on it.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Forge Tender::path_of_the_black_forge"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

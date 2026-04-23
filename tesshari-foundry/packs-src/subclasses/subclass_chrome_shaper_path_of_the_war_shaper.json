@@ -1,0 +1,41 @@
+{
+  "_id": "38aed24ee85de64a",
+  "_key": "!items!38aed24ee85de64a",
+  "name": "Path of the War Shaper",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Chrome Shaper",
+    "pathKey": "path_of_the_war_shaper",
+    "features": {
+      "3": {
+        "name": "Combat Modification",
+        "html": "<p>You have a set of pre-designed combat modification packages that you can apply rapidly. In combat, as a free action, you can apply a Combat Modification to an ally or yourself. Choose from the following packages:\r - <strong>Strike Package:</strong> +8 damage to weapon attacks (fixed), lasts 3 rounds. FRAME resistance check, difficulty 2, when it expires or 1 level exhaustion.\r - <strong>Dodge Package:</strong> +3 AC and +3 to EDGE resistance checks, lasts 3 rounds.\r - <strong>Disruption Package:</strong> Attacks cause the target to lose damage riders on their next resistance check or attack, lasts 3 rounds.\r</p>\n<p>Each package can only be applied once per creature per combat.</p>"
+      },
+      "6": {
+        "name": "War Configuration",
+        "html": "<p>Your combat modification packages have expanded. Add the following:\r - <strong>Surge Package:</strong> The creature can attack three times instead of twice on their turn (or twice instead of once if they have Extra Attack), for 1 round. This replaces their normal Extra Attack for that round.\r - <strong>Resilience Package:</strong> The creature gains 30 temporary HP.\r - <strong>Overwatch Package:</strong> The creature can make a ranged attack as a Reaction when any creature moves within 30 feet of them, for 1 minute.</p>"
+      },
+      "10": {
+        "name": "Battle Forge",
+        "html": "<p>During combat, when you take the Attack action, you can replace one of your attacks with a Battle Forge action — rapidly modifying an adjacent ally's or your own configuration. You immediately apply any Combat Modification or Field Reconfiguration that would normally require a free action, without using your free action.</p>"
+      },
+      "14": {
+        "name": "Configuration Command",
+        "html": "<p>You can manage the battlefield's enhancement landscape. As an action (once per combat):\r - Boost all allies within 30 feet: they gain +3 to their next attack roll and +10 feet of movement.\r - Suppress all enemies within 30 feet: they make a FRAME resistance check, difficulty 3, or lose damage riders on their next attack and resistance check.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The War Shaper has applied the Chrome Shaper's design philosophy specifically to combat — treating enhancement configuration as a battlefield asset, designing modifications that are primarily functional as weapons, and developing the ability to reconfigure allied combat capabilities on the fly in response to battlefield conditions. Where the Chrome Shaper's general practice works over hours and days, the War Shaper has developed the techniques of the forge to function at combat speed.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Chrome Shaper::path_of_the_war_shaper"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

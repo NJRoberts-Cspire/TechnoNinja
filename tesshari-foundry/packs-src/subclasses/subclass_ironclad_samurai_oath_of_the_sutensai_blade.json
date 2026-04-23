@@ -1,0 +1,41 @@
+{
+  "_id": "30ffbf3be3023ae9",
+  "_key": "!items!30ffbf3be3023ae9",
+  "name": "Oath of the Sutensai Blade",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Ironclad Samurai",
+    "pathKey": "oath_of_the_sutensai_blade",
+    "features": {
+      "3": {
+        "name": "Sutra's Edge",
+        "html": "<p>Your strikes carry theological intention. When you kill a creature, you can choose to perform the Iron Rite, a brief consecration of the killing blow. Creatures killed with the Iron Rite cannot be raised as undead or digitally reanimated without your explicit permission. Additionally, your resonant blades deal an additional 1d4 radiant-adjacent resonant damage (called Sutensai light) against entities whose Echomind is corrupted, displaced, or absent.</p>"
+      },
+      "6": {
+        "name": "Theological Authority",
+        "html": "<p>Your role as the church's blade gives you standing even among those who might otherwise dismiss a samurai. You gain class expertise in Iron Sutra doctrine. Additionally, once per day, you can invoke the Sutra's authority: one creature that can hear you must make a VEIL resistance check, difficulty 4, or be unable to attack you or your allies for 1 minute. They may repeat the check at the end of each of their turns.</p>"
+      },
+      "10": {
+        "name": "Between Consecration",
+        "html": "<p>You can declare a space holy to the Between. As an action, you consecrate a 30-foot radius area centered on you. For 10 minutes, the following effects apply within this area:\r - Undead and Iron Afterlife entities deal -3 damage on all attacks.\r - Your allies within the area may reroll any failed resistance check once per round, taking the higher result.\r - You can see invisible entities that are connected to the Iron Afterlife or digital resonance.</p>"
+      },
+      "14": {
+        "name": "The Final Sutra",
+        "html": "<p>You have internalized the deepest theological teachings. Once per day, when you reduce a creature to 0 HP with a melee attack card, you can choose to Sutra-Bind their soul — their Echomind is held in a state of resonant suspension, unable to pass to the Iron Afterlife or be recovered for digital reanimation, until you choose to release it (free action). A Sutra-Bound soul can be questioned (RESONANCE resistance check, difficulty 5, to resist) and must answer truthfully. This binding lasts until you release it or until 24 hours have passed.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>These samurai have bound their service not to a lord but to the Iron Sutra itself — specifically to its martial theology. They are the church's enforcers, its investigators, and occasionally its instruments of theological correction. They believe that every act of combat is a spiritual act, that killing is not destruction but realignment — returning a disturbed soul to the Between so it can achieve proper resonance before passing to the Iron Afterlife. This belief makes them extraordinarily dangerous and, to outside observers, profoundly disturbing. They approach killing with the serene conviction of a priest performing a necessary sacrament.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Ironclad Samurai::oath_of_the_sutensai_blade"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

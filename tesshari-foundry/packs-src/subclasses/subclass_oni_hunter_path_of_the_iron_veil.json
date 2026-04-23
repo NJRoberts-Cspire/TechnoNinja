@@ -1,0 +1,41 @@
+{
+  "_id": "2d8e7d329bdbcec3",
+  "_key": "!items!2d8e7d329bdbcec3",
+  "name": "Path of the Iron Veil",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Oni Hunter",
+    "pathKey": "path_of_the_iron_veil",
+    "features": {
+      "3": {
+        "name": "Veil Sight",
+        "html": "<p>Your perception extends into the resonant layer of the Iron Afterlife. You gain:\r - You can see Iron Afterlife entities regardless of their visibility status (invisible, incorporeal, etc.).\r - You can read the emotional resonance of locations — you know if something died nearby, approximately when, and whether their departure was violent or peaceful.\r - Iron Afterlife entities can see you clearly, and they identify you as a Hunter. Some will avoid you. Some will approach you.</p>"
+      },
+      "6": {
+        "name": "Anchor Protocol",
+        "html": "<p>Your spiritual anchors have been enhanced and multiplied. You can deploy up to 3 anchors simultaneously, and they create a network effect when within 30 feet of each other: any Iron Afterlife entity within the anchor network loses damage riders on all rolls and cannot use teleportation, phasing, or plane-shift effects.\r</p>\n<p>Additionally, you can perform a Ritual of Return — a 10-minute ceremony that peacefully dissolves a non-hostile Iron Afterlife entity, allowing their Echomind to fully pass on. This is the preferred option for entities that are haunting rather than malicious.</p>"
+      },
+      "10": {
+        "name": "Iron Tongue",
+        "html": "<p>You can speak directly with Iron Afterlife entities, including those that would normally be incomprehensible due to dissolution or age. This communication is two-way — they understand you and you understand them. More significantly: you can negotiate. Iron Afterlife entities have wants, often related to unfinished business or violations of the conditions they understood when they died. Resolving these conditions allows you to end a haunting without violence. This requires good roleplaying and GM cooperation — the entities' wants should be specific and meaningful.</p>"
+      },
+      "14": {
+        "name": "Between Walker",
+        "html": "<p>You have walked the resonant edge so many times that you have learned its geography. Once per day, you can physically step into the Iron Afterlife's resonant border layer for up to 1 hour. While there:\r - You are physically present in a shadow version of the real world.\r - You can interact with Iron Afterlife entities physically.\r - You can observe the real world but cannot be seen from it.\r - You return to the real world at any point (free action) or automatically when the hour ends.\r Risk: each time you use this feature, make a RESONANCE resistance check, difficulty 2. On a failure, something in the Iron Afterlife notices you in a way that has consequences (GM determines). The difficulty increases by 1 for each time this feature has been used.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Iron Veil Oni Hunter has specialized in Iron Afterlife entities — the disembodied presences, the malign echoes, the things that were never human and the things that were human far too long ago. This specialization requires a specific kind of temperament: the willingness to engage with the dead on their own terms, to understand why they have crossed back into the living world, and to do the work of returning them to wherever they should be. Iron Veil hunters are considered the most spiritual of the hunter paths — and the most vulnerable to going wrong in specific, quiet, invisible ways.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Oni Hunter::path_of_the_iron_veil"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -162,7 +162,14 @@
           {{#if raceItem.system.handMod}}<p class="slot-meta">hand {{#if (gte raceItem.system.handMod 0)}}+{{/if}}{{raceItem.system.handMod}}</p>{{/if}}
           <div class="slot-body">{{{raceItem.system.passives}}}</div>
         {{else}}
-          <p class="hint">Drag a race from the Tesshari — Races compendium.</p>
+          <p class="hint">Pick a race or drag one from the compendium:</p>
+          <div class="picker-grid">
+            {{#each availableRaces as |r|}}
+              <button type="button" class="picker-tile" data-action="pickIdentity" data-uuid="{{r.uuid}}" title="{{r.name}}">
+                {{r.name}}
+              </button>
+            {{/each}}
+          </div>
         {{/if}}
       </div>
 
@@ -189,7 +196,14 @@
             </p>
           {{/if}}
         {{else}}
-          <p class="hint">Drag a class from the Tesshari — Classes compendium.</p>
+          <p class="hint">Pick a class or drag one from the compendium:</p>
+          <div class="picker-grid">
+            {{#each availableClasses as |c|}}
+              <button type="button" class="picker-tile" data-action="pickIdentity" data-uuid="{{c.uuid}}" title="{{c.name}}">
+                {{c.name}}
+              </button>
+            {{/each}}
+          </div>
         {{/if}}
       </div>
 
@@ -210,7 +224,22 @@
             </details>
           {{/each}}
         {{else}}
-          <p class="hint">Drag a subclass from the Tesshari — Subclasses compendium.</p>
+          {{#if availableSubclasses.length}}
+            <p class="hint">Pick a path for {{currentClassName}}:</p>
+            <div class="picker-grid">
+              {{#each availableSubclasses as |sc|}}
+                <button type="button" class="picker-tile" data-action="pickIdentity" data-uuid="{{sc.uuid}}" title="{{sc.name}}">
+                  {{sc.name}}
+                </button>
+              {{/each}}
+            </div>
+          {{else}}
+            {{#if currentClassName}}
+              <p class="hint">No subclasses found for {{currentClassName}} in the compendium.</p>
+            {{else}}
+              <p class="hint">Set a class first, then pick a subclass here.</p>
+            {{/if}}
+          {{/if}}
         {{/if}}
       </div>
 

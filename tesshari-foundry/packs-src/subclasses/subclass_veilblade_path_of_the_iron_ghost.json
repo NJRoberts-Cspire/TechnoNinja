@@ -1,0 +1,41 @@
+{
+  "_id": "456923b781d7a1c6",
+  "_key": "!items!456923b781d7a1c6",
+  "name": "Path of the Iron Ghost",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Veilblade",
+    "pathKey": "path_of_the_iron_ghost",
+    "features": {
+      "3": {
+        "name": "Iron Bleed",
+        "html": "<p>Your Wire immersion has introduced death-resonance into your Echomind. You gain:\r - You can see invisible entities connected to the Iron Afterlife or digital death resonance.\r - You are immune to the Frightened condition.\r - Undead and Iron Afterlife entities lose damage riders on attack rolls against you (you resonate at a frequency that is partially their own).\r - Once per combat, you can make a RESONANCE check, difficulty 3, to ask the death-resonance within you one question. The answer comes as impression, image, or fragmented sensation — not always clear, but always honest.</p>"
+      },
+      "6": {
+        "name": "Death Walk",
+        "html": "<p>You can briefly push your resonance into the Iron Afterlife while maintaining your physical presence. As a free action, you enter a Death Walk state for up to 1 minute. During Death Walk:\r - You are invisible to all non-enhanced creatures.\r - You can move through solid objects (though you cannot end your turn inside one).\r - You have resistance to all physical damage types.\r - Enhanced creatures can still see you, and Iron Afterlife entities see you as one of their own (they will not attack unless threatened).</p>"
+      },
+      "10": {
+        "name": "Afterlife Interface",
+        "html": "<p>Your death-resonance has stabilized into something controllable. You can now communicate directly with recently-deceased Echominds in the Iron Afterlife within 24 hours of their death. This communication requires 10 minutes and a RESONANCE check, difficulty 4. On a success, you can ask the deceased up to 3 questions. They are not compelled to answer, but they usually will — the newly dead are often confused and may not realize what you are.</p>"
+      },
+      "14": {
+        "name": "Between the Worlds",
+        "html": "<p>You have found the specific frequency that places you between the living world and the Iron Afterlife without fully entering either. As a Reaction to being killed (reduced to 0 HP by a killing blow), you can phase into the Between — existing in both spaces simultaneously for 1 minute. During this minute:\r - You are neither fully dead nor fully alive. Death resistance checks are suspended.\r - You can take one action per round.\r - When the minute ends, choose: return to the living world at 1 HP (this choice can only be made once per day), or pass to the Iron Afterlife (actual death).\r This feature can be used once. It resets on a long rest only if you completed the previous long rest in full.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Iron Ghost Veilblade has gone too far into the Wire, and they know it. Their extensive Wire immersion has created the Iron Bleed that the Sutensai warned about — digital death-resonance bleeding into their living Echomind, fragments of the Iron Afterlife's vast collective consciousness pressing against the inside of their skull. They are not dead. They are not exactly living. They exist in a third state that makes them extraordinarily capable and quietly, persistently disturbing to be near. Other Veilblade regard Iron Ghosts with a mixture of respect and unease. The Sutensai regard them as walking theological violations. The Iron Ghosts themselves have, for the most part, made their peace with what they are.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Veilblade::path_of_the_iron_ghost"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

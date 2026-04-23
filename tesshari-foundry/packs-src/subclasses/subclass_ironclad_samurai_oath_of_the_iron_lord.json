@@ -1,0 +1,41 @@
+{
+  "_id": "767a0fbf85fd6c26",
+  "_key": "!items!767a0fbf85fd6c26",
+  "name": "Oath of the Iron Lord",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Ironclad Samurai",
+    "pathKey": "oath_of_the_iron_lord",
+    "features": {
+      "3": {
+        "name": "Lord's Resonance",
+        "html": "<p>You choose a lord, cause, or house to serve. You gain +3 to all VEIL-based cards made while representing that lord's interests. Additionally, when you are fighting to protect a designated ward (your lord, a noble of that house, or someone your lord has entrusted to your protection), your attack cards against any enemy threatening that ward deal an additional 4 resonance damage (fixed).</p>"
+      },
+      "6": {
+        "name": "Iron Vanguard",
+        "html": "<p>Your commitment to your lord's safety has become instinctive. When your designated ward is targeted by an attack, you can use your reaction to move up to your speed toward them and interpose yourself, becoming the target of the attack instead. This movement does not provoke opportunity attacks.</p>"
+      },
+      "10": {
+        "name": "Code of the House",
+        "html": "<p>Your lord's resonant frequency has become part of your own. You gain the following benefits while serving your oath:\r - You gain +3 to FRAME-based resistance checks against effects that would remove you from combat or compel retreat.\r - When you use Iron Endurance's damage reduction, you can extend its protection to your ward as well (applying the same reduction to damage they receive on the same turn).</p>"
+      },
+      "14": {
+        "name": "Unbroken Fealty",
+        "html": "<p>Even death cannot sever what you have sworn. Once per day, when your ward is reduced to 0 HP within 60 feet of you, you can use your Reaction to transfer up to half of your current HP to them (they regain that many HP). This transfer cannot reduce you below 1 HP.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>A samurai of the Iron Lord has bound themselves to a specific lord or ruling house with a depth of oath that goes beyond contractual loyalty — it is constitutional. Their enhancements carry the lord's resonant signature. Their Echomind is tuned to the lord's harmonic frequency. They are, in a real sense, more that lord's than they are their own. This is not slavery — it is a freely chosen total commitment, and Iron Lord samurai consider it the purest expression of the Vein of Iron. The tragedy is that lords die. Lords are overthrown. Lords prove unworthy. And when that happens, the Iron Lord samurai is left with their oath still humming in their enhancements, bound to something that no longer exists.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Ironclad Samurai::oath_of_the_iron_lord"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

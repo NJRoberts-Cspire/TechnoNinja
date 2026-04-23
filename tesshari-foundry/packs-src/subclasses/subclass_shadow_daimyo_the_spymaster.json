@@ -1,0 +1,41 @@
+{
+  "_id": "537f3dac6385b78e",
+  "_key": "!items!537f3dac6385b78e",
+  "name": "The Spymaster",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Shadow Daimyo",
+    "pathKey": "the_spymaster",
+    "features": {
+      "3": {
+        "name": "Signal Intelligence",
+        "html": "<p>You can intercept Wire Craft communications in any area where you have an established Contact or have operated for at least 24 hours. As a 1-hour process, you can review the last 24 hours of Wire Craft traffic in a designated area and extract relevant information. The traffic is encoded; make an Intelligence check (DC determined by the quality of the encryption) to extract specific content.</p>"
+      },
+      "6": {
+        "name": "Misdirection",
+        "html": "<p>Once per long rest, you can plant deliberate misinformation that will reach your target through their own intelligence sources. The information is false in a specific, controlled way that you design. The target discovers this misinformation as if it were genuine — their sources confirm it, their contacts repeat it. Correcting the misdirection requires the target to identify the source problem (Investigation DC 20) and then independently verify the correct information. During the correction period (at minimum 1 week for a careful intelligence service), the target acts on the false information.</p>"
+      },
+      "10": {
+        "name": "Perfect Dossier",
+        "html": "<p>Your deep dossier on any creature provides complete information: not just what is discoverable but what they believe is private. You learn all significant secrets they hold, including the things they have taken deliberate steps to conceal. The DM provides this information honestly. If there are things the DM wants to keep secret for narrative reasons, they provide those secrets in sealed form — available when the narrative moment is right.</p>"
+      },
+      "14": {
+        "name": "The Network Sees Everything",
+        "html": "<p>Your network now covers every territory you have operated in. No significant event happens in those territories without you knowing within 48 hours. Assassinations, political changes, major military movements, significant criminal activity — your Contacts report, and you are informed. Once per long rest, you can query the network for the current location of any specific individual you have ever encountered, with a DC based on how carefully that individual hides themselves.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Spymaster has built the information network as an end in itself. Their Contacts are more numerous, more carefully cultivated, and more deeply integrated into the structures they monitor than any other Shadow Daimyo path. They do not act directly on what they know; they act through what they know, deploying information as a primary weapon and physical force only as a last resort. The Spymaster's greatest operational victory is one that no one can prove they were involved in, and they have had several.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Shadow Daimyo::the_spymaster"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

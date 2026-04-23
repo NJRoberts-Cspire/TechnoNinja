@@ -1,0 +1,41 @@
+{
+  "_id": "05154f4ec933fb67",
+  "_key": "!items!05154f4ec933fb67",
+  "name": "Path of the Clean Strike",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Veilblade",
+    "pathKey": "path_of_the_clean_strike",
+    "features": {
+      "3": {
+        "name": "Marked Target",
+        "html": "<p>You can designate one creature as your Marked Target as a free action. Against your Marked Target:\r - Your Precision Strike damage increases by an additional 8 (fixed).\r - You always know their location while on the same plane, as long as you have seen them within the last 24 hours.\r - Your attack rolls against them never lose damage riders from any source.\r</p>\n<p>You can have only one Marked Target at a time. You can change your Marked Target after a short rest.</p>"
+      },
+      "6": {
+        "name": "Approach Protocol",
+        "html": "<p>You have perfected the pre-strike approach. In a planned assassination (not random combat), if you can spend at least 10 minutes observing your target before striking, your first attack against them is an automatic critical hit and your Precision Strike damage is doubled for that attack.</p>"
+      },
+      "10": {
+        "name": "Leave Nothing",
+        "html": "<p>When you reduce a creature to 0 HP with a Precision Strike, you can choose a Clean Kill. A Clean Kill:\r - Leaves no external wounds visible from more than 5 feet away.\r - The target appears to have collapsed naturally for at least 1 hour after death.\r - You immediately make a VEIL check, difficulty 2 (a simple check, not contested). On a success, no one in the area registers the kill's cause.</p>"
+      },
+      "14": {
+        "name": "Inevitable",
+        "html": "<p>You have become something that approaches the conceptual end-state of assassination: the death that was always going to happen. Once per day, you can declare a target Inevitable. Over the next 24 hours, you have the following properties against this target:\r - Your attacks cannot miss (if you are in range and able to attack, you hit).\r - You gain +3 to all checks and attack cards related to approaching, tracking, or killing this target.\r - The target has a growing sense of dread (no mechanical effect unless the GM chooses to add one).\r At the end of 24 hours, the effect ends. Whether you succeeded or not is up to the situation. Being Inevitable does not mean victory — it means you will have the best possible chance.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>Pure assassination. The Clean Strike Veilblade has refined the act of killing to something approaching an art form, which is a morally terrible thing to be. They do not hate their targets. They do not enjoy the work. They assess, they plan, they execute, they leave. What makes them extraordinary is not their combat skill (though that is considerable) but their commitment to the principle of the Clean Strike: the right kill, at the right time, in the right way, with no collateral, no mess, and no complications. Some Veilblade find this tradition cold. The practitioners find it clarifying.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Veilblade::path_of_the_clean_strike"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

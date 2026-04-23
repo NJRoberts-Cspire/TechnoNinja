@@ -542,3 +542,25 @@
   padding: 0.1rem 0.3rem;
 }
 
+.tesshari-character-sheet .picker-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.25rem;
+  margin-top: 0.2rem;
+}
+.tesshari-character-sheet .picker-tile {
+  padding: 0.25rem 0.4rem;
+  font-size: 0.75rem;
+  text-align: left;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--color-border-light-tertiary, #444);
+  border-radius: 3px;
+  color: inherit;
+  font-family: inherit;
+}
+.tesshari-character-sheet .picker-tile:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: var(--color-border-light-primary, #888);
+}
+

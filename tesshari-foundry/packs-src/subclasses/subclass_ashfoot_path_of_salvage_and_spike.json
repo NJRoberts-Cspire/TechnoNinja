@@ -1,0 +1,41 @@
+{
+  "_id": "efb2446d89070a44",
+  "_key": "!items!efb2446d89070a44",
+  "name": "Path of Salvage and Spike",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Ashfoot",
+    "pathKey": "path_of_salvage_and_spike",
+    "features": {
+      "3": {
+        "name": "Salvage Combat",
+        "html": "<p>Your improvised weapons deal damage as if they were one size larger than their normal improvised classification (see Salvage Mastery). Additionally, you can perform a Salvage Grab as a free action: grab a loose object in the environment and immediately make one attack with it (using the improvised weapon rules). If the attack hits, you can choose to either deal damage normally or disarm, blind, or trip the target (target's choice of resistance check, FRAME resistance check, difficulty 3).</p>"
+      },
+      "6": {
+        "name": "Scrap Armor",
+        "html": "<p>During combat, if you take 10 or more damage from a single source, you can use your reaction to strip a component from your own equipment or the environment and jury-rig a protective modification. Until the start of your next turn, you have a +3 bonus to AC. This represents repurposing whatever is nearby as improvised ablative protection.</p>"
+      },
+      "10": {
+        "name": "Weapon Forge",
+        "html": "<p>You can, during combat, attempt to assemble a functional weapon from two smaller objects. As an action, combine two objects you are holding or can reach. Make an IRON check, difficulty 3, using a Salvage Kit. On a success, you create a functional weapon that deals 14 damage (fixed) and has a special property of your choice (weighted, balanced, brutal, or disrupting from the Level 7 Salvage Upgrade list). This weapon lasts until the end of the encounter.</p>"
+      },
+      "14": {
+        "name": "Environment as Arsenal",
+        "html": "<p>Your awareness of the combat environment as a weapons depot is complete. You are always considered armed. Additionally, once per turn, you can use a free action to throw a piece of the environment (loose stonework, shattered equipment, a chair, anything that fits in one hand) at a target within 20 feet. This attack deals 8 bludgeoning damage (fixed) and the target must succeed on a FRAME resistance check, difficulty 3, or be knocked prone.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Salvage and Spike fighters are the Ashfoot who have turned limited resources into a fighting philosophy. Where others see broken equipment, they see components. Where others see wreckage, they see opportunity. Their approach to combat is defined by radical improvisation — not as a temporary measure until better equipment arrives, but as the permanent method. They are often the most dangerous opponents in unstructured environments, where their ability to use anything as a weapon and to upgrade mid-fight is most visible.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Ashfoot::path_of_salvage_and_spike"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_id": "d321b003571c2f16",
+  "_key": "!items!d321b003571c2f16",
+  "name": "Path of the Ascendant Blade",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Ronin",
+    "pathKey": "path_of_the_ascendant_blade",
+    "features": {
+      "3": {
+        "name": "Factional Edge",
+        "html": "<p>Choose a faction (The Warlord's Steel Vanguard, The Monk's Iron Sutra Resurgent, or a more secretive group). You gain one faction-specific benefit:\r - <strong>Steel Vanguard:</strong> You deal an additional 5 damage (fixed) when flanking an enemy alongside another faction member.\r - <strong>Sutra Resurgent:</strong> You gain +3 to VEIL-based perception cards, and you can detect enhanced individuals within 60 feet by resonance signature without active scanning.\r - <strong>Shadow Faction (Mage's agents):</strong> You can telepathically communicate with anyone you can see within 120 feet, but doing so reveals a trace of dark resonance (GM tracks this).</p>"
+      },
+      "6": {
+        "name": "War's Lesson",
+        "html": "<p>The Ascension War has taught you things that cannot be taught in peacetime. You gain class expertise with one additional weapon type, and once per combat you can use a free action to grant one ally within 30 feet +3 on their next attack card (you are directing their approach based on tactical pattern recognition).</p>"
+      },
+      "10": {
+        "name": "Faction's Fervor",
+        "html": "<p>Your commitment, however pragmatic in origin, has become genuine. Once per day, you can enter a state of Factional Fervor for 1 minute. During this time, all your attack cards gain +3 damage and you gain +3 to all resistance checks, your movement speed increases by 10 feet, and you cannot be frightened, charmed, or compelled. However, during Fervor, you cannot play cards that benefit allies over yourself — the fervor is personal.</p>"
+      },
+      "14": {
+        "name": "Voice of the Cause",
+        "html": "<p>You have become a symbol for your faction among the masterless class. When you speak to Ronin or other exiles about your cause, your VEIL-based social cards gain +3, and on a success, the target considers themselves genuinely persuaded (not simply compliant). Additionally, once per day, you can request a faction favor: intelligence, equipment, or backup (GM adjudicates the scope).\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>When the Ascension War erupted, it offered the masterless something they had not expected: cause. Not a lord — something larger than a lord, or at least something that could be framed that way. The Ronin who walk the Path of the Ascendant Blade have committed themselves to one of the three claimants' factions, not through renewed oath-making but through a kind of pragmatic faith. They believe, or they have decided to act as if they believe, that the Seventh Convergence represents the one chance to rebuild a Tesshari worth serving. They are among the most effective agents in any faction's arsenal — skilled beyond standard soldiers, motivated in ways that go beyond coin, and unencumbered by the house loyalties that complicate Ironclad service.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Ronin::path_of_the_ascendant_blade"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

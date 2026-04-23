@@ -31,15 +31,43 @@ const INCLUDE = [
   "packs-src",
 ];
 
-function copyRecursive(src, dst) {
+/** Counters for summary logging. */
+const stats = { copied: 0, skipped: 0, errors: 0 };
+
+function safeCopyFile(src, dst) {
+  try {
+    fs.copyFileSync(src, dst);
+    stats.copied++;
+  } catch (err) {
+    if (err.code === "EPERM" || err.code === "EBUSY") {
+      // File is locked (Foundry has it open). Skip without erroring.
+      stats.skipped++;
+    } else {
+      console.error(`  ✕ ${dst}: ${err.message}`);
+      stats.errors++;
+    }
+  }
+}
+
+function copyRecursiveMerge(src, dst) {
   const stat = fs.statSync(src);
   if (stat.isDirectory()) {
     fs.mkdirSync(dst, { recursive: true });
     for (const entry of fs.readdirSync(src)) {
-      copyRecursive(path.join(src, entry), path.join(dst, entry));
+      copyRecursiveMerge(path.join(src, entry), path.join(dst, entry));
     }
   } else {
-    fs.copyFileSync(src, dst);
+    safeCopyFile(src, dst);
+  }
+}
+
+function safeRmrf(dst) {
+  try {
+    fs.rmSync(dst, { recursive: true, force: true });
+    return true;
+  } catch (err) {
+    if (err.code === "EPERM" || err.code === "EBUSY") return false;
+    throw err;
   }
 }
 
@@ -54,12 +82,21 @@ function main() {
     const src = path.join(SRC, name);
     const dst = path.join(DST, name);
     if (!fs.existsSync(src)) continue;
-    // Replace existing target
-    if (fs.existsSync(dst)) fs.rmSync(dst, { recursive: true, force: true });
-    copyRecursive(src, dst);
+
+    if (name === "packs") {
+      // Merge into existing packs dir — don't try to remove it (Foundry locks it).
+      copyRecursiveMerge(src, dst);
+    } else {
+      // Fresh replace for everything else
+      if (fs.existsSync(dst)) safeRmrf(dst);
+      copyRecursiveMerge(src, dst);
+    }
   }
 
-  console.log(`Synced ${INCLUDE.length} entries → ${DST}`);
+  const warn = stats.skipped > 0
+    ? ` (${stats.skipped} files skipped — locked by Foundry; close the world to refresh compendia)`
+    : "";
+  console.log(`Synced: ${stats.copied} copied${warn}. Errors: ${stats.errors}. → ${DST}`);
 }
 
 main();

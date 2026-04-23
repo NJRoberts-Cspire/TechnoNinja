@@ -1,0 +1,41 @@
+{
+  "_id": "d2a1a3eeb5a9b373",
+  "_key": "!items!d2a1a3eeb5a9b373",
+  "name": "Path of the Sutensai Forge",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Forge Tender",
+    "pathKey": "path_of_the_sutensai_forge",
+    "features": {
+      "3": {
+        "name": "Sutra's Grace",
+        "html": "<p>Your forge work carries spiritual resonance. When you use Forge Mending:\r - The healed creature also gains the benefits of a 10-minute prayer — they gain +3 to their next RESONANCE resistance check.\r - If the creature is suffering from Echomind misalignment (early dissolution stage), your healing also advances their realignment by one step (GM determines the pacing of this process).\r - You can detect spiritual disturbances (hauntings, Iron Afterlife breaches, resonance corruption in objects) within 30 feet as an at-will sense.</p>"
+      },
+      "6": {
+        "name": "Sacred Maintenance",
+        "html": "<p>Your comprehensive maintenance work during long rests carries additional spiritual benefit. Creatures you maintain through Network Maintenance also gain:\r - Immunity to fear effects for 24 hours.\r - A +1 bonus to all resistance checks for 24 hours.\r - Your passive perception of their resonance state — they can communicate their HP status and condition to you as a free mental impression, once per round.</p>"
+      },
+      "10": {
+        "name": "Iron Sutra Rite",
+        "html": "<p>Once per day, you can perform the Iron Sutra Rite — a 10-minute ceremony that channels Sutra theology through your forge work. Choose one creature as the subject of the Rite. They receive:\r - Restoration to full HP.\r - Removal of all conditions.\r - Their enhancement network is temporarily attuned to a higher resonant frequency — for 8 hours, their class features deal maximum damage and their healing received is doubled.\r The Rite requires quiet, a functional forge maintenance kit, and the subject's full cooperation.</p>"
+      },
+      "14": {
+        "name": "Echomind Preservation",
+        "html": "<p>When a creature you have maintained dies within 60 feet of you, you can perform an emergency Echomind Preservation. As a reaction, you capture a resonant impression of the dying creature's Echomind in a specially prepared resonant container (you carry these as part of your kit). The impression is not the soul — the soul passes to the Iron Afterlife normally — but it is a perfect record of the person at the moment of death. This record can:\r - Be used to accurately reconstruct the person's knowledge, personality, and history (communicating with the record is like communicating with a faithful copy, though it cannot grow or change).\r - Assist in resurrection attempts, providing the spiritual anchor that makes full restoration easier (+3 to the check, and the difficulty for resurrection or equivalent is reduced by 1).\r - Provide testimony in disputes about the deceased's wishes, last words, or knowledge.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Sutensai Forge Tender is the Iron Sutra's ideal: the professional who fully integrates technical excellence with spiritual practice. Their forge work is also prayer. Their diagnostic reading is also spiritual counsel. Their restoration of enhancements is also the restoration of the Echomind's proper resonant alignment. They do not perform the technical and then add a spiritual layer — for them, these are the same activity, described from different angles. The Sutensai officially regards these Tenders as the most sacred practitioners of their order, and unofficially uses them as its most valuable pastoral agents.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Forge Tender::path_of_the_sutensai_forge"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

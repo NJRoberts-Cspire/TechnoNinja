@@ -1,0 +1,41 @@
+{
+  "_id": "7611286978628920",
+  "_key": "!items!7611286978628920",
+  "name": "The Warbanner",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Iron Herald",
+    "pathKey": "the_warbanner",
+    "features": {
+      "3": {
+        "name": "Target Call",
+        "html": "<p>As a bonus action, designate one creature as the Priority Target. All allies attacking the Priority Target deal an extra 1d8 damage. When the Priority Target is reduced to 0 hit points, all allies within 60 feet regain hit points equal to your Charisma modifier.</p>"
+      },
+      "6": {
+        "name": "Formation Command",
+        "html": "<p>Once per round as a free action, you can command one ally within 60 feet to move up to their speed without using their reaction. This movement does not provoke opportunity attacks. The ally must be able to hear or receive your Wire Craft signal.</p>"
+      },
+      "10": {
+        "name": "Inspire Greatness",
+        "html": "<p>Once per short rest, as an action, you can inspire one ally with the absolute conviction of command. The ally immediately regains their reaction, can make one weapon attack as part of this action, and has advantage on all ability checks until the start of your next turn. This is not encouragement — it is certainty transmitted directly, and the recipient acts accordingly.</p>"
+      },
+      "14": {
+        "name": "War's Edge",
+        "html": "<p>While you are conscious and broadcasting, all allies within 60 feet who have received your Warbanner's Cry temporary hit points that day cannot be stunned. Additionally, once per combat, you can call a Synchronized Strike: all allies within 60 feet can use their reaction to make one weapon attack against the same target simultaneously. All attacks in a Synchronized Strike have advantage.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Warbanner has taken the Herald's communication capabilities and dedicated them entirely to the art of winning battles. They are not the strongest fighter on the field. They are the reason every fighter on the field performs at their maximum. The Warbanner processes tactical information, identifies the key moment, and broadcasts the instruction that converts potential into reality. They know when the flanking maneuver needs to happen before the flanking unit does. They know which target's elimination will cascade into the enemy formation's collapse. They know when to push and when to hold, and they know how to make everyone within range know it at the same moment.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Iron Herald::the_warbanner"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

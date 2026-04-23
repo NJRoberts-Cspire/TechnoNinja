@@ -1,0 +1,41 @@
+{
+  "_id": "d25d8d8574d18b1b",
+  "_key": "!items!d25d8d8574d18b1b",
+  "name": "Oath of the Undying Debt",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Ironclad Samurai",
+    "pathKey": "oath_of_the_undying_debt",
+    "features": {
+      "3": {
+        "name": "Debt's Memory",
+        "html": "<p>You have inscribed your debt — the names of those you avenge and those who wronged them — into the resonant metal of your enhancements. Choose up to three named individuals, factions, or entities that are the object of your debt (they wronged those you avenge, or are somehow connected to their deaths). Against these named targets and their direct subordinates, your attack cards gain +3 damage, and you deal an additional 5 resonance damage (fixed) on every hit.\r</p>\n<p>Additionally, you cannot be persuaded, charmed, or frightened into abandoning your debt. Any effect that would cause you to forget your debt or abandon its pursuit automatically fails.</p>"
+      },
+      "6": {
+        "name": "Hollow Memory",
+        "html": "<p>The faces of your dead are engraved on your Echomind. You can spend 10 minutes in resonant meditation to speak with the echoes of those whose debt you carry. This is not true communication — they are not present — but your own Echomind constructs answers based on what you knew of them. These answers can provide insight, recall memories you may have forgotten, and grant +3 to one relevant card used within 24 hours of the meditation that is directly related to pursuing the debt.</p>"
+      },
+      "10": {
+        "name": "Unfinished Business",
+        "html": "<p>Your refusal to die before the debt is paid becomes supernatural in its intensity. When you are reduced to 0 HP, you can use your Reaction to remain at 1 HP. While at 1 HP through this feature, your attack cards gain +3 damage against your debt targets, and you cannot be moved against your will. This state ends at the end of your next turn, at which point you fall unconscious normally. This feature can be used once per day.</p>"
+      },
+      "14": {
+        "name": "The Debt Becomes the Blade",
+        "html": "<p>Your accumulated grief and obligation has crystallized into something almost tangible. Once per long rest, as an action, you can manifest the Debt's Blade — a spectral resonant weapon that deals 6d10 resonant damage to a single target that appears to be made of the crystallized memory of your dead. This is automatically a critical hit against your named debt targets. Additionally, until your debt is paid, you age at half the normal rate — your Echomind's refusal to let go has a physiological expression.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>When a samurai's lord, family, or sworn companions die in ways that have not been answered — unavenged, dishonored, incompletely grieved — some samurai enter the state of Undying Debt. They do not become Ronin, because they have not lost their oath: they have gained one. The debt itself is their lord. The memory of the dead is their master. They continue to follow the Vein of Iron with frightening precision, but they have reoriented its demands entirely around the act of paying what is owed. They are patient, focused, and subtly terrifying — the kind of person who will wait ten years to deliver a single strike.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Ironclad Samurai::oath_of_the_undying_debt"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

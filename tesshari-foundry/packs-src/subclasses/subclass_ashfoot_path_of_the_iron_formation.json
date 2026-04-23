@@ -1,0 +1,41 @@
+{
+  "_id": "c4199deef7c438cb",
+  "_key": "!items!c4199deef7c438cb",
+  "name": "Path of the Iron Formation",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Ashfoot",
+    "pathKey": "path_of_the_iron_formation",
+    "features": {
+      "3": {
+        "name": "Formation Instinct",
+        "html": "<p>You have an innate tactical awareness of the space your allies occupy. You gain:\r - When an ally within 5 feet of you is hit by an attack, you can use your Reaction to reduce the damage by your FRAME.\r - You gain +3 to all attack rolls when you have at least one ally adjacent to you.\r - You can take the Help action as a free action.</p>"
+      },
+      "6": {
+        "name": "Anchor Point",
+        "html": "<p>You can designate yourself as an Anchor Point as a free action. While anchored:\r - Enemies cannot flank you (they receive no flanking bonuses against you).\r - Allies within 10 feet of you gain a +2 bonus to their AC while you are conscious.\r - If an ally within 10 feet would be forced to move, you can make a Strength check contested by the forcing effect to prevent their movement.\r</p>\n<p>This effect lasts until the start of your next turn and can be re-applied each round.</p>"
+      },
+      "10": {
+        "name": "Coordinated Strike",
+        "html": "<p>When you take the Attack action and an ally attacks the same target, you can coordinate your strikes. If both attacks hit, the target takes an additional 12 damage (fixed) and must make a FRAME resistance check, difficulty 3, or be knocked prone. Additionally, once per turn when an ally hits a target, you can make one melee attack against the same target as a Reaction.</p>"
+      },
+      "14": {
+        "name": "Unbreakable Line",
+        "html": "<p>You have internalized the formation principle completely. While you are conscious and within 30 feet of at least two allies:\r - You and your allies within 30 feet have resistance to bludgeoning damage.\r - If any ally within 30 feet makes a death resistance check, you can use your Reaction to grant them +3 on that check.\r - You cannot be paralyzed, petrified, or stunned as long as at least one ally is also conscious within 30 feet of you.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>Formation fighters are the Ashfoot who have internalized the fundamental military truth: individuals die; coordinated groups survive. They have developed their skills specifically around fighting in concert with allies — reading the group's needs, plugging gaps, creating opportunities for others, and holding positions that the group needs held. They are not the most spectacular fighters. They are the reason the fight is still going in the third hour when the spectacular fighters have burned out.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Ashfoot::path_of_the_iron_formation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_id": "171a8df1e2beb26f",
+  "_key": "!items!171a8df1e2beb26f",
+  "name": "The Convergent",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "The Unnamed",
+    "pathKey": "the_convergent",
+    "features": {
+      "3": {
+        "name": "Convergent Clarity",
+        "html": "<p>Once per long rest, as a 10-minute meditation, you can achieve a state of Convergent Clarity. You learn: the single most important thing happening in your immediate vicinity (the spiritual significance of the current situation, as perceived from a perspective that is not quite your own), the Echomind state of every creature within 60 feet in detail, and whether the Seventh Convergence's approach has affected any creature near you in ways they may not know. This information arrives as direct spiritual knowing rather than reasoning or evidence.</p>"
+      },
+      "6": {
+        "name": "The Narrowing",
+        "html": "<p>Your Core Signature (from Level 10 base feature) is established early — choose 1-2 abilities that are already emerging as central to your identity. These become permanently enhanced (the Level 10 bonus applies immediately to them). Your Development Points maximum increases by your Wisdom modifier (the Convergent leans toward Wisdom as secondary ability regardless of primary choice).</p>"
+      },
+      "10": {
+        "name": "Toward the Center",
+        "html": "<p>Once per long rest, you can move through the Iron Afterlife as a projection (body remains behind) for up to 1 hour. While projected, your Convergent development is fully visible to any Afterlife entity you encounter — they see what you are becoming and respond to it with a respect that goes beyond what living practitioners typically receive. This is not your earned respect; it is the recognition of a developmental direction they have seen before. Once. A long time ago.</p>"
+      },
+      "14": {
+        "name": "Pre-Ascension State",
+        "html": "<p>Once per long rest, for 1 minute, you can touch the specific spiritual state that the Prior Ascended describe as the antechamber of Ascension. Your Echomind expands to encompass a 100-foot radius: you know everything spiritually significant within the radius, you cannot be surprised, and all your Signature Abilities function at their absolute maximum (maximum dice, maximum range, maximum duration). Any creature that attacks you in this state must make a RESONANCE resistance check (DC = your Unnamed save DC) or be incapacitated for 1 round, perceiving the full weight of your Echomind's current direction. When this state ends, you gain three levels of exhaustion and must make a DC 20 RESONANCE resistance check or have a vision: a fragment of the First Prior's lost record. The DM provides the fragment. It is genuine. It changes something about your understanding of what is coming.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Convergent's Echomind is developing inward — toward the center, toward the Between in the deep sense, toward the specific spiritual state that the Prior Ascended called Ascension. They do not know what Ascension is. The Sutra says it is transcendence. Vaen says it is release. Korrath says it is power. None of these are entirely correct. What the Convergent is developing toward feels like focus — an increasing clarity about what they are and what their development means, a tightening of the spiral toward something at the center that they cannot fully see yet but can increasingly feel the pull of. Their Signature Abilities, over time, tend to organize around that pull — even the ones that were apparently random selections early in their development begin to rhyme, to point in the same direction.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "The Unnamed::the_convergent"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

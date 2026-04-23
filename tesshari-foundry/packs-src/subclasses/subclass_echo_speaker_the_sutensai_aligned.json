@@ -1,0 +1,41 @@
+{
+  "_id": "e131b4ac2efd7a8e",
+  "_key": "!items!e131b4ac2efd7a8e",
+  "name": "The Sutensai Aligned",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Echo Speaker",
+    "pathKey": "the_sutensai_aligned",
+    "features": {
+      "3": {
+        "name": "Iron Sutra Ward",
+        "html": "<p>As an action, spend 1 Echo Charge to consecrate a 10-foot radius area for 1 hour. Within this area: spirits cannot enter without your permission, communication from the Afterlife is filtered through your awareness (you know everything that is said), and creatures gain +3 to resistance checks made to resist death effects.</p>"
+      },
+      "6": {
+        "name": "Institutional Access",
+        "html": "<p>Your Sutensai affiliation opens doors. You gain +3 to Persuasion and Intimidation checks made against Sutensai clergy, Caste enforcers, and civic officials. Once per long rest, you can invoke your Sutensai authority to demand information — one creature of CR 8 or lower must make a RESONANCE resistance check (DC = your Echo Save DC) or truthfully answer one question about the Iron Afterlife, the dead, or spiritual matters in their knowledge.</p>"
+      },
+      "10": {
+        "name": "Guided Path",
+        "html": "<p>The Sutensai's centuries of practice have built roads through the Iron Afterlife. When you use Veil Walking, you can navigate specific paths that the Sutensai has charted — moving to any location within 1 mile that has a designated spiritual anchor (Sutensai temples, memorial sites, official death registers). Travel takes 1 round per quarter-mile. You can bring one willing creature with you.</p>"
+      },
+      "14": {
+        "name": "The Orthodoxy's Voice",
+        "html": "<p>Your connection to the Sutensai has become a source of genuine power. Once per long rest, you can speak a formal Sutensai decree in a spiritually significant situation. All creatures within 60 feet who can hear you must make RESONANCE resistance checks (DC = your Echo Save DC). Creatures who fail: believe, without reservation, that you speak with sanctioned spiritual authority for 24 hours (this does not compel obedience, only belief in your authority). Simultaneously, one message from the dead of your choice is broadcast in that area — every creature hears it, regardless of their sensitivity to the Afterlife. The Sutensai did not intend this ability to exist. It emerged from the practice anyway.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Sutensai-trained Echo Speaker has learned to hear the dead through layers of theological filter — not because the Sutensai is necessarily correct about the Iron Afterlife, but because the institution has spent centuries developing practice that protects the practitioner. Sutensai-trained Speakers are safer than independent practitioners. They are also more limited. The filter that protects also constrains. Sutensai Echo Speakers are taught what the dead are allowed to say. They are often not prepared for the dead who refuse to follow the curriculum.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Echo Speaker::the_sutensai_aligned"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

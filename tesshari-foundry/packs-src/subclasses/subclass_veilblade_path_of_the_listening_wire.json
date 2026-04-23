@@ -1,0 +1,41 @@
+{
+  "_id": "bb34a9706f11b243",
+  "_key": "!items!bb34a9706f11b243",
+  "name": "Path of the Listening Wire",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Veilblade",
+    "pathKey": "path_of_the_listening_wire",
+    "features": {
+      "3": {
+        "name": "Deep Listener",
+        "html": "<p>Your Wire Entry duration extends to 1 hour, and you can take short rests while in Wire (your body remains motionless but your mind recovers). Additionally, while in Wire, you gain +3 to all checks to find, access, or interpret data, and you can understand encrypted systems with a SIGNAL check, difficulty 4 (difficulty 5 for high-security systems).</p>"
+      },
+      "6": {
+        "name": "Social Architecture",
+        "html": "<p>You have learned to construct and maintain false identities at a level that goes beyond normal disguise. You can establish a Cover — a false identity complete with forged enhancement documentation, a fabricated history accessible through Wire records, and a social presentation. Your Cover can withstand interrogation unless the interrogating party has specific intelligence contradicting it. You can maintain up to 3 Covers simultaneously, and you can switch between them during a short rest.</p>"
+      },
+      "10": {
+        "name": "Wire Intercept",
+        "html": "<p>You can intercept Wire communications passively. While you are within 120 feet of an active Wire communication, you can attempt to intercept it with a SIGNAL check, difficulty 3. On a success, you hear/read the full communication. This works on encrypted communications with a SIGNAL check, difficulty 4. You cannot be detected performing this intercept unless the sender has active counter-intelligence protocols (SIGNAL check, difficulty 5, to notice).</p>"
+      },
+      "14": {
+        "name": "Blacksite",
+        "html": "<p>You have built a hidden data repository within your own enhancement network — a Wire-space that does not appear on any registry and that only you can access. This Blacksite stores:\r - Up to 10 pieces of intelligence in perfect, tamper-evident preservation.\r - Any skill or piece of technical knowledge you choose to archive (once per day, you can add one skill to the Blacksite; you can access any archived skill once per day, gaining that skill for 24 hours).\r - A dead-drop protocol: if you are killed, the Blacksite automatically transmits one pre-designated message to one pre-designated recipient through the Wire.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>Espionage, not assassination. The Listening Wire Veilblade is primarily an information operative — they can fight and kill when necessary, but their primary value is what they know and what they can find out. They are among the most valuable assets in the Ascension War, because information in Tesshari flows through Wire networks that the Listening Wire has uniquely deep access to. They are also among the most isolated: they know things that get people killed, they have been places where things were said that were not meant to be overheard, and every piece of intelligence they carry is simultaneously an asset and a liability.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Veilblade::path_of_the_listening_wire"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

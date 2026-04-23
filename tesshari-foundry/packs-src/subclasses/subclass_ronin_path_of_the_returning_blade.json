@@ -1,0 +1,41 @@
+{
+  "_id": "732c724b2de48409",
+  "_key": "!items!732c724b2de48409",
+  "name": "Path of the Returning Blade",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Ronin",
+    "pathKey": "path_of_the_returning_blade",
+    "features": {
+      "3": {
+        "name": "Honorable Conduct",
+        "html": "<p>You maintain the Vein of Iron even without a lord, demonstrating that the code exists independent of its institutional context. You gain +3 to VEIL-based social cards when interacting with Ironclad Samurai, former samurai, or nobles of the Caste hierarchy. Additionally, your enhancements' corrupted signature, rather than broadcasting shame, broadcasts something harder to categorize — most observers register it as honorable loss rather than disgrace.</p>"
+      },
+      "6": {
+        "name": "Prove the Code",
+        "html": "<p>Once per combat, you can make a Demonstration — performing an act of discipline, restraint, or honor in a situation where abandoning it would be easier. Mechanically, choose one creature that witnesses your Demonstration. Until your next rest, they lose all damage riders on attack cards targeting you, as your commitment creates a kind of combat reluctance in honorable opponents. Dishonorable opponents are unaffected.</p>"
+      },
+      "10": {
+        "name": "Worthy Service",
+        "html": "<p>You have been without a lord long enough to understand precisely what you would need a lord to be. You gain a supernatural sense for potential. You can spend 1 hour in conversation with a person to assess their capacity for worthy lordship — at the end of this time, you know whether they are genuinely capable of being someone you could serve, or whether they would eventually break an oath you gave them. This does not reveal stats — it reveals character. Additionally, if you do find a worthy lord and formally re-swear an oath, your attack cards gain +3 damage when made in direct service to that lord.</p>"
+      },
+      "14": {
+        "name": "The Oath Renewed",
+        "html": "<p>You have either found your worthy lord or you have made peace with the search itself becoming the journey. Choose one:\r - <strong>If you have re-sworn:</strong> Your new oath carries double resonance. Your enhancements' corruption is cleansed (over 2–4 weeks, visible to all observers), and you gain the full benefits of the Iron Lord subclass's Level 3 and Level 6 features in addition to your Returning Blade features.\r - <strong>If the search continues:</strong> Your unsworn oath has become its own kind of power. You cannot be killed by a single attack that would reduce you from above 50% HP to 0 — you are instead reduced to 1 HP. Your search protects you, because you have not yet found what you came back for.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>These Ronin have not accepted their masterless state as permanent. They are searching — with the patience and determination that only someone who was trained from childhood to serve a specific purpose can bring to a search — for a lord worthy enough to take their oath again. This is, in Tesshari, considered either noble or delusional depending on who you ask. The Vein of Iron suggests that once broken, an oath cannot be re-sworn at the same resonance. The Returning Blade takes the theological minority position: that an oath re-sworn after genuine masterlessness is stronger than one never tested, because it is chosen rather than inherited.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Ronin::path_of_the_returning_blade"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

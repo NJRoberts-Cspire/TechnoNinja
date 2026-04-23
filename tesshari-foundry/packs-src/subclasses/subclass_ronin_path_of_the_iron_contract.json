@@ -1,0 +1,41 @@
+{
+  "_id": "d35c83dd2d736570",
+  "_key": "!items!d35c83dd2d736570",
+  "name": "Path of the Iron Contract",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Ronin",
+    "pathKey": "path_of_the_iron_contract",
+    "features": {
+      "3": {
+        "name": "Contract Terms",
+        "html": "<p>When you accept a specific task, target, or objective (work with your DM to define this at the start of a session or arc), you are considered On Contract. While On Contract:\r - You deal an additional 4 damage (fixed) against your specific contract target.\r - You gain +3 to Perception and tracking cards related to finding your target.\r - You cannot be persuaded to abandon the contract by social means alone — only by renegotiation (which you control) or by events that make the contract's completion literally impossible.</p>"
+      },
+      "6": {
+        "name": "Professional Distance",
+        "html": "<p>Your approach to violence is clinical and efficient. When you kill a creature, you can immediately play a Stealth card to disappear into the environment (if environmental cover exists). Additionally, you gain +3 to Deception cards when maintaining a false identity or persona.</p>"
+      },
+      "10": {
+        "name": "Clean Finish",
+        "html": "<p>You have refined your killing techniques to minimize struggle and complication. When you play an attack card against a target that has not yet acted in combat (surprise round) or against a Rooted, Staggered, or Silenced target, you deal an additional 22 damage (fixed). Additionally, targets you reduce to 0 HP with these bonus-damage attacks make no noise beyond what physics requires (no screaming, no crashing unless the body falls).</p>"
+      },
+      "14": {
+        "name": "Iron Reputation",
+        "html": "<p>Your reputation among those who hire such work has become significant. Once per day, as an action, you can invoke your professional name. Any humanoid creature that can hear you and has heard of your reputation (GM's discretion) must make a VEIL resistance check, difficulty 4, or become frightened of you for 1 minute. More practically: your reputation as a reliable contractor means that once per arc, you can call in a significant professional favor from someone in the hiring networks — information, gear, or access to a specific location.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>Some Ronin stop searching for a new lord and start building something different: a professional identity built entirely on contractual obligation. The Iron Contract Ronin is a bounty hunter, an assassin, or a specialist problem-solver — someone who has stripped the code down to its most functional elements and built a livelihood on those bones. They do not pretend to be serving something larger than the contract. The contract is the code, in miniature. They fulfill it completely. They do not take contracts they intend to fail. What this path produces is a person of terrifying reliability and deliberately constructed moral compartmentalization.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Ronin::path_of_the_iron_contract"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

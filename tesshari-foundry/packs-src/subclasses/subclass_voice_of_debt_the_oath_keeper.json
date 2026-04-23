@@ -1,0 +1,41 @@
+{
+  "_id": "ef271cc0074a2185",
+  "_key": "!items!ef271cc0074a2185",
+  "name": "The Oath Keeper",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Voice of Debt",
+    "pathKey": "the_oath_keeper",
+    "features": {
+      "3": {
+        "name": "Keeper's Seal",
+        "html": "<p>Once per long rest, as part of witnessing an oath, you can apply the Keeper's Seal: a formal Sutensai-adjacent spiritual guarantee that the oath will be fulfilled. One party to the oath (of their choice) gains advantage on all ability checks made directly in service of fulfilling the oath's terms. The seal lasts until the obligation is fulfilled or broken.</p>"
+      },
+      "6": {
+        "name": "Sustaining Bond",
+        "html": "<p>When parties fulfill obligations under oaths you have witnessed, they are rewarded. When a creature completes a sworn obligation (in your presence or witnessed by your network), they gain temporary hit points equal to twice your class expertise bonus, lasting until their next long rest. The Iron Afterlife honors what it promised to honor.</p>"
+      },
+      "10": {
+        "name": "The Web of Trust",
+        "html": "<p>You have formalized enough oaths between enough parties that you have woven a web of mutual obligation that stabilizes social structures. In any territory where you have active witnessed oaths between major parties, political violence between those parties cannot begin without one party violating a witnessed oath — and you know about it the moment it happens. You can then invoke Oath Breaker's Weight against the violating party at advantage and with no Debt Charge cost.</p>"
+      },
+      "14": {
+        "name": "Sacred Compact",
+        "html": "<p>Once per month, you can perform a Sacred Compact ceremony — the highest form of oath your tradition recognizes. Parties to the compact are bound by the full weight of the Iron Afterlife and your personal spiritual authority. Violation of a Sacred Compact imposes permanent disadvantage on all Charisma-based checks (it cannot be suppressed or reduced) until the violated obligation is fulfilled in full and you personally lift the sanction. Additionally, the violation is known to every Voice of Debt in the same territory within 24 hours.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Oath Keeper has taken the Voice of Debt's power and oriented it entirely around the positive function: the making, witnessing, and preservation of oaths. They are the practitioners who make contracts work, who make alliances stable, who give the Wire Market's word-of-honor system the spiritual backing it needs to function. They believe in oaths. They believe in the power of a promise genuinely made and genuinely kept. They have built their entire professional life around this belief, and they are the most optimistic practitioners of a tradition that otherwise tends toward the cynical.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Voice of Debt::the_oath_keeper"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

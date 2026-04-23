@@ -1,0 +1,41 @@
+{
+  "_id": "50644e716ea6697a",
+  "_key": "!items!50644e716ea6697a",
+  "name": "Path of the Shell Breaker",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Oni Hunter",
+    "pathKey": "path_of_the_shell_breaker",
+    "features": {
+      "3": {
+        "name": "Network Read",
+        "html": "<p>You have studied the enhancement networks of Shell-states in detail and can identify their structure on sight. When you encounter a Shell-state, you instantly know:\r - The former person's enhancement configuration and therefore their combat capabilities.\r - The Shell-state's current degradation level (which affects how much of its original capability remains).\r - One specific vulnerability in their enhancement network that you can exploit (GM provides one weakness that the Shell-state has; it might be a specific damage type, a specific point of disruption, or a behavioral trigger that creates an opening).</p>"
+      },
+      "6": {
+        "name": "Disruption Strike",
+        "html": "<p>Your attacks carry specifically designed disruption protocols tuned for Shell-state enhancement networks. When you hit a Shell-state:\r - You can, as a free action after the hit, attempt to disable a specific system in their enhancement network (GM determines available systems). The Shell-state makes a FRAME resistance check, difficulty 3, or that system goes offline permanently (for this encounter).\r - Shell-states do not regain HP from any source while you have them marked.</p>"
+      },
+      "10": {
+        "name": "Enhancement Override",
+        "html": "<p>You have developed a technique for reaching into a Shell-state's enhancement network and forcing a brief reboot. As an action, while adjacent to a Shell-state, you can attempt an Override: the Shell-state makes a FRAME resistance check, difficulty 3. On a failure:\r - The Shell-state is stunned for 1 minute (can repeat the check at the end of each turn).\r - More significantly: for 1 round of the stun, the Shell-state achieves a brief Echomind resurgence — a moment of self-awareness. They cannot act in this state, but they can hear, understand, and say a few words. The GM plays this moment. It may be devastating. It may be peaceful. It may be the most important moment in the hunting sequence. This is why Shell Breakers do the work differently from other hunters.</p>"
+      },
+      "14": {
+        "name": "Clean Dissolution",
+        "html": "<p>Your techniques for ending Shell-states have been refined to the point of something almost gentle, given what the work is. When you kill a Shell-state:\r - It dies without the violent final discharge that typically accompanies Shell-state death (no explosive enhancement failure, no final thrashing strike, no collateral).\r - The death is spiritually clean — the residual Echomind echoes dissolve properly into the Iron Afterlife rather than becoming a haunting presence.\r - You can, if you choose, perform a brief identification ritual (10 minutes) that recovers the Shell-state's personal history for notification of their family or community.\r Additionally, once per combat, if your attack would reduce a non-Shell-state creature to 0 HP, you can choose to reduce them to 1 HP instead and restrain them (no resistance check — your precision is complete enough to make this non-optional).\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>Shell Breaker Oni Hunters specialize in the most technically demanding and emotionally brutal work in the hunter's repertoire: the elimination of Shell-states. A Shell-state was a person. They may still look like that person. Their family may be watching. And the Shell Breaker must do the work anyway, cleanly and professionally, because the Shell-state is dangerous and there is no reversal — the Echomind that gave the body its personhood is gone, and what remains is violence looking for targets. The Shell Breaker's specialization is built around understanding the enhancement network that drives a Shell-state, disrupting it efficiently, and ending the process with the minimum possible additional damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Oni Hunter::path_of_the_shell_breaker"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

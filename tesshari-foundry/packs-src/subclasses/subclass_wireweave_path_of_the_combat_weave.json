@@ -1,0 +1,41 @@
+{
+  "_id": "adc1fc020809ba76",
+  "_key": "!items!adc1fc020809ba76",
+  "name": "Path of the Combat Weave",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "Wireweave",
+    "pathKey": "path_of_the_combat_weave",
+    "features": {
+      "3": {
+        "name": "Combat Interface",
+        "html": "<p>Your Wire abilities have been optimized for combat application. You gain:\r - Signal Burst and Neural Spike cost 1 fewer Weave Charge.\r - When you hit a creature with a weapon attack, you can simultaneously release a Wire disruption — the creature makes a SIGNAL resistance check (Weave DC) or takes 5 lightning-analog damage (fixed) and loses damage riders on their next resistance check.\r - You can use Wire abilities as a free action if they target a creature you have attacked this turn.</p>"
+      },
+      "6": {
+        "name": "Enhancement Crash",
+        "html": "<p>Your targeted disruption of enhancement systems has become surgical. When you use Enhancement Disrupt:\r - On a failed save, you can choose which specific feature is disrupted (not random).\r - On a critical hit using Neural Spike, the target's enhancement network automatically crashes — all enhancement features are suppressed for 1 minute (no save).</p>"
+      },
+      "10": {
+        "name": "Signal Overload",
+        "html": "<p>Once per combat, as an action, you can release a full Signal Overload. All enhanced creatures within 30 feet make a SIGNAL resistance check (Weave DC). On a failure:\r - They take 33 lightning-analog damage (fixed).\r - All their enhancement features are suppressed for 1 minute.\r - Their Wire connectivity is severed for 1 hour (they cannot send or receive Wire communications or be tracked by Wire systems).</p>"
+      },
+      "14": {
+        "name": "Total Crash",
+        "html": "<p>Your ability to crash enhancement networks has reached its terminal expression. Once per day, as an action, choose one enhanced creature within 60 feet. That creature makes a FRAME resistance check (Weave DC + 2). On a failure, their enhancement network enters total cascade failure — they lose all class features (including passive ones), their enhancements deal 17 damage to them (fixed, the failure's physical consequence), and they must make a FRAME resistance check, difficulty 4, to prevent their enhancement network from going permanently offline. A Forge Tender can repair permanent shutdown, but it requires 1 hour of work.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>Combat Weave Wireweave have taken their technical ability and oriented it entirely toward the destruction of enemies. Not primarily through direct weapons — though they fight capably — but through the systematic dismantling of opponents' enhancement capabilities during battle. They are the nightmare of the highly-enhanced enemy combatant: the presence in a fight that systematically removes options, degrades capabilities, and creates cascading failures in systems that were supposed to be reliable.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "Wireweave::path_of_the_combat_weave"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}
