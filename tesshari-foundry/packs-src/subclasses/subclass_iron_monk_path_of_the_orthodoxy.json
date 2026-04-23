@@ -10,11 +10,11 @@
     "features": {
       "3": {
         "name": "Iron Ward Prayer",
-        "html": "<p>As a bonus action, speak a short sutra to grant yourself or one creature within 30 feet temporary hit points equal to your Wisdom modifier + your Iron Monk level. These last until the next short or long rest.</p>"
+        "html": "<p>As a bonus action, speak a short sutra to grant yourself or one creature within 30 feet Shield equal to your RESONANCE + your Iron Monk level. These last until the next short or long rest.</p>"
       },
       "6": {
         "name": "Lineage Technique",
-        "html": "<p>Choose one classical Iron Monk combat technique: Hammer of the Sutra (your unarmed strikes and resonant blade attacks push targets 5 feet on a hit), Rising Wind Step (after you Dash, your next attack this turn has advantage), or Stone Endurance (when you use Resonant Defense, the damage reduction also applies to the next attack that hits you before the start of your next turn).</p>"
+        "html": "<p>Choose one classical Iron Monk combat technique: Hammer of the Sutra (your unarmed strikes and resonant blade attacks push targets 5 feet on a hit), Rising Wind Step (after you Dash, your next attack this turn has +3), or Stone Endurance (when you use Resonant Defense, the damage reduction also applies to the next attack that hits you before the start of your next turn).</p>"
       },
       "10": {
         "name": "Orthodox Resolve",
@@ -22,7 +22,7 @@
       },
       "14": {
         "name": "The Ancestor's Hand",
-        "html": "<p>Once per long rest, when you reduce a creature to 0 hit points, you can invoke the ancestors. All allies within 30 feet who can see or hear you regain hit points equal to your Wisdom modifier + your class expertise bonus. You also gain +3 to Attack cards until the end of your next turn. The orthodox believe the dead fight alongside the living. Sometimes they are right.\r</p>\n<p>---</p>"
+        "html": "<p>Once per long rest, when you reduce a creature to 0 HP, you can invoke the ancestors. All allies within 30 feet who can see or hear you regain HP equal to your RESONANCE + your class expertise bonus. You also gain +3 to Attack cards until the end of your next turn. The orthodox believe the dead fight alongside the living. Sometimes they are right.\r</p>\n<p>---</p>"
       }
     },
     "description": "<p>The Iron Sutra has martial traditions as old as the resonant monasteries themselves. The Path of the Orthodoxy takes the old training, the classical forms, the sutras recited before sparring and the prayers spoken over wounds, and binds all of it into a coherent warrior-monk discipline. Orthodox Iron Monks are not conservative because they are afraid of change. They are conservative because they have studied everything that came before and believe it was built correctly. They fight with the weight of every monk who fought before them in their hands.</p>"

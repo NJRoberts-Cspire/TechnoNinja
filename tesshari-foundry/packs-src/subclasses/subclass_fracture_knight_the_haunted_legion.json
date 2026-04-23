@@ -9,20 +9,20 @@
     "pathKey": "the_haunted_legion",
     "features": {
       "3": {
-        "name": "Legion's Strength",
+        "name": "Legion's IRON",
         "html": "<p>When you use Between-Strike, you add the number of distinct dead you carry (DM tracks, narrative count) to the extra damage, to a maximum of +5. The chorus concentrates in the strike.</p>"
       },
       "6": {
         "name": "Massed Presence",
-        "html": "<p>Your Fractured Presence radiates more forcefully. Creatures within 30 feet (instead of 10) can sense something wrong — the accumulated weight of many dead pressing close to the world. Creatures who fail a RESONANCE resistance check (DC = your Fracture Knight save DC) when they first come within 30 feet of you are unsettled for 1 hour: -3 to RESONANCE resistance checks while unsettled.</p>"
+        "html": "<p>Your Fractured Presence radiates more forcefully. Creatures within 30 feet (instead of 10) can sense something wrong — the accumulated weight of many dead pressing close to the world. Creatures who fail a RESONANCE resistance check (difficulty (stat-based)) when they first come within 30 feet of you are unsettled for 1 hour: -3 to RESONANCE resistance checks while unsettled.</p>"
       },
       "10": {
         "name": "Directed Voices",
-        "html": "<p>Once per short rest, as an action, release a directed wave of the dead's collective presence in a 30-foot cone. All creatures in the cone must make RESONANCE resistance checks (DC = your Fracture Knight save DC) or take 4d10 psychic damage, be frightened until the end of their next turn, and be deafened for 1 round (the voices replace everything else). On a success: half damage, no other effects.</p>"
+        "html": "<p>Once per short rest, as an action, release a directed wave of the dead's collective presence in a 30-foot cone. All creatures in the cone must make RESONANCE resistance checks (difficulty (stat-based)) or take 22 signal damage, be frightened until the end of their next turn, and be deafened for 1 round (the voices replace everything else). On a success: half damage, no other effects.</p>"
       },
       "14": {
         "name": "Legion Ascendant",
-        "html": "<p>Once per long rest, for 1 minute, the dead all speak in unison. For this minute: you gain +3 to Attack cards and resistance checks, creatures that hit you with melee attacks take 2d8 psychic damage from the collective force that passes through you, and any creature reduced to 0 hit points within 30 feet of you adds their presence to the chorus temporarily — their voice joins for the duration of the combat, adding their strength to the Legion Ascendant damage. When the minute ends, the temporarily-joined voices return to the Afterlife, and you are exhausted (one level) from the volume of them.\r</p>\n<p>---</p>"
+        "html": "<p>Once per long rest, for 1 minute, the dead all speak in unison. For this minute: you gain +3 to Attack cards and resistance checks, creatures that hit you with melee attacks take 9 signal damage from the collective force that passes through you, and any creature reduced to 0 HP within 30 feet of you adds their presence to the chorus temporarily — their voice joins for the duration of the combat, adding their strength to the Legion Ascendant damage. When the minute ends, the temporarily-joined voices return to the Afterlife, and you are exhausted (one level) from the volume of them.\r</p>\n<p>---</p>"
       }
     },
     "description": "<p>The Haunted Legion went too deep, or attracted accumulation, or both. They carry not one dead individual but many. The voices are not always distinct. In moments of stress, they speak simultaneously, which is difficult. In moments of spiritual significance, they organize, which is formidable. The Haunted Legion is the most powerful combat variant of the Fracture Knight and the one most at risk of losing the thread of their own identity in the accumulated weight of all the others.</p>"

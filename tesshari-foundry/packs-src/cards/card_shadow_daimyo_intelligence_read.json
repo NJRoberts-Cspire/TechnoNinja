@@ -19,7 +19,7 @@
     "subclass": "",
     "isRaceCard": false,
     "race": "",
-    "isStartingHand": false,
+    "isStartingHand": true,
     "isReaction": false,
     "usesPerCombat": null,
     "description": "<p>Target one creature within 40 feet. Learn their current HP tier, one card in their hand (GM's choice), and whether they intend to attack this round. Apply Expose 1 to them. The next ally to act gains advantage on their first card against this target.</p>"
@@ -28,7 +28,7 @@
   "flags": {
     "tesshari": {
       "sourceId": "card_shadow_daimyo_intelligence_read",
-      "enrichedFromMarkdown": true
+      "enrichedFromMarkdown": false
     }
   },
   "folder": null,

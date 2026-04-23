@@ -520,7 +520,7 @@ Wire Market operators love Ronin, specifically because their skills are availabl
 
 **Level 1: Masterless Edge**
 You have shed the ritual constraints of the code without losing the skills. Your combat style is rawer than an Ironclad's, less predictable, and harder to read precisely because it does not follow expected patterns. You gain the following:
-- You can use Dexterity instead of Strength for attack and damage rolls with resonant blades.
+- You can use EDGE instead of IRON for attack and damage rolls with resonant blades.
 - When you are the only character making attacks against a target (no allies are engaging the same target), your attack cards gain +3 damage.
 - You are proficient with improvised weapons, and improvised weapons in your hands deal 5 damage (fixed) plus your IRON.
 

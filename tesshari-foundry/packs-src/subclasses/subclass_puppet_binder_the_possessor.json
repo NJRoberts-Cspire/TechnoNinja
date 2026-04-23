@@ -10,7 +10,7 @@
     "features": {
       "3": {
         "name": "Weak Vessel",
-        "html": "<p>You can attempt to occupy a living creature in a significantly impaired state: unconscious, incapacitated, or under 25% hit points. Make an Intelligence check contested by the target's RESONANCE resistance check (DC = your Puppet Binder save DC). On success, you occupy the target as if it were a standard vessel for up to 1 minute. The target is aware of the occupation and can attempt to expel you each round (RESONANCE resistance check). When expelled, you cannot attempt to occupy that creature again for 24 hours. This costs 2 Threads.</p>"
+        "html": "<p>You can attempt to occupy a living creature in a significantly impaired state: unconscious, incapacitated, or under 25% HP. Make an SIGNAL contested by the target's RESONANCE resistance check (difficulty (stat-based)). On success, you occupy the target as if it were a standard vessel for up to 1 minute. The target is aware of the occupation and can attempt to expel you each round (RESONANCE resistance check). When expelled, you cannot attempt to occupy that creature again for 24 hours. This costs 2 Threads.</p>"
       },
       "6": {
         "name": "Extended Grip",
@@ -18,7 +18,7 @@
       },
       "10": {
         "name": "Occupation",
-        "html": "<p>You can now attempt to occupy a living creature that is not impaired. Spend 3 Threads and make your Intelligence check against the target's RESONANCE resistance check. On success, you occupy the target for up to 10 minutes. The target is aware they are occupied and can attempt to expel you each round. The target retains their own awareness — they experience everything you do with their body. When this feature is used, the target is not a puppet in the Hollow Author's sense — they are fully conscious and experiencing the violation in real time. This is a significant line. Whether crossing it is ever justified is the question the Possessor lives with.</p>"
+        "html": "<p>You can now attempt to occupy a living creature that is not impaired. Spend 3 Threads and make your SIGNAL against the target's RESONANCE resistance check. On success, you occupy the target for up to 10 minutes. The target is aware they are occupied and can attempt to expel you each round. The target retains their own awareness — they experience everything you do with their body. When this feature is used, the target is not a puppet in the Hollow Author's sense — they are fully conscious and experiencing the violation in real time. This is a significant line. Whether crossing it is ever justified is the question the Possessor lives with.</p>"
       },
       "14": {
         "name": "The Deep Claim",

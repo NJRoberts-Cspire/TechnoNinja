@@ -14,7 +14,7 @@
       },
       "6": {
         "name": "Counter-Binding",
-        "html": "<p>When you encounter an oath or obligation being invoked against a party, you can use your reaction to contest it. Spend 2 Debt Charges: make a contested Wisdom check against the invoking practitioner (or DC 15 if the invocation is from the Iron Afterlife directly). On success, the invocation fails for this instance. The obligation still exists — you have not dissolved it — but its power to compel action is blocked for this moment.</p>"
+        "html": "<p>When you encounter an oath or obligation being invoked against a party, you can use your reaction to contest it. Spend 2 Debt Charges: make a contested RESONANCE against the invoking practitioner (or difficulty 15 if the invocation is from the Iron Afterlife directly). On success, the invocation fails for this instance. The obligation still exists — you have not dissolved it — but its power to compel action is blocked for this moment.</p>"
       },
       "10": {
         "name": "Deep Reading",

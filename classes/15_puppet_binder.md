@@ -227,19 +227,19 @@ The Possessor is the one the Sutensai watches most carefully and the one that th
 The Architect has reframed Puppet Binding entirely as an engineering discipline. They build vessels with specific functions: a scouting form with enhanced sensors, a labor form with reinforced structure, a combat form designed for a specific tactical role. They are artificers as much as practitioners — the Echomind extension is the power delivery mechanism; the design of what receives that power is where the artistry lies. The Architect's workshop is a significant installation. Their vessels are recognizably constructed — they do not try to pass for living people. This aesthetic choice is, among other things, an ethical statement.
 
 **Level 3: Enhanced Construction**
-You can construct vessels with increased sophistication. Your vessels have maximum hit points equal to twice your Puppet Binder level. Additionally, you can construct a vessel in 4 hours instead of 8 (or 30 minutes for a prepared deceased vessel).
+You can construct vessels with increased sophistication. Your vessels have maximum HP equal to twice your Puppet Binder level. Additionally, you can construct a vessel in 4 hours instead of 8 (or 30 minutes for a prepared deceased vessel).
 
 **Level 3: Modular Design**
-Your constructed vessels are built in modular sections. When a vessel is at 0 hit points and destroyed, you can salvage usable components — each destroyed vessel provides components worth 50 gp for the next vessel you build. Additionally, you can transfer a specialization from a destroyed vessel to a new one during construction at no additional time cost.
+Your constructed vessels are built in modular sections. When a vessel is at 0 HP and destroyed, you can salvage usable components — each destroyed vessel provides components worth 50 gp for the next vessel you build. Additionally, you can transfer a specialization from a destroyed vessel to a new one during construction at no additional time cost.
 
 **Level 6: Combat Architecture**
-You can construct a vessel specifically designed for combat. A Combat Vessel has your full attack bonus, deals 1d10 + your Intelligence modifier damage on unarmed strikes, and has an AC equal to 14 + your Intelligence modifier. Building a Combat Vessel requires your base construction time + 4 additional hours. You can have one Combat Vessel active at a time (it occupies one vessel slot as normal).
+You can construct a vessel specifically designed for combat. A Combat Vessel has your full attack bonus, deals 6 + your SIGNAL damage on unarmed strikes, and has an AC equal to 14 + your SIGNAL. Building a Combat Vessel requires your base construction time + 4 additional hours. You can have one Combat Vessel active at a time (it occupies one vessel slot as normal).
 
 **Level 10: The Workshop**
-You have mastered large-scale vessel production. Given a workshop space and 24 hours, you can construct up to your Intelligence modifier vessels simultaneously. You can also construct vessels with two specializations in the standard construction time (the second is built in parallel). Your vessel maximum increases by 2.
+You have mastered large-scale vessel production. Given a workshop space and 24 hours, you can construct up to your SIGNAL vessels simultaneously. You can also construct vessels with two specializations in the standard construction time (the second is built in parallel). Your vessel maximum increases by 2.
 
 **Level 14: Masterwork**
-Once per month, you can construct a Masterwork vessel: a vessel that operates at combat-applicable level without your direct occupation. The Masterwork has its own initiative, its own action, and follows complex standing instructions (up to paragraph-length instructions, with the ability to make simple judgment calls about implementation). The Masterwork has statistics equivalent to a CR 5 construct, custom-designed. It does not require a Thread while following standing instructions. You can have one Masterwork active at a time.
+Once per month, you can construct a Masterwork vessel: a vessel that operates at combat-applicable level without your direct occupation. The Masterwork has its own initiative, its own action, and follows complex standing instructions (up to paragraph-length instructions, with the ability to make simple judgment calls about implementation). The Masterwork has statistics equivalent to a Tier 5 construct, custom-designed. It does not require a Thread while following standing instructions. You can have one Masterwork active at a time.
 
 ---
 
@@ -251,13 +251,13 @@ The Possessor has followed the practice to where it goes. They began with constr
 Your Echomind can brush against living minds. As an action within 30 feet of a living creature, spend 1 Thread to make a surface-level Echomind contact. You feel their general emotional state and their level of awareness of you. They feel a slight unease — a sense of being watched — but cannot identify the source. This is not occupation. This is reconnaissance.
 
 **Level 3: Weak Vessel**
-You can attempt to occupy a living creature in a significantly impaired state: unconscious, incapacitated, or under 25% hit points. Make an Intelligence check contested by the target's RESONANCE resistance check (DC = your Puppet Binder save DC). On success, you occupy the target as if it were a standard vessel for up to 1 minute. The target is aware of the occupation and can attempt to expel you each round (RESONANCE resistance check). When expelled, you cannot attempt to occupy that creature again for 24 hours. This costs 2 Threads.
+You can attempt to occupy a living creature in a significantly impaired state: unconscious, incapacitated, or under 25% HP. Make an SIGNAL contested by the target's RESONANCE resistance check (difficulty (stat-based)). On success, you occupy the target as if it were a standard vessel for up to 1 minute. The target is aware of the occupation and can attempt to expel you each round (RESONANCE resistance check). When expelled, you cannot attempt to occupy that creature again for 24 hours. This costs 2 Threads.
 
 **Level 6: Extended Grip**
 Your occupation of living vessels becomes stronger. When occupying a living vessel (via Weak Vessel or higher features), the target's expulsion resistance check DC increases by 2. Additionally, you can now maintain occupation of a willing living vessel (a creature who has consented) for up to 1 hour without any resistance check by the subject.
 
 **Level 10: Occupation**
-You can now attempt to occupy a living creature that is not impaired. Spend 3 Threads and make your Intelligence check against the target's RESONANCE resistance check. On success, you occupy the target for up to 10 minutes. The target is aware they are occupied and can attempt to expel you each round. The target retains their own awareness — they experience everything you do with their body. When this feature is used, the target is not a puppet in the Hollow Author's sense — they are fully conscious and experiencing the violation in real time. This is a significant line. Whether crossing it is ever justified is the question the Possessor lives with.
+You can now attempt to occupy a living creature that is not impaired. Spend 3 Threads and make your SIGNAL against the target's RESONANCE resistance check. On success, you occupy the target for up to 10 minutes. The target is aware they are occupied and can attempt to expel you each round. The target retains their own awareness — they experience everything you do with their body. When this feature is used, the target is not a puppet in the Hollow Author's sense — they are fully conscious and experiencing the violation in real time. This is a significant line. Whether crossing it is ever justified is the question the Possessor lives with.
 
 **Level 14: The Deep Claim**
 Once per long rest, spend 6 Threads to make an Occupation attempt against a living creature that, on a failure of their resistance check, lasts for 1 hour with no expulsion checks permitted. The target is fully aware throughout. When this effect ends, they remember everything. They can describe what you did. They know what it felt like. They will not forget. This is, mechanically and narratively, the feature that makes the Possessor what they are. If there is a line between this and the Hollow Author's practice, it is thinner here than it has ever been. The Possessor knows this.
@@ -272,7 +272,7 @@ The Network Puppet Binder maintains multiple vessels simultaneously, each specia
 Your Thread costs for vessel occupation are reduced by 1 (minimum 1). Additionally, when you use Standing Instructions (Level 6 base feature), your vessels follow instructions with greater sophistication — they can engage in basic conversation, respond to direct questions with pre-programmed responses, and adapt their patrol to obvious obstacles.
 
 **Level 3: Distributed Awareness**
-You can maintain split awareness with up to two vessels simultaneously without the penalty (reduced speed, disadvantage on Wisdom checks) that normally applies. The third split costs the normal penalty.
+You can maintain split awareness with up to two vessels simultaneously without the penalty (reduced speed, −3 to RESONANCE checks) that normally applies. The third split costs the normal penalty.
 
 **Level 6: Rapid Deployment**
 You can enter and exit vessels as a bonus action instead of an action. Additionally, when you switch between vessels (exit one, enter another), you can do so in a single bonus action rather than two separate actions.
@@ -281,7 +281,7 @@ You can enter and exit vessels as a bonus action instead of an action. Additiona
 Your Network now operates as a coherent tactical unit. While maintaining split awareness with multiple vessels, you can use your bonus action to give all active vessels a simultaneous command (move here, take cover, attack this target). Each vessel executes the command on its next turn. You can coordinate their actions with tactical precision — flanking maneuvers, synchronized distractions, simultaneous presence at different locations.
 
 **Level 14: Maximum Deployment**
-Your vessel maximum doubles. Your Thread maximum increases by 4. Once per long rest, for 1 hour, your Network operates at full efficiency: all vessels are fully occupied simultaneously (not split awareness — full occupation, multiple instances of you), each taking independent actions, each fully capable. Coordinating this many instances requires a DC 15 Intelligence check at the start of each round; on a failure, one vessel of your choice loses its action for that round due to coordination breakdown. When this effect ends, you gain two levels of exhaustion as your Echomind reconsolidates.
+Your vessel maximum doubles. Your Thread maximum increases by 4. Once per long rest, for 1 hour, your Network operates at full efficiency: all vessels are fully occupied simultaneously (not split awareness — full occupation, multiple instances of you), each taking independent actions, each fully capable. Coordinating this many instances requires a difficulty 15 SIGNAL at the start of each round; on a failure, one vessel of your choice loses its action for that round due to coordination breakdown. When this effect ends, you gain two levels of exhaustion as your Echomind reconsolidates.
 
 ---
 

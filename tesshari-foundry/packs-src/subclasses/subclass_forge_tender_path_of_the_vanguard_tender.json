@@ -18,7 +18,7 @@
       },
       "10": {
         "name": "Emergency Overhaul",
-        "html": "<p>Once per combat, as an action, you perform a rapid Emergency Overhaul on one adjacent creature. This requires them to be unconscious or willing to remain still. The Overhaul:\r - Fully restores them to maximum HP.\r - Removes all conditions and ongoing effects except those from major plot-level curses.\r - Clears one expended class feature that would normally require a long rest to recover.\r For the next hour after an Overhaul, the creature's enhancements are running hot — they deal +2 damage on all attacks but are vulnerable to necrotic damage during this time.</p>"
+        "html": "<p>Once per combat, as an action, you perform a rapid Emergency Overhaul on one adjacent creature. This requires them to be unconscious or willing to remain still. The Overhaul:\r - Fully restores them to maximum HP.\r - Removes all conditions and ongoing effects except those from major plot-level curses.\r - Clears one expended class feature that would normally require a long rest to recover.\r For the next hour after an Overhaul, the creature's enhancements are running hot — they deal +2 damage on all attacks but are vulnerable to resonant damage during this time.</p>"
       },
       "14": {
         "name": "Forge Under Fire",

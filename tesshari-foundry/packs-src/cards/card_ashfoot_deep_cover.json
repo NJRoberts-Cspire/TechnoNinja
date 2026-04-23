@@ -20,7 +20,7 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>You disappear into your environment — not with Veilblade tech, but with the Ashfoot's hard-won knowledge of how to be a person that no one is looking for. Until end of combat, enhancement-reading systems register you as non-combatant. Make one attack this turn with advantage (GM ruling) — a free strike from position that should not be a striking position.</p>"
+    "description": "<p>You disappear into your environment — not with Veilblade tech, but with the Ashfoot's hard-won knowledge of how to be a person that no one is looking for. Until end of combat, enhancement-reading systems register you as non-combatant. Make one attack this turn with +3 (GM ruling) — a free strike from position that should not be a striking position.</p>"
   },
   "effects": [],
   "flags": {

@@ -14,7 +14,7 @@
       },
       "6": {
         "name": "Anchor Point",
-        "html": "<p>You can designate yourself as an Anchor Point as a free action. While anchored:\r - Enemies cannot flank you (they receive no flanking bonuses against you).\r - Allies within 10 feet of you gain a +2 bonus to their AC while you are conscious.\r - If an ally within 10 feet would be forced to move, you can make a Strength check contested by the forcing effect to prevent their movement.\r</p>\n<p>This effect lasts until the start of your next turn and can be re-applied each round.</p>"
+        "html": "<p>You can designate yourself as an Anchor Point as a free action. While anchored:\r - Enemies cannot flank you (they receive no flanking bonuses against you).\r - Allies within 10 feet of you gain a +2 bonus to their AC while you are conscious.\r - If an ally within 10 feet would be forced to move, you can make a IRON contested by the forcing effect to prevent their movement.\r</p>\n<p>This effect lasts until the start of your next turn and can be re-applied each round.</p>"
       },
       "10": {
         "name": "Coordinated Strike",

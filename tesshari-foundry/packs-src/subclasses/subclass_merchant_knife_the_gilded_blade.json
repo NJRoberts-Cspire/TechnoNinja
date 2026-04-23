@@ -14,11 +14,11 @@
       },
       "6": {
         "name": "The Contingency Fee",
-        "html": "<p>You always have an escape option. When you complete a successful elimination (reduce a target to 0 hit points), you can immediately take the Disengage action as a free action and move your full speed. Additionally, you gain +3 to checks to disappear into a crowd or environment immediately following an operation.</p>"
+        "html": "<p>You always have an escape option. When you complete a successful elimination (reduce a target to 0 HP), you can immediately take the Disengage action as a free action and move your full speed. Additionally, you gain +3 to checks to disappear into a crowd or environment immediately following an operation.</p>"
       },
       "10": {
         "name": "Closed Account",
-        "html": "<p>When you reduce a target to 0 hit points, their financial and operational records become accessible to you: you immediately know the contents of their most recent significant business transaction, their most significant current obligation, and the name of whoever will most want to know about this. This information arrives in a brief flash of insight — the economic network registers the vacancy and informs you. This is not magical; it is the residue of complete pre-operational research.</p>"
+        "html": "<p>When you reduce a target to 0 HP, their financial and operational records become accessible to you: you immediately know the contents of their most recent significant business transaction, their most significant current obligation, and the name of whoever will most want to know about this. This information arrives in a brief flash of insight — the economic network registers the vacancy and informs you. This is not magical; it is the residue of complete pre-operational research.</p>"
       },
       "14": {
         "name": "The Perfect Contract",

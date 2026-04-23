@@ -10,7 +10,7 @@
     "features": {
       "3": {
         "name": "Sutra's Edge",
-        "html": "<p>Your strikes carry theological intention. When you kill a creature, you can choose to perform the Iron Rite, a brief consecration of the killing blow. Creatures killed with the Iron Rite cannot be raised as undead or digitally reanimated without your explicit permission. Additionally, your resonant blades deal an additional 1d4 radiant-adjacent resonant damage (called Sutensai light) against entities whose Echomind is corrupted, displaced, or absent.</p>"
+        "html": "<p>Your strikes carry theological intention. When you kill a creature, you can choose to perform the Iron Rite, a brief consecration of the killing blow. Creatures killed with the Iron Rite cannot be raised as undead or digitally reanimated without your explicit permission. Additionally, your resonant blades deal an additional 3 radiant-adjacent resonant damage (called Sutensai light) against entities whose Echomind is corrupted, displaced, or absent.</p>"
       },
       "6": {
         "name": "Theological Authority",

@@ -20,7 +20,7 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Your discipline is complete. Your attacks against your Marked target cannot be made at disadvantage by any means. You may maintain two active Marks simultaneously. When any creature in the encounter drops to 0 HP, you may immediately transfer one of your Marks to a new target as a free action.</p>"
+    "description": "<p>Your discipline is complete. Your attacks against your Marked target cannot be made with −3 by any means. You may maintain two active Marks simultaneously. When any creature in the encounter drops to 0 HP, you may immediately transfer one of your Marks to a new target as a free action.</p>"
   },
   "effects": [],
   "flags": {

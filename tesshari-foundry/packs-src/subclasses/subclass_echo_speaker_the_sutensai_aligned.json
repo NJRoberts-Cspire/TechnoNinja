@@ -14,7 +14,7 @@
       },
       "6": {
         "name": "Institutional Access",
-        "html": "<p>Your Sutensai affiliation opens doors. You gain +3 to Persuasion and Intimidation checks made against Sutensai clergy, Caste enforcers, and civic officials. Once per long rest, you can invoke your Sutensai authority to demand information — one creature of CR 8 or lower must make a RESONANCE resistance check (DC = your Echo Save DC) or truthfully answer one question about the Iron Afterlife, the dead, or spiritual matters in their knowledge.</p>"
+        "html": "<p>Your Sutensai affiliation opens doors. You gain +3 to Persuasion and Intimidation checks made against Sutensai clergy, Caste enforcers, and civic officials. Once per long rest, you can invoke your Sutensai authority to demand information — one creature of Tier 8 or lower must make a RESONANCE resistance check (difficulty (stat-based)) or truthfully answer one question about the Iron Afterlife, the dead, or spiritual matters in their knowledge.</p>"
       },
       "10": {
         "name": "Guided Path",
@@ -22,7 +22,7 @@
       },
       "14": {
         "name": "The Orthodoxy's Voice",
-        "html": "<p>Your connection to the Sutensai has become a source of genuine power. Once per long rest, you can speak a formal Sutensai decree in a spiritually significant situation. All creatures within 60 feet who can hear you must make RESONANCE resistance checks (DC = your Echo Save DC). Creatures who fail: believe, without reservation, that you speak with sanctioned spiritual authority for 24 hours (this does not compel obedience, only belief in your authority). Simultaneously, one message from the dead of your choice is broadcast in that area — every creature hears it, regardless of their sensitivity to the Afterlife. The Sutensai did not intend this ability to exist. It emerged from the practice anyway.\r</p>\n<p>---</p>"
+        "html": "<p>Your connection to the Sutensai has become a source of genuine power. Once per long rest, you can speak a formal Sutensai decree in a spiritually significant situation. All creatures within 60 feet who can hear you must make RESONANCE resistance checks (difficulty (stat-based)). Creatures who fail: believe, without reservation, that you speak with sanctioned spiritual authority for 24 hours (this does not compel obedience, only belief in your authority). Simultaneously, one message from the dead of your choice is broadcast in that area — every creature hears it, regardless of their sensitivity to the Afterlife. The Sutensai did not intend this ability to exist. It emerged from the practice anyway.\r</p>\n<p>---</p>"
       }
     },
     "description": "<p>The Sutensai-trained Echo Speaker has learned to hear the dead through layers of theological filter — not because the Sutensai is necessarily correct about the Iron Afterlife, but because the institution has spent centuries developing practice that protects the practitioner. Sutensai-trained Speakers are safer than independent practitioners. They are also more limited. The filter that protects also constrains. Sutensai Echo Speakers are taught what the dead are allowed to say. They are often not prepared for the dead who refuse to follow the curriculum.</p>"

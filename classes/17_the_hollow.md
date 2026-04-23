@@ -224,6 +224,44 @@ The Shell — those who chose steel — face different problems. At high levels 
 
 ---
 
+## Subclasses
+
+### The Empty — "The metal left. The Echomind did not. Everyone is still deciding which is the discovery."
+
+The Empty removed their enhancements. Not reduced them. Not traded one configuration for another. Removed them — every interface, every plate, every subdermal substrate the Caste of Steel defines as personhood — and kept going. What they report afterward is not absence. It is pressure. The Echomind that previously distributed through enhancement metal now has nowhere structured to route and fills the body instead, and past it. The Empty walk into rooms and the rooms notice them before the people in the rooms do. The Caste of Steel files them under Zero. The Iron Sutra has official positions against what they are. And the Empty, in the main, find they are able to do things the doctrine says should not be possible for someone who has refused every piece of the standard spiritual apparatus.
+
+**Level 3: Unanchored Echomind**
+Your Echomind occupies the space your enhancements vacated. You are immune to Overheat — you have no systems to overload — and to enhancement-based scanning, which produces no return when directed at you. Enhancement-based Signal cards targeting you suffer −RESONANCE on their damage and lose all non-damage riders. Additionally, your resonant Attack cards deal +RESONANCE bonus damage against targets with three or more enhancements (the metal in them hears the metal that is no longer in you).
+
+**Level 6: The Silent Reader**
+Your naked Echomind reads other minds directly, without enhancement mediation. When you spend a full turn observing a creature within 30 feet, you learn one truthful fact about their current emotional state, recent memory within the last hour, or current intention. Once per combat, when an enemy plays a Control or Utility card targeting you or an ally within 30 feet, you may use your Reaction to cancel the card's non-damage riders before they resolve.
+
+**Level 10: The Widening**
+Once per combat, as an action, you may spend 10 HP to manifest the Widening. For 1 minute, all enemies within 30 feet with enhancements take Expose 1 at the start of their turns, your resonant Attack cards deal an additional +RESONANCE bonus damage, and you cannot be surprised or concealed-from within this radius. The Caste of Steel calls this "Caste Zero Broadcast" in their threat-assessment documentation. They recommend engagement only at range greater than 30 feet. The documentation is correct.
+
+**Level 14: What Remains**
+Once per long rest, when you are reduced to 0 HP, your Echomind holds the form of the body through resonant will alone. For one full round you cannot be reduced below 1 HP by any source, all your resonant Attack cards deal maximum damage, and enhancement-based status effects automatically fail against you. At the end of that round, if the combat continues, you return to normal consciousness at (FRAME × 4) + RESONANCE HP. The body's cells were never the subject. The Echomind was. The Echomind is still here.
+
+---
+
+### The Shell — "I am losing the part that asks whether I am still here. Eventually I will not ask."
+
+The Shell went the other direction and did not stop. Every organ that can be replaced with a mechanical equivalent has been replaced. Every tissue marginal to function has been removed. Every connection to the biological substrate that can be rerouted through chassis architecture has been rerouted. What remains of the original flesh is a small thing — a brain segment, usually, a fractional percentage of the original person by mass. The Shell is the most durable combatant most parties will ever field. The Shell is also, measurably, less certain of their own identity with every year that passes, and the measurement is the increasing calm with which they receive this fact. The progression is not collapse. It is dilution. The person is still present. There is just less of them present in any given moment, and the part that is present is increasingly the part that chose this path rather than the part that felt anything about the choice.
+
+**Level 3: Chassis Dominant**
+Your mechanical body outputs beyond what biology permits. Your melee Attack cards deal +2 + FRAME bonus damage (fixed). You are immune to Bleed and Burn from purely physical sources — they still affect you from resonant sources, which the tissue that remains can still register. Critical hits against you are reduced by FRAME before other mitigation; your redundant mechanical systems absorb what biology cannot.
+
+**Level 6: Silent Maintenance**
+One hour of chassis maintenance (fluids, resonant-metal tuning, power-cell exchange) replaces 8 hours of rest; you do not require food, water, or sleep. Your body no longer displays pain, fatigue, or emotional affect in ways observable to others. You gain +3 to VEIL cards involving stoicism, deception, or the appearance of composure. Your condition can only be accurately determined through direct Signal scanning — to casual inspection, you are unreadable.
+
+**Level 10: Mechanical Persistence**
+When you are reduced to 0 HP, instead of falling unconscious you enter Persistent-Shell state: you remain active at 1 HP, cannot be healed above 1 HP by normal means, and all damage you deal while in this state is halved. At the start of each of your turns in Persistent-Shell, make a RESONANCE resistance check (difficulty 4). On failure, your Echomind briefly disengages from the body and you fall unconscious for the remainder of the combat. On success, Persistent-Shell continues. The state ends when you are healed above 1 HP or when combat ends. The doctrine does not have a word for what you are during this state. Neither do you.
+
+**Level 14: The Question Fades**
+Your FRAME is treated as 2 higher for all HP and resistance calculations. Physical damage (piercing, slashing, and bludgeoning from non-resonant sources) against you is reduced by RESONANCE + FRAME to a minimum of 1 damage. Once per long rest, you may enter Shell-Absolute state for 1 minute: during this time all your melee Attack cards deal maximum damage, you are immune to Stagger and Silence, and all your cards cost 1 fewer AP (minimum 1). When Shell-Absolute ends, you have no memory of the minute — the chassis acted, and the part of you that records continuous experience has no report. You will ask what happened. Your allies will tell you. You will accept this account as you have accepted the others.
+
+---
+
 ## Roleplaying The Hollow
 
 **The Point of No Return:** The Hollow has made a choice that cannot be undone. The Empty who removed their enhancements cannot simply put them back — the tissue interfaces are gone or altered. The Shell who replaced their flesh cannot restore it — the biological memory is increasingly gone. How does your character feel about being on a one-way path? Have they made peace with it? Are they still making peace? Is there something they are increasingly afraid to examine too closely?

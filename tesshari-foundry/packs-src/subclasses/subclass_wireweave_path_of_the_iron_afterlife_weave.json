@@ -18,7 +18,7 @@
       },
       "10": {
         "name": "Afterlife Architecture",
-        "html": "<p>Your understanding of the Iron Afterlife's Wire structure has become architectural. You can:\r - Map the locations of Echominds in the Iron Afterlife relative to the physical world.\r - Detect when an Echomind from the Iron Afterlife is attempting to push through into the physical world, and trace their origin point.\r - Temporarily suppress an Iron Afterlife entity's ability to manifest in the physical world (contested Intelligence check; on success, the entity cannot manifest for 1 hour).\r - Once per day, extract a specific piece of information from an Echomind in the Iron Afterlife without their cooperation — the extraction requires 1 hour and a SIGNAL check, difficulty 5, and it leaves traces that the extracted Echomind will resent.</p>"
+        "html": "<p>Your understanding of the Iron Afterlife's Wire structure has become architectural. You can:\r - Map the locations of Echominds in the Iron Afterlife relative to the physical world.\r - Detect when an Echomind from the Iron Afterlife is attempting to push through into the physical world, and trace their origin point.\r - Temporarily suppress an Iron Afterlife entity's ability to manifest in the physical world (contested SIGNAL; on success, the entity cannot manifest for 1 hour).\r - Once per day, extract a specific piece of information from an Echomind in the Iron Afterlife without their cooperation — the extraction requires 1 hour and a SIGNAL check, difficulty 5, and it leaves traces that the extracted Echomind will resent.</p>"
       },
       "14": {
         "name": "Between Sovereign",

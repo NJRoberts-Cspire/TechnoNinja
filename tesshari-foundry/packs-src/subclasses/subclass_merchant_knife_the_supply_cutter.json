@@ -10,7 +10,7 @@
     "features": {
       "3": {
         "name": "Interception",
-        "html": "<p>Once per short rest, as part of a skill check or combat action, you can intercept a physical transfer of goods or information that you know is occurring (as opposed to generating a new transfer). This requires physical presence at the transfer point but provides advantage on any ability check made to intercept, misdirect, or copy the transferred material.</p>"
+        "html": "<p>Once per short rest, as part of a skill check or combat action, you can intercept a physical transfer of goods or information that you know is occurring (as opposed to generating a new transfer). This requires physical presence at the transfer point but provides +3 to any ability check made to intercept, misdirect, or copy the transferred material.</p>"
       },
       "6": {
         "name": "Chain Disruption",
@@ -18,11 +18,11 @@
       },
       "10": {
         "name": "The Long Cut",
-        "html": "<p>Once per month, you can initiate a sustained supply disruption against a major military or commercial power. The disruption operates over 3 months and produces effects equivalent to a siege in terms of resource denial: the target cannot operate at full capacity in the affected supply domain (food, materials, intelligence, or finances). Counter-operations to identify and break the supply cut require a successful DC 25 Investigation check — and even if successful, restoring supply chains takes an additional 2 weeks.</p>"
+        "html": "<p>Once per month, you can initiate a sustained supply disruption against a major military or commercial power. The disruption operates over 3 months and produces effects equivalent to a siege in terms of resource denial: the target cannot operate at full capacity in the affected supply domain (food, materials, intelligence, or finances). Counter-operations to identify and break the supply cut require a successful difficulty 25 Investigation check — and even if successful, restoring supply chains takes an additional 2 weeks.</p>"
       },
       "14": {
         "name": "Total Interdiction",
-        "html": "<p>Once per long rest, you can declare a Total Interdiction against one target organization within a territory where your network is active. For 1 week, no supply of your designated category (choose one: food, materials, communications, or finances) reaches the target. The Interdiction is maintained through your network's active operations and can be detected and countered by a sufficiently skilled intelligence service (DC 28 Investigation check, 3-day investigation, countered by neutralizing at least three of your network's active nodes in the area). At the end of 1 week, the interdiction ends and your network resets.\r</p>\n<p>---</p>"
+        "html": "<p>Once per long rest, you can declare a Total Interdiction against one target organization within a territory where your network is active. For 1 week, no supply of your designated category (choose one: food, materials, communications, or finances) reaches the target. The Interdiction is maintained through your network's active operations and can be detected and countered by a sufficiently skilled intelligence service (difficulty 28 Investigation check, 3-day investigation, countered by neutralizing at least three of your network's active nodes in the area). At the end of 1 week, the interdiction ends and your network resets.\r</p>\n<p>---</p>"
       }
     },
     "description": "<p>The Supply Cutter has developed economic warfare into a precise discipline. They do not attack armies; they attack the systems that sustain armies. They know how much food an army of a given size needs per week, where that food is stored, how it is transported, what it would take to intercept or contaminate the transportation route, and what the cascading effects on morale, battle-readiness, and territorial control would be when the army discovers it has been cut off. They know all of this before they act, and they act only when the analysis supports the intervention.</p>"

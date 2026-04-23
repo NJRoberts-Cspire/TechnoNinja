@@ -20,7 +20,7 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>You fragment your Wire-presence across multiple nodes. Until your next turn: any creature that attempts to cut your Wire connection must deal with three separate checks (GM ruling — effectively impossible mid-combat). Your SIGNAL-based cards deal + SIGNAL additional damage. You have advantage on all Wire-based actions (GM ruling).</p>"
+    "description": "<p>You fragment your Wire-presence across multiple nodes. Until your next turn: any creature that attempts to cut your Wire connection must deal with three separate checks (GM ruling — effectively impossible mid-combat). Your SIGNAL-based cards deal + SIGNAL additional damage. You have +3 to all Wire-based actions (GM ruling).</p>"
   },
   "effects": [],
   "flags": {

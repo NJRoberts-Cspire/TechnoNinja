@@ -218,7 +218,7 @@ The Sutensai are specifically disturbed by Veilblade and specific about why. The
 ### Deep Listener
 *Tier 1 (1 AP) | Passive*
 
-**Always Active:** Your Wire immersion is deep and quiet. When in Wire or connected to a Wire network this combat, you gain advantage on any check to find, access, or interpret data (GM ruling). Additionally, your Wire Entry is silent — no physical tells betray your connection.
+**Always Active:** Your Wire immersion is deep and quiet. When in Wire or connected to a Wire network this combat, you gain +3 to any check to find, access, or interpret data (GM ruling). Additionally, your Wire Entry is silent — no physical tells betray your connection.
 **Unlock:** Level 3
 
 ---
@@ -235,7 +235,7 @@ The Sutensai are specifically disturbed by Veilblade and specific about why. The
 ### Distributed Presence
 *Tier 2 (2 AP) | Power*
 
-**Effect:** You fragment your Wire-presence across multiple nodes. Until your next turn: any creature that attempts to cut your Wire connection must deal with three separate checks (GM ruling — effectively impossible mid-combat). Your SIGNAL-based cards deal + SIGNAL additional damage. You have advantage on all Wire-based actions (GM ruling).
+**Effect:** You fragment your Wire-presence across multiple nodes. Until your next turn: any creature that attempts to cut your Wire connection must deal with three separate checks (GM ruling — effectively impossible mid-combat). Your SIGNAL-based cards deal + SIGNAL additional damage. You have +3 to all Wire-based actions (GM ruling).
 **Keywords:** —
 **Unlock:** Level 11
 
@@ -288,7 +288,7 @@ The Sutensai are specifically disturbed by Veilblade and specific about why. The
 ### Iron Bleed
 *Tier 1 (1 AP) | Passive*
 
-**Always Active:** Your Wire immersion has introduced death-resonance into your Echomind. Iron Afterlife entities and undead have disadvantage against you (GM ruling — they register you as partially their own). Once per combat, ask the death-resonance within you one question; the answer comes as impression or image (GM provides).
+**Always Active:** Your Wire immersion has introduced death-resonance into your Echomind. Iron Afterlife entities and undead suffer −3 against you (GM ruling — they register you as partially their own). Once per combat, ask the death-resonance within you one question; the answer comes as impression or image (GM provides).
 **Unlock:** Level 6
 
 ---
@@ -376,7 +376,7 @@ The Sutensai are specifically disturbed by Veilblade and specific about why. The
 ### Precision Strike
 *Tier 1 (1 AP) | Attack*
 
-**Effect:** You find the gap — the unenhanced point, the unshielded nerve, the junction where resonant metal meets organic tissue. Deal 6 + EDGE damage. If you are hidden, your signature is suppressed, or you have advantage on this attack (GM ruling), add SIGNAL to the damage. This is the Veilblade's core technique — precise, calculated, and aimed at exactly the right place.
+**Effect:** You find the gap — the unenhanced point, the unshielded nerve, the junction where resonant metal meets organic tissue. Deal 6 + EDGE damage. If you are hidden, your signature is suppressed, or you have +3 to this attack (GM ruling), add SIGNAL to the damage. This is the Veilblade's core technique — precise, calculated, and aimed at exactly the right place.
 **Keywords:** —
 **Unlock:** Level 1 (Starting Hand)
 
@@ -473,7 +473,7 @@ The Sutensai are specifically disturbed by Veilblade and specific about why. The
 ### Wire Combat
 *Tier 2 (2 AP) | Power*
 
-**Effect:** You extend a Wire tendril and maintain a Wire-presence while acting physically. Until your next turn: gain advantage on SIGNAL checks (GM ruling), once per turn deal 8 + SIGNAL signal damage to an enhanced target within 30 feet as Wire disruption, and your EDGE-based attacks deal + SIGNAL additional damage.
+**Effect:** You extend a Wire tendril and maintain a Wire-presence while acting physically. Until your next turn: gain +3 to SIGNAL checks (GM ruling), once per turn deal 8 + SIGNAL signal damage to an enhanced target within 30 feet as Wire disruption, and your EDGE-based attacks deal + SIGNAL additional damage.
 **Keywords:** —
 **Unlock:** Level 9
 
@@ -532,7 +532,7 @@ You can interface with Wire Craft networks directly through your specialized cra
 - Your physical body is motionless and vulnerable (0 AC — you are entirely focused on the digital space).
 - Your Wire-presence can move at 60 feet per round through connected systems.
 - You can observe through any sensor or camera connected to the network.
-- You can attempt to manipulate systems (doors, alarms, communications) with an Intelligence check (DC varies by system security).
+- You can attempt to manipulate systems (doors, alarms, communications) with an SIGNAL (DC varies by system security).
 - You can spend 1 minute in Wire to gather information equivalent to 1 hour of physical investigation of the connected space.
 
 You can remain in Wire for up to 10 minutes. When you exit, you exit at your physical body's location.
@@ -599,7 +599,7 @@ As level 4.
 You can fight while partially in Wire — maintaining a wire-presence while your body acts. As a free action on your turn, you can extend a Wire tendril from your interface port. While the tendril is extended (concentration, up to 1 minute):
 - You gain +3 to SIGNAL resistance checks and checks.
 - You can use the Wire Entry feature's observational capabilities passively while taking physical actions.
-- Once per turn, you can use the Wire tendril to make a disruption attack against an enhanced target within 30 feet (Intelligence vs. Constitution; on success they lose their reaction until the start of their next turn).
+- Once per turn, you can use the Wire tendril to make a disruption attack against an enhanced target within 30 feet (SIGNAL vs. FRAME; on success they lose their reaction until the start of their next turn).
 
 **Level 13: Precision Strike** increases to 16 (fixed).
 
@@ -742,7 +742,7 @@ When you control a Wire network (see Level 16 Wire Sovereign, or GM determines c
 **Level 10: Distributed Presence**
 You can fragment your Wire-presence across multiple nodes in a network. While distributed, you gain the following:
 - You gain +3 to all Wire-based checks.
-- Any creature attempting to sever your Wire connection must deal with multiple nodes simultaneously, requiring 3 successful contested Intelligence checks (not just 1) to completely disconnect you.
+- Any creature attempting to sever your Wire connection must deal with multiple nodes simultaneously, requiring 3 successful contested SIGNAL checks (not just 1) to completely disconnect you.
 - You can take two Wire Entry actions simultaneously, operating in two locations within the same network.
 
 **Level 14: Network Weapon**

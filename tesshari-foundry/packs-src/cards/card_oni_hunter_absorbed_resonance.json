@@ -20,7 +20,7 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>You carry dissolution resonance from prior hunts — fragments of what you have ended, partially integrated. Your attacks against Shell-states and Iron Afterlife entities deal + RESONANCE additional damage. Incoming necrotic and psychic damage is reduced by your RESONANCE (minimum 0). Once per combat, the absorbed resonance may surface as a behavioral impression — a flash of the hunted creature's perspective (GM narrates; no mechanical penalty unless you choose to act on it).</p>"
+    "description": "<p>You carry dissolution resonance from prior hunts — fragments of what you have ended, partially integrated. Your attacks against Shell-states and Iron Afterlife entities deal + RESONANCE additional damage. Incoming necrotic and signal damage is reduced by your RESONANCE (minimum 0). Once per combat, the absorbed resonance may surface as a behavioral impression — a flash of the hunted creature's perspective (GM narrates; no mechanical penalty unless you choose to act on it).</p>"
   },
   "effects": [],
   "flags": {

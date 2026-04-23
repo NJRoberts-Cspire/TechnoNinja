@@ -146,7 +146,7 @@ Among the common people, Oni Hunters occupy the space of necessary horror. In th
 ### Absorbed Resonance
 *Tier 1 (1 AP) | Passive*
 
-**Always Active:** You carry dissolution resonance from prior hunts — fragments of what you have ended, partially integrated. Your attacks against Shell-states and Iron Afterlife entities deal + RESONANCE additional damage. Incoming necrotic and psychic damage is reduced by your RESONANCE (minimum 0). Once per combat, the absorbed resonance may surface as a behavioral impression — a flash of the hunted creature's perspective (GM narrates; no mechanical penalty unless you choose to act on it).
+**Always Active:** You carry dissolution resonance from prior hunts — fragments of what you have ended, partially integrated. Your attacks against Shell-states and Iron Afterlife entities deal + RESONANCE additional damage. Incoming necrotic and signal damage is reduced by your RESONANCE (minimum 0). Once per combat, the absorbed resonance may surface as a behavioral impression — a flash of the hunted creature's perspective (GM narrates; no mechanical penalty unless you choose to act on it).
 **Unlock:** Level 13
 
 ---
@@ -267,7 +267,7 @@ Among the common people, Oni Hunters occupy the space of necessary horror. In th
 ### Dissolution Resistance
 *Tier 1 (1 AP) | Passive*
 
-**Always Active:** Your long work with dissolution energy has made you specifically resilient. Incoming necrotic damage is reduced by your RESONANCE. Control effects sourced from your Echomind being targeted (Silence, mind-altering effects that work through resonance) are reduced in duration by 1 turn.
+**Always Active:** Your long work with dissolution energy has made you specifically resilient. Incoming resonant damage is reduced by your RESONANCE. Control effects sourced from your Echomind being targeted (Silence, mind-altering effects that work through resonance) are reduced in duration by 1 turn.
 **Unlock:** Level 9
 
 ---
@@ -373,7 +373,7 @@ Among the common people, Oni Hunters occupy the space of necessary horror. In th
 ### Partial Integration
 *Tier 2 (2 AP) | Power*
 
-**Effect:** You deliberately channel a controlled burst of dissolution resonance through your system. Until your next turn: all your attacks deal maximum base damage, you cannot be frightened or charmed. After this card resolves, you must save against Overheat 1 (automatic — no roll, the cost is fixed). You accept it. This is the work.
+**Effect:** You deliberately channel a controlled burst of dissolution resonance through your system. Until your next turn: all your attacks deal maximum base damage, you cannot be frightened or charmed. After this card resolves, you must resistance check against Overheat 1 (automatic — no roll, the cost is fixed). You accept it. This is the work.
 **Keywords:** Overheat 1 (mandatory cost)
 **Unlock:** Level 14
 
@@ -382,7 +382,7 @@ Among the common people, Oni Hunters occupy the space of necessary horror. In th
 ### Perfect Hunt
 *Tier 2 (2 AP) | Passive*
 
-**Always Active:** Your discipline is complete. Your attacks against your Marked target cannot be made at disadvantage by any means. You may maintain two active Marks simultaneously. When any creature in the encounter drops to 0 HP, you may immediately transfer one of your Marks to a new target as a free action.
+**Always Active:** Your discipline is complete. Your attacks against your Marked target cannot be made with −3 by any means. You may maintain two active Marks simultaneously. When any creature in the encounter drops to 0 HP, you may immediately transfer one of your Marks to a new target as a free action.
 **Unlock:** Level 8
 
 ---
@@ -618,8 +618,8 @@ As level 4.
 
 **Level 16: Dissolution Resistance**
 Your long work with dissolution energy has made you specifically resilient. You gain:
-- Immunity to necrotic damage.
-- Resistance to psychic damage.
+- Immunity to resonant damage.
+- Resistance to signal damage.
 - Any effect that would alter, corrupt, or read your Echomind automatically fails unless you permit it.
 
 **Level 17: Hunter's Mark** damage increases to 16 (fixed).
@@ -707,7 +707,7 @@ Some Oni Hunters walk the edge between hunter and quarry so long that the edge b
 **Level 3: Absorbed Resonance**
 You carry dissolution resonance in your enhancements — fragments of the entities and Shell-states you have hunted, partially integrated into your system. You gain:
 - +3 to all attack rolls against Shell-states and Iron Afterlife entities.
-- Resistance to necrotic and psychic damage.
+- Resistance to necrotic and signal damage.
 - Your attacks count as resonant and void-edge for the purpose of overcoming resistance.
 - Warning: once per day, the GM may have the absorbed resonance create a brief behavioral disruption — an urge, a flash of the hunted creature's perspective, a moment of someone else's want pressing through your own.
 
@@ -729,7 +729,7 @@ You have reached the edge and chosen not to cross it. This choice — made consc
 - You are immune to Echomind dissolution. No force in Tesshari can push your Echomind out of alignment with your enhancements.
 - Once per day, when you enter Partial Integration mode, you can choose not to make the RESONANCE resistance check — you maintain your full judgment during the Shell-state-adjacent state.
 - When you kill a Shell-state or Iron Afterlife entity, you can choose to not absorb their resonance (previous versions of this path absorbed automatically; you now have control).
-- You can choose to share a fragment of your absorbed resonance with a willing creature, granting them resistance to necrotic damage for 24 hours. The fragment comes from you — it reduces your resonance absorption and creates a 24-hour window where your Dark Mirror abilities function at half effectiveness.
+- You can choose to share a fragment of your absorbed resonance with a willing creature, granting them resistance to resonant damage for 24 hours. The fragment comes from you — it reduces your resonance absorption and creates a 24-hour window where your Dark Mirror abilities function at half effectiveness.
 
 ---
 

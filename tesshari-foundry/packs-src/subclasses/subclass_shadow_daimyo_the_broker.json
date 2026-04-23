@@ -10,7 +10,7 @@
     "features": {
       "3": {
         "name": "Safe Passage",
-        "html": "<p>You carry the informal protection of the Broker tradition. Creatures and organizations that recognize your role as a neutral Broker cannot attack you without losing significant social standing and intelligence access. You gain +3 to resistance checks against attacks from creatures who know your role. Once per long rest, in any hostile situation, you can declare neutrality: all parties must make a RESONANCE resistance check (DC = your Shadow Daimyo save DC) or be unable to act against you for 1 minute while they calculate the cost of violating broker immunity.</p>"
+        "html": "<p>You carry the informal protection of the Broker tradition. Creatures and organizations that recognize your role as a neutral Broker cannot attack you without losing significant social standing and intelligence access. You gain +3 to resistance checks against attacks from creatures who know your role. Once per long rest, in any hostile situation, you can declare neutrality: all parties must make a RESONANCE resistance check (difficulty (stat-based)) or be unable to act against you for 1 minute while they calculate the cost of violating broker immunity.</p>"
       },
       "6": {
         "name": "The Middle Market",

@@ -574,7 +574,7 @@ You can open a Wire channel to the Iron Afterlife directly. As an action (10 Wea
 Your understanding of the Iron Afterlife's Wire structure has become architectural. You can:
 - Map the locations of Echominds in the Iron Afterlife relative to the physical world.
 - Detect when an Echomind from the Iron Afterlife is attempting to push through into the physical world, and trace their origin point.
-- Temporarily suppress an Iron Afterlife entity's ability to manifest in the physical world (contested Intelligence check; on success, the entity cannot manifest for 1 hour).
+- Temporarily suppress an Iron Afterlife entity's ability to manifest in the physical world (contested SIGNAL; on success, the entity cannot manifest for 1 hour).
 - Once per day, extract a specific piece of information from an Echomind in the Iron Afterlife without their cooperation — the extraction requires 1 hour and a SIGNAL check, difficulty 5, and it leaves traces that the extracted Echomind will resent.
 
 **Level 14: Between Sovereign**
@@ -594,7 +594,7 @@ As part of a short rest, you can construct one of the following Wire nodes using
 - **Sensor Node:** Monitors a 60-foot area, transmitting to your interface kit. You receive notifications of any Wire activity, physical movement, or enhancement use within the area.
 - **Encryption Node:** Creates an encrypted Wire channel within 60 feet that cannot be intercepted except by a SIGNAL check, difficulty 5.
 
-Nodes last for 24 hours unless physically destroyed. You can maintain a number of nodes equal to your Intelligence modifier.
+Nodes last for 24 hours unless physically destroyed. You can maintain a number of nodes equal to your SIGNAL.
 
 **Level 6: Field Upgrade**
 You can perform Wire enhancement upgrades on willing creatures during a short rest. Choose one enhancement upgrade per creature:

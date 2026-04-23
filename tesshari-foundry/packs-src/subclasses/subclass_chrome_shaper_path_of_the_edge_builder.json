@@ -14,7 +14,7 @@
       },
       "6": {
         "name": "Failure Analysis",
-        "html": "<p>Your comprehensive documentation of failure modes has built an enormous knowledge base. You gain:\r - Advantage on all checks related to identifying the cause of enhancement malfunction.\r - Once per long rest, when an Experimental Frame fails catastrophically, you can attempt an emergency catch — rolling Intelligence vs. DC 15 — to reduce the failure effect to half (1 level of exhaustion instead of 2, half damage, etc.).\r - When observing any enhancement failure (ally or enemy), you can identify the specific design flaw causing it as a reaction.</p>"
+        "html": "<p>Your comprehensive documentation of failure modes has built an enormous knowledge base. You gain:\r - +3 to all checks related to identifying the cause of enhancement malfunction.\r - Once per long rest, when an Experimental Frame fails catastrophically, you can attempt an emergency catch — rolling SIGNAL vs. difficulty 15 — to reduce the failure effect to half (1 level of exhaustion instead of 2, half damage, etc.).\r - When observing any enhancement failure (ally or enemy), you can identify the specific design flaw causing it as a reaction.</p>"
       },
       "10": {
         "name": "Theoretical Limit",

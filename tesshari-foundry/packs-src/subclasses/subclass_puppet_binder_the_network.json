@@ -10,7 +10,7 @@
     "features": {
       "3": {
         "name": "Distributed Awareness",
-        "html": "<p>You can maintain split awareness with up to two vessels simultaneously without the penalty (reduced speed, disadvantage on Wisdom checks) that normally applies. The third split costs the normal penalty.</p>"
+        "html": "<p>You can maintain split awareness with up to two vessels simultaneously without the penalty (reduced speed, −3 to RESONANCE checks) that normally applies. The third split costs the normal penalty.</p>"
       },
       "6": {
         "name": "Rapid Deployment",
@@ -22,7 +22,7 @@
       },
       "14": {
         "name": "Maximum Deployment",
-        "html": "<p>Your vessel maximum doubles. Your Thread maximum increases by 4. Once per long rest, for 1 hour, your Network operates at full efficiency: all vessels are fully occupied simultaneously (not split awareness — full occupation, multiple instances of you), each taking independent actions, each fully capable. Coordinating this many instances requires a DC 15 Intelligence check at the start of each round; on a failure, one vessel of your choice loses its action for that round due to coordination breakdown. When this effect ends, you gain two levels of exhaustion as your Echomind reconsolidates.\r</p>\n<p>---</p>"
+        "html": "<p>Your vessel maximum doubles. Your Thread maximum increases by 4. Once per long rest, for 1 hour, your Network operates at full efficiency: all vessels are fully occupied simultaneously (not split awareness — full occupation, multiple instances of you), each taking independent actions, each fully capable. Coordinating this many instances requires a difficulty 15 SIGNAL at the start of each round; on a failure, one vessel of your choice loses its action for that round due to coordination breakdown. When this effect ends, you gain two levels of exhaustion as your Echomind reconsolidates.\r</p>\n<p>---</p>"
       }
     },
     "description": "<p>The Network Puppet Binder maintains multiple vessels simultaneously, each specialized, each deployed differently, each operating as a distinct presence in the world while the original body sits quietly somewhere and manages the connections. It is, in the language of the Wire Market, a distributed operation. It is, in the language of the Iron Sutra, a spiritual fragmentation that the text did not anticipate. It is, in practical terms, the most logistically powerful version of the practice — the ability to be in three districts, four conversations, and one battlefield at the same time.</p>"

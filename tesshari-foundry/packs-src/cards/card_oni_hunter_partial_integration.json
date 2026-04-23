@@ -22,7 +22,7 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>You deliberately channel a controlled burst of dissolution resonance through your system. Until your next turn: all your attacks deal maximum base damage, you cannot be frightened or charmed. After this card resolves, you must save against Overheat 1 (automatic — no roll, the cost is fixed). You accept it. This is the work.</p>"
+    "description": "<p>You deliberately channel a controlled burst of dissolution resonance through your system. Until your next turn: all your attacks deal maximum base damage, you cannot be frightened or charmed. After this card resolves, you must resistance check against Overheat 1 (automatic — no roll, the cost is fixed). You accept it. This is the work.</p>"
   },
   "effects": [],
   "flags": {

@@ -10,7 +10,7 @@
     "features": {
       "3": {
         "name": "Anchor's Toll",
-        "html": "<p>The weight of being the wall is real. While your Ward the Veil is active, you take 1d4 psychic damage at the start of each of your turns. This damage cannot be prevented. It is the cost of the barrier.</p>"
+        "html": "<p>The weight of being the wall is real. While your Ward the Veil is active, you take 3 signal damage at the start of each of your turns. This damage cannot be prevented. It is the cost of the barrier.</p>"
       },
       "6": {
         "name": "Expanded Ward",
@@ -18,7 +18,7 @@
       },
       "10": {
         "name": "The Wall Fights Back",
-        "html": "<p>When an Afterlife entity or any creature using Iron Afterlife energy (puppet technology, void walking, etc.) attempts to operate within your Ward the Veil, they take 3d8 radiant damage (Constitution save for half) as the ward resists them. This damage applies once per attempt (not per round of sustained use).</p>"
+        "html": "<p>When an Afterlife entity or any creature using Iron Afterlife energy (puppet technology, void walking, etc.) attempts to operate within your Ward the Veil, they take 14 resonant damage (FRAME for half) as the ward resists them. This damage applies once per attempt (not per round of sustained use).</p>"
       },
       "14": {
         "name": "The Final Holding",

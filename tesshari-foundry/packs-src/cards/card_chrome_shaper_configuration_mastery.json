@@ -22,7 +22,7 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Your reconfigurations have reached surgical depth. All Config cards you play (Speed Config, Armor Config, Strength Config, Sense Config, Phase Config, Resonant Config, Recovery Config) grant an additional secondary effect: the target also gains Regen 2 for 1 round after the Config resolves.</p>"
+    "description": "<p>Your reconfigurations have reached surgical depth. All Config cards you play (Speed Config, Armor Config, IRON Config, Sense Config, Phase Config, Resonant Config, Recovery Config) grant an additional secondary effect: the target also gains Regen 2 for 1 round after the Config resolves.</p>"
   },
   "effects": [],
   "flags": {

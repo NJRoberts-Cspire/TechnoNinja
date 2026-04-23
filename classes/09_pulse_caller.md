@@ -507,11 +507,11 @@ In the lower castes, Pulse Callers occupy a position of specific prestige: they 
 The Single Point Pulse Caller has taken the precision principle and sharpened it to a single, complete philosophy: one target, delivered with absolute certainty. They are not generalists. They are not the combat class that adapts to changing situations. They identify the single most important target in any situation and they eliminate it with absolute efficiency. Their value in any engagement is the elimination of the most threatening or most important presence — the enemy command element, the single powerful defender, the key figure whose death changes the outcome. They do one thing and they do it with a completeness that is almost aesthetically compelling.
 
 **Level 3: Focal Point**
-You can designate one creature as your Focal Point as a bonus action. Your attacks against the Focal Point deal an additional 1d10 damage. Your Focal Point designation persists until the creature dies, you change it (bonus action), or combat ends. You can have only one Focal Point at a time.
+You can designate one creature as your Focal Point as a bonus action. Your attacks against the Focal Point deal an additional 6 damage. Your Focal Point designation persists until the creature dies, you change it (bonus action), or combat ends. You can have only one Focal Point at a time.
 
 **Level 6: Killing Ground**
 When your Focal Point is within your weapon's normal range and no other creature is between you and them:
-- Your attacks against your Focal Point have advantage.
+- Your attacks against your Focal Point gain +3.
 - Your critical hit range against your Focal Point extends by 1 (cumulative with Dead Eye: 17-20 by level 6).
 
 **Level 10: Center Mass**
@@ -520,9 +520,9 @@ Your shots against your Focal Point hit with such precision that the target's de
 **Level 14: The One Shot**
 Once per long rest, you can spend your full action to prepare and execute a perfect shot against your Focal Point. This shot:
 - Cannot miss.
-- Deals 10d10 + your Dexterity modifier + your Wisdom modifier damage.
-- If this reduces the target to 0 hit points, they are killed instantly (no resistance checks, no stabilization, no revival of any kind short of true resurrection magic equivalent).
-- If this does not reduce the target to 0 hit points, they are at half their remaining hit points (the shot still did catastrophic damage to the wrong part of their system — round down).
+- Deals 55 + your EDGE + your RESONANCE damage.
+- If this reduces the target to 0 HP, they are killed instantly (no resistance checks, no stabilization, no revival of any kind short of true resurrection magic equivalent).
+- If this does not reduce the target to 0 HP, they are at half their remaining HP (the shot still did catastrophic damage to the wrong part of their system — round down).
 
 ---
 
@@ -533,19 +533,19 @@ The Iron Suppressor has built their practice around area denial and crowd contro
 **Level 3: Area Protocol**
 Your Suppression Fire technique is enhanced:
 - Its area of effect extends to 30-foot-wide.
-- The resistance check DC is now your Weave-equivalent DC (8 + proficiency + Wisdom modifier).
+- The resistance check DC is now your Weave-equivalent DC (8 + proficiency + RESONANCE).
 - Creatures who fail the check also have -3 to Attack cards on their first attack (not just movement reduction).
 
 Additionally, you can maintain Suppression Fire as a concentration effect (up to 1 minute), re-establishing the fire area at the start of each of your turns without using your action.
 
 **Level 6: Zone Control**
 You can designate a Kill Zone — a 30-foot radius area within your weapon's normal range. As a bonus action, you establish the Kill Zone. While active (up to 1 minute, concentration):
-- Any creature that moves more than 15 feet in a single turn within the Kill Zone takes 2d8 damage.
-- Creatures that end their turn in the Kill Zone must make an EDGE resistance check (DC = 8 + proficiency + Wisdom modifier) or be unable to take the Dash action on their next turn.
+- Any creature that moves more than 15 feet in a single turn within the Kill Zone takes 9 damage.
+- Creatures that end their turn in the Kill Zone must make an EDGE resistance check (difficulty (stat-based)) or be unable to take the Dash action on their next turn.
 
 **Level 10: Full Suppression**
-Once per short rest, as an action, you can execute a Full Suppression — a comprehensive discharge that locks down a 60-foot radius area for 1 round. All creatures in the area (friend and foe) make EDGE resistance checks (DC = 8 + proficiency + Wisdom modifier). On a failure:
-- They take 4d8 resonant damage.
+Once per short rest, as an action, you can execute a Full Suppression — a comprehensive discharge that locks down a 60-foot radius area for 1 round. All creatures in the area (friend and foe) make EDGE resistance checks (difficulty (stat-based)). On a failure:
+- They take 18 resonant damage.
 - They cannot take reactions until the start of their next turn.
 - They cannot move more than 10 feet on their next turn.
 
@@ -554,7 +554,7 @@ On a success: half damage, no other effects.
 **Level 14: Denied**
 Your area control has reached its terminal expression. Once per long rest, as an action, you can declare an area Denied — a 60-foot radius that exists for 10 minutes. Within the Denied area:
 - No creature (friend or foe) can take the Dash action.
-- Any creature that attempts to enter the area from outside must make an EDGE resistance check (DC = 8 + proficiency + Wisdom modifier) or take 6d8 resonant damage and be knocked prone at the entry point.
+- Any creature that attempts to enter the area from outside must make an EDGE resistance check (difficulty (stat-based)) or take 27 resonant damage and be knocked prone at the entry point.
 - You can move freely through the Denied area without affecting yourself.
 
 ---
@@ -567,22 +567,22 @@ The Resonant Shot Pulse Caller has found the spiritual dimension of their practi
 Your discharge systems have been tuned to interact with resonant frequencies beyond the physical. You gain:
 - Your integrated weapon deals full damage to incorporeal entities, Iron Afterlife manifestations, and entities that are immune to non-magical weapons.
 - You can see entities connected to the Iron Afterlife within 60 feet, even if they are otherwise invisible or incorporeal.
-- Once per turn, your shot can target a resonant frequency rather than a physical location — hitting an invisible entity you can sense (no disadvantage for attacking invisible targets that you can sense via Spiritual Calibration).
+- Once per turn, your shot can target a resonant frequency rather than a physical location — hitting an invisible entity you can sense (no penalty for attacking invisible targets that you can sense via Spiritual Calibration).
 
 **Level 6: Between the Shots**
 Your ability to interact with resonant space between the physical and digital has grown. You gain:
-- Once per short rest, you can fire a Between Shot — a shot that crosses into the Iron Afterlife's resonant layer and affects both physical and spiritual targets simultaneously. This shot affects all creatures (physical and incorporeal) in a 5-foot-wide, 120-foot-long line. Each takes 3d10 resonant damage (EDGE resistance check for half, DC = 8 + proficiency + Wisdom modifier).
-- When you reduce an Iron Afterlife entity to 0 hit points, you can choose to Anchor it — preventing its return to the Iron Afterlife for 24 hours. It is temporarily bound to the physical world and vulnerable.
+- Once per short rest, you can fire a Between Shot — a shot that crosses into the Iron Afterlife's resonant layer and affects both physical and spiritual targets simultaneously. This shot affects all creatures (physical and incorporeal) in a 5-foot-wide, 120-foot-long line. Each takes 17 resonant damage (EDGE resistance check for half, difficulty (stat-based)).
+- When you reduce an Iron Afterlife entity to 0 HP, you can choose to Anchor it — preventing its return to the Iron Afterlife for 24 hours. It is temporarily bound to the physical world and vulnerable.
 
 **Level 10: Soul Shot**
-Your shots can now affect the Echomind directly. Once per short rest, as an action, you can fire a Soul Shot at one creature within normal range. This shot bypasses all physical defenses (AC is irrelevant — it hits automatically). The target makes a RESONANCE resistance check (DC = 8 + proficiency + Wisdom modifier). On a failure:
-- They take 5d10 resonant damage.
+Your shots can now affect the Echomind directly. Once per short rest, as an action, you can fire a Soul Shot at one creature within normal range. This shot bypasses all physical defenses (this bypasses all mitigation — it hits automatically). The target makes a RESONANCE resistance check (difficulty (stat-based)). On a failure:
+- They take 28 resonant damage.
 - Their Echomind is disrupted — their class features that rely on spiritual, resonant, or Echomind connection are suppressed for 1 minute.
 - If they are an Iron Afterlife entity, they must pass to the Iron Afterlife (they are destroyed in the physical world) — no resistance checks.
 
 **Level 14: Convergence Fire**
-Your Resonant Shot abilities have reached their highest expression. Once per long rest, as an action, you can fire a Convergence Shot — a discharge that targets the resonant structure of reality in a 30-foot radius sphere. Every creature in the area makes a RESONANCE resistance check (DC = 8 + proficiency + Wisdom modifier):
-- On a failure: 8d10 resonant damage and all enhancement features, class features, and spiritual abilities are suppressed for 1 minute.
+Your Resonant Shot abilities have reached their highest expression. Once per long rest, as an action, you can fire a Convergence Shot — a discharge that targets the resonant structure of reality in a 30-foot radius sphere. Every creature in the area makes a RESONANCE resistance check (difficulty (stat-based)):
+- On a failure: 44 resonant damage and all enhancement features, class features, and spiritual abilities are suppressed for 1 minute.
 - On a success: half damage, no suppression.
 
 Additionally, any Iron Afterlife presence in the area — entities, hauntings, anchoring resonances, death-resonance buildups — is completely purged. The area is spiritually clean for 24 hours afterward. The Sutensai would call this a miracle if their theology allowed for miracles accomplished with integrated pulse weapons.

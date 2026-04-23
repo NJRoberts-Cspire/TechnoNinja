@@ -10,19 +10,19 @@
     "features": {
       "3": {
         "name": "Interference Detection",
-        "html": "<p>You always know when you are in an area with Wire Craft interference, jamming, or monitoring. You can identify the source and nature of interference within 1 mile with a DC 12 Intelligence check. You can work around interference — your communications succeed through normal jamming effects.</p>"
+        "html": "<p>You always know when you are in an area with Wire Craft interference, jamming, or monitoring. You can identify the source and nature of interference within 1 mile with a difficulty 12 SIGNAL. You can work around interference — your communications succeed through normal jamming effects.</p>"
       },
       "6": {
         "name": "Signal Intercept",
-        "html": "<p>Once per short rest, you can attempt to intercept one Wire Craft communication within your range that you did not initiate. Make an Intelligence check (DC = 10 + the signal's encryption strength). On success, you receive the complete content of the communication. On failure, you receive fragments and the sender knows an interception was attempted.</p>"
+        "html": "<p>Once per short rest, you can attempt to intercept one Wire Craft communication within your range that you did not initiate. Make an SIGNAL (difficulty (stat-based)). On success, you receive the complete content of the communication. On failure, you receive fragments and the sender knows an interception was attempted.</p>"
       },
       "10": {
         "name": "Area Jamming",
-        "html": "<p>Once per long rest, you can jam all Wire Craft communications in a 1-mile radius centered on you for 10 minutes. Your own communications and those of up to your Intelligence modifier designated allies are unaffected by the jam. For the duration, the jammed area is effectively cut off from all external signal communication.</p>"
+        "html": "<p>Once per long rest, you can jam all Wire Craft communications in a 1-mile radius centered on you for 10 minutes. Your own communications and those of up to your SIGNAL designated allies are unaffected by the jam. For the duration, the jammed area is effectively cut off from all external signal communication.</p>"
       },
       "14": {
         "name": "The Signal Network",
-        "html": "<p>You have established a permanent, resilient communication network across the territories you operate in. This network: maintains communication between all nodes regardless of local interference, cannot be fully destroyed without neutralizing every node (your Intelligence modifier × 3 locations), and provides you with ambient intelligence about any location that has a node. Once per long rest, you can activate Emergency Signal Broadcast through your network: every Wire Craft-capable creature within your network's range simultaneously receives a single message, audio signal, or tactical instruction of your choice. There is no response option on this broadcast. You speak; the network carries it; every node hears.\r</p>\n<p>---</p>"
+        "html": "<p>You have established a permanent, resilient communication network across the territories you operate in. This network: maintains communication between all nodes regardless of local interference, cannot be fully destroyed without neutralizing every node (your SIGNAL × 3 locations), and provides you with ambient intelligence about any location that has a node. Once per long rest, you can activate Emergency Signal Broadcast through your network: every Wire Craft-capable creature within your network's range simultaneously receives a single message, audio signal, or tactical instruction of your choice. There is no response option on this broadcast. You speak; the network carries it; every node hears.\r</p>\n<p>---</p>"
       }
     },
     "description": "<p>The Signal is the Merchant of information infrastructure — the Herald who has specialized entirely in the Wire Craft communication capabilities that all Heralds have to some degree, and pushed them to their absolute limit. They are the people who keep the communication networks running, who establish secure channels in the middle of war zones, who identify and neutralize enemy signal interference, and who, when the situation calls for it, can black out an enemy's communication capabilities entirely. They are the infrastructure of coordinated civilization, and they know exactly how much civilization depends on them.</p>"

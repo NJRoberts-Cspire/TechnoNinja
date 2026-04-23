@@ -18,7 +18,7 @@
       },
       "10": {
         "name": "Entity Command",
-        "html": "<p>The Sutensai's institutional authority extends into the Iron Afterlife when wielded by a Veil Master. Afterlife entities you encounter must succeed on a RESONANCE resistance check (DC = your Faith Save DC) or comply with reasonable requests (not commands that violate their nature). On a failed save, they treat you as a recognized Sutensai official and respond accordingly. This does not grant control — it grants institutional standing, which is a different thing.</p>"
+        "html": "<p>The Sutensai's institutional authority extends into the Iron Afterlife when wielded by a Veil Master. Afterlife entities you encounter must succeed on a RESONANCE resistance check (difficulty (stat-based)) or comply with reasonable requests (not commands that violate their nature). On a failed save, they treat you as a recognized Sutensai official and respond accordingly. This does not grant control — it grants institutional standing, which is a different thing.</p>"
       },
       "14": {
         "name": "The Final Map",

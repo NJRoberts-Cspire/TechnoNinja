@@ -10,19 +10,19 @@
     "features": {
       "3": {
         "name": "Modular Design",
-        "html": "<p>Your constructed vessels are built in modular sections. When a vessel is at 0 hit points and destroyed, you can salvage usable components — each destroyed vessel provides components worth 50 gp for the next vessel you build. Additionally, you can transfer a specialization from a destroyed vessel to a new one during construction at no additional time cost.</p>"
+        "html": "<p>Your constructed vessels are built in modular sections. When a vessel is at 0 HP and destroyed, you can salvage usable components — each destroyed vessel provides components worth 50 gp for the next vessel you build. Additionally, you can transfer a specialization from a destroyed vessel to a new one during construction at no additional time cost.</p>"
       },
       "6": {
         "name": "Combat Architecture",
-        "html": "<p>You can construct a vessel specifically designed for combat. A Combat Vessel has your full attack bonus, deals 1d10 + your Intelligence modifier damage on unarmed strikes, and has an AC equal to 14 + your Intelligence modifier. Building a Combat Vessel requires your base construction time + 4 additional hours. You can have one Combat Vessel active at a time (it occupies one vessel slot as normal).</p>"
+        "html": "<p>You can construct a vessel specifically designed for combat. A Combat Vessel has your full attack bonus, deals 6 + your SIGNAL damage on unarmed strikes, and has an AC equal to 14 + your SIGNAL. Building a Combat Vessel requires your base construction time + 4 additional hours. You can have one Combat Vessel active at a time (it occupies one vessel slot as normal).</p>"
       },
       "10": {
         "name": "The Workshop",
-        "html": "<p>You have mastered large-scale vessel production. Given a workshop space and 24 hours, you can construct up to your Intelligence modifier vessels simultaneously. You can also construct vessels with two specializations in the standard construction time (the second is built in parallel). Your vessel maximum increases by 2.</p>"
+        "html": "<p>You have mastered large-scale vessel production. Given a workshop space and 24 hours, you can construct up to your SIGNAL vessels simultaneously. You can also construct vessels with two specializations in the standard construction time (the second is built in parallel). Your vessel maximum increases by 2.</p>"
       },
       "14": {
         "name": "Masterwork",
-        "html": "<p>Once per month, you can construct a Masterwork vessel: a vessel that operates at combat-applicable level without your direct occupation. The Masterwork has its own initiative, its own action, and follows complex standing instructions (up to paragraph-length instructions, with the ability to make simple judgment calls about implementation). The Masterwork has statistics equivalent to a CR 5 construct, custom-designed. It does not require a Thread while following standing instructions. You can have one Masterwork active at a time.\r</p>\n<p>---</p>"
+        "html": "<p>Once per month, you can construct a Masterwork vessel: a vessel that operates at combat-applicable level without your direct occupation. The Masterwork has its own initiative, its own action, and follows complex standing instructions (up to paragraph-length instructions, with the ability to make simple judgment calls about implementation). The Masterwork has statistics equivalent to a Tier 5 construct, custom-designed. It does not require a Thread while following standing instructions. You can have one Masterwork active at a time.\r</p>\n<p>---</p>"
       }
     },
     "description": "<p>The Architect has reframed Puppet Binding entirely as an engineering discipline. They build vessels with specific functions: a scouting form with enhanced sensors, a labor form with reinforced structure, a combat form designed for a specific tactical role. They are artificers as much as practitioners — the Echomind extension is the power delivery mechanism; the design of what receives that power is where the artistry lies. The Architect's workshop is a significant installation. Their vessels are recognizably constructed — they do not try to pass for living people. This aesthetic choice is, among other things, an ethical statement.</p>"

@@ -10,7 +10,7 @@
     "features": {
       "3": {
         "name": "Adaptive Biology",
-        "html": "<p>Your body responds to damage by adapting rather than simply recovering. When you take more than 10 damage from a single source, roll 1d6. On a 4-6, you gain resistance to that damage type until the end of your next long rest, as your tissue rebuilds with enhanced resistance. You cannot gain resistance to the same damage type twice from this feature at the same time.</p>"
+        "html": "<p>Your body responds to damage by adapting rather than simply recovering. When you take more than 10 damage from a single source, roll 4. On a 4-6, you gain resistance to that damage type until the end of your next long rest, as your tissue rebuilds with enhanced resistance. You cannot gain resistance to the same damage type twice from this feature at the same time.</p>"
       },
       "6": {
         "name": "Reshaping",

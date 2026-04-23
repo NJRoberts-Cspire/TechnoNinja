@@ -360,7 +360,7 @@ Choose 2 of the following 3 cards to begin with. You gain the third at Level 2.
 The Breaker uses enhancement failures not as byproducts of combat but as primary offensive tools. They have weaponized specific malfunction types — the spark discharge of a power regulator failure, the shockwave of a structural enhancement going critical, the blinding flash of a sensory enhancement cascade — and deploy them with the same intentionality that a standard fighter deploys a sword. The difference is that a sword does the same thing every time. The Breaker's tools are never exactly the same twice.
 
 **Level 3: Failure Cascade Attack**
-When you take damage, as a reaction, you can spend 1 Malfunction Charge to immediately make one melee attack against the attacker. This attack deals an extra 2d6 damage of your enhancement type. You can use this reaction once per round.
+When you take damage, as a reaction, you can spend 1 Malfunction Charge to immediately make one melee attack against the attacker. This attack deals an extra 7 damage of your enhancement type. You can use this reaction once per round.
 
 **Level 3: Overload Strike**
 Once per short rest, declare an Overload Strike before making an attack. If the attack hits, it deals maximum damage. The enhancement used for the overload enters a failure state for 1 hour, removing it from standard function but generating 2 Malfunction Charges.
@@ -372,28 +372,28 @@ When you score a critical hit, the critical hit also triggers a Controlled Disch
 When you trigger Tactical Failure, the radius increases to 25 feet. Additionally, you can trigger two different enhancement failures simultaneously with one Tactical Failure action, each producing its own damage type and area. Creatures caught in both areas take both damage types in full.
 
 **Level 14: The Perfect Catastrophe**
-Once per long rest, declare a Perfect Catastrophe. All of your enhancements simultaneously enter their most extreme failure state for 1 round. Every creature within 30 feet takes 6d10 damage of your enhancement type (Dexterity save for half). You take 4d10 damage of the same type (cannot be reduced). You gain 10 Malfunction Charges. For the following round, every attack you make with a melee weapon deals an extra 3d10 damage from the cascade energy still running through you. After this round, all your enhancements enter a complete shutdown for 10 minutes (they operate at minimum function — you are standard physical, no enhancement bonuses). When they restart, they restart clean.
+Once per long rest, declare a Perfect Catastrophe. All of your enhancements simultaneously enter their most extreme failure state for 1 round. Every creature within 30 feet takes 33 damage of your enhancement type (EDGE for half). You take 22 damage of the same type (cannot be reduced). You gain 10 Malfunction Charges. For the following round, every attack you make with a melee weapon deals an extra 17 damage from the cascade energy still running through you. After this round, all your enhancements enter a complete shutdown for 10 minutes (they operate at minimum function — you are standard physical, no enhancement bonuses). When they restart, they restart clean.
 
 ---
 
 ### The Survivor — "I've Already Been Through the Thing That Would Kill You"
 
-The Survivor has taken the Shell Dancer's fundamental approach and pushed it entirely toward endurance. They take more damage than any other class and continue. Not because they are less vulnerable — because their body has been trained through repeated exposure to failure states to simply continue. They have been at 0 hit points more times than most practitioners have been at 25%. They have developed the specific competency of a person for whom crisis is the normal operating environment.
+The Survivor has taken the Shell Dancer's fundamental approach and pushed it entirely toward endurance. They take more damage than any other class and continue. Not because they are less vulnerable — because their body has been trained through repeated exposure to failure states to simply continue. They have been at 0 HP more times than most practitioners have been at 25%. They have developed the specific competency of a person for whom crisis is the normal operating environment.
 
-**Level 3: Iron Constitution**
-When you make a resistance check to resist death, you succeed on any roll of 6 or higher. Once per long rest, when you would fail three such resistance checks and die, you instead automatically stabilize at 1 hit point. Your body has refused to stop more times than you can count. It has not stopped learning from the practice.
+**Level 3: Iron FRAME**
+When you make a resistance check to resist death, you succeed on any roll of 6 or higher. Once per long rest, when you would fail three such resistance checks and die, you instead automatically stabilize at 1 HP. Your body has refused to stop more times than you can count. It has not stopped learning from the practice.
 
 **Level 3: Damage Absorption**
-When you take damage of any type, reduce it by your Constitution modifier (minimum 1). This is not resistance — it is physical tolerance. You have been hit this way before. Your body knows where to route the impact.
+When you take damage of any type, reduce it by your FRAME (minimum 1). This is not resistance — it is physical tolerance. You have been hit this way before. Your body knows where to route the impact.
 
 **Level 6: Battle Hardened**
-While below half your hit points, you gain +3 to FRAME and IRON resistance checks. Additionally, when you draw from your HP pool during a short rest, you can roll the die twice and take the higher result.
+While below half your HP, you gain +3 to FRAME and IRON resistance checks. Additionally, when you draw from your HP pool during a short rest, you can roll the die twice and take the higher result.
 
 **Level 10: Endurance Beyond Reason**
-Once per short rest, when you would be knocked unconscious (reduced to 0 hit points), you can continue fighting at 1 hit point for 1 additional round. During this round, you gain +3 to Attack cards and cannot be affected by conditions other than death. At the end of this round, if you have not been healed to above 0 hit points, you fall unconscious normally. The Survivor calls this the Last Round, and they have enough of them that they have started counting.
+Once per short rest, when you would be knocked unconscious (reduced to 0 HP), you can continue fighting at 1 HP for 1 additional round. During this round, you gain +3 to Attack cards and cannot be affected by conditions other than death. At the end of this round, if you have not been healed to above 0 HP, you fall unconscious normally. The Survivor calls this the Last Round, and they have enough of them that they have started counting.
 
 **Level 14: Unkillable**
-Once per long rest, when you would die (three failed death saves, massive damage, etc.), you do not. You stabilize at 1 hit point and immediately gain Malfunction Charges equal to your Constitution modifier. Your enhancements are in critical failure state from whatever killed you (would have killed you) — they may look catastrophic. You continue. You have always continued.
+Once per long rest, when you would die (three failed death saves, massive damage, etc.), you do not. You stabilize at 1 HP and immediately gain Malfunction Charges equal to your FRAME. Your enhancements are in critical failure state from whatever killed you (would have killed you) — they may look catastrophic. You continue. You have always continued.
 
 ---
 
@@ -402,19 +402,19 @@ Once per long rest, when you would die (three failed death saves, massive damage
 The Scavenger has developed the most technically unusual Shell Dancer ability: temporary mid-combat integration of salvaged components from defeated enemies. The integration is rough, impermanent, and occasionally painful to sustain. It works. The Scavenger approaches every combat with an eye toward what they can take from their opponents and use before the encounter ends.
 
 **Level 3: Rapid Salvage**
-When a creature with cybernetic enhancements falls within 5 feet of you (drops to 0 hit points or dies), you can use your reaction to rapidly extract one enhancement component. Make a Sleight of Hand check (DC 14). On success, you have the component available for Temporary Integration (see below). The extracted component is non-functional to the original creature (it has been physically removed).
+When a creature with cybernetic enhancements falls within 5 feet of you (drops to 0 HP or dies), you can use your reaction to rapidly extract one enhancement component. Make a Sleight of Hand check (difficulty 14). On success, you have the component available for Temporary Integration (see below). The extracted component is non-functional to the original creature (it has been physically removed).
 
 **Level 3: Temporary Integration**
-As a bonus action, you can integrate a salvaged enhancement component temporarily. Make a Constitution check (DC = 10 + number of components currently integrated). On success, you gain the use of the component's primary function for 1d4 + 1 hours. On failure, the integration is rejected — you take 1d6 necrotic damage and cannot attempt to integrate that specific component again until your next short rest. You can have a number of components integrated simultaneously equal to half your Constitution modifier (rounded down, minimum 1).
+As a bonus action, you can integrate a salvaged enhancement component temporarily. Make a FRAME (difficulty (stat-based)). On success, you gain the use of the component's primary function for 4 hours. On failure, the integration is rejected — you take 4 resonant damage and cannot attempt to integrate that specific component again until your next short rest. You can have a number of components integrated simultaneously equal to half your FRAME (rounded down, minimum 1).
 
 **Level 6: Improved Salvage**
-You can now salvage components as a bonus action instead of a reaction. Additionally, your Temporary Integration checks are made at advantage, and the DC does not increase beyond 16 regardless of how many components you have integrated.
+You can now salvage components as a bonus action instead of a reaction. Additionally, your Temporary Integration checks are made with +3, and the DC does not increase beyond 16 regardless of how many components you have integrated.
 
 **Level 10: Selective Integration**
 You can now choose which specific function you integrate from a multi-function enhancement component. When you extract a component, you know its full capability range and can select the most useful function. Additionally, integrated components now last for the duration of the combat plus 1 hour (the component eventually rejects, but you get the full fight out of it).
 
 **Level 14: The Built Environment**
-You have integrated so many temporary components that your body has developed a kind of baseline receptivity to foreign enhancements. Temporary Integrations last 8 hours (instead of 1d4 + 1). You can have your full Constitution modifier in simultaneously integrated components. Once per long rest, you can integrate a component you have salvaged from a significant opponent (a commander, a named character, a creature of CR 8+) and gain its full capability for 24 hours — the integration is deep enough for sustained use. When the integration ends, the component degrades completely (it was not made for you, and your body's use has been thorough).
+You have integrated so many temporary components that your body has developed a kind of baseline receptivity to foreign enhancements. Temporary Integrations last 8 hours (instead of 4). You can have your full FRAME in simultaneously integrated components. Once per long rest, you can integrate a component you have salvaged from a significant opponent (a commander, a named character, a creature of Tier 8+) and gain its full capability for 24 hours — the integration is deep enough for sustained use. When the integration ends, the component degrades completely (it was not made for you, and your body's use has been thorough).
 
 ---
 

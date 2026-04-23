@@ -20,7 +20,7 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Your presence stabilizes enhancement networks in proximity. All allies within 30 feet who have received Forge Mending from you gain advantage on death-equivalent saves (GM ruling). Enhancement disruption effects on allies within 30 feet last 1 turn less than normal. When you use Forge Mending, the resonance radiates — all allies within 5 feet of the target recover RESONANCE HP as secondary healing.</p>"
+    "description": "<p>Your presence stabilizes enhancement networks in proximity. All allies within 30 feet who have received Forge Mending from you gain +3 to death-equivalent saves (GM ruling). Enhancement disruption effects on allies within 30 feet last 1 turn less than normal. When you use Forge Mending, the resonance radiates — all allies within 5 feet of the target recover RESONANCE HP as secondary healing.</p>"
   },
   "effects": [],
   "flags": {

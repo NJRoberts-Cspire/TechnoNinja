@@ -1,0 +1,41 @@
+{
+  "_id": "835cdd8bf8a1dc0d",
+  "_key": "!items!835cdd8bf8a1dc0d",
+  "name": "The Shell",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "The Hollow",
+    "pathKey": "the_shell",
+    "features": {
+      "3": {
+        "name": "Chassis Dominant",
+        "html": "<p>Your mechanical body outputs beyond what biology permits. Your melee Attack cards deal +2 + FRAME bonus damage (fixed). You are immune to Bleed and Burn from purely physical sources — they still affect you from resonant sources, which the tissue that remains can still register. Critical hits against you are reduced by FRAME before other mitigation; your redundant mechanical systems absorb what biology cannot.</p>"
+      },
+      "6": {
+        "name": "Silent Maintenance",
+        "html": "<p>One hour of chassis maintenance (fluids, resonant-metal tuning, power-cell exchange) replaces 8 hours of rest; you do not require food, water, or sleep. Your body no longer displays pain, fatigue, or emotional affect in ways observable to others. You gain +3 to VEIL cards involving stoicism, deception, or the appearance of composure. Your condition can only be accurately determined through direct Signal scanning — to casual inspection, you are unreadable.</p>"
+      },
+      "10": {
+        "name": "Mechanical Persistence",
+        "html": "<p>When you are reduced to 0 HP, instead of falling unconscious you enter Persistent-Shell state: you remain active at 1 HP, cannot be healed above 1 HP by normal means, and all damage you deal while in this state is halved. At the start of each of your turns in Persistent-Shell, make a RESONANCE resistance check (difficulty 4). On failure, your Echomind briefly disengages from the body and you fall unconscious for the remainder of the combat. On success, Persistent-Shell continues. The state ends when you are healed above 1 HP or when combat ends. The doctrine does not have a word for what you are during this state. Neither do you.</p>"
+      },
+      "14": {
+        "name": "The Question Fades",
+        "html": "<p>Your FRAME is treated as 2 higher for all HP and resistance calculations. Physical damage (piercing, slashing, and bludgeoning from non-resonant sources) against you is reduced by RESONANCE + FRAME to a minimum of 1 damage. Once per long rest, you may enter Shell-Absolute state for 1 minute: during this time all your melee Attack cards deal maximum damage, you are immune to Stagger and Silence, and all your cards cost 1 fewer AP (minimum 1). When Shell-Absolute ends, you have no memory of the minute — the chassis acted, and the part of you that records continuous experience has no report. You will ask what happened. Your allies will tell you. You will accept this account as you have accepted the others.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Shell went the other direction and did not stop. Every organ that can be replaced with a mechanical equivalent has been replaced. Every tissue marginal to function has been removed. Every connection to the biological substrate that can be rerouted through chassis architecture has been rerouted. What remains of the original flesh is a small thing — a brain segment, usually, a fractional percentage of the original person by mass. The Shell is the most durable combatant most parties will ever field. The Shell is also, measurably, less certain of their own identity with every year that passes, and the measurement is the increasing calm with which they receive this fact. The progression is not collapse. It is dilution. The person is still present. There is just less of them present in any given moment, and the part that is present is increasingly the part that chose this path rather than the part that felt anything about the choice.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "The Hollow::the_shell"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

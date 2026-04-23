@@ -20,7 +20,7 @@
     "isStartingHand": true,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Restore hit points to one ally within reach by repairing their enhancements and treating their wounds. The ally recovers 8 + RESONANCE HP. If the ally is below half HP, add your SIGNAL to the recovery — you identify the cascade points and address them first. This is the work. This is always the work.</p>"
+    "description": "<p>Restore HP to one ally within reach by repairing their enhancements and treating their wounds. The ally recovers 8 + RESONANCE HP. If the ally is below half HP, add your SIGNAL to the recovery — you identify the cascade points and address them first. This is the work. This is always the work.</p>"
   },
   "effects": [],
   "flags": {

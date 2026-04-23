@@ -18,7 +18,7 @@
       },
       "10": {
         "name": "Distributed Presence",
-        "html": "<p>You can fragment your Wire-presence across multiple nodes in a network. While distributed, you gain the following:\r - You gain +3 to all Wire-based checks.\r - Any creature attempting to sever your Wire connection must deal with multiple nodes simultaneously, requiring 3 successful contested Intelligence checks (not just 1) to completely disconnect you.\r - You can take two Wire Entry actions simultaneously, operating in two locations within the same network.</p>"
+        "html": "<p>You can fragment your Wire-presence across multiple nodes in a network. While distributed, you gain the following:\r - You gain +3 to all Wire-based checks.\r - Any creature attempting to sever your Wire connection must deal with multiple nodes simultaneously, requiring 3 successful contested SIGNAL checks (not just 1) to completely disconnect you.\r - You can take two Wire Entry actions simultaneously, operating in two locations within the same network.</p>"
       },
       "14": {
         "name": "Network Weapon",

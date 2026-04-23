@@ -10,11 +10,11 @@
     "features": {
       "3": {
         "name": "Temporary Integration",
-        "html": "<p>As a bonus action, you can integrate a salvaged enhancement component temporarily. Make a Constitution check (DC = 10 + number of components currently integrated). On success, you gain the use of the component's primary function for 1d4 + 1 hours. On failure, the integration is rejected — you take 1d6 necrotic damage and cannot attempt to integrate that specific component again until your next short rest. You can have a number of components integrated simultaneously equal to half your Constitution modifier (rounded down, minimum 1).</p>"
+        "html": "<p>As a bonus action, you can integrate a salvaged enhancement component temporarily. Make a FRAME (difficulty (stat-based)). On success, you gain the use of the component's primary function for 4 hours. On failure, the integration is rejected — you take 4 resonant damage and cannot attempt to integrate that specific component again until your next short rest. You can have a number of components integrated simultaneously equal to half your FRAME (rounded down, minimum 1).</p>"
       },
       "6": {
         "name": "Improved Salvage",
-        "html": "<p>You can now salvage components as a bonus action instead of a reaction. Additionally, your Temporary Integration checks are made at advantage, and the DC does not increase beyond 16 regardless of how many components you have integrated.</p>"
+        "html": "<p>You can now salvage components as a bonus action instead of a reaction. Additionally, your Temporary Integration checks are made with +3, and the DC does not increase beyond 16 regardless of how many components you have integrated.</p>"
       },
       "10": {
         "name": "Selective Integration",
@@ -22,7 +22,7 @@
       },
       "14": {
         "name": "The Built Environment",
-        "html": "<p>You have integrated so many temporary components that your body has developed a kind of baseline receptivity to foreign enhancements. Temporary Integrations last 8 hours (instead of 1d4 + 1). You can have your full Constitution modifier in simultaneously integrated components. Once per long rest, you can integrate a component you have salvaged from a significant opponent (a commander, a named character, a creature of CR 8+) and gain its full capability for 24 hours — the integration is deep enough for sustained use. When the integration ends, the component degrades completely (it was not made for you, and your body's use has been thorough).\r</p>\n<p>---</p>"
+        "html": "<p>You have integrated so many temporary components that your body has developed a kind of baseline receptivity to foreign enhancements. Temporary Integrations last 8 hours (instead of 4). You can have your full FRAME in simultaneously integrated components. Once per long rest, you can integrate a component you have salvaged from a significant opponent (a commander, a named character, a creature of Tier 8+) and gain its full capability for 24 hours — the integration is deep enough for sustained use. When the integration ends, the component degrades completely (it was not made for you, and your body's use has been thorough).\r</p>\n<p>---</p>"
       }
     },
     "description": "<p>The Scavenger has developed the most technically unusual Shell Dancer ability: temporary mid-combat integration of salvaged components from defeated enemies. The integration is rough, impermanent, and occasionally painful to sustain. It works. The Scavenger approaches every combat with an eye toward what they can take from their opponents and use before the encounter ends.</p>"

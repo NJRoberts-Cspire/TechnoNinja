@@ -20,7 +20,7 @@
     "isStartingHand": true,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>You find the gap — the unenhanced point, the unshielded nerve, the junction where resonant metal meets organic tissue. Deal 6 + EDGE damage. If you are hidden, your signature is suppressed, or you have advantage on this attack (GM ruling), add SIGNAL to the damage. This is the Veilblade's core technique — precise, calculated, and aimed at exactly the right place.</p>"
+    "description": "<p>You find the gap — the unenhanced point, the unshielded nerve, the junction where resonant metal meets organic tissue. Deal 6 + EDGE damage. If you are hidden, your signature is suppressed, or you have +3 to this attack (GM ruling), add SIGNAL to the damage. This is the Veilblade's core technique — precise, calculated, and aimed at exactly the right place.</p>"
   },
   "effects": [],
   "flags": {

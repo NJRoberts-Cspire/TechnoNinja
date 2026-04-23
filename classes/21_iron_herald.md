@@ -29,7 +29,7 @@ The Warbanner on a battlefield is the thing that transforms a collection of indi
 **AP:** 3 per turn. Basic Attack free (0 AP), once per turn.
 
 ### Class Identity
-The Iron Herald is a force multiplier. Their six cards hit harder than most classes and reshape the rules of the space they control. Several card titles contain Zone, Field, or Command — these are the Herald's signature: areas where enemies operate at disadvantage, where allies move freely, where specific card types are suppressed. The Herald's power scales with how many allies are in combat. Alone, they are a capable fighter. At the center of a force, they are the reason the force wins.
+The Iron Herald is a force multiplier. Their six cards hit harder than most classes and reshape the rules of the space they control. Several card titles contain Zone, Field, or Command — these are the Herald's signature: areas where enemies operate with −3, where allies move freely, where specific card types are suppressed. The Herald's power scales with how many allies are in combat. Alone, they are a capable fighter. At the center of a force, they are the reason the force wins.
 
 **Command Zone (status):** Applied to areas by Herald cards. Enemies within a Command Zone take −VEIL to their damage output. Allies within a Command Zone deal +VEIL damage on their first card each turn. A Command Zone is centered on a point you designate (not on you), has a 15-meter radius, and lasts until end of combat or until you designate a new Zone (you may only have one active Zone at a time).
 
@@ -165,7 +165,7 @@ Choose 2 of the following 3 cards to begin with. You gain the third at Level 2.
 #### Command Field
 *Tier 2 (2 AP) | Zone | Utility*
 
-**Effect:** Expand your active Command Zone's radius to 30 meters until the start of your next turn. While expanded, allies deal +IRON (instead of +VEIL) on their first card per turn. Enemies in the Zone have Disadvantage on attacks against targets outside the Zone — they cannot effectively strike beyond the field you control.
+**Effect:** Expand your active Command Zone's radius to 30 meters until the start of your next turn. While expanded, allies deal +IRON (instead of +VEIL) on their first card per turn. Enemies in the Zone have −3 to attacks against targets outside the Zone — they cannot effectively strike beyond the field you control.
 **Keywords:** Zone-expand, Ally-boost (IRON), Enemy-restrict
 **Unlock:** Level 7
 
@@ -360,19 +360,19 @@ Choose 2 of the following 3 cards to begin with. You gain the third at Level 2.
 The Warbanner has taken the Herald's communication capabilities and dedicated them entirely to the art of winning battles. They are not the strongest fighter on the field. They are the reason every fighter on the field performs at their maximum. The Warbanner processes tactical information, identifies the key moment, and broadcasts the instruction that converts potential into reality. They know when the flanking maneuver needs to happen before the flanking unit does. They know which target's elimination will cascade into the enemy formation's collapse. They know when to push and when to hold, and they know how to make everyone within range know it at the same moment.
 
 **Level 3: Warbanner's Cry**
-As a bonus action, spend 1 Rally Charge to issue a battle cry that grants all allies within 60 feet temporary hit points equal to your Charisma modifier + half your Herald level. These temporary hit points last until the end of combat.
+As a bonus action, spend 1 Rally Charge to issue a battle cry that grants all allies within 60 feet Shield equal to your VEIL + half your Herald level. These Shield last until the end of combat.
 
 **Level 3: Target Call**
-As a bonus action, designate one creature as the Priority Target. All allies attacking the Priority Target deal an extra 1d8 damage. When the Priority Target is reduced to 0 hit points, all allies within 60 feet regain hit points equal to your Charisma modifier.
+As a bonus action, designate one creature as the Priority Target. All allies attacking the Priority Target deal an extra 5 damage. When the Priority Target is reduced to 0 HP, all allies within 60 feet regain HP equal to your VEIL.
 
 **Level 6: Formation Command**
 Once per round as a free action, you can command one ally within 60 feet to move up to their speed without using their reaction. This movement does not provoke opportunity attacks. The ally must be able to hear or receive your Wire Craft signal.
 
 **Level 10: Inspire Greatness**
-Once per short rest, as an action, you can inspire one ally with the absolute conviction of command. The ally immediately regains their reaction, can make one weapon attack as part of this action, and has advantage on all ability checks until the start of your next turn. This is not encouragement — it is certainty transmitted directly, and the recipient acts accordingly.
+Once per short rest, as an action, you can inspire one ally with the absolute conviction of command. The ally immediately regains their reaction, can make one weapon attack as part of this action, and has +3 to all ability checks until the start of your next turn. This is not encouragement — it is certainty transmitted directly, and the recipient acts accordingly.
 
 **Level 14: War's Edge**
-While you are conscious and broadcasting, all allies within 60 feet who have received your Warbanner's Cry temporary hit points that day cannot be stunned. Additionally, once per combat, you can call a Synchronized Strike: all allies within 60 feet can use their reaction to make one weapon attack against the same target simultaneously. All attacks in a Synchronized Strike have advantage.
+While you are conscious and broadcasting, all allies within 60 feet who have received your Warbanner's Cry Shield that day cannot be stunned. Additionally, once per combat, you can call a Synchronized Strike: all allies within 60 feet can use their reaction to make one weapon attack against the same target simultaneously. All attacks in a Synchronized Strike gain +3.
 
 ---
 
@@ -381,7 +381,7 @@ While you are conscious and broadcasting, all allies within 60 feet who have rec
 The Neutral Tongue has built an identity around the protection of the herald tradition and has learned to weaponize that protection with the precision of a practitioner who understands that immunity only exists as long as it is respected — and that the best way to ensure it is respected is to make violating it unambiguously costly. They negotiate between powers that want to kill each other, carry messages that both sides know will be authentic, and move through the most hostile political environments in Tesshari with the particular confidence of someone who has worked out, precisely, why no one will stop them.
 
 **Level 3: Impeccable Credentials**
-Your credentials are beyond question. When you invoke Herald's Passage, creatures of CR 10 or lower cannot attack or detain you unless given a direct order by a superior (who then bears the full diplomatic and spiritual consequences). Your credentials are recognized as genuine by any verification system — they are genuine, and no forgery or deception is involved.
+Your credentials are beyond question. When you invoke Herald's Passage, creatures of Tier 10 or lower cannot attack or detain you unless given a direct order by a superior (who then bears the full diplomatic and spiritual consequences). Your credentials are recognized as genuine by any verification system — they are genuine, and no forgery or deception is involved.
 
 **Level 3: Diplomatic Observation**
 While under Herald's Passage, you can observe and record everything you witness without restriction. You have perfect recall of everything you observe while in an official herald capacity. The parties you move through know this and cannot legally prevent it — though they may arrange to not show you things they would prefer you not see.
@@ -390,7 +390,7 @@ While under Herald's Passage, you can observe and record everything you witness 
 You can, while under Herald's Passage, ask one question that the receiving party must answer honestly by the terms of the herald tradition. The question must be relevant to the message or negotiation you are conducting. Refusing to answer is a violation of the tradition. Answering dishonestly is also a violation, which you detect immediately.
 
 **Level 10: Unassailable**
-While you are formally acting as a neutral herald (which you may always choose to be), you are immune to mind-affecting abilities and to effects that would compel you to act against your neutrality. Your protection from herald tradition extends to any genuine harm — creatures who attack you while you are in official capacity take 3d10 psychic damage from the spiritual weight of the violation.
+While you are formally acting as a neutral herald (which you may always choose to be), you are immune to mind-affecting abilities and to effects that would compel you to act against your neutrality. Your protection from herald tradition extends to any genuine harm — creatures who attack you while you are in official capacity take 17 signal damage from the spiritual weight of the violation.
 
 **Level 14: Peace in This Place**
 Once per long rest, you can formally declare a Neutral Zone in your immediate vicinity. All parties within 60 feet who recognize the herald tradition are bound by it: no hostile action can be taken by any party against any other party within the zone for 10 minutes. Violating this zone is a formal violation of the herald tradition, immediately known to every Herald in the territory. The violating party faces the full diplomatic consequences of that violation — which, in Tesshari, are severe and long-lasting.
@@ -402,19 +402,19 @@ Once per long rest, you can formally declare a Neutral Zone in your immediate vi
 The Signal is the Merchant of information infrastructure — the Herald who has specialized entirely in the Wire Craft communication capabilities that all Heralds have to some degree, and pushed them to their absolute limit. They are the people who keep the communication networks running, who establish secure channels in the middle of war zones, who identify and neutralize enemy signal interference, and who, when the situation calls for it, can black out an enemy's communication capabilities entirely. They are the infrastructure of coordinated civilization, and they know exactly how much civilization depends on them.
 
 **Level 3: Signal Specialist**
-Your Wire Craft Array is significantly more advanced than the standard Herald's. Your range doubles (starting at 10 miles). You can maintain simultaneous channels equal to twice your Intelligence modifier. You can establish a secure long-term channel (lasts 1 week without maintenance) with any Wire Craft-capable creature whose signature you know.
+Your Wire Craft Array is significantly more advanced than the standard Herald's. Your range doubles (starting at 10 miles). You can maintain simultaneous channels equal to twice your SIGNAL. You can establish a secure long-term channel (lasts 1 week without maintenance) with any Wire Craft-capable creature whose signature you know.
 
 **Level 3: Interference Detection**
-You always know when you are in an area with Wire Craft interference, jamming, or monitoring. You can identify the source and nature of interference within 1 mile with a DC 12 Intelligence check. You can work around interference — your communications succeed through normal jamming effects.
+You always know when you are in an area with Wire Craft interference, jamming, or monitoring. You can identify the source and nature of interference within 1 mile with a difficulty 12 SIGNAL. You can work around interference — your communications succeed through normal jamming effects.
 
 **Level 6: Signal Intercept**
-Once per short rest, you can attempt to intercept one Wire Craft communication within your range that you did not initiate. Make an Intelligence check (DC = 10 + the signal's encryption strength). On success, you receive the complete content of the communication. On failure, you receive fragments and the sender knows an interception was attempted.
+Once per short rest, you can attempt to intercept one Wire Craft communication within your range that you did not initiate. Make an SIGNAL (difficulty (stat-based)). On success, you receive the complete content of the communication. On failure, you receive fragments and the sender knows an interception was attempted.
 
 **Level 10: Area Jamming**
-Once per long rest, you can jam all Wire Craft communications in a 1-mile radius centered on you for 10 minutes. Your own communications and those of up to your Intelligence modifier designated allies are unaffected by the jam. For the duration, the jammed area is effectively cut off from all external signal communication.
+Once per long rest, you can jam all Wire Craft communications in a 1-mile radius centered on you for 10 minutes. Your own communications and those of up to your SIGNAL designated allies are unaffected by the jam. For the duration, the jammed area is effectively cut off from all external signal communication.
 
 **Level 14: The Signal Network**
-You have established a permanent, resilient communication network across the territories you operate in. This network: maintains communication between all nodes regardless of local interference, cannot be fully destroyed without neutralizing every node (your Intelligence modifier × 3 locations), and provides you with ambient intelligence about any location that has a node. Once per long rest, you can activate Emergency Signal Broadcast through your network: every Wire Craft-capable creature within your network's range simultaneously receives a single message, audio signal, or tactical instruction of your choice. There is no response option on this broadcast. You speak; the network carries it; every node hears.
+You have established a permanent, resilient communication network across the territories you operate in. This network: maintains communication between all nodes regardless of local interference, cannot be fully destroyed without neutralizing every node (your SIGNAL × 3 locations), and provides you with ambient intelligence about any location that has a node. Once per long rest, you can activate Emergency Signal Broadcast through your network: every Wire Craft-capable creature within your network's range simultaneously receives a single message, audio signal, or tactical instruction of your choice. There is no response option on this broadcast. You speak; the network carries it; every node hears.
 
 ---
 

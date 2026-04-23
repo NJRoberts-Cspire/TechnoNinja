@@ -10,11 +10,11 @@
     "features": {
       "3": {
         "name": "Focal Point",
-        "html": "<p>You can designate one creature as your Focal Point as a bonus action. Your attacks against the Focal Point deal an additional 1d10 damage. Your Focal Point designation persists until the creature dies, you change it (bonus action), or combat ends. You can have only one Focal Point at a time.</p>"
+        "html": "<p>You can designate one creature as your Focal Point as a bonus action. Your attacks against the Focal Point deal an additional 6 damage. Your Focal Point designation persists until the creature dies, you change it (bonus action), or combat ends. You can have only one Focal Point at a time.</p>"
       },
       "6": {
         "name": "Killing Ground",
-        "html": "<p>When your Focal Point is within your weapon's normal range and no other creature is between you and them:\r - Your attacks against your Focal Point have advantage.\r - Your critical hit range against your Focal Point extends by 1 (cumulative with Dead Eye: 17-20 by level 6).</p>"
+        "html": "<p>When your Focal Point is within your weapon's normal range and no other creature is between you and them:\r - Your attacks against your Focal Point gain +3.\r - Your critical hit range against your Focal Point extends by 1 (cumulative with Dead Eye: 17-20 by level 6).</p>"
       },
       "10": {
         "name": "Center Mass",
@@ -22,7 +22,7 @@
       },
       "14": {
         "name": "The One Shot",
-        "html": "<p>Once per long rest, you can spend your full action to prepare and execute a perfect shot against your Focal Point. This shot:\r - Cannot miss.\r - Deals 10d10 + your Dexterity modifier + your Wisdom modifier damage.\r - If this reduces the target to 0 hit points, they are killed instantly (no resistance checks, no stabilization, no revival of any kind short of true resurrection magic equivalent).\r - If this does not reduce the target to 0 hit points, they are at half their remaining hit points (the shot still did catastrophic damage to the wrong part of their system — round down).\r</p>\n<p>---</p>"
+        "html": "<p>Once per long rest, you can spend your full action to prepare and execute a perfect shot against your Focal Point. This shot:\r - Cannot miss.\r - Deals 55 + your EDGE + your RESONANCE damage.\r - If this reduces the target to 0 HP, they are killed instantly (no resistance checks, no stabilization, no revival of any kind short of true resurrection magic equivalent).\r - If this does not reduce the target to 0 HP, they are at half their remaining HP (the shot still did catastrophic damage to the wrong part of their system — round down).\r</p>\n<p>---</p>"
       }
     },
     "description": "<p>The Single Point Pulse Caller has taken the precision principle and sharpened it to a single, complete philosophy: one target, delivered with absolute certainty. They are not generalists. They are not the combat class that adapts to changing situations. They identify the single most important target in any situation and they eliminate it with absolute efficiency. Their value in any engagement is the elimination of the most threatening or most important presence — the enemy command element, the single powerful defender, the key figure whose death changes the outcome. They do one thing and they do it with a completeness that is almost aesthetically compelling.</p>"

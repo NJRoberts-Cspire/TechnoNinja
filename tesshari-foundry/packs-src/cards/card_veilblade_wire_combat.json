@@ -20,7 +20,7 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>You extend a Wire tendril and maintain a Wire-presence while acting physically. Until your next turn: gain advantage on SIGNAL checks (GM ruling), once per turn deal 8 + SIGNAL signal damage to an enhanced target within 30 feet as Wire disruption, and your EDGE-based attacks deal + SIGNAL additional damage.</p>"
+    "description": "<p>You extend a Wire tendril and maintain a Wire-presence while acting physically. Until your next turn: gain +3 to SIGNAL checks (GM ruling), once per turn deal 8 + SIGNAL signal damage to an enhanced target within 30 feet as Wire disruption, and your EDGE-based attacks deal + SIGNAL additional damage.</p>"
   },
   "effects": [],
   "flags": {

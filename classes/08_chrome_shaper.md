@@ -39,7 +39,7 @@ Among the Hollow Poor and low-caste communities, Chrome Shapers who are willing 
 
 #### Level 1
 - Armor Config
-- Strength Config
+- IRON Config
 
 #### Level 2
 - Modification Scan
@@ -179,7 +179,7 @@ Among the Hollow Poor and low-caste communities, Chrome Shapers who are willing 
 ### Configuration Mastery
 *Tier 2 (2 AP) | Utility | Passive*
 
-**Effect:** Your reconfigurations have reached surgical depth. All Config cards you play (Speed Config, Armor Config, Strength Config, Sense Config, Phase Config, Resonant Config, Recovery Config) grant an additional secondary effect: the target also gains Regen 2 for 1 round after the Config resolves.
+**Effect:** Your reconfigurations have reached surgical depth. All Config cards you play (Speed Config, Armor Config, IRON Config, Sense Config, Phase Config, Resonant Config, Recovery Config) grant an additional secondary effect: the target also gains Regen 2 for 1 round after the Config resolves.
 **Keywords:** Regen 2
 **Unlock:** Level 11
 
@@ -446,7 +446,7 @@ Among the Hollow Poor and low-caste communities, Chrome Shapers who are willing 
 
 ---
 
-### Strength Config
+### IRON Config
 *Tier 1 (1 AP) | Power*
 
 **Effect:** Amplify one target's physical enhancement output. Target gains +3 IRON until end of turn and deals +4 damage on their next melee Attack card.
@@ -533,8 +533,8 @@ Your Experimental Frames are more ambitious than standard. When you design an Ex
 
 **Level 6: Failure Analysis**
 Your comprehensive documentation of failure modes has built an enormous knowledge base. You gain:
-- Advantage on all checks related to identifying the cause of enhancement malfunction.
-- Once per long rest, when an Experimental Frame fails catastrophically, you can attempt an emergency catch — rolling Intelligence vs. DC 15 — to reduce the failure effect to half (1 level of exhaustion instead of 2, half damage, etc.).
+- +3 to all checks related to identifying the cause of enhancement malfunction.
+- Once per long rest, when an Experimental Frame fails catastrophically, you can attempt an emergency catch — rolling SIGNAL vs. difficulty 15 — to reduce the failure effect to half (1 level of exhaustion instead of 2, half damage, etc.).
 - When observing any enhancement failure (ally or enemy), you can identify the specific design flaw causing it as a reaction.
 
 **Level 10: Theoretical Limit**
@@ -560,7 +560,7 @@ Your Modification Read has become a resonance read. When you analyze a creature'
 **Level 6: Resonant Enhancement**
 When you install an Experimental Frame using resonance techniques:
 - The Frame integrates with the subject's Echomind rather than just their hardware, making it feel natural rather than foreign.
-- The Frame's Constitution save DC is reduced by 2 (the Echomind's acceptance smooths the integration).
+- The Frame's FRAME DC is reduced by 2 (the Echomind's acceptance smooths the integration).
 - The Frame's effect is subtly personalized — it amplifies something specific to this person's resonance (DM determines a small additional bonus reflecting their character).
 
 **Level 10: Soul Engineering**

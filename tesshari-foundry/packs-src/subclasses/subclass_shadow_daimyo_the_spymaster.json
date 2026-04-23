@@ -9,12 +9,12 @@
     "pathKey": "the_spymaster",
     "features": {
       "3": {
-        "name": "Signal Intelligence",
-        "html": "<p>You can intercept Wire Craft communications in any area where you have an established Contact or have operated for at least 24 hours. As a 1-hour process, you can review the last 24 hours of Wire Craft traffic in a designated area and extract relevant information. The traffic is encoded; make an Intelligence check (DC determined by the quality of the encryption) to extract specific content.</p>"
+        "name": "Signal SIGNAL",
+        "html": "<p>You can intercept Wire Craft communications in any area where you have an established Contact or have operated for at least 24 hours. As a 1-hour process, you can review the last 24 hours of Wire Craft traffic in a designated area and extract relevant information. The traffic is encoded; make an SIGNAL (DC determined by the quality of the encryption) to extract specific content.</p>"
       },
       "6": {
         "name": "Misdirection",
-        "html": "<p>Once per long rest, you can plant deliberate misinformation that will reach your target through their own intelligence sources. The information is false in a specific, controlled way that you design. The target discovers this misinformation as if it were genuine — their sources confirm it, their contacts repeat it. Correcting the misdirection requires the target to identify the source problem (Investigation DC 20) and then independently verify the correct information. During the correction period (at minimum 1 week for a careful intelligence service), the target acts on the false information.</p>"
+        "html": "<p>Once per long rest, you can plant deliberate misinformation that will reach your target through their own intelligence sources. The information is false in a specific, controlled way that you design. The target discovers this misinformation as if it were genuine — their sources confirm it, their contacts repeat it. Correcting the misdirection requires the target to identify the source problem (Investigation difficulty 20) and then independently verify the correct information. During the correction period (at minimum 1 week for a careful intelligence service), the target acts on the false information.</p>"
       },
       "10": {
         "name": "Perfect Dossier",

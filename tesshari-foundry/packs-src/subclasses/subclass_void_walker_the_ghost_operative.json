@@ -10,11 +10,11 @@
     "features": {
       "3": {
         "name": "Operative's Phase",
-        "html": "<p>When you are in incorporeal state, you can carry one willing creature with you for its duration, as long as the creature is touching you. The creature is also incorporeal for the duration. If either of you ends your turn inside a solid object, you both take 1d10 force damage and are expelled to the nearest unoccupied space.</p>"
+        "html": "<p>When you are in incorporeal state, you can carry one willing creature with you for its duration, as long as the creature is touching you. The creature is also incorporeal for the duration. If either of you ends your turn inside a solid object, you both take 6 resonant damage and are expelled to the nearest unoccupied space.</p>"
       },
       "6": {
         "name": "Vanishing Act",
-        "html": "<p>Once per short rest, as a bonus action, you can become completely invisible (not just incorporeal) for up to 1 minute. You can remain invisible while attacking, though each attack you make requires a successful DC 15 Dexterity (Stealth) check or your invisibility ends. This is not the Iron Afterlife — you are simply not there, as far as light is concerned.</p>"
+        "html": "<p>Once per short rest, as a bonus action, you can become completely invisible (not just incorporeal) for up to 1 minute. You can remain invisible while attacking, though each attack you make requires a successful difficulty 15 EDGE (Stealth) check or your invisibility ends. This is not the Iron Afterlife — you are simply not there, as far as light is concerned.</p>"
       },
       "10": {
         "name": "Through and Through",

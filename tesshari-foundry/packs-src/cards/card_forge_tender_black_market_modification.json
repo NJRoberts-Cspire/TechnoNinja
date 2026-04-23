@@ -23,7 +23,7 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>You install an experimental, unlicensed modification in a willing adjacent ally. Choose one significant effect (work with GM — it should be powerful and have a meaningful downside reflecting its unofficial nature). The modification lasts until the end of the encounter. At the end of the encounter, the ally saves against Overheat 1 — the modification was not designed to last.</p>"
+    "description": "<p>You install an experimental, unlicensed modification in a willing adjacent ally. Choose one significant effect (work with GM — it should be powerful and have a meaningful downside reflecting its unofficial nature). The modification lasts until the end of the encounter. At the end of the encounter, the ally resistance check against Overheat 1 — the modification was not designed to last.</p>"
   },
   "effects": [],
   "flags": {

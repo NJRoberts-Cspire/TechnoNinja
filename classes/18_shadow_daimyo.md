@@ -48,10 +48,10 @@ The Court Blade is the most immediately dangerous: a person who combines politic
 
 ---
 
-### Intelligence Read
+### SIGNAL Read
 *Tier 1 (1 AP) | Utility*
 
-**Effect:** Target one creature within 40 feet. Learn their current HP tier, one card in their hand (GM's choice), and whether they intend to attack this round. Apply Expose 1 to them. The next ally to act gains advantage on their first card against this target.
+**Effect:** Target one creature within 40 feet. Learn their current HP tier, one card in their hand (GM's choice), and whether they intend to attack this round. Apply Expose 1 to them. The next ally to act gains +3 to their first card against this target.
 **Keywords:** Expose 1
 **Unlock:** Level 1 (Starting Card)
 
@@ -65,7 +65,7 @@ The Court Blade is the most immediately dangerous: a person who combines politic
 
 #### Level 3
 - **Operational Command** — Tier 2 (2 AP) | Social Control: Deal 8 + VEIL social damage to one target within 40 feet. Apply Expose 3. The next two allies to act this round each deal +VEIL bonus damage on their first card.
-- **Blade Work** — Tier 1 (1 AP) | Melee Attack: Deal 6 + IRON melee damage to one adjacent target. If you have a dossier on them (have used Intelligence Read on them this combat), apply Bleed 2 and Pierce 3.
+- **Blade Work** — Tier 1 (1 AP) | Melee Attack: Deal 6 + IRON melee damage to one adjacent target. If you have a dossier on them (have used SIGNAL Read on them this combat), apply Bleed 2 and Pierce 3.
 
 #### Level 4
 - **Deploy Asset** — Tier 2 (2 AP) | Utility: Designate one ally within 30 feet. Until your next turn, that ally's next Attack card deals +VEIL + IRON bonus damage and applies Expose 2 to whatever they hit. You have prepared them for this moment.
@@ -125,7 +125,7 @@ The Court Blade is the most immediately dangerous: a person who combines politic
 
 #### Level 18
 - **The Network Speaks** — Tier 3 (3 AP) | Utility: Apply Expose 4 to all enemies within 40 feet. All allies within 40 feet gain Guard 8 + VEIL and Regen 4 until your next turn. The next two allies to act each deal +VEIL + IRON bonus damage on all cards they play this round.
-- **Perfect Intelligence** — Tier 3 (3 AP) | Utility: You know everything about this battlefield. Apply Expose 5 to all enemies within 40 feet. Remove all Guard and Shield from all enemies within 40 feet. All allies within 30 feet deal +VEIL bonus damage until your next turn.
+- **Perfect SIGNAL** — Tier 3 (3 AP) | Utility: You know everything about this battlefield. Apply Expose 5 to all enemies within 40 feet. Remove all Guard and Shield from all enemies within 40 feet. All allies within 30 feet deal +VEIL bonus damage until your next turn.
 
 #### Level 19
 - **The Shadow Throne** — Tier 3 (3 AP) | Signature: Deal 22 + VEIL social damage to all enemies within 30 feet. Apply Expose 5 and Stagger to each. All allies within 40 feet gain Guard 10 + VEIL, Regen 4, and Shield 8 until your next turn. You command this battlefield.
@@ -142,7 +142,7 @@ The Court Blade is the most immediately dangerous: a person who combines politic
 
 **Asset Strike** — Tier 3 (3 AP) | Melee Attack: Deal 16 + IRON melee damage to one adjacent target. Apply Bleed 3 and Expose 4. Next ally to act may make a free Basic Attack against any enemy in range. *Unlock: Level 11*
 
-**Blade Work** — Tier 1 (1 AP) | Melee Attack: Deal 6 + IRON melee damage. Apply Bleed 2 and Pierce 3 if you have used Intelligence Read on this target this combat. *Unlock: Level 3*
+**Blade Work** — Tier 1 (1 AP) | Melee Attack: Deal 6 + IRON melee damage. Apply Bleed 2 and Pierce 3 if you have used SIGNAL Read on this target this combat. *Unlock: Level 3*
 
 **Command Authority** — Tier 3 (3 AP) | Social Control: Deal 16 + VEIL social damage to all enemies within 30 feet. Apply Expose 3 and Stagger to each. All allies within 30 feet gain Regen 3 and may play one Tier 1 card free. *Unlock: Level 13*
 
@@ -166,7 +166,7 @@ The Court Blade is the most immediately dangerous: a person who combines politic
 
 **Deploy Asset** — Tier 2 (2 AP) | Utility: One ally within 30 feet — their next Attack deals +VEIL + IRON bonus damage and applies Expose 2. *Unlock: Level 4*
 
-**Dossier Strike** — Tier 1 (1 AP) | Melee Attack: Deal 5 + IRON melee damage. Apply Expose 2 and +VEIL bonus damage if you have used Intelligence Read on this target. *Unlock: Level 1 (Starting Card)*
+**Dossier Strike** — Tier 1 (1 AP) | Melee Attack: Deal 5 + IRON melee damage. Apply Expose 2 and +VEIL bonus damage if you have used SIGNAL Read on this target. *Unlock: Level 1 (Starting Card)*
 
 **Final Order** — Tier 3 (3 AP) | Social Control: Deal 24 + VEIL social damage. Apply Expose 6, Vulnerable 6, Stagger. Next ally to act may play any card in hand for free (0 AP), including Tier 3. *Unlock: Level 19*
 
@@ -178,7 +178,7 @@ The Court Blade is the most immediately dangerous: a person who combines politic
 
 **Inside Information** — Tier 1 (1 AP) | Utility: Remove all Guard and Shield from one enemy within 40 feet. Next ally to act against them deals +IRON + VEIL bonus damage. *Unlock: Level 7*
 
-**Intelligence Read** — Tier 1 (1 AP) | Utility: Learn HP tier, one card, and attack intent of one target within 40 feet. Apply Expose 1. Next ally to act gains advantage on first card against this target. *Unlock: Level 1 (Starting Card)*
+**SIGNAL Read** — Tier 1 (1 AP) | Utility: Learn HP tier, one card, and attack intent of one target within 40 feet. Apply Expose 1. Next ally to act gains +3 to first card against this target. *Unlock: Level 1 (Starting Card)*
 
 **Leverage** — Tier 1 (1 AP) | Social Control: Deal 5 + VEIL social damage. Apply Stagger. Next ally to act against this target deals +VEIL bonus damage. *Unlock: Level 2*
 
@@ -190,7 +190,7 @@ The Court Blade is the most immediately dangerous: a person who combines politic
 
 **Operational Command** — Tier 2 (2 AP) | Social Control: Deal 8 + VEIL social damage. Apply Expose 3. Next two allies to act each deal +VEIL bonus damage on their first card. *Unlock: Level 3*
 
-**Perfect Intelligence** — Tier 3 (3 AP) | Utility: Apply Expose 5 to all enemies within 40 feet. Remove all Guard and Shield from all enemies within 40 feet. All allies within 30 feet deal +VEIL bonus damage until your next turn. *Unlock: Level 18*
+**Perfect SIGNAL** — Tier 3 (3 AP) | Utility: Apply Expose 5 to all enemies within 40 feet. Remove all Guard and Shield from all enemies within 40 feet. All allies within 30 feet deal +VEIL bonus damage until your next turn. *Unlock: Level 18*
 
 **Precision Deployment** — Tier 2 (2 AP) | Social Control: Deal 10 + VEIL social damage. Apply Stagger. One ally's Attack cards against this target gain Pierce 4 until your next turn. *Unlock: Level 8*
 
@@ -229,11 +229,11 @@ The Spymaster has built the information network as an end in itself. Their Conta
 **Level 3: Deep Cover Network**
 You have Contacts that operate inside protected and monitored environments — within military commands, inside the Sutensai hierarchy, within major criminal organizations. Each such deep cover Contact occupies a more sensitive position than your standard Contacts and provides intelligence from inside structures others cannot access. You have 2 Deep Cover Contacts at this level and gain one more at levels 7, 11, and 15.
 
-**Level 3: Signal Intelligence**
-You can intercept Wire Craft communications in any area where you have an established Contact or have operated for at least 24 hours. As a 1-hour process, you can review the last 24 hours of Wire Craft traffic in a designated area and extract relevant information. The traffic is encoded; make an Intelligence check (DC determined by the quality of the encryption) to extract specific content.
+**Level 3: Signal SIGNAL**
+You can intercept Wire Craft communications in any area where you have an established Contact or have operated for at least 24 hours. As a 1-hour process, you can review the last 24 hours of Wire Craft traffic in a designated area and extract relevant information. The traffic is encoded; make an SIGNAL (DC determined by the quality of the encryption) to extract specific content.
 
 **Level 6: Misdirection**
-Once per long rest, you can plant deliberate misinformation that will reach your target through their own intelligence sources. The information is false in a specific, controlled way that you design. The target discovers this misinformation as if it were genuine — their sources confirm it, their contacts repeat it. Correcting the misdirection requires the target to identify the source problem (Investigation DC 20) and then independently verify the correct information. During the correction period (at minimum 1 week for a careful intelligence service), the target acts on the false information.
+Once per long rest, you can plant deliberate misinformation that will reach your target through their own intelligence sources. The information is false in a specific, controlled way that you design. The target discovers this misinformation as if it were genuine — their sources confirm it, their contacts repeat it. Correcting the misdirection requires the target to identify the source problem (Investigation difficulty 20) and then independently verify the correct information. During the correction period (at minimum 1 week for a careful intelligence service), the target acts on the false information.
 
 **Level 10: Perfect Dossier**
 Your deep dossier on any creature provides complete information: not just what is discoverable but what they believe is private. You learn all significant secrets they hold, including the things they have taken deliberate steps to conceal. The DM provides this information honestly. If there are things the DM wants to keep secret for narrative reasons, they provide those secrets in sealed form — available when the narrative moment is right.
@@ -251,16 +251,16 @@ The Court Blade is what happens when a Spymaster develops a combat specializatio
 You have an established position in a court or command structure. This provides: regular intelligence briefings on the court's affairs, the ability to invoke your principal's authority in their territory (as if you carried their personal seal), and access to the court's resources for sanctioned operations. Your principal trusts you to a degree that is extraordinary and which you have worked to deserve. Whether you continue to deserve it is an ongoing project.
 
 **Level 3: Blade Work**
-You have trained for the specific violence required by your role. You can use your Intelligence modifier instead of Strength or Dexterity for attack and damage rolls when using resonant blades and pulse arms. When you attack a target you have a dossier on, you deal an additional 1d6 damage as you exploit their physical patterns and habitual defenses.
+You have trained for the specific violence required by your role. You can use your SIGNAL instead of IRON or EDGE for attack and damage rolls when using resonant blades and pulse arms. When you attack a target you have a dossier on, you deal an additional 4 damage as you exploit their physical patterns and habitual defenses.
 
-**Level 6: Preemptive Intelligence**
+**Level 6: Preemptive SIGNAL**
 You know who the threats to your principal are before they act. Once per long rest, after 1 hour of analysis, you can identify the most likely imminent threat to a person or operation you are protecting and describe a specific countermeasure that, if implemented, will prevent it with high probability. The DM confirms whether the countermeasure is correct given the actual threat.
 
 **Level 10: Court Execution**
-When you take a target by surprise (having initiated a combat where your target was unaware), your first attack automatically critically hits. Additionally, targets with lower Intelligence than yours (which you know from your dossier) have -3 to resistance checks against your abilities in the first round of combat.
+When you take a target by surprise (having initiated a combat where your target was unaware), your first attack automatically critically hits. Additionally, targets with lower SIGNAL than yours (which you know from your dossier) have -3 to resistance checks against your abilities in the first round of combat.
 
 **Level 14: Absolute Loyalty, Absolute Access**
-Your relationship with your principal has matured to the point of genuine mutual dependency. You have access to their most sensitive intelligence — you know everything they know. Additionally, once per long rest, you can invoke their absolute authority: deliver a command in their name that creatures of CR 10 or lower who recognize the principal's authority must succeed on a RESONANCE resistance check (DC = your Shadow Daimyo save DC) or follow as if it came from the principal directly.
+Your relationship with your principal has matured to the point of genuine mutual dependency. You have access to their most sensitive intelligence — you know everything they know. Additionally, once per long rest, you can invoke their absolute authority: deliver a command in their name that creatures of Tier 10 or lower who recognize the principal's authority must succeed on a RESONANCE resistance check (difficulty (stat-based)) or follow as if it came from the principal directly.
 
 ---
 
@@ -272,7 +272,7 @@ The Broker has built their operation on the premise that neutrality, genuinely m
 You have Contacts in every major faction: Korrath's command, Vaen's network, the Wire Market, the Sutensai, and the major independent powers. These Contacts are aware that you serve multiple parties. They accept this. You can call on these Contacts for information or assistance from any faction, but doing so may alert other factions that you are in communication with their rivals (the DM determines what leaks and what doesn't).
 
 **Level 3: Safe Passage**
-You carry the informal protection of the Broker tradition. Creatures and organizations that recognize your role as a neutral Broker cannot attack you without losing significant social standing and intelligence access. You gain +3 to resistance checks against attacks from creatures who know your role. Once per long rest, in any hostile situation, you can declare neutrality: all parties must make a RESONANCE resistance check (DC = your Shadow Daimyo save DC) or be unable to act against you for 1 minute while they calculate the cost of violating broker immunity.
+You carry the informal protection of the Broker tradition. Creatures and organizations that recognize your role as a neutral Broker cannot attack you without losing significant social standing and intelligence access. You gain +3 to resistance checks against attacks from creatures who know your role. Once per long rest, in any hostile situation, you can declare neutrality: all parties must make a RESONANCE resistance check (difficulty (stat-based)) or be unable to act against you for 1 minute while they calculate the cost of violating broker immunity.
 
 **Level 6: The Middle Market**
 You have turned the Broker role into a business. Once per long rest, you can broker a deal between two parties who need something from each other but cannot communicate directly. The deal requires both parties to send representatives to you. You identify what each party needs and wants, what each party can offer, and construct a mutually beneficial exchange. If both parties agree, the deal is sealed under the Broker's word — and your word carries spiritual weight equivalent to a Sutensai oath under Tesshari custom. Violating a Broker's sealed deal has social and spiritual consequences that the table should play seriously.

@@ -10,11 +10,11 @@
     "features": {
       "3": {
         "name": "Protective Phase",
-        "html": "<p>When a creature within 30 feet is targeted by an attack, you can use your reaction and spend 1 Void Charge to briefly phase that creature, imposing disadvantage on the attack roll. The creature flickers slightly translucent and then returns to normal.</p>"
+        "html": "<p>When a creature within 30 feet is targeted by an attack, you can use your reaction and spend 1 Void Charge to briefly phase that creature, imposing −3 to the attack roll. The creature flickers slightly translucent and then returns to normal.</p>"
       },
       "6": {
         "name": "The Closed Door",
-        "html": "<p>Once per short rest, as a reaction when a creature within 60 feet would die, you can prevent their Echomind from passing to the Iron Afterlife for 1 minute. The creature is at 0 hit points but stable and does not make resistance checks to resist death while this effect holds. If they are healed above 0 hit points during this time, the prevention ends and they continue normally. When the effect ends without healing, they pass normally. You are choosing to hold a door open against what is on the other side. The cost is 3 Void Charges.</p>"
+        "html": "<p>Once per short rest, as a reaction when a creature within 60 feet would die, you can prevent their Echomind from passing to the Iron Afterlife for 1 minute. The creature is at 0 HP but stable and does not make resistance checks to resist death while this effect holds. If they are healed above 0 HP during this time, the prevention ends and they continue normally. When the effect ends without healing, they pass normally. You are choosing to hold a door open against what is on the other side. The cost is 3 Void Charges.</p>"
       },
       "10": {
         "name": "Ward Extended",
@@ -22,7 +22,7 @@
       },
       "14": {
         "name": "The Final Anchor",
-        "html": "<p>Once per long rest, you can declare yourself the absolute boundary between the living and the dead in a 100-foot radius for 10 minutes. No creature within the area can die against their will — any attack that would reduce them to 0 hit points reduces them to 1 instead, once per creature per round. No entity can cross the Veil in either direction within the area. The dead remain dead; the living remain living. When this effect ends, everything caught up in the balance resolves immediately — if a creature was being held at 1 hit point by this effect and would have died, they die when the effect releases them. You take necrotic damage equal to the number of deaths you prevented (minimum 1d10) when the effect ends, as the Afterlife takes what was owed.\r</p>\n<p>---</p>"
+        "html": "<p>Once per long rest, you can declare yourself the absolute boundary between the living and the dead in a 100-foot radius for 10 minutes. No creature within the area can die against their will — any attack that would reduce them to 0 HP reduces them to 1 instead, once per creature per round. No entity can cross the Veil in either direction within the area. The dead remain dead; the living remain living. When this effect ends, everything caught up in the balance resolves immediately — if a creature was being held at 1 HP by this effect and would have died, they die when the effect releases them. You take resonant damage equal to the number of deaths you prevented (minimum 6) when the effect ends, as the Afterlife takes what was owed.\r</p>\n<p>---</p>"
       }
     },
     "description": "<p>The Anchor Keeper has taken the Void Walker's relationship to the Iron Afterlife and turned it into a protective function. They stand at the boundary between worlds and prevent unauthorized crossings — both the living who would enter the Afterlife before their time and, more critically, the dead who would return unbidden. They are the wall. They are the door that closes. They are the last thing standing between the loved ones behind them and what is coming across the Veil. This is not a metaphor. It is a job description, and the Anchor Keepers who have practiced it for decades carry every face of what they have held back.</p>"

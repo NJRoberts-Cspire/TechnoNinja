@@ -20,7 +20,7 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Your Wire immersion has introduced death-resonance into your Echomind. Iron Afterlife entities and undead have disadvantage against you (GM ruling — they register you as partially their own). Once per combat, ask the death-resonance within you one question; the answer comes as impression or image (GM provides).</p>"
+    "description": "<p>Your Wire immersion has introduced death-resonance into your Echomind. Iron Afterlife entities and undead suffer −3 against you (GM ruling — they register you as partially their own). Once per combat, ask the death-resonance within you one question; the answer comes as impression or image (GM provides).</p>"
   },
   "effects": [],
   "flags": {

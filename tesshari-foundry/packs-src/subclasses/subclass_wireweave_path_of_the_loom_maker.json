@@ -10,7 +10,7 @@
     "features": {
       "3": {
         "name": "Construct Node",
-        "html": "<p>As part of a short rest, you can construct one of the following Wire nodes using materials worth 5 trade-metal:\r - <strong>Relay Node:</strong> Extends Wire coverage in an area (60-foot radius) and amplifies signal quality. Your Wire abilities used within a relay's range cost 1 fewer Charge.\r - <strong>Sensor Node:</strong> Monitors a 60-foot area, transmitting to your interface kit. You receive notifications of any Wire activity, physical movement, or enhancement use within the area.\r - <strong>Encryption Node:</strong> Creates an encrypted Wire channel within 60 feet that cannot be intercepted except by a SIGNAL check, difficulty 5.\r</p>\n<p>Nodes last for 24 hours unless physically destroyed. You can maintain a number of nodes equal to your Intelligence modifier.</p>"
+        "html": "<p>As part of a short rest, you can construct one of the following Wire nodes using materials worth 5 trade-metal:\r - <strong>Relay Node:</strong> Extends Wire coverage in an area (60-foot radius) and amplifies signal quality. Your Wire abilities used within a relay's range cost 1 fewer Charge.\r - <strong>Sensor Node:</strong> Monitors a 60-foot area, transmitting to your interface kit. You receive notifications of any Wire activity, physical movement, or enhancement use within the area.\r - <strong>Encryption Node:</strong> Creates an encrypted Wire channel within 60 feet that cannot be intercepted except by a SIGNAL check, difficulty 5.\r</p>\n<p>Nodes last for 24 hours unless physically destroyed. You can maintain a number of nodes equal to your SIGNAL.</p>"
       },
       "6": {
         "name": "Field Upgrade",

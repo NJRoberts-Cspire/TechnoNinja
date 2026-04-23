@@ -10,11 +10,11 @@
     "features": {
       "3": {
         "name": "Form Mastery",
-        "html": "<p>Your Blood Weapons can take specialized forms beyond the standard blade or spike. Choose two forms at this level (and one additional at levels 7, 13, and 18):\r - Spike: reach weapon, 1d8+Str piercing damage, can pin a target to a surface (Strength save DC = your Blood Smith save DC or restrained)\r - Whip: 10-foot reach, 1d6+Str slashing damage, can disarm as bonus effect on hit\r - Anchor: thrown weapon (20/60 feet), 1d10+Str bludgeoning damage, creates difficult terrain in a 5-foot area on impact\r - Lance: two-handed, 1d12+Str piercing damage, attacks against restrained targets deal double dice\r - Burst: single-use, 2d8 damage to one target, automatically converts back after use for no cost</p>"
+        "html": "<p>Your Blood Weapons can take specialized forms beyond the standard blade or spike. Choose two forms at this level (and one additional at levels 7, 13, and 18):\r - Spike: reach weapon, 5+IRON piercing damage, can pin a target to a surface (IRON difficulty (stat-based))\r - Whip: 10-foot reach, 4+IRON slashing damage, can disarm as bonus effect on hit\r - Anchor: thrown weapon (20/60 feet), 6+IRON bludgeoning damage, creates difficult terrain in a 5-foot area on impact\r - Lance: two-handed, 7+IRON piercing damage, attacks against restrained targets deal double dice\r - Burst: single-use, 9 damage to one target, automatically converts back after use for no cost</p>"
       },
       "6": {
         "name": "Blood Fury",
-        "html": "<p>When you score a critical hit with a Blood Weapon, you immediately gain 2 Forge Charges from the violence. Additionally, on a critical hit, you can choose to shatter the Blood Weapon into the target, dealing an additional 2d6 necrotic damage and imposing -3 to the target's next resistance check as the resonant metal disrupts their enhancement lattice.</p>"
+        "html": "<p>When you score a critical hit with a Blood Weapon, you immediately gain 2 Forge Charges from the violence. Additionally, on a critical hit, you can choose to shatter the Blood Weapon into the target, dealing an additional 7 resonant damage and imposing -3 to the target's next resistance check as the resonant metal disrupts their enhancement lattice.</p>"
       },
       "10": {
         "name": "Combat Alchemy",
@@ -22,7 +22,7 @@
       },
       "14": {
         "name": "The Full Arsenal",
-        "html": "<p>Once per long rest, you can manifest a Blood Weapon configuration that uses your entire available Forge Charge pool. For each Forge Charge spent this way, the weapon deals an additional 1d8 damage. The resulting weapon lasts 3 rounds and then shatters, dealing half its base damage to every creature within 10 feet when it does. You take necrotic damage equal to the number of Forge Charges spent when the weapon shatters — but you'll still be standing, and your enhancement lattice will rebuild.\r</p>\n<p>---</p>"
+        "html": "<p>Once per long rest, you can manifest a Blood Weapon configuration that uses your entire available Forge Charge pool. For each Forge Charge spent this way, the weapon deals an additional 5 damage. The resulting weapon lasts 3 rounds and then shatters, dealing half its base damage to every creature within 10 feet when it does. You take resonant damage equal to the number of Forge Charges spent when the weapon shatters — but you'll still be standing, and your enhancement lattice will rebuild.\r</p>\n<p>---</p>"
       }
     },
     "description": "<p>The Weaponsmith has focused entirely on offensive application. Their blood is a weapons cache. Every engagement begins with the question of what configuration is correct for what they're facing, and they answer that question by bleeding. They have developed a wider repertoire of weapon forms than any other Blood Smith path, can switch between them mid-combat, and have learned to use the wound-and-reforge cycle as a tactical rhythm: take damage, convert damage into Forge Charges, convert Forge Charges into weapons, press forward. It is a terrible feedback loop that works, and the Weaponsmith's medical profile shows that it works at a consistent biological cost.</p>"

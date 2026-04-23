@@ -20,7 +20,7 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Your long work with dissolution energy has made you specifically resilient. Incoming necrotic damage is reduced by your RESONANCE. Control effects sourced from your Echomind being targeted (Silence, mind-altering effects that work through resonance) are reduced in duration by 1 turn.</p>"
+    "description": "<p>Your long work with dissolution energy has made you specifically resilient. Incoming resonant damage is reduced by your RESONANCE. Control effects sourced from your Echomind being targeted (Silence, mind-altering effects that work through resonance) are reduced in duration by 1 turn.</p>"
   },
   "effects": [],
   "flags": {

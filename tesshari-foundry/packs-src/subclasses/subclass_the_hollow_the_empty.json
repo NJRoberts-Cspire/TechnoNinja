@@ -1,0 +1,41 @@
+{
+  "_id": "76392f36461f4e82",
+  "_key": "!items!76392f36461f4e82",
+  "name": "The Empty",
+  "type": "subclass",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "className": "The Hollow",
+    "pathKey": "the_empty",
+    "features": {
+      "3": {
+        "name": "Unanchored Echomind",
+        "html": "<p>Your Echomind occupies the space your enhancements vacated. You are immune to Overheat — you have no systems to overload — and to enhancement-based scanning, which produces no return when directed at you. Enhancement-based Signal cards targeting you suffer −RESONANCE on their damage and lose all non-damage riders. Additionally, your resonant Attack cards deal +RESONANCE bonus damage against targets with three or more enhancements (the metal in them hears the metal that is no longer in you).</p>"
+      },
+      "6": {
+        "name": "The Silent Reader",
+        "html": "<p>Your naked Echomind reads other minds directly, without enhancement mediation. When you spend a full turn observing a creature within 30 feet, you learn one truthful fact about their current emotional state, recent memory within the last hour, or current intention. Once per combat, when an enemy plays a Control or Utility card targeting you or an ally within 30 feet, you may use your Reaction to cancel the card's non-damage riders before they resolve.</p>"
+      },
+      "10": {
+        "name": "The Widening",
+        "html": "<p>Once per combat, as an action, you may spend 10 HP to manifest the Widening. For 1 minute, all enemies within 30 feet with enhancements take Expose 1 at the start of their turns, your resonant Attack cards deal an additional +RESONANCE bonus damage, and you cannot be surprised or concealed-from within this radius. The Caste of Steel calls this \"Caste Zero Broadcast\" in their threat-assessment documentation. They recommend engagement only at range greater than 30 feet. The documentation is correct.</p>"
+      },
+      "14": {
+        "name": "What Remains",
+        "html": "<p>Once per long rest, when you are reduced to 0 HP, your Echomind holds the form of the body through resonant will alone. For one full round you cannot be reduced below 1 HP by any source, all your resonant Attack cards deal maximum damage, and enhancement-based status effects automatically fail against you. At the end of that round, if the combat continues, you return to normal consciousness at (FRAME × 4) + RESONANCE HP. The body's cells were never the subject. The Echomind was. The Echomind is still here.\r</p>\n<p>---</p>"
+      }
+    },
+    "description": "<p>The Empty removed their enhancements. Not reduced them. Not traded one configuration for another. Removed them — every interface, every plate, every subdermal substrate the Caste of Steel defines as personhood — and kept going. What they report afterward is not absence. It is pressure. The Echomind that previously distributed through enhancement metal now has nowhere structured to route and fills the body instead, and past it. The Empty walk into rooms and the rooms notice them before the people in the rooms do. The Caste of Steel files them under Zero. The Iron Sutra has official positions against what they are. And the Empty, in the main, find they are able to do things the doctrine says should not be possible for someone who has refused every piece of the standard spiritual apparatus.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceKey": "The Hollow::the_empty"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

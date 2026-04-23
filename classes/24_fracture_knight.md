@@ -364,17 +364,17 @@ One specific dead individual has attached. They are present in every moment — 
 **Level 3: Define the Claimed**
 Work with your DM to establish who has attached to you: their name, their history, their reason for being here, and what they want. This is a real character in your game, present in every session in a limited but genuine sense. The attached dead can communicate with you (impressions, flashes, occasional clear words), can provide information from their life experience, and can occasionally take a more active role in moments the DM designates as appropriate.
 
-**Level 3: Their Strength**
+**Level 3: Their IRON**
 The attached dead augments your abilities in their area of expertise. Work with your DM to determine what they were skilled in (a warrior, a diplomat, a healer, a strategist). You gain +3 to skill checks and stat-based checks related to their area of expertise. This is not your skill — it is theirs, borrowed.
 
 **Level 6: Their Memory**
 Once per long rest, you can access a specific memory from the attached dead as a 1-minute trance: you live the memory fully, gaining complete information about a specific event, location, or person from their life. This memory is fully accurate (the dead do not forget, and do not lie, at least not to the person they're attached to).
 
 **Level 10: Full Partnership**
-Your relationship with the attached dead has matured into something approaching partnership. Once per long rest, for 1 minute, you can allow them to act through you fully. During this time, you gain +3 to all checks and Attack cards in their area of expertise. When you attack, you can use their best ability modifier (Strength, Dexterity, or Intelligence, as established by their history) instead of your own, if it is higher. When this minute ends, you are yourself again, but they are present more strongly for 24 hours — their influence on your choices is more marked.
+Your relationship with the attached dead has matured into something approaching partnership. Once per long rest, for 1 minute, you can allow them to act through you fully. During this time, you gain +3 to all checks and Attack cards in their area of expertise. When you attack, you can use their best ability modifier (IRON, EDGE, or SIGNAL, as established by their history) instead of your own, if it is higher. When this minute ends, you are yourself again, but they are present more strongly for 24 hours — their influence on your choices is more marked.
 
 **Level 14: The Reckoning**
-The attached dead's unfinished business has now fully incorporated into your story. Once per long rest, you can invoke their final purpose: for 1 minute, you are the vessel for their complete spiritual intention. All attacks deal an extra 4d8 necrotic damage. All allies within 30 feet gain +3 to resistance checks against death. Any creature directly responsible for the attached dead's unfinished business (the target of the purpose, the unresolved issue) has -3 to all resistance checks against your abilities for the duration. When this ends: the attached dead rests somewhat. They are less agitated for 7 days. They have not left — but they are, temporarily, at peace.
+The attached dead's unfinished business has now fully incorporated into your story. Once per long rest, you can invoke their final purpose: for 1 minute, you are the vessel for their complete spiritual intention. All attacks deal an extra 18 resonant damage. All allies within 30 feet gain +3 to resistance checks against death. Any creature directly responsible for the attached dead's unfinished business (the target of the purpose, the unresolved issue) has -3 to all resistance checks against your abilities for the duration. When this ends: the attached dead rests somewhat. They are less agitated for 7 days. They have not left — but they are, temporarily, at peace.
 
 ---
 
@@ -385,17 +385,17 @@ The Haunted Legion went too deep, or attracted accumulation, or both. They carry
 **Level 3: The Chorus**
 You carry multiple dead. Their number is not fixed — the DM tracks it as a narrative element, with the count changing as you encounter significant death in meaningful places. The dead you carry speak collectively but not simultaneously — they blur, overlap, and occasionally harmonize. Your Fracture Knight features that invoke the dead invoke all of them: their combined force exceeds any individual's but is harder to direct precisely.
 
-**Level 3: Legion's Strength**
+**Level 3: Legion's IRON**
 When you use Between-Strike, you add the number of distinct dead you carry (DM tracks, narrative count) to the extra damage, to a maximum of +5. The chorus concentrates in the strike.
 
 **Level 6: Massed Presence**
-Your Fractured Presence radiates more forcefully. Creatures within 30 feet (instead of 10) can sense something wrong — the accumulated weight of many dead pressing close to the world. Creatures who fail a RESONANCE resistance check (DC = your Fracture Knight save DC) when they first come within 30 feet of you are unsettled for 1 hour: -3 to RESONANCE resistance checks while unsettled.
+Your Fractured Presence radiates more forcefully. Creatures within 30 feet (instead of 10) can sense something wrong — the accumulated weight of many dead pressing close to the world. Creatures who fail a RESONANCE resistance check (difficulty (stat-based)) when they first come within 30 feet of you are unsettled for 1 hour: -3 to RESONANCE resistance checks while unsettled.
 
 **Level 10: Directed Voices**
-Once per short rest, as an action, release a directed wave of the dead's collective presence in a 30-foot cone. All creatures in the cone must make RESONANCE resistance checks (DC = your Fracture Knight save DC) or take 4d10 psychic damage, be frightened until the end of their next turn, and be deafened for 1 round (the voices replace everything else). On a success: half damage, no other effects.
+Once per short rest, as an action, release a directed wave of the dead's collective presence in a 30-foot cone. All creatures in the cone must make RESONANCE resistance checks (difficulty (stat-based)) or take 22 signal damage, be frightened until the end of their next turn, and be deafened for 1 round (the voices replace everything else). On a success: half damage, no other effects.
 
 **Level 14: Legion Ascendant**
-Once per long rest, for 1 minute, the dead all speak in unison. For this minute: you gain +3 to Attack cards and resistance checks, creatures that hit you with melee attacks take 2d8 psychic damage from the collective force that passes through you, and any creature reduced to 0 hit points within 30 feet of you adds their presence to the chorus temporarily — their voice joins for the duration of the combat, adding their strength to the Legion Ascendant damage. When the minute ends, the temporarily-joined voices return to the Afterlife, and you are exhausted (one level) from the volume of them.
+Once per long rest, for 1 minute, the dead all speak in unison. For this minute: you gain +3 to Attack cards and resistance checks, creatures that hit you with melee attacks take 9 signal damage from the collective force that passes through you, and any creature reduced to 0 HP within 30 feet of you adds their presence to the chorus temporarily — their voice joins for the duration of the combat, adding their strength to the Legion Ascendant damage. When the minute ends, the temporarily-joined voices return to the Afterlife, and you are exhausted (one level) from the volume of them.
 
 ---
 
@@ -407,13 +407,13 @@ The Anchor has made a specific choice about what the Fracture Knight's relations
 As an action, you can establish a Veil Ward in a 30-foot radius centered on you for 10 minutes. Within this radius: no dead can cross the Veil without your permission (Afterlife entities are blocked from manifesting), no living creature can be forcibly pulled to the Iron Afterlife, and any attempt to puppet a living creature within the ward fails automatically (the Afterlife connection required for puppeting cannot be established through the ward). This does not prevent willing communication with the dead.
 
 **Level 3: Anchor's Toll**
-The weight of being the wall is real. While your Ward the Veil is active, you take 1d4 psychic damage at the start of each of your turns. This damage cannot be prevented. It is the cost of the barrier.
+The weight of being the wall is real. While your Ward the Veil is active, you take 3 signal damage at the start of each of your turns. This damage cannot be prevented. It is the cost of the barrier.
 
 **Level 6: Expanded Ward**
 Your Ward the Veil radius extends to 60 feet. The duration extends to 1 hour. Additionally, when an Afterlife entity attempts to cross the Veil within your ward, you are aware of the attempt and its approximate location immediately.
 
 **Level 10: The Wall Fights Back**
-When an Afterlife entity or any creature using Iron Afterlife energy (puppet technology, void walking, etc.) attempts to operate within your Ward the Veil, they take 3d8 radiant damage (Constitution save for half) as the ward resists them. This damage applies once per attempt (not per round of sustained use).
+When an Afterlife entity or any creature using Iron Afterlife energy (puppet technology, void walking, etc.) attempts to operate within your Ward the Veil, they take 14 resonant damage (FRAME for half) as the ward resists them. This damage applies once per attempt (not per round of sustained use).
 
 **Level 14: The Final Holding**
 Once per long rest, you can establish an absolute Veil closure in a 100-foot radius for 10 minutes. Within this area: no Iron Afterlife energy of any kind can function — no Void Walker abilities, no Echo Speaker contacts, no Flesh Shaper Puppet Threads, no direct Afterlife communication. The dead remain where they are. The living remain where they are. The Author's puppets within the area are severed from their operator for the duration (they stand inert). The ward costs 5 Phantom Charges to establish and 1 Phantom Charge per round to maintain. When it ends, you gain two levels of exhaustion and the dead in you are louder than normal for 24 hours, pressing against the Veil you just reinforced. The Anchor holds the line. What it costs them to hold it is the final question the class poses.

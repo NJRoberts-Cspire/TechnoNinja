@@ -9,7 +9,7 @@
     "pathKey": "the_claimed",
     "features": {
       "3": {
-        "name": "Their Strength",
+        "name": "Their IRON",
         "html": "<p>The attached dead augments your abilities in their area of expertise. Work with your DM to determine what they were skilled in (a warrior, a diplomat, a healer, a strategist). You gain +3 to skill checks and stat-based checks related to their area of expertise. This is not your skill — it is theirs, borrowed.</p>"
       },
       "6": {
@@ -18,11 +18,11 @@
       },
       "10": {
         "name": "Full Partnership",
-        "html": "<p>Your relationship with the attached dead has matured into something approaching partnership. Once per long rest, for 1 minute, you can allow them to act through you fully. During this time, you gain +3 to all checks and Attack cards in their area of expertise. When you attack, you can use their best ability modifier (Strength, Dexterity, or Intelligence, as established by their history) instead of your own, if it is higher. When this minute ends, you are yourself again, but they are present more strongly for 24 hours — their influence on your choices is more marked.</p>"
+        "html": "<p>Your relationship with the attached dead has matured into something approaching partnership. Once per long rest, for 1 minute, you can allow them to act through you fully. During this time, you gain +3 to all checks and Attack cards in their area of expertise. When you attack, you can use their best ability modifier (IRON, EDGE, or SIGNAL, as established by their history) instead of your own, if it is higher. When this minute ends, you are yourself again, but they are present more strongly for 24 hours — their influence on your choices is more marked.</p>"
       },
       "14": {
         "name": "The Reckoning",
-        "html": "<p>The attached dead's unfinished business has now fully incorporated into your story. Once per long rest, you can invoke their final purpose: for 1 minute, you are the vessel for their complete spiritual intention. All attacks deal an extra 4d8 necrotic damage. All allies within 30 feet gain +3 to resistance checks against death. Any creature directly responsible for the attached dead's unfinished business (the target of the purpose, the unresolved issue) has -3 to all resistance checks against your abilities for the duration. When this ends: the attached dead rests somewhat. They are less agitated for 7 days. They have not left — but they are, temporarily, at peace.\r</p>\n<p>---</p>"
+        "html": "<p>The attached dead's unfinished business has now fully incorporated into your story. Once per long rest, you can invoke their final purpose: for 1 minute, you are the vessel for their complete spiritual intention. All attacks deal an extra 18 resonant damage. All allies within 30 feet gain +3 to resistance checks against death. Any creature directly responsible for the attached dead's unfinished business (the target of the purpose, the unresolved issue) has -3 to all resistance checks against your abilities for the duration. When this ends: the attached dead rests somewhat. They are less agitated for 7 days. They have not left — but they are, temporarily, at peace.\r</p>\n<p>---</p>"
       }
     },
     "description": "<p>One specific dead individual has attached. They are present in every moment — not controlling, but there. They have a history, a perspective, a reason for attachment, and a desire that animates their continued presence. The Claimed must live with the specific personality of a specific dead person and the weight of that person's unfinished business. Whether the Claimed's goals and the dead individual's goals align is the central tension of this subclass. Sometimes the dead person attached because they trust the Claimed to finish something. Sometimes because they want something specific. Sometimes because they are not sure why, and neither is the Claimed.</p>"

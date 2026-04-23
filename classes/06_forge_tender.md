@@ -155,7 +155,7 @@ The Wire Market's relationship with Forge Tenders is one of structural dependenc
 ### Black Market Modification
 *Tier 2 (2 AP) | Utility*
 
-**Effect:** You install an experimental, unlicensed modification in a willing adjacent ally. Choose one significant effect (work with GM — it should be powerful and have a meaningful downside reflecting its unofficial nature). The modification lasts until the end of the encounter. At the end of the encounter, the ally saves against Overheat 1 — the modification was not designed to last.
+**Effect:** You install an experimental, unlicensed modification in a willing adjacent ally. Choose one significant effect (work with GM — it should be powerful and have a meaningful downside reflecting its unofficial nature). The modification lasts until the end of the encounter. At the end of the encounter, the ally resistance check against Overheat 1 — the modification was not designed to last.
 **Keywords:** Overheat 1 (ally, on expiry)
 **Unlock:** Level 9
 
@@ -271,7 +271,7 @@ The Wire Market's relationship with Forge Tenders is one of structural dependenc
 ### Forge Mending
 *Tier 1 (1 AP) | Utility*
 
-**Effect:** Restore hit points to one ally within reach by repairing their enhancements and treating their wounds. The ally recovers 8 + RESONANCE HP. If the ally is below half HP, add your SIGNAL to the recovery — you identify the cascade points and address them first. This is the work. This is always the work.
+**Effect:** Restore HP to one ally within reach by repairing their enhancements and treating their wounds. The ally recovers 8 + RESONANCE HP. If the ally is below half HP, add your SIGNAL to the recovery — you identify the cascade points and address them first. This is the work. This is always the work.
 **Keywords:** —
 **Unlock:** Level 1 (Starting Hand)
 
@@ -483,7 +483,7 @@ The Wire Market's relationship with Forge Tenders is one of structural dependenc
 ### The Living Forge
 *Tier 2 (2 AP) | Passive*
 
-**Always Active:** Your presence stabilizes enhancement networks in proximity. All allies within 30 feet who have received Forge Mending from you gain advantage on death-equivalent saves (GM ruling). Enhancement disruption effects on allies within 30 feet last 1 turn less than normal. When you use Forge Mending, the resonance radiates — all allies within 5 feet of the target recover RESONANCE HP as secondary healing.
+**Always Active:** Your presence stabilizes enhancement networks in proximity. All allies within 30 feet who have received Forge Mending from you gain +3 to death-equivalent saves (GM ruling). Enhancement disruption effects on allies within 30 feet last 1 turn less than normal. When you use Forge Mending, the resonance radiates — all allies within 5 feet of the target recover RESONANCE HP as secondary healing.
 **Unlock:** Level 11
 
 ---
@@ -621,7 +621,7 @@ You have become so attuned to the enhancement networks you maintain that damage 
 Your own body has become a refinement instrument — your presence stabilizes enhancement networks in proximity. While you are conscious:
 - All creatures within 30 feet who have had maintenance from you gain +3 to death resistance checks.
 - Enhancement disruption effects applied to creatures within 30 feet of you last half as long.
-- Your Forge Mending heals a number of nearby creatures equal to your Wisdom modifier when you use it (not just the target — the resonance radiates). Secondary healed creatures recover half the amount.
+- Your Forge Mending heals a number of nearby creatures equal to your RESONANCE when you use it (not just the target — the resonance radiates). Secondary healed creatures recover half the amount.
 
 **Level 18: Forge Tender Path Feature**
 Your subclass grants an additional feature at this level.
@@ -663,7 +663,7 @@ Once per combat, as an action, you perform a rapid Emergency Overhaul on one adj
 - Fully restores them to maximum HP.
 - Removes all conditions and ongoing effects except those from major plot-level curses.
 - Clears one expended class feature that would normally require a long rest to recover.
-For the next hour after an Overhaul, the creature's enhancements are running hot — they deal +2 damage on all attacks but are vulnerable to necrotic damage during this time.
+For the next hour after an Overhaul, the creature's enhancements are running hot — they deal +2 damage on all attacks but are vulnerable to resonant damage during this time.
 
 **Level 14: Forge Under Fire**
 You have become functionally immune to the chaos of combat as a variable in your work. You gain:

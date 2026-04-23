@@ -10,22 +10,22 @@
     "features": {
       "3": {
         "name": "Damage Absorption",
-        "html": "<p>When you take damage of any type, reduce it by your Constitution modifier (minimum 1). This is not resistance — it is physical tolerance. You have been hit this way before. Your body knows where to route the impact.</p>"
+        "html": "<p>When you take damage of any type, reduce it by your FRAME (minimum 1). This is not resistance — it is physical tolerance. You have been hit this way before. Your body knows where to route the impact.</p>"
       },
       "6": {
         "name": "Battle Hardened",
-        "html": "<p>While below half your hit points, you gain +3 to FRAME and IRON resistance checks. Additionally, when you draw from your HP pool during a short rest, you can roll the die twice and take the higher result.</p>"
+        "html": "<p>While below half your HP, you gain +3 to FRAME and IRON resistance checks. Additionally, when you draw from your HP pool during a short rest, you can roll the die twice and take the higher result.</p>"
       },
       "10": {
         "name": "Endurance Beyond Reason",
-        "html": "<p>Once per short rest, when you would be knocked unconscious (reduced to 0 hit points), you can continue fighting at 1 hit point for 1 additional round. During this round, you gain +3 to Attack cards and cannot be affected by conditions other than death. At the end of this round, if you have not been healed to above 0 hit points, you fall unconscious normally. The Survivor calls this the Last Round, and they have enough of them that they have started counting.</p>"
+        "html": "<p>Once per short rest, when you would be knocked unconscious (reduced to 0 HP), you can continue fighting at 1 HP for 1 additional round. During this round, you gain +3 to Attack cards and cannot be affected by conditions other than death. At the end of this round, if you have not been healed to above 0 HP, you fall unconscious normally. The Survivor calls this the Last Round, and they have enough of them that they have started counting.</p>"
       },
       "14": {
         "name": "Unkillable",
-        "html": "<p>Once per long rest, when you would die (three failed death saves, massive damage, etc.), you do not. You stabilize at 1 hit point and immediately gain Malfunction Charges equal to your Constitution modifier. Your enhancements are in critical failure state from whatever killed you (would have killed you) — they may look catastrophic. You continue. You have always continued.\r</p>\n<p>---</p>"
+        "html": "<p>Once per long rest, when you would die (three failed death saves, massive damage, etc.), you do not. You stabilize at 1 HP and immediately gain Malfunction Charges equal to your FRAME. Your enhancements are in critical failure state from whatever killed you (would have killed you) — they may look catastrophic. You continue. You have always continued.\r</p>\n<p>---</p>"
       }
     },
-    "description": "<p>The Survivor has taken the Shell Dancer's fundamental approach and pushed it entirely toward endurance. They take more damage than any other class and continue. Not because they are less vulnerable — because their body has been trained through repeated exposure to failure states to simply continue. They have been at 0 hit points more times than most practitioners have been at 25%. They have developed the specific competency of a person for whom crisis is the normal operating environment.</p>"
+    "description": "<p>The Survivor has taken the Shell Dancer's fundamental approach and pushed it entirely toward endurance. They take more damage than any other class and continue. Not because they are less vulnerable — because their body has been trained through repeated exposure to failure states to simply continue. They have been at 0 HP more times than most practitioners have been at 25%. They have developed the specific competency of a person for whom crisis is the normal operating environment.</p>"
   },
   "effects": [],
   "flags": {

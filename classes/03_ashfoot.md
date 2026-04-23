@@ -216,7 +216,7 @@ Among their own communities, Ashfoot are the protectors, the proven ones, the pe
 ### Deep Cover
 *Tier 2 (2 AP) | Utility*
 
-**Effect:** You disappear into your environment — not with Veilblade tech, but with the Ashfoot's hard-won knowledge of how to be a person that no one is looking for. Until end of combat, enhancement-reading systems register you as non-combatant. Make one attack this turn with advantage (GM ruling) — a free strike from position that should not be a striking position.
+**Effect:** You disappear into your environment — not with Veilblade tech, but with the Ashfoot's hard-won knowledge of how to be a person that no one is looking for. Until end of combat, enhancement-reading systems register you as non-combatant. Make one attack this turn with +3 (GM ruling) — a free strike from position that should not be a striking position.
 **Keywords:** —
 **Unlock:** Level 15
 
@@ -611,7 +611,7 @@ As level 4.
 
 **Level 12: Bloody-Minded**
 You don't stop. This is not courage — it is the absence of the option to stop, internalized over years until it functions like courage. You gain:
-- You have resistance to psychic damage.
+- You have resistance to signal damage.
 - When you are under 25% of your maximum HP, your attack rolls deal an additional 4 damage (fixed) and your movement speed increases by 10 feet.
 - When you make a death resistance check, you can add your FRAME to the result.
 
@@ -696,7 +696,7 @@ You have an innate tactical awareness of the space your allies occupy. You gain:
 You can designate yourself as an Anchor Point as a free action. While anchored:
 - Enemies cannot flank you (they receive no flanking bonuses against you).
 - Allies within 10 feet of you gain a +2 bonus to their AC while you are conscious.
-- If an ally within 10 feet would be forced to move, you can make a Strength check contested by the forcing effect to prevent their movement.
+- If an ally within 10 feet would be forced to move, you can make a IRON contested by the forcing effect to prevent their movement.
 
 This effect lasts until the start of your next turn and can be re-applied each round.
 

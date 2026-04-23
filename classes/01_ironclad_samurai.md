@@ -504,7 +504,7 @@ Additionally, choose one of the following Vein disciplines at level 1:
 - **Iron Breath:** You can suppress your enhancement signatures temporarily as a free action. For 1 minute, you appear to scanning abilities as a lower-caste individual. This feature can be used once per combat.
 
 **Level 1: Resonant Strike**
-Your enhancements are integrated with your strikes. Once per turn when you hit with a melee attack using a resonant blade or force mace, you can add your Wisdom modifier to the damage roll. This represents the harmonic discharge of your Echomind through the resonant metal at the moment of contact.
+Your enhancements are integrated with your strikes. Once per turn when you hit with a melee attack using a resonant blade or force mace, you can add your RESONANCE to the damage roll. This represents the harmonic discharge of your Echomind through the resonant metal at the moment of contact.
 
 **Level 2: Vein Discipline**
 You have learned to shape your combat style around the obligations of the code. Choose one Vein Discipline:
@@ -594,7 +594,7 @@ As level 4.
 You have reached the end of the code — not its conclusion, but its deepest expression. The Iron Sutra teaches that the seventh principle of the Vein of Iron is unwritten because it cannot be written: it is the principle that must be discovered by living the other six. At this level, your character has found their Seventh Vein. Work with your DM to define what this is — it should be something specific to your character's history and oath.
 
 Mechanically, the Seventh Vein grants:
-- Your Resonant Strike now adds double your Wisdom modifier to damage.
+- Your Resonant Strike now adds double your RESONANCE to damage.
 - You can use Resonant Surge twice per combat.
 - When you die, your Echomind does not immediately depart to the Iron Afterlife — you remain present in your body for 1 additional round, able to take one final action before your soul departs. This final action cannot be undone by any means.
 - You gain immunity to resonant damage.
@@ -628,7 +628,7 @@ Even death cannot sever what you have sworn. Once per day, when your ward is red
 These samurai have bound their service not to a lord but to the Iron Sutra itself — specifically to its martial theology. They are the church's enforcers, its investigators, and occasionally its instruments of theological correction. They believe that every act of combat is a spiritual act, that killing is not destruction but realignment — returning a disturbed soul to the Between so it can achieve proper resonance before passing to the Iron Afterlife. This belief makes them extraordinarily dangerous and, to outside observers, profoundly disturbing. They approach killing with the serene conviction of a priest performing a necessary sacrament.
 
 **Level 3: Sutra's Edge**
-Your strikes carry theological intention. When you kill a creature, you can choose to perform the Iron Rite, a brief consecration of the killing blow. Creatures killed with the Iron Rite cannot be raised as undead or digitally reanimated without your explicit permission. Additionally, your resonant blades deal an additional 1d4 radiant-adjacent resonant damage (called Sutensai light) against entities whose Echomind is corrupted, displaced, or absent.
+Your strikes carry theological intention. When you kill a creature, you can choose to perform the Iron Rite, a brief consecration of the killing blow. Creatures killed with the Iron Rite cannot be raised as undead or digitally reanimated without your explicit permission. Additionally, your resonant blades deal an additional 3 radiant-adjacent resonant damage (called Sutensai light) against entities whose Echomind is corrupted, displaced, or absent.
 
 **Level 6: Theological Authority**
 Your role as the church's blade gives you standing even among those who might otherwise dismiss a samurai. You gain class expertise in Iron Sutra doctrine. Additionally, once per day, you can invoke the Sutra's authority: one creature that can hear you must make a VEIL resistance check, difficulty 4, or be unable to attack you or your allies for 1 minute. They may repeat the check at the end of each of their turns.
@@ -660,7 +660,7 @@ The faces of your dead are engraved on your Echomind. You can spend 10 minutes i
 Your refusal to die before the debt is paid becomes supernatural in its intensity. When you are reduced to 0 HP, you can use your Reaction to remain at 1 HP. While at 1 HP through this feature, your attack cards gain +3 damage against your debt targets, and you cannot be moved against your will. This state ends at the end of your next turn, at which point you fall unconscious normally. This feature can be used once per day.
 
 **Level 14: The Debt Becomes the Blade**
-Your accumulated grief and obligation has crystallized into something almost tangible. Once per long rest, as an action, you can manifest the Debt's Blade — a spectral resonant weapon that deals 6d10 resonant damage to a single target that appears to be made of the crystallized memory of your dead. This is automatically a critical hit against your named debt targets. Additionally, until your debt is paid, you age at half the normal rate — your Echomind's refusal to let go has a physiological expression.
+Your accumulated grief and obligation has crystallized into something almost tangible. Once per long rest, as an action, you can manifest the Debt's Blade — a spectral resonant weapon that deals 33 resonant damage to a single target that appears to be made of the crystallized memory of your dead. This is automatically a critical hit against your named debt targets. Additionally, until your debt is paid, you age at half the normal rate — your Echomind's refusal to let go has a physiological expression.
 
 ---
 
@@ -686,7 +686,7 @@ Your body is a temple. It has become extraordinarily resilient. Your HP maximum 
 At the deepest level of the Flesh Temple philosophy is an acceptance of destruction as transformation. Once per long rest, you can enter the Temple Burns state as a bonus action. For 1 minute:
 - You deal maximum damage on all melee attacks.
 - You have resistance to all damage types.
-- At the end of the minute, you take 4d10 resonant damage that cannot be reduced by any means. This is the offering. You accept it as part of the practice.
+- At the end of the minute, you take 22 resonant damage that cannot be reduced by any means. This is the offering. You accept it as part of the practice.
 
 ---
 

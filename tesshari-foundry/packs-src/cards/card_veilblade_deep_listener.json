@@ -20,7 +20,7 @@
     "isStartingHand": false,
     "isReaction": false,
     "usesPerCombat": null,
-    "description": "<p>Your Wire immersion is deep and quiet. When in Wire or connected to a Wire network this combat, you gain advantage on any check to find, access, or interpret data (GM ruling). Additionally, your Wire Entry is silent — no physical tells betray your connection.</p>"
+    "description": "<p>Your Wire immersion is deep and quiet. When in Wire or connected to a Wire network this combat, you gain +3 to any check to find, access, or interpret data (GM ruling). Additionally, your Wire Entry is silent — no physical tells betray your connection.</p>"
   },
   "effects": [],
   "flags": {
