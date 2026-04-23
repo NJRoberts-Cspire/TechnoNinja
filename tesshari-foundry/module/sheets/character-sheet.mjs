@@ -12,6 +12,9 @@
  * Drag an Item from the sidebar onto the sheet → embedded copy.
  */
 
+import { CardEngine } from "../card-engine.mjs";
+import { renderPreviewTooltip } from "./card-preview.mjs";
+
 const { HandlebarsApplicationMixin } = foundry.applications.api;
 const { ActorSheetV2 } = foundry.applications.sheets;
 
@@ -158,6 +161,23 @@ export class TesshariCharacterSheet extends HandlebarsApplicationMixin(ActorShee
     }
   }
 
+  /* ──────────────────────────────────────────────────────────────────
+   * Tactics-mode hover preview state
+   * ────────────────────────────────────────────────────────────────── */
+
+  /** @type {HTMLElement|null} Floating tooltip element (attached to body). */
+  #previewEl = null;
+  /** @type {string|null} Currently hovered card id, or null when not hovering. */
+  #hoveredCardId = null;
+  /** @type {DOMRect|null} Anchor rect of the hovered card tile. */
+  #hoveredAnchor = null;
+  /** @type {boolean} Shift state for overclock preview. */
+  #shiftHeld = false;
+  /** @type {number|null} Foundry hook id for targetToken. */
+  #targetHookId = null;
+  /** @type {boolean} True once document-level listeners (Shift, hook) are bound. */
+  #previewGlobalBound = false;
+
   // Arrow class fields → lexically bound `this`, no .bind() needed.
   #handleDragOver = (event) => {
     // Only preventDefault for actual drags (has dataTransfer items) to avoid
@@ -282,7 +302,130 @@ export class TesshariCharacterSheet extends HandlebarsApplicationMixin(ActorShee
     ui.notifications?.info(`${this.actor.name}: ${item.type} set to ${item.name}.`);
   }
 
-  /** @override — wire drag-drop each render; removeEventListener first to avoid stacking. */
+  /* ──────────────────────────────────────────────────────────────────
+   * Tactics-mode hover preview handlers
+   * ────────────────────────────────────────────────────────────────── */
+
+  #handleCardEnter = (event) => {
+    const tile = event.currentTarget;
+    const cardId = tile?.dataset?.itemId;
+    if (!cardId) return;
+    this.#hoveredCardId = cardId;
+    this.#hoveredAnchor = tile.getBoundingClientRect();
+    this.#refreshPreview();
+  };
+
+  #handleCardLeave = (event) => {
+    // Only hide if leaving the tile entirely (relatedTarget is outside).
+    const tile = event.currentTarget;
+    const next = event.relatedTarget;
+    if (next && tile.contains(next)) return;
+    this.#hoveredCardId = null;
+    this.#hoveredAnchor = null;
+    this.#hidePreview();
+  };
+
+  #handleShiftDown = (event) => {
+    if (event.key !== "Shift" || this.#shiftHeld) return;
+    this.#shiftHeld = true;
+    if (this.#hoveredCardId) this.#refreshPreview();
+  };
+
+  #handleShiftUp = (event) => {
+    if (event.key !== "Shift" || !this.#shiftHeld) return;
+    this.#shiftHeld = false;
+    if (this.#hoveredCardId) this.#refreshPreview();
+  };
+
+  #handleTargetChange = () => {
+    // game.user.targets just changed — if the player is hovering, recompute.
+    if (this.#hoveredCardId) this.#refreshPreview();
+  };
+
+  /** Compute fresh preview data and render into the floating tooltip. */
+  #refreshPreview() {
+    const cardId = this.#hoveredCardId;
+    if (!cardId) return this.#hidePreview();
+    const card = this.actor?.items?.get(cardId);
+    if (!card) return this.#hidePreview();
+
+    let preview;
+    try {
+      preview = CardEngine.preview(this.actor, card, { overclock: this.#shiftHeld });
+    } catch (err) {
+      console.error("tesshari | preview failed:", err);
+      return this.#hidePreview();
+    }
+
+    const html = renderPreviewTooltip(preview, card);
+    const el = this.#ensurePreviewEl();
+    el.innerHTML = html;
+    el.classList.add("is-visible");
+    this.#positionPreview(el, this.#hoveredAnchor);
+  }
+
+  #ensurePreviewEl() {
+    if (this.#previewEl && document.body.contains(this.#previewEl)) return this.#previewEl;
+    const el = document.createElement("div");
+    el.className = "tesshari-card-preview-tooltip";
+    document.body.appendChild(el);
+    this.#previewEl = el;
+    return el;
+  }
+
+  #hidePreview() {
+    if (this.#previewEl) this.#previewEl.classList.remove("is-visible");
+  }
+
+  /**
+   * Place the tooltip beside the card tile. Prefers right-of-tile; flips to
+   * left-of-tile if it would overflow the viewport. Vertical: align top, clamp
+   * to viewport.
+   */
+  #positionPreview(el, anchorRect) {
+    if (!anchorRect) return;
+    el.style.maxWidth = "360px";
+    // Measure after content set
+    const tipRect = el.getBoundingClientRect();
+    const margin = 8;
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+
+    let left = anchorRect.right + margin;
+    if (left + tipRect.width > vw - margin) {
+      left = anchorRect.left - tipRect.width - margin;
+    }
+    if (left < margin) left = margin;
+
+    let top = anchorRect.top;
+    if (top + tipRect.height > vh - margin) {
+      top = Math.max(margin, vh - tipRect.height - margin);
+    }
+    if (top < margin) top = margin;
+
+    el.style.left = `${left}px`;
+    el.style.top  = `${top}px`;
+  }
+
+  /** Bind once: keyboard + Foundry target hook. Idempotent via #previewGlobalBound. */
+  #bindPreviewGlobals() {
+    if (this.#previewGlobalBound) return;
+    document.addEventListener("keydown", this.#handleShiftDown);
+    document.addEventListener("keyup",   this.#handleShiftUp);
+    this.#targetHookId = Hooks.on("targetToken", this.#handleTargetChange);
+    this.#previewGlobalBound = true;
+  }
+
+  #unbindPreviewGlobals() {
+    if (!this.#previewGlobalBound) return;
+    document.removeEventListener("keydown", this.#handleShiftDown);
+    document.removeEventListener("keyup",   this.#handleShiftUp);
+    if (this.#targetHookId != null) Hooks.off("targetToken", this.#targetHookId);
+    this.#targetHookId = null;
+    this.#previewGlobalBound = false;
+  }
+
+  /** @override — wire drag-drop + card hover each render. Globals bound once. */
   _onRender(context, options) {
     super._onRender?.(context, options);
     const root = this.element;
@@ -291,6 +434,32 @@ export class TesshariCharacterSheet extends HandlebarsApplicationMixin(ActorShee
     root.removeEventListener("drop",     this.#handleDrop);
     root.addEventListener("dragover",    this.#handleDragOver);
     root.addEventListener("drop",        this.#handleDrop);
+
+    // Per-tile hover listeners — DOM is rebuilt each render so old listeners
+    // die with the old nodes; just bind to the current set.
+    for (const tile of root.querySelectorAll(".card-tile")) {
+      tile.addEventListener("mouseenter", this.#handleCardEnter);
+      tile.addEventListener("mouseleave", this.#handleCardLeave);
+    }
+
+    // Re-render killed the previously hovered tile — drop stale state.
+    this.#hoveredCardId = null;
+    this.#hoveredAnchor = null;
+    this.#hidePreview();
+
+    this.#bindPreviewGlobals();
+  }
+
+  /** @override — tear down preview state when the sheet closes. */
+  async _onClose(options) {
+    this.#unbindPreviewGlobals();
+    if (this.#previewEl && this.#previewEl.parentNode) {
+      this.#previewEl.parentNode.removeChild(this.#previewEl);
+    }
+    this.#previewEl = null;
+    this.#hoveredCardId = null;
+    this.#hoveredAnchor = null;
+    return super._onClose?.(options);
   }
 
   /** Form submit handler (ApplicationV2 form API). */

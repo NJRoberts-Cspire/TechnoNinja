@@ -180,6 +180,110 @@ export class TesshariDamage {
   }
 
   /**
+   * Pure projection: run the same 7-step math as resolve(), but commit nothing
+   * and post no chat. Used by the tactics-mode hover preview. Returns the same
+   * DamageResult plus HP before / HP after for display.
+   *
+   * @param {Actor} defender
+   * @param {DamageInputs} inputs
+   * @returns {DamageResult & {hpBefore:number, hpAfter:number}}
+   */
+  static preview(defender, inputs = {}) {
+    const {
+      baseDamage = 0,
+      statValue = 0,
+      attackerBonus = 0,
+      pierce = 0,
+      echo = false,
+      ignoreMitigation = false,
+    } = inputs;
+
+    if (!defender) {
+      return { baseDamage, statValue, attackerBonus, pierce, guardConsumed: 0, shieldConsumed: 0,
+        vulnerableStacks: 0, exposeAdded: 0, preClampDamage: 0, finalDamage: 0,
+        echoDamage: 0, totalDamage: 0, steps: [], hpBefore: 0, hpAfter: 0 };
+    }
+
+    const steps = [];
+    let dmg = baseDamage;
+    steps.push({ step: 1, label: "base", value: dmg });
+
+    dmg += statValue;
+    steps.push({ step: 2, label: `+ stat (${statValue})`, value: dmg });
+
+    if (attackerBonus !== 0) {
+      dmg += attackerBonus;
+      steps.push({ step: 3, label: `+ mods (${attackerBonus})`, value: dmg });
+    }
+
+    let guardConsumed = 0, shieldConsumed = 0, vuln = 0, expose = 0;
+    let residualGuard = StatusEngine.stacksOf(defender, "guard");
+    let residualShield = StatusEngine.stacksOf(defender, "shield");
+
+    if (!ignoreMitigation) {
+      const pierceVsGuard  = Math.min(pierce, residualGuard);
+      residualGuard -= pierceVsGuard;
+      const pierceVsShield = Math.min(pierce - pierceVsGuard, residualShield);
+      residualShield -= pierceVsShield;
+
+      const absorbedByGuard = Math.min(residualGuard, dmg);
+      dmg -= absorbedByGuard;
+      residualGuard -= absorbedByGuard;
+      guardConsumed = absorbedByGuard + pierceVsGuard;
+      if (pierceVsGuard || absorbedByGuard) {
+        steps.push({ step: 4, label: `− guard (−${absorbedByGuard}, pierced ${pierceVsGuard})`, value: dmg });
+      }
+
+      const absorbedByShield = Math.min(residualShield, dmg);
+      dmg -= absorbedByShield;
+      residualShield -= absorbedByShield;
+      shieldConsumed = absorbedByShield + pierceVsShield;
+      if (pierceVsShield || absorbedByShield) {
+        steps.push({ step: 4, label: `− shield (−${absorbedByShield}, pierced ${pierceVsShield})`, value: dmg });
+      }
+
+      vuln = StatusEngine.stacksOf(defender, "vulnerable");
+      expose = StatusEngine.stacksOf(defender, "expose");
+      if (vuln > 0) {
+        dmg = Math.floor(dmg * (1 + 0.1 * vuln));
+        steps.push({ step: 5, label: `× vulnerable ${vuln}`, value: dmg });
+      }
+      if (expose > 0) {
+        dmg += expose;
+        steps.push({ step: 5, label: `+ expose ${expose}`, value: dmg });
+      }
+    }
+
+    const preClampDamage = dmg;
+    dmg = Math.max(0, dmg);
+    if (dmg !== preClampDamage) steps.push({ step: 6, label: "clamp ≥ 0", value: dmg });
+
+    // Echo pass — same residual model, no Pierce, no rider application
+    let echoDamage = 0;
+    if (echo) {
+      let edmg = baseDamage + statValue;
+      const absG = Math.min(residualGuard, edmg);  edmg -= absG;  residualGuard -= absG;
+      const absS = Math.min(residualShield, edmg); edmg -= absS;  residualShield -= absS;
+      edmg = Math.max(0, Math.floor(edmg * (1 + 0.1 * vuln)) + expose);
+      echoDamage = edmg;
+      guardConsumed += absG;
+      shieldConsumed += absS;
+    }
+
+    const hpBefore = defender.system?.hp?.value ?? 0;
+    const hpAfter = Math.max(0, hpBefore - dmg - echoDamage);
+
+    return {
+      baseDamage, statValue, attackerBonus, pierce,
+      guardConsumed, shieldConsumed,
+      vulnerableStacks: vuln, exposeAdded: expose,
+      preClampDamage, finalDamage: dmg, echoDamage,
+      totalDamage: dmg + echoDamage, steps,
+      hpBefore, hpAfter,
+    };
+  }
+
+  /**
    * Echo repeat — from keywords_and_status.md §Echo:
    *   "the repeated hit does not apply rider effects... the Echo hit can be
    *    blocked by remaining Guard/Shield... Expose and Vulnerable affect

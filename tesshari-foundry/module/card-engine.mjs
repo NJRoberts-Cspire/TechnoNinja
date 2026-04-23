@@ -183,6 +183,99 @@ export class CardEngine {
   }
 
   /**
+   * Tactics-mode hover preview. Pure — commits nothing, posts no chat, mutates
+   * no state. Returns a structured "what would happen" summary for the UI.
+   *
+   * Shape:
+   *   {
+   *     canPlay:   { ok, reason? },
+   *     apCost, apAfter,
+   *     statValue, primaryStat, effectiveBase,
+   *     targets: [
+   *       { name, hpBefore, hpAfter, damage, echoDamage, guardConsumed,
+   *         shieldConsumed, vulnerableStacks, exposeAdded, riders: [{id,value}],
+   *         cleansed: boolean, dispelled: boolean, veilWouldConsume: boolean,
+   *         steps: [{step,label,value}] }
+   *     ],
+   *     selfRiders: [{id,value}],   // e.g. Overclock → Overheat 2
+   *     keywords: {riders, actions, modifiers}
+   *   }
+   */
+  static preview(actor, card, opts = {}) {
+    const { targets: explicitTargets = null, overclock = false } = opts;
+    if (!actor || !card || card.type !== "card") {
+      return { canPlay: { ok: false, reason: "Invalid card." }, targets: [] };
+    }
+
+    const canPlay = this.canPlay(actor, card);
+    const targets = this.#resolveTargets(explicitTargets);
+
+    const apCost = card.system.apCost ?? card.system.tier ?? 0;
+    const apValue = actor.system?.ap?.value ?? 0;
+    const apAfter = Math.max(0, apValue - apCost);
+
+    const keywords = (card.system.keywords ?? []).map(parseKeyword).filter(Boolean);
+    const hasEcho    = keywords.some(k => k.name === "echo");
+    const hasCleanse = keywords.some(k => k.name === "cleanse");
+    const hasDispel  = keywords.some(k => k.name === "dispel");
+    const statusRiders = keywords.filter(k => STATUS_KEYWORDS.has(k.name));
+    const modifiers    = keywords.filter(k => MODIFIER_KEYWORDS.has(k.name));
+    const actions      = keywords.filter(k => ACTION_KEYWORDS.has(k.name));
+
+    const statValue = this.#resolveStatValue(actor, card);
+    const primaryStat = (card.system?.primaryStat ?? "").toLowerCase();
+    let effectiveBase = card.system.baseDamage ?? 0;
+    if (overclock) effectiveBase *= 2;
+
+    const hasDamage = effectiveBase > 0 || (primaryStat && primaryStat !== "");
+
+    const targetBlocks = targets.map(defender => {
+      const veilWouldConsume = StatusEngine.hasStatus(defender, "veil");
+      const dmgResult = hasDamage
+        ? TesshariDamage.preview(defender, {
+            baseDamage: effectiveBase,
+            statValue,
+            pierce: card.system.pierce ?? 0,
+            attackerBonus: 0,
+            echo: hasEcho,
+          })
+        : null;
+
+      return {
+        name: defender.name,
+        hpBefore: defender.system?.hp?.value ?? 0,
+        hpAfter:  dmgResult?.hpAfter ?? (defender.system?.hp?.value ?? 0),
+        damage:   dmgResult?.finalDamage ?? 0,
+        echoDamage: dmgResult?.echoDamage ?? 0,
+        totalDamage: dmgResult?.totalDamage ?? 0,
+        guardConsumed:  dmgResult?.guardConsumed ?? 0,
+        shieldConsumed: dmgResult?.shieldConsumed ?? 0,
+        vulnerableStacks: dmgResult?.vulnerableStacks ?? 0,
+        exposeAdded:      dmgResult?.exposeAdded ?? 0,
+        steps: dmgResult?.steps ?? [],
+        veilWouldConsume,
+        riders: veilWouldConsume ? [] : statusRiders.map(r => ({ id: r.name, value: r.value })),
+        cleansed:  !veilWouldConsume && hasCleanse,
+        dispelled: !veilWouldConsume && hasDispel,
+      };
+    });
+
+    const selfRiders = [];
+    if (overclock) selfRiders.push({ id: "overheat", value: 2 });
+
+    return {
+      canPlay,
+      apCost, apAfter,
+      statValue, primaryStat, effectiveBase,
+      overclocked: overclock,
+      hasDamage,
+      targets: targetBlocks,
+      selfRiders,
+      keywords: { riders: statusRiders, modifiers, actions },
+    };
+  }
+
+  /**
    * Validate whether the actor can legally play the card right now. No state
    * mutations. Returns { ok, reason }.
    */

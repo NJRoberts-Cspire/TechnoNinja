@@ -564,3 +564,271 @@
   border-color: var(--color-border-light-primary, #888);
 }
 
+/* ─── tactics-mode card preview tooltip ─────────────────────────────── */
+
+.tesshari-card-preview-tooltip {
+  position: fixed;
+  z-index: 200;  /* above sheets, below modal dialogs */
+  width: 360px;
+  max-width: 360px;
+  background: #15171c;
+  border: 1px solid #3a4050;
+  border-radius: 6px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  padding: 0.55rem 0.65rem;
+  font-family: var(--font-primary, "Signika", sans-serif);
+  font-size: 0.82rem;
+  color: #d8dde6;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(2px);
+  transition: opacity 90ms ease-out, transform 90ms ease-out;
+}
+.tesshari-card-preview-tooltip.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tesshari-card-preview { display: flex; flex-direction: column; gap: 0.4rem; }
+
+/* Header */
+.tesshari-card-preview .tp-header {
+  display: flex; flex-direction: column; gap: 0.2rem;
+  border-bottom: 1px solid #2c313d; padding-bottom: 0.35rem;
+}
+.tesshari-card-preview .tp-title {
+  display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap;
+}
+.tesshari-card-preview .tp-name {
+  font-weight: 700; font-size: 0.95rem; color: #f4f6fa; flex: 1;
+}
+.tesshari-card-preview .tp-tier {
+  display: inline-block; min-width: 1.4rem; text-align: center;
+  font-weight: 700; font-size: 0.7rem; padding: 0.05rem 0.3rem;
+  border-radius: 3px; background: #2a2f3c; color: #cdd3df;
+}
+.tesshari-card-preview .tp-tier-0 { background: #3d4453; }
+.tesshari-card-preview .tp-tier-1 { background: #2d4a6b; color: #c8e0ff; }
+.tesshari-card-preview .tp-tier-2 { background: #6b482d; color: #ffe1c8; }
+.tesshari-card-preview .tp-tier-3 { background: #6b2d4a; color: #ffc8e0; }
+.tesshari-card-preview .tp-ap {
+  display: inline-block; padding: 0.05rem 0.4rem;
+  border-radius: 999px; background: #2c3440; font-weight: 700; font-size: 0.7rem;
+}
+.tesshari-card-preview .tp-sub {
+  display: flex; gap: 0.4rem; flex-wrap: wrap;
+  font-size: 0.7rem; opacity: 0.75; text-transform: uppercase; letter-spacing: 0.04em;
+}
+.tesshari-card-preview .tp-react { color: #f0c674; }
+.tesshari-card-preview .tp-uses { color: #a3d9a5; }
+
+/* Cost / gate row */
+.tesshari-card-preview .tp-row {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem;
+  font-size: 0.78rem;
+}
+.tesshari-card-preview .tp-cost { color: #b9c4d6; }
+.tesshari-card-preview .tp-cost strong { color: #f4f6fa; }
+.tesshari-card-preview .tp-sep { opacity: 0.4; }
+
+.tesshari-card-preview .tp-gate-fail {
+  background: rgba(180, 60, 60, 0.18);
+  border: 1px solid rgba(180, 60, 60, 0.45);
+  border-radius: 3px;
+  padding: 0.3rem 0.5rem;
+  color: #f4b8b8;
+  font-weight: 600;
+}
+.tesshari-card-preview .tp-gate-fail .tp-icon { font-size: 0.95rem; }
+
+/* No-target hint */
+.tesshari-card-preview .tp-no-target {
+  font-style: italic;
+  opacity: 0.65;
+  padding: 0.15rem 0.1rem;
+}
+
+/* Per-target block */
+.tesshari-card-preview .tp-target {
+  border: 1px solid #2c313d;
+  border-radius: 4px;
+  padding: 0.35rem 0.5rem;
+  background: rgba(255, 255, 255, 0.02);
+  display: flex; flex-direction: column; gap: 0.3rem;
+}
+.tesshari-card-preview .tp-target.is-hit { border-color: #5a3d40; }
+.tesshari-card-preview .tp-target.is-killed {
+  border-color: #8b3d3d;
+  background: rgba(139, 61, 61, 0.12);
+}
+.tesshari-card-preview .tp-target-head {
+  display: flex; align-items: baseline; flex-wrap: wrap; gap: 0.4rem;
+}
+.tesshari-card-preview .tp-target-name {
+  font-weight: 700; font-size: 0.85rem; color: #eef0f5; flex: 1;
+}
+.tesshari-card-preview .tp-dmg {
+  font-weight: 700; color: #ff8a8a; font-size: 0.95rem;
+}
+.tesshari-card-preview .tp-echo {
+  color: #c8a4ff; font-weight: 600; font-size: 0.75rem;
+}
+.tesshari-card-preview .tp-hp-delta {
+  font-size: 0.75rem; color: #b9c4d6;
+}
+.tesshari-card-preview .tp-hp-delta strong {
+  color: #f4f6fa;
+}
+.tesshari-card-preview .tp-no-dmg {
+  font-style: italic; opacity: 0.65; font-size: 0.78rem;
+}
+.tesshari-card-preview .tp-veil-msg {
+  color: #c0c0e0; font-style: italic; font-size: 0.78rem;
+}
+.tesshari-card-preview .tp-target.is-killed .tp-target-name::after {
+  content: " ☠";
+  color: #ff8a8a;
+  font-weight: 700;
+}
+
+/* HP bar */
+.tesshari-card-preview .tp-hp-bar {
+  position: relative;
+  height: 6px;
+  background: #2a2f3a;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.tesshari-card-preview .tp-hp-after {
+  position: absolute; top: 0; bottom: 0; left: 0;
+  background: linear-gradient(90deg, #58c45e, #a3d9a5);
+}
+.tesshari-card-preview .tp-hp-loss {
+  position: absolute; top: 0; bottom: 0;
+  background: repeating-linear-gradient(135deg, #b03030, #b03030 4px, #8a2424 4px, #8a2424 8px);
+  opacity: 0.85;
+}
+
+/* Mitigation chips */
+.tesshari-card-preview .tp-mit {
+  font-size: 0.7rem; opacity: 0.85;
+}
+.tesshari-card-preview .tp-mit > span {
+  padding: 0.05rem 0.35rem;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.05);
+}
+.tesshari-card-preview .tp-mit-guard  { color: #8fb8d6; }
+.tesshari-card-preview .tp-mit-shield { color: #9fd6c8; }
+.tesshari-card-preview .tp-mit-vuln   { color: #d6a3d6; }
+.tesshari-card-preview .tp-mit-expose { color: #f0c674; }
+
+/* Veil note */
+.tesshari-card-preview .tp-veil-note {
+  font-size: 0.72rem; font-style: italic; color: #c0c0e0;
+  background: rgba(120, 120, 180, 0.12);
+  border-left: 2px solid #6b6b8b;
+  padding: 0.2rem 0.4rem;
+  border-radius: 2px;
+}
+
+/* Riders / self */
+.tesshari-card-preview .tp-row-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.6;
+  font-weight: 700;
+}
+.tesshari-card-preview .tp-self {
+  border-top: 1px dashed #2c313d;
+  padding-top: 0.3rem;
+}
+
+/* Keyword chips — color by type */
+.tesshari-card-preview .tp-kw {
+  display: inline-block;
+  padding: 0.05rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+}
+.tesshari-card-preview .tp-kw-buff {
+  background: rgba(60, 140, 80, 0.18);
+  color: #a3d9a5;
+  border-color: rgba(60, 140, 80, 0.45);
+}
+.tesshari-card-preview .tp-kw-debuff {
+  background: rgba(180, 60, 60, 0.18);
+  color: #f4b8b8;
+  border-color: rgba(180, 60, 60, 0.45);
+}
+.tesshari-card-preview .tp-kw-modifier {
+  background: rgba(160, 110, 200, 0.18);
+  color: #d4b8f0;
+  border-color: rgba(160, 110, 200, 0.45);
+}
+.tesshari-card-preview .tp-kw-action {
+  background: rgba(80, 140, 200, 0.18);
+  color: #a8d0f0;
+  border-color: rgba(80, 140, 200, 0.45);
+}
+/* Per-keyword tints (override the type defaults for the canonical colors) */
+.tesshari-card-preview .tp-kw-bleed   { color: #ff9b9b; }
+.tesshari-card-preview .tp-kw-burn    { color: #ffb070; }
+.tesshari-card-preview .tp-kw-expose  { color: #f0c674; }
+.tesshari-card-preview .tp-kw-vulnerable { color: #d6a3d6; }
+.tesshari-card-preview .tp-kw-guard   { color: #8fb8d6; }
+.tesshari-card-preview .tp-kw-shield  { color: #9fd6c8; }
+.tesshari-card-preview .tp-kw-veil    { color: #c0c0e0; }
+.tesshari-card-preview .tp-kw-overheat{ color: #ff7060; }
+.tesshari-card-preview .tp-kw-overclock {
+  background: rgba(220, 120, 60, 0.25);
+  color: #ffd0a0;
+  border-color: rgba(220, 120, 60, 0.6);
+  animation: tp-pulse 1.4s ease-in-out infinite;
+}
+@keyframes tp-pulse {
+  0%,100% { opacity: 1; }
+  50%     { opacity: 0.7; }
+}
+
+/* Description */
+.tesshari-card-preview .tp-desc {
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: #c2cad9;
+  border-top: 1px dashed #2c313d;
+  padding-top: 0.35rem;
+  max-height: 200px;
+  overflow-y: auto;
+}
+.tesshari-card-preview .tp-desc p { margin: 0 0 0.35rem 0; }
+.tesshari-card-preview .tp-desc p:last-child { margin-bottom: 0; }
+
+/* Footer hint */
+.tesshari-card-preview .tp-hint {
+  font-size: 0.7rem;
+  opacity: 0.55;
+  font-style: italic;
+  border-top: 1px dashed #2c313d;
+  padding-top: 0.3rem;
+}
+.tesshari-card-preview .tp-hint kbd {
+  display: inline-block;
+  padding: 0 0.3rem;
+  border: 1px solid #4a5060;
+  border-radius: 2px;
+  background: #2a2f3a;
+  font-family: monospace;
+  font-size: 0.7rem;
+}
+
+/* Tier border accent on the tooltip itself */
+.tesshari-card-preview.tier-0 { border-left: 3px solid #888; padding-left: 0.5rem; margin-left: -0.15rem; }
+.tesshari-card-preview.tier-1 { border-left: 3px solid #5a8ec9; padding-left: 0.5rem; margin-left: -0.15rem; }
+.tesshari-card-preview.tier-2 { border-left: 3px solid #c98c5a; padding-left: 0.5rem; margin-left: -0.15rem; }
+.tesshari-card-preview.tier-3 { border-left: 3px solid #c95a8c; padding-left: 0.5rem; margin-left: -0.15rem; }
+
