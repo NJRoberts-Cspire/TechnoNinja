@@ -1,0 +1,35 @@
+{
+  "_id": "0ca5cfb1e39c4fc8",
+  "name": "The Broken Perfection",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 20,
+    "className": "Shell Dancer",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>For 1 full round, every failure is a weapon. All damage you take this round generates 3 Cascade instead of 1. All your Attack cards deal +FRAME bonus damage. Entering or exiting Shell Step costs 0 AP this round. When this round ends, spend all Cascade: deal (6 + EDGE) per Cascade stack to all enemies within 20 meters simultaneously. Gain HP equal to half the total damage dealt from this final discharge. The cascade is not ending. The cascade is not the problem. You are.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_the_broken_perfection"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

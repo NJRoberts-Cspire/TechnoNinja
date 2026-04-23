@@ -1,0 +1,35 @@
+{
+  "_id": "777a64d79a23db19",
+  "name": "Wire Sovereign",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 12,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your Wire authority reaches its operational peak. Any Wire system you take control of (via System Override, Network Domination, or Signal Fortress) cannot be retaken by enemies this scene. Wire Crash cards you play deal +4 damage. You automatically succeed at accessing any unencrypted Wire system.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_wire_sovereign"
+    }
+  },
+  "folder": null,
+  "sort": 2012,
+  "ownership": {
+    "default": 0
+  }
+}

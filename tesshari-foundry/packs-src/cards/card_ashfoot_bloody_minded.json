@@ -1,0 +1,35 @@
+{
+  "_id": "0c5ee1d8b70c2f31",
+  "name": "Bloody-Minded",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 8,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>When you are below 25% of your maximum HP, all your attacks deal + EDGE additional damage. You don't stop. This is not courage — it is the absence of the option to stop.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_bloody_minded"
+    }
+  },
+  "folder": null,
+  "sort": 1008,
+  "ownership": {
+    "default": 0
+  }
+}

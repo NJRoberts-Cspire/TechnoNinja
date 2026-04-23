@@ -1,0 +1,26 @@
+{
+  "_id": "1dde6b62c392dbe4",
+  "name": "Cascade Focus",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Resonant disc amplifying Shell Dancer cascade generation. Each hit taken generates one additional cascade stack while equipped.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_shell_dancer_cascade_focus",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

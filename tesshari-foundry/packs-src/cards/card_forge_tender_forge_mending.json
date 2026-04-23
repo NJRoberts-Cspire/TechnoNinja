@@ -1,0 +1,35 @@
+{
+  "_id": "71d72f9c2909cbd3",
+  "name": "Forge Mending",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Restore hit points to one ally within reach by repairing their enhancements and treating their wounds. The ally recovers 8 + RESONANCE HP. If the ally is below half HP, add your SIGNAL to the recovery — you identify the cascade points and address them first. This is the work. This is always the work.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_forge_mending"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

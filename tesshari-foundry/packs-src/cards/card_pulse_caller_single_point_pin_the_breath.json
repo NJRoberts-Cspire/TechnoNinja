@@ -1,0 +1,35 @@
+{
+  "_id": "0ca1dbae0e1a3293",
+  "name": "Pin the Breath",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Pulse Caller",
+    "subclass": "Pulse Caller — Single Point",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Strike the narrow point between a foe's ribs for 1d6 + EDGE damage. On hit, the target's initiative drops to last on the next round (CON save negates).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_single_point_pin_the_breath"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

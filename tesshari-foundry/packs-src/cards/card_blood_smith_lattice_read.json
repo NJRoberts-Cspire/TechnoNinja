@@ -1,0 +1,37 @@
+{
+  "_id": "828bb42cd30ee8d3",
+  "name": "Lattice Read",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 2"
+    ],
+    "unlockLevel": 1,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Passive component: you always know the enhancement status (stable / stressed / failing) of all creatures within 20 feet. Active component: learn the exact HP of one target within 20 feet and apply Expose 2 to them.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_lattice_read"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

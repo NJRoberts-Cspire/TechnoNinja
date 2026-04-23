@@ -1,0 +1,40 @@
+{
+  "_id": "4cb97d763779f711",
+  "name": "Voice of Both Worlds",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger",
+      "Silence",
+      "Expose 3",
+      "Guard 12"
+    ],
+    "unlockLevel": 20,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Open the Veil fully in a 30-foot radius for 1 round. All dead with unfinished business in the area speak simultaneously — every enemy takes 18 + RESONANCE damage, gains Stagger, Silence, and Expose 3. Every ally recovers 14 HP and gains Guard 12. Any ally reduced to 0 HP this round is held at 1 HP by your presence. When this card resolves, you are reduced to 1 HP — the bridge, used fully, costs everything. You cannot be reduced below 1 HP until the start of your next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_voice_of_both_worlds"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "b2bfa54c1bcecbff",
+  "name": "Claimant Network Chart",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A hand-drawn chart mapping known relationships between all three Claimants and their supporters. High intelligence value.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_claimant_network_chart",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

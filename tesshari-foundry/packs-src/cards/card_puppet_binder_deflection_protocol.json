@@ -1,0 +1,35 @@
+{
+  "_id": "48dddd144cffd236",
+  "name": "Deflection Protocol",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "reaction",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 3,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": true,
+    "usesPerCombat": null,
+    "description": "<p>*Trigger: You are targeted by a melee attack.* Redirect the attack to your active vessel instead. The vessel takes the full damage. You are unharmed.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_deflection_protocol"
+    }
+  },
+  "folder": null,
+  "sort": 1003,
+  "ownership": {
+    "default": 0
+  }
+}

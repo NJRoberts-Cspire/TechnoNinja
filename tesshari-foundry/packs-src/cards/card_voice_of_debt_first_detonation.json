@@ -1,0 +1,37 @@
+{
+  "_id": "fbb56a8286dfe7c9",
+  "name": "First Detonation",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 6,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "veil",
+    "keywords": [
+      "Stagger"
+    ],
+    "unlockLevel": 5,
+    "className": "Voice of Debt",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>*Debt Detonation.* Target one creature within 40 feet carrying Debt stacks. Deal 6 + VEIL social damage plus 3 damage per Debt stack they carry. Remove all Debt stacks from the target after damage resolves. Apply Stagger.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_first_detonation"
+    }
+  },
+  "folder": null,
+  "sort": 2005,
+  "ownership": {
+    "default": 0
+  }
+}

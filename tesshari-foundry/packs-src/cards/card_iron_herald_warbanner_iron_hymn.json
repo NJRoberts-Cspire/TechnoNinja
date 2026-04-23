@@ -1,0 +1,35 @@
+{
+  "_id": "90f879a3354913a1",
+  "name": "Iron Hymn",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Iron Herald",
+    "subclass": "Iron Herald — Warbanner",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Begin the marching hymn (sustained until end of combat or you stop singing). Each round, allies within 30 feet gain +1 to attack rolls and advantage on fear saves; enemies in range have disadvantage on morale checks.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_warbanner_iron_hymn"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

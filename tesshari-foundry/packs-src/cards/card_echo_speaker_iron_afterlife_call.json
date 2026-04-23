@@ -1,0 +1,35 @@
+{
+  "_id": "4eebb65286daa410",
+  "name": "Iron Afterlife Call",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 9,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Open a direct channel to the Iron Afterlife. In combat: learn the true nature of one enemy — their actual motivations, any active deceptions, and one card they are holding. Out of combat: contact any dead individual whose name or signature you know; they answer as completely as they are able.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_iron_afterlife_call"
+    }
+  },
+  "folder": null,
+  "sort": 2009,
+  "ownership": {
+    "default": 0
+  }
+}

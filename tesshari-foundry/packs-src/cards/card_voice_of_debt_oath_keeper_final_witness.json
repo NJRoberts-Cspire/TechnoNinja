@@ -1,0 +1,35 @@
+{
+  "_id": "fef6514b4e6ed553",
+  "name": "Final Witness",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Voice of Debt",
+    "subclass": "Voice of Debt — Oath Keeper",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You pronounce judgment. Every enemy within 40 feet that has broken an oath, betrayed an ally, or fled a pact this encounter is immediately detonated: they suffer damage equal to 8 + VEIL plus 4 per Debt stack. Debt cleared.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_oath_keeper_final_witness"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

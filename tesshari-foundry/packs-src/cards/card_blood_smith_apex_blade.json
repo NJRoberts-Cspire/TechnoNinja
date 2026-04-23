@@ -1,0 +1,39 @@
+{
+  "_id": "6d059942aebc0911",
+  "name": "Apex Blade",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 6,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 5",
+      "Expose 5",
+      "Vulnerable 4"
+    ],
+    "unlockLevel": 15,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 22 + IRON melee damage to one adjacent target. Pay 12 HP. Apply Bleed 5, Expose 5, and Vulnerable 4. Pierce 6.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_apex_blade"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "66f981fc029d7ec8",
+  "name": "Void Dominion",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 15,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your mastery of the between-space reaches its operational peak. For the rest of the scene: all your Mobility cards cost 0 AP. Your EDGE and RESONANCE each increase by 2. Enemies cannot become hidden or concealed from you. Once per scene.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_void_dominion"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

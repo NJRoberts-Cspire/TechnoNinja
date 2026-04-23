@@ -1,0 +1,39 @@
+{
+  "_id": "4b49fe63e3ec8f89",
+  "name": "Cellular Fortify",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 4",
+      "Bleed",
+      "Burn"
+    ],
+    "unlockLevel": 2,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Guard 4 + SIGNAL to one ally within 10 feet. Their organic tissue resists the next instance of Bleed or Burn damage this round.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_cellular_fortify"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "170aa5372031c931",
+  "name": "Cascade Primer",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Applied to armor before combat. Grants 4 Cascade at encounter start for Shell Dancer. Single use.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_cascade_primer",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

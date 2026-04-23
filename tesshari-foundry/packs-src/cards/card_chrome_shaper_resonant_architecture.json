@@ -1,0 +1,35 @@
+{
+  "_id": "6a75939072426a99",
+  "name": "Resonant Architecture",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 16,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>For 1 round, all Config cards you play cost 0 AP. Each Config card played this round also applies its stat boost to yourself in addition to the primary target. You may play up to 3 Config cards this round.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_resonant_architecture"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

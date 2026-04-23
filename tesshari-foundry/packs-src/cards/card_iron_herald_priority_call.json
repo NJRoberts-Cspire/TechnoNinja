@@ -1,0 +1,35 @@
+{
+  "_id": "80cf220459f7cdae",
+  "name": "Priority Call",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Iron Herald",
+    "subclass": "Echo Speaker — Herald",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Priority Target to one enemy within 60 meters. Immediately, one ally of your choice within 60 meters may make a Basic Attack against that target as a free action (this does not cost the ally their Basic Attack for the turn).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_priority_call"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

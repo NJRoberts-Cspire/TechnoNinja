@@ -1,0 +1,35 @@
+{
+  "_id": "15275742a5311d89",
+  "name": "The Unmade Vow",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 5,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Voice of Debt",
+    "subclass": "Shell Dancer — The Breaker",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You rip a vow out of the world entirely. Pick any oath, pact, bond, summon, or active magical contract on the battlefield; it is severed. Every creature party to the severed bond gains Debt 5 and takes 10 + VEIL damage. The memory of the vow is also lost from the world.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_the_breaker_the_unmade_vow"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "13e6ea3616260d73",
+  "name": "Iron Communion",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Cleanse"
+    ],
+    "unlockLevel": 11,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deepen your Between connection mid-combat. Recover 10 HP. Remove one active Stagger, Silence, or Expose effect from yourself. **Below half HP:** Recover 16 HP instead and remove two effects.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_iron_communion"
+    }
+  },
+  "folder": null,
+  "sort": 2011,
+  "ownership": {
+    "default": 0
+  }
+}

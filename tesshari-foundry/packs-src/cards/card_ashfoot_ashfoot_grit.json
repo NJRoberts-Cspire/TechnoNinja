@@ -1,0 +1,35 @@
+{
+  "_id": "a4df394a29fc0612",
+  "name": "Ashfoot Grit",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 0,
+    "apCost": 0,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Once per combat, when an attack would reduce you to 0 HP, you remain at 1 HP instead. This is not courage — this is the absence of the option to stop, internalized over years. Additionally, reduce all exhaustion-related penalties by 1 tier while in combat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_ashfoot_grit"
+    }
+  },
+  "folder": null,
+  "sort": 1,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "b148307e35f10b5e",
+  "name": "Uncontrolled Resonance (Unregistered only)",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger",
+      "Expose"
+    ],
+    "unlockLevel": 1,
+    "className": "",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Without the Orthodoxy's containment frameworks, the Iron Blessed's formations discharge freely. All enemies within 20 feet take 7 + RESONANCE damage and receive Stagger. Enemies at or below half HP instead receive Stagger and Expose 3. The Iron Blessed takes 3 damage from the uncontrolled discharge — their own formations turn against them briefly. After this card resolves, the Iron Blessed's next card this turn costs 0 AP, as the discharge has temporarily cleared their resonance channels. This card cannot be Overclocked.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_blessed_uncontrolled_resonance_unregistered_only"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

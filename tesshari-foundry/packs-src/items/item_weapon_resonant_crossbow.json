@@ -1,0 +1,24 @@
+{
+  "_id": "4552a97b8e099285",
+  "name": "Resonant Crossbow",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Standard crossbow with resonant rail modification. Silent fire; does not trigger Wire Craft signal alerts on discharge.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_resonant_crossbow",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

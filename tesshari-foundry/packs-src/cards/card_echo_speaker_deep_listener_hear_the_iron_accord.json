@@ -1,0 +1,35 @@
+{
+  "_id": "27e92480722674ff",
+  "name": "Hear the Iron Accord",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Echo Speaker",
+    "subclass": "Echo Speaker — Deep Listener",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You listen past the battle to the pact that holds the Iron Afterlife open. Name any enemy in the encounter; you learn their true purpose here, and one bond they cannot break without breaking themselves — exploiting it this turn is devastating.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_deep_listener_hear_the_iron_accord"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

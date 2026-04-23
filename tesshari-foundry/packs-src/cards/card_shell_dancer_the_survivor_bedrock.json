@@ -1,0 +1,35 @@
+{
+  "_id": "9c154f4897967976",
+  "name": "Bedrock",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Shell Dancer",
+    "subclass": "Shell Dancer — The Survivor",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You become the thing that does not move. Until your next turn, all allies adjacent to you share your IRON save, and attacks that would knock them down strike you instead.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_the_survivor_bedrock"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

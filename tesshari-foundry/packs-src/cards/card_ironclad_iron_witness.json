@@ -1,0 +1,37 @@
+{
+  "_id": "3fc56d6c24d8f45a",
+  "name": "Iron Witness",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [
+      "Shield 4"
+    ],
+    "unlockLevel": 2,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>When an enemy within reach is reduced to 0 HP, gain Shield 4. This represents the code's recognition of a completed act — a moment of resonant clarity in the midst of violence.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_iron_witness"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

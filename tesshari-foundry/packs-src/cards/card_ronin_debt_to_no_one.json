@@ -1,0 +1,38 @@
+{
+  "_id": "84311ccd888056be",
+  "name": "Debt to No One",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Fortify",
+      "Expose 3"
+    ],
+    "unlockLevel": 17,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You carry no lord's frequency and no lord's obligation. This turn, all attacks you make deal maximum base damage (treat base damage as the highest value in the tier range). Gain Fortify — no control effects can land on you this turn. Apply Expose 3 to all enemies you damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_debt_to_no_one"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

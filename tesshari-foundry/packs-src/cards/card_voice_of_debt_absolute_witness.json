@@ -1,0 +1,37 @@
+{
+  "_id": "6d911f9cc4ecfd9b",
+  "name": "Absolute Witness",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 3"
+    ],
+    "unlockLevel": 18,
+    "className": "Voice of Debt",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Debt 4 to all enemies within 50 feet. Apply Expose 3 to all enemies within 50 feet. All Debt stacks applied this combat that have not yet been detonated gain +1 stack (they have been compounding while you watched).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_absolute_witness"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

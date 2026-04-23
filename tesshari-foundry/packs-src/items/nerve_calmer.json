@@ -1,0 +1,24 @@
+{
+  "_id": "24ea6dd660371207",
+  "name": "Nerve Calmer",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Removes Shaken status immediately and prevents new Shaken status for the remainder of the scene.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "nerve_calmer",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

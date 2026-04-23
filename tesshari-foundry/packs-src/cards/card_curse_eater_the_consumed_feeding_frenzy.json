@@ -1,0 +1,35 @@
+{
+  "_id": "e7509bba9348badc",
+  "name": "Feeding Frenzy",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Curse Eater",
+    "subclass": "Curse Eater — The Consumed",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Ignore your own suffering. Until the start of your next turn, debuffs on you deal no ill effect; each one instead adds a Loaded stack at end of turn (max 3 stacks gained). Once per short rest.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_the_consumed_feeding_frenzy"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

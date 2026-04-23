@@ -1,0 +1,38 @@
+{
+  "_id": "aa0167863ba312dd",
+  "name": "Full Occupation",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 14,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 4",
+      "Vulnerable 4"
+    ],
+    "unlockLevel": 9,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one Staggered or Bound creature within 30 feet. That creature does not act on their next turn — you have fully seized control. They take 14 + VEIL social damage. Apply Vulnerable 4 and Expose 4. The creature is aware this is happening.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_full_occupation"
+    }
+  },
+  "folder": null,
+  "sort": 3009,
+  "ownership": {
+    "default": 0
+  }
+}

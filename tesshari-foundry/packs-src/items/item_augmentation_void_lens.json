@@ -1,0 +1,26 @@
+{
+  "_id": "33de25d23e028bfa",
+  "name": "Void Lens",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Single eye replacement with void-material optics. Grants vision into Between-space and reveals incorporeal entities within 30 feet.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_void_lens",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

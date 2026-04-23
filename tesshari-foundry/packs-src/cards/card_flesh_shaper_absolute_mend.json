@@ -1,0 +1,38 @@
+{
+  "_id": "f89483353cd0894d",
+  "name": "Absolute Mend",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 8",
+      "Regen 5"
+    ],
+    "unlockLevel": 17,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Restore 24 + SIGNAL HP to one ally within 10 feet. Remove all debuffs and ongoing effects. Apply Regen 5 and Guard 8 + SIGNAL.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_absolute_mend"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

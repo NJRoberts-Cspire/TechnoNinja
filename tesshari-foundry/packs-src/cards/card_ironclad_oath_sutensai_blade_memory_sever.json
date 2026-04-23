@@ -1,0 +1,35 @@
+{
+  "_id": "d6a95ddcc2a9c930",
+  "name": "Memory Sever",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Ironclad Samurai",
+    "subclass": "Ironclad Samurai — Oath Sutensai Blade",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your next attack this turn cuts something deeper than flesh; on hit, the target cannot use any card or reaction it used on its previous turn until the end of its next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_oath_sutensai_blade_memory_sever"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

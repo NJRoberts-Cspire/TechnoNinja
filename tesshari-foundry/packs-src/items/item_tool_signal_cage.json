@@ -1,0 +1,24 @@
+{
+  "_id": "b614f6ffc2ca726e",
+  "name": "Signal Cage",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Portable device creating a signal disruption field. Blocks Wire Craft communications and enhancement network connectivity within range.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_signal_cage",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

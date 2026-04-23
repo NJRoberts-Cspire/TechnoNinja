@@ -1,0 +1,41 @@
+{
+  "_id": "dccd7fd1fb5db262",
+  "name": "The Seventh Vein",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 26,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron+resonance",
+    "keywords": [
+      "Regen 4",
+      "Cleanse",
+      "Expose 4",
+      "Bleed 3",
+      "Guard 8"
+    ],
+    "unlockLevel": 20,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The unwritten principle made manifest. Deal 26 + IRON + RESONANCE resonant damage to one target. Gain Regen 4 for 3 turns. Cleanse all debuffs from yourself. Apply Expose 4 and Bleed 3 to the target. All allies in the encounter gain Guard 8. Once per combat — this is the deepest expression of everything the code has made you.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_the_seventh_vein"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

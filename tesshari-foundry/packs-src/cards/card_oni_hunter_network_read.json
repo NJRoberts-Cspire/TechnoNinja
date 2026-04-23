@@ -1,0 +1,37 @@
+{
+  "_id": "6cc96a391a652029",
+  "name": "Network Read",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 1"
+    ],
+    "unlockLevel": 11,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You read a Shell-state's enhancement network configuration on sight. Instantly learn: their former enhancement capabilities (GM provides their card suite), their current degradation level, and one specific vulnerability in their network (GM provides one weakness — a specific damage type, a disruption point, or a behavioral trigger). Apply Expose 1.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_network_read"
+    }
+  },
+  "folder": null,
+  "sort": 1011,
+  "ownership": {
+    "default": 0
+  }
+}

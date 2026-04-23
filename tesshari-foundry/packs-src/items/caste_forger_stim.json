@@ -1,0 +1,24 @@
+{
+  "_id": "f409d53378180c7a",
+  "name": "Caste Forger Stimulant",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Ashfoot: temporarily treats Enhancement Quality as one tier higher for the remainder of the scene.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "caste_forger_stim",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

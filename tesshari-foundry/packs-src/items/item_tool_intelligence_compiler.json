@@ -1,0 +1,24 @@
+{
+  "_id": "907c8c77baeb5ea2",
+  "name": "Intelligence Compiler",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Device organizing and cross-referencing intelligence data. Shadow Daimyo and Merchant Knife utility; compiling intelligence on a target grants 1 bonus stack.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_intelligence_compiler",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

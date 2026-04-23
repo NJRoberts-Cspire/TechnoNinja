@@ -1,0 +1,26 @@
+{
+  "_id": "359c1aa7e545a995",
+  "name": "Resonant Social Mask",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A mask that projects a false resonance signature. High-end identity concealment; lasts one scene.</p>",
+    "slot": "gear",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "social_mask_resonant",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

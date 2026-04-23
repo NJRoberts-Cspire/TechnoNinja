@@ -1,0 +1,35 @@
+{
+  "_id": "43b9b085bbe15ac3",
+  "name": "The Only Name",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "The Unnamed",
+    "subclass": "The Unnamed — Convergent",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>For one turn, be the singular thing you have been moving toward. Choose one enemy within 60 feet; until the start of your next turn, you cannot target other creatures, but attacks against the chosen target score critical hits on any roll of 15+ on the d20. Once per long rest.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_unnamed_convergent_power_the_only_name"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

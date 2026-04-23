@@ -1,0 +1,35 @@
+{
+  "_id": "437d8d90a4faa23b",
+  "name": "The Long Address",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Iron Herald",
+    "subclass": "Echo Speaker — Herald",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Step onto high ground and speak as heralds spoke before the wars; until the start of your next turn, allies in earshot ignore fear and exhaustion and their next attack gains your VEIL bonus.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_the_long_address"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

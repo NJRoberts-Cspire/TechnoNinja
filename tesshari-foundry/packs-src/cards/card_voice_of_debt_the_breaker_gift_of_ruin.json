@@ -1,0 +1,35 @@
+{
+  "_id": "df877ef60e714805",
+  "name": "Gift of Ruin",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Voice of Debt",
+    "subclass": "Shell Dancer — The Breaker",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Hand a Debt to someone who had none. An enemy without Debt gains Debt 3, and the next time they are struck by any ally, the striker adds your VEIL to the damage. Flavor: the fracture travels the handshake.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_the_breaker_gift_of_ruin"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

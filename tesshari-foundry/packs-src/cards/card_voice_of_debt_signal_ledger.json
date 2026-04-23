@@ -1,0 +1,37 @@
+{
+  "_id": "553e105d2c07beb8",
+  "name": "Signal Ledger",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 7,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [
+      "Overheat 1"
+    ],
+    "unlockLevel": 7,
+    "className": "Voice of Debt",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 7 + SIGNAL signal damage to one target within 40 feet. Apply Debt 2 and Overheat 1.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_signal_ledger"
+    }
+  },
+  "folder": null,
+  "sort": 1007,
+  "ownership": {
+    "default": 0
+  }
+}

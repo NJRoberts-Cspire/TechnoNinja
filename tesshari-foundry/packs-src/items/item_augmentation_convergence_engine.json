@@ -1,0 +1,26 @@
+{
+  "_id": "2daa7c109526a07f",
+  "name": "The Convergence Engine",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Shoulder/arm replacement with pulse-arm discharge. Provides ranged force attacks and overcharge capability; requires doubled food consumption.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_convergence_engine",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

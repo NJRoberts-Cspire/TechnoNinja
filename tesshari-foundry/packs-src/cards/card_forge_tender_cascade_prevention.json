@@ -1,0 +1,37 @@
+{
+  "_id": "b0f0294d3d4db6c5",
+  "name": "Cascade Prevention",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "reaction",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 3"
+    ],
+    "unlockLevel": 4,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": true,
+    "usesPerCombat": null,
+    "description": "<p>*Triggered when an ally you have maintained takes damage that reduces them to half HP or below.* You are immediately aware and respond. The triggering damage is reduced by your SIGNAL + RESONANCE. The ally also gains Guard 3 against the next hit this round.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_cascade_prevention"
+    }
+  },
+  "folder": null,
+  "sort": 1004,
+  "ownership": {
+    "default": 0
+  }
+}

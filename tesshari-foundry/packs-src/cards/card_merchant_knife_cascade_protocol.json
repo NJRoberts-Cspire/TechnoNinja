@@ -1,0 +1,35 @@
+{
+  "_id": "73b979870c3d4e69",
+  "name": "Cascade Protocol",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 16,
+    "className": "Merchant Knife",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Trigger a Cascade: select any two Merchant Knife cards you have already played this combat. Their effects apply again at no AP cost to the same targets (or new targets — your choice per card). The cascade does not apply damage, only status effects and Intelligence stacks. This represents the second-order consequences of a well-designed operation arriving on schedule.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_cascade_protocol"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

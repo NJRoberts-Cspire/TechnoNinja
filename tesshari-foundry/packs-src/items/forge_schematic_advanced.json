@@ -1,0 +1,24 @@
+{
+  "_id": "8530a8dae9f05c97",
+  "name": "Advanced Forge Schematic",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Blueprint for a masterwork resonant item. Requires rare materials and extended crafting time.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "forge_schematic_advanced",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "61bd5e5e307f6320",
+  "name": "Wire Blade",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 14,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "edge",
+    "keywords": [
+      "Expose 2"
+    ],
+    "unlockLevel": 15,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You fight while partially in Wire — your body strikes as your Wire-presence disrupts. Deal 14 + EDGE damage. Simultaneously, deal 8 + SIGNAL signal damage to the same target as Wire disruption. Apply Expose 2 — you hit them from two angles at once.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_wire_blade"
+    }
+  },
+  "folder": null,
+  "sort": 2015,
+  "ownership": {
+    "default": 0
+  }
+}

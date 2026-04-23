@@ -1,0 +1,24 @@
+{
+  "_id": "f1c2446c46b48f85",
+  "name": "Cloak of Non-Presence",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Rare garment. Wearer does not register on passive resonance scanning systems.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "cloak_of_non_presence",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "31d016117f2449f9",
+  "name": "Lifeline",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Bleed"
+    ],
+    "unlockLevel": 15,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>A creature that dropped to 0 HP this turn and is within 10 feet is restored to 10 + SIGNAL HP. They are cleared of all debuffs and Bleed stacks. They may act normally this round if they have not already used their turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_lifeline"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

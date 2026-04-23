@@ -1,0 +1,35 @@
+{
+  "_id": "a03ef22113f39900",
+  "name": "Channel Prior (Twin)",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "resonance",
+    "keywords": [],
+    "unlockLevel": 18,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Invoke two Prior effects simultaneously (choose two from Channel Prior's list). Deal 20 + RESONANCE resonant damage to all enemies in 25 feet and restore 8 + RESONANCE HP to all allies in 25 feet.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_channel_prior_twin"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

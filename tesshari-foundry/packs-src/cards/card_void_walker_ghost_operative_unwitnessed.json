@@ -1,0 +1,35 @@
+{
+  "_id": "c685b9d5fdc88be4",
+  "name": "Unwitnessed",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Void Walker",
+    "subclass": "Void Walker — Ghost Operative",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>For 2 rounds, enemies have disadvantage on attacks against you and cannot target you with abilities that require a known target. Once per long rest.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_ghost_operative_unwitnessed"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

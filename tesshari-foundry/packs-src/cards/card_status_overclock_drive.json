@@ -1,0 +1,35 @@
+{
+  "_id": "31a81621fe63b403",
+  "name": "Overclock Drive",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Empower next card this turn and add Overheat stacks.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_status_overclock_drive"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

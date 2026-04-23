@@ -1,0 +1,41 @@
+{
+  "_id": "7618ee427bbb235c",
+  "name": "Total Binding",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 5",
+      "Vulnerable 5",
+      "Stagger",
+      "Root",
+      "Silence"
+    ],
+    "unlockLevel": 18,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one creature within 30 feet. They are Bound, Rooted, Staggered, and Silenced simultaneously. Deal 20 + VEIL social damage. Apply Vulnerable 5 and Expose 5. They cannot remove any of these effects until the start of your next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_total_binding"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

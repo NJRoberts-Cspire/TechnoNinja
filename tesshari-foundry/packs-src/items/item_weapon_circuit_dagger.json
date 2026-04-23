@@ -1,0 +1,24 @@
+{
+  "_id": "d3730c289315a92e",
+  "name": "Circuit Dagger",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Standard quality light blade with resonant wire inlay. Reliable basic weapon.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_circuit_dagger",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

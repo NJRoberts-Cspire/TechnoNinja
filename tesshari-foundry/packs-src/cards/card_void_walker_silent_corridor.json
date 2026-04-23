@@ -1,0 +1,35 @@
+{
+  "_id": "71f03780c5c3d7f2",
+  "name": "Silent Corridor",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Open a shrieking seam between two points on the field; allies passing through it spend no movement and emerge unseen.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_silent_corridor"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

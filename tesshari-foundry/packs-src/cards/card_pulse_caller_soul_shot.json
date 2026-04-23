@@ -1,0 +1,37 @@
+{
+  "_id": "4726a87f2b8343e7",
+  "name": "Soul Shot",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 10,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Silence"
+    ],
+    "unlockLevel": 10,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Fire a shot tuned to the resonant layer, bypassing physical defenses. Deal 20 + RESONANCE damage to one target within 100 feet. This card ignores Guard, Shield, and Fortify. Apply Silence for 1 round. If the target is an Iron Afterlife entity, they are expelled from the physical world immediately.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_soul_shot"
+    }
+  },
+  "folder": null,
+  "sort": 3010,
+  "ownership": {
+    "default": 0
+  }
+}

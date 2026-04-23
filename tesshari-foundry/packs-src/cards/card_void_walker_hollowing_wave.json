@@ -1,0 +1,35 @@
+{
+  "_id": "c8a6341fb31c2682",
+  "name": "Hollowing Wave",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>A silent pulse of un-place; enemies in a line are briefly severed from their own bodies and lose their next reaction.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_hollowing_wave"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

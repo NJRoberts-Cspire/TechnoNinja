@@ -1,0 +1,35 @@
+{
+  "_id": "f04a93e848ce3e68",
+  "name": "Clockwork Advance",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "The Hollow",
+    "subclass": "The Hollow — The Shell",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>A single looped routine: step, pivot, strike. Move up to your speed and make one Basic Attack dealing 1d6 + FRAME damage; the movement does not provoke opportunity attacks.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_the_shell_clockwork_advance"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

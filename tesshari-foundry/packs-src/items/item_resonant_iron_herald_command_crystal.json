@@ -1,0 +1,26 @@
+{
+  "_id": "bc517849516d8d71",
+  "name": "Command Crystal",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A resonant crystal amplifying command-frequency projections. Iron Herald: Command Zone card costs 0 AP when this crystal is equipped.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_iron_herald_command_crystal",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

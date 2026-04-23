@@ -1,0 +1,24 @@
+{
+  "_id": "7b39267e0fb6edc1",
+  "name": "Blood-Enhancement Monitor",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Device monitoring Blood Smith biological-enhancement integration. Provides early warning before Enhancement Status shifts to Failing.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_blood_enhancement_monitor",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

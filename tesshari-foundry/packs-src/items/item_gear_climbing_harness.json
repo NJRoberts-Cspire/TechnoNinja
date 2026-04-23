@@ -1,0 +1,26 @@
+{
+  "_id": "09bfcbb751ef2398",
+  "name": "Resonant Climbing Harness",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Wire-silk harness for vertical movement. Provides advantage on all climbing checks. Integrates with Wire Craft-assisted movement cards.</p>",
+    "slot": "gear",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_climbing_harness",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

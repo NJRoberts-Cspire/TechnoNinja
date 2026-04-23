@@ -1,0 +1,39 @@
+{
+  "_id": "cbfe4195344cb48c",
+  "name": "Market Collapse",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Area",
+      "Debt 2",
+      "Expose 1"
+    ],
+    "unlockLevel": 9,
+    "className": "Merchant Knife",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Debt 2 to all enemies in a 20-meter radius. Enemies with Intelligence status additionally receive Expose 1. This card represents the economic shock arriving simultaneously for all involved parties.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_market_collapse"
+    }
+  },
+  "folder": null,
+  "sort": 2009,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "ec2a9922eb14e33f",
+  "name": "Enhancement Removal Kit",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Surgical toolkit for safe enhancement removal procedures. Required for voluntary enhancement removal without injury.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_enhancement_removal_kit",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

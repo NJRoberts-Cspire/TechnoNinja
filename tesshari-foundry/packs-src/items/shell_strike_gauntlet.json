@@ -1,0 +1,24 @@
+{
+  "_id": "ee4bd234f00ab29c",
+  "name": "Shell Strike Gauntlet",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Shell Dancer impact weapon. Enhances Cascade-driven melee strikes with kinetic amplification.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "shell_strike_gauntlet",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

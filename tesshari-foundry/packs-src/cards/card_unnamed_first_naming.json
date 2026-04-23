@@ -1,0 +1,35 @@
+{
+  "_id": "8d28f49433498c76",
+  "name": "The First Naming",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 0,
+    "apCost": 0,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "The Unnamed",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The moment a player first speaks an intention aloud in combat, something answers back. Once per turn, when you play a blank (unnamed) card, reduce its AP cost by 1 (minimum 0) and give it a provisional name until the end of the encounter.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_unnamed_first_naming"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

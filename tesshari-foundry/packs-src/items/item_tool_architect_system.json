@@ -1,0 +1,24 @@
+{
+  "_id": "cff4e9545fb34a37",
+  "name": "The Architect System",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Harness-based reality-adjustment field manipulating physical space. Phases surfaces, anchors structures, or directs collapses; significant unpredictable side effects.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_architect_system",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

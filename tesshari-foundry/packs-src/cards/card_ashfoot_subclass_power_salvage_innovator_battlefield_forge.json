@@ -1,0 +1,35 @@
+{
+  "_id": "8b11886e2f562dfa",
+  "name": "Battlefield Forge",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Ashfoot",
+    "subclass": "Ashfoot — Salvage Innovator",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Drag three wrecks together and weld them working in sixty seconds of held breath. Create a battlefield emplacement (turret, barricade, or charging station) your allies can operate.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_subclass_power_salvage_innovator_battlefield_forge"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

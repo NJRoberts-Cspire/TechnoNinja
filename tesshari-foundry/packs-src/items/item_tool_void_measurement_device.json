@@ -1,0 +1,24 @@
+{
+  "_id": "2b92afa9767e9a53",
+  "name": "Void Measurement Device",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Instrument measuring void energy density and Between-space proximity. Fracture Knight and Void Walker navigation utility.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_void_measurement_device",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

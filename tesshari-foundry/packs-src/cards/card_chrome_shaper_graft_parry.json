@@ -1,0 +1,35 @@
+{
+  "_id": "f407b9d721ccf2cf",
+  "name": "Graft Parry",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "reaction",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": true,
+    "usesPerCombat": null,
+    "description": "<p>A hand sprouts cartilage plates just in time to catch a blow. Reaction to an incoming melee hit; reduce its damage by 1d6 + FRAME.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_graft_parry"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

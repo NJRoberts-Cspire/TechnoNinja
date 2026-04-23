@@ -1,0 +1,38 @@
+{
+  "_id": "fdb4de507f87d8d8",
+  "name": "The Final Mark",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Mark",
+      "Bleed 1"
+    ],
+    "unlockLevel": 20,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>At the highest level of the Oni Hunter's practice, you have become the person who exists in the place where they hunt. Declare one target your Final Mark. For the rest of this combat: this target cannot be reduced to 0 HP by any source except you — all other damage stabilizes them at 1 HP. You always know their precise position. All your attacks against them deal + IRON + RESONANCE damage and apply Bleed 1 on every hit. When you finally strike them down, the dissolution is clean — they pass correctly, their Echomind intact. Once per combat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_the_final_mark"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

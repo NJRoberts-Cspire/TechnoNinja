@@ -1,0 +1,24 @@
+{
+  "_id": "278ed79f97af8ad7",
+  "name": "Vaen's Covenant Seal",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A seal of acknowledgment from Vaen of the Empty Hand. Grants access to Vaen-aligned resources and safe passage through Vaen-held zones.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_vaens_covenant_seal",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

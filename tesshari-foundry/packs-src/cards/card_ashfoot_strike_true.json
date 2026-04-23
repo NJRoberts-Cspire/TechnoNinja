@@ -1,0 +1,37 @@
+{
+  "_id": "9b03cbbc90db546c",
+  "name": "Strike True",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 16,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Expose 2"
+    ],
+    "unlockLevel": 16,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>This is the Ashfoot's most important lesson — the right attack is the one that hits. Deal 16 + IRON damage. This attack cannot be mitigated by Stagger, Root, or Silence on you — those effects don't stop someone who has learned to keep moving. Apply Expose 2 to the target.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_strike_true"
+    }
+  },
+  "folder": null,
+  "sort": 2016,
+  "ownership": {
+    "default": 0
+  }
+}

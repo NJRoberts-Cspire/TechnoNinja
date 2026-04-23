@@ -1,0 +1,24 @@
+{
+  "_id": "e43009bc20919fb1",
+  "name": "Old World Relic Fragment",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A fragment from a pre-Signal era item. Purpose unknown. Worth significant currency to collectors.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "old_world_relic_fragment",
+      "originalCategory": "artifact"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

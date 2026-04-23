@@ -1,0 +1,38 @@
+{
+  "_id": "63e6d910e41a2ac1",
+  "name": "Between: Absolute Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 24,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Scaling",
+      "Fracture 3"
+    ],
+    "unlockLevel": 16,
+    "className": "Fracture Knight",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Consume all Phantom Charges (minimum 2). Deal 24 + IRON damage + (6 × Phantom Charges consumed). Apply Fracture 3 to the target. This attack ignores all Guard, Shield, and damage reduction. The dead guide this blow from every angle at once.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_between_absolute_strike"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

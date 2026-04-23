@@ -1,0 +1,35 @@
+{
+  "_id": "bf70c4ba2e42814e",
+  "name": "Perfect Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 12,
+    "pierce": 8,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [],
+    "unlockLevel": 4,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>A Between-guided strike that lands exactly where it must. Deal 12 + IRON damage. Pierce 8 — this strike ignores 8 points of Guard and Shield. **Below half HP:** Deal 18 + IRON damage instead.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_perfect_strike"
+    }
+  },
+  "folder": null,
+  "sort": 2004,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "d3ba4f058ec6913e",
+  "name": "Dissolution Blade",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A blade charged with dissolution resonance. Deals double damage to targets in shell-state. Applies Vulnerable 2 on hit against dissolution-touched targets.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_oni_hunter_dissolution_blade",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

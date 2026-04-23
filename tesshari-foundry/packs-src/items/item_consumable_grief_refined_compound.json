@@ -1,0 +1,24 @@
+{
+  "_id": "ee708376b831ad6b",
+  "name": "Grief-Refined Resonance Compound",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Grants +3 to RESONANCE cards during Iron Afterlife contact and allows sensing the emotional register of contacted Echominds. Lasts 24 hours.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_grief_refined_compound",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

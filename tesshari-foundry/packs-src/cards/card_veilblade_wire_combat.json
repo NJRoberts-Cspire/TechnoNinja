@@ -1,0 +1,35 @@
+{
+  "_id": "be080401e7de0203",
+  "name": "Wire Combat",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 8,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "signal",
+    "keywords": [],
+    "unlockLevel": 9,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You extend a Wire tendril and maintain a Wire-presence while acting physically. Until your next turn: gain advantage on SIGNAL checks (GM ruling), once per turn deal 8 + SIGNAL signal damage to an enhanced target within 30 feet as Wire disruption, and your EDGE-based attacks deal + SIGNAL additional damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_wire_combat"
+    }
+  },
+  "folder": null,
+  "sort": 2009,
+  "ownership": {
+    "default": 0
+  }
+}

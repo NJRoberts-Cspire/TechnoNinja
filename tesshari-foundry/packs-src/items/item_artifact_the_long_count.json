@@ -1,0 +1,24 @@
+{
+  "_id": "445e3525bcdce912",
+  "name": "The Long Count",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A resonant register recording every death in Tesshari since the Ascension War. Bearer can look up any death that occurred in their lifetime.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_artifact_the_long_count",
+      "originalCategory": "artifact"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

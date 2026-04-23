@@ -1,0 +1,24 @@
+{
+  "_id": "cd2600be0055b288",
+  "name": "Veil Spike",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Veilblade secondary thrown weapon. Suppresses target's resonance signature for one round on hit.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "veil_spike",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

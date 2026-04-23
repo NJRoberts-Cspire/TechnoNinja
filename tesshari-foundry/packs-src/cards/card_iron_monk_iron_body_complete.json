@@ -1,0 +1,37 @@
+{
+  "_id": "1f80a000fa846e5b",
+  "name": "Iron Body Complete",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Fortify"
+    ],
+    "unlockLevel": 17,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Achieve the Sutra's promised state for 1 round. You cannot be reduced below 1 HP. All incoming damage is reduced by 8 before Guard. Your IRON and RESONANCE each increase by 3. **Below half HP:** You deal +RESONANCE damage on all attacks for the duration.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_iron_body_complete"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

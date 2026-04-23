@@ -1,0 +1,35 @@
+{
+  "_id": "862aafff3d46dc35",
+  "name": "Terror Sculpt",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Flesh Shaper",
+    "subclass": "Flesh Shaper — The Corruptor",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You shape a visible, impossible wound on a target and let them watch it form. Apply Expose 4 and Fear; enemies adjacent to the target must spend 1 extra AP to target it this round (or flee).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_the_corruptor_terror_sculpt"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

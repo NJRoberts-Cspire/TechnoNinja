@@ -1,0 +1,37 @@
+{
+  "_id": "06b1251b7ac9f51b",
+  "name": "Hollow Frequency",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 4"
+    ],
+    "unlockLevel": 10,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your corrupted signature is broadcasting at full intensity. Until the start of your next turn: enhancement-reading systems register you as whichever caste or identity you choose, any creature that attempts to lock a control effect on you must overcome your corruption (Stagger, Root, Taunt directed at you each have a 50% chance to fail — narrative resolution, not dice), and one ally within reach gains Guard 4 from the resonant noise covering their signature.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_hollow_frequency"
+    }
+  },
+  "folder": null,
+  "sort": 2010,
+  "ownership": {
+    "default": 0
+  }
+}

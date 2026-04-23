@@ -1,0 +1,24 @@
+{
+  "_id": "7d8002063587ec0a",
+  "name": "Wire Mesh Vest",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Light armor woven from conductive wire. Moderate protection; does not impede wire ability use.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "wire_mesh_vest",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

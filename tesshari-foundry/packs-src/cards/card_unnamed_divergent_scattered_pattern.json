@@ -1,0 +1,35 @@
+{
+  "_id": "b643f9a2122a342c",
+  "name": "Scattered Pattern",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "The Unnamed",
+    "subclass": "The Unnamed — Divergent",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Fan the unnamed out like cards on a table. Choose up to three creatures within FRAME x 5 feet of you; each must succeed a RESONANCE save or suffer a different random minor condition (flat-footed, shaken, dazzled, or distracted) until the start of your next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_unnamed_divergent_scattered_pattern"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

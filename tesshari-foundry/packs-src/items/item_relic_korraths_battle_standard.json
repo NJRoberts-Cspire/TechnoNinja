@@ -1,0 +1,24 @@
+{
+  "_id": "3bf1ad109a2fad37",
+  "name": "Korrath's Battle Standard",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A military standard carried by Korrath during the Ascension War. Grants command authority over all Korrath-aligned forces. Extremely dangerous to possess.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_relic_korraths_battle_standard",
+      "originalCategory": "relic"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

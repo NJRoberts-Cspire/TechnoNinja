@@ -1,0 +1,35 @@
+{
+  "_id": "ca57d5a41c80a610",
+  "name": "Between Walker",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 14,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You step into the Iron Afterlife's resonant border layer while remaining physically present. Until your next turn: you can observe the Iron Afterlife layer (seeing all entities there), Iron Afterlife entities see you as one of their own and will not initiate attacks against you, and all your attacks deal + RESONANCE additional resonant damage as you strike from within their frequency.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_between_walker"
+    }
+  },
+  "folder": null,
+  "sort": 2014,
+  "ownership": {
+    "default": 0
+  }
+}

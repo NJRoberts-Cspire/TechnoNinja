@@ -1,0 +1,24 @@
+{
+  "_id": "4b256e6ba574230a",
+  "name": "The Third Eye",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A resonant lens extracted from a Prior Ascended at the moment of Ascension. Allows bearer to perceive the Convergence directly. Blinding to non-enhanced.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_artifact_the_third_eye",
+      "originalCategory": "artifact"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

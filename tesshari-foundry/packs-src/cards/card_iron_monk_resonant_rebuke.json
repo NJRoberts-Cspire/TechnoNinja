@@ -1,0 +1,38 @@
+{
+  "_id": "f446fb43de446a4b",
+  "name": "Resonant Rebuke",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Expose 2",
+      "Stagger"
+    ],
+    "unlockLevel": 10,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Triggered when an enemy hits you with a melee attack. Immediately strike back. Deal 12 + IRON damage. Apply Expose 2. **Below half HP:** Deal 16 + IRON damage instead and apply Stagger.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_resonant_rebuke"
+    }
+  },
+  "folder": null,
+  "sort": 2010,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "f112aa504322dd4c",
+  "name": "Cease Fire",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Iron Herald",
+    "subclass": "Iron Herald — Neutral Tongue",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Raise the neutral sign; choose two enemies within 30 feet, they cannot attack each other or you until one of them is attacked again, or for 2 rounds. WIS save negates.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_neutral_tongue_cease_fire"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

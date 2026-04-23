@@ -1,0 +1,35 @@
+{
+  "_id": "8f34c38371455066",
+  "name": "Fourteen Steps",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Shadow Daimyo",
+    "subclass": "Shadow Daimyo — Court Blade",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The ritual duel has fourteen steps. You are skipping to the last. EDGE strike; if the target has not yet acted this round, it costs you 1 AP instead of 2.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shadow_daimyo_court_blade_fourteen_steps"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "fe94b00325e366dc",
+  "name": "Grief Collector",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A hollow resonant sphere collecting ambient grief-resonance. After one long rest in a grief-dense location, provides 2 grief stacks at encounter start.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_grief_collector",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "9e7bd466e8ed8bb5",
+  "name": "Signal Stone",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Natural stone with amplified resonance conductivity. Used in communication device crafting.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "signal_stone",
+      "originalCategory": "material"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "974579a6293e03b4",
+  "name": "Forge Command",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 10",
+      "Stagger"
+    ],
+    "unlockLevel": 16,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Issue a Forge-level reconfiguration command to all enhanced allies within 30 feet. Each gains Guard 10 and +2 to a stat of your choice (same stat for all) until end of the round. Enemies within 30 feet take 10 + SIGNAL damage and gain Stagger.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_forge_command"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

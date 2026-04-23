@@ -1,0 +1,24 @@
+{
+  "_id": "292d52570b593dae",
+  "name": "Void Robe",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A robe that absorbs incoming resonance energy. Light armor. Empty Path: scales Guard with HP Percent inverse. Shell Path: provides flat Guard 4.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_hollow_void_robe",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

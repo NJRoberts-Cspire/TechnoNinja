@@ -1,0 +1,37 @@
+{
+  "_id": "ceebd8cdb6bddee6",
+  "name": "Transcendent Form",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 4"
+    ],
+    "unlockLevel": 10,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>For one round, you are immune to Signal and enhancement-based damage. All your resonant Attack cards deal +RESONANCE bonus damage. Apply Expose 4 to all enemies within 20 feet. Restore 8 + RESONANCE HP to yourself. After this round ends, the corona fades — you are still here, still deciding what that means.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_transcendent_form"
+    }
+  },
+  "folder": null,
+  "sort": 3010,
+  "ownership": {
+    "default": 0
+  }
+}

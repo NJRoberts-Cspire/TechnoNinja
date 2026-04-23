@@ -1,0 +1,35 @@
+{
+  "_id": "196359b97f6d95f8",
+  "name": "Composite Response",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "",
+    "subclass": "",
+    "isRaceCard": true,
+    "race": "Stitched",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The Stitched calls on one of their two dominant components, defined at character creation. Choose which component is active when this card is played.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_stitched_composite_response"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "939d6e528bc96018",
+  "name": "The Living Blueprint",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 12",
+      "Regen 4"
+    ],
+    "unlockLevel": 20,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Express the perfect configuration. Choose yourself and up to two allies within 30 feet. Each gains: +3 to their two primary stats until end of scene, Guard 12, and Regen 4 for 2 rounds. Each may immediately play one card from their hand at 0 AP cost. Enemies within 30 feet who observe this take 10 + SIGNAL damage from the cascading resonance discharge.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_the_living_blueprint"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

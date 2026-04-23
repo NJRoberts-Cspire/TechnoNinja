@@ -1,0 +1,35 @@
+{
+  "_id": "38ae3ea296a59f21",
+  "name": "Diagnostic Touch",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 2,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Touch one creature. Remove one debuff of your choice from them and restore 4 + SIGNAL HP. If they are at critical HP, restore 8 + SIGNAL HP instead.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_diagnostic_touch"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

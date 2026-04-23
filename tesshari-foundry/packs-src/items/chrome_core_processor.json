@@ -1,0 +1,26 @@
+{
+  "_id": "080bf565a7673dd3",
+  "name": "Chrome Core Processor",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Chrome Shaper processing implant. Configuration switches do not cost an action once per scene.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "chrome_core_processor",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

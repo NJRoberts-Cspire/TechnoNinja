@@ -1,0 +1,39 @@
+{
+  "_id": "cfc0e179b644f918",
+  "name": "Accelerated Repair",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Bleed",
+      "Stagger",
+      "Root"
+    ],
+    "unlockLevel": 5,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Restore 12 + SIGNAL HP to one ally within 10 feet. Remove all Bleed stacks from them. If they were at critical HP, also remove Stagger or Root (your choice).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_accelerated_repair"
+    }
+  },
+  "folder": null,
+  "sort": 2005,
+  "ownership": {
+    "default": 0
+  }
+}

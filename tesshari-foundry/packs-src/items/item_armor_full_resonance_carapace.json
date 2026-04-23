@@ -1,0 +1,24 @@
+{
+  "_id": "d47ce278f3e939ac",
+  "name": "Full Resonance Carapace",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Heavy armor of full-body resonant plate. Professional grade.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_full_resonance_carapace",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

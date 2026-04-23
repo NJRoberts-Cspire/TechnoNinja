@@ -1,0 +1,40 @@
+{
+  "_id": "9ad214939c27a889",
+  "name": "Override Protocol",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger",
+      "Expose",
+      "Overheat",
+      "Dispel"
+    ],
+    "unlockLevel": 1,
+    "className": "",
+    "subclass": "",
+    "isRaceCard": true,
+    "race": "Forged",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one creature within melee range that has cybernetic augmentations. Apply Stagger and Expose 2 to that target. If the target is another Forged or a mechanically augmented monster, also apply Overheat 1. You may instead use this card on yourself to immediately remove Overheat (all stacks) and gain +2 to your next card's base damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forged_override_protocol"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "55e48926472f1c4c",
+  "name": "Hollow Strike Array",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Full leg replacement (both legs) with silent operation and strike surfaces. Extended movement and kinetic conversion; requires hip socket modification.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_hollow_strike_array",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

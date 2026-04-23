@@ -1,0 +1,35 @@
+{
+  "_id": "70711c3d745b68a8",
+  "name": "The Full Weight",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 9,
+    "className": "Curse Eater",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal damage equal to 8 + RESONANCE + (3 × Loaded count). This card gets stronger the worse you are doing. At Loaded 6+, also trigger a Corruption Pulse as part of this attack (no additional AP).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_the_full_weight"
+    }
+  },
+  "folder": null,
+  "sort": 2009,
+  "ownership": {
+    "default": 0
+  }
+}

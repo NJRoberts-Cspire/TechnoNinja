@@ -1,0 +1,37 @@
+{
+  "_id": "776ab32c02e0f67b",
+  "name": "The Disappeared",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "mobility",
+    "primaryStat": "edge",
+    "keywords": [
+      "Veil"
+    ],
+    "unlockLevel": 16,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Vanish completely from the physical world and reappear anywhere within 200 feet you have previously visited. During transit, you cannot be detected by any means. On arrival: apply Veil for 1 round and deal 10 + EDGE damage to one enemy within 10 feet of your arrival point as a free action.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_the_disappeared"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

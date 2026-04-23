@@ -1,0 +1,38 @@
+{
+  "_id": "d24b156f7230fd90",
+  "name": "Scar Cascade",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 4",
+      "Expose 3"
+    ],
+    "unlockLevel": 12,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Every scar on your enhancement network has become a weapon. Deal 20 + IRON damage. Apply Bleed 4 to the target. If you are below half HP, this card deals + EDGE additional damage and applies Expose 3 as well — your worst state is your most dangerous.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_scar_cascade"
+    }
+  },
+  "folder": null,
+  "sort": 3012,
+  "ownership": {
+    "default": 0
+  }
+}

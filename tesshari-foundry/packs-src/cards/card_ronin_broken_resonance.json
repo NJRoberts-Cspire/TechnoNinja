@@ -1,0 +1,38 @@
+{
+  "_id": "4bbe4eb61cfc7867",
+  "name": "Broken Resonance",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 0,
+    "apCost": 0,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [
+      "Silence",
+      "Taunt"
+    ],
+    "unlockLevel": 1,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your corrupted lord-frequency broadcasts wrongness to any enhancement reader. Once per combat, when a creature attempts to read your enhancement signature for tactical purposes, their reading returns false data. Additionally, control cards targeting you (Taunt, Charm, Silence used against you) have their duration reduced by 1 turn — the corruption interferes with clean resonant locks.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_broken_resonance"
+    }
+  },
+  "folder": null,
+  "sort": 1,
+  "ownership": {
+    "default": 0
+  }
+}

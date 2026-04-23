@@ -1,0 +1,26 @@
+{
+  "_id": "45bad92b9fae96bd",
+  "name": "Resonant Heart",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A resonant-biological hybrid cardiac replacement. Grants +6 Max HP and provides passive Regen 1 at start of each turn.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_resonant_heart",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

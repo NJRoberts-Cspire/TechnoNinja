@@ -1,0 +1,35 @@
+{
+  "_id": "7901455089ad6104",
+  "name": "Margin Call",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Shadow Daimyo",
+    "subclass": "Shadow Daimyo — Broker",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Every favor, every bribe, every little kindness you have ever spent returns in a single wave. All ledger-marked and Intelligence-marked enemies lose 1 AP this round (maximum 3 enemies); draw 1 card. Once per long rest.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shadow_daimyo_broker_margin_call"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "ad206a0ad7ba360d",
+  "name": "Sutra's Grace",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Fortify"
+    ],
+    "unlockLevel": 5,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your forge work carries spiritual resonance. When you use this card alongside a Forge Mending or healing card this turn, the healed ally also gains Fortify for 2 turns — your work realigns their Echomind as well as their hardware. If the ally is suffering from early Echomind misalignment, this card advances their realignment by one stage (GM pacing).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_sutra_s_grace"
+    }
+  },
+  "folder": null,
+  "sort": 1005,
+  "ownership": {
+    "default": 0
+  }
+}

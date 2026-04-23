@@ -1,0 +1,37 @@
+{
+  "_id": "2994de1060b1e3ab",
+  "name": "Dead Voice",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 6,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 1"
+    ],
+    "unlockLevel": 1,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Channel a dead voice as a weapon — grief and accusation made audible. Deal 6 + RESONANCE damage to one target within 30 feet. Apply Expose 1.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_dead_voice"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "63da5b9d18037de5",
+  "name": "Quiet Succession",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 0,
+    "apCost": 0,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Merchant Knife",
+    "subclass": "Merchant Knife — Kingmaker",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>When a named enemy falls this turn, immediately promote an adjacent enemy into a Debtor — they are now marked as owing you their survival, and any attack they make against you this encounter costs them 1 extra AP.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_kingmaker_quiet_succession"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

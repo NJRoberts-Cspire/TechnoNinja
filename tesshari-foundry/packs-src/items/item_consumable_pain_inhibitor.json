@@ -1,0 +1,24 @@
+{
+  "_id": "8fe2a00e806155e6",
+  "name": "Pain Inhibitor",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Short-term neurological compound blocking pain and Vulnerable status. Lasts one encounter. Enhancement stress check at encounter end.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_pain_inhibitor",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

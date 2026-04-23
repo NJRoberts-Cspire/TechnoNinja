@@ -1,0 +1,35 @@
+{
+  "_id": "6699c27ec0282a59",
+  "name": "Work the Wrong Metal",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Forge Tender",
+    "subclass": "Forge Tender — Black Smith",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Forge a shard from something that should not be worked — bone, void-iron, a memory. Hand it to an ally as a one-use cursed weapon that hits harder but frays its wielder.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_black_smith_work_the_wrong_metal"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "bdb4624534ddac37",
+  "name": "Discharge Mastery",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 13,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your discharge system has reached full calibration. All your Tier 1 Attack cards deal +4 damage. You may play two different Attack cards in a single turn as if they cost 1 fewer AP each (minimum 0, once per turn total reduction).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_discharge_mastery"
+    }
+  },
+  "folder": null,
+  "sort": 2013,
+  "ownership": {
+    "default": 0
+  }
+}

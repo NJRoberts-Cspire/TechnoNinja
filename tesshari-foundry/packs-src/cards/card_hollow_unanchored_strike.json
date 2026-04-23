@@ -1,0 +1,37 @@
+{
+  "_id": "f2945353e81be0f8",
+  "name": "Unanchored Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 18,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 3"
+    ],
+    "unlockLevel": 15,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 18 + RESONANCE resonant damage to all enemies within 20 feet. Apply Expose 3 to each. Restore 8 + FRAME HP to yourself.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_unanchored_strike"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

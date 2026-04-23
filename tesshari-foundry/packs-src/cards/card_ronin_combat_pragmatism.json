@@ -1,0 +1,35 @@
+{
+  "_id": "72c588b41894da86",
+  "name": "Combat Pragmatism",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 6,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You don't fight to look right. You fight to finish. Deal 6 + IRON damage. If the target is below half HP, add EDGE to the damage — you know exactly where to apply pressure when someone is already losing.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_combat_pragmatism"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

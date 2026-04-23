@@ -1,0 +1,39 @@
+{
+  "_id": "98a3d1253f1e4dae",
+  "name": "Lattice Rend",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 19,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 4",
+      "Expose 4",
+      "Overheat 2"
+    ],
+    "unlockLevel": 12,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 19 + IRON melee damage to one adjacent target with enhancements. Pay 10 HP. Apply Bleed 4, Overheat 2, and Expose 4. Their enhancement lattice is stressed — all their enhancement-based card effects deal 2 less damage until end of their next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_lattice_rend"
+    }
+  },
+  "folder": null,
+  "sort": 3012,
+  "ownership": {
+    "default": 0
+  }
+}

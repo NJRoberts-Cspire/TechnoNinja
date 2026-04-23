@@ -1,0 +1,38 @@
+{
+  "_id": "1bdee2a994703141",
+  "name": "Shell State",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 18,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 5",
+      "Vulnerable 4"
+    ],
+    "unlockLevel": 19,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You briefly enter full Shell-state — the void between presence and nothing. Until your next turn, you cannot be damaged or targeted by any effect. You may play cards. Your return at the start of your next turn deals 18 + RESONANCE resonant damage to all enemies within 20 feet and applies Expose 5 and Vulnerable 4 to each.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_shell_state"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

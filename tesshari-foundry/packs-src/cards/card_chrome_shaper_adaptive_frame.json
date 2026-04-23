@@ -1,0 +1,37 @@
+{
+  "_id": "ba2636603b63566f",
+  "name": "Adaptive Frame",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 6"
+    ],
+    "unlockLevel": 7,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Install an Experimental Frame on yourself or one ally within reach. That creature gains +2 IRON or +2 SIGNAL (choose) until end of scene. They also gain Guard 6. This temporary stat increase stacks with other modifiers.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_adaptive_frame"
+    }
+  },
+  "folder": null,
+  "sort": 2007,
+  "ownership": {
+    "default": 0
+  }
+}

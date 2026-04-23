@@ -1,0 +1,39 @@
+{
+  "_id": "9222e8b0c95d82cc",
+  "name": "Combat Shaping",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "iron",
+    "keywords": [
+      "Expose 3",
+      "Stagger",
+      "Root"
+    ],
+    "unlockLevel": 13,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 10 + IRON melee damage to one adjacent target with organic components. Apply Stagger, Root, and Expose 3 simultaneously. The target's effective IRON and FRAME are each reduced by 2 until start of your next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_combat_shaping"
+    }
+  },
+  "folder": null,
+  "sort": 2013,
+  "ownership": {
+    "default": 0
+  }
+}

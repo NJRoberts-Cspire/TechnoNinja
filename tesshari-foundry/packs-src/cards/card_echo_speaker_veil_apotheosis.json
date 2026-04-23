@@ -1,0 +1,38 @@
+{
+  "_id": "0548cca18fd9f31f",
+  "name": "Veil Apotheosis",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Fortify",
+      "Veil"
+    ],
+    "unlockLevel": 19,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Become fully the bridge between the living and the dead. For 1 round: your RESONANCE and VEIL each increase by 3. Your RESONANCE Attack cards deal +VEIL additional damage. Your Control cards cannot be countered by Fortify or Veil effects. Once per scene.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_veil_apotheosis"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

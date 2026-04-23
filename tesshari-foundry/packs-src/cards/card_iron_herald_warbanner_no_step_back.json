@@ -1,0 +1,35 @@
+{
+  "_id": "50717313fa3429a2",
+  "name": "No Step Back",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Iron Herald",
+    "subclass": "Iron Herald — Warbanner",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Shout the oldest oath of the banner; until the start of your next turn, allies within 30 feet reduce incoming damage by your IRON modifier while you can see them and remain standing.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_warbanner_no_step_back"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "fb4577beac2fa01a",
+  "name": "Ghost Shell",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Pulse Caller",
+    "subclass": "Pulse Caller — Resonant Shot",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Fire a resonance with no matter behind it. The shot passes through walls, armor, and allies, finding only the target you named.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_resonant_shot_ghost_shell"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "be87123cb488c39c",
+  "name": "Resonant Blade (Refined)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Professionally refined resonant blade with improved frequency alignment. Deals +1 damage and applies Expose 1 on critical hits.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_resonant_blade_tier2",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

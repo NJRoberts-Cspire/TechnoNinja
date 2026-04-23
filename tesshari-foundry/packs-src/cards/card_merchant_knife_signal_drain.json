@@ -1,0 +1,38 @@
+{
+  "_id": "f293904e8bedd0de",
+  "name": "Signal Drain",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [
+      "Silence",
+      "Overheat 2"
+    ],
+    "unlockLevel": 8,
+    "className": "Merchant Knife",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 10 + SIGNAL damage. Apply Silence until end of target's next turn. If target has Intelligence 1+, also apply Overheat 2.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_signal_drain"
+    }
+  },
+  "folder": null,
+  "sort": 2008,
+  "ownership": {
+    "default": 0
+  }
+}

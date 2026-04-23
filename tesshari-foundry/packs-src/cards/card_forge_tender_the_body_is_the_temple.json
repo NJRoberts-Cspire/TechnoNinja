@@ -1,0 +1,39 @@
+{
+  "_id": "d60c9a56f65ab67a",
+  "name": "The Body is the Temple",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Cleanse",
+      "Regen 4",
+      "Shield"
+    ],
+    "unlockLevel": 20,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You have become, in the fullest expression of the Iron Sutra's most profound claim, the bridge between flesh and the divine. Your forge work is not merely technical — it is, in a specific and inarguable sense, sacred. All allies in the encounter immediately recover to full HP. All conditions and debuffs are Cleansed from all allies. All allies gain Regen 4 for 3 turns and Shield equal to your RESONANCE × 4. Once per combat — this is everything you have trained to be, given freely.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_the_body_is_the_temple"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

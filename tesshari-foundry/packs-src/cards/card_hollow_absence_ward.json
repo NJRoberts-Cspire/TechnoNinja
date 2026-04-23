@@ -1,0 +1,38 @@
+{
+  "_id": "0df20c12ae0ba6c0",
+  "name": "Absence Ward",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 7",
+      "Regen 2"
+    ],
+    "unlockLevel": 5,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Guard 7 + RESONANCE to yourself. Enhancement-based cards targeting you this round deal −RESONANCE damage. Apply Regen 2.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_absence_ward"
+    }
+  },
+  "folder": null,
+  "sort": 2005,
+  "ownership": {
+    "default": 0
+  }
+}

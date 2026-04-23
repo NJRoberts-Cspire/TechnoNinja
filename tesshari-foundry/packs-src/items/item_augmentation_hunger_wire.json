@@ -1,0 +1,26 @@
+{
+  "_id": "c9042a02dd37a13c",
+  "name": "The Hunger Wire",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Wire-silk filament array harvesting ambient resonant energy. Provides healing regeneration and contact drain; bearer becomes compelled to drain even trusted companions.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_hunger_wire",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

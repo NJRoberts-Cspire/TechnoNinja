@@ -1,0 +1,35 @@
+{
+  "_id": "b875bc9f949f869f",
+  "name": "Second Mouth",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Curse Eater",
+    "subclass": "Curse Eater — The Consumed",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Something grins beneath your skin. Spend HP to gain Loaded stacks at a one-to-one rate, up to your remaining cap.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_the_consumed_second_mouth"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "b9914b312447d2f9",
+  "name": "Shared Resonance",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Chrome Shaper",
+    "subclass": "Chrome Shaper — Resonance Sculptor",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Carve a twin rune — one on you, one on an ally within 30 feet. Until the end of your next turn, half the damage either of you takes is redirected to the other.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_resonance_sculptor_shared_resonance"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

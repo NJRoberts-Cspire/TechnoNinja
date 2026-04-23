@@ -1,0 +1,35 @@
+{
+  "_id": "da919e1209933c81",
+  "name": "Scar Tissue",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 0,
+    "apCost": 0,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Shell Dancer",
+    "subclass": "Shell Dancer — The Survivor",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Each scar is a lesson the body remembers. Gain a stacking IRON bonus for each wound you've already taken this combat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_the_survivor_scar_tissue"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

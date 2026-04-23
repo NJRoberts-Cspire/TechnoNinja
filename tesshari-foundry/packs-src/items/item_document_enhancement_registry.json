@@ -1,0 +1,24 @@
+{
+  "_id": "a029fe9178387bd9",
+  "name": "Enhancement Registry",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A registry of all legally installed enhancements for one individual. Required for certain Sutensai procedures and caste verification.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_enhancement_registry",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

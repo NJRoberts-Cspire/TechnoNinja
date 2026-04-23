@@ -1,0 +1,38 @@
+{
+  "_id": "4c701f152bfcbaf9",
+  "name": "Neural Plague",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 14,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "signal",
+    "keywords": [
+      "Overheat 3",
+      "Stagger"
+    ],
+    "unlockLevel": 13,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one enhanced creature within 60 feet. Deal 14 + SIGNAL damage. Apply Overheat 3. If the target already has Overheat, they immediately lose 1 AP from their next turn and gain Stagger.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_neural_plague"
+    }
+  },
+  "folder": null,
+  "sort": 3013,
+  "ownership": {
+    "default": 0
+  }
+}

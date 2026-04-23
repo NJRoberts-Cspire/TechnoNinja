@@ -1,0 +1,38 @@
+{
+  "_id": "bc9c526f1f304093",
+  "name": "Code Form",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 5",
+      "Stagger"
+    ],
+    "unlockLevel": 1,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Drop into your combat form. Gain Guard 5. Until the start of your next turn, the first enemy who attacks you suffers Stagger — their form breaks against yours.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_code_form"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

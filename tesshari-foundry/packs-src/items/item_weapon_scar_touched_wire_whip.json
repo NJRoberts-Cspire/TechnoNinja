@@ -1,0 +1,24 @@
+{
+  "_id": "e03708a728cc645d",
+  "name": "The Scar-Touched Wire Whip",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Wire-whip threaded with Engine Scar material. Deals fire damage and enables grappling; contamination accumulates with use.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_scar_touched_wire_whip",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

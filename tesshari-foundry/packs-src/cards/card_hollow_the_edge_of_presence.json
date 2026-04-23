@@ -1,0 +1,38 @@
+{
+  "_id": "e47306f65934f520",
+  "name": "The Edge of Presence",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 4,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 2",
+      "Stagger"
+    ],
+    "unlockLevel": 1,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Expose 2 and Stagger to one target within 30 feet. Deal 4 + RESONANCE resonant damage. This card's Expose value increases by 1 for each 15 HP you are missing.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_the_edge_of_presence"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

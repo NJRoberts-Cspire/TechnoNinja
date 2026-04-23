@@ -1,0 +1,35 @@
+{
+  "_id": "056e231b23bf1b23",
+  "name": "Static Feedback",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "reaction",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": true,
+    "usesPerCombat": null,
+    "description": "<p>Reaction: when an ally within 30 feet is hit, deal 1d6 + SIGNAL lightning damage to the attacker as feedback.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_static_feedback"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

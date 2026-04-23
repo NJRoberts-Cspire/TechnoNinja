@@ -1,0 +1,26 @@
+{
+  "_id": "80bee31b1fc01949",
+  "name": "Loaded Reservoir",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Subcutaneous reservoir storing absorbed curse material. Curse Eater maximum Loaded Count increased by 5. Loaded Count never drops below 2.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_loaded_reservoir",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

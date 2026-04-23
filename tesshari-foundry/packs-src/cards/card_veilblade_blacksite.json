@@ -1,0 +1,38 @@
+{
+  "_id": "3ceef81958bc5e62",
+  "name": "Blacksite",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Silence",
+      "Expose 2"
+    ],
+    "unlockLevel": 13,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You access your hidden internal data repository — the Wire-space that exists in no registry. Retrieve one piece of stored intelligence (story use), or in combat: broadcast a fragment of your stored data as cognitive interference. Apply Silence and Expose 2 to one target whose enhancement network you have previously accessed this combat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_blacksite"
+    }
+  },
+  "folder": null,
+  "sort": 2013,
+  "ownership": {
+    "default": 0
+  }
+}

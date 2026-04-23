@@ -1,0 +1,35 @@
+{
+  "_id": "5444a41b0481fd18",
+  "name": "Distributed Sense",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 10,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>While you have an active vessel on the field, you perceive through it simultaneously. Until your next turn, your Signal Attack and Control cards may originate from your vessel's position instead of yours.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_distributed_sense"
+    }
+  },
+  "folder": null,
+  "sort": 1010,
+  "ownership": {
+    "default": 0
+  }
+}

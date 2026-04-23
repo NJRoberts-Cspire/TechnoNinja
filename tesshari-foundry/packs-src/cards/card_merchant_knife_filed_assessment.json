@@ -1,0 +1,37 @@
+{
+  "_id": "f3a901d44671fef5",
+  "name": "Filed Assessment",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Intelligence"
+    ],
+    "unlockLevel": 2,
+    "className": "Merchant Knife",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Intelligence 1 to one target. On your next turn, the first Merchant Knife card you play against that target costs 0 AP if it normally costs 1 AP.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_filed_assessment"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

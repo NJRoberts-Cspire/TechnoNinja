@@ -1,0 +1,37 @@
+{
+  "_id": "1f4c5c158b75076f",
+  "name": "Infrastructure Broadcast",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Silence"
+    ],
+    "unlockLevel": 1,
+    "className": "",
+    "subclass": "",
+    "isRaceCard": true,
+    "race": "Wireborn",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The Wireborn pushes an effect through the Wire Craft infrastructure in the area. All enemies within 40 feet that are interfacing with or benefiting from an active Wire Craft system — including active Signal cards, network-dependent enhancements, or linked equipment — take 4 + SIGNAL damage and receive Silence for 1 turn. Enemies with no Wire Craft dependency are unaffected. The Wireborn cannot use this card if they are currently under a Silence effect.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireborn_infrastructure_broadcast"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

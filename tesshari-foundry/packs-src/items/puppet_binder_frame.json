@@ -1,0 +1,24 @@
+{
+  "_id": "403b439b20882e89",
+  "name": "Puppet Binder Frame",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Lightweight articulated frame. Puppet Binder: attaching this to a puppet increases command range by one zone.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "puppet_binder_frame",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

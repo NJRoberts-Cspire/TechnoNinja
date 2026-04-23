@@ -1,0 +1,28 @@
+{{!-- Tesshari NPC Sheet --}}
+<section class="tesshari-character-sheet tesshari-npc-sheet">
+
+  <header class="sheet-header">
+    <img class="portrait" src="{{actor.img}}" data-edit="img" title="Edit portrait"/>
+    <div class="header-center">
+      <input type="text" class="name" name="name" value="{{actor.name}}" placeholder="NPC name"/>
+      <div class="meta">
+        <input type="text" name="system.faction" value="{{system.faction}}" placeholder="Faction"/>
+        <span class="sep">·</span>
+        <input type="text" name="system.reach" value="{{system.reach}}" placeholder="Reach"/>
+        <span class="sep">·</span>
+        <input type="text" name="system.caste" value="{{system.caste}}" placeholder="Caste"/>
+      </div>
+    </div>
+  </header>
+
+  <div class="form-group stacked">
+    <label>Biography</label>
+    <prose-mirror name="system.biography" value="{{system.biography}}" toggled></prose-mirror>
+  </div>
+
+  <div class="form-group stacked">
+    <label>Notes</label>
+    <prose-mirror name="system.notes" value="{{system.notes}}" toggled></prose-mirror>
+  </div>
+
+</section>

@@ -1,0 +1,37 @@
+{
+  "_id": "dac4df5f93043d47",
+  "name": "Dead Eye",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 14,
+    "pierce": 4,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [
+      "Expose 2"
+    ],
+    "unlockLevel": 5,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Take a moment to lock targeting and fire. Deal 14 + SIGNAL damage to one target within 120 feet. Apply Expose 2. If you have not moved this turn, apply Pierce 4 in addition.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_dead_eye"
+    }
+  },
+  "folder": null,
+  "sort": 2005,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "c6c63c0b9ae30ed0",
+  "name": "Unwitnessed Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "edge",
+    "keywords": [
+      "Expose 3",
+      "Bleed 3"
+    ],
+    "unlockLevel": 18,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>A strike performed with perfect physical and digital stealth. Deal 22 + EDGE damage. No evidence of this attack's source remains — no Wire record, no enhancement trace, no sound beyond physics. Apply Expose 3 and Bleed 3. This card may only be played from a hidden or signature-suppressed position.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_unwitnessed_strike"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

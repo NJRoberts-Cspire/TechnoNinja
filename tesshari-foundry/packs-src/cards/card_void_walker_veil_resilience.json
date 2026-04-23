@@ -1,0 +1,37 @@
+{
+  "_id": "c66b9d0d802aa74d",
+  "name": "Veil Resilience",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 6"
+    ],
+    "unlockLevel": 4,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The Iron Afterlife has reshaped your resilience. Gain Guard 6. You cannot be reduced below 1 HP this turn by any single hit — the Afterlife is not yet ready to accept you permanently.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_veil_resilience"
+    }
+  },
+  "folder": null,
+  "sort": 1004,
+  "ownership": {
+    "default": 0
+  }
+}

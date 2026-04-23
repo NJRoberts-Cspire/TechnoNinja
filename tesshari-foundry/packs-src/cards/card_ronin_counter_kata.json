@@ -1,0 +1,37 @@
+{
+  "_id": "f886ca415a620046",
+  "name": "Counter Kata",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 8,
+    "pierce": 0,
+    "category": "reaction",
+    "primaryStat": "edge",
+    "keywords": [
+      "Stagger"
+    ],
+    "unlockLevel": 4,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": true,
+    "usesPerCombat": null,
+    "description": "<p>*Triggered when an enemy uses a named ability or class feature against you.* You have spent years watching the code from outside it. You read their pattern before they complete it. Deal 8 + EDGE damage as a counter-strike. Apply Stagger to the attacker — their form collapsed against your recognition of it.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_counter_kata"
+    }
+  },
+  "folder": null,
+  "sort": 1004,
+  "ownership": {
+    "default": 0
+  }
+}

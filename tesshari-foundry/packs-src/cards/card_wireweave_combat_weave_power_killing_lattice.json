@@ -1,0 +1,35 @@
+{
+  "_id": "b43d18d2cee694b7",
+  "name": "Killing Lattice",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Wireweave",
+    "subclass": "Wireweave — Combat Weave",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Subclass Power: designate a 20-foot cube within 60 feet for 3 rounds. Hostile creatures entering take 2d8 + SIGNAL slashing and have their speed halved. Once per long rest.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_combat_weave_power_killing_lattice"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

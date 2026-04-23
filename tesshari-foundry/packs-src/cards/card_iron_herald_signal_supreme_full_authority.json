@@ -1,0 +1,37 @@
+{
+  "_id": "2969dbc5e42dde70",
+  "name": "Signal Supreme: Full Authority",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Overheat 3"
+    ],
+    "unlockLevel": 20,
+    "className": "Iron Herald",
+    "subclass": "Echo Speaker — Herald",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You take full control of all Wire Craft communications in the combat space for 1 full round. Mechanically: all enemies lose their Reaction for the round; all Signal cards played by enemies are redirected to target their own allies (DM adjudicates effect); all allies gain +SIGNAL to all damage; and you may reposition your Command Zone to any point in the combat space as a free action. After this round, all enemies have Overheat 3 from the broadcast. You were the line between what they could do and what they could not. You drew it. They found out where it was.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_signal_supreme_full_authority"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

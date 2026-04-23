@@ -1,0 +1,35 @@
+{
+  "_id": "b898b0c3c8ca944d",
+  "name": "Sigil of Binding",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Chrome Shaper",
+    "subclass": "Chrome Shaper — Resonance Sculptor",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You drag a bloody glyph down your forearm; the target's chrome answers it. One enemy cannot Configure or activate augments next round.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_resonance_sculptor_sigil_of_binding"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

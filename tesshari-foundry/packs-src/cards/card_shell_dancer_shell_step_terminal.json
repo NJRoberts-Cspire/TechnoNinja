@@ -1,0 +1,35 @@
+{
+  "_id": "ae318a9e8f76d76d",
+  "name": "Shell Step: Terminal",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "mobility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 19,
+    "className": "Shell Dancer",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Enter Shell Step with a 3-turn duration. During this period: you are completely untargetable; Cascade accumulates normally from any damage taken by allies (not just you — you are absorbing the resonance of the battle without being in it); and on the turn you choose to exit, your exit Attack card costs 0 AP and deals damage equal to 16 + EDGE + (3 × total Cascade accumulated during Shell Step). You were gone. The battlefield kept moving. You kept count.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_shell_step_terminal"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

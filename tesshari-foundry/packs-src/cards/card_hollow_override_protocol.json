@@ -1,0 +1,40 @@
+{
+  "_id": "879027a03cf6567a",
+  "name": "Override Protocol",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 4",
+      "Stagger",
+      "Root",
+      "Silence"
+    ],
+    "unlockLevel": 6,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Remove one status effect (Stagger, Root, Silence, or Stun) from yourself. Apply Guard 4 + FRAME. Your mechanical redundancy suppresses what organic bodies cannot.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_override_protocol"
+    }
+  },
+  "folder": null,
+  "sort": 1006,
+  "ownership": {
+    "default": 0
+  }
+}

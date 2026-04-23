@@ -1,0 +1,35 @@
+{
+  "_id": "ba3f1b5d329163e7",
+  "name": "Vein Puppeteer",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Blood Smith",
+    "subclass": "Blood Smith — The Sculptor",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Twitch the threads of a bleeding foe. Target enemy suffering Bleed loses 1 AP next turn and is pulled 10 feet; pay 4 HP.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_the_sculptor_vein_puppeteer"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

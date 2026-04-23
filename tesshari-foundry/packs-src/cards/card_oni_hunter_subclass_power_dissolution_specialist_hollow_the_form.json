@@ -1,0 +1,35 @@
+{
+  "_id": "cd6e534a6552d655",
+  "name": "Hollow the Form",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Oni Hunter",
+    "subclass": "Oni Hunter — Dissolution Specialist",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Pour dissolution-resonance into the quarry until its outline shivers. For the rest of the scene the target is treated as a form barely holding itself together — every unmaking effect against it hits harder.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_subclass_power_dissolution_specialist_hollow_the_form"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

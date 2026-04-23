@@ -1,0 +1,37 @@
+{
+  "_id": "b0efe7d555812b3e",
+  "name": "Cascade: Maximum",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Reset"
+    ],
+    "unlockLevel": 18,
+    "className": "Shell Dancer",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your Cascade count is set to its maximum (10) immediately. Until the end of this turn, all Cascade-synergy cards deal double their Cascade-based bonus damage. At the end of this turn, Cascade resets to 0. You had built to this. Everything since the first hit has been accumulation.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_cascade_maximum"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "09a2541c6fa71433",
+  "name": "Iron Aura",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 8"
+    ],
+    "unlockLevel": 10,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Guard 8 + IRON to yourself. Enemies within 10 feet take 3 + RESONANCE resonant damage at the start of each of their turns while this Guard is active. Pay 8 HP in addition to 2 AP.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_iron_aura"
+    }
+  },
+  "folder": null,
+  "sort": 2010,
+  "ownership": {
+    "default": 0
+  }
+}

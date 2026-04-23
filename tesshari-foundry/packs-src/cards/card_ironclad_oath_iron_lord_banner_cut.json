@@ -1,0 +1,35 @@
+{
+  "_id": "35ea0904853a9786",
+  "name": "Banner Cut",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Ironclad Samurai",
+    "subclass": "Ironclad Samurai — Oath Iron Lord",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Plant your blade in the earth and name your ward. Make a melee attack; on hit, you and your ward gain a bonus to AC until the start of your next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_oath_iron_lord_banner_cut"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

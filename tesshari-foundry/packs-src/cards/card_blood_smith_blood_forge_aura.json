@@ -1,0 +1,35 @@
+{
+  "_id": "d5c2993076046c05",
+  "name": "Blood Forge Aura",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 15,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>While in hand, passive. All enemies within 10 feet with enhancements take 4 + RESONANCE resonant damage at the start of each of your turns. This is passive — no AP spent on your turn to trigger it.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_blood_forge_aura"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

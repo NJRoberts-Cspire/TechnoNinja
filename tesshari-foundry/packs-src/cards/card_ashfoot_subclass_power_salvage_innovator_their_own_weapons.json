@@ -1,0 +1,35 @@
+{
+  "_id": "490ba58e95582f2d",
+  "name": "Their Own Weapons",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Ashfoot",
+    "subclass": "Ashfoot — Salvage Innovator",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Rip the armaments off a fallen foe and turn them loose at their friends. An ally's next ranged attack this round deals an extra 3d6 damage and ignores resistance. Once per short rest.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_subclass_power_salvage_innovator_their_own_weapons"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

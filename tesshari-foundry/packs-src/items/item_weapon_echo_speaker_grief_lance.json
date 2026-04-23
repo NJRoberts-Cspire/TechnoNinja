@@ -1,0 +1,24 @@
+{
+  "_id": "f38f24f149a244b2",
+  "name": "Grief Lance",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A polearm resonating with accumulated grief-energy. Deals bonus damage equal to current grief stacks. Applies Mark 2 on hit.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_echo_speaker_grief_lance",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

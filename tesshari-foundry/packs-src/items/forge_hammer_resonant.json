@@ -1,0 +1,24 @@
+{
+  "_id": "d73bce3ab8d5b804",
+  "name": "Resonant Forge Hammer",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Forge Tender combat and crafting tool. Functions as both a weapon and a crafting implement. Two-handed.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "forge_hammer_resonant",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

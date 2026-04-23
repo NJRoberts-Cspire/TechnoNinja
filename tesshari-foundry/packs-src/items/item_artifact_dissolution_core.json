@@ -1,0 +1,24 @@
+{
+  "_id": "af76b13ace3f0a6f",
+  "name": "Dissolution Core",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>The preserved core of a fully dissolved entity. Grants immunity to dissolution resonance and provides +4 to all SIGNAL cards for one encounter per day.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_artifact_dissolution_core",
+      "originalCategory": "artifact"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

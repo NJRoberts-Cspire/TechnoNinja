@@ -1,0 +1,38 @@
+{
+  "_id": "d40133873cb8a9a5",
+  "name": "Forge Spike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 15,
+    "pierce": 5,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 3",
+      "Expose 3"
+    ],
+    "unlockLevel": 13,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 15 + IRON melee damage to one adjacent target. Pay 8 HP. Pierce 5. Apply Bleed 3 and Expose 3.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_forge_spike"
+    }
+  },
+  "folder": null,
+  "sort": 2013,
+  "ownership": {
+    "default": 0
+  }
+}

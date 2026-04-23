@@ -1,0 +1,26 @@
+{
+  "_id": "90f2752782f56396",
+  "name": "Unnamed Fragment (Personal)",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A resonant fragment attuned to a specific unnamed individual. Amplifies The Unnamed's Active Stat bonuses by 1 while carried.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_unnamed_resonant_fragment",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

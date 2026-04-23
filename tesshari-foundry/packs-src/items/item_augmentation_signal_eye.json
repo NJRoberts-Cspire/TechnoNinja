@@ -1,0 +1,26 @@
+{
+  "_id": "e82765ba3ee3a47f",
+  "name": "Signal Eye",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Eye replacement with full signal-spectrum vision. Grants detection of all active Wire Craft connections within 40 feet and reads signal frequencies.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_signal_eye",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

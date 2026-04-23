@@ -1,0 +1,35 @@
+{
+  "_id": "af796e68d86d762f",
+  "name": "Witness of the First",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Sutensai",
+    "subclass": "Sutensai — Priors Voice",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Call the first sutensai to watch this moment. For the rest of your turn, every card you play also inflicts a minor VEIL tremor on its target; at turn's end, you take 1 HP as the Witness withdraws.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_priors_voice_witness_of_the_first"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

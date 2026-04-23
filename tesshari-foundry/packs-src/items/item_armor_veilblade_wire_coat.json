@@ -1,0 +1,24 @@
+{
+  "_id": "14b85dba81026df0",
+  "name": "Wire-Coat",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A long coat reinforced with active wire-silk. Light armor. Provides signal disruption; Wire Craft targeting rolls against bearer have disadvantage.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_veilblade_wire_coat",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

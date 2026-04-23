@@ -1,0 +1,39 @@
+{
+  "_id": "a99ff014dbb81d60",
+  "name": "Escalating Pressure",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 14,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 4",
+      "Vulnerable 3",
+      "Stagger"
+    ],
+    "unlockLevel": 12,
+    "className": "Voice of Debt",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 14 + VEIL social damage to one target within 40 feet. Apply Debt 5 and Expose 4. Apply Vulnerable 3. If this target has been damaged by a Detonation card earlier this combat, apply Stagger in addition.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_escalating_pressure"
+    }
+  },
+  "folder": null,
+  "sort": 3012,
+  "ownership": {
+    "default": 0
+  }
+}

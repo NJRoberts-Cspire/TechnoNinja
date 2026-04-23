@@ -1,0 +1,38 @@
+{
+  "_id": "ea2fe98a25357c02",
+  "name": "Voice of the Dead",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Regen 4",
+      "Stagger"
+    ],
+    "unlockLevel": 16,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Channel one of the Six Prior Ascended. Deal 22 + RESONANCE resonant damage in a 30-foot radius. All enemies in range are Staggered. All allies in range gain Regen 4 until end of their next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_voice_of_the_dead"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

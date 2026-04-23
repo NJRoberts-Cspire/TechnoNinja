@@ -1,0 +1,190 @@
+{{!-- Tesshari Character Sheet --}}
+<section class="tesshari-character-sheet">
+
+  <header class="sheet-header">
+    <img class="portrait" src="{{actor.img}}" data-edit="img" title="Edit portrait"/>
+    <div class="header-center">
+      <input type="text" class="name" name="name" value="{{actor.name}}" placeholder="Character name"/>
+      <div class="meta">
+        <input type="text" class="species" name="system.species" value="{{system.species}}" placeholder="Species"/>
+        <span class="sep">·</span>
+        <input type="text" class="classname" name="system.className" value="{{system.className}}" placeholder="Class"/>
+        <span class="sep">·</span>
+        <input type="text" class="subclass" name="system.subclass" value="{{system.subclass}}" placeholder="Subclass"/>
+        <span class="sep">·</span>
+        <label>Lvl</label>
+        <input type="number" class="level" name="system.level" value="{{system.level}}" min="1" max="20"/>
+      </div>
+    </div>
+    <div class="resources">
+      <div class="resource hp">
+        <label>HP</label>
+        <div class="resource-row">
+          <input type="number" name="system.hp.value" value="{{system.hp.value}}"/>
+          <span>/</span>
+          <input type="number" name="system.hp.max" value="{{system.hp.max}}"/>
+        </div>
+      </div>
+      <div class="resource ap">
+        <label>AP</label>
+        <div class="resource-row">
+          <input type="number" name="system.ap.value" value="{{system.ap.value}}"/>
+          <span>/</span>
+          <input type="number" name="system.ap.max" value="{{system.ap.max}}"/>
+          <button type="button" class="icon-btn" data-action="resetAP" title="Reset AP to max">↻</button>
+        </div>
+      </div>
+      <div class="resource hand">
+        <label>Hand</label>
+        <div class="resource-row">
+          <span class="count">{{handCount}}</span>
+          <span>/</span>
+          <input type="number" name="system.handSize" value="{{system.handSize}}" min="1" max="12"/>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="action-bar">
+    <button type="button" data-action="basicAttack" title="Once per turn, 0 AP">⚔ Basic Attack</button>
+    <button type="button" data-action="endTurn" title="Advance to next turn in combat tracker">⏭ End Turn</button>
+  </div>
+
+  <div class="sheet-body">
+
+    <section class="col left">
+      <div class="stats-grid">
+        {{#each stats as |stat|}}
+          <div class="stat" data-stat="{{stat.key}}">
+            <label>{{stat.label}}</label>
+            <input type="number" name="{{stat.path}}" value="{{stat.value}}" min="1" max="10"/>
+          </div>
+        {{/each}}
+      </div>
+
+      <div class="status-tray">
+        <h3>Effects</h3>
+        {{#if statusEffects.length}}
+          <ul class="status-list">
+            {{#each statusEffects as |fx|}}
+              <li class="status-chip type-{{fx.type}}" title="{{fx.summary}}">
+                <img src="{{fx.img}}" alt="{{fx.name}}"/>
+                <span class="fx-name">{{fx.name}}</span>
+                {{#if fx.stacks}}<span class="stacks">{{fx.stacks}}</span>{{/if}}
+                <button type="button" class="icon-btn" data-action="removeEffect" data-effect-id="{{fx.id}}" title="Remove">✕</button>
+              </li>
+            {{/each}}
+          </ul>
+        {{else}}
+          <p class="hint">No active effects.</p>
+        {{/if}}
+      </div>
+    </section>
+
+    <section class="col right">
+      <div class="hand-section">
+        <h3>
+          Hand
+          <span class="count-label">{{handCount}} / {{system.handSize}}</span>
+          {{#if handOver}}<span class="warn">over capacity</span>{{/if}}
+        </h3>
+        {{#if cards.length}}
+          <div class="card-grid">
+            {{#each cards as |card|}}
+              <div class="card-tile tier-{{card.system.tier}} category-{{card.system.category}}{{#if card.playedThisTurn}} spent{{/if}}"
+                   data-action="playCard" data-item-id="{{card.id}}"
+                   role="button" tabindex="0"
+                   title="{{card.name}}">
+                <div class="card-head">
+                  <span class="card-ap">{{card.system.apCost}}</span>
+                  <span class="card-name">{{card.name}}</span>
+                  <span class="icon-btn card-edit" data-action="editItem" data-item-id="{{card.id}}"
+                        role="button" tabindex="0" title="Edit card">✎</span>
+                </div>
+                <div class="card-meta">
+                  <span class="cat">{{card.system.category}}</span>
+                  {{#if card.system.baseDamage}}
+                    <span class="dmg">{{card.system.baseDamage}} + {{card.system.primaryStat}}</span>
+                  {{/if}}
+                  {{#if card.system.pierce}}<span class="pierce">P{{card.system.pierce}}</span>{{/if}}
+                </div>
+                {{#if card.system.keywords.length}}
+                  <div class="card-keywords">
+                    {{#each card.system.keywords as |kw|}}
+                      <span class="kw">{{kw}}</span>
+                    {{/each}}
+                  </div>
+                {{/if}}
+              </div>
+            {{/each}}
+          </div>
+        {{else}}
+          <p class="hint">No cards yet. Drag a card Item from the sidebar onto this sheet.</p>
+        {{/if}}
+      </div>
+
+      <div class="inventory-section">
+        <h3>Inventory</h3>
+        {{#if inventory.length}}
+          <ul class="item-list">
+            {{#each inventory as |it|}}
+              <li class="item-row" data-item-id="{{it.id}}">
+                <img src="{{it.img}}" class="item-img" alt="{{it.name}}"/>
+                <span class="item-name">{{it.name}}</span>
+                <span class="item-type">{{it.type}}</span>
+                <button type="button" class="icon-btn" data-action="editItem" data-item-id="{{it.id}}" title="Edit">⚙</button>
+                <button type="button" class="icon-btn" data-action="deleteItem" data-item-id="{{it.id}}" title="Remove">✕</button>
+              </li>
+            {{/each}}
+          </ul>
+        {{else}}
+          <p class="hint">No items. Drag weapons, armor, cybernetics, or consumables here.</p>
+        {{/if}}
+      </div>
+    </section>
+
+  </div>
+
+  <details class="background-section">
+    <summary>Background</summary>
+    <div class="form-grid-2">
+      <div class="form-group">
+        <label>Reach</label>
+        <input type="text" name="system.background.reach" value="{{system.background.reach}}"/>
+      </div>
+      <div class="form-group">
+        <label>Caste</label>
+        <input type="text" name="system.background.caste" value="{{system.background.caste}}"/>
+      </div>
+      <div class="form-group">
+        <label>Faction</label>
+        <input type="text" name="system.background.faction" value="{{system.background.faction}}"/>
+      </div>
+      <div class="form-group">
+        <label>Heritage</label>
+        <input type="text" name="system.background.heritage" value="{{system.background.heritage}}"/>
+      </div>
+      <div class="form-group stacked">
+        <label>Who I Owe</label>
+        <prose-mirror name="system.background.whoIOwe" value="{{system.background.whoIOwe}}" toggled></prose-mirror>
+      </div>
+      <div class="form-group stacked">
+        <label>What I Need</label>
+        <prose-mirror name="system.background.whatINeed" value="{{system.background.whatINeed}}" toggled></prose-mirror>
+      </div>
+    </div>
+  </details>
+
+  <details class="biography-section">
+    <summary>Biography &amp; Notes</summary>
+    <div class="form-group stacked">
+      <label>Biography</label>
+      <prose-mirror name="system.biography" value="{{system.biography}}" toggled></prose-mirror>
+    </div>
+    <div class="form-group stacked">
+      <label>Notes</label>
+      <prose-mirror name="system.notes" value="{{system.notes}}" toggled></prose-mirror>
+    </div>
+  </details>
+
+</section>

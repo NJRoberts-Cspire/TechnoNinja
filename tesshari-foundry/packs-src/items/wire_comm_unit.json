@@ -1,0 +1,24 @@
+{
+  "_id": "937b39622332f09f",
+  "name": "Wire Comm Unit",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Short-range wire-based communication device. Range: same building or adjacent exterior zone.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "wire_comm_unit",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

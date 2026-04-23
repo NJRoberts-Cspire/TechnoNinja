@@ -1,0 +1,37 @@
+{
+  "_id": "94c7157b0547f614",
+  "name": "Formation Flare (Tended only)",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard"
+    ],
+    "unlockLevel": 1,
+    "className": "",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The Iron Blessed channels resonance through their formations in a controlled burst. Apply Guard (6 + RESONANCE) to yourself. All allies within 10 feet gain Guard (3 + RESONANCE). Any enemy within 10 feet that makes a melee attack against the Iron Blessed this turn takes 3 + RESONANCE damage from formation spines on contact. The Orthodoxy's training makes this disciplined, directed, and reliable.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_blessed_formation_flare_tended_only"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

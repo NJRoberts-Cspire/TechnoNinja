@@ -1,0 +1,37 @@
+{
+  "_id": "8fcbba045935f705",
+  "name": "Blade-Sworn Bond",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Echo"
+    ],
+    "unlockLevel": 8,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your resonant blade is a literal extension of your Echomind. This turn, any attack you make with it deals + IRON + RESONANCE damage instead of only IRON. If your blade is removed from your hand, you may retrieve it as part of this card's activation at no additional cost.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_blade_sworn_bond"
+    }
+  },
+  "folder": null,
+  "sort": 2008,
+  "ownership": {
+    "default": 0
+  }
+}

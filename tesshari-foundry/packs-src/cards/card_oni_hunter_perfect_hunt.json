@@ -1,0 +1,35 @@
+{
+  "_id": "d72fd06f4ee9ee06",
+  "name": "Perfect Hunt",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 8,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your discipline is complete. Your attacks against your Marked target cannot be made at disadvantage by any means. You may maintain two active Marks simultaneously. When any creature in the encounter drops to 0 HP, you may immediately transfer one of your Marks to a new target as a free action.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_perfect_hunt"
+    }
+  },
+  "folder": null,
+  "sort": 2008,
+  "ownership": {
+    "default": 0
+  }
+}

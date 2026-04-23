@@ -1,0 +1,26 @@
+{
+  "_id": "1806080323668bfc",
+  "name": "Resonant Arm (Full Replacement)",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Full arm replacement with resonant-metal construction. Grants +2 IRON and enables weapon-integration for class-specific arm weapons.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_resonant_arm",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "1bed7dfb4c37d0e4",
+  "name": "Resonant Surge",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 4",
+      "Overheat 1"
+    ],
+    "unlockLevel": 6,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Channel your Echomind into a burst of heightened performance. Gain Guard 4. This turn, one attack you make deals + IRON + RESONANCE instead of only IRON. Apply Overheat 1 to yourself (the surge has a cost).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_resonant_surge"
+    }
+  },
+  "folder": null,
+  "sort": 2006,
+  "ownership": {
+    "default": 0
+  }
+}

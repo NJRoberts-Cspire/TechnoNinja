@@ -1,0 +1,37 @@
+{
+  "_id": "e0627c60dee33f2d",
+  "name": "Command Voice",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Taunt"
+    ],
+    "unlockLevel": 3,
+    "className": "Iron Herald",
+    "subclass": "Echo Speaker — Herald",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Taunt to one enemy within 30 meters — they must direct their next attack at you if able. While they are Taunted, all allies within 20 meters gain +2 to their defense cards until the Taunt expires.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_command_voice"
+    }
+  },
+  "folder": null,
+  "sort": 1003,
+  "ownership": {
+    "default": 0
+  }
+}

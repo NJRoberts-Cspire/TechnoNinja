@@ -1,0 +1,38 @@
+{
+  "_id": "048fa0d599072ac5",
+  "name": "Between Mastery",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Guard",
+      "Stagger"
+    ],
+    "unlockLevel": 10,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Enter absolute combat clarity for this turn. All attacks you make deal + IRON + RESONANCE damage. Apply Guard equal to your RESONANCE to yourself. Any enemy who targets you this round suffers Stagger.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_between_mastery"
+    }
+  },
+  "folder": null,
+  "sort": 3010,
+  "ownership": {
+    "default": 0
+  }
+}

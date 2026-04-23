@@ -1,0 +1,38 @@
+{
+  "_id": "ad445e611ad6d1ae",
+  "name": "Void Anchor",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 5",
+      "Shield 6"
+    ],
+    "unlockLevel": 4,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Guard 5 + FRAME and Shield 4 to yourself. If you are at critical HP, apply Guard 5 + FRAME + RESONANCE and Shield 6 instead.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_void_anchor"
+    }
+  },
+  "folder": null,
+  "sort": 1004,
+  "ownership": {
+    "default": 0
+  }
+}

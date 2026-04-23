@@ -1,0 +1,35 @@
+{
+  "_id": "b3383cea42315e5a",
+  "name": "The Consumed Form",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 20,
+    "className": "Curse Eater",
+    "subclass": "Curse Eater — The Consumed",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Until the start of your next turn, you manifest your accumulated absorption fully. All attack cards deal +RESONANCE bonus damage. All enemies within 20 meters take 5 + RESONANCE damage at the start of each of their turns. You are immune to all debuffs during this state — every attempt to apply a status to you adds 2 Loaded instead. Allies within 20 meters are cleansed of 1 debuff at the start of each of their turns. You do not stop. You have not stopped for years.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_the_consumed_form"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

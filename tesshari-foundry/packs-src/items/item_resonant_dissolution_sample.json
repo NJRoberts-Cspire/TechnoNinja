@@ -1,0 +1,26 @@
+{
+  "_id": "a4a310f9c49e9125",
+  "name": "Dissolution Sample",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A contained sample of dissolution resonance. Oni Hunter utility; provides advantage on identifying and tracking dissolution entities.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_dissolution_sample",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

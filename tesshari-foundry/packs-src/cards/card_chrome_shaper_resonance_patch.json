@@ -1,0 +1,37 @@
+{
+  "_id": "39d44a03dde4a146",
+  "name": "Resonance Patch",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Cleanse"
+    ],
+    "unlockLevel": 2,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Perform an emergency resonance calibration on one ally within reach or yourself. Target recovers 8 HP and removes one active Overheat stack.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_resonance_patch"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

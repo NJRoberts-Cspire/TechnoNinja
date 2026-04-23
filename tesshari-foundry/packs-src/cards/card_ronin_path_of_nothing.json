@@ -1,0 +1,35 @@
+{
+  "_id": "776f4f9778937f43",
+  "name": "Path of Nothing",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 15,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The masterless Ronin's secret advantage: you have nothing left to protect. Until your next turn, damage you take is reduced by 4. Any creature that kills you this turn (reduces you to 0 HP) takes 10 + IRON damage from the last act of someone who had already decided to be done.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_path_of_nothing"
+    }
+  },
+  "folder": null,
+  "sort": 2015,
+  "ownership": {
+    "default": 0
+  }
+}

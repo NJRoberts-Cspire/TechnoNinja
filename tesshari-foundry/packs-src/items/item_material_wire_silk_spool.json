@@ -1,0 +1,24 @@
+{
+  "_id": "8113a242e57b3879",
+  "name": "Wire-Silk Spool",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Raw wire-silk for armor repair, augmentation construction, and field modifications. Consumed in craft procedures.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_material_wire_silk_spool",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

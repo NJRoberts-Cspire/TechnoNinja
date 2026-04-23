@@ -1,0 +1,24 @@
+{
+  "_id": "a80aae7bfa92957e",
+  "name": "Between-Fist Wrapping",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Resonant wrappings for unarmed combat channeling Between-space energy. Unarmed strikes deal +RESONANCE damage while Between State is active.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_iron_monk_between_fist",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

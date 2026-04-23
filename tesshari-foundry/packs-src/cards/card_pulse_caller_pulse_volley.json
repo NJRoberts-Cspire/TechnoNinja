@@ -1,0 +1,35 @@
+{
+  "_id": "d9eaa6318ce7195d",
+  "name": "Pulse Volley",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 8,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Fire a volley of pulses at up to three targets within 60 feet. Each takes 8 + SIGNAL damage. Targets share no damage — each is hit individually.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_pulse_volley"
+    }
+  },
+  "folder": null,
+  "sort": 2008,
+  "ownership": {
+    "default": 0
+  }
+}

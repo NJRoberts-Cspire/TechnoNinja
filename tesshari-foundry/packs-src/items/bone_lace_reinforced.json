@@ -1,0 +1,26 @@
+{
+  "_id": "471b4f77a18e5d72",
+  "name": "Reinforced Bone Lace",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Enhanced version of standard bone lace. Adds +2 physical damage reduction instead of +1.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "bone_lace_reinforced",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

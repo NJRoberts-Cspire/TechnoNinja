@@ -1,0 +1,35 @@
+{
+  "_id": "ba1a2253019f67fb",
+  "name": "Thought-Mesh",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Puppet Binder",
+    "subclass": "Puppet Binder — The Network",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your network's minds braid into a single weave. Until the start of your next turn, any ally connected to your threads may use your SIGNAL modifier in place of their own on one check or save; you take 1 resonant damage each time they do.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_the_network_thought_mesh"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

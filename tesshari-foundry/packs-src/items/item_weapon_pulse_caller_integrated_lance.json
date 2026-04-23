@@ -1,0 +1,24 @@
+{
+  "_id": "c5b92df8de46d7ca",
+  "name": "Integrated Lance",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A melee weapon integrated with pulse-arm discharge. Can fire as ranged (AP 1) or strike as melee (free). Combines both damage types.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_pulse_caller_integrated_lance",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

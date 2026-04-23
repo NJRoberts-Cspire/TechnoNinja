@@ -1,0 +1,35 @@
+{
+  "_id": "5b180e871a8d4355",
+  "name": "Librarian's Erasure",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Sutensai",
+    "subclass": "Sutensai — Archive Master",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Some names should not be in the record. Choose one enemy within 60 feet; for 3 rounds, they have disadvantage on attacks against you, and allies treat them as unseen until the first time they deal damage. Once per long rest.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_archive_master_librarians_erasure"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

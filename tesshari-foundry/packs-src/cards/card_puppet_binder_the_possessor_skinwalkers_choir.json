@@ -1,0 +1,35 @@
+{
+  "_id": "bb602e1f72358dda",
+  "name": "Skinwalker's Choir",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 5,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Puppet Binder",
+    "subclass": "Puppet Binder — The Possessor",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Sleeve yourself into up to three bound creatures at once; your will is in each like a candle in a lantern. On each of your turns, you may take one action through each host, and no host knows which hand is yours.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_the_possessor_skinwalkers_choir"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

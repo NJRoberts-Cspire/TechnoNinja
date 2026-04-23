@@ -1,0 +1,35 @@
+{
+  "_id": "74abe92976eb5ac6",
+  "name": "The Empty Gate",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "The Hollow",
+    "subclass": "The Hollow — The Empty",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Open a door onto nothing in the shape of an incoming harm. Negate one attack, spell, or effect targeting you or an ally within 15 feet; the source suffers Expose 4 as the nothing looks back.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_the_empty_gate"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

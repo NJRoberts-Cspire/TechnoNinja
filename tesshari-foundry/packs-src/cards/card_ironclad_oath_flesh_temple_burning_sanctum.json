@@ -1,0 +1,35 @@
+{
+  "_id": "6d7f5372ec425ea1",
+  "name": "Burning Sanctum",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 5,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Ironclad Samurai",
+    "subclass": "Ironclad Samurai — Oath Flesh Temple",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Ignite the living temple. You drop to half HP immediately; for the next minute, each melee attack against you is reflected as resonant damage equal to your level, and your own attacks ignore resistance and deal maximum damage on hit.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_oath_flesh_temple_burning_sanctum"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "19bc803b8f35df40",
+  "name": "Afterlife Perception",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Open your Afterlife senses fully. Detect all Echomind signatures within 60 feet, including concealed and hidden creatures. Learn one enemy's HP bracket and one keyword from an unplayed card they hold. Iron Afterlife entities within range are automatically revealed and targetable.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_afterlife_perception"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

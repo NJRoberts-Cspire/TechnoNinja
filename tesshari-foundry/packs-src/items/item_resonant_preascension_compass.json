@@ -1,0 +1,26 @@
+{
+  "_id": "e93f0baecac60935",
+  "name": "Pre-Ascension Resonance Compass",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Crystalline formation pointing toward the nearest significant Echomind resonance concentration rather than magnetic north.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_preascension_compass",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

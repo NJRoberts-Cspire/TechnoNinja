@@ -1,0 +1,24 @@
+{
+  "_id": "37f88282ca01fcad",
+  "name": "Wanted Notice",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A formal notice identifying a target. Carrying this about a target provides social leverage with law enforcement. Can be forged.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_wanted_notice",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

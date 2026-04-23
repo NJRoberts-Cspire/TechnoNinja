@@ -1,0 +1,37 @@
+{
+  "_id": "9f7994f2980f2281",
+  "name": "Cascade Architect",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 4,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Silence"
+    ],
+    "unlockLevel": 15,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Trigger a Wire cascade through all Signal-connected targets within 120 feet. Each takes 10 + SIGNAL damage and gains Silence for 1 round. Automated systems crash for the scene.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_cascade_architect"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

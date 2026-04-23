@@ -1,0 +1,24 @@
+{
+  "_id": "be88c396bcdd2e10",
+  "name": "Resonant Meal",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A meal prepared with resonant-treated ingredients. Provides standard nutrition and grants Regen 2 for the first two turns of next encounter.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_resonant_food",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

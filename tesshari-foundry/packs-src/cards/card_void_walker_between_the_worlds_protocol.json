@@ -1,0 +1,35 @@
+{
+  "_id": "a7f056777c31672b",
+  "name": "Between the Worlds Protocol",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 17,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>For the rest of the scene: you exist partially in both worlds simultaneously. You gain +3 RESONANCE and +3 EDGE. All your Phase cards cost 0 AP. You cannot be surprised. Your Basic Attack deals +RESONANCE damage. Once per scene.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_between_the_worlds_protocol"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

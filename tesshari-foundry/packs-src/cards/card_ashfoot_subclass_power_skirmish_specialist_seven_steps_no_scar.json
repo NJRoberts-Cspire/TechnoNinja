@@ -1,0 +1,35 @@
+{
+  "_id": "6ba6c7726901a41f",
+  "name": "Seven Steps, No Scar",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Ashfoot",
+    "subclass": "Ashfoot — Skirmish Specialist",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Seven strikes across seven footprints, none of them holding still. Make up to three Basic Attacks against different targets, moving 10 feet between each; enemies cannot make opportunity attacks against you this turn. Once per long rest.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_subclass_power_skirmish_specialist_seven_steps_no_scar"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

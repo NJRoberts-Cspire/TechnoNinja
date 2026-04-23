@@ -1,0 +1,24 @@
+{
+  "_id": "714637f1e7d85049",
+  "name": "Signal Thrower",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Wire-silk tension crossbow firing resonant bolts. Ranged projectile weapon.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_signal_thrower",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

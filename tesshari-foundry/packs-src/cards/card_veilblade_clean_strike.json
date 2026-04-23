@@ -1,0 +1,37 @@
+{
+  "_id": "68899e6c2638f4aa",
+  "name": "Clean Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "edge",
+    "keywords": [
+      "Expose 2"
+    ],
+    "unlockLevel": 9,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The right kill, at the right time. Deal 12 + EDGE damage. If you were hidden or your signature was suppressed at the start of this turn, add SIGNAL to the damage and apply Expose 2. Enemies killed by this card show no external wound for the next hour — a Clean Kill in both function and form.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_clean_strike"
+    }
+  },
+  "folder": null,
+  "sort": 2009,
+  "ownership": {
+    "default": 0
+  }
+}

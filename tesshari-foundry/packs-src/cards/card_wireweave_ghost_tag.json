@@ -1,0 +1,37 @@
+{
+  "_id": "6fe754c05f0f3757",
+  "name": "Ghost Tag",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Mark"
+    ],
+    "unlockLevel": 2,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply an invisible Wire tag to one creature within 60 feet. While tagged, you know their exact position within 300 feet. Tagged enemies cannot become hidden from you. Lasts until the end of the scene or until dispelled.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_ghost_tag"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

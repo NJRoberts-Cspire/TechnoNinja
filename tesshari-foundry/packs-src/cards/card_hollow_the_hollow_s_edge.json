@@ -1,0 +1,39 @@
+{
+  "_id": "57e0d1b0f1dfc8ab",
+  "name": "The Hollow's Edge",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 24,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 6",
+      "Vulnerable 5",
+      "Stagger"
+    ],
+    "unlockLevel": 19,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 24 + RESONANCE resonant damage to one target within 30 feet. Apply Expose 6, Vulnerable 5, and Stagger. This card's total damage increases by RESONANCE + FRAME for every 20 HP you are missing (maximum +(RESONANCE + FRAME) × 4 additional damage from this scaling).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_the_hollow_s_edge"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "69c9c2dac52de93e",
+  "name": "Pulse Arm (Heavy)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>High-power signal-discharge weapon for sustained fire. Heavy ranged signal weapon.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_pulse_arm_heavy",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

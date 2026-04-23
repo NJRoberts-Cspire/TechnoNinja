@@ -1,0 +1,37 @@
+{
+  "_id": "8a4dfbf931dba0d5",
+  "name": "Masterless Perfection",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 18,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "iron",
+    "keywords": [
+      "Stagger"
+    ],
+    "unlockLevel": 12,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Three connected strikes in the style the schools don't teach. Deal 18 + IRON damage three times to the same target (calculated separately). If all three land against the same target, they must save or be Staggered until the end of their next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_masterless_perfection"
+    }
+  },
+  "folder": null,
+  "sort": 3012,
+  "ownership": {
+    "default": 0
+  }
+}

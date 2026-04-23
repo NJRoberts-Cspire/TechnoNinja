@@ -1,0 +1,35 @@
+{
+  "_id": "fa1650b6348c2cb7",
+  "name": "The Shedding",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Chrome Shaper",
+    "subclass": "Chrome Shaper — Edge Builder",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Cast off a limb that has fully bladed over and hurl it (60-foot range) for 3d6 + IRON piercing damage; it ignores cover. The limb regrows at the start of your next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_edge_builder_the_shedding"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

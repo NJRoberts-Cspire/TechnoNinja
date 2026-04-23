@@ -1,0 +1,35 @@
+{
+  "_id": "4506a18a660c33eb",
+  "name": "Wear the Break",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Fracture Knight",
+    "subclass": "Fracture Knight — The Claimed",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Pull a Fracture stack off an enemy and graft it onto yourself. Gain temporary armor and a FRAME bonus until end of next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_the_claimed_wear_the_break"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

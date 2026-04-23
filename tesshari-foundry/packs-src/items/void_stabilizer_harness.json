@@ -1,0 +1,26 @@
+{
+  "_id": "d902c691c865cb3b",
+  "name": "Void Stabilizer Harness",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Keeps the wearer anchored during void resonance events. Prevents involuntary phase shift.</p>",
+    "slot": "gear",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "void_stabilizer_harness",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

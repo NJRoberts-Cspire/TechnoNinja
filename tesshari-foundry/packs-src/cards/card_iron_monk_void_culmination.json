@@ -1,0 +1,38 @@
+{
+  "_id": "a0eee9e06de0314e",
+  "name": "Void Culmination",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 8,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Expose 3",
+      "Stagger"
+    ],
+    "unlockLevel": 18,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Channel everything you have endured into a single expression of the Between. Deal 20 + IRON damage to one target. Pierce 8. For every 10 HP you have lost this scene (not current, total lost), deal +4 additional damage (maximum +20). Apply Expose 3 and Stagger.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_void_culmination"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

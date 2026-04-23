@@ -1,0 +1,35 @@
+{
+  "_id": "c45281a43a0ff69f",
+  "name": "Hollow Throat",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Echo Speaker",
+    "subclass": "Echo Speaker — Sutensai Aligned",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Channel a voice that has no speaker. Make a VEIL attack that ignores armor but cannot score a critical; the target forgets what hit them and cannot identify your position on their next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_sutensai_aligned_hollow_throat"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

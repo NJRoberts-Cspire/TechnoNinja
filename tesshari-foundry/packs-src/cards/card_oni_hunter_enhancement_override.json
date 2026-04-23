@@ -1,0 +1,37 @@
+{
+  "_id": "dbcc20d205ea15a2",
+  "name": "Enhancement Override",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "iron",
+    "keywords": [
+      "Stagger"
+    ],
+    "unlockLevel": 12,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You reach into an adjacent Shell-state's enhancement network and force a brief reboot. Deal 10 + IRON damage. Apply Stagger for 2 turns. During the first turn of the Stagger, the Shell-state achieves a brief Echomind resurgence — a moment of self-awareness. They cannot act but can hear, understand, and speak. GM plays this moment. It may be the most important thing that happens in the encounter.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_enhancement_override"
+    }
+  },
+  "folder": null,
+  "sort": 2012,
+  "ownership": {
+    "default": 0
+  }
+}

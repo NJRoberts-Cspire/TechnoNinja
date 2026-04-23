@@ -1,0 +1,26 @@
+{
+  "_id": "da9ec2a59996f6cc",
+  "name": "Reinforced Limb Module",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Grants stronger unarmed strikes and athletics leverage. Raise unarmed die to 1d6.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_forged_reinforced_limb",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "862a534ba2a0b1c1",
+  "name": "The Dead Remember",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 5,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Access the Iron Afterlife's collective memory of this location. In combat: learn one fact about each enemy — their current HP total, one card they have not yet played, or one status immunity. Out of combat: ask the Afterlife one question about any event that occurred in the past year within 1 mile.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_the_dead_remember"
+    }
+  },
+  "folder": null,
+  "sort": 2005,
+  "ownership": {
+    "default": 0
+  }
+}

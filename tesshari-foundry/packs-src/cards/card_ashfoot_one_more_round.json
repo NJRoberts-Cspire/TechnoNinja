@@ -1,0 +1,38 @@
+{
+  "_id": "e49de4b9dfa1f253",
+  "name": "One More Round",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Overheat 2",
+      "Cleanse"
+    ],
+    "unlockLevel": 9,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You find something past empty. Until the start of your next turn: your movement speed doubles, all your attacks deal + EDGE additional damage, and all current debuffs on you are suppressed (they return after this effect ends). After this card resolves, you gain Overheat 2.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_one_more_round"
+    }
+  },
+  "folder": null,
+  "sort": 3009,
+  "ownership": {
+    "default": 0
+  }
+}

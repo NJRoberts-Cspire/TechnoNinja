@@ -1,0 +1,37 @@
+{
+  "_id": "7058e1390e4e19c7",
+  "name": "Between Sight",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Mark"
+    ],
+    "unlockLevel": 5,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your Afterlife Perception pierces all concealment. For 1 round, you cannot be surprised, cannot be affected by Veil cards, and detect the exact location of every creature within 60 feet regardless of concealment, invisibility, or phasing. Apply Mark to one detected enemy.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_between_sight"
+    }
+  },
+  "folder": null,
+  "sort": 1005,
+  "ownership": {
+    "default": 0
+  }
+}

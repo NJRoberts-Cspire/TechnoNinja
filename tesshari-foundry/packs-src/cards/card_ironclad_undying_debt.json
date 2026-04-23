@@ -1,0 +1,38 @@
+{
+  "_id": "e90c01a52e4e12ae",
+  "name": "Undying Debt",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 16,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 3",
+      "Mark"
+    ],
+    "unlockLevel": 12,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You carry the names of the dead in your resonant metal. Against a designated oath-debt target (story designation with GM), deal 16 + IRON damage and apply Bleed 3. Until the end of this combat, this target cannot hide from you — you always know their position.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_undying_debt"
+    }
+  },
+  "folder": null,
+  "sort": 2012,
+  "ownership": {
+    "default": 0
+  }
+}

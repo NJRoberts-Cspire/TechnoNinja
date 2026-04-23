@@ -1,0 +1,24 @@
+{
+  "_id": "23bf583fce5a97ac",
+  "name": "Ghost Wire Coil",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Wire recovered from a defeated wire-entity. Enhanced conductivity. Wireweave crafting material.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "ghost_wire_coil",
+      "originalCategory": "material"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

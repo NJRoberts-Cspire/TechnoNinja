@@ -1,0 +1,37 @@
+{
+  "_id": "5c1ca0131302b7cf",
+  "name": "Area Pulse",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger"
+    ],
+    "unlockLevel": 4,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Discharge a wide area pulse. All enemies within a 20-foot radius of a point within 60 feet take 10 + SIGNAL damage. Apply Stagger to each target hit.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_area_pulse"
+    }
+  },
+  "folder": null,
+  "sort": 2004,
+  "ownership": {
+    "default": 0
+  }
+}

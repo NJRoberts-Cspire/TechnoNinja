@@ -1,0 +1,35 @@
+{
+  "_id": "ca2edc6a6f5367dd",
+  "name": "Operator Absent",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 0,
+    "apCost": 0,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "The Hollow",
+    "subclass": "The Hollow — The Shell",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Passive: there is no mind at the helm to bend. You are immune to Fear, Charm, Confusion, and any effect that targets intent or will; effects that require you to \"\"choose\"\" resolve as if you had chosen nothing.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_the_shell_operator_absent"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

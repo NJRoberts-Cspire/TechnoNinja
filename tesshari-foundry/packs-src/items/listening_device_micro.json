@@ -1,0 +1,24 @@
+{
+  "_id": "cf31d8a02bd92668",
+  "name": "Micro Listening Device",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Adhesive. Records conversations in adjacent zone for up to 1 hour. Replay requires a receiver.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "listening_device_micro",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

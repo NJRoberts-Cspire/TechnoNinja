@@ -1,0 +1,37 @@
+{
+  "_id": "b0195f725e2059d3",
+  "name": "Deep Immersion",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 12"
+    ],
+    "unlockLevel": 16,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Project your consciousness fully into the Wire network. Your physical body gains Guard 12. Your Wire-presence can move to any connected node within 300 feet and originate card effects from that location. Lasts until you end it as a free action or take damage exceeding your Guard.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_deep_immersion"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

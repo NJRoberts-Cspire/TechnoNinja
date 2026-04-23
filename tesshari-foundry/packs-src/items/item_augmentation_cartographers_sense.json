@@ -1,0 +1,26 @@
+{
+  "_id": "5e67362b49c6b7d7",
+  "name": "Cartographer's Sense",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Distributed proprioceptive system in hands, feet, and skull. Grants perfect position awareness and environmental mapping; prevents becoming lost.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_cartographers_sense",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

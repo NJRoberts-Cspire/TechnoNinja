@@ -1,0 +1,24 @@
+{
+  "_id": "f005bbab3d1793ac",
+  "name": "Command Plate",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Heavy plate bearing Command Zone insignia. Heavy armor. While Command Zone is active, bearer is immune to Taunt and Silence.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_iron_herald_command_plate",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

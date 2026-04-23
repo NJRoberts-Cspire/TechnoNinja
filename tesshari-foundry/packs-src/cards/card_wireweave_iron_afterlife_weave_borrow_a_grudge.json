@@ -1,0 +1,35 @@
+{
+  "_id": "689fe8bcca18fded",
+  "name": "Borrow a Grudge",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Wireweave",
+    "subclass": "Wireweave — Iron Afterlife Weave",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Pull a dead soldier's grudge through the wire; your next strike against a marked foe this turn deals +2d6 resonant damage and ignores resistance.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_iron_afterlife_weave_borrow_a_grudge"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

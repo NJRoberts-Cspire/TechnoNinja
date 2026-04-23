@@ -1,0 +1,24 @@
+{
+  "_id": "673e0127038d7878",
+  "name": "The Forgotten Name",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A resonant fragment containing an identity that was deliberately erased. Bearer temporarily adopts the erased identity, bypassing all recognition checks for one hour.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_artifact_forgotten_name",
+      "originalCategory": "artifact"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

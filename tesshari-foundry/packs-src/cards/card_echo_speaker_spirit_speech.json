@@ -1,0 +1,37 @@
+{
+  "_id": "7871a86dc7c9ad62",
+  "name": "Spirit Speech",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger"
+    ],
+    "unlockLevel": 3,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Speak words that carry spiritual weight and cannot be silenced or suppressed. One statement you make this round cannot be countered by Veil, Signal, or deception effects. In combat: apply Stagger to all enemies within 20 feet who can hear you. The truth of the dead is louder than their defenses.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_spirit_speech"
+    }
+  },
+  "folder": null,
+  "sort": 2003,
+  "ownership": {
+    "default": 0
+  }
+}

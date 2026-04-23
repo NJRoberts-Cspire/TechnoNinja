@@ -1,0 +1,37 @@
+{
+  "_id": "787b249159aff35c",
+  "name": "Absorb",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 4,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Shield"
+    ],
+    "unlockLevel": 1,
+    "className": "Curse Eater",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 4 + RESONANCE damage to one target within 10 meters. Remove one debuff currently on yourself and apply it to the target instead. If this transfer raises your Loaded count to 0, gain Shield equal to your FRAME.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_absorb"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

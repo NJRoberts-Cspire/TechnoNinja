@@ -1,0 +1,35 @@
+{
+  "_id": "fe39d081f211f289",
+  "name": "Mark of Apostasy",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Sutensai",
+    "subclass": "Sutensai — Inquisitor",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Point, name the sin, and the void remembers. Apply the Apostate mark to one enemy for the encounter; your strikes against Apostates deal extra VEIL damage and ignore resonance cover.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_inquisitor_mark_of_apostasy"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

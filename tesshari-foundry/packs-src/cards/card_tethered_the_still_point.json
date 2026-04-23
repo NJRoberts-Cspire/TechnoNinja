@@ -1,0 +1,39 @@
+{
+  "_id": "4c667b34e8ab49ab",
+  "name": "The Still Point",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Cleanse",
+      "Fortify",
+      "Veil"
+    ],
+    "unlockLevel": 1,
+    "className": "",
+    "subclass": "",
+    "isRaceCard": true,
+    "race": "Tethered",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You center yourself completely in your undivided Echomind. Remove all control effects currently applied to you (Stagger, Root, Silence, Vulnerable). For the remainder of this round, the first card an enemy plays that targets you loses all keyword riders — only its base damage or base effect resolves. Additionally, apply Fortify to yourself until the start of your next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_tethered_the_still_point"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "92b1a3a980e6bb6a",
+  "name": "Eye Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 5,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "iron",
+    "keywords": [
+      "Expose 2"
+    ],
+    "unlockLevel": 2,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>A strike aimed at sensory systems — enhancement optics, resonance receivers, whatever their face is doing right now. Deal 5 + IRON damage. Apply Expose 2 — their targeting is disrupted. Until the start of their next turn, all attacks they make against you have their damage reduced by your EDGE.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_eye_strike"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

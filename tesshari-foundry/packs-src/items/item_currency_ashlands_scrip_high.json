@@ -1,0 +1,24 @@
+{
+  "_id": "39c52cf61586ca6a",
+  "name": "Ashlands High Scrip",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>High-value exchange medium used among Ashlands survivors and the Char collective. Worth 50 trade-metal among those who accept it.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_currency_ashlands_scrip_high",
+      "originalCategory": "currency"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

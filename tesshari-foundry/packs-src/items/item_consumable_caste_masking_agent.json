@@ -1,0 +1,24 @@
+{
+  "_id": "9980d1503bb59454",
+  "name": "Caste Masking Agent",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Chemical compound masking enhancement signatures to appear as a different caste tier. Lasts 4 hours; defeats standard caste verification.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_caste_masking_agent",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "7d21da97e4841dba",
+  "name": "Cathedral of Bone",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Blood Smith",
+    "subclass": "Blood Smith — The Armorer",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Erupt a dome of rib and plate over your allies. Pay 18 HP; all allies within 15 feet gain Guard 10 + IRON and immunity to Bleed for 2 rounds; enemies entering the dome take 6 + RESONANCE resonant damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_the_armorer_cathedral_of_bone"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

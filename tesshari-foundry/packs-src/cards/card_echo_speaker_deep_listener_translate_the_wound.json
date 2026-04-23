@@ -1,0 +1,35 @@
+{
+  "_id": "b84e559225f2725d",
+  "name": "Translate the Wound",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Echo Speaker",
+    "subclass": "Echo Speaker — Deep Listener",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Every injury is a sentence the dead can read. Touch a wounded ally; your next attack this turn against the creature that last damaged them has advantage and deals an extra 1d8 damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_deep_listener_translate_the_wound"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

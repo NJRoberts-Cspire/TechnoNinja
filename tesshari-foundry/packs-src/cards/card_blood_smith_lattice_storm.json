@@ -1,0 +1,38 @@
+{
+  "_id": "3f51b2fc1be66461",
+  "name": "Lattice Storm",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 18,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 4",
+      "Expose 3"
+    ],
+    "unlockLevel": 16,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 18 + IRON melee damage to all enemies within 15 feet. Pay 12 HP in addition to 3 AP. Apply Bleed 4 to each. Each target with enhancements also takes Expose 3.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_lattice_storm"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

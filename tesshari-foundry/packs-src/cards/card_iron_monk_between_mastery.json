@@ -1,0 +1,39 @@
+{
+  "_id": "59558b254b8be927",
+  "name": "Between Mastery",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard",
+      "Stagger",
+      "Root"
+    ],
+    "unlockLevel": 13,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The Between is no longer a resource — it is your state. For the rest of the scene: your Resonant Strike and Perfect Strike cards deal +4 damage. Your Guard cards provide +4 additional Guard. Your mobility cards cannot be countered by Root or Stagger.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_between_mastery"
+    }
+  },
+  "folder": null,
+  "sort": 3013,
+  "ownership": {
+    "default": 0
+  }
+}

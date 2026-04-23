@@ -1,0 +1,35 @@
+{
+  "_id": "782d13f8f802692d",
+  "name": "Phantom Signature",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 8,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Create a convincing false Wire presence that moves along the network as you direct. Enemies targeting Wire signatures must succeed on a SIGNAL contest against your SIGNAL or spend their targeting card on the phantom instead. Lasts until end of scene or until three attacks are wasted on it.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_phantom_signature"
+    }
+  },
+  "folder": null,
+  "sort": 2008,
+  "ownership": {
+    "default": 0
+  }
+}

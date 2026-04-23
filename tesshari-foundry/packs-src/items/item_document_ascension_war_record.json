@@ -1,0 +1,24 @@
+{
+  "_id": "b732911ff9705b33",
+  "name": "Ascension War Record",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A military history of the Ascension War period. Provides context for Claimant motivations and historical allegiances.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_ascension_war_record",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

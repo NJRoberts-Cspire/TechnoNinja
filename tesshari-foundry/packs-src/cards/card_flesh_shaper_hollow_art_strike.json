@@ -1,0 +1,38 @@
+{
+  "_id": "4c60f5c9982de230",
+  "name": "Hollow Art Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 4",
+      "Expose 4"
+    ],
+    "unlockLevel": 14,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 20 + IRON melee damage to one adjacent target with organic components. Reduce their effective IRON, FRAME, and EDGE each by 2 until end of their next turn. Apply Bleed 4 and Expose 4.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_hollow_art_strike"
+    }
+  },
+  "folder": null,
+  "sort": 3014,
+  "ownership": {
+    "default": 0
+  }
+}

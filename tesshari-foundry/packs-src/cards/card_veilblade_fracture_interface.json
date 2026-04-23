@@ -1,0 +1,39 @@
+{
+  "_id": "07f257959d309ba9",
+  "name": "Fracture Interface",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 16,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "signal",
+    "keywords": [
+      "Silence",
+      "Stagger",
+      "Overheat 3"
+    ],
+    "unlockLevel": 18,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You reach into an enhanced target's interface hardware and shatter it. Deal 16 + SIGNAL signal damage. Apply Silence, Stagger, and Overheat 3. The target cannot use SIGNAL or RESONANCE based cards for 2 turns — their integration is fractured at the hardware level.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_fracture_interface"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "d282a843a1324a7b",
+  "name": "Organic Shield",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 5",
+      "Bleed",
+      "Burn"
+    ],
+    "unlockLevel": 4,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Guard 5 + SIGNAL to yourself. Your organic tissue thickens. Until your next turn, Bleed and Burn effects deal −SIGNAL damage to you.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_organic_shield"
+    }
+  },
+  "folder": null,
+  "sort": 1004,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "9166f1691f531529",
+  "name": "Between Flicker",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "mobility",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 2"
+    ],
+    "unlockLevel": 5,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Briefly phase between physical and resonant states. Move up to 40 feet without triggering reactions, passing through one solid barrier if needed. On arrival, gain +2 EDGE until end of turn. **Below half HP:** Also apply Expose 2 to the nearest enemy within 10 feet on arrival.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_between_flicker"
+    }
+  },
+  "folder": null,
+  "sort": 2005,
+  "ownership": {
+    "default": 0
+  }
+}

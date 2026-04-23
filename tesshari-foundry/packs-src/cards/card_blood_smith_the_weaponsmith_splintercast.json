@@ -1,0 +1,35 @@
+{
+  "_id": "5ec387c466caeebf",
+  "name": "Splintercast",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Blood Smith",
+    "subclass": "Blood Smith — The Weaponsmith",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Shatter a living weapon mid-swing. Deal 9 + IRON damage split among up to three enemies; pay 5 HP; apply Bleed 2 to each struck.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_the_weaponsmith_splintercast"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

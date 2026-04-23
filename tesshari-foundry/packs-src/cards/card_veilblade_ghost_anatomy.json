@@ -1,0 +1,35 @@
+{
+  "_id": "63ffabab453de28e",
+  "name": "Ghost Anatomy",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 15,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your kinematic modifications have been tuned at a level that makes your movement nearly untraceable. You leave no physical traces of passage. Enhancement-reading scanners require active high-security effort to register you (GM ruling). Your movement never triggers passive detection systems.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_ghost_anatomy"
+    }
+  },
+  "folder": null,
+  "sort": 2015,
+  "ownership": {
+    "default": 0
+  }
+}

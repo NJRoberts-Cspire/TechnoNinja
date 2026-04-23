@@ -1,0 +1,35 @@
+{
+  "_id": "06d413ba1e30995d",
+  "name": "Phase Config",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "mobility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 4,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Briefly phase one target's enhancements into partial incorporeality. Target can move through one solid barrier (wall, door, terrain feature) this turn without impediment. They also gain +3 EDGE until end of turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_phase_config"
+    }
+  },
+  "folder": null,
+  "sort": 2004,
+  "ownership": {
+    "default": 0
+  }
+}

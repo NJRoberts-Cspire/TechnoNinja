@@ -1,0 +1,24 @@
+{
+  "_id": "6bc777ea5ae45dd7",
+  "name": "Blood Blade Ritual Knife",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Blood Smith ritual weapon. Activated with HP cost to gain significant bonus damage for one scene.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "blood_blade_ritual",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

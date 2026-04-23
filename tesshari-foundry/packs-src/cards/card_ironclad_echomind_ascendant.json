@@ -1,0 +1,38 @@
+{
+  "_id": "1a7989b18a9ab0fe",
+  "name": "Echomind Ascendant",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Silence",
+      "Regen 3"
+    ],
+    "unlockLevel": 19,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your Echomind surges through your enhancement network and outward. Deal 20 + RESONANCE resonant damage to all enemies within reach. Apply Silence to all targets hit. Allies within reach gain Regen 3 for 2 turns from the resonant overflow.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_echomind_ascendant"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

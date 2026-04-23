@@ -1,0 +1,24 @@
+{
+  "_id": "2d3cede8e24be39d",
+  "name": "Ashlands Hardened Vest",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Salvage-material vest with contamination-resistant lining. Medium armor; reduces Engine Scar contamination accumulation by one step.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_ashlands_hardened_vest",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

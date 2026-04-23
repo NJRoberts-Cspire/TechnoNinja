@@ -1,0 +1,26 @@
+{
+  "_id": "b0a792b98c33416a",
+  "name": "Vitality Stone",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A stone storing biological resonance energy. Flesh Shaper: activating this stone immediately restores HP Tier to the next level up.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_flesh_shaper_vitality_stone",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

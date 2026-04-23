@@ -1,0 +1,35 @@
+{
+  "_id": "b3066e19ad013f63",
+  "name": "Between Stance",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 0,
+    "apCost": 0,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>When you have not moved this turn, the first attack made against you has its damage reduced by your RESONANCE. You may still play cards normally while standing in place.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_between_stance"
+    }
+  },
+  "folder": null,
+  "sort": 1,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "522a6712547dcb67",
+  "name": "Forge Crash",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "signal",
+    "keywords": [
+      "Overheat 3",
+      "Stagger",
+      "Silence"
+    ],
+    "unlockLevel": 10,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Crash the enhancement network of one target within 30 feet. Deal 20 + SIGNAL damage. Apply Overheat 3 and Stagger. If the target already has Overheat, deal an additional 8 damage and apply Silence.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_forge_crash"
+    }
+  },
+  "folder": null,
+  "sort": 3010,
+  "ownership": {
+    "default": 0
+  }
+}

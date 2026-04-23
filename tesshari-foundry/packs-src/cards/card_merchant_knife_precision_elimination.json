@@ -1,0 +1,38 @@
+{
+  "_id": "7c74b63d8c2b6f83",
+  "name": "Precision Elimination",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "edge",
+    "keywords": [
+      "Bleed",
+      "Expose"
+    ],
+    "unlockLevel": 7,
+    "className": "Merchant Knife",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 12 + EDGE damage. If target has Intelligence 2+, deal 18 + EDGE instead. If target has Intelligence 3, deal 22 + EDGE and apply Bleed 2 and Expose 1.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_precision_elimination"
+    }
+  },
+  "folder": null,
+  "sort": 2007,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,153 @@
+{{!-- Tesshari Monster Sheet --}}
+<section class="tesshari-character-sheet tesshari-monster-sheet">
+
+  <header class="sheet-header">
+    <img class="portrait" src="{{actor.img}}" data-edit="img" title="Edit portrait"/>
+    <div class="header-center">
+      <input type="text" class="name" name="name" value="{{actor.name}}" placeholder="Monster name"/>
+      <div class="meta">
+        <label>Role</label>
+        <select name="system.role">
+          {{#each roles as |r|}}<option value="{{r}}" {{#if (eq r ../system.role)}}selected{{/if}}>{{r}}</option>{{/each}}
+        </select>
+        <span class="sep">·</span>
+        <label>Tier</label>
+        <select name="system.tier">
+          {{#each tiers as |t|}}<option value="{{t}}" {{#if (eq t ../system.tier)}}selected{{/if}}>{{t}}</option>{{/each}}
+        </select>
+        <span class="sep">·</span>
+        <label>Threat</label>
+        <select name="system.threatState">
+          {{#each threats as |x|}}<option value="{{x}}" {{#if (eq x ../system.threatState)}}selected{{/if}}>{{x}}</option>{{/each}}
+        </select>
+      </div>
+    </div>
+    <div class="resources">
+      <div class="resource hp">
+        <label>HP</label>
+        <div class="resource-row">
+          <input type="number" name="system.hp.value" value="{{system.hp.value}}"/>
+          <span>/</span>
+          <input type="number" name="system.hp.max" value="{{system.hp.max}}"/>
+        </div>
+      </div>
+      <div class="resource ap">
+        <label>AP</label>
+        <div class="resource-row">
+          <input type="number" name="system.ap.value" value="{{system.ap.value}}"/>
+          <span>/</span>
+          <input type="number" name="system.ap.max" value="{{system.ap.max}}"/>
+          <button type="button" class="icon-btn" data-action="resetAP" title="Reset AP to max">↻</button>
+        </div>
+      </div>
+      <div class="resource hand">
+        <label>Hand</label>
+        <div class="resource-row">
+          <input type="number" name="system.handSize" value="{{system.handSize}}" min="1" max="12"/>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="action-bar">
+    <button type="button" data-action="basicAttack" title="Once per turn, 0 AP">⚔ Basic Attack</button>
+    <button type="button" data-action="endTurn" title="Advance to next turn">⏭ End Turn</button>
+  </div>
+
+  <div class="sheet-body">
+
+    <section class="col left">
+      <div class="stats-grid">
+        {{#each stats as |stat|}}
+          <div class="stat" data-stat="{{stat.key}}">
+            <label>{{stat.label}}</label>
+            <input type="number" name="{{stat.path}}" value="{{stat.value}}" min="1" max="10"/>
+          </div>
+        {{/each}}
+      </div>
+
+      <div class="form-group stacked">
+        <label>Target Lock (optional)</label>
+        <input type="text" name="system.targetLock" value="{{system.targetLock}}" placeholder="Token id or name"/>
+      </div>
+
+      <div class="form-group stacked">
+        <label>Immunities (comma-separated)</label>
+        <input type="text" name="system.immunitiesJoined" value="{{immunitiesJoined}}"/>
+      </div>
+      <div class="form-group stacked">
+        <label>Resistances (comma-separated)</label>
+        <input type="text" name="system.resistancesJoined" value="{{resistancesJoined}}"/>
+      </div>
+      <div class="form-group stacked">
+        <label>Senses (comma-separated)</label>
+        <input type="text" name="system.sensesJoined" value="{{sensesJoined}}"/>
+      </div>
+
+      <div class="status-tray">
+        <h3>Effects</h3>
+        {{#if statusEffects.length}}
+          <ul class="status-list">
+            {{#each statusEffects as |fx|}}
+              <li class="status-chip type-{{fx.type}}" title="{{fx.summary}}">
+                <img src="{{fx.img}}" alt="{{fx.name}}"/>
+                <span class="fx-name">{{fx.name}}</span>
+                {{#if fx.stacks}}<span class="stacks">{{fx.stacks}}</span>{{/if}}
+                <button type="button" class="icon-btn" data-action="removeEffect" data-effect-id="{{fx.id}}" title="Remove">✕</button>
+              </li>
+            {{/each}}
+          </ul>
+        {{else}}
+          <p class="hint">No active effects.</p>
+        {{/if}}
+      </div>
+    </section>
+
+    <section class="col right">
+      <div class="hand-section">
+        <h3>Cards <span class="count-label">{{cards.length}} / {{system.handSize}}</span></h3>
+        {{#if cards.length}}
+          <div class="card-grid">
+            {{#each cards as |card|}}
+              <div class="card-tile tier-{{card.system.tier}} category-{{card.system.category}}{{#if card.playedThisTurn}} spent{{/if}}"
+                   data-action="playCard" data-item-id="{{card.id}}"
+                   role="button" tabindex="0" title="{{card.name}}">
+                <div class="card-head">
+                  <span class="card-ap">{{card.system.apCost}}</span>
+                  <span class="card-name">{{card.name}}</span>
+                  <span class="icon-btn card-edit" data-action="editItem" data-item-id="{{card.id}}"
+                        role="button" tabindex="0" title="Edit card">✎</span>
+                </div>
+                <div class="card-meta">
+                  <span class="cat">{{card.system.category}}</span>
+                  {{#if card.system.baseDamage}}<span class="dmg">{{card.system.baseDamage}} + {{card.system.primaryStat}}</span>{{/if}}
+                  {{#if card.system.pierce}}<span class="pierce">P{{card.system.pierce}}</span>{{/if}}
+                </div>
+                {{#if card.system.keywords.length}}
+                  <div class="card-keywords">
+                    {{#each card.system.keywords as |kw|}}<span class="kw">{{kw}}</span>{{/each}}
+                  </div>
+                {{/if}}
+              </div>
+            {{/each}}
+          </div>
+        {{else}}
+          <p class="hint">No cards. Drag a card Item onto this sheet.</p>
+        {{/if}}
+      </div>
+
+      <details class="background-section">
+        <summary>Biography &amp; AI Behavior</summary>
+        <div class="form-group stacked">
+          <label>Biography</label>
+          <prose-mirror name="system.biography" value="{{system.biography}}" toggled></prose-mirror>
+        </div>
+        <div class="form-group stacked">
+          <label>AI Behavior</label>
+          <prose-mirror name="system.ai" value="{{system.ai}}" toggled></prose-mirror>
+        </div>
+      </details>
+    </section>
+
+  </div>
+</section>

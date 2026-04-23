@@ -1,0 +1,38 @@
+{
+  "_id": "381dd04f7d726b0c",
+  "name": "Survivor's Clarity",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Cleanse",
+      "Fortify"
+    ],
+    "unlockLevel": 13,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The thing the masterless develop that the code-bound don't: perfect clarity about what's actually happening. Cleanse all debuffs from yourself. Gain Fortify for 2 turns. Until end of turn, you see through all Veil effects — concealment, false signatures, and suppressed enhancements are visible to you.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_survivor_s_clarity"
+    }
+  },
+  "folder": null,
+  "sort": 2013,
+  "ownership": {
+    "default": 0
+  }
+}

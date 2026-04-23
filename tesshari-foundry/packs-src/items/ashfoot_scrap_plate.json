@@ -1,0 +1,24 @@
+{
+  "_id": "b839271e866fdc60",
+  "name": "Ashfoot Scrap Plate",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Medium armor assembled from salvaged enhancement components. Caste-appropriate for Ashfoot wearers.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "ashfoot_scrap_plate",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

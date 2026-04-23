@@ -1,0 +1,37 @@
+{
+  "_id": "233451fc7e9d8c00",
+  "name": "Weapon Forge",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "iron",
+    "keywords": [
+      "Variable"
+    ],
+    "unlockLevel": 13,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You combine two objects into a functional weapon on the spot. The weapon deals 12 + IRON damage on its first use this combat and has one property of your choice (Bleed 1 on hit, Expose 1 on hit, or Guard 2 after each hit). The weapon lasts the encounter.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_weapon_forge"
+    }
+  },
+  "folder": null,
+  "sort": 2013,
+  "ownership": {
+    "default": 0
+  }
+}

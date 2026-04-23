@@ -1,0 +1,37 @@
+{
+  "_id": "644f1394c8b4012d",
+  "name": "Field Denial",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Root"
+    ],
+    "unlockLevel": 10,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Lock down a 60-foot radius area within 120 feet for 2 rounds. Any enemy entering the area from outside takes 14 + SIGNAL damage. Enemies within the area cannot use Mobility cards. You designate the area when you play this card.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_field_denial"
+    }
+  },
+  "folder": null,
+  "sort": 3010,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "5ab91167da2638be",
+  "name": "Corruption Channeled",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 13,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "frame",
+    "keywords": [
+      "Bleed",
+      "Burn",
+      "Expose"
+    ],
+    "unlockLevel": 10,
+    "className": "Curse Eater",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 13 + FRAME damage. On hit, apply one copy of each debuff type currently on you to the target (Bleed, Burn, Expose, etc. — each type once, not each stack). Your Loaded count is unchanged — you kept them and gave them copies.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_corruption_channeled"
+    }
+  },
+  "folder": null,
+  "sort": 2010,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "d7506f40e6c5befa",
+  "name": "Sustained Veil",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Veil"
+    ],
+    "unlockLevel": 7,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Extend your Veil Walking into a sustained projection. For 1 round, you perceive both the physical world and the Iron Afterlife simultaneously. Hidden enemies are revealed. Iron Afterlife entities are visible and targetable by your cards. Gain +2 RESONANCE until end of turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_sustained_veil"
+    }
+  },
+  "folder": null,
+  "sort": 2007,
+  "ownership": {
+    "default": 0
+  }
+}

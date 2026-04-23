@@ -1,0 +1,35 @@
+{
+  "_id": "5f2705135a7971bd",
+  "name": "Between the Shots",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 4,
+    "category": "attack",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 12,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Fire a shot that crosses the resonant layer, hitting both physical and spiritual targets in a 5-foot-wide, 120-foot line. All creatures (physical and incorporeal) in the line take 18 + RESONANCE damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_between_the_shots"
+    }
+  },
+  "folder": null,
+  "sort": 3012,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "6969b22a2ff1b049",
+  "name": "Phase Field",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 8",
+      "Stagger"
+    ],
+    "unlockLevel": 9,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Extend a phase field over a 20-foot radius centered on you. For 1 round, any ally entering the field gains Guard 8. Any enemy entering the field takes 8 + RESONANCE damage and gains Stagger — the between-space rejects them.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_phase_field"
+    }
+  },
+  "folder": null,
+  "sort": 2009,
+  "ownership": {
+    "default": 0
+  }
+}

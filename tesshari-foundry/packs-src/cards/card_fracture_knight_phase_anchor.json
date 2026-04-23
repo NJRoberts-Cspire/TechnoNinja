@@ -1,0 +1,39 @@
+{
+  "_id": "16407d1fb341658d",
+  "name": "Phase Anchor",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Fracture 2",
+      "Root",
+      "Stagger"
+    ],
+    "unlockLevel": 10,
+    "className": "Fracture Knight",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Fracture 2 to one target. Root them until end of their next turn — the dead have weight, and they press down. If this target has Fracture 3+, also apply Stagger.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_phase_anchor"
+    }
+  },
+  "folder": null,
+  "sort": 2010,
+  "ownership": {
+    "default": 0
+  }
+}

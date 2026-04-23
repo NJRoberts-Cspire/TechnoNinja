@@ -1,0 +1,38 @@
+{
+  "_id": "9e4ec86c6a21aa93",
+  "name": "The Clean Account",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 14,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "edge",
+    "keywords": [
+      "Debt",
+      "Intelligence"
+    ],
+    "unlockLevel": 11,
+    "className": "Merchant Knife",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 14 + EDGE damage. If this attack reduces the target to 0 HP, remove all Debt and Intelligence stacks from them and apply one stack of each to the nearest enemy within 20 meters — the account transfers. The transfer requires no additional AP.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_the_clean_account"
+    }
+  },
+  "folder": null,
+  "sort": 2011,
+  "ownership": {
+    "default": 0
+  }
+}

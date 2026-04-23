@@ -1,0 +1,40 @@
+{
+  "_id": "71765ae12faaa404",
+  "name": "The Between Speaks",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger",
+      "Silence",
+      "Guard 8",
+      "Regen 2"
+    ],
+    "unlockLevel": 18,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Channel the Between into a burst that disrupts all enhancements within 20 feet. All enemies in range take 18 + RESONANCE damage and gain Stagger and Silence for 1 round. Allies within 20 feet gain Guard 8 and Regen 2.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_the_between_speaks"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

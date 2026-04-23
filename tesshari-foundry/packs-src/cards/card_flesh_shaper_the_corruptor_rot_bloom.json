@@ -1,0 +1,35 @@
+{
+  "_id": "084944cdadccdc7d",
+  "name": "Rot Bloom",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Flesh Shaper",
+    "subclass": "Flesh Shaper — The Corruptor",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Plant a bloom of necrosis in a 10-foot zone. Creatures entering or starting their turn in it take 3 + SIGNAL damage and gain Bleed 1. Lasts 2 rounds.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_the_corruptor_rot_bloom"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

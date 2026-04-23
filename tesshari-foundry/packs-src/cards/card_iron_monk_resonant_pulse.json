@@ -1,0 +1,37 @@
+{
+  "_id": "d23bdb8b02c963af",
+  "name": "Resonant Pulse",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger"
+    ],
+    "unlockLevel": 3,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Release a pulse of Between energy from your body. All enemies within 15 feet take 10 + RESONANCE damage and are pushed 10 feet away. **Below half HP:** Damage increases to 16 + RESONANCE and all affected enemies gain Stagger.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_resonant_pulse"
+    }
+  },
+  "folder": null,
+  "sort": 2003,
+  "ownership": {
+    "default": 0
+  }
+}

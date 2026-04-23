@@ -1,0 +1,24 @@
+{
+  "_id": "614527994b696184",
+  "name": "Loaded Catalyst",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Concentrated curse material. Adds 2 Loaded Count to Curse Eater immediately. Single use; slight corruption accumulation.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_loaded_catalyst",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

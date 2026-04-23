@@ -1,0 +1,37 @@
+{
+  "_id": "6d4e7496a2153a1f",
+  "name": "Flanking Order",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Vulnerable 3"
+    ],
+    "unlockLevel": 9,
+    "className": "Shadow Daimyo",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Designate up to two allies within 30 feet. Until your next turn, each designated ally's next Attack card deals +VEIL + IRON bonus damage. If both allies attack the same target, that target takes Vulnerable 3.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shadow_daimyo_flanking_order"
+    }
+  },
+  "folder": null,
+  "sort": 2009,
+  "ownership": {
+    "default": 0
+  }
+}

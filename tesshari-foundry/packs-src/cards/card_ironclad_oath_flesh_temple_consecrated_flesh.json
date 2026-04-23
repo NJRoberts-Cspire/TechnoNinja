@@ -1,0 +1,35 @@
+{
+  "_id": "7f22a40e175e01f6",
+  "name": "Consecrated Flesh",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Ironclad Samurai",
+    "subclass": "Ironclad Samurai — Oath Flesh Temple",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Press your palm to a fresh wound and bless it. End one disease, poison, or curse on yourself, and the next source of the same type that strikes you before your next long rest is automatically nullified.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_oath_flesh_temple_consecrated_flesh"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

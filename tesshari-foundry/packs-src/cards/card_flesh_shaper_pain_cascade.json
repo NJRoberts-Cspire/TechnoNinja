@@ -1,0 +1,38 @@
+{
+  "_id": "59f8fc6fba76eec7",
+  "name": "Pain Cascade",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 18,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 5",
+      "Expose 5"
+    ],
+    "unlockLevel": 13,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 18 + IRON melee damage to one adjacent target with organic components. Apply Bleed 5 and Expose 5. Restore 6 HP to yourself from the violent feedback.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_pain_cascade"
+    }
+  },
+  "folder": null,
+  "sort": 3013,
+  "ownership": {
+    "default": 0
+  }
+}

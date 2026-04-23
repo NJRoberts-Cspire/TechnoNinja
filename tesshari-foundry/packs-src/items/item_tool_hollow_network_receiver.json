@@ -1,0 +1,24 @@
+{
+  "_id": "dafece04211243f0",
+  "name": "Hollow Network Receiver",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Passively detects active Author modification emitters within 60 feet. Provides a real-time map of the Hollow Author's passive surveillance infrastructure in range.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_hollow_network_receiver",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

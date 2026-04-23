@@ -1,0 +1,37 @@
+{
+  "_id": "bfeb7d102ad4f12d",
+  "name": "Shell Step: Combat",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Reaction"
+    ],
+    "unlockLevel": 10,
+    "className": "Shell Dancer",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Reaction. Triggered when you are targeted by a Tier 2 or Tier 3 hostile card. Enter Shell Step — the card misses entirely (you were not there). Gain 2 Cascade from the near-miss.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_shell_step_combat"
+    }
+  },
+  "folder": null,
+  "sort": 2010,
+  "ownership": {
+    "default": 0
+  }
+}

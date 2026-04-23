@@ -1,0 +1,35 @@
+{
+  "_id": "25641e4b396e4022",
+  "name": "Iron Ascendancy",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 13,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>A cascading sequence of Between-empowered strikes. Play up to two Attack cards from your hand as part of this card's resolution, each at 0 AP cost. Each card deals +6 additional damage. **Below half HP:** Each card deals +12 additional damage instead.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_iron_ascendancy"
+    }
+  },
+  "folder": null,
+  "sort": 3013,
+  "ownership": {
+    "default": 0
+  }
+}

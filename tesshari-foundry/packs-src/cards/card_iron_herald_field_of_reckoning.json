@@ -1,0 +1,35 @@
+{
+  "_id": "a41675edcd5cf8e3",
+  "name": "Field of Reckoning",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 16,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [],
+    "unlockLevel": 16,
+    "className": "Iron Herald",
+    "subclass": "Echo Speaker — Herald",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Establish a Command Zone. Immediately deal 16 + IRON damage to one enemy within the Zone. All allies within 40 meters may immediately reposition into the Zone (up to their EDGE in meters, no responses triggered). Until end of round, enemies attempting to leave the Zone take 8 + IRON damage as they go — the Herald does not permit disorderly retreat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_field_of_reckoning"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

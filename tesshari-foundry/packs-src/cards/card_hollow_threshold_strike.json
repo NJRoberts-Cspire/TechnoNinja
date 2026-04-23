@@ -1,0 +1,35 @@
+{
+  "_id": "68239ba50aa7849e",
+  "name": "Threshold Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [],
+    "unlockLevel": 4,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 10 + RESONANCE resonant damage to one target within 30 feet. This card deals double its RESONANCE modifier bonus if you are below half HP.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_threshold_strike"
+    }
+  },
+  "folder": null,
+  "sort": 2004,
+  "ownership": {
+    "default": 0
+  }
+}

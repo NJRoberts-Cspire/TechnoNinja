@@ -1,0 +1,24 @@
+{
+  "_id": "adace987a4eaa341",
+  "name": "Fracture Crystal",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Crystal containing compressed fracture-resonance energy. Grants 2 Phantom Charges when broken. Single use.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_fracture_crystal",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

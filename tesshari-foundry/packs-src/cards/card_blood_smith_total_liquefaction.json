@@ -1,0 +1,37 @@
+{
+  "_id": "f8de5e3687df482c",
+  "name": "Total Liquefaction",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Bleed 3"
+    ],
+    "unlockLevel": 13,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Pay 12 HP instead of 3 AP (costs 0 AP). Until your next turn, all your melee Attack cards deal +RESONANCE bonus damage and apply Bleed 3 in addition to their listed keywords. Your enhancement interfaces visibly glow. Enemies within 10 feet take 4 resonant damage at the start of their next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_total_liquefaction"
+    }
+  },
+  "folder": null,
+  "sort": 3013,
+  "ownership": {
+    "default": 0
+  }
+}

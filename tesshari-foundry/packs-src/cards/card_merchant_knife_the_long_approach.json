@@ -1,0 +1,38 @@
+{
+  "_id": "cc8d6d20ce98c757",
+  "name": "The Long Approach",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Intelligence 3",
+      "Lock"
+    ],
+    "unlockLevel": 7,
+    "className": "Merchant Knife",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Intelligence 3 to one target (maximum stack, regardless of current stacks). Until end of combat, that target cannot remove Intelligence status by any means. All Merchant Knife conditional bonuses against this target are permanently unlocked regardless of stack count.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_the_long_approach"
+    }
+  },
+  "folder": null,
+  "sort": 2007,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "143dfb8771dc09ab",
+  "name": "The Weapon Remembers",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Forge Tender",
+    "subclass": "Forge Tender — Echomind Anchor",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Touch a foe's weapon and show it a truer maker; for one round it refuses to harm its wielder's allies and flinches from its own wielder.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_echomind_anchor_the_weapon_remembers"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

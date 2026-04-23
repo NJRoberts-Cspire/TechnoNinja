@@ -1,0 +1,37 @@
+{
+  "_id": "417e5f963b41fa30",
+  "name": "Dissolution Resistance",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [
+      "Silence"
+    ],
+    "unlockLevel": 9,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your long work with dissolution energy has made you specifically resilient. Incoming necrotic damage is reduced by your RESONANCE. Control effects sourced from your Echomind being targeted (Silence, mind-altering effects that work through resonance) are reduced in duration by 1 turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_dissolution_resistance"
+    }
+  },
+  "folder": null,
+  "sort": 1009,
+  "ownership": {
+    "default": 0
+  }
+}

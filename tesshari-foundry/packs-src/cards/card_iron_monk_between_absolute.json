@@ -1,0 +1,37 @@
+{
+  "_id": "64524d968fc2b395",
+  "name": "Between Absolute",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Fortify"
+    ],
+    "unlockLevel": 16,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Enter a state of total Between awareness for 1 round. All incoming damage is reduced by 10 (before Guard). You cannot be targeted by Control cards. Your next Attack card this turn deals +RESONANCE bonus damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_between_absolute"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

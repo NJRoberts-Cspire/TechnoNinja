@@ -1,0 +1,37 @@
+{
+  "_id": "29f5ac0b89289cad",
+  "name": "Resonant Pulse",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Silence"
+    ],
+    "unlockLevel": 3,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your Echomind discharges through your resonant blade — a pulse of spiritual force wrapped in physical steel. Deal 12 + RESONANCE resonant damage. Apply Silence to the target for 1 turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_resonant_pulse"
+    }
+  },
+  "folder": null,
+  "sort": 2003,
+  "ownership": {
+    "default": 0
+  }
+}

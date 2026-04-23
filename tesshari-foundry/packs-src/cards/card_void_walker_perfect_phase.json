@@ -1,0 +1,37 @@
+{
+  "_id": "fd134277ade351f7",
+  "name": "Perfect Phase",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Veil"
+    ],
+    "unlockLevel": 11,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your incorporeal state has become effortless and indefinite. Enter Phase Step at no AP cost as part of playing this card. You remain incorporeal for 2 rounds instead of 1. While incorporeal under Perfect Phase, you can interact with physical objects normally — picking locks, opening doors, retrieving items.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_perfect_phase"
+    }
+  },
+  "folder": null,
+  "sort": 2011,
+  "ownership": {
+    "default": 0
+  }
+}

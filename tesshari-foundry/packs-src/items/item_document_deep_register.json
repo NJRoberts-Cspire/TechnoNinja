@@ -1,0 +1,24 @@
+{
+  "_id": "cba8003d3564acac",
+  "name": "The Deep Register",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Resonant data storage containing 400 final moments of Ashlands dead. Provides access to last-moment knowledge and Iron Afterlife recognition.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_deep_register",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

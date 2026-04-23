@@ -1,0 +1,24 @@
+{
+  "_id": "e942510d0c66c980",
+  "name": "The First Removal (Vaen)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>An extracted cybernetic auditory enhancement. Grants enhanced perception of intentions and clarity against control effects; bearer loses ability to ignore pain.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_relic_first_removal",
+      "originalCategory": "relic"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

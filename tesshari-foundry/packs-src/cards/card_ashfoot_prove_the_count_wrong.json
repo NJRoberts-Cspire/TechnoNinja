@@ -1,0 +1,39 @@
+{
+  "_id": "90b0c1171dd163f6",
+  "name": "Prove the Count Wrong",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "iron",
+    "keywords": [
+      "Expose 4",
+      "Bleed 3",
+      "Regen 4"
+    ],
+    "unlockLevel": 19,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The hierarchy has a number for what you're worth. This is your answer. Deal 22 + IRON damage. Apply Expose 4 and Bleed 3. Gain Regen 4 for 3 turns. If this attack reduces the target below half HP, all allies in the encounter gain Regen 2 for 2 turns — your proving spills outward.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_prove_the_count_wrong"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

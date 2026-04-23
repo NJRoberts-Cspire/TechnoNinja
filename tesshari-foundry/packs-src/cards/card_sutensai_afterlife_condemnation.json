@@ -1,0 +1,38 @@
+{
+  "_id": "acf084a34743f468",
+  "name": "Afterlife Condemnation",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 24,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 5",
+      "Vulnerable 5"
+    ],
+    "unlockLevel": 16,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 24 + RESONANCE resonant damage to one target. Apply Vulnerable 5 and Expose 5. The target cannot receive healing from any source until the start of your next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_afterlife_condemnation"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

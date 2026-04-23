@@ -1,0 +1,24 @@
+{
+  "_id": "57a33fe9ca21267c",
+  "name": "Long-Wire Communicator",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Paired communication device functioning at unlimited range within Tesshari. Provides encrypted point-to-point transmission.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_long_wire_communicator",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

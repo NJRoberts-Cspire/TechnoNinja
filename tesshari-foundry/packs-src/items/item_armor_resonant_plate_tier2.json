@@ -1,0 +1,24 @@
+{
+  "_id": "4b3c9c05961ca7ce",
+  "name": "Resonant Plate (Reinforced)",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Reinforced resonant plate with additional resonant layering. Provides +2 Guard passively. Professional military grade.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_resonant_plate_tier2",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

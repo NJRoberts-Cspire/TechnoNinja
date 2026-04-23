@@ -1,0 +1,38 @@
+{
+  "_id": "35cd6d3f0c5527af",
+  "name": "Steel Resolve",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Cleanse",
+      "Fortify"
+    ],
+    "unlockLevel": 7,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your will and your metal have become one thing. Cleanse all Fear or Charm effects currently on you. Until the start of your next turn, you are immune to control cards (Root, Silence, Stagger, Taunt used against you).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_steel_resolve"
+    }
+  },
+  "folder": null,
+  "sort": 1007,
+  "ownership": {
+    "default": 0
+  }
+}

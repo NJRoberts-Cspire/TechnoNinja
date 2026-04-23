@@ -1,0 +1,35 @@
+{
+  "_id": "59425f227918ce8a",
+  "name": "The Silence That Answers",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 0,
+    "apCost": 0,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Echo Speaker",
+    "subclass": "Echo Speaker — Sutensai Aligned",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Ask the void a question and accept its reply. Discard one card; name any enemy in the encounter — you learn one true fact the GM was hiding about them (affiliation, weakness, or hidden card).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_sutensai_aligned_the_silence_that_answers"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

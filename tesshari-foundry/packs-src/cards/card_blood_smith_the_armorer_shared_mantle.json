@@ -1,0 +1,35 @@
+{
+  "_id": "de0a39b7d9279aa5",
+  "name": "Shared Mantle",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Blood Smith",
+    "subclass": "Blood Smith — The Armorer",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Peel off a sheet of your own plating for an ally. Pay 5 HP; target ally gains Guard 5 + IRON and the next melee attacker against them takes 4 resonant damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_the_armorer_shared_mantle"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

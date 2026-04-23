@@ -1,0 +1,38 @@
+{
+  "_id": "cfcc42cb118912ba",
+  "name": "Deliberate Bleed",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 4",
+      "Regen 2"
+    ],
+    "unlockLevel": 2,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Pay 6 HP instead of 1 AP. Apply Guard 4 + IRON to yourself and gain Regen 2 until your next turn. This card costs 0 AP — the HP is the cost.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_deliberate_bleed"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

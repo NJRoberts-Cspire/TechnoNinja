@@ -1,0 +1,24 @@
+{
+  "_id": "45e6eddd33eda768",
+  "name": "The Returned Mask",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Resonant mask existing partially in Iron Afterlife. Bearer sees and communicates with Afterlife entities; bleed effects from prolonged use.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_returned_mask",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

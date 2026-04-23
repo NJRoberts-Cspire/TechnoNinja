@@ -1,0 +1,38 @@
+{
+  "_id": "6d6c6e6688b08a24",
+  "name": "No Body Left",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 3",
+      "Expose 3"
+    ],
+    "unlockLevel": 17,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>A hunter who has accepted what they are. Deal 22 + IRON damage. Apply Bleed 3 and Expose 3. This attack's damage cannot be reduced by resistances or immunities from Shell-states or Iron Afterlife entities — you have tuned specifically for what they are. Gain Regen 2 for 3 turns.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_no_body_left"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

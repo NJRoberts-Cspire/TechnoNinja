@@ -1,0 +1,24 @@
+{
+  "_id": "9f676c32c184340a",
+  "name": "Guard Resin",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Quick-hardening resonant compound applied to armor or skin. Applies Guard 4 lasting until end of next turn.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_guard_resin",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

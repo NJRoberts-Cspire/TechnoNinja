@@ -1,0 +1,35 @@
+{
+  "_id": "73d57c739965f1a1",
+  "name": "Schematic Snare",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Puppet Binder",
+    "subclass": "Puppet Binder — The Architect",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Lay an invisible lattice of threads across a 20-foot square you can see. The first enemy to enter or cross it becomes bound, takes a SIGNAL check penalty to move, and reveals its position to your whole network for one minute.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_the_architect_schematic_snare"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

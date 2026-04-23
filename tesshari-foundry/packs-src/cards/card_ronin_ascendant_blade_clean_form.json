@@ -1,0 +1,35 @@
+{
+  "_id": "21a5a91b2be15dca",
+  "name": "Clean Form",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 0,
+    "apCost": 0,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Ronin",
+    "subclass": "Ronin — Ascendant Blade",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Breathe. Reset. Discard 1 card; draw 1. If the discarded card was a combat_card, your next attack this turn gains advantage and deals +1d4 damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_ascendant_blade_clean_form"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

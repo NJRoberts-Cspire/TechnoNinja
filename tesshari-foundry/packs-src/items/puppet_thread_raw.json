@@ -1,0 +1,24 @@
+{
+  "_id": "46ab3cbf3961275c",
+  "name": "Raw Puppet Thread",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Unprocessed control-capable thread. Puppet Binder primary crafting material.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "puppet_thread_raw",
+      "originalCategory": "material"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

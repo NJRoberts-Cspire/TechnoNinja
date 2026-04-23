@@ -1,0 +1,35 @@
+{
+  "_id": "41c9adc0ada01325",
+  "name": "Wholesale Tenancy",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Puppet Binder",
+    "subclass": "Puppet Binder — The Possessor",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You vacate your body and move into a bound creature entire. For one minute, you control it as yourself; your own body falls senseless but breathing. If the host dies, you return with one level of exhaustion and its final memory.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_the_possessor_wholesale_tenancy"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

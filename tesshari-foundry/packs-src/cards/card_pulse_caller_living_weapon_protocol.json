@@ -1,0 +1,35 @@
+{
+  "_id": "2991223f48dd230e",
+  "name": "Living Weapon Protocol",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 15,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your integration has reached full synthesis. For the rest of the scene, all your Attack cards deal +RESONANCE bonus damage (add your RESONANCE to every Attack card's damage in addition to SIGNAL). Your Basic Attack deals +8 damage. Once per scene.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_living_weapon_protocol"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

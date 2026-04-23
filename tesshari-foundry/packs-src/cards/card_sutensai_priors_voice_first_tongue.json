@@ -1,0 +1,35 @@
+{
+  "_id": "48a3ca30283943fe",
+  "name": "The First Tongue",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Sutensai",
+    "subclass": "Sutensai — Priors Voice",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Speak in the voice that named the void. One enemy must pass a RESONANCE save or stand transfixed until the start of your next turn; allies who hear you gain courage and shed one fear condition.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_priors_voice_first_tongue"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

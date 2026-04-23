@@ -1,0 +1,43 @@
+{
+  "_id": "46e347e830730423",
+  "name": "The Body Complete",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 28,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Shield 14",
+      "Regen 6",
+      "Bleed 6",
+      "Expose 6",
+      "Vulnerable 6",
+      "Stagger",
+      "Root"
+    ],
+    "unlockLevel": 20,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>*Absolute mastery of organic systems.* Choose one: (A) **Restore** — restore full HP to one ally within 10 feet, remove all conditions and debuffs, apply Regen 6 and Shield 14. (B) **Unmake** — deal 28 + IRON melee damage to one adjacent target with organic components, apply Expose 6, Vulnerable 6, Bleed 6, Stagger, Root, and reduce their effective IRON and FRAME by 4 each until end of their next turn. Restore 14 HP to yourself regardless of which option is chosen.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_the_body_complete"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

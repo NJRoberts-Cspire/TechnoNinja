@@ -1,0 +1,35 @@
+{
+  "_id": "1bb842e9087b577e",
+  "name": "Overcharge",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 16,
+    "pierce": 4,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [],
+    "unlockLevel": 4,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Charge your discharge system to maximum and release. Deal 16 + SIGNAL damage to one target within 80 feet. Your system requires a cooldown — you cannot play another Attack card until the start of your next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_overcharge"
+    }
+  },
+  "folder": null,
+  "sort": 2004,
+  "ownership": {
+    "default": 0
+  }
+}

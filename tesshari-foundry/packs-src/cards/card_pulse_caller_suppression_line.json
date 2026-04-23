@@ -1,0 +1,37 @@
+{
+  "_id": "566f96bfb3915c90",
+  "name": "Suppression Line",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Root"
+    ],
+    "unlockLevel": 1,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Lay suppressive fire along a 15-foot-wide line extending 60 feet from you. Any enemy crossing the line this round takes 5 + SIGNAL damage and gains Root until the start of their next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_suppression_line"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

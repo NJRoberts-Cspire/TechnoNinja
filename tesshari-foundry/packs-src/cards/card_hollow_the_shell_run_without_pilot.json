@@ -1,0 +1,35 @@
+{
+  "_id": "7166fda999a210eb",
+  "name": "Run Without Pilot",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "The Hollow",
+    "subclass": "The Hollow — The Shell",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Hand the controls to the body and watch. The Shell takes two full autonomous actions on your next turn at no AP cost, chosen by you now; while running, you cannot be mind-read, interrogated, or compelled.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_the_shell_run_without_pilot"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

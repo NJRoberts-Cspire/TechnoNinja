@@ -1,0 +1,37 @@
+{
+  "_id": "703b4e25d9cfbb80",
+  "name": "Controlled Retreat",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "mobility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 3"
+    ],
+    "unlockLevel": 2,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Disengage cleanly and reposition. Move up to your full speed without triggering reactions. Gain Guard 3 during this movement. This is not running — it is the Ronin's specific skill of leaving at exactly the right moment.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_controlled_retreat"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "67b994a68cb87537",
+  "name": "Mass Reconstruction",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Regen 3",
+      "Bleed"
+    ],
+    "unlockLevel": 16,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Restore 14 + SIGNAL HP to yourself and up to two allies within 10 feet. Remove all debuffs and Bleed stacks from each. Apply Regen 3 to each target.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_mass_reconstruction"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "99272eb9d6e11a32",
+  "name": "Resonant Ration Bar",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Compressed resonant-treated nutrition block for field operations. Provides sustenance and grants +1 HP at start of next encounter.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_resonant_ration_bar",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

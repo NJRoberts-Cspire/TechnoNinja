@@ -1,0 +1,24 @@
+{
+  "_id": "830b5988a27c6bf8",
+  "name": "Resonant Scrip",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Unofficial high-value exchange medium used in black-market enhancement transactions. Untraceable.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_currency_resonant_scrip",
+      "originalCategory": "currency"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

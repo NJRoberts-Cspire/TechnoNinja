@@ -1,0 +1,39 @@
+{
+  "_id": "f04ca700a72d1dfb",
+  "name": "Compulsion Mastery",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger",
+      "Root",
+      "Silence"
+    ],
+    "unlockLevel": 13,
+    "className": "Voice of Debt",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Silence, Root, and Stagger to one target within 40 feet simultaneously. Apply Debt 3. This card costs 1 AP instead of 2 AP if the target already carries 3 or more Debt stacks.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_compulsion_mastery"
+    }
+  },
+  "folder": null,
+  "sort": 2013,
+  "ownership": {
+    "default": 0
+  }
+}

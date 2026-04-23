@@ -1,0 +1,37 @@
+{
+  "_id": "55827c26e9ce0dc3",
+  "name": "Phase Lurch",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "mobility",
+    "primaryStat": "",
+    "keywords": [
+      "Fracture 1"
+    ],
+    "unlockLevel": 1,
+    "className": "Fracture Knight",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Move up to 20 meters, passing through walls and solid matter. Arrive at any open space within range. On arrival, apply Fracture 1 to the nearest enemy within 5 meters. Gain 1 Phantom Charge.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_phase_lurch"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

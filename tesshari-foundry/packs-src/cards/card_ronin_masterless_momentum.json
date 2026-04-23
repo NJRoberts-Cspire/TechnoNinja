@@ -1,0 +1,35 @@
+{
+  "_id": "ffeda1079fa99e84",
+  "name": "Masterless Momentum",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [],
+    "unlockLevel": 5,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your combat style builds on itself — each hit opens the next angle. Deal 10 + IRON damage, then deal 8 + IRON damage to the same target as a follow-through. After the second hit, move up to half your speed as a free repositioning — toward or away from the target.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_masterless_momentum"
+    }
+  },
+  "folder": null,
+  "sort": 2005,
+  "ownership": {
+    "default": 0
+  }
+}

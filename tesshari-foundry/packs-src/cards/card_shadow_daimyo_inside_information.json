@@ -1,0 +1,38 @@
+{
+  "_id": "617739d00bec2438",
+  "name": "Inside Information",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard",
+      "Shield"
+    ],
+    "unlockLevel": 7,
+    "className": "Shadow Daimyo",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one enemy within 40 feet. Remove all Guard and Shield from them (you know exactly where the gap is). The next ally to act against them this round deals +IRON + VEIL bonus damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shadow_daimyo_inside_information"
+    }
+  },
+  "folder": null,
+  "sort": 1007,
+  "ownership": {
+    "default": 0
+  }
+}

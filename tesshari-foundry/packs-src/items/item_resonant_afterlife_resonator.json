@@ -1,0 +1,26 @@
+{
+  "_id": "36c13951a7f04ef2",
+  "name": "Afterlife Resonator",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Resonant instrument amplifying Echo Speaker grief-stack accumulation rate. Doubles grief gained from ally deaths within range.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_afterlife_resonator",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

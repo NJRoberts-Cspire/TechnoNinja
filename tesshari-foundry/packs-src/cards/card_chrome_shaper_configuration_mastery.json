@@ -1,0 +1,37 @@
+{
+  "_id": "e9d87708a7fbad3f",
+  "name": "Configuration Mastery",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Regen 2"
+    ],
+    "unlockLevel": 11,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your reconfigurations have reached surgical depth. All Config cards you play (Speed Config, Armor Config, Strength Config, Sense Config, Phase Config, Resonant Config, Recovery Config) grant an additional secondary effect: the target also gains Regen 2 for 1 round after the Config resolves.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_configuration_mastery"
+    }
+  },
+  "folder": null,
+  "sort": 2011,
+  "ownership": {
+    "default": 0
+  }
+}

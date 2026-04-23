@@ -1,0 +1,39 @@
+{
+  "_id": "2aca95a1fadc12f4",
+  "name": "Final Tendance",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Cleanse",
+      "Guard 8",
+      "Regen 4"
+    ],
+    "unlockLevel": 19,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>A 10-minute forge work (or a combat-compressed version as a full-turn action) that permanently grants one willing ally any one benefit from the Master Forge Work list, for free. In combat, the compressed version instead grants: one ally immediately recovers to full HP, all their debuffs are Cleansed, and they gain Guard 8 and Regen 4 for 3 turns.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_final_tendance"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

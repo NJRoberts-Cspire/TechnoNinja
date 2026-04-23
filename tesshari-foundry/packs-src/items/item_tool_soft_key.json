@@ -1,0 +1,24 @@
+{
+  "_id": "c8c9b06478d8ff1a",
+  "name": "The Soft Key",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Resonant card forging Wire Market access credentials. Mirrors last valid access signal; bypasses security systems for one entry.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_soft_key",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

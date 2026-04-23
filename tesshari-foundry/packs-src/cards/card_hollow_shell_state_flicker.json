@@ -1,0 +1,37 @@
+{
+  "_id": "79f35ad45eeb4c46",
+  "name": "Shell-State Flicker",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 8"
+    ],
+    "unlockLevel": 11,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You briefly enter a partial Shell-state. Until your next turn, all attacks against you lose their riders (no keywords, no status effects — damage only). Apply Guard 8 + FRAME to yourself. Restore 6 HP.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_shell_state_flicker"
+    }
+  },
+  "folder": null,
+  "sort": 2011,
+  "ownership": {
+    "default": 0
+  }
+}

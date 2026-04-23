@@ -1,0 +1,35 @@
+{
+  "_id": "792b0ac6174817a9",
+  "name": "Rivet Toss",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Shell Dancer",
+    "subclass": "Shell Dancer — The Scavenger",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Hurl a fistful of scavenged rivets in a 15-foot cone. Each enemy takes 1d4 + EDGE piercing (DEX save half) and takes -1 AC until the start of your next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_the_scavenger_rivet_toss"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

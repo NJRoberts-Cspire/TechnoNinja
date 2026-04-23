@@ -1,0 +1,41 @@
+{
+  "_id": "48c60187dff00090",
+  "name": "The Author's Mirror",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 5",
+      "Vulnerable 5",
+      "Stagger",
+      "Root",
+      "Silence"
+    ],
+    "unlockLevel": 19,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one non-Bound creature within 30 feet. Deal 22 + VEIL social damage. Apply Vulnerable 5, Expose 5, Stagger, Root, and Silence. That creature cannot take offensive actions this round. You are aware of everything they were about to do.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_the_author_s_mirror"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

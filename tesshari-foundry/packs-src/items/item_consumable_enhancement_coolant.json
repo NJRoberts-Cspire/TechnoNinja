@@ -1,0 +1,24 @@
+{
+  "_id": "7bc1fbb4a98fb785",
+  "name": "Enhancement Coolant",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Thermal management compound reducing Overheat accumulation. Removes all current Overheat stacks immediately. Single use.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_enhancement_coolant",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

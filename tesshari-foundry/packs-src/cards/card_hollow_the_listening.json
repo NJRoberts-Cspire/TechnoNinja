@@ -1,0 +1,35 @@
+{
+  "_id": "1433a3b5d51b3744",
+  "name": "The Listening",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 6,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>While in hand, passive. You always know when enemies within 30 feet are lying or concealing information. Once per combat, when an enemy uses a Utility or Control card within range, cancel its non-damage riders.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_the_listening"
+    }
+  },
+  "folder": null,
+  "sort": 1006,
+  "ownership": {
+    "default": 0
+  }
+}

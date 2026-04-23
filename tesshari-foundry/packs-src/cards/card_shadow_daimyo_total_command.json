@@ -1,0 +1,38 @@
+{
+  "_id": "6c71f87a2809ce4e",
+  "name": "Total Command",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 16,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 5",
+      "Stagger"
+    ],
+    "unlockLevel": 15,
+    "className": "Shadow Daimyo",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 16 + VEIL social damage to one target within 40 feet. Apply Expose 5 and Stagger. Every ally within 40 feet deals +VEIL + IRON bonus damage on every card they play until your next turn. You have coordinated everything that is about to happen.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shadow_daimyo_total_command"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

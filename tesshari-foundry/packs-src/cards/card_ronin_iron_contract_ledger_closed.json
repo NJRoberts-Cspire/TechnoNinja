@@ -1,0 +1,35 @@
+{
+  "_id": "0b0fa564a91a8201",
+  "name": "Ledger Closed",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Ronin",
+    "subclass": "Ronin — Iron Contract",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The contract ends the way contracts always end — with someone collecting. Make an IRON-weighted attack against your Mark with advantage; if it kills them, every debt-token in play detonates, damaging their bearers.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_iron_contract_ledger_closed"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "78301d5bf728a93a",
+  "name": "Empty Hand",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 10,
+    "pierce": 10,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 2",
+      "Stagger"
+    ],
+    "unlockLevel": 9,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>A strike that carries no force — only the Between. Deal 10 + RESONANCE damage. This card ignores Guard and Shield entirely. Apply Expose 2. **Below half HP:** Also apply Stagger.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_empty_hand"
+    }
+  },
+  "folder": null,
+  "sort": 2009,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "1d148d2dfb0f9a41",
+  "name": "Extraction Hold",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Voice of Debt",
+    "subclass": "Voice of Debt — Debt Collector",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Grab your Debtor by what they cannot afford to lose. They are Held: they cannot move, teleport, or phase-shift until they clear all Debt or take 10 damage. While Held, their allies cannot target you with spells.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_debt_collector_extraction_hold"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

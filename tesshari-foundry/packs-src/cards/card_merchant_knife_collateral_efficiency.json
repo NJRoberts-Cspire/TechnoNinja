@@ -1,0 +1,37 @@
+{
+  "_id": "d4cdb435d0bfa68f",
+  "name": "Collateral Efficiency",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 5,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "edge",
+    "keywords": [
+      "Splash"
+    ],
+    "unlockLevel": 5,
+    "className": "Merchant Knife",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 5 + EDGE damage to one target. If that target is adjacent to another enemy, deal 3 + EDGE damage to the adjacent enemy as well (no additional AP cost). Neither instance requires Intelligence.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_collateral_efficiency"
+    }
+  },
+  "folder": null,
+  "sort": 1005,
+  "ownership": {
+    "default": 0
+  }
+}

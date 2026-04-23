@@ -1,0 +1,35 @@
+{
+  "_id": "f62b636e1f4274c9",
+  "name": "Void Slip",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "mobility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 8,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Triggered when a card targets you or when you are in melee range of an attacker. Slip briefly into the between-space — move up to 20 feet without triggering reactions and reappear in an unoccupied space. The triggering attack misses if it relied on your original position.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_void_slip"
+    }
+  },
+  "folder": null,
+  "sort": 1008,
+  "ownership": {
+    "default": 0
+  }
+}

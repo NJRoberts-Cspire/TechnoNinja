@@ -1,0 +1,38 @@
+{
+  "_id": "bff7c650e2ded8a7",
+  "name": "Lattice Pulse",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 6,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 2",
+      "Overheat 1"
+    ],
+    "unlockLevel": 4,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 6 + RESONANCE resonant damage to one adjacent target with enhancements. Their enhancement lattice stutters — apply Overheat 1 and Expose 2.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_lattice_pulse"
+    }
+  },
+  "folder": null,
+  "sort": 1004,
+  "ownership": {
+    "default": 0
+  }
+}

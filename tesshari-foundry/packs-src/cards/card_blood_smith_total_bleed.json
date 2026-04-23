@@ -1,0 +1,38 @@
+{
+  "_id": "c7520ffabf53dd1a",
+  "name": "Total Bleed",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 14,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 4",
+      "Expose 3"
+    ],
+    "unlockLevel": 9,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 14 + IRON melee damage to one adjacent target. Pay 8 HP. Apply Bleed 4 and Expose 3. If the target is already Bleeding, deal +RESONANCE bonus damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_total_bleed"
+    }
+  },
+  "folder": null,
+  "sort": 2009,
+  "ownership": {
+    "default": 0
+  }
+}

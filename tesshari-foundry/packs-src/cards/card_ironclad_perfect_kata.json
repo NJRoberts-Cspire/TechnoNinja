@@ -1,0 +1,35 @@
+{
+  "_id": "2c9e73d3f66574fb",
+  "name": "Perfect Kata",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 20,
+    "category": "signature",
+    "primaryStat": "iron+resonance",
+    "keywords": [],
+    "unlockLevel": 9,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>A single, absolute expression of the code — body, blade, and Echomind fully unified. Deal 22 + IRON + RESONANCE damage to one target. This attack cannot be reacted to, cannot be mitigated by Shield, and cannot miss. Once per combat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_perfect_kata"
+    }
+  },
+  "folder": null,
+  "sort": 3009,
+  "ownership": {
+    "default": 0
+  }
+}

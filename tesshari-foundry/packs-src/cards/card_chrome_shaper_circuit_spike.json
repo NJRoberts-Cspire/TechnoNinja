@@ -1,0 +1,35 @@
+{
+  "_id": "c8742be9b52a8435",
+  "name": "Circuit Spike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 7,
+    "pierce": 4,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Drive a resonant spike into an enhanced target within melee range. Deal 7 + IRON damage. If the target has active Guard, Pierce 4 applies to this strike.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_circuit_spike"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

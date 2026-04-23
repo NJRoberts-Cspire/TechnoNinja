@@ -1,0 +1,37 @@
+{
+  "_id": "f1c47201088a5a1b",
+  "name": "Between Witness",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 3"
+    ],
+    "unlockLevel": 18,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Project your full awareness into the Iron Afterlife while remaining physically present. For 1 round, you perceive both worlds simultaneously. You learn the true motivations, last words, and death circumstances of any creature who has died in the area within the past year. In combat: apply Expose 3 to all enemies as the dead reveal their weaknesses to you.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_between_witness"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

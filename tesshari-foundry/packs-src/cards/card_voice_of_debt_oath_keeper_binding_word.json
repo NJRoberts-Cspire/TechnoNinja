@@ -1,0 +1,35 @@
+{
+  "_id": "ad01ec9c2753e5fd",
+  "name": "Binding Word",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Voice of Debt",
+    "subclass": "Voice of Debt — Oath Keeper",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Speak the code aloud. One target within 30 feet is Bound: while Bound, if they attack anyone other than you, they immediately gain Debt 2 and you may make a free reaction strike. Bound ends when you apply Debt via any other card.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_oath_keeper_binding_word"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

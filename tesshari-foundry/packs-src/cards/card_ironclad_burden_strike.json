@@ -1,0 +1,35 @@
+{
+  "_id": "64bb152be94ee9b9",
+  "name": "Burden Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 6,
+    "pierce": 0,
+    "category": "reaction",
+    "primaryStat": "iron",
+    "keywords": [],
+    "unlockLevel": 2,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": true,
+    "usesPerCombat": null,
+    "description": "<p>*Triggered when an enemy attacks an ally within your reach.* You interpose between attacker and ally. Redirect the attack to yourself. Deal 6 + IRON damage to the attacker as a counterstrike.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_burden_strike"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

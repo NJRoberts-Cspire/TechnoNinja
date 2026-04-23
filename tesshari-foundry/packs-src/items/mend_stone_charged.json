@@ -1,0 +1,24 @@
+{
+  "_id": "885d22f11d1f9886",
+  "name": "Charged Mend Stone",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Pre-charged mend focus. Forge Tender: grants one additional mend use without requiring a rest.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "mend_stone_charged",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

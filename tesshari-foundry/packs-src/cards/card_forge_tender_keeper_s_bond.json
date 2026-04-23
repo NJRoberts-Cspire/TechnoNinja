@@ -1,0 +1,35 @@
+{
+  "_id": "2be8e50739b2972e",
+  "name": "Keeper's Bond",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 5,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>For each ally you have used Forge Mending on this combat, you maintain a resonant record. You always know their approximate HP status (full/bloodied/critical). When another character uses a healing card on a bonded ally, add your RESONANCE to the amount healed — your record improves every healer's work on people you know.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_keeper_s_bond"
+    }
+  },
+  "folder": null,
+  "sort": 1005,
+  "ownership": {
+    "default": 0
+  }
+}

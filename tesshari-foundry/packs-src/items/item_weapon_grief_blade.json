@@ -1,0 +1,24 @@
+{
+  "_id": "3de8c20f9b5aa34e",
+  "name": "Grief Blade",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A blade forged from condensed grief-resonance. Deals bonus damage equal to Echo Speaker grief stacks when relevant.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_grief_blade",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

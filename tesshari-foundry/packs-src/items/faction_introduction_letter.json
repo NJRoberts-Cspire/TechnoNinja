@@ -1,0 +1,24 @@
+{
+  "_id": "ce14d07ffbff9243",
+  "name": "Faction Introduction Letter",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A formal letter of introduction from a known faction representative. Opens faction-aligned doors.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "faction_introduction_letter",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

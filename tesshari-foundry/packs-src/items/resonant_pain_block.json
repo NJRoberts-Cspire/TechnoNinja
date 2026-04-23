@@ -1,0 +1,24 @@
+{
+  "_id": "9f50cb5f4de60ba8",
+  "name": "Resonant Pain Block",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Numbs resonance pain. Negates the HP cost for one HP-cost Sutensai card activation.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "resonant_pain_block",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

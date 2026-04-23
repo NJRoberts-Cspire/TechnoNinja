@@ -1,0 +1,35 @@
+{
+  "_id": "6ae29c6590c04276",
+  "name": "System Synchrony",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 14,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your weapon integration becomes hardened against disruption. Your integrated discharge cannot be Silenced, Staggered, or suppressed by any card this scene. Your Pulse Shot Basic Attack deals +4 damage for the rest of the scene. Once per scene.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_system_synchrony"
+    }
+  },
+  "folder": null,
+  "sort": 2014,
+  "ownership": {
+    "default": 0
+  }
+}

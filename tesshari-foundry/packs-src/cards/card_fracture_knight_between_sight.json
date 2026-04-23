@@ -1,0 +1,37 @@
+{
+  "_id": "9871e8bc18a277ab",
+  "name": "Between Sight",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Passive"
+    ],
+    "unlockLevel": 5,
+    "className": "Fracture Knight",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Passive. While this card is in your hand: you see through all concealment, darkness, and invisibility. Additionally, when you identify a puppet-controlled creature (via Fractured Presence or other means), your first Attack card against them this combat deals +RESONANCE bonus damage — you see where the thread runs and you cut toward it.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_between_sight"
+    }
+  },
+  "folder": null,
+  "sort": 1005,
+  "ownership": {
+    "default": 0
+  }
+}

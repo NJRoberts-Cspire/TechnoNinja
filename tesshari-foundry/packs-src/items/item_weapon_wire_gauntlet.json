@@ -1,0 +1,24 @@
+{
+  "_id": "3b3b6a22e1a5111f",
+  "name": "Wire Gauntlet",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Wired fist weapon for unarmed combat enhancement. Applies Bleed 1 on each hit.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_wire_gauntlet",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

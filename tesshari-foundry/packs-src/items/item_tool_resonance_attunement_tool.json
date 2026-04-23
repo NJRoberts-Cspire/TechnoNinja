@@ -1,0 +1,24 @@
+{
+  "_id": "de5daf68bea3008a",
+  "name": "Resonance Attunement Tool",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Wood and iron instrument detecting resonant particulate in water and assessing impressions encoded within it. Veilward Reach specialist tool.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_resonance_attunement_tool",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

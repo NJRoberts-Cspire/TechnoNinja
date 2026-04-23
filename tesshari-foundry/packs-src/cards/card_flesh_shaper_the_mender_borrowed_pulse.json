@@ -1,0 +1,35 @@
+{
+  "_id": "964d8ae5a2ee24c0",
+  "name": "Borrowed Pulse",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Flesh Shaper",
+    "subclass": "Flesh Shaper — The Mender",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Press your hand to an ally's sternum and give them one of your heartbeats. They gain Regen 4 and cannot drop below 1 HP until your next turn; you cannot regain HP this round.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_the_mender_borrowed_pulse"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

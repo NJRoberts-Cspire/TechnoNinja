@@ -1,0 +1,35 @@
+{
+  "_id": "28ca8fa4f2316373",
+  "name": "Single Axis",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "The Unnamed",
+    "subclass": "The Unnamed — Convergent",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Pick one enemy and let every other thought fall away. Until the start of your next turn, you have advantage on attacks and checks made against that creature, and disadvantage on everything else. The first hit against them adds your RESONANCE modifier as bonus damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_unnamed_convergent_single_axis"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

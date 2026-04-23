@@ -1,0 +1,24 @@
+{
+  "_id": "b925eec803e992c1",
+  "name": "The Hollow Author's Manuscript",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Pages of the Author's original puppet-binding research. Provides complete understanding of Author network architecture in one territory.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_relic_hollow_author_manuscript",
+      "originalCategory": "relic"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "5a173b61848b891e",
+  "name": "Due Diligence",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Intelligence 2",
+      "Restricted"
+    ],
+    "unlockLevel": 6,
+    "className": "Merchant Knife",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Intelligence 2 to one target within 60 feet. This card cannot be played if you have no current Intelligence sources — you must have observed this target for at least one full round of combat (they have taken at least one turn).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_due_diligence"
+    }
+  },
+  "folder": null,
+  "sort": 1006,
+  "ownership": {
+    "default": 0
+  }
+}

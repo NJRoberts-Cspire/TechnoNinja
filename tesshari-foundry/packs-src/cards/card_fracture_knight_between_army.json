@@ -1,0 +1,39 @@
+{
+  "_id": "d4813439def2abcd",
+  "name": "Between Army",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Area",
+      "Frightened",
+      "Fracture 1"
+    ],
+    "unlockLevel": 7,
+    "className": "Fracture Knight",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Spend 3 Phantom Charges. Spectral presences flicker through a 25-meter radius centered on you. All enemies in the area take 10 + RESONANCE damage and are Frightened until end of their next turn. Apply Fracture 1 to all enemies hit.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_between_army"
+    }
+  },
+  "folder": null,
+  "sort": 2007,
+  "ownership": {
+    "default": 0
+  }
+}

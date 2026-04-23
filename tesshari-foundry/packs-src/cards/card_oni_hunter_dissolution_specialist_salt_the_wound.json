@@ -1,0 +1,35 @@
+{
+  "_id": "9f1b32654f2f5134",
+  "name": "Salt the Wound",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Oni Hunter",
+    "subclass": "Oni Hunter — Dissolution Specialist",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply dissolution reagent to an unmaking wound. A target with Unmaking Cut applied takes an extra 1d6 resonant damage at the start of each of its turns for 3 rounds and cannot benefit from healing.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_dissolution_specialist_salt_the_wound"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

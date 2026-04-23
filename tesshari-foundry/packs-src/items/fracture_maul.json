@@ -1,0 +1,24 @@
+{
+  "_id": "c7d99c4866d2bfce",
+  "name": "Fracture Maul",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Fracture Knight heavy weapon. Each successful hit has a chance to apply one Fracture stack.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "fracture_maul",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

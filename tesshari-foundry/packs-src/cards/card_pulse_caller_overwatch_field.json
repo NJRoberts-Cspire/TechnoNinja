@@ -1,0 +1,35 @@
+{
+  "_id": "fa079dd06782ddae",
+  "name": "Overwatch Field",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 11,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Activate a targeting field covering all enemies within 80 feet. For 1 round, any enemy that moves triggers a free Basic Attack from you (max 3 per round). Enemies cannot benefit from cover bonuses against your attacks while the field is active.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_overwatch_field"
+    }
+  },
+  "folder": null,
+  "sort": 2011,
+  "ownership": {
+    "default": 0
+  }
+}

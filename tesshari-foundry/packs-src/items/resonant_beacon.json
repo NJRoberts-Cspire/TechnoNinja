@@ -1,0 +1,24 @@
+{
+  "_id": "42cec71ccae9feff",
+  "name": "Resonant Beacon",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>One-time signal device. Broadcasts location to all resonance receivers within district range.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "resonant_beacon",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

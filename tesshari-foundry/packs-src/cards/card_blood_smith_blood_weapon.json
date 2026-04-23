@@ -1,0 +1,37 @@
+{
+  "_id": "8d29e78b902603bc",
+  "name": "Blood Weapon",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 6,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 2"
+    ],
+    "unlockLevel": 1,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 6 + IRON melee damage to one adjacent target. Pay 4 HP in addition to 1 AP. The wound feeds the blade — if you are below half HP when you play this card, deal +IRON bonus damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_blood_weapon"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

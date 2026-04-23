@@ -1,0 +1,24 @@
+{
+  "_id": "12ff28173845eadc",
+  "name": "Masterless Blade",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A blade bearing no oath marks. Deals bonus damage equal to days without a contract. Loses bonus when contract is active.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_ronin_masterless_blade",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

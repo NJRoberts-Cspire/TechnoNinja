@@ -1,0 +1,24 @@
+{
+  "_id": "b4f5c17e20a7f8ce",
+  "name": "Masterless Coat",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A long coat bearing no allegiance marks. Light armor. Provides advantage on all social checks in territory where bearer has no active allegiance.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_ronin_masterless_coat",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

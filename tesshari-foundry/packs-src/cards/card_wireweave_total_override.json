@@ -1,0 +1,39 @@
+{
+  "_id": "06c35844c849b301",
+  "name": "Total Override",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 4,
+    "category": "control",
+    "primaryStat": "signal",
+    "keywords": [
+      "Overheat 3",
+      "Silence",
+      "Stagger"
+    ],
+    "unlockLevel": 18,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Choose one enhanced enemy within 60 feet. Their enhancement network enters cascade failure. Deal 22 + SIGNAL damage. Apply Overheat 3, Silence, and Stagger simultaneously. If the target already had Overheat, they also lose their Basic Attack next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_total_override"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

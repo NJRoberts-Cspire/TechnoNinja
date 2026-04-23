@@ -1,0 +1,38 @@
+{
+  "_id": "a3e3404e7e1bf102",
+  "name": "Veil Disruption",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Stagger",
+      "Expose 2"
+    ],
+    "unlockLevel": 4,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Release disrupting spiritual energy at one creature within 30 feet. Deal 12 + RESONANCE damage. Apply Stagger and Expose 2. Creatures with no Echomind are immune to the Stagger but take full damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_veil_disruption"
+    }
+  },
+  "folder": null,
+  "sort": 2004,
+  "ownership": {
+    "default": 0
+  }
+}

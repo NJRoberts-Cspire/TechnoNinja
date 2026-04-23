@@ -1,0 +1,35 @@
+{
+  "_id": "2c027aaad82d0742",
+  "name": "Dissolution Reading",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 0,
+    "apCost": 0,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You read the state of a creature's Echomind-enhancement alignment as naturally as reading their face. In combat: once per turn as a free action, identify one enemy's dissolution stage, Shell-state status, or Iron Afterlife resonance (GM confirms). This information improves your targeting — your first attack against a newly-assessed target this turn deals + RESONANCE additional damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_dissolution_reading"
+    }
+  },
+  "folder": null,
+  "sort": 1,
+  "ownership": {
+    "default": 0
+  }
+}

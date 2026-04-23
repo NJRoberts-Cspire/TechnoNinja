@@ -1,0 +1,40 @@
+{
+  "_id": "04d4b0c59ea9d933",
+  "name": "Iron Verdict",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 14,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 5",
+      "Vulnerable 4",
+      "Stagger",
+      "Silence"
+    ],
+    "unlockLevel": 14,
+    "className": "Voice of Debt",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>*Debt Detonation.* Deal 14 + VEIL social damage plus 6 damage per Debt stack to one target within 40 feet. Remove all Debt stacks. Apply Expose 5, Vulnerable 4, Stagger, and Silence. This is not a threat. It is a statement of what is already true.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_iron_verdict"
+    }
+  },
+  "folder": null,
+  "sort": 3014,
+  "ownership": {
+    "default": 0
+  }
+}

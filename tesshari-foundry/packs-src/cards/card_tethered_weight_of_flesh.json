@@ -1,0 +1,38 @@
+{
+  "_id": "b65125380b210ad1",
+  "name": "Weight of Flesh",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Expose",
+      "Root"
+    ],
+    "unlockLevel": 1,
+    "className": "",
+    "subclass": "",
+    "isRaceCard": true,
+    "race": "Tethered",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one creature within 10 feet. Apply Expose 2 and Root to that target. If the target has cybernetic augmentations, the Root lasts an additional round as your undiluted spiritual presence disrupts their enhancement calibration. This card cannot be Silenced — it originates from your Echomind, not from any system.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_tethered_weight_of_flesh"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

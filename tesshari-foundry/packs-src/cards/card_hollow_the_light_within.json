@@ -1,0 +1,39 @@
+{
+  "_id": "b8aad97b82f0ce65",
+  "name": "The Light Within",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 6",
+      "Stagger",
+      "Silence"
+    ],
+    "unlockLevel": 16,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Remove all debuffs from yourself. Apply Guard 6 + RESONANCE. Until your next turn, you are immune to Silence and Stagger. Invisible or concealed enemies within 40 feet are revealed to you.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_the_light_within"
+    }
+  },
+  "folder": null,
+  "sort": 2016,
+  "ownership": {
+    "default": 0
+  }
+}

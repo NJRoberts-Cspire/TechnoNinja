@@ -1,0 +1,37 @@
+{
+  "_id": "16026d9956872f3e",
+  "name": "Leverage",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 5,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "veil",
+    "keywords": [
+      "Stagger"
+    ],
+    "unlockLevel": 2,
+    "className": "Shadow Daimyo",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Invoke specific knowledge about one target within 40 feet. Deal 5 + VEIL social damage. Apply Stagger. The next ally to act against this target this round deals +VEIL bonus damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shadow_daimyo_leverage"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "71f86c2c8ef59eef",
+  "name": "Wire Flood",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 2"
+    ],
+    "unlockLevel": 17,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Flood the Wire in a 60-foot radius with corrupted signal. All enhanced enemies in range take 16 + SIGNAL damage. Apply Expose 2 to each target. Signal cards they play next turn are reduced to 0 base damage before stat modifiers.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_wire_flood"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "34a24429088458da",
+  "name": "Medical Clearance Form",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Clears a named target for travel or facility entry on medical grounds. Requires official stamp.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "medical_clearance_form",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

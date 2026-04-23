@@ -1,0 +1,35 @@
+{
+  "_id": "9dee7a3bcc72fc96",
+  "name": "Heart of Vials",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Oni Hunter",
+    "subclass": "Oni Hunter — Resonance Collector",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Open your collected reserve all at once. For 3 rounds, you may spend Essence charges in place of AP on Oni Hunter cards (1 charge per 1 AP, max 2 AP per round via this effect). Once per long rest.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_subclass_power_resonance_collector_heart_of_vials"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

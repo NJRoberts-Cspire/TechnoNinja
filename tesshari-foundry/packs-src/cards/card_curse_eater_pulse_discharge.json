@@ -1,0 +1,37 @@
+{
+  "_id": "6087bb5eaae156b0",
+  "name": "Pulse Discharge",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Area"
+    ],
+    "unlockLevel": 6,
+    "className": "Curse Eater",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Trigger a Corruption Pulse centered on yourself (RESONANCE damage to all enemies within 10 meters). Additionally, deal 10 + RESONANCE damage to one target within 20 meters. Remove up to 2 debuffs from yourself.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_pulse_discharge"
+    }
+  },
+  "folder": null,
+  "sort": 2006,
+  "ownership": {
+    "default": 0
+  }
+}

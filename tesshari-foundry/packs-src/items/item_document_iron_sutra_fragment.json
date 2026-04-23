@@ -1,0 +1,24 @@
+{
+  "_id": "f41c36bf22ded385",
+  "name": "Iron Sutra Fragment",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A fragment of Iron Sutra scripture. Provides spiritual authority in encounters with Iron Sutra adherents. Required for certain ritual procedures.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_iron_sutra_fragment",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

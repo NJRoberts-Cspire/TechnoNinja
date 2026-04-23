@@ -1,0 +1,37 @@
+{
+  "_id": "1920428b1af6d059",
+  "name": "System Feedback",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 8"
+    ],
+    "unlockLevel": 7,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Triggered when you are hit by a ranged or Signal attack. Your nervous system feedback loop absorbs the hit. Gain Guard 8 against that attack. Immediately fire a Pulse Shot at the attacker at 0 AP cost.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_system_feedback"
+    }
+  },
+  "folder": null,
+  "sort": 2007,
+  "ownership": {
+    "default": 0
+  }
+}

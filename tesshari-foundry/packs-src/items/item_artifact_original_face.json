@@ -1,0 +1,24 @@
+{
+  "_id": "09984b109c3ac9eb",
+  "name": "The Original Face (Hollow Author)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A resonant mask worn by the Author before transformation. Grants Author pattern recognition and access to original identity memories; bearer experiences grief of transformation.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_artifact_original_face",
+      "originalCategory": "artifact"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

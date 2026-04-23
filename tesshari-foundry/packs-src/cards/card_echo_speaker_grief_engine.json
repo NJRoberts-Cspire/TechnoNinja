@@ -1,0 +1,38 @@
+{
+  "_id": "85f0f2b1a335a06c",
+  "name": "Grief Engine",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 2",
+      "Stagger"
+    ],
+    "unlockLevel": 16,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Convert accumulated grief into power. Each time an ally or enemy dies within 30 feet of you this scene, gain a Grief stack (maximum 5). Each Grief stack adds +3 damage to your RESONANCE Attack cards. At 5 stacks, your next RESONANCE Attack card also applies Stagger and Expose 2 automatically, then stacks reset.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_grief_engine"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

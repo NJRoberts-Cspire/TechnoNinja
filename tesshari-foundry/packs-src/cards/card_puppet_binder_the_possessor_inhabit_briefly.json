@@ -1,0 +1,35 @@
+{
+  "_id": "1898df01a8441507",
+  "name": "Inhabit Briefly",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Puppet Binder",
+    "subclass": "Puppet Binder — The Possessor",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Send your mind down the thread and crouch behind a bound creature's eyes for a single round. You perceive as it perceives, may make one SIGNAL or VEIL check using its stats, and return knowing one truth it knew.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_the_possessor_inhabit_briefly"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "12e2b6e55b52e4bd",
+  "name": "The Empty Throne",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A small replica of the throne room where the first Convergence occurred. Grants authority over Afterlife entities when placed. Heavy.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_artifact_empty_throne",
+      "originalCategory": "artifact"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

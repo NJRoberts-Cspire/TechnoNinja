@@ -1,0 +1,38 @@
+{
+  "_id": "083489e5571d9703",
+  "name": "Afterlife Anchor",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Mark",
+      "Expose 2"
+    ],
+    "unlockLevel": 2,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deploy your spiritual anchor at a target within 30 feet. Apply Mark and Exposed 2 to the target. If the target is an Iron Afterlife entity, they also cannot use teleportation, phasing, or plane-shifting until the anchor is destroyed or removed. The anchor device itself is a physical object (HP 10, no defenses).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_afterlife_anchor"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

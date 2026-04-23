@@ -1,0 +1,24 @@
+{
+  "_id": "d3dc4d68bc4530c2",
+  "name": "Ashlands Warclub",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Heavy impact weapon from salvaged industrial material. Deals +2 damage on first hit per encounter.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_ashlands_warclub",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

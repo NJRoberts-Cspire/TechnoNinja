@@ -1,0 +1,24 @@
+{
+  "_id": "8efaf2a1d0995dd2",
+  "name": "Ashlands Survival Kit",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Compiled survival tools for Ashlands operations: contamination readers, anti-toxin patches, emergency resonance flares.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_ashlands_survival_kit",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

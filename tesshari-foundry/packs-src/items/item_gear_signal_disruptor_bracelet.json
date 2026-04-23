@@ -1,0 +1,26 @@
+{
+  "_id": "10f27c1b05d10b82",
+  "name": "Signal Disruptor Bracelet",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Wrist-worn device disrupting signal tracking on the bearer. Provides advantage on checks to avoid signal-based tracking.</p>",
+    "slot": "gear",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_signal_disruptor_bracelet",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

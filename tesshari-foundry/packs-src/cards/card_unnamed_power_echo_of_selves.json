@@ -1,0 +1,35 @@
+{
+  "_id": "6075fd5d2708de4c",
+  "name": "Echo of Selves",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "The Unnamed",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Summon two phantom outlines of the self you haven't chosen yet. They stand in spaces within FRAME x 5 feet of you and persist until the start of your next turn; each enemy must guess which is you on its first attack, and on a wrong guess the attack is wasted on the echo.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_unnamed_power_echo_of_selves"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

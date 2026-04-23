@@ -1,0 +1,24 @@
+{
+  "_id": "7a28edcaf772eb96",
+  "name": "Resonant Signal Mirror",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Reflects resonance as visible signals. Long-range line-of-sight communication tool.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "signal_mirror_resonant",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

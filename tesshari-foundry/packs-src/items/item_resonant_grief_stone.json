@@ -1,0 +1,26 @@
+{
+  "_id": "96af8766fbdd5d3f",
+  "name": "Grief Stone",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Dense resonant stone absorbing and storing grief-resonance. Echo Speaker resource; amplifies grief-stacks accumulation.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_grief_stone",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

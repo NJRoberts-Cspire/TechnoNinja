@@ -1,0 +1,24 @@
+{
+  "_id": "9c8931840ac5cb01",
+  "name": "Wire Whip",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Extended wire weapon. Wireweave specialty: reach attacks up to 3 zones. Attaches wire threads on hit.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "wire_whip",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

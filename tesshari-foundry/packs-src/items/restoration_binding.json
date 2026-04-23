@@ -1,0 +1,24 @@
+{
+  "_id": "ddc7ab3da354bea9",
+  "name": "Restoration Binding",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Binds two damaged resonant objects. One draws repair resonance from the other until one is whole.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "restoration_binding",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

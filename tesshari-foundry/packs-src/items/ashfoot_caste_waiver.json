@@ -1,0 +1,24 @@
+{
+  "_id": "1913b68c8319119a",
+  "name": "Ashfoot Caste Waiver",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Official document waiving caste restrictions for a named individual in a specific Reach. High value and difficult to obtain.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "ashfoot_caste_waiver",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

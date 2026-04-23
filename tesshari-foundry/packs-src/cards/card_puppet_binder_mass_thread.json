@@ -1,0 +1,39 @@
+{
+  "_id": "92d48a28108bfbd8",
+  "name": "Mass Thread",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 7,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 2",
+      "Stagger",
+      "Root"
+    ],
+    "unlockLevel": 13,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Expose 2 and Root to all enemies within 30 feet. Deal 7 + VEIL social damage to each. Enemies that are already Bound take Stagger in addition.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_mass_thread"
+    }
+  },
+  "folder": null,
+  "sort": 2013,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "56f8ea8b7630bae9",
+  "name": "The Silence Installation",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Subcutaneous neurological suppressor node. Grants RESONANCE damage immunity and signal invisibility; progressively suppresses Echomind and prevents Ascension.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_silence_installation",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

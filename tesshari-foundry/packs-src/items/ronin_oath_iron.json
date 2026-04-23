@@ -1,0 +1,24 @@
+{
+  "_id": "b5220eca7cc07931",
+  "name": "Ronin Oath Iron",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Iron alloyed during an oath-taking ceremony. Holds a resonant charge from the spoken oath.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "ronin_oath_iron",
+      "originalCategory": "material"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

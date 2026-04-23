@@ -1,0 +1,35 @@
+{
+  "_id": "23507263a803847d",
+  "name": "Both Sides of the Table",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Iron Herald",
+    "subclass": "Iron Herald — Neutral Tongue",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>For one round, you speak in two voices at once; you may take a second reaction each round, and the first time an ally would be attacked by a humanoid enemy, you may redirect the attacker's action into a RESONANCE contest instead.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_neutral_tongue_both_sides_of_the_table"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

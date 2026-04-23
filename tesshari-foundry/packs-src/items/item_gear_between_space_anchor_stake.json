@@ -1,0 +1,24 @@
+{
+  "_id": "6af2773bc8a6ab6b",
+  "name": "Between-Space Anchor Stake",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A resonant stake driven into the ground to anchor physical reality against Between-space drift. Required in high-phase-density zones.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_between_space_anchor_stake",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

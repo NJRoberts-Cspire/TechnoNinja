@@ -1,0 +1,24 @@
+{
+  "_id": "25bb854098b06f6d",
+  "name": "Signal Blade",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Short resonant blade with circuit etching and signal array. Discharge disrupts enhancements and enables data extraction on hit.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_signal_blade",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

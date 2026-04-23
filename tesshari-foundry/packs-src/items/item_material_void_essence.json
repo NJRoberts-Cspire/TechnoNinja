@@ -1,0 +1,24 @@
+{
+  "_id": "77c0744f9a0a7dbb",
+  "name": "Void Essence",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Distilled void energy in crystalline form. Required for Fracture Knight and Void Walker upgrade procedures.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_material_void_essence",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

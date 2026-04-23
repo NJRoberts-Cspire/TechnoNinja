@@ -1,0 +1,24 @@
+{
+  "_id": "9ac44e9224ff274e",
+  "name": "Armor Patch",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Quick-bonding resonant compound for in-combat armor repair. Restores Guard 3 immediately. Single use; takes free action to apply.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_armor_patch",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

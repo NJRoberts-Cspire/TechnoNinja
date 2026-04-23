@@ -1,0 +1,35 @@
+{
+  "_id": "df4aa54a70aca925",
+  "name": "Worldcrack",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Shell Dancer",
+    "subclass": "Shell Dancer — The Breaker",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Name an oath or bond on the battlefield. Each creature tied to it within 60 feet takes 3d6 + IRON resonant damage (WIS save half); if the bond is broken, gain 1 Cascade per creature harmed (max 3). Once per long rest.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_the_breaker_worldcrack"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

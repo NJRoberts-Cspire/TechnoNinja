@@ -1,0 +1,24 @@
+{
+  "_id": "438d9222514659fa",
+  "name": "Comprehensive Disguise Kit",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Full theatrical disguise materials. Changes apparent identity convincingly for one scene.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "disguise_kit_comprehensive",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

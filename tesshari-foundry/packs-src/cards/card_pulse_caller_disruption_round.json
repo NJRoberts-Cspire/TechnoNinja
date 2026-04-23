@@ -1,0 +1,38 @@
+{
+  "_id": "0c70519db2037fec",
+  "name": "Disruption Round",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 8,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "signal",
+    "keywords": [
+      "Stagger",
+      "Silence"
+    ],
+    "unlockLevel": 2,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Fire a shot targeting enhancement systems rather than the body. Deal 8 + SIGNAL damage. Apply Stagger and Silence for 1 round. The target cannot play Signal or Resonance cards on their next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_disruption_round"
+    }
+  },
+  "folder": null,
+  "sort": 2002,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "62fe02e304042030",
+  "name": "Full Command",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 14,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 4",
+      "Stagger"
+    ],
+    "unlockLevel": 9,
+    "className": "Shadow Daimyo",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 14 + VEIL social damage to one target within 40 feet. Apply Expose 4 and Stagger. Every ally within 30 feet may immediately play one Tier 1 card for free (0 AP) as a reaction. You have given them the opening — they take it.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shadow_daimyo_full_command"
+    }
+  },
+  "folder": null,
+  "sort": 3009,
+  "ownership": {
+    "default": 0
+  }
+}

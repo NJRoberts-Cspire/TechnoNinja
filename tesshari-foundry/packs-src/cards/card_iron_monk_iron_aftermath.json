@@ -1,0 +1,39 @@
+{
+  "_id": "6bd034b3d6118bc9",
+  "name": "Iron Aftermath",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 16",
+      "Regen 5",
+      "Fortify"
+    ],
+    "unlockLevel": 15,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>After taking significant damage (10+ in a single hit this round), the Between hardens around you. Gain Guard 16 and Regen 5 for 2 rounds. Apply Fortify. **Below half HP:** Also immediately recover 12 HP.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_iron_aftermath"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

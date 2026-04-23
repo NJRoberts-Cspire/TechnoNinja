@@ -1,0 +1,38 @@
+{
+  "_id": "86f83294b1cfd977",
+  "name": "Iron Formation Wall",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Taunt",
+      "Guard 6"
+    ],
+    "unlockLevel": 16,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You and your allies become a wall. Apply Taunt to all enemies in the encounter — they must come to you. Until your next turn: you cannot be moved, all allies within reach gain Guard 6, and any enemy who moves adjacent to you takes 8 + IRON damage as a contact strike.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_iron_formation_wall"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "22810d85b2808854",
+  "name": "Hollow Memory Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 14,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Expose 2"
+    ],
+    "unlockLevel": 11,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You strike carrying the resonant weight of the dead you remember — lords, companions, the fallen. Deal 14 + IRON damage. If the target is below half HP, add RESONANCE to the damage and apply Expose 2.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_hollow_memory_strike"
+    }
+  },
+  "folder": null,
+  "sort": 2011,
+  "ownership": {
+    "default": 0
+  }
+}

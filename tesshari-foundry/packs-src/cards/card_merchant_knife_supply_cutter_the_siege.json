@@ -1,0 +1,35 @@
+{
+  "_id": "c024eebc0189ae22",
+  "name": "The Siege",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Merchant Knife",
+    "subclass": "Merchant Knife — Supply Cutter",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You have been cutting their supply lines. For 3 rounds, each enemy begins their turn with 1 fewer AP (minimum 1 AP remaining); the first time each enemy uses a consumable or summon, it fails. Once per long rest.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_supply_cutter_the_siege"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

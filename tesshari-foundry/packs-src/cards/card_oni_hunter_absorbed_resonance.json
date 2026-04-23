@@ -1,0 +1,35 @@
+{
+  "_id": "a813fd6333ead1e7",
+  "name": "Absorbed Resonance",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 13,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You carry dissolution resonance from prior hunts — fragments of what you have ended, partially integrated. Your attacks against Shell-states and Iron Afterlife entities deal + RESONANCE additional damage. Incoming necrotic and psychic damage is reduced by your RESONANCE (minimum 0). Once per combat, the absorbed resonance may surface as a behavioral impression — a flash of the hunted creature's perspective (GM narrates; no mechanical penalty unless you choose to act on it).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_absorbed_resonance"
+    }
+  },
+  "folder": null,
+  "sort": 1013,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "1f30279b0c739a54",
+  "name": "Afterlife Pull",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Fracture 2"
+    ],
+    "unlockLevel": 8,
+    "className": "Fracture Knight",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Select one enemy within 30 meters. Apply Fracture 2 to them and pull them up to 10 meters toward you (phase pull — passes through obstacles). If they end this movement adjacent to you, they take 8 + RESONANCE damage on arrival.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_afterlife_pull"
+    }
+  },
+  "folder": null,
+  "sort": 2008,
+  "ownership": {
+    "default": 0
+  }
+}

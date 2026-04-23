@@ -1,0 +1,37 @@
+{
+  "_id": "e70db525cbd6e3ed",
+  "name": "Occupation",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 9,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 3"
+    ],
+    "unlockLevel": 5,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one Staggered or Rooted creature within 30 feet. That creature cannot use Attack cards on their next turn — you have briefly seized control of their motor function. Deal 9 + VEIL social damage. Apply Expose 3.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_occupation"
+    }
+  },
+  "folder": null,
+  "sort": 2005,
+  "ownership": {
+    "default": 0
+  }
+}

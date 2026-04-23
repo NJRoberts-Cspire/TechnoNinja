@@ -1,0 +1,35 @@
+{
+  "_id": "fddf92369957e5e2",
+  "name": "Starving Route",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Merchant Knife",
+    "subclass": "Merchant Knife — Supply Cutter",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>An army travels on its stomach; a squad travels on its ammunition. For the rest of this encounter, each time an enemy uses a limited-resource ability, they take minor VEIL damage — the route is empty and they notice too late.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_supply_cutter_starving_route"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "b1027e95b5a11b43",
+  "name": "Unmake the Weave",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Flesh Shaper",
+    "subclass": "Flesh Shaper — The Corruptor",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Organic enemy within 30 feet unravels. Deal 20 + IRON damage; apply Bleed 5, Expose 5, and Stagger; on kill, the corpse detonates for half that damage in a 10-foot radius.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_the_corruptor_unmake_the_weave"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "525b98b0e1ffae8d",
+  "name": "Operational Command",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 8,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 3"
+    ],
+    "unlockLevel": 3,
+    "className": "Shadow Daimyo",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 8 + VEIL social damage to one target within 40 feet. Apply Expose 3. The next two allies to act this round each deal +VEIL bonus damage on their first card.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shadow_daimyo_operational_command"
+    }
+  },
+  "folder": null,
+  "sort": 2003,
+  "ownership": {
+    "default": 0
+  }
+}

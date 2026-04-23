@@ -1,0 +1,24 @@
+{
+  "_id": "0880e87b3bd36674",
+  "name": "The Last Thirty Seconds",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A sealed cylinder containing an incomprehensible speech. Bearer gains truth-speaking authority and message broadcast capability; becomes increasingly unable to speak indirectly.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_artifact_last_thirty_seconds",
+      "originalCategory": "artifact"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

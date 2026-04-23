@@ -1,0 +1,38 @@
+{
+  "_id": "42c95d4664dd918a",
+  "name": "Override Broadcast",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [
+      "Stagger",
+      "Overheat 2"
+    ],
+    "unlockLevel": 7,
+    "className": "Iron Herald",
+    "subclass": "Echo Speaker — Herald",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 12 + SIGNAL damage to one target. Apply Stagger. If target has active cybernetic enhancements, also apply Overheat 2 and suppress their Reaction for this round.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_override_broadcast"
+    }
+  },
+  "folder": null,
+  "sort": 2007,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "6d33d4e947b94577",
+  "name": "Cascade Rejection Suppressants",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Grants +3 to FRAME-based resistance checks against enhancement failure for 24 hours and reduces rejection severity by one step.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_cascade_rejection_suppressants",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

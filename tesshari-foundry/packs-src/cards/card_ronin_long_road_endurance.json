@@ -1,0 +1,35 @@
+{
+  "_id": "fe654ea9ba8792ff",
+  "name": "Long Road Endurance",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 7,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You have survived masterless longer than most. This survival has calcified into something that functions like wisdom and works like armor. Reduce all incoming damage by 1 (minimum 0). Once per combat, when you fail a resistance check or miss an attack, you may treat it as a success or hit instead.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_long_road_endurance"
+    }
+  },
+  "folder": null,
+  "sort": 1007,
+  "ownership": {
+    "default": 0
+  }
+}

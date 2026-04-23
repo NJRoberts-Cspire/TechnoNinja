@@ -1,0 +1,24 @@
+{
+  "_id": "7c4867d170ce8777",
+  "name": "Iron Sutra Ritual Kit",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Complete tools for conducting Iron Sutra rituals. Sutensai class requirement for advanced ritual procedures.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_iron_sutra_ritual_kit",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

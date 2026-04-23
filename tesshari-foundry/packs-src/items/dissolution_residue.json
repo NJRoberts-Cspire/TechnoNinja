@@ -1,0 +1,24 @@
+{
+  "_id": "2c85b0d9b2b7f3a1",
+  "name": "Dissolution Residue",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Collected after dissolving a target. Unstable reagent. Oni Hunter: crafts enhanced dissolution tools.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "dissolution_residue",
+      "originalCategory": "material"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

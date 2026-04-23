@@ -1,0 +1,35 @@
+{
+  "_id": "8ff77c672835c622",
+  "name": "Reclaimed Edge",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Fracture Knight",
+    "subclass": "Fracture Knight — The Claimed",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your blade hums with a fracture that used to be a wound. Your next attack this turn gains +1 die and applies Fracture on hit.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_the_claimed_reclaimed_edge"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

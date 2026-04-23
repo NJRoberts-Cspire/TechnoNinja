@@ -1,0 +1,24 @@
+{
+  "_id": "ff48b2f60ab7d423",
+  "name": "Debt Token",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A physical marker representing an outstanding Debt obligation. Voice of Debt ritual object used in certain Debt-applying card rituals.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_voice_of_debt_debt_token",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

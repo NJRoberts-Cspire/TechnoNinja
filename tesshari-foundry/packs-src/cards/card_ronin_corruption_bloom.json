@@ -1,0 +1,38 @@
+{
+  "_id": "21a4d4a7a786539c",
+  "name": "Corruption Bloom",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 18,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "iron",
+    "keywords": [
+      "Overheat 2",
+      "Expose 2"
+    ],
+    "unlockLevel": 18,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your corrupted resonance erupts in a burst of destabilizing energy. Deal 18 + IRON damage to all enemies within reach (calculated separately). Apply Overheat 2 and Expose 2 to all targets hit. Until the start of your next turn, any enemy who strikes you takes 4 + EDGE resonant damage from resonant blowback.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_corruption_bloom"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

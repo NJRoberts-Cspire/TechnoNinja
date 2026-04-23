@@ -1,0 +1,24 @@
+{
+  "_id": "1548cf8629cbb63a",
+  "name": "Black Market Contact",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A name and signal frequency for a black market supplier. Provides access to one category of restricted goods without documentation.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_black_market_contact",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

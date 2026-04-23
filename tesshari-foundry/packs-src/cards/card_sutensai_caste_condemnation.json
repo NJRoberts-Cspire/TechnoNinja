@@ -1,0 +1,37 @@
+{
+  "_id": "b2a600061e4606f4",
+  "name": "Caste Condemnation",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 4"
+    ],
+    "unlockLevel": 7,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 10 + VEIL social damage to one target within 30 feet. Apply Expose 4. All allies within 20 feet may immediately play one 0-AP card as a free reaction.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_caste_condemnation"
+    }
+  },
+  "folder": null,
+  "sort": 2007,
+  "ownership": {
+    "default": 0
+  }
+}

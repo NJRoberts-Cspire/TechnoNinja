@@ -1,0 +1,24 @@
+{
+  "_id": "8aece48fc2882db8",
+  "name": "Void Shroud",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Void Walker garment. Resonance-treated fabric that partially obscures the wearer's signature.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "void_shroud",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

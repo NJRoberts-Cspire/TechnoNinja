@@ -1,0 +1,24 @@
+{
+  "_id": "3987f066d7e38935",
+  "name": "Signal Recorder",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Device recording Wire Craft signals for later playback or analysis. Stores up to 10 minutes of signal activity.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_signal_recorder",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

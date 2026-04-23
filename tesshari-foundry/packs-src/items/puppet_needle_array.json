@@ -1,0 +1,24 @@
+{
+  "_id": "8ce26929abf1990a",
+  "name": "Puppet Needle Array",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Puppet Binder ranged control delivery system. Attaches puppet threads to targets at range.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "puppet_needle_array",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

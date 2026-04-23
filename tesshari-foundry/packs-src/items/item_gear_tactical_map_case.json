@@ -1,0 +1,24 @@
+{
+  "_id": "71f77f049a622d5b",
+  "name": "Tactical Map Case",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Hardened case for protecting tactical documents. Contents cannot be read by Wire Craft scanning. Provides quick access to stored maps in combat.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_tactical_map_case",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

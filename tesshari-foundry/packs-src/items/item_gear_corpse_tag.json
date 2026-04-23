@@ -1,0 +1,24 @@
+{
+  "_id": "9c2642cba4a5a1eb",
+  "name": "Corpse Tag",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Resonant tag applied to remains for Afterlife contact facilitation. Increases probability of successful Iron Afterlife communication by 50%.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_corpse_tag",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

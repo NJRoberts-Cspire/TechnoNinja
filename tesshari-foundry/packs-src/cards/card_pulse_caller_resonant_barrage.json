@@ -1,0 +1,38 @@
+{
+  "_id": "7f774de21a34e399",
+  "name": "Resonant Barrage",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 3",
+      "Silence"
+    ],
+    "unlockLevel": 15,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Unleash a sustained resonant barrage at one target within 120 feet. Deal 22 + RESONANCE damage. Apply Expose 3. If the target is a Signal-class enemy, they also gain Silence for 1 round.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_resonant_barrage"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

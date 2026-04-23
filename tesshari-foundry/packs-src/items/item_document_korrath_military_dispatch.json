@@ -1,0 +1,24 @@
+{
+  "_id": "e2fb97fbbc3bbee5",
+  "name": "Korrath Military Dispatch",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A sealed military communication bearing Korrath's seal. Either a genuine order or a forgery. Provides command authority over Ironhold soldiers.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_korrath_military_dispatch",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

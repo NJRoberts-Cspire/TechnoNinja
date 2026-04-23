@@ -1,0 +1,37 @@
+{
+  "_id": "e597d6dcf08f7036",
+  "name": "Afterlife Attunement",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Veil"
+    ],
+    "unlockLevel": 1,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deepen your Veil connection. Detect all Echomind presences (living and dead) within 60 feet. Learn one piece of tactical information about one enemy — their current HP bracket, an active status effect, or one card category they hold. In combat, this also reveals any Iron Afterlife entities active in the area.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_afterlife_attunement"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

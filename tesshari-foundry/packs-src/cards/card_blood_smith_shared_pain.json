@@ -1,0 +1,37 @@
+{
+  "_id": "a104f584a1cab52b",
+  "name": "Shared Pain",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Guard 4"
+    ],
+    "unlockLevel": 11,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 12 + IRON melee damage to one adjacent target. Pay 6 HP. You and the target both take your RESONANCE in resonant damage as the lattice resonates between you — but you gain Guard 4 + RESONANCE immediately after.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_shared_pain"
+    }
+  },
+  "folder": null,
+  "sort": 2011,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "8ba41a5bb871a1a6",
+  "name": "Grief Stone Resonator",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>An amplification device for grief-resonance. Echo Speaker utility; doubles the range of grief-resonance effects during Iron Afterlife contact.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_grief_stone_resonator",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

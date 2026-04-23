@@ -1,0 +1,24 @@
+{
+  "_id": "b89a4d077b75771d",
+  "name": "Sutensai Reader Robe",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Formal reader garment. HP-cost abilities trigger +1 to next roll when this robe is worn.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "sutensai_reader_robe",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

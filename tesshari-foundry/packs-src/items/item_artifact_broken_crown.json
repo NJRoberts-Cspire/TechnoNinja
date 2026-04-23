@@ -1,0 +1,24 @@
+{
+  "_id": "9c16f125a612e3f3",
+  "name": "The Broken Crown",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Seven shards of a shattered resonant amplifying crown. Bearer senses loyalty states and can issue compelling commands; carries the grief of command's weight.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_artifact_broken_crown",
+      "originalCategory": "artifact"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

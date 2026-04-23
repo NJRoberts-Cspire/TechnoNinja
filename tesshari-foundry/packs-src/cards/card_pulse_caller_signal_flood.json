@@ -1,0 +1,38 @@
+{
+  "_id": "508e3a64557df676",
+  "name": "Signal Flood",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Overheat 2",
+      "Stagger"
+    ],
+    "unlockLevel": 16,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Flood a 40-foot radius within 100 feet with resonant signal discharge. All enemies take 14 + SIGNAL damage. Apply Overheat 2 to each target. Wire-connected enemies also gain Stagger.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_signal_flood"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

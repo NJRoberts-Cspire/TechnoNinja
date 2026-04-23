@@ -1,0 +1,24 @@
+{
+  "_id": "0dda785e13c40f11",
+  "name": "Bio-Growth Compound",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Accelerated biological growth compound for Flesh Shaper. Restores bearer to the next HP Tier up regardless of current HP.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_bio_growth_compound",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

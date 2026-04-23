@@ -1,0 +1,35 @@
+{
+  "_id": "f937c23f01bd14ee",
+  "name": "Hostile Takeover",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Shadow Daimyo",
+    "subclass": "Shadow Daimyo — Broker",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You buy the enemy out from under themselves. Choose one enemy minion or summon with fewer hit dice than you: it becomes yours for the remainder of the encounter, its original master unable to countermand you.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shadow_daimyo_broker_hostile_takeover"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

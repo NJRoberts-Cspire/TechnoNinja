@@ -1,0 +1,35 @@
+{
+  "_id": "8c5dceb9b37dd939",
+  "name": "Masterless Edge",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 6,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You have shed the ritual constraints of the code without losing the skills. Your form is rawer than an Ironclad's, less predictable, and harder to read. Deal 6 + IRON damage. When you are the only one attacking this target this round (no allies engaged the same target), add EDGE to the damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_masterless_edge"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

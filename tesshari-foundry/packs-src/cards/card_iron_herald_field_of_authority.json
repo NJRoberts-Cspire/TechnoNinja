@@ -1,0 +1,37 @@
+{
+  "_id": "1fc7911834ea50f7",
+  "name": "Field of Authority",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Contested"
+    ],
+    "unlockLevel": 8,
+    "className": "Iron Herald",
+    "subclass": "Echo Speaker — Herald",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Establish a Command Zone. All enemies who enter the Zone this turn must succeed against your VEIL (contested against their IRON) or lose their ability to play Tier 3 cards this turn — they cannot operate at full power in a space you command.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_field_of_authority"
+    }
+  },
+  "folder": null,
+  "sort": 2008,
+  "ownership": {
+    "default": 0
+  }
+}

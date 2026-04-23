@@ -1,0 +1,35 @@
+{
+  "_id": "af967cbd2752bd40",
+  "name": "Decisive Intervention",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 24,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "edge",
+    "keywords": [],
+    "unlockLevel": 19,
+    "className": "Merchant Knife",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 24 + EDGE damage. This card requires Intelligence 3 on target. Cannot be reduced by any mitigation effect. On kill: remove this target from the encounter record — their allies do not benefit from morale bonuses or rage effects from their death. This happened because it was inevitable. It does not constitute a crisis. It is a completed project.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_decisive_intervention"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

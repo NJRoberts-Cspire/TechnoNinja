@@ -1,0 +1,38 @@
+{
+  "_id": "f461338b9f7a44a9",
+  "name": "Debt Becomes the Blade",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 24,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "iron+resonance",
+    "keywords": [
+      "Expose 3",
+      "Bleed 2"
+    ],
+    "unlockLevel": 13,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your accumulated obligation crystallizes into a single devastating strike. Deal 24 + IRON + RESONANCE damage to one target. If this target has been named as an oath-debt enemy (story designation, with GM), this attack is automatically at maximum damage. Apply Expose 3 and Bleed 2.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_debt_becomes_the_blade"
+    }
+  },
+  "folder": null,
+  "sort": 3013,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "928283e6c8194050",
+  "name": "Standard Ballistic Vest",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Common medium armor. Available in most populated Reaches. No special properties.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "standard_ballistic_vest",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

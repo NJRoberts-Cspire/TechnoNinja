@@ -1,0 +1,38 @@
+{
+  "_id": "db72bcb1ed1add50",
+  "name": "Edge of the Masterless",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 24,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "iron+edge",
+    "keywords": [
+      "Bleed 3",
+      "Expose 3"
+    ],
+    "unlockLevel": 18,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Everything the Ironclad schools protected you from has sharpened you. Deal 24 + IRON + EDGE damage to one target. This attack's critical range is extended — if IRON + EDGE combined exceeds 10, the attack also applies Bleed 3 and Expose 3 automatically.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_edge_of_the_masterless"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "4c16012399180e94",
+  "name": "Incorporeal Robe",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A robe of void-woven material. Light armor. While Incorporeal State is active, armor provides full protection without impeding phase movement.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_void_walker_incorporeal_robe",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

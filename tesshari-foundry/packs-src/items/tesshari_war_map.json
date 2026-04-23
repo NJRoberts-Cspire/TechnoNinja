@@ -1,0 +1,24 @@
+{
+  "_id": "7d53a31420a83d3c",
+  "name": "Tesshari War Map",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Comprehensive map of known conflict zones. Advantage on movement decisions in mapped areas.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "tesshari_war_map",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

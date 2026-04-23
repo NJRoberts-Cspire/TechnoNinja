@@ -1,0 +1,35 @@
+{
+  "_id": "4bc0b5e0c7275fde",
+  "name": "Corrupted Clarity",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 3,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The degraded lord-frequency has settled into something honest. You cannot be deceived by social or resonant manipulation — any effect that would force you to believe something demonstrably false against your direct experience automatically fails. You have developed the masterless person's particular clarity about what people actually want.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_corrupted_clarity"
+    }
+  },
+  "folder": null,
+  "sort": 1003,
+  "ownership": {
+    "default": 0
+  }
+}

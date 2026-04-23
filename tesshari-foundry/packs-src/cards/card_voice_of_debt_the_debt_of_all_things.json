@@ -1,0 +1,39 @@
+{
+  "_id": "f840e466544c398f",
+  "name": "The Debt of All Things",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 6",
+      "Vulnerable 5",
+      "Stagger"
+    ],
+    "unlockLevel": 20,
+    "className": "Voice of Debt",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>*The Iron Afterlife does not forgive forever. You are the voice it has chosen to speak through today.* Apply Debt 5 to all enemies within 60 feet who do not already carry Debt stacks. Then: *Debt Detonation* against all enemies within 60 feet. Each enemy takes 14 + VEIL social damage plus 6 damage per Debt stack they carry. Remove all Debt stacks from all targets. Apply Expose 6, Vulnerable 5, and Stagger to each. Restore 12 HP to yourself. Voices of Debt who have used this ability describe the experience as one of the most spiritually significant of their lives, and not always in a comfortable way.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_the_debt_of_all_things"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

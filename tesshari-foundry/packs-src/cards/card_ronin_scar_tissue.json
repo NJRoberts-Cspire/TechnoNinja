@@ -1,0 +1,38 @@
+{
+  "_id": "213983e9e87e9186",
+  "name": "Scar Tissue",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Shield 6",
+      "Regen 1"
+    ],
+    "unlockLevel": 3,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your body has been repaired by your own hands more times than you can count. Gain Shield 6. When this shield absorbs damage, you also gain Regen 1 for 1 turn — the scar tissue distributes impact and recovers faster than clean enhancements would.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_scar_tissue"
+    }
+  },
+  "folder": null,
+  "sort": 1003,
+  "ownership": {
+    "default": 0
+  }
+}

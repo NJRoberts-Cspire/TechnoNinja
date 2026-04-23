@@ -1,0 +1,38 @@
+{
+  "_id": "0bf822732c6c0e99",
+  "name": "Oath Pressure",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 2",
+      "Root"
+    ],
+    "unlockLevel": 4,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The weight of your code presses against their defenses. Apply Expose 2 and Root to one target. The root represents not a physical restraint but the psychological weight of facing someone who has no doubt.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_oath_pressure"
+    }
+  },
+  "folder": null,
+  "sort": 1004,
+  "ownership": {
+    "default": 0
+  }
+}

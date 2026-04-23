@@ -1,0 +1,24 @@
+{
+  "_id": "3050469294920ce4",
+  "name": "Chrome Cannon Arm",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Chrome Shaper integrated arm-cannon. Replaces one hand slot. Damage type matches active configuration.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "chrome_cannon_arm",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

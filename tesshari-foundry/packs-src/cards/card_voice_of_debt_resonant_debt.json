@@ -1,0 +1,38 @@
+{
+  "_id": "6d44ef7f75ebaf11",
+  "name": "Resonant Debt",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 18,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [
+      "Expose 4",
+      "Overheat 2"
+    ],
+    "unlockLevel": 15,
+    "className": "Voice of Debt",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 18 + SIGNAL signal damage to one target within 40 feet. Apply Debt 5 and Expose 4. If the target carries 5 or more Debt stacks after this card resolves, apply Overheat 2 in addition — their systems are buckling under the accumulated weight.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_resonant_debt"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

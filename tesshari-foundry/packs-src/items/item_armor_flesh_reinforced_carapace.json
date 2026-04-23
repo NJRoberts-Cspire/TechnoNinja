@@ -1,0 +1,24 @@
+{
+  "_id": "f65dfb08e475eb0b",
+  "name": "Flesh-Reinforced Carapace",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Heavy armor integrating biological reinforcement. Specialty grade; requires maintenance.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_flesh_reinforced_carapace",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

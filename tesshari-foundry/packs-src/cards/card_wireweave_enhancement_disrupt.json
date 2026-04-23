@@ -1,0 +1,37 @@
+{
+  "_id": "d8f7c4bcb665ac31",
+  "name": "Enhancement Disrupt",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "signal",
+    "keywords": [
+      "Stagger"
+    ],
+    "unlockLevel": 4,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one enhanced creature within 60 feet. Deal 10 + SIGNAL damage. Apply Stagger. The target's highest-cost card costs +1 AP next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_enhancement_disrupt"
+    }
+  },
+  "folder": null,
+  "sort": 2004,
+  "ownership": {
+    "default": 0
+  }
+}

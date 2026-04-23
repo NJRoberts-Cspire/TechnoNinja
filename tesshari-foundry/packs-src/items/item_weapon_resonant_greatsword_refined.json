@@ -1,0 +1,24 @@
+{
+  "_id": "5732c2f174fcfa1e",
+  "name": "Resonant Greatsword (Refined)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Professionally refined two-handed resonant blade. Deals +1 damage and knocks back on heavy strikes.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_resonant_greatsword_refined",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

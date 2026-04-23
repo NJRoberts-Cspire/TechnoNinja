@@ -1,0 +1,38 @@
+{
+  "_id": "c90d94f50f842e21",
+  "name": "Infrastructure Advantage",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 3,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "veil",
+    "keywords": [
+      "Root",
+      "Expose"
+    ],
+    "unlockLevel": 1,
+    "className": "",
+    "subclass": "",
+    "isRaceCard": true,
+    "race": "Diminished",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The Diminished uses the environment the way only someone who grew up inside it can. In any location with mechanical infrastructure — which includes almost everywhere in Tesshari — the Diminished triggers a targeted system failure affecting one enemy within 40 feet. That enemy takes 4 + EDGE damage, receives Root for 1 turn, and loses the benefit of any enhancement-based stat bonuses until the start of the Diminished's next turn (their systems are momentarily disrupted by the environment the Diminished just weaponized). If the target has no cybernetic augmentations, this card instead applies Expose 2 and deals 3 + VEIL damage as the Diminished simply removes the environmental advantage the target was relying on. This card cannot be used in locations with no mechanical infrastructure (open wilderness, etc.).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_diminished_infrastructure_advantage"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

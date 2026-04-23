@@ -1,0 +1,35 @@
+{
+  "_id": "e759a278b180bbe9",
+  "name": "Suture Protocol",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Emergency forge work performed in moments — the kind that should take an hour compressed into a breath. An ally within reach recovers HP equal to 6 + RESONANCE. Remove one debuff currently affecting them. This card may be played as part of the same turn as another Forge card without conflict.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_suture_protocol"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "4c294b4001f8b6f4",
+  "name": "Pulse Stabilizer",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Pulse Caller implant. Prevents resonance feedback from integrated weapon attacks.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "pulse_stabilizer_implant",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

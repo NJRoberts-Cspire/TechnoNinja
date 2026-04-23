@@ -1,0 +1,35 @@
+{
+  "_id": "de9d53ca5b651aa6",
+  "name": "The Living Record",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 18,
+    "className": "Voice of Debt",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>While in hand, passive. Whenever you apply Debt stacks to any target, apply 1 additional Debt stack beyond the card's listed amount. The Iron Afterlife's interest rate has increased.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_the_living_record"
+    }
+  },
+  "folder": null,
+  "sort": 2018,
+  "ownership": {
+    "default": 0
+  }
+}

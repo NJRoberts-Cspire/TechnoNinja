@@ -1,0 +1,38 @@
+{
+  "_id": "67c12e35ae870c83",
+  "name": "Reshape",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "signal",
+    "keywords": [
+      "Expose 4",
+      "Stagger"
+    ],
+    "unlockLevel": 10,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 10 + SIGNAL signal damage to one target within 10 feet with organic components. Apply Stagger and Expose 4. The target's next attack roll is treated as if they had 2 fewer IRON.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_reshape"
+    }
+  },
+  "folder": null,
+  "sort": 2010,
+  "ownership": {
+    "default": 0
+  }
+}

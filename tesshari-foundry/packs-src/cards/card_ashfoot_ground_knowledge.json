@@ -1,0 +1,35 @@
+{
+  "_id": "04dc96f67e0d1cbc",
+  "name": "Ground Knowledge",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 7,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>In terrain you have spent time in — ruins, wilderness, urban margins — you are never fully exposed. Treat your position as providing light cover at minimum. Enemies who have not yet acted against you this combat have their first attack's damage reduced by your EDGE.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_ground_knowledge"
+    }
+  },
+  "folder": null,
+  "sort": 1007,
+  "ownership": {
+    "default": 0
+  }
+}

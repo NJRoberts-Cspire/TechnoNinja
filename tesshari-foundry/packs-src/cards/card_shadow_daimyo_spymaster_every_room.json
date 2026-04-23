@@ -1,0 +1,35 @@
+{
+  "_id": "56cdbbebe07dee34",
+  "name": "Every Room Is Mine",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Shadow Daimyo",
+    "subclass": "Shadow Daimyo — Spymaster",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>For 3 rounds, all enemies within 60 feet are treated as if you have full Intelligence on them; your strikes ignore cover, concealment, and misdirection, and deal +1d6 damage. Once per long rest.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shadow_daimyo_spymaster_every_room"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

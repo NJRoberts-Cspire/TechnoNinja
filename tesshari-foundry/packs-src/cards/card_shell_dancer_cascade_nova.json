@@ -1,0 +1,39 @@
+{
+  "_id": "79f09e2ca6c0a614",
+  "name": "Cascade Nova",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 18,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "edge",
+    "keywords": [
+      "Area",
+      "Stagger",
+      "Shield"
+    ],
+    "unlockLevel": 14,
+    "className": "Shell Dancer",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Spend 5 Cascade. Deal 18 + EDGE damage to one target. Deal 10 + EDGE damage to all other enemies within 15 meters. Apply Stagger to all enemies hit. Gain Shield equal to your FRAME × 3.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_cascade_nova"
+    }
+  },
+  "folder": null,
+  "sort": 3014,
+  "ownership": {
+    "default": 0
+  }
+}

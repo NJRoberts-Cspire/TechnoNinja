@@ -1,0 +1,38 @@
+{
+  "_id": "c255d20d75d69ba5",
+  "name": "Resonance Mastery",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger",
+      "Root"
+    ],
+    "unlockLevel": 6,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your understanding of the resonant relationship between Echomind and enhancement is deep enough to be therapeutic. Remove the Stagger or Root condition from one adjacent ally as an action (enhancement network realignment). Additionally, this turn, your Forge Mending heals all allies within 5 feet of the target for half the rolled amount — the resonance radiates.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_resonance_mastery"
+    }
+  },
+  "folder": null,
+  "sort": 2006,
+  "ownership": {
+    "default": 0
+  }
+}

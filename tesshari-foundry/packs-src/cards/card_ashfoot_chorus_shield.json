@@ -1,0 +1,38 @@
+{
+  "_id": "c11f309716085701",
+  "name": "Chorus Shield",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Shield",
+      "Guard 4"
+    ],
+    "unlockLevel": 18,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You hold a position that should not be held, because there are people behind you. Gain Shield equal to FRAME × 3. While this shield is active, all allies within reach gain Guard 4 — they are in your shadow and you have made that shadow mean something.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_chorus_shield"
+    }
+  },
+  "folder": null,
+  "sort": 2018,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "0e0d6bc459be77b0",
+  "name": "The Architect",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Silence",
+      "Overheat 2"
+    ],
+    "unlockLevel": 20,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You become the Wire for 1 round. You perceive all Wire-active creatures and systems within 300 feet. This round: all your Signal Attack cards deal +SIGNAL bonus damage. One enemy of your choice within 300 feet has all their Signal and Resonance cards suppressed. One ally of your choice within 300 feet may play one additional card this turn at no AP cost. After this turn, gain Overheat 2.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_the_architect"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

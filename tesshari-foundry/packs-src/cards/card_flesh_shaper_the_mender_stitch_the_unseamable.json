@@ -1,0 +1,35 @@
+{
+  "_id": "20d62862c44250f8",
+  "name": "Stitch the Unseamable",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Flesh Shaper",
+    "subclass": "Flesh Shaper — The Mender",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Close a wound the body has already given up on. Remove one permanent injury, severed limb effect, or death-wound on an ally for the rest of the scene; they take 6 irrevocable HP from you to do it.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_the_mender_stitch_the_unseamable"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

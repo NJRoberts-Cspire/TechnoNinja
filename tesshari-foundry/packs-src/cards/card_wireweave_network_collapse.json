@@ -1,0 +1,37 @@
+{
+  "_id": "b661da6722ee76e1",
+  "name": "Network Collapse",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 5,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Silence"
+    ],
+    "unlockLevel": 19,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>All Wire-connected enemies within 120 feet take 20 + SIGNAL damage and gain Silence for 2 rounds. Automated Wire systems in the area crash for the rest of the scene. Enemies under Silence also lose 1 AP from their next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_network_collapse"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

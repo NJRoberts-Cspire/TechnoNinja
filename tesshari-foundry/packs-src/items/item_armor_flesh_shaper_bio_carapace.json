@@ -1,0 +1,24 @@
+{
+  "_id": "0a8891a60a0186d1",
+  "name": "Bio-Carapace",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Biological armor grown by a Flesh Shaper. Heavy armor. Regenerates 1 Guard per turn. Requires Bio-Reinforcement Compound to maintain.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_flesh_shaper_bio_carapace",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

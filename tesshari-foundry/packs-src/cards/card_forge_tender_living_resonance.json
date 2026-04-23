@@ -1,0 +1,37 @@
+{
+  "_id": "5b5a5db706299249",
+  "name": "Living Resonance",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Regen 4"
+    ],
+    "unlockLevel": 18,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your presence becomes a healing field. Until your next turn: all allies within 30 feet gain Regen 4. All incoming damage to allies within 30 feet is reduced by your RESONANCE. Any ally within 30 feet who uses a card that costs 2 or more AP also recovers 6 HP as a resonant echo from your active maintenance. Once per combat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_living_resonance"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

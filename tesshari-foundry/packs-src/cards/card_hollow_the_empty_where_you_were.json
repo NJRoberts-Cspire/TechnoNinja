@@ -1,0 +1,35 @@
+{
+  "_id": "308936e4dd0893cd",
+  "name": "Where You Were",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "The Hollow",
+    "subclass": "The Hollow — The Empty",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Leave a void-shadow where your body stood and step out of the scene entirely. Until your next turn you do not exist on the battlefield; enemies resolve their actions against the shadow, then you reappear in any space within 25 feet and deal VEIL + RESONANCE damage to one adjacent enemy.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_the_empty_where_you_were"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

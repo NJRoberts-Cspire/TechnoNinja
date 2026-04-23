@@ -1,0 +1,37 @@
+{
+  "_id": "ec0d04a57635e80e",
+  "name": "Adaptive Intercept",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Silence"
+    ],
+    "unlockLevel": 11,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Triggered when a target within 60 feet uses a Signal or Resonance card. Redirect that card's effect to a target of your choice within range, or suppress it entirely. Suppressed card is wasted.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_adaptive_intercept"
+    }
+  },
+  "folder": null,
+  "sort": 2011,
+  "ownership": {
+    "default": 0
+  }
+}

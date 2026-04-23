@@ -1,0 +1,35 @@
+{
+  "_id": "d01992e1d1ecec11",
+  "name": "Chain Detonation",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "veil",
+    "keywords": [],
+    "unlockLevel": 13,
+    "className": "Voice of Debt",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>*Debt Detonation.* Target one primary creature within 40 feet. Deal 12 + VEIL social damage plus 5 damage per Debt stack the primary target carries. Remove all primary target's Debt stacks. Then deal 6 + VEIL social damage plus 2 damage per Debt stack to each other enemy within 20 feet of the primary target (regardless of their own Debt stacks — they feel the resonant collapse of the primary target's debt).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_chain_detonation"
+    }
+  },
+  "folder": null,
+  "sort": 3013,
+  "ownership": {
+    "default": 0
+  }
+}

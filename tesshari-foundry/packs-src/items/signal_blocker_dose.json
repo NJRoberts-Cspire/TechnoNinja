@@ -1,0 +1,24 @@
+{
+  "_id": "8ede19f889012a80",
+  "name": "Signal Blocker Dose",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A pharmaceutical that suppresses resonance signature for one full scene. Single use.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "signal_blocker_dose",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

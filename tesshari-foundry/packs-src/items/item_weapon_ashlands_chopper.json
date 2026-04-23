@@ -1,0 +1,24 @@
+{
+  "_id": "40669e81eacfdd3c",
+  "name": "Ashlands Chopper",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Heavy unrefined blade from salvage materials. Effective for material cutting; brutal in close quarters.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_ashlands_chopper",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

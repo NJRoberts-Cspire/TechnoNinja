@@ -1,0 +1,35 @@
+{
+  "_id": "c6ae3feab4b3a53b",
+  "name": "No Escape Clause",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Voice of Debt",
+    "subclass": "Voice of Debt — Debt Collector",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your Debtor cannot leave. For the next three rounds, they cannot teleport, phase, flee, die (reduced only to 1 HP), or pass out of your sight. Each round, they gain Debt 2 at the start of their turn. When the three rounds end, detonate them fully.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_debt_collector_no_escape_clause"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

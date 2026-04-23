@@ -1,0 +1,37 @@
+{
+  "_id": "bb115ee2ce3d8782",
+  "name": "Into the Grinder",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 5"
+    ],
+    "unlockLevel": 5,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You have been in sustained grinding combat — not duels but the kind that goes on for hours. Gain Guard 5. Until your next turn, reduce the maximum damage of any single hit against you by your FRAME — the worst hits land as bad, not catastrophic.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_into_the_grinder"
+    }
+  },
+  "folder": null,
+  "sort": 1005,
+  "ownership": {
+    "default": 0
+  }
+}

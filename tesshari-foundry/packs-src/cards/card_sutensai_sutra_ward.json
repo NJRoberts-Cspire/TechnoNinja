@@ -1,0 +1,37 @@
+{
+  "_id": "26f9e1d9deea4bfe",
+  "name": "Sutra Ward",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "reaction",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 3"
+    ],
+    "unlockLevel": 4,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": true,
+    "usesPerCombat": null,
+    "description": "<p>*Trigger: An ally within 20 feet is targeted by a Resonant or Signal attack.* Reduce incoming damage by 5 + RESONANCE. Apply Guard 3 to that ally.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_sutra_ward"
+    }
+  },
+  "folder": null,
+  "sort": 1004,
+  "ownership": {
+    "default": 0
+  }
+}

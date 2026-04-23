@@ -1,0 +1,24 @@
+{
+  "_id": "dc5e17d3c8517f66",
+  "name": "Void Breath Capsule",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A pressurized capsule containing stabilized void resonance. Grants brief incorporeal resistance when inhaled.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "void_breath_capsule",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

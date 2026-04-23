@@ -1,0 +1,37 @@
+{
+  "_id": "51dd9567b00ee61c",
+  "name": "Dead Chorus",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger"
+    ],
+    "unlockLevel": 8,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Channel a chorus of dead voices into a disorienting wave. All enemies within 20 feet take 10 + RESONANCE damage and gain Stagger. Enemies with active Silence take an additional 6 damage — the dead they cannot hear speak anyway.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_dead_chorus"
+    }
+  },
+  "folder": null,
+  "sort": 2008,
+  "ownership": {
+    "default": 0
+  }
+}

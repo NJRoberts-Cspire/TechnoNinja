@@ -1,0 +1,37 @@
+{
+  "_id": "06c924d7d39199a1",
+  "name": "Echomind Preservation",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Regen 2"
+    ],
+    "unlockLevel": 10,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>*Triggered when an ally within 60 feet is reduced to 0 HP.* Capture a resonant impression of their Echomind in a prepared container you carry. The soul passes normally, but the impression is a perfect record of who they were at the moment of death — their knowledge, personality, history. Usable for testimony, resurrection assistance, or continued consultation. Additionally, the dying ally gains Regen 2 for their next 2 turns if they survive (stabilize at 1 HP rather than dying, once per combat for this ally).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_echomind_preservation"
+    }
+  },
+  "folder": null,
+  "sort": 2010,
+  "ownership": {
+    "default": 0
+  }
+}

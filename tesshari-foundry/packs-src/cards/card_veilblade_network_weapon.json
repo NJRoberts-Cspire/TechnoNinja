@@ -1,0 +1,37 @@
+{
+  "_id": "0b71c4cba5341a25",
+  "name": "Network Weapon",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "signal",
+    "keywords": [
+      "Overheat 3"
+    ],
+    "unlockLevel": 13,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The Wire network in your area of operation becomes your weapon. Deal 20 + SIGNAL signal damage to all enhanced creatures within 60 feet that are connected to the Wire (calculated separately). Apply Overheat 3 to all targets hit. Once per combat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_network_weapon"
+    }
+  },
+  "folder": null,
+  "sort": 3013,
+  "ownership": {
+    "default": 0
+  }
+}

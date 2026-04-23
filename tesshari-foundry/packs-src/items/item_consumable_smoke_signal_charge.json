@@ -1,0 +1,24 @@
+{
+  "_id": "128cff9213d2e596",
+  "name": "Smoke Signal Charge",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Thrown device releasing resonance-disrupting smoke. Blocks signal weapon line-of-sight and disrupts Wire Craft targeting in 20 feet for 2 turns.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_smoke_signal_charge",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

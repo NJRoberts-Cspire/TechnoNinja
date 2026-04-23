@@ -1,0 +1,24 @@
+{
+  "_id": "57bdf19609cda759",
+  "name": "Vaen's Empty Mirror",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A mirror Vaen used to study their own dissolution. Reflects the viewer's enhancement network in full detail. Used in Sutensai diagnostic procedures.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_relic_vaens_empty_mirror",
+      "originalCategory": "relic"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

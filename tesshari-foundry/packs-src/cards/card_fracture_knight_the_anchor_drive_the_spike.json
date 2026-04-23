@@ -1,0 +1,35 @@
+{
+  "_id": "80871c99e74203f8",
+  "name": "Drive the Spike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Fracture Knight",
+    "subclass": "Fracture Knight — The Anchor",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Slam your blade into the ground. Create a 10-foot-radius Fracture zone at your space lasting 3 rounds; enemies that enter or start their turn in it take 1d6 resonant damage and gain 1 Fracture stack.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_the_anchor_drive_the_spike"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

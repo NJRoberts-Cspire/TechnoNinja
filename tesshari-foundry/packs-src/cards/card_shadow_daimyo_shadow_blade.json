@@ -1,0 +1,40 @@
+{
+  "_id": "2229cf4a0ad9324a",
+  "name": "Shadow Blade",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 4",
+      "Expose 4",
+      "Vulnerable 3",
+      "Stagger"
+    ],
+    "unlockLevel": 15,
+    "className": "Shadow Daimyo",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 20 + IRON melee damage to one adjacent target. Apply Bleed 4, Expose 4, and Vulnerable 3. If any ally has attacked this target this combat, deal +VEIL bonus damage and apply Stagger.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shadow_daimyo_shadow_blade"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

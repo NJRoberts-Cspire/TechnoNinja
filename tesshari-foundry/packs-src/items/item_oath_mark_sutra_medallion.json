@@ -1,0 +1,26 @@
+{
+  "_id": "7c388c0e5b7cc95f",
+  "name": "Sutra Medallion",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Oath marker object for Ironclad Sutensai Blade path; narrative and social checks.</p>",
+    "slot": "symbol",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_oath_mark_sutra_medallion",
+      "originalCategory": "symbol"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "5cac02abb4e75a2c",
+  "name": "Shadow Crystal",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A crystal containing Shadow Daimyo-attuned resonance. Allows intelligence gathered on a target to persist through one long rest without degrading.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_shadow_crystal",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

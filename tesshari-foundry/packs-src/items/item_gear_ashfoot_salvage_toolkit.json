@@ -1,0 +1,24 @@
+{
+  "_id": "6bf9f9cdc64668d3",
+  "name": "Ashfoot Salvage Toolkit",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Compact toolkit for disassembling and repurposing enhancement components in the field. Required for Enhancement Scavenge actions.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_ashfoot_salvage_toolkit",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

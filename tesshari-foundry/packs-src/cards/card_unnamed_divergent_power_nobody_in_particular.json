@@ -1,0 +1,35 @@
+{
+  "_id": "4f1fa387517e6029",
+  "name": "Nobody in Particular",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "The Unnamed",
+    "subclass": "The Unnamed — Divergent",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Refuse every name offered to you this round. Until the start of your next turn, all ongoing effects, conditions, and tracked resources targeting you are suspended and cannot be re-applied; you cannot be healed or buffed by allies either. Once per long rest.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_unnamed_divergent_power_nobody_in_particular"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

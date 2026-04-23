@@ -1,0 +1,24 @@
+{
+  "_id": "83324be79f8d1f19",
+  "name": "Resonant Crossbow",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Ranged weapon compatible with resonant bolt ammunition. Standard accuracy; moderate range.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "resonant_crossbow",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

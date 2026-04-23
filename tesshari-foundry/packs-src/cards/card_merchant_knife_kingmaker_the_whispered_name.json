@@ -1,0 +1,35 @@
+{
+  "_id": "7b4f4ec795c42894",
+  "name": "The Whispered Name",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Merchant Knife",
+    "subclass": "Merchant Knife — Kingmaker",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You tell one ally who the real leader is. That ally's next attack against a commander, elite, or named enemy this round deals +2d6 damage and ignores resistance.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_kingmaker_the_whispered_name"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

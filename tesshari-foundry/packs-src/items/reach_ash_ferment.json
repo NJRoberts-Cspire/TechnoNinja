@@ -1,0 +1,24 @@
+{
+  "_id": "586de13b8e7f413e",
+  "name": "Ashground Ferment",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A potent distillate brewed in the Ashground Reaches. Clears one negative status effect when consumed.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "reach_ash_ferment",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "6718b9fc54548a7c",
+  "name": "Ashfoot Scatter Gun",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Short-range spread weapon. Compatible with Ashfoot enhancement mounting systems.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "ashfoot_scatter_gun",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

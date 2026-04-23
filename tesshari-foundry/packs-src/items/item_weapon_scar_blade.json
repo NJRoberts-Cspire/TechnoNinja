@@ -1,0 +1,24 @@
+{
+  "_id": "97615104b0fa5b5a",
+  "name": "The Scar Blade",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Engine Scar contaminated resonant blade with shifting colors. Deals fire and necrotic damage; permanently disables enhancements on hit but transfers contamination to bearer.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_scar_blade",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

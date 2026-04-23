@@ -1,0 +1,35 @@
+{
+  "_id": "70fd5762ec9969a4",
+  "name": "Command Pulse",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 5,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Iron Herald",
+    "subclass": "Echo Speaker — Herald",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 5 + SIGNAL damage to one target within 40 meters. All allies within 20 meters of you gain +2 to their next attack this turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_command_pulse"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

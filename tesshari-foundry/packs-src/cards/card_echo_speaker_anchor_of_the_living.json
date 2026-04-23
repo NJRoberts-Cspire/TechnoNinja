@@ -1,0 +1,35 @@
+{
+  "_id": "714514c665645f97",
+  "name": "Anchor of the Living",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 6,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You become a stable point between the worlds. Any ally within 30 feet who would be reduced to 0 HP this round is instead held at 1 HP. They do not make death checks this round. This effect triggers once per round automatically — it does not cost your action when it triggers.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_anchor_of_the_living"
+    }
+  },
+  "folder": null,
+  "sort": 2006,
+  "ownership": {
+    "default": 0
+  }
+}

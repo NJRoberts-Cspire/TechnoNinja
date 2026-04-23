@@ -1,0 +1,38 @@
+{
+  "_id": "1fad663ab01a1499",
+  "name": "Mass Absorption",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Cleanse",
+      "Regen"
+    ],
+    "unlockLevel": 5,
+    "className": "Curse Eater",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Remove one debuff from up to three allies within 15 meters. For each debuff absorbed this way, gain 1 Loaded. Gain Regen 2 per absorbed debuff (stacks, lasts 2 turns per stack).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_mass_absorption"
+    }
+  },
+  "folder": null,
+  "sort": 1005,
+  "ownership": {
+    "default": 0
+  }
+}

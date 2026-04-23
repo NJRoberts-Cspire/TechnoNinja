@@ -1,0 +1,38 @@
+{
+  "_id": "24c76adbd762eabd",
+  "name": "Below the Threshold",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard",
+      "Shield"
+    ],
+    "unlockLevel": 1,
+    "className": "",
+    "subclass": "",
+    "isRaceCard": true,
+    "race": "Diminished",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The Diminished exploits the gap between what their opponents expect and what they are actually capable of. Until the start of the Diminished's next turn, the next card they play is treated as coming from an unexpected vector: it cannot be Reacted to, its damage cannot be reduced by Guard or Shield, and any status effect it applies cannot be resisted this turn. This works because no one built their defenses against someone this size doing something this precise. Once per combat, the target of this card's follow-up attack may not be the same target again for the remainder of the combat — the trick works once per opponent.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_diminished_below_the_threshold"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "6ff0ed9812961fbd",
+  "name": "Unwitnessed Violence",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 24,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 3",
+      "Vulnerable 3"
+    ],
+    "unlockLevel": 17,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>A masterless person does their most terrible work without a lord's seal to authorize it and without a code to condemn it. Deal 24 + IRON damage. This attack leaves no readable enhancement signature trace — any attempt to forensically attribute it fails. Apply Bleed 3 and Vulnerable 3 to the target.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_unwitnessed_violence"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

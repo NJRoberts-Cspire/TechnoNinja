@@ -1,0 +1,37 @@
+{
+  "_id": "4893e079b5544c06",
+  "name": "Inevitable",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 1"
+    ],
+    "unlockLevel": 14,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Declare a target Inevitable. For the rest of this combat against this target: your attacks deal + EDGE + SIGNAL additional damage, your first attack each round cannot be reacted to, and this target applies Expose 1 to themselves at the start of each of their turns (the dread has a physical expression in their defensive posture). Once per combat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_inevitable"
+    }
+  },
+  "folder": null,
+  "sort": 3014,
+  "ownership": {
+    "default": 0
+  }
+}

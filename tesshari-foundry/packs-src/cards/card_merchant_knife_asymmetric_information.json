@@ -1,0 +1,38 @@
+{
+  "_id": "7b88b7bfe2e29c74",
+  "name": "Asymmetric Information",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Isolation",
+      "Restricted"
+    ],
+    "unlockLevel": 11,
+    "className": "Merchant Knife",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Select one enemy with Intelligence 2+. Until end of their next turn, they cannot benefit from any ally-synergy effects — their allies cannot provide them bonuses, flanking, or reaction support. They are isolated in the information gap.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_asymmetric_information"
+    }
+  },
+  "folder": null,
+  "sort": 2011,
+  "ownership": {
+    "default": 0
+  }
+}

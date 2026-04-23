@@ -1,0 +1,39 @@
+{
+  "_id": "c57b934c2349785c",
+  "name": "Sutensai's Truth",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 16,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 4",
+      "Stagger",
+      "Silence"
+    ],
+    "unlockLevel": 15,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one creature within 40 feet. Deal 16 + VEIL social damage. Apply Silence, Stagger, and Expose 4. For the rest of combat, the target cannot use social or deception-based card riders.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_sutensai_s_truth"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

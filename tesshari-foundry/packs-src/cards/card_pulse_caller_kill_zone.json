@@ -1,0 +1,37 @@
+{
+  "_id": "adf7f30c0ca2bd2b",
+  "name": "Kill Zone",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 1"
+    ],
+    "unlockLevel": 6,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Establish a Kill Zone in a 30-foot radius within 80 feet. For 2 rounds, any enemy who moves more than 15 feet within the zone takes 8 + SIGNAL damage. Enemies who end their turn in the zone gain Expose 1.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_kill_zone"
+    }
+  },
+  "folder": null,
+  "sort": 2006,
+  "ownership": {
+    "default": 0
+  }
+}

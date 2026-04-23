@@ -1,0 +1,38 @@
+{
+  "_id": "70f6685aab9b826f",
+  "name": "Hollow Fortress",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 12",
+      "Regen 5"
+    ],
+    "unlockLevel": 17,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Guard 12 + FRAME + RESONANCE to yourself. Restore 10 + FRAME HP. All damage you take until your next turn is reduced by FRAME. If below half HP, also apply Regen 5.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_hollow_fortress"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

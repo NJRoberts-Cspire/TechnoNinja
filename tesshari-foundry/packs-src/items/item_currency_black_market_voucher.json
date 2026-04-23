@@ -1,0 +1,24 @@
+{
+  "_id": "8421d0810cca5c0c",
+  "name": "Black Market Voucher",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>An untraceable credit voucher valid at specific black market locations. Face value 40 trade-metal; cannot be converted to standard currency.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_currency_black_market_voucher",
+      "originalCategory": "currency"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

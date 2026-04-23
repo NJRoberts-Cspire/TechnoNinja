@@ -1,0 +1,24 @@
+{
+  "_id": "f1f3763fd652e45b",
+  "name": "Wire-Silk Tent",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Portable shelter of wire-silk material. Provides weather and minor resonance protection for up to four occupants. Packs into 1x1 inventory space.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_wire_silk_tent",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

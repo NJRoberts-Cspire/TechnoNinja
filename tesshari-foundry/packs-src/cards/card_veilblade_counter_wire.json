@@ -1,0 +1,38 @@
+{
+  "_id": "cfdbc8ec0ea2a6b9",
+  "name": "Counter-Wire",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "reaction",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger",
+      "Silence"
+    ],
+    "unlockLevel": 3,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": true,
+    "usesPerCombat": null,
+    "description": "<p>*Triggered when a creature attempts to read, hack, or disrupt your enhancements.* You are immediately aware and counter-access their network. Apply Stagger and Silence to the attacker for 1 turn. If your SIGNAL exceeds their SIGNAL, they also lose their Reaction this round.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_counter_wire"
+    }
+  },
+  "folder": null,
+  "sort": 1003,
+  "ownership": {
+    "default": 0
+  }
+}

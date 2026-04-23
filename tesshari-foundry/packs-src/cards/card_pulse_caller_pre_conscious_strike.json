@@ -1,0 +1,35 @@
+{
+  "_id": "a27addcd122af62b",
+  "name": "Pre-Conscious Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [],
+    "unlockLevel": 8,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your firing system acts before deliberate decision. Deal 12 + SIGNAL damage to one target within 80 feet. This card may be played as a Reaction when an enemy declares an attack or card against you, resolving before their action.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_pre_conscious_strike"
+    }
+  },
+  "folder": null,
+  "sort": 2008,
+  "ownership": {
+    "default": 0
+  }
+}

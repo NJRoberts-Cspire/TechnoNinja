@@ -1,0 +1,26 @@
+{
+  "_id": "b3f941005e16184e",
+  "name": "Target Designator",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Optical targeting integration providing combat analysis. Mark status applied by bearer lasts 1 additional turn. Ranged attacks against Marked targets have advantage.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_target_designator",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

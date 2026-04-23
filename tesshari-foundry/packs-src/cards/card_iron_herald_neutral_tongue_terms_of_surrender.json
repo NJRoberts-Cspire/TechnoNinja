@@ -1,0 +1,35 @@
+{
+  "_id": "26e442a4fde1bec2",
+  "name": "Terms of Surrender",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Iron Herald",
+    "subclass": "Iron Herald — Neutral Tongue",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Offer quarter to a wounded foe within 30 feet. If a humanoid enemy is below half HP, they make a CHA save or surrender/flee; on a successful save they fight on at disadvantage for their next attack.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_neutral_tongue_terms_of_surrender"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

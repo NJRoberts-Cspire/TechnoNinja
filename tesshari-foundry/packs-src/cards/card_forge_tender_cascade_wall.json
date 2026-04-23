@@ -1,0 +1,37 @@
+{
+  "_id": "853279c4a7450e72",
+  "name": "Cascade Wall",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Shield"
+    ],
+    "unlockLevel": 14,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your attunement to the allies you maintain becomes a defensive barrier. All allies you have maintained this combat gain Shield equal to your RESONANCE × 3 simultaneously. Until your next turn, any damage that would bring a maintained ally to 0 HP is reduced by your SIGNAL first — you intercept the cascade before it lands.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_cascade_wall"
+    }
+  },
+  "folder": null,
+  "sort": 3014,
+  "ownership": {
+    "default": 0
+  }
+}

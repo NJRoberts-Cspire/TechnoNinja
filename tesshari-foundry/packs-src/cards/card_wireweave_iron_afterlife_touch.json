@@ -1,0 +1,35 @@
+{
+  "_id": "a56bdab4652b0999",
+  "name": "Iron Afterlife Touch",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 15,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Access the boundary between the Wire and the Iron Afterlife. You perceive all Echomind echoes of creatures who have died within 300 feet in the last 24 hours. Out of combat: ask each echo one question. In combat: you may ask one echo one yes/no question as a free action.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_iron_afterlife_touch"
+    }
+  },
+  "folder": null,
+  "sort": 2015,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "b3fdd5792ea2bfef",
+  "name": "Prior Ascended Echo",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Expose"
+    ],
+    "unlockLevel": 1,
+    "className": "",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The Iron Blessed channels a fragment of Prior Ascended resonance through their formations — not their own power but an echo of something vastly larger, half-formed and strange. All enemies within 15 feet take 5 + RESONANCE damage. Any enemy that is a construct, undead, or creature connected to the Iron Afterlife takes an additional 4 damage and receives Expose 2. The Iron Blessed cannot control exactly what comes through: after this card resolves, the GM selects one additional minor effect from the following list (roll or choose): the light in the area changes color for one turn; one nearby object of resonant significance glows; one enemy within range receives a fragmented impression of something it cannot interpret. The card's damage is real. The riders are genuine but half-formed.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_blessed_prior_ascended_echo"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

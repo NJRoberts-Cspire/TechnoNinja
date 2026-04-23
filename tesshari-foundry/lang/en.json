@@ -1,0 +1,51 @@
+{
+  "TESSHARI": {
+    "System": {
+      "Title": "Tesshari",
+      "Description": "Deterministic card-based cyberpunk TTRPG."
+    },
+    "Actor": {
+      "Character": "Character",
+      "Monster": "Monster",
+      "Npc": "NPC"
+    },
+    "Item": {
+      "Card": "Card",
+      "Race": "Race",
+      "Class": "Class",
+      "Subclass": "Subclass",
+      "Cybernetic": "Cybernetic",
+      "Weapon": "Weapon",
+      "Armor": "Armor",
+      "Consumable": "Consumable",
+      "Status": "Status"
+    },
+    "Stat": {
+      "Iron": "Iron",
+      "Edge": "Edge",
+      "Frame": "Frame",
+      "Signal": "Signal",
+      "Resonance": "Resonance",
+      "Veil": "Veil"
+    },
+    "Status": {
+      "Guard": "Guard",
+      "Shield": "Shield",
+      "Fortify": "Fortify",
+      "Regen": "Regen",
+      "Veil": "Veil",
+      "Bleed": "Bleed",
+      "Burn": "Burn",
+      "Expose": "Expose",
+      "Vulnerable": "Vulnerable",
+      "Overheat": "Overheat",
+      "Stagger": "Stagger",
+      "Root": "Root",
+      "Silence": "Silence",
+      "Taunt": "Taunt",
+      "Mark": "Mark",
+      "Down": "Down",
+      "Dying": "Dying"
+    }
+  }
+}

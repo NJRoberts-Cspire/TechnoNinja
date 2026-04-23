@@ -1,0 +1,24 @@
+{
+  "_id": "6684aedca2fc953b",
+  "name": "Reach Transit Token",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Pre-paid transit token valid for one journey between Reaches on official transit routes.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "reach_transit_token",
+      "originalCategory": "currency"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

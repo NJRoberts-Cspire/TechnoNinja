@@ -1,0 +1,38 @@
+{
+  "_id": "1839f0f7127e5129",
+  "name": "Forge Apotheosis",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Regen 3",
+      "Cleanse"
+    ],
+    "unlockLevel": 18,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your body has become a refinement instrument. All allies in the encounter simultaneously: recover HP equal to your RESONANCE × 3, gain Regen 3 for 3 turns, and have one debuff Cleansed. Until your next turn, all damage dealt to allies within 30 feet is reduced by your SIGNAL. Once per combat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_forge_apotheosis"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

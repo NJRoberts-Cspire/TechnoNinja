@@ -1,0 +1,24 @@
+{
+  "_id": "a4655712f576a3bf",
+  "name": "Quarry Scent Marker",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Applied covertly to a target. Oni Hunter treats them as Marked for one scene without spending a mark card.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "quarry_scent_marker",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

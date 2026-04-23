@@ -1,0 +1,24 @@
+{
+  "_id": "1a0ab3e0058441bf",
+  "name": "Resonant Lantern",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A lantern using resonant material for illumination. Provides 40-foot radius of light. Cannot be extinguished by non-resonant means.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_resonant_lantern",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

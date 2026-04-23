@@ -1,0 +1,39 @@
+{
+  "_id": "5ef46ad292ef4811",
+  "name": "The Unwitnessed",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 26,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "edge+signal",
+    "keywords": [
+      "Bleed 4",
+      "Expose 4",
+      "Silence"
+    ],
+    "unlockLevel": 20,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You were never there. Deal 26 + EDGE + SIGNAL damage. This attack leaves zero evidence — no wound trace, no Wire record, no enhancement signature. Apply Bleed 4, Expose 4, and Silence. The target cannot describe, record, or communicate what happened to them for 1 turn — the act exists outside all documentation. Once per combat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_the_unwitnessed"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

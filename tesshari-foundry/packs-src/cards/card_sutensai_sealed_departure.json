@@ -1,0 +1,35 @@
+{
+  "_id": "24c367f7d9995c39",
+  "name": "Sealed Departure",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 12,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Seal one dead or dying creature against spiritual exploitation. Remove all spiritual debuffs from allies within 20 feet. Restore 6 + RESONANCE HP to one ally within 20 feet.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_sealed_departure"
+    }
+  },
+  "folder": null,
+  "sort": 2012,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "f80cc94f7f853dc2",
+  "name": "Wire Market Shopping List",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A compiled list of available goods and their current Wire Market prices. Provides advantage on finding specific items within Wire Market territory.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_wire_market_shopping_list",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "6562e6c904931e5b",
+  "name": "Portable Resonance Lab",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Field lab kit. Allows resonance analysis of materials, creatures, and locations in the field.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "portable_resonance_lab",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

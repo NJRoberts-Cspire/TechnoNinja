@@ -1,0 +1,38 @@
+{
+  "_id": "17560b3b97a3a425",
+  "name": "Rapid Reconstruction",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 6",
+      "Regen 4"
+    ],
+    "unlockLevel": 14,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Restore 20 + SIGNAL HP to one ally within 10 feet. Remove all debuffs. Apply Regen 4 and Guard 6 + SIGNAL. If the target was at critical HP, they may immediately play one card from their hand for free (0 AP).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_rapid_reconstruction"
+    }
+  },
+  "folder": null,
+  "sort": 3014,
+  "ownership": {
+    "default": 0
+  }
+}

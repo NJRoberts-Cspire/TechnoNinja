@@ -1,0 +1,38 @@
+{
+  "_id": "0da0bec62a5933b1",
+  "name": "Speak for the Fallen",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 3",
+      "Stagger"
+    ],
+    "unlockLevel": 7,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Formally accuse one enemy within 30 feet on behalf of the dead. Apply Expose 3 and Stagger. The target cannot use Veil cards this round — the dead drown out their social armor. Out of combat: this accusation carries spiritual weight; it cannot be denied in any community that respects the Iron Afterlife.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_speak_for_the_fallen"
+    }
+  },
+  "folder": null,
+  "sort": 2007,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,101 @@
+{{!-- Tesshari Card Sheet --}}
+<section class="tesshari-card-sheet">
+
+  <header class="sheet-header">
+    <img class="portrait" src="{{item.img}}" data-edit="img" title="Edit image"/>
+    <div class="header-fields">
+      <input type="text" name="name" value="{{item.name}}" placeholder="Card name"/>
+      <p class="hint">Tesshari card — {{system.className}}{{#if system.subclass}} · {{system.subclass}}{{/if}}</p>
+    </div>
+  </header>
+
+  <div class="form-grid">
+
+    <div class="form-group">
+      <label>Tier</label>
+      <select name="system.tier">
+        {{#each tiers as |t|}}
+          <option value="{{t}}" {{#if (eq t ../system.tier)}}selected{{/if}}>{{t}}</option>
+        {{/each}}
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>AP Cost</label>
+      <input type="number" name="system.apCost" value="{{system.apCost}}" min="0" max="4"/>
+    </div>
+
+    <div class="form-group">
+      <label>Base Damage</label>
+      <input type="number" name="system.baseDamage" value="{{system.baseDamage}}" min="0"/>
+    </div>
+
+    <div class="form-group">
+      <label>Pierce</label>
+      <input type="number" name="system.pierce" value="{{system.pierce}}" min="0"/>
+    </div>
+
+    <div class="form-group">
+      <label>Category</label>
+      <select name="system.category">
+        {{#each categories as |c|}}
+          <option value="{{c}}" {{#if (eq c ../system.category)}}selected{{/if}}>{{c}}</option>
+        {{/each}}
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Primary Stat</label>
+      <select name="system.primaryStat">
+        {{#each primaryStats as |s|}}
+          <option value="{{s}}" {{#if (eq s ../system.primaryStat)}}selected{{/if}}>{{#if s}}{{s}}{{else}}(none){{/if}}</option>
+        {{/each}}
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Unlock Level</label>
+      <input type="number" name="system.unlockLevel" value="{{system.unlockLevel}}" min="1" max="20"/>
+    </div>
+
+    <div class="form-group">
+      <label>Uses Per Combat</label>
+      <input type="number" name="system.usesPerCombat" value="{{system.usesPerCombat}}" min="0" placeholder="∞"/>
+    </div>
+
+    <div class="form-group">
+      <label>Class</label>
+      <input type="text" name="system.className" value="{{system.className}}"/>
+    </div>
+
+    <div class="form-group">
+      <label>Subclass</label>
+      <input type="text" name="system.subclass" value="{{system.subclass}}"/>
+    </div>
+
+    <div class="form-group checkbox-group">
+      <label><input type="checkbox" name="system.isRaceCard" {{checked system.isRaceCard}}/> Race Card</label>
+      <label><input type="checkbox" name="system.isStartingHand" {{checked system.isStartingHand}}/> Starting Hand</label>
+      <label><input type="checkbox" name="system.isReaction" {{checked system.isReaction}}/> Reaction</label>
+    </div>
+
+    <div class="form-group">
+      <label>Race (if race card)</label>
+      <input type="text" name="system.race" value="{{system.race}}"/>
+    </div>
+
+  </div>
+
+  <div class="form-group stacked">
+    <label>Keywords (comma-separated)</label>
+    <input type="text" name="system.keywordsJoined" value="{{keywordsJoined}}"
+           placeholder="e.g. Bleed 3, Expose 2, Echo"/>
+    <p class="hint">Names (Bleed / Burn / Guard / Shield / Fortify / Regen / Veil / Expose / Vulnerable / Overheat / Stagger / Root / Silence / Taunt / Mark / Pierce / Echo / Cleanse / Dispel) with optional stack counts.</p>
+  </div>
+
+  <div class="form-group stacked">
+    <label>Description</label>
+    <prose-mirror name="system.description" value="{{system.description}}" toggled></prose-mirror>
+  </div>
+
+</section>

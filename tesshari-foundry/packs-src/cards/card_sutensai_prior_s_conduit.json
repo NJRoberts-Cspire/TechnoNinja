@@ -1,0 +1,37 @@
+{
+  "_id": "a1c1b255177020ce",
+  "name": "Prior's Conduit",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 15,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Echo"
+    ],
+    "unlockLevel": 15,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 15 + RESONANCE resonant damage to one target. Echo (repeat base damage once, no riders). Cost: pay 10 HP instead of 2 AP (play for 0 AP + 10 HP).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_prior_s_conduit"
+    }
+  },
+  "folder": null,
+  "sort": 2015,
+  "ownership": {
+    "default": 0
+  }
+}

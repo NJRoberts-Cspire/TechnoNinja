@@ -1,0 +1,35 @@
+{
+  "_id": "6b8982bf121de23c",
+  "name": "Shell Step: Permanent",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 15,
+    "className": "Shell Dancer",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Enter Shell Step with a duration of 2 full turns (instead of 1). During both turns: you cannot be targeted; you may use Reaction cards normally; and at the end of each turn in Shell Step, gain 3 Cascade. When you exit, your first Attack card deals +12 bonus damage. You have been absent for long enough that your return is an event.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_shell_step_permanent"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

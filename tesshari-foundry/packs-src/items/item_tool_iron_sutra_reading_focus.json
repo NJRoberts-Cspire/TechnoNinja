@@ -1,0 +1,24 @@
+{
+  "_id": "fe038b0895ab8bed",
+  "name": "Iron Sutra Reading Focus",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A calibrated resonant lens used by Sutensai to perform Echomind readings. Amplifies reading depth by one tier.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_iron_sutra_reading_focus",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

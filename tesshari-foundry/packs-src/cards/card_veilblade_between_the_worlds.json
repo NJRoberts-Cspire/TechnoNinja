@@ -1,0 +1,35 @@
+{
+  "_id": "612a94415ca836b9",
+  "name": "Between the Worlds",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 14,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>*Triggered when an attack would reduce you to 0 HP.* You phase between living and dead. The triggering attack deals 0 damage. For the next 2 turns you exist in a liminal state: you cannot be targeted by attacks, you can take one action per turn, and you take no HP damage. When this state ends, you return at 1 HP. Once per combat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_between_the_worlds"
+    }
+  },
+  "folder": null,
+  "sort": 3014,
+  "ownership": {
+    "default": 0
+  }
+}

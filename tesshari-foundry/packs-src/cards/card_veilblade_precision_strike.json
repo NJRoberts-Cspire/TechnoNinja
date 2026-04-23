@@ -1,0 +1,35 @@
+{
+  "_id": "68eb3afd9cfa3985",
+  "name": "Precision Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 6,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "edge",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You find the gap — the unenhanced point, the unshielded nerve, the junction where resonant metal meets organic tissue. Deal 6 + EDGE damage. If you are hidden, your signature is suppressed, or you have advantage on this attack (GM ruling), add SIGNAL to the damage. This is the Veilblade's core technique — precise, calculated, and aimed at exactly the right place.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_precision_strike"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

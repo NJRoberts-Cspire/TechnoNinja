@@ -1,0 +1,35 @@
+{
+  "_id": "64c76cd4a634f0a2",
+  "name": "Pattern Lock",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "The Unnamed",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Trace a closed shape around the battle in one motion. Until the end of your next turn, every creature in a 30-foot radius (including allies) that moves more than half their speed in a turn takes damage equal to your FRAME modifier; you are immune to this effect.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_unnamed_power_pattern_lock"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

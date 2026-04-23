@@ -1,0 +1,40 @@
+{
+  "_id": "8dcf6ef23263afdd",
+  "name": "Phantom Occupation",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 16,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 4",
+      "Vulnerable 4",
+      "Stagger",
+      "Root"
+    ],
+    "unlockLevel": 15,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one non-Bound creature within 30 feet. Deal 16 + VEIL social damage. Apply Vulnerable 4, Expose 4, Stagger, and Root. On their next turn, they cannot take offensive actions — full motor seizure for one round.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_phantom_occupation"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

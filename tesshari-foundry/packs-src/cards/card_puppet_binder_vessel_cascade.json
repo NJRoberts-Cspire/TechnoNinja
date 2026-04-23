@@ -1,0 +1,37 @@
+{
+  "_id": "0dc9d7cedddacf32",
+  "name": "Vessel Cascade",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [
+      "Expose 3"
+    ],
+    "unlockLevel": 16,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your vessel performs a sequence of strikes. Deal 20 + SIGNAL signal damage divided among up to three targets adjacent to your vessel. Apply Expose 3 to each target struck. The vessel is unharmed.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_vessel_cascade"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

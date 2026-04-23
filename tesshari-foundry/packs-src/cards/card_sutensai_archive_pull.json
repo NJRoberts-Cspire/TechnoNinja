@@ -1,0 +1,41 @@
+{
+  "_id": "b89ee3a7788a2e21",
+  "name": "Archive Pull",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 3",
+      "Expose",
+      "Stagger",
+      "Root",
+      "Silence"
+    ],
+    "unlockLevel": 8,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You retrieve a specific resonant memory from the Sutensai spiritual archive. Remove one debuff (Silence, Stagger, Root, or Expose) from yourself or an ally within 20 feet. Gain Guard 3 + RESONANCE.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_archive_pull"
+    }
+  },
+  "folder": null,
+  "sort": 1008,
+  "ownership": {
+    "default": 0
+  }
+}

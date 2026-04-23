@@ -1,0 +1,37 @@
+{
+  "_id": "8d303946a4965fcf",
+  "name": "Broken Perfection",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard"
+    ],
+    "unlockLevel": 11,
+    "className": "Shell Dancer",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Until the start of your next turn: you cannot be Stunned or Frightened; all damage you take is reduced by your FRAME; every hit you take generates 2 Cascade instead of 1; and when your HP drops below 25%, immediately gain Guard equal to your FRAME × 2. The failure states have become the form.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_broken_perfection"
+    }
+  },
+  "folder": null,
+  "sort": 3011,
+  "ownership": {
+    "default": 0
+  }
+}

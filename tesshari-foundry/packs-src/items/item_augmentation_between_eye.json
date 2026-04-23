@@ -1,0 +1,26 @@
+{
+  "_id": "4e355a735bf15698",
+  "name": "Between Eye",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>An eye attuned to Between-space frequency. Bearer sees entities and objects existing partially in Between. Reveals hidden phase-walkers.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_between_eye",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

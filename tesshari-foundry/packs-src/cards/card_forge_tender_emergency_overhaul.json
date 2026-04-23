@@ -1,0 +1,37 @@
+{
+  "_id": "942efb3fcff2ada1",
+  "name": "Emergency Overhaul",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Cleanse"
+    ],
+    "unlockLevel": 17,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>A rapid, comprehensive emergency repair on one adjacent ally. They recover to full HP. All conditions and debuffs are removed from them. One of their expended once-per-combat cards is restored. For the next 2 turns, their attacks deal + SIGNAL additional damage — their enhancements are running hot. After those 2 turns, they gain Overheat 2 as the system settles.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_emergency_overhaul"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

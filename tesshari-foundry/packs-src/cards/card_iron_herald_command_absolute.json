@@ -1,0 +1,35 @@
+{
+  "_id": "d4c60fc58e4653cc",
+  "name": "Command: Absolute",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 19,
+    "className": "Iron Herald",
+    "subclass": "Echo Speaker — Herald",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Until the start of your next turn, you establish Absolute Field: your Command Zone expands to encompass the entire combat space. All Zone-synergy effects activate for all allies simultaneously. All enemies in the space are treated as within the Command Zone for all purposes. All allies may play one additional card this turn at no AP cost (chosen by each ally). The battlefield is yours. Every enemy already knows it.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_command_absolute"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

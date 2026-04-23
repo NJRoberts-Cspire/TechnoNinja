@@ -1,0 +1,24 @@
+{
+  "_id": "06a993cf4f58322a",
+  "name": "Resonance Cleanse",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Ritual compound clearing accumulated resonant contamination. Removes all active negative resonance effects and resets contamination status.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_resonance_cleanse",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

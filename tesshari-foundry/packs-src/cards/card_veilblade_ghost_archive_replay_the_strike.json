@@ -1,0 +1,35 @@
+{
+  "_id": "c5ba629ebebe7d36",
+  "name": "Replay the Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Veilblade",
+    "subclass": "Veilblade — Ghost Archive",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Cast a stolen memory back. Repeat the last attack an enemy made this round against that enemy, using your EDGE for the attack roll. Damage is equal to the original attack's damage (max 2d10 + EDGE).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_ghost_archive_replay_the_strike"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

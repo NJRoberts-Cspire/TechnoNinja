@@ -1,0 +1,24 @@
+{
+  "_id": "28456b8279e4177f",
+  "name": "Oni Carapace Fragment",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Harvested from a defeated Oni. Used in dissolution-resistant augmentation crafting.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "oni_carapace_fragment",
+      "originalCategory": "material"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

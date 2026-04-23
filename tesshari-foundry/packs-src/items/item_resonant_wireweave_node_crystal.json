@@ -1,0 +1,26 @@
+{
+  "_id": "71d7436c5d81669b",
+  "name": "Node Crystal",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A crystallized Wire Craft node providing portable network access. Wireweave can draw on this crystal for one network interaction when outside standard range.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_wireweave_node_crystal",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

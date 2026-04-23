@@ -1,0 +1,37 @@
+{
+  "_id": "edf1656223f1a2ab",
+  "name": "Void Apotheosis",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Overheat 2"
+    ],
+    "unlockLevel": 19,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Become fully between worlds for 1 round. You exist in both simultaneously — you cannot be hit (all attacks pass through), you deal +RESONANCE to all your cards, and you can teleport up to 30 feet as a free action at any point during your turn. After this round, gain Overheat 2. Once per scene.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_void_apotheosis"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

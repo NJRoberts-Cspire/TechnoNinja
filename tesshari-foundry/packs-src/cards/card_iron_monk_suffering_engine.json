@@ -1,0 +1,35 @@
+{
+  "_id": "26c4eea4f375016a",
+  "name": "Suffering Engine",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 6,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Convert your damage into Between energy. When you take 10 or more damage in a single hit, your next Attack card this scene deals +10 damage. This bonus stacks — each qualifying hit adds +10 to the pool (maximum +30). The pool resets when you use it.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_suffering_engine"
+    }
+  },
+  "folder": null,
+  "sort": 2006,
+  "ownership": {
+    "default": 0
+  }
+}

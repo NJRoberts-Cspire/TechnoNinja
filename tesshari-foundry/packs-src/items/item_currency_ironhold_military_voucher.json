@@ -1,0 +1,24 @@
+{
+  "_id": "c4b66570e79f5502",
+  "name": "Ironhold Military Voucher",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A voucher redeemable for military supplies and services within Ironhold installations. Face value 30 trade-metal equivalent.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_currency_ironhold_military_voucher",
+      "originalCategory": "currency"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

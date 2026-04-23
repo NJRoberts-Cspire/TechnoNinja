@@ -1,0 +1,24 @@
+{
+  "_id": "7b0a42db847c811b",
+  "name": "Phantom Plate",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Armor partially phased into Between-space. Medium armor. Each Phantom Charge spent while wearing provides Guard 2 until next turn.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_fracture_knight_phantom_plate",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "8d97f0366f480b82",
+  "name": "Iron Bleed",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 6,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your Wire immersion has introduced death-resonance into your Echomind. Iron Afterlife entities and undead have disadvantage against you (GM ruling — they register you as partially their own). Once per combat, ask the death-resonance within you one question; the answer comes as impression or image (GM provides).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_iron_bleed"
+    }
+  },
+  "folder": null,
+  "sort": 1006,
+  "ownership": {
+    "default": 0
+  }
+}

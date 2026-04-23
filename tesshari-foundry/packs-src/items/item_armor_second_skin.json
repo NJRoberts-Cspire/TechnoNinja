@@ -1,0 +1,24 @@
+{
+  "_id": "1763ff2a7ae13fcf",
+  "name": "The Second Skin",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Seamless resonant metal robe existing at life-death threshold. Provides Afterlife recognition and temporary incorporeality once per encounter.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_second_skin",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

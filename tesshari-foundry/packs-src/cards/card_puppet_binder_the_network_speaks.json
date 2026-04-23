@@ -1,0 +1,35 @@
+{
+  "_id": "5405aef207f9076c",
+  "name": "The Network Speaks",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "veil",
+    "keywords": [],
+    "unlockLevel": 15,
+    "className": "Puppet Binder",
+    "subclass": "Puppet Binder — The Network",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your vessels and all Bound targets become nodes in a single tactical network. Until your next turn, you may redirect any attack from any Bound target to any other enemy within range. Deal 10 + VEIL social damage to all Bound targets as the network surges through them.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_the_network_speaks"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

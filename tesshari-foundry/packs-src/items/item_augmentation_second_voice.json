@@ -1,0 +1,26 @@
+{
+  "_id": "25d6215ae2e4e432",
+  "name": "The Second Voice",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Vocal system enhancement providing harmonic control. Grants emotional resonance manipulation and structural sound generation; bearer speaks unguarded truths in sleep.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_second_voice",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

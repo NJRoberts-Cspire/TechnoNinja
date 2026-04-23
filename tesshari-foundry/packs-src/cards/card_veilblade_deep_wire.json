@@ -1,0 +1,37 @@
+{
+  "_id": "8417dcc889af6843",
+  "name": "Deep Wire",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "signal",
+    "keywords": [
+      "Silence"
+    ],
+    "unlockLevel": 8,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You access a Wire network remotely up to 120 feet away — no physical interface point required. This turn, you may apply one of: Silence to all enhanced creatures on the network within 60 feet (1 turn), or deal 10 + SIGNAL signal damage to one connected target as you disrupt their interface, or plant a Wire tap that persists for 24 hours.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_deep_wire"
+    }
+  },
+  "folder": null,
+  "sort": 2008,
+  "ownership": {
+    "default": 0
+  }
+}

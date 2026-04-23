@@ -1,0 +1,26 @@
+{
+  "_id": "ff1426c6c68ea1e9",
+  "name": "Contract Seal",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A resonant seal that binds a contract with resonant force. Ronin utility; both parties to a resonant-sealed contract are aware if terms are violated.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_contract_seal",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

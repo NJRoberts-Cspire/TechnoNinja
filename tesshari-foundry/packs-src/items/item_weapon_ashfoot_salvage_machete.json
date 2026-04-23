@@ -1,0 +1,24 @@
+{
+  "_id": "fc99a166e60913ac",
+  "name": "Salvage Machete",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A heavy blade assembled from enhancement scrap. Deals extra damage against enhanced targets. Degrades after three encounters without maintenance.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_ashfoot_salvage_machete",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "_id": "966a9908eb1d8b78",
+  "name": "The Daimyo's Shadow",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 26,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "veil",
+    "keywords": [
+      "Guard 10",
+      "Expose 6",
+      "Vulnerable 5",
+      "Stagger"
+    ],
+    "unlockLevel": 20,
+    "className": "Shadow Daimyo",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>*The network at its fullest. One moment of total coordination.* Deal 26 + VEIL social damage to all enemies within 40 feet. Apply Expose 6, Vulnerable 5, and Stagger to each. Every ally within 40 feet may immediately take a full bonus turn (play cards up to their AP Max) as a reaction — each ally acts once in initiative order. Apply Guard 10 + VEIL to all allies within 40 feet. Every Shadow Daimyo who has reached this level has used this ability exactly once on something that mattered more than anything else. That is why they spent a lifetime building to it.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shadow_daimyo_the_daimyo_s_shadow"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

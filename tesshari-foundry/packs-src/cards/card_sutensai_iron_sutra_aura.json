@@ -1,0 +1,37 @@
+{
+  "_id": "a8f1963a080267b1",
+  "name": "Iron Sutra Aura",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 2"
+    ],
+    "unlockLevel": 12,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>*While in hand, passive.* You and all allies within 20 feet have Guard 2 at the start of each of your turns. Spiritual or Resonant attacks against the group deal −RESONANCE damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_iron_sutra_aura"
+    }
+  },
+  "folder": null,
+  "sort": 2012,
+  "ownership": {
+    "default": 0
+  }
+}

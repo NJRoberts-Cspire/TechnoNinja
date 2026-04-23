@@ -1,0 +1,35 @@
+{
+  "_id": "3383e1574a70b7c6",
+  "name": "Strike and Fade",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 6,
+    "pierce": 0,
+    "category": "mobility",
+    "primaryStat": "iron",
+    "keywords": [],
+    "unlockLevel": 6,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Hit and move. Make an attack as part of this card (deal 6 + IRON damage), then move up to half your speed without triggering reactions. After the movement, the first attack made against you this round has its damage reduced by your EDGE.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_strike_and_fade"
+    }
+  },
+  "folder": null,
+  "sort": 1006,
+  "ownership": {
+    "default": 0
+  }
+}

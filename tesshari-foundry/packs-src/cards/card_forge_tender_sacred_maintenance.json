@@ -1,0 +1,37 @@
+{
+  "_id": "a17742ea710362e0",
+  "name": "Sacred Maintenance",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Fortify"
+    ],
+    "unlockLevel": 8,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your comprehensive maintenance carries spiritual resonance — forge work as prayer. One ally you touch recovers 8 + RESONANCE HP. They also gain Fortify for 1 turn — their next resistance check (GM ruling) is treated as a success. If the ally is a Sutensai or Iron Sutra-aligned character, add SIGNAL to the HP recovery.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_sacred_maintenance"
+    }
+  },
+  "folder": null,
+  "sort": 1008,
+  "ownership": {
+    "default": 0
+  }
+}

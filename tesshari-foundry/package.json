@@ -1,0 +1,18 @@
+{
+  "name": "tesshari-foundry",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Build tooling for the Tesshari Foundry VTT system (compendium pipeline).",
+  "scripts": {
+    "build-packs": "node tools/build-packs.mjs",
+    "pack:cards": "fvtt package pack cards --id tesshari --type System --in packs-src/cards --out packs",
+    "pack:items": "fvtt package pack items --id tesshari --type System --in packs-src/items --out packs",
+    "pack:all": "npm run pack:cards && npm run pack:items",
+    "all": "npm run build-packs && npm run pack:all",
+    "sync": "node tools/sync-to-foundry.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.3"
+  }
+}

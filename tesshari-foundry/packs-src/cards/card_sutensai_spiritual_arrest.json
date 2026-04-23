@@ -1,0 +1,39 @@
+{
+  "_id": "288e9c6b0400534b",
+  "name": "Spiritual Arrest",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 16,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Stagger",
+      "Root",
+      "Silence"
+    ],
+    "unlockLevel": 10,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one creature within 40 feet. Deal 16 + RESONANCE resonant damage. Apply Stagger, Root, and Silence simultaneously. Cost: pay 12 HP instead of 3 AP (play for 0 AP + 12 HP).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_spiritual_arrest"
+    }
+  },
+  "folder": null,
+  "sort": 3010,
+  "ownership": {
+    "default": 0
+  }
+}

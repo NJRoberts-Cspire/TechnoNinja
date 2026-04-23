@@ -1,0 +1,26 @@
+{
+  "_id": "3a7e11c6935892b3",
+  "name": "Phantom Shard",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A crystallized phantom-space fragment. Generates 1 Phantom Charge at the start of each encounter regardless of rest state.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_phantom_shard",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

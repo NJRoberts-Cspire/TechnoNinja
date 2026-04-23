@@ -1,0 +1,38 @@
+{
+  "_id": "1b78313b5630d414",
+  "name": "Spirit Ward",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 6",
+      "Fortify"
+    ],
+    "unlockLevel": 2,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The dead form a protective presence around you. Gain Guard 6 and Fortify for 1 round. Enemies who target you with Veil cards this round have those cards lose their rider effects — the dead strip away the manipulation.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_spirit_ward"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

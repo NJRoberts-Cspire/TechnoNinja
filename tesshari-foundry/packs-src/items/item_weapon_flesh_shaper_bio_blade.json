@@ -1,0 +1,24 @@
+{
+  "_id": "7367b296a0a861d2",
+  "name": "Bio-Blade",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A blade grown from Flesh Shaper biological material. Regenerates 1 HP per hit. Scales with current HP Tier.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_flesh_shaper_bio_blade",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

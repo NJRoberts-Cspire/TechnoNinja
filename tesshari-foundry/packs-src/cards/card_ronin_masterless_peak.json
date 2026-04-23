@@ -1,0 +1,35 @@
+{
+  "_id": "a37f88ea9fcdc290",
+  "name": "Masterless Peak",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "iron",
+    "keywords": [],
+    "unlockLevel": 16,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your combat style has reached a refinement that the coded schools cannot achieve because it was built entirely from necessity. Deal 20 + IRON damage, then 16 + IRON damage, then 12 + IRON damage to the same target. Each subsequent hit ignores the Guard remaining after the previous one.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_masterless_peak"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "eedc77d3586afb1c",
+  "name": "Puppet Control Remote",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A remote device for managing Puppet Binder vessel commands at range. Commands to bound vessels can be issued from up to 60 feet.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_puppet_control_remote",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

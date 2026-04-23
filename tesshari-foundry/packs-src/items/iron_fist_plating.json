@@ -1,0 +1,24 @@
+{
+  "_id": "a6de9c1a6ef28c82",
+  "name": "Iron Fist Plating",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Iron Monk hand augmentation weapon. Improves unarmed damage die by one step.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "iron_fist_plating",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

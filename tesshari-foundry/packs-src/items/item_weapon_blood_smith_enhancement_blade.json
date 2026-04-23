@@ -1,0 +1,24 @@
+{
+  "_id": "9fe356f6e875f908",
+  "name": "Enhancement Blade",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A blade with resonant-biological enhancement integration. Deals damage equal to Blood Smith HP tier bonus. Costs 2 HP to activate enhancement on strike.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_blood_smith_enhancement_blade",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

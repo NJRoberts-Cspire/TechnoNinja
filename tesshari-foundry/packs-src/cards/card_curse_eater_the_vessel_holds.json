@@ -1,0 +1,37 @@
+{
+  "_id": "622b855ddd64b2c1",
+  "name": "The Vessel Holds",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Shield 6"
+    ],
+    "unlockLevel": 13,
+    "className": "Curse Eater",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Until start of your next turn: you cannot be reduced below 1 HP by any single damage instance; every debuff applied to you grants you Shield 6 (applied immediately on receipt); and any enemy that applies a debuff to you takes 8 + RESONANCE damage immediately (the corruption burns on contact). The Vessel is not breaking today.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_the_vessel_holds"
+    }
+  },
+  "folder": null,
+  "sort": 3013,
+  "ownership": {
+    "default": 0
+  }
+}

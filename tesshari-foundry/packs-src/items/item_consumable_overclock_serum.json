@@ -1,0 +1,24 @@
+{
+  "_id": "e637140bce311b71",
+  "name": "Overclock Serum",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Enhancement performance booster. Grants +2 to one chosen stat for one encounter. Enhancement stress check required at encounter end.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_overclock_serum",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

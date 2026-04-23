@@ -1,0 +1,24 @@
+{
+  "_id": "8d459fb4a10a8df0",
+  "name": "Fracture Salt",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Thrown at or applied to a target. Immediately adds 1 Fracture stack to the target.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "fracture_salt",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

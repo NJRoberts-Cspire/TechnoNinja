@@ -1,0 +1,35 @@
+{
+  "_id": "f5ea072fe2bab1b0",
+  "name": "Cascade Fracture",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Voice of Debt",
+    "subclass": "Shell Dancer — The Breaker",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Choose one enemy with 4+ Debt and detonate them; the fracture cascades. The detonation damage echoes at half value to every enemy within 30 feet of the primary, and each echo-hit enemy gains Debt 3. Second-order Debt-carriers may be caught in a chain at a quarter value.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_the_breaker_cascade_fracture"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

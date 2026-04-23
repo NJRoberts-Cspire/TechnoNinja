@@ -1,0 +1,39 @@
+{
+  "_id": "c677d51f01d9b206",
+  "name": "Biologic Devastation",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 5",
+      "Expose 5",
+      "Vulnerable 4"
+    ],
+    "unlockLevel": 15,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 22 + IRON melee damage to one adjacent target with organic components. Apply Expose 5, Vulnerable 4, and Bleed 5. Restore 8 HP to yourself.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_biologic_devastation"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

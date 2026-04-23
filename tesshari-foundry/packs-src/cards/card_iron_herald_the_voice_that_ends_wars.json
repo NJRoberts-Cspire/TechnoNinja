@@ -1,0 +1,38 @@
+{
+  "_id": "c2db7b4fbf2c3761",
+  "name": "The Voice That Ends Wars",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Taunt",
+      "Area"
+    ],
+    "unlockLevel": 17,
+    "className": "Iron Herald",
+    "subclass": "Echo Speaker — Herald",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>All enemies within 60 meters must spend 2 AP (instead of their normal cost) to play any card this turn. All allies within 60 meters have their AP Max increased to 4 this turn only. Apply Taunt to yourself — every enemy in range now knows where the authority is. While Taunted enemies attack you, your allies act freely in the opened space.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_the_voice_that_ends_wars"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

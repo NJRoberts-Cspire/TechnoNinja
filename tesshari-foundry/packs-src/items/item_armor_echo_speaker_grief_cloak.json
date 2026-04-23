@@ -1,0 +1,24 @@
+{
+  "_id": "def139799713d7ee",
+  "name": "Grief Cloak",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A cloak woven with grief-resonant material. Light armor. Grants immunity to Taunt. Converts incoming emotional manipulation effects to Regen 1.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_echo_speaker_grief_cloak",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

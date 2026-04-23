@@ -1,0 +1,24 @@
+{
+  "_id": "321daedb608fb77b",
+  "name": "The Resonant Ledger",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Resonant-thread journal storing data invisibly to scanning. Signal-invisible information storage with encryption; appears blank to non-resonant readers.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_resonant_ledger",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

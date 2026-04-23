@@ -1,0 +1,37 @@
+{
+  "_id": "15519a5931a5512a",
+  "name": "Sutensai Protocol",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 4"
+    ],
+    "unlockLevel": 6,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Forge Mending performed as a Sutensai rite — technical practice and spiritual care unified. One ally within reach recovers 12 + RESONANCE + SIGNAL HP. They also recover one expended once-per-combat card (GM ruling — a card with a once-per-combat limit). Both you and the healed ally gain Guard 4 against the next hit you each take.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_sutensai_protocol"
+    }
+  },
+  "folder": null,
+  "sort": 2006,
+  "ownership": {
+    "default": 0
+  }
+}

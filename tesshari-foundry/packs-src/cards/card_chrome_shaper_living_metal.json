@@ -1,0 +1,37 @@
+{
+  "_id": "f78167378d27f844",
+  "name": "Living Metal",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 10"
+    ],
+    "unlockLevel": 14,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your own enhancements become fully adaptive. Gain +2 IRON and +2 SIGNAL until end of turn. Gain Guard 10. You may immediately play one Tier 1 card from your hand at 0 AP cost as a follow-up.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_living_metal"
+    }
+  },
+  "folder": null,
+  "sort": 2014,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "53eae0180b420e15",
+  "name": "Distributed Self",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 17,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>For one round, you act from both your body and your vessel simultaneously. Your vessel takes its own full turn (same AP as yours) as a separate initiative. Any cards played by your vessel use your stats. The vessel acts immediately after your turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_distributed_self"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

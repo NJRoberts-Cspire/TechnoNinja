@@ -1,0 +1,37 @@
+{
+  "_id": "7acc299fa1d4239c",
+  "name": "Maximum Output",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [
+      "Overheat 2"
+    ],
+    "unlockLevel": 17,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Push one ally's enhancements to absolute maximum output. Target gains +4 IRON, +4 EDGE, and deals +12 damage on all Attack cards for 1 round. After the round, target gains Overheat 2.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_maximum_output"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

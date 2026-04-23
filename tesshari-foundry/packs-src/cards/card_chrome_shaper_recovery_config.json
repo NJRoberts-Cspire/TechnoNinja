@@ -1,0 +1,38 @@
+{
+  "_id": "5e3b6ede20ed8f9c",
+  "name": "Recovery Config",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Regen 3",
+      "Overheat 1"
+    ],
+    "unlockLevel": 6,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Install a regenerative reconfiguration on one target within reach. Target recovers 14 HP immediately. Apply Regen 3 for 2 rounds. After Regen expires, target gains Overheat 1 (the body cannot sustain indefinite repair cycles).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_recovery_config"
+    }
+  },
+  "folder": null,
+  "sort": 2006,
+  "ownership": {
+    "default": 0
+  }
+}

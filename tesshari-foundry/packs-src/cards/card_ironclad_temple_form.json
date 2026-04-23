@@ -1,0 +1,37 @@
+{
+  "_id": "ce9d0857ebfc893e",
+  "name": "Temple Form",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [
+      "Shield"
+    ],
+    "unlockLevel": 13,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You enter a combat state where every act is worship. Choose one form this turn: **Water** (gain Mobility — your movement does not trigger reactions), **Fire** (after dealing damage, target loses their Reaction), or **Iron** (when you take damage this turn, gain Shield equal to half the damage received).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_temple_form"
+    }
+  },
+  "folder": null,
+  "sort": 2013,
+  "ownership": {
+    "default": 0
+  }
+}

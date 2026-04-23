@@ -1,0 +1,37 @@
+{
+  "_id": "37bc73fa41423115",
+  "name": "Phase Assault",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 14,
+    "pierce": 6,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Stagger"
+    ],
+    "unlockLevel": 8,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Phase into an enemy's space and strike from within. Deal 14 + RESONANCE damage. Pierce 6. Apply Stagger. After the strike, you phase out and reappear up to 20 feet away — this movement does not trigger reactions.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_phase_assault"
+    }
+  },
+  "folder": null,
+  "sort": 2008,
+  "ownership": {
+    "default": 0
+  }
+}

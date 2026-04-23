@@ -1,0 +1,37 @@
+{
+  "_id": "4d59b08e02a5be15",
+  "name": "Approach Protocol",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard"
+    ],
+    "unlockLevel": 10,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You have spent at least one turn observing a target. Your next attack against them this combat deals + EDGE + SIGNAL additional damage and cannot be mitigated by Guard — you identified the unshielded point before you moved. This card sets up the strike; the strike uses another card or your Basic Attack.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_approach_protocol"
+    }
+  },
+  "folder": null,
+  "sort": 2010,
+  "ownership": {
+    "default": 0
+  }
+}

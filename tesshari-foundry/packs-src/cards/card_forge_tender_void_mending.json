@@ -1,0 +1,38 @@
+{
+  "_id": "97694b5b47f94bfa",
+  "name": "Void Mending",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Overheat",
+      "Silence"
+    ],
+    "unlockLevel": 13,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You repair enhancement damage caused by dissolution, void-edge weapons, or Iron Afterlife contact — the specific harm that standard medical kits cannot address. One ally recovers 12 + RESONANCE HP. Remove one instance of Overheat or Silence from them. If the ally has been exposed to Shell-state resonance or Iron Afterlife energy, this card also removes that contamination (GM ruling).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_void_mending"
+    }
+  },
+  "folder": null,
+  "sort": 2013,
+  "ownership": {
+    "default": 0
+  }
+}

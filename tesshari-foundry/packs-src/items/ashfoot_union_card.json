@@ -1,0 +1,24 @@
+{
+  "_id": "ed75541312f66e36",
+  "name": "Ashfoot Union Card",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Membership in an Ashfoot labor collective. Provides safe house access and information contacts in Ashground.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "ashfoot_union_card",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

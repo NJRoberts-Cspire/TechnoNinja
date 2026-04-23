@@ -1,0 +1,35 @@
+{
+  "_id": "91f6ed1d6cac5fbb",
+  "name": "Already Gone",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Ashfoot",
+    "subclass": "Ashfoot — Skirmish Specialist",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>When targeted by any attack, declare you were already leaving. Cancel the attack, move up to your full speed, and leave a dust cloud in your origin space (heavy obscurement, 10-foot radius, until end of round). Once per short rest.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_subclass_power_skirmish_specialist_already_gone"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

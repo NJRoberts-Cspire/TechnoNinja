@@ -1,0 +1,38 @@
+{
+  "_id": "00f80266990207d6",
+  "name": "Chassis Dominance",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 15,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 3",
+      "Expose 3"
+    ],
+    "unlockLevel": 12,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 15 + IRON melee damage to one adjacent target. Apply Bleed 3 and Expose 3. Your FRAME is treated as 2 higher for calculating this card's damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_chassis_dominance"
+    }
+  },
+  "folder": null,
+  "sort": 2012,
+  "ownership": {
+    "default": 0
+  }
+}

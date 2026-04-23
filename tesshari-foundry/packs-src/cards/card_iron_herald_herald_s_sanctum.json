@@ -1,0 +1,39 @@
+{
+  "_id": "bd37f1c8bb088e79",
+  "name": "Herald's Sanctum",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 2",
+      "Guard",
+      "Silence"
+    ],
+    "unlockLevel": 11,
+    "className": "Iron Herald",
+    "subclass": "Echo Speaker — Herald",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Establish a Sanctum Zone centered on a point within 40 meters. Within the 25-meter radius: all enemies take Expose 2; all allies gain Guard equal to your IRON; Silence applies to all enemies for 2 full rounds; and enemies cannot enter or exit the Zone on a turn where they have already played a card — they are held in place by the field's authority. The Sanctum lasts 3 rounds.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_herald_s_sanctum"
+    }
+  },
+  "folder": null,
+  "sort": 3011,
+  "ownership": {
+    "default": 0
+  }
+}

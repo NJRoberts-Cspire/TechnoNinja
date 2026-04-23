@@ -1,0 +1,35 @@
+{
+  "_id": "1d3acb9e0513463a",
+  "name": "Bury the Name",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Oni Hunter",
+    "subclass": "Oni Hunter — Afterlife Anchor",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You speak a true-name into the earth and close it over. The named entity cannot return to this scene, nor to the next, and allies who knew it forget it was ever a threat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_subclass_power_afterlife_anchor_bury_the_name"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "4134b46b07abf3e5",
+  "name": "The Freed Shell (Hollow Author)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A humanoid puppet body freed from Author control, developing independent consciousness. Functional NPC companion capable of self-directed growth.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_construct_freed_shell",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

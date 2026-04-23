@@ -1,0 +1,24 @@
+{
+  "_id": "dcf8d2a89e573998",
+  "name": "Standing Intelligence Contract",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Recurring payment arrangement with an Ironhold intelligence contact. Provides priority access to Ironhold files on Hollow Author known activities.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_doc_standing_intelligence_contract",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

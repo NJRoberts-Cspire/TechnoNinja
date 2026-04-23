@@ -1,0 +1,39 @@
+{
+  "_id": "c7d124fa3b354249",
+  "name": "Forge Blade",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 13,
+    "pierce": 4,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Guard",
+      "Shield",
+      "Bleed 3"
+    ],
+    "unlockLevel": 8,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 13 + IRON melee damage to one adjacent target. Pay 7 HP. Apply Bleed 3. Pierce 4 (ignore 4 Guard/Shield on this card's damage).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_forge_blade"
+    }
+  },
+  "folder": null,
+  "sort": 2008,
+  "ownership": {
+    "default": 0
+  }
+}

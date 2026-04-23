@@ -1,0 +1,24 @@
+{
+  "_id": "a0a8075488f00346",
+  "name": "The Unnamed Fragment",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A resonant metal shard of impossible age containing the first Echomind resonance. Grants sensory ability and immunity to deception; bearer's memories blur with accumulated impressions.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_artifact_unnamed_fragment",
+      "originalCategory": "artifact"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

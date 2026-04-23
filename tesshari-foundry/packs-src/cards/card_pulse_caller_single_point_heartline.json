@@ -1,0 +1,35 @@
+{
+  "_id": "b6e7e304eb8a3955",
+  "name": "Heartline",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Pulse Caller",
+    "subclass": "Pulse Caller — Single Point",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Trace the pulse and fire where it beats loudest. Ranged strike for 1d6 + SIGNAL resonant damage; on hit, the target has disadvantage on their next attack.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_single_point_heartline"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

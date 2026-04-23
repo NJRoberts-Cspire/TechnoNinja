@@ -1,0 +1,24 @@
+{
+  "_id": "59eb7a00cbdbe6cc",
+  "name": "Trade-Metal Pouch (Large)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>200 trade-metal standard; contractor project fee equivalent.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_currency_trade_metal_large",
+      "originalCategory": "currency"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

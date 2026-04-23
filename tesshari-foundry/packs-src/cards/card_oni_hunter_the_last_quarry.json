@@ -1,0 +1,40 @@
+{
+  "_id": "031d107fded2349d",
+  "name": "The Last Quarry",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 24,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "iron+resonance",
+    "keywords": [
+      "Expose 4",
+      "Bleed 3",
+      "Vulnerable 2",
+      "Regen 3"
+    ],
+    "unlockLevel": 19,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You have hunted long enough to know what the last hunt feels like. Deal 24 + IRON + RESONANCE damage to your Marked target. Apply Expose 4, Bleed 3, and Vulnerable 2. Gain Regen 3 for 3 turns. If this attack reduces the target to 0 HP, you may immediately declare a new Final Mark as a free action.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_the_last_quarry"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

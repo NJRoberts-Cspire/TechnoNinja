@@ -1,0 +1,39 @@
+{
+  "_id": "5f7594179b12c556",
+  "name": "Thread Cascade",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 4",
+      "Vulnerable 4",
+      "Stagger"
+    ],
+    "unlockLevel": 19,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Every Bound target within 40 feet takes 16 + SIGNAL signal damage. Apply Vulnerable 4 and Expose 4 to each. Each Bound target is also Staggered. The cascade cannot be resisted — the threads are already inside them.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_thread_cascade"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

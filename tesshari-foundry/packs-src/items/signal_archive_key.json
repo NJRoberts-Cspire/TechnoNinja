@@ -1,0 +1,24 @@
+{
+  "_id": "285d720c95dbb063",
+  "name": "Signal Archive Key",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Key to a pre-Signal era data archive. Contents unknown; significant historical and monetary value.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "signal_archive_key",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

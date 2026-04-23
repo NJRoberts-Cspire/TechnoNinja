@@ -1,0 +1,39 @@
+{
+  "_id": "47c1513818e04123",
+  "name": "Seventh Resonance",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 24,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "iron+resonance",
+    "keywords": [
+      "Regen 3",
+      "Cleanse",
+      "Guard 6"
+    ],
+    "unlockLevel": 18,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You touch the unwritten principle — the one that cannot be taught, only discovered. Deal 24 + IRON + RESONANCE resonant damage to one target. Gain Regen 3 for 3 turns. All debuffs currently on you are Cleansed. Allies within reach gain Guard 6.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_seventh_resonance"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

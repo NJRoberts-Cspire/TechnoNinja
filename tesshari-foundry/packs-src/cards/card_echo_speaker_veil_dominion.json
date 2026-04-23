@@ -1,0 +1,37 @@
+{
+  "_id": "87a1fd0e81749472",
+  "name": "Veil Dominion",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Veil"
+    ],
+    "unlockLevel": 12,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your connection to the Veil becomes total. For the rest of the scene: you detect all hidden, concealed, and invisible creatures within 60 feet. You cannot be surprised. Your RESONANCE Attack cards deal +4 damage. All Control effects you apply last 1 additional round.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_veil_dominion"
+    }
+  },
+  "folder": null,
+  "sort": 3012,
+  "ownership": {
+    "default": 0
+  }
+}

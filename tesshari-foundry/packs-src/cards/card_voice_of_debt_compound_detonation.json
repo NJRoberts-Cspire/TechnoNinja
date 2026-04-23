@@ -1,0 +1,37 @@
+{
+  "_id": "a06a5e3a8239fcbf",
+  "name": "Compound Detonation",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 8,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "veil",
+    "keywords": [
+      "Stagger"
+    ],
+    "unlockLevel": 10,
+    "className": "Voice of Debt",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>*Debt Detonation.* Target up to two creatures within 40 feet each carrying Debt stacks. Deal 8 + VEIL social damage to each plus 4 damage per Debt stack each carries. Remove all Debt stacks from each. Apply Stagger to each.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_compound_detonation"
+    }
+  },
+  "folder": null,
+  "sort": 3010,
+  "ownership": {
+    "default": 0
+  }
+}

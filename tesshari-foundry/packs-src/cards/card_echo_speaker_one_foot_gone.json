@@ -1,0 +1,37 @@
+{
+  "_id": "dc50fc8764638b27",
+  "name": "One Foot Gone",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 10"
+    ],
+    "unlockLevel": 14,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your partial presence in the Iron Afterlife shields you. Gain resistance to the next source of RESONANCE damage this round (halve it). Gain Guard 10. For 1 round, you cannot be Silenced — the dead keep your voice open.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_one_foot_gone"
+    }
+  },
+  "folder": null,
+  "sort": 2014,
+  "ownership": {
+    "default": 0
+  }
+}

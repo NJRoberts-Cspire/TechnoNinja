@@ -1,0 +1,35 @@
+{
+  "_id": "837599cf4ba9ef0a",
+  "name": "Living Node",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 14,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your enhancement network becomes a Wire relay. You are aware of all Wire-active creatures within 120 feet and can route Signal cards through any of them as if they were your origin point. Enemies within 120 feet cannot become hidden from you via Wire means.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_living_node"
+    }
+  },
+  "folder": null,
+  "sort": 2014,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "a075f0cdac05feb1",
+  "name": "Attunement Crystal",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A crystal pre-attuned to Forge Tender resonance frequency. Allows repair of one additional target per short rest beyond normal limits.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_forge_tender_attunement_crystal",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

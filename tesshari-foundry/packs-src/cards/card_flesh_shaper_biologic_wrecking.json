@@ -1,0 +1,38 @@
+{
+  "_id": "b5ba9b2a21f5e3b0",
+  "name": "Biologic Wrecking",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 13,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 3",
+      "Expose 3"
+    ],
+    "unlockLevel": 9,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 13 + IRON melee damage to one adjacent target with organic components. Reduce their effective IRON and FRAME each by 2 until start of your next turn. Apply Bleed 3 and Expose 3.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_biologic_wrecking"
+    }
+  },
+  "folder": null,
+  "sort": 2009,
+  "ownership": {
+    "default": 0
+  }
+}

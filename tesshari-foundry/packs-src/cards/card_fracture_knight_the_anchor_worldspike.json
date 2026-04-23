@@ -1,0 +1,35 @@
+{
+  "_id": "0b887e1fe1afe3ea",
+  "name": "Worldspike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Fracture Knight",
+    "subclass": "Fracture Knight — The Anchor",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Subclass Power: drive your blade into the Between itself and refuse to let it close. Create a massive Fracture zone lasting five rounds; you cannot leave it, and any enemy inside is slowed and bleeds Fracture.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_the_anchor_worldspike"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

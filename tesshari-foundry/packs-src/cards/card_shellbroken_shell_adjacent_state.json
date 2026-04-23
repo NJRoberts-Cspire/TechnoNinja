@@ -1,0 +1,39 @@
+{
+  "_id": "35ff4b94f101e0cf",
+  "name": "Shell-Adjacent State",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 8,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose",
+      "Stagger",
+      "Dispel"
+    ],
+    "unlockLevel": 1,
+    "className": "",
+    "subclass": "",
+    "isRaceCard": true,
+    "race": "Shellbroken",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The Shellbroken briefly re-enters the hollow state — not as a victim but as a controlled weapon. For 1 turn, the Shellbroken's presence becomes genuinely terrifying: all enemies within 20 feet must spend 1 AP to take any offensive action (they feel the wrongness of what stands before them). The Shellbroken's next attack this turn deals 8 + RESONANCE damage and applies Expose 3 and Stagger. If the target is under the Hollow Author's control, the attack also severs that control for 3 turns and the target acts independently for that duration. After this card resolves, the Shellbroken gains Vulnerable 2 until the start of their next turn — the re-entry has a cost.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shellbroken_shell_adjacent_state"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

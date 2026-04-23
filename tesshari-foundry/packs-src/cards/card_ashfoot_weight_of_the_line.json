@@ -1,0 +1,38 @@
+{
+  "_id": "1d0ed28c438a7310",
+  "name": "Weight of the Line",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 4",
+      "Fortify"
+    ],
+    "unlockLevel": 7,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You hold. You simply hold. Until your next turn: you cannot be moved against your will. You cannot be Stunned or Knocked Prone. All allies behind your position gain Guard 4. Any enemy who attempts to push past you takes 8 + IRON damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_weight_of_the_line"
+    }
+  },
+  "folder": null,
+  "sort": 2007,
+  "ownership": {
+    "default": 0
+  }
+}

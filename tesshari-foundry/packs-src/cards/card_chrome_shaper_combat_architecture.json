@@ -1,0 +1,37 @@
+{
+  "_id": "5e261bc25d54d684",
+  "name": "Combat Architecture",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 6,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "signal",
+    "keywords": [
+      "Stagger"
+    ],
+    "unlockLevel": 7,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Perform a rapid hostile reconfiguration on an enemy within 30 feet. Deal 6 + SIGNAL damage and apply Stagger. Alternatively, perform an emergency ally boost: one ally within 30 feet gains +10 HP and their next card costs 1 fewer AP.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_combat_architecture"
+    }
+  },
+  "folder": null,
+  "sort": 1007,
+  "ownership": {
+    "default": 0
+  }
+}

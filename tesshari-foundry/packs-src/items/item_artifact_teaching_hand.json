@@ -1,0 +1,24 @@
+{
+  "_id": "a7dce6f1c2a06a90",
+  "name": "The Teaching Hand",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A resonant gauntlet holding sixty years of teaching knowledge. Enhances instruction and protects students; requires demonstrated teaching experience to activate.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_artifact_teaching_hand",
+      "originalCategory": "artifact"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

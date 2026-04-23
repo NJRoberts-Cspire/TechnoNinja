@@ -1,0 +1,24 @@
+{
+  "_id": "584acf274a6100f5",
+  "name": "Knuckle Resonator",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Resonant impact knuckles. Close-range unarmed augmentation weapon. Deals physical resonant damage.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "knuckle_resonator",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "840033cff5b9c3a3",
+  "name": "Tesshari Standard Credits (Stack)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Official monetary units of the affiliated Reaches. Widely accepted at standard exchange rates.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "tesshari_standard_credits_stack",
+      "originalCategory": "currency"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "10e3ee750deab9f2",
+  "name": "Total Forge",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 24,
+    "pierce": 6,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 5",
+      "Expose 5",
+      "Vulnerable 5"
+    ],
+    "unlockLevel": 17,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 24 + IRON melee damage to one adjacent target. Pay 14 HP. Apply Bleed 5 and Expose 5. Pierce 6. If you are below half HP, apply Vulnerable 5 in addition.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_total_forge"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

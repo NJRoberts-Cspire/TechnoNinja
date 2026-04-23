@@ -1,0 +1,40 @@
+{
+  "_id": "cd0d48c39692ddc6",
+  "name": "Last Round Standing",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Shield",
+      "Cleanse",
+      "Bleed 2",
+      "Overheat 2"
+    ],
+    "unlockLevel": 18,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>One more round. Always one more round. Gain Shield equal to your FRAME × 4. Cleanse all debuffs from yourself. Until end of turn, your attacks deal + IRON + EDGE damage and apply Bleed 2 to each target hit. After this card resolves, gain Overheat 2 — the surge has a price you pay willingly.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_last_round_standing"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

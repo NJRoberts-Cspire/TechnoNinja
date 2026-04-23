@@ -1,0 +1,39 @@
+{
+  "_id": "cfefc9d9267458e9",
+  "name": "Total Discharge",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 24,
+    "pierce": 8,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [
+      "Expose 3",
+      "Stagger",
+      "Overheat 2"
+    ],
+    "unlockLevel": 18,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Release your full resonant energy store in a single discharge at one target within 120 feet. Deal 24 + SIGNAL damage. Pierce 8. Apply Expose 3, Stagger, and Overheat 2 to the target. Your discharge system requires a full reset — you cannot play Attack cards until the start of your next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_total_discharge"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

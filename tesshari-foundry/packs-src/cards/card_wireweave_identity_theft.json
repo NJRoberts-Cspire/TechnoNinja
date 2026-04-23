@@ -1,0 +1,35 @@
+{
+  "_id": "ddca6eec198208a0",
+  "name": "Identity Theft",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 10,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Copy one target creature's complete Wire identity signature. For the scene, you register as that creature to all Wire systems, sensors, and enhancement scanners. Additionally, once this scene, force one enemy with a Wire system to treat you as an ally for 1 round (they cannot target you with hostile cards during that round).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_identity_theft"
+    }
+  },
+  "folder": null,
+  "sort": 3010,
+  "ownership": {
+    "default": 0
+  }
+}

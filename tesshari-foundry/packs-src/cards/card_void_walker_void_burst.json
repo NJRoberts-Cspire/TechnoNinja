@@ -1,0 +1,38 @@
+{
+  "_id": "a196d98d8e089db8",
+  "name": "Void Burst",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger",
+      "Silence"
+    ],
+    "unlockLevel": 7,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Release a burst of concentrated Iron Afterlife energy in a 20-foot radius within 40 feet. All enemies take 18 + RESONANCE damage and gain Stagger. All Signal communication in the area is disrupted for 1 round — Signal and Resonance cards used by enemies in the area this round deal 0 base damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_void_burst"
+    }
+  },
+  "folder": null,
+  "sort": 3007,
+  "ownership": {
+    "default": 0
+  }
+}

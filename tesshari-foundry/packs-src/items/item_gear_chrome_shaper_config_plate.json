@@ -1,0 +1,24 @@
+{
+  "_id": "6c07c8efc6e38290",
+  "name": "Configuration Plate",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Modular component housing a single Chrome Shaper configuration's stat-modifier hardware. Swap plates between configurations in the field.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_chrome_shaper_config_plate",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

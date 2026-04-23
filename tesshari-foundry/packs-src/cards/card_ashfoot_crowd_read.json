@@ -1,0 +1,37 @@
+{
+  "_id": "2d06079f4bf6047a",
+  "name": "Crowd Read",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 1"
+    ],
+    "unlockLevel": 1,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>A survey of the battlefield — the working soldier's version, built from pattern recognition not magical sense. Identify the enemy most likely to act against an ally next turn (GM confirms). Apply Expose 1 to that target — you have read their angle and shared it. This card costs 0 AP if you have not attacked yet this turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_crowd_read"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

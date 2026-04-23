@@ -1,0 +1,38 @@
+{
+  "_id": "840598e2537dee97",
+  "name": "Resonance Architect",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 12",
+      "Regen 3"
+    ],
+    "unlockLevel": 13,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Perform deep resonance restructuring on one ally within reach. Choose one: permanently increase one of their stats by 1 (takes effect immediately, persists beyond scene), or heal them for 20 HP and apply Guard 12 and Regen 3. Once per scene.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_resonance_architect"
+    }
+  },
+  "folder": null,
+  "sort": 3013,
+  "ownership": {
+    "default": 0
+  }
+}

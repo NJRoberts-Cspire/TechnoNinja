@@ -1,0 +1,24 @@
+{
+  "_id": "87d892f814041c35",
+  "name": "Wire Market Directory",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Contact list and protocol guide for Wire Market networks. Essential for Wireweave and Veilblade operations.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_wire_market_directory",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

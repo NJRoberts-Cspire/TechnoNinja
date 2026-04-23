@@ -1,0 +1,24 @@
+{
+  "_id": "1f7c1d348ba5e0fc",
+  "name": "Wire Market Concealment Suit",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Civilian wire-mesh suit suppressing enhancement signatures. Light armor; advantage on disguise and surveillance-avoidance checks.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_wire_market_concealment_suit",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

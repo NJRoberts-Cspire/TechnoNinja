@@ -1,0 +1,24 @@
+{
+  "_id": "57e8e8134c8297c1",
+  "name": "Fortified Iron Ration",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Dense nutrient block. Consumed during short rest: grants +3 additional HP recovered.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "iron_ration_fortified",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

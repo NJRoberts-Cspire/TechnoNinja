@@ -1,0 +1,24 @@
+{
+  "_id": "d08e3910205d686b",
+  "name": "Signal Frequency Analyzer",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Device measuring and recording signal frequency signatures. Identifies individual Wire Craft users and enhancement system types.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_signal_frequency_analyzer",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

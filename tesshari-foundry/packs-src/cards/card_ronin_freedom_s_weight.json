@@ -1,0 +1,41 @@
+{
+  "_id": "dc4576fdcbffd6f0",
+  "name": "Freedom's Weight",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 2",
+      "Expose 2",
+      "Vulnerable 2",
+      "Cleanse",
+      "Fortify"
+    ],
+    "unlockLevel": 19,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The thing the code cannot give and cannot take away. Deal 22 + IRON damage to one target. Apply Bleed 2, Expose 2, and Vulnerable 2. All debuffs currently on you are Cleansed. You cannot be controlled, moved against your will, or Silenced for the remainder of this round.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_freedom_s_weight"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "d4bd1675ac302d2a",
+  "name": "Claimant Intelligence Dossier",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Compiled intelligence on one specific Claimant. Provides social and combat advantage when interacting with or opposing that Claimant.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_claimant_intelligence",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

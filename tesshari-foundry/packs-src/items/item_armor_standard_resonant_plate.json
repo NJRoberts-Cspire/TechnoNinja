@@ -1,0 +1,24 @@
+{
+  "_id": "69fb34ce21ac1a37",
+  "name": "Standard Resonant Plate",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Medium armor of quality resonant torso plate. Professional quality.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_standard_resonant_plate",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

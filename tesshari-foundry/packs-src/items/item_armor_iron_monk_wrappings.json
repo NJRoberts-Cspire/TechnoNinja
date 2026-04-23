@@ -1,0 +1,24 @@
+{
+  "_id": "ef84836496aa3aba",
+  "name": "Iron Monk Combat Wrappings",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Full-body resonant wrappings for Iron Monk practice. Light armor. While Between State is active, provides additional Guard 3.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_iron_monk_wrappings",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

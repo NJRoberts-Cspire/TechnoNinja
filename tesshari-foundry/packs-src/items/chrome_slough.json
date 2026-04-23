@@ -1,0 +1,24 @@
+{
+  "_id": "fa73e5ff4bea5a03",
+  "name": "Chrome Slough",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Shed chrome fragments from Chrome Shaper constructs. Reusable general-purpose crafting material.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "chrome_slough",
+      "originalCategory": "material"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

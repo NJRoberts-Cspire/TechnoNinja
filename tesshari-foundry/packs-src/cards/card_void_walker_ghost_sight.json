@@ -1,0 +1,35 @@
+{
+  "_id": "bfc0640e568137a3",
+  "name": "Ghost Sight",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Extend your Afterlife Perception through solid matter. For 1 round, see through up to 30 feet of walls and solid objects as an Afterlife impression. Hidden enemies within this range are revealed. In combat, learn one piece of information about an enemy you locate this way — their HP bracket or one card they hold.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_ghost_sight"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

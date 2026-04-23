@@ -1,0 +1,39 @@
+{
+  "_id": "1d0fddf86c9bf13f",
+  "name": "Corruption: Overload",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Area",
+      "Vulnerable 3",
+      "Expose 3"
+    ],
+    "unlockLevel": 18,
+    "className": "Curse Eater",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Maximum Loaded required (Loaded 6+). Deal 22 + RESONANCE damage to all enemies within 25 meters. Trigger a Corruption Pulse. Apply Vulnerable 3 and Expose 3 to all enemies hit. Remove all debuffs from yourself. Gain HP equal to your RESONANCE × 4 from the released energy.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_corruption_overload"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

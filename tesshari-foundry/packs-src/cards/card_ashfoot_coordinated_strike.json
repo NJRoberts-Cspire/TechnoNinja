@@ -1,0 +1,38 @@
+{
+  "_id": "e89599056a3b4b17",
+  "name": "Coordinated Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Expose 2",
+      "Root"
+    ],
+    "unlockLevel": 12,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You and an ally attack the same target simultaneously. Deal 12 + IRON damage. If an ally also attacks this target this round, add EDGE to the damage and apply Expose 2. The target must save or be knocked prone (unable to use Mobility cards next turn).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_coordinated_strike"
+    }
+  },
+  "folder": null,
+  "sort": 2012,
+  "ownership": {
+    "default": 0
+  }
+}

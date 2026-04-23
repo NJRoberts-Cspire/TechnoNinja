@@ -1,0 +1,24 @@
+{
+  "_id": "cca11a9f789be51f",
+  "name": "Wire Craft Jammer",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Compact device that jams all Wire Craft signals in a 20-foot radius for 3 turns. Affects all targets including allies.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_wire_craft_jammer",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "5bf63d2d717e3f6e",
+  "name": "Phase Step",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "mobility",
+    "primaryStat": "",
+    "keywords": [
+      "Veil"
+    ],
+    "unlockLevel": 1,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Step out of physical reality. You become incorporeal until the start of your next turn. While incorporeal: you cannot be targeted by Attack cards, you can move through solid barriers, and your attacks deal +4 damage (you strike from the between-space). On return, reappear up to 15 feet from where you phased.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_phase_step"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

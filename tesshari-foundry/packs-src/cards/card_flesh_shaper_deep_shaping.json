@@ -1,0 +1,39 @@
+{
+  "_id": "5b51b7440a8a7d61",
+  "name": "Deep Shaping",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 8,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "signal",
+    "keywords": [
+      "Bleed 3",
+      "Expose 4",
+      "Vulnerable 3"
+    ],
+    "unlockLevel": 8,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one creature within 10 feet with organic components. Apply Expose 4, Vulnerable 3, and Bleed 3. Deal 8 + SIGNAL signal damage (you are rewriting their tissue from the inside). Restore 4 HP to yourself as the shaping feeds back.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_deep_shaping"
+    }
+  },
+  "folder": null,
+  "sort": 2008,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "4b2be2849c69f8ab",
+  "name": "Grief Channel",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A resonant duct running from spine to hands. Allows Echo Speaker to physically channel grief-stacks into attacks, converting stacks directly to bonus damage.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_grief_channel",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

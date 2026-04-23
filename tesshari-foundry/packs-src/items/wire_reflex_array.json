@@ -1,0 +1,26 @@
+{
+  "_id": "c41a99ee0c9434cb",
+  "name": "Wire Reflex Array",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Neural wire upgrade. Increases reaction speed and grants +1 to initiative-adjacent checks.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "wire_reflex_array",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

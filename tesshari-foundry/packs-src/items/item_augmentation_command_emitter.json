@@ -1,0 +1,26 @@
+{
+  "_id": "cd529476c3da64c1",
+  "name": "Command Emitter",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Throat-mounted resonant emitter projecting Command Zone frequency. Iron Herald: Command Zone radius increases by 10 feet and requires no card to establish.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_command_emitter",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

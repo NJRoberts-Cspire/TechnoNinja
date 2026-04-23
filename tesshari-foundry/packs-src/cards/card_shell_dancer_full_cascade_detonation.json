@@ -1,0 +1,39 @@
+{
+  "_id": "dd7730accc5d72a2",
+  "name": "Full Cascade: Detonation",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Area",
+      "Scaling",
+      "Shield"
+    ],
+    "unlockLevel": 12,
+    "className": "Shell Dancer",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Spend all Cascade (minimum 3). Deal (10 + FRAME) damage to all enemies within 15 meters + (4 × Cascade spent) bonus damage split evenly across all targets (minimum 1 per target). After this card resolves, you gain Shield equal to total Cascade spent × 2. Every enhancement you have is running at failure state simultaneously for exactly one moment. That moment is this.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_full_cascade_detonation"
+    }
+  },
+  "folder": null,
+  "sort": 3012,
+  "ownership": {
+    "default": 0
+  }
+}

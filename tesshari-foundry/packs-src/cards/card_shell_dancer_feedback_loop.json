@@ -1,0 +1,37 @@
+{
+  "_id": "4c8c722ec451e28d",
+  "name": "Feedback Loop",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Passive"
+    ],
+    "unlockLevel": 9,
+    "className": "Shell Dancer",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Passive. While this card is in your hand: whenever you take damage from a melee attack, the attacker takes 3 + FRAME damage from cascade feedback. This cannot be prevented or redirected. It happens because the system bounces.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_feedback_loop"
+    }
+  },
+  "folder": null,
+  "sort": 2009,
+  "ownership": {
+    "default": 0
+  }
+}

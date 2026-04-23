@@ -1,0 +1,38 @@
+{
+  "_id": "0418346eb6fc70b3",
+  "name": "Compelled Testimony",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "veil",
+    "keywords": [
+      "Veil",
+      "Vulnerable 3"
+    ],
+    "unlockLevel": 13,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one creature within 30 feet. Deal 10 + VEIL social damage and apply Vulnerable 3. The target cannot willingly benefit from concealment or Veil keyword effects this round.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_compelled_testimony"
+    }
+  },
+  "folder": null,
+  "sort": 2013,
+  "ownership": {
+    "default": 0
+  }
+}

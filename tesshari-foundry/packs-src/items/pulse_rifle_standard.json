@@ -1,0 +1,24 @@
+{
+  "_id": "10f931f482f82ef3",
+  "name": "Standard Pulse Rifle",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Long-range Pulse Caller primary weapon. Standard-issue integrated weapon mount for field operations.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "pulse_rifle_standard",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

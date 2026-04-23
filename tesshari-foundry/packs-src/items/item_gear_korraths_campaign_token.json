@@ -1,0 +1,24 @@
+{
+  "_id": "e44c56749d773fd2",
+  "name": "Korrath's Campaign Token",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A resonant marker distributed to Korrath's acknowledged allies. Grants recognition from Korrath-aligned forces. Dangerous in Author-held territory.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_korraths_campaign_token",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

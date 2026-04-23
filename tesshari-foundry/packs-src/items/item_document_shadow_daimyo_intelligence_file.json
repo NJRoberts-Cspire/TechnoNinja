@@ -1,0 +1,24 @@
+{
+  "_id": "737bfcb0f056a04f",
+  "name": "Intelligence File",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A compiled dossier on a specific target. Provides one free intelligence stack on the subject at encounter start.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_shadow_daimyo_intelligence_file",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

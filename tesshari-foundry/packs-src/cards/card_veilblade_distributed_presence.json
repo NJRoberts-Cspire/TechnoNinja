@@ -1,0 +1,35 @@
+{
+  "_id": "08006b5b3d2a49b2",
+  "name": "Distributed Presence",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 11,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You fragment your Wire-presence across multiple nodes. Until your next turn: any creature that attempts to cut your Wire connection must deal with three separate checks (GM ruling — effectively impossible mid-combat). Your SIGNAL-based cards deal + SIGNAL additional damage. You have advantage on all Wire-based actions (GM ruling).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_distributed_presence"
+    }
+  },
+  "folder": null,
+  "sort": 2011,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "33f6842e7e3a6dc0",
+  "name": "Wire Safe",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A secure container integrated with Wire Craft locking. Can only be opened by a registered Wire Craft signal key. Holds 10 inventory units.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_container_wire_safe",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

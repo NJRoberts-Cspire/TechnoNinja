@@ -1,0 +1,37 @@
+{
+  "_id": "5fed72ca96a94c43",
+  "name": "Puppet Counter",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "reaction",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 3"
+    ],
+    "unlockLevel": 11,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": true,
+    "usesPerCombat": null,
+    "description": "<p>*Trigger: A Bound target attacks an ally.* Redirect that attack back at the attacker. They take their own attack's base damage + your SIGNAL. Apply Expose 3 to them.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_puppet_counter"
+    }
+  },
+  "folder": null,
+  "sort": 2011,
+  "ownership": {
+    "default": 0
+  }
+}

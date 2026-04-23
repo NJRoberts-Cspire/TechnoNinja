@@ -1,0 +1,24 @@
+{
+  "_id": "78e72f2b8a9bb57c",
+  "name": "Signal Scatter Coat",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Coat that randomizes the wearer's resonance signature. Pursuers tracking by signature must reroll.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "signal_scatter_coat",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "4574a8fd1a97afa8",
+  "name": "Precision Cascade",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "edge",
+    "keywords": [
+      "Bleed 3",
+      "Expose 3"
+    ],
+    "unlockLevel": 17,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Every precision strike you have landed this combat feeds the next one. Deal 22 + EDGE damage. For each prior Precision Strike hit this combat (max 4), add 4 damage. Apply Bleed 3 and Expose 3. This card represents the full expression of the Veilblade's training: not one perfect moment but a sequence that was always building to this.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_precision_cascade"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "5ffeca4702216b63",
+  "name": "Ashlands Salvage Components",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Mixed salvage from Ashlands operations. Raw material for Ashfoot and Ronin field modifications. Three units per procedure.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_material_ashlands_salvage",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

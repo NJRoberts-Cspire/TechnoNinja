@@ -1,0 +1,37 @@
+{
+  "_id": "2bf754e03f3f0b60",
+  "name": "Tactical Failure",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "frame",
+    "keywords": [
+      "Area"
+    ],
+    "unlockLevel": 6,
+    "className": "Shell Dancer",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 10 + FRAME damage to all enemies within 12 meters. You take 4 damage (cannot be reduced — the cascade burns you too). Gain 2 Cascade from the feedback.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_tactical_failure"
+    }
+  },
+  "folder": null,
+  "sort": 2006,
+  "ownership": {
+    "default": 0
+  }
+}

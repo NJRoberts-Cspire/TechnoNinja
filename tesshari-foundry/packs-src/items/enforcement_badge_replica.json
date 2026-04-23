@@ -1,0 +1,24 @@
+{
+  "_id": "b3acd2974f41100b",
+  "name": "Enforcement Badge (Replica)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A convincing replica enforcement badge. Passes casual inspection by untrained observers.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "enforcement_badge_replica",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

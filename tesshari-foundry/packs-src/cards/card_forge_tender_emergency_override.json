@@ -1,0 +1,38 @@
+{
+  "_id": "c4221babe014f8d7",
+  "name": "Emergency Override",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [
+      "Shield",
+      "Overheat 1"
+    ],
+    "unlockLevel": 4,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You overclock an adjacent ally's enhancement network. Until their next turn: their movement speed doubles, they gain Shield equal to your SIGNAL × 2, and their next attack deals + SIGNAL additional damage. After this card resolves, the ally gains Overheat 1 — emergency work, not maintenance.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_emergency_override"
+    }
+  },
+  "folder": null,
+  "sort": 2004,
+  "ownership": {
+    "default": 0
+  }
+}

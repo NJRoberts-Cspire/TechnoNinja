@@ -1,0 +1,35 @@
+{
+  "_id": "20af17a8b430e693",
+  "name": "Black Forge Resurrection",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 16,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You perform a procedure the Wire Market would call impossible and the Sutensai would call profane. A creature that has been dead for up to 1 hour (and whose Echomind has not fully integrated into the Iron Afterlife) is restored to 1 HP. This requires your full action and full concentration. The restored creature bears a modification scar visible to any Echomind-reader — they have come back from the edge. Once per combat (or scene).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_black_forge_resurrection"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

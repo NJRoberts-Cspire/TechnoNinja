@@ -1,0 +1,26 @@
+{
+  "_id": "5cda986137d1e300",
+  "name": "Void-Sight Goggles",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Wearable optical device providing limited void-spectrum vision. Reveals objects partially phased into Between-space.</p>",
+    "slot": "gear",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_void_goggles",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

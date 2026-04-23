@@ -1,0 +1,24 @@
+{
+  "_id": "0cf9cbef343523d1",
+  "name": "Resonant Plate (Warded)",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Warded resonant plate at peak defensive construction. Provides +3 Guard passively and negates first Stagger each encounter.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_resonant_plate_tier3",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

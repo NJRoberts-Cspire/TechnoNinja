@@ -1,0 +1,24 @@
+{
+  "_id": "f1a381b8e74ff0d4",
+  "name": "Between-Walker's Coat",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Long coat of resonant thread woven with Between-space material. Light armor; grants resistance to incorporeal damage and reduces Phantom Charge cost by 1.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_between_walkers_coat",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

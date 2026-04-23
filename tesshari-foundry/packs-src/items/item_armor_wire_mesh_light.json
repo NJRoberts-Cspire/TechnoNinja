@@ -1,0 +1,24 @@
+{
+  "_id": "d723f0f54e1fdcf5",
+  "name": "Wire-Mesh Armor (Standard)",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Light armor of wire-silk composite with resonant studs. Professional quality light armor.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_wire_mesh_light",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

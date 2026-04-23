@@ -1,0 +1,37 @@
+{
+  "_id": "b392edb6cb53f877",
+  "name": "Veil Walking",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 4"
+    ],
+    "unlockLevel": 3,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Project your senses briefly into the Iron Afterlife. For 1 round, you perceive the Afterlife overlay on your current location. In combat: reveal all concealed enemies and learn one unplayed card category from each. Your physical body gains Guard 4 while projected.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_veil_walking"
+    }
+  },
+  "folder": null,
+  "sort": 1003,
+  "ownership": {
+    "default": 0
+  }
+}

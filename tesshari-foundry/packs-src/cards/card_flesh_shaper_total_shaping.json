@@ -1,0 +1,41 @@
+{
+  "_id": "7c45194031f95991",
+  "name": "Total Shaping",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 26,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 5",
+      "Expose 6",
+      "Vulnerable 5",
+      "Stagger",
+      "Root"
+    ],
+    "unlockLevel": 19,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one creature within 10 feet with organic components. Deal 26 + IRON melee damage. Apply Expose 6, Vulnerable 5, Bleed 5, Stagger, and Root simultaneously. Restore 10 HP to yourself.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_total_shaping"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

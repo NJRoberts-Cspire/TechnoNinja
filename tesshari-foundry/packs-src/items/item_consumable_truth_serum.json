@@ -1,0 +1,24 @@
+{
+  "_id": "38e277657d07bff6",
+  "name": "Truth Serum",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A chemical compound inhibiting deceptive speech. Target cannot intentionally lie for 10 minutes. Used in interrogation and negotiation.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_truth_serum",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

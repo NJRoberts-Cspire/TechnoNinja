@@ -1,0 +1,24 @@
+{
+  "_id": "21a972b663d25458",
+  "name": "Debt Collection Badge",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A formal badge issued by Wire Market debt collection services. Provides legal authority to demand payment from registered debtors.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_debt_collection_badge",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

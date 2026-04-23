@@ -1,0 +1,37 @@
+{
+  "_id": "bdf92cb3bf147ad6",
+  "name": "Whisper Network",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 2"
+    ],
+    "unlockLevel": 8,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Expose 2 to all enemies within 40 feet simultaneously. This card costs 0 AP if you have an active vessel on the field.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_whisper_network"
+    }
+  },
+  "folder": null,
+  "sort": 1008,
+  "ownership": {
+    "default": 0
+  }
+}

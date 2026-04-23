@@ -1,0 +1,24 @@
+{
+  "_id": "740f5c6a8afcfb61",
+  "name": "Between Membrane",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Thin material from a Between-entity. Used in Iron Monk between-state focus crafting.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "between_membrane",
+      "originalCategory": "material"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

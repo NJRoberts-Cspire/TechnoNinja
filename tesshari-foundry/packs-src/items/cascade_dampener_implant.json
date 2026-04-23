@@ -1,0 +1,26 @@
+{
+  "_id": "88985a385c0b6b27",
+  "name": "Cascade Dampener Implant",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Subcutaneous implant. Automatically reduces Cascade Stacks by 1 at the start of each round.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "cascade_dampener_implant",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

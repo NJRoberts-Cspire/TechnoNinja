@@ -1,0 +1,38 @@
+{
+  "_id": "763134b23ab6de7b",
+  "name": "Wire Assault",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [
+      "Stagger",
+      "Overheat 2"
+    ],
+    "unlockLevel": 5,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You direct a Wire surge at one enhanced target within 60 feet. Deal 12 + SIGNAL signal damage. Apply Stagger — their enhancements briefly overload. If your SIGNAL exceeds their SIGNAL, also apply Overheat 2 as the surge cascades through their systems.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_wire_assault"
+    }
+  },
+  "folder": null,
+  "sort": 2005,
+  "ownership": {
+    "default": 0
+  }
+}

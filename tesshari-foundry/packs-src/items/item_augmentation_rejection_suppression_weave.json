@@ -1,0 +1,26 @@
+{
+  "_id": "ebf4b0e9e818d1c8",
+  "name": "Rejection Suppression Weave",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Ashlands-derived enhancement modification extending operational life by two enhancement tier grades. Grants resistance to forced disabling effects.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_rejection_suppression_weave",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

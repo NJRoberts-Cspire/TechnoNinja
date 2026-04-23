@@ -1,0 +1,37 @@
+{
+  "_id": "6ae4bccbd2923434",
+  "name": "Scrap Armor",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "reaction",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 3"
+    ],
+    "unlockLevel": 13,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": true,
+    "usesPerCombat": null,
+    "description": "<p>*Triggered when you take 8 or more damage from a single source.* You strip a component from your gear or the environment and interpose it. Reduce the triggering damage by your FRAME + EDGE. Until your next turn, gain Guard 3 from the improvised ablative protection.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_scrap_armor"
+    }
+  },
+  "folder": null,
+  "sort": 1013,
+  "ownership": {
+    "default": 0
+  }
+}

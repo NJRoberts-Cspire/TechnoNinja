@@ -1,0 +1,38 @@
+{
+  "_id": "285bc1e6a71f7b17",
+  "name": "Nothing to Lose",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 8,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "iron",
+    "keywords": [
+      "Expose 2",
+      "Stagger"
+    ],
+    "unlockLevel": 4,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Below 10 HP or at the fight's desperate edge — this is where the Ashfoot finds something extra. Deal 8 + IRON damage. Apply Expose 2. If you have 10 HP or fewer when you play this card, add EDGE to the damage and apply Stagger as well.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_nothing_to_lose"
+    }
+  },
+  "folder": null,
+  "sort": 1004,
+  "ownership": {
+    "default": 0
+  }
+}

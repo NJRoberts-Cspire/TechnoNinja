@@ -1,0 +1,38 @@
+{
+  "_id": "b613d401d9dafecf",
+  "name": "Unbreakable Line",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 8",
+      "Fortify"
+    ],
+    "unlockLevel": 14,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You hold a position that should not be held because leaving means everyone behind you dies. Until your next turn: you cannot be moved or displaced. All allies within reach cannot be moved or displaced. Enemies who attempt to move through your position take 10 + IRON damage. All allies within reach gain Guard 8.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_unbreakable_line"
+    }
+  },
+  "folder": null,
+  "sort": 3014,
+  "ownership": {
+    "default": 0
+  }
+}

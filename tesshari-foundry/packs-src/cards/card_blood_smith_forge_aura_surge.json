@@ -1,0 +1,38 @@
+{
+  "_id": "47e0df1edae0c7dd",
+  "name": "Forge Aura Surge",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 14",
+      "Regen 5"
+    ],
+    "unlockLevel": 18,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Guard 14 + IRON to yourself. Pay 14 HP in addition to 3 AP. Until your next turn, enemies within 15 feet take 6 + RESONANCE resonant damage at the start of each of their turns. Apply Regen 5 to yourself.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_forge_aura_surge"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

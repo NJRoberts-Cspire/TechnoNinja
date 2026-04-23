@@ -1,0 +1,37 @@
+{
+  "_id": "b56e669071ea9ecf",
+  "name": "The Living Sutra",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 16,
+    "pierce": 4,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Guard 8"
+    ],
+    "unlockLevel": 14,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You are the Sutra expressed. Deal 16 + IRON damage to one target within melee range. All allies within 30 feet who can see you recover 8 HP and gain Guard 8. **Below half HP:** Your attack deals 24 + IRON damage instead, and allied recovery increases to 14 HP.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_the_living_sutra"
+    }
+  },
+  "folder": null,
+  "sort": 3014,
+  "ownership": {
+    "default": 0
+  }
+}

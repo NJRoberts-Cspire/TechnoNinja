@@ -1,0 +1,40 @@
+{
+  "_id": "e8cc4f620eeabd54",
+  "name": "The Invisible Hand",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger",
+      "Intelligence 3",
+      "Debt 3",
+      "Area"
+    ],
+    "unlockLevel": 20,
+    "className": "Merchant Knife",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You were never here, and this was inevitable. Select up to three targets currently in combat. For each target with Intelligence on them, apply the following simultaneously: all their Debt stacks are converted to Vulnerable stacks at equal value; all their Guard and Shield are removed; they cannot play Tier 2 or Tier 3 cards for 1 full round. For each target without Intelligence, this card applies Intelligence 3 and Debt 3 instead — the file has been opened. The economic architecture of this encounter was designed before the encounter began. This is the completion date.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_the_invisible_hand"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "36c47b05d825ddb2",
+  "name": "Fractured Presence",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Passive"
+    ],
+    "unlockLevel": 1,
+    "className": "Fracture Knight",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Passive. This card counts toward hand size and is never \"\"played.\"\" While this card is in your hand: you sense all Afterlife-connected creatures within 40 meters (including puppets — their control thread is visible to you as a faint resonant line). Additionally, at the start of each combat, gain 2 Phantom Charges.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_fractured_presence"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

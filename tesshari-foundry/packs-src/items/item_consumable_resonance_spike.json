@@ -1,0 +1,24 @@
+{
+  "_id": "90ef0fc2d2e8e09b",
+  "name": "Resonance Spike",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Thrown disruption charge. Applies Overheat 3 and Silence 1 turn to target on hit.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_resonance_spike",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

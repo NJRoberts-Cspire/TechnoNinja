@@ -1,0 +1,35 @@
+{
+  "_id": "428cce790d503797",
+  "name": "Living Machine",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 16,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>While in hand, passive. You are immune to critical hits. Your FRAME is treated as 2 higher for all HP calculations. Enemies cannot determine your HP by observation.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_living_machine"
+    }
+  },
+  "folder": null,
+  "sort": 2016,
+  "ownership": {
+    "default": 0
+  }
+}

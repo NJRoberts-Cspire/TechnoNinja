@@ -1,0 +1,26 @@
+{
+  "_id": "605ff7f770c3cd34",
+  "name": "Ironclad Resonance Core",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Dense resonant core worn by Ironclad practitioners. Seventh Vein capstone: stores one use of the vein surge between scenes.</p>",
+    "slot": "gear",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "ironclad_resonance_core",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

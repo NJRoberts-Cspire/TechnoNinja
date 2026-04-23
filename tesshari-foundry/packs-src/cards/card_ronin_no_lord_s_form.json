@@ -1,0 +1,39 @@
+{
+  "_id": "f256de1d84667188",
+  "name": "No Lord's Form",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 14,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Stagger",
+      "Expose 2",
+      "Dispel"
+    ],
+    "unlockLevel": 11,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You fight in a style that has no name because it was never taught — it was survived into. Deal 14 + IRON damage. Apply Stagger and Expose 2. The target cannot benefit from any bonus their class or features give them against your attacks this turn (they were designed for coded opponents; you are not one).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_no_lord_s_form"
+    }
+  },
+  "folder": null,
+  "sort": 2011,
+  "ownership": {
+    "default": 0
+  }
+}

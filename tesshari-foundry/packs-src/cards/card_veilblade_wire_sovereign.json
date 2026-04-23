@@ -1,0 +1,38 @@
+{
+  "_id": "7ade71f05cbc545a",
+  "name": "Wire Sovereign",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 16,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "signal",
+    "keywords": [
+      "Silence",
+      "Expose 3"
+    ],
+    "unlockLevel": 12,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Within any Wire network you have accessed, you are the administrator. Lock one target out of all Wire access permanently this combat (apply Silence — cannot be Cleansed). Issue one system-wide command. Access all historical data on any target (Expose 3 applied to one target as you reveal everything their record contains). Deal 16 + SIGNAL signal damage to the locked target.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_wire_sovereign"
+    }
+  },
+  "folder": null,
+  "sort": 3012,
+  "ownership": {
+    "default": 0
+  }
+}

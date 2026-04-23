@@ -1,0 +1,37 @@
+{
+  "_id": "76b509af5afca51c",
+  "name": "What Emptiness Knows",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Guard"
+    ],
+    "unlockLevel": 1,
+    "className": "",
+    "subclass": "",
+    "isRaceCard": true,
+    "race": "Shellbroken",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The Shellbroken draws on specific knowledge that only comes from having been completely empty — from knowing what a self looks like from the outside. Target one enemy within 30 feet. The Shellbroken reads that target's next action before it occurs: the target's next card played this combat has its effect halved and its keywords negated. Additionally, all allies within 15 feet gain Guard (2 + RESONANCE) as the Shellbroken telegraphs the incoming threat. This card cannot be used on the same target more than once per combat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shellbroken_what_emptiness_knows"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

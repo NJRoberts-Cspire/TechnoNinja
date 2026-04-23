@@ -1,0 +1,24 @@
+{
+  "_id": "aa9a6360167f077e",
+  "name": "Dissolution Reader",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Device measuring dissolution resonance levels and shell-state signatures. Oni Hunter utility.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_dissolution_reader",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

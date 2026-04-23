@@ -1,0 +1,40 @@
+{
+  "_id": "ba0a313d0acf879b",
+  "name": "What We're Worth Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "iron",
+    "keywords": [
+      "Expose 3",
+      "Bleed 2",
+      "Guard 6",
+      "Regen 2"
+    ],
+    "unlockLevel": 17,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You don't fight for the hierarchy's approval. You fight for the people behind you. Deal 20 + IRON damage. Apply Expose 3 and Bleed 2. All allies within reach gain Guard 6 and Regen 2 for 2 turns. This card's damage cannot be reduced below 10 total — some things land regardless.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_what_we_re_worth_strike"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

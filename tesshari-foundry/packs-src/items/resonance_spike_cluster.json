@@ -1,0 +1,24 @@
+{
+  "_id": "7148d14bdda03968",
+  "name": "Resonance Spike Cluster",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Three resonance spikes bundled together. Deployed simultaneously to overload a zone's resonance grid.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "resonance_spike_cluster",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

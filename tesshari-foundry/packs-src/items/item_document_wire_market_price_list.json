@@ -1,0 +1,24 @@
+{
+  "_id": "c377a7667da5612c",
+  "name": "Wire Market Price List",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Current pricing and availability for Wire Market goods and services. Provides advantage on all Wire Market transactions.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_wire_market_price_list",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

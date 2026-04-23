@@ -1,0 +1,24 @@
+{
+  "_id": "3a396bbb887a12f0",
+  "name": "Resonant Blade (Masterwork)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Master-crafted resonant blade at peak material performance. Deals +2 damage, applies Expose 2, and ignores 2 Guard.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_resonant_blade_tier3",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

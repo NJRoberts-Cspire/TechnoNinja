@@ -1,0 +1,40 @@
+{
+  "_id": "c6ba2be8cb13a033",
+  "name": "The Fallen Speak",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger",
+      "Expose 2",
+      "Silence",
+      "Guard 8"
+    ],
+    "unlockLevel": 19,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Every dead voice you have ever carried speaks at once. All enemies within 40 feet take 20 + RESONANCE damage and gain Stagger, Expose 2, and Silence for 1 round. Allies within 40 feet recover 10 HP and gain Guard 8 — the dead protect those who honor them.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_the_fallen_speak"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

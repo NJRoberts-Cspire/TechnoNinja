@@ -1,0 +1,37 @@
+{
+  "_id": "abf9cce125205687",
+  "name": "Salvage Upgrade",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Variable"
+    ],
+    "unlockLevel": 6,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>During this turn or as preparation before combat (with time to work), modify one weapon you are carrying. Choose: **Weighted** (+ 2 base damage), **Brutal** (apply Bleed 1 on hit), or **Balanced** (gain Guard 2 after each attack with it this turn). This modification lasts the combat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_salvage_upgrade"
+    }
+  },
+  "folder": null,
+  "sort": 1006,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "b1ca23766b71a186",
+  "name": "Forge Under Fire",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 7,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You cannot be interrupted while performing Forge actions — not by noise, movement, or damage to your own body mid-work. Your forge cards cannot fail due to environmental conditions. Once per combat, you may perform a Forge card on a target at range up to 30 feet (voice-guided resonance channel rather than physical contact).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_forge_under_fire"
+    }
+  },
+  "folder": null,
+  "sort": 1007,
+  "ownership": {
+    "default": 0
+  }
+}

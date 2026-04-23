@@ -1,0 +1,38 @@
+{
+  "_id": "c8cf7f7524e9a2c2",
+  "name": "Iron Scar",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Shield 8",
+      "Bleed 1"
+    ],
+    "unlockLevel": 6,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your enhancements have been repaired by your own hands more times than you can count, and the repairs have built toughness the clean versions don't have. Gain Shield 8. This shield has a rough quality — if it absorbs 5 or more damage in a single hit, also apply Bleed 1 to the attacker (the scar tissue bites back).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_iron_scar"
+    }
+  },
+  "folder": null,
+  "sort": 1006,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "e84b47ecab70af02",
+  "name": "Command Field",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 7,
+    "className": "Iron Herald",
+    "subclass": "Echo Speaker — Herald",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Expand your active Command Zone's radius to 30 meters until the start of your next turn. While expanded, allies deal +IRON (instead of +VEIL) on their first card per turn. Enemies in the Zone have Disadvantage on attacks against targets outside the Zone — they cannot effectively strike beyond the field you control.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_command_field"
+    }
+  },
+  "folder": null,
+  "sort": 2007,
+  "ownership": {
+    "default": 0
+  }
+}

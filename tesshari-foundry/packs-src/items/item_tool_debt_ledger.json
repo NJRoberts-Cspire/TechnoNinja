@@ -1,0 +1,24 @@
+{
+  "_id": "c9fc3ce8e494a667",
+  "name": "Debt Ledger",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A formal accounting device tracking outstanding Debt obligations. Voice of Debt utility; provides mechanical advantage when detonating debt against recorded targets.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_debt_ledger",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "7dc16c8d7072396d",
+  "name": "Void Deepens (Apex)",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 5",
+      "Vulnerable 4",
+      "Stagger"
+    ],
+    "unlockLevel": 17,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 22 + RESONANCE resonant damage to one target within 30 feet. Apply Expose 5, Vulnerable 4, and Stagger. For each 20 HP you are missing, deal an additional RESONANCE bonus damage (maximum +RESONANCE × 5 additional damage from this scaling).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_void_deepens_apex"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

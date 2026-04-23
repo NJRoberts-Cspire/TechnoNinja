@@ -1,0 +1,35 @@
+{
+  "_id": "ad7be017ddb21181",
+  "name": "Fracture Complete",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 19,
+    "className": "Fracture Knight",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>For 1 full round, you exist in both worlds. All your Attack cards deal an additional +RESONANCE damage and are Pierce (all mitigation) for this round. At the end of this round, you may consume all Fracture stacks on all enemies within 20 meters simultaneously: deal (6 + IRON) damage per stack consumed to the enemy who carried it. This damage cannot be reduced. Then gain HP equal to your RESONANCE × total stacks consumed. The dead in you are fully integrated. They are not separate presences. They are what you have become, and what you have become is the evidence for everything that it costs to be the connection.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_fracture_complete"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

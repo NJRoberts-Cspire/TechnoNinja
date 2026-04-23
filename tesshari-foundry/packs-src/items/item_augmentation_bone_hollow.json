@@ -1,0 +1,26 @@
+{
+  "_id": "b77b3c93836ba800",
+  "name": "Bone Hollow",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Resonant hollowing of the major bones. Grants +4 Max HP and enables bearer to absorb one point of incoming damage per turn automatically.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_bone_hollow",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

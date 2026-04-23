@@ -1,0 +1,24 @@
+{
+  "_id": "181995fff7ef8766",
+  "name": "Pulse Dampener Round",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Ammunition for Pulse Caller integrated weapon. Next ranged attack produces no detectable sound signature.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "pulse_dampener_round",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

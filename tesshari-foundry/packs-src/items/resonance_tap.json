@@ -1,0 +1,24 @@
+{
+  "_id": "f31c1663d268b74f",
+  "name": "Resonance Tap",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Extracts ambient resonance from a location. Forge Tender replenishes one mend charge from local field.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "resonance_tap",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

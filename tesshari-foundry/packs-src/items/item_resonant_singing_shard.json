@@ -1,0 +1,26 @@
+{
+  "_id": "c3815b80c958aee1",
+  "name": "The Singing Shard",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Convergence-touched resonant fragment singing below human hearing. Bearer receives Convergence approach impressions and can amplify claimant detection.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_singing_shard",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

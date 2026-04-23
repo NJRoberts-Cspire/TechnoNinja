@@ -1,0 +1,38 @@
+{
+  "_id": "d3ec836b24294a9a",
+  "name": "Weight of Law",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 8,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 3",
+      "Stagger"
+    ],
+    "unlockLevel": 4,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 8 + VEIL social damage to one target within 30 feet. Apply Expose 3 and Stagger. Cost: pay 6 HP instead of 2 AP (play for 0 AP + 6 HP).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_weight_of_law"
+    }
+  },
+  "folder": null,
+  "sort": 2004,
+  "ownership": {
+    "default": 0
+  }
+}

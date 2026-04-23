@@ -1,0 +1,24 @@
+{
+  "_id": "40285605fbb5e5b4",
+  "name": "Wire Diagnostic Kit",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Precision tools for diagnosing Wire Craft network faults and enhancement system failures. Grants advantage on all Wire Craft repair and analysis checks.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_wire_diagnostic_kit",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

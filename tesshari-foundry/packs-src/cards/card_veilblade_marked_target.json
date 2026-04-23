@@ -1,0 +1,37 @@
+{
+  "_id": "a63d0503581e0012",
+  "name": "Marked Target",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Mark"
+    ],
+    "unlockLevel": 1,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Designate one target. Apply Mark to them. Your Precision Strike and EDGE-based attacks deal + EDGE additional damage against your Marked Target this combat. You always know their position in the encounter while the Mark is active. You may only have one Mark active at a time.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_marked_target"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

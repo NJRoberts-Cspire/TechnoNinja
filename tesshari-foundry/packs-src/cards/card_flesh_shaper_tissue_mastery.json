@@ -1,0 +1,38 @@
+{
+  "_id": "0c8c8694d4707203",
+  "name": "Tissue Mastery",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 4",
+      "Regen 3"
+    ],
+    "unlockLevel": 10,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply a permanent in-combat modification to one willing ally within 10 feet: choose either Guard 4 (passive, stacks with other Guard) or Regen 3 (ongoing). The effect lasts until end of combat. Restore 6 + SIGNAL HP to the target.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_tissue_mastery"
+    }
+  },
+  "folder": null,
+  "sort": 2010,
+  "ownership": {
+    "default": 0
+  }
+}

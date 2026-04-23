@@ -1,0 +1,24 @@
+{
+  "_id": "18d90e9342b4bf07",
+  "name": "Contamination Scrubber",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Device removing Engine Scar contamination from equipment and biological material. Each use clears one contamination tier from target object.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_contamination_scrubber",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

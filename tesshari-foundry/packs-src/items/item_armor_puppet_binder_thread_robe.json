@@ -1,0 +1,24 @@
+{
+  "_id": "93e51ea614d3b874",
+  "name": "Thread Robe",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A robe threaded with active binding material. Light armor. Each binding thread active on enemies also provides Guard 1 to bearer (max Guard 5 from this source).</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_puppet_binder_thread_robe",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

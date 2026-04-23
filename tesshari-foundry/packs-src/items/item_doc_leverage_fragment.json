@@ -1,0 +1,24 @@
+{
+  "_id": "a818d5647a0d9423",
+  "name": "Leverage Fragment",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A piece of political intelligence on Korrath usable once in negotiation to compel a significant concession. Extremely dangerous to possess.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_doc_leverage_fragment",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

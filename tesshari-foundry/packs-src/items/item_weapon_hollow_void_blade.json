@@ -1,0 +1,24 @@
+{
+  "_id": "1738420b822b7fa2",
+  "name": "Void-Blade",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A blade that absorbs incoming resonance. When below 25% HP, deals triple damage. Applies Expose 3 while bearer is at critical HP Percent.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_hollow_void_blade",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

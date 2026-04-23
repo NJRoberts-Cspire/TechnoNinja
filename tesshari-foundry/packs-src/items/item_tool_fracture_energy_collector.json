@@ -1,0 +1,24 @@
+{
+  "_id": "bbdfe99f48f26317",
+  "name": "Fracture Energy Collector",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A device harvesting ambient fracture resonance. Fracture Knight utility; provides 1 Phantom Charge per long rest from ambient collection.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_fracture_energy_collector",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

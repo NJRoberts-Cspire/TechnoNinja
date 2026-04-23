@@ -1,0 +1,24 @@
+{
+  "_id": "3d096aba1454ed20",
+  "name": "Sutensai Ceremonial Plate",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Formal resonant plate worn by Sutensai during readings and rites. Medium armor. Provides social authority equal to a full Keeper rank when worn visibly.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_sutensai_ceremonial_plate",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

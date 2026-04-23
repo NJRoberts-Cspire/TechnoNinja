@@ -1,0 +1,24 @@
+{
+  "_id": "48ddda1c83a1ef09",
+  "name": "Modular Weapon Arm",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A Chrome Shaper limb-integrated weapon system. Deals damage appropriate to current configuration. Swaps damage type with configuration switch.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_chrome_shaper_modular_arm",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

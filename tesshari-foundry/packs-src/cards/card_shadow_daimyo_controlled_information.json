@@ -1,0 +1,40 @@
+{
+  "_id": "ab2e05cf84e2bb16",
+  "name": "Controlled Information",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "veil",
+    "keywords": [
+      "Shield",
+      "Regen",
+      "Expose 4",
+      "Stagger"
+    ],
+    "unlockLevel": 12,
+    "className": "Shadow Daimyo",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 12 + VEIL social damage to one target within 40 feet. Apply Stagger and Expose 4. Remove all Regen and Shield from the target — you have cut off their support.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shadow_daimyo_controlled_information"
+    }
+  },
+  "folder": null,
+  "sort": 2012,
+  "ownership": {
+    "default": 0
+  }
+}

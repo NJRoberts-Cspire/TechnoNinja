@@ -1,0 +1,38 @@
+{
+  "_id": "70fc0aed8ebad084",
+  "name": "Edge of Living",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 4",
+      "Fortify"
+    ],
+    "unlockLevel": 18,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You have walked the edge between hunter and quarry long enough to stand there deliberately. Until your next turn: all your attacks deal + IRON + RESONANCE damage. You cannot be reduced below 1 HP (once per combat — not a Passive, this is a chosen moment). Apply Expose 4 to your Marked target. You may make a Basic Attack as part of this card's activation.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_edge_of_living"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

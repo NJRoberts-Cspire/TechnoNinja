@@ -1,0 +1,38 @@
+{
+  "_id": "4b12681f6ba1cd89",
+  "name": "Anchor Protocol",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger",
+      "Expose 2"
+    ],
+    "unlockLevel": 10,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deploy up to three spiritual anchors in formation. Any Iron Afterlife entity within the anchor network (all three within 30 feet of each other) suffers Stagger, Expose 2, and cannot use movement abilities to leave the network's area. Entities already present when the network activates also take 8 + RESONANCE resonant damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_anchor_protocol"
+    }
+  },
+  "folder": null,
+  "sort": 2010,
+  "ownership": {
+    "default": 0
+  }
+}

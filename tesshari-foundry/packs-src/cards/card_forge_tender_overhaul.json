@@ -1,0 +1,37 @@
+{
+  "_id": "609b87d17e623415",
+  "name": "Overhaul",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Cleanse"
+    ],
+    "unlockLevel": 14,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Perform comprehensive repairs on one adjacent ally during a pause in combat. They recover 16 + RESONANCE HP. Remove one ongoing condition (Bleed, Burn, Overheat — one stack cleared). Their next attack this combat deals + SIGNAL additional damage — the overhaul temporarily optimizes their offensive output.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_overhaul"
+    }
+  },
+  "folder": null,
+  "sort": 2014,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "f1088c2480151b8a",
+  "name": "The Work That Saves",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 16,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "signal",
+    "keywords": [],
+    "unlockLevel": 15,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You perform procedures that the Wire Market would declare impossible and the Sutensai would declare profane, and people are alive because you did. Deal 16 + SIGNAL signal damage to one enemy (the technical precision of someone who knows exactly how enhancement systems break). Simultaneously, heal the two lowest-HP allies in the encounter for 14 + RESONANCE HP each. Once per combat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_the_work_that_saves"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

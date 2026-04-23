@@ -1,0 +1,37 @@
+{
+  "_id": "34f85ccedb85029a",
+  "name": "Saboteur's Eye",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 3"
+    ],
+    "unlockLevel": 11,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You read the structure of the fight itself — its weak points, its over-extended angles. Identify one structural or positional weakness in the combat (GM ruling). Your next attack against that weakness deals + IRON + EDGE damage and applies Expose 3 to the target. Your attacks against objects, structures, or vehicles deal double damage this turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_saboteur_s_eye"
+    }
+  },
+  "folder": null,
+  "sort": 2011,
+  "ownership": {
+    "default": 0
+  }
+}

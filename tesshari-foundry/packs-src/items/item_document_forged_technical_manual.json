@@ -1,0 +1,24 @@
+{
+  "_id": "aaec5bd2b0ad7822",
+  "name": "Forged Technical Manual",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Technical documentation for Forged chassis maintenance and modification. Grants advantage on all Forged-related maintenance checks.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_forged_technical_manual",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

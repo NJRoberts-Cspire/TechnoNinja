@@ -1,0 +1,24 @@
+{
+  "_id": "2ebe35e1e2f11602",
+  "name": "Raw Biological Compound",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Unprocessed biological material for Flesh Shaper procedures. Must be used within 48 hours.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_material_biological_compound",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

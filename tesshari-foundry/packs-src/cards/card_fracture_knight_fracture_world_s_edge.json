@@ -1,0 +1,40 @@
+{
+  "_id": "4e1d53bb225aa54c",
+  "name": "Fracture: World's Edge",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Area",
+      "Scaling",
+      "Fracture 2",
+      "Paralysis"
+    ],
+    "unlockLevel": 18,
+    "className": "Fracture Knight",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Spend all Phantom Charges (minimum 3). Reality cracks in a 20-meter radius around you. All enemies in the area take (12 + RESONANCE) damage + (4 × Phantom Charges spent). Apply Fracture 2 to all enemies hit. All enemies in the area can see into the Iron Afterlife for 1 round and must succeed against your RESONANCE (contested by their IRON) or spend their next turn unable to act (paralyzed by what they see).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_fracture_world_s_edge"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

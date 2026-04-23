@@ -1,0 +1,37 @@
+{
+  "_id": "dc1e1583c783a52c",
+  "name": "Enhancement Read",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 1"
+    ],
+    "unlockLevel": 2,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Diagnostically read one target's enhancement configuration. Learn: their approximate remaining HP (GM: full/bloodied/critical), any enhancement abilities they are suppressing or charging, and one specific vulnerability in their network (GM provides — a damage type, a disruptive condition, or an unprotected area). In combat, this information is immediately useful: apply Expose 1 to the target.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_enhancement_read"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "858b74e3401389c7",
+  "name": "Hollow Resonance",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 5",
+      "Vulnerable 4",
+      "Stagger"
+    ],
+    "unlockLevel": 15,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 20 + RESONANCE resonant damage to one target within 30 feet. Apply Expose 5 and Vulnerable 4. If you are below half HP, this card also Staggers the target and deals +FRAME bonus damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_hollow_resonance"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

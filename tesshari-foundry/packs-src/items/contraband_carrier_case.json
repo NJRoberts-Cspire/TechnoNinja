@@ -1,0 +1,24 @@
+{
+  "_id": "adc411717462a2bf",
+  "name": "Contraband Carrier Case",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Case with resonance-dampening lining. Items inside do not register on standard scanning equipment.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "contraband_carrier_case",
+      "originalCategory": "container"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "7c189f779c14d117",
+  "name": "Resonant Cascade",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [],
+    "unlockLevel": 9,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Build resonant charge through the firing sequence. Deal 10 + SIGNAL damage. Each consecutive time you hit the same target this scene, this card deals +4 additional cumulative damage (maximum +20 after 5 hits).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_resonant_cascade"
+    }
+  },
+  "folder": null,
+  "sort": 3009,
+  "ownership": {
+    "default": 0
+  }
+}

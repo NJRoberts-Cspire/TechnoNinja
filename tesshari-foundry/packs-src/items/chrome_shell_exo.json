@@ -1,0 +1,24 @@
+{
+  "_id": "44aadbfa60729f19",
+  "name": "Chrome Shell Exoframe",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Chrome Shaper self-built light exoskeleton. Active configuration bonuses extend to defense when worn.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "chrome_shell_exo",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

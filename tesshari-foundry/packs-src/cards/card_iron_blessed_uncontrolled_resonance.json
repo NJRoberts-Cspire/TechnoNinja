@@ -1,0 +1,35 @@
+{
+  "_id": "616831f3e73c86cd",
+  "name": "Uncontrolled Resonance (Unregistered)",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Unregistered only. 20-foot radius: enemies take 7 + RESONANCE + Stagger. At/below half HP: Stagger + Expose 3. Self takes 3 damage. Next card costs 0 AP.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_blessed_uncontrolled_resonance"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "cf158de9a863684d",
+  "name": "Blood Fortress",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 12",
+      "Regen 4"
+    ],
+    "unlockLevel": 16,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Guard 12 + IRON to yourself. Pay 12 HP in addition to 3 AP. Enemies that hit you with melee attacks this round take 8 + RESONANCE resonant damage. Apply Regen 4 to yourself.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_blood_fortress"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

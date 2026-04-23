@@ -1,0 +1,38 @@
+{
+  "_id": "501572f2f1ba1163",
+  "name": "Contamination Tag",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Bleed",
+      "Expose"
+    ],
+    "unlockLevel": 3,
+    "className": "Curse Eater",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Bleed 1 and Expose 1 to one target within 20 meters. If your Loaded count is 2+, apply Bleed 2 and Expose 1 instead.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_contamination_tag"
+    }
+  },
+  "folder": null,
+  "sort": 1003,
+  "ownership": {
+    "default": 0
+  }
+}

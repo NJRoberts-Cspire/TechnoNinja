@@ -1,0 +1,38 @@
+{
+  "_id": "ddd3c043d4ffc7a6",
+  "name": "Hollow Threshold, The",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 18,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 4",
+      "Vulnerable 3"
+    ],
+    "unlockLevel": 11,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 18 + RESONANCE resonant damage. Apply Expose 4 and Vulnerable 3. Deal +RESONANCE + FRAME bonus damage for each 20 HP missing.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_hollow_threshold_the"
+    }
+  },
+  "folder": null,
+  "sort": 3011,
+  "ownership": {
+    "default": 0
+  }
+}

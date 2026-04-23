@@ -1,0 +1,38 @@
+{
+  "_id": "5a33264053d2c4ef",
+  "name": "Full Lattice",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Bleed 4",
+      "Expose 4"
+    ],
+    "unlockLevel": 19,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Pay 14 HP instead of 3 AP (costs 0 AP). Until your next turn, all your cards have their AP cost reduced to 0. All your melee Attack cards deal +IRON and +RESONANCE bonus damage. Apply Bleed 4 and Expose 4 automatically to every target you damage this turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_full_lattice"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

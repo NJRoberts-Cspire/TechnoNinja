@@ -1,0 +1,26 @@
+{
+  "_id": "31d55d198a80c754",
+  "name": "Iron Muscle Grafts",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Full-body structural muscle reinforcement with resonant-iron weave. Grants +2 FRAME and advantage on all strength-based physical checks.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_iron_muscle",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "8345cd6becdbb45a",
+  "name": "Basic Forge Schematic",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Blueprint for a basic resonant item. Forge Tender can craft from this schematic during downtime.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "forge_schematic_basic",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

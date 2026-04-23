@@ -1,0 +1,35 @@
+{
+  "_id": "36ac00a68aca7c67",
+  "name": "Ghost Protocol",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 13,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your vessel becomes undetectable as non-living until the end of combat or until it attacks. Enemies cannot identify it as a vessel without a SIGNAL check. While Ghost Protocol is active, your vessel's attacks deal +SIGNAL bonus damage on the first hit.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_ghost_protocol"
+    }
+  },
+  "folder": null,
+  "sort": 2013,
+  "ownership": {
+    "default": 0
+  }
+}

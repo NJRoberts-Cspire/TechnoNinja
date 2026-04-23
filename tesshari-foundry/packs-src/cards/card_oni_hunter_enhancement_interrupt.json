@@ -1,0 +1,38 @@
+{
+  "_id": "9e0deb2ad157b0ed",
+  "name": "Enhancement Interrupt",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger",
+      "Silence"
+    ],
+    "unlockLevel": 3,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You disrupt a specific enhancement system in one heavily-enhanced target. Apply Stagger — they cannot use Tier 2 or 3 cards until the start of their next turn as their system reboots. If your RESONANCE exceeds their SIGNAL, also apply Silence for 1 turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_enhancement_interrupt"
+    }
+  },
+  "folder": null,
+  "sort": 1003,
+  "ownership": {
+    "default": 0
+  }
+}

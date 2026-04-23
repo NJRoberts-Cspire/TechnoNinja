@@ -1,0 +1,24 @@
+{
+  "_id": "d7351896415ca448",
+  "name": "Anti-Dissolution Coating",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Applied to gear before a scene. Prevents dissolution resonance from degrading equipment for that scene.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "anti_dissolution_coating",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

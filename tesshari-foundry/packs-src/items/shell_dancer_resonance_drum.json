@@ -1,0 +1,26 @@
+{
+  "_id": "2385da189f6d99d1",
+  "name": "Resonance Drum",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Small percussion instrument. Shell Dancer: playing during a short rest grants +1 Cascade Stack going into the next scene.</p>",
+    "slot": "gear",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "shell_dancer_resonance_drum",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

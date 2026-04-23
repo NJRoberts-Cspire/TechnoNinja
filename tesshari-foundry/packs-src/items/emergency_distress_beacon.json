@@ -1,0 +1,24 @@
+{
+  "_id": "3f195efa8036702c",
+  "name": "Emergency Distress Beacon",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Sends one high-power distress signal reaching Enforcement in all populated Reaches. Single use.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "emergency_distress_beacon",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

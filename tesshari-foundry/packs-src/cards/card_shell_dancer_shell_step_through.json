@@ -1,0 +1,35 @@
+{
+  "_id": "3860f4bc5aba28e9",
+  "name": "Shell Step: Through",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 16,
+    "pierce": 0,
+    "category": "mobility",
+    "primaryStat": "edge",
+    "keywords": [],
+    "unlockLevel": 13,
+    "className": "Shell Dancer",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Enter Shell Step. Move freely through the combat space — up to 50 meters, through any space, including enemy spaces. You may exit Shell Step at any point during this movement as a free action; when you do, immediately deal 16 + EDGE damage to the nearest enemy. Gain 3 Cascade from the reentry impact. You moved through the space between presence and absence and came out the other side, and you came out swinging.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_shell_step_through"
+    }
+  },
+  "folder": null,
+  "sort": 3013,
+  "ownership": {
+    "default": 0
+  }
+}

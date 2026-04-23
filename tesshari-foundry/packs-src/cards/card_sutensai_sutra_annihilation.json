@@ -1,0 +1,39 @@
+{
+  "_id": "0af0f11544bcee4f",
+  "name": "Sutra Annihilation",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 26,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 5",
+      "Vulnerable 5",
+      "Silence"
+    ],
+    "unlockLevel": 19,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 26 + RESONANCE resonant damage to one target. Apply Vulnerable 5, Expose 5, and Silence. Cost: pay 18 HP instead of 3 AP (play for 0 AP + 18 HP).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_sutra_annihilation"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

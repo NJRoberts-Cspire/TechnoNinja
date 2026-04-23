@@ -1,0 +1,38 @@
+{
+  "_id": "2adee90b090d34f7",
+  "name": "Unbreakable",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Shield",
+      "Regen 3"
+    ],
+    "unlockLevel": 9,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Something in you refuses to finish. Gain Shield equal to your FRAME × 2. Until your next turn, reduce incoming damage by your FRAME. If you are currently below 25% HP, this card also triggers a free Regen 3 for 2 turns — the body finds something past empty.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_unbreakable"
+    }
+  },
+  "folder": null,
+  "sort": 2009,
+  "ownership": {
+    "default": 0
+  }
+}

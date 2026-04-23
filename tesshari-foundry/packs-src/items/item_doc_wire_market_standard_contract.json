@@ -1,0 +1,24 @@
+{
+  "_id": "a4bc68c182bb12d3",
+  "name": "Wire Market Standard Contract",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A formally registered Wire Market trade contract. Provides legal protection for one transaction and identifies bearer as a registered participant.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_doc_wire_market_standard_contract",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

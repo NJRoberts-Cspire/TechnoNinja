@@ -1,0 +1,35 @@
+{
+  "_id": "ac8fe5266594ba94",
+  "name": "Consumption: Complete",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 14,
+    "className": "Curse Eater",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal damage equal to 14 + RESONANCE + (5 × Loaded count). Apply all debuff types currently on you to the target (copies — you retain your own). Trigger a Corruption Pulse. If Loaded is 5+, this attack cannot be mitigated by Guard or Shield.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_consumption_complete"
+    }
+  },
+  "folder": null,
+  "sort": 3014,
+  "ownership": {
+    "default": 0
+  }
+}

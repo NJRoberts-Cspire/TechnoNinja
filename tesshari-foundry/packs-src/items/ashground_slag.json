@@ -1,0 +1,24 @@
+{
+  "_id": "4941db6d0b39b781",
+  "name": "Ashground Slag",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Refined industrial waste from Ashground processing. Low-grade but abundant crafting material.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "ashground_slag",
+      "originalCategory": "material"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

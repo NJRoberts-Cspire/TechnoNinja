@@ -1,0 +1,24 @@
+{
+  "_id": "688f543102606b30",
+  "name": "Grief Salve",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Applied before activating an Echo Speaker HP-cost ability. Reduces next HP cost by 1.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "grief_salve",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "6c0df3134800b3d1",
+  "name": "Sustained Between",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Fortify",
+      "Cleanse"
+    ],
+    "unlockLevel": 9,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Hold the Between state under pressure. Remove one Stagger, Silence, or Root effect from yourself. Gain Fortify for 1 round. **Below half HP:** Also recover 8 HP.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_sustained_between"
+    }
+  },
+  "folder": null,
+  "sort": 2009,
+  "ownership": {
+    "default": 0
+  }
+}

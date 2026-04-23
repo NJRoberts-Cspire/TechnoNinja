@@ -1,0 +1,26 @@
+{
+  "_id": "470abb5c543d06d7",
+  "name": "Pain Suppressor Node",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Neurological enhancement blocking pain signal transmission. Grants immunity to Vulnerable status. Enhancement stress checks have advantage.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_pain_suppressor",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

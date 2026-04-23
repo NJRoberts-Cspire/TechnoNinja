@@ -1,0 +1,24 @@
+{
+  "_id": "485e1f1ed9530ba8",
+  "name": "Echo Anchor Tablet",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Stabilizes an Echo Speaker's grief resonance. Prevents grief stack gain for one full scene.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "echo_anchor_tablet",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "66c283868c0039be",
+  "name": "Flesh Surge",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Bleed 4"
+    ],
+    "unlockLevel": 9,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Restore 16 + SIGNAL HP to yourself. Remove all debuffs from yourself. Your next melee Attack card this turn deals +IRON bonus damage and applies Bleed 4.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_flesh_surge"
+    }
+  },
+  "folder": null,
+  "sort": 3009,
+  "ownership": {
+    "default": 0
+  }
+}

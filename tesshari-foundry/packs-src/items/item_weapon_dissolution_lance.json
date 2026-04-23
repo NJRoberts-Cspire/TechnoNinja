@@ -1,0 +1,24 @@
+{
+  "_id": "efcb312ec045e806",
+  "name": "Dissolution Lance",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Oni Hunter-crafted spear channeling dissolution resonance. Applies Expose 2 on hit against shell-state targets.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_dissolution_lance",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

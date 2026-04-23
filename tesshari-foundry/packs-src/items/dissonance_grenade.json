@@ -1,0 +1,24 @@
+{
+  "_id": "8959935bdb785fd7",
+  "name": "Dissonance Grenade",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Area effect on detonation. All resonance-dependent abilities cost +1 AP for affected targets for one round.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "dissonance_grenade",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "11ed0726ef6c5aa5",
+  "name": "Exile's Cut",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 14,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 2"
+    ],
+    "unlockLevel": 7,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>A technique the schools don't teach because it only works when you've lost everything and have nothing left to perform correctly. Deal 14 + IRON damage. If you are below half HP, add EDGE to the damage and apply Bleed 2.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_exile_s_cut"
+    }
+  },
+  "folder": null,
+  "sort": 2007,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "b229c25d7228a566",
+  "name": "Pre-Signal Receiver",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Modification allowing bearer to receive messages through the Afterlife substrate up to six hours before they are sent, in areas of high temporal-resonance asymmetry.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_presignal_receiver",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

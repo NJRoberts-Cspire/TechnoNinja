@@ -1,0 +1,24 @@
+{
+  "_id": "8ca0eeffc5143cab",
+  "name": "Caste Marker Set",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A set of portable caste identification markers for establishing temporary social cover. Grants advantage on caste-impersonation checks.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_caste_marker_set",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

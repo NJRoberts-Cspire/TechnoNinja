@@ -1,0 +1,39 @@
+{
+  "_id": "d3d153a45a903c57",
+  "name": "Apex Detonation",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 14,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 6",
+      "Vulnerable 5",
+      "Stagger"
+    ],
+    "unlockLevel": 16,
+    "className": "Voice of Debt",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>*Debt Detonation.* Target one creature within 40 feet. Deal 14 + VEIL social damage plus 7 damage per Debt stack they carry. Remove all Debt stacks. Apply Expose 6, Vulnerable 5, and Stagger. Restore 8 HP to yourself — even the Voice of Debt is owed something.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_apex_detonation"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

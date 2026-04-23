@@ -1,0 +1,38 @@
+{
+  "_id": "3277cc97bcc2d4a2",
+  "name": "Spectral Strike: Deep",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Fracture 3",
+      "Frightened"
+    ],
+    "unlockLevel": 11,
+    "className": "Fracture Knight",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Spend 3 Phantom Charges. Deal 20 + RESONANCE damage. Cannot be blocked by Guard, Shield, or any mitigation effect. Apply Fracture 3 to the target. The target is Frightened for 2 rounds — the dead in your strike leave an impression that does not fade quickly.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_spectral_strike_deep"
+    }
+  },
+  "folder": null,
+  "sort": 3011,
+  "ownership": {
+    "default": 0
+  }
+}

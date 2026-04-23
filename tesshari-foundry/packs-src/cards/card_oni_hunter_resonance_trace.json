@@ -1,0 +1,38 @@
+{
+  "_id": "2a41ff7bf7b3cb57",
+  "name": "Resonance Trace",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Mark",
+      "Expose 1"
+    ],
+    "unlockLevel": 3,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>After a target escapes your reach or combat, read the resonance traces left by their passage. You learn their direction of travel and approximate movement speed, persisting for 24 hours. In active combat: apply Mark and Expose 1 to the target as you read their resonant trail in real time.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_resonance_trace"
+    }
+  },
+  "folder": null,
+  "sort": 1003,
+  "ownership": {
+    "default": 0
+  }
+}

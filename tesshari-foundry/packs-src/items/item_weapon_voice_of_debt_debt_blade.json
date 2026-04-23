@@ -1,0 +1,24 @@
+{
+  "_id": "4e4256384c5c955f",
+  "name": "Debt Blade",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A blade etched with debt notation marks. On kill, automatically transfers all Debt stacks from target to nearest living enemy.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_voice_of_debt_debt_blade",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

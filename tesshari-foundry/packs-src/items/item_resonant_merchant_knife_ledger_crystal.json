@@ -1,0 +1,26 @@
+{
+  "_id": "89ac9267dcda3d1a",
+  "name": "Ledger Crystal",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A crystal that records and stores trade transactions. Merchant Knife: intelligence gathered from trade-based actions is stored in crystal and persists between sessions.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_merchant_knife_ledger_crystal",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

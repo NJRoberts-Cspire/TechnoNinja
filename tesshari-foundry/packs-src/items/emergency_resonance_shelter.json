@@ -1,0 +1,24 @@
+{
+  "_id": "b6a7798fec6c7fc7",
+  "name": "Emergency Resonance Shelter",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Single-use portable shelter for up to 4 people. Fully blocks resonance events for 8 hours.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "emergency_resonance_shelter",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

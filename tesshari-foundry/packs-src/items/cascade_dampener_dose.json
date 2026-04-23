@@ -1,0 +1,24 @@
+{
+  "_id": "85498d51813aab03",
+  "name": "Cascade Dampener Dose",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>When consumed, immediately reduces Shell Dancer Cascade Stacks by 3 (minimum 0).</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "cascade_dampener_dose",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

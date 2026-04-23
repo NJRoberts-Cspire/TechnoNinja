@@ -1,0 +1,35 @@
+{
+  "_id": "c282d8bf3a8b8266",
+  "name": "Clean Dissolution",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 14,
+    "pierce": 4,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [],
+    "unlockLevel": 13,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your technique for ending Shell-states has been refined toward something almost gentle. Deal 14 + IRON damage. If this reduces a Shell-state to 0 HP, the dissolution is spiritually clean — no violent final discharge, no haunting residue. The Echomind fragments dissolve properly. Once per combat, this effect may apply to a non-Shell-state as well (GM ruling on appropriateness).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_clean_dissolution"
+    }
+  },
+  "folder": null,
+  "sort": 2013,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "45bb9b6e9115257f",
+  "name": "Command Authority",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 16,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "veil",
+    "keywords": [
+      "Regen 3",
+      "Expose 3",
+      "Stagger"
+    ],
+    "unlockLevel": 13,
+    "className": "Shadow Daimyo",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 16 + VEIL social damage to all enemies within 30 feet. Apply Expose 3 and Stagger to each. Every ally within 30 feet gains Regen 3 and may play one Tier 1 card for free this round.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shadow_daimyo_command_authority"
+    }
+  },
+  "folder": null,
+  "sort": 3013,
+  "ownership": {
+    "default": 0
+  }
+}

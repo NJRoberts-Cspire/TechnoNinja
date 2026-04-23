@@ -1,0 +1,24 @@
+{
+  "_id": "099fcf7fdc14a8bd",
+  "name": "Iron Sutra Text",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A copy of a section of the Iron Sutra scripture. Required reading for Sutensai class; provides doctrinal authority in social encounters.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_iron_sutra_text",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

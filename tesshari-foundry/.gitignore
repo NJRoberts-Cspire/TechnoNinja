@@ -1,0 +1,7 @@
+node_modules/
+
+# Generated compendium output (LevelDB) — rebuilt from packs-src/ via foundryvtt-cli
+packs/
+
+# Build caches
+tools/.cache/

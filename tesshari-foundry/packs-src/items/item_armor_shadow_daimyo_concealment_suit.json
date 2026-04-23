@@ -1,0 +1,24 @@
+{
+  "_id": "65fe91549b09584d",
+  "name": "Shadow Concealment Suit",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Full-body concealment suit for Shadow Daimyo operations. Light armor. Invisible to standard Wire Craft scanning. First round of combat, bearer cannot be targeted.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_shadow_daimyo_concealment_suit",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

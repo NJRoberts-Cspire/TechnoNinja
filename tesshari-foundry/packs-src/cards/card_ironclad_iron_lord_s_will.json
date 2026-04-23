@@ -1,0 +1,39 @@
+{
+  "_id": "d5ba7a3214c33d89",
+  "name": "Iron Lord's Will",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 16,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "iron",
+    "keywords": [
+      "Guard 4",
+      "Fortify",
+      "Taunt"
+    ],
+    "unlockLevel": 17,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The authority of your oath radiates outward. All allies within the encounter gain Fortify and Guard 4 this turn. All enemies within reach must save or be Taunted — they must target you until the start of your next turn. Deal 16 + IRON damage to one marked enemy.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_iron_lord_s_will"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

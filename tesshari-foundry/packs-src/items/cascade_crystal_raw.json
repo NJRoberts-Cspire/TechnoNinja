@@ -1,0 +1,24 @@
+{
+  "_id": "4f172bd11a93ad2c",
+  "name": "Raw Cascade Crystal",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Unprocessed resonant crystal that stores cascade energy. Shell Dancer crafting material.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "cascade_crystal_raw",
+      "originalCategory": "material"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

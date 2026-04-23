@@ -1,0 +1,35 @@
+{
+  "_id": "50820a7b30403ae6",
+  "name": "Deep Keeper Bond",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 15,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your resonance record of an ally becomes a two-way channel. Choose one ally you have maintained. Until end of combat: you know their precise HP at all times, they receive + RESONANCE bonus HP whenever they recover HP from any source, and when they make a defense roll (GM ruling), you may share your SIGNAL modifier to assist.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_deep_keeper_bond"
+    }
+  },
+  "folder": null,
+  "sort": 2015,
+  "ownership": {
+    "default": 0
+  }
+}

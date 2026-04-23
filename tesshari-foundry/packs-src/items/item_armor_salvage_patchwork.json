@@ -1,0 +1,24 @@
+{
+  "_id": "15df6619cc79574a",
+  "name": "Salvage Patchwork",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Light armor of mismatched resonant components. Basic armor; affordable and field-repairable.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_salvage_patchwork",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

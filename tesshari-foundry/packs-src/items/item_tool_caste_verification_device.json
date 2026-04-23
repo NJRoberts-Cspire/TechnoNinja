@@ -1,0 +1,24 @@
+{
+  "_id": "5ace55cfc07deae8",
+  "name": "Caste Verification Device",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Handheld device reading Ironhold caste registration marks. Grants advantage on identifying caste status and forged caste documentation.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_caste_verification_device",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

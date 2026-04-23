@@ -1,0 +1,37 @@
+{
+  "_id": "8d2839d33bb6faf2",
+  "name": "Experimental Surge",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [
+      "Overheat 1"
+    ],
+    "unlockLevel": 12,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Install an experimental overclock on yourself or one ally within reach. Target gains +3 IRON and +3 EDGE until end of their next turn. They also deal +6 damage on their next Attack card. After the boost ends, target gains Overheat 1.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_experimental_surge"
+    }
+  },
+  "folder": null,
+  "sort": 2012,
+  "ownership": {
+    "default": 0
+  }
+}

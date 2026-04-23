@@ -1,0 +1,35 @@
+{
+  "_id": "e64c995a828f54bd",
+  "name": "Resonance Reading",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 0,
+    "apCost": 0,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You read the state of any person's enhancement network as naturally as reading their face. Once per turn as a free action, you know one ally's precise current HP and any ongoing conditions affecting them. Your Forge Mending cards deal + RESONANCE additional healing against any ally you have read this turn. The knowledge is sacred. What you do with it is your ethics, not your capability.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_resonance_reading"
+    }
+  },
+  "folder": null,
+  "sort": 1,
+  "ownership": {
+    "default": 0
+  }
+}

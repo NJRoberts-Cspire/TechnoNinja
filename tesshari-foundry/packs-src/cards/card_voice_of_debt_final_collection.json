@@ -1,0 +1,43 @@
+{
+  "_id": "8e11e70264db35f1",
+  "name": "Final Collection",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "veil",
+    "keywords": [
+      "Guard",
+      "Shield",
+      "Regen",
+      "Expose 6",
+      "Vulnerable 5",
+      "Stagger",
+      "Root"
+    ],
+    "unlockLevel": 19,
+    "className": "Voice of Debt",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 22 + VEIL social damage to one target within 40 feet. Apply Debt 6, Expose 6, Vulnerable 5, Stagger, and Root simultaneously. Until your next turn, this target cannot benefit from Guard, Shield, or Regen. Everything they've avoided paying is due at once.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_final_collection"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

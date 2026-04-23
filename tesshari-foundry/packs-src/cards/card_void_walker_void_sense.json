@@ -1,0 +1,35 @@
+{
+  "_id": "dc930d0207bde76e",
+  "name": "Void Sense",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 2,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Extend your Afterlife Perception to its fullest passive range. Detect all Echomind presences within 80 feet. You automatically know whether each creature is living, dead, or partially phased. Hidden and concealed creatures within 40 feet are revealed. Learn one active keyword on an unplayed card from each enemy detected.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_void_sense"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

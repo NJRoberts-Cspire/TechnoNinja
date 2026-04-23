@@ -1,0 +1,35 @@
+{
+  "_id": "8a2442fb166a9642",
+  "name": "Gallop of Ghosts",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Fracture Knight",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Power: a charge of ghost cavalry thunders through a 60-foot line. Every enemy in the line takes 4d6 + IRON resonant damage (STR save half) and is knocked prone on a failed save; allies in the line gain 1 Phantom Charge. Once per long rest.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_gallop_of_ghosts"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "f081d6506efadba0",
+  "name": "Sustained Liquefaction",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 17,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>While in hand, passive. At the start of each of your turns, restore 4 HP to yourself. All HP costs on your cards are reduced by 3 (minimum 1). The body has adapted to the rhythm of payment.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_sustained_liquefaction"
+    }
+  },
+  "folder": null,
+  "sort": 2017,
+  "ownership": {
+    "default": 0
+  }
+}

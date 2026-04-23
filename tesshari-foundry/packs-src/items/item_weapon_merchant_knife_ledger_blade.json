@@ -1,0 +1,24 @@
+{
+  "_id": "1906b6fe3f1bb51f",
+  "name": "Ledger Blade",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A short blade etched with intelligence notation marks. On kill, automatically gathers 1 intelligence stack on the next nearest enemy.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_merchant_knife_ledger_blade",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

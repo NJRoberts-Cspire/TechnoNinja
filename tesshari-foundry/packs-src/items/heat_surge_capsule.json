@@ -1,0 +1,24 @@
+{
+  "_id": "0f1e394711c976e3",
+  "name": "Heat Surge Capsule",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Applied to a weapon before striking. Next attack ignores Metal armor damage reduction.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "heat_surge_capsule",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

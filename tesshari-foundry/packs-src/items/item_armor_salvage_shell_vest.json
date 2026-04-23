@@ -1,0 +1,24 @@
+{
+  "_id": "6e3e1d8f7abecd65",
+  "name": "Salvage Shell Vest",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Armor of layered salvage plating with irregular composition. Unpredictable impact deflection; user can repair with common materials.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_salvage_shell_vest",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

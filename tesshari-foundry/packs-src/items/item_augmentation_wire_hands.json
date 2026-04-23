@@ -1,0 +1,26 @@
+{
+  "_id": "8eae17c57abd111d",
+  "name": "Wire Hands",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Hand replacement with integrated wire-silk dispensers. Wireweave: network interaction range extended to 60 feet. Can establish connections as free action once per turn.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_wire_hands",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

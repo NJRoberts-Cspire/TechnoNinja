@@ -1,0 +1,37 @@
+{
+  "_id": "6455a64db147ab85",
+  "name": "Wire Crash",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "signal",
+    "keywords": [
+      "Stagger"
+    ],
+    "unlockLevel": 6,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one Wire system or enhanced creature within 60 feet. Systems crash for the scene. Creatures: deal 10 + SIGNAL damage and apply Stagger. If the target has an active Silence, deal an additional 6 damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_wire_crash"
+    }
+  },
+  "folder": null,
+  "sort": 2006,
+  "ownership": {
+    "default": 0
+  }
+}

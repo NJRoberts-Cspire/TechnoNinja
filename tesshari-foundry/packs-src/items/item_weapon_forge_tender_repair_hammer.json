@@ -1,0 +1,24 @@
+{
+  "_id": "6dfcd7f60734284e",
+  "name": "Repair Hammer",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A tool and weapon in one. On non-combat use, repairs 4 HP to an adjacent Forged or enhanced ally. In combat, deals standard impact damage.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_forge_tender_repair_hammer",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

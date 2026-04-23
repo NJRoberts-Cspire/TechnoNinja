@@ -1,0 +1,37 @@
+{
+  "_id": "ff83c002bd85fddd",
+  "name": "Resonant Charge",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 2"
+    ],
+    "unlockLevel": 12,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Channel resonant energy into your next shot. Deal 12 + RESONANCE damage to one target within 100 feet. Apply Expose 2. If the target has already been hit by a Resonant card this scene, deal +6 additional damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_resonant_charge"
+    }
+  },
+  "folder": null,
+  "sort": 2012,
+  "ownership": {
+    "default": 0
+  }
+}

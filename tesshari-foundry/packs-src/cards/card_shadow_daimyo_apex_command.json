@@ -1,0 +1,40 @@
+{
+  "_id": "1cc0dc63ebe95863",
+  "name": "Apex Command",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "veil",
+    "keywords": [
+      "Shield 8",
+      "Regen 3",
+      "Expose 6",
+      "Vulnerable 5"
+    ],
+    "unlockLevel": 16,
+    "className": "Shadow Daimyo",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 20 + VEIL social damage to one target within 40 feet. Apply Expose 6 and Vulnerable 5. All allies within 30 feet gain Shield 8 and Regen 3 until your next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shadow_daimyo_apex_command"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

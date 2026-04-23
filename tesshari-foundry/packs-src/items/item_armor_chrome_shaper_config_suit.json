@@ -1,0 +1,24 @@
+{
+  "_id": "8a03fea870468156",
+  "name": "Configuration Suit",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A suit of modular armor that adjusts with Chrome Shaper configuration switches. Medium armor. Provides different Guard bonuses per active configuration.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_chrome_shaper_config_suit",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "c227db3310c17a3e",
+  "name": "Community Bond Record",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Documents obligations and relationships within a community. Forge Tender's community-dependent reference.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "community_bond_record",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

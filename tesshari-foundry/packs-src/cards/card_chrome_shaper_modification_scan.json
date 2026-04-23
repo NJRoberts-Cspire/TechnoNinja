@@ -1,0 +1,37 @@
+{
+  "_id": "3e9960a6386dbf7a",
+  "name": "Modification Scan",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Mark"
+    ],
+    "unlockLevel": 2,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Scan one creature within 30 feet. Identify any active Stagger, Silence, Overheat, Expose, or Vulnerable effects on them. Learn one card category they have played this combat. Apply Mark to the target.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_modification_scan"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

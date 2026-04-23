@@ -1,0 +1,26 @@
+{
+  "_id": "fdfc3d4691e1d8b9",
+  "name": "Salvage Core",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A dense resonant core salvaged from a high-tier enhancement. Ashfoot: counts as three Ashlands Salvage Components for modification procedures.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_ashfoot_salvage_core",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

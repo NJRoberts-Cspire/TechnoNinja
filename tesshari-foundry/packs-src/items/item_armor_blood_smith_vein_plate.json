@@ -1,0 +1,24 @@
+{
+  "_id": "d068e719f19fa7f1",
+  "name": "Vein Plate",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Armor with resonant-biological enhancement integration. Medium armor. When bearer pays HP costs, armor provides Guard 2 until end of next turn.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_blood_smith_vein_plate",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

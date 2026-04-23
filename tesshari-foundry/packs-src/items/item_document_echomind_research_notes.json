@@ -1,0 +1,24 @@
+{
+  "_id": "be09e843064196b6",
+  "name": "Echomind Research Notes",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Academic notes on Echomind resonance patterns from before the Ascension War. Provides technical understanding of Echomind mechanics.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_echomind_research_notes",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

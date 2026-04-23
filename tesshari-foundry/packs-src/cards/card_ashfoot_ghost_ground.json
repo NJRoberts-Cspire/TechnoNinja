@@ -1,0 +1,37 @@
+{
+  "_id": "d90e86c2fd4a03ad",
+  "name": "Ghost Ground",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "mobility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard"
+    ],
+    "unlockLevel": 10,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You dissolve into the terrain you know. Move up to your full speed. This movement triggers no reactions and leaves no readable trace. Until the start of your next turn, the first attack made against you from an enemy that moved to reach you deals its damage against your Guard first (add EDGE to your Guard for this purpose).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_ghost_ground"
+    }
+  },
+  "folder": null,
+  "sort": 2010,
+  "ownership": {
+    "default": 0
+  }
+}

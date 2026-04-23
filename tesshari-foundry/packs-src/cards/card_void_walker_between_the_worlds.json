@@ -1,0 +1,38 @@
+{
+  "_id": "8da33c2addf981e8",
+  "name": "Between the Worlds",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Root",
+      "Overheat 2"
+    ],
+    "unlockLevel": 20,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Declare Void Sovereignty over a 100-foot radius for 1 round. You control all phase-related phenomena in the area. Every ally within range can use Mobility cards at 0 AP cost this round. Every enemy within range cannot use Mobility cards or Phase cards — the space between worlds belongs to you. Any enemy who dies this round has their Echomind held — they cannot pass to the Afterlife until you release them. After this card resolves, gain Overheat 2 and lose 10 HP.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_between_the_worlds"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

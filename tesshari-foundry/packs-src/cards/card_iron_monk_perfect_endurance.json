@@ -1,0 +1,37 @@
+{
+  "_id": "3ff2c0024c263645",
+  "name": "Perfect Endurance",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Fortify"
+    ],
+    "unlockLevel": 16,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>For 1 round, all damage you take is reduced by 12 before Guard applies. You cannot be Silenced or Staggered. Your Basic Attack deals +8 damage. **Below half HP:** You also cannot be reduced below 1 HP this round.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_perfect_endurance"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

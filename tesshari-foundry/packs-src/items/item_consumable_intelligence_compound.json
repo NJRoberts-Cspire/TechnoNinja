@@ -1,0 +1,24 @@
+{
+  "_id": "cb0865fa55d5c152",
+  "name": "Intelligence Compound",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Chemical compound enhancing information retention and pattern recognition. Shadow Daimyo and Merchant Knife: next intelligence-gathering action provides 2 stacks.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_intelligence_compound",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "_id": "f6dad5dd581b3e5b",
+  "name": "The Dead Remember",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Area",
+      "Fracture 2",
+      "Vulnerable 2",
+      "Frightened"
+    ],
+    "unlockLevel": 13,
+    "className": "Fracture Knight",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Spend 4 Phantom Charges. The dead surge outward in a 30-meter radius. All enemies in the area take 16 + RESONANCE damage. Apply Fracture 2 and Vulnerable 2 to all enemies hit. All enemies in the area are Frightened for 1 round. Allies in the area gain Shield equal to your RESONANCE × 2.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_the_dead_remember"
+    }
+  },
+  "folder": null,
+  "sort": 3013,
+  "ownership": {
+    "default": 0
+  }
+}

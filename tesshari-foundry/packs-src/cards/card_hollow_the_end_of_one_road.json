@@ -1,0 +1,39 @@
+{
+  "_id": "31820c86a31a735b",
+  "name": "The End of One Road",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 28,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 6",
+      "Vulnerable 6",
+      "Stagger"
+    ],
+    "unlockLevel": 20,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>*The Hollow at its absolute limit — the brief full Shell-state as a weapon.* Enter full Shell-state for one complete round. You cannot be targeted, damaged, or affected by anything during this round. At the start of your next turn, return and deal 28 + RESONANCE resonant damage to all enemies within 25 feet. Apply Expose 6, Vulnerable 6, and Stagger to each. Restore 16 + FRAME HP to yourself. For the rest of combat, all your cards deal +RESONANCE bonus damage for each 20 HP you are missing. The doctrine never accounted for you. That is your answer to it.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_the_end_of_one_road"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

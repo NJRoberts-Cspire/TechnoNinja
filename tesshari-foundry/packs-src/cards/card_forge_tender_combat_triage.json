@@ -1,0 +1,35 @@
+{
+  "_id": "dcf6809f7dc1a0c3",
+  "name": "Combat Triage",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 7,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You perform forge work in active combat without hesitation. Use Forge Mending as part of this card (no additional AP cost). The target recovers HP equal to 8 + RESONANCE. If the target is at 0 HP, they return to consciousness and may act on their next turn immediately — no disorientation.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_combat_triage"
+    }
+  },
+  "folder": null,
+  "sort": 1007,
+  "ownership": {
+    "default": 0
+  }
+}

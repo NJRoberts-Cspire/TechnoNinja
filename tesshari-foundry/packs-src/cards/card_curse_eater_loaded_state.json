@@ -1,0 +1,37 @@
+{
+  "_id": "02b14a4c3e17e8bb",
+  "name": "Loaded State",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Passive"
+    ],
+    "unlockLevel": 9,
+    "className": "Curse Eater",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Passive. While this card is in your hand: whenever any enemy applies a debuff to you, the next Resonant Attack card you play this turn has its base damage increased by 4. This bonus stacks if multiple debuffs are applied in the same turn (max +12 per turn).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_loaded_state"
+    }
+  },
+  "folder": null,
+  "sort": 2009,
+  "ownership": {
+    "default": 0
+  }
+}

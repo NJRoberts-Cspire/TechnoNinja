@@ -1,0 +1,37 @@
+{
+  "_id": "cd7afef72f1b8750",
+  "name": "Grief Blade",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 2"
+    ],
+    "unlockLevel": 5,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Channel accumulated grief into a focused strike. Deal 12 + RESONANCE damage to one target within 30 feet. For every ally who has been reduced to 0 HP this scene, deal +4 additional damage (maximum +16). Apply Expose 2.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_grief_blade"
+    }
+  },
+  "folder": null,
+  "sort": 2005,
+  "ownership": {
+    "default": 0
+  }
+}

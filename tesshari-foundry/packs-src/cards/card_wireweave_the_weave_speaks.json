@@ -1,0 +1,37 @@
+{
+  "_id": "ef4c74f359ccc99d",
+  "name": "The Weave Speaks",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger"
+    ],
+    "unlockLevel": 19,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Broadcast a Wire message to all Signal-connected creatures within 300 feet simultaneously. In combat: all enemies within range are Staggered and take 8 + SIGNAL damage. The message cannot be blocked or filtered. Out of combat: the message reaches every Wire-active creature in range regardless of encryption.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_the_weave_speaks"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

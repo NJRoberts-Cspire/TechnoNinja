@@ -1,0 +1,38 @@
+{
+  "_id": "fe3a571b2c22a63b",
+  "name": "Synchronized Cascade",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Overheat 2",
+      "Stagger"
+    ],
+    "unlockLevel": 7,
+    "className": "Shell Dancer",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Select one enemy with cybernetic enhancements within 20 meters. Apply Overheat 2 and Stagger. Gain 2 Cascade — their cascade feeds yours.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_synchronized_cascade"
+    }
+  },
+  "folder": null,
+  "sort": 2007,
+  "ownership": {
+    "default": 0
+  }
+}

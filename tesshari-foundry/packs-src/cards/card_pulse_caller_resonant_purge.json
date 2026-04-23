@@ -1,0 +1,37 @@
+{
+  "_id": "56a36c4e5c780dc6",
+  "name": "Resonant Purge",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Cleanse"
+    ],
+    "unlockLevel": 17,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Fire a spiritually-calibrated discharge in a 30-foot radius within 80 feet. All creatures take 16 + RESONANCE damage. All Iron Afterlife presences in the area are expelled. All enhancement-disruption effects (Silence, Stagger, Overheat) on allies in the area are Cleansed.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_resonant_purge"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

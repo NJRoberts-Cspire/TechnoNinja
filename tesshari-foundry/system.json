@@ -1,0 +1,47 @@
+{
+  "id": "tesshari",
+  "title": "Tesshari",
+  "description": "Deterministic card-based cyberpunk TTRPG set in the Broken Reaches. Six Resonants, 3 AP per turn, no dice.",
+  "version": "0.1.0",
+  "authors": [
+    { "name": "Jet Roberts" }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "esmodules": ["tesshari.mjs"],
+  "styles": ["styles/tesshari.css"],
+  "languages": [
+    { "lang": "en", "name": "English", "path": "lang/en.json" }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "character": { "htmlFields": ["biography", "notes"] },
+      "monster":   { "htmlFields": ["biography", "ai"] },
+      "npc":       { "htmlFields": ["biography", "notes"] }
+    },
+    "Item": {
+      "card":       { "htmlFields": ["description"] },
+      "race":       { "htmlFields": ["description", "passives"] },
+      "class":      { "htmlFields": ["description"] },
+      "subclass":   { "htmlFields": ["description"] },
+      "cybernetic": { "htmlFields": ["description"] },
+      "weapon":     { "htmlFields": ["description"] },
+      "armor":      { "htmlFields": ["description"] },
+      "consumable": { "htmlFields": ["description"] },
+      "status":     { "htmlFields": ["description"] }
+    }
+  },
+  "packs": [
+    { "name": "cards", "label": "Tesshari — Cards", "type": "Item", "path": "packs/cards", "system": "tesshari" },
+    { "name": "items", "label": "Tesshari — Items", "type": "Item", "path": "packs/items", "system": "tesshari" }
+  ],
+  "primaryTokenAttribute": "hp",
+  "secondaryTokenAttribute": "ap",
+  "grid": { "distance": 5, "units": "ft" },
+  "initiative": "@stats.edge + (@stats.iron / 100)",
+  "url": "https://github.com/jet-roberts/tesshari",
+  "manifest": "",
+  "download": ""
+}

@@ -1,0 +1,40 @@
+{
+  "_id": "598a9c86b1037fc0",
+  "name": "Signal Supreme",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [
+      "Chain",
+      "Overheat 3",
+      "Silence",
+      "Area"
+    ],
+    "unlockLevel": 14,
+    "className": "Iron Herald",
+    "subclass": "Echo Speaker — Herald",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 20 + SIGNAL damage to one target. Apply Overheat 3 and Silence for 2 rounds. If this target is within your Command Zone, the effect jumps — apply Overheat 1 and Silence (1 round) to all enemies within 15 meters of the original target as well.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_signal_supreme"
+    }
+  },
+  "folder": null,
+  "sort": 3014,
+  "ownership": {
+    "default": 0
+  }
+}

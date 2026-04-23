@@ -1,0 +1,24 @@
+{
+  "_id": "bbcfa48ec767ebcd",
+  "name": "Wire Market Bond",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A formal Wire Market financial instrument. Redeemable at any Wire Market exchange for face value. Current rate: 100 trade-metal.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_currency_wire_market_bond",
+      "originalCategory": "currency"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "59e2694ee33beab7",
+  "name": "Scrambled Comm Pair",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Two matched comm units with built-in encryption. Cannot be intercepted by standard equipment.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "scrambled_comm_pair",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

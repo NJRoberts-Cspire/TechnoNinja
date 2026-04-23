@@ -1,0 +1,38 @@
+{
+  "_id": "f66a39d1a28959c9",
+  "name": "Fracture Detonation",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Scaling",
+      "Expose"
+    ],
+    "unlockLevel": 9,
+    "className": "Fracture Knight",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 10 + IRON damage + (5 × Fracture stacks on target). Consume all Fracture stacks on the target after this hit — the accumulation discharges. For each stack consumed, apply Expose 1 to the target (stacks, up to Expose 5).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_fracture_detonation"
+    }
+  },
+  "folder": null,
+  "sort": 2009,
+  "ownership": {
+    "default": 0
+  }
+}

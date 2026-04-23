@@ -1,0 +1,26 @@
+{
+  "_id": "37d4b9208831baec",
+  "name": "The Between-Sense",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Echomind resonator at base of skull. Grants Iron Afterlife interaction and communication with recent dead; bearer senses nearby death constantly.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_between_sense",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

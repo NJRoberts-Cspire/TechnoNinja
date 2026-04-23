@@ -1,0 +1,37 @@
+{
+  "_id": "d38d8410cc6c4813",
+  "name": "Iron Afterlife Pulse",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 2,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Expose"
+    ],
+    "unlockLevel": 1,
+    "className": "",
+    "subclass": "",
+    "isRaceCard": true,
+    "race": "Echoed",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The Echoed channels a burst of Iron Afterlife resonance outward in a 10-foot radius. All enemies in range take 5 + RESONANCE damage and receive Expose 2. Enemies that are already at or below half HP instead take 8 + RESONANCE damage and receive Expose 3. The Echoed cannot use this card if their own HP is at full — it requires the resonance of proximity to the threshold.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echoed_iron_afterlife_pulse"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

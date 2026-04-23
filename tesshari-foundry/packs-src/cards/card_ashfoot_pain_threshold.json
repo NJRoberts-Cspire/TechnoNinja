@@ -1,0 +1,37 @@
+{
+  "_id": "ea21159d8234517c",
+  "name": "Pain Threshold",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Shield 5"
+    ],
+    "unlockLevel": 3,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your tolerance for pain is not courage — it is a calibration developed by necessity. Gain Shield 5. When you recover HP this combat (from any source), add your FRAME to the amount recovered. You have learned to make the most of what restoration you get.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_pain_threshold"
+    }
+  },
+  "folder": null,
+  "sort": 1003,
+  "ownership": {
+    "default": 0
+  }
+}

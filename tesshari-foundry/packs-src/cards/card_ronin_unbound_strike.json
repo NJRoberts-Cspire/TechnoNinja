@@ -1,0 +1,38 @@
+{
+  "_id": "ecd5910e68767f6b",
+  "name": "Unbound Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 14,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Stagger",
+      "Expose 2"
+    ],
+    "unlockLevel": 4,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>A strike that comes from outside the patterns — from a place the kata system doesn't document because it can't be taught. Deal 14 + IRON damage. Apply Stagger to the target. If this attack's total damage exceeds the target's Guard + Shield combined, the target is also Exposed 2 — your strike landed somewhere the defenses weren't.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_unbound_strike"
+    }
+  },
+  "folder": null,
+  "sort": 2004,
+  "ownership": {
+    "default": 0
+  }
+}

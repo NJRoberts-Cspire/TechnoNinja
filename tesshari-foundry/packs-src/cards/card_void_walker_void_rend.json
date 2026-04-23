@@ -1,0 +1,39 @@
+{
+  "_id": "bf933d9df7cac55c",
+  "name": "Void Rend",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 8,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 3",
+      "Stagger",
+      "Bleed 6"
+    ],
+    "unlockLevel": 12,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Tear a rift through the between-space directly into one target within 60 feet. Deal 22 + RESONANCE damage. Pierce 8. Apply Expose 3 and Stagger. The rift lingers — the target takes 6 damage at the start of their next turn as the Afterlife continues to pull at them.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_void_rend"
+    }
+  },
+  "folder": null,
+  "sort": 3012,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "98474df4dece70d9",
+  "name": "The Accuser",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 16,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 3",
+      "Silence",
+      "Root"
+    ],
+    "unlockLevel": 16,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The dead speak through you with absolute authority. Name one enemy within 60 feet. Deal 16 + VEIL damage. Apply Expose 3, Silence for 2 rounds, and Root. For the rest of the scene, this enemy cannot benefit from Guard, Shield, or Fortify — the dead have stripped their defenses.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_the_accuser"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

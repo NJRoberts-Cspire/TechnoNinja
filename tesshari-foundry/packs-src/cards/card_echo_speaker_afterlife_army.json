@@ -1,0 +1,38 @@
+{
+  "_id": "b1f3f697f3705c34",
+  "name": "Afterlife Army",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger",
+      "Silence"
+    ],
+    "unlockLevel": 15,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Call upon the dead who have unfinished business nearby. For 1 round, spiritual presences harass all enemies within 30 feet. Each enemy takes 12 + RESONANCE damage and gains Stagger. Enemies cannot use Veil cards this round — the dead drown out their social manipulation.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_afterlife_army"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

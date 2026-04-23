@@ -1,0 +1,24 @@
+{
+  "_id": "5d69e1f763ebd3e6",
+  "name": "The First Contract",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>The original contract binding the first Ironclad Samurai to service. Reading it grants one level of Vein Oath discipline mastery. Single use.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_artifact_first_contract",
+      "originalCategory": "artifact"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

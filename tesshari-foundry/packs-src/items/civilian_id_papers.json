@@ -1,0 +1,24 @@
+{
+  "_id": "7e1926a9ad1196a9",
+  "name": "Civilian ID Papers",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Standard civilian identification documents. Allows passage through routine checkpoints.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "civilian_id_papers",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

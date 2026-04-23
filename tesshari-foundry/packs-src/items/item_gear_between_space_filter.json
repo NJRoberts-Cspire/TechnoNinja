@@ -1,0 +1,26 @@
+{
+  "_id": "2fef30d4a04aa500",
+  "name": "Between-Space Filter",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Wearable filter reducing Between-space resonance exposure. Extends safe phase-walk duration by 50%. Required for Between-adjacent territory operations.</p>",
+    "slot": "gear",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_between_space_filter",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

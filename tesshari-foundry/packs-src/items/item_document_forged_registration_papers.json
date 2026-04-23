@@ -1,0 +1,24 @@
+{
+  "_id": "16bae85a1b03ab90",
+  "name": "Forged Registration Papers",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Official documentation registering a Forged unit with Ironhold administration. Required for legal status in Ironhold territory.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_forged_registration_papers",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

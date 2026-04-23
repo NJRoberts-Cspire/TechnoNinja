@@ -1,0 +1,24 @@
+{
+  "_id": "6c7db7797ebc3fc8",
+  "name": "Trade Contract Document",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A formally bound trade obligation. Provides leverage equal to the contract value in social and coercive encounters.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_merchant_knife_trade_contract",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

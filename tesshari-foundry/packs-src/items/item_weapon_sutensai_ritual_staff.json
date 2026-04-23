@@ -1,0 +1,24 @@
+{
+  "_id": "10c4d3972045baef",
+  "name": "Ritual Staff",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A staff used in Iron Sutra ceremonies. Deals RESONANCE damage. On kill, allows a shallow Echomind reading of the dying target's final impression.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_sutensai_ritual_staff",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

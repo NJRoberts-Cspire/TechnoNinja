@@ -1,0 +1,40 @@
+{
+  "_id": "ee6de535336cdd58",
+  "name": "No Oath But This",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 6",
+      "Shield 6",
+      "Bleed 2",
+      "Cleanse"
+    ],
+    "unlockLevel": 19,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Whatever you serve now — a cause, a person, a simple refusal to stop — it is yours. This turn, your attacks deal + IRON + EDGE instead of only IRON. Gain Guard 6 + Shield 6. Apply Bleed 2 to all enemies you damage. Cleanse all debuffs from yourself.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_no_oath_but_this"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

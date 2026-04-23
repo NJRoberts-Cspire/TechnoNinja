@@ -1,0 +1,26 @@
+{
+  "_id": "673dece716786692",
+  "name": "Afterlife Anchor",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Resonant heart casing providing Echomind anchoring. Prevents possession and soul displacement; reduces Afterlife perception depth.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_afterlife_anchor",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

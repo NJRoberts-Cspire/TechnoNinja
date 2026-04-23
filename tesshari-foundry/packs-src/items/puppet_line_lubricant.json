@@ -1,0 +1,24 @@
+{
+  "_id": "2cce65d86f0d6ca1",
+  "name": "Puppet Line Lubricant",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Puppet Binder: reduces the AP cost of the next puppet command action by 1.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "puppet_line_lubricant",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

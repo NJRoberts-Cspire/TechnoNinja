@@ -1,0 +1,38 @@
+{
+  "_id": "dcbc3f3db6965780",
+  "name": "Echo Storm",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger",
+      "Silence"
+    ],
+    "unlockLevel": 6,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Call a wave of spiritual static from the Iron Afterlife. All creatures within a 20-foot radius of a point within 60 feet take 16 + RESONANCE damage. Apply Stagger. All Signal and Resonance cards used in the area this round are Silenced.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_echo_storm"
+    }
+  },
+  "folder": null,
+  "sort": 3006,
+  "ownership": {
+    "default": 0
+  }
+}

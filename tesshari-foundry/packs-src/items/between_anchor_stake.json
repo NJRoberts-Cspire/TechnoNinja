@@ -1,0 +1,24 @@
+{
+  "_id": "92ed807b03c9aab6",
+  "name": "Between Anchor Stake",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Driven into the ground. Prevents Between-entities from manifesting within 5 meters.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "between_anchor_stake",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

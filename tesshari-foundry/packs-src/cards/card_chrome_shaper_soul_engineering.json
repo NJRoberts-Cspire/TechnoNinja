@@ -1,0 +1,37 @@
+{
+  "_id": "cc137ea3046d48ed",
+  "name": "Soul Engineering",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Regen 2"
+    ],
+    "unlockLevel": 15,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Perform a deep Echomind-enhancement alignment on one willing ally within reach. Choose one permanent improvement (once per scene, once per ally): that ally's primary stat increases by 1 until end of campaign, or they gain Regen 2 as a permanent passive that activates at the start of each scene.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_soul_engineering"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "0a91fa70de7d7797",
+  "name": "Vaen's Testimony",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A recorded testimony from Vaen of the Empty Hand. Carries legal and spiritual weight in all territories. Can compel compliance from Vaen-aligned individuals.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_vaen_testimony",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

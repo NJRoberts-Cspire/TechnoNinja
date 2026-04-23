@@ -1,0 +1,24 @@
+{
+  "_id": "59b3384b8f71b7c8",
+  "name": "Pale Reach Wire Market Access Node",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Registered access node for the Pale Reach Wire Market network. Provides legitimate cover for Wire Craft operations within the Reach.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_pale_reach_wire_access_node",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

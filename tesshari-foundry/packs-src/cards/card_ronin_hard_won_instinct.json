@@ -1,0 +1,35 @@
+{
+  "_id": "56eb54d842b00bc4",
+  "name": "Hard-Won Instinct",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 2,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Years without institutional support have given you resource awareness that trained soldiers lack. Once per combat, when you would exhaust a limited card (used once per combat cards), you may treat it as not yet used — your instinct for survival finds one more application. Requires GM confirmation of once-per-combat limit.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_hard_won_instinct"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

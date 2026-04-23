@@ -1,0 +1,41 @@
+{
+  "_id": "29d5f0b9ad1f1b83",
+  "name": "What We're Worth",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 26,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron+edge",
+    "keywords": [
+      "Bleed 4",
+      "Expose 4",
+      "Vulnerable 3",
+      "Shield",
+      "Regen 3"
+    ],
+    "unlockLevel": 20,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The hierarchy has always had a number for what you're worth. At the fullest expression of everything you have survived and built, you demonstrate — definitively — that the number was wrong. Deal 26 + IRON + EDGE damage. Apply Bleed 4, Expose 4, and Vulnerable 3. Gain Shield equal to your FRAME × 5. All allies in the encounter are healed for 10 HP and gain Regen 3 for 3 turns. Once per combat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_what_we_re_worth"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

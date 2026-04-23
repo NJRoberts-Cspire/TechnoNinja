@@ -1,0 +1,35 @@
+{
+  "_id": "08666ddee2741fdc",
+  "name": "Resonant Round",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 10,
+    "pierce": 8,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [],
+    "unlockLevel": 6,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Fire a spiritually-tuned shot at one target within 80 feet. Deal 10 + RESONANCE damage. If the target is an incorporeal or Iron Afterlife entity, this shot deals full damage regardless of any damage reduction or immunity.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_resonant_round"
+    }
+  },
+  "folder": null,
+  "sort": 2006,
+  "ownership": {
+    "default": 0
+  }
+}

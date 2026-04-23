@@ -1,0 +1,39 @@
+{
+  "_id": "6c8dc0034a82eab1",
+  "name": "Apex Mend",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 10",
+      "Shield 10",
+      "Regen 6"
+    ],
+    "unlockLevel": 19,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Restore 26 + SIGNAL HP to one ally within 10 feet. Remove all debuffs. Apply Regen 6, Guard 10 + SIGNAL, and Shield 10. The target acts as if at full HP for triggering any HP-threshold effects this round.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_apex_mend"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

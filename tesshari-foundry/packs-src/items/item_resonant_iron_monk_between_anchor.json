@@ -1,0 +1,26 @@
+{
+  "_id": "84aa025c25ee541f",
+  "name": "Between-Space Anchor",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Dense resonant disc tuned to the boundary between the Between and the physical world. Stabilizes Between-state entry and reduces transition cost.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_iron_monk_between_anchor",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

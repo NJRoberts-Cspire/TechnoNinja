@@ -1,0 +1,24 @@
+{
+  "_id": "df373d0addbd8ad0",
+  "name": "Oni Hunter Warden Coat",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Field coat with integrated dissolution shielding. Standard wear for quarry-hunters in the Ashground.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "oni_hunter_warden_coat",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

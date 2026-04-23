@@ -1,0 +1,37 @@
+{
+  "_id": "d9455e2d7cad678e",
+  "name": "Partial Integration",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [
+      "Overheat 1"
+    ],
+    "unlockLevel": 14,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You deliberately channel a controlled burst of dissolution resonance through your system. Until your next turn: all your attacks deal maximum base damage, you cannot be frightened or charmed. After this card resolves, you must save against Overheat 1 (automatic — no roll, the cost is fixed). You accept it. This is the work.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_partial_integration"
+    }
+  },
+  "folder": null,
+  "sort": 2014,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "f992bfd224e77818",
+  "name": "Enhancement Stabilization",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 0,
+    "apCost": 0,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Shield 4"
+    ],
+    "unlockLevel": 1,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>When an ally within 30 feet would be reduced to 0 HP, you may use your Reaction to stabilize their enhancement network. They remain at 1 HP instead of falling. This Reaction may be used once per round. Additionally, stabilized allies gain Shield 4 from the emergency resonant reinforcement.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_enhancement_stabilization"
+    }
+  },
+  "folder": null,
+  "sort": 1,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "1409f834ae3c7565",
+  "name": "Signal Erasure",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 18,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "signal",
+    "keywords": [
+      "Silence",
+      "Stagger",
+      "Overheat 3"
+    ],
+    "unlockLevel": 19,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You reach into a target's enhancement network and erase their operational presence from the Wire. Deal 18 + SIGNAL signal damage. Apply Silence, Stagger, and Overheat 3. For the rest of this combat, this target cannot reconnect to Wire networks — their interface is dark. All automated systems in the encounter treat them as non-present.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_signal_erasure"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

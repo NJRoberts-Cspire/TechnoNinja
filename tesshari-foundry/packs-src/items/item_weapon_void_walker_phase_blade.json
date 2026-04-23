@@ -1,0 +1,24 @@
+{
+  "_id": "92d4fbfd5586eca6",
+  "name": "Phase Blade",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A blade partially phased into the Between. Bypasses Shield and reduces Guard by 3. Requires Void Walker class or Between attunement.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_void_walker_phase_blade",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

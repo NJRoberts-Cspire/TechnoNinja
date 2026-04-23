@@ -1,0 +1,24 @@
+{
+  "_id": "3c71722683bacd36",
+  "name": "Fracture Spear",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A spear loaded with fracture-resonance. Generates 1 Phantom Charge on each hit. Applies Fracture stacks to target.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_fracture_knight_fracture_spear",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

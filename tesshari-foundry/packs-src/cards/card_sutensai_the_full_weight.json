@@ -1,0 +1,39 @@
+{
+  "_id": "8e397313c75ef595",
+  "name": "The Full Weight",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Guard 5",
+      "Expose 5",
+      "Vulnerable 4"
+    ],
+    "unlockLevel": 14,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Formally condemn one target within 40 feet you have performed Echomind Reading on. Deal 20 + RESONANCE resonant damage. Apply Expose 5 and Vulnerable 4. All allies within 30 feet gain Guard 5 + RESONANCE.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_the_full_weight"
+    }
+  },
+  "folder": null,
+  "sort": 3014,
+  "ownership": {
+    "default": 0
+  }
+}

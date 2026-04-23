@@ -1,0 +1,24 @@
+{
+  "_id": "92a99b1110d75a86",
+  "name": "Faction Insignia Set",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Complete set of visual markers for three major factions. Wearing the appropriate insignia grants initial social acceptance within that faction's territory.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_faction_insignia_set",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

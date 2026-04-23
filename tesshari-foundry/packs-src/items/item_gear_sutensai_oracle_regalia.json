@@ -1,0 +1,26 @@
+{
+  "_id": "1278dcab8bfab6be",
+  "name": "Sutensai Oracle Regalia",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Formal vestments of a practicing Sutensai. Grants full social authority in Ironhold territory and access to Iron Sutra spaces.</p>",
+    "slot": "gear",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_sutensai_oracle_regalia",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

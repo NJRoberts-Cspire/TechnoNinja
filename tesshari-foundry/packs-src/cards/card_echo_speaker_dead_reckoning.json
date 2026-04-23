@@ -1,0 +1,39 @@
+{
+  "_id": "e8310e669f60c916",
+  "name": "Dead Reckoning",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 3",
+      "Stagger",
+      "Silence"
+    ],
+    "unlockLevel": 17,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The dead name the guilty. Target one enemy within 60 feet. Deal 22 + VEIL damage. Apply Expose 3, Stagger, and Silence. For the rest of the scene, this enemy cannot benefit from Veil effects or concealment — the dead have marked them.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_dead_reckoning"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

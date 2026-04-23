@@ -1,0 +1,39 @@
+{
+  "_id": "413126bd13368f6b",
+  "name": "The Living Weapon",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 26,
+    "pierce": 6,
+    "category": "signature",
+    "primaryStat": "signal",
+    "keywords": [
+      "Stagger",
+      "Expose 3",
+      "Silence"
+    ],
+    "unlockLevel": 20,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You are the weapon. Declare a Convergence Shot. Choose any target you can perceive within 120 feet. Deal 26 + SIGNAL damage. This card cannot be redirected, mirrored, or negated. Apply Stagger, Expose 3, and Silence simultaneously. After firing, your Basic Attack deals +RESONANCE damage for the rest of the scene.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_the_living_weapon"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

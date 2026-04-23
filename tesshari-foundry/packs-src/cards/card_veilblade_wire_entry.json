@@ -1,0 +1,37 @@
+{
+  "_id": "be85e4db2550faf3",
+  "name": "Wire Entry",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 8,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "signal",
+    "keywords": [
+      "Silence"
+    ],
+    "unlockLevel": 1,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Interface directly with an adjacent Wire network access point. In combat: deal 8 + SIGNAL signal damage to one connected target (you disrupt their interface), or apply Silence to one connected target, or unlock/lock one physical system connected to the network (door, alarm, barrier). Outside combat, this card enables the full Wire Entry suite (GM-adjudicated information gathering).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_wire_entry"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

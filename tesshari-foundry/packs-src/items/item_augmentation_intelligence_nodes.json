@@ -1,0 +1,26 @@
+{
+  "_id": "1ec705647ba27a66",
+  "name": "Intelligence Nodes",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Distributed sensor nodes providing multi-point environmental analysis. Shadow Daimyo and Merchant Knife: grants one free intelligence stack per encounter.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_intelligence_nodes",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

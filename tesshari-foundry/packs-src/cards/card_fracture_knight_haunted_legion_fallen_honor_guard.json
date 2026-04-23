@@ -1,0 +1,35 @@
+{
+  "_id": "0080ac5348cc0e0d",
+  "name": "Fallen Honor Guard",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Fracture Knight",
+    "subclass": "Fracture Knight — Haunted Legion",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Summon two phantom knights flanking an enemy within 30 feet. They impose disadvantage on the target's next attack; the first attack the target takes while flanked deals an extra 1d8 resonant. They fade at end of round.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_haunted_legion_fallen_honor_guard"
+    }
+  },
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  }
+}

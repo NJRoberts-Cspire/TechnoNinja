@@ -1,0 +1,38 @@
+{
+  "_id": "b2d1cc323750f198",
+  "name": "Iron Vanguard",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Shield 10",
+      "Taunt"
+    ],
+    "unlockLevel": 11,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You step between your lord, your allies, or your oath-ward and harm. Until your next turn, any attack targeting an adjacent ally may be redirected to you at your choice (no cost, once per round). Gain Shield 10 to absorb the redirected blow.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_iron_vanguard"
+    }
+  },
+  "folder": null,
+  "sort": 2011,
+  "ownership": {
+    "default": 0
+  }
+}

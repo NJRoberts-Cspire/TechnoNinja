@@ -1,0 +1,39 @@
+{
+  "_id": "99e58d75f95039d2",
+  "name": "The Bleeding Edge",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 28,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 6",
+      "Expose 6",
+      "Vulnerable 6"
+    ],
+    "unlockLevel": 20,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>*The Blood Smith practice at its absolute limit.* Pay 20 HP instead of 3 AP (costs 0 AP). Deal 28 + IRON melee damage to one adjacent target and 14 + IRON to all other enemies within 15 feet. Apply Bleed 6, Expose 6, and Vulnerable 6 to the primary target. Apply Bleed 3 and Expose 3 to all secondary targets. Restore 16 HP to yourself as the lattice reconverges at maximum output. At the start of your next turn, pay 10 HP — the morning after always comes.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_the_bleeding_edge"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

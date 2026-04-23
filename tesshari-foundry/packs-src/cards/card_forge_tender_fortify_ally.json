@@ -1,0 +1,37 @@
+{
+  "_id": "c7e816423846eecf",
+  "name": "Fortify Ally",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Shield"
+    ],
+    "unlockLevel": 3,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Reinforce one ally's enhancement network against incoming harm. They gain Shield equal to your SIGNAL × 2. Until your next turn, the first control effect that lands on them (Root, Stagger, Silence) has its duration reduced by 1 turn — your fortification provides partial Echomind insulation.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_fortify_ally"
+    }
+  },
+  "folder": null,
+  "sort": 1003,
+  "ownership": {
+    "default": 0
+  }
+}

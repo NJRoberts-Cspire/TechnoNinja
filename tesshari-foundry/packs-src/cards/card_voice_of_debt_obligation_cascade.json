@@ -1,0 +1,37 @@
+{
+  "_id": "33dee52b0322c0e8",
+  "name": "Obligation Cascade",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 3"
+    ],
+    "unlockLevel": 11,
+    "className": "Voice of Debt",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 12 + VEIL social damage to one target within 40 feet. Apply Debt 4 and Expose 3. If any other enemy within 20 feet of the target carries Debt stacks, apply Debt 1 to each of them as well — obligation is contagious.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_obligation_cascade"
+    }
+  },
+  "folder": null,
+  "sort": 2011,
+  "ownership": {
+    "default": 0
+  }
+}

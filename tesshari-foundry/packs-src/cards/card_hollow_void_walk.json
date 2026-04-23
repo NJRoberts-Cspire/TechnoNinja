@@ -1,0 +1,37 @@
+{
+  "_id": "f17c20d6079c2c42",
+  "name": "Void Walk",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 3"
+    ],
+    "unlockLevel": 13,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You briefly exit the physical plane. Until your next turn, you cannot be targeted by any card or attack. You may still play cards. At the start of your next turn, your return deals 12 + RESONANCE resonant damage to all enemies within 15 feet. Apply Expose 3 to each.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_void_walk"
+    }
+  },
+  "folder": null,
+  "sort": 3013,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "2cf875923221b751",
+  "name": "Pulse Dampening Vest",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Pulse Caller torso armor. Reduces resonance signature bleed when integrated weapon fires.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "pulse_dampening_vest",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

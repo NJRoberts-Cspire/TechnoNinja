@@ -1,0 +1,24 @@
+{
+  "_id": "b90e10d9e02140a3",
+  "name": "Coded Message Scroll",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Pre-encoded message on a resonant medium. Decodes only for the specified authorized reader.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "coded_message_scroll",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "8e42c44c4a9fee77",
+  "name": "Drift Reading",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Expose",
+      "Vulnerable"
+    ],
+    "unlockLevel": 4,
+    "className": "Curse Eater",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Identify all debuffs currently on one target within 30 meters. Apply Expose 1 to that target. If they have 3+ active debuff stacks, apply Expose 2 and Vulnerable 1 instead.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_drift_reading"
+    }
+  },
+  "folder": null,
+  "sort": 1004,
+  "ownership": {
+    "default": 0
+  }
+}

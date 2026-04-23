@@ -1,0 +1,24 @@
+{
+  "_id": "8443bcae8ca81206",
+  "name": "Field Medic Bag",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Comprehensive medical supplies for field treatment. Provides three uses of Remove Bleed or Stabilize. Requires medical training or Forge Tender class.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_field_medic_bag",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

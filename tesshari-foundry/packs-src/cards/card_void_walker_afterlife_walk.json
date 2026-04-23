@@ -1,0 +1,37 @@
+{
+  "_id": "4a8b5bb34b748f89",
+  "name": "Afterlife Walk",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "mobility",
+    "primaryStat": "",
+    "keywords": [
+      "Veil"
+    ],
+    "unlockLevel": 14,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Step fully into the Iron Afterlife and walk through it. Teleport to any point within 300 feet you have visited. During transit you cannot be targeted. On arrival, gain Veil for 1 round and +3 EDGE until end of turn. You may bring one willing ally with you.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_afterlife_walk"
+    }
+  },
+  "folder": null,
+  "sort": 3014,
+  "ownership": {
+    "default": 0
+  }
+}

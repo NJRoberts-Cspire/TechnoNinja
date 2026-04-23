@@ -1,0 +1,41 @@
+{
+  "_id": "2b15d2f0ff05e993",
+  "name": "Minimal Remainder",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Bleed 4",
+      "Expose 4",
+      "Stagger",
+      "Root",
+      "Silence"
+    ],
+    "unlockLevel": 18,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Until your next turn, you are immune to Stagger, Root, Silence, and Stun simultaneously. All your melee Attack cards deal +IRON + FRAME bonus damage. Apply Bleed 4 and Expose 4 to all enemies within 15 feet. Restore 10 HP. The Echomind is still present. You are still making choices.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_minimal_remainder"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

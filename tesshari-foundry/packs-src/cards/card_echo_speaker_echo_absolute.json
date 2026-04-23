@@ -1,0 +1,37 @@
+{
+  "_id": "791056fc0ed43c60",
+  "name": "Echo Absolute",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 10"
+    ],
+    "unlockLevel": 18,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The dead stand between you and harm. For 1 round, all damage you take is reduced by 12 before Guard applies. Allies within 20 feet gain Guard 10. Any enemy who deals damage to you or an ally this round takes 8 + RESONANCE damage as the dead strike back.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_echo_absolute"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "3f2313caca561892",
+  "name": "Between Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 14,
+    "pierce": 8,
+    "category": "attack",
+    "primaryStat": "edge",
+    "keywords": [],
+    "unlockLevel": 13,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Strike from between worlds — your weapon phases through defenses before solidifying at impact. Deal 14 + EDGE damage. Pierce 8. If you are currently in incorporeal state (via Phase Step), this card deals +6 additional damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_between_strike"
+    }
+  },
+  "folder": null,
+  "sort": 2013,
+  "ownership": {
+    "default": 0
+  }
+}

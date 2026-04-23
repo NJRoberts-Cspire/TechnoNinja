@@ -1,0 +1,38 @@
+{
+  "_id": "f4fe6180de581aaa",
+  "name": "The Work Itself",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "iron+edge",
+    "keywords": [
+      "Expose 4",
+      "Shield"
+    ],
+    "unlockLevel": 16,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>There is no lord. There is no code. There is only the work — the thing in front of you that requires your best. Deal 22 + IRON + EDGE damage. Apply Expose 4 to the target. Gain Shield equal to your FRAME × 2. This card may be played once per combat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_the_work_itself"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

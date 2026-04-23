@@ -1,0 +1,24 @@
+{
+  "_id": "243f69a5e76771e5",
+  "name": "Command Zone Beacon",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A resonant marker placed to anchor an Iron Herald Command Zone. Required for establishing zones in unfamiliar territory.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_iron_herald_command_beacon",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

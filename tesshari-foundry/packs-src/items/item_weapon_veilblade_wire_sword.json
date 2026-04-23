@@ -1,0 +1,24 @@
+{
+  "_id": "7a04dec8654eee9c",
+  "name": "Wire-Sword",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A blade threaded through with active wire-silk. On hit, deploys a temporary wire trap dealing Bleed 2 to anyone moving through the space.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_veilblade_wire_sword",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

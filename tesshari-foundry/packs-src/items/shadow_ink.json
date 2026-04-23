@@ -1,0 +1,24 @@
+{
+  "_id": "387a54a4ff5b9d86",
+  "name": "Shadow Ink",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Applied to skin or fabric. Veilblade: Wire Integration grants +2 to stealth checks for one scene.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "shadow_ink",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

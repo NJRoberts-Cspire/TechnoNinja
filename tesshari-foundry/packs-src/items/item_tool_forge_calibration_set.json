@@ -1,0 +1,24 @@
+{
+  "_id": "d0a6dc0a8f79c58e",
+  "name": "Forge Calibration Set",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Precision tools for calibrating resonant-metal enhancement systems. Required for Tier 2 and above enhancement installation.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_forge_calibration_set",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

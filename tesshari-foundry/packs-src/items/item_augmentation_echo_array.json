@@ -1,0 +1,26 @@
+{
+  "_id": "4d5c84ca15ce20e3",
+  "name": "Echo Array",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Multi-node resonant antenna array distributed across the skull. Grants advantage on all Echomind-related checks and doubles Iron Afterlife perception range.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_echo_array",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

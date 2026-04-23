@@ -1,0 +1,37 @@
+{
+  "_id": "9b4f3bc25acbf489",
+  "name": "The Convergence",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 4"
+    ],
+    "unlockLevel": 16,
+    "className": "Shadow Daimyo",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Until your next turn, all your allies may each play one additional card on their turn for free (0 AP, once per ally). Apply Expose 4 to all enemies within 40 feet. This is what a lifetime of network-building looks like when it arrives at once.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shadow_daimyo_the_convergence"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

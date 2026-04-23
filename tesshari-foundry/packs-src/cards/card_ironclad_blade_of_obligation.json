@@ -1,0 +1,38 @@
+{
+  "_id": "c69d5619a591cc16",
+  "name": "Blade of Obligation",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 6,
+    "category": "signature",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 3",
+      "Expose 2"
+    ],
+    "unlockLevel": 18,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your resonant blade extends its oath to a single target within reach. Deal 22 + IRON damage. Apply Bleed 3 and Expose 2. If the target has any status effect already, this attack deals an additional 8 damage and cannot be mitigated by Guard or Shield.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_blade_of_obligation"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

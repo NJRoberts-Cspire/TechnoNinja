@@ -1,0 +1,37 @@
+{
+  "_id": "e85a62d3ce368dd0",
+  "name": "Blood Spike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 7,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 3"
+    ],
+    "unlockLevel": 3,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 7 + IRON melee damage to one adjacent target. Pay 4 HP. If you are below half HP, apply Bleed 3 instead of Bleed 2. **Keywords:** Bleed 2</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_blood_spike"
+    }
+  },
+  "folder": null,
+  "sort": 1003,
+  "ownership": {
+    "default": 0
+  }
+}

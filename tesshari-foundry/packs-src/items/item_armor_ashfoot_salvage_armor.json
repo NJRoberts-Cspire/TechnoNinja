@@ -1,0 +1,24 @@
+{
+  "_id": "243b240b445aea9b",
+  "name": "Ashfoot Salvage Armor",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Mismatched enhancement-component armor with irregular coverage. Medium armor. Bearer can repair it from Ashlands Salvage Components.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_ashfoot_salvage_armor",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

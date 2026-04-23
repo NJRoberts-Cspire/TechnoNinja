@@ -1,0 +1,37 @@
+{
+  "_id": "eb34e32b79570538",
+  "name": "Great Absorption",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 2,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Shield 5"
+    ],
+    "unlockLevel": 10,
+    "className": "Curse Eater",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Remove all debuffs from yourself. For each removed, deal 2 + RESONANCE damage to one enemy within 20 meters (you choose the target per debuff; same target is allowed). After this card resolves, your Loaded count is 0 and you gain Shield 5.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_great_absorption"
+    }
+  },
+  "folder": null,
+  "sort": 2010,
+  "ownership": {
+    "default": 0
+  }
+}

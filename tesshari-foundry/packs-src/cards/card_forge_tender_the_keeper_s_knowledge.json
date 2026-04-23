@@ -1,0 +1,35 @@
+{
+  "_id": "cf61d9d3640b92a0",
+  "name": "The Keeper's Knowledge",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 8,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your accumulated knowledge of the people you serve has become its own form of power and obligation. For each ally you have used Forge Mending on this combat: you know their precise HP at all times, you sense immediately if they fall unconscious, and healing cards used by any character on them recover + RESONANCE additional HP — your resonance record improves every healer's work.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_the_keeper_s_knowledge"
+    }
+  },
+  "folder": null,
+  "sort": 2008,
+  "ownership": {
+    "default": 0
+  }
+}

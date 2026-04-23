@@ -1,0 +1,24 @@
+{
+  "_id": "697bd35aeba307a5",
+  "name": "Resonant Saddle Bag",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Wire-silk saddle bag with resonant reinforcement. Doubles carry capacity for small items. Contents protected from resonant scanning.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_resonant_saddle_bag",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

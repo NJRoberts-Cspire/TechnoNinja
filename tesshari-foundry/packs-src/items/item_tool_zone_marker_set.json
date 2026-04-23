@@ -1,0 +1,24 @@
+{
+  "_id": "f66532b8f44f3556",
+  "name": "Command Zone Marker Set",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A set of four resonant stakes used to physically mark Iron Herald Command Zone boundaries. Zone is harder to disrupt when physically marked.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_zone_marker_set",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

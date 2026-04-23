@@ -1,0 +1,24 @@
+{
+  "_id": "8c97547d747a01f4",
+  "name": "Cover Outfit",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Civilian-grade clothing with concealed armor weave. Light armor. Passes as ordinary civilian attire. Grants advantage on social deception checks.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_merchant_knife_cover_outfit",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

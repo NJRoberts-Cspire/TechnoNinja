@@ -1,0 +1,35 @@
+{
+  "_id": "1488e55c537e980d",
+  "name": "Hard March",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 0,
+    "apCost": 0,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You have been shaped by constant movement and minimal support. Difficult terrain does not reduce your speed. Environmental conditions (extreme heat, toxic atmosphere, heavy rain) do not impose penalties on your attacks or checks. Once per combat, when a condition would incapacitate you (not damage — a status effect), reduce its duration by 1 turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_hard_march"
+    }
+  },
+  "folder": null,
+  "sort": 1,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "5a11375ce83095dd",
+  "name": "Cascade Meter",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Resonant instrument measuring cascade energy levels in the environment. Shell Dancer utility; provides early warning of high-cascade events.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_cascade_meter",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "75bd4856bd1d0d49",
+  "name": "Invisible Blade",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A blade treated with signal-null compound. Cannot be detected by Wire Craft scanning. First strike each encounter is unblockable.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_shadow_daimyo_invisible_blade",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

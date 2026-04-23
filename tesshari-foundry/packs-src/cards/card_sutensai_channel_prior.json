@@ -1,0 +1,38 @@
+{
+  "_id": "0a853c88d80be94c",
+  "name": "Channel Prior",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 18,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Stagger",
+      "Root"
+    ],
+    "unlockLevel": 9,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Choose one effect: (A) Deal 18 + RESONANCE resonant damage to all enemies within 25 feet. (B) Apply Stagger and Root to all enemies within 25 feet until start of your next turn. (C) Restore 10 + RESONANCE HP to all allies within 25 feet.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_channel_prior"
+    }
+  },
+  "folder": null,
+  "sort": 3009,
+  "ownership": {
+    "default": 0
+  }
+}

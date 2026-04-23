@@ -1,0 +1,35 @@
+{
+  "_id": "fa542ff539c4d1fb",
+  "name": "Social Architecture",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 4,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You activate a Cover — a false identity complete with forged documentation and Wire records. For the rest of this combat or scene, you register as this identity to social and automated assessment. Any creature that attempts to identify you through social or Wire means must succeed against your SIGNAL (GM ruling). You may maintain up to 3 Covers and switch between them at will.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_social_architecture"
+    }
+  },
+  "folder": null,
+  "sort": 2004,
+  "ownership": {
+    "default": 0
+  }
+}

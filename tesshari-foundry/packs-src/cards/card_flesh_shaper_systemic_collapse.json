@@ -1,0 +1,39 @@
+{
+  "_id": "98156cabbe823a19",
+  "name": "Systemic Collapse",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 18,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "signal",
+    "keywords": [
+      "Expose 6",
+      "Vulnerable 5",
+      "Stagger"
+    ],
+    "unlockLevel": 16,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one creature within 10 feet with organic components. Deal 18 + SIGNAL signal damage. Apply Expose 6, Vulnerable 5, and Stagger. Reduce their effective IRON, FRAME, and EDGE by 3 each until end of their next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_systemic_collapse"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

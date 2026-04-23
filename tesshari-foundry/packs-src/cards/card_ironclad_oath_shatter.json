@@ -1,0 +1,39 @@
+{
+  "_id": "984dfaa45bc81ff3",
+  "name": "Oath-Shatter",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 26,
+    "pierce": 10,
+    "category": "signature",
+    "primaryStat": "iron",
+    "keywords": [
+      "Expose 4",
+      "Bleed 3",
+      "Vulnerable 3"
+    ],
+    "unlockLevel": 19,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Against an enemy whose oath you have witnessed breaking — a samurai who has acted dishonorably, a lord who has betrayed — your strike carries maximum weight. Deal 26 + IRON damage. Apply Expose 4, Bleed 3, and Vulnerable 3 to the target. This card's base damage cannot be reduced by Guard.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_oath_shatter"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

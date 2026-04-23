@@ -1,0 +1,24 @@
+{
+  "_id": "ddad0aaf8be70848",
+  "name": "Memory Compound",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Compound enhancing Echomind memory recall. Allows access to any memory clearly experienced within the last month with perfect clarity.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_memory_compound",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

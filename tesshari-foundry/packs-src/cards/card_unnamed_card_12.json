@@ -1,0 +1,39 @@
+{
+  "_id": "da1b960ddabd5b33",
+  "name": "Card 12",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Conditional",
+      "Fortify",
+      "Area"
+    ],
+    "unlockLevel": 11,
+    "className": "The Unnamed",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>—</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_unnamed_card_12"
+    }
+  },
+  "folder": null,
+  "sort": 3011,
+  "ownership": {
+    "default": 0
+  }
+}

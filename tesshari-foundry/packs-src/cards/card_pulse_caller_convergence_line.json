@@ -1,0 +1,35 @@
+{
+  "_id": "f7f7f3229f1f4fb8",
+  "name": "Convergence Line",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 5,
+    "category": "attack",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 14,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Fire a charged shot that builds resonant energy along a 5-foot-wide, 80-foot line. All enemies in the line take 22 + SIGNAL damage. The line becomes a kill corridor until the start of your next turn — any enemy who enters it takes 8 damage immediately.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_convergence_line"
+    }
+  },
+  "folder": null,
+  "sort": 3014,
+  "ownership": {
+    "default": 0
+  }
+}

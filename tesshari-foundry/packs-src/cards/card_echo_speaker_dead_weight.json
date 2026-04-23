@@ -1,0 +1,38 @@
+{
+  "_id": "2a101c1965c1994d",
+  "name": "Dead Weight",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Root",
+      "Stagger"
+    ],
+    "unlockLevel": 13,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Channel the weight of the dead onto one enemy within 30 feet. Deal 10 + RESONANCE damage. Apply Root and Stagger. The target feels the accumulated grief of those they have harmed — they cannot use Veil cards next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_dead_weight"
+    }
+  },
+  "folder": null,
+  "sort": 2013,
+  "ownership": {
+    "default": 0
+  }
+}

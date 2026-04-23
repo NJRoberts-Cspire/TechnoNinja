@@ -1,0 +1,37 @@
+{
+  "_id": "c46632376a2ffa1d",
+  "name": "Void Cascade",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 2"
+    ],
+    "unlockLevel": 17,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The void-edge quality your weapons have absorbed erupts outward. Deal 20 + RESONANCE resonant damage to all enemies within reach (calculated separately). Against Shell-states and Iron Afterlife entities, this damage cannot be mitigated by any resistance or immunity. Apply Expose 2 to all targets hit.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_void_cascade"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

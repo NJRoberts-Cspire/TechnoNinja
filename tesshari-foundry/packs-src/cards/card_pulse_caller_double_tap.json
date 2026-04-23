@@ -1,0 +1,38 @@
+{
+  "_id": "23c4d91eaae06824",
+  "name": "Double Tap",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 5,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [
+      "Guard",
+      "Shield"
+    ],
+    "unlockLevel": 2,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Fire two rapid shots at the same target within 80 feet. First shot deals 5 + SIGNAL damage. Second shot deals 5 + SIGNAL damage. Each shot is resolved separately — Guard and Shield apply to each individually.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_double_tap"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "c66b18e253346d30",
+  "name": "Form Without Master",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Ronin",
+    "subclass": "Ronin — Ascendant Blade",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Adopt the stance that has no lineage. For 3 rounds, each time you avoid an attack (via miss, Refusal Stance, or reaction), you may make a free melee attack against the attacker for 1d8 + EDGE damage (max once per round). Once per long rest.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_ascendant_blade_form_without_master"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

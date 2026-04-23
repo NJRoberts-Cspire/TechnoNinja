@@ -1,0 +1,39 @@
+{
+  "_id": "254b1704089563fe",
+  "name": "Between Anchor",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 7",
+      "Fortify",
+      "Regen 3"
+    ],
+    "unlockLevel": 11,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Root yourself in the Between. Gain Guard 7 and Fortify. You cannot be moved by forced movement this round. **Below half HP:** Also gain Regen 3 for 1 round.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_between_anchor"
+    }
+  },
+  "folder": null,
+  "sort": 2011,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "f8ff4538e72f0bfa",
+  "name": "Sutensai Reading Lens",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Optical lens that enhances resonance perception. Reduces the HP cost of the next echomind read by 1.</p>",
+    "slot": "gear",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "sutensai_reading_lens",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

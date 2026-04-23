@@ -1,0 +1,39 @@
+{
+  "_id": "55d54e959d2652b9",
+  "name": "The Body Endures",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Cleanse",
+      "Shield",
+      "Regen 4"
+    ],
+    "unlockLevel": 19,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You are the bridge between flesh and survival. Choose one ally who has fallen to 0 HP this combat or who is currently at or below 25% HP. They immediately recover to 50% of their maximum HP. All debuffs are Cleansed from them. They gain Shield equal to your SIGNAL × 3 and Regen 4 for 3 turns. Once per combat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_the_body_endures"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

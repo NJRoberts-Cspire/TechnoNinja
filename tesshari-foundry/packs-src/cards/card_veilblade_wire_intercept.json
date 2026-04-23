@@ -1,0 +1,37 @@
+{
+  "_id": "70d9a98bdb29fe7a",
+  "name": "Wire Intercept",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 2"
+    ],
+    "unlockLevel": 7,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Intercept Wire communications within 120 feet. In combat: apply Expose 2 to all enemies whose communications you intercept (you know their positioning and intent this turn). The highest-SIGNAL enemy in the encounter cannot issue or receive commands this round — their communications are cut.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_wire_intercept"
+    }
+  },
+  "folder": null,
+  "sort": 1007,
+  "ownership": {
+    "default": 0
+  }
+}

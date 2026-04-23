@@ -1,0 +1,38 @@
+{
+  "_id": "fee39d82b60806ce",
+  "name": "Fracture Step",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "mobility",
+    "primaryStat": "",
+    "keywords": [
+      "Fracture 1",
+      "Fracture 1"
+    ],
+    "unlockLevel": 6,
+    "className": "Fracture Knight",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Phase-move up to 30 meters. At any point during this movement, make a melee attack for 12 + IRON damage. Apply Fracture 1 to the target. If you passed through an enemy's space during movement, apply Fracture 1 to them as well (separate from the attack target).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_fracture_step"
+    }
+  },
+  "folder": null,
+  "sort": 2006,
+  "ownership": {
+    "default": 0
+  }
+}

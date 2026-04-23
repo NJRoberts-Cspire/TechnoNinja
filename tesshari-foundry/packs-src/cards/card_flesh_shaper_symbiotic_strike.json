@@ -1,0 +1,38 @@
+{
+  "_id": "9645d63c2f35a259",
+  "name": "Symbiotic Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 16,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 3",
+      "Vulnerable 3"
+    ],
+    "unlockLevel": 12,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 16 + IRON melee damage to one adjacent target. Restore 8 + SIGNAL HP to yourself. Apply Bleed 3 and Vulnerable 3 to the target.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_symbiotic_strike"
+    }
+  },
+  "folder": null,
+  "sort": 3012,
+  "ownership": {
+    "default": 0
+  }
+}

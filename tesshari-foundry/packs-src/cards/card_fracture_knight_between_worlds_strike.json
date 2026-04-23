@@ -1,0 +1,38 @@
+{
+  "_id": "b6f44b1dea9c3346",
+  "name": "Between Worlds: Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Scaling",
+      "Expose 2"
+    ],
+    "unlockLevel": 12,
+    "className": "Fracture Knight",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 22 + IRON damage. Consume all Fracture stacks on yourself (add +4 per stack as bonus damage). Consume all Fracture stacks on the target (add +3 per stack as bonus damage). The attack arrives from both sides of the Veil simultaneously. Apply Expose 2 to the target after damage resolves.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_between_worlds_strike"
+    }
+  },
+  "folder": null,
+  "sort": 3012,
+  "ownership": {
+    "default": 0
+  }
+}

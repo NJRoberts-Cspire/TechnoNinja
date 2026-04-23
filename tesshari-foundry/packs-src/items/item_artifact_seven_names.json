@@ -1,0 +1,24 @@
+{
+  "_id": "379164deab2beb3a",
+  "name": "The Seven Names",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A resonant metal plaque bearing seven names of the honored dead from the Ascension War. Bearer gains combat insight from each name once per named encounter.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_artifact_seven_names",
+      "originalCategory": "artifact"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

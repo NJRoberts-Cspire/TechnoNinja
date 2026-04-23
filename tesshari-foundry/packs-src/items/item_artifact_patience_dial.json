@@ -1,0 +1,24 @@
+{
+  "_id": "44b5626b2c6eafa7",
+  "name": "The Patience Dial",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A perfect disk rotating once every four hundred years. Bearer gains defensive precision and temporal immunity; loses sense of urgency.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_artifact_patience_dial",
+      "originalCategory": "artifact"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

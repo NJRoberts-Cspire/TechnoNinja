@@ -1,0 +1,37 @@
+{
+  "_id": "f654d8eae12a58e9",
+  "name": "Rite of Passage",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Regen 2"
+    ],
+    "unlockLevel": 5,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>A creature that died within the last minute is sealed into the Iron Afterlife cleanly. They cannot be reanimated or puppeted this combat. Allies who witness the rite gain Regen 2 until end of their next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_rite_of_passage"
+    }
+  },
+  "folder": null,
+  "sort": 2005,
+  "ownership": {
+    "default": 0
+  }
+}

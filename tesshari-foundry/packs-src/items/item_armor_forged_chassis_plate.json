@@ -1,0 +1,24 @@
+{
+  "_id": "491a28225cde36c7",
+  "name": "Forged Chassis Plate",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Armor plating designed to integrate with Forged chassis systems. Counts as maintenance-compatible; does not increase maintenance difficulty.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_forged_chassis_plate",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

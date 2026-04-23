@@ -1,0 +1,24 @@
+{
+  "_id": "cb9f7986415a074e",
+  "name": "The Unsent Letter (Vaen)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A handwritten letter to a dead woman containing unfiltered fear and doubt. Bearer gains insight into hidden motivations; carries awareness of all costs of their actions.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_unsent_letter",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

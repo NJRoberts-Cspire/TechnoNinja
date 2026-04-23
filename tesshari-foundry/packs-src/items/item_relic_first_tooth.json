@@ -1,0 +1,24 @@
+{
+  "_id": "7ca7f3c277e8c439",
+  "name": "The First Tooth (Korrath)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A curved resonant blade with twenty-three names etched in the hilt. Provides combat memory and blade recognition; bearer hears voices of the dead.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_relic_first_tooth",
+      "originalCategory": "relic"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

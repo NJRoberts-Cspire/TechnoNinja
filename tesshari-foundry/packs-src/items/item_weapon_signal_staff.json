@@ -1,0 +1,24 @@
+{
+  "_id": "8fc6a00743eeaaae",
+  "name": "Signal Staff",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Staff with resonant ends serving as Wire Craft interface. Ritual and utility focus as well as combat.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_signal_staff",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

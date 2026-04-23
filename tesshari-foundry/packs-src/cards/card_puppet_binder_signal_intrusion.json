@@ -1,0 +1,38 @@
+{
+  "_id": "65416d120d02b865",
+  "name": "Signal Intrusion",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 7,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [
+      "Overheat 1",
+      "Silence"
+    ],
+    "unlockLevel": 4,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 7 + SIGNAL signal damage to one target within 40 feet. Apply Silence for one turn. If the target has cybernetic enhancements, apply Overheat 1 in addition.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_signal_intrusion"
+    }
+  },
+  "folder": null,
+  "sort": 1004,
+  "ownership": {
+    "default": 0
+  }
+}

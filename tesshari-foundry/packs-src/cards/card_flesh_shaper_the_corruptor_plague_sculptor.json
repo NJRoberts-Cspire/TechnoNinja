@@ -1,0 +1,35 @@
+{
+  "_id": "3314f0c8c46d0149",
+  "name": "Plague Sculptor",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 5,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Flesh Shaper",
+    "subclass": "Flesh Shaper — The Corruptor",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Carve a disease into being and hand it to your enemies. Choose 3 enemies within 40 feet: each gains Bleed 2 and a custom debuff you name (GM approves); every time one of them acts, the debuff spreads to an adjacent enemy. Lasts 3 rounds.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_the_corruptor_plague_sculptor"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

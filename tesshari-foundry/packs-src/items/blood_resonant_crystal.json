@@ -1,0 +1,24 @@
+{
+  "_id": "b7262b3237e9d97b",
+  "name": "Blood Resonant Crystal",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Forms in wounds of resonant creatures. Blood Smith primary crafting material.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "blood_resonant_crystal",
+      "originalCategory": "material"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

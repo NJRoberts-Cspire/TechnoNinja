@@ -1,0 +1,24 @@
+{
+  "_id": "cfcbf7598ba959d6",
+  "name": "Signal Amplifier Vial",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Temporary signal frequency amplification compound. All signal-based cards deal +3 damage and apply +1 to status stacks for one encounter.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_signal_amplifier",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

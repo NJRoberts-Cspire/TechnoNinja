@@ -1,0 +1,38 @@
+{
+  "_id": "3ecbffff1dd22524",
+  "name": "Resonant Dominance",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Taunt",
+      "Regen 2"
+    ],
+    "unlockLevel": 15,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your Echomind broadcasts at full intensity. Apply Taunt to all enemies in the encounter. Deal 20 + RESONANCE resonant damage to one target. All allies in the encounter gain Regen 2 for 2 turns from your resonant output.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_resonant_dominance"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

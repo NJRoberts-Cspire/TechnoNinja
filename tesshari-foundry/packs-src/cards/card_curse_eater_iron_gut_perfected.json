@@ -1,0 +1,39 @@
+{
+  "_id": "6de331265b7aa4c7",
+  "name": "Iron Gut: Perfected",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Shield",
+      "Regen 5",
+      "Fortify"
+    ],
+    "unlockLevel": 16,
+    "className": "Curse Eater",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Shield equal to your FRAME × 4. Apply Regen 5 for 4 turns. Apply Fortify until start of your next turn. If Loaded is 6+, this card also removes all Silence, Stagger, and Root effects from you as part of its resolution — the body has absorbed so much that control effects simply do not adhere anymore.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_iron_gut_perfected"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

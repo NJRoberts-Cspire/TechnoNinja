@@ -1,0 +1,24 @@
+{
+  "_id": "515e5aca92ce588c",
+  "name": "Ronin Bounty Notice",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>An official bounty notice for a named contract target. Ronin: activating against this target provides +1 AP on the first action.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "ronin_bounty_notice",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "1d0e0be33ca12687",
+  "name": "Between Tincture",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A distillation of Between-state resonance. Iron Monk: immediately triggers Between state without card play.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "between_tincture",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

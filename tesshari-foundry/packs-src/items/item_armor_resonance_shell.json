@@ -1,0 +1,24 @@
+{
+  "_id": "9e4d2c040d6ae49a",
+  "name": "Resonance Shell",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Medium-heavy armor of resonant plate with wire-silk undersuit. High quality.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_resonance_shell",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "465a49c189d78dc3",
+  "name": "Harvest",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Voice of Debt",
+    "subclass": "Voice of Debt — Debt Collector",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Move up to your speed, striking every Debtor or Debt-carrier you pass within 5 feet with 6 + VEIL damage. Each enemy struck loses half their Debt stacks as damage; you recover 1 AP if any target dies. Flavor: the collector walks the row and every marked one drops.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_debt_collector_harvest"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "4ec9d18ea683538a",
+  "name": "Void Sight Drops",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Eye drops that allow perception of incorporeal entities and void-space phenomena for one scene.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "void_sight_drops",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

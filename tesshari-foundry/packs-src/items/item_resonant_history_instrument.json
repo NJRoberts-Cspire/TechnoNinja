@@ -1,0 +1,26 @@
+{
+  "_id": "f9d2b376e2a4970a",
+  "name": "Resonant History Instrument",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>When placed against a resonant metal surface, reads accumulated impressions and broadcasts them at a level accessible to enhancement-bearing individuals nearby.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_history_instrument",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

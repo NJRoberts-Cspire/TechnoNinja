@@ -1,0 +1,26 @@
+{
+  "_id": "3bce9c09d64e5334",
+  "name": "Bio-Weave",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Living biological material woven through the skin. Flesh Shaper: HP Tier thresholds shift upward by 10%. Regenerates bearer's HP by 1 each turn.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_bio_weave",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

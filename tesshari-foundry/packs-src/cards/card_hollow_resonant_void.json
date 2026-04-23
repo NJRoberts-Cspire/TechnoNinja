@@ -1,0 +1,37 @@
+{
+  "_id": "738ee6b12cf284ee",
+  "name": "Resonant Void",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 3"
+    ],
+    "unlockLevel": 12,
+    "className": "The Hollow",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Until your next turn, all enhancement-based cards within 30 feet of you cost 1 additional AP to play (enemies only). Apply Expose 3 to all enemies within 30 feet. Deal 10 + RESONANCE resonant damage to all enemies with enhancements in range.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_resonant_void"
+    }
+  },
+  "folder": null,
+  "sort": 3012,
+  "ownership": {
+    "default": 0
+  }
+}

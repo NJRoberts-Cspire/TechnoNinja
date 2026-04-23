@@ -1,0 +1,38 @@
+{
+  "_id": "0ee80c50e19cf5ef",
+  "name": "Shell-State Disruption",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger",
+      "Expose 2"
+    ],
+    "unlockLevel": 2,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>When you hit a Shell-state or Resonance-Broken creature, apply Stagger — they cannot make reactions until the start of your next turn. Additionally, apply Expose 2 as you disrupt the enhancement cascade driving their behavior. This card may be played as a Reaction when a Shell-state attempts to act.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_shell_state_disruption"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

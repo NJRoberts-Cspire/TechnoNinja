@@ -1,0 +1,39 @@
+{
+  "_id": "e588a4505d87be86",
+  "name": "Corrupt Pulse",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Overheat 2",
+      "Stagger",
+      "Silence"
+    ],
+    "unlockLevel": 11,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Direct your corrupted resonance outward in a focused burst. Apply Overheat 2 and Stagger to one target within reach. Enhanced targets (those with significant enhancement investment) also suffer Silence for 1 turn — your corruption destabilizes their integrated systems.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_corrupt_pulse"
+    }
+  },
+  "folder": null,
+  "sort": 2011,
+  "ownership": {
+    "default": 0
+  }
+}

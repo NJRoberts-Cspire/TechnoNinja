@@ -1,0 +1,35 @@
+{
+  "_id": "28b54f725ec6c01f",
+  "name": "Zone of Advance",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 10,
+    "className": "Iron Herald",
+    "subclass": "Echo Speaker — Herald",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Establish a Command Zone. All allies within 60 meters may immediately move up to their EDGE in meters toward the Zone without triggering responses. Enemies within the Zone cannot use Reaction cards until the end of their next turn — the advance was too coordinated to respond to.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_zone_of_advance"
+    }
+  },
+  "folder": null,
+  "sort": 2010,
+  "ownership": {
+    "default": 0
+  }
+}

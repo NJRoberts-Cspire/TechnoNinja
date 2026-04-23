@@ -1,0 +1,40 @@
+{
+  "_id": "7f1b08f21de6132b",
+  "name": "Hollow Poor's Fury",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 3",
+      "Expose 3",
+      "Vulnerable 2",
+      "Regen 3"
+    ],
+    "unlockLevel": 17,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You know exactly what you're worth to the system and you have decided to be worth more than that. Deal 20 + IRON damage. Apply Bleed 3, Expose 3, and Vulnerable 2. Gain Regen 3 for 2 turns — the anger sustains you. This card deals + EDGE additional damage if you are below half HP when you play it.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_hollow_poor_s_fury"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

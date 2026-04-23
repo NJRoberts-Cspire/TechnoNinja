@@ -1,0 +1,24 @@
+{
+  "_id": "cc65ef8fa44cfea7",
+  "name": "Bleed Compound",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Contact poison applied to blade or wound. Applies Bleed 3 for 3 turns to target.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_bleed_compound",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "ae677a0a52b9d83e",
+  "name": "Pulse Arm (Standard)",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Signal-discharge weapon with adjustable power and range. Standard ranged signal weapon.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_pulse_arm_standard",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

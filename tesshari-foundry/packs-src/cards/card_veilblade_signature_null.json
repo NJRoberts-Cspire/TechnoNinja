@@ -1,0 +1,35 @@
+{
+  "_id": "f673f6696c625940",
+  "name": "Signature Null",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 0,
+    "apCost": 0,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your enhancement signature is under your precise control. As a free action at the start of any turn, you may suppress your enhancement signature — you register as unenhanced or at any caste level of your choice. Tracking by enhancement signature becomes impossible while suppressed. You may end suppression at any time.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_signature_null"
+    }
+  },
+  "folder": null,
+  "sort": 1,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "33aba2261d194a72",
+  "name": "Ghost Walk",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "mobility",
+    "primaryStat": "",
+    "keywords": [
+      "Phase"
+    ],
+    "unlockLevel": 3,
+    "className": "Fracture Knight",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Phase into the Iron Afterlife momentarily. Until the start of your next turn, the first Attack card targeting you has no effect — you were partially elsewhere. Reposition up to 15 meters (phase movement). Gain 1 Phantom Charge.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_ghost_walk"
+    }
+  },
+  "folder": null,
+  "sort": 1003,
+  "ownership": {
+    "default": 0
+  }
+}

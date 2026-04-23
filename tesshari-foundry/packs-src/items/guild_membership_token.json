@@ -1,0 +1,24 @@
+{
+  "_id": "08fcdcb4799ae8b2",
+  "name": "Guild Membership Token",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Physical token of guild membership. Opens guild-affiliated locations and contacts.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "guild_membership_token",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

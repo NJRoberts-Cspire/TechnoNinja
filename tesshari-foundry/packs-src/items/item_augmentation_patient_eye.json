@@ -1,0 +1,26 @@
+{
+  "_id": "9465b0a6b80abd3f",
+  "name": "The Patient Eye",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Single eye optical system with predictive analysis. Provides guaranteed ranged hit and motion prediction; contains locked surveillance footage from previous user.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_patient_eye",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

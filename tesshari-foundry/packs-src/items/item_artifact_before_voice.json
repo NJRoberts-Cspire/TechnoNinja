@@ -1,0 +1,24 @@
+{
+  "_id": "0f6cda0161b91158",
+  "name": "The Before-Voice",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A sealed resonant capsule containing a preserved voice recording from before the Convergence. Playing it once provides absolute truth about one past event.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_artifact_before_voice",
+      "originalCategory": "artifact"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

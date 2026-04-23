@@ -1,0 +1,39 @@
+{
+  "_id": "90d910085fd9cb2b",
+  "name": "The Conduit Opens",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 16,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Area",
+      "Bleed 2",
+      "Regen 4"
+    ],
+    "unlockLevel": 12,
+    "className": "Curse Eater",
+    "subclass": "Curse Eater — Conduit",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 16 + RESONANCE damage to all enemies within 20 meters. Apply Bleed 2 to all hit targets. Remove all debuffs from yourself (post-damage — you discharge them outward). Gain Regen 4 for 3 turns from the relief of emptying.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_the_conduit_opens"
+    }
+  },
+  "folder": null,
+  "sort": 3012,
+  "ownership": {
+    "default": 0
+  }
+}

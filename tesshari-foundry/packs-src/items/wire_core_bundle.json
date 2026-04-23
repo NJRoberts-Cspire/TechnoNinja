@@ -1,0 +1,24 @@
+{
+  "_id": "0858de1a7f8a41c9",
+  "name": "Wire Core Bundle",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Dense bundle of signal-grade wire. Base material for wire-based crafting and construction.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "wire_core_bundle",
+      "originalCategory": "material"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

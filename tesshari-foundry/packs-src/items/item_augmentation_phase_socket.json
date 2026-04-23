@@ -1,0 +1,26 @@
+{
+  "_id": "56a369861e01d75e",
+  "name": "Phase Socket",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Spinal socket tuned to Between-space frequency. Void Walker: Incorporeal State entry and exit costs 0 AP. Phantom Charges generate passively.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_phase_socket",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

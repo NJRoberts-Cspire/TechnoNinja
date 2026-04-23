@@ -1,0 +1,24 @@
+{
+  "_id": "7050c059a8fe621e",
+  "name": "The Unwritten Contract",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A contract with deliberately blank binding terms. Legally enforceable once filled in with any terms.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "the_unwritten_contract",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

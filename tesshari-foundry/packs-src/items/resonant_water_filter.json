@@ -1,0 +1,24 @@
+{
+  "_id": "ec70c8c3afe12ba2",
+  "name": "Resonant Water Filter",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Filters resonance contamination from water. Essential in contaminated Reaches.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "resonant_water_filter",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

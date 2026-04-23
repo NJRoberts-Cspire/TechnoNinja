@@ -1,0 +1,38 @@
+{
+  "_id": "1a8ad67b9005dc7e",
+  "name": "Void Bleed",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 2",
+      "Bleed 3"
+    ],
+    "unlockLevel": 10,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Bleed Afterlife energy into the physical world at one target within 40 feet. Deal 12 + RESONANCE damage. Apply Expose 2 and Bleed 3 — the Afterlife continues to drain them at the end of each of their turns.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_void_bleed"
+    }
+  },
+  "folder": null,
+  "sort": 2010,
+  "ownership": {
+    "default": 0
+  }
+}

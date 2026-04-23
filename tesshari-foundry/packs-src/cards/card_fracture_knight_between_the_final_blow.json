@@ -1,0 +1,35 @@
+{
+  "_id": "86cd04e64fa32974",
+  "name": "Between: The Final Blow",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 20,
+    "className": "Fracture Knight",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Spend all Phantom Charges. Apply Fracture 5 to yourself. This card consumes both simultaneously: deal (18 + IRON) + (6 × Phantom Charges spent) + (3 × 5 self-Fracture stacks) damage to one target. This is the highest base damage value of any single card in Tesshari. It cannot be reduced by any effect. It hits from both sides of the Veil. The dead guided it. You threw it. The math was always going to come out here.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_between_the_final_blow"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "8b28aad546de98f3",
+  "name": "Veteran's Reflex",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "reaction",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 2"
+    ],
+    "unlockLevel": 4,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": true,
+    "usesPerCombat": null,
+    "description": "<p>*Triggered when you fail to mitigate a hit.* You have survived enough ambushes to have reflexes that work independently of your planning. Reduce the triggering damage by your EDGE + FRAME. Gain Guard 2 immediately after.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_veteran_s_reflex"
+    }
+  },
+  "folder": null,
+  "sort": 1004,
+  "ownership": {
+    "default": 0
+  }
+}

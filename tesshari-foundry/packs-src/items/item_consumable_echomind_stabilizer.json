@@ -1,0 +1,24 @@
+{
+  "_id": "8ef45a2435cef795",
+  "name": "Echomind Stabilizer",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Resonant compound suppressing Afterlife bleed-through and possession vulnerability. Lasts one full rest cycle.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_echomind_stabilizer",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

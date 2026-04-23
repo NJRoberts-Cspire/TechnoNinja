@@ -1,0 +1,24 @@
+{
+  "_id": "aa339db499e8408e",
+  "name": "Forge Ember Core",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Heat-retaining core material from Forge Tender constructs. Used in heat-based crafting projects.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "forge_ember_core",
+      "originalCategory": "material"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

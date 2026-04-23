@@ -1,0 +1,26 @@
+{
+  "_id": "5466c80c25cdea28",
+  "name": "Dissolution Tracker",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Subcutaneous sensor network detecting dissolution resonance. Grants advantage on detecting and tracking shell-state entities within 60 feet.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_dissolution_tracker",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

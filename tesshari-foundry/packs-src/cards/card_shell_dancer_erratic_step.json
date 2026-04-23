@@ -1,0 +1,35 @@
+{
+  "_id": "471c194e7e6a15c2",
+  "name": "Erratic Step",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 3,
+    "pierce": 0,
+    "category": "mobility",
+    "primaryStat": "edge",
+    "keywords": [],
+    "unlockLevel": 3,
+    "className": "Shell Dancer",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Reposition up to your EDGE × 2 in meters. This movement does not trigger responses. If you move through an enemy's space during this movement, deal 3 + EDGE damage to them as you pass.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_erratic_step"
+    }
+  },
+  "folder": null,
+  "sort": 1003,
+  "ownership": {
+    "default": 0
+  }
+}

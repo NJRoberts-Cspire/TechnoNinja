@@ -1,0 +1,35 @@
+{
+  "_id": "97c392339b573ba1",
+  "name": "Loaded Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 4,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "frame",
+    "keywords": [],
+    "unlockLevel": 2,
+    "className": "Curse Eater",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 4 + FRAME damage. Deal +2 additional damage per Loaded stack currently on you (no maximum).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_loaded_strike"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

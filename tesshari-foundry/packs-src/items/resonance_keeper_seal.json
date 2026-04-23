@@ -1,0 +1,24 @@
+{
+  "_id": "00887bc95771f360",
+  "name": "Resonance Keeper Seal",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Marks the holder as Resonance Keeper aligned. Forge Tender: enables Keeper-specific card abilities.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "resonance_keeper_seal",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "df566f243e7c5fce",
+  "name": "Relentless Press",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 5,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "iron",
+    "keywords": [
+      "Root"
+    ],
+    "unlockLevel": 1,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You advance and don't stop. Deal 5 + IRON damage. Apply Root to the target — they cannot disengage from you until the start of their next turn. If they attempt to move away anyway, you may immediately deal 4 + IRON damage as a reactive strike (counts as your Reaction this round).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_relentless_press"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

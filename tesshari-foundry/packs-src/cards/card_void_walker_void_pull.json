@@ -1,0 +1,37 @@
+{
+  "_id": "d113be80cbc7c998",
+  "name": "Void Pull",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 8,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Stagger"
+    ],
+    "unlockLevel": 5,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Pull one target within 40 feet through a brief Void transit. Willing target: teleport them to any unoccupied space within 40 feet of their origin. Unwilling target: deal 8 + RESONANCE damage and teleport them to a space of your choice within 30 feet. Apply Stagger to unwilling targets.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_void_pull"
+    }
+  },
+  "folder": null,
+  "sort": 2005,
+  "ownership": {
+    "default": 0
+  }
+}

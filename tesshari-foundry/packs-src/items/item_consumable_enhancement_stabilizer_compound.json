@@ -1,0 +1,24 @@
+{
+  "_id": "7726abcf6f4b3637",
+  "name": "Enhancement Stabilizer Compound",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Injected compound stabilizing Blood Smith enhancement status from Stressed back to Stable. Single use.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_enhancement_stabilizer_compound",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

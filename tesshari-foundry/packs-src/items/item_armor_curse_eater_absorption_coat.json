@@ -1,0 +1,24 @@
+{
+  "_id": "4a151f48832c6308",
+  "name": "Absorption Coat",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A coat constructed from purged curse material. Light armor. Bearer's maximum Loaded Count increased by 3. Corruption Points accumulate 50% slower.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_curse_eater_absorption_coat",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

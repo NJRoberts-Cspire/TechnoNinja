@@ -1,0 +1,37 @@
+{
+  "_id": "5d5dbeec10fb716b",
+  "name": "Network Maintenance",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 2"
+    ],
+    "unlockLevel": 2,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Comprehensive maintenance of all allies in the encounter. Each ally recovers 4 + RESONANCE HP. Each ally gains Guard 2 against the next hit they take. This card represents the Forge Tender's ambient presence — being in a fight with a good Tender means you are always slightly better maintained than you would otherwise be.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_network_maintenance"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

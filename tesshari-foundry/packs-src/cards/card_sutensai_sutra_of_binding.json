@@ -1,0 +1,38 @@
+{
+  "_id": "e99aa29362ba5673",
+  "name": "Sutra of Binding",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Vulnerable 4",
+      "Root"
+    ],
+    "unlockLevel": 10,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Vulnerable 4 and Root to one target within 40 feet. Until the target breaks free (at end of each of their turns they may attempt to clear Root), any damage they take is increased by your RESONANCE.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_sutra_of_binding"
+    }
+  },
+  "folder": null,
+  "sort": 2010,
+  "ownership": {
+    "default": 0
+  }
+}

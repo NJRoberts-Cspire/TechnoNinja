@@ -1,0 +1,39 @@
+{
+  "_id": "3af03a8dd2155021",
+  "name": "The Final Sutra",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "iron+resonance",
+    "keywords": [
+      "Silence",
+      "Stagger",
+      "Expose 3"
+    ],
+    "unlockLevel": 16,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You perform the Iron Rite on a target you have just struck. Deal 20 + IRON + RESONANCE damage. The target's Echomind is disrupted — apply Silence, Stagger, and Expose 3. If this reduces the target to 0 HP, their body cannot be reanimated during this encounter.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_the_final_sutra"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

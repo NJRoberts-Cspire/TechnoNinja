@@ -1,0 +1,39 @@
+{
+  "_id": "70c2ffd207748b08",
+  "name": "Shaper's Harvest",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 24,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 5",
+      "Expose 5",
+      "Echo"
+    ],
+    "unlockLevel": 18,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 24 + IRON melee damage to one adjacent target with organic components. Restore 12 HP to yourself from the shaping feedback. Apply Bleed 5 and Expose 5. Echo (repeat base damage once, no riders).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_shaper_s_harvest"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

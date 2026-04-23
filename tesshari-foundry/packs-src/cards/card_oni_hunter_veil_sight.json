@@ -1,0 +1,35 @@
+{
+  "_id": "d008b3ac68b4b6c6",
+  "name": "Veil Sight",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 9,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your perception extends into the resonant layer of the Iron Afterlife. You can see Iron Afterlife entities regardless of their visibility status. You can read the emotional resonance of locations — whether something died nearby, approximately when, and whether the death was violent. Iron Afterlife entities recognize you as a Hunter on sight.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_veil_sight"
+    }
+  },
+  "folder": null,
+  "sort": 1009,
+  "ownership": {
+    "default": 0
+  }
+}

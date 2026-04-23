@@ -1,0 +1,26 @@
+{
+  "_id": "efd37e586a80c995",
+  "name": "Scar-Sight Lens",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Optical enhancement perceiving Engine Scar contamination. Provides contamination visibility and reading capability; transfers to biological eye permanently.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_scar_sight_lens",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

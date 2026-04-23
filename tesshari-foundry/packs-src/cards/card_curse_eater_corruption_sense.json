@@ -1,0 +1,39 @@
+{
+  "_id": "9a15acd024afeddf",
+  "name": "Corruption Sense",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Passive",
+      "Detection",
+      "Regen 2"
+    ],
+    "unlockLevel": 1,
+    "className": "Curse Eater",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Passive. This card counts toward hand size and is never \"\"played.\"\" While this card is in your hand: you automatically detect all status effects on every combatant at the start of each round (no action required). Additionally, at the start of your turn, if your Loaded count is 3+, gain Regen 2 for that turn — your body is processing, and processing generates heat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_corruption_sense"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

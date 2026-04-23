@@ -1,0 +1,38 @@
+{
+  "_id": "6f0235f9832212d0",
+  "name": "Absorption Mastery",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Reaction",
+      "Guard"
+    ],
+    "unlockLevel": 8,
+    "className": "Curse Eater",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Reaction. Triggered when you take damage of any type. Take half damage and add 1 Loaded (you absorbed the impact). If this would bring your Loaded count to 5+, also gain Guard equal to your FRAME.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_absorption_mastery"
+    }
+  },
+  "folder": null,
+  "sort": 2008,
+  "ownership": {
+    "default": 0
+  }
+}

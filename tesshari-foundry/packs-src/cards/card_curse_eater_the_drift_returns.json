@@ -1,0 +1,35 @@
+{
+  "_id": "594232062780ca23",
+  "name": "The Drift Returns",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [],
+    "unlockLevel": 17,
+    "className": "Curse Eater",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Select one target. Apply every debuff type currently on you to that target at double stack value (if you have Bleed 2, they get Bleed 4; Expose 1 becomes Expose 2, etc., capped at each keyword's maximum). Remove those debuffs from yourself afterward. Deal 20 + RESONANCE damage to that target. What you carried, they now carry. The difference is you chose to carry it. They did not.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_the_drift_returns"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

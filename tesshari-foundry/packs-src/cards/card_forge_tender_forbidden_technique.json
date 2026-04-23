@@ -1,0 +1,37 @@
+{
+  "_id": "f1748bef53f84a20",
+  "name": "Forbidden Technique",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [
+      "Variable"
+    ],
+    "unlockLevel": 10,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply one blacklisted procedure to an adjacent ally. Choose one: **Resonance Weapon** — their unarmed/weapon attacks deal + RESONANCE additional resonant damage until their next turn; **Signature Null** — they become undetectable to technological systems for 1 turn; **Pain Redirect** — they ignore all wound penalties and HP-based penalties for 1 turn; or **Emergency Enhancement** — the next Forge Mending targeting them heals triple the amount.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_forbidden_technique"
+    }
+  },
+  "folder": null,
+  "sort": 2010,
+  "ownership": {
+    "default": 0
+  }
+}

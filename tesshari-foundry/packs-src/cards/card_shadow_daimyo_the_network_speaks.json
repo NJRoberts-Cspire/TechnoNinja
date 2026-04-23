@@ -1,0 +1,39 @@
+{
+  "_id": "761bf7bcb114b3c5",
+  "name": "The Network Speaks",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 8",
+      "Regen 4",
+      "Expose 4"
+    ],
+    "unlockLevel": 18,
+    "className": "Shadow Daimyo",
+    "subclass": "Puppet Binder — The Network",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Expose 4 to all enemies within 40 feet. All allies within 40 feet gain Guard 8 + VEIL and Regen 4 until your next turn. The next two allies to act each deal +VEIL + IRON bonus damage on all cards they play this round.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shadow_daimyo_the_network_speaks"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

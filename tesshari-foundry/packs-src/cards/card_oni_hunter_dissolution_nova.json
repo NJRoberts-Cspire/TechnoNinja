@@ -1,0 +1,38 @@
+{
+  "_id": "239e1cb69caa88e0",
+  "name": "Dissolution Nova",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 18,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Stagger",
+      "Expose 3"
+    ],
+    "unlockLevel": 19,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The dissolution resonance you carry erupts outward in a burst that disrupts every Echomind in range. Deal 18 + RESONANCE resonant damage to all enemies within reach (calculated separately). Apply Stagger to all targets hit. Against Shell-states and Iron Afterlife entities, apply Expose 3 as well.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_dissolution_nova"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

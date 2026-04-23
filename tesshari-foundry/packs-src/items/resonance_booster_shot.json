@@ -1,0 +1,24 @@
+{
+  "_id": "343506d81741c4bf",
+  "name": "Resonance Booster Shot",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Temporarily amplifies resonance output. One ability within the next round deals +2 damage or heals +2 HP.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "resonance_booster_shot",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

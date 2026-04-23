@@ -1,0 +1,38 @@
+{
+  "_id": "52b9aea69c44160e",
+  "name": "Void Eruption",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 4,
+    "category": "attack",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger",
+      "Expose 2"
+    ],
+    "unlockLevel": 16,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Channel a massive eruption of Afterlife energy at a point within 80 feet. All enemies within 30 feet of that point take 20 + RESONANCE damage. Apply Stagger and Expose 2 to each. Incorporeal and Afterlife entities in the area are expelled from the physical world.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_void_eruption"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

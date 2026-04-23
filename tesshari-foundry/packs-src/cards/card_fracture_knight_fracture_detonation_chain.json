@@ -1,0 +1,38 @@
+{
+  "_id": "843015d83dbce311",
+  "name": "Fracture: Detonation Chain",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 18,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Chain",
+      "Fracture 1"
+    ],
+    "unlockLevel": 14,
+    "className": "Fracture Knight",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one enemy. Deal 18 + IRON damage + (5 × their Fracture stacks). Consume all their Fracture stacks. Each consumed stack triggers a chain hit on a different enemy within 10 meters of the original target for 6 + IRON damage (up to 5 chain hits, one per stack consumed). Chain hits apply Fracture 1 each.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_fracture_detonation_chain"
+    }
+  },
+  "folder": null,
+  "sort": 3014,
+  "ownership": {
+    "default": 0
+  }
+}

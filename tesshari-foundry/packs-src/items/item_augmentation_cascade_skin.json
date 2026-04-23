@@ -1,0 +1,26 @@
+{
+  "_id": "22dcb3c37aee9662",
+  "name": "Cascade Skin",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Subcutaneous reactive plating converting impact force to cascade energy. Generates 2 Cascade on taking damage above a threshold (3+).</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_cascade_skin",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

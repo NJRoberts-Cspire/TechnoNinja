@@ -1,0 +1,35 @@
+{
+  "_id": "f555f46946d255b2",
+  "name": "The Void's Memory",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 9,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Commune with the Afterlife's memory of this location. In combat: learn the exact HP total, all active status effects, and all card categories held by one enemy within 60 feet. Out of combat: ask the Afterlife one question about any event within 20 miles over the past year. The answer comes in fragments.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_the_void_s_memory"
+    }
+  },
+  "folder": null,
+  "sort": 2009,
+  "ownership": {
+    "default": 0
+  }
+}

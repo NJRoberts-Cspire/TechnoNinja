@@ -1,0 +1,35 @@
+{
+  "_id": "0f83c8f5d35048c0",
+  "name": "The Vessel Complete",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 19,
+    "className": "Curse Eater",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>For 1 full round after this card is played, you become the Vessel Complete. All debuffs applied to you during this round are absorbed without effect (they still add to Loaded but deal no damage and impose no penalties). At the start of your next turn, every Loaded stack is discharged simultaneously: deal (6 + RESONANCE) per Loaded stack to all enemies within 20 meters, then trigger a Corruption Pulse, then gain HP equal to your RESONANCE × current FRAME. Your Loaded count resets to 0. The contamination does not leave you. It simply goes quiet. It will come back when the world needs you to carry it again.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_the_vessel_complete"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "7e9fb3c491d6e40f",
+  "name": "Void-Weave Robe",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Light practitioner armor without restriction. For non-martial bearers; preserves freedom of movement.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_void_weave_robe",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "46d65518849b4161",
+  "name": "Between Sight",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Mark"
+    ],
+    "unlockLevel": 7,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your Between attunement pierces illusion and concealment. For 1 round, you cannot be surprised, cannot be targeted by Veil effects, and detect the exact position of all concealed creatures within 60 feet. **Below half HP:** Also apply Mark to all detected enemies.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_between_sight"
+    }
+  },
+  "folder": null,
+  "sort": 1007,
+  "ownership": {
+    "default": 0
+  }
+}

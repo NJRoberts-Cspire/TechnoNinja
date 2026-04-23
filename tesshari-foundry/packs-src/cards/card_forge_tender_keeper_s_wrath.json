@@ -1,0 +1,38 @@
+{
+  "_id": "2e1333d911304272",
+  "name": "Keeper's Wrath",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [
+      "Stagger",
+      "Expose 2"
+    ],
+    "unlockLevel": 17,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>When an enemy harms someone you are responsible for, your response is precise and technical. Deal 12 + SIGNAL signal damage to one target. Apply Stagger and Expose 2. This card costs 0 AP if played in the same turn that one of your maintained allies was reduced to half HP or below.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_keeper_s_wrath"
+    }
+  },
+  "folder": null,
+  "sort": 2017,
+  "ownership": {
+    "default": 0
+  }
+}

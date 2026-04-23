@@ -1,0 +1,38 @@
+{
+  "_id": "bd5f0a9c0974c066",
+  "name": "Willing Vessel",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 3,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Reaction",
+      "Shield 4"
+    ],
+    "unlockLevel": 4,
+    "className": "Curse Eater",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Reaction. Triggered when an enemy applies any debuff to you. Accept the debuff without resistance and immediately deal 3 + RESONANCE damage to the attacker. Gain Shield 4. The Curse Eater does not flinch. They were waiting for this.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_willing_vessel"
+    }
+  },
+  "folder": null,
+  "sort": 1004,
+  "ownership": {
+    "default": 0
+  }
+}

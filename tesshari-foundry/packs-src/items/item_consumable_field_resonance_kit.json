@@ -1,0 +1,24 @@
+{
+  "_id": "c7a7f8124ca8eb12",
+  "name": "Field Resonance Kit",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Compact kit for emergency resonant repair and calibration. Restores one enhancement to Stable status. Requires 5 minutes to apply.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_field_resonance_kit",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

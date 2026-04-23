@@ -1,0 +1,38 @@
+{
+  "_id": "817497f570385bdf",
+  "name": "Oath Consecration",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 8",
+      "Guard 3"
+    ],
+    "unlockLevel": 10,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You briefly consecrate your position — a still center in the violence. Gain Guard 8. Allies within reach gain Guard 3. Any enemy who moves adjacent to you this turn takes 6 + RESONANCE resonant damage on contact.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_oath_consecration"
+    }
+  },
+  "folder": null,
+  "sort": 2010,
+  "ownership": {
+    "default": 0
+  }
+}

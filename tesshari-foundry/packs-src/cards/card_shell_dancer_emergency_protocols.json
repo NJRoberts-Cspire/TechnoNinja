@@ -1,0 +1,37 @@
+{
+  "_id": "fefcb653da34fd9f",
+  "name": "Emergency Protocols",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 6,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "frame",
+    "keywords": [
+      "Reaction"
+    ],
+    "unlockLevel": 5,
+    "className": "Shell Dancer",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Reaction. Triggered when you would be reduced to 0 HP. You are reduced to 1 HP instead. Deal 6 + FRAME damage to all enemies within 8 meters (enhancement discharge). Gain 3 Cascade.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_emergency_protocols"
+    }
+  },
+  "folder": null,
+  "sort": 1005,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "0ac50e04d3281ea6",
+  "name": "Author Network Map",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Partial map of the Hollow Author's puppet network in one territory. Provides intelligence on Author-controlled locations and personnel.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_author_network_map",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

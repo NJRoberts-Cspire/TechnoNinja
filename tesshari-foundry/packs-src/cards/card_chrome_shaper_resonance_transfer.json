@@ -1,0 +1,39 @@
+{
+  "_id": "35ad0e3d595636c1",
+  "name": "Resonance Transfer",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 14",
+      "Regen 4",
+      "Overheat 1"
+    ],
+    "unlockLevel": 18,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Transfer your own enhancement resilience to one ally within reach. You gain Overheat 1. That ally gains Guard 14, Regen 4 for 2 rounds, and +2 to their primary stat until end of scene.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_resonance_transfer"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

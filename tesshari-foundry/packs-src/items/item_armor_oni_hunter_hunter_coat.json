@@ -1,0 +1,24 @@
+{
+  "_id": "bed951c1c109966a",
+  "name": "Hunter Coat",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A long coat worn by Oni Hunters. Light armor. Provides advantage on tracking and pursuit actions. Reduces dissolution resonance contamination accumulation.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_oni_hunter_hunter_coat",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

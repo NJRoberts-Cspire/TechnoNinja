@@ -1,0 +1,35 @@
+{
+  "_id": "fb974a6afb772aa8",
+  "name": "Market Authority",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 17,
+    "className": "Merchant Knife",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Select one target. Until end of combat, all allies treat that target as having Intelligence 3 for purposes of ally attack bonuses. All Debt on the target is doubled (up to the maximum of 5). Any card played by any ally against this target this turn deals +SIGNAL bonus damage (you have broadcast the complete profile). This represents invoking full Market authority on a target.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_market_authority"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

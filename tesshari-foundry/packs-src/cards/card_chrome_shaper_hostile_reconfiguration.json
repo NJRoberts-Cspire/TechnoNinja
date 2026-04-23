@@ -1,0 +1,37 @@
+{
+  "_id": "78ba03197c999808",
+  "name": "Hostile Reconfiguration",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "signal",
+    "keywords": [
+      "Stagger"
+    ],
+    "unlockLevel": 9,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Remotely reconfigure one enhanced enemy within 30 feet. Deal 12 + SIGNAL damage. Apply Stagger. Their next card costs +1 AP as their reconfigured systems fight the new parameters.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_hostile_reconfiguration"
+    }
+  },
+  "folder": null,
+  "sort": 2009,
+  "ownership": {
+    "default": 0
+  }
+}

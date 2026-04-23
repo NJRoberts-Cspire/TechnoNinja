@@ -1,0 +1,38 @@
+{
+  "_id": "4528d1939f2dd573",
+  "name": "Echomind Intercept",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 3",
+      "Silence"
+    ],
+    "unlockLevel": 17,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one enhanced creature within 60 feet. Their Echomind connection is disrupted. They cannot use Resonance cards this round and take 12 + SIGNAL damage. Apply Expose 3 to all Resonance damage they receive until end of their next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_echomind_intercept"
+    }
+  },
+  "folder": null,
+  "sort": 2017,
+  "ownership": {
+    "default": 0
+  }
+}

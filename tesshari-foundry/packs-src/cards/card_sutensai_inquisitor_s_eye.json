@@ -1,0 +1,35 @@
+{
+  "_id": "a4ca01aa821c93f8",
+  "name": "Inquisitor's Eye",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 6,
+    "className": "Sutensai",
+    "subclass": "Sutensai — Inquisitor",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>*While in hand, passive.* You always sense when a creature within 30 feet is lying about spiritual matters. Once per combat, when an enemy uses a Utility or Social card within range, you may declare it false — canceling its non-damage riders.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_inquisitor_s_eye"
+    }
+  },
+  "folder": null,
+  "sort": 1006,
+  "ownership": {
+    "default": 0
+  }
+}

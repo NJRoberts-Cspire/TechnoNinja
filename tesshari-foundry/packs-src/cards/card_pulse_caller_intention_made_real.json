@@ -1,0 +1,38 @@
+{
+  "_id": "e3d94ed00924290a",
+  "name": "Intention Made Real",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 24,
+    "pierce": 6,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [
+      "Stagger",
+      "Expose 3"
+    ],
+    "unlockLevel": 19,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Channel your pre-conscious targeting into a single perfect shot. Deal 24 + SIGNAL damage to one target within 120 feet. This card cannot be negated by Veil, Mirror Protocol, or redirect effects — the shot was already in flight before it was decided. Apply Stagger and Expose 3.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_intention_made_real"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "4b55c631f8ed8382",
+  "name": "System Override",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Root",
+      "Stagger"
+    ],
+    "unlockLevel": 9,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Take permanent control of one Wire-connected system within 120 feet. In combat: one Wire-connected enemy (a creature with Signal-based class features) is Stunned for 1 round — they cannot play cards. Out of combat: the system obeys you for the rest of the scene.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_system_override"
+    }
+  },
+  "folder": null,
+  "sort": 3009,
+  "ownership": {
+    "default": 0
+  }
+}

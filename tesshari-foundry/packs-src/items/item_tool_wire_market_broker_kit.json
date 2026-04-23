@@ -1,0 +1,24 @@
+{
+  "_id": "113ed7d91b33bcd9",
+  "name": "Wire Market Broker Kit",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Tools and documentation for conducting Wire Market transactions. Merchant Knife utility; all trade-based social checks have advantage when kit is visible.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_wire_market_broker_kit",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

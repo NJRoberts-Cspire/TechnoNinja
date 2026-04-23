@@ -1,0 +1,35 @@
+{
+  "_id": "a2efad5bd7cf2a58",
+  "name": "Gut Check",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 5,
+    "pierce": 0,
+    "category": "reaction",
+    "primaryStat": "iron",
+    "keywords": [],
+    "unlockLevel": 3,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": true,
+    "usesPerCombat": null,
+    "description": "<p>*Triggered when an enemy succeeds on a save or defense against one of your effects.* You press the follow-through anyway. Deal 5 + IRON damage as an immediate reactive strike. This represents your understanding that a near-miss is still pressure.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_gut_check"
+    }
+  },
+  "folder": null,
+  "sort": 1003,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "b4d389e64767f382",
+  "name": "Death Walk",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 7,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You push your resonance into the Iron Afterlife's border while maintaining your body. Until your next turn: you are invisible to non-enhanced creatures. You can move through occupied spaces (not walls). All physical damage you take is reduced by your SIGNAL. Enhanced creatures can still perceive you.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_death_walk"
+    }
+  },
+  "folder": null,
+  "sort": 2007,
+  "ownership": {
+    "default": 0
+  }
+}

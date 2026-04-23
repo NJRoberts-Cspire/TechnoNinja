@@ -1,0 +1,24 @@
+{
+  "_id": "2de2601a2cfbe97a",
+  "name": "Bone-Blade",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A weapon partially constructed from Iron Afterlife material. Ignores Guard against undead and Afterlife entities.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_bone_blade",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

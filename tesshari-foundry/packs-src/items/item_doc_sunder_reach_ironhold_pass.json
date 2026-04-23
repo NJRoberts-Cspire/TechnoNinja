@@ -1,0 +1,24 @@
+{
+  "_id": "d3b7fd4ac0435610",
+  "name": "Ironhold Military Pass",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Ironhold-issued authorization permitting travel through controlled checkpoints in Sunder Reach. Expires after one campaign arc.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_doc_sunder_reach_ironhold_pass",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

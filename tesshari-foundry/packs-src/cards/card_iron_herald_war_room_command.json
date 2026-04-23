@@ -1,0 +1,35 @@
+{
+  "_id": "129fbd4edb01456f",
+  "name": "War Room Command",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 12,
+    "className": "Iron Herald",
+    "subclass": "Echo Speaker — Herald",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Until the start of your next turn, all allies in combat gain the following simultaneously: +VEIL to all damage; their Basic Attacks cost 0 AP (already free, but may now be used an additional time this turn); any enemy that attacks an ally grants that ally a free Reaction Basic Attack in response. You have broadcast a complete tactical picture. Everyone knows what to do.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_war_room_command"
+    }
+  },
+  "folder": null,
+  "sort": 3012,
+  "ownership": {
+    "default": 0
+  }
+}

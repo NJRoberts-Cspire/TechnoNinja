@@ -1,0 +1,24 @@
+{
+  "_id": "f627432a65fe1cc5",
+  "name": "Enhancement Transport Case",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A hardened case for safely transporting uninstalled enhancement modules. Prevents damage and resonant discharge during transport. Holds 4 augmentation items.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_container_enhancement_case",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

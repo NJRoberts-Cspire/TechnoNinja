@@ -1,0 +1,39 @@
+{
+  "_id": "1b1dbba06dc9b38f",
+  "name": "Signal Disruption",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "signal",
+    "keywords": [
+      "Silence",
+      "Stagger",
+      "Overheat 2"
+    ],
+    "unlockLevel": 12,
+    "className": "Forge Tender",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You read an enemy's enhancement configuration and disrupt it precisely. Deal 10 + SIGNAL signal damage. Apply Silence and Stagger. If your SIGNAL exceeds their SIGNAL, apply Overheat 2 as well — you found the cascade point and triggered it deliberately.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_forge_tender_signal_disruption"
+    }
+  },
+  "folder": null,
+  "sort": 2012,
+  "ownership": {
+    "default": 0
+  }
+}

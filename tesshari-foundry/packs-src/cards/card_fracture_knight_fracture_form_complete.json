@@ -1,0 +1,35 @@
+{
+  "_id": "5af18fd790e5d041",
+  "name": "Fracture Form: Complete",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 15,
+    "className": "Fracture Knight",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Until start of your next turn: you are fully incorporeal — all Attack cards targeting you deal 0 damage (effects still apply); your melee attacks deal +RESONANCE × 2 bonus damage; you gain 1 Phantom Charge per enemy that attempts to attack you; and you may phase-move up to 15 meters as a free action once this turn. You are here and not here simultaneously. This is not evasion. This is what you are.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_fracture_knight_fracture_form_complete"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

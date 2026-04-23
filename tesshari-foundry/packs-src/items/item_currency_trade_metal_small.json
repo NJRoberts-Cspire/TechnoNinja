@@ -1,0 +1,24 @@
+{
+  "_id": "7064af905b5aa5a7",
+  "name": "Trade-Metal Pouch (Small)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>10 trade-metal standard; lower-caste daily wage equivalent.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_currency_trade_metal_small",
+      "originalCategory": "currency"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

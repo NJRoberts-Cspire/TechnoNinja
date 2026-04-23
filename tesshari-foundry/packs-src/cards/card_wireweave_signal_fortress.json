@@ -1,0 +1,35 @@
+{
+  "_id": "18713106f5537378",
+  "name": "Signal Fortress",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 16,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Establish total Wire dominance in a 300-foot radius for the scene. All Wire systems obey you. All Signal cards used within the area by enemies suffer -4 to their base damage. Any enemy attempting a Wire Craft action must contest your SIGNAL or fail.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_signal_fortress"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

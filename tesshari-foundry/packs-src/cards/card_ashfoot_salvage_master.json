@@ -1,0 +1,39 @@
+{
+  "_id": "1fd3c479c96ff4ca",
+  "name": "Salvage Master",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [
+      "Bleed 1",
+      "Expose 1",
+      "Stagger"
+    ],
+    "unlockLevel": 8,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Improvised weapons in your hands are your weapons. Your improvised and salvage attacks deal damage as standard weapons (no penalty). Once per combat, after hitting with an improvised attack, you may apply one of: Bleed 1, Stagger, or Expose 1 to the target for free.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_salvage_master"
+    }
+  },
+  "folder": null,
+  "sort": 1008,
+  "ownership": {
+    "default": 0
+  }
+}

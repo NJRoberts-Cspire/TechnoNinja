@@ -1,0 +1,37 @@
+{
+  "_id": "2a9a08dd68e62edb",
+  "name": "Full Cascade: Entry",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard"
+    ],
+    "unlockLevel": 8,
+    "className": "Shell Dancer",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Spend 4 Cascade. Until the start of your next turn: all Attack cards deal +EDGE bonus damage; you gain Guard equal to your FRAME; and gaining Cascade heals you for 2 HP per stack gained. The failure states are all running hot and they are all yours.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_full_cascade_entry"
+    }
+  },
+  "folder": null,
+  "sort": 2008,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "_id": "d2366dc0bbf66f47",
+  "name": "No Lord But the Work",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 26,
+    "pierce": 20,
+    "category": "attack",
+    "primaryStat": "iron+edge",
+    "keywords": [
+      "Bleed 3",
+      "Expose 4",
+      "Vulnerable 3",
+      "Fortify"
+    ],
+    "unlockLevel": 20,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You have found, or made, or become your own reason to be. Declare one target your Final Contract. Against this target, this turn: deal 26 + IRON + EDGE damage. This attack cannot miss, cannot be mitigated by Guard or Shield, and applies Bleed 3, Expose 4, and Vulnerable 3. You are immune to all control effects for the remainder of this combat. Once per combat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_no_lord_but_the_work"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

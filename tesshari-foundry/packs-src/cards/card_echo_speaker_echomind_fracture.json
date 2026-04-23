@@ -1,0 +1,39 @@
+{
+  "_id": "a8c99150e2be583f",
+  "name": "Echomind Fracture",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 14,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Silence",
+      "Stagger",
+      "Expose 3"
+    ],
+    "unlockLevel": 11,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one enemy within 30 feet. Their Echomind is cracked open by the weight of the dead. Deal 14 + RESONANCE damage. Apply Silence for 2 rounds, Stagger, and Expose 3. While Silenced by this card, the target hears the voices of those they have harmed — they cannot use Veil cards for the duration.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_echomind_fracture"
+    }
+  },
+  "folder": null,
+  "sort": 3011,
+  "ownership": {
+    "default": 0
+  }
+}

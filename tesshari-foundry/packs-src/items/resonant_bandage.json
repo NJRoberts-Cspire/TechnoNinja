@@ -1,0 +1,24 @@
+{
+  "_id": "4f3c7917853a8bc2",
+  "name": "Resonant Bandage",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Recovers 2 HP when applied. Resonant material threading accelerates surface wound closure.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "resonant_bandage",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "879deda8148200c9",
+  "name": "Iron Teeth Charter Document",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>An official production charter granting extraction rights within a specific Iron Teeth mine sector. Provides legal cover and worker authority.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_doc_iron_teeth_charter",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

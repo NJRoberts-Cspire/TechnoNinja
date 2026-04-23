@@ -1,0 +1,38 @@
+{
+  "_id": "5c7ae2a8b4e40290",
+  "name": "Resonance Inversion",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 5",
+      "Overheat 1"
+    ],
+    "unlockLevel": 15,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You redirect your corrupted resonance inward, using it as a temporary amplifier. Gain Guard 5. Until end of turn, your attacks deal + EDGE additional damage. Gain Overheat 1 — the corruption doesn't amplify cleanly.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_resonance_inversion"
+    }
+  },
+  "folder": null,
+  "sort": 2015,
+  "ownership": {
+    "default": 0
+  }
+}

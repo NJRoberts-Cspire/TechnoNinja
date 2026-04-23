@@ -1,0 +1,24 @@
+{
+  "_id": "bb3dbcf7cfe0cdda",
+  "name": "Wire Anchor Spike",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Driven into a surface. Wireweave: provides a fixed anchor point for wire techniques in a zone without natural anchor points.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "wire_anchor_spike",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

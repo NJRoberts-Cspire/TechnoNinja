@@ -1,0 +1,39 @@
+{
+  "_id": "8c4ff80eee2ec6d0",
+  "name": "The Living Standard",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Regen 3",
+      "Taunt",
+      "Reaction"
+    ],
+    "unlockLevel": 10,
+    "className": "Iron Herald",
+    "subclass": "Echo Speaker — Herald",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Reaction. Triggered when an ally within 30 meters would be reduced to 0 HP. That ally is reduced to 1 HP instead. Apply Regen 3 to them. You gain Taunt against the attacker until your next turn — they attacked your standard and you have noted it.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_the_living_standard"
+    }
+  },
+  "folder": null,
+  "sort": 2010,
+  "ownership": {
+    "default": 0
+  }
+}

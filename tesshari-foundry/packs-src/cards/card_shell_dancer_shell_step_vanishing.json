@@ -1,0 +1,38 @@
+{
+  "_id": "cd39e712a8adb81a",
+  "name": "Shell Step: Vanishing",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "mobility",
+    "primaryStat": "",
+    "keywords": [
+      "Teleport",
+      "Shield"
+    ],
+    "unlockLevel": 8,
+    "className": "Shell Dancer",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Enter Shell Step. Reposition anywhere within 30 meters (no responses triggered). While in Shell Step from this card, you gain Shield equal to your EDGE × 2. When you exit Shell Step, your next Attack card this turn deals +8 bonus damage — you reappeared exactly where you needed to be.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_shell_step_vanishing"
+    }
+  },
+  "folder": null,
+  "sort": 2008,
+  "ownership": {
+    "default": 0
+  }
+}

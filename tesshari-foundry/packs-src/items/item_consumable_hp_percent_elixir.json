@@ -1,0 +1,24 @@
+{
+  "_id": "428f164ac32942b2",
+  "name": "HP Percent Elixir",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Elixir that temporarily inflates HP Percent reading. The Hollow: all HP Percent-scaling cards use maximum (100%) value for one encounter.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_hp_percent_elixir",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

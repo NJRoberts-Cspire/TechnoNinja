@@ -1,0 +1,38 @@
+{
+  "_id": "74b41916b3c874cf",
+  "name": "The Clean Exit",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "mobility",
+    "primaryStat": "",
+    "keywords": [
+      "Veil",
+      "Reaction"
+    ],
+    "unlockLevel": 5,
+    "className": "Merchant Knife",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Reaction. When you reduce a target to 0 HP, immediately reposition up to your EDGE in meters without provoking responses. Gain Veil (first hostile card targeting you next turn loses all riders).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_the_clean_exit"
+    }
+  },
+  "folder": null,
+  "sort": 1005,
+  "ownership": {
+    "default": 0
+  }
+}

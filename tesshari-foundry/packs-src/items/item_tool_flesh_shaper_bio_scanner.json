@@ -1,0 +1,24 @@
+{
+  "_id": "97f71d82c4a6b27e",
+  "name": "Bio Scanner",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Device analyzing biological material quality for Flesh Shaper procedures. Identifies optimal Bio-Reinforcement Compound sources.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_flesh_shaper_bio_scanner",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "585bd8c659d8166a",
+  "name": "Resonance Tent",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Portable shelter. Blocks external resonance from reaching occupants. Fits up to 4 people.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "resonance_tent",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

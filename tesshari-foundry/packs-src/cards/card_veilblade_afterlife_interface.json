@@ -1,0 +1,38 @@
+{
+  "_id": "274cfacfe6cdfa4c",
+  "name": "Afterlife Interface",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Silence",
+      "Stagger"
+    ],
+    "unlockLevel": 8,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your death-resonance has stabilized enough to be directed. You reach into the Iron Afterlife's signal layer and speak with a recently-deceased Echomind (within 24 hours of death). This is an out-of-combat utility, but in combat: apply Silence and Stagger to one target as the dead press against their signal — they feel it even if they don't understand it.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_afterlife_interface"
+    }
+  },
+  "folder": null,
+  "sort": 2008,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "99ba3af468226739",
+  "name": "Void Sovereign",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 10",
+      "Root"
+    ],
+    "unlockLevel": 13,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Assert Void authority over a 60-foot radius. For 1 round: you teleport freely within the area at 0 AP cost. All allies within the area gain Guard 10. All enemies within the area cannot use Phase or Mobility cards. You may designate one dead creature whose Echomind is in the area — they are held stable and cannot pass to the Afterlife until you release them.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_void_sovereign"
+    }
+  },
+  "folder": null,
+  "sort": 3013,
+  "ownership": {
+    "default": 0
+  }
+}

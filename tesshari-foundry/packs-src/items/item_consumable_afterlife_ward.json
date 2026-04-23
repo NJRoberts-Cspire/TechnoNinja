@@ -1,0 +1,24 @@
+{
+  "_id": "47b8c62bb6e492ce",
+  "name": "Afterlife Ward",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Single-use resonant seal disrupting Afterlife entity contact. Protects bearer and one adjacent ally from possession for one encounter.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_afterlife_ward",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

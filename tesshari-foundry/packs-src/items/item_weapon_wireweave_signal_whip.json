@@ -1,0 +1,24 @@
+{
+  "_id": "1de351028279ac2c",
+  "name": "Signal Whip",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A wire-silk whip integrated with signal-discharge nodes. Applies Silence 1 on hit. Reach weapon; pulls target 5 feet on successful grapple.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_wireweave_signal_whip",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

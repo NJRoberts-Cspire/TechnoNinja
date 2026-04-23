@@ -1,0 +1,37 @@
+{
+  "_id": "718c943bf0b810c7",
+  "name": "Prior's Echo",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 13,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Expose 2"
+    ],
+    "unlockLevel": 8,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 13 + RESONANCE resonant damage in a 20-foot cone. All targets in range take Expose 2. Cost: pay 10 HP instead of 2 AP (play for 0 AP + 10 HP).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_prior_s_echo"
+    }
+  },
+  "folder": null,
+  "sort": 2008,
+  "ownership": {
+    "default": 0
+  }
+}

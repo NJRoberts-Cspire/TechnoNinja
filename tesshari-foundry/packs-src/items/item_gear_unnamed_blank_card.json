@@ -1,0 +1,24 @@
+{
+  "_id": "1f54f205c2678043",
+  "name": "Blank Condition Card",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>An unmarked resonant card awaiting definition. Used in The Unnamed card-naming rituals to formally define a new card condition through play.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_unnamed_blank_card",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

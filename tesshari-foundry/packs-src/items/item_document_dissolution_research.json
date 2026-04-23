@@ -1,0 +1,24 @@
+{
+  "_id": "89ff3ea308405a5a",
+  "name": "Dissolution Research",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Academic research on dissolution resonance and shell-state mechanics. Oni Hunter utility; grants advantage on identifying dissolution-touched targets.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_dissolution_research",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

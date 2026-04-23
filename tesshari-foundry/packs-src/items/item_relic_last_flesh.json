@@ -1,0 +1,24 @@
+{
+  "_id": "397cc49eb1bfe7d5",
+  "name": "The Last Flesh (Korrath)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A sealed container of preserved biological tissue; the only anchor preventing Korrath's Ascension. Cannot be integrated; treat with extreme care.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_relic_last_flesh",
+      "originalCategory": "relic"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "81912c54d44f2762",
+  "name": "Signal Capacitor",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A resonant capacitor storing signal discharge energy. Pulse Caller: restores 2 AP to Pulse Arm-related cards once per encounter.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_pulse_caller_capacitor",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "08907d828896daad",
+  "name": "Shadow Discipline",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 0,
+    "apCost": 0,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your training has given you extraordinary control over your physical presence. When you are hidden and make an attack that misses, you remain hidden — the attack's origin is unclear. You may attempt to hide as part of any Mobility card you play (GM ruling on cover availability). Your first attack each combat from a hidden position deals + EDGE additional damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_shadow_discipline"
+    }
+  },
+  "folder": null,
+  "sort": 1,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "bdfcf698fac0ec8d",
+  "name": "Pain Architecture",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 8,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "iron",
+    "keywords": [
+      "Expose 3",
+      "Stagger"
+    ],
+    "unlockLevel": 3,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 8 + IRON melee damage to one adjacent target with organic components. Apply Expose 3 and Stagger. The target's FRAME is treated as 2 lower for damage threshold purposes until your next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_pain_architecture"
+    }
+  },
+  "folder": null,
+  "sort": 2003,
+  "ownership": {
+    "default": 0
+  }
+}

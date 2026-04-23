@@ -1,0 +1,35 @@
+{
+  "_id": "01a2dd498b49abcf",
+  "name": "The Shell Remains",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "The Hollow",
+    "subclass": "The Hollow — The Shell",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>When your HP would drop to 0, the Shell does not notice. Remain standing with 1 HP for one full round; during that round you cannot be reduced below 1 HP and your attacks deal FRAME + RESONANCE bonus damage. At the end of the round, fall.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_hollow_the_shell_remains"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

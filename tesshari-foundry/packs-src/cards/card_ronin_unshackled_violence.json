@@ -1,0 +1,39 @@
+{
+  "_id": "bbc2b19ab780b67e",
+  "name": "Unshackled Violence",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 2",
+      "Stagger",
+      "Expose 2"
+    ],
+    "unlockLevel": 10,
+    "className": "Ronin",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The full expression of the Ronin's uncodified combat — no pattern, no form, no predictability. Deal 20 + IRON damage. Apply Bleed 2, Stagger, and Expose 2 simultaneously. If any of these effects were already present on the target, add EDGE to the damage for each one already present.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_unshackled_violence"
+    }
+  },
+  "folder": null,
+  "sort": 3010,
+  "ownership": {
+    "default": 0
+  }
+}

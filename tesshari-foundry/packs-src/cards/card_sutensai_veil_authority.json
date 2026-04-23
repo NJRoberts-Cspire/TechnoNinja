@@ -1,0 +1,38 @@
+{
+  "_id": "602f6dbc9965abc8",
+  "name": "Veil Authority",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 3",
+      "Stagger"
+    ],
+    "unlockLevel": 9,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one spiritual entity or Afterlife-adjacent creature within 30 feet. They must obey one direct command on their next turn (no action required on your part). Against standard enemies, apply Stagger and Expose 3 instead.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_veil_authority"
+    }
+  },
+  "folder": null,
+  "sort": 2009,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "fb7a30623f6f81e5",
+  "name": "Poison Compound",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Concentrated toxin. Applies Stagger 2 and Vulnerable 2 for 2 turns. Illegal in most Ironhold-controlled areas.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_poison_compound",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

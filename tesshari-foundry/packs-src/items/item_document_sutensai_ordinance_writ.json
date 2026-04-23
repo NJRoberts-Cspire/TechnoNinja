@@ -1,0 +1,24 @@
+{
+  "_id": "f0c5b209a5ae0278",
+  "name": "Sutensai Ordinance Writ",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A formal writ issued by a Sutensai authorizing a specific action within Ironhold territory. Provides legal cover for one potentially illegal operation.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_sutensai_ordinance_writ",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

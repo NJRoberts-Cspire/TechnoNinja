@@ -1,0 +1,38 @@
+{
+  "_id": "60e6b1568c11d28a",
+  "name": "Resonant Burst",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 18,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Bleed 3",
+      "Expose 4"
+    ],
+    "unlockLevel": 9,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 18 + RESONANCE resonant damage to one adjacent target. Pay 10 HP in addition to 3 AP. Apply Expose 4 and Bleed 3. This card costs 0 AP if you are below half HP — the HP alone is the cost.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_resonant_burst"
+    }
+  },
+  "folder": null,
+  "sort": 3009,
+  "ownership": {
+    "default": 0
+  }
+}

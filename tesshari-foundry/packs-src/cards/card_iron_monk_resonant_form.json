@@ -1,0 +1,37 @@
+{
+  "_id": "5d665a7f5bee56a7",
+  "name": "Resonant Form",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "power",
+    "primaryStat": "",
+    "keywords": [
+      "Regen 3"
+    ],
+    "unlockLevel": 7,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Enter full Resonant Form for 1 round. Your Attack cards deal +8 damage. Enemies who hit you in melee take 8 + RESONANCE damage. Gain Regen 3 for the round. **Below half HP:** Attack bonus increases to +14 damage, and Regen increases to 5.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_resonant_form"
+    }
+  },
+  "folder": null,
+  "sort": 3007,
+  "ownership": {
+    "default": 0
+  }
+}

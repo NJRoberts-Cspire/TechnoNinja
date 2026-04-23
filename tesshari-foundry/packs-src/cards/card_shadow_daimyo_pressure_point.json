@@ -1,0 +1,39 @@
+{
+  "_id": "169a90c2103981ff",
+  "name": "Pressure Point",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 14,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 5",
+      "Vulnerable 3",
+      "Stagger"
+    ],
+    "unlockLevel": 10,
+    "className": "Shadow Daimyo",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 14 + VEIL social damage to one target within 40 feet. Apply Expose 5, Stagger, and Vulnerable 3. The next ally to act against this target deals +VEIL + IRON bonus damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shadow_daimyo_pressure_point"
+    }
+  },
+  "folder": null,
+  "sort": 3010,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "33357eb5e5c62bee",
+  "name": "The Salvage Manifesto (Korrath)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Fourteen handwritten pages of military doctrine and logistics strategy. Grants tactical analysis and force multiplication; only effective for commanders with genuine loss.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_document_salvage_manifesto",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

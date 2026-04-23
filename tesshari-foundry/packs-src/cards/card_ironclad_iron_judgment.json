@@ -1,0 +1,39 @@
+{
+  "_id": "f8793314321280c5",
+  "name": "Iron Judgment",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 3",
+      "Stagger",
+      "Dispel"
+    ],
+    "unlockLevel": 14,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You assess the enemy's form and find its flaw — not through malice but through the code's demand for correctness. Apply Expose 3 and Stagger to one target. They cannot recover Guard stacks until the start of their next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_iron_judgment"
+    }
+  },
+  "folder": null,
+  "sort": 2014,
+  "ownership": {
+    "default": 0
+  }
+}

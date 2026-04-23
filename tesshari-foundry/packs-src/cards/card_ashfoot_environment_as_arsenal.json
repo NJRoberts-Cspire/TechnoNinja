@@ -1,0 +1,37 @@
+{
+  "_id": "30af2155a6245a72",
+  "name": "Environment as Arsenal",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 14,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "iron",
+    "keywords": [
+      "Stagger"
+    ],
+    "unlockLevel": 14,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You have never been in a room that wasn't full of weapons — it just required a different way of seeing. Pick up or identify an environmental object and use it. Deal 14 + IRON damage. Apply Stagger. The attack's flavor — thrown debris, repurposed machinery, structural hazard — is yours to describe.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_environment_as_arsenal"
+    }
+  },
+  "folder": null,
+  "sort": 2014,
+  "ownership": {
+    "default": 0
+  }
+}

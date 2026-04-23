@@ -1,0 +1,38 @@
+{
+  "_id": "55090ac63cfafd50",
+  "name": "Erratic Perfection",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 14,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "edge",
+    "keywords": [
+      "Reaction",
+      "Interrupt"
+    ],
+    "unlockLevel": 16,
+    "className": "Shell Dancer",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Reaction. Triggered when any enemy targets any ally with a Tier 2 or Tier 3 card. Before the card resolves, you reposition to adjacent to the attacker (no responses) and deal 14 + EDGE damage to them. If this damage reduces them to 0 HP, the card they were playing is cancelled. You were not there, then you were, then you were not again.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_erratic_perfection"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

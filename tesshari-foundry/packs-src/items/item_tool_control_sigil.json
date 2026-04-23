@@ -1,0 +1,24 @@
+{
+  "_id": "596d28c15d001fd5",
+  "name": "The Control Sigil (Hollow Author)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A dark metal disk detecting puppet bodies under remote influence. Grants puppet detection and temporary disruption; prolonged use alerts the Author to location.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_control_sigil",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

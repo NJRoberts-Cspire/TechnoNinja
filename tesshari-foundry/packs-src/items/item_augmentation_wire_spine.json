@@ -1,0 +1,26 @@
+{
+  "_id": "897e3ce7e7123791",
+  "name": "Wire Spine",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Full spinal wire-silk replacement. Grants +2 SIGNAL and enables simultaneous connection to two Wire Craft network nodes.</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_augmentation_wire_spine",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

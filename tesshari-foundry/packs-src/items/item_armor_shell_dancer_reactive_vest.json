@@ -1,0 +1,24 @@
+{
+  "_id": "09479e26dc7f7b11",
+  "name": "Reactive Vest",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A vest that converts impact force into cascade energy. Light armor. Taking damage while wearing generates 1 extra Cascade beyond the standard trigger.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_shell_dancer_reactive_vest",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

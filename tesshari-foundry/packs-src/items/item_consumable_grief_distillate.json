@@ -1,0 +1,24 @@
+{
+  "_id": "7d3fd629ed978361",
+  "name": "Grief Distillate",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Highly concentrated grief-resonance in liquid form. Grants 3 grief stacks immediately for Echo Speaker. Causes Vulnerable 1 as a side effect.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_grief_distillate",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

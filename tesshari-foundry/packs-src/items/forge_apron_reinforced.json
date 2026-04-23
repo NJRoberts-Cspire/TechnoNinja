@@ -1,0 +1,24 @@
+{
+  "_id": "6580b157a18892ba",
+  "name": "Reinforced Forge Apron",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Forge Tender heavy work armor. Resistant to heat damage and physical impact in forge environments.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "forge_apron_reinforced",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

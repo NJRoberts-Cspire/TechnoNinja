@@ -1,0 +1,38 @@
+{
+  "_id": "5bb389c1bf92d4fb",
+  "name": "Final Breath",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 14",
+      "Regen 4"
+    ],
+    "unlockLevel": 14,
+    "className": "Iron Monk",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The Between holds you. Once per scene: when this card would reduce you to 0 HP instead, you remain at 1 HP. This effect triggers automatically — it does not require your action. If played proactively: gain Guard 14 and Regen 4 for 2 rounds.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_monk_final_breath"
+    }
+  },
+  "folder": null,
+  "sort": 3014,
+  "ownership": {
+    "default": 0
+  }
+}

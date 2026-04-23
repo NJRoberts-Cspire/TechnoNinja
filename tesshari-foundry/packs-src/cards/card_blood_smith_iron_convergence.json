@@ -1,0 +1,40 @@
+{
+  "_id": "a2f270864475e9ed",
+  "name": "Iron Convergence",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 22,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "iron",
+    "keywords": [
+      "Bleed 5",
+      "Expose 5",
+      "Vulnerable 4",
+      "Echo"
+    ],
+    "unlockLevel": 18,
+    "className": "Blood Smith",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 22 + IRON melee damage to one adjacent target. Pay 12 HP. Apply Bleed 5, Expose 5, and Vulnerable 4. Echo (repeat base damage once, no riders). Restore 10 HP to yourself as the lattice reconverges.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_blood_smith_iron_convergence"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

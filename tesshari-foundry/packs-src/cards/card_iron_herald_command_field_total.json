@@ -1,0 +1,35 @@
+{
+  "_id": "43afc0d6c9a3b71b",
+  "name": "Command Field: Total",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 13,
+    "className": "Iron Herald",
+    "subclass": "Echo Speaker — Herald",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your Command Zone becomes a Total Command Field until the start of your next turn. Within the Zone: enemies take 6 + VEIL damage at the start of each of their turns; enemies cannot designate Priority Targets or use social/command cards; allies deal maximum base damage on all Attack cards (no bonus stats — just maximized base values). The Herald's zone is not a suggestion.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_command_field_total"
+    }
+  },
+  "folder": null,
+  "sort": 3013,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "2f0ac84dceb09e6d",
+  "name": "The Hollow Practice",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 24,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 6",
+      "Vulnerable 5",
+      "Stagger"
+    ],
+    "unlockLevel": 20,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>*The practice at its theoretical maximum.* Apply Binding Thread to all enemies within 40 feet simultaneously (they are all Bound). Deal 24 + VEIL social damage to each. Apply Expose 6, Vulnerable 5, and Stagger to each. Your vessel acts independently this round with its own 3 AP turn. For the rest of combat, Bound targets take +VEIL damage from all sources and cannot remove the Bound condition. The Hollow Author can do this to hundreds. You can do it to everyone in this room. The answer is a matter of what you choose to do with the capacity.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_the_hollow_practice"
+    }
+  },
+  "folder": null,
+  "sort": 3020,
+  "ownership": {
+    "default": 0
+  }
+}

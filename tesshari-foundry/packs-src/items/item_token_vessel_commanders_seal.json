@@ -1,0 +1,24 @@
+{
+  "_id": "270a1e5a2966d436",
+  "name": "Vessel-Commander's Seal",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Grants passage through any Ironhold military checkpoint without inspection. Single use; Sato Kiren's personal authorization mark.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_token_vessel_commanders_seal",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

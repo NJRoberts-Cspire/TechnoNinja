@@ -1,0 +1,37 @@
+{
+  "_id": "49499fe1a0f691b0",
+  "name": "Full Suppression",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Root"
+    ],
+    "unlockLevel": 9,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Execute a comprehensive suppression discharge in a 60-foot radius within 80 feet. All enemies in the area take 12 + SIGNAL damage. Apply Root to each. They cannot use Mobility cards or take reactions until the start of their next turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_full_suppression"
+    }
+  },
+  "folder": null,
+  "sort": 3009,
+  "ownership": {
+    "default": 0
+  }
+}

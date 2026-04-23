@@ -1,0 +1,26 @@
+{
+  "_id": "a15ac3aab144a29a",
+  "name": "Reading Stone",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A smooth resonant stone used in Sutensai reading practice. Reduces Echomind reading difficulty by one tier. Amplifies reader authority.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_sutensai_reading_stone",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

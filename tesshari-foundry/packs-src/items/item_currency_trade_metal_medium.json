@@ -1,0 +1,24 @@
+{
+  "_id": "cc12d865ccd40b15",
+  "name": "Trade-Metal Pouch (Medium)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>50 trade-metal standard; skilled worker weekly wage equivalent.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_currency_trade_metal_medium",
+      "originalCategory": "currency"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

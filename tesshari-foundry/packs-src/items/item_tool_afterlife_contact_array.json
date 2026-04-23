@@ -1,0 +1,24 @@
+{
+  "_id": "2496cd78a1f9aa5a",
+  "name": "Afterlife Contact Array",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Multi-node resonant array for establishing reliable Iron Afterlife communication. Echoed and Echo Speaker primary tool; stabilizes contact attempts.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_afterlife_contact_array",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

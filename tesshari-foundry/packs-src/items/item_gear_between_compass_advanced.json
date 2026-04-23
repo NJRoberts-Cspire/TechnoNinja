@@ -1,0 +1,24 @@
+{
+  "_id": "5ce0ee5b5b231fff",
+  "name": "Advanced Between Compass",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>High-precision Between-space navigation instrument. Provides exact distance to nearest Between-space entry point and current phase-field density.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_between_compass_advanced",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

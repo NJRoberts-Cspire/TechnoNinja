@@ -1,0 +1,24 @@
+{
+  "_id": "d71efa326705ee3c",
+  "name": "Debt-Marked Robe",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A robe bearing visible Debt notation marks. Light armor. Enemies with active Debt stacks deal -2 damage to bearer.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_armor_voice_of_debt_debt_marked_robe",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

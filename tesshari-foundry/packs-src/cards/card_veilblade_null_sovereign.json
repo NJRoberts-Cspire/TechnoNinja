@@ -1,0 +1,37 @@
+{
+  "_id": "264557fa1e54637e",
+  "name": "Null Sovereign",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "",
+    "keywords": [
+      "Expose 3"
+    ],
+    "unlockLevel": 16,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Within any Wire network you have accessed, you are the administrator. This turn: lock one target out of Wire access entirely (Silence, permanent this combat). Access all data the network has ever recorded (out-of-combat intelligence, or in combat: apply Expose 3 to one target as you reveal their tactical history). Issue one system-wide command that all automated systems obey.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_null_sovereign"
+    }
+  },
+  "folder": null,
+  "sort": 3016,
+  "ownership": {
+    "default": 0
+  }
+}

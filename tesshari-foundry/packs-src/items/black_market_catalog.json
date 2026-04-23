@@ -1,0 +1,24 @@
+{
+  "_id": "1cfdcc37c1c392e1",
+  "name": "Black Market Catalog",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Encrypted list of black market suppliers and their current stock. Requires a contact to activate.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "black_market_catalog",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

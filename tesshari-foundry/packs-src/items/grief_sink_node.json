@@ -1,0 +1,26 @@
+{
+  "_id": "66ee4f7fbef76a21",
+  "name": "Grief Sink Node",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Echo Speaker implant. Automatically converts Grief Stacks above 5 into HP recovery (1 HP per excess stack).</p>",
+    "slot": "augmentation",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "grief_sink_node",
+      "originalCategory": "augmentation"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

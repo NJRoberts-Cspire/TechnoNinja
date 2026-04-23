@@ -1,0 +1,37 @@
+{
+  "_id": "33699e73ba96d142",
+  "name": "Resonant Armor",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Shield"
+    ],
+    "unlockLevel": 8,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your enhancement network redistributes impact across your resonant metal, spreading harm across a larger surface. Gain Shield 6 + RESONANCE. Until end of turn, any attacker who strikes you takes 3 + RESONANCE resonant damage as resonant blowback.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_resonant_armor"
+    }
+  },
+  "folder": null,
+  "sort": 1008,
+  "ownership": {
+    "default": 0
+  }
+}

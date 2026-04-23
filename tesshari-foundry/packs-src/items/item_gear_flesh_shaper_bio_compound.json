@@ -1,0 +1,24 @@
+{
+  "_id": "f09c3a840e0aa070",
+  "name": "Bio-Reinforcement Compound",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Biological material used in Flesh Shaper sculpting and crisis mend procedures. Required for advanced biological modification actions.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_flesh_shaper_bio_compound",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

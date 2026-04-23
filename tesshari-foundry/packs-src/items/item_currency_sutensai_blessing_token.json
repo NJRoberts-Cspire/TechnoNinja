@@ -1,0 +1,24 @@
+{
+  "_id": "bbcd196873e53288",
+  "name": "Sutensai Blessing Token",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A token granted by a Sutensai as acknowledgment of a service or debt. Worth significant social capital in Ironhold territory.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_currency_sutensai_blessing_token",
+      "originalCategory": "currency"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

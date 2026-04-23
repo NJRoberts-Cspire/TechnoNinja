@@ -1,0 +1,26 @@
+{
+  "_id": "9020224614ead206",
+  "name": "Blood Stone",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A stone soaked in resonant-biological material. Blood Smith: reduces HP cost of all HP-cost cards by 1 (minimum 1) while carried.</p>",
+    "slot": "resonant",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_resonant_blood_stone",
+      "originalCategory": "resonant"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

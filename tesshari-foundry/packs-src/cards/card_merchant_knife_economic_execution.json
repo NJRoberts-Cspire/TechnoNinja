@@ -1,0 +1,38 @@
+{
+  "_id": "e3918d56c6b5df9f",
+  "name": "Economic Execution",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 18,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "edge",
+    "keywords": [
+      "Debt 2",
+      "Expose 2"
+    ],
+    "unlockLevel": 14,
+    "className": "Merchant Knife",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 18 + EDGE damage. Apply Debt 2 and Expose 2. If target has Intelligence 3, this attack ignores all mitigation and the target cannot use Reaction cards this turn — the operation was so thoroughly prepared that there is no response available.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_economic_execution"
+    }
+  },
+  "folder": null,
+  "sort": 3014,
+  "ownership": {
+    "default": 0
+  }
+}

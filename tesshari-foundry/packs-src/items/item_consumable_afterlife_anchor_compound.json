@@ -1,0 +1,24 @@
+{
+  "_id": "968a76e51d0598d3",
+  "name": "Afterlife Anchor Compound",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Prevents Echomind drift and Afterlife entity attachment for 48 hours. Required for extended Ashlands and Veilward operations by Echoed characters.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_afterlife_anchor_compound",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

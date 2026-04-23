@@ -1,0 +1,39 @@
+{
+  "_id": "c33bb8712d43361f",
+  "name": "Hunter's Apotheosis",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 24,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Silence",
+      "Stagger",
+      "Expose 4"
+    ],
+    "unlockLevel": 18,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You have become more present in the space between living and dead than in either. Deal 24 + RESONANCE resonant damage to your Marked target. Apply Silence, Stagger, and Expose 4. All enemies in the encounter take 8 + RESONANCE resonant damage as your Echomind broadcasts at maximum disruption intensity.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_hunter_s_apotheosis"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

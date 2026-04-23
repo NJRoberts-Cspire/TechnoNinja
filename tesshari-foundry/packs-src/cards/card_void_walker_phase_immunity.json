@@ -1,0 +1,38 @@
+{
+  "_id": "f28a38518dd98d8a",
+  "name": "Phase Immunity",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 8",
+      "Fortify"
+    ],
+    "unlockLevel": 6,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your familiarity with incorporeal states makes you resistant to control. For 1 round, you cannot be Staggered, Silenced, or Rooted. Gain Guard 8. You may use Phase Step as a Reaction this round at 0 AP cost when hit by an attack.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_phase_immunity"
+    }
+  },
+  "folder": null,
+  "sort": 2006,
+  "ownership": {
+    "default": 0
+  }
+}

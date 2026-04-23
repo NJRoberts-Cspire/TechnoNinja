@@ -1,0 +1,37 @@
+{
+  "_id": "10ab0466e207ed50",
+  "name": "Cascade Sense",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Passive"
+    ],
+    "unlockLevel": 1,
+    "className": "Shell Dancer",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": true,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Passive. This card counts toward hand size and is never \"\"played.\"\" While this card is in your hand: at the start of each of your turns, gain 1 Cascade if you took any damage since your last turn. Additionally, you cannot be surprised — you sense cascades in yourself and others before they manifest.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_shell_dancer_cascade_sense"
+    }
+  },
+  "folder": null,
+  "sort": 1001,
+  "ownership": {
+    "default": 0
+  }
+}

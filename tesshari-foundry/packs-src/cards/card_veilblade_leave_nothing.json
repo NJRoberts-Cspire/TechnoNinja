@@ -1,0 +1,38 @@
+{
+  "_id": "975b38385d9d085d",
+  "name": "Leave Nothing",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "edge",
+    "keywords": [
+      "Silence",
+      "Expose 2"
+    ],
+    "unlockLevel": 11,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You end an enemy's ability to be found — or used. Deal 10 + EDGE damage. If this reduces the target to 0 HP, they leave no readable enhancement trace, no forensic evidence, and cannot be immediately reanimated. If it does not, apply Silence and Expose 2 — you stripped something from their operational profile.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_leave_nothing"
+    }
+  },
+  "folder": null,
+  "sort": 2011,
+  "ownership": {
+    "default": 0
+  }
+}

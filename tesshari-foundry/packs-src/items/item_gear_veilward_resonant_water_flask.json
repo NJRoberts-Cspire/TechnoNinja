@@ -1,0 +1,24 @@
+{
+  "_id": "b41678f133dc3dab",
+  "name": "Resonant Water Flask",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Flask of water from a high-resonance Veilward source. Drinking counts as one dose of minor Echomind stabilization. Holds three doses.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_veilward_resonant_water_flask",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

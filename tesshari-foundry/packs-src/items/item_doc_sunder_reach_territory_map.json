@@ -1,0 +1,24 @@
+{
+  "_id": "4d8452f29d3e221b",
+  "name": "Sunder Reach Territory Map",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Detailed military and civilian map of Sunder Reach including Cinderfort approaches, patrol routes, and Korrath stronghold boundaries.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_doc_sunder_reach_territory_map",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

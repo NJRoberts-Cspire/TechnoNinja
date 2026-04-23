@@ -1,0 +1,38 @@
+{
+  "_id": "95d9d37a876173c8",
+  "name": "Cascade Shutdown",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Silence",
+      "Stagger"
+    ],
+    "unlockLevel": 10,
+    "className": "Wireweave",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>All enhanced creatures within 30 feet of a point you can see within 60 feet make a SIGNAL contest (oppose with your SIGNAL). Failures: 18 + SIGNAL damage and Silence for 2 rounds. Successes: Stagger only.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireweave_cascade_shutdown"
+    }
+  },
+  "folder": null,
+  "sort": 3010,
+  "ownership": {
+    "default": 0
+  }
+}

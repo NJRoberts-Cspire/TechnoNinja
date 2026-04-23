@@ -1,0 +1,24 @@
+{
+  "_id": "6044e3be55744bd2",
+  "name": "Resonant Shelter Capsule",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A single-use compressed shelter deploying in 30 seconds. Provides shelter for one person in hostile environments.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_gear_resonant_shelter_capsule",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

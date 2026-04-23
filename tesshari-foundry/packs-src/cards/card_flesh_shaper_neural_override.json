@@ -1,0 +1,38 @@
+{
+  "_id": "2724af1732c63bd0",
+  "name": "Neural Override",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 6,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "iron",
+    "keywords": [
+      "Stagger",
+      "Root"
+    ],
+    "unlockLevel": 4,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Target one creature within 10 feet with organic components. Apply Stagger and Root. They cannot use melee Attack cards this turn. Deal 6 + IRON melee damage.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_neural_override"
+    }
+  },
+  "folder": null,
+  "sort": 2004,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "ad2dc4f94884cb8c",
+  "name": "Resonant Alloy Ingot",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Standard crafting ingot for resonant metalwork. Used across all resonant weapon and armor crafting.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "resonant_alloy_ingot",
+      "originalCategory": "material"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

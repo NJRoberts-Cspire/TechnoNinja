@@ -1,0 +1,24 @@
+{
+  "_id": "c1a6d25e16ef464d",
+  "name": "Signal Nullifier",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Nullifies all Wire Craft signals in a 30-foot radius for 1 turn. Prevents signal-dependent cards. Affects allies too.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_signal_nullifier",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

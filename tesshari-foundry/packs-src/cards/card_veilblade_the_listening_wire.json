@@ -1,0 +1,38 @@
+{
+  "_id": "cf74bde906d6a572",
+  "name": "The Listening Wire",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 14,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "signal",
+    "keywords": [
+      "Expose 2",
+      "Silence"
+    ],
+    "unlockLevel": 17,
+    "className": "Veilblade",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Information is the real weapon. You intercept all Wire communications in the encounter for 2 turns. Apply Expose 2 to all enhanced enemies — you know their tactical read and they don't know you have it. Additionally, apply Silence to the enemy with the highest SIGNAL — their communications are cut. Deal 14 + SIGNAL signal damage to that target.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_veilblade_the_listening_wire"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "7f15e22612cc8a3a",
+  "name": "Procession of the Ascendants",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Sutensai",
+    "subclass": "Sutensai — Priors Voice",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Summon the echo of every Prior who ever held this office. Each ally gains a +1 to their next RESONANCE or VEIL roll this encounter; each enemy in sight must pass a RESONANCE save or kneel, losing their next action.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_priors_voice_procession_of_ascendants"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

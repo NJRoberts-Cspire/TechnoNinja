@@ -1,0 +1,37 @@
+{
+  "_id": "d2ee162cd68ee038",
+  "name": "The Correct Calculation",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "edge",
+    "keywords": [
+      "Scaling"
+    ],
+    "unlockLevel": 13,
+    "className": "Merchant Knife",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 20 + EDGE damage. This card requires Intelligence 1+ on target to play. For each Intelligence stack beyond 1 on the target, deal +6 additional damage. At Intelligence 3, this card also cannot be mitigated by Guard or Shield effects — the calculation has accounted for their defenses.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_the_correct_calculation"
+    }
+  },
+  "folder": null,
+  "sort": 3013,
+  "ownership": {
+    "default": 0
+  }
+}

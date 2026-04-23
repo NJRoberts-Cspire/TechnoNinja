@@ -1,0 +1,38 @@
+{
+  "_id": "8bc8bb65163c96da",
+  "name": "Deep Binding",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 10,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 3",
+      "Vulnerable 3"
+    ],
+    "unlockLevel": 7,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Build on an existing Binding Thread. Target one Bound creature within 40 feet. Deal 10 + VEIL social damage. Apply Vulnerable 3 and Expose 3. The target's VEIL is treated as 2 lower for the rest of combat.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_deep_binding"
+    }
+  },
+  "folder": null,
+  "sort": 2007,
+  "ownership": {
+    "default": 0
+  }
+}

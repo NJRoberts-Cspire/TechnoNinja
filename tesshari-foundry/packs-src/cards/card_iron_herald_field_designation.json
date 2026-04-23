@@ -1,0 +1,37 @@
+{
+  "_id": "df741bbe674291a3",
+  "name": "Field Designation",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Regen 2"
+    ],
+    "unlockLevel": 5,
+    "className": "Iron Herald",
+    "subclass": "Echo Speaker — Herald",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Move your active Command Zone to any point within 60 meters. All allies currently in the new Zone location immediately gain Regen 2 (lasts 2 turns). All enemies who were in the old Zone and are now outside it lose any AP Drain effect; enemies now in the new Zone begin taking AP Drain immediately.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_iron_herald_field_designation"
+    }
+  },
+  "folder": null,
+  "sort": 1005,
+  "ownership": {
+    "default": 0
+  }
+}

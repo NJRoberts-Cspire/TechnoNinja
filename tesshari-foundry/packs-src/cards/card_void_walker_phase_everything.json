@@ -1,0 +1,37 @@
+{
+  "_id": "4779fb03d106c671",
+  "name": "Phase Everything",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 12"
+    ],
+    "unlockLevel": 18,
+    "className": "Void Walker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Phase yourself and all allies within 20 feet simultaneously. All phased creatures gain Guard 12 and cannot be targeted by Attack cards for 1 round. On return, each phased creature may teleport up to 20 feet to any unoccupied space. Once per scene.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_void_walker_phase_everything"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

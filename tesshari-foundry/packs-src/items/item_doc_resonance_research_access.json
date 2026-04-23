@@ -1,0 +1,24 @@
+{
+  "_id": "ebf02759a4ebf143",
+  "name": "Resonance Research Access",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Single-inquiry pass to the Sutra Sanctum restricted archives. Provides access to one specific sealed research file.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_doc_resonance_research_access",
+      "originalCategory": "document"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

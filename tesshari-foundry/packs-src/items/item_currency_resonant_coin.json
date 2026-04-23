@@ -1,0 +1,24 @@
+{
+  "_id": "b1bbcf35e0da6622",
+  "name": "Resonant Coin",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Single high-value resonant-infused coin; used in Wire Market and upper-caste transactions.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_currency_resonant_coin",
+      "originalCategory": "currency"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "da328e44963d7135",
+  "name": "Formation Instinct",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 4,
+    "pierce": 0,
+    "category": "reaction",
+    "primaryStat": "iron",
+    "keywords": [],
+    "unlockLevel": 10,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": true,
+    "usesPerCombat": null,
+    "description": "<p>*Triggered when an ally within reach is hit by an attack.* Your tactical awareness of the space your allies occupy is bone-deep. Reduce the damage to that ally by your FRAME. If the damage is reduced to 0, deal 4 + IRON damage to the attacker as a counter-position strike.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_formation_instinct"
+    }
+  },
+  "folder": null,
+  "sort": 1010,
+  "ownership": {
+    "default": 0
+  }
+}

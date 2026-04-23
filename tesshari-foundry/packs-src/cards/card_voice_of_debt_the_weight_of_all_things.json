@@ -1,0 +1,38 @@
+{
+  "_id": "c1677de2c29fdcf8",
+  "name": "The Weight of All Things",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 18,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 5",
+      "Vulnerable 4"
+    ],
+    "unlockLevel": 17,
+    "className": "Voice of Debt",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 18 + VEIL social damage to one target within 40 feet. Apply Debt 6, Expose 5, and Vulnerable 4. Until your next turn, that target's cards all cost 1 additional AP — the accumulated weight slows everything they attempt.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_the_weight_of_all_things"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

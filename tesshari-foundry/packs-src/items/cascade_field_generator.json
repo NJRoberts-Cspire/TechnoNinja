@@ -1,0 +1,24 @@
+{
+  "_id": "3ba86f974d1b27a6",
+  "name": "Cascade Dampener Field Generator",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Portable device. Reduces Cascade Stacks by 1 for all characters in zone per round.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "cascade_field_generator",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

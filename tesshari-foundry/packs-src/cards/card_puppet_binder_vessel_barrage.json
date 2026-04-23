@@ -1,0 +1,37 @@
+{
+  "_id": "5eddd7d9c891c119",
+  "name": "Vessel Barrage",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 8,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [
+      "Expose 2"
+    ],
+    "unlockLevel": 9,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your vessel makes two sequential attacks. Deal 8 + SIGNAL signal damage twice to targets adjacent to your vessel (may be same or different targets). Apply Expose 2 to each struck target.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_vessel_barrage"
+    }
+  },
+  "folder": null,
+  "sort": 2009,
+  "ownership": {
+    "default": 0
+  }
+}

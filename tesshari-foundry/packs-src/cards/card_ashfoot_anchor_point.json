@@ -1,0 +1,37 @@
+{
+  "_id": "9f9f72f5f091e4d0",
+  "name": "Anchor Point",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 3"
+    ],
+    "unlockLevel": 11,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You plant yourself as a tactical anchor. Until your next turn: enemies cannot flank you or gain positional bonuses against you. All allies within reach gain Guard 3. If any ally within reach would be forced to move against their will, reduce that forced movement by your FRAME in feet (minimum 0).</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_anchor_point"
+    }
+  },
+  "folder": null,
+  "sort": 2011,
+  "ownership": {
+    "default": 0
+  }
+}

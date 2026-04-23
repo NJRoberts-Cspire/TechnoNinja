@@ -1,0 +1,35 @@
+{
+  "_id": "3712d048e7735927",
+  "name": "Emergency Mastery",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 18,
+    "className": "Flesh Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>While in hand, passive. Crisis Mend may be played twice per round instead of once. Accelerated Repair and Diagnostic Touch cost 0 AP once per turn each.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_flesh_shaper_emergency_mastery"
+    }
+  },
+  "folder": null,
+  "sort": 2018,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "465e769e1f3c52e3",
+  "name": "Community Shield",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Taunt",
+      "Fortify"
+    ],
+    "unlockLevel": 18,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You fight for specific people. Name them now — they are the reason this works. Until end of turn, you cannot be moved against your will. All damage you take while they are present (physically adjacent, or named as the fight's purpose) is reduced by your FRAME. Apply Taunt to all enemies — they will have to go through you.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_community_shield"
+    }
+  },
+  "folder": null,
+  "sort": 2018,
+  "ownership": {
+    "default": 0
+  }
+}

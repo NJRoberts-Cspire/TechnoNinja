@@ -1,0 +1,24 @@
+{
+  "_id": "82be97c7c18198d7",
+  "name": "Wire Market Credit Token",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Registered Wire Market credit token. Worth 25 trade-metal in Wire Market exchanges; worthless outside Pale Reach without authorization.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_currency_wire_market_credit",
+      "originalCategory": "currency"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

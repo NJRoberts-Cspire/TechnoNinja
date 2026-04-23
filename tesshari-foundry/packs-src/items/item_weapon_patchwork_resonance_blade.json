@@ -1,0 +1,24 @@
+{
+  "_id": "4ea632c6a09053f1",
+  "name": "Patchwork Resonance Blade",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Sword assembled from three resonant sources with random daily performance variation. Produces frequency interference on impact.</p>",
+    "weaponType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_weapon_patchwork_resonance_blade",
+      "originalCategory": "weapon"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "465551685a1cdf3b",
+  "name": "Deep Dissolution",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "resonance",
+    "keywords": [
+      "Stagger",
+      "Silence",
+      "Overheat 3"
+    ],
+    "unlockLevel": 15,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>You reach into a target's Echomind-enhancement interface and accelerate what was already beginning. Deal 20 + RESONANCE resonant damage. Apply Stagger, Silence, and Overheat 3. If the target is a Shell-state or Resonance-Broken, this damage cannot be mitigated by Guard or Shield — the disruption is internal.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_deep_dissolution"
+    }
+  },
+  "folder": null,
+  "sort": 3015,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "58161676502c3436",
+  "name": "Echomind Clarity",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [
+      "Cleanse",
+      "Fortify"
+    ],
+    "unlockLevel": 9,
+    "className": "Ironclad Samurai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your Echomind achieves perfect resonant alignment this turn. Cleanse one debuff from yourself. Until end of turn, any control card used against you (Root, Silence, Stagger, etc.) automatically fails.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ironclad_echomind_clarity"
+    }
+  },
+  "folder": null,
+  "sort": 2009,
+  "ownership": {
+    "default": 0
+  }
+}

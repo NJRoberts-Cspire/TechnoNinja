@@ -1,0 +1,38 @@
+{
+  "_id": "0919cff614018ca6",
+  "name": "Apex Precision",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 20,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [
+      "Stagger",
+      "Root"
+    ],
+    "unlockLevel": 17,
+    "className": "Pulse Caller",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Fire a precision shot at one target within 120 feet. Deal 20 + SIGNAL damage. Apply Stagger. If the target is below half HP, they also gain Root — their next Mobility card is suppressed.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_pulse_caller_apex_precision"
+    }
+  },
+  "folder": null,
+  "sort": 3017,
+  "ownership": {
+    "default": 0
+  }
+}

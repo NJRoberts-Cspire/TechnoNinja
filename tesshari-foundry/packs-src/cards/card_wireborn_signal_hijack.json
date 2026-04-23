@@ -1,0 +1,37 @@
+{
+  "_id": "38f09c225583aa3e",
+  "name": "Signal Hijack",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Dispel"
+    ],
+    "unlockLevel": 1,
+    "className": "",
+    "subclass": "",
+    "isRaceCard": true,
+    "race": "Wireborn",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The Wireborn reaches into a target's active Signal card and seizes it mid-function. Choose one enemy within 30 feet that has played a Signal card this combat. That card's effect is negated and the Wireborn immediately plays it as their own, targeting any valid target of their choice. The hijacked card uses the Wireborn's SIGNAL stat. This card cannot be used against targets with no Signal cards in their hand.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_wireborn_signal_hijack"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  }
+}

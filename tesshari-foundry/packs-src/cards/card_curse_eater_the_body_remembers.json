@@ -1,0 +1,38 @@
+{
+  "_id": "2987af2c2a6c5e00",
+  "name": "The Body Remembers",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Shield",
+      "Guard"
+    ],
+    "unlockLevel": 6,
+    "className": "Curse Eater",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Apply Shield equal to your FRAME × 2. If your Loaded count is 3+, apply Guard equal to your FRAME as well. If your Loaded count is 5+, also gain immunity to the next control card played against you this round.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_curse_eater_the_body_remembers"
+    }
+  },
+  "folder": null,
+  "sort": 2006,
+  "ownership": {
+    "default": 0
+  }
+}

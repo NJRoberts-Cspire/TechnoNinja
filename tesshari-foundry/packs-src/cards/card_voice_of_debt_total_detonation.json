@@ -1,0 +1,38 @@
+{
+  "_id": "dd61a1760a1b0796",
+  "name": "Total Detonation",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 12,
+    "pierce": 0,
+    "category": "signature",
+    "primaryStat": "veil",
+    "keywords": [
+      "Expose 5",
+      "Stagger"
+    ],
+    "unlockLevel": 19,
+    "className": "Voice of Debt",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>*Debt Detonation.* Target all enemies within 40 feet who carry any Debt stacks. Deal 12 + VEIL social damage to each plus 5 damage per Debt stack each carries. Remove all Debt stacks from all targets. Apply Expose 5 and Stagger to each.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_voice_of_debt_total_detonation"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

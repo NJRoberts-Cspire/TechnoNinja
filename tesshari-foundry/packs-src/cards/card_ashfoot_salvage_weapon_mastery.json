@@ -1,0 +1,38 @@
+{
+  "_id": "0b7330b19937302b",
+  "name": "Salvage Weapon Mastery",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [
+      "Guard",
+      "Shield"
+    ],
+    "unlockLevel": 12,
+    "className": "Ashfoot",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Improvised and salvage weapons deal maximum base damage when you roll the equivalent of a critical (when your total damage exceeds a target's remaining HP + Guard + Shield combined — you found exactly the right angle). Additionally, your salvage weapons count as enhanced weapons for the purpose of bypassing resistances.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ashfoot_salvage_weapon_mastery"
+    }
+  },
+  "folder": null,
+  "sort": 2012,
+  "ownership": {
+    "default": 0
+  }
+}

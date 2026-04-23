@@ -1,0 +1,26 @@
+{
+  "_id": "2c1285db0fe8c0e6",
+  "name": "Personal Signal Scrambler",
+  "type": "cybernetic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Worn device. Scrambles personal resonance ID during transit scanning for one scene per charge.</p>",
+    "slot": "gear",
+    "statMods": {},
+    "handMod": 0,
+    "cardUnlockSlug": "",
+    "equipped": false
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "signal_scrambler_personal",
+      "originalCategory": "gear"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

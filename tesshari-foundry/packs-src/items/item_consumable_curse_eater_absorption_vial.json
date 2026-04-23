@@ -1,0 +1,24 @@
+{
+  "_id": "eebe322cad66cd96",
+  "name": "Absorption Vial",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Allows Curse Eater to absorb one additional debuff beyond normal Loaded capacity for one encounter. Single use.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_curse_eater_absorption_vial",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

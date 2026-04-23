@@ -1,0 +1,35 @@
+{
+  "_id": "2293084b9916d89b",
+  "name": "Redirect Strike",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 8,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "veil",
+    "keywords": [],
+    "unlockLevel": 6,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>*When an enemy attacks an ally within 30 feet:* spend this card as a reaction to redirect their attack to a different target of your choice within their reach (including themselves). Deal 8 + VEIL social damage to the original attacker.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_redirect_strike"
+    }
+  },
+  "folder": null,
+  "sort": 2006,
+  "ownership": {
+    "default": 0
+  }
+}

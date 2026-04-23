@@ -1,0 +1,38 @@
+{
+  "_id": "23e2e02ea97aa22b",
+  "name": "Dissolution Immunity",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "passive",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger",
+      "Silence"
+    ],
+    "unlockLevel": 7,
+    "className": "Oni Hunter",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Your prolonged exposure to Echomind dissolution states has built a specific, structural resistance. No force in Tesshari can push your Echomind out of alignment with your enhancements. Dissolution-based control effects (Silence, Stagger from Shell-state or afterlife sources) have their duration reduced by 1 turn.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_oni_hunter_dissolution_immunity"
+    }
+  },
+  "folder": null,
+  "sort": 1007,
+  "ownership": {
+    "default": 0
+  }
+}

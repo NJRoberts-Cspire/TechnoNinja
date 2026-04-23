@@ -1,0 +1,465 @@
+/* Tesshari — system styles. */
+
+/* ─── card sheet ────────────────────────────────────────────────────── */
+
+.tesshari-card-sheet {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.tesshari-card-sheet .sheet-header {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  border-bottom: 1px solid var(--color-border-light-primary, #444);
+  padding-bottom: 0.5rem;
+}
+
+.tesshari-card-sheet .sheet-header .portrait {
+  width: 64px;
+  height: 64px;
+  border: 1px solid var(--color-border-light-primary, #444);
+  flex: 0 0 64px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.tesshari-card-sheet .sheet-header .header-fields {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.tesshari-card-sheet .sheet-header input[name="name"] {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.tesshari-card-sheet .hint {
+  font-size: 0.8rem;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.tesshari-card-sheet .form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem 0.75rem;
+}
+
+.tesshari-card-sheet .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.tesshari-card-sheet .form-group.stacked {
+  grid-column: 1 / -1;
+}
+
+.tesshari-card-sheet .form-group label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  opacity: 0.85;
+}
+
+.tesshari-card-sheet .form-group.checkbox-group {
+  grid-column: 1 / -1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.tesshari-card-sheet .form-group.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 400;
+}
+
+.tesshari-card-sheet prose-mirror {
+  min-height: 8rem;
+}
+
+/* ─── character sheet ───────────────────────────────────────────────── */
+
+.tesshari-character-sheet {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 0.6rem;
+  font-family: var(--font-primary, "Signika", sans-serif);
+}
+
+.tesshari-character-sheet .sheet-header {
+  display: grid;
+  grid-template-columns: 80px 1fr auto;
+  gap: 0.8rem;
+  align-items: center;
+  border-bottom: 1px solid var(--color-border-light-primary, #555);
+  padding-bottom: 0.5rem;
+}
+
+.tesshari-character-sheet .portrait {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 1px solid var(--color-border-light-primary, #555);
+  cursor: pointer;
+  background: #111;
+}
+
+.tesshari-character-sheet .header-center {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.tesshari-character-sheet .header-center .name {
+  font-size: 1.35rem;
+  font-weight: 700;
+  background: transparent;
+  border: 1px solid transparent;
+  padding: 0.15rem 0.25rem;
+}
+.tesshari-character-sheet .header-center .name:hover,
+.tesshari-character-sheet .header-center .name:focus {
+  border-color: var(--color-border-light-primary, #555);
+}
+
+.tesshari-character-sheet .meta {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+.tesshari-character-sheet .meta input {
+  background: transparent;
+  border: 1px solid transparent;
+  padding: 0.1rem 0.25rem;
+  min-width: 4rem;
+}
+.tesshari-character-sheet .meta input:hover,
+.tesshari-character-sheet .meta input:focus {
+  border-color: var(--color-border-light-primary, #555);
+}
+.tesshari-character-sheet .meta .level {
+  width: 3rem;
+}
+.tesshari-character-sheet .meta .sep {
+  opacity: 0.5;
+}
+
+.tesshari-character-sheet .resources {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(90px, auto));
+  gap: 0.5rem;
+}
+.tesshari-character-sheet .resource {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  border: 1px solid var(--color-border-light-primary, #555);
+  border-radius: 4px;
+  padding: 0.25rem 0.4rem;
+  background: rgba(255, 255, 255, 0.04);
+}
+.tesshari-character-sheet .resource label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  opacity: 0.75;
+}
+.tesshari-character-sheet .resource-row {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.tesshari-character-sheet .resource-row input {
+  width: 3rem;
+  text-align: center;
+}
+.tesshari-character-sheet .resource-row .count {
+  width: 3rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.tesshari-character-sheet .action-bar {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.25rem 0;
+}
+.tesshari-character-sheet .action-bar button {
+  flex: 0 0 auto;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.tesshari-character-sheet .sheet-body {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 0.75rem;
+  align-items: start;
+}
+
+.tesshari-character-sheet .col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  min-width: 0;
+}
+
+.tesshari-character-sheet .stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.4rem;
+}
+.tesshari-character-sheet .stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  padding: 0.4rem 0.25rem;
+  border: 1px solid var(--color-border-light-primary, #555);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.03);
+}
+.tesshari-character-sheet .stat label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  opacity: 0.8;
+}
+.tesshari-character-sheet .stat input {
+  width: 100%;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background: transparent;
+  border: none;
+}
+
+.tesshari-character-sheet .status-tray h3 {
+  margin: 0 0 0.3rem 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  border-bottom: 1px solid var(--color-border-light-tertiary, #444);
+  padding-bottom: 0.2rem;
+}
+.tesshari-character-sheet .status-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+.tesshari-character-sheet .status-chip {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.4rem;
+  border: 1px solid var(--color-border-light-primary, #555);
+  border-radius: 3px;
+  font-size: 0.8rem;
+  background: rgba(255, 255, 255, 0.04);
+}
+.tesshari-character-sheet .status-chip img {
+  width: 16px; height: 16px;
+  border: none;
+}
+.tesshari-character-sheet .status-chip.type-buff  { border-color: #3d8b3d; }
+.tesshari-character-sheet .status-chip.type-debuff{ border-color: #8b3d3d; }
+.tesshari-character-sheet .status-chip.type-state { border-color: #6b6b8b; }
+.tesshari-character-sheet .status-chip .stacks {
+  font-weight: 700;
+  padding: 0 0.25rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+}
+
+.tesshari-character-sheet .hand-section h3,
+.tesshari-character-sheet .inventory-section h3 {
+  margin: 0 0 0.3rem 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  border-bottom: 1px solid var(--color-border-light-tertiary, #444);
+  padding-bottom: 0.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.tesshari-character-sheet .count-label {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  letter-spacing: normal;
+  text-transform: none;
+}
+.tesshari-character-sheet .warn {
+  color: #d88;
+  font-size: 0.75rem;
+}
+
+.tesshari-character-sheet .card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.4rem;
+}
+.tesshari-character-sheet .card-tile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.45rem 0.55rem;
+  border: 1px solid var(--color-border-light-primary, #555);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.04);
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  font-size: 0.85rem;
+  color: inherit;
+}
+.tesshari-character-sheet .card-tile:hover { background: rgba(255, 255, 255, 0.09); }
+.tesshari-character-sheet .card-tile.spent {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.tesshari-character-sheet .card-tile.tier-0 { border-left: 3px solid #888; }
+.tesshari-character-sheet .card-tile.tier-1 { border-left: 3px solid #5a8ec9; }
+.tesshari-character-sheet .card-tile.tier-2 { border-left: 3px solid #c98c5a; }
+.tesshari-character-sheet .card-tile.tier-3 { border-left: 3px solid #c95a8c; }
+.tesshari-character-sheet .card-head {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.tesshari-character-sheet .card-ap {
+  flex: 0 0 auto;
+  min-width: 1.5rem;
+  height: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  font-weight: 700;
+}
+.tesshari-character-sheet .card-name {
+  flex: 1;
+  font-weight: 600;
+}
+.tesshari-character-sheet .card-edit {
+  flex: 0 0 auto;
+  font-size: 0.75rem;
+  opacity: 0.5;
+}
+.tesshari-character-sheet .card-edit:hover { opacity: 1; }
+.tesshari-character-sheet .card-meta {
+  display: flex;
+  gap: 0.4rem;
+  font-size: 0.72rem;
+  opacity: 0.75;
+}
+.tesshari-character-sheet .card-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}
+.tesshari-character-sheet .card-keywords .kw {
+  padding: 0.05rem 0.35rem;
+  border-radius: 2px;
+  background: rgba(200, 140, 90, 0.18);
+  font-size: 0.7rem;
+}
+
+.tesshari-character-sheet .item-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.tesshari-character-sheet .item-row {
+  display: grid;
+  grid-template-columns: 24px 1fr auto auto auto;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.25rem 0.35rem;
+  border: 1px solid var(--color-border-light-tertiary, #444);
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.03);
+}
+.tesshari-character-sheet .item-img {
+  width: 24px; height: 24px;
+  object-fit: cover;
+}
+.tesshari-character-sheet .item-type {
+  font-size: 0.7rem;
+  opacity: 0.65;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.tesshari-character-sheet .icon-btn {
+  flex: 0 0 auto;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  opacity: 0.6;
+  padding: 0.1rem 0.3rem;
+  font-size: 0.85rem;
+  color: inherit;
+}
+.tesshari-character-sheet .icon-btn:hover { opacity: 1; }
+
+.tesshari-character-sheet .hint {
+  font-size: 0.8rem;
+  opacity: 0.6;
+  margin: 0.3rem 0;
+}
+
+.tesshari-character-sheet details summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid var(--color-border-light-tertiary, #444);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+.tesshari-character-sheet details[open] { padding-bottom: 0.5rem; }
+.tesshari-character-sheet .form-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 0.75rem;
+  margin-top: 0.5rem;
+}
+.tesshari-character-sheet .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.tesshari-character-sheet .form-group.stacked { grid-column: 1 / -1; }
+.tesshari-character-sheet .form-group label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  opacity: 0.8;
+}
+.tesshari-character-sheet prose-mirror {
+  min-height: 6rem;
+}
+

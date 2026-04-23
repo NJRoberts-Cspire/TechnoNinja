@@ -1,0 +1,39 @@
+{
+  "_id": "a345a50a591521cf",
+  "name": "Institutional Reckoning",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 18,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "veil",
+    "keywords": [
+      "Guard 6",
+      "Expose 3",
+      "Stagger"
+    ],
+    "unlockLevel": 19,
+    "className": "Sutensai",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 18 + VEIL social damage to all enemies within 40 feet. Apply Stagger and Expose 3 to each. All allies within 30 feet gain Guard 6 + RESONANCE.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_sutensai_institutional_reckoning"
+    }
+  },
+  "folder": null,
+  "sort": 3019,
+  "ownership": {
+    "default": 0
+  }
+}

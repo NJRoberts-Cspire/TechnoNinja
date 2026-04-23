@@ -1,0 +1,38 @@
+{
+  "_id": "a66440c72c1c86b3",
+  "name": "Stress Override",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 2,
+    "apCost": 2,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "defense",
+    "primaryStat": "",
+    "keywords": [
+      "Guard 6",
+      "Cleanse"
+    ],
+    "unlockLevel": 6,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Triggered when an ally within 30 feet is hit by an attack or has a card disrupted. Perform an emergency override: remove one negative status effect (Stagger, Silence, Expose, Overheat) from that ally and grant them Guard 6.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_stress_override"
+    }
+  },
+  "folder": null,
+  "sort": 2006,
+  "ownership": {
+    "default": 0
+  }
+}

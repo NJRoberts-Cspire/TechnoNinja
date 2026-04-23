@@ -1,0 +1,24 @@
+{
+  "_id": "4f6d93cdc6842c3b",
+  "name": "Heavy Enforcement Plate",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Enforcement-grade heavy armor. Significant protection; imposes -1 to stealth checks.</p>",
+    "armorType": "",
+    "equipped": false,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "heavy_enforcement_plate",
+      "originalCategory": "armor"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

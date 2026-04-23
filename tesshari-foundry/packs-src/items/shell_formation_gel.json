@@ -1,0 +1,24 @@
+{
+  "_id": "552ea08e0974b30a",
+  "name": "Shell Formation Gel",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Shell Dancer: next Cascade gain provides +2 stacks instead of +1 if current total is below 5.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "shell_formation_gel",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

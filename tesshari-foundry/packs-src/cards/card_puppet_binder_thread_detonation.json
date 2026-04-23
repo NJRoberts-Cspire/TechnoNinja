@@ -1,0 +1,37 @@
+{
+  "_id": "12902088633c7ba8",
+  "name": "Thread Detonation",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 18,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [
+      "Vulnerable 5"
+    ],
+    "unlockLevel": 14,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Sever all active Binding Threads simultaneously in an explosive resonant discharge. Deal 18 + SIGNAL signal damage to each Bound target within 40 feet. Apply Vulnerable 5 to each. The binding ends but the damage is done.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_thread_detonation"
+    }
+  },
+  "folder": null,
+  "sort": 3014,
+  "ownership": {
+    "default": 0
+  }
+}

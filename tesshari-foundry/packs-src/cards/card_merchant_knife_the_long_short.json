@@ -1,0 +1,38 @@
+{
+  "_id": "1f7aac3c77c683c2",
+  "name": "The Long Short",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Vulnerable 3",
+      "Expose 3"
+    ],
+    "unlockLevel": 18,
+    "className": "Merchant Knife",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Select one target with Debt 2+ and Intelligence 1+. Apply Vulnerable 3 and Expose 3. Until this target's next turn, any damage they deal to any target is reduced by your SIGNAL. They are operating in a market you have already shorted — every action they take is working against their position.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_merchant_knife_the_long_short"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

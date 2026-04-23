@@ -1,0 +1,24 @@
+{
+  "_id": "6fa068c6b221ec48",
+  "name": "Binding Resin",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Resin that hardens into binding-thread material. Puppet Binder emergency supply; provides binding thread for one procedure without requiring a spool.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_consumable_binding_resin",
+      "originalCategory": "consumable"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

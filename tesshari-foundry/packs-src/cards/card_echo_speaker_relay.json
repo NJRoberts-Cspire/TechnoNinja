@@ -1,0 +1,38 @@
+{
+  "_id": "37ecd3e860514165",
+  "name": "Relay",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 1,
+    "apCost": 1,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "",
+    "keywords": [
+      "Stagger",
+      "Expose 1"
+    ],
+    "unlockLevel": 2,
+    "className": "Echo Speaker",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Channel a dead voice through your own. One enemy within 30 feet hears an accusation or truth they cannot dismiss. Apply Stagger and Expose 1. Out of combat: a specific dead individual may speak through you for up to 1 minute, saying whatever they choose.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_echo_speaker_relay"
+    }
+  },
+  "folder": null,
+  "sort": 1002,
+  "ownership": {
+    "default": 0
+  }
+}

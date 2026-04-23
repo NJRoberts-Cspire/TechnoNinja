@@ -1,0 +1,37 @@
+{
+  "_id": "aa36518d6e336a9b",
+  "name": "Hostile Override",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 16,
+    "pierce": 0,
+    "category": "control",
+    "primaryStat": "signal",
+    "keywords": [
+      "Expose 3"
+    ],
+    "unlockLevel": 14,
+    "className": "Chrome Shaper",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Force a hostile reconfiguration on one enhanced enemy within 30 feet. Apply a debilitating Config: choose one — reduce their IRON by 3, reduce their EDGE by 3, or reduce their SIGNAL by 3 until end of scene. Deal 16 + SIGNAL damage. Apply Expose 3.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_chrome_shaper_hostile_override"
+    }
+  },
+  "folder": null,
+  "sort": 3014,
+  "ownership": {
+    "default": 0
+  }
+}

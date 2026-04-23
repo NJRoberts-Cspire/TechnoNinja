@@ -1,0 +1,35 @@
+{
+  "_id": "7c3c55c3fc405468",
+  "name": "One True Cut",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 4,
+    "baseDamage": 0,
+    "pierce": 0,
+    "category": "utility",
+    "primaryStat": "",
+    "keywords": [],
+    "unlockLevel": 1,
+    "className": "Ronin",
+    "subclass": "Ronin — Ascendant Blade",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>The cut that every empty-handed kata was preparing you for. Declare one enemy; make a single EDGE attack that bypasses armor and resonance-shielding. If the target survives, they cannot attack you until your next turn — they cannot explain what just happened.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_ronin_ascendant_blade_one_true_cut"
+    }
+  },
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  }
+}

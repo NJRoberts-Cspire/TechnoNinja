@@ -1,0 +1,37 @@
+{
+  "_id": "46bb46653755f11d",
+  "name": "Resonant Web",
+  "type": "card",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "tier": 3,
+    "apCost": 3,
+    "baseDamage": 18,
+    "pierce": 0,
+    "category": "attack",
+    "primaryStat": "signal",
+    "keywords": [
+      "Expose 3"
+    ],
+    "unlockLevel": 18,
+    "className": "Puppet Binder",
+    "subclass": "",
+    "isRaceCard": false,
+    "race": "",
+    "isStartingHand": false,
+    "isReaction": false,
+    "usesPerCombat": null,
+    "description": "<p>Deal 18 + SIGNAL signal damage to all enemies within 40 feet. Apply Expose 3 to each. All Bound targets in range take an additional 8 + VEIL social damage from the web resonating through existing threads.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "card_puppet_binder_resonant_web"
+    }
+  },
+  "folder": null,
+  "sort": 3018,
+  "ownership": {
+    "default": 0
+  }
+}

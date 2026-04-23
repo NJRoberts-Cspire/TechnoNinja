@@ -1,0 +1,24 @@
+{
+  "_id": "8a6599249858e390",
+  "name": "Path Detector",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>A resonant instrument measuring Empty versus Shell path resonance density. The Hollow utility; confirms path integrity and identifies resonance contamination.</p>",
+    "charges": 1,
+    "maxCharges": 1,
+    "cardMods": []
+  },
+  "effects": [],
+  "flags": {
+    "tesshari": {
+      "sourceId": "item_tool_hollow_path_detector",
+      "originalCategory": "tool"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}
