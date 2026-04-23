@@ -62,6 +62,31 @@
         {{/each}}
       </div>
 
+      {{#if classResources.length}}
+        <div class="class-resources">
+          <h3>Class Resources</h3>
+          <ul class="resource-list">
+            {{#each classResources as |r|}}
+              <li class="resource-row" title="{{r.description}}">
+                <div class="resource-head">
+                  <span class="resource-name">{{r.name}}</span>
+                  <span class="resource-regain">{{r.regain}}</span>
+                </div>
+                <div class="resource-controls">
+                  <button type="button" class="icon-btn" data-action="spendResource" data-resource-id="{{r.id}}" title="Spend 1 (Shift-click: 5)">−</button>
+                  <span class="resource-value">{{r.value}} / {{r.max}}</span>
+                  <button type="button" class="icon-btn" data-action="gainResource" data-resource-id="{{r.id}}" title="Gain 1 (Shift-click: 5)">+</button>
+                  <button type="button" class="icon-btn resource-reset" data-action="resetResource" data-resource-id="{{r.id}}" title="Refill to max (Shift-click: reset to initial)">↻</button>
+                </div>
+                <div class="resource-bar" aria-hidden="true">
+                  <div class="resource-fill" style="width: {{#if r.max}}{{multPct r.value r.max}}{{else}}0{{/if}}%"></div>
+                </div>
+              </li>
+            {{/each}}
+          </ul>
+        </div>
+      {{/if}}
+
       <div class="status-tray">
         <h3>Effects</h3>
         {{#if statusEffects.length}}

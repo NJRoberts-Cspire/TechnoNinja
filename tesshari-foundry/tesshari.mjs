@@ -11,6 +11,7 @@ import { TesshariActor, TesshariItem, TesshariCombat } from "./module/documents.
 import { StatusEngine, buildStatusEffectsConfig } from "./module/status-effects.mjs";
 import { TesshariDamage } from "./module/damage-pipeline.mjs";
 import { CardEngine } from "./module/card-engine.mjs";
+import { ClassResources } from "./module/class-resources.mjs";
 import { TesshariCardSheet } from "./module/sheets/card-sheet.mjs";
 import { TesshariCharacterSheet } from "./module/sheets/character-sheet.mjs";
 import { TesshariMonsterSheet } from "./module/sheets/monster-sheet.mjs";
@@ -88,6 +89,11 @@ Hooks.once("init", () => {
   Handlebars.registerHelper("eq",      (a, b) => a === b);
   Handlebars.registerHelper("gte",     (a, b) => Number(a) >= Number(b));
   Handlebars.registerHelper("checked", (v) => v ? "checked" : "");
+  Handlebars.registerHelper("multPct", (value, max) => {
+    const v = Number(value), m = Number(max);
+    if (!m) return 0;
+    return Math.max(0, Math.min(100, Math.round((v / m) * 100)));
+  });
 
   // ─── runtime namespace ────────────────────────────────────────────────
   game.tesshari = {
@@ -95,6 +101,7 @@ Hooks.once("init", () => {
     status: StatusEngine,
     damage: TesshariDamage,
     cards: CardEngine,
+    resources: ClassResources,
   };
 });
 

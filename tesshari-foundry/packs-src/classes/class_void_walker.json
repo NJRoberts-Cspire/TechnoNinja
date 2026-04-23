@@ -22,6 +22,22 @@
       "Threshold Puller",
       "Anchor Keeper"
     ],
+    "classResources": [
+      {
+        "id": "void_charges",
+        "name": "Void Charges",
+        "description": "Steps already taken into the Iron Afterlife, held in reserve. Spend to phase through an attack, walk through a wall, or drag an enemy halfway across the Veil. Recovered by short-rest grounding.",
+        "icon": "icons/svg/invisible.svg",
+        "initial": 2,
+        "maxMode": "stat",
+        "maxValue": 0,
+        "maxStat": "edge",
+        "regain": "short_rest",
+        "regainAmount": 0,
+        "regainCondition": "",
+        "resetToInitial": false
+      }
+    ],
     "description": "<p>The Iron Afterlife is not merely a destination. It is a place. It has geography, in the way that spiritual things have geography — not roads and rivers but resonance patterns and concentrations of Echomind energy, dead cities built from memory rather than stone, silences that correspond to the silences of the living world and others that correspond to nothing anyone still breathing has a name for. The Sutensai have mapped pieces of it. The Deep Listeners move along its edges. The Void Walkers pass through it.\r</p>\n<p>The ability to physically step into the Iron Afterlife — to move through it as a traversable space rather than merely a sensed presence — is not taught by any tradition in Tesshari. It emerges. It happens to specific individuals at specific moments of extremity: a Sutensai priest who nearly died in a resonance accident and came back able to phase partially out of physical reality. A soldier in the Ashlands who survived an ambush because she instinctively stepped sideways into somewhere that wasn't the battlefield. A child who followed a dead parent into the Veil one step too far and returned carrying the smell of that other place. What these people have in common is not their history or their training. It is that they crossed a threshold and something crossed back into them.\r</p>\n<p>The Sutensai's official position on Void Walkers changes depending on which sect currently has more influence over the priesthood. The Orthodoxy considers Void Walking either a profound spiritual gift (if the practitioner is properly aligned) or a dangerous heresy (if they are not, the criterion for alignment being usefulness to the Orthodoxy). The Resonants find Void Walking fascinating and frustrating because it obeys rules they cannot fully systematize — they can describe what happens but not the mechanism, which is the thing that drives them most agitated. The Flesh Circle considers Void Walkers the closest thing to ascended beings their theology acknowledges, which Void Walkers find both flattering and exhausting.\r</p>\n<p>What Void Walkers know about themselves, after enough time practicing, is that they are no longer entirely where other people are. They can be in a room and simultaneously not be in it — the Iron Afterlife presses against their awareness constantly, and they can hear the dead not by trying but by failing to not hear them. The most experienced practitioners describe the physical world as looking slightly faded — not less real, but less complete, like a drawing of a place rather than the place. They are navigating a permanent adjustment that has no resolution, only management, and they are doing it while trying to be present enough to have relationships and eat meals and survive a world that doesn't fully understand what they are.</p>"
   },
   "effects": [],

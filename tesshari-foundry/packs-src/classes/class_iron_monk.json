@@ -23,6 +23,22 @@
       "Flesh Circle",
       "Path Of The Between"
     ],
+    "classResources": [
+      {
+        "id": "between_points",
+        "name": "Between Points",
+        "description": "Resonance between flesh and steel. Spend to enter ethereal states, amplify resonant strikes, or weave Guard from discipline. Restored by focused meditation (short rest).",
+        "icon": "icons/svg/aura.svg",
+        "initial": 2,
+        "maxMode": "stat",
+        "maxValue": 0,
+        "maxStat": "resonance",
+        "regain": "short_rest",
+        "regainAmount": 0,
+        "regainCondition": "",
+        "resetToInitial": false
+      }
+    ],
     "description": "<p>The Iron Sutra teaches that the soul — the Echomind — exists not in flesh alone and not in steel alone, but in the resonance between them. Most people accept this as doctrine. Most people light incense, speak the sutras, and go about their lives without ever truly understanding what that resonance means. The Iron Monk has understood it in their bones. They have felt it. They have learned to move from it, to strike from it, to endure from it. They are the walking proof of what the Sutra promises, and that proof is purchased in years of agony, discipline, and deliberate confrontation with every instinct that says one side of you is more real than the other.\r</p>\n<p>The tradition emerged centuries before the current Ascension War, in the mountain monasteries of the high Broken Reaches where the first Sutensai priests observed that certain practitioners who attempted perfect physical and cybernetic integration were developing abilities that could not be explained by either discipline alone. They called this state the Between — the resonant space where organic nerve and resonant metal circuitry ceased to be two systems and became one. The monastery orders built training practices around achieving and holding this state deliberately rather than stumbling into it accidentally. Those practices became the Iron Monk tradition.\r</p>\n<p>What the Iron Monk does looks supernatural from the outside. They move with uncanny precision. They can endure strikes that would shatter either flesh or enhancement alone. They can channel bursts of resonant energy directly through their bodies, bypassing the mechanical mediation that normal enhancements require. They heal faster than should be possible. In extreme states, the line between what they are doing with their muscles and what they are doing with their circuitry becomes indistinguishable to any observer — and to themselves. This is not comfortable. This is not peaceful. Between is not a restful place. It is a place of unrelenting demand.\r</p>\n<p>What it costs them is the ability to ever stop. A fighter can sheathe their weapon. A Wire Crafter can disconnect. The Iron Monk cannot step out of their own Between. The resonance they have achieved does not turn off. They feel the feedback of every malfunction in their enhancements. They feel the protest of every muscle asked to do what steel should do. They feel the dead weight of their own spiritual state in every moment. The most advanced Iron Monks are serene. They are serene because they have learned to not resist the endless demand, not because the demand has stopped. New Iron Monks are frequently exhausted in ways they cannot explain to people who have never tried to feel the entire interior of themselves at once.</p>"
   },
   "effects": [],

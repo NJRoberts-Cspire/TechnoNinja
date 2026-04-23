@@ -8,6 +8,7 @@
 import { StatusEngine } from "./status-effects.mjs";
 import { TesshariDamage } from "./damage-pipeline.mjs";
 import { CardEngine } from "./card-engine.mjs";
+import { ClassResources } from "./class-resources.mjs";
 
 export class TesshariActor extends Actor {
   prepareDerivedData() {
@@ -16,6 +17,42 @@ export class TesshariActor extends Actor {
     const s = this.system;
     if (s?.hp) s.hp.value = Math.clamp(s.hp.value, 0, s.hp.max);
     if (s?.ap) s.ap.value = Math.clamp(s.ap.value, 0, s.ap.max);
+
+    // Class resources: derive max per resource def + clamp stored value.
+    // Items may not be populated during early prepare cycles — guard for that.
+    const cls = this.items?.find?.(i => i.type === "class");
+    const defs = cls?.system?.classResources ?? [];
+    if (defs.length && s?.classResources) {
+      for (const def of defs) {
+        const entry = s.classResources[def.id] ?? (s.classResources[def.id] = { value: def.initial ?? 0 });
+        const max = ClassResources.computeMax(def, this);
+        entry.max = max;
+        entry.value = Math.max(0, Math.min(max, Number.isFinite(entry.value) ? entry.value : (def.initial ?? 0)));
+      }
+    }
+  }
+
+  /**
+   * Fire resource hooks when HP crosses thresholds. preUpdate gives us the
+   * prior value so we can detect "transitioned below half HP" etc.
+   */
+  async _preUpdate(changes, options, user) {
+    const prevHp = this.system?.hp?.value;
+    const prevMax = this.system?.hp?.max;
+    options.tesshariPrevHp = { value: prevHp, max: prevMax };
+    return super._preUpdate(changes, options, user);
+  }
+
+  _onUpdate(changes, options, user) {
+    super._onUpdate(changes, options, user);
+    // Only run the owning GM / player once — guard by userId.
+    if (game.userId !== user) return;
+    const prev = options?.tesshariPrevHp;
+    if (prev != null && changes?.system?.hp?.value != null) {
+      ClassResources.onHpChange(this, prev.value, prev.max).catch(err =>
+        console.error("tesshari | onHpChange failed:", err)
+      );
+    }
   }
 
   /**
@@ -107,6 +144,22 @@ export class TesshariCombat extends Combat {
     });
 
     await StatusEngine.tickRegen(actor);
+    await ClassResources.onTurnStart(actor);
+  }
+
+  /**
+   * Combat start: refill per_combat class resources for every combatant.
+   * Foundry calls _onStartRound at round 1 start — that's our combat-start
+   * signal. We detect first-round by checking round number.
+   */
+  async _onStartRound() {
+    await super._onStartRound();
+    if (this.round !== 1) return;
+    for (const c of this.combatants) {
+      const actor = c.actor;
+      if (!actor) continue;
+      await ClassResources.onCombatStart(actor);
+    }
   }
 
   /**
@@ -123,10 +176,6 @@ export class TesshariCombat extends Combat {
     await StatusEngine.tickBleed(actor);
     await StatusEngine.tickBurn(actor);
     await StatusEngine.tickTurnDurations(actor);
-  }
-
-  async _onStartRound() {
-    await super._onStartRound();
   }
 
   /**

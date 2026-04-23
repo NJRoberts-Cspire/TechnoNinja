@@ -13,6 +13,7 @@
  */
 
 import { CardEngine } from "../card-engine.mjs";
+import { ClassResources } from "../class-resources.mjs";
 import { renderPreviewTooltip } from "./card-preview.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
@@ -52,6 +53,9 @@ export class TesshariCharacterSheet extends HandlebarsApplicationMixin(ActorShee
       clearIdentity: TesshariCharacterSheet.#onClearIdentity,
       openItem:      TesshariCharacterSheet.#onOpenItem,
       pickIdentity:  TesshariCharacterSheet.#onPickIdentity,
+      spendResource: TesshariCharacterSheet.#onSpendResource,
+      gainResource:  TesshariCharacterSheet.#onGainResource,
+      resetResource: TesshariCharacterSheet.#onResetResource,
     },
   };
 
@@ -148,6 +152,9 @@ export class TesshariCharacterSheet extends HandlebarsApplicationMixin(ActorShee
         }
       }
       context.currentClassName = context.classItem?.name ?? s.className ?? "";
+
+      // Class resources — merges class definition + per-character value + derived max
+      context.classResources = ClassResources.view(a);
 
       // Derived UI bits
       context.handCount = context.cards.length;
@@ -299,6 +306,12 @@ export class TesshariCharacterSheet extends HandlebarsApplicationMixin(ActorShee
     }
 
     if (Object.keys(updates).length) await actor.update(updates);
+
+    // Class drop also seeds per-character resource state from the class defs.
+    if (item.type === "class") {
+      await ClassResources.init(actor, item);
+    }
+
     ui.notifications?.info(`${this.actor.name}: ${item.type} set to ${item.name}.`);
   }
 
@@ -553,6 +566,9 @@ export class TesshariCharacterSheet extends HandlebarsApplicationMixin(ActorShee
       identityType === "class"    ? "className" :
       identityType === "subclass" ? "subclass"  : null;
     if (field) await actor.update({ [`system.${field}`]: "" });
+
+    // Clearing the class also drops its resource state.
+    if (identityType === "class") await ClassResources.clear(actor);
   }
 
   /** Open the sheet for an owned item (race/class/subclass tile click). */
@@ -560,6 +576,26 @@ export class TesshariCharacterSheet extends HandlebarsApplicationMixin(ActorShee
     const itemId = target.dataset.itemId;
     const item = this.actor.items.get(itemId);
     item?.sheet?.render(true);
+  }
+
+  static async #onSpendResource(event, target) {
+    const id = target.dataset.resourceId;
+    const step = event.shiftKey ? 5 : 1;
+    await ClassResources.spend(this.actor, id, step);
+  }
+
+  static async #onGainResource(event, target) {
+    const id = target.dataset.resourceId;
+    const step = event.shiftKey ? 5 : 1;
+    await ClassResources.gain(this.actor, id, step);
+  }
+
+  static async #onResetResource(event, target) {
+    const id = target.dataset.resourceId;
+    // Shift-click resets to `initial` (setback). Default click refills to max
+    // — the common "finished a rest, pool is full" flow.
+    if (event.shiftKey) await ClassResources.reset(this.actor, id);
+    else                await ClassResources.refill(this.actor, id, 0);
   }
 
   /** Click a picker tile → apply that race/class/subclass. */

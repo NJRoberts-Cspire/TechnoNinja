@@ -1,0 +1,88 @@
+{
+  "_comment": "Per-class resource definitions merged into class documents at pack-build time. Keys match CLASSES entries in tesshari-app/src/data/generated.ts (exact display names). Each entry matches the ClassDataModel.classResources[] schema in module/data-models.mjs.",
+
+  "Iron Monk": [
+    {
+      "id": "between_points",
+      "name": "Between Points",
+      "description": "Resonance between flesh and steel. Spend to enter ethereal states, amplify resonant strikes, or weave Guard from discipline. Restored by focused meditation (short rest).",
+      "icon": "icons/svg/aura.svg",
+      "initial": 2,
+      "maxMode": "stat",
+      "maxValue": 0,
+      "maxStat": "resonance",
+      "regain": "short_rest",
+      "regainAmount": 0,
+      "regainCondition": "",
+      "resetToInitial": false
+    }
+  ],
+
+  "Blood Smith": [
+    {
+      "id": "forge_charges",
+      "name": "Forge Charges",
+      "description": "Liquefied resonant metal, ready to shape. Gain one automatically when you drop below half HP — pain forces the lattice fluid. Spend to forge weapons, shields, or tools mid-combat.",
+      "icon": "icons/svg/blood.svg",
+      "initial": 0,
+      "maxMode": "flat",
+      "maxValue": 3,
+      "maxStat": "",
+      "regain": "on_condition",
+      "regainAmount": 1,
+      "regainCondition": "below_half_hp",
+      "resetToInitial": false
+    }
+  ],
+
+  "Void Walker": [
+    {
+      "id": "void_charges",
+      "name": "Void Charges",
+      "description": "Steps already taken into the Iron Afterlife, held in reserve. Spend to phase through an attack, walk through a wall, or drag an enemy halfway across the Veil. Recovered by short-rest grounding.",
+      "icon": "icons/svg/invisible.svg",
+      "initial": 2,
+      "maxMode": "stat",
+      "maxValue": 0,
+      "maxStat": "edge",
+      "regain": "short_rest",
+      "regainAmount": 0,
+      "regainCondition": "",
+      "resetToInitial": false
+    }
+  ],
+
+  "Echo Speaker": [
+    {
+      "id": "resonance_echoes",
+      "name": "Resonance Echoes",
+      "description": "Voices of the dead, gathered as combat unfolds. Stack one each time an enemy is reduced to 0 HP or when you make a target bleed. Spend to unleash chorus attacks, command an echo to strike, or shield an ally with borrowed presence. Starts each combat empty — the Veil must be opened first.",
+      "icon": "icons/svg/sound.svg",
+      "initial": 0,
+      "maxMode": "stat_plus",
+      "maxValue": 2,
+      "maxStat": "resonance",
+      "regain": "per_combat",
+      "regainAmount": 0,
+      "regainCondition": "",
+      "resetToInitial": true
+    }
+  ],
+
+  "Forge Tender": [
+    {
+      "id": "forge_heat",
+      "name": "Forge Heat",
+      "description": "Banked thermal and resonant energy, ready to be poured into allied enhancements. Spend to mend an ally's HP, shore up a cybernetic against malfunction, or stabilize an Echomind mid-crisis. Refills fully when a new combat begins — each fight restarts the forge.",
+      "icon": "icons/svg/fire.svg",
+      "initial": 0,
+      "maxMode": "stat",
+      "maxValue": 0,
+      "maxStat": "iron",
+      "regain": "per_combat",
+      "regainAmount": 0,
+      "regainCondition": "",
+      "resetToInitial": false
+    }
+  ]
+}

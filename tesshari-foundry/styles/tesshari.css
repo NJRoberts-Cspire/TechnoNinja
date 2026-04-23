@@ -247,6 +247,97 @@
   border: none;
 }
 
+.tesshari-character-sheet .class-resources {
+  border: 1px solid #3a4050;
+  border-radius: 4px;
+  padding: 0.4rem 0.5rem;
+  background: linear-gradient(180deg, rgba(200, 140, 90, 0.06), rgba(200, 140, 90, 0.02));
+}
+.tesshari-character-sheet .class-resources h3 {
+  margin: 0 0 0.3rem 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.85;
+  color: #f0c896;
+  border-bottom: 1px solid rgba(200, 140, 90, 0.3);
+  padding-bottom: 0.2rem;
+}
+.tesshari-character-sheet .resource-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+.tesshari-character-sheet .resource-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.tesshari-character-sheet .resource-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+}
+.tesshari-character-sheet .resource-name {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #f4e6d0;
+  flex: 1;
+}
+.tesshari-character-sheet .resource-regain {
+  font-size: 0.65rem;
+  opacity: 0.6;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.tesshari-character-sheet .resource-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.tesshari-character-sheet .resource-controls .icon-btn {
+  min-width: 1.4rem;
+  border: 1px solid #4a5060;
+  border-radius: 3px;
+  background: #1f232c;
+  font-weight: 700;
+  padding: 0.05rem 0.35rem;
+  opacity: 0.85;
+}
+.tesshari-character-sheet .resource-controls .icon-btn:hover {
+  opacity: 1;
+  border-color: #f0c896;
+}
+.tesshari-character-sheet .resource-controls .resource-reset {
+  margin-left: auto;
+  font-size: 0.75rem;
+  opacity: 0.55;
+}
+.tesshari-character-sheet .resource-value {
+  min-width: 3.5rem;
+  text-align: center;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: #f4e6d0;
+}
+.tesshari-character-sheet .resource-bar {
+  position: relative;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.tesshari-character-sheet .resource-fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  background: linear-gradient(90deg, #c98c5a, #f0c896);
+  border-radius: 2px;
+  transition: width 160ms ease-out;
+}
+
 .tesshari-character-sheet .status-tray h3 {
   margin: 0 0 0.3rem 0;
   font-size: 0.9rem;

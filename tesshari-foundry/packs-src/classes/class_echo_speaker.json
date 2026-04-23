@@ -22,6 +22,22 @@
       "Deep Listener",
       "Herald"
     ],
+    "classResources": [
+      {
+        "id": "resonance_echoes",
+        "name": "Resonance Echoes",
+        "description": "Voices of the dead, gathered as combat unfolds. Stack one each time an enemy is reduced to 0 HP or when you make a target bleed. Spend to unleash chorus attacks, command an echo to strike, or shield an ally with borrowed presence. Starts each combat empty — the Veil must be opened first.",
+        "icon": "icons/svg/sound.svg",
+        "initial": 0,
+        "maxMode": "stat_plus",
+        "maxValue": 2,
+        "maxStat": "resonance",
+        "regain": "per_combat",
+        "regainAmount": 0,
+        "regainCondition": "",
+        "resetToInitial": true
+      }
+    ],
     "description": "<p>The Iron Afterlife is not a metaphor. In Tesshari, the dead go somewhere. Their Echominds — the resonant soul-pattern that forms in the space between organic tissue and cybernetic metal over a lifetime — do not simply cease. They translate. They pass through what the Sutensai calls the Veil and enter the digital-spiritual realm that underlies and interpenetrates physical reality. Ordinary people understand this. They light memorial circuits. They speak the sutras. They grieve. The Iron Afterlife is something they believe in the way they believe in weather: present, impersonal, operating on rules they don't fully understand.\r</p>\n<p>Echo Speakers have learned to reach through the Veil and touch it. They heard their first dead voice the way some people hear music — unexpectedly, in childhood, in a moment of grief or crisis or quiet attention, and they could not unhear it after that. The tradition of training people with this sensitivity is old and was institutionalized early by the Sutensai for obvious reasons: if the dead can be heard, the institution that controls who hears them and what they are permitted to say controls something profound. The Sutensai training schools for Echo Speakers are thorough, ideologically rigorous, and very interested in ensuring their graduates know exactly who they serve.\r</p>\n<p>Not all Echo Speakers are Sutensai graduates. The Echo Coast tradition, which predates the Sutensai's formal codification, produced independent practitioners whose relationship to the dead is less mediated by institutional theology and more raw. Coast practitioners report hearing voices the Sutensai-trained say should not be audible. They report the dead saying things the Sutensai would prefer the dead did not say. The Sutensai's response to independent Echo Speakers oscillates between recruitment, monitoring, and, in documented cases, forced re-education. Some Echo Speakers have become informally connected to resistance movements specifically because the dead have told them things that implicate the priesthood.\r</p>\n<p>The deep danger of the Echo Speaker path is the Drift toward the Iron Afterlife itself. Every time they open that door, a little of the Iron Afterlife comes through, and a little of them goes in. The Deep Listeners who have gone furthest report that they now spend more of their inner life in the Afterlife than in the physical world — that the dead are more real to them than the living. Some consider this an advanced state. Others consider it a terminal one. The line between a Deep Listener at the height of their power and a practitioner who is simply lost is narrower than anyone in the tradition admits in public.</p>"
   },
   "effects": [],

@@ -323,12 +323,32 @@ function buildRacePack(data, repoRoot, outDir) {
   return count;
 }
 
+/**
+ * Load per-class resource definitions from tools/class-resources-overlay.json.
+ * Keys are display class names; values are arrays matching
+ * ClassDataModel.classResources[]. Missing → empty object.
+ */
+function loadClassResourcesOverlay() {
+  const file = path.resolve(__dirname, "class-resources-overlay.json");
+  if (!fs.existsSync(file)) return {};
+  try {
+    const raw = JSON.parse(fs.readFileSync(file, "utf8"));
+    // Strip the leading "_comment" field so it never lands in a class doc.
+    const { _comment, ...rest } = raw;
+    return rest;
+  } catch (err) {
+    console.warn(`build-packs | failed to parse class-resources overlay: ${err.message}`);
+    return {};
+  }
+}
+
 function buildClassPack(data, repoRoot, outDir) {
   const {
     CLASSES, CLASS_HP_TIER, CLASS_HAND_BASE, CLASS_PRIMARY_STATS,
     SUBCLASS_BY_CLASS, CLASS_FLAVOR,
   } = data;
   const { classes: mdClasses } = loadClassSections(repoRoot);
+  const resourceOverlay = loadClassResourcesOverlay();
 
   ensureCleanDir(outDir);
   let count = 0;
@@ -351,6 +371,7 @@ function buildClassPack(data, repoRoot, outDir) {
         startingHandSlugs: sec?.startingHand ?? [],
         unlockList: {},
         subclassSlugs: SUBCLASS_BY_CLASS?.[className] ?? [],
+        classResources: resourceOverlay[className] ?? [],
         description: sec?.descriptionHtml ?? `<p>${escapeHtml(CLASS_FLAVOR?.[className] ?? "")}</p>`,
       },
       effects: [],

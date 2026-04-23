@@ -70,6 +70,10 @@ export class CharacterDataModel extends foundry.abstract.TypeDataModel {
         guard:  new NumberField({ required: true, integer: true, min: 0, initial: 0 }),
         shield: new NumberField({ required: true, integer: true, min: 0, initial: 0 }),
       }),
+      // Per-class resource tracking. Keys are resource ids (e.g. "between_points").
+      // Shape: { value: number }. `max` is derived each render from the class
+      // definition + current stats, so it stays in sync as stats change.
+      classResources: new ObjectField({ initial: {} }),
       biography: requiredHTML(),
       notes:     requiredHTML(),
     };
@@ -186,6 +190,48 @@ export class RaceDataModel extends foundry.abstract.TypeDataModel {
 
 /* ─── item: class ────────────────────────────────────────────────────── */
 
+/**
+ * Class resource definition — per-class "charge pool" that gives the class a
+ * unique on-sheet mechanic (Between Points, Forge Charges, Void Charges, etc.).
+ * Max can be flat, stat-derived, or stat + flat bonus. Regain is automated for
+ * per_turn / per_combat; short_rest / long_rest / on_condition are hooks the
+ * sheet and combat engine invoke on the right triggers.
+ */
+const classResourceField = () => new ArrayField(new SchemaField({
+  id:          new StringField({ required: true, blank: false }),  // slug, unique within class
+  name:        new StringField({ required: true, blank: false }),  // display name
+  description: new StringField({ blank: true, initial: "" }),
+  icon:        new StringField({ blank: true, initial: "" }),
+
+  initial:  new NumberField({ required: true, integer: true, min: 0, initial: 0 }),
+
+  // max derivation: "flat" → maxValue; "stat" → stats[maxStat]; "stat_plus" → stats[maxStat] + maxValue
+  maxMode: new StringField({
+    required: true, initial: "flat",
+    choices: ["flat", "stat", "stat_plus"],
+  }),
+  maxValue: new NumberField({ required: true, integer: true, min: 0, initial: 3 }),
+  maxStat:  new StringField({
+    blank: true, initial: "",
+    choices: ["", "iron", "edge", "frame", "signal", "resonance", "veil"],
+  }),
+
+  // regain automation
+  regain: new StringField({
+    required: true, initial: "manual",
+    choices: ["manual", "per_turn", "per_combat", "short_rest", "long_rest", "on_condition"],
+  }),
+  regainAmount: new NumberField({ required: true, integer: true, min: 0, initial: 0 }),  // 0 = refill to max
+  regainCondition: new StringField({
+    blank: true, initial: "",
+    choices: ["", "below_half_hp", "on_hit_dealt", "on_hit_taken", "on_kill"],
+  }),
+  // If true, per_turn / per_combat / short_rest regain resets to `initial`
+  // instead of refilling. Used by classes where the pool is earned during
+  // combat (e.g. Echo Speaker's Resonance Echoes).
+  resetToInitial: new BooleanField({ initial: false }),
+}));
+
 export class ClassDataModel extends foundry.abstract.TypeDataModel {
   static defineSchema() {
     return {
@@ -199,6 +245,7 @@ export class ClassDataModel extends foundry.abstract.TypeDataModel {
       startingHandSlugs: new ArrayField(new StringField()),
       unlockList: new ObjectField({ initial: {} }),    // { "1": [...], "2": [...], ... }
       subclassSlugs: new ArrayField(new StringField()),
+      classResources: classResourceField(),
       description: requiredHTML(),
     };
   }

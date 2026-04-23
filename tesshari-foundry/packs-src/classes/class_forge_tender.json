@@ -22,6 +22,22 @@
       "Black Smith",
       "Echomind Anchor"
     ],
+    "classResources": [
+      {
+        "id": "forge_heat",
+        "name": "Forge Heat",
+        "description": "Banked thermal and resonant energy, ready to be poured into allied enhancements. Spend to mend an ally's HP, shore up a cybernetic against malfunction, or stabilize an Echomind mid-crisis. Refills fully when a new combat begins — each fight restarts the forge.",
+        "icon": "icons/svg/fire.svg",
+        "initial": 0,
+        "maxMode": "stat",
+        "maxValue": 0,
+        "maxStat": "iron",
+        "regain": "per_combat",
+        "regainAmount": 0,
+        "regainCondition": "",
+        "resetToInitial": false
+      }
+    ],
     "description": "<p>The Forge Tender occupies a role in Tesshari that has no clean equivalent elsewhere: they are simultaneously medical professionals, spiritual counselors, community pillars, and the people who know more about you than you know about yourself. In a world where the self is distributed across flesh and resonant metal, the person who maintains and heals those modifications has access to the innermost architecture of the person they serve. A Forge Tender performing enhancement maintenance is reading the subtle language of how a person's Echomind has shaped their modifications over time, how their history is written in resonant metal, how their fears and hopes and worst moments are encoded in the calibration of their systems. This knowledge is sacred. It is also, depending on the Tender's character, power.\r</p>\n<p>The Iron Sutra considers Forge Tending the most practically sacred profession in Tesshari — more so, in the Sutra's internal hierarchy, than the Sutensai priests who perform the theological work, because the Forge Tender's service is immediate and bodily. The Sutra's founding texts are clear: to care for an Echomind is to serve the divine directly. Forge Tenders who work within the Sutra's framework are called Resonance Keepers, and they undergo theological training alongside their technical training. Those who work outside the Sutra — as they often must, in territories where the Sutra's reach is limited — develop their own spiritual frameworks, but the role's sacred character tends to emerge regardless. There is something about the work itself that creates gravity.\r</p>\n<p>The technical training of a Forge Tender is extensive and begins young. They study the properties of resonant metal: its bonding behavior with different types of organic tissue, the harmonic frequencies that different modification configurations produce, the cascade effects that occur when incompatible enhancements are installed in proximity. They learn to read enhancement signatures not as security professionals do — for classification and threat assessment — but diagnostically: as a record of a person's resonant health, their recent experiences, their current stress levels. They learn which modifications are functioning correctly, which are adapting, which are degrading, and what each of these conditions means for the person carrying them.\r</p>\n<p>What the Forge Tender gives up for this knowledge is perhaps more significant than most outsiders appreciate: they are perpetually in service. Not in the servile sense — Forge Tenders are respected and their autonomy is real — but in the sense that the people who depend on them are genuinely dependent. A community whose Forge Tender leaves or dies faces a specific kind of cascading failure: their enhancements degrade without maintenance, minor problems become major ones, the resonant health of their Echominds begins to drift. The Forge Tender who understands this responsibility fully carries it at all times. It shapes what they can do, where they can go, and what they are willing to sacrifice to protect the people who need them.</p>"
   },
   "effects": [],
